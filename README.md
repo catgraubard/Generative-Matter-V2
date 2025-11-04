@@ -212,7 +212,8 @@ Contributions welcome! Consider:
 ## 📧 Contact
 
 **Generative Matter Project**  
-Daniel Bolojan - University of Texas at Austin School of Architecture
+Catherine Graubard
+graubard.catherine@gmail.com
 
 For questions, collaborations, or suggestions, please open an issue or reach out directly.
 
