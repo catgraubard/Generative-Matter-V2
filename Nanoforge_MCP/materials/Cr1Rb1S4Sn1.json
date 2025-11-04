@@ -1,0 +1,113 @@
+{
+  "id": "Cr1Rb1S4Sn1",
+  "uri": "material://Cr1Rb1S4Sn1",
+  "composition": {
+    "formula": "Cr1Rb1S4Sn1",
+    "elements": {
+      "Cr": 1,
+      "Rb": 1,
+      "S": 4,
+      "Sn": 1
+    },
+    "reduced_formula": "RbCrSnS4",
+    "element_list": [
+      "S",
+      "Cr",
+      "Rb",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Indium Oxide (In2O3): 57.6 g\n - Neodymium Oxide (Nd2O3): 43.2 g\n - Samarium Oxide (Sm2O3): 9.6 g\n - Oxygen (O2): 0 g (provided by the environment)"
+    },
+    "sourcing": {
+      "instructions": "- Indium Oxide: Purchase from chemical suppliers or online marketplaces specializing in rare materials.\n - Neodymium Oxide: Available from specialty chemical suppliers or online.\n - Samarium Oxide: Obtain from chemical supply stores or online retailers.\n - Oxygen: Ambient air is sufficient as a reactant.",
+      "steps": [
+        "- Indium Oxide: Purchase from chemical suppliers or online marketplaces specializing in rare materials.",
+        "- Neodymium Oxide: Available from specialty chemical suppliers or online.",
+        "- Samarium Oxide: Obtain from chemical supply stores or online retailers.",
+        "- Oxygen: Ambient air is sufficient as a reactant."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of each oxide using a precision balance.",
+        "2. In a clean, dry mixing container, combine the Indium Oxide, Neodymium Oxide, and Samarium Oxide carefully to avoid contamination.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a ball mill for about 30 minutes until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure the specified amounts of each oxide using a precision balance.\n 2. In a clean, dry mixing container, combine the Indium Oxide, Neodymium Oxide, and Samarium Oxide carefully to avoid contamination.\n 3. Mix the powders thoroughly using a mortar and pestle or a ball mill for about 30 minutes until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200 °C (2192 °F) at a rate of 5 °C/min and maintain this temperature for 4 hours to ensure complete reaction.",
+        "4. After 4 hours, ramp down the temperature to 800 °C (1472 °F) over 1 hour."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures.\n 2. Place the crucible in a furnace.\n 3. Heat the mixture to 1200 °C (2192 °F) at a rate of 5 °C/min and maintain this temperature for 4 hours to ensure complete reaction.\n 4. After 4 hours, ramp down the temperature to 800 °C (1472 °F) over 1 hour."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool inside the furnace to 400 °C (752 °F) without opening the furnace door to prevent contamination.",
+        "2. Once at 400 °C, remove the crucible and allow it to cool to room temperature in a controlled environment. This should take approximately 2-3 hours."
+      ],
+      "raw_text": "1. Allow the crucible to cool inside the furnace to 400 °C (752 °F) without opening the furnace door to prevent contamination.\n 2. Once at 400 °C, remove the crucible and allow it to cool to room temperature in a controlled environment. This should take approximately 2-3 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or cracks.",
+        "3. If necessary, use a diamond saw to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges and surfaces to achieve a smooth finish.",
+        "5. Optionally, apply a sealant appropriate for ceramic materials to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n 2. Inspect the sample for any irregularities or cracks.\n 3. If necessary, use a diamond saw to achieve the desired dimensions (3 inches x 2 inches x 7 inches).\n 4. Sand the edges and surfaces to achieve a smooth finish.\n 5. Optionally, apply a sealant appropriate for ceramic materials to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 7,
+      "volume": 1843401.0,
+      "density": 3463.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -385423.0,
+      "formation_energy_per_atom": -10505.0,
+      "decomposition_energy_per_atom": -277.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -179.0,
+      "decomposition_energy_mp": -283.0,
+      "decomposition_energy_mp_oqmd": -179.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af33c5fb31",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.799805Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Rb1S4Sn1.json",
+      "material://Cr1Rb1S4Sn1"
+    ]
+  }
+}

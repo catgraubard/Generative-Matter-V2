@@ -1,0 +1,111 @@
+{
+  "id": "Mo3Se16Tc9",
+  "uri": "material://Mo3Se16Tc9",
+  "composition": {
+    "formula": "Mo3Se16Tc9",
+    "elements": {
+      "Mo": 3,
+      "Se": 16,
+      "Tc": 9
+    },
+    "reduced_formula": "Tc9Mo3Se16",
+    "element_list": [
+      "Se",
+      "Mo",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 2.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 2.2 g, Pb: 12.8 g, Y: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Erbium Oxide (Er2O3) from chemical suppliers; Lead (Pb) as pure metal from metal suppliers; Yttrium (Y) in the form of Yttrium Oxide (Y2O3) from chemical suppliers.",
+      "steps": [
+        "Erbium Oxide (Er2O3) from chemical suppliers; Lead (Pb) as pure metal from metal suppliers; Yttrium (Y) in the form of Yttrium Oxide (Y2O3) from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 2.2 g of Erbium Oxide.",
+        "2. Weigh out 12.8 g of Lead.",
+        "3. Weigh out 15.0 g of Yttrium Oxide.",
+        "4. In a clean, dry mixing container, combine all weighed ingredients.",
+        "5. Mix the powders thoroughly using a mortar and pestle until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 2.2 g of Erbium Oxide. \n2. Weigh out 12.8 g of Lead. \n3. Weigh out 15.0 g of Yttrium Oxide. \n4. In a clean, dry mixing container, combine all weighed ingredients. \n5. Mix the powders thoroughly using a mortar and pestle until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat in a muffle furnace at 1200°C for 4 hours to ensure complete melting and reaction of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n2. Heat in a muffle furnace at 1200°C for 4 hours to ensure complete melting and reaction of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, grind the sample with a grinder to achieve the desired surface finish.",
+        "3. Optionally, apply a sealant for protection against oxidation if the material is exposed to air."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n2. If necessary, grind the sample with a grinder to achieve the desired surface finish. \n3. Optionally, apply a sealant for protection against oxidation if the material is exposed to air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 6082468.0,
+      "density": 66427.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2048333.0,
+      "formation_energy_per_atom": -8256.0,
+      "decomposition_energy_per_atom": -5081.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -5081.0,
+      "decomposition_energy_mp_oqmd": -633.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6c136494c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.196866Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo3Se16Tc9.json",
+      "material://Mo3Se16Tc9"
+    ]
+  }
+}

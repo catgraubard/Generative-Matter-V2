@@ -1,0 +1,110 @@
+{
+  "id": "Co5Er10Ga1Tb2",
+  "uri": "material://Co5Er10Ga1Tb2",
+  "composition": {
+    "formula": "Co5Er10Ga1Tb2",
+    "elements": {
+      "Co": 5,
+      "Er": 10,
+      "Ga": 1,
+      "Tb": 2
+    },
+    "reduced_formula": "Tb2Er10GaCo5",
+    "element_list": [
+      "Co",
+      "Ga",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 50 g, Er: 100 g, Ga: 10 g, Tb: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Local metal supplier, Er: Specialty rare earth supplier, Ga: Electronics component supplier, Tb: Specialty rare earth supplier",
+      "steps": [
+        "Co: Local metal supplier, Er: Specialty rare earth supplier, Ga: Electronics component supplier, Tb: Specialty rare earth supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a precision scale.",
+        "2. In a clean container, combine Co, Er, Ga, and Tb in the specified amounts.",
+        "3. Mix thoroughly using a mortar and pestle or ball mill for uniformity."
+      ],
+      "raw_text": "1. Weigh each material accurately using a precision scale. \n 2. In a clean container, combine Co, Er, Ga, and Tb in the specified amounts. \n 3. Mix thoroughly using a mortar and pestle or ball mill for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixture in a suitable crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Place the mixture in a suitable crucible. \n 2. Heat in a furnace to 1200°C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool to room temperature naturally.",
+        "2. After reaching room temperature, remove the crucible carefully."
+      ],
+      "raw_text": "1. Allow the furnace to cool to room temperature naturally. \n 2. After reaching room temperature, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove any excess material or rough edges using a diamond grinder.",
+        "2. Polish the surface with fine grit sandpaper for a smooth finish.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove any excess material or rough edges using a diamond grinder. \n 2. Polish the surface with fine grit sandpaper for a smooth finish. \n 3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4181541.0,
+      "density": 93513.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -981807.0,
+      "formation_energy_per_atom": -2592.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -104.0,
+      "decomposition_energy_mp_oqmd": -46.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6550c87463",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.310889Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co5Er10Ga1Tb2.json",
+      "material://Co5Er10Ga1Tb2"
+    ]
+  }
+}

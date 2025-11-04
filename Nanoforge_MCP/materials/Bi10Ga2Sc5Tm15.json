@@ -1,0 +1,129 @@
+{
+  "id": "Bi10Ga2Sc5Tm15",
+  "uri": "material://Bi10Ga2Sc5Tm15",
+  "composition": {
+    "formula": "Bi10Ga2Sc5Tm15",
+    "elements": {
+      "Bi": 10,
+      "Ga": 2,
+      "Sc": 5,
+      "Tm": 15
+    },
+    "reduced_formula": "Tm15Sc5(GaBi5)2",
+    "element_list": [
+      "Sc",
+      "Ga",
+      "Tm",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10.0 g \n Ga: 5.0 g \n Ni: 60.0 g \n Tb: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store or online chemical supplier \n Ga: Specialty metal supplier or online \n Ni: Metal supplier or online \n Tb: Rare earth metal supplier or online",
+      "steps": [
+        "B: Chemical supply store or online chemical supplier",
+        "Ga: Specialty metal supplier or online",
+        "Ni: Metal supplier or online",
+        "Tb: Rare earth metal supplier or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean glass or ceramic container, combine the weighed B, Ga, Ni, and Tb.",
+        "3. Stir the mixture thoroughly with a non-reactive spatula until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean glass or ceramic container, combine the weighed B, Ga, Ni, and Tb. \n 3. Stir the mixture thoroughly with a non-reactive spatula until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible. \n 2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over 4 hours.",
+        "2. Do not force-cool to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over 4 hours. \n 2. Do not force-cool to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled solid from the crucible carefully.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges on the solid sample.",
+        "3. Optionally, seal the surface with a clear epoxy for enhanced durability."
+      ],
+      "raw_text": "1. Remove the cooled solid from the crucible carefully. \n 2. Use a fine-grit sandpaper to smooth any rough edges on the solid sample. \n 3. Optionally, seal the surface with a clear epoxy for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 8628225.0,
+      "density": 95997.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -163702.0,
+      "formation_energy_per_atom": -6233.0,
+      "decomposition_energy_per_atom": -206.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -206.0,
+      "decomposition_energy_mp_oqmd": -198.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c276d0e7b5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.900960Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi10Ga2Sc5Tm15.json",
+      "material://Bi10Ga2Sc5Tm15"
+    ]
+  }
+}

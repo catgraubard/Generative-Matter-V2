@@ -1,0 +1,140 @@
+{
+  "id": "Al3Er1Fe1Ge2Tb2",
+  "uri": "material://Al3Er1Fe1Ge2Tb2",
+  "composition": {
+    "formula": "Al3Er1Fe1Ge2Tb2",
+    "elements": {
+      "Al": 3,
+      "Er": 1,
+      "Fe": 1,
+      "Ge": 2,
+      "Tb": 2
+    },
+    "reduced_formula": "Tb2ErAl3FeGe2",
+    "element_list": [
+      "Al",
+      "Fe",
+      "Ge",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 15g \n Er: 5g \n Fe: 5g \n Ge: 10g \n Tb: 10g"
+    },
+    "sourcing": {
+      "instructions": "Al: Purchase from a metal supply store or online supplier. \n Er: Available from rare earth metal suppliers. \n Fe: Obtain from a local hardware store as iron filings or powder. \n Ge: Source from semiconductor material suppliers. \n Tb: Purchase from rare earth metal suppliers.",
+      "steps": [
+        "Al: Purchase from a metal supply store or online supplier.",
+        "Er: Available from rare earth metal suppliers.",
+        "Fe: Obtain from a local hardware store as iron filings or powder.",
+        "Ge: Source from semiconductor material suppliers.",
+        "Tb: Purchase from rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Al, Er, Fe, Ge, and Tb.",
+        "3. Use a spatula to mix the powders thoroughly until uniform in color and texture.",
+        "4. Transfer the mixed powders into a ball mill for further homogenization for 2 hours."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine Al, Er, Fe, Ge, and Tb. \n 3. Use a spatula to mix the powders thoroughly until uniform in color and texture. \n 4. Transfer the mixed powders into a ball mill for further homogenization for 2 hours."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the homogenized mixture in a crucible suitable for high temperatures.",
+        "3. Heat the mixture for 4 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the homogenized mixture in a crucible suitable for high temperatures. \n 3. Heat the mixture for 4 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible and inspect for any surface imperfections.",
+        "2. If necessary, use a grinder to smooth the edges and surfaces.",
+        "3. Optionally, apply a sealing agent to enhance surface protection.",
+        "4. Allow the sealed sample to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible and inspect for any surface imperfections. \n 2. If necessary, use a grinder to smooth the edges and surfaces. \n 3. Optionally, apply a sealing agent to enhance surface protection. \n 4. Allow the sealed sample to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1745436.0,
+      "density": 72986.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -486846.0,
+      "formation_energy_per_atom": -655.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 0.0028,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "82bfdf04e6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:07.181986Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Er1Fe1Ge2Tb2.json",
+      "material://Al3Er1Fe1Ge2Tb2"
+    ]
+  }
+}

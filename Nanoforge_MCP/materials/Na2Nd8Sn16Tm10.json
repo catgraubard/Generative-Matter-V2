@@ -1,0 +1,125 @@
+{
+  "id": "Na2Nd8Sn16Tm10",
+  "uri": "material://Na2Nd8Sn16Tm10",
+  "composition": {
+    "formula": "Na2Nd8Sn16Tm10",
+    "elements": {
+      "Na": 2,
+      "Nd": 8,
+      "Sn": 16,
+      "Tm": 10
+    },
+    "reduced_formula": "NaNd4Tm5Sn8",
+    "element_list": [
+      "Na",
+      "Sn",
+      "Nd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 31.2,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na2: 21.6 g \n Nd: 45.0 g \n Sn: 31.2 g \n Tm: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Na2: Chemical supply companies (e.g., Sigma-Aldrich) \n Nd: Rare earth metal suppliers (e.g., American Elements) \n Sn: Metal alloy suppliers (e.g., OnlineMetals) \n Tm: Rare earth metal suppliers (e.g., EBAY or specialty metal suppliers)",
+      "steps": [
+        "Na2: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Nd: Rare earth metal suppliers (e.g., American Elements)",
+        "Sn: Metal alloy suppliers (e.g., OnlineMetals)",
+        "Tm: Rare earth metal suppliers (e.g., EBAY or specialty metal suppliers)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance to ensure precision.",
+        "2. In a clean, dry environment, combine the weighed amounts of Na2, Nd, Sn, and Tm in a ceramic crucible.",
+        "3. Use a pestle and mortar to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance to ensure precision. \n 2. In a clean, dry environment, combine the weighed amounts of Na2, Nd, Sn, and Tm in a ceramic crucible. \n 3. Use a pestle and mortar to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Set the furnace temperature to 1200°C.",
+        "3. Heat the mixture for 4 hours to allow complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Set the furnace temperature to 1200°C. \n 3. Heat the mixture for 4 hours to allow complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This cooling process should take approximately 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This cooling process should take approximately 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond file or sandpaper (grit 400) to smooth out any rough edges.",
+        "3. Optionally, apply a sealant or protective coating to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond file or sandpaper (grit 400) to smooth out any rough edges. \n 3. Optionally, apply a sealant or protective coating to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10250619.0,
+      "density": 77573.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1754886.0,
+      "formation_energy_per_atom": -7163.0,
+      "decomposition_energy_per_atom": -356.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -81.0,
+      "decomposition_energy_mp": -356.0,
+      "decomposition_energy_mp_oqmd": -205.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "60b1e0655d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:22.594100Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na2Nd8Sn16Tm10.json",
+      "material://Na2Nd8Sn16Tm10"
+    ]
+  }
+}

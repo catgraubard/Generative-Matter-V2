@@ -1,0 +1,114 @@
+{
+  "id": "Co3Li1Si1Sn1Y12",
+  "uri": "material://Co3Li1Si1Sn1Y12",
+  "composition": {
+    "formula": "Co3Li1Si1Sn1Y12",
+    "elements": {
+      "Co": 3,
+      "Li": 1,
+      "Si": 1,
+      "Sn": 1,
+      "Y": 12
+    },
+    "reduced_formula": "LiY12Co3SiSn",
+    "element_list": [
+      "Li",
+      "Si",
+      "Co",
+      "Y",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 30.0 g\nLithium (Li): 6.0 g\nSilicon (Si): 6.0 g\nTin (Sn): 6.0 g\nYttrium (Y): 72.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Chemical supply stores or online chemical suppliers.\nLithium: Battery manufacturing supplies or online chemical suppliers.\nSilicon: Semiconductor supply stores or online suppliers.\nTin: Metal supply shops or online metal suppliers.\nYttrium: Rare earth material suppliers or online chemical suppliers.",
+      "steps": [
+        "Cobalt: Chemical supply stores or online chemical suppliers.",
+        "Lithium: Battery manufacturing supplies or online chemical suppliers.",
+        "Silicon: Semiconductor supply stores or online suppliers.",
+        "Tin: Metal supply shops or online metal suppliers.",
+        "Yttrium: Rare earth material suppliers or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, add cobalt, lithium, silicon, tin, and yttrium in the specified order.",
+        "3. Use a mechanical mixer to mix the powders thoroughly for at least 15 minutes to ensure uniformity.",
+        "4. Transfer the mixed powder to a ball mill and mill for an additional 30 minutes to achieve a finer particle size."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using an analytical balance.\n2. In a clean, dry mixing container, add cobalt, lithium, silicon, tin, and yttrium in the specified order.\n3. Use a mechanical mixer to mix the powders thoroughly for at least 15 minutes to ensure uniformity.\n4. Transfer the mixed powder to a ball mill and mill for an additional 30 minutes to achieve a finer particle size."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800°C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and hold at 800°C for 4 hours to allow for complete reaction and sintering."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800°C.\n2. Place the mixed powder into a crucible suitable for high temperatures.\n3. Insert the crucible into the furnace and hold at 800°C for 4 hours to allow for complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock to the crucible."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).\n2. Do not open the furnace door until it has cooled to avoid thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solidified sample and inspect for any surface irregularities.",
+        "3. If necessary, use a diamond grinding wheel to smooth the edges and surfaces.",
+        "4. Optionally, apply a sealant to enhance surface durability, following the manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace.\n2. Extract the solidified sample and inspect for any surface irregularities.\n3. If necessary, use a diamond grinding wheel to smooth the edges and surfaces.\n4. Optionally, apply a sealant to enhance surface durability, following the manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4594689.0,
+      "density": 50503.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1160668.0,
+      "formation_energy_per_atom": -3222.0,
+      "decomposition_energy_per_atom": -98.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -31.0,
+      "decomposition_energy_mp": -97.0,
+      "decomposition_energy_mp_oqmd": -86.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0ea77973bc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:34.911139Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3Li1Si1Sn1Y12.json",
+      "material://Co3Li1Si1Sn1Y12"
+    ]
+  }
+}

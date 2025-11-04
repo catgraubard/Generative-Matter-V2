@@ -1,0 +1,122 @@
+{
+  "id": "La20Ru1Si15",
+  "uri": "material://La20Ru1Si15",
+  "composition": {
+    "formula": "La20Ru1Si15",
+    "elements": {
+      "La": 20,
+      "Ru": 1,
+      "Si": 15
+    },
+    "reduced_formula": "La20Si15Ru",
+    "element_list": [
+      "Si",
+      "Ru",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 339.4,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 1.7,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 175.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 339.4 g \n Ru: 1.7 g \n Si: 175.5 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum): Purchase from a chemical supply company or online metal suppliers. \n Ru (Ruthenium): Obtain from specialty metal suppliers or online marketplaces. \n Si (Silicon): Available from electronics or chemical suppliers.",
+      "steps": [
+        "La (Lanthanum): Purchase from a chemical supply company or online metal suppliers.",
+        "Ru (Ruthenium): Obtain from specialty metal suppliers or online marketplaces.",
+        "Si (Silicon): Available from electronics or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed La, Ru, and Si.",
+        "3. Use a mortar and pestle or mechanical mixer to blend the powders until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed La, Ru, and Si. \n 3. Use a mortar and pestle or mechanical mixer to blend the powders until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible made of a high-temperature resistant material.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture gradually to 1200°C over 1 hour to facilitate melting and alloy formation. Maintain this temperature for an additional 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible made of a high-temperature resistant material. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture gradually to 1200°C over 1 hour to facilitate melting and alloy formation. Maintain this temperature for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours).",
+        "2. Once cooled, remove the crucible carefully to prevent breakage."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours). \n 2. Once cooled, remove the crucible carefully to prevent breakage."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solidified sample for any surface irregularities.",
+        "2. If necessary, use sandpaper (starting from 120 grit to 400 grit) to smooth the surface.",
+        "3. Optionally, seal the surface with a high-temperature epoxy for added protection against oxidation."
+      ],
+      "raw_text": "1. Inspect the solidified sample for any surface irregularities. \n 2. If necessary, use sandpaper (starting from 120 grit to 400 grit) to smooth the surface. \n 3. Optionally, seal the surface with a high-temperature epoxy for added protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9993701.0,
+      "density": 5484.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2130247.0,
+      "formation_energy_per_atom": -657.0,
+      "decomposition_energy_per_atom": -105.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -119.0,
+      "decomposition_energy_mp": -121.0,
+      "decomposition_energy_mp_oqmd": -119.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8a69aa796d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:17.437193Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La20Ru1Si15.json",
+      "material://La20Ru1Si15"
+    ]
+  }
+}

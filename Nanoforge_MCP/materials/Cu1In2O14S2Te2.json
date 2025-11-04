@@ -1,0 +1,115 @@
+{
+  "id": "Cu1In2O14S2Te2",
+  "uri": "material://Cu1In2O14S2Te2",
+  "composition": {
+    "formula": "Cu1In2O14S2Te2",
+    "elements": {
+      "Cu": 1,
+      "In": 2,
+      "O": 14,
+      "S": 2,
+      "Te": 2
+    },
+    "reduced_formula": "In2CuTe2(SO7)2",
+    "element_list": [
+      "O",
+      "S",
+      "Cu",
+      "In",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper(II) oxide (CuO): 50 g \n Indium(III) oxide (In2O3): 100 g \n Sulfur (S): 20 g \n Tellurium (Te): 20 g \n Carbon (C, as a reducing agent): 10 g"
+    },
+    "sourcing": {
+      "instructions": "Copper(II) oxide: Available at chemical supply stores or online suppliers like Sigma-Aldrich. \n Indium(III) oxide: Can be sourced from specialized chemical suppliers or online marketplaces. \n Sulfur: Found in garden supply stores or chemical suppliers. \n Tellurium: Obtainable from chemical supply companies. \n Carbon (e.g., charcoal powder): Available at hardware stores or online.",
+      "steps": [
+        "Copper(II) oxide: Available at chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Indium(III) oxide: Can be sourced from specialized chemical suppliers or online marketplaces.",
+        "Sulfur: Found in garden supply stores or chemical suppliers.",
+        "Tellurium: Obtainable from chemical supply companies.",
+        "Carbon (e.g., charcoal powder): Available at hardware stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry ceramic or glass container, mix the copper(II) oxide, indium(III) oxide, sulfur, tellurium, and carbon thoroughly to ensure homogeneity.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring even distribution of each component."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry ceramic or glass container, mix the copper(II) oxide, indium(III) oxide, sulfur, tellurium, and carbon thoroughly to ensure homogeneity. \n 3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring even distribution of each component."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to facilitate the formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to facilitate the formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to avoid oxidation or contamination."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace until it has cooled to avoid oxidation or contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Grind the solidified material again in a mortar and pestle to achieve a finer consistency if necessary.",
+        "3. Optionally, press the powder into a mold matching the dimensions (3 inches x 2 inches x 7 inches) and heat it again at 700°C for 2 hours to sinter the material.",
+        "4. Finally, let the sample cool, and if needed, sand the edges for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Grind the solidified material again in a mortar and pestle to achieve a finer consistency if necessary. \n 3. Optionally, press the powder into a mold matching the dimensions (3 inches x 2 inches x 7 inches) and heat it again at 700°C for 2 hours to sinter the material. \n 4. Finally, let the sample cool, and if needed, sand the edges for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2963102.0,
+      "density": 46878.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1296536.0,
+      "formation_energy_per_atom": -17248.0,
+      "decomposition_energy_per_atom": 4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -3.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3f3f7f2b34",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:38.591450Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1In2O14S2Te2.json",
+      "material://Cu1In2O14S2Te2"
+    ]
+  }
+}

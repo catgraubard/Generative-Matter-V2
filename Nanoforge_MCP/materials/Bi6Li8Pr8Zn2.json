@@ -1,0 +1,131 @@
+{
+  "id": "Bi6Li8Pr8Zn2",
+  "uri": "material://Bi6Li8Pr8Zn2",
+  "composition": {
+    "formula": "Bi6Li8Pr8Zn2",
+    "elements": {
+      "Bi": 6,
+      "Li": 8,
+      "Pr": 8,
+      "Zn": 2
+    },
+    "reduced_formula": "Li4Pr4ZnBi3",
+    "element_list": [
+      "Li",
+      "Zn",
+      "Pr",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ca",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ca: 1.0 g \n Ga: 12.0 g \n Pr: 16.0 g \n Tm: 3.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ca (Calcium): Chemical supply stores or online chemical retailers. \n Ga (Gallium): Specialty metal suppliers or online sources. \n Pr (Praseodymium): Rare earth metal suppliers. \n Tm (Thulium): Rare earth metal suppliers.",
+      "steps": [
+        "Ca (Calcium): Chemical supply stores or online chemical retailers.",
+        "Ga (Gallium): Specialty metal suppliers or online sources.",
+        "Pr (Praseodymium): Rare earth metal suppliers.",
+        "Tm (Thulium): Rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine the weighed amounts of Ca, Ga, Pr, and Tm.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until homogeneous.",
+        "4. Transfer the mixed powder to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine the weighed amounts of Ca, Ga, Pr, and Tm. \n 3. Use a mortar and pestle to thoroughly mix the powders until homogeneous. \n 4. Transfer the mixed powder to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat the furnace to 1500°C.",
+        "2. Place the crucible in the furnace and maintain the temperature for 1 hour to allow for proper fusion of materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1500°C. \n 2. Place the crucible in the furnace and maintain the temperature for 1 hour to allow for proper fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After 1 hour, turn off the furnace.",
+        "2. Allow the crucible to cool down gradually to room temperature (approximately 2-3 hours) without opening the furnace to avoid thermal shock."
+      ],
+      "raw_text": "1. After 1 hour, turn off the furnace. \n 2. Allow the crucible to cool down gradually to room temperature (approximately 2-3 hours) without opening the furnace to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw or other cutting tools to trim the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces of the sample to achieve a smooth finish, if necessary.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw or other cutting tools to trim the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces of the sample to achieve a smooth finish, if necessary. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6252172.0,
+      "density": 68191.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -93319.0,
+      "formation_energy_per_atom": -5809.0,
+      "decomposition_energy_per_atom": -63.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -36.0
+    },
+    "electronic": {
+      "bandgap": 0.0047,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c17f669979",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.600142Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi6Li8Pr8Zn2.json",
+      "material://Bi6Li8Pr8Zn2"
+    ]
+  }
+}

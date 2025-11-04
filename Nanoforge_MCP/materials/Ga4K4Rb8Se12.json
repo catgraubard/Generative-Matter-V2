@@ -1,0 +1,137 @@
+{
+  "id": "Ga4K4Rb8Se12",
+  "uri": "material://Ga4K4Rb8Se12",
+  "composition": {
+    "formula": "Ga4K4Rb8Se12",
+    "elements": {
+      "Ga": 4,
+      "K": 4,
+      "Rb": 8,
+      "Se": 12
+    },
+    "reduced_formula": "KRb2GaSe3",
+    "element_list": [
+      "K",
+      "Ga",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 90 g \n Li: 30 g \n Ni: 80 g \n P: 120 g \n Tm: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal supplier or online specialty chemical store \n Li: Battery chemistry supplier or online specialty chemical store \n Ni: Metal supplier or online specialty chemical store \n P: Chemical supply company \n Tm: Rare earth metal supplier or online specialty chemical store",
+      "steps": [
+        "Co: Metal supplier or online specialty chemical store",
+        "Li: Battery chemistry supplier or online specialty chemical store",
+        "Ni: Metal supplier or online specialty chemical store",
+        "P: Chemical supply company",
+        "Tm: Rare earth metal supplier or online specialty chemical store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material with a digital scale for accuracy.",
+        "2. In a clean, dry environment, combine Co, Li, Ni, P, and Tm in a ceramic or glass mixing bowl.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniform distribution.",
+        "4. Transfer the mixture into a clean, airtight container to prevent contamination."
+      ],
+      "raw_text": "1. Measure each material with a digital scale for accuracy. \n 2. In a clean, dry environment, combine Co, Li, Ni, P, and Tm in a ceramic or glass mixing bowl. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniform distribution. \n 4. Transfer the mixture into a clean, airtight container to prevent contamination."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Heat the crucible in the furnace for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for uniformity.",
+        "2. If necessary, use a diamond file or grinder to achieve desired dimensions and smooth surfaces.",
+        "3. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for uniformity. \n 2. If necessary, use a diamond file or grinder to achieve desired dimensions and smooth surfaces. \n 3. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9782672.0,
+      "density": 35078.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1020601.0,
+      "formation_energy_per_atom": -12754.0,
+      "decomposition_energy_per_atom": -1249.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -1249.0,
+      "decomposition_energy_mp_oqmd": -24.0
+    },
+    "electronic": {
+      "bandgap": 2.0863,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "be6b3077cb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.532777Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga4K4Rb8Se12.json",
+      "material://Ga4K4Rb8Se12"
+    ]
+  }
+}

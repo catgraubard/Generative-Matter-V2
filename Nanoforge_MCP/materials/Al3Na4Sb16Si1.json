@@ -1,0 +1,132 @@
+{
+  "id": "Al3Na4Sb16Si1",
+  "uri": "material://Al3Na4Sb16Si1",
+  "composition": {
+    "formula": "Al3Na4Sb16Si1",
+    "elements": {
+      "Al": 3,
+      "Na": 4,
+      "Sb": 16,
+      "Si": 1
+    },
+    "reduced_formula": "Na4Al3SiSb16",
+    "element_list": [
+      "Na",
+      "Al",
+      "Si",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 3.0 g  \n  Mn: 2.0 g  \n  Se: 6.0 g  \n  V: 4.0 g  \n  Total: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain cesium from a chemical supplier specializing in alkali metals.  \n  Mn: Purchase manganese from a reliable chemical supplier or online marketplace.  \n  Se: Selenium can be sourced from chemical supply stores.  \n  V: Vanadium must be acquired from a chemical vendor that stocks transition metals.",
+      "steps": [
+        "Cs: Obtain cesium from a chemical supplier specializing in alkali metals.",
+        "Mn: Purchase manganese from a reliable chemical supplier or online marketplace.",
+        "Se: Selenium can be sourced from chemical supply stores.",
+        "V: Vanadium must be acquired from a chemical vendor that stocks transition metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, lab coat).",
+        "2. In a clean, dry environment, weigh out 3.0 g of cesium, 2.0 g of manganese, 6.0 g of selenium, and 4.0 g of vanadium using a precision scale.",
+        "3. Mix the powdered ingredients thoroughly in a mortar and pestle until a uniform blend is achieved.",
+        "4. Transfer the mixed powder into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, lab coat).  \n  2. In a clean, dry environment, weigh out 3.0 g of cesium, 2.0 g of manganese, 6.0 g of selenium, and 4.0 g of vanadium using a precision scale.  \n  3. Mix the powdered ingredients thoroughly in a mortar and pestle until a uniform blend is achieved.  \n  4. Transfer the mixed powder into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the crucible with the mixed powder into the furnace.",
+        "3. Maintain the temperature at 800°C for 4 hours to allow for complete reaction and synthesis of Cs2Mn2Se6V4."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C.  \n  2. Place the crucible with the mixed powder into the furnace.  \n  3. Maintain the temperature at 800°C for 4 hours to allow for complete reaction and synthesis of Cs2Mn2Se6V4."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours for complete cooling."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.  \n  2. This process should take approximately 6-8 hours for complete cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solidified material.",
+        "2. If necessary, grind the material to achieve a desired particle size using a mortar and pestle.",
+        "3. Optionally, seal the material with a clear epoxy resin to protect it from environmental factors.",
+        "4. Allow the epoxy to cure as per manufacturer instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solidified material.  \n  2. If necessary, grind the material to achieve a desired particle size using a mortar and pestle.  \n  3. Optionally, seal the material with a clear epoxy resin to protect it from environmental factors.  \n  4. Allow the epoxy to cure as per manufacturer instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 7497491.0,
+      "density": 47599.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -938771.0,
+      "formation_energy_per_atom": -2442.0,
+      "decomposition_energy_per_atom": -407.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -33.0,
+      "decomposition_energy_mp": -407.0,
+      "decomposition_energy_mp_oqmd": -401.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b73703b2a1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.497060Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Na4Sb16Si1.json",
+      "material://Al3Na4Sb16Si1"
+    ]
+  }
+}

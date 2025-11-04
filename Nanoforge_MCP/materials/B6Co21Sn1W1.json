@@ -1,0 +1,133 @@
+{
+  "id": "B6Co21Sn1W1",
+  "uri": "material://B6Co21Sn1W1",
+  "composition": {
+    "formula": "B6Co21Sn1W1",
+    "elements": {
+      "B": 6,
+      "Co": 21,
+      "Sn": 1,
+      "W": 1
+    },
+    "reduced_formula": "Co21SnB6W",
+    "element_list": [
+      "B",
+      "Co",
+      "Sn",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 210.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B:  10.0 g (Boron) \n Co:  210.0 g (Cobalt) \n Sn:  10.0 g (Tin) \n W:  10.0 g (Tungsten)"
+    },
+    "sourcing": {
+      "instructions": "B: Specialty chemical suppliers or materials science stores. \n Co: Metal supply stores or online metal distributors. \n Sn: Electronics suppliers or metal supply stores. \n W: Specialty metal suppliers or online distributors.",
+      "steps": [
+        "B: Specialty chemical suppliers or materials science stores.",
+        "Co: Metal supply stores or online metal distributors.",
+        "Sn: Electronics suppliers or metal supply stores.",
+        "W: Specialty metal suppliers or online distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine the B, Co, Sn, and W powders.",
+        "3. Use a spatula to mix thoroughly until the mixture is homogenous.",
+        "4. Transfer the mixture to a ball mill for 2 hours to ensure uniform particle size and distribution."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean mixing container, combine the B, Co, Sn, and W powders. \n 3. Use a spatula to mix thoroughly until the mixture is homogenous. \n 4. Transfer the mixture to a ball mill for 2 hours to ensure uniform particle size and distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the mixed powder into a crucible suitable for high-temperature applications.",
+        "3. Insert the crucible into the furnace.",
+        "4. Maintain the temperature for 4 hours to facilitate proper alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the mixed powder into a crucible suitable for high-temperature applications. \n 3. Insert the crucible into the furnace. \n 4. Maintain the temperature for 4 hours to facilitate proper alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and extract the solid sample.",
+        "2. Use a diamond grinding tool to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant for surface protection if required."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and extract the solid sample. \n 2. Use a diamond grinding tool to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant for surface protection if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2912326.0,
+      "density": 91514.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2121871.0,
+      "formation_energy_per_atom": -2024.0,
+      "decomposition_energy_per_atom": -13.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 0.0022,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "973bf03d5a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:34.883106Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co21Sn1W1.json",
+      "material://B6Co21Sn1W1"
+    ]
+  }
+}

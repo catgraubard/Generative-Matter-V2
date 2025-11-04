@@ -1,0 +1,115 @@
+{
+  "id": "Cu2Li2Si4Y3",
+  "uri": "material://Cu2Li2Si4Y3",
+  "composition": {
+    "formula": "Cu2Li2Si4Y3",
+    "elements": {
+      "Cu": 2,
+      "Li": 2,
+      "Si": 4,
+      "Y": 3
+    },
+    "reduced_formula": "Li2Y3(CuSi2)2",
+    "element_list": [
+      "Li",
+      "Si",
+      "Cu",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 200 g, Li: 50 g, Si: 100 g, Y: 150 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper metal from metal suppliers; Li: Lithium carbonate from chemical suppliers; Si: Silicon powder from semiconductor suppliers; Y: Yttrium oxide from rare earth material suppliers.",
+      "steps": [
+        "Cu: Copper metal from metal suppliers; Li: Lithium carbonate from chemical suppliers; Si: Silicon powder from semiconductor suppliers; Y: Yttrium oxide from rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 200 g of copper powder.",
+        "2. Weigh 50 g of lithium carbonate.",
+        "3. Weigh 100 g of silicon powder.",
+        "4. Weigh 150 g of yttrium oxide.",
+        "5. Mix the powders in a clean, dry container using a mortar and pestle for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh 200 g of copper powder. \n 2. Weigh 50 g of lithium carbonate. \n 3. Weigh 100 g of silicon powder. \n 4. Weigh 150 g of yttrium oxide. \n 5. Mix the powders in a clean, dry container using a mortar and pestle for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat in a furnace at 1200°C for 2 hours under an inert atmosphere (e.g., argon gas) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat in a furnace at 1200°C for 2 hours under an inert atmosphere (e.g., argon gas) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Grind the sample using a ball mill for 30 minutes to achieve a fine powder.",
+        "3. Optionally, press the powder into the desired shape using a hydraulic press.",
+        "4. Cure the shaped sample at 1000°C for 1 hour to improve structural integrity.",
+        "5. Sand the surface if necessary to achieve a smooth finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Grind the sample using a ball mill for 30 minutes to achieve a fine powder. \n 3. Optionally, press the powder into the desired shape using a hydraulic press. \n 4. Cure the shaped sample at 1000°C for 1 hour to improve structural integrity. \n 5. Sand the surface if necessary to achieve a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 1945938.0,
+      "density": 44376.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -597348.0,
+      "formation_energy_per_atom": -6016.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -91.0,
+      "decomposition_energy_mp": -204.0,
+      "decomposition_energy_mp_oqmd": -139.0
+    },
+    "electronic": {
+      "bandgap": 0.0216,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "eadc937010",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.629625Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Li2Si4Y3.json",
+      "material://Cu2Li2Si4Y3"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "As4La2Li2Sm2",
+  "uri": "material://As4La2Li2Sm2",
+  "composition": {
+    "formula": "As4La2Li2Sm2",
+    "elements": {
+      "As": 4,
+      "La": 2,
+      "Li": 2,
+      "Sm": 2
+    },
+    "reduced_formula": "LiLaSmAs2",
+    "element_list": [
+      "Li",
+      "As",
+      "La",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CuO: 100 g\nNd2O3: 75 g\nPr2O3: 50 g\nSe: 60 g\nAl2O3 (as a binder): 20 g\nPolyvinyl alcohol (PVA) (as a binder): 5 g"
+    },
+    "sourcing": {
+      "instructions": "CuO: Chemical supply stores or online suppliers like Sigma-Aldrich.\nNd2O3: Rare earth metal suppliers or specialized chemical suppliers.\nPr2O3: Rare earth metal suppliers.\nSe: Chemical supply stores.\nAl2O3: General chemical suppliers.\nPVA: Craft stores or chemical supply stores.",
+      "steps": [
+        "CuO: Chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Nd2O3: Rare earth metal suppliers or specialized chemical suppliers.",
+        "Pr2O3: Rare earth metal suppliers.",
+        "Se: Chemical supply stores.",
+        "Al2O3: General chemical suppliers.",
+        "PVA: Craft stores or chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine CuO, Nd2O3, Pr2O3, Se, Al2O3, and PVA.",
+        "3. Mix thoroughly using a mechanical stirrer or mortar and pestle until a homogeneous mixture is obtained.",
+        "4. Add a small amount of distilled water (approximately 10-15 mL) to help facilitate mixing if necessary."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.\n2. In a clean mixing container, combine CuO, Nd2O3, Pr2O3, Se, Al2O3, and PVA.\n3. Mix thoroughly using a mechanical stirrer or mortar and pestle until a homogeneous mixture is obtained.\n4. Add a small amount of distilled water (approximately 10-15 mL) to help facilitate mixing if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a muffle furnace.",
+        "3. Set the furnace to 800 °C and hold for 4 hours to allow for complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n2. Heat the crucible in a muffle furnace.\n3. Set the furnace to 800 °C and hold for 4 hours to allow for complete reaction and solidification."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled below 200 °C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally.\n2. Do not open the furnace until it has cooled below 200 °C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or cracks.",
+        "3. If necessary, sand the edges to achieve the desired dimensions.",
+        "4. Optionally, apply a sealant to the surface to enhance durability, following the manufacturer's instructions for application and curing."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Inspect the sample for any irregularities or cracks.\n3. If necessary, sand the edges to achieve the desired dimensions.\n4. Optionally, apply a sealant to the surface to enhance durability, following the manufacturer's instructions for application and curing."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2398906.0,
+      "density": 61752.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -544958.0,
+      "formation_energy_per_atom": -12732.0,
+      "decomposition_energy_per_atom": -399.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -393.0,
+      "decomposition_energy_mp_oqmd": -384.0
+    },
+    "electronic": {
+      "bandgap": 0.0172,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d529c23ccf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.676854Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4La2Li2Sm2.json",
+      "material://As4La2Li2Sm2"
+    ]
+  }
+}

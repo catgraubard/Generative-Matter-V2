@@ -1,0 +1,134 @@
+{
+  "id": "B16Ce7Er3Si4",
+  "uri": "material://B16Ce7Er3Si4",
+  "composition": {
+    "formula": "B16Ce7Er3Si4",
+    "elements": {
+      "B": 16,
+      "Ce": 7,
+      "Er": 3,
+      "Si": 4
+    },
+    "reduced_formula": "Ce7Er3(SiB4)4",
+    "element_list": [
+      "B",
+      "Si",
+      "Ce",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 0.5 g\nEr: 8.0 g\nHg: 0.5 g\nIn: 2.5 g\nNi: 0.5 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Online suppliers or local metal stores\nEr: Specialty chemical suppliers\nHg: Chemical suppliers (ensure handling precautions)\nIn: Online or local metal suppliers\nNi: Metal supply stores",
+      "steps": [
+        "Co: Online suppliers or local metal stores",
+        "Er: Specialty chemical suppliers",
+        "Hg: Chemical suppliers (ensure handling precautions)",
+        "In: Online or local metal suppliers",
+        "Ni: Metal supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Combine Co, Er, Hg, In, and Ni in a clean, dry glass container.",
+        "3. Use a stirrer to mix the powders uniformly for 10 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale.\n2. Combine Co, Er, Hg, In, and Ni in a clean, dry glass container.\n3. Use a stirrer to mix the powders uniformly for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C for 2 hours to ensure complete alloying."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible.\n2. Heat the crucible in a furnace to 800°C for 2 hours to ensure complete alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly to room temperature (approximately 25°C) inside the furnace, taking about 4 hours."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly to room temperature (approximately 25°C) inside the furnace, taking about 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added protection and shine."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use a diamond file to smooth rough edges.\n3. Optionally, seal the surface with a clear epoxy resin for added protection and shine."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4382854.0,
+      "density": 66981.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2030195.0,
+      "formation_energy_per_atom": -6404.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cccde38f47",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.486809Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B16Ce7Er3Si4.json",
+      "material://B16Ce7Er3Si4"
+    ]
+  }
+}

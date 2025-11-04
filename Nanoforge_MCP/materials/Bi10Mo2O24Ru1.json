@@ -1,0 +1,110 @@
+{
+  "id": "Bi10Mo2O24Ru1",
+  "uri": "material://Bi10Mo2O24Ru1",
+  "composition": {
+    "formula": "Bi10Mo2O24Ru1",
+    "elements": {
+      "Bi": 10,
+      "Mo": 2,
+      "O": 24,
+      "Ru": 1
+    },
+    "reduced_formula": "Bi10Mo2RuO24",
+    "element_list": [
+      "O",
+      "Mo",
+      "Ru",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bi2O3: 25.0 g \n MoO3: 9.0 g \n RuO2: 1.0 g \n Distilled water: 50.0 g (for slurry)"
+    },
+    "sourcing": {
+      "instructions": "Bi2O3: Chemical supply companies (e.g., Sigma-Aldrich) \n MoO3: Chemical supply companies or online marketplaces \n RuO2: Specialty metal suppliers or chemical supply companies \n Distilled water: Grocery stores or pharmacies",
+      "steps": [
+        "Bi2O3: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "MoO3: Chemical supply companies or online marketplaces",
+        "RuO2: Specialty metal suppliers or chemical supply companies",
+        "Distilled water: Grocery stores or pharmacies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, measure 25.0 g of Bi2O3.",
+        "2. Add 9.0 g of MoO3 to the container.",
+        "3. Add 1.0 g of RuO2 and mix the dry powders thoroughly using a mortar and pestle until a uniform powder is achieved.",
+        "4. Gradually add 50.0 g of distilled water to create a slurry, mixing continuously to ensure even consistency."
+      ],
+      "raw_text": "1. In a clean, dry container, measure 25.0 g of Bi2O3. \n 2. Add 9.0 g of MoO3 to the container. \n 3. Add 1.0 g of RuO2 and mix the dry powders thoroughly using a mortar and pestle until a uniform powder is achieved. \n 4. Gradually add 50.0 g of distilled water to create a slurry, mixing continuously to ensure even consistency."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Preheat the furnace to 800°C.",
+        "3. Once the temperature is reached, place the crucible in the furnace and maintain for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible. \n 2. Preheat the furnace to 800°C. \n 3. Once the temperature is reached, place the crucible in the furnace and maintain for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities and sand down rough edges with fine-grit sandpaper.",
+        "3. Optionally, apply a sealant or protective coating for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities and sand down rough edges with fine-grit sandpaper. \n 3. Optionally, apply a sealant or protective coating for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 37,
+      "volume": 6021245.0,
+      "density": 76301.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2525586.0,
+      "formation_energy_per_atom": -17281.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -61.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 0.579,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4435e44438",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:45.224893Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi10Mo2O24Ru1.json",
+      "material://Bi10Mo2O24Ru1"
+    ]
+  }
+}

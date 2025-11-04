@@ -1,0 +1,116 @@
+{
+  "id": "As2Co1Fe2Mn3Si1",
+  "uri": "material://As2Co1Fe2Mn3Si1",
+  "composition": {
+    "formula": "As2Co1Fe2Mn3Si1",
+    "elements": {
+      "As": 2,
+      "Co": 1,
+      "Fe": 2,
+      "Mn": 3,
+      "Si": 1
+    },
+    "reduced_formula": "Mn3Fe2CoSiAs2",
+    "element_list": [
+      "Si",
+      "Mn",
+      "Fe",
+      "Co",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt(II) oxide (CoO) - 60.0 g \n Neodymium(III) oxide (Nd2O3) - 40.0 g \n Oxygen source (e.g., Sodium nitrate, NaNO3) - 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt(II) oxide: Chemical supply companies (e.g., Sigma-Aldrich) \n Neodymium(III) oxide: Specialty metal suppliers (e.g., American Elements) \n Sodium nitrate: Local chemical supply stores or online retailers",
+      "steps": [
+        "Cobalt(II) oxide: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Neodymium(III) oxide: Specialty metal suppliers (e.g., American Elements)",
+        "Sodium nitrate: Local chemical supply stores or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry glass container, measure 60.0 g of Cobalt(II) oxide.",
+        "2. Add 40.0 g of Neodymium(III) oxide to the container.",
+        "3. Carefully mix the two oxides using a glass rod until homogeneous.",
+        "4. Gradually add 10.0 g of Sodium nitrate while stirring continuously.",
+        "5. Ensure the mixture is well combined without any visible clumps."
+      ],
+      "raw_text": "1. In a clean, dry glass container, measure 60.0 g of Cobalt(II) oxide. \n 2. Add 40.0 g of Neodymium(III) oxide to the container. \n 3. Carefully mix the two oxides using a glass rod until homogeneous. \n 4. Gradually add 10.0 g of Sodium nitrate while stirring continuously. \n 5. Ensure the mixture is well combined without any visible clumps."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the furnace to 1000°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the furnace to 1000°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours).",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours). \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the solid has cooled, remove it from the crucible and inspect for cracks or imperfections.",
+        "2. If necessary, use a diamond saw to trim the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, sand the edges to create a smooth finish.",
+        "4. Seal the surface with a protective coating if desired for increased durability."
+      ],
+      "raw_text": "1. Once the solid has cooled, remove it from the crucible and inspect for cracks or imperfections. \n 2. If necessary, use a diamond saw to trim the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, sand the edges to create a smooth finish. \n 4. Seal the surface with a protective coating if desired for increased durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1147481.0,
+      "density": 7429.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -691226.0,
+      "formation_energy_per_atom": -3161.0,
+      "decomposition_energy_per_atom": -214.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -212.0,
+      "decomposition_energy_mp_oqmd": -189.0
+    },
+    "electronic": {
+      "bandgap": 0.004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e3e7a03834",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.687458Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2Co1Fe2Mn3Si1.json",
+      "material://As2Co1Fe2Mn3Si1"
+    ]
+  }
+}

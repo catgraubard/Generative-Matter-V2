@@ -1,0 +1,130 @@
+{
+  "id": "Li3Si2Sn1Tb2Y1",
+  "uri": "material://Li3Si2Sn1Tb2Y1",
+  "composition": {
+    "formula": "Li3Si2Sn1Tb2Y1",
+    "elements": {
+      "Li": 3,
+      "Si": 2,
+      "Sn": 1,
+      "Tb": 2,
+      "Y": 1
+    },
+    "reduced_formula": "Li3Tb2YSi2Sn",
+    "element_list": [
+      "Li",
+      "Si",
+      "Y",
+      "Sn",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 49.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 11.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 33.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 9.00 g \n Cu: 49.00 g \n La: 11.00 g \n Ni: 33.00 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Available at chemical supply stores or online. \n Cu (Copper): Can be sourced from metal suppliers or hardware stores. \n La (Lanthanum): Obtainable from specialty chemical suppliers. \n Ni (Nickel): Found at metal suppliers or hardware stores.",
+      "steps": [
+        "B (Boron): Available at chemical supply stores or online.",
+        "Cu (Copper): Can be sourced from metal suppliers or hardware stores.",
+        "La (Lanthanum): Obtainable from specialty chemical suppliers.",
+        "Ni (Nickel): Found at metal suppliers or hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure B, Cu, La, and Ni using a precision scale.",
+        "2. Combine the materials in a clean, dry glass or ceramic container.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Measure B, Cu, La, and Ni using a precision scale. \n 2. Combine the materials in a clean, dry glass or ceramic container. \n 3. Use a mortar and pestle to grind the mixture thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the homogeneous mixture to a crucible.",
+        "2. Heat in a furnace to 1200°C (2192°F) for 2 hours to facilitate proper melting and alloying."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture to a crucible. \n 2. Heat in a furnace to 1200°C (2192°F) for 2 hours to facilitate proper melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature, which should take approximately 4-6 hours, avoiding any rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature, which should take approximately 4-6 hours, avoiding any rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "3. Optionally, apply a sealant to enhance durability and surface protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 3. Optionally, apply a sealant to enhance durability and surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1902686.0,
+      "density": 52579.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -420838.0,
+      "formation_energy_per_atom": -6402.0,
+      "decomposition_energy_per_atom": -517.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -527.0,
+      "decomposition_energy_mp_oqmd": -323.0
+    },
+    "electronic": {
+      "bandgap": 0.0105,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bed00cbdfe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.637305Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li3Si2Sn1Tb2Y1.json",
+      "material://Li3Si2Sn1Tb2Y1"
+    ]
+  }
+}

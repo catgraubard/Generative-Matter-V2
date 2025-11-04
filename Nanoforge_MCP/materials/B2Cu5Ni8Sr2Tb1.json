@@ -1,0 +1,113 @@
+{
+  "id": "B2Cu5Ni8Sr2Tb1",
+  "uri": "material://B2Cu5Ni8Sr2Tb1",
+  "composition": {
+    "formula": "B2Cu5Ni8Sr2Tb1",
+    "elements": {
+      "B": 2,
+      "Cu": 5,
+      "Ni": 8,
+      "Sr": 2,
+      "Tb": 1
+    },
+    "reduced_formula": "Sr2TbCu5(Ni4B)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Cu",
+      "Sr",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cadmium (Cd): 120 g \n Nickel (Ni): 48 g \n Scandium (Sc): 20 g \n Terbium (Tb): 760 g"
+    },
+    "sourcing": {
+      "instructions": "Cadmium: Specialty chemical suppliers, online chemical retailers. \n Nickel: Metal supply stores, online metal suppliers. \n Scandium: Rare earth suppliers. \n Terbium: Rare earth suppliers.",
+      "steps": [
+        "Cadmium: Specialty chemical suppliers, online chemical retailers.",
+        "Nickel: Metal supply stores, online metal suppliers.",
+        "Scandium: Rare earth suppliers.",
+        "Terbium: Rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry container, combine Cd, Ni, Sc, and Tb in the specified amounts.",
+        "3. Mix thoroughly using a high-energy ball mill for 30 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry container, combine Cd, Ni, Sc, and Tb in the specified amounts. \n 3. Mix thoroughly using a high-energy ball mill for 30 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures.",
+        "2. Heat in a furnace to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of elements."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures. \n 2. Heat in a furnace to 1200 °C at a rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of elements."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. Turn off the furnace and allow the material to cool down slowly within the furnace for 4 hours to prevent cracking and ensure structural integrity.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the material to cool down slowly within the furnace for 4 hours to prevent cracking and ensure structural integrity. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. If desired, apply a protective coating to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. If desired, apply a protective coating to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2509556.0,
+      "density": 75635.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -931693.0,
+      "formation_energy_per_atom": -2811.0,
+      "decomposition_energy_per_atom": -254.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -36.0,
+      "decomposition_energy_mp": -254.0,
+      "decomposition_energy_mp_oqmd": -229.0
+    },
+    "electronic": {
+      "bandgap": 0.0099,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d679afc6ac",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.136066Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Cu5Ni8Sr2Tb1.json",
+      "material://B2Cu5Ni8Sr2Tb1"
+    ]
+  }
+}

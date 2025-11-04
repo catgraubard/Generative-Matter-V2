@@ -1,0 +1,133 @@
+{
+  "id": "Al4Nd4O20Ti4",
+  "uri": "material://Al4Nd4O20Ti4",
+  "composition": {
+    "formula": "Al4Nd4O20Ti4",
+    "elements": {
+      "Al": 4,
+      "Nd": 4,
+      "O": 20,
+      "Ti": 4
+    },
+    "reduced_formula": "NdTiAlO5",
+    "element_list": [
+      "O",
+      "Al",
+      "Ti",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10.0 g\nNi: 60.0 g\nY: 20.0 g\nZn: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).\nNi: Obtain from a metals supplier or online (e.g., McMaster-Carr).\nY: Available through specialized chemical suppliers or online (e.g., Alfa Aesar).\nZn: Can be found at hardware stores or online (e.g., Amazon).",
+      "steps": [
+        "B: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "Ni: Obtain from a metals supplier or online (e.g., McMaster-Carr).",
+        "Y: Available through specialized chemical suppliers or online (e.g., Alfa Aesar).",
+        "Zn: Can be found at hardware stores or online (e.g., Amazon)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of B, 60.0 g of Ni, 20.0 g of Y, and 20.0 g of Zn using an analytical balance.",
+        "2. Place all materials in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of B, 60.0 g of Ni, 20.0 g of Y, and 20.0 g of Zn using an analytical balance.\n2. Place all materials in a clean, dry mixing container.\n3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to a temperature of 1200 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to a temperature of 1200 °C at a rate of 10 °C/min.\n4. Maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the furnace temperature to room temperature (approx. 25 °C) at a rate of 5 °C/min.",
+        "2. Allow the material to cool in the furnace for a total of 6 hours before removal."
+      ],
+      "raw_text": "1. Gradually reduce the furnace temperature to room temperature (approx. 25 °C) at a rate of 5 °C/min.\n2. Allow the material to cool in the furnace for a total of 6 hours before removal."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth out any rough edges and achieve the desired dimensions.",
+        "3. Optionally, apply a sealant to protect the surface and enhance durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Use a diamond file to smooth out any rough edges and achieve the desired dimensions.\n3. Optionally, apply a sealant to protect the surface and enhance durability.\n4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3777327.0,
+      "density": 52592.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbam",
+      "space_group_number": 55,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2814929.0,
+      "formation_energy_per_atom": -3653.0,
+      "decomposition_energy_per_atom": -166.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -172.0,
+      "decomposition_energy_mp": -172.0,
+      "decomposition_energy_mp_oqmd": -172.0
+    },
+    "electronic": {
+      "bandgap": 3.3241,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab1659d57e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.636317Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al4Nd4O20Ti4.json",
+      "material://Al4Nd4O20Ti4"
+    ]
+  }
+}

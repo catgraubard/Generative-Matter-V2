@@ -1,0 +1,137 @@
+{
+  "id": "La1Nb6Se12Sn1",
+  "uri": "material://La1Nb6Se12Sn1",
+  "composition": {
+    "formula": "La1Nb6Se12Sn1",
+    "elements": {
+      "La": 1,
+      "Nb": 6,
+      "Se": 12,
+      "Sn": 1
+    },
+    "reduced_formula": "LaNb6SnSe12",
+    "element_list": [
+      "Se",
+      "Nb",
+      "Sn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 10.0 g \n Nb: 60.0 g \n Se: 120.0 g \n Sn: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supply company or metal supplier. \n Nb: Obtain from specialized metal or chemical suppliers. \n Se: Available from chemical suppliers or online platforms. \n Sn: Find at hardware stores or metal suppliers.",
+      "steps": [
+        "La: Purchase from a chemical supply company or metal supplier.",
+        "Nb: Obtain from specialized metal or chemical suppliers.",
+        "Se: Available from chemical suppliers or online platforms.",
+        "Sn: Find at hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of La using a precision balance.",
+        "2. Weigh 60.0 g of Nb.",
+        "3. Weigh 120.0 g of Se.",
+        "4. Weigh 10.0 g of Sn.",
+        "5. In a clean, dry container, combine all weighed materials.",
+        "6. Mix thoroughly using a mortar and pestle or a high-energy ball mill to achieve a uniform powder."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of La using a precision balance. \n 2. Weigh 60.0 g of Nb. \n 3. Weigh 120.0 g of Se. \n 4. Weigh 10.0 g of Sn. \n 5. In a clean, dry container, combine all weighed materials. \n 6. Mix thoroughly using a mortar and pestle or a high-energy ball mill to achieve a uniform powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down to room temperature naturally (approximately 6-8 hours).",
+        "3. Ensure no drafts affect the cooling process to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down to room temperature naturally (approximately 6-8 hours). \n 3. Ensure no drafts affect the cooling process to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or surface imperfections.",
+        "3. If necessary, sand down rough edges using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with an appropriate resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or surface imperfections. \n 3. If necessary, sand down rough edges using fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with an appropriate resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4916243.0,
+      "density": 59534.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1371316.0,
+      "formation_energy_per_atom": -12814.0,
+      "decomposition_energy_per_atom": -39.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -353.0
+    },
+    "electronic": {
+      "bandgap": 0.0221,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7325ec987f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.125299Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Nb6Se12Sn1.json",
+      "material://La1Nb6Se12Sn1"
+    ]
+  }
+}

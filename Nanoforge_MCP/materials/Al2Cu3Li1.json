@@ -1,0 +1,105 @@
+{
+  "id": "Al2Cu3Li1",
+  "uri": "material://Al2Cu3Li1",
+  "composition": {
+    "formula": "Al2Cu3Li1",
+    "elements": {
+      "Al": 2,
+      "Cu": 3,
+      "Li": 1
+    },
+    "reduced_formula": "LiAl2Cu3",
+    "element_list": [
+      "Li",
+      "Al",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum (Al): 120 grams \n Copper (Cu): 90 grams \n Lithium (Li): 10 grams"
+    },
+    "sourcing": {
+      "instructions": "Aluminum: Local metal supply stores or online metal suppliers. \n Copper: Electrical supply stores or hardware stores. \n Lithium: Chemical supply companies or online chemical retailers.",
+      "steps": [
+        "Aluminum: Local metal supply stores or online metal suppliers.",
+        "Copper: Electrical supply stores or hardware stores.",
+        "Lithium: Chemical supply companies or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the aluminum, copper, and lithium using a precision scale.",
+        "2. In a clean and dry mixing container, combine the aluminum and copper.",
+        "3. Gradually add lithium to the mixture while stirring continuously to ensure an even distribution."
+      ],
+      "raw_text": "1. Weigh the aluminum, copper, and lithium using a precision scale. \n 2. In a clean and dry mixing container, combine the aluminum and copper. \n 3. Gradually add lithium to the mixture while stirring continuously to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 750,
+      "duration_hours": 1,
+      "steps": [
+        "1. Place the mixed materials in a crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 750°C (1382°F) for 1 hour to ensure complete melting and mixing of the metals."
+      ],
+      "raw_text": "1. Place the mixed materials in a crucible. \n 2. Heat the crucible in a furnace to a temperature of 750°C (1382°F) for 1 hour to ensure complete melting and mixing of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After 1 hour, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not disturb the crucible during cooling to avoid introducing stress fractures."
+      ],
+      "raw_text": "1. After 1 hour, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not disturb the crucible during cooling to avoid introducing stress fractures."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities and use a fine-grit sandpaper to smoothen the edges and surface if necessary.",
+        "3. Seal the final product with a metal sealer to enhance corrosion resistance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities and use a fine-grit sandpaper to smoothen the edges and surface if necessary. \n 3. Seal the final product with a metal sealer to enhance corrosion resistance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 771253.0,
+      "density": 54158.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -231502.0,
+      "formation_energy_per_atom": -2421.0,
+      "decomposition_energy_per_atom": -234.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -234.0,
+      "decomposition_energy_mp_oqmd": -209.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4c577f54fc",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.077373Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Cu3Li1.json",
+      "material://Al2Cu3Li1"
+    ]
+  }
+}

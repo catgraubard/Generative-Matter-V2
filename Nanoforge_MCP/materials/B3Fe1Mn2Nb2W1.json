@@ -1,0 +1,115 @@
+{
+  "id": "B3Fe1Mn2Nb2W1",
+  "uri": "material://B3Fe1Mn2Nb2W1",
+  "composition": {
+    "formula": "B3Fe1Mn2Nb2W1",
+    "elements": {
+      "B": 3,
+      "Fe": 1,
+      "Mn": 2,
+      "Nb": 2,
+      "W": 1
+    },
+    "reduced_formula": "Mn2Nb2FeB3W",
+    "element_list": [
+      "B",
+      "Mn",
+      "Fe",
+      "Nb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20.0 g, Fe: 13.0 g, Mn: 26.0 g, Nb: 15.0 g, W: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store, Fe: Metal supplier, Mn: Chemical supplier, Nb: Specialty alloy supplier, W: Metal supplier",
+      "steps": [
+        "B: Chemical supply store, Fe: Metal supplier, Mn: Chemical supplier, Nb: Specialty alloy supplier, W: Metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry mixing container, add the weighed B, Fe, Mn, Nb, and W powders.",
+        "3. Use a mortar and pestle or a mechanical mixer to blend the powders thoroughly for at least 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powders to a suitable mold (3 in x 2 in x 7 in) lined with a non-stick material."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry mixing container, add the weighed B, Fe, Mn, Nb, and W powders. \n 3. Use a mortar and pestle or a mechanical mixer to blend the powders thoroughly for at least 10 minutes to ensure homogeneity. \n 4. Transfer the mixed powders to a suitable mold (3 in x 2 in x 7 in) lined with a non-stick material."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mold containing the mixed powders into the furnace.",
+        "3. Hold the temperature at 1200°C for 2 hours to facilitate proper sintering of the material."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mold containing the mixed powders into the furnace. \n 3. Hold the temperature at 1200°C for 2 hours to facilitate proper sintering of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the sample to cool down gradually within the furnace to room temperature, which may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the sample to cool down gradually within the furnace to room temperature, which may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect for any surface imperfections and use sandpaper (grit 120) to smooth any rough edges.",
+        "3. If desired, apply a sealant to enhance the surface finish and protect the sample. Allow the sealant to cure as per manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect for any surface imperfections and use sandpaper (grit 120) to smooth any rough edges. \n 3. If desired, apply a sealant to enhance the surface finish and protect the sample. Allow the sealant to cure as per manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 985092.0,
+      "density": 95713.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -847022.0,
+      "formation_energy_per_atom": -5232.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -43.0,
+      "decomposition_energy_mp": -399.0,
+      "decomposition_energy_mp_oqmd": -336.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "015ee98630",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:16.297541Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B3Fe1Mn2Nb2W1.json",
+      "material://B3Fe1Mn2Nb2W1"
+    ]
+  }
+}

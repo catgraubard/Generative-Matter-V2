@@ -1,0 +1,136 @@
+{
+  "id": "Cu4Pr4Si4Sn2",
+  "uri": "material://Cu4Pr4Si4Sn2",
+  "composition": {
+    "formula": "Cu4Pr4Si4Sn2",
+    "elements": {
+      "Cu": 4,
+      "Pr": 4,
+      "Si": 4,
+      "Sn": 2
+    },
+    "reduced_formula": "Pr2Cu2Si2Sn",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Sn",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 10.0 g \n Li: 20.0 g \n Rb: 40.0 g \n Sb: 40.0 g \n Sc: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Metal supply stores or online metal retailers. \n Li: Specialized chemical suppliers or online chemical marketplaces. \n Rb: Chemical suppliers. \n Sb: Chemical suppliers. \n Sc: Specialty metal suppliers.",
+      "steps": [
+        "Al: Metal supply stores or online metal retailers.",
+        "Li: Specialized chemical suppliers or online chemical marketplaces.",
+        "Rb: Chemical suppliers.",
+        "Sb: Chemical suppliers.",
+        "Sc: Specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Al, Li, Rb, Sb, and Sc in the specified amounts.",
+        "3. Use a stirrer or mechanical mixer to ensure even distribution of components for at least 10 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine Al, Li, Rb, Sb, and Sc in the specified amounts. \n 3. Use a stirrer or mechanical mixer to ensure even distribution of components for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or oven to 800°C.",
+        "2. Transfer the mixed materials into a suitable crucible.",
+        "3. Heat the crucible in the furnace for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace or oven to 800°C. \n 2. Transfer the mixed materials into a suitable crucible. \n 3. Heat the crucible in the furnace for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not remove the crucible until fully cooled."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not remove the crucible until fully cooled."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid material from the crucible.",
+        "2. Use sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid material from the crucible. \n 2. Use sandpaper to smooth any rough edges. \n 3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2852997.0,
+      "density": 67957.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -740001.0,
+      "formation_energy_per_atom": -6257.0,
+      "decomposition_energy_per_atom": -191.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -188.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0457,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b36916302e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.730425Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4Pr4Si4Sn2.json",
+      "material://Cu4Pr4Si4Sn2"
+    ]
+  }
+}

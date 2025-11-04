@@ -1,0 +1,113 @@
+{
+  "id": "Bi1Fe2Nd5O12",
+  "uri": "material://Bi1Fe2Nd5O12",
+  "composition": {
+    "formula": "Bi1Fe2Nd5O12",
+    "elements": {
+      "Bi": 1,
+      "Fe": 2,
+      "Nd": 5,
+      "O": 12
+    },
+    "reduced_formula": "Nd5Fe2BiO12",
+    "element_list": [
+      "O",
+      "Fe",
+      "Nd",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cobalt Oxide (CoO): 3.5 g  \n - Lanthanum Oxide (La2O3): 29.5 g  \n - Magnesium Oxide (MgO): 11.5 g  \n - Neodymium Oxide (Nd2O3): 2.5 g  \n - Oxygen (O2): Required for combustion, no specific amount as it is in the atmosphere."
+    },
+    "sourcing": {
+      "instructions": "- Cobalt Oxide: Purchase from chemical suppliers or online marketplaces like Sigma-Aldrich. \n - Lanthanum Oxide: Available from specialty chemical suppliers or online. \n - Magnesium Oxide: Obtain from local chemical suppliers or hardware stores. \n - Neodymium Oxide: Sourced from scientific supply companies or online.",
+      "steps": [
+        "- Cobalt Oxide: Purchase from chemical suppliers or online marketplaces like Sigma-Aldrich.",
+        "- Lanthanum Oxide: Available from specialty chemical suppliers or online.",
+        "- Magnesium Oxide: Obtain from local chemical suppliers or hardware stores.",
+        "- Neodymium Oxide: Sourced from scientific supply companies or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each oxide accurately using an analytical balance.",
+        "2. In a clean, dry container, combine CoO, La2O3, MgO, and Nd2O3.",
+        "3. Mix thoroughly using a mortar and pestle to ensure a homogenous powder.",
+        "4. Sieve the mixture through a 100-mesh screen to eliminate agglomerates."
+      ],
+      "raw_text": "1. Measure each oxide accurately using an analytical balance.  \n 2. In a clean, dry container, combine CoO, La2O3, MgO, and Nd2O3.  \n 3. Mix thoroughly using a mortar and pestle to ensure a homogenous powder.  \n 4. Sieve the mixture through a 100-mesh screen to eliminate agglomerates."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1300 °C at a rate of 5 °C/min.",
+        "4. Maintain the temperature for 4 hours to allow for complete reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.  \n 2. Place the crucible in a furnace.  \n 3. Heat to 1300 °C at a rate of 5 °C/min.  \n 4. Maintain the temperature for 4 hours to allow for complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and let it cool down naturally to room temperature.",
+        "2. Ensure that the cooling process takes at least 5 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and let it cool down naturally to room temperature.  \n 2. Ensure that the cooling process takes at least 5 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sintered sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand down rough edges using fine-grit sandpaper.",
+        "4. Optionally, apply a sealant if the material will be exposed to moisture or chemicals."
+      ],
+      "raw_text": "1. Remove the sintered sample from the crucible.  \n 2. Inspect for any surface irregularities.  \n 3. If necessary, sand down rough edges using fine-grit sandpaper.  \n 4. Optionally, apply a sealant if the material will be exposed to moisture or chemicals."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3072687.0,
+      "density": 66681.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1643387.0,
+      "formation_energy_per_atom": -30146.0,
+      "decomposition_energy_per_atom": 11.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": 5.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c379223120",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.178101Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1Fe2Nd5O12.json",
+      "material://Bi1Fe2Nd5O12"
+    ]
+  }
+}

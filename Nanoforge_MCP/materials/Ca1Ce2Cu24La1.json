@@ -1,0 +1,113 @@
+{
+  "id": "Ca1Ce2Cu24La1",
+  "uri": "material://Ca1Ce2Cu24La1",
+  "composition": {
+    "formula": "Ca1Ce2Cu24La1",
+    "elements": {
+      "Ca": 1,
+      "Ce": 2,
+      "Cu": 24,
+      "La": 1
+    },
+    "reduced_formula": "CaLa(CeCu12)2",
+    "element_list": [
+      "Ca",
+      "Cu",
+      "La",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium (Ca): 10 g \n Cerium (Ce): 20 g \n Copper (Cu): 480 g \n Lanthanum (La): 5 g"
+    },
+    "sourcing": {
+      "instructions": "Calcium: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich) \n Cerium: Chemical supply store or online (e.g., Alfa Aesar) \n Copper: Metal supply shops or online \n Lanthanum: Chemical suppliers or online (e.g., American Elements)",
+      "steps": [
+        "Calcium: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich)",
+        "Cerium: Chemical supply store or online (e.g., Alfa Aesar)",
+        "Copper: Metal supply shops or online",
+        "Lanthanum: Chemical suppliers or online (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 10 g of Calcium and place in a clean, dry mixing container.",
+        "2. Add 20 g of Cerium to the container.",
+        "3. Add 480 g of Copper powder.",
+        "4. Finally, add 5 g of Lanthanum.",
+        "5. Use a mortar and pestle or ball mill to thoroughly mix the powders until a uniform mixture is obtained."
+      ],
+      "raw_text": "1. Measure out 10 g of Calcium and place in a clean, dry mixing container. \n 2. Add 20 g of Cerium to the container. \n 3. Add 480 g of Copper powder. \n 4. Finally, add 5 g of Lanthanum. \n 5. Use a mortar and pestle or ball mill to thoroughly mix the powders until a uniform mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C per minute.",
+        "4. Hold the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C at a rate of 5°C per minute. \n 4. Hold the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This should take approximately 6-8 hours, avoiding rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This should take approximately 6-8 hours, avoiding rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or rough surfaces.",
+        "3. If necessary, use sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant if the material is to be exposed to moisture or air."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any irregularities or rough surfaces. \n 3. If necessary, use sandpaper to smooth the surface. \n 4. Optionally, apply a sealant if the material is to be exposed to moisture or air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4124.0,
+      "density": 79899.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1206775.0,
+      "formation_energy_per_atom": -1246.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -91.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -91.0
+    },
+    "electronic": {
+      "bandgap": 0.0,
+      "bandgap_type": "metal"
+    },
+    "metadata": {
+      "material_id": "242d8d9fe9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:03.283997Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Ce2Cu24La1.json",
+      "material://Ca1Ce2Cu24La1"
+    ]
+  }
+}

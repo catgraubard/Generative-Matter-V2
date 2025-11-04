@@ -1,0 +1,112 @@
+{
+  "id": "Fe2O24Pa2S6",
+  "uri": "material://Fe2O24Pa2S6",
+  "composition": {
+    "formula": "Fe2O24Pa2S6",
+    "elements": {
+      "Fe": 2,
+      "O": 24,
+      "Pa": 2,
+      "S": 6
+    },
+    "reduced_formula": "PaFe(SO4)3",
+    "element_list": [
+      "O",
+      "S",
+      "Fe",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ni (Nickel): 35.2 g \n Sc (Scandium): 21.6 g \n Si (Silicon): 48.0 g \n Tb (Terbium): 14.0 g \n Tm (Thulium): 8.4 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Available from metal suppliers or online retailers (e.g., Amazon, eBay). \n Sc: Specialty metal suppliers or chemical suppliers (e.g., Alfa Aesar). \n Si: Electronics suppliers or chemical suppliers (e.g., Sigma-Aldrich). \n Tb: Specialty metal suppliers or chemical suppliers. \n Tm: Specialty metal suppliers or chemical suppliers.",
+      "steps": [
+        "Ni: Available from metal suppliers or online retailers (e.g., Amazon, eBay).",
+        "Sc: Specialty metal suppliers or chemical suppliers (e.g., Alfa Aesar).",
+        "Si: Electronics suppliers or chemical suppliers (e.g., Sigma-Aldrich).",
+        "Tb: Specialty metal suppliers or chemical suppliers.",
+        "Tm: Specialty metal suppliers or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Ni, Sc, Si, Tb, and Tm in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until homogeneous.",
+        "4. Transfer the mixed powder to a crucible suitable for high-temperature processes."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Ni, Sc, Si, Tb, and Tm in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until homogeneous. \n 4. Transfer the mixed powder to a crucible suitable for high-temperature processes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the crucible with the mixed powders in the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and reaction of components."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the crucible with the mixed powders in the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting and reaction of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 4-6 hours).",
+        "2. Do not force cool to prevent thermal shock and cracking of the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 4-6 hours). \n 2. Do not force cool to prevent thermal shock and cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond file or grinder to shape the sample to the desired dimensions if necessary.",
+        "3. Clean the surface with isopropyl alcohol to remove any residues.",
+        "4. Optionally, apply a protective sealant or coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond file or grinder to shape the sample to the desired dimensions if necessary. \n 3. Clean the surface with isopropyl alcohol to remove any residues. \n 4. Optionally, apply a protective sealant or coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 5318527.0,
+      "density": 35909.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2553826.0,
+      "formation_energy_per_atom": -22307.0,
+      "decomposition_energy_per_atom": -978.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -51.0,
+      "decomposition_energy_mp": -985.0,
+      "decomposition_energy_mp_oqmd": -979.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e005db6c6a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.751684Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2O24Pa2S6.json",
+      "material://Fe2O24Pa2S6"
+    ]
+  }
+}

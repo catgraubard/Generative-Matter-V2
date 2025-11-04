@@ -1,0 +1,118 @@
+{
+  "id": "Bi3Sn3Tb9Y1",
+  "uri": "material://Bi3Sn3Tb9Y1",
+  "composition": {
+    "formula": "Bi3Sn3Tb9Y1",
+    "elements": {
+      "Bi": 3,
+      "Sn": 3,
+      "Tb": 9,
+      "Y": 1
+    },
+    "reduced_formula": "Tb9Y(SnBi)3",
+    "element_list": [
+      "Y",
+      "Sn",
+      "Tb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "BaO: 7.0 g \n NiO: 4.0 g \n Se: 12.0 g \n SrO: 1.0 g \n Total: 24.0 g"
+    },
+    "sourcing": {
+      "instructions": "BaO: Chemical suppliers, online chemical retailers \n NiO: Chemical suppliers, online chemical retailers \n Se: Specialty material suppliers, online suppliers \n SrO: Chemical suppliers, online chemical retailers",
+      "steps": [
+        "BaO: Chemical suppliers, online chemical retailers",
+        "NiO: Chemical suppliers, online chemical retailers",
+        "Se: Specialty material suppliers, online suppliers",
+        "SrO: Chemical suppliers, online chemical retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, add BaO, NiO, Se, and SrO in the order listed.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform color and texture is achieved.",
+        "4. Transfer the mixed powders into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, add BaO, NiO, Se, and SrO in the order listed. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform color and texture is achieved. \n 4. Transfer the mixed powders into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1000 °C.",
+        "2. Place the crucible with the mixed powders into the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000 °C. \n 2. Place the crucible with the mixed powders into the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours).",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours). \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable ceramic sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into the dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable ceramic sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4691903.0,
+      "density": 88561.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -835094.0,
+      "formation_energy_per_atom": -7272.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -77.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af53ab7894",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.999349Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3Sn3Tb9Y1.json",
+      "material://Bi3Sn3Tb9Y1"
+    ]
+  }
+}

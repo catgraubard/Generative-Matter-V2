@@ -1,0 +1,116 @@
+{
+  "id": "B1Ni6P1Si1",
+  "uri": "material://B1Ni6P1Si1",
+  "composition": {
+    "formula": "B1Ni6P1Si1",
+    "elements": {
+      "B": 1,
+      "Ni": 6,
+      "P": 1,
+      "Si": 1
+    },
+    "reduced_formula": "SiNi6BP",
+    "element_list": [
+      "B",
+      "Si",
+      "P",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "B (Boron): 6.00 g \n Ni (Nickel): 36.00 g \n P (Phosphorus): 1.00 g \n Si (Silicon): 6.00 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich) \n Ni (Nickel): Metal suppliers or online marketplaces (e.g., McMaster-Carr) \n P (Phosphorus): Chemical suppliers or online marketplaces (e.g., Alfa Aesar) \n Si (Silicon): Electronics suppliers or online marketplaces (e.g., Amazon)",
+      "steps": [
+        "B (Boron): Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich)",
+        "Ni (Nickel): Metal suppliers or online marketplaces (e.g., McMaster-Carr)",
+        "P (Phosphorus): Chemical suppliers or online marketplaces (e.g., Alfa Aesar)",
+        "Si (Silicon): Electronics suppliers or online marketplaces (e.g., Amazon)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 6.00 g of Boron powder using an analytical scale.",
+        "2. Measure 36.00 g of Nickel powder.",
+        "3. Measure 1.00 g of Phosphorus powder.",
+        "4. Measure 6.00 g of Silicon powder.",
+        "5. Combine all measured powders in a clean, dry mixing container.",
+        "6. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Measure 6.00 g of Boron powder using an analytical scale. \n 2. Measure 36.00 g of Nickel powder. \n 3. Measure 1.00 g of Phosphorus powder. \n 4. Measure 6.00 g of Silicon powder. \n 5. Combine all measured powders in a clean, dry mixing container. \n 6. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 1200°C (2192°F) at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 1200°C (2192°F) at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. This may take 6-8 hours. Do not open the furnace door until fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. This may take 6-8 hours. Do not open the furnace door until fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample has cooled, carefully remove it from the crucible.",
+        "2. Inspect the sample for any surface defects.",
+        "3. If necessary, use a diamond file or sandpaper (grit 400) to smooth out rough edges.",
+        "4. Optionally, apply a thin layer of sealant to protect the surface from oxidation if required.",
+        "5. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours at room temperature)."
+      ],
+      "raw_text": "1. Once the sample has cooled, carefully remove it from the crucible. \n 2. Inspect the sample for any surface defects. \n 3. If necessary, use a diamond file or sandpaper (grit 400) to smooth out rough edges. \n 4. Optionally, apply a thin layer of sealant to protect the surface from oxidation if required. \n 5. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours at room temperature)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 922377.0,
+      "density": 75977.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -563537.0,
+      "formation_energy_per_atom": -4617.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -164.0,
+      "decomposition_energy_mp_oqmd": -147.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "539cd61dda",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.314593Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B1Ni6P1Si1.json",
+      "material://B1Ni6P1Si1"
+    ]
+  }
+}

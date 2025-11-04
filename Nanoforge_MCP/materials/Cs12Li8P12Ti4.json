@@ -1,0 +1,134 @@
+{
+  "id": "Cs12Li8P12Ti4",
+  "uri": "material://Cs12Li8P12Ti4",
+  "composition": {
+    "formula": "Cs12Li8P12Ti4",
+    "elements": {
+      "Cs": 12,
+      "Li": 8,
+      "P": 12,
+      "Ti": 4
+    },
+    "reduced_formula": "Cs3Li2TiP3",
+    "element_list": [
+      "Li",
+      "P",
+      "Ti",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 11.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 18.0 g \n Li: 11.0 g \n P: 60.0 g \n Ti: 25.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Specialty chemical suppliers or online marketplaces like Sigma-Aldrich. \n Li (Lithium): Chemical suppliers or battery material suppliers. \n P (Phosphorus): Chemical supply stores or online suppliers. \n Ti (Titanium): Metal suppliers or online marketplaces like McMaster-Carr.",
+      "steps": [
+        "Cs (Cesium): Specialty chemical suppliers or online marketplaces like Sigma-Aldrich.",
+        "Li (Lithium): Chemical suppliers or battery material suppliers.",
+        "P (Phosphorus): Chemical supply stores or online suppliers.",
+        "Ti (Titanium): Metal suppliers or online marketplaces like McMaster-Carr."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 18.0 g of Cs using an analytical balance.",
+        "2. Weigh out 11.0 g of Li.",
+        "3. Weigh out 60.0 g of P.",
+        "4. Weigh out 25.0 g of Ti.",
+        "5. In a clean, dry mixing container, combine all measured ingredients.",
+        "6. Use a mortar and pestle to thoroughly mix the powders until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 18.0 g of Cs using an analytical balance. \n 2. Weigh out 11.0 g of Li. \n 3. Weigh out 60.0 g of P. \n 4. Weigh out 25.0 g of Ti. \n 5. In a clean, dry mixing container, combine all measured ingredients. \n 6. Use a mortar and pestle to thoroughly mix the powders until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat in a furnace to 800°C (1472°F) for 2 hours.",
+        "3. Ensure uniform heating by rotating the crucible halfway through the heating period."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat in a furnace to 800°C (1472°F) for 2 hours. \n 3. Ensure uniform heating by rotating the crucible halfway through the heating period."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over 6 hours to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over 6 hours to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. If necessary, use a diamond saw to cut the sample to the final dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. If needed, apply a sealant to protect the surface of the material."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. If necessary, use a diamond saw to cut the sample to the final dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. If needed, apply a sealant to protect the surface of the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10404174.0,
+      "density": 35329.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmce",
+      "space_group_number": 64,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1449156.0,
+      "formation_energy_per_atom": -621.0,
+      "decomposition_energy_per_atom": -383.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -347.0,
+      "decomposition_energy_mp": -383.0,
+      "decomposition_energy_mp_oqmd": -354.0
+    },
+    "electronic": {
+      "bandgap": 0.8152,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5c166d463f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:16.312368Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Li8P12Ti4.json",
+      "material://Cs12Li8P12Ti4"
+    ]
+  }
+}

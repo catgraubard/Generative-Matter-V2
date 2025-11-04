@@ -1,0 +1,112 @@
+{
+  "id": "Hg2O24Pr4Se8",
+  "uri": "material://Hg2O24Pr4Se8",
+  "composition": {
+    "formula": "Hg2O24Pr4Se8",
+    "elements": {
+      "Hg": 2,
+      "O": 24,
+      "Pr": 4,
+      "Se": 8
+    },
+    "reduced_formula": "Pr2Hg(SeO3)4",
+    "element_list": [
+      "O",
+      "Se",
+      "Pr",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Mercury(II) oxide (HgO): 200 g  \n- Praseodymium(III) selenide (Pr2Se3): 150 g  \n- Selenium (Se): 100 g  \n- Inert gas (Argon or Nitrogen): Sufficient for an inert atmosphere during synthesis"
+    },
+    "sourcing": {
+      "instructions": "- Mercury(II) oxide (HgO): Chemical supply companies (e.g., Sigma-Aldrich, Thermo Fisher). \n- Praseodymium(III) selenide (Pr2Se3): Specialized rare earth suppliers or online platforms. \n- Selenium (Se): Chemical suppliers or online platforms. \n- Inert gas: Local gas suppliers or welding supply stores.",
+      "steps": [
+        "- Mercury(II) oxide (HgO): Chemical supply companies (e.g., Sigma-Aldrich, Thermo Fisher).",
+        "- Praseodymium(III) selenide (Pr2Se3): Specialized rare earth suppliers or online platforms.",
+        "- Selenium (Se): Chemical suppliers or online platforms.",
+        "- Inert gas: Local gas suppliers or welding supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 200 g of HgO and 150 g of Pr2Se3 using a precision scale.",
+        "2. In a separate container, measure 100 g of Se.",
+        "3. Combine the measured HgO, Pr2Se3, and Se in a ceramic or quartz crucible.",
+        "4. Stir the mixture thoroughly to ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. In a fume hood, measure 200 g of HgO and 150 g of Pr2Se3 using a precision scale. \n 2. In a separate container, measure 100 g of Se. \n 3. Combine the measured HgO, Pr2Se3, and Se in a ceramic or quartz crucible. \n 4. Stir the mixture thoroughly to ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture gradually to 600°C at a rate of 10°C/minute.",
+        "3. Maintain the temperature at 600°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture gradually to 600°C at a rate of 10°C/minute. \n 3. Maintain the temperature at 600°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) without opening the furnace door.",
+        "2. The cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) without opening the furnace door. \n 2. The cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a soft brush to clean any loose material from the sample.",
+        "3. If necessary, use fine grit sandpaper to smooth the surface of the solid sample.",
+        "4. Seal the sample with a suitable protective coating to prevent oxidation or degradation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a soft brush to clean any loose material from the sample. \n 3. If necessary, use fine grit sandpaper to smooth the surface of the solid sample. \n 4. Seal the sample with a suitable protective coating to prevent oxidation or degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6767712.0,
+      "density": 48593.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2413122.0,
+      "formation_energy_per_atom": -19701.0,
+      "decomposition_energy_per_atom": -62.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -29.0,
+      "decomposition_energy_mp": -69.0,
+      "decomposition_energy_mp_oqmd": -29.0
+    },
+    "electronic": {
+      "bandgap": 2.8532,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "692d3938a6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:33.307617Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg2O24Pr4Se8.json",
+      "material://Hg2O24Pr4Se8"
+    ]
+  }
+}

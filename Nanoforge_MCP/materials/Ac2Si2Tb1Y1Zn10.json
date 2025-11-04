@@ -1,0 +1,134 @@
+{
+  "id": "Ac2Si2Tb1Y1Zn10",
+  "uri": "material://Ac2Si2Tb1Y1Zn10",
+  "composition": {
+    "formula": "Ac2Si2Tb1Y1Zn10",
+    "elements": {
+      "Ac": 2,
+      "Si": 2,
+      "Tb": 1,
+      "Y": 1,
+      "Zn": 10
+    },
+    "reduced_formula": "Ac2TbY(Zn5Si)2",
+    "element_list": [
+      "Si",
+      "Zn",
+      "Y",
+      "Tb",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 20.00 g \n Ni: 320.00 g \n P: 48.00 g \n Sc: 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Purchase from a chemical supply store or online vendor specializing in metals. \n Ni: Obtain from a reputable metal supplier. \n P: Source from a chemical supplier. \n Sc: Acquire from specialized chemical vendors or online marketplaces.",
+      "steps": [
+        "Mo: Purchase from a chemical supply store or online vendor specializing in metals.",
+        "Ni: Obtain from a reputable metal supplier.",
+        "P: Source from a chemical supplier.",
+        "Sc: Acquire from specialized chemical vendors or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using an electronic scale.",
+        "2. In a clean, dry container, sequentially add the measured amounts of Mo, Ni, P, and Sc.",
+        "3. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved.",
+        "4. Transfer the powder to a ball mill and mill for 1 hour to ensure uniformity."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using an electronic scale. \n 2. In a clean, dry container, sequentially add the measured amounts of Mo, Ni, P, and Sc. \n 3. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved. \n 4. Transfer the powder to a ball mill and mill for 1 hour to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Once the temperature is reached, place the container with the mixed powder into the furnace.",
+        "3. Maintain the temperature for 4 hours to facilitate reaction and fusion of the materials."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Once the temperature is reached, place the container with the mixed powder into the furnace. \n 3. Maintain the temperature for 4 hours to facilitate reaction and fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until fully cooled to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until fully cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace and inspect for uniformity.",
+        "2. If surface roughness is present, use sandpaper (grit 400) to smooth out the surface.",
+        "3. Optionally, apply a sealant to protect the surface from environmental factors.",
+        "4. Store the final product in a dry, sealed container."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace and inspect for uniformity. \n 2. If surface roughness is present, use sandpaper (grit 400) to smooth out the surface. \n 3. Optionally, apply a sealant to protect the surface from environmental factors. \n 4. Store the final product in a dry, sealed container."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3240044.0,
+      "density": 7237.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -496793.0,
+      "formation_energy_per_atom": -4305.0,
+      "decomposition_energy_per_atom": -621.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -105.0,
+      "decomposition_energy_mp": -62.0,
+      "decomposition_energy_mp_oqmd": -281.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e55d42c1ec",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.039342Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac2Si2Tb1Y1Zn10.json",
+      "material://Ac2Si2Tb1Y1Zn10"
+    ]
+  }
+}

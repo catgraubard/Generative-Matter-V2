@@ -1,0 +1,114 @@
+{
+  "id": "K12Nb1Te16V3",
+  "uri": "material://K12Nb1Te16V3",
+  "composition": {
+    "formula": "K12Nb1Te16V3",
+    "elements": {
+      "K": 12,
+      "Nb": 1,
+      "Te": 16,
+      "V": 3
+    },
+    "reduced_formula": "K12NbV3Te16",
+    "element_list": [
+      "K",
+      "V",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 120 g; Nb: 80 g; Te: 160 g; V: 30 g; Total: 390 g"
+    },
+    "sourcing": {
+      "instructions": "K (Potassium): Chemical supply stores; Nb (Niobium): Specialty metal suppliers; Te (Tellurium): Chemical supply stores; V (Vanadium): Metal suppliers",
+      "steps": [
+        "K (Potassium): Chemical supply stores; Nb (Niobium): Specialty metal suppliers; Te (Tellurium): Chemical supply stores; V (Vanadium): Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry glass container, combine the weighed K, Nb, Te, and V.",
+        "3. Use a mortar and pestle to finely grind the mixture until homogenous.",
+        "4. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry glass container, combine the weighed K, Nb, Te, and V. \n 3. Use a mortar and pestle to finely grind the mixture until homogenous. \n 4. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture gradually to 800 °C at a rate of 100 °C per hour.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture gradually to 800 °C at a rate of 100 °C per hour. \n 3. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. This process may take 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. This process may take 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use sandpaper (grit 400-600) to smoothen the surface.",
+        "4. Optionally, apply a sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. Use sandpaper (grit 400-600) to smoothen the surface. \n 4. Optionally, apply a sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 12736079.0,
+      "density": 3594.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -132066.0,
+      "formation_energy_per_atom": -9717.0,
+      "decomposition_energy_per_atom": -308.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -298.0,
+      "decomposition_energy_mp_oqmd": -277.0
+    },
+    "electronic": {
+      "bandgap": 0.6921,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0cc8280594",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:32.489558Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K12Nb1Te16V3.json",
+      "material://K12Nb1Te16V3"
+    ]
+  }
+}

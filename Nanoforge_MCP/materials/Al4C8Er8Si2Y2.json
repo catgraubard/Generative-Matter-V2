@@ -1,0 +1,140 @@
+{
+  "id": "Al4C8Er8Si2Y2",
+  "uri": "material://Al4C8Er8Si2Y2",
+  "composition": {
+    "formula": "Al4C8Er8Si2Y2",
+    "elements": {
+      "Al": 4,
+      "C": 8,
+      "Er": 8,
+      "Si": 2,
+      "Y": 2
+    },
+    "reduced_formula": "YEr4Al2SiC4",
+    "element_list": [
+      "C",
+      "Al",
+      "Si",
+      "Y",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 192.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 288.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 192 g \n Mg: 12 g \n P: 288 g \n Ru: 72 g \n Y: 48 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Available from chemical suppliers or online (e.g., Sigma-Aldrich) \n Mg (Magnesium): Metal supply stores or online \n P (Phosphorus): Chemical suppliers \n Ru (Ruthenium): Precious metal suppliers \n Y (Yttrium): Metal supply stores or online",
+      "steps": [
+        "Co (Cobalt): Available from chemical suppliers or online (e.g., Sigma-Aldrich)",
+        "Mg (Magnesium): Metal supply stores or online",
+        "P (Phosphorus): Chemical suppliers",
+        "Ru (Ruthenium): Precious metal suppliers",
+        "Y (Yttrium): Metal supply stores or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Co, Mg, P, Ru, and Y.",
+        "3. Stir the mixture thoroughly to ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine Co, Mg, P, Ru, and Y. \n 3. Stir the mixture thoroughly to ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 1200°C (2192°F) at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 1200°C (2192°F) at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over 4-6 hours.",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over 4-6 hours. \n 2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder to achieve the desired surface finish.",
+        "3. Optionally, coat the surface with a sealant for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a grinder to achieve the desired surface finish. \n 3. Optionally, coat the surface with a sealant for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3991018.0,
+      "density": 73897.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1611566.0,
+      "formation_energy_per_atom": -5014.0,
+      "decomposition_energy_per_atom": -337.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -337.0,
+      "decomposition_energy_mp_oqmd": -325.0
+    },
+    "electronic": {
+      "bandgap": 0.0039,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b8968ef088",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.824490Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al4C8Er8Si2Y2.json",
+      "material://Al4C8Er8Si2Y2"
+    ]
+  }
+}

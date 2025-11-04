@@ -1,0 +1,116 @@
+{
+  "id": "Cs4Nd2Pr2Se16Si4",
+  "uri": "material://Cs4Nd2Pr2Se16Si4",
+  "composition": {
+    "formula": "Cs4Nd2Pr2Se16Si4",
+    "elements": {
+      "Cs": 4,
+      "Nd": 2,
+      "Pr": 2,
+      "Se": 16,
+      "Si": 4
+    },
+    "reduced_formula": "Cs2PrNd(SiSe4)2",
+    "element_list": [
+      "Si",
+      "Se",
+      "Cs",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 100 g, Nd: 50 g, Pr: 50 g, Se: 64 g, Si: 20 g (Total: 284 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Nd: Rare earth suppliers; Pr: Rare earth suppliers; Se: Chemical suppliers; Si: Electronics or chemical suppliers.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Nd: Rare earth suppliers; Pr: Rare earth suppliers; Se: Chemical suppliers; Si: Electronics or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry container, combine Cs, Nd, Pr, Se, and Si in the specified proportions.",
+        "3. Mix thoroughly using a mortar and pestle or mechanical mixer until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry container, combine Cs, Nd, Pr, Se, and Si in the specified proportions. \n 3. Mix thoroughly using a mortar and pestle or mechanical mixer until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 1000 °C for 2 hours to promote solid-state reaction.",
+        "3. Ensure the furnace is calibrated, and use a controlled heating rate of 10 °C/min."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 1000 °C for 2 hours to promote solid-state reaction. \n 3. Ensure the furnace is calibrated, and use a controlled heating rate of 10 °C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature over a period of 6 hours.",
+        "2. Avoid opening the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature over a period of 6 hours. \n 2. Avoid opening the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand down uneven areas using fine-grit sandpaper.",
+        "4. Optionally, apply a sealing agent to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand down uneven areas using fine-grit sandpaper. \n 4. Optionally, apply a sealing agent to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9224327.0,
+      "density": 44602.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1433546.0,
+      "formation_energy_per_atom": -15371.0,
+      "decomposition_energy_per_atom": -418.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -418.0,
+      "decomposition_energy_mp_oqmd": -386.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "855fe2f731",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:10.642707Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Nd2Pr2Se16Si4.json",
+      "material://Cs4Nd2Pr2Se16Si4"
+    ]
+  }
+}

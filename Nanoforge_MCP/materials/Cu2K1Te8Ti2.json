@@ -1,0 +1,139 @@
+{
+  "id": "Cu2K1Te8Ti2",
+  "uri": "material://Cu2K1Te8Ti2",
+  "composition": {
+    "formula": "Cu2K1Te8Ti2",
+    "elements": {
+      "Cu": 2,
+      "K": 1,
+      "Te": 8,
+      "Ti": 2
+    },
+    "reduced_formula": "KTi2(CuTe4)2",
+    "element_list": [
+      "K",
+      "Ti",
+      "Cu",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ce",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 10.00 g \n Ce: 20.00 g \n Hg: 5.00 g \n Ru: 15.00 g \n Y: 25.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cd can be sourced from chemical suppliers or online stores specializing in metals. \n Ce can be obtained from rare earth metal suppliers. \n Hg can be sourced from chemical supply companies but handle with care due to toxicity. \n Ru can be purchased from precious metal suppliers. \n Y can be found at rare earth element suppliers.",
+      "steps": [
+        "Cd can be sourced from chemical suppliers or online stores specializing in metals.",
+        "Ce can be obtained from rare earth metal suppliers.",
+        "Hg can be sourced from chemical supply companies but handle with care due to toxicity.",
+        "Ru can be purchased from precious metal suppliers.",
+        "Y can be found at rare earth element suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate personal protective equipment (gloves, goggles, lab coat).",
+        "2. Measure each ingredient accurately using a digital scale.",
+        "3. In a clean, dry mixing container, add Cd, followed by Ce, Hg, Ru, and finally Y.",
+        "4. Use a mechanical stirrer to mix the powders thoroughly for at least 10 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Wear appropriate personal protective equipment (gloves, goggles, lab coat). \n 2. Measure each ingredient accurately using a digital scale. \n 3. In a clean, dry mixing container, add Cd, followed by Ce, Hg, Ru, and finally Y. \n 4. Use a mechanical stirrer to mix the powders thoroughly for at least 10 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a vacuum furnace at 800°C for 2 hours to ensure proper bonding of the elements.",
+        "3. Increase the temperature to 1000°C for an additional 1 hour to achieve complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a vacuum furnace at 800°C for 2 hours to ensure proper bonding of the elements. \n 3. Increase the temperature to 1000°C for an additional 1 hour to achieve complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature.",
+        "2. This should take approximately 4-6 hours.",
+        "3. Ensure the furnace is not opened until fully cooled to prevent oxidation of the material."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature. \n 2. This should take approximately 4-6 hours. \n 3. Ensure the furnace is not opened until fully cooled to prevent oxidation of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the sample from the crucible carefully using appropriate tools.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface to achieve the desired finish.",
+        "4. Optionally, apply a sealant to protect the surface from environmental factors."
+      ],
+      "raw_text": "1. After cooling, remove the sample from the crucible carefully using appropriate tools. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface to achieve the desired finish. \n 4. Optionally, apply a sealant to protect the surface from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 4001339.0,
+      "density": 53233.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -601739.0,
+      "formation_energy_per_atom": -7637.0,
+      "decomposition_energy_per_atom": -318.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -184.0,
+      "decomposition_energy_mp": -306.0,
+      "decomposition_energy_mp_oqmd": -254.0
+    },
+    "electronic": {
+      "bandgap": 0.0126,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dbcb8d0ca2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.494082Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2K1Te8Ti2.json",
+      "material://Cu2K1Te8Ti2"
+    ]
+  }
+}

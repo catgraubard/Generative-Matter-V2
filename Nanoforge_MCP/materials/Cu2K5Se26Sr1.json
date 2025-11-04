@@ -1,0 +1,114 @@
+{
+  "id": "Cu2K5Se26Sr1",
+  "uri": "material://Cu2K5Se26Sr1",
+  "composition": {
+    "formula": "Cu2K5Se26Sr1",
+    "elements": {
+      "Cu": 2,
+      "K": 5,
+      "Se": 26,
+      "Sr": 1
+    },
+    "reduced_formula": "K5Sr(CuSe13)2",
+    "element_list": [
+      "K",
+      "Cu",
+      "Se",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50 g, K: 25 g, Se: 100 g, Sr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Cu (Copper) - Obtain from a metals supplier or electronics store. K (Potassium) - Purchase as potassium carbonate from a chemical supplier. Se (Selenium) - Obtain from a chemical supply company. Sr (Strontium) - Acquire strontium carbonate from a chemical supplier.",
+      "steps": [
+        "Cu (Copper) - Obtain from a metals supplier or electronics store. K (Potassium) - Purchase as potassium carbonate from a chemical supplier. Se (Selenium) - Obtain from a chemical supply company. Sr (Strontium) - Acquire strontium carbonate from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Cu, K, Se, and Sr in the specified amounts.",
+        "3. Stir the mixture thoroughly to ensure homogeneity.",
+        "4. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.  \n 2. In a clean, dry container, combine Cu, K, Se, and Sr in the specified amounts. \n 3. Stir the mixture thoroughly to ensure homogeneity. \n 4. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Once the temperature is reached, place the crucible in the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of solid material."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Once the temperature is reached, place the crucible in the furnace. \n 3. Heat for 4 hours to ensure complete reaction and formation of solid material."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Gradually allow the furnace to cool down to room temperature over a period of 6 hours.",
+        "2. Do not open the furnace door until it has fully cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Gradually allow the furnace to cool down to room temperature over a period of 6 hours. \n 2. Do not open the furnace door until it has fully cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully.",
+        "2. Extract the solid sample and clean any residual material with a soft brush.",
+        "3. Optionally, sand the edges to smoothen the surface.",
+        "4. Seal the final product with an appropriate sealant if desired for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully. \n 2. Extract the solid sample and clean any residual material with a soft brush. \n 3. Optionally, sand the edges to smoothen the surface. \n 4. Seal the final product with an appropriate sealant if desired for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 10177845.0,
+      "density": 40187.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1332297.0,
+      "formation_energy_per_atom": -7911.0,
+      "decomposition_energy_per_atom": -1145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -25.0,
+      "decomposition_energy_mp": -1145.0,
+      "decomposition_energy_mp_oqmd": -931.0
+    },
+    "electronic": {
+      "bandgap": 0.0111,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "76b6304b85",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:51.012851Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2K5Se26Sr1.json",
+      "material://Cu2K5Se26Sr1"
+    ]
+  }
+}

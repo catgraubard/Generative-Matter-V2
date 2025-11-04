@@ -1,0 +1,104 @@
+{
+  "id": "Sc1Tb5Tc1Te2",
+  "uri": "material://Sc1Tb5Tc1Te2",
+  "composition": {
+    "formula": "Sc1Tb5Tc1Te2",
+    "elements": {
+      "Sc": 1,
+      "Tb": 5,
+      "Tc": 1,
+      "Te": 2
+    },
+    "reduced_formula": "Tb5ScTcTe2",
+    "element_list": [
+      "Sc",
+      "Tc",
+      "Te",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Sc",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Sc: 15 g (Samarium)"
+    },
+    "sourcing": {
+      "instructions": "Sc: Specialty metal suppliers or online elemental suppliers.",
+      "steps": [
+        "Sc: Specialty metal suppliers or online elemental suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material using an analytical balance for precision."
+      ],
+      "raw_text": "1. Measure each material using an analytical balance for precision."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "steps": [
+        "1. Preheat the furnace to 800°C."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow it to cool slowly to room temperature (about 3-4 hours)."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow it to cool slowly to room temperature (about 3-4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the material from the crucible."
+      ],
+      "raw_text": "1. Once cooled, remove the material from the crucible."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2402368.0,
+      "density": 82446.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -53155.0,
+      "formation_energy_per_atom": -7782.0,
+      "decomposition_energy_per_atom": -522.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -517.0,
+      "decomposition_energy_mp_oqmd": -425.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7562db1202",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:49.224271Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Sc1Tb5Tc1Te2.json",
+      "material://Sc1Tb5Tc1Te2"
+    ]
+  }
+}

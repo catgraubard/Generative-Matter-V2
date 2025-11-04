@@ -1,0 +1,113 @@
+{
+  "id": "Al2Bi4Cr2O20Ti4",
+  "uri": "material://Al2Bi4Cr2O20Ti4",
+  "composition": {
+    "formula": "Al2Bi4Cr2O20Ti4",
+    "elements": {
+      "Al": 2,
+      "Bi": 4,
+      "Cr": 2,
+      "O": 20,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2AlCr(BiO5)2",
+    "element_list": [
+      "O",
+      "Al",
+      "Ti",
+      "Cr",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Aluminum Oxide (Al2O3): 12.45 g \n - Bismuth Oxide (Bi2O3): 30.70 g \n - Chromium Oxide (Cr2O3): 5.75 g \n - Titanium Dioxide (TiO2): 14.90 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum Oxide: Purchase from chemical supply stores or online retailers (e.g., Sigma-Aldrich, Fisher Scientific). \n - Bismuth Oxide: Obtain from specialty metal suppliers or online chemical retailers. \n - Chromium Oxide: Accessible from ceramic suppliers or chemical distributors. \n - Titanium Dioxide: Available from paint, coating suppliers or online.",
+      "steps": [
+        "- Aluminum Oxide: Purchase from chemical supply stores or online retailers (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "- Bismuth Oxide: Obtain from specialty metal suppliers or online chemical retailers.",
+        "- Chromium Oxide: Accessible from ceramic suppliers or chemical distributors.",
+        "- Titanium Dioxide: Available from paint, coating suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Aluminum Oxide, Bismuth Oxide, Chromium Oxide, and Titanium Dioxide in the specified amounts.",
+        "3. Using a ceramic mortar and pestle, grind the mixture until a fine, homogeneous powder is achieved.",
+        "4. Transfer the mixed powder to a ball mill for further homogenization for 1 hour."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine Aluminum Oxide, Bismuth Oxide, Chromium Oxide, and Titanium Dioxide in the specified amounts. \n 3. Using a ceramic mortar and pestle, grind the mixture until a fine, homogeneous powder is achieved. \n 4. Transfer the mixed powder to a ball mill for further homogenization for 1 hour."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1,200 °C (2,192 °F).",
+        "2. Place the powder mixture in a high-temperature crucible.",
+        "3. Heat the mixture gradually over 2 hours to reach the target temperature, then maintain this temperature for 4 hours to ensure complete sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1,200 °C (2,192 °F). \n 2. Place the powder mixture in a high-temperature crucible. \n 3. Heat the mixture gradually over 2 hours to reach the target temperature, then maintain this temperature for 4 hours to ensure complete sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool slowly to room temperature (approximately 25 °C) over 8 hours to reduce thermal shock.",
+        "2. Avoid exposing the sample to drafts during cooling."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool slowly to room temperature (approximately 25 °C) over 8 hours to reduce thermal shock. \n 2. Avoid exposing the sample to drafts during cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. Sand the edges and surface with fine-grit sandpaper (e.g., 400 grit) to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable ceramic sealant for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Inspect the sample for any surface imperfections. \n 3. Sand the edges and surface with fine-grit sandpaper (e.g., 400 grit) to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable ceramic sealant for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3900599.0,
+      "density": 64084.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2615782.0,
+      "formation_energy_per_atom": -27712.0,
+      "decomposition_energy_per_atom": -21.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -216.0,
+      "decomposition_energy_mp_oqmd": -214.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "905a6aa135",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:25.466173Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Bi4Cr2O20Ti4.json",
+      "material://Al2Bi4Cr2O20Ti4"
+    ]
+  }
+}

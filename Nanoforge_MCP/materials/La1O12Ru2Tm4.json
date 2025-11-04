@@ -1,0 +1,119 @@
+{
+  "id": "La1O12Ru2Tm4",
+  "uri": "material://La1O12Ru2Tm4",
+  "composition": {
+    "formula": "La1O12Ru2Tm4",
+    "elements": {
+      "La": 1,
+      "O": 12,
+      "Ru": 2,
+      "Tm": 4
+    },
+    "reduced_formula": "LaTm4(RuO6)2",
+    "element_list": [
+      "O",
+      "Ru",
+      "La",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 50 g\nRu: 20 g\nTm2O3: 30 g\nBinder (e.g., PVA): 10 g\nWater: 100 mL"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical suppliers or online marketplaces\nRu: Specialty metal suppliers\nTm2O3: Chemical suppliers\nBinder: Art supply stores or online\nWater: Tap water or distilled water",
+      "steps": [
+        "La2O3: Chemical suppliers or online marketplaces",
+        "Ru: Specialty metal suppliers",
+        "Tm2O3: Chemical suppliers",
+        "Binder: Art supply stores or online",
+        "Water: Tap water or distilled water"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 50 g of La2O3 and 30 g of Tm2O3 and place in a clean mixing container.",
+        "2. Add 20 g of Ru powder to the container.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes.",
+        "4. In a separate container, mix 10 g of PVA binder with 100 mL of water until a homogeneous solution forms.",
+        "5. Slowly add the binder solution to the mixed powders while continuously stirring to ensure even coating."
+      ],
+      "raw_text": "1. Measure 50 g of La2O3 and 30 g of Tm2O3 and place in a clean mixing container.\n2. Add 20 g of Ru powder to the container.\n3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes.\n4. In a separate container, mix 10 g of PVA binder with 100 mL of water until a homogeneous solution forms.\n5. Slowly add the binder solution to the mixed powders while continuously stirring to ensure even coating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Transfer the mixture into a suitable crucible.",
+        "3. Place the crucible in the furnace and hold at 1200 °C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C.\n2. Transfer the mixture into a suitable crucible.\n3. Place the crucible in the furnace and hold at 1200 °C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature over 6 hours.",
+        "2. Do not open the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature over 6 hours.\n2. Do not open the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If needed, sand the surface using fine-grit sandpaper (400 grit) until smooth.",
+        "4. Optionally, seal the surface with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible.\n2. Inspect for any irregularities or rough edges.\n3. If needed, sand the surface using fine-grit sandpaper (400 grit) until smooth.\n4. Optionally, seal the surface with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2499509.0,
+      "density": 80305.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1611922.0,
+      "formation_energy_per_atom": -31804.0,
+      "decomposition_energy_per_atom": -158.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -165.0,
+      "decomposition_energy_mp_oqmd": -163.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3b95e1c93a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:33.980564Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1O12Ru2Tm4.json",
+      "material://La1O12Ru2Tm4"
+    ]
+  }
+}

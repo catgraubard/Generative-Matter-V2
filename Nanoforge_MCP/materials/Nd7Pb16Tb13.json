@@ -1,0 +1,124 @@
+{
+  "id": "Nd7Pb16Tb13",
+  "uri": "material://Nd7Pb16Tb13",
+  "composition": {
+    "formula": "Nd7Pb16Tb13",
+    "elements": {
+      "Nd": 7,
+      "Pb": 16,
+      "Tb": 13
+    },
+    "reduced_formula": "Tb13Nd7Pb16",
+    "element_list": [
+      "Nd",
+      "Tb",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 14.7,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 25.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 14.7 g \n Pb: 32.0 g \n Tb: 25.5 g"
+    },
+    "sourcing": {
+      "instructions": "Nd: Order from a chemical supplier such as Sigma-Aldrich or Alfa Aesar. \n Pb: Obtain from a metal supplier or online marketplace like Amazon or eBay (ensure to use lead in a safe, controlled environment). \n Tb: Purchase from specialized rare earth metal suppliers.",
+      "steps": [
+        "Nd: Order from a chemical supplier such as Sigma-Aldrich or Alfa Aesar.",
+        "Pb: Obtain from a metal supplier or online marketplace like Amazon or eBay (ensure to use lead in a safe, controlled environment).",
+        "Tb: Purchase from specialized rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 14.7 g of Neodymium (Nd), 32.0 g of Lead (Pb), and 25.5 g of Terbium (Tb) using an analytical balance.",
+        "2. Place each metal in a clean, dry ceramic or graphite crucible.",
+        "3. Mix the metals thoroughly using a stirring rod or spatula to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh out 14.7 g of Neodymium (Nd), 32.0 g of Lead (Pb), and 25.5 g of Terbium (Tb) using an analytical balance. \n 2. Place each metal in a clean, dry ceramic or graphite crucible. \n 3. Mix the metals thoroughly using a stirring rod or spatula to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Use a high-temperature furnace capable of reaching at least 1200°C.",
+        "2. Heat the crucible containing the mixed materials gradually to 1200°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for a duration of 2 hours to ensure complete melting and mixing of the metals."
+      ],
+      "raw_text": "1. Use a high-temperature furnace capable of reaching at least 1200°C. \n 2. Heat the crucible containing the mixed materials gradually to 1200°C at a rate of 5°C/min. \n 3. Maintain the temperature for a duration of 2 hours to ensure complete melting and mixing of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool slowly inside the furnace to room temperature (approximately 25°C).",
+        "2. This process should take about 6-8 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool slowly inside the furnace to room temperature (approximately 25°C). \n 2. This process should take about 6-8 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect the surface for any imperfections.",
+        "3. If necessary, sand down any rough edges with fine-grit sandpaper (200-400 grit).",
+        "4. Optionally, apply a sealant to enhance surface integrity if the material will be exposed to the atmosphere."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect the surface for any imperfections. \n 3. If necessary, sand down any rough edges with fine-grit sandpaper (200-400 grit). \n 4. Optionally, apply a sealant to enhance surface integrity if the material will be exposed to the atmosphere."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10919708.0,
+      "density": 97186.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1738053.0,
+      "formation_energy_per_atom": -5772.0,
+      "decomposition_energy_per_atom": -237.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -182.0,
+      "decomposition_energy_mp": -237.0,
+      "decomposition_energy_mp_oqmd": -237.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9282bd6e82",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:28.328886Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd7Pb16Tb13.json",
+      "material://Nd7Pb16Tb13"
+    ]
+  }
+}

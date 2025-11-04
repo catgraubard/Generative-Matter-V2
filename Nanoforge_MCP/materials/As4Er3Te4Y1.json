@@ -1,0 +1,138 @@
+{
+  "id": "As4Er3Te4Y1",
+  "uri": "material://As4Er3Te4Y1",
+  "composition": {
+    "formula": "As4Er3Te4Y1",
+    "elements": {
+      "As": 4,
+      "Er": 3,
+      "Te": 4,
+      "Y": 1
+    },
+    "reduced_formula": "YEr3(TeAs)4",
+    "element_list": [
+      "As",
+      "Y",
+      "Te",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 0.6,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 0.4,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 1.6,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 3.2,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 0.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 0.6 g \n Na: 0.4 g \n Nb: 1.6 g \n Se: 3.2 g \n Tl: 0.4 g"
+    },
+    "sourcing": {
+      "instructions": "K (Potassium): Chemical suppliers or online stores specializing in laboratory-grade chemicals. \n Na (Sodium): Chemical suppliers or online stores specializing in laboratory-grade chemicals. \n Nb (Niobium): Specialty metal suppliers or online metallurgical supply stores. \n Se (Selenium): Chemical suppliers or online stores specializing in laboratory-grade chemicals. \n Tl (Thallium): Specialty metal suppliers or chemical suppliers with a focus on rare elements.",
+      "steps": [
+        "K (Potassium): Chemical suppliers or online stores specializing in laboratory-grade chemicals.",
+        "Na (Sodium): Chemical suppliers or online stores specializing in laboratory-grade chemicals.",
+        "Nb (Niobium): Specialty metal suppliers or online metallurgical supply stores.",
+        "Se (Selenium): Chemical suppliers or online stores specializing in laboratory-grade chemicals.",
+        "Tl (Thallium): Specialty metal suppliers or chemical suppliers with a focus on rare elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using an analytical balance for precision.",
+        "2. In a clean, dry mixing container, combine K, Na, Nb, Se, and Tl in their respective amounts.",
+        "3. Use a spatula to thoroughly mix the dry powders until homogenous. Ensure there are no clumps.",
+        "4. Transfer the mixed powder into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh out each ingredient using an analytical balance for precision. \n 2. In a clean, dry mixing container, combine K, Na, Nb, Se, and Tl in their respective amounts. \n 3. Use a spatula to thoroughly mix the dry powders until homogenous. Ensure there are no clumps. \n 4. Transfer the mixed powder into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the ceramic crucible in a muffle furnace.",
+        "2. Set the furnace temperature to 1000°C.",
+        "3. Heat the mixture for 4 hours to ensure complete melting and reaction of components."
+      ],
+      "raw_text": "1. Place the ceramic crucible in a muffle furnace. \n 2. Set the furnace temperature to 1000°C. \n 3. Heat the mixture for 4 hours to ensure complete melting and reaction of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the surface for any irregularities.",
+        "3. Use sandpaper (grit 600) to gently sand any rough edges or surfaces.",
+        "4. Optionally, apply a sealant suitable for the material to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the surface for any irregularities. \n 3. Use sandpaper (grit 600) to gently sand any rough edges or surfaces. \n 4. Optionally, apply a sealant suitable for the material to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3022094.0,
+      "density": 76968.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -669354.0,
+      "formation_energy_per_atom": -12963.0,
+      "decomposition_energy_per_atom": -401.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": 0.2637,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c12a6157ce",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.471467Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Er3Te4Y1.json",
+      "material://As4Er3Te4Y1"
+    ]
+  }
+}

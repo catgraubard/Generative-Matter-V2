@@ -1,0 +1,113 @@
+{
+  "id": "Co19Nd4P9Si3Tb1",
+  "uri": "material://Co19Nd4P9Si3Tb1",
+  "composition": {
+    "formula": "Co19Nd4P9Si3Tb1",
+    "elements": {
+      "Co": 19,
+      "Nd": 4,
+      "P": 9,
+      "Si": 3,
+      "Tb": 1
+    },
+    "reduced_formula": "TbNd4Co19(SiP3)3",
+    "element_list": [
+      "Si",
+      "P",
+      "Co",
+      "Nd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 25 g, Fe: 50 g, Pr: 10 g, Tm: 5 g, Y: 75 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store, Fe: Metal supplier, Pr: Rare earth supplier, Tm: Rare earth supplier, Y: Chemical supply store",
+      "steps": [
+        "B: Chemical supply store, Fe: Metal supplier, Pr: Rare earth supplier, Tm: Rare earth supplier, Y: Chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry container, combine 25 g of B, 50 g of Fe, 10 g of Pr, 5 g of Tm, and 75 g of Y.",
+        "3. Use a mechanical mixer for 10 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry container, combine 25 g of B, 50 g of Fe, 10 g of Pr, 5 g of Tm, and 75 g of Y. \n 3. Use a mechanical mixer for 10 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed ingredients into a crucible.",
+        "2. Heat in a furnace at 1200°C for 2 hours. Ensure a controlled atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients into a crucible. \n 2. Heat in a furnace at 1200°C for 2 hours. Ensure a controlled atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool gradually inside the furnace to room temperature over 6 hours.",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Allow the crucible to cool gradually inside the furnace to room temperature over 6 hours. \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and check for any imperfections.",
+        "2. If necessary, sand the surfaces with fine grit sandpaper (600 grit) to achieve a smooth finish.",
+        "3. Optionally, seal the surface with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and check for any imperfections. \n 2. If necessary, sand the surfaces with fine grit sandpaper (600 grit) to achieve a smooth finish. \n 3. Optionally, seal the surface with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4774756.0,
+      "density": 77159.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2520287.0,
+      "formation_energy_per_atom": -7852.0,
+      "decomposition_energy_per_atom": -65.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -64.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 0.0,
+      "bandgap_type": "metal"
+    },
+    "metadata": {
+      "material_id": "dfc18e0e13",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.629016Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co19Nd4P9Si3Tb1.json",
+      "material://Co19Nd4P9Si3Tb1"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Eu10Ge4Sn2",
+  "uri": "material://Eu10Ge4Sn2",
+  "composition": {
+    "formula": "Eu10Ge4Sn2",
+    "elements": {
+      "Eu": 10,
+      "Ge": 4,
+      "Sn": 2
+    },
+    "reduced_formula": "Eu5SnGe2",
+    "element_list": [
+      "Ge",
+      "Sn",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 8.9,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 8.9 g, Ni: 238 g, Sc: 36 g, Si: 84 g"
+    },
+    "sourcing": {
+      "instructions": "Ga: Purchase from a specialized metals supplier; Ni: Obtain from an industrial metal distributor; Sc: Source from a rare earth metals supplier; Si: Available at chemical supply stores.",
+      "steps": [
+        "Ga: Purchase from a specialized metals supplier; Ni: Obtain from an industrial metal distributor; Sc: Source from a rare earth metals supplier; Si: Available at chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of Ga, Ni, Sc, and Si using an analytical balance.",
+        "2. In a fume hood, combine the weighed Ga, Ni, Sc, and Si in a clean, dry crucible.",
+        "3. Mix the powders thoroughly using a spatula to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of Ga, Ni, Sc, and Si using an analytical balance. \n 2. In a fume hood, combine the weighed Ga, Ni, Sc, and Si in a clean, dry crucible. \n 3. Mix the powders thoroughly using a spatula to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat gradually to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat gradually to 1200 °C at a rate of 10 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled below 300 °C to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled below 300 °C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand down rough edges using fine-grit sandpaper.",
+        "4. Optionally, apply a protective sealant to enhance surface finish and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, sand down rough edges using fine-grit sandpaper. \n 4. Optionally, apply a protective sealant to enhance surface finish and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4921069.0,
+      "density": 69094.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1399724.0,
+      "formation_energy_per_atom": -6588.0,
+      "decomposition_energy_per_atom": -339.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -199.0,
+      "decomposition_energy_mp": -339.0,
+      "decomposition_energy_mp_oqmd": -199.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "abbec8ecbb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:03.809053Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Eu10Ge4Sn2.json",
+      "material://Eu10Ge4Sn2"
+    ]
+  }
+}

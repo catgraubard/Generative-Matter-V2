@@ -1,0 +1,127 @@
+{
+  "id": "Fe1Ni3Sb8Tm20",
+  "uri": "material://Fe1Ni3Sb8Tm20",
+  "composition": {
+    "formula": "Fe1Ni3Sb8Tm20",
+    "elements": {
+      "Fe": 1,
+      "Ni": 3,
+      "Sb": 8,
+      "Tm": 20
+    },
+    "reduced_formula": "Tm20FeNi3Sb8",
+    "element_list": [
+      "Fe",
+      "Ni",
+      "Sb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 72.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 50.0 g \n P: 32.0 g \n Ti: 72.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Purchase from a metal supplier or online chemical vendor. \n P: Obtain phosphorus from a chemical supply store. \n Ti: Source titanium from a metal supplier or specialty chemical distributor.",
+      "steps": [
+        "Nb: Purchase from a metal supplier or online chemical vendor.",
+        "P: Obtain phosphorus from a chemical supply store.",
+        "Ti: Source titanium from a metal supplier or specialty chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 50.0 g of niobium (Nb).",
+        "2. Weigh out 32.0 g of phosphorus (P).",
+        "3. Weigh out 72.0 g of titanium (Ti).",
+        "4. Combine all three materials in a high-purity ceramic or graphite crucible.",
+        "5. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 30 minutes to achieve a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out 50.0 g of niobium (Nb). \n 2. Weigh out 32.0 g of phosphorus (P). \n 3. Weigh out 72.0 g of titanium (Ti). \n 4. Combine all three materials in a high-purity ceramic or graphite crucible. \n 5. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 30 minutes to achieve a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Set the furnace temperature to 1200°C.",
+        "3. Allow the mixture to heat for 4 hours to ensure complete reaction and formation of Nb5P8Ti9."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Set the furnace temperature to 1200°C. \n 3. Allow the mixture to heat for 4 hours to ensure complete reaction and formation of Nb5P8Ti9."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure the crucible is left undisturbed for at least 6 hours during cooling to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure the crucible is left undisturbed for at least 6 hours during cooling to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation or corrosion."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. If necessary, use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface from oxidation or corrosion."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 8164356.0,
+      "density": 93247.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1721843.0,
+      "formation_energy_per_atom": -7445.0,
+      "decomposition_energy_per_atom": -144.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -144.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dfca7edd12",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.637020Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ni3Sb8Tm20.json",
+      "material://Fe1Ni3Sb8Tm20"
+    ]
+  }
+}

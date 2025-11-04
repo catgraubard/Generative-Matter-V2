@@ -1,0 +1,124 @@
+{
+  "id": "Si2Tb2Te1",
+  "uri": "material://Si2Tb2Te1",
+  "composition": {
+    "formula": "Si2Tb2Te1",
+    "elements": {
+      "Si": 2,
+      "Tb": 2,
+      "Te": 1
+    },
+    "reduced_formula": "Tb2Si2Te",
+    "element_list": [
+      "Si",
+      "Te",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 120 g \n Tb: 80 g \n Te: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Si (Silicon) - Obtain from a chemical supply store or online supplier. \n Tb (Terbium) - Purchase from a rare earth metal supplier or online. \n Te (Tellurium) - Available from chemical suppliers or online.",
+      "steps": [
+        "Si (Silicon) - Obtain from a chemical supply store or online supplier.",
+        "Tb (Terbium) - Purchase from a rare earth metal supplier or online.",
+        "Te (Tellurium) - Available from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 120 g of Si, 80 g of Tb, and 40 g of Te using an accurate scale.",
+        "2. In a clean, dry container, combine the weighed Si, Tb, and Te.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powdered mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 120 g of Si, 80 g of Tb, and 40 g of Te using an accurate scale. \n 2. In a clean, dry container, combine the weighed Si, Tb, and Te. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Transfer the powdered mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the ceramic crucible in a furnace.",
+        "2. Heat the mixture to 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Place the ceramic crucible in a furnace. \n 2. Heat the mixture to 800°C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solidified sample for uniformity and any surface imperfections.",
+        "2. If necessary, use a diamond file or sandpaper to smoothen any rough edges.",
+        "3. Seal the sample with a suitable protective coating (e.g., clear epoxy) to prevent oxidation.",
+        "4. Allow the coating to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Inspect the solidified sample for uniformity and any surface imperfections. \n 2. If necessary, use a diamond file or sandpaper to smoothen any rough edges. \n 3. Seal the sample with a suitable protective coating (e.g., clear epoxy) to prevent oxidation. \n 4. Allow the coating to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1164915.0,
+      "density": 71504.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -285422.0,
+      "formation_energy_per_atom": -10559.0,
+      "decomposition_energy_per_atom": -727.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -719.0,
+      "decomposition_energy_mp_oqmd": -527.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6f9c113b35",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:41.561641Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si2Tb2Te1.json",
+      "material://Si2Tb2Te1"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "Ba1Fe1Mn1Ru2Sb12",
+  "uri": "material://Ba1Fe1Mn1Ru2Sb12",
+  "composition": {
+    "formula": "Ba1Fe1Mn1Ru2Sb12",
+    "elements": {
+      "Ba": 1,
+      "Fe": 1,
+      "Mn": 1,
+      "Ru": 2,
+      "Sb": 12
+    },
+    "reduced_formula": "BaMnFe(Sb6Ru)2",
+    "element_list": [
+      "Mn",
+      "Fe",
+      "Ru",
+      "Sb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 73.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 126.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 10.5 g \n Pr: 73.5 g \n Sc: 126 g \n Si: 180 g \n Tc: 18 g"
+    },
+    "sourcing": {
+      "instructions": "Nd: Rare earth metal suppliers or online vendors \n Pr: Rare earth metal suppliers or online vendors \n Sc: Rare earth metal suppliers \n Si: Silicon suppliers \n Tc: Nuclear material suppliers (check regulations)",
+      "steps": [
+        "Nd: Rare earth metal suppliers or online vendors",
+        "Pr: Rare earth metal suppliers or online vendors",
+        "Sc: Rare earth metal suppliers",
+        "Si: Silicon suppliers",
+        "Tc: Nuclear material suppliers (check regulations)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Nd, Pr, Sc, Si, and Tc in the specified amounts.",
+        "3. Use a high-shear mixer to ensure homogenous blending for 10 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine Nd, Pr, Sc, Si, and Tc in the specified amounts. \n 3. Use a high-shear mixer to ensure homogenous blending for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Transfer the mixed material into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain at 1200°C for 2 hours."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Transfer the mixed material into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and maintain at 1200°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4171159.0,
+      "density": 76092.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -944489.0,
+      "formation_energy_per_atom": -4001.0,
+      "decomposition_energy_per_atom": -936.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -367.0,
+      "decomposition_energy_mp_oqmd": -303.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d391d0f2c1",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.239521Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Fe1Mn1Ru2Sb12.json",
+      "material://Ba1Fe1Mn1Ru2Sb12"
+    ]
+  }
+}

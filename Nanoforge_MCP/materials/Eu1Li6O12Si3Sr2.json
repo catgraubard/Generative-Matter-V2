@@ -1,0 +1,118 @@
+{
+  "id": "Eu1Li6O12Si3Sr2",
+  "uri": "material://Eu1Li6O12Si3Sr2",
+  "composition": {
+    "formula": "Eu1Li6O12Si3Sr2",
+    "elements": {
+      "Eu": 1,
+      "Li": 6,
+      "O": 12,
+      "Si": 3,
+      "Sr": 2
+    },
+    "reduced_formula": "Sr2Li6Eu(SiO4)3",
+    "element_list": [
+      "Li",
+      "O",
+      "Si",
+      "Sr",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd2O3: 100 g \n Pr2O3: 50 g \n S: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Nd2O3: Purchase from a chemical supply company or online marketplace specializing in rare earth materials. \n Pr2O3: Obtain from specialty chemical suppliers or online. \n S: Available at local hardware stores or online as sulfur.",
+      "steps": [
+        "Nd2O3: Purchase from a chemical supply company or online marketplace specializing in rare earth materials.",
+        "Pr2O3: Obtain from specialty chemical suppliers or online.",
+        "S: Available at local hardware stores or online as sulfur."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Nd2O3, 50 g of Pr2O3, and 60 g of sulfur using an analytical balance for precision.",
+        "2. In a fume hood, combine Nd2O3 and Pr2O3 in a ceramic crucible.",
+        "3. Gradually add the sulfur to the mixture while stirring to ensure homogeneity.",
+        "4. Mix thoroughly using a pestle and mortar for about 10 minutes until a uniform powder is obtained."
+      ],
+      "raw_text": "1. Weigh out 100 g of Nd2O3, 50 g of Pr2O3, and 60 g of sulfur using an analytical balance for precision. \n 2. In a fume hood, combine Nd2O3 and Pr2O3 in a ceramic crucible.\n 3. Gradually add the sulfur to the mixture while stirring to ensure homogeneity. \n 4. Mix thoroughly using a pestle and mortar for about 10 minutes until a uniform powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible containing the mixed powder into a muffle furnace.",
+        "2. Heat the mixture to 800 °C at a rate of 5 °C per minute.",
+        "3. Maintain this temperature for 4 hours to facilitate reaction and solidification."
+      ],
+      "raw_text": "1. Place the crucible containing the mixed powder into a muffle furnace. \n 2. Heat the mixture to 800 °C at a rate of 5 °C per minute. \n 3. Maintain this temperature for 4 hours to facilitate reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has reached a safe temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has reached a safe temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Inspect the material for any defects or irregularities.",
+        "3. If necessary, grind the solid sample to achieve desired particle size.",
+        "4. Optionally, seal the surface with a clear epoxy resin to enhance durability and protect against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Inspect the material for any defects or irregularities. \n 3. If necessary, grind the solid sample to achieve desired particle size. \n 4. Optionally, seal the surface with a clear epoxy resin to enhance durability and protect against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2802068.0,
+      "density": 38229.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1732893.0,
+      "formation_energy_per_atom": -30214.0,
+      "decomposition_energy_per_atom": -129.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -119.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e822e49c09",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.846655Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Eu1Li6O12Si3Sr2.json",
+      "material://Eu1Li6O12Si3Sr2"
+    ]
+  }
+}

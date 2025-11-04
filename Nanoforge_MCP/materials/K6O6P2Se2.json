@@ -1,0 +1,109 @@
+{
+  "id": "K6O6P2Se2",
+  "uri": "material://K6O6P2Se2",
+  "composition": {
+    "formula": "K6O6P2Se2",
+    "elements": {
+      "K": 6,
+      "O": 6,
+      "P": 2,
+      "Se": 2
+    },
+    "reduced_formula": "K3PSeO3",
+    "element_list": [
+      "O",
+      "P",
+      "K",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ac (Acoustic material): 30 g \n Cd (Cadmium): 20 g \n Sr (Strontium): 15 g \n Tl (Thallium): 45 g (for a total of 110 g of material)"
+    },
+    "sourcing": {
+      "instructions": "Ac: Specialty acoustic material suppliers or electronics stores \n Cd: Chemical supply companies \n Sr: Chemical supply companies \n Tl: Chemical supply companies",
+      "steps": [
+        "Ac: Specialty acoustic material suppliers or electronics stores",
+        "Cd: Chemical supply companies",
+        "Sr: Chemical supply companies",
+        "Tl: Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean and dry mixing container, combine Ac, Cd, Sr, and Tl in the specified amounts.",
+        "3. Stir the mixture thoroughly using a spatula to ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale. \n 2. In a clean and dry mixing container, combine Ac, Cd, Sr, and Tl in the specified amounts. \n 3. Stir the mixture thoroughly using a spatula to ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 800°C for 2 hours to facilitate the bonding of materials."
+      ],
+      "raw_text": "1. Transfer the mixed material into a crucible. \n 2. Heat the crucible in a furnace to a temperature of 800°C for 2 hours to facilitate the bonding of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature over a period of 4 hours.",
+        "2. Do not open the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature over a period of 4 hours. \n 2. Do not open the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, sand the surface lightly with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear coat for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, sand the surface lightly with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear coat for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3440152.0,
+      "density": 2657.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -896072.0,
+      "formation_energy_per_atom": -22149.0,
+      "decomposition_energy_per_atom": -326.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -294.0
+    },
+    "electronic": {
+      "bandgap": 3.1703,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b85f12ad1c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.769332Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K6O6P2Se2.json",
+      "material://K6O6P2Se2"
+    ]
+  }
+}

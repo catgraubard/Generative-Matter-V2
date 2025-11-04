@@ -1,0 +1,132 @@
+{
+  "id": "Cu6La4Nd2Sb8",
+  "uri": "material://Cu6La4Nd2Sb8",
+  "composition": {
+    "formula": "Cu6La4Nd2Sb8",
+    "elements": {
+      "Cu": 6,
+      "La": 4,
+      "Nd": 2,
+      "Sb": 8
+    },
+    "reduced_formula": "La2NdCu3Sb4",
+    "element_list": [
+      "Cu",
+      "Sb",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 120 g  \n  La: 80 g  \n  Nd: 40 g  \n  Sb: 320 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper wire or sheets from a hardware store or metal supplier.  \n  La: Lanthanum oxide from a chemical supply company.  \n  Nd: Neodymium oxide from a chemical supply company.  \n  Sb: Antimony metal from a chemical supply company.",
+      "steps": [
+        "Cu: Copper wire or sheets from a hardware store or metal supplier.",
+        "La: Lanthanum oxide from a chemical supply company.",
+        "Nd: Neodymium oxide from a chemical supply company.",
+        "Sb: Antimony metal from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of Cu, La, Nd, and Sb using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the Cu, La, Nd, and Sb.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powder to a ball mill and mill for 2 hours to ensure thorough mixing."
+      ],
+      "raw_text": "1. Weigh the required amounts of Cu, La, Nd, and Sb using an analytical balance.  \n  2. In a clean, dry mixing container, combine the Cu, La, Nd, and Sb.  \n  3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.  \n  4. Transfer the powder to a ball mill and mill for 2 hours to ensure thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixed powder into a suitable crucible.",
+        "3. Insert the crucible into the furnace and heat for 4 hours to allow for solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C.  \n  2. Place the mixed powder into a suitable crucible.  \n  3. Insert the crucible into the furnace and heat for 4 hours to allow for solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not remove the crucible until the furnace has completely cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).  \n  2. Do not remove the crucible until the furnace has completely cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with 320-grit sandpaper for a smooth finish.",
+        "4. Optionally, cure the sample in a vacuum chamber at 200°C for 1 hour to enhance stability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.  \n  2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).  \n  3. Sand the edges and surfaces with 320-grit sandpaper for a smooth finish.  \n  4. Optionally, cure the sample in a vacuum chamber at 200°C for 1 hour to enhance stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4746274.0,
+      "density": 76951.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42d",
+      "space_group_number": 122,
+      "point_group": "-42m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1047254.0,
+      "formation_energy_per_atom": -8909.0,
+      "decomposition_energy_per_atom": 9.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": 9.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "649c70d011",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:27.399672Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu6La4Nd2Sb8.json",
+      "material://Cu6La4Nd2Sb8"
+    ]
+  }
+}

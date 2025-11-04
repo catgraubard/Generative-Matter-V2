@@ -1,0 +1,99 @@
+{
+  "id": "C4La8Nd2Si4",
+  "uri": "material://C4La8Nd2Si4",
+  "composition": {
+    "formula": "C4La8Nd2Si4",
+    "elements": {
+      "C": 4,
+      "La": 8,
+      "Nd": 2,
+      "Si": 4
+    },
+    "reduced_formula": "La4Nd(SiC)2",
+    "element_list": [
+      "C",
+      "Si",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- O (Oxygen): 32 g (from O2 gas, molecular weight 16 g/mol, requires 2 moles = 32 g)"
+    },
+    "sourcing": {
+      "instructions": "- O2 gas: Available from industrial gas suppliers or chemical supply stores.",
+      "steps": [
+        "- O2 gas: Available from industrial gas suppliers or chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 32 g of O2 gas and transfer it to a reaction chamber."
+      ],
+      "raw_text": "1. Measure 32 g of O2 gas and transfer it to a reaction chamber."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Heat the reaction chamber to 800 °C at a rate of 10 °C/min."
+      ],
+      "raw_text": "1. Heat the reaction chamber to 800 °C at a rate of 10 °C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature to room temperature over a period of 2 hours."
+      ],
+      "raw_text": "1. Gradually reduce the temperature to room temperature over a period of 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the reaction chamber."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the reaction chamber."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4500311.0,
+      "density": 57566.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1152532.0,
+      "formation_energy_per_atom": -4234.0,
+      "decomposition_energy_per_atom": -186.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -184.0,
+      "decomposition_energy_mp_oqmd": -9.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab9c2eaff8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:03.510425Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4La8Nd2Si4.json",
+      "material://C4La8Nd2Si4"
+    ]
+  }
+}

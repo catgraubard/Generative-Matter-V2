@@ -1,0 +1,114 @@
+{
+  "id": "Ac1Al1Er1Ga1Zn2",
+  "uri": "material://Ac1Al1Er1Ga1Zn2",
+  "composition": {
+    "formula": "Ac1Al1Er1Ga1Zn2",
+    "elements": {
+      "Ac": 1,
+      "Al": 1,
+      "Er": 1,
+      "Ga": 1,
+      "Zn": 2
+    },
+    "reduced_formula": "AcErAlZn2Ga",
+    "element_list": [
+      "Al",
+      "Zn",
+      "Ga",
+      "Er",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 10 g, Al: 30 g, Er: 5 g, Ga: 5 g, Zn: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: chemical supply store; Al: metal supplier; Er: chemical supply store; Ga: chemical supply store; Zn: hardware store",
+      "steps": [
+        "Ac: chemical supply store; Al: metal supplier; Er: chemical supply store; Ga: chemical supply store; Zn: hardware store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Ac, Al, Er, Ga, and Zn in the specified amounts.",
+        "3. Use a stirrer or spatula to mix the ingredients thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine Ac, Al, Er, Ga, and Zn in the specified amounts. \n 3. Use a stirrer or spatula to mix the ingredients thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 500,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixture into a heat-resistant crucible.",
+        "2. Place the crucible in a furnace and heat it to 500°C.",
+        "3. Maintain this temperature for 1 hour to ensure proper melting and integration of materials."
+      ],
+      "raw_text": "1. Transfer the mixture into a heat-resistant crucible. \n 2. Place the crucible in a furnace and heat it to 500°C. \n 3. Maintain this temperature for 1 hour to ensure proper melting and integration of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-3 hours) without opening the furnace door.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-3 hours) without opening the furnace door. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth out any rough edges.",
+        "3. Optionally, apply a protective sealant to the surface to enhance durability and finish."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Use a file or sandpaper to smooth out any rough edges. \n 3. Optionally, apply a protective sealant to the surface to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1376289.0,
+      "density": 7502.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -208741.0,
+      "formation_energy_per_atom": -482.0,
+      "decomposition_energy_per_atom": -478.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -478.0,
+      "decomposition_energy_mp_oqmd": -407.0
+    },
+    "electronic": {
+      "bandgap": 0.0613,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f54b8f187e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.913570Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Al1Er1Ga1Zn2.json",
+      "material://Ac1Al1Er1Ga1Zn2"
+    ]
+  }
+}

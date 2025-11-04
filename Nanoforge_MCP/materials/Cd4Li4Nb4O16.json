@@ -1,0 +1,110 @@
+{
+  "id": "Cd4Li4Nb4O16",
+  "uri": "material://Cd4Li4Nb4O16",
+  "composition": {
+    "formula": "Cd4Li4Nb4O16",
+    "elements": {
+      "Cd": 4,
+      "Li": 4,
+      "Nb": 4,
+      "O": 16
+    },
+    "reduced_formula": "LiNbCdO4",
+    "element_list": [
+      "Li",
+      "O",
+      "Nb",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cadmium Oxide (CdO): 23.5 g \n - Lithium Carbonate (Li2CO3): 4.8 g \n - Niobium Pentoxide (Nb2O5): 36.0 g \n - Distilled Water: 10 g (for slurry preparation)"
+    },
+    "sourcing": {
+      "instructions": "- Cadmium Oxide: Purchase from chemical supply companies or online chemical retailers. \n - Lithium Carbonate: Available at specialty chemical suppliers or online. \n - Niobium Pentoxide: Can be sourced from materials suppliers or online. \n - Distilled Water: Obtain from grocery stores or laboratories.",
+      "steps": [
+        "- Cadmium Oxide: Purchase from chemical supply companies or online chemical retailers.",
+        "- Lithium Carbonate: Available at specialty chemical suppliers or online.",
+        "- Niobium Pentoxide: Can be sourced from materials suppliers or online.",
+        "- Distilled Water: Obtain from grocery stores or laboratories."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 23.5 g of Cadmium Oxide, 4.8 g of Lithium Carbonate, and 36.0 g of Niobium Pentoxide using an analytical balance.",
+        "2. In a clean glass container, mix the dry powders thoroughly using a spatula to ensure an even distribution.",
+        "3. Gradually add 10 g of distilled water to the mixture while stirring continuously to form a homogeneous slurry."
+      ],
+      "raw_text": "1. Weigh out 23.5 g of Cadmium Oxide, 4.8 g of Lithium Carbonate, and 36.0 g of Niobium Pentoxide using an analytical balance. \n 2. In a clean glass container, mix the dry powders thoroughly using a spatula to ensure an even distribution. \n 3. Gradually add 10 g of distilled water to the mixture while stirring continuously to form a homogeneous slurry."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat to 900°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible. \n 2. Place the crucible in a furnace and heat to 900°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the 4-hour sintering period, turn off the furnace and allow it to cool naturally to room temperature for about 8 hours.",
+        "2. Ensure the cooling occurs in a controlled environment to avoid thermal shock."
+      ],
+      "raw_text": "1. After the 4-hour sintering period, turn off the furnace and allow it to cool naturally to room temperature for about 8 hours. \n 2. Ensure the cooling occurs in a controlled environment to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sintered piece from the crucible.",
+        "2. Inspect the surface for any irregularities. If necessary, sand the surface with fine-grit sandpaper until smooth.",
+        "3. Optionally, apply a protective sealant suitable for ceramics to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sintered piece from the crucible. \n 2. Inspect the surface for any irregularities. If necessary, sand the surface with fine-grit sandpaper until smooth. \n 3. Optionally, apply a protective sealant suitable for ceramics to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3661567.0,
+      "density": 50113.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4_122",
+      "space_group_number": 91,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2000633.0,
+      "formation_energy_per_atom": -24701.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -91.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": 2.633,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "999765470a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:37.870156Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd4Li4Nb4O16.json",
+      "material://Cd4Li4Nb4O16"
+    ]
+  }
+}

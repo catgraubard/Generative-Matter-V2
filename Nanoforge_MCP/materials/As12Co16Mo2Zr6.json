@@ -1,0 +1,137 @@
+{
+  "id": "As12Co16Mo2Zr6",
+  "uri": "material://As12Co16Mo2Zr6",
+  "composition": {
+    "formula": "As12Co16Mo2Zr6",
+    "elements": {
+      "As": 12,
+      "Co": 16,
+      "Mo": 2,
+      "Zr": 6
+    },
+    "reduced_formula": "Zr3Co8MoAs6",
+    "element_list": [
+      "Co",
+      "As",
+      "Zr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 0.75,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 0.1,
+          "unit": "g"
+        },
+        {
+          "element": "Ca",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 13.5,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 0.75 g \n C: 0.1 g \n Ca: 12.5 g \n O: 13.5 g \n P: 6 g"
+    },
+    "sourcing": {
+      "instructions": "As: Specialty chemical suppliers \n C: Carbon black from chemical suppliers \n Ca: Calcium carbonate from laboratory supply stores \n O: Oxygen source from compressed gas suppliers or atmospheric air \n P: Phosphate from fertilizer suppliers or chemical retailers",
+      "steps": [
+        "As: Specialty chemical suppliers",
+        "C: Carbon black from chemical suppliers",
+        "Ca: Calcium carbonate from laboratory supply stores",
+        "O: Oxygen source from compressed gas suppliers or atmospheric air",
+        "P: Phosphate from fertilizer suppliers or chemical retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.75 g of arsenic, 0.1 g of carbon, 12.5 g of calcium carbonate, 13.5 g of oxygen (if capturing from atmospheric air, ensure proper containment), and 6 g of phosphate.",
+        "2. In a clean, dry mixing container, combine the arsenic, carbon, calcium carbonate, and phosphate.",
+        "3. Stir the dry ingredients thoroughly to ensure uniform distribution.",
+        "4. Gradually add oxygen to the mixture, ensuring minimal exposure to moisture and contaminants."
+      ],
+      "raw_text": "1. Weigh out 0.75 g of arsenic, 0.1 g of carbon, 12.5 g of calcium carbonate, 13.5 g of oxygen (if capturing from atmospheric air, ensure proper containment), and 6 g of phosphate. \n 2. In a clean, dry mixing container, combine the arsenic, carbon, calcium carbonate, and phosphate. \n 3. Stir the dry ingredients thoroughly to ensure uniform distribution. \n 4. Gradually add oxygen to the mixture, ensuring minimal exposure to moisture and contaminants."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed ingredients to a suitable furnace or high-temperature oven.",
+        "2. Heat the mixture to 800°C (1472°F) for 2 hours to allow for proper chemical bonding and formation of the target compound."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a suitable furnace or high-temperature oven. \n 2. Heat the mixture to 800°C (1472°F) for 2 hours to allow for proper chemical bonding and formation of the target compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the material to cool gradually to room temperature over a period of 4-6 hours to prevent thermal shock.",
+        "2. Ensure the cooling space is free from drafts and contaminants."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the material to cool gradually to room temperature over a period of 4-6 hours to prevent thermal shock. \n 2. Ensure the cooling space is free from drafts and contaminants."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any irregularities or surface imperfections.",
+        "3. If necessary, use fine sandpaper to smooth the surface.",
+        "4. Optionally, seal the surface with a clear epoxy resin to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any irregularities or surface imperfections. \n 3. If necessary, use fine sandpaper to smooth the surface. \n 4. Optionally, seal the surface with a clear epoxy resin to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5003117.0,
+      "density": 85671.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2636724.0,
+      "formation_energy_per_atom": -5848.0,
+      "decomposition_energy_per_atom": -922.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -922.0,
+      "decomposition_energy_mp_oqmd": -368.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c0d5d8e93b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.359940Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Co16Mo2Zr6.json",
+      "material://As12Co16Mo2Zr6"
+    ]
+  }
+}

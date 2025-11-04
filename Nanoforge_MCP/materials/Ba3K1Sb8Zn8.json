@@ -1,0 +1,133 @@
+{
+  "id": "Ba3K1Sb8Zn8",
+  "uri": "material://Ba3K1Sb8Zn8",
+  "composition": {
+    "formula": "Ba3K1Sb8Zn8",
+    "elements": {
+      "Ba": 3,
+      "K": 1,
+      "Sb": 8,
+      "Zn": 8
+    },
+    "reduced_formula": "KBa3(ZnSb)8",
+    "element_list": [
+      "K",
+      "Zn",
+      "Sb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 37.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 150.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 12.5 g (Cobalt powder) \n Fe: 37.5 g (Iron powder) \n Pr: 5 g (Praseodymium oxide) \n Sb: 150 g (Antimony powder) \n Binder: 5 g (Polyvinyl alcohol)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt powder: Chemical supply stores or online chemical suppliers. \n Iron powder: Metal suppliers or online marketplaces. \n Praseodymium oxide: Specialty chemical suppliers. \n Antimony powder: Metal suppliers or online chemical suppliers. \n Polyvinyl alcohol: Craft stores or online.",
+      "steps": [
+        "Cobalt powder: Chemical supply stores or online chemical suppliers.",
+        "Iron powder: Metal suppliers or online marketplaces.",
+        "Praseodymium oxide: Specialty chemical suppliers.",
+        "Antimony powder: Metal suppliers or online chemical suppliers.",
+        "Polyvinyl alcohol: Craft stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise balance.",
+        "2. In a clean, dry mixing container, add Co, Fe, Pr, and Sb powders.",
+        "3. Mix the powders thoroughly using a spatula or a mortar and pestle until a uniform mixture is achieved.",
+        "4. Add the binder (PVA) and mix until the binder is evenly distributed throughout the powder mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise balance. \n 2. In a clean, dry mixing container, add Co, Fe, Pr, and Sb powders. \n 3. Mix the powders thoroughly using a spatula or a mortar and pestle until a uniform mixture is achieved. \n 4. Add the binder (PVA) and mix until the binder is evenly distributed throughout the powder mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C (1472°F).",
+        "2. Transfer the mixed powders into a suitable crucible for heating.",
+        "3. Hold at 800°C for 2 hours to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C (1472°F). \n 2. Transfer the mixed powders into a suitable crucible for heating. \n 3. Hold at 800°C for 2 hours to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool naturally to room temperature inside the furnace to avoid cracking.",
+        "2. Cooling duration should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool naturally to room temperature inside the furnace to avoid cracking. \n 2. Cooling duration should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the sample with a clear coat to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the sample with a clear coat to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5728376.0,
+      "density": 56481.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -6086.0,
+      "formation_energy_per_atom": -5441.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -23.0,
+      "decomposition_energy_mp": -55.0,
+      "decomposition_energy_mp_oqmd": -23.0
+    },
+    "electronic": {
+      "bandgap": 0.0127,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc8b8bf550",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.948477Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba3K1Sb8Zn8.json",
+      "material://Ba3K1Sb8Zn8"
+    ]
+  }
+}

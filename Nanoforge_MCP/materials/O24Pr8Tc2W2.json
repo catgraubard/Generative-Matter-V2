@@ -1,0 +1,114 @@
+{
+  "id": "O24Pr8Tc2W2",
+  "uri": "material://O24Pr8Tc2W2",
+  "composition": {
+    "formula": "O24Pr8Tc2W2",
+    "elements": {
+      "O": 24,
+      "Pr": 8,
+      "Tc": 2,
+      "W": 2
+    },
+    "reduced_formula": "Pr4TcWO12",
+    "element_list": [
+      "O",
+      "Tc",
+      "Pr",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 4.0 g, Nb: 2.0 g, Ru: 10.0 g, Tm: 3.0 g, Y: 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from chemical suppliers or online (e.g., Sigma-Aldrich). Nb: Obtain from metallurgical suppliers. Ru: Source from precious metal suppliers. Tm: Buy from rare earth metal suppliers. Y: Available from chemical suppliers.",
+      "steps": [
+        "B: Purchase from chemical suppliers or online (e.g., Sigma-Aldrich). Nb: Obtain from metallurgical suppliers. Ru: Source from precious metal suppliers. Tm: Buy from rare earth metal suppliers. Y: Available from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of each material using an analytical balance.",
+        "2. Place each ingredient into a clean, dry ceramic mortar.",
+        "3. Use a pestle to grind the powders together until a homogenous mixture is achieved.",
+        "4. Transfer the mixture to a clean crucible."
+      ],
+      "raw_text": "1. Measure the specified amounts of each material using an analytical balance. \n 2. Place each ingredient into a clean, dry ceramic mortar. \n 3. Use a pestle to grind the powders together until a homogenous mixture is achieved. \n 4. Transfer the mixture to a clean crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Heat for 4 hours to allow complete reaction and fusion of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the crucible with the mixture inside the furnace. \n 3. Heat for 4 hours to allow complete reaction and fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature, approximately 20°C.",
+        "2. This can take around 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature, approximately 20°C. \n 2. This can take around 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any irregularities or surface defects.",
+        "3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability and protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any irregularities or surface defects. \n 3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5281851.0,
+      "density": 65233.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3149117.0,
+      "formation_energy_per_atom": -3091.0,
+      "decomposition_energy_per_atom": -557.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -563.0,
+      "decomposition_energy_mp_oqmd": -563.0
+    },
+    "electronic": {
+      "bandgap": 0.2214,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d8b602f3ba",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.622453Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O24Pr8Tc2W2.json",
+      "material://O24Pr8Tc2W2"
+    ]
+  }
+}

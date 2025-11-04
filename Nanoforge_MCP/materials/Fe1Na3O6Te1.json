@@ -1,0 +1,112 @@
+{
+  "id": "Fe1Na3O6Te1",
+  "uri": "material://Fe1Na3O6Te1",
+  "composition": {
+    "formula": "Fe1Na3O6Te1",
+    "elements": {
+      "Fe": 1,
+      "Na": 3,
+      "O": 6,
+      "Te": 1
+    },
+    "reduced_formula": "Na3FeTeO6",
+    "element_list": [
+      "O",
+      "Na",
+      "Fe",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi): 200 g \n Iron (Fe): 100 g \n Palladium (Pa): 50 g \n Zirconium (Zr): 80 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich). \n Iron: Obtain from a metal supply store or online (e.g., McMaster-Carr). \n Palladium: Acquire from a precious metal supplier or online (e.g., Rio Grande). \n Zirconium: Source from a specialized metal supplier or online (e.g., Tungsten Heavy Powder).",
+      "steps": [
+        "Bismuth: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "Iron: Obtain from a metal supply store or online (e.g., McMaster-Carr).",
+        "Palladium: Acquire from a precious metal supplier or online (e.g., Rio Grande).",
+        "Zirconium: Source from a specialized metal supplier or online (e.g., Tungsten Heavy Powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a calibrated scale.",
+        "2. Grind the Bismuth and Iron using a mortar and pestle until a fine powder is achieved.",
+        "3. In a clean container, mix the ground Bismuth, Iron, Palladium, and Zirconium thoroughly using a spatula or mixing rod, ensuring uniform distribution of powders.",
+        "4. Transfer the mixed powder into a crucible suitable for high-temperature melting."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a calibrated scale. \n 2. Grind the Bismuth and Iron using a mortar and pestle until a fine powder is achieved. \n 3. In a clean container, mix the ground Bismuth, Iron, Palladium, and Zirconium thoroughly using a spatula or mixing rod, ensuring uniform distribution of powders. \n 4. Transfer the mixed powder into a crucible suitable for high-temperature melting."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 1,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat to 1,200°C (2,192°F) at a gradual rate of 10°C/min to prevent thermal shock.",
+        "3. Maintain the temperature for 1 hour to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat to 1,200°C (2,192°F) at a gradual rate of 10°C/min to prevent thermal shock. \n 3. Maintain the temperature for 1 hour to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the solid sample."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours). \n 2. Avoid rapid cooling to prevent cracking of the solid sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the surface with 400-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant or protective coating if the material will be exposed to the environment.",
+        "4. Allow any sealant to cure as per manufacturer’s instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the surface with 400-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a sealant or protective coating if the material will be exposed to the environment. \n 4. Allow any sealant to cure as per manufacturer’s instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 1422325.0,
+      "density": 40676.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -653869.0,
+      "formation_energy_per_atom": -18289.0,
+      "decomposition_energy_per_atom": -78.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -24.0,
+      "decomposition_energy_mp": -86.0,
+      "decomposition_energy_mp_oqmd": -66.0
+    },
+    "electronic": {
+      "bandgap": 2.0069,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b2690d3682",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.524411Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Na3O6Te1.json",
+      "material://Fe1Na3O6Te1"
+    ]
+  }
+}

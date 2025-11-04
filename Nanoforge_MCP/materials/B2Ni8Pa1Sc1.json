@@ -1,0 +1,117 @@
+{
+  "id": "B2Ni8Pa1Sc1",
+  "uri": "material://B2Ni8Pa1Sc1",
+  "composition": {
+    "formula": "B2Ni8Pa1Sc1",
+    "elements": {
+      "B": 2,
+      "Ni": 8,
+      "Pa": 1,
+      "Sc": 1
+    },
+    "reduced_formula": "ScPa(Ni4B)2",
+    "element_list": [
+      "B",
+      "Sc",
+      "Ni",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 90.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 90 g, Ni: 360 g, Pa: 10 g, Sc: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store; Ni: Metal supplier; Pa: Chemical supply store; Sc: Chemical supplier",
+      "steps": [
+        "B: Chemical supply store; Ni: Metal supplier; Pa: Chemical supply store; Sc: Chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 90 g of boron (B) using a precision scale.",
+        "2. Weigh out 360 g of nickel (Ni).",
+        "3. Measure 10 g of palladium (Pa).",
+        "4. Measure 10 g of scandium (Sc).",
+        "5. Combine all measured materials in a clean, dry container.",
+        "6. Use a mechanical mixer to blend the powders for 15 minutes until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 90 g of boron (B) using a precision scale.  \n 2. Weigh out 360 g of nickel (Ni). \n 3. Measure 10 g of palladium (Pa). \n 4. Measure 10 g of scandium (Sc). \n 5. Combine all measured materials in a clean, dry container. \n 6. Use a mechanical mixer to blend the powders for 15 minutes until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the mixed powder into a suitable crucible.",
+        "3. Place the crucible in the furnace.",
+        "4. Maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Transfer the mixed powder into a suitable crucible. \n 3. Place the crucible in the furnace. \n 4. Maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. After reaching room temperature, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. After reaching room temperature, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified alloy from the crucible.",
+        "2. Use a grinder to shape the material to the desired dimensions (3x2x7 inches).",
+        "3. Sand the surface for a smooth finish (use 220-grit sandpaper).",
+        "4. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solidified alloy from the crucible. \n 2. Use a grinder to shape the material to the desired dimensions (3x2x7 inches). \n 3. Sand the surface for a smooth finish (use 220-grit sandpaper). \n 4. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1433598.0,
+      "density": 8886.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -814418.0,
+      "formation_energy_per_atom": -4996.0,
+      "decomposition_energy_per_atom": -455.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -72.0,
+      "decomposition_energy_mp": -455.0,
+      "decomposition_energy_mp_oqmd": -455.0
+    },
+    "electronic": {
+      "bandgap": 0.0028,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7ea7969639",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:01.386727Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Ni8Pa1Sc1.json",
+      "material://B2Ni8Pa1Sc1"
+    ]
+  }
+}

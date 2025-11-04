@@ -1,0 +1,134 @@
+{
+  "id": "Cu2K5Na1Se26",
+  "uri": "material://Cu2K5Na1Se26",
+  "composition": {
+    "formula": "Cu2K5Na1Se26",
+    "elements": {
+      "Cu": 2,
+      "K": 5,
+      "Na": 1,
+      "Se": 26
+    },
+    "reduced_formula": "K5Na(CuSe13)2",
+    "element_list": [
+      "Na",
+      "K",
+      "Cu",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 65.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 20.0 g \n K: 5.0 g \n Na: 1.0 g \n Se: 65.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metals supplier or online store. \n K: Obtain from a chemical supply company. \n Na: Available at chemical supply stores or online. \n Se: Obtain from a chemical supply company or specialized elemental suppliers.",
+      "steps": [
+        "Cu: Purchase from a metals supplier or online store.",
+        "K: Obtain from a chemical supply company.",
+        "Na: Available at chemical supply stores or online.",
+        "Se: Obtain from a chemical supply company or specialized elemental suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20.0 g of copper (Cu) using an analytical balance.",
+        "2. Weigh out 5.0 g of potassium (K).",
+        "3. Weigh out 1.0 g of sodium (Na).",
+        "4. Weigh out 65.0 g of selenium (Se).",
+        "5. In a clean, dry mortar and pestle, grind the powdered Cu, K, Na, and Se together until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 20.0 g of copper (Cu) using an analytical balance. \n 2. Weigh out 5.0 g of potassium (K). \n 3. Weigh out 1.0 g of sodium (Na). \n 4. Weigh out 65.0 g of selenium (Se). \n 5. In a clean, dry mortar and pestle, grind the powdered Cu, K, Na, and Se together until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the crucible to 800 °C (1472 °F) and maintain this temperature for 4 hours to ensure complete reaction and synthesis of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the crucible to 800 °C (1472 °F) and maintain this temperature for 4 hours to ensure complete reaction and synthesis of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled completely to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled completely to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace carefully.",
+        "2. Allow the synthesized material to cool for an additional 30 minutes in ambient air.",
+        "3. Once cooled, grind the solid into a fine powder if needed.",
+        "4. If a solid shape is desired, press the powder into a mold of the desired dimensions (3 in x 2 in x 7 in) and sinter at 800 °C for 2 hours.",
+        "5. Optionally, seal the material with a suitable polymer or resin to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace carefully. \n 2. Allow the synthesized material to cool for an additional 30 minutes in ambient air. \n 3. Once cooled, grind the solid into a fine powder if needed. \n 4. If a solid shape is desired, press the powder into a mold of the desired dimensions (3 in x 2 in x 7 in) and sinter at 800 °C for 2 hours. \n 5. Optionally, seal the material with a suitable polymer or resin to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 10289481.0,
+      "density": 38708.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1310289.0,
+      "formation_energy_per_atom": -7371.0,
+      "decomposition_energy_per_atom": -1179.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -157.0,
+      "decomposition_energy_mp": -1179.0,
+      "decomposition_energy_mp_oqmd": -1178.0
+    },
+    "electronic": {
+      "bandgap": 0.5422,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2982b634f3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:10.552165Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2K5Na1Se26.json",
+      "material://Cu2K5Na1Se26"
+    ]
+  }
+}

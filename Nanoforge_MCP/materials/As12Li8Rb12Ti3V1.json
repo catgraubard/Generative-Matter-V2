@@ -1,0 +1,116 @@
+{
+  "id": "As12Li8Rb12Ti3V1",
+  "uri": "material://As12Li8Rb12Ti3V1",
+  "composition": {
+    "formula": "As12Li8Rb12Ti3V1",
+    "elements": {
+      "As": 12,
+      "Li": 8,
+      "Rb": 12,
+      "Ti": 3,
+      "V": 1
+    },
+    "reduced_formula": "Rb12Li8Ti3VAs12",
+    "element_list": [
+      "Li",
+      "Ti",
+      "V",
+      "As",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 48.0 g, Li: 32.0 g, Rb: 48.0 g, Ti: 12.0 g, V: 4.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Local chemical supplier, Li: Battery supply store, Rb: Chemical supply store, Ti: Metal supply store, V: Chemical supplier",
+      "steps": [
+        "As: Local chemical supplier, Li: Battery supply store, Rb: Chemical supply store, Ti: Metal supply store, V: Chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 48.0 g of As, 32.0 g of Li, 48.0 g of Rb, 12.0 g of Ti, and 4.0 g of V using an analytical balance.",
+        "2. In a clean, dry mixing container, combine all measured ingredients.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 1 hour to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 48.0 g of As, 32.0 g of Li, 48.0 g of Rb, 12.0 g of Ti, and 4.0 g of V using an analytical balance. \n 2. In a clean, dry mixing container, combine all measured ingredients. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 1 hour to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the blended material in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to facilitate reaction and fusion."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the blended material in a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to facilitate reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified sample from the crucible.",
+        "3. Use a fine-grit sandpaper to smooth out any rough edges on the sample.",
+        "4. If desired, apply a sealant to enhance surface protection and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solidified sample from the crucible. \n 3. Use a fine-grit sandpaper to smooth out any rough edges on the sample. \n 4. If desired, apply a sealant to enhance surface protection and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10131236.0,
+      "density": 35645.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1382134.0,
+      "formation_energy_per_atom": -6249.0,
+      "decomposition_energy_per_atom": -904.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -904.0,
+      "decomposition_energy_mp_oqmd": -732.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "353d83858e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:25.393946Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Li8Rb12Ti3V1.json",
+      "material://As12Li8Rb12Ti3V1"
+    ]
+  }
+}

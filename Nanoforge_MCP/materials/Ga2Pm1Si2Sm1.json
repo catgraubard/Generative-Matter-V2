@@ -1,0 +1,110 @@
+{
+  "id": "Ga2Pm1Si2Sm1",
+  "uri": "material://Ga2Pm1Si2Sm1",
+  "composition": {
+    "formula": "Ga2Pm1Si2Sm1",
+    "elements": {
+      "Ga": 2,
+      "Pm": 1,
+      "Si": 2,
+      "Sm": 1
+    },
+    "reduced_formula": "PmSm(GaSi)2",
+    "element_list": [
+      "Si",
+      "Ga",
+      "Pm",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Molybdenum (Mo): 640 g \n Titanium (Ti): 80 g \n Tungsten (W): 560 g"
+    },
+    "sourcing": {
+      "instructions": "Molybdenum: Purchase from a metal supplier or online specialty metals store. \n Titanium: Available from industrial metal suppliers or online marketplaces. \n Tungsten: Obtain from metal distributors or online specialty stores.",
+      "steps": [
+        "Molybdenum: Purchase from a metal supplier or online specialty metals store.",
+        "Titanium: Available from industrial metal suppliers or online marketplaces.",
+        "Tungsten: Obtain from metal distributors or online specialty stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 640 g of molybdenum, 80 g of titanium, and 560 g of tungsten using a precision scale.",
+        "2. Grind each metal powder separately using a ball mill to achieve a fine particle size (less than 100 microns).",
+        "3. Combine the three powders in a clean mixing container.",
+        "4. Mix the powders thoroughly for at least 30 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out 640 g of molybdenum, 80 g of titanium, and 560 g of tungsten using a precision scale. \n 2. Grind each metal powder separately using a ball mill to achieve a fine particle size (less than 100 microns). \n 3. Combine the three powders in a clean mixing container. \n 4. Mix the powders thoroughly for at least 30 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the mixed powder into a graphite crucible.",
+        "2. Heat in a vacuum furnace at 1500 °C for 4 hours.",
+        "3. Ensure a vacuum level of 10^-5 Torr to prevent oxidation during the heating process."
+      ],
+      "raw_text": "1. Place the mixed powder into a graphite crucible. \n 2. Heat in a vacuum furnace at 1500 °C for 4 hours. \n 3. Ensure a vacuum level of 10^-5 Torr to prevent oxidation during the heating process."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature (approximately 25 °C).",
+        "2. This process should take about 6-8 hours. Ensure the furnace remains in vacuum until fully cooled."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature (approximately 25 °C). \n 2. This process should take about 6-8 hours. Ensure the furnace remains in vacuum until fully cooled."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the material from the crucible.",
+        "2. Use a diamond saw to cut the sample into desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to remove any sharpness and achieve a smooth finish, using progressively finer grit sandpaper (starting from 120 to 600 grit).",
+        "4. Optionally, apply a sealant if required for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the material from the crucible. \n 2. Use a diamond saw to cut the sample into desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to remove any sharpness and achieve a smooth finish, using progressively finer grit sandpaper (starting from 120 to 600 grit). \n 4. Optionally, apply a sealant if required for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1257505.0,
+      "density": 64834.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6mm",
+      "space_group_number": 183,
+      "point_group": "6mm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -302819.0,
+      "formation_energy_per_atom": -651.0,
+      "decomposition_energy_per_atom": -933.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -138.0,
+      "decomposition_energy_mp": -933.0,
+      "decomposition_energy_mp_oqmd": -897.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ccdf6c446e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.502660Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Pm1Si2Sm1.json",
+      "material://Ga2Pm1Si2Sm1"
+    ]
+  }
+}

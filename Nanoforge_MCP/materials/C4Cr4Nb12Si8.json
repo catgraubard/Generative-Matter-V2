@@ -1,0 +1,136 @@
+{
+  "id": "C4Cr4Nb12Si8",
+  "uri": "material://C4Cr4Nb12Si8",
+  "composition": {
+    "formula": "C4Cr4Nb12Si8",
+    "elements": {
+      "C": 4,
+      "Cr": 4,
+      "Nb": 12,
+      "Si": 8
+    },
+    "reduced_formula": "Nb3CrSi2C",
+    "element_list": [
+      "C",
+      "Si",
+      "Cr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 15.00 g \n Nd: 15.00 g \n Ni: 56.00 g \n P: 8.00 g \n Tm: 2.00 g"
+    },
+    "sourcing": {
+      "instructions": "La: Order from a chemical supplier or online store specializing in rare earth metals. \n Nd: Same as La. \n Ni: Obtain from chemical supply companies. \n P: Purchase from a chemical supplier. \n Tm: Order from a rare earth metal supplier.",
+      "steps": [
+        "La: Order from a chemical supplier or online store specializing in rare earth metals.",
+        "Nd: Same as La.",
+        "Ni: Obtain from chemical supply companies.",
+        "P: Purchase from a chemical supplier.",
+        "Tm: Order from a rare earth metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a digital scale.",
+        "2. In a clean, dry container, combine all weighed ingredients.",
+        "3. Mix the powders thoroughly using a ceramic mortar and pestle until homogeneous."
+      ],
+      "raw_text": "1. Weigh each component accurately using a digital scale. \n 2. In a clean, dry container, combine all weighed ingredients. \n 3. Mix the powders thoroughly using a ceramic mortar and pestle until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to 1200 °C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solid formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace to 1200 °C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solid formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace door until it reaches below 300 °C to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace door until it reaches below 300 °C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If needed, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If needed, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3827137.0,
+      "density": 6923.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2559798.0,
+      "formation_energy_per_atom": -5658.0,
+      "decomposition_energy_per_atom": -298.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -181.0,
+      "decomposition_energy_mp": -295.0,
+      "decomposition_energy_mp_oqmd": -203.0
+    },
+    "electronic": {
+      "bandgap": 0.0071,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ac66280ac3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:04.978196Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4Cr4Nb12Si8.json",
+      "material://C4Cr4Nb12Si8"
+    ]
+  }
+}

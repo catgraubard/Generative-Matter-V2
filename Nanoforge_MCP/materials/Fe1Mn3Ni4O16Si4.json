@@ -1,0 +1,113 @@
+{
+  "id": "Fe1Mn3Ni4O16Si4",
+  "uri": "material://Fe1Mn3Ni4O16Si4",
+  "composition": {
+    "formula": "Fe1Mn3Ni4O16Si4",
+    "elements": {
+      "Fe": 1,
+      "Mn": 3,
+      "Ni": 4,
+      "O": 16,
+      "Si": 4
+    },
+    "reduced_formula": "Mn3FeSi4(NiO4)4",
+    "element_list": [
+      "O",
+      "Si",
+      "Mn",
+      "Fe",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 15.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 15.2 g, Mn: 45.6 g, Ni: 61.6 g, O: 32.0 g, Si: 28.8 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Metal supplier, Mn: Chemical supply store, Ni: Metal supplier, O: From metal oxides supplier, Si: Chemical supply store",
+      "steps": [
+        "Fe: Metal supplier, Mn: Chemical supply store, Ni: Metal supplier, O: From metal oxides supplier, Si: Chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine Fe, Mn, Ni, O, and Si uniformly using a spatula.",
+        "3. Ensure even distribution of each component by mixing for at least 10 minutes."
+      ],
+      "raw_text": "1. Measure out each ingredient precisely using a digital scale.\n2. In a clean, dry mixing bowl, combine Fe, Mn, Ni, O, and Si uniformly using a spatula.\n3. Ensure even distribution of each component by mixing for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a crucible.",
+        "2. Heat the crucible in a furnace at 1200°C for 2 hours to facilitate reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed material into a crucible.\n2. Heat the crucible in a furnace at 1200°C for 2 hours to facilitate reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally.",
+        "2. Wait for a period of 4 hours until the crucible reaches room temperature."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally.\n2. Wait for a period of 4 hours until the crucible reaches room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces of the sample using 120-grit sandpaper to achieve a smooth finish.",
+        "3. Seal the surface with a heat-resistant epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible.\n2. Sand the edges and surfaces of the sample using 120-grit sandpaper to achieve a smooth finish.\n3. Seal the surface with a heat-resistant epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3152212.0,
+      "density": 43395.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2251228.0,
+      "formation_energy_per_atom": -23278.0,
+      "decomposition_energy_per_atom": -96.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -102.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ebaf6be691",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.819509Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Mn3Ni4O16Si4.json",
+      "material://Fe1Mn3Ni4O16Si4"
+    ]
+  }
+}

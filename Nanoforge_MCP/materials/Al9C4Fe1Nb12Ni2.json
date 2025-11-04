@@ -1,0 +1,134 @@
+{
+  "id": "Al9C4Fe1Nb12Ni2",
+  "uri": "material://Al9C4Fe1Nb12Ni2",
+  "composition": {
+    "formula": "Al9C4Fe1Nb12Ni2",
+    "elements": {
+      "Al": 9,
+      "C": 4,
+      "Fe": 1,
+      "Nb": 12,
+      "Ni": 2
+    },
+    "reduced_formula": "Nb12Al9Fe(NiC2)2",
+    "element_list": [
+      "C",
+      "Al",
+      "Fe",
+      "Ni",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 144.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 360.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 96.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 144 g\n P: 12 g\n Si: 360 g\n Zr: 96 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Purchase from a specialty metal supplier or online metal retailer.\n P: Obtain from chemical supply companies.\n Si: Buy from semiconductor suppliers.\n Zr: Source from metal suppliers or online.",
+      "steps": [
+        "Nb: Purchase from a specialty metal supplier or online metal retailer.",
+        "P: Obtain from chemical supply companies.",
+        "Si: Buy from semiconductor suppliers.",
+        "Zr: Source from metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 144 g of Nb, 12 g of P, 360 g of Si, and 96 g of Zr accurately using a digital scale.",
+        "2. In a clean, dry environment, mix Nb and Zr in a ceramic bowl until homogeneous.",
+        "3. Gradually add Si to the mixture while continuously stirring to ensure an even distribution.",
+        "4. Finally, incorporate P into the mixture, stirring thoroughly to achieve uniformity."
+      ],
+      "raw_text": "1. Measure 144 g of Nb, 12 g of P, 360 g of Si, and 96 g of Zr accurately using a digital scale.\n 2. In a clean, dry environment, mix Nb and Zr in a ceramic bowl until homogeneous.\n 3. Gradually add Si to the mixture while continuously stirring to ensure an even distribution.\n 4. Finally, incorporate P into the mixture, stirring thoroughly to achieve uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible that can withstand high temperatures.",
+        "3. Heat the crucible in the furnace for 4 hours to allow for proper fusion of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C.\n 2. Place the mixed powder in a crucible that can withstand high temperatures.\n 3. Heat the crucible in the furnace for 4 hours to allow for proper fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).\n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for defects or irregularities.",
+        "2. If necessary, use a diamond saw to cut the sample to the specified dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability if the material will be exposed to environmental elements."
+      ],
+      "raw_text": "1. Inspect the solid sample for defects or irregularities.\n 2. If necessary, use a diamond saw to cut the sample to the specified dimensions (3 inches x 2 inches x 7 inches).\n 3. Sand the edges and surface with fine-grit sandpaper for a smooth finish.\n 4. Optionally, apply a sealant to enhance durability if the material will be exposed to environmental elements."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4037471.0,
+      "density": 64941.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2265693.0,
+      "formation_energy_per_atom": -5252.0,
+      "decomposition_energy_per_atom": -453.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -453.0,
+      "decomposition_energy_mp_oqmd": -24.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d988ade6ff",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.852305Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al9C4Fe1Nb12Ni2.json",
+      "material://Al9C4Fe1Nb12Ni2"
+    ]
+  }
+}

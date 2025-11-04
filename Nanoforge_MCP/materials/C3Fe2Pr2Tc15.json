@@ -1,0 +1,107 @@
+{
+  "id": "C3Fe2Pr2Tc15",
+  "uri": "material://C3Fe2Pr2Tc15",
+  "composition": {
+    "formula": "C3Fe2Pr2Tc15",
+    "elements": {
+      "C": 3,
+      "Fe": 2,
+      "Pr": 2,
+      "Tc": 15
+    },
+    "reduced_formula": "Pr2Fe2(Tc5C)3",
+    "element_list": [
+      "C",
+      "Fe",
+      "Tc",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Titanium (Ti): 42.6 g\n- Silicon (Si): 12.3 g\n- Iron (Fe): 45.1 g"
+    },
+    "sourcing": {
+      "instructions": "- Titanium: Obtain from a metal supplier specializing in aerospace materials or online suppliers such as McMaster-Carr.\n- Silicon: Available at chemical supply stores or online.\n- Iron: Sourced from local metal scrap yards or suppliers.",
+      "steps": [
+        "- Titanium: Obtain from a metal supplier specializing in aerospace materials or online suppliers such as McMaster-Carr.",
+        "- Silicon: Available at chemical supply stores or online.",
+        "- Iron: Sourced from local metal scrap yards or suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using a digital scale.",
+        "2. In a clean, dry container, combine the titanium, silicon, and iron powders.",
+        "3. Use a mechanical mixer or ball mill to ensure a homogeneous mixture for approximately 15 minutes."
+      ],
+      "raw_text": "1. Weigh each material precisely using a digital scale.\n2. In a clean, dry container, combine the titanium, silicon, and iron powders.\n3. Use a mechanical mixer or ball mill to ensure a homogeneous mixture for approximately 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a suitable crucible.",
+        "2. Heat in a vacuum furnace at 1200°C (2192°F) for 2 hours to promote alloying, ensuring the environment is inert to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a suitable crucible.\n2. Heat in a vacuum furnace at 1200°C (2192°F) for 2 hours to promote alloying, ensuring the environment is inert to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool to room temperature naturally, which may take about 4-6 hours.",
+        "2. Once cool, carefully remove the crucible."
+      ],
+      "raw_text": "1. Allow the furnace to cool to room temperature naturally, which may take about 4-6 hours.\n2. Once cool, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified alloy from the crucible and inspect for any surface irregularities.",
+        "2. Use a belt sander to smooth out the edges and surfaces.",
+        "3. Optionally, apply a protective sealant to prevent oxidation if the material will be exposed to air."
+      ],
+      "raw_text": "1. Remove the solidified alloy from the crucible and inspect for any surface irregularities.\n2. Use a belt sander to smooth out the edges and surfaces.\n3. Optionally, apply a protective sealant to prevent oxidation if the material will be exposed to air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3303657.0,
+      "density": 95478.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2114963.0,
+      "formation_energy_per_atom": -866.0,
+      "decomposition_energy_per_atom": -544.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -142.0,
+      "decomposition_energy_mp": -544.0,
+      "decomposition_energy_mp_oqmd": -459.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e00c892d00",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.756174Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C3Fe2Pr2Tc15.json",
+      "material://C3Fe2Pr2Tc15"
+    ]
+  }
+}

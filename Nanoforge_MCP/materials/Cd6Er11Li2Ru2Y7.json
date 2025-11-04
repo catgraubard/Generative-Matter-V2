@@ -1,0 +1,141 @@
+{
+  "id": "Cd6Er11Li2Ru2Y7",
+  "uri": "material://Cd6Er11Li2Ru2Y7",
+  "composition": {
+    "formula": "Cd6Er11Li2Ru2Y7",
+    "elements": {
+      "Cd": 6,
+      "Er": 11,
+      "Li": 2,
+      "Ru": 2,
+      "Y": 7
+    },
+    "reduced_formula": "Li2Y7Er11(Cd3Ru)2",
+    "element_list": [
+      "Li",
+      "Y",
+      "Ru",
+      "Cd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 66.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 98.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 30.0 g \n Er: 66.0 g \n Li: 14.0 g \n Ru: 14.0 g \n Y: 98.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Chemical supply companies (e.g., Sigma-Aldrich) \n Er: Rare earth metal suppliers \n Li: Battery material suppliers \n Ru: Chemical supply companies (e.g., Alfa Aesar) \n Y: Rare earth metal suppliers",
+      "steps": [
+        "Cd: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Er: Rare earth metal suppliers",
+        "Li: Battery material suppliers",
+        "Ru: Chemical supply companies (e.g., Alfa Aesar)",
+        "Y: Rare earth metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cd, Er, Li, Ru, and Y.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly for 10 minutes to ensure a uniform blend.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Cd, Er, Li, Ru, and Y. \n 3. Use a mortar and pestle to grind the mixture thoroughly for 10 minutes to ensure a uniform blend. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat to 900°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat to 900°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth the edges and surface.",
+        "4. Optionally, seal the sample with a clear epoxy to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use fine-grit sandpaper to smooth the edges and surface. \n 4. Optionally, seal the sample with a clear epoxy to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7465609.0,
+      "density": 74572.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1312688.0,
+      "formation_energy_per_atom": -2805.0,
+      "decomposition_energy_per_atom": -242.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -242.0,
+      "decomposition_energy_mp_oqmd": -236.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "283b4d6c21",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:08.676131Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd6Er11Li2Ru2Y7.json",
+      "material://Cd6Er11Li2Ru2Y7"
+    ]
+  }
+}

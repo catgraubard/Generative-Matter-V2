@@ -1,0 +1,124 @@
+{
+  "id": "K10Sn12Sr1",
+  "uri": "material://K10Sn12Sr1",
+  "composition": {
+    "formula": "K10Sn12Sr1",
+    "elements": {
+      "K": 10,
+      "Sn": 12,
+      "Sr": 1
+    },
+    "reduced_formula": "K10SrSn12",
+    "element_list": [
+      "K",
+      "Sr",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 1000.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 1200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 1000 g \n Sn: 1200 g \n Sr: 100 g \n Binder (Polyvinyl Alcohol): 50 g \n Water: 200 g"
+    },
+    "sourcing": {
+      "instructions": "K (Potassium): Supply stores or chemical suppliers \n Sn (Tin): Metal suppliers or online marketplaces \n Sr (Strontium): Chemical suppliers \n Polyvinyl Alcohol: Craft stores or online \n Water: Distilled, available at grocery stores",
+      "steps": [
+        "K (Potassium): Supply stores or chemical suppliers",
+        "Sn (Tin): Metal suppliers or online marketplaces",
+        "Sr (Strontium): Chemical suppliers",
+        "Polyvinyl Alcohol: Craft stores or online",
+        "Water: Distilled, available at grocery stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing bowl, combine 1000 g of K, 1200 g of Sn, and 100 g of Sr.",
+        "3. In a separate container, dissolve 50 g of Polyvinyl Alcohol in 200 g of warm distilled water until fully dissolved.",
+        "4. Slowly add the binder solution to the dry mixture while stirring continuously to achieve a homogeneous paste."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean mixing bowl, combine 1000 g of K, 1200 g of Sn, and 100 g of Sr. \n 3. In a separate container, dissolve 50 g of Polyvinyl Alcohol in 200 g of warm distilled water until fully dissolved. \n 4. Slowly add the binder solution to the dry mixture while stirring continuously to achieve a homogeneous paste."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "steps": [
+        "1. Preheat a kiln or furnace to 800°C (1472°F).",
+        "2. Once the mixture is homogeneous, transfer it into a mold that fits the dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Place the filled mold into the preheated kiln."
+      ],
+      "raw_text": "1. Preheat a kiln or furnace to 800°C (1472°F). \n 2. Once the mixture is homogeneous, transfer it into a mold that fits the dimensions of 3 inches x 2 inches x 7 inches. \n 3. Place the filled mold into the preheated kiln."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Allow the sample to heat for 2 hours at 800°C.",
+        "2. Turn off the kiln and allow it to cool naturally to room temperature (approximately 4-6 hours). Do not open the kiln until it is fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the sample to heat for 2 hours at 800°C. \n 2. Turn off the kiln and allow it to cool naturally to room temperature (approximately 4-6 hours). Do not open the kiln until it is fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the mold.",
+        "2. Inspect for any surface imperfections; sand down rough edges with fine-grit sandpaper if necessary.",
+        "3. Optionally, seal the surface with a suitable sealing agent to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the mold. \n 2. Inspect for any surface imperfections; sand down rough edges with fine-grit sandpaper if necessary. \n 3. Optionally, seal the surface with a suitable sealing agent to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 23,
+      "volume": 9139875.0,
+      "density": 34576.0,
+      "crystal_system": "cubic",
+      "space_group": "I-43m",
+      "space_group_number": 217,
+      "point_group": "-43m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -687079.0,
+      "formation_energy_per_atom": -3391.0,
+      "decomposition_energy_per_atom": -185.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -185.0,
+      "decomposition_energy_mp_oqmd": -168.0
+    },
+    "electronic": {
+      "bandgap": 0.968,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "542644af27",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.946108Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K10Sn12Sr1.json",
+      "material://K10Sn12Sr1"
+    ]
+  }
+}

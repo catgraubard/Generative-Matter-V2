@@ -1,0 +1,114 @@
+{
+  "id": "Ga10In2Na4Te20",
+  "uri": "material://Ga10In2Na4Te20",
+  "composition": {
+    "formula": "Ga10In2Na4Te20",
+    "elements": {
+      "Ga": 10,
+      "In": 2,
+      "Na": 4,
+      "Te": 20
+    },
+    "reduced_formula": "Na2In(GaTe2)5",
+    "element_list": [
+      "Na",
+      "Ga",
+      "In",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 20.0 g, In: 8.0 g, Na: 16.0 g, Te: 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ga: Chemical supply stores or online suppliers; In: Specialty metal suppliers; Na: Chemical suppliers; Te: Chemical supply stores.",
+      "steps": [
+        "Ga: Chemical supply stores or online suppliers; In: Specialty metal suppliers; Na: Chemical suppliers; Te: Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 20.0 g of Ga, 8.0 g of In, 16.0 g of Na, and 40.0 g of Te using a precision scale.",
+        "2. Combine Ga and In in a clean, dry mixing container.",
+        "3. Add Na to the Ga-In mixture and stir thoroughly until homogenous.",
+        "4. Gradually incorporate Te into the mixture, ensuring even distribution."
+      ],
+      "raw_text": "1. Measure out 20.0 g of Ga, 8.0 g of In, 16.0 g of Na, and 40.0 g of Te using a precision scale. \n 2. Combine Ga and In in a clean, dry mixing container. \n 3. Add Na to the Ga-In mixture and stir thoroughly until homogenous. \n 4. Gradually incorporate Te into the mixture, ensuring even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F).",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible. \n 2. Heat the crucible in a furnace to 800°C (1472°F). \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 25°C / 77°F) - this may take 6-8 hours.",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 25°C / 77°F) - this may take 6-8 hours. \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if required for your application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11970459.0,
+      "density": 49534.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1293499.0,
+      "formation_energy_per_atom": -7058.0,
+      "decomposition_energy_per_atom": -86.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -61.0
+    },
+    "electronic": {
+      "bandgap": 1.0844,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5b11687b3d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:14.976399Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga10In2Na4Te20.json",
+      "material://Ga10In2Na4Te20"
+    ]
+  }
+}

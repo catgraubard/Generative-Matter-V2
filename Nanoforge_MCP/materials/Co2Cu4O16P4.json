@@ -1,0 +1,117 @@
+{
+  "id": "Co2Cu4O16P4",
+  "uri": "material://Co2Cu4O16P4",
+  "composition": {
+    "formula": "Co2Cu4O16P4",
+    "elements": {
+      "Co": 2,
+      "Cu": 4,
+      "O": 16,
+      "P": 4
+    },
+    "reduced_formula": "CoCu2(PO4)2",
+    "element_list": [
+      "O",
+      "P",
+      "Co",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CoO: 20 g \n CuO: 80 g \n P2O5: 10 g \n C: 3 g"
+    },
+    "sourcing": {
+      "instructions": "CoO: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich) \n CuO: Chemical suppliers or online marketplaces (e.g., Alfa Aesar) \n P2O5: Chemical suppliers or online marketplaces (e.g., Fisher Scientific) \n C: Local hardware stores or chemical suppliers",
+      "steps": [
+        "CoO: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich)",
+        "CuO: Chemical suppliers or online marketplaces (e.g., Alfa Aesar)",
+        "P2O5: Chemical suppliers or online marketplaces (e.g., Fisher Scientific)",
+        "C: Local hardware stores or chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 20 g of CoO, 80 g of CuO, 10 g of P2O5, and 3 g of C using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine CoO, CuO, P2O5, and C thoroughly using a spatula.",
+        "3. Transfer the mixed powder to a mortar and pestle and grind for 10 minutes to ensure a homogeneous mixture.",
+        "4. Sieve the mixture through a 100 mesh sieve to remove any larger particles."
+      ],
+      "raw_text": "1. Measure out 20 g of CoO, 80 g of CuO, 10 g of P2O5, and 3 g of C using a precision scale. \n 2. In a clean, dry mixing bowl, combine CoO, CuO, P2O5, and C thoroughly using a spatula. \n 3. Transfer the mixed powder to a mortar and pestle and grind for 10 minutes to ensure a homogeneous mixture. \n 4. Sieve the mixture through a 100 mesh sieve to remove any larger particles."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the sieved mixture in an alumina crucible.",
+        "3. Heat the crucible in the furnace at 900°C for 4 hours to facilitate solid-state synthesis."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the sieved mixture in an alumina crucible. \n 3. Heat the crucible in the furnace at 900°C for 4 hours to facilitate solid-state synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid material.",
+        "2. If necessary, grind the solid sample to achieve desired particle size.",
+        "3. Optionally seal the sample with a protective coating (e.g., epoxy resin) to prevent degradation.",
+        "4. Sand the edges to achieve a smooth finish if desired."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid material. \n 2. If necessary, grind the solid sample to achieve desired particle size. \n 3. Optionally seal the sample with a protective coating (e.g., epoxy resin) to prevent degradation. \n 4. Sand the edges to achieve a smooth finish if desired."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3278224.0,
+      "density": 38088.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1825728.0,
+      "formation_energy_per_atom": -19669.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -14.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": 0.3865,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "12dd3eeede",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:40.423363Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Cu4O16P4.json",
+      "material://Co2Cu4O16P4"
+    ]
+  }
+}

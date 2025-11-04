@@ -1,0 +1,135 @@
+{
+  "id": "Cu2Er2Si6Tb2",
+  "uri": "material://Cu2Er2Si6Tb2",
+  "composition": {
+    "formula": "Cu2Er2Si6Tb2",
+    "elements": {
+      "Cu": 2,
+      "Er": 2,
+      "Si": 6,
+      "Tb": 2
+    },
+    "reduced_formula": "TbErCuSi3",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 60 g \n Er: 40 g \n Si: 200 g \n Tb: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper metal can be sourced from local metal suppliers or online retailers specializing in metal. \n Er: Erbium oxide can be obtained from chemical supply companies or online marketplaces. \n Si: Silicon powder is available at chemical suppliers or electronic component suppliers. \n Tb: Terbium oxide can be sourced from specialized chemical suppliers or online marketplaces.",
+      "steps": [
+        "Cu: Copper metal can be sourced from local metal suppliers or online retailers specializing in metal.",
+        "Er: Erbium oxide can be obtained from chemical supply companies or online marketplaces.",
+        "Si: Silicon powder is available at chemical suppliers or electronic component suppliers.",
+        "Tb: Terbium oxide can be sourced from specialized chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 60 g of copper (Cu) and place it in a clean, dry mixing container.",
+        "2. Add 40 g of erbium (Er) oxide to the container.",
+        "3. Introduce 200 g of silicon (Si) powder into the mixture.",
+        "4. Finally, add 20 g of terbium (Tb) oxide.",
+        "5. Use a mechanical mixer or mortar and pestle to thoroughly blend the powders for at least 15 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure out 60 g of copper (Cu) and place it in a clean, dry mixing container. \n 2. Add 40 g of erbium (Er) oxide to the container. \n 3. Introduce 200 g of silicon (Si) powder into the mixture. \n 4. Finally, add 20 g of terbium (Tb) oxide. \n 5. Use a mechanical mixer or mortar and pestle to thoroughly blend the powders for at least 15 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to a temperature of 1200 °C (2192 °F).",
+        "4. Maintain this temperature for 2 hours to ensure proper melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to a temperature of 1200 °C (2192 °F). \n 4. Maintain this temperature for 2 hours to ensure proper melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down slowly to room temperature, which may take approximately 6-8 hours.",
+        "3. Ensure the cooling process is gradual to prevent thermal shock and cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down slowly to room temperature, which may take approximately 6-8 hours. \n 3. Ensure the cooling process is gradual to prevent thermal shock and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully extract the solidified material from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use sandpaper (starting with 120-grit and progressing to 600-grit) to smooth the surface.",
+        "4. Optionally, apply a protective sealant to the surface to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully extract the solidified material from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use sandpaper (starting with 120-grit and progressing to 600-grit) to smooth the surface. \n 4. Optionally, apply a protective sealant to the surface to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2229336.0,
+      "density": 70611.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -674736.0,
+      "formation_energy_per_atom": -6933.0,
+      "decomposition_energy_per_atom": -487.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -482.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 0.0063,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "37aed73acc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:28.689534Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Er2Si6Tb2.json",
+      "material://Cu2Er2Si6Tb2"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "id": "Li30S1Si7",
+  "uri": "material://Li30S1Si7",
+  "composition": {
+    "formula": "Li30S1Si7",
+    "elements": {
+      "Li": 30,
+      "S": 1,
+      "Si": 7
+    },
+    "reduced_formula": "Li30Si7S",
+    "element_list": [
+      "Li",
+      "Si",
+      "S"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 7.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 15 g \n  P: 6 g \n  Pr: 3 g \n  Te: 7 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium) can be sourced from rare earth metal suppliers or online chemical vendors. \n P (Phosphorus) can be obtained from chemical supply companies. \n Pr (Praseodymium) is available from rare earth suppliers or specialized metal dealers. \n Te (Tellurium) can be found from chemical suppliers or metallurgical suppliers.",
+      "steps": [
+        "Nd (Neodymium) can be sourced from rare earth metal suppliers or online chemical vendors.",
+        "P (Phosphorus) can be obtained from chemical supply companies.",
+        "Pr (Praseodymium) is available from rare earth suppliers or specialized metal dealers.",
+        "Te (Tellurium) can be found from chemical suppliers or metallurgical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 15 g of Nd, 6 g of P, 3 g of Pr, and 7 g of Te using an analytical balance.",
+        "2. In a fume hood, carefully mix Nd, P, Pr, and Te in a clean, dry ceramic or glass container.",
+        "3. Use a pestle and mortar to grind the mixture into a fine powder to ensure uniformity.",
+        "4. Transfer the powder to a pre-cleaned crucible."
+      ],
+      "raw_text": "1. Measure out 15 g of Nd, 6 g of P, 3 g of Pr, and 7 g of Te using an analytical balance. \n 2. In a fume hood, carefully mix Nd, P, Pr, and Te in a clean, dry ceramic or glass container. \n 3. Use a pestle and mortar to grind the mixture into a fine powder to ensure uniformity. \n 4. Transfer the powder to a pre-cleaned crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "Heat the crucible containing the mixture in a high-temperature furnace.",
+        "Set the temperature to 900 °C and maintain for 4 hours to ensure complete reaction and formation of Nd3P2Pr1Te2 compound."
+      ],
+      "raw_text": "Heat the crucible containing the mixture in a high-temperature furnace. \n Set the temperature to 900 °C and maintain for 4 hours to ensure complete reaction and formation of Nd3P2Pr1Te2 compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). Do not open the furnace door until it has cooled completely to avoid contamination."
+      ],
+      "raw_text": "After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). Do not open the furnace door until it has cooled completely to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace and take out the solid sample.",
+        "2. Use fine-grit sandpaper to smooth the surfaces of the sample, ensuring dimensions remain close to 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, seal with a suitable chemical-resistant coating to protect the material from environmental degradation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace and take out the solid sample. \n 2. Use fine-grit sandpaper to smooth the surfaces of the sample, ensuring dimensions remain close to 3 inches x 2 inches x 7 inches. \n 3. Optionally, seal with a suitable chemical-resistant coating to protect the material from environmental degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5896544.0,
+      "density": 12303.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1118133.0,
+      "formation_energy_per_atom": -3272.0,
+      "decomposition_energy_per_atom": -86.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -123.0,
+      "decomposition_energy_mp_oqmd": -59.0
+    },
+    "electronic": {
+      "bandgap": 0.1269,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d95b2e2b11",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.800592Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li30S1Si7.json",
+      "material://Li30S1Si7"
+    ]
+  }
+}

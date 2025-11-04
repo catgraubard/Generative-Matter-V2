@@ -1,0 +1,131 @@
+{
+  "id": "P3S1Tb3Tm1",
+  "uri": "material://P3S1Tb3Tm1",
+  "composition": {
+    "formula": "P3S1Tb3Tm1",
+    "elements": {
+      "P": 3,
+      "S": 1,
+      "Tb": 3,
+      "Tm": 1
+    },
+    "reduced_formula": "Tb3TmP3S",
+    "element_list": [
+      "P",
+      "S",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.32,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 1.54,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 0.09,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 6.05,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.32 g \n Ga: 1.54 g \n In: 0.09 g \n Se: 6.05 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier specializing in alkali metals. \n Ga: Obtain from a reputable supplier of gallium. \n In: Available from specialized chemical suppliers. \n Se: Acquire selenium from a chemical distributor.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier specializing in alkali metals.",
+        "Ga: Obtain from a reputable supplier of gallium.",
+        "In: Available from specialized chemical suppliers.",
+        "Se: Acquire selenium from a chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.32 g of Cs using an analytical balance.",
+        "2. Weigh 1.54 g of Ga.",
+        "3. Weigh 0.09 g of In.",
+        "4. Weigh 6.05 g of Se.",
+        "5. In a clean, dry container, combine the weighed Cs, Ga, In, and Se thoroughly using a spatula to ensure uniform mixing."
+      ],
+      "raw_text": "1. Weigh out 0.32 g of Cs using an analytical balance. \n 2. Weigh 1.54 g of Ga. \n 3. Weigh 0.09 g of In. \n 4. Weigh 6.05 g of Se. \n 5. In a clean, dry container, combine the weighed Cs, Ga, In, and Se thoroughly using a spatula to ensure uniform mixing."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a quartz ampoule or crucible.",
+        "2. Heat the sample in a furnace at 600 °C for 4 hours to ensure complete melting and homogeneity."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a quartz ampoule or crucible. \n 2. Heat the sample in a furnace at 600 °C for 4 hours to ensure complete melting and homogeneity."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool slowly to room temperature (approximately 25 °C) over 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool slowly to room temperature (approximately 25 °C) over 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, trim any excess material to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to create a smooth finish.",
+        "4. Optionally, seal the surface with a suitable clear coating to protect the material."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, trim any excess material to achieve the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to create a smooth finish. \n 4. Optionally, seal the surface with a suitable clear coating to protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1790591.0,
+      "density": 71472.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -533711.0,
+      "formation_energy_per_atom": -1827.0,
+      "decomposition_energy_per_atom": -571.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -572.0,
+      "decomposition_energy_mp_oqmd": -385.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b8b254deff",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.859382Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/P3S1Tb3Tm1.json",
+      "material://P3S1Tb3Tm1"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "C4Cd2La4",
+  "uri": "material://C4Cd2La4",
+  "composition": {
+    "formula": "C4Cd2La4",
+    "elements": {
+      "C": 4,
+      "Cd": 2,
+      "La": 4
+    },
+    "reduced_formula": "La2CdC2",
+    "element_list": [
+      "C",
+      "Cd",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cd",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 48.0 g (from carbon sources like graphite) \n  Cd: 20.0 g (from cadmium oxide) \n  La: 32.0 g (from lanthanum oxide)"
+    },
+    "sourcing": {
+      "instructions": "C: Purchase graphite powder from a scientific supply store or online retailers. \n  Cd: Obtain cadmium oxide from chemical supply companies. \n  La: Buy lanthanum oxide from specialized chemical suppliers or online.",
+      "steps": [
+        "C: Purchase graphite powder from a scientific supply store or online retailers.",
+        "Cd: Obtain cadmium oxide from chemical supply companies.",
+        "La: Buy lanthanum oxide from specialized chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 48.0 g of graphite powder using a precision scale.",
+        "2. Weigh 20.0 g of cadmium oxide.",
+        "3. Weigh 32.0 g of lanthanum oxide.",
+        "4. In a clean mixing container, combine the weighed powders thoroughly using a spatula or mechanical mixer until uniform."
+      ],
+      "raw_text": "1. Weigh 48.0 g of graphite powder using a precision scale. \n  2. Weigh 20.0 g of cadmium oxide. \n  3. Weigh 32.0 g of lanthanum oxide. \n  4. In a clean mixing container, combine the weighed powders thoroughly using a spatula or mechanical mixer until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature crucible suitable for metal oxides.",
+        "2. Heat in a furnace at 800°C for 4 hours to promote solid-state reaction.",
+        "3. Ensure the heating ramp is gradual, approximately 5°C/min to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature crucible suitable for metal oxides. \n  2. Heat in a furnace at 800°C for 4 hours to promote solid-state reaction. \n  3. Ensure the heating ramp is gradual, approximately 5°C/min to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n  2. Do not open the furnace until it has cooled completely to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond file or sandpaper (grit 200-400) to smooth out any rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for enhanced durability. Allow the epoxy to cure for 24 hours in a dust-free environment."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n  2. Use a diamond file or sandpaper (grit 200-400) to smooth out any rough edges. \n  3. Optionally, seal the surface with a clear epoxy resin for enhanced durability. Allow the epoxy to cure for 24 hours in a dust-free environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 233661.0,
+      "density": 58877.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -607839.0,
+      "formation_energy_per_atom": -2287.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": 9.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "677591be10",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:30.956715Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4Cd2La4.json",
+      "material://C4Cd2La4"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "B1Cs4Ni1Se32",
+  "uri": "material://B1Cs4Ni1Se32",
+  "composition": {
+    "formula": "B1Cs4Ni1Se32",
+    "elements": {
+      "B": 1,
+      "Cs": 4,
+      "Ni": 1,
+      "Se": 32
+    },
+    "reduced_formula": "Cs4NiBSe32",
+    "element_list": [
+      "B",
+      "Ni",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10.0 g\nC: 40.0 g\nNi: 2.5 g\nSe: 320.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)\nC: Chemical supply stores or online suppliers (e.g., Thermo Fisher)\nNi: Metal supply stores or online suppliers (e.g., McMaster-Carr)\nSe: Chemical supply stores or online suppliers (e.g., Alfa Aesar)",
+      "steps": [
+        "B: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "C: Chemical supply stores or online suppliers (e.g., Thermo Fisher)",
+        "Ni: Metal supply stores or online suppliers (e.g., McMaster-Carr)",
+        "Se: Chemical supply stores or online suppliers (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of B, 40.0 g of C, 2.5 g of Ni, and 320.0 g of Se using a digital scale.",
+        "2. In a clean, dry container, combine the weighed ingredients and mix thoroughly using a spatula to ensure an even distribution."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of B, 40.0 g of C, 2.5 g of Ni, and 320.0 g of Se using a digital scale.\n2. In a clean, dry container, combine the weighed ingredients and mix thoroughly using a spatula to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed ingredients to a crucible.",
+        "2. Heat in a muffle furnace to 800°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a crucible.\n2. Heat in a muffle furnace to 800°C at a rate of 5°C/min.\n3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).\n2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, seal the sample with a clear acrylic coating to protect it."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Inspect for any surface irregularities.\n3. If necessary, use fine-grit sandpaper to smooth the surface.\n4. Optionally, seal the sample with a clear acrylic coating to protect it."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 12296936.0,
+      "density": 42237.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4",
+      "space_group_number": 81,
+      "point_group": "-4",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1519254.0,
+      "formation_energy_per_atom": -632.0,
+      "decomposition_energy_per_atom": -1223.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -118.0,
+      "decomposition_energy_mp": -2524.0,
+      "decomposition_energy_mp_oqmd": -226.0
+    },
+    "electronic": {
+      "bandgap": 0.0067,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "097cbcb6d6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:27.615272Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B1Cs4Ni1Se32.json",
+      "material://B1Cs4Ni1Se32"
+    ]
+  }
+}

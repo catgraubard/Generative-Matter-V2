@@ -1,0 +1,132 @@
+{
+  "id": "Cs12Se16Sn1V3",
+  "uri": "material://Cs12Se16Sn1V3",
+  "composition": {
+    "formula": "Cs12Se16Sn1V3",
+    "elements": {
+      "Cs": 12,
+      "Se": 16,
+      "Sn": 1,
+      "V": 3
+    },
+    "reduced_formula": "Cs12V3SnSe16",
+    "element_list": [
+      "V",
+      "Se",
+      "Sn",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 1000.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 240 g\nP: 60 g\nSe: 10 g\nSr: 1000 g"
+    },
+    "sourcing": {
+      "instructions": "O (Oxygen): Obtain from a chemical supplier or laboratory-grade gas supplier.\nP (Phosphorus): Purchase from a chemical supplier or specialty chemical store.\nSe (Selenium): Obtain from a chemical supplier or online chemical retailer.\nSr (Strontium): Source from a chemical supplier or a metal supplier that specializes in rare earth metals.",
+      "steps": [
+        "O (Oxygen): Obtain from a chemical supplier or laboratory-grade gas supplier.",
+        "P (Phosphorus): Purchase from a chemical supplier or specialty chemical store.",
+        "Se (Selenium): Obtain from a chemical supplier or online chemical retailer.",
+        "Sr (Strontium): Source from a chemical supplier or a metal supplier that specializes in rare earth metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing container, combine 240 g of oxygen (ensure a controlled environment to avoid excess exposure).",
+        "2. Add 60 g of phosphorus carefully, using a fume hood due to its reactivity.",
+        "3. Gradually mix in 10 g of selenium while stirring continuously to ensure uniform distribution.",
+        "4. Finally, incorporate 1000 g of strontium, ensuring even mixing. Use a mechanical stirrer for homogeneity."
+      ],
+      "raw_text": "1. In a clean, dry mixing container, combine 240 g of oxygen (ensure a controlled environment to avoid excess exposure).\n2. Add 60 g of phosphorus carefully, using a fume hood due to its reactivity.\n3. Gradually mix in 10 g of selenium while stirring continuously to ensure uniform distribution.\n4. Finally, incorporate 1000 g of strontium, ensuring even mixing. Use a mechanical stirrer for homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to a temperature of 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures.\n2. Heat the crucible in a furnace to a temperature of 800°C.\n3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature.",
+        "2. This may take approximately 4-5 hours; do not force cool to avoid cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature.\n2. This may take approximately 4-5 hours; do not force cool to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or surface imperfections.",
+        "3. If necessary, use fine-grit sandpaper to smooth the edges.",
+        "4. Seal the sample with a protective coating if required for stability in environmental conditions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Inspect the sample for any rough edges or surface imperfections.\n3. If necessary, use fine-grit sandpaper to smooth the edges.\n4. Seal the sample with a protective coating if required for stability in environmental conditions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 13148386.0,
+      "density": 39526.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1387635.0,
+      "formation_energy_per_atom": -12757.0,
+      "decomposition_energy_per_atom": -29.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -119.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -259.0
+    },
+    "electronic": {
+      "bandgap": 0.0042,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dfede5479f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.731335Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Se16Sn1V3.json",
+      "material://Cs12Se16Sn1V3"
+    ]
+  }
+}

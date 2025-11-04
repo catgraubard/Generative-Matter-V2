@@ -1,0 +1,113 @@
+{
+  "id": "As7Cu9Li4Nd1",
+  "uri": "material://As7Cu9Li4Nd1",
+  "composition": {
+    "formula": "As7Cu9Li4Nd1",
+    "elements": {
+      "As": 7,
+      "Cu": 9,
+      "Li": 4,
+      "Nd": 1
+    },
+    "reduced_formula": "Li4NdCu9As7",
+    "element_list": [
+      "Li",
+      "Cu",
+      "As",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, Sb: 80 g, Sn: 10 g, Ti: 10 g, Zr: 160 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores; Sb: Metal suppliers; Sn: Metal suppliers; Ti: Metal suppliers; Zr: Metal suppliers",
+      "steps": [
+        "B: Chemical supply stores; Sb: Metal suppliers; Sn: Metal suppliers; Ti: Metal suppliers; Zr: Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately.",
+        "2. In a clean, dry mixing container, combine B and Sb first.",
+        "3. Stir the mixture thoroughly using a metal spatula until homogenous.",
+        "4. Add Sn, Ti, and Zr to the mixture.",
+        "5. Continue mixing until all components are evenly distributed."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately. \n 2. In a clean, dry mixing container, combine B and Sb first. \n 3. Stir the mixture thoroughly using a metal spatula until homogenous. \n 4. Add Sn, Ti, and Zr to the mixture. \n 5. Continue mixing until all components are evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 1000°C for 2 hours to facilitate melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 1000°C for 2 hours to facilitate melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down to room temperature naturally.",
+        "2. This should take approximately 6 to 8 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down to room temperature naturally. \n 2. This should take approximately 6 to 8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120-400) to smooth the edges and surface.",
+        "3. Optionally, apply a sealant for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120-400) to smooth the edges and surface. \n 3. Optionally, apply a sealant for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 3433728.0,
+      "density": 61338.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -898798.0,
+      "formation_energy_per_atom": -3789.0,
+      "decomposition_energy_per_atom": -283.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -32.0,
+      "decomposition_energy_mp": -283.0,
+      "decomposition_energy_mp_oqmd": -32.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "de79d13ea9",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.344788Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As7Cu9Li4Nd1.json",
+      "material://As7Cu9Li4Nd1"
+    ]
+  }
+}

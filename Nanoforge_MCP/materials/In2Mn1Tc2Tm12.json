@@ -1,0 +1,135 @@
+{
+  "id": "In2Mn1Tc2Tm12",
+  "uri": "material://In2Mn1Tc2Tm12",
+  "composition": {
+    "formula": "In2Mn1Tc2Tm12",
+    "elements": {
+      "In": 2,
+      "Mn": 1,
+      "Tc": 2,
+      "Tm": 12
+    },
+    "reduced_formula": "Tm12Mn(InTc)2",
+    "element_list": [
+      "Mn",
+      "Tc",
+      "In",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 7.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 8.00 g \n Nd: 1.00 g \n Sb: 6.00 g \n Sn: 2.00 g \n Tb: 7.00 g \n Total: 24.00 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Lithium carbonate from chemical supply stores. \n Nd: Neodymium oxide from rare earth material suppliers. \n Sb: Antimony trioxide from chemical suppliers. \n Sn: Tin ingots from metal suppliers. \n Tb: Terbium oxide from rare earth suppliers.",
+      "steps": [
+        "Li: Lithium carbonate from chemical supply stores.",
+        "Nd: Neodymium oxide from rare earth material suppliers.",
+        "Sb: Antimony trioxide from chemical suppliers.",
+        "Sn: Tin ingots from metal suppliers.",
+        "Tb: Terbium oxide from rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry glass beaker, combine Li, Nd, Sb, Sn, and Tb.",
+        "3. Mix thoroughly using a glass rod until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry glass beaker, combine Li, Nd, Sb, Sn, and Tb. \n 3. Mix thoroughly using a glass rod until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature resistant crucible.",
+        "2. Heat in a muffle furnace at 900°C for 4 hours, ensuring the heating is gradual to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature resistant crucible. \n 2. Heat in a muffle furnace at 900°C for 4 hours, ensuring the heating is gradual to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, retrieve the solid sample and inspect for any surface imperfections.",
+        "2. If necessary, sand the exterior using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal the surface with a suitable clear coat to protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, retrieve the solid sample and inspect for any surface imperfections. \n 2. If necessary, sand the exterior using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, seal the surface with a suitable clear coat to protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 443846.0,
+      "density": 93822.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -926777.0,
+      "formation_energy_per_atom": -2107.0,
+      "decomposition_energy_per_atom": -464.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -464.0,
+      "decomposition_energy_mp_oqmd": -45.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e84809405e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.881695Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In2Mn1Tc2Tm12.json",
+      "material://In2Mn1Tc2Tm12"
+    ]
+  }
+}

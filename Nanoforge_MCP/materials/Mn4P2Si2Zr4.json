@@ -1,0 +1,131 @@
+{
+  "id": "Mn4P2Si2Zr4",
+  "uri": "material://Mn4P2Si2Zr4",
+  "composition": {
+    "formula": "Mn4P2Si2Zr4",
+    "elements": {
+      "Mn": 4,
+      "P": 2,
+      "Si": 2,
+      "Zr": 4
+    },
+    "reduced_formula": "Zr2Mn2SiP",
+    "element_list": [
+      "Si",
+      "P",
+      "Mn",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 5.5,
+          "unit": "g"
+        },
+        {
+          "element": "Cs",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 5.5 g \n Cs: 2.0 g \n Ga: 3.0 g \n Sb: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Purchase from a chemical supply company or online retailer specializing in metals. \n Cs: Obtain from a laboratory supplier or specialty chemicals store. \n Ga: Available from chemical suppliers or online. \n Sb: Sourced from a reputable chemical supply company.",
+      "steps": [
+        "Al: Purchase from a chemical supply company or online retailer specializing in metals.",
+        "Cs: Obtain from a laboratory supplier or specialty chemicals store.",
+        "Ga: Available from chemical suppliers or online.",
+        "Sb: Sourced from a reputable chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the precise amounts of each material using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the Al, Cs, Ga, and Sb powders evenly.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out the precise amounts of each material using an analytical balance. \n 2. In a clean, dry mixing container, combine the Al, Cs, Ga, and Sb powders evenly. \n 3. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Heat the crucible in a furnace or high-temperature oven to 800 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Heat the crucible in a furnace or high-temperature oven to 800 °C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature over a period of 6 hours.",
+        "2. Do not remove the crucible until it has reached ambient temperature to avoid cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature over a period of 6 hours. \n 2. Do not remove the crucible until it has reached ambient temperature to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities or rough edges.",
+        "3. Use fine-grit sandpaper to smooth the surfaces as needed.",
+        "4. Optionally, seal the sample with a protective coating if required for your application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities or rough edges. \n 3. Use fine-grit sandpaper to smooth the surfaces as needed. \n 4. Optionally, seal the sample with a protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1819734.0,
+      "density": 64129.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1030245.0,
+      "formation_energy_per_atom": -8757.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -218.0,
+      "decomposition_energy_mp_oqmd": -217.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb1bdabbb9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.585215Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn4P2Si2Zr4.json",
+      "material://Mn4P2Si2Zr4"
+    ]
+  }
+}

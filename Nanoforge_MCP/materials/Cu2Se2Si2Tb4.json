@@ -1,0 +1,111 @@
+{
+  "id": "Cu2Se2Si2Tb4",
+  "uri": "material://Cu2Se2Si2Tb4",
+  "composition": {
+    "formula": "Cu2Se2Si2Tb4",
+    "elements": {
+      "Cu": 2,
+      "Se": 2,
+      "Si": 2,
+      "Tb": 4
+    },
+    "reduced_formula": "Tb2CuSiSe",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Se",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium (Ca): 1.0 g \n Copper (Cu): 18.0 g \n Neodymium (Nd): 1.0 g \n Silicon (Si): 8.0 g \n Total weight: 28.0 g"
+    },
+    "sourcing": {
+      "instructions": "Calcium: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich). \n Copper: Metal suppliers or hardware stores. \n Neodymium: Rare earth metal suppliers or online marketplaces (e.g., eBay, Amazon). \n Silicon: Chemical supply stores or online suppliers (e.g., Alfa Aesar).",
+      "steps": [
+        "Calcium: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich).",
+        "Copper: Metal suppliers or hardware stores.",
+        "Neodymium: Rare earth metal suppliers or online marketplaces (e.g., eBay, Amazon).",
+        "Silicon: Chemical supply stores or online suppliers (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine the 1.0 g of Calcium, 18.0 g of Copper, 1.0 g of Neodymium, and 8.0 g of Silicon.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture for about 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixture into a pre-cleaned crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine the 1.0 g of Calcium, 18.0 g of Copper, 1.0 g of Neodymium, and 8.0 g of Silicon. \n 3. Use a mortar and pestle to thoroughly grind the mixture for about 10 minutes to ensure homogeneity. \n 4. Transfer the mixture into a pre-cleaned crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Set the furnace temperature to 1200°C (2192°F).",
+        "3. Heat the mixture for 2 hours to facilitate complete melting and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Set the furnace temperature to 1200°C (2192°F). \n 3. Heat the mixture for 2 hours to facilitate complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This cooling process should take about 4-6 hours to prevent stress fractures in the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. This cooling process should take about 4-6 hours to prevent stress fractures in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. If desired, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to the surface to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. If desired, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to the surface to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2101912.0,
+      "density": 77175.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -574349.0,
+      "formation_energy_per_atom": -12857.0,
+      "decomposition_energy_per_atom": -995.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -752.0,
+      "decomposition_energy_mp": -992.0,
+      "decomposition_energy_mp_oqmd": -752.0
+    },
+    "electronic": {
+      "bandgap": 0.0066,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c623d41bfb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.921054Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Se2Si2Tb4.json",
+      "material://Cu2Se2Si2Tb4"
+    ]
+  }
+}

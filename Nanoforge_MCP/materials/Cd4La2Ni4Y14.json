@@ -1,0 +1,133 @@
+{
+  "id": "Cd4La2Ni4Y14",
+  "uri": "material://Cd4La2Ni4Y14",
+  "composition": {
+    "formula": "Cd4La2Ni4Y14",
+    "elements": {
+      "Cd": 4,
+      "La": 2,
+      "Ni": 4,
+      "Y": 14
+    },
+    "reduced_formula": "LaY7(CdNi)2",
+    "element_list": [
+      "Ni",
+      "Y",
+      "Cd",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 38.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 100 g (mercury, pure) \n Li: 38 g (lithium carbonate) \n S: 56 g (sulfur, powdered) \n Si: 40 g (silicon powder, pure)"
+    },
+    "sourcing": {
+      "instructions": "Hg: Obtain from licensed chemical suppliers or specialized laboratories. \n Li: Available at chemical supply stores and online retailers. \n S: Found in chemical supply shops. \n Si: Purchase from suppliers of semiconductor materials or chemical stores.",
+      "steps": [
+        "Hg: Obtain from licensed chemical suppliers or specialized laboratories.",
+        "Li: Available at chemical supply stores and online retailers.",
+        "S: Found in chemical supply shops.",
+        "Si: Purchase from suppliers of semiconductor materials or chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, carefully measure 100 g of mercury into a glass container.",
+        "2. Measure 38 g of lithium carbonate and add it to the mercury.",
+        "3. Gradually add 56 g of powdered sulfur while stirring the mixture gently.",
+        "4. Slowly incorporate 40 g of silicon powder into the mixture. Ensure a uniform consistency without lumps.",
+        "5. Mix thoroughly for 15 minutes to ensure all components are well-dispersed."
+      ],
+      "raw_text": "1. In a fume hood, carefully measure 100 g of mercury into a glass container. \n 2. Measure 38 g of lithium carbonate and add it to the mercury. \n 3. Gradually add 56 g of powdered sulfur while stirring the mixture gently. \n 4. Slowly incorporate 40 g of silicon powder into the mixture. Ensure a uniform consistency without lumps. \n 5. Mix thoroughly for 15 minutes to ensure all components are well-dispersed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed material into a high-temperature ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture gradually to 800°C over 1 hour, maintaining this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed material into a high-temperature ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture gradually to 800°C over 1 hour, maintaining this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace while it cools to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace while it cools to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the crucible from the furnace and allow it to cool further in a safe area.",
+        "2. Once cool, remove the solid sample from the crucible.",
+        "3. Sand the edges and surfaces to achieve desired smoothness and finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the crucible from the furnace and allow it to cool further in a safe area. \n 2. Once cool, remove the solid sample from the crucible. \n 3. Sand the edges and surfaces to achieve desired smoothness and finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6417258.0,
+      "density": 57106.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1344061.0,
+      "formation_energy_per_atom": -2996.0,
+      "decomposition_energy_per_atom": -82.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -78.0
+    },
+    "electronic": {
+      "bandgap": 0.0045,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c367baf721",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.168453Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd4La2Ni4Y14.json",
+      "material://Cd4La2Ni4Y14"
+    ]
+  }
+}

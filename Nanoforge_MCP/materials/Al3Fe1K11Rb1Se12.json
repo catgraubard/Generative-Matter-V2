@@ -1,0 +1,138 @@
+{
+  "id": "Al3Fe1K11Rb1Se12",
+  "uri": "material://Al3Fe1K11Rb1Se12",
+  "composition": {
+    "formula": "Al3Fe1K11Rb1Se12",
+    "elements": {
+      "Al": 3,
+      "Fe": 1,
+      "K": 11,
+      "Rb": 1,
+      "Se": 12
+    },
+    "reduced_formula": "K11RbAl3FeSe12",
+    "element_list": [
+      "Al",
+      "K",
+      "Fe",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 6.00 g \n Fe: 2.00 g \n K: 1.00 g \n Rb: 0.50 g \n Se: 24.00 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Purchase from a chemical supplier (e.g., Sigma-Aldrich) \n Fe: Available at metal supply stores or online \n K: Obtain from a chemical supplier \n Rb: Chemical suppliers (e.g., Alfa Aesar) \n Se: Chemical supply companies or online",
+      "steps": [
+        "Al: Purchase from a chemical supplier (e.g., Sigma-Aldrich)",
+        "Fe: Available at metal supply stores or online",
+        "K: Obtain from a chemical supplier",
+        "Rb: Chemical suppliers (e.g., Alfa Aesar)",
+        "Se: Chemical supply companies or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Al, Fe, K, Rb, and Se.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Al, Fe, K, Rb, and Se. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature resistant crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours.",
+        "3. Maintain a controlled atmosphere if necessary to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature resistant crucible. \n 2. Heat in a furnace at 800°C for 2 hours. \n 3. Maintain a controlled atmosphere if necessary to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool gradually to room temperature (approximately 1 hour).",
+        "2. Ensure that the crucible is not exposed to drafts during cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool gradually to room temperature (approximately 1 hour). \n 2. Ensure that the crucible is not exposed to drafts during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, sand the edges and surfaces to achieve the desired finish using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a suitable coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, sand the edges and surfaces to achieve the desired finish using fine-grit sandpaper. \n 3. Optionally, seal the surface with a suitable coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 917578.0,
+      "density": 28953.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1116636.0,
+      "formation_energy_per_atom": -13147.0,
+      "decomposition_energy_per_atom": -56.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -56.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.7486,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6b1e56b298",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:35.935881Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Fe1K11Rb1Se12.json",
+      "material://Al3Fe1K11Rb1Se12"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "B2Ni8Si4W12",
+  "uri": "material://B2Ni8Si4W12",
+  "composition": {
+    "formula": "B2Ni8Si4W12",
+    "elements": {
+      "B": 2,
+      "Ni": 8,
+      "Si": 4,
+      "W": 12
+    },
+    "reduced_formula": "Si2Ni4BW6",
+    "element_list": [
+      "B",
+      "Si",
+      "Ni",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30 g, Cu: 70 g, Ni: 50 g, Sr: 20 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store; Cu: Metal supplier; Ni: Metal supplier; Sr: Chemical supply store",
+      "steps": [
+        "B: Chemical supply store; Cu: Metal supplier; Ni: Metal supplier; Sr: Chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, mix B, Cu, Ni, and Sr thoroughly until uniform.",
+        "3. Use a mortar and pestle to further grind the mixture into a fine powder."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, mix B, Cu, Ni, and Sr thoroughly until uniform. \n 3. Use a mortar and pestle to further grind the mixture into a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or kiln to 900°C.",
+        "2. Place the mixed powder in a crucible and insert it into the preheated furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 900°C. \n 2. Place the mixed powder in a crucible and insert it into the preheated furnace. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120) to smooth out any rough edges or surfaces.",
+        "3. Optionally, apply a clear sealant if the material will be exposed to moisture or air."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120) to smooth out any rough edges or surfaces. \n 3. Optionally, apply a clear sealant if the material will be exposed to moisture or air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3308539.0,
+      "density": 141012.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2458615.0,
+      "formation_energy_per_atom": -3486.0,
+      "decomposition_energy_per_atom": -33.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -351.0,
+      "decomposition_energy_mp": -425.0,
+      "decomposition_energy_mp_oqmd": -424.0
+    },
+    "electronic": {
+      "bandgap": 0.004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3fd3669e3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.842765Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Ni8Si4W12.json",
+      "material://B2Ni8Si4W12"
+    ]
+  }
+}

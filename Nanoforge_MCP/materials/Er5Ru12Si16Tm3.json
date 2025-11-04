@@ -1,0 +1,114 @@
+{
+  "id": "Er5Ru12Si16Tm3",
+  "uri": "material://Er5Ru12Si16Tm3",
+  "composition": {
+    "formula": "Er5Ru12Si16Tm3",
+    "elements": {
+      "Er": 5,
+      "Ru": 12,
+      "Si": 16,
+      "Tm": 3
+    },
+    "reduced_formula": "Er5Tm3(Si4Ru3)4",
+    "element_list": [
+      "Si",
+      "Ru",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Gd",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Gd: 120 g, Se: 20 g, Sn: 90 g, Y: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Gd: Rare earth supplier or online chemical distributor; Se: Chemical supply store; Sn: Metal supplier; Y: Rare earth supplier or online chemical distributor",
+      "steps": [
+        "Gd: Rare earth supplier or online chemical distributor; Se: Chemical supply store; Sn: Metal supplier; Y: Rare earth supplier or online chemical distributor"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, combine Gd, Se, Sn, and Y in the specified amounts.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance.\n2. In a clean, dry container, combine Gd, Se, Sn, and Y in the specified amounts.\n3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 900°C for 4 hours.",
+        "3. Ensure the furnace is set to a controlled ramp-up rate of 5°C/min to prevent thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n2. Heat in a furnace at 900°C for 4 hours.\n3. Ensure the furnace is set to a controlled ramp-up rate of 5°C/min to prevent thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 8 hours).",
+        "2. Avoid opening the furnace until it has reached room temperature to prevent oxidation."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 8 hours).\n2. Avoid opening the furnace until it has reached room temperature to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or cracks.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a protective sealant suitable for the material to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Inspect for any irregularities or cracks.\n3. If necessary, use fine-grit sandpaper to smooth the surface.\n4. Optionally, apply a protective sealant suitable for the material to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5714725.0,
+      "density": 87326.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2659.0,
+      "formation_energy_per_atom": -876.0,
+      "decomposition_energy_per_atom": 13.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -94.0,
+      "decomposition_energy_mp": -274.0,
+      "decomposition_energy_mp_oqmd": -272.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d48f483eb8",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.528922Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er5Ru12Si16Tm3.json",
+      "material://Er5Ru12Si16Tm3"
+    ]
+  }
+}

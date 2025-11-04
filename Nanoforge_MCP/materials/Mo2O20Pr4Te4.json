@@ -1,0 +1,133 @@
+{
+  "id": "Mo2O20Pr4Te4",
+  "uri": "material://Mo2O20Pr4Te4",
+  "composition": {
+    "formula": "Mo2O20Pr4Te4",
+    "elements": {
+      "Mo": 2,
+      "O": 20,
+      "Pr": 4,
+      "Te": 4
+    },
+    "reduced_formula": "Pr2Te2MoO10",
+    "element_list": [
+      "O",
+      "Mo",
+      "Te",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 20.0 g \n O: 80.0 g \n Pr: 4.0 g \n Te: 4.0 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Purchase from a chemical supply company (e.g., Sigma-Aldrich) \n O: Use distilled water or oxygen gas \n Pr: Obtain from a rare earth metal supplier \n Te: Source from a chemical supplier (e.g., Alfa Aesar)",
+      "steps": [
+        "Mo: Purchase from a chemical supply company (e.g., Sigma-Aldrich)",
+        "O: Use distilled water or oxygen gas",
+        "Pr: Obtain from a rare earth metal supplier",
+        "Te: Source from a chemical supplier (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 20.0 g of Molybdenum (Mo) powder.",
+        "2. Weigh 80.0 g of Oxygen (O) in the form of distilled water.",
+        "3. Weigh 4.0 g of Praseodymium (Pr) powder.",
+        "4. Weigh 4.0 g of Tellurium (Te) powder.",
+        "5. In a clean, dry container, combine all the weighed powders (Mo, Pr, Te) and add the distilled water slowly while stirring continuously to form a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh 20.0 g of Molybdenum (Mo) powder. \n 2. Weigh 80.0 g of Oxygen (O) in the form of distilled water. \n 3. Weigh 4.0 g of Praseodymium (Pr) powder. \n 4. Weigh 4.0 g of Tellurium (Te) powder. \n 5. In a clean, dry container, combine all the weighed powders (Mo, Pr, Te) and add the distilled water slowly while stirring continuously to form a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a suitable crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 900°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound Mo2O20Pr4Te4."
+      ],
+      "raw_text": "1. Transfer the mixture to a suitable crucible. \n 2. Heat the crucible in a furnace to a temperature of 900°C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound Mo2O20Pr4Te4."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, sand the edges to achieve desired smoothness.",
+        "4. Optionally, apply a sealing coat to protect the surface of the sample."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, sand the edges to achieve desired smoothness. \n 4. Optionally, apply a sealing coat to protect the surface of the sample."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4446224.0,
+      "density": 59229.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2272576.0,
+      "formation_energy_per_atom": -2497.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -28.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -28.0
+    },
+    "electronic": {
+      "bandgap": 2.9189,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7c53c7e5b3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:58.398170Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo2O20Pr4Te4.json",
+      "material://Mo2O20Pr4Te4"
+    ]
+  }
+}

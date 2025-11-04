@@ -1,0 +1,141 @@
+{
+  "id": "Co2Er6In6Sc8Tm2",
+  "uri": "material://Co2Er6In6Sc8Tm2",
+  "composition": {
+    "formula": "Co2Er6In6Sc8Tm2",
+    "elements": {
+      "Co": 2,
+      "Er": 6,
+      "In": 6,
+      "Sc": 8,
+      "Tm": 2
+    },
+    "reduced_formula": "Er3TmSc4In3Co",
+    "element_list": [
+      "Sc",
+      "Co",
+      "In",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 2.4,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 1.8,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 3.2,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 2.4 g \n Er: 1.8 g \n In: 2.0 g \n Sc: 3.2 g \n Tm: 0.5 g \n (Total: 10.9 g for stoichiometric calculation; adjust based on density and sample size.)"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply company or online retailer (e.g., Sigma-Aldrich) \n Er: Available at specialty metal suppliers \n In: Obtain from electronic component suppliers \n Sc: Purchase from rare earth metal suppliers \n Tm: Available from specialty chemical suppliers.",
+      "steps": [
+        "Co: Purchase from a chemical supply company or online retailer (e.g., Sigma-Aldrich)",
+        "Er: Available at specialty metal suppliers",
+        "In: Obtain from electronic component suppliers",
+        "Sc: Purchase from rare earth metal suppliers",
+        "Tm: Available from specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. Combine Co, Er, In, Sc, and Tm in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder to ensure homogeneity.",
+        "4. Transfer the powder into a ball mill and mill for 2 hours at a low speed to ensure thorough mixing."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. Combine Co, Er, In, Sc, and Tm in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the mixture into a fine powder to ensure homogeneity. \n 4. Transfer the powder into a ball mill and mill for 2 hours at a low speed to ensure thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder into a crucible made of a suitable material (e.g., alumina).",
+        "3. Heat the crucible in the furnace for 4 hours to allow for solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder into a crucible made of a suitable material (e.g., alumina). \n 3. Heat the crucible in the furnace for 4 hours to allow for solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the furnace to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, allow the furnace to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample and inspect for uniformity.",
+        "3. Use a diamond saw to cut the sample to desired dimensions, if necessary.",
+        "4. Sand the edges of the sample using fine-grit sandpaper for a smooth finish.",
+        "5. Optionally, seal the sample with a suitable coating to prevent oxidation or degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample and inspect for uniformity. \n 3. Use a diamond saw to cut the sample to desired dimensions, if necessary. \n 4. Sand the edges of the sample using fine-grit sandpaper for a smooth finish. \n 5. Optionally, seal the sample with a suitable coating to prevent oxidation or degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5861887.0,
+      "density": 71042.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1267439.0,
+      "formation_energy_per_atom": -375.0,
+      "decomposition_energy_per_atom": -211.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -52.0,
+      "decomposition_energy_mp": -211.0,
+      "decomposition_energy_mp_oqmd": -209.0
+    },
+    "electronic": {
+      "bandgap": 0.0087,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9c0dcec574",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:41.004032Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Er6In6Sc8Tm2.json",
+      "material://Co2Er6In6Sc8Tm2"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Cu15In4Pr4Zn5",
+  "uri": "material://Cu15In4Pr4Zn5",
+  "composition": {
+    "formula": "Cu15In4Pr4Zn5",
+    "elements": {
+      "Cu": 15,
+      "In": 4,
+      "Pr": 4,
+      "Zn": 5
+    },
+    "reduced_formula": "Pr4Zn5In4Cu15",
+    "element_list": [
+      "Cu",
+      "Zn",
+      "In",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10 g, In: 2 g, K: 6 g, Rb: 2 g, Sb: 8 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium) - Purchase from specialized chemical suppliers; In (Indium) - Obtain from metal supply stores; K (Potassium) - Buy from chemical suppliers; Rb (Rubidium) - Acquire from chemical vendors; Sb (Antimony) - Find at metal supply outlets.",
+      "steps": [
+        "Cs (Cesium) - Purchase from specialized chemical suppliers; In (Indium) - Obtain from metal supply stores; K (Potassium) - Buy from chemical suppliers; Rb (Rubidium) - Acquire from chemical vendors; Sb (Antimony) - Find at metal supply outlets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, weigh out 10 g of Cs, 2 g of In, 6 g of K, 2 g of Rb, and 8 g of Sb using a precise balance.",
+        "2. Combine the weighed materials in a clean, dry ceramic crucible.",
+        "3. Use a mortar and pestle to finely grind the mixture until homogeneous."
+      ],
+      "raw_text": "1. In a fume hood, weigh out 10 g of Cs, 2 g of In, 6 g of K, 2 g of Rb, and 8 g of Sb using a precise balance. \n 2. Combine the weighed materials in a clean, dry ceramic crucible. \n 3. Use a mortar and pestle to finely grind the mixture until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat the mixture to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat the mixture to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Transfer the solid sample to a clean work surface.",
+        "2. Use fine-grit sandpaper to smooth any rough edges of the sample.",
+        "3. Optionally, seal the surface with a protective coating if necessary for stability."
+      ],
+      "raw_text": "1. Transfer the solid sample to a clean work surface. \n 2. Use fine-grit sandpaper to smooth any rough edges of the sample. \n 3. Optionally, seal the surface with a protective coating if necessary for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4667339.0,
+      "density": 81941.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1050432.0,
+      "formation_energy_per_atom": -2545.0,
+      "decomposition_energy_per_atom": -253.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -253.0,
+      "decomposition_energy_mp_oqmd": -135.0
+    },
+    "electronic": {
+      "bandgap": 0.0124,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cc2dbd8ba4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.349736Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu15In4Pr4Zn5.json",
+      "material://Cu15In4Pr4Zn5"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Al6Fe12Mo2Ti4",
+  "uri": "material://Al6Fe12Mo2Ti4",
+  "composition": {
+    "formula": "Al6Fe12Mo2Ti4",
+    "elements": {
+      "Al": 6,
+      "Fe": 12,
+      "Mo": 2,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2Al3Fe6Mo",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Fe",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum (Al): 480 g \n Iron (Fe): 1152 g \n Molybdenum (Mo): 240 g \n Titanium (Ti): 480 g"
+    },
+    "sourcing": {
+      "instructions": "Aluminum: Local metal supplier or online metal store \n Iron: Local hardware store or metal supplier \n Molybdenum: Specialty metal supplier or online \n Titanium: Aerospace material supplier or online",
+      "steps": [
+        "Aluminum: Local metal supplier or online metal store",
+        "Iron: Local hardware store or metal supplier",
+        "Molybdenum: Specialty metal supplier or online",
+        "Titanium: Aerospace material supplier or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean mixing container, combine 480 g of aluminum, 1152 g of iron, 240 g of molybdenum, and 480 g of titanium.",
+        "3. Use a mechanical mixer to blend the powders uniformly for at least 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean mixing container, combine 480 g of aluminum, 1152 g of iron, 240 g of molybdenum, and 480 g of titanium. \n 3. Use a mechanical mixer to blend the powders uniformly for at least 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Place the crucible in a vacuum furnace.",
+        "3. Heat the furnace to 1200°C (2192°F) at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to allow for complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible. \n 2. Place the crucible in a vacuum furnace. \n 3. Heat the furnace to 1200°C (2192°F) at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to allow for complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid any forced cooling to prevent thermal shock and cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Avoid any forced cooling to prevent thermal shock and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the surface for any irregularities.",
+        "3. If needed, use sandpaper (grit 120 to 400) to smooth the surface.",
+        "4. Optionally, seal the surface with a protective finish to enhance corrosion resistance."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the surface for any irregularities. \n 3. If needed, use sandpaper (grit 120 to 400) to smooth the surface. \n 4. Optionally, seal the surface with a protective finish to enhance corrosion resistance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2973468.0,
+      "density": 67873.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1872256.0,
+      "formation_energy_per_atom": -4099.0,
+      "decomposition_energy_per_atom": -358.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -358.0,
+      "decomposition_energy_mp_oqmd": -357.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "852d074478",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:10.364890Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al6Fe12Mo2Ti4.json",
+      "material://Al6Fe12Mo2Ti4"
+    ]
+  }
+}

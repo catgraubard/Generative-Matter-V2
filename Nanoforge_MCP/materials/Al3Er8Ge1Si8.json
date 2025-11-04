@@ -1,0 +1,110 @@
+{
+  "id": "Al3Er8Ge1Si8",
+  "uri": "material://Al3Er8Ge1Si8",
+  "composition": {
+    "formula": "Al3Er8Ge1Si8",
+    "elements": {
+      "Al": 3,
+      "Er": 8,
+      "Ge": 1,
+      "Si": 8
+    },
+    "reduced_formula": "Er8Al3Si8Ge",
+    "element_list": [
+      "Al",
+      "Si",
+      "Ge",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Manganese (Mn): 100 g \n Nickel (Ni): 50 g \n Phosphorus (P): 150 g \n Strontium (Sr): 75 g"
+    },
+    "sourcing": {
+      "instructions": "Manganese: Purchase from chemical supply stores or online suppliers like Sigma-Aldrich. \n Nickel: Obtain from metal suppliers or online retailers. \n Phosphorus: Available from chemical distributors. \n Strontium: Buy from specialized metal suppliers.",
+      "steps": [
+        "Manganese: Purchase from chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Nickel: Obtain from metal suppliers or online retailers.",
+        "Phosphorus: Available from chemical distributors.",
+        "Strontium: Buy from specialized metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of manganese powder, 50 g of nickel powder, 150 g of phosphorus powder, and 75 g of strontium powder using a precision scale.",
+        "2. In a clean, dry container, combine the weighed powders thoroughly using a mortar and pestle to ensure even distribution.",
+        "3. Transfer the mixture into a ceramic crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out 100 g of manganese powder, 50 g of nickel powder, 150 g of phosphorus powder, and 75 g of strontium powder using a precision scale. \n 2. In a clean, dry container, combine the weighed powders thoroughly using a mortar and pestle to ensure even distribution. \n 3. Transfer the mixture into a ceramic crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1100 °C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Mn4Ni2P6Sr3."
+      ],
+      "raw_text": "1. Preheat the furnace to 1100 °C. \n 2. Place the crucible with the mixture inside the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Mn4Ni2P6Sr3."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to drop naturally to room temperature (approximately 25 °C) over a period of 6 hours.",
+        "2. Do not open the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to drop naturally to room temperature (approximately 25 °C) over a period of 6 hours. \n 2. Do not open the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw to cut the solid sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to remove any roughness and ensure a smooth finish.",
+        "4. Optionally, apply a sealant for protection against moisture and oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw to cut the solid sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to remove any roughness and ensure a smooth finish. \n 4. Optionally, apply a sealant for protection against moisture and oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3988868.0,
+      "density": 7145.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1099626.0,
+      "formation_energy_per_atom": -7079.0,
+      "decomposition_energy_per_atom": -266.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -174.0,
+      "decomposition_energy_mp": -263.0,
+      "decomposition_energy_mp_oqmd": -225.0
+    },
+    "electronic": {
+      "bandgap": 0.0033,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6b311edb0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.186606Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Er8Ge1Si8.json",
+      "material://Al3Er8Ge1Si8"
+    ]
+  }
+}

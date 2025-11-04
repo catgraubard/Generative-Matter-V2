@@ -1,0 +1,135 @@
+{
+  "id": "Co1Gd2Sn8Tm2",
+  "uri": "material://Co1Gd2Sn8Tm2",
+  "composition": {
+    "formula": "Co1Gd2Sn8Tm2",
+    "elements": {
+      "Co": 1,
+      "Gd": 2,
+      "Sn": 8,
+      "Tm": 2
+    },
+    "reduced_formula": "Gd2Tm2CoSn8",
+    "element_list": [
+      "Co",
+      "Sn",
+      "Gd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Gd",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.0 g \n Gd: 20.0 g \n Sn: 80.0 g \n Tm: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich). \n Gd: Obtain from rare earth metal suppliers or online marketplaces. \n Sn: Buy from a metal supply store or online vendors. \n Tm: Acquire from a specialized rare earth supplier.",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "Gd: Obtain from rare earth metal suppliers or online marketplaces.",
+        "Sn: Buy from a metal supply store or online vendors.",
+        "Tm: Acquire from a specialized rare earth supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10.0 g of cobalt (Co) using an analytical balance.",
+        "2. Weigh 20.0 g of gadolinium (Gd).",
+        "3. Weigh 80.0 g of tin (Sn).",
+        "4. Weigh 10.0 g of thulium (Tm).",
+        "5. Combine all ingredients in a clean, dry ceramic crucible.",
+        "6. Use a pestle and mortar to finely grind the mixture until homogeneous."
+      ],
+      "raw_text": "1. Weigh 10.0 g of cobalt (Co) using an analytical balance. \n 2. Weigh 20.0 g of gadolinium (Gd). \n 3. Weigh 80.0 g of tin (Sn). \n 4. Weigh 10.0 g of thulium (Tm). \n 5. Combine all ingredients in a clean, dry ceramic crucible. \n 6. Use a pestle and mortar to finely grind the mixture until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat the mixture to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat the mixture to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Gradually lower the furnace temperature to room temperature over 4 hours.",
+        "2. Do not open the furnace until it has fully cooled to prevent contamination."
+      ],
+      "raw_text": "1. Gradually lower the furnace temperature to room temperature over 4 hours. \n 2. Do not open the furnace until it has fully cooled to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges to smooth any rough surfaces and achieve a polished finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges to smooth any rough surfaces and achieve a polished finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 3254496.0,
+      "density": 84748.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -842148.0,
+      "formation_energy_per_atom": -6097.0,
+      "decomposition_energy_per_atom": -797.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -727.0,
+      "decomposition_energy_mp": -797.0,
+      "decomposition_energy_mp_oqmd": -764.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "602634b7c3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:21.866522Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Gd2Sn8Tm2.json",
+      "material://Co1Gd2Sn8Tm2"
+    ]
+  }
+}

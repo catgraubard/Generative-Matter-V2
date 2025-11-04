@@ -1,0 +1,111 @@
+{
+  "id": "Co16Li2Nb6P12",
+  "uri": "material://Co16Li2Nb6P12",
+  "composition": {
+    "formula": "Co16Li2Nb6P12",
+    "elements": {
+      "Co": 16,
+      "Li": 2,
+      "Nb": 6,
+      "P": 12
+    },
+    "reduced_formula": "LiNb3(Co4P3)2",
+    "element_list": [
+      "Li",
+      "P",
+      "Co",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Co (Cobalt): 64.0 g \n Li (Lithium): 10.0 g \n Nb (Niobium): 35.0 g \n P (Phosphorus): 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Buy from a chemical supply store or online marketplace. \n Li: Obtain from specialized chemical suppliers. \n Nb: Purchase from metal or chemical suppliers. \n P: Source from a chemical supply company.",
+      "steps": [
+        "Co: Buy from a chemical supply store or online marketplace.",
+        "Li: Obtain from specialized chemical suppliers.",
+        "Nb: Purchase from metal or chemical suppliers.",
+        "P: Source from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance.",
+        "2. In a clean, dry environment, combine Co, Li, Nb, and P in a ceramic or glass mixing container.",
+        "3. Stir the mixture thoroughly with a non-contaminating spatula until homogeneous.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance. \n 2. In a clean, dry environment, combine Co, Li, Nb, and P in a ceramic or glass mixing container. \n 3. Stir the mixture thoroughly with a non-contaminating spatula until homogeneous. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 10,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the milled mixture in an alumina crucible.",
+        "3. Insert the crucible into the furnace and heat for 10 hours to allow for complete reaction and formation of Co16Li2Nb6P12."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the milled mixture in an alumina crucible. \n 3. Insert the crucible into the furnace and heat for 10 hours to allow for complete reaction and formation of Co16Li2Nb6P12."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (around 5-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (around 5-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Grind the sample lightly with a mortar and pestle for uniformity.",
+        "3. If necessary, sand the edges to achieve desired dimensions (3 in x 2 in x 7 in).",
+        "4. Optionally, seal the surface with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Grind the sample lightly with a mortar and pestle for uniformity. \n 3. If necessary, sand the edges to achieve desired dimensions (3 in x 2 in x 7 in). \n 4. Optionally, seal the surface with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4427399.0,
+      "density": 70734.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2707936.0,
+      "formation_energy_per_atom": -7688.0,
+      "decomposition_energy_per_atom": -63.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "845db696da",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:09.360812Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Li2Nb6P12.json",
+      "material://Co16Li2Nb6P12"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Co1Tb2Te2Tm4",
+  "uri": "material://Co1Tb2Te2Tm4",
+  "composition": {
+    "formula": "Co1Tb2Te2Tm4",
+    "elements": {
+      "Co": 1,
+      "Tb": 2,
+      "Te": 2,
+      "Tm": 4
+    },
+    "reduced_formula": "Tb2Tm4CoTe2",
+    "element_list": [
+      "Co",
+      "Te",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 400.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 100 g \n Tb: 200 g \n Te: 50 g \n Tm: 400 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich). \n Tb: Obtain from a rare earth materials supplier. \n Te: Available from electronics suppliers or chemical vendors. \n Tm: Source from a reputable chemical supply company.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich).",
+        "Tb: Obtain from a rare earth materials supplier.",
+        "Te: Available from electronics suppliers or chemical vendors.",
+        "Tm: Source from a reputable chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Cobalt (Co), 200 g of Terbium (Tb), 50 g of Tellurium (Te), and 400 g of Thulium (Tm) using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed powders thoroughly using a spatula or mechanical mixer for at least 10 minutes to ensure homogeneity.",
+        "3. Transfer the mixed powder into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh out 100 g of Cobalt (Co), 200 g of Terbium (Tb), 50 g of Tellurium (Te), and 400 g of Thulium (Tm) using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed powders thoroughly using a spatula or mechanical mixer for at least 10 minutes to ensure homogeneity. \n 3. Transfer the mixed powder into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 950°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 950°C at a rate of 5°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock to the material.",
+        "3. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has cooled to avoid thermal shock to the material. \n 3. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace and extract the solid sample.",
+        "2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to remove any roughness, ensuring a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability, allowing it to cure for 24 hours in ambient conditions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace and extract the solid sample. \n 2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to remove any roughness, ensuring a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability, allowing it to cure for 24 hours in ambient conditions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2348781.0,
+      "density": 92453.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -475288.0,
+      "formation_energy_per_atom": -7735.0,
+      "decomposition_energy_per_atom": -398.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -394.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0eee705da7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:35.316400Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Tb2Te2Tm4.json",
+      "material://Co1Tb2Te2Tm4"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "Ac10Se2Sn6",
+  "uri": "material://Ac10Se2Sn6",
+  "composition": {
+    "formula": "Ac10Se2Sn6",
+    "elements": {
+      "Ac": 10,
+      "Se": 2,
+      "Sn": 6
+    },
+    "reduced_formula": "Ac5Sn3Se",
+    "element_list": [
+      "Se",
+      "Sn",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 10 g \n Se: 20 g \n Sn: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Ac (Acetic acid): Chemical supply stores or online chemical vendors. \n Se (Selenium): Specialty chemical suppliers or online marketplaces. \n Sn (Tin): Hardware stores or metal suppliers.",
+      "steps": [
+        "Ac (Acetic acid): Chemical supply stores or online chemical vendors.",
+        "Se (Selenium): Specialty chemical suppliers or online marketplaces.",
+        "Sn (Tin): Hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of Ac using an analytical balance.",
+        "2. Measure 20 g of Se and 60 g of Sn separately.",
+        "3. In a clean glass container, combine Ac, Se, and Sn thoroughly using a spatula to ensure an even mixture.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Measure 10 g of Ac using an analytical balance. \n 2. Measure 20 g of Se and 60 g of Sn separately. \n 3. In a clean glass container, combine Ac, Se, and Sn thoroughly using a spatula to ensure an even mixture. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 300°C.",
+        "2. Place the crucible with the mixture into the furnace.",
+        "3. Maintain the temperature at 300°C for 2 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Preheat the furnace to 300°C. \n 2. Place the crucible with the mixture into the furnace. \n 3. Maintain the temperature at 300°C for 2 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 3-4 hours).",
+        "2. Do not open the furnace door during cooling to prevent rapid temperature changes."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 3-4 hours). \n 2. Do not open the furnace door during cooling to prevent rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use sandpaper to smooth the surfaces of the sample if needed.",
+        "3. Optionally, apply a sealant to protect the surface from oxidation.",
+        "4. Store the final product in a dry, cool place."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use sandpaper to smooth the surfaces of the sample if needed. \n 3. Optionally, apply a sealant to protect the surface from oxidation. \n 4. Store the final product in a dry, cool place."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 6475497.0,
+      "density": 80525.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mcm",
+      "space_group_number": 193,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -906841.0,
+      "formation_energy_per_atom": -10235.0,
+      "decomposition_energy_per_atom": -6008.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -205.0,
+      "decomposition_energy_mp": -6008.0,
+      "decomposition_energy_mp_oqmd": -2637.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0b8f08a9d5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:30.632664Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac10Se2Sn6.json",
+      "material://Ac10Se2Sn6"
+    ]
+  }
+}

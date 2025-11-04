@@ -1,0 +1,114 @@
+{
+  "id": "Mn1Mo2Sc8Si16Ti9",
+  "uri": "material://Mn1Mo2Sc8Si16Ti9",
+  "composition": {
+    "formula": "Mn1Mo2Sc8Si16Ti9",
+    "elements": {
+      "Mn": 1,
+      "Mo": 2,
+      "Sc": 8,
+      "Si": 16,
+      "Ti": 9
+    },
+    "reduced_formula": "Sc8Ti9Mn(Si8Mo)2",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ti",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Silicon (Si): 128.0 g \n Terbium (Tb): 8.0 g \n Titanium (Ti): 72.0 g \n Tungsten (W): 36.0 g \n Zirconium (Zr): 28.0 g"
+    },
+    "sourcing": {
+      "instructions": "Silicon: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich, Fisher Scientific). \n Terbium: Obtain from specialty metal suppliers or online (e.g., eBay, Alibaba). \n Titanium: Available at metal suppliers or online. \n Tungsten: Purchase from metal suppliers or online. \n Zirconium: Obtain from chemical supply stores or online.",
+      "steps": [
+        "Silicon: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Terbium: Obtain from specialty metal suppliers or online (e.g., eBay, Alibaba).",
+        "Titanium: Available at metal suppliers or online.",
+        "Tungsten: Purchase from metal suppliers or online.",
+        "Zirconium: Obtain from chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each material using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed Silicon, Terbium, Titanium, Tungsten, and Zirconium powders.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for at least 10 minutes until a homogeneous mixture is achieved.",
+        "4. Transfer the mixed powder to a ball mill and mill for an additional 30 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each material using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed Silicon, Terbium, Titanium, Tungsten, and Zirconium powders. \n 3. Use a mortar and pestle to thoroughly mix the powders for at least 10 minutes until a homogeneous mixture is achieved. \n 4. Transfer the mixed powder to a ball mill and mill for an additional 30 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1,600 °C.",
+        "2. Place the mixed powder into a suitable crucible (e.g., alumina or graphite) and insert it into the preheated furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1,600 °C. \n 2. Place the mixed powder into a suitable crucible (e.g., alumina or graphite) and insert it into the preheated furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. This cooling process should take about 6-8 hours to ensure gradual cooling and reduce thermal stress in the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. This cooling process should take about 6-8 hours to ensure gradual cooling and reduce thermal stress in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solidified sample.",
+        "2. Use a diamond saw or cutting tool to shape the sample into the required dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solidified sample. \n 2. Use a diamond saw or cutting tool to shape the sample into the required dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5795045.0,
+      "density": 42599.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2686384.0,
+      "formation_energy_per_atom": -8128.0,
+      "decomposition_energy_per_atom": -597.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -29.0,
+      "decomposition_energy_mp": -645.0,
+      "decomposition_energy_mp_oqmd": -573.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9ef28c338",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.974191Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn1Mo2Sc8Si16Ti9.json",
+      "material://Mn1Mo2Sc8Si16Ti9"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "As7Ca2Co3Li1Ni8",
+  "uri": "material://As7Ca2Co3Li1Ni8",
+  "composition": {
+    "formula": "As7Ca2Co3Li1Ni8",
+    "elements": {
+      "As": 7,
+      "Ca": 2,
+      "Co": 3,
+      "Li": 1,
+      "Ni": 8
+    },
+    "reduced_formula": "LiCa2Co3Ni8As7",
+    "element_list": [
+      "Li",
+      "Ca",
+      "Co",
+      "Ni",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1.14,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 2.27,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 9.1,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 0.37,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1.14 g\nEr: 2.27 g\nFe: 9.10 g\nTb: 0.37 g\nTotal: 12.88 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Available from chemical supply stores or online retailers specializing in rare metals.\nEr (Erbium): Obtain from specialized chemical suppliers.\nFe (Iron): Purchase from hardware stores or online.\nTb (Terbium): Source from chemical supply companies.",
+      "steps": [
+        "Co (Cobalt): Available from chemical supply stores or online retailers specializing in rare metals.",
+        "Er (Erbium): Obtain from specialized chemical suppliers.",
+        "Fe (Iron): Purchase from hardware stores or online.",
+        "Tb (Terbium): Source from chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.14 g of Co, 2.27 g of Er, 9.10 g of Fe, and 0.37 g of Tb using an analytical balance.",
+        "2. In a clean, dry mortar and pestle, mix the weighed powders thoroughly to ensure homogeneity.",
+        "3. Transfer the mixed powders to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 1.14 g of Co, 2.27 g of Er, 9.10 g of Fe, and 0.37 g of Tb using an analytical balance.\n2. In a clean, dry mortar and pestle, mix the weighed powders thoroughly to ensure homogeneity.\n3. Transfer the mixed powders to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 800°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 2 hours to allow for proper reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace.\n2. Heat to 800°C at a rate of 5°C/min.\n3. Maintain the temperature for 2 hours to allow for proper reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace door until it has cooled below 200°C to avoid thermal shock to the sample."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature.\n2. Do not open the furnace door until it has cooled below 200°C to avoid thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and gently break it to extract the solid sample.",
+        "2. Use sandpaper or a grinder to smooth any rough edges and achieve the desired dimensions.",
+        "3. Optionally, seal the surface with a clear resin for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and gently break it to extract the solid sample.\n2. Use sandpaper or a grinder to smooth any rough edges and achieve the desired dimensions.\n3. Optionally, seal the surface with a clear resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2926495.0,
+      "density": 71375.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1167303.0,
+      "formation_energy_per_atom": -5062.0,
+      "decomposition_energy_per_atom": -239.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -238.0,
+      "decomposition_energy_mp_oqmd": -22.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6ab1f0f3d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.178372Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As7Ca2Co3Li1Ni8.json",
+      "material://As7Ca2Co3Li1Ni8"
+    ]
+  }
+}

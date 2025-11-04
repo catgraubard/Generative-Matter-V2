@@ -1,0 +1,107 @@
+{
+  "id": "Ce1K2Se8Sr1",
+  "uri": "material://Ce1K2Se8Sr1",
+  "composition": {
+    "formula": "Ce1K2Se8Sr1",
+    "elements": {
+      "Ce": 1,
+      "K": 2,
+      "Se": 8,
+      "Sr": 1
+    },
+    "reduced_formula": "K2SrCeSe8",
+    "element_list": [
+      "K",
+      "Se",
+      "Sr",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Er2O3: 8.5 g, Gd2O3: 11.5 g, Tm2O3: 3.5 g, WO3: 5.0 g, Total: 28.5 g"
+    },
+    "sourcing": {
+      "instructions": "Er2O3: Chemical supply companies (e.g., Sigma-Aldrich); Gd2O3: Rare earth suppliers; Tm2O3: Specialty chemical retailers; WO3: Chemical suppliers.",
+      "steps": [
+        "Er2O3: Chemical supply companies (e.g., Sigma-Aldrich); Gd2O3: Rare earth suppliers; Tm2O3: Specialty chemical retailers; WO3: Chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each oxide using a precision balance.",
+        "2. Mix Er2O3, Gd2O3, Tm2O3, and WO3 in a clean mortar and pestle for at least 15 minutes until homogenous.",
+        "3. Transfer the mixed powders to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each oxide using a precision balance. \n 2. Mix Er2O3, Gd2O3, Tm2O3, and WO3 in a clean mortar and pestle for at least 15 minutes until homogenous. \n 3. Transfer the mixed powders to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 1200°C at a rate of 5°C/min.",
+        "3. Hold at 1200°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 1200°C at a rate of 5°C/min. \n 3. Hold at 1200°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it reaches below 100°C to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours). \n 2. Do not open the furnace door until it reaches below 100°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. If necessary, grind the edges to achieve a smooth finish using fine-grit sandpaper.",
+        "3. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. If necessary, grind the edges to achieve a smooth finish using fine-grit sandpaper. \n 3. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3532589.0,
+      "density": 44074.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P422",
+      "space_group_number": 89,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -54934.0,
+      "formation_energy_per_atom": -14269.0,
+      "decomposition_energy_per_atom": -323.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -151.0,
+      "decomposition_energy_mp": -481.0,
+      "decomposition_energy_mp_oqmd": -257.0
+    },
+    "electronic": {
+      "bandgap": 0.3625,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6d67eade1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.213837Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce1K2Se8Sr1.json",
+      "material://Ce1K2Se8Sr1"
+    ]
+  }
+}

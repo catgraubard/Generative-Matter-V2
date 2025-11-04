@@ -1,0 +1,111 @@
+{
+  "id": "Fe2O24Tc6",
+  "uri": "material://Fe2O24Tc6",
+  "composition": {
+    "formula": "Fe2O24Tc6",
+    "elements": {
+      "Fe": 2,
+      "O": 24,
+      "Tc": 6
+    },
+    "reduced_formula": "Fe(TcO4)3",
+    "element_list": [
+      "O",
+      "Fe",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron(II) oxide (FeO): 100 g \n - Iron(III) oxide (Fe2O3): 100 g \n - Technetium-99m source (Tc): 6 g \n - Binding agent (e.g., epoxy resin): 50 g \n - Hardener for epoxy: 25 g \n - Filler (e.g., silica): 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron(II) oxide (FeO) and Iron(III) oxide (Fe2O3): Chemical supply stores or online chemical suppliers. \n - Technetium-99m source: Licensed radioactive material suppliers. \n - Epoxy resin and hardener: Hardware stores or online retailers. \n - Silica filler: Chemical supply stores or online suppliers.",
+      "steps": [
+        "- Iron(II) oxide (FeO) and Iron(III) oxide (Fe2O3): Chemical supply stores or online chemical suppliers.",
+        "- Technetium-99m source: Licensed radioactive material suppliers.",
+        "- Epoxy resin and hardener: Hardware stores or online retailers.",
+        "- Silica filler: Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean and dry mixing container, weigh out 100 g of Iron(II) oxide and 100 g of Iron(III) oxide.",
+        "2. Carefully add 6 g of the Technetium-99m source.",
+        "3. Mix the powdered oxides and Technetium thoroughly using a spatula until a uniform blend is achieved.",
+        "4. In a separate container, prepare 50 g of epoxy resin and 25 g of hardener according to manufacturer instructions.",
+        "5. Gradually add the mixed powders to the epoxy while stirring continuously to ensure even distribution.",
+        "6. Add 50 g of silica filler to the mixture and stir until homogeneous."
+      ],
+      "raw_text": "1. In a clean and dry mixing container, weigh out 100 g of Iron(II) oxide and 100 g of Iron(III) oxide. \n 2. Carefully add 6 g of the Technetium-99m source. \n 3. Mix the powdered oxides and Technetium thoroughly using a spatula until a uniform blend is achieved. \n 4. In a separate container, prepare 50 g of epoxy resin and 25 g of hardener according to manufacturer instructions. \n 5. Gradually add the mixed powders to the epoxy while stirring continuously to ensure even distribution. \n 6. Add 50 g of silica filler to the mixture and stir until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "steps": [
+        "- Preheat a furnace to 300°C.",
+        "- Pour the mixture into a mold that matches the dimensions of 3 inches x 2 inches x 7 inches.",
+        "- Place the filled mold in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "- Preheat a furnace to 300°C. \n - Pour the mixture into a mold that matches the dimensions of 3 inches x 2 inches x 7 inches. \n - Place the filled mold in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "- Turn off the furnace and allow it to cool to room temperature naturally, which may take around 4-5 hours.",
+        "- Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "- Turn off the furnace and allow it to cool to room temperature naturally, which may take around 4-5 hours. \n - Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the mold.",
+        "2. Inspect the surface for any imperfections.",
+        "3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealing coat of epoxy to enhance durability. Allow it to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the mold. \n 2. Inspect the surface for any imperfections. \n 3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealing coat of epoxy to enhance durability. Allow it to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 6144912.0,
+      "density": 29284.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2567811.0,
+      "formation_energy_per_atom": -18414.0,
+      "decomposition_energy_per_atom": -558.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -496.0,
+      "decomposition_energy_mp": -566.0,
+      "decomposition_energy_mp_oqmd": -565.0
+    },
+    "electronic": {
+      "bandgap": 2.2834,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "538a69b57a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.214239Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2O24Tc6.json",
+      "material://Fe2O24Tc6"
+    ]
+  }
+}

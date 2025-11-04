@@ -1,0 +1,110 @@
+{
+  "id": "Fe3Li1O24Sb8",
+  "uri": "material://Fe3Li1O24Sb8",
+  "composition": {
+    "formula": "Fe3Li1O24Sb8",
+    "elements": {
+      "Fe": 3,
+      "Li": 1,
+      "O": 24,
+      "Sb": 8
+    },
+    "reduced_formula": "LiFe3(SbO3)8",
+    "element_list": [
+      "Li",
+      "O",
+      "Fe",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron(III) oxide (Fe2O3): 192 g  \n - Lithium oxide (Li2O): 30.5 g  \n - Antimony oxide (Sb2O3): 96 g  \n - Oxygen source (O2): 0 g (inherent from reactants)"
+    },
+    "sourcing": {
+      "instructions": "- Iron(III) oxide: Available at chemical supply stores or online (e.g., Sigma-Aldrich, Fisher Scientific).  \n - Lithium oxide: Obtain from specialized chemical suppliers.  \n - Antimony oxide: Purchase from chemical distributors or online suppliers.",
+      "steps": [
+        "- Iron(III) oxide: Available at chemical supply stores or online (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "- Lithium oxide: Obtain from specialized chemical suppliers.",
+        "- Antimony oxide: Purchase from chemical distributors or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 192 g of Iron(III) oxide using an analytical balance and transfer to a clean mixing container.",
+        "2. Weigh 30.5 g of Lithium oxide and add to the container.",
+        "3. Weigh 96 g of Antimony oxide and incorporate into the mixture.",
+        "4. Thoroughly mix the dry powders to achieve a uniform blend using a mortar and pestle or a mechanical mixer."
+      ],
+      "raw_text": "1. Weigh 192 g of Iron(III) oxide using an analytical balance and transfer to a clean mixing container.  \n 2. Weigh 30.5 g of Lithium oxide and add to the container.  \n 3. Weigh 96 g of Antimony oxide and incorporate into the mixture.  \n 4. Thoroughly mix the dry powders to achieve a uniform blend using a mortar and pestle or a mechanical mixer."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the mixed powder into a suitable crucible (preferably made of alumina) and place in the furnace.",
+        "3. Heat the mixture at 1200°C for 4 hours to facilitate proper reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C.  \n 2. Transfer the mixed powder into a suitable crucible (preferably made of alumina) and place in the furnace.  \n 3. Heat the mixture at 1200°C for 4 hours to facilitate proper reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has fully cooled to prevent oxidation or contamination of the sample."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).  \n 2. Do not open the furnace until it has fully cooled to prevent oxidation or contamination of the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace and extract the solid sample.",
+        "2. If necessary, grind the solid using a mortar and pestle to achieve a fine powder or desired consistency.",
+        "3. Optionally, seal the sample in an airtight container to prevent moisture absorption and degradation.",
+        "4. If required, sand the edges of the sample to achieve desired dimensions or surface finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace and extract the solid sample.  \n 2. If necessary, grind the solid using a mortar and pestle to achieve a fine powder or desired consistency.  \n 3. Optionally, seal the sample in an airtight container to prevent moisture absorption and degradation.  \n 4. If required, sand the edges of the sample to achieve desired dimensions or surface finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4233242.0,
+      "density": 60116.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2473207.0,
+      "formation_energy_per_atom": -1895.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -11.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": 0.3207,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9d7d005866",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:42.828035Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe3Li1O24Sb8.json",
+      "material://Fe3Li1O24Sb8"
+    ]
+  }
+}

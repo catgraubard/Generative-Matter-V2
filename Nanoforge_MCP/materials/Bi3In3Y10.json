@@ -1,0 +1,110 @@
+{
+  "id": "Bi3In3Y10",
+  "uri": "material://Bi3In3Y10",
+  "composition": {
+    "formula": "Bi3In3Y10",
+    "elements": {
+      "Bi": 3,
+      "In": 3,
+      "Y": 10
+    },
+    "reduced_formula": "Y10(InBi)3",
+    "element_list": [
+      "Y",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi): 60.72 g \n Indium (In): 60.72 g \n Yttrium (Y): 20.24 g \n Total: 141.68 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Available at chemical supply stores or online suppliers like Sigma-Aldrich. \n Indium: Can be sourced from specialty metal suppliers or online marketplaces such as Amazon. \n Yttrium: Obtainable from chemical suppliers or metallurgy suppliers online.",
+      "steps": [
+        "Bismuth: Available at chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Indium: Can be sourced from specialty metal suppliers or online marketplaces such as Amazon.",
+        "Yttrium: Obtainable from chemical suppliers or metallurgy suppliers online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 60.72 g of bismuth using an analytical balance.",
+        "2. Weigh 60.72 g of indium.",
+        "3. Weigh 20.24 g of yttrium.",
+        "4. Combine the weighed materials in a clean, dry crucible.",
+        "5. Use a clean spatula to thoroughly mix the powdered metals to achieve a homogenous mixture."
+      ],
+      "raw_text": "1. Weigh 60.72 g of bismuth using an analytical balance. \n 2. Weigh 60.72 g of indium. \n 3. Weigh 20.24 g of yttrium. \n 4. Combine the weighed materials in a clean, dry crucible. \n 5. Use a clean spatula to thoroughly mix the powdered metals to achieve a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat the mixture to 800°C at a ramp rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Bi3In3Y10."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat the mixture to 800°C at a ramp rate of 10°C per minute. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Bi3In3Y10."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down to room temperature (approximately 25°C) slowly without opening the furnace door.",
+        "2. This cooling process should take around 4-6 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down to room temperature (approximately 25°C) slowly without opening the furnace door. \n 2. This cooling process should take around 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solidified sample using a clean tool.",
+        "3. If necessary, grind the sample to achieve the desired particle size using a mortar and pestle.",
+        "4. Optionally, seal the surface with a clear epoxy to enhance durability and reduce oxidation.",
+        "5. Allow the epoxy to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solidified sample using a clean tool. \n 3. If necessary, grind the sample to achieve the desired particle size using a mortar and pestle. \n 4. Optionally, seal the surface with a clear epoxy to enhance durability and reduce oxidation. \n 5. Allow the epoxy to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4735461.0,
+      "density": 65239.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -943631.0,
+      "formation_energy_per_atom": -6108.0,
+      "decomposition_energy_per_atom": -409.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -232.0,
+      "decomposition_energy_mp": -409.0,
+      "decomposition_energy_mp_oqmd": -387.0
+    },
+    "electronic": {
+      "bandgap": 0.008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e956f52eca",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.107687Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3In3Y10.json",
+      "material://Bi3In3Y10"
+    ]
+  }
+}

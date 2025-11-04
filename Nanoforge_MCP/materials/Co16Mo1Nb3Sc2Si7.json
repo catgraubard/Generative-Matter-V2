@@ -1,0 +1,139 @@
+{
+  "id": "Co16Mo1Nb3Sc2Si7",
+  "uri": "material://Co16Mo1Nb3Sc2Si7",
+  "composition": {
+    "formula": "Co16Mo1Nb3Sc2Si7",
+    "elements": {
+      "Co": 16,
+      "Mo": 1,
+      "Nb": 3,
+      "Sc": 2,
+      "Si": 7
+    },
+    "reduced_formula": "Sc2Nb3Co16Si7Mo",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Co",
+      "Nb",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 2560.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 480.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 1120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 2560 g \n Mo: 160 g \n Nb: 480 g \n Sc: 320 g \n Si: 1120 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metallurgical supplier or online metal distributor. \n Mo: Available from specialty metal suppliers or online sources. \n Nb: Obtain from suppliers specializing in refractory metals. \n Sc: Sourced from chemical supply companies or online metal retailers. \n Si: Available at chemical supply stores or online.",
+      "steps": [
+        "Co: Purchase from a metallurgical supplier or online metal distributor.",
+        "Mo: Available from specialty metal suppliers or online sources.",
+        "Nb: Obtain from suppliers specializing in refractory metals.",
+        "Sc: Sourced from chemical supply companies or online metal retailers.",
+        "Si: Available at chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine the Co, Mo, Nb, Sc, and Si powders.",
+        "3. Use a high-energy ball mill to mix the powders for 1 hour to ensure uniformity.",
+        "4. Transfer the mixed powder to a ceramic crucible for the heating process."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine the Co, Mo, Nb, Sc, and Si powders. \n 3. Use a high-energy ball mill to mix the powders for 1 hour to ensure uniformity. \n 4. Transfer the mixed powder to a ceramic crucible for the heating process."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C (2192 °F).",
+        "2. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C (2192 °F). \n 2. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature over a period of 8 hours.",
+        "2. Do not open the furnace door until the temperature is below 300 °C (572 °F) to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature over a period of 8 hours. \n 2. Do not open the furnace door until the temperature is below 300 °C (572 °F) to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solidified alloy.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solidified alloy. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3534871.0,
+      "density": 75354.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2212795.0,
+      "formation_energy_per_atom": -5433.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6019a11518",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:21.804157Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Mo1Nb3Sc2Si7.json",
+      "material://Co16Mo1Nb3Sc2Si7"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "Cu1La1Nd1Ni9",
+  "uri": "material://Cu1La1Nd1Ni9",
+  "composition": {
+    "formula": "Cu1La1Nd1Ni9",
+    "elements": {
+      "Cu": 1,
+      "La": 1,
+      "Nd": 1,
+      "Ni": 9
+    },
+    "reduced_formula": "LaNdCuNi9",
+    "element_list": [
+      "Ni",
+      "Cu",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 45.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 2.5 g \n La: 1.5 g \n Nd: 1.5 g \n Ni: 45.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supplier or online retailer specializing in metals. \n La: Obtain from a chemical supply store or online specialty shop. \n Nd: Available from rare earth metal suppliers. \n Ni: Obtain from a hardware store or metal supplier.",
+      "steps": [
+        "Cu: Purchase from a metal supplier or online retailer specializing in metals.",
+        "La: Obtain from a chemical supply store or online specialty shop.",
+        "Nd: Available from rare earth metal suppliers.",
+        "Ni: Obtain from a hardware store or metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using a precise scale.",
+        "2. In a clean, dry container, combine Cu, La, Nd, and Ni powders.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out each material using a precise scale. \n 2. In a clean, dry container, combine Cu, La, Nd, and Ni powders. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C (2192°F) for 1 hour to facilitate sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C (2192°F) for 1 hour to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond file or sanding paper to smooth any rough edges.",
+        "3. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. If necessary, use a diamond file or sanding paper to smooth any rough edges. \n 3. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1701229.0,
+      "density": 85401.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -691305.0,
+      "formation_energy_per_atom": -2755.0,
+      "decomposition_energy_per_atom": -14.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -14.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8de2c86cd6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:22.405255Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1La1Nd1Ni9.json",
+      "material://Cu1La1Nd1Ni9"
+    ]
+  }
+}

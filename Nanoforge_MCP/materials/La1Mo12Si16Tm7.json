@@ -1,0 +1,105 @@
+{
+  "id": "La1Mo12Si16Tm7",
+  "uri": "material://La1Mo12Si16Tm7",
+  "composition": {
+    "formula": "La1Mo12Si16Tm7",
+    "elements": {
+      "La": 1,
+      "Mo": 12,
+      "Si": 16,
+      "Tm": 7
+    },
+    "reduced_formula": "LaTm7(Si4Mo3)4",
+    "element_list": [
+      "Si",
+      "Mo",
+      "La",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 10 g, Li: 20 g, Sr: 5 g, Te: 80 g"
+    },
+    "sourcing": {
+      "instructions": "K: Obtain from a chemical supply store or online. Li: Purchase from a chemical supply store or online. Sr: Available at chemical supply stores. Te: Obtain from specialized chemical suppliers or online.",
+      "steps": [
+        "K: Obtain from a chemical supply store or online. Li: Purchase from a chemical supply store or online. Sr: Available at chemical supply stores. Te: Obtain from specialized chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of potassium (K), 20 g of lithium (Li), 5 g of strontium (Sr), and 80 g of tellurium (Te) using a precision balance. 2. In a clean, dry glass container, combine the weighed K, Li, Sr, and Te. 3. Mix thoroughly using a metal spatula until a homogenous blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 10 g of potassium (K), 20 g of lithium (Li), 5 g of strontium (Sr), and 80 g of tellurium (Te) using a precision balance. 2. In a clean, dry glass container, combine the weighed K, Li, Sr, and Te. 3. Mix thoroughly using a metal spatula until a homogenous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible. 2. Heat in a furnace to 600°C for 2 hours, ensuring the environment is inert (e.g., argon gas) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible. 2. Heat in a furnace to 600°C for 2 hours, ensuring the environment is inert (e.g., argon gas) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "Allow the crucible to cool slowly to room temperature (approximately 25°C) over a period of 4 hours inside the furnace to avoid thermal shock."
+      ],
+      "raw_text": "Allow the crucible to cool slowly to room temperature (approximately 25°C) over a period of 4 hours inside the furnace to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible. 2. Use fine-grit sandpaper to smooth out any rough edges on the sample. 3. Optionally, apply a sealant for protection against moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. 2. Use fine-grit sandpaper to smooth out any rough edges on the sample. 3. Optionally, apply a sealant for protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6068588.0,
+      "density": 79957.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2772196.0,
+      "formation_energy_per_atom": -6667.0,
+      "decomposition_energy_per_atom": 71.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -204.0,
+      "decomposition_energy_mp": -222.0,
+      "decomposition_energy_mp_oqmd": -221.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d39b4bd13b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.246860Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Mo12Si16Tm7.json",
+      "material://La1Mo12Si16Tm7"
+    ]
+  }
+}

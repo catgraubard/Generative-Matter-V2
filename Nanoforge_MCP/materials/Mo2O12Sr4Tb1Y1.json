@@ -1,0 +1,113 @@
+{
+  "id": "Mo2O12Sr4Tb1Y1",
+  "uri": "material://Mo2O12Sr4Tb1Y1",
+  "composition": {
+    "formula": "Mo2O12Sr4Tb1Y1",
+    "elements": {
+      "Mo": 2,
+      "O": 12,
+      "Sr": 4,
+      "Tb": 1,
+      "Y": 1
+    },
+    "reduced_formula": "Sr4TbY(MoO6)2",
+    "element_list": [
+      "O",
+      "Sr",
+      "Y",
+      "Mo",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "MoO3: 60.0 g \n SrO: 80.0 g \n Tb2O3: 20.0 g \n Y2O3: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "MoO3: Chemical supply stores or online chemical suppliers. \n SrO: Specialty metal oxide suppliers or online sources. \n Tb2O3: Rare earth material suppliers or online marketplaces. \n Y2O3: Chemical supply houses or online vendors.",
+      "steps": [
+        "MoO3: Chemical supply stores or online chemical suppliers.",
+        "SrO: Specialty metal oxide suppliers or online sources.",
+        "Tb2O3: Rare earth material suppliers or online marketplaces.",
+        "Y2O3: Chemical supply houses or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of MoO3, SrO, Tb2O3, and Y2O3 using an analytical balance.",
+        "2. In a clean, dry ceramic or glass mixing container, combine the weighed powders using a spatula.",
+        "3. Mix thoroughly for at least 10 minutes to ensure a homogenous blend.",
+        "4. Transfer the mixed powders into a ball mill for 2 hours to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh the required amounts of MoO3, SrO, Tb2O3, and Y2O3 using an analytical balance. \n 2. In a clean, dry ceramic or glass mixing container, combine the weighed powders using a spatula. \n 3. Mix thoroughly for at least 10 minutes to ensure a homogenous blend. \n 4. Transfer the mixed powders into a ball mill for 2 hours to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000 °C.",
+        "2. Place the mixed powder into a suitable crucible made from alumina or similar material.",
+        "3. Heat the sample at 1000 °C for 4 hours, maintaining a stable temperature throughout."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000 °C. \n 2. Place the mixed powder into a suitable crucible made from alumina or similar material. \n 3. Heat the sample at 1000 °C for 4 hours, maintaining a stable temperature throughout."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 6-8 hours.",
+        "2. Do not open the furnace door during cooling to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 6-8 hours. \n 2. Do not open the furnace door during cooling to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully using gloves.",
+        "2. Inspect the sample for any surface irregularities or defects.",
+        "3. If needed, use fine sandpaper to smoothen the surface.",
+        "4. Optionally, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully using gloves. \n 2. Inspect the sample for any surface irregularities or defects. \n 3. If needed, use fine sandpaper to smoothen the surface. \n 4. Optionally, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2884967.0,
+      "density": 56533.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1606144.0,
+      "formation_energy_per_atom": -30844.0,
+      "decomposition_energy_per_atom": -251.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -103.0,
+      "decomposition_energy_mp": -257.0,
+      "decomposition_energy_mp_oqmd": -206.0
+    },
+    "electronic": {
+      "bandgap": 1.289,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e9ade6798b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.383187Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo2O12Sr4Tb1Y1.json",
+      "material://Mo2O12Sr4Tb1Y1"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Ac1Al2Ga1Zn1",
+  "uri": "material://Ac1Al2Ga1Zn1",
+  "composition": {
+    "formula": "Ac1Al2Ga1Zn1",
+    "elements": {
+      "Ac": 1,
+      "Al": 2,
+      "Ga": 1,
+      "Zn": 1
+    },
+    "reduced_formula": "AcAl2ZnGa",
+    "element_list": [
+      "Al",
+      "Zn",
+      "Ga",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cesium Oxide (Cs2O) - 2.5 g \n Ruthenium (Ru) - 4.0 g \n Oxygen (O2) - 1.0 g (calculated for stoichiometry) \n Cs12O16Ru4 requires 12 Cs, 16 O, and 4 Ru - adjust accordingly based on molar ratios. Total approximate weight is 27.5 g."
+    },
+    "sourcing": {
+      "instructions": "Cesium Oxide - Available from chemical supply companies or online chemical retailers. \n Ruthenium - Obtain from precious metal suppliers or specialized online retailers. \n Oxygen - Use compressed oxygen gas cylinders from industrial gas suppliers.",
+      "steps": [
+        "Cesium Oxide - Available from chemical supply companies or online chemical retailers.",
+        "Ruthenium - Obtain from precious metal suppliers or specialized online retailers.",
+        "Oxygen - Use compressed oxygen gas cylinders from industrial gas suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 2.5 g of Cesium Oxide using an analytical balance.",
+        "2. Measure 4.0 g of Ruthenium powder.",
+        "3. Carefully measure 1.0 g of oxygen gas using a gas flow meter or gas syringe.",
+        "4. In a fume hood, combine Cs2O and Ru in a high-purity ceramic crucible.",
+        "5. Slowly introduce oxygen to the mixture while stirring with an inert rod to ensure even distribution."
+      ],
+      "raw_text": "1. Measure 2.5 g of Cesium Oxide using an analytical balance. \n 2. Measure 4.0 g of Ruthenium powder. \n 3. Carefully measure 1.0 g of oxygen gas using a gas flow meter or gas syringe. \n 4. In a fume hood, combine Cs2O and Ru in a high-purity ceramic crucible. \n 5. Slowly introduce oxygen to the mixture while stirring with an inert rod to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat gradually to 800°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 4 hours to promote full reaction and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat gradually to 800°C at a rate of 10°C/min. \n 3. Maintain the temperature for 4 hours to promote full reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approx. 1-2 hours).",
+        "2. Do not force cool, as this may introduce stress fractures in the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approx. 1-2 hours). \n 2. Do not force cool, as this may introduce stress fractures in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Inspect the sample for uniformity and surface quality.",
+        "3. If needed, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Seal the sample with a suitable protective coating if required for stability in air."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Inspect the sample for uniformity and surface quality. \n 3. If needed, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Seal the sample with a suitable protective coating if required for stability in air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1077011.0,
+      "density": 64154.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -180725.0,
+      "formation_energy_per_atom": -4345.0,
+      "decomposition_energy_per_atom": -1051.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -111.0,
+      "decomposition_energy_mp": -1051.0,
+      "decomposition_energy_mp_oqmd": -953.0
+    },
+    "electronic": {
+      "bandgap": 0.0061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e486492e85",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.852740Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Al2Ga1Zn1.json",
+      "material://Ac1Al2Ga1Zn1"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Mo2O24Pb4Se8",
+  "uri": "material://Mo2O24Pb4Se8",
+  "composition": {
+    "formula": "Mo2O24Pb4Se8",
+    "elements": {
+      "Mo": 2,
+      "O": 24,
+      "Pb": 4,
+      "Se": 8
+    },
+    "reduced_formula": "MoPb2(SeO3)4",
+    "element_list": [
+      "O",
+      "Se",
+      "Mo",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Molybdenum Oxide (MoO3): 200 g \n - Lead (Pb): 160 g \n - Selenium (Se): 80 g \n - Flux (e.g., Sodium Chloride - NaCl): 20 g"
+    },
+    "sourcing": {
+      "instructions": "- Molybdenum Oxide: Available from chemical supply companies or online retailers specializing in laboratory materials. \n - Lead: Obtain from metal suppliers or hardware stores; ensure to follow safety regulations. \n - Selenium: Purchase from chemical suppliers or online marketplaces specializing in elemental chemicals. \n - Sodium Chloride: Common table salt available at grocery stores.",
+      "steps": [
+        "- Molybdenum Oxide: Available from chemical supply companies or online retailers specializing in laboratory materials.",
+        "- Lead: Obtain from metal suppliers or hardware stores; ensure to follow safety regulations.",
+        "- Selenium: Purchase from chemical suppliers or online marketplaces specializing in elemental chemicals.",
+        "- Sodium Chloride: Common table salt available at grocery stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, combine the Molybdenum Oxide, Lead, and Selenium in the specified amounts.",
+        "3. Add the Sodium Chloride as a flux to facilitate melting.",
+        "4. Mix the powders thoroughly using a mortar and pestle to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry container, combine the Molybdenum Oxide, Lead, and Selenium in the specified amounts. \n 3. Add the Sodium Chloride as a flux to facilitate melting. \n 4. Mix the powders thoroughly using a mortar and pestle to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible made of alumina or graphite.",
+        "2. Preheat the furnace to 800°C (1472°F).",
+        "3. Once the temperature is reached, place the crucible inside the furnace and maintain the temperature for 4 hours to allow complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible made of alumina or graphite. \n 2. Preheat the furnace to 800°C (1472°F). \n 3. Once the temperature is reached, place the crucible inside the furnace and maintain the temperature for 4 hours to allow complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace while it is cooling to prevent thermal shock to the crucible and material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace while it is cooling to prevent thermal shock to the crucible and material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified material from the crucible once it has cooled completely.",
+        "2. If necessary, use a diamond blade saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces of the sample with progressively finer grit sandpaper (starting from 200 grit to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin to protect it from environmental factors."
+      ],
+      "raw_text": "1. Carefully remove the solidified material from the crucible once it has cooled completely. \n 2. If necessary, use a diamond blade saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces of the sample with progressively finer grit sandpaper (starting from 200 grit to 600 grit) to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin to protect it from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6359545.0,
+      "density": 53171.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2398166.0,
+      "formation_energy_per_atom": -14883.0,
+      "decomposition_energy_per_atom": -168.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -95.0,
+      "decomposition_energy_mp": -168.0,
+      "decomposition_energy_mp_oqmd": -134.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fd936fc119",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:34.201300Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo2O24Pb4Se8.json",
+      "material://Mo2O24Pb4Se8"
+    ]
+  }
+}

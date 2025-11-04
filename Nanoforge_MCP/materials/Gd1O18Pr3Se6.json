@@ -1,0 +1,115 @@
+{
+  "id": "Gd1O18Pr3Se6",
+  "uri": "material://Gd1O18Pr3Se6",
+  "composition": {
+    "formula": "Gd1O18Pr3Se6",
+    "elements": {
+      "Gd": 1,
+      "O": 18,
+      "Pr": 3,
+      "Se": 6
+    },
+    "reduced_formula": "Pr3Gd(SeO3)6",
+    "element_list": [
+      "O",
+      "Se",
+      "Pr",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Gd2O3: 60.0 g \n Pr6O11: 9.0 g \n Se: 18.0 g \n (Total: 87.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3 can be purchased from chemical supply companies or online marketplaces specializing in rare earth materials. Pr6O11 is available from similar suppliers or specialty chemical retailers. Se can be sourced from chemical suppliers, electronics suppliers, or online marketplaces. Ensure all materials are of high purity (>99.9%).",
+      "steps": [
+        "Gd2O3 can be purchased from chemical supply companies or online marketplaces specializing in rare earth materials. Pr6O11 is available from similar suppliers or specialty chemical retailers. Se can be sourced from chemical suppliers, electronics suppliers, or online marketplaces. Ensure all materials are of high purity (>99.9%)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh out 60.0 g of Gd2O3 using an analytical balance.",
+        "2. Weigh 9.0 g of Pr6O11 and 18.0 g of Se.",
+        "3. Combine all three powders in a ceramic or glass mixing vessel.",
+        "4. Use a mortar and pestle to grind the mixture thoroughly for at least 15 minutes to ensure uniformity.",
+        "5. Transfer the mixed powder into a clean, dry crucible for the heating process."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh out 60.0 g of Gd2O3 using an analytical balance. \n 2. Weigh 9.0 g of Pr6O11 and 18.0 g of Se. \n 3. Combine all three powders in a ceramic or glass mixing vessel. \n 4. Use a mortar and pestle to grind the mixture thoroughly for at least 15 minutes to ensure uniformity. \n 5. Transfer the mixed powder into a clean, dry crucible for the heating process."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the crucible containing the mixed powders into the furnace.",
+        "3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction and densification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the crucible containing the mixed powders into the furnace. \n 3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction and densification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours).",
+        "2. Avoid opening the furnace door until it has reached a safe temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours). \n 2. Avoid opening the furnace door until it has reached a safe temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully and extract the solid sample.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If needed, use a fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant to enhance surface durability, following the manufacturer's instructions for application and curing time."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully and extract the solid sample. \n 2. Inspect the sample for any surface irregularities. \n 3. If needed, use a fine-grit sandpaper to smooth the surface. \n 4. Optionally, apply a sealant to enhance surface durability, following the manufacturer's instructions for application and curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 484475.0,
+      "density": 45988.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2031805.0,
+      "formation_energy_per_atom": -23115.0,
+      "decomposition_energy_per_atom": -603.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -61.0,
+      "decomposition_energy_mp_oqmd": -261.0
+    },
+    "electronic": {
+      "bandgap": 3.1616,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "986bd18d06",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.327078Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd1O18Pr3Se6.json",
+      "material://Gd1O18Pr3Se6"
+    ]
+  }
+}

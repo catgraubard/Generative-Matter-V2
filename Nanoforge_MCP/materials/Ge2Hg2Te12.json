@@ -1,0 +1,129 @@
+{
+  "id": "Ge2Hg2Te12",
+  "uri": "material://Ge2Hg2Te12",
+  "composition": {
+    "formula": "Ge2Hg2Te12",
+    "elements": {
+      "Ge": 2,
+      "Hg": 2,
+      "Te": 12
+    },
+    "reduced_formula": "HgGeTe6",
+    "element_list": [
+      "Ge",
+      "Te",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 22.5,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 22.5,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 45.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 22.5 g \n Hg: 22.5 g \n Te: 45.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ge (Germanium) - Obtain from semiconductor suppliers or online materials suppliers. \n Hg (Mercury) - Purchase from chemical supply companies with proper handling certifications. \n Te (Tellurium) - Available from metallurgical suppliers or online chemical distributors.",
+      "steps": [
+        "Ge (Germanium) - Obtain from semiconductor suppliers or online materials suppliers.",
+        "Hg (Mercury) - Purchase from chemical supply companies with proper handling certifications.",
+        "Te (Tellurium) - Available from metallurgical suppliers or online chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Gather all materials in a clean workspace.",
+        "2. Measure 22.5 g of Ge using an analytical balance.",
+        "3. Measure 22.5 g of Hg and handle with care due to toxicity.",
+        "4. Measure 45.0 g of Te.",
+        "5. In a mortar and pestle, combine Ge, Hg, and Te thoroughly until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Gather all materials in a clean workspace. \n 2. Measure 22.5 g of Ge using an analytical balance. \n 3. Measure 22.5 g of Hg and handle with care due to toxicity. \n 4. Measure 45.0 g of Te. \n 5. In a mortar and pestle, combine Ge, Hg, and Te thoroughly until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 600 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 600 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled to prevent contamination.",
+        "3. This cooling process should take about 4 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled to prevent contamination. \n 3. This cooling process should take about 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample using proper safety gloves.",
+        "3. Grind the sample lightly to achieve a smooth texture if necessary.",
+        "4. Optionally, apply a sealant suitable for the material to enhance durability.",
+        "5. Store in a dry, safe container to prevent degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample using proper safety gloves. \n 3. Grind the sample lightly to achieve a smooth texture if necessary. \n 4. Optionally, apply a sealant suitable for the material to enhance durability. \n 5. Store in a dry, safe container to prevent degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5927277.0,
+      "density": 58206.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -519209.0,
+      "formation_energy_per_atom": -2717.0,
+      "decomposition_energy_per_atom": -1016.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -306.0,
+      "decomposition_energy_mp": -1011.0,
+      "decomposition_energy_mp_oqmd": -1011.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "80a23fa915",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:04.275797Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge2Hg2Te12.json",
+      "material://Ge2Hg2Te12"
+    ]
+  }
+}

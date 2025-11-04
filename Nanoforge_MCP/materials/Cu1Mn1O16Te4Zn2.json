@@ -1,0 +1,140 @@
+{
+  "id": "Cu1Mn1O16Te4Zn2",
+  "uri": "material://Cu1Mn1O16Te4Zn2",
+  "composition": {
+    "formula": "Cu1Mn1O16Te4Zn2",
+    "elements": {
+      "Cu": 1,
+      "Mn": 1,
+      "O": 16,
+      "Te": 4,
+      "Zn": 2
+    },
+    "reduced_formula": "MnZn2Cu(TeO4)4",
+    "element_list": [
+      "O",
+      "Mn",
+      "Cu",
+      "Zn",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 4.00 g \n Mn: 4.00 g \n O: 16.00 g \n Te: 8.00 g \n Zn: 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a chemical supplier or online store (e.g., Sigma-Aldrich). \n Mn: Obtain from a chemical supply store. \n O: Use distilled water for oxide preparation. \n Te: Buy from a chemical supplier. \n Zn: Available at most chemical supply companies.",
+      "steps": [
+        "Cu: Purchase from a chemical supplier or online store (e.g., Sigma-Aldrich).",
+        "Mn: Obtain from a chemical supply store.",
+        "O: Use distilled water for oxide preparation.",
+        "Te: Buy from a chemical supplier.",
+        "Zn: Available at most chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out Cu, Mn, Te, and Zn precisely using an analytical balance.",
+        "2. In a clean glass beaker, combine Cu and Mn powders.",
+        "3. Slowly add distilled water (to produce cupric and manganous oxides) while stirring continuously.",
+        "4. Gradually add Te powder to the mixture, ensuring uniform dispersion.",
+        "5. Finally, incorporate Zn powder until a uniform slurry is obtained."
+      ],
+      "raw_text": "1. Weigh out Cu, Mn, Te, and Zn precisely using an analytical balance. \n 2. In a clean glass beaker, combine Cu and Mn powders. \n 3. Slowly add distilled water (to produce cupric and manganous oxides) while stirring continuously. \n 4. Gradually add Te powder to the mixture, ensuring uniform dispersion. \n 5. Finally, incorporate Zn powder until a uniform slurry is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Heat in a furnace at 800°C for 4 hours to promote solid-state reactions.",
+        "3. Increase the temperature to 1000°C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible. \n 2. Heat in a furnace at 800°C for 4 hours to promote solid-state reactions. \n 3. Increase the temperature to 1000°C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool gradually to room temperature (approximately 6-8 hours) to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the furnace to cool gradually to room temperature (approximately 6-8 hours) to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Use a diamond saw to cut the material into desired dimensions (3 inches x 2 inches x 7 inches).",
+        "2. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal the material with a protective coating if required for application."
+      ],
+      "raw_text": "1. Use a diamond saw to cut the material into desired dimensions (3 inches x 2 inches x 7 inches). \n 2. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, seal the material with a protective coating if required for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2852186.0,
+      "density": 59133.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1438443.0,
+      "formation_energy_per_atom": -15135.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -41.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": 0.0346,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ea76e89bdb",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.553427Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Mn1O16Te4Zn2.json",
+      "material://Cu1Mn1O16Te4Zn2"
+    ]
+  }
+}

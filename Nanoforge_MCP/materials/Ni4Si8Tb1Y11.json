@@ -1,0 +1,115 @@
+{
+  "id": "Ni4Si8Tb1Y11",
+  "uri": "material://Ni4Si8Tb1Y11",
+  "composition": {
+    "formula": "Ni4Si8Tb1Y11",
+    "elements": {
+      "Ni": 4,
+      "Si": 8,
+      "Tb": 1,
+      "Y": 11
+    },
+    "reduced_formula": "TbY11(Si2Ni)4",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 160 g, Si: 320 g, Tb: 10 g, Y: 110 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a metal supplier or online (e.g., Sigma-Aldrich); Si: Silicon powder from chemical suppliers; Tb: Terbium oxide from rare earth suppliers; Y: Yttrium oxide from chemical suppliers.",
+      "steps": [
+        "Ni: Purchase from a metal supplier or online (e.g., Sigma-Aldrich); Si: Silicon powder from chemical suppliers; Tb: Terbium oxide from rare earth suppliers; Y: Yttrium oxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine the Ni, Si, Tb, and Y powders.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine the Ni, Si, Tb, and Y powders. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. This process should take around 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. This process should take around 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges for a smooth finish using fine-grit sandpaper.",
+        "4. Optionally, apply a sealant to enhance surface stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges for a smooth finish using fine-grit sandpaper. \n 4. Optionally, apply a sealant to enhance surface stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5294246.0,
+      "density": 50069.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1603926.0,
+      "formation_energy_per_atom": -7543.0,
+      "decomposition_energy_per_atom": -289.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -384.0,
+      "decomposition_energy_mp_oqmd": -37.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "741c19270f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:47.409991Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4Si8Tb1Y11.json",
+      "material://Ni4Si8Tb1Y11"
+    ]
+  }
+}

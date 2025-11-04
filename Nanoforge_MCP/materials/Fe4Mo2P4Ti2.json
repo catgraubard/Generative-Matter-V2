@@ -1,0 +1,109 @@
+{
+  "id": "Fe4Mo2P4Ti2",
+  "uri": "material://Fe4Mo2P4Ti2",
+  "composition": {
+    "formula": "Fe4Mo2P4Ti2",
+    "elements": {
+      "Fe": 4,
+      "Mo": 2,
+      "P": 4,
+      "Ti": 2
+    },
+    "reduced_formula": "TiFe2MoP2",
+    "element_list": [
+      "P",
+      "Ti",
+      "Fe",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 200 g  \n - Molybdenum (Mo): 100 g  \n - Phosphorus (P): 80 g  \n - Titanium (Ti): 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Purchase from metal suppliers or online platforms like Amazon or eBay.  \n - Molybdenum: Obtain from specialty metal suppliers or online.  \n - Phosphorus: Buy from chemical supply companies or online.  \n - Titanium: Source from metal distributors or online marketplaces.",
+      "steps": [
+        "- Iron: Purchase from metal suppliers or online platforms like Amazon or eBay.",
+        "- Molybdenum: Obtain from specialty metal suppliers or online.",
+        "- Phosphorus: Buy from chemical supply companies or online.",
+        "- Titanium: Source from metal distributors or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. Place Iron, Molybdenum, Phosphorus, and Titanium in a clean, dry mixing container.",
+        "3. Mix the dry powders thoroughly using a spatula or mechanical mixer until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale.  \n 2. Place Iron, Molybdenum, Phosphorus, and Titanium in a clean, dry mixing container.  \n 3. Mix the dry powders thoroughly using a spatula or mechanical mixer until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Heat the crucible in a furnace to 1200°C (2192°F) for 2 hours to facilitate sintering.",
+        "3. Ensure a controlled atmosphere (argon or vacuum) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible.  \n 2. Heat the crucible in a furnace to 1200°C (2192°F) for 2 hours to facilitate sintering.  \n 3. Ensure a controlled atmosphere (argon or vacuum) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25°C).",
+        "2. This should take around 4-6 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25°C).  \n 2. This should take around 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Sand the surfaces to achieve a smooth finish, using progressively finer grits (starting from 80 grit to 400 grit).",
+        "3. Optionally, seal the surface with a suitable metal sealant if additional protection is required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully.  \n 2. Sand the surfaces to achieve a smooth finish, using progressively finer grits (starting from 80 grit to 400 grit).  \n 3. Optionally, seal the surface with a suitable metal sealant if additional protection is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1462163.0,
+      "density": 72103.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1032782.0,
+      "formation_energy_per_atom": -8552.0,
+      "decomposition_energy_per_atom": -279.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -279.0,
+      "decomposition_energy_mp_oqmd": -277.0
+    },
+    "electronic": {
+      "bandgap": 0.0035,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6b465fecda",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:36.119142Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Mo2P4Ti2.json",
+      "material://Fe4Mo2P4Ti2"
+    ]
+  }
+}

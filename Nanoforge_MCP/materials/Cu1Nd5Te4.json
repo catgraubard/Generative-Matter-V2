@@ -1,0 +1,124 @@
+{
+  "id": "Cu1Nd5Te4",
+  "uri": "material://Cu1Nd5Te4",
+  "composition": {
+    "formula": "Cu1Nd5Te4",
+    "elements": {
+      "Cu": 1,
+      "Nd": 5,
+      "Te": 4
+    },
+    "reduced_formula": "Nd5CuTe4",
+    "element_list": [
+      "Cu",
+      "Te",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 15.0 g \n Nd: 75.0 g \n Te: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supply company or online (copper powder). \n Nd: Obtain from a rare earth metal supplier (neodymium oxide). \n Te: Acquire from a chemical supply store (tellurium powder).",
+      "steps": [
+        "Cu: Purchase from a metal supply company or online (copper powder).",
+        "Nd: Obtain from a rare earth metal supplier (neodymium oxide).",
+        "Te: Acquire from a chemical supply store (tellurium powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15.0 g of copper powder.",
+        "2. Weigh out 75.0 g of neodymium oxide.",
+        "3. Weigh out 60.0 g of tellurium powder.",
+        "4. In a clean, dry container, combine the weighed powders uniformly using a mortar and pestle or a ball mill for at least 30 minutes."
+      ],
+      "raw_text": "1. Weigh out 15.0 g of copper powder. \n 2. Weigh out 75.0 g of neodymium oxide. \n 3. Weigh out 60.0 g of tellurium powder. \n 4. In a clean, dry container, combine the weighed powders uniformly using a mortar and pestle or a ball mill for at least 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Preheat a furnace to 800°C.",
+        "3. Place the crucible in the furnace and maintain at 800°C for 2 hours to ensure complete reaction and formation of Cu1Nd5Te4."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Preheat a furnace to 800°C. \n 3. Place the crucible in the furnace and maintain at 800°C for 2 hours to ensure complete reaction and formation of Cu1Nd5Te4."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down to room temperature gradually (approximately 4-6 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down to room temperature gradually (approximately 4-6 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating for durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a protective coating for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 3104327.0,
+      "density": 69279.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -539531.0,
+      "formation_energy_per_atom": -1344.0,
+      "decomposition_energy_per_atom": -26.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": 0.0035,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8cdccb2f41",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:21.094740Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Nd5Te4.json",
+      "material://Cu1Nd5Te4"
+    ]
+  }
+}

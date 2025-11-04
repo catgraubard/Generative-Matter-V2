@@ -1,0 +1,110 @@
+{
+  "id": "Rb12Se12Si4",
+  "uri": "material://Rb12Se12Si4",
+  "composition": {
+    "formula": "Rb12Se12Si4",
+    "elements": {
+      "Rb": 12,
+      "Se": 12,
+      "Si": 4
+    },
+    "reduced_formula": "Rb3SiSe3",
+    "element_list": [
+      "Si",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 50.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 50.4 g, Se: 76.8 g, Si: 28.8 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Obtain from a chemical supply store or online distributor, ensuring it's of high purity. Se: Purchase from a specialty supplier of selenium or a chemical vendor. Si: Acquire from a semiconductor supplier or an online store specializing in silicon materials.",
+      "steps": [
+        "Rb: Obtain from a chemical supply store or online distributor, ensuring it's of high purity. Se: Purchase from a specialty supplier of selenium or a chemical vendor. Si: Acquire from a semiconductor supplier or an online store specializing in silicon materials."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 50.4 g of rubidium (Rb), 76.8 g of selenium (Se), and 28.8 g of silicon (Si) using an analytical balance.",
+        "2. In a fume hood, combine the weighed Rb and Se in a ceramic or quartz crucible.",
+        "3. Add the silicon to the crucible and mix the powders thoroughly using a ceramic spatula to ensure an even distribution."
+      ],
+      "raw_text": "1. Weigh out 50.4 g of rubidium (Rb), 76.8 g of selenium (Se), and 28.8 g of silicon (Si) using an analytical balance. \n 2. In a fume hood, combine the weighed Rb and Se in a ceramic or quartz crucible. \n 3. Add the silicon to the crucible and mix the powders thoroughly using a ceramic spatula to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Gradually heat the mixture to 800°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Rb12Se12Si4."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Gradually heat the mixture to 800°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Rb12Se12Si4."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours) without opening the furnace door."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours) without opening the furnace door."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Extract the solidified Rb12Se12Si4 material from the crucible.",
+        "3. Clean the sample by gently sanding any rough edges with fine-grit sandpaper.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Extract the solidified Rb12Se12Si4 material from the crucible. \n 3. Clean the sample by gently sanding any rough edges with fine-grit sandpaper. \n 4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9707845.0,
+      "density": 35672.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1098188.0,
+      "formation_energy_per_atom": -12286.0,
+      "decomposition_energy_per_atom": -1178.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -362.0,
+      "decomposition_energy_mp": -1178.0,
+      "decomposition_energy_mp_oqmd": -362.0
+    },
+    "electronic": {
+      "bandgap": 2.5159,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fc5744ecf6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.907589Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb12Se12Si4.json",
+      "material://Rb12Se12Si4"
+    ]
+  }
+}

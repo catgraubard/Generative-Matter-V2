@@ -1,0 +1,131 @@
+{
+  "id": "Fe4Ge4V2Y2",
+  "uri": "material://Fe4Ge4V2Y2",
+  "composition": {
+    "formula": "Fe4Ge4V2Y2",
+    "elements": {
+      "Fe": 4,
+      "Ge": 4,
+      "V": 2,
+      "Y": 2
+    },
+    "reduced_formula": "YV(FeGe)2",
+    "element_list": [
+      "V",
+      "Fe",
+      "Ge",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 100 g \n Ge: 50 g \n V: 25 g \n Y: 25 g \n Total: 200 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Purchase from a metallurgy supplier or online chemical store. \n Ge: Obtain from semiconductor suppliers or specialty material providers. \n V: Source from industrial metal suppliers. \n Y: Acquire from rare earth material vendors or online marketplaces.",
+      "steps": [
+        "Fe: Purchase from a metallurgy supplier or online chemical store.",
+        "Ge: Obtain from semiconductor suppliers or specialty material providers.",
+        "V: Source from industrial metal suppliers.",
+        "Y: Acquire from rare earth material vendors or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean, dry container, combine the weighed Fe, Ge, V, and Y.",
+        "3. Mix thoroughly with a spatula or mechanical mixer to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale. \n 2. In a clean, dry container, combine the weighed Fe, Ge, V, and Y. \n 3. Mix thoroughly with a spatula or mechanical mixer to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to a temperature of 1200 °C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace to a temperature of 1200 °C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25 °C).",
+        "2. Ensure the cooling takes place over 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25 °C). \n 2. Ensure the cooling takes place over 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Clean the surface with a fine brush to remove any residual powder.",
+        "3. Optionally, sand the edges and surfaces for a smoother finish, if desired.",
+        "4. Store the sample in a sealed container to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Clean the surface with a fine brush to remove any residual powder. \n 3. Optionally, sand the edges and surfaces for a smoother finish, if desired. \n 4. Store the sample in a sealed container to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1861998.0,
+      "density": 70777.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -894991.0,
+      "formation_energy_per_atom": -5022.0,
+      "decomposition_energy_per_atom": -577.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -395.0,
+      "decomposition_energy_mp": -577.0,
+      "decomposition_energy_mp_oqmd": -424.0
+    },
+    "electronic": {
+      "bandgap": 0.018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6a95bd6ee3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:35.243454Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Ge4V2Y2.json",
+      "material://Fe4Ge4V2Y2"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "Ag1Sc11Si16Sm7Tm1",
+  "uri": "material://Ag1Sc11Si16Sm7Tm1",
+  "composition": {
+    "formula": "Ag1Sc11Si16Sm7Tm1",
+    "elements": {
+      "Ag": 1,
+      "Sc": 11,
+      "Si": 16,
+      "Sm": 7,
+      "Tm": 1
+    },
+    "reduced_formula": "Sm7TmSc11Si16Ag",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ag",
+      "Sm",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 12.5 g  \n Bi: 50 g  \n Ti: 100 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron) - Available at chemical supply stores or online (chemical grade).  \n Bi (Bismuth) - Obtainable from metal suppliers or online (industrial grade).  \n Ti (Titanium) - Can be sourced from metal distributors or online (pure titanium powder).",
+      "steps": [
+        "B (Boron) - Available at chemical supply stores or online (chemical grade).",
+        "Bi (Bismuth) - Obtainable from metal suppliers or online (industrial grade).",
+        "Ti (Titanium) - Can be sourced from metal distributors or online (pure titanium powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 12.5 g of Boron powder, 50 g of Bismuth powder, and 100 g of Titanium powder using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed powders.",
+        "3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders for at least 10 minutes to achieve a homogeneous mixture.",
+        "4. Transfer the mixed powders into a suitable mold that can accommodate dimensions of 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Weigh 12.5 g of Boron powder, 50 g of Bismuth powder, and 100 g of Titanium powder using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed powders. \n 3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders for at least 10 minutes to achieve a homogeneous mixture. \n 4. Transfer the mixed powders into a suitable mold that can accommodate dimensions of 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the mold containing the mixture into the furnace.",
+        "3. Maintain the temperature at 1200°C for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the mold containing the mixture into the furnace. \n 3. Maintain the temperature at 1200°C for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take around 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. This cooling process should take around 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, carefully remove the solid sample from the mold.",
+        "2. Inspect the sample for any surface irregularities or rough edges.",
+        "3. If needed, sand the edges and surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealing agent or coating to enhance the surface properties and protect against oxidation."
+      ],
+      "raw_text": "1. Once cool, carefully remove the solid sample from the mold. \n 2. Inspect the sample for any surface irregularities or rough edges. \n 3. If needed, sand the edges and surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealing agent or coating to enhance the surface properties and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7500739.0,
+      "density": 50325.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2250465.0,
+      "formation_energy_per_atom": -7846.0,
+      "decomposition_energy_per_atom": -119.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -134.0,
+      "decomposition_energy_mp_oqmd": -134.0
+    },
+    "electronic": {
+      "bandgap": 0.0029,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae62e539df",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.708400Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Sc11Si16Sm7Tm1.json",
+      "material://Ag1Sc11Si16Sm7Tm1"
+    ]
+  }
+}

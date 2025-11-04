@@ -1,0 +1,132 @@
+{
+  "id": "Ge1Nb12Si15Zr8",
+  "uri": "material://Ge1Nb12Si15Zr8",
+  "composition": {
+    "formula": "Ge1Nb12Si15Zr8",
+    "elements": {
+      "Ge": 1,
+      "Nb": 12,
+      "Si": 15,
+      "Zr": 8
+    },
+    "reduced_formula": "Zr8Nb12Si15Ge",
+    "element_list": [
+      "Si",
+      "Ge",
+      "Zr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 20 g  \n Nb: 240 g  \n Si: 300 g  \n Zr: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Ge (Germanium): Specialty chemical suppliers or online marketplaces.  \n Nb (Niobium): Metal suppliers or online marketplaces.  \n Si (Silicon): Electronic component suppliers or chemical suppliers.  \n Zr (Zirconium): Metal suppliers or online marketplaces.",
+      "steps": [
+        "Ge (Germanium): Specialty chemical suppliers or online marketplaces.",
+        "Nb (Niobium): Metal suppliers or online marketplaces.",
+        "Si (Silicon): Electronic component suppliers or chemical suppliers.",
+        "Zr (Zirconium): Metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Ge, Nb, Si, and Zr in the specified amounts.",
+        "3. Mix the powders thoroughly using a ceramic or stainless steel spatula for at least 10 minutes to ensure even distribution.",
+        "4. Transfer the mixed powders into a ball mill or mortar and pestle for further grinding to a fine consistency for approximately 30 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.  \n 2. In a clean, dry container, combine Ge, Nb, Si, and Zr in the specified amounts.  \n 3. Mix the powders thoroughly using a ceramic or stainless steel spatula for at least 10 minutes to ensure even distribution.  \n 4. Transfer the mixed powders into a ball mill or mortar and pestle for further grinding to a fine consistency for approximately 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1300 °C (2372 °F).",
+        "2. Place the ground mixture in a crucible made of a compatible material (e.g., alumina).",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to allow for complete melting and mixing."
+      ],
+      "raw_text": "1. Preheat a furnace to 1300 °C (2372 °F).  \n 2. Place the ground mixture in a crucible made of a compatible material (e.g., alumina).  \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to allow for complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 8-10 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 8-10 hours.  \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully demold the solidified sample from the crucible.",
+        "2. Use a diamond saw or grinder to shape the sample to the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges and surface with progressively finer grits (starting from 120 to 600) to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a protective coating if necessary."
+      ],
+      "raw_text": "1. Carefully demold the solidified sample from the crucible.  \n 2. Use a diamond saw or grinder to shape the sample to the desired dimensions (3 in x 2 in x 7 in).  \n 3. Sand the edges and surface with progressively finer grits (starting from 120 to 600) to achieve a smooth finish.  \n 4. Optionally, seal the sample with a protective coating if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6103777.0,
+      "density": 63622.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3060154.0,
+      "formation_energy_per_atom": -8449.0,
+      "decomposition_energy_per_atom": -955.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -945.0,
+      "decomposition_energy_mp_oqmd": -945.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "07a320a44b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:25.174285Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Nb12Si15Zr8.json",
+      "material://Ge1Nb12Si15Zr8"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "Ca6O12Ru1Sb1",
+  "uri": "material://Ca6O12Ru1Sb1",
+  "composition": {
+    "formula": "Ca6O12Ru1Sb1",
+    "elements": {
+      "Ca": 6,
+      "O": 12,
+      "Ru": 1,
+      "Sb": 1
+    },
+    "reduced_formula": "Ca6SbRuO12",
+    "element_list": [
+      "O",
+      "Ca",
+      "Ru",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CaO:  254.7 g (calcium oxide) \n  Ru:  1.0 g (ruthenium) \n  Sb:  1.0 g (antimony) \n  Total: 256.7 g"
+    },
+    "sourcing": {
+      "instructions": "CaO: Purchase from chemical supply companies or online retailers. \n Ru: Obtain from metal suppliers or scientific suppliers. \n Sb: Available from chemical supply stores or online.",
+      "steps": [
+        "CaO: Purchase from chemical supply companies or online retailers.",
+        "Ru: Obtain from metal suppliers or scientific suppliers.",
+        "Sb: Available from chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 254.7 g of CaO using an analytical balance.",
+        "2. Weigh 1.0 g of ruthenium and 1.0 g of antimony.",
+        "3. In a clean, dry container, combine all ingredients thoroughly using a glass rod or spatula. Ensure an even mixture."
+      ],
+      "raw_text": "1. Weigh out 254.7 g of CaO using an analytical balance. \n 2. Weigh 1.0 g of ruthenium and 1.0 g of antimony. \n 3. In a clean, dry container, combine all ingredients thoroughly using a glass rod or spatula. Ensure an even mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures.",
+        "2. Heat in a muffle furnace at 800°C for 2 hours.",
+        "3. Ensure the furnace is preheated before placing the crucible inside."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures. \n 2. Heat in a muffle furnace at 800°C for 2 hours. \n 3. Ensure the furnace is preheated before placing the crucible inside."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace door until it has cooled below 100°C to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace door until it has cooled below 100°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and gently break it to retrieve the solid sample.",
+        "2. Sand the edges of the solid sample using fine-grit sandpaper for a smooth finish.",
+        "3. Optionally, apply a sealant to protect the surface of the material."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and gently break it to retrieve the solid sample. \n 2. Sand the edges of the solid sample using fine-grit sandpaper for a smooth finish. \n 3. Optionally, apply a sealant to protect the surface of the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2873025.0,
+      "density": 37874.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1390229.0,
+      "formation_energy_per_atom": -27105.0,
+      "decomposition_energy_per_atom": -583.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -298.0,
+      "decomposition_energy_mp": -589.0,
+      "decomposition_energy_mp_oqmd": -588.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9e63aa8f81",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:43.855314Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca6O12Ru1Sb1.json",
+      "material://Ca6O12Ru1Sb1"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "Ga2S12Tb3Y3",
+  "uri": "material://Ga2S12Tb3Y3",
+  "composition": {
+    "formula": "Ga2S12Tb3Y3",
+    "elements": {
+      "Ga": 2,
+      "S": 12,
+      "Tb": 3,
+      "Y": 3
+    },
+    "reduced_formula": "Tb3Y3(GaS6)2",
+    "element_list": [
+      "S",
+      "Ga",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gallium sulfide (Ga2S3): 150 g \n Terbium oxide (Tb2O3): 30 g \n Yttrium oxide (Y2O3): 15 g \n High purity nitrogen gas: as needed for inert atmosphere"
+    },
+    "sourcing": {
+      "instructions": "Gallium sulfide can be obtained from chemical suppliers such as Sigma-Aldrich or Alfa Aesar. Terbium oxide and Yttrium oxide are available from specialty metal suppliers or chemical distributors. High purity nitrogen gas can be sourced from gas supply companies.",
+      "steps": [
+        "Gallium sulfide can be obtained from chemical suppliers such as Sigma-Aldrich or Alfa Aesar. Terbium oxide and Yttrium oxide are available from specialty metal suppliers or chemical distributors. High purity nitrogen gas can be sourced from gas supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 150 g of Gallium sulfide, 30 g of Terbium oxide, and 15 g of Yttrium oxide using a precision balance.",
+        "2. In a glove box filled with high purity nitrogen, combine the weighed powders in a clean ceramic crucible.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 150 g of Gallium sulfide, 30 g of Terbium oxide, and 15 g of Yttrium oxide using a precision balance. \n 2. In a glove box filled with high purity nitrogen, combine the weighed powders in a clean ceramic crucible. \n 3. Use a mortar and pestle to thoroughly mix the powders for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture gradually to 1200 °C at a rate of 5 °C per minute.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Ga2S12Tb3Y3."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture gradually to 1200 °C at a rate of 5 °C per minute. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Ga2S12Tb3Y3."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature gradually (approximately 8-12 hours).",
+        "2. Ensure the crucible remains in the inert atmosphere until fully cooled to avoid oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature gradually (approximately 8-12 hours). \n 2. Ensure the crucible remains in the inert atmosphere until fully cooled to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If any rough edges or irregularities are present, use a diamond grinding tool to smooth the surface.",
+        "3. Optionally, seal the sample with a clear epoxy resin for protection and enhanced durability. Allow the epoxy to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If any rough edges or irregularities are present, use a diamond grinding tool to smooth the surface. \n 3. Optionally, seal the sample with a clear epoxy resin for protection and enhanced durability. Allow the epoxy to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4664432.0,
+      "density": 45131.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1297.0,
+      "formation_energy_per_atom": -20352.0,
+      "decomposition_energy_per_atom": -65.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -71.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 2.0562,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4cf85845fe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.936135Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2S12Tb3Y3.json",
+      "material://Ga2S12Tb3Y3"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Ni4Si4V3W1",
+  "uri": "material://Ni4Si4V3W1",
+  "composition": {
+    "formula": "Ni4Si4V3W1",
+    "elements": {
+      "Ni": 4,
+      "Si": 4,
+      "V": 3,
+      "W": 1
+    },
+    "reduced_formula": "V3Si4Ni4W",
+    "element_list": [
+      "Si",
+      "V",
+      "Ni",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ni (Nickel): 80.0 g \n Si (Silicon): 20.0 g \n V (Vanadium): 10.0 g \n W (Tungsten): 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from metal supply stores or online suppliers (e.g., eBay, Amazon). \n Si: Available from chemical supply companies or online specialty materials stores. \n V: Obtain from metal suppliers or online marketplaces. \n W: Purchase from specialized metal suppliers or online.",
+      "steps": [
+        "Ni: Purchase from metal supply stores or online suppliers (e.g., eBay, Amazon).",
+        "Si: Available from chemical supply companies or online specialty materials stores.",
+        "V: Obtain from metal suppliers or online marketplaces.",
+        "W: Purchase from specialized metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the Ni, Si, V, and W powders.",
+        "3. Use a mechanical mixer or ball mill to thoroughly mix the powders for at least 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the Ni, Si, V, and W powders. \n 3. Use a mechanical mixer or ball mill to thoroughly mix the powders for at least 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C (2192°F).",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Transfer the crucible to the furnace and maintain the temperature for 2 hours to allow for sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C (2192°F). \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Transfer the crucible to the furnace and maintain the temperature for 2 hours to allow for sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the sintering process is complete, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process should take approximately 6-8 hours. Ensure that the furnace remains sealed during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After the sintering process is complete, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process should take approximately 6-8 hours. Ensure that the furnace remains sealed during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the surface for imperfections. Use a diamond grinder to smooth any rough edges.",
+        "3. Optionally, apply a sealant to enhance surface protection if required.",
+        "4. Allow any sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the surface for imperfections. Use a diamond grinder to smooth any rough edges. \n 3. Optionally, apply a sealant to enhance surface protection if required. \n 4. Allow any sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1484612.0,
+      "density": 76481.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -912232.0,
+      "formation_energy_per_atom": -516.0,
+      "decomposition_energy_per_atom": 149.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -56.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7f58ea68e6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:02.205470Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4Si4V3W1.json",
+      "material://Ni4Si4V3W1"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "Hg4La2Sm2Sn4",
+  "uri": "material://Hg4La2Sm2Sn4",
+  "composition": {
+    "formula": "Hg4La2Sm2Sn4",
+    "elements": {
+      "Hg": 4,
+      "La": 2,
+      "Sm": 2,
+      "Sn": 4
+    },
+    "reduced_formula": "LaSm(SnHg)2",
+    "element_list": [
+      "Sn",
+      "La",
+      "Sm",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 200 g \n La: 50 g \n Sm: 50 g \n Sn: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Obtain from a chemical supply company (ensure compliance with safety regulations). \n La: Purchase from rare earth suppliers or online chemical vendors. \n Sm: Source from rare earth material suppliers. \n Sn: Available from metal supply stores or online retailers.",
+      "steps": [
+        "Hg: Obtain from a chemical supply company (ensure compliance with safety regulations).",
+        "La: Purchase from rare earth suppliers or online chemical vendors.",
+        "Sm: Source from rare earth material suppliers.",
+        "Sn: Available from metal supply stores or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a fume hood, combine 200 g of Hg, 50 g of La, 50 g of Sm, and 100 g of Sn in a clean, dry crucible.",
+        "3. Mix the powders thoroughly using a non-reactive stirring rod until homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a fume hood, combine 200 g of Hg, 50 g of La, 50 g of Sm, and 100 g of Sn in a clean, dry crucible. \n 3. Mix the powders thoroughly using a non-reactive stirring rod until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Once the temperature is reached, place the crucible in the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Once the temperature is reached, place the crucible in the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample.",
+        "3. Use sandpaper (grit 120 to 400) to smooth the surface of the sample.",
+        "4. Optionally, apply a protective sealant if required for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample. \n 3. Use sandpaper (grit 120 to 400) to smooth the surface of the sample. \n 4. Optionally, apply a protective sealant if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3346493.0,
+      "density": 92082.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -437341.0,
+      "formation_energy_per_atom": -5977.0,
+      "decomposition_energy_per_atom": -199.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -199.0,
+      "decomposition_energy_mp_oqmd": -64.0
+    },
+    "electronic": {
+      "bandgap": 0.0113,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2718528565",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:06.980257Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg4La2Sm2Sn4.json",
+      "material://Hg4La2Sm2Sn4"
+    ]
+  }
+}

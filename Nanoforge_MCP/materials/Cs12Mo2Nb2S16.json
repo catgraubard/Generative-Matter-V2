@@ -1,0 +1,131 @@
+{
+  "id": "Cs12Mo2Nb2S16",
+  "uri": "material://Cs12Mo2Nb2S16",
+  "composition": {
+    "formula": "Cs12Mo2Nb2S16",
+    "elements": {
+      "Cs": 12,
+      "Mo": 2,
+      "Nb": 2,
+      "S": 16
+    },
+    "reduced_formula": "Cs6NbMoS8",
+    "element_list": [
+      "S",
+      "Nb",
+      "Mo",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 10 g \n Nd: 50 g \n Pr: 50 g \n Si: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Hg (Mercury): Obtain from a chemical supplier or laboratory supply store. \n Nd (Neodymium): Purchase from a rare earth metal supplier. \n Pr (Praseodymium): Available from a rare earth metal supplier. \n Si (Silicon): Obtain from a chemical supplier or electronics store.",
+      "steps": [
+        "Hg (Mercury): Obtain from a chemical supplier or laboratory supply store.",
+        "Nd (Neodymium): Purchase from a rare earth metal supplier.",
+        "Pr (Praseodymium): Available from a rare earth metal supplier.",
+        "Si (Silicon): Obtain from a chemical supplier or electronics store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine the measured amounts of Hg, Nd, Pr, and Si.",
+        "3. Stir the mixture thoroughly for at least 5 minutes to ensure even distribution of all elements.",
+        "4. Transfer the mixture into a suitable crucible for heating."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine the measured amounts of Hg, Nd, Pr, and Si. \n 3. Stir the mixture thoroughly for at least 5 minutes to ensure even distribution of all elements. \n 4. Transfer the mixture into a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the crucible containing the mixture into the furnace.",
+        "3. Maintain the temperature for 2 hours to allow for complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the crucible containing the mixture into the furnace. \n 3. Maintain the temperature for 2 hours to allow for complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (around 25 °C).",
+        "2. Do not attempt to remove the crucible until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (around 25 °C). \n 2. Do not attempt to remove the crucible until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully extract the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand the surface using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a suitable coating to protect the alloy."
+      ],
+      "raw_text": "1. Once cooled, carefully extract the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, sand the surface using fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a suitable coating to protect the alloy."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 12017268.0,
+      "density": 34346.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1632436.0,
+      "formation_energy_per_atom": -13882.0,
+      "decomposition_energy_per_atom": -112.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -1125.0,
+      "decomposition_energy_mp_oqmd": -1061.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b0ea9fa8d7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:12.158308Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Mo2Nb2S16.json",
+      "material://Cs12Mo2Nb2S16"
+    ]
+  }
+}

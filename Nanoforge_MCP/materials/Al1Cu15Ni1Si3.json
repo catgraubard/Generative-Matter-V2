@@ -1,0 +1,110 @@
+{
+  "id": "Al1Cu15Ni1Si3",
+  "uri": "material://Al1Cu15Ni1Si3",
+  "composition": {
+    "formula": "Al1Cu15Ni1Si3",
+    "elements": {
+      "Al": 1,
+      "Cu": 15,
+      "Ni": 1,
+      "Si": 3
+    },
+    "reduced_formula": "AlCu15Si3Ni",
+    "element_list": [
+      "Al",
+      "Si",
+      "Ni",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Aluminum (Al):  10.0 g  \n  - Carbon (C):  6.0 g  \n  - Lanthanum (La):  1.0 g  \n  - Praseodymium (Pr):  5.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum: Available from metal supply stores or online retailers.  \n  - Carbon: Obtain from a chemical supply store or as graphite powder.  \n  - Lanthanum: Purchase from specialized metal suppliers or online.  \n  - Praseodymium: Available from rare earth suppliers or chemical supply companies.",
+      "steps": [
+        "- Aluminum: Available from metal supply stores or online retailers.",
+        "- Carbon: Obtain from a chemical supply store or as graphite powder.",
+        "- Lanthanum: Purchase from specialized metal suppliers or online.",
+        "- Praseodymium: Available from rare earth suppliers or chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine the aluminum powder and carbon.",
+        "3. Gradually add lanthanum and praseodymium powders to the mixture while stirring continuously.",
+        "4. Ensure a homogeneous mixture by thoroughly blending the components for at least 10 minutes."
+      ],
+      "raw_text": "1. Measure the specified amounts of each material accurately using a digital scale.  \n  2. In a clean, dry container, combine the aluminum powder and carbon.  \n  3. Gradually add lanthanum and praseodymium powders to the mixture while stirring continuously.  \n  4. Ensure a homogeneous mixture by thoroughly blending the components for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the blended mixture into a high-temperature crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 1200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the blended mixture into a high-temperature crucible.  \n  2. Heat the crucible in a furnace to a temperature of 1200 °C.  \n  3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally.",
+        "2. Do not open the furnace until it has cooled to below 300 °C, which can take approximately 4 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally.  \n  2. Do not open the furnace until it has cooled to below 300 °C, which can take approximately 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use sandpaper to grind down any rough edges and achieve desired dimensions.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible.  \n  2. Use sandpaper to grind down any rough edges and achieve desired dimensions.  \n  3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 241472.0,
+      "density": 77234.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -900069.0,
+      "formation_energy_per_atom": -1359.0,
+      "decomposition_energy_per_atom": -199.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -232.0,
+      "decomposition_energy_mp_oqmd": -213.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ca64c585fd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.964479Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Cu15Ni1Si3.json",
+      "material://Al1Cu15Ni1Si3"
+    ]
+  }
+}

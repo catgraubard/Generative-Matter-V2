@@ -1,0 +1,112 @@
+{
+  "id": "Al1Ga1Se16V8",
+  "uri": "material://Al1Ga1Se16V8",
+  "composition": {
+    "formula": "Al1Ga1Se16V8",
+    "elements": {
+      "Al": 1,
+      "Ga": 1,
+      "Se": 16,
+      "V": 8
+    },
+    "reduced_formula": "AlV8GaSe16",
+    "element_list": [
+      "Al",
+      "V",
+      "Ga",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 10 g, Ga: 10 g, Se: 256 g, V: 32 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Metal supplier or online; Ga: Chemical supplier; Se: Chemical supplier; V: Metal supplier or online",
+      "steps": [
+        "Al: Metal supplier or online; Ga: Chemical supplier; Se: Chemical supplier; V: Metal supplier or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately.",
+        "2. In a clean environment, combine Al and Ga in a glass container, stirring well.",
+        "3. Gradually add Se while continuing to mix to ensure uniformity.",
+        "4. Finally, add V and mix thoroughly until all components are homogeneously blended."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately. \n 2. In a clean environment, combine Al and Ga in a glass container, stirring well. \n 3. Gradually add Se while continuing to mix to ensure uniformity. \n 4. Finally, add V and mix thoroughly until all components are homogeneously blended."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixture in a ceramic crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Place the mixture in a ceramic crucible. \n 2. Heat in a furnace at 800°C for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not remove the crucible until fully cooled to avoid cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not remove the crucible until fully cooled to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. Use sandpaper to smooth out any rough edges on the sample.",
+        "3. Optionally, seal with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible. \n 2. Use sandpaper to smooth out any rough edges on the sample. \n 3. Optionally, seal with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 5381588.0,
+      "density": 54541.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4m2",
+      "space_group_number": 115,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1624554.0,
+      "formation_energy_per_atom": -10414.0,
+      "decomposition_energy_per_atom": -159.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -159.0,
+      "decomposition_energy_mp_oqmd": -132.0
+    },
+    "electronic": {
+      "bandgap": 0.0058,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6c8d541fe3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:37.683203Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Ga1Se16V8.json",
+      "material://Al1Ga1Se16V8"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "La1Li4Nd1Si6Tm2",
+  "uri": "material://La1Li4Nd1Si6Tm2",
+  "composition": {
+    "formula": "La1Li4Nd1Si6Tm2",
+    "elements": {
+      "La": 1,
+      "Li": 4,
+      "Nd": 1,
+      "Si": 6,
+      "Tm": 2
+    },
+    "reduced_formula": "Li4LaNd(TmSi3)2",
+    "element_list": [
+      "Li",
+      "Si",
+      "La",
+      "Nd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 5.00 g \n Li: 20.00 g \n Nd: 5.00 g \n Si: 30.00 g \n Tm: 10.00 g"
+    },
+    "sourcing": {
+      "instructions": "La: Available from chemical suppliers like Sigma-Aldrich or Alfa Aesar. \n Li: Obtain from battery materials suppliers or online chemical vendors. \n Nd: Sourced from rare earth material suppliers. \n Si: Purchase from silicon suppliers or electronics component stores. \n Tm: Can be found through specialized rare earth suppliers.",
+      "steps": [
+        "La: Available from chemical suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Li: Obtain from battery materials suppliers or online chemical vendors.",
+        "Nd: Sourced from rare earth material suppliers.",
+        "Si: Purchase from silicon suppliers or electronics component stores.",
+        "Tm: Can be found through specialized rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 5.00 g of La, 20.00 g of Li, 5.00 g of Nd, 30.00 g of Si, and 10.00 g of Tm using an analytical scale.",
+        "2. Combine the weighed powders in a clean, dry glass beaker.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixed powders to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh out 5.00 g of La, 20.00 g of Li, 5.00 g of Nd, 30.00 g of Si, and 10.00 g of Tm using an analytical scale. \n 2. Combine the weighed powders in a clean, dry glass beaker. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixed powders to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "steps": [
+        "1. Place the ceramic crucible in a muffle furnace.",
+        "2. Set the furnace temperature to 1200°C.",
+        "3. Heat the mixture for 6 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the ceramic crucible in a muffle furnace. \n 2. Set the furnace temperature to 1200°C. \n 3. Heat the mixture for 6 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the muffle furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace with appropriate safety equipment."
+      ],
+      "raw_text": "1. Turn off the muffle furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace with appropriate safety equipment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Take the solidified sample out of the crucible.",
+        "2. Use a diamond saw or a high-precision cutter to trim the sample to the dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with progressively finer grit sandpaper (from 120 to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable clear resin for enhanced durability."
+      ],
+      "raw_text": "1. Take the solidified sample out of the crucible. \n 2. Use a diamond saw or a high-precision cutter to trim the sample to the dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with progressively finer grit sandpaper (from 120 to 600 grit) to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable clear resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 268359.0,
+      "density": 50572.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -669214.0,
+      "formation_energy_per_atom": -577.0,
+      "decomposition_energy_per_atom": -61.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -68.0,
+      "decomposition_energy_mp_oqmd": -43.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8ef830eb8b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:23.818250Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Li4Nd1Si6Tm2.json",
+      "material://La1Li4Nd1Si6Tm2"
+    ]
+  }
+}

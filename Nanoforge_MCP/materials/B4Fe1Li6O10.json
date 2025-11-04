@@ -1,0 +1,128 @@
+{
+  "id": "B4Fe1Li6O10",
+  "uri": "material://B4Fe1Li6O10",
+  "composition": {
+    "formula": "B4Fe1Li6O10",
+    "elements": {
+      "B": 4,
+      "Fe": 1,
+      "Li": 6,
+      "O": 10
+    },
+    "reduced_formula": "Li6Fe(B2O5)2",
+    "element_list": [
+      "Li",
+      "B",
+      "O",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 20 g \n Fe: 10 g \n Li: 30 g \n O: 40 g (as Li2O)"
+    },
+    "sourcing": {
+      "instructions": "B4 can be sourced from a chemical supplier or online store. \n Fe powder is available from metal suppliers or online. \n Li can be obtained from lithium carbonate, available from chemical suppliers. \n Oxygen can be sourced through lithium oxide or can be calculated based on stoichiometry.",
+      "steps": [
+        "B4 can be sourced from a chemical supplier or online store.",
+        "Fe powder is available from metal suppliers or online.",
+        "Li can be obtained from lithium carbonate, available from chemical suppliers.",
+        "Oxygen can be sourced through lithium oxide or can be calculated based on stoichiometry."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 20 g of B4 using a precision scale.",
+        "2. Weigh out 10 g of iron powder.",
+        "3. Measure 30 g of lithium carbonate.",
+        "4. Combine B4, Fe, and Li in a clean, dry mixing container.",
+        "5. Mix thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure 20 g of B4 using a precision scale. \n 2. Weigh out 10 g of iron powder. \n 3. Measure 30 g of lithium carbonate. \n 4. Combine B4, Fe, and Li in a clean, dry mixing container. \n 5. Mix thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the mixed powder into a crucible.",
+        "3. Heat the sample at 800°C for 2 hours to facilitate the reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the mixed powder into a crucible. \n 3. Heat the sample at 800°C for 2 hours to facilitate the reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid piece from the crucible.",
+        "2. Use sandpaper to smooth the edges and surfaces if necessary.",
+        "3. Optionally, seal the sample with a clear epoxy to enhance durability.",
+        "4. Allow the epoxy to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid piece from the crucible. \n 2. Use sandpaper to smooth the edges and surfaces if necessary. \n 3. Optionally, seal the sample with a clear epoxy to enhance durability. \n 4. Allow the epoxy to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2057943.0,
+      "density": 24266.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1502179.0,
+      "formation_energy_per_atom": -25761.0,
+      "decomposition_energy_per_atom": -23.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -122.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": 3.9114,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "98566f113f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.232629Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Fe1Li6O10.json",
+      "material://B4Fe1Li6O10"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Ca2Cu14Ga12",
+  "uri": "material://Ca2Cu14Ga12",
+  "composition": {
+    "formula": "Ca2Cu14Ga12",
+    "elements": {
+      "Ca": 2,
+      "Cu": 14,
+      "Ga": 12
+    },
+    "reduced_formula": "CaGa6Cu7",
+    "element_list": [
+      "Ca",
+      "Cu",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Calcium (Ca): 2.5 g  \n - Copper (Cu): 14 g  \n - Gallium (Ga): 12 g  \n - Flux (such as Bismuth or Boron): 5 g  \n - Inert gas (Argon) for atmosphere: as needed"
+    },
+    "sourcing": {
+      "instructions": "- Calcium: Purchase from a chemical supply store or online supplier. \n - Copper: Available at hardware stores or online. \n - Gallium: Specialty metal suppliers or online. \n - Flux: Buy from metalworking suppliers. \n - Inert gas: Obtain from gas supply companies.",
+      "steps": [
+        "- Calcium: Purchase from a chemical supply store or online supplier.",
+        "- Copper: Available at hardware stores or online.",
+        "- Gallium: Specialty metal suppliers or online.",
+        "- Flux: Buy from metalworking suppliers.",
+        "- Inert gas: Obtain from gas supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Place calcium, copper, and gallium into a clean, dry mixing container.",
+        "3. Add the flux to the mixture.",
+        "4. Mix thoroughly using a spatula or mechanical mixer until the components are homogeneously blended."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Place calcium, copper, and gallium into a clean, dry mixing container. \n 3. Add the flux to the mixture. \n 4. Mix thoroughly using a spatula or mechanical mixer until the components are homogeneously blended."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 900°C.",
+        "2. Transfer the mixed material into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C. \n 2. Transfer the mixed material into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) naturally within the furnace (approximately 6-8 hours).",
+        "2. Avoid rapid cooling to prevent stress fractures in the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) naturally within the furnace (approximately 6-8 hours). \n 2. Avoid rapid cooling to prevent stress fractures in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Use a diamond saw to trim the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand any rough edges with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating if required for use."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Use a diamond saw to trim the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand any rough edges with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a protective coating if required for use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4199078.0,
+      "density": 71438.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ibam",
+      "space_group_number": 72,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1040564.0,
+      "formation_energy_per_atom": -2257.0,
+      "decomposition_energy_per_atom": -278.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -63.0,
+      "decomposition_energy_mp": -278.0,
+      "decomposition_energy_mp_oqmd": -211.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7f9e37f03d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:02.602598Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Cu14Ga12.json",
+      "material://Ca2Cu14Ga12"
+    ]
+  }
+}

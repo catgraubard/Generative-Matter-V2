@@ -1,0 +1,113 @@
+{
+  "id": "La1O12Pr5Te1",
+  "uri": "material://La1O12Pr5Te1",
+  "composition": {
+    "formula": "La1O12Pr5Te1",
+    "elements": {
+      "La": 1,
+      "O": 12,
+      "Pr": 5,
+      "Te": 1
+    },
+    "reduced_formula": "LaPr5TeO12",
+    "element_list": [
+      "O",
+      "Te",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La2O3: 110 g (Lanthanum Oxide) \n - Pr6O11: 50 g (Praseodymium Oxide) \n - Te: 10 g (Tellurium) \n - SiO2: 30 g (Silicon Dioxide, for structural integrity) \n - B2O3: 20 g (Boric Oxide, for binding)"
+    },
+    "sourcing": {
+      "instructions": "- La2O3: Specialty chemical suppliers or online chemical retailers. \n - Pr6O11: Specialty chemical suppliers or online chemical retailers. \n - Te: Metal suppliers or online chemical retailers. \n - SiO2: Local hardware stores or chemical suppliers. \n - B2O3: Online chemical retailers or specialty glass suppliers.",
+      "steps": [
+        "- La2O3: Specialty chemical suppliers or online chemical retailers.",
+        "- Pr6O11: Specialty chemical suppliers or online chemical retailers.",
+        "- Te: Metal suppliers or online chemical retailers.",
+        "- SiO2: Local hardware stores or chemical suppliers.",
+        "- B2O3: Online chemical retailers or specialty glass suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material using a precise digital scale.",
+        "2. In a clean, dry mixing container, add La2O3, Pr6O11, Te, SiO2, and B2O3 in the specified amounts.",
+        "3. Mix the powders thoroughly using a ceramic mortar and pestle or a mechanical mixer for at least 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powder to a suitable container for heating."
+      ],
+      "raw_text": "1. Measure each material using a precise digital scale. \n 2. In a clean, dry mixing container, add La2O3, Pr6O11, Te, SiO2, and B2O3 in the specified amounts. \n 3. Mix the powders thoroughly using a ceramic mortar and pestle or a mechanical mixer for at least 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powder to a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to a temperature of 1200°C.",
+        "2. Place the container with the mixed powder in the furnace.",
+        "3. Heat for 4 hours to ensure full reaction and sintering of the materials.",
+        "4. After 4 hours, turn off the furnace but do not open it immediately; allow the sample to remain inside for an additional 2 hours to slowly cool down."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to a temperature of 1200°C. \n 2. Place the container with the mixed powder in the furnace. \n 3. Heat for 4 hours to ensure full reaction and sintering of the materials. \n 4. After 4 hours, turn off the furnace but do not open it immediately; allow the sample to remain inside for an additional 2 hours to slowly cool down."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours of cooling in the furnace, carefully remove the container with protective gloves.",
+        "2. Allow the sample to cool to room temperature in a safe, ventilated area, which should take about 1-2 hours."
+      ],
+      "raw_text": "1. After 2 hours of cooling in the furnace, carefully remove the container with protective gloves. \n 2. Allow the sample to cool to room temperature in a safe, ventilated area, which should take about 1-2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, inspect the solid sample for cracks or imperfections.",
+        "2. If needed, use a diamond grinding wheel to sand down any rough edges, achieving a smooth finish.",
+        "3. Optionally, seal the surface with a clear epoxy resin to enhance durability and appearance.",
+        "4. Allow the epoxy to cure according to the manufacturer’s instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, inspect the solid sample for cracks or imperfections. \n 2. If needed, use a diamond grinding wheel to sand down any rough edges, achieving a smooth finish. \n 3. Optionally, seal the surface with a clear epoxy resin to enhance durability and appearance. \n 4. Allow the epoxy to cure according to the manufacturer’s instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 3048802.0,
+      "density": 63345.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1558734.0,
+      "formation_energy_per_atom": -33955.0,
+      "decomposition_energy_per_atom": -227.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -234.0,
+      "decomposition_energy_mp_oqmd": -234.0
+    },
+    "electronic": {
+      "bandgap": 2.5105,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "44e2ecd025",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:46.125585Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1O12Pr5Te1.json",
+      "material://La1O12Pr5Te1"
+    ]
+  }
+}

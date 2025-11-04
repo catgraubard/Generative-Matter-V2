@@ -1,0 +1,117 @@
+{
+  "id": "Cr4Cs11Li1O16",
+  "uri": "material://Cr4Cs11Li1O16",
+  "composition": {
+    "formula": "Cr4Cs11Li1O16",
+    "elements": {
+      "Cr": 4,
+      "Cs": 11,
+      "Li": 1,
+      "O": 16
+    },
+    "reduced_formula": "Cs11LiCr4O16",
+    "element_list": [
+      "Li",
+      "O",
+      "Cr",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30 g, Ni: 180 g, Pr: 10 g, Tm: 10 g, Zn: 60 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical suppliers; Ni: Nickel powder from metal supply stores; Pr: Praseodymium oxide from specialty chemical suppliers; Tm: Thulium oxide from rare earth suppliers; Zn: Zinc powder from metal supply stores.",
+      "steps": [
+        "B: Boron powder from chemical suppliers; Ni: Nickel powder from metal supply stores; Pr: Praseodymium oxide from specialty chemical suppliers; Tm: Thulium oxide from rare earth suppliers; Zn: Zinc powder from metal supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 30 g of Boron powder.",
+        "2. Measure out 180 g of Nickel powder.",
+        "3. Measure out 10 g of Praseodymium oxide.",
+        "4. Measure out 10 g of Thulium oxide.",
+        "5. Measure out 60 g of Zinc powder.",
+        "6. In a clean, dry mixing container, combine all measured powders thoroughly using a spatula or mechanical mixer for 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Measure out 30 g of Boron powder. \n 2. Measure out 180 g of Nickel powder. \n 3. Measure out 10 g of Praseodymium oxide. \n 4. Measure out 10 g of Thulium oxide. \n 5. Measure out 60 g of Zinc powder. \n 6. In a clean, dry mixing container, combine all measured powders thoroughly using a spatula or mechanical mixer for 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 800°C at a rate of 10°C per minute.",
+        "4. Maintain the temperature at 800°C for 2 hours to ensure complete reaction and solidification of the material."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 800°C at a rate of 10°C per minute. \n 4. Maintain the temperature at 800°C for 2 hours to ensure complete reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid opening the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid opening the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability and protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 7219308.0,
+      "density": 44459.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42m",
+      "space_group_number": 121,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1923633.0,
+      "formation_energy_per_atom": -19633.0,
+      "decomposition_energy_per_atom": -312.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -86.0,
+      "decomposition_energy_mp": -317.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": 1.0862,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c2d948b3e8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.994955Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr4Cs11Li1O16.json",
+      "material://Cr4Cs11Li1O16"
+    ]
+  }
+}

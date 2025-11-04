@@ -1,0 +1,111 @@
+{
+  "id": "Ga1Sb3Si2Ti10",
+  "uri": "material://Ga1Sb3Si2Ti10",
+  "composition": {
+    "formula": "Ga1Sb3Si2Ti10",
+    "elements": {
+      "Ga": 1,
+      "Sb": 3,
+      "Si": 2,
+      "Ti": 10
+    },
+    "reduced_formula": "Ti10GaSi2Sb3",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Ga",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Europium (Eu): 9.0 g  \n - Selenium (Se): 10.0 g \n - Yttrium (Y): 1.0 g \n - High-purity argon gas: sufficient for an inert atmosphere"
+    },
+    "sourcing": {
+      "instructions": "- Europium: Obtain from a chemical supplier or rare earth metal distributor. \n - Selenium: Can be sourced from chemical supply companies. \n - Yttrium: Available through specialty metal suppliers.",
+      "steps": [
+        "- Europium: Obtain from a chemical supplier or rare earth metal distributor.",
+        "- Selenium: Can be sourced from chemical supply companies.",
+        "- Yttrium: Available through specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 9.0 g of Europium, 10.0 g of Selenium, and 1.0 g of Yttrium using a precision balance.",
+        "2. Combine the weighed materials in a clean, dry ceramic or glass container.",
+        "3. Use an inert atmosphere glovebox or purged container to prevent oxidation.",
+        "4. Mix thoroughly with a spatula or glass rod until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 9.0 g of Europium, 10.0 g of Selenium, and 1.0 g of Yttrium using a precision balance. \n 2. Combine the weighed materials in a clean, dry ceramic or glass container. \n 3. Use an inert atmosphere glovebox or purged container to prevent oxidation. \n 4. Mix thoroughly with a spatula or glass rod until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a high-purity crucible suitable for the materials.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1000 °C at a rate of 10 °C/min.",
+        "4. Maintain this temperature for 4 hours to assure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-purity crucible suitable for the materials. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1000 °C at a rate of 10 °C/min. \n 4. Maintain this temperature for 4 hours to assure complete reaction and solidification."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down gradually to room temperature.",
+        "2. Ensure that the cooling rate does not exceed 5 °C/min to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down gradually to room temperature. \n 2. Ensure that the cooling rate does not exceed 5 °C/min to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Inspect the solid sample for any imperfections or cracks.",
+        "3. If necessary, sand the edges with fine sandpaper to achieve the desired finish.",
+        "4. Optionally, seal the surface with a clear protective coating to enhance durability and prevent degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Inspect the solid sample for any imperfections or cracks. \n 3. If necessary, sand the edges with fine sandpaper to achieve the desired finish. \n 4. Optionally, seal the surface with a clear protective coating to enhance durability and prevent degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2732992.0,
+      "density": 58927.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1156612.0,
+      "formation_energy_per_atom": -6525.0,
+      "decomposition_energy_per_atom": -39.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -106.0,
+      "decomposition_energy_mp_oqmd": -106.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c03f4c52ff",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.161684Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga1Sb3Si2Ti10.json",
+      "material://Ga1Sb3Si2Ti10"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "Nb6Se12Sr2",
+  "uri": "material://Nb6Se12Sr2",
+  "composition": {
+    "formula": "Nb6Se12Sr2",
+    "elements": {
+      "Nb": 6,
+      "Se": 12,
+      "Sr": 2
+    },
+    "reduced_formula": "Sr(NbSe2)3",
+    "element_list": [
+      "Se",
+      "Sr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Niobium (Nb): 60.00 g  \n  - Selenium (Se): 120.00 g  \n  - Strontium (Sr): 30.00 g  \n  - Argon gas (for inert atmosphere during heating): 1 cylinder (approx. 5.0 kg)"
+    },
+    "sourcing": {
+      "instructions": "- Niobium: Purchase from a specialized metal supplier or online chemical supply store. \n - Selenium: Obtain from chemical supply companies or online retailers that specialize in elemental chemicals. \n - Strontium: Available from chemical suppliers or online marketplaces that sell rare earth elements.",
+      "steps": [
+        "- Niobium: Purchase from a specialized metal supplier or online chemical supply store.",
+        "- Selenium: Obtain from chemical supply companies or online retailers that specialize in elemental chemicals.",
+        "- Strontium: Available from chemical suppliers or online marketplaces that sell rare earth elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 60.00 g of niobium, 120.00 g of selenium, and 30.00 g of strontium using an analytical balance.",
+        "2. In a glove box or under an inert atmosphere, combine the niobium, selenium, and strontium in a clean, dry ceramic or quartz crucible.",
+        "3. Mix the powders thoroughly using a pestle and mortar until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 60.00 g of niobium, 120.00 g of selenium, and 30.00 g of strontium using an analytical balance. \n 2. In a glove box or under an inert atmosphere, combine the niobium, selenium, and strontium in a clean, dry ceramic or quartz crucible. \n 3. Mix the powders thoroughly using a pestle and mortar until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a tube furnace.",
+        "2. Set the furnace temperature to 900°C.",
+        "3. Heat the mixture for 4 hours under an argon atmosphere to facilitate the formation of the desired compound Nb6Se12Sr2. Keep the heating rate gradual, increasing by 5°C/min until 900°C is reached."
+      ],
+      "raw_text": "1. Place the crucible in a tube furnace. \n 2. Set the furnace temperature to 900°C. \n 3. Heat the mixture for 4 hours under an argon atmosphere to facilitate the formation of the desired compound Nb6Se12Sr2. Keep the heating rate gradual, increasing by 5°C/min until 900°C is reached."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, allow the furnace to cool down naturally to room temperature (approximately 25°C).",
+        "2. Ensure the argon flow is maintained during cooling to prevent oxidation or contamination of the sample. This process may take around 6 to 8 hours."
+      ],
+      "raw_text": "1. After the heating duration is complete, allow the furnace to cool down naturally to room temperature (approximately 25°C). \n 2. Ensure the argon flow is maintained during cooling to prevent oxidation or contamination of the sample. This process may take around 6 to 8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully break the crucible to retrieve the solid sample.",
+        "3. Grind the solid sample in a mortar and pestle to achieve a fine powder if further processing is required.",
+        "4. If a solid piece is desired, mold the sample into the desired shape and allow it to set."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully break the crucible to retrieve the solid sample. \n 3. Grind the solid sample in a mortar and pestle to achieve a fine powder if further processing is required. \n 4. If a solid piece is desired, mold the sample into the desired shape and allow it to set."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5117966.0,
+      "density": 54515.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mcm",
+      "space_group_number": 193,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1344453.0,
+      "formation_energy_per_atom": -14254.0,
+      "decomposition_energy_per_atom": -486.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -256.0,
+      "decomposition_energy_mp": -486.0,
+      "decomposition_energy_mp_oqmd": -451.0
+    },
+    "electronic": {
+      "bandgap": 0.0143,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "71ccb7ca33",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:44.385783Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb6Se12Sr2.json",
+      "material://Nb6Se12Sr2"
+    ]
+  }
+}

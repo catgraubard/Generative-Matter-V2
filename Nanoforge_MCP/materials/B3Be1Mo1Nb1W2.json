@@ -1,0 +1,117 @@
+{
+  "id": "B3Be1Mo1Nb1W2",
+  "uri": "material://B3Be1Mo1Nb1W2",
+  "composition": {
+    "formula": "B3Be1Mo1Nb1W2",
+    "elements": {
+      "B": 3,
+      "Be": 1,
+      "Mo": 1,
+      "Nb": 1,
+      "W": 2
+    },
+    "reduced_formula": "BeNbB3MoW2",
+    "element_list": [
+      "Be",
+      "B",
+      "Nb",
+      "Mo",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 90.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 90 g, Be: 15 g, Mo: 10 g, Nb: 10 g, W: 180 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical suppliers; Be: Beryllium powder from specialized metallurgical suppliers; Mo: Molybdenum powder from industrial suppliers; Nb: Niobium powder from metal suppliers; W: Tungsten powder from high-purity metal suppliers.",
+      "steps": [
+        "B: Boron powder from chemical suppliers; Be: Beryllium powder from specialized metallurgical suppliers; Mo: Molybdenum powder from industrial suppliers; Nb: Niobium powder from metal suppliers; W: Tungsten powder from high-purity metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an analytical balance for accuracy.",
+        "2. In a clean, dry mixing bowl, combine 90 g of B, 15 g of Be, 10 g of Mo, 10 g of Nb, and 180 g of W.",
+        "3. Mix thoroughly using a ceramic or stainless steel spatula for at least 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powder to a high-purity ceramic crucible."
+      ],
+      "raw_text": "1. Measure each ingredient using an analytical balance for accuracy. \n 2. In a clean, dry mixing bowl, combine 90 g of B, 15 g of Be, 10 g of Mo, 10 g of Nb, and 180 g of W. \n 3. Mix thoroughly using a ceramic or stainless steel spatula for at least 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powder to a high-purity ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200 °C.",
+        "2. Place the crucible inside the furnace and maintain a vacuum (less than 0.1 torr).",
+        "3. Heat the mixture for 2 hours, ramping up to 1200 °C at a rate of 5 °C/min."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200 °C. \n 2. Place the crucible inside the furnace and maintain a vacuum (less than 0.1 torr). \n 3. Heat the mixture for 2 hours, ramping up to 1200 °C at a rate of 5 °C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the furnace to cool down naturally to room temperature (approximately 6-8 hours) while maintaining the vacuum.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, allow the furnace to cool down naturally to room temperature (approximately 6-8 hours) while maintaining the vacuum. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Extract the solid sample from the crucible.",
+        "2. Use a diamond saw to cut to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Polish the surface using progressively finer grits of sandpaper (starting from 120 grit to 2000 grit) for a smooth finish.",
+        "4. Optionally, apply a protective sealant to prevent oxidation if necessary."
+      ],
+      "raw_text": "1. Extract the solid sample from the crucible. \n 2. Use a diamond saw to cut to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Polish the surface using progressively finer grits of sandpaper (starting from 120 grit to 2000 grit) for a smooth finish. \n 4. Optionally, apply a protective sealant to prevent oxidation if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 877058.0,
+      "density": 113214.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -746586.0,
+      "formation_energy_per_atom": -5022.0,
+      "decomposition_energy_per_atom": -273.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -272.0,
+      "decomposition_energy_mp_oqmd": -256.0
+    },
+    "electronic": {
+      "bandgap": 0.0069,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "87d8f6cd2e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:13.870701Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B3Be1Mo1Nb1W2.json",
+      "material://B3Be1Mo1Nb1W2"
+    ]
+  }
+}

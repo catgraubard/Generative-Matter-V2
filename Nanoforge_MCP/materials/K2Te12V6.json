@@ -1,0 +1,117 @@
+{
+  "id": "K2Te12V6",
+  "uri": "material://K2Te12V6",
+  "composition": {
+    "formula": "K2Te12V6",
+    "elements": {
+      "K": 2,
+      "Te": 12,
+      "V": 6
+    },
+    "reduced_formula": "K(VTe2)3",
+    "element_list": [
+      "K",
+      "V",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Te",
+          "amount": 23.04,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 6.04,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K2: 1.12 g\nTe: 23.04 g\nV: 6.04 g"
+    },
+    "sourcing": {
+      "instructions": "K2 (Potassium): Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)\nTe (Tellurium): Metal supply or online chemical distributors\nV (Vanadium): Metal supply or online chemical distributors",
+      "steps": [
+        "K2 (Potassium): Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Te (Tellurium): Metal supply or online chemical distributors",
+        "V (Vanadium): Metal supply or online chemical distributors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients using a precision balance.",
+        "2. In a clean glass or ceramic container, add 1.12 g of K2.",
+        "3. Gradually add 23.04 g of Te while stirring with a non-reactive spatula.",
+        "4. Slowly mix in 6.04 g of V until a homogeneous mixture is formed."
+      ],
+      "raw_text": "1. Weigh the ingredients using a precision balance.\n2. In a clean glass or ceramic container, add 1.12 g of K2.\n3. Gradually add 23.04 g of Te while stirring with a non-reactive spatula.\n4. Slowly mix in 6.04 g of V until a homogeneous mixture is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature crucible.",
+        "2. Heat the crucible in a furnace at 800°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature crucible.\n2. Heat the crucible in a furnace at 800°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to room temperature (approximately 3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to room temperature (approximately 3 hours).\n2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges; if necessary, use a diamond file to smooth the edges.",
+        "3. If required, seal the sample with a clear epoxy to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Inspect for any rough edges; if necessary, use a diamond file to smooth the edges.\n3. If required, seal the sample with a clear epoxy to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 6347979.0,
+      "density": 50095.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mcm",
+      "space_group_number": 193,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -108561.0,
+      "formation_energy_per_atom": -7059.0,
+      "decomposition_energy_per_atom": -148.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -136.0,
+      "decomposition_energy_mp_oqmd": -134.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "655dc1edd8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.384435Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K2Te12V6.json",
+      "material://K2Te12V6"
+    ]
+  }
+}

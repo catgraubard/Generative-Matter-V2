@@ -1,0 +1,112 @@
+{
+  "id": "Fe1Te2Tm5Zr1",
+  "uri": "material://Fe1Te2Tm5Zr1",
+  "composition": {
+    "formula": "Fe1Te2Tm5Zr1",
+    "elements": {
+      "Fe": 1,
+      "Te": 2,
+      "Tm": 5,
+      "Zr": 1
+    },
+    "reduced_formula": "Tm5ZrFeTe2",
+    "element_list": [
+      "Fe",
+      "Zr",
+      "Te",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Lithium Carbonate (Li2CO3): 16.0 g\n- Manganese Dioxide (MnO2): 40.0 g\n- Nickel Oxide (NiO): 64.0 g\n- Phosphoric Acid (H3PO4): 12.0 g\n- Distilled Water: 100.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Lithium Carbonate: Chemical supply stores or online chemical suppliers.\n- Manganese Dioxide: Specialized mineral suppliers or online marketplaces.\n- Nickel Oxide: Chemical suppliers or online sources.\n- Phosphoric Acid: Chemical suppliers or laboratory supply companies.\n- Distilled Water: Grocery stores or pharmacies.",
+      "steps": [
+        "- Lithium Carbonate: Chemical supply stores or online chemical suppliers.",
+        "- Manganese Dioxide: Specialized mineral suppliers or online marketplaces.",
+        "- Nickel Oxide: Chemical suppliers or online sources.",
+        "- Phosphoric Acid: Chemical suppliers or laboratory supply companies.",
+        "- Distilled Water: Grocery stores or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 16.0 g of Lithium Carbonate, 40.0 g of Manganese Dioxide, and 64.0 g of Nickel Oxide using a precision scale.",
+        "2. In a clean glass container, mix the dry powders thoroughly using a spatula to ensure uniform distribution.",
+        "3. In a separate container, dilute 12.0 g of Phosphoric Acid in 100.0 g of Distilled Water to form a solution.",
+        "4. Gradually add the acid solution to the dry powder mixture while continuously stirring to form a slurry. Ensure no lumps remain."
+      ],
+      "raw_text": "1. Weigh out 16.0 g of Lithium Carbonate, 40.0 g of Manganese Dioxide, and 64.0 g of Nickel Oxide using a precision scale.\n2. In a clean glass container, mix the dry powders thoroughly using a spatula to ensure uniform distribution.\n3. In a separate container, dilute 12.0 g of Phosphoric Acid in 100.0 g of Distilled Water to form a solution.\n4. Gradually add the acid solution to the dry powder mixture while continuously stirring to form a slurry. Ensure no lumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 600°C at a rate of 10°C/min and hold at 600°C for 6 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible.\n2. Place the crucible in a muffle furnace.\n3. Heat the mixture to 600°C at a rate of 10°C/min and hold at 600°C for 6 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).\n2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample to achieve a finer powder using a mortar and pestle or a ball mill.",
+        "3. For final finishing, you may seal the material with a suitable epoxy resin to enhance stability and durability. Allow it to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. If necessary, grind the sample to achieve a finer powder using a mortar and pestle or a ball mill.\n3. For final finishing, you may seal the material with a suitable epoxy resin to enhance stability and durability. Allow it to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2241981.0,
+      "density": 92356.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -520174.0,
+      "formation_energy_per_atom": -7038.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -75.0,
+      "decomposition_energy_mp": -305.0,
+      "decomposition_energy_mp_oqmd": -123.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ce552fb847",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.857776Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Te2Tm5Zr1.json",
+      "material://Fe1Te2Tm5Zr1"
+    ]
+  }
+}

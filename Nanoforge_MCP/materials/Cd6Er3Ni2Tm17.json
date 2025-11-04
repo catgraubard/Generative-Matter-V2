@@ -1,0 +1,133 @@
+{
+  "id": "Cd6Er3Ni2Tm17",
+  "uri": "material://Cd6Er3Ni2Tm17",
+  "composition": {
+    "formula": "Cd6Er3Ni2Tm17",
+    "elements": {
+      "Cd": 6,
+      "Er": 3,
+      "Ni": 2,
+      "Tm": 17
+    },
+    "reduced_formula": "Er3Tm17(Cd3Ni)2",
+    "element_list": [
+      "Ni",
+      "Cd",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 10.00 g \n Na: 5.00 g \n Pr: 20.00 g \n Se: 32.00 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum): Available from chemical suppliers or online vendors (e.g., Sigma-Aldrich). \n Na (Sodium): Purchase from chemical supply stores or online. \n Pr (Praseodymium): Obtain from specialty chemical suppliers. \n Se (Selenium): Available from online chemical suppliers.",
+      "steps": [
+        "La (Lanthanum): Available from chemical suppliers or online vendors (e.g., Sigma-Aldrich).",
+        "Na (Sodium): Purchase from chemical supply stores or online.",
+        "Pr (Praseodymium): Obtain from specialty chemical suppliers.",
+        "Se (Selenium): Available from online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10.00 g of La, 5.00 g of Na, 20.00 g of Pr, and 32.00 g of Se using an analytical balance.",
+        "2. In a clean, dry glass beaker, combine La, Na, Pr, and Se.",
+        "3. Stir the mixture using a glass rod until homogenous, ensuring no clumps remain."
+      ],
+      "raw_text": "1. Weigh 10.00 g of La, 5.00 g of Na, 20.00 g of Pr, and 32.00 g of Se using an analytical balance. \n 2. In a clean, dry glass beaker, combine La, Na, Pr, and Se. \n 3. Stir the mixture using a glass rod until homogenous, ensuring no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete melting and reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete melting and reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, sand down rough edges with 400-grit sandpaper until smooth.",
+        "4. Optionally, seal the sample with a clear resin for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, sand down rough edges with 400-grit sandpaper until smooth. \n 4. Optionally, seal the sample with a clear resin for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7490535.0,
+      "density": 92343.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1136915.0,
+      "formation_energy_per_atom": -2429.0,
+      "decomposition_energy_per_atom": -183.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -183.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aacb2efcaf",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.094994Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd6Er3Ni2Tm17.json",
+      "material://Cd6Er3Ni2Tm17"
+    ]
+  }
+}

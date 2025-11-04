@@ -1,0 +1,107 @@
+{
+  "id": "Ni8O16Rb4",
+  "uri": "material://Ni8O16Rb4",
+  "composition": {
+    "formula": "Ni8O16Rb4",
+    "elements": {
+      "Ni": 8,
+      "O": 16,
+      "Rb": 4
+    },
+    "reduced_formula": "Rb(NiO2)2",
+    "element_list": [
+      "O",
+      "Ni",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cs (Cesium): 1.53 g \n Rb (Rubidium): 11.21 g \n Se (Selenium): 31.25 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Available from chemical suppliers such as Sigma-Aldrich or Alfa Aesar. \n Rb: Obtain from suppliers like Sigma-Aldrich or Alfa Aesar. \n Se: Purchase from chemical suppliers like Sigma-Aldrich.",
+      "steps": [
+        "Cs: Available from chemical suppliers such as Sigma-Aldrich or Alfa Aesar.",
+        "Rb: Obtain from suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Se: Purchase from chemical suppliers like Sigma-Aldrich."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 1.53 g of Cs, 11.21 g of Rb, and 31.25 g of Se using an analytical balance.",
+        "2. Transfer the measured amounts into a clean, dry ceramic crucible.",
+        "3. Mix the components thoroughly using a clean spatula until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Measure 1.53 g of Cs, 11.21 g of Rb, and 31.25 g of Se using an analytical balance. \n 2. Transfer the measured amounts into a clean, dry ceramic crucible. \n 3. Mix the components thoroughly using a clean spatula until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 600 °C at a rate of 10 °C per minute.",
+        "3. Maintain this temperature for 4 hours to allow for complete reaction and formation of Cs1Rb7Se20."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 600 °C at a rate of 10 °C per minute. \n 3. Maintain this temperature for 4 hours to allow for complete reaction and formation of Cs1Rb7Se20."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This should take around 8-10 hours to ensure no thermal shock occurs."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. This should take around 8-10 hours to ensure no thermal shock occurs."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully, avoiding breakage.",
+        "2. Grind the solid sample using a mortar and pestle to achieve desired particle size.",
+        "3. Optionally, cure the sample in a vacuum oven at 100 °C for 2 hours to remove any residual moisture.",
+        "4. Seal the final product in an airtight container to maintain quality."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully, avoiding breakage. \n 2. Grind the solid sample using a mortar and pestle to achieve desired particle size. \n 3. Optionally, cure the sample in a vacuum oven at 100 °C for 2 hours to remove any residual moisture. \n 4. Seal the final product in an airtight container to maintain quality."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3773561.0,
+      "density": 46971.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1607232.0,
+      "formation_energy_per_atom": -11212.0,
+      "decomposition_energy_per_atom": -81.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -83.0,
+      "decomposition_energy_mp": -84.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": 0.5037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c53966fadd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.550570Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni8O16Rb4.json",
+      "material://Ni8O16Rb4"
+    ]
+  }
+}

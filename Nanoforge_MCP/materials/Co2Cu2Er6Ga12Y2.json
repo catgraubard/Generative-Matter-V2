@@ -1,0 +1,115 @@
+{
+  "id": "Co2Cu2Er6Ga12Y2",
+  "uri": "material://Co2Cu2Er6Ga12Y2",
+  "composition": {
+    "formula": "Co2Cu2Er6Ga12Y2",
+    "elements": {
+      "Co": 2,
+      "Cu": 2,
+      "Er": 6,
+      "Ga": 12,
+      "Y": 2
+    },
+    "reduced_formula": "YEr3Ga6CoCu",
+    "element_list": [
+      "Co",
+      "Cu",
+      "Ga",
+      "Y",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 30 g, O: 144 g, Tb: 5 g, V: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium) – Purchase from chemical supply companies; O (Oxygen) – Obtain from a laboratory gas supplier; Tb (Terbium) – Specialty chemical suppliers; V (Vanadium) – Chemical supply stores.",
+      "steps": [
+        "Cr (Chromium) – Purchase from chemical supply companies; O (Oxygen) – Obtain from a laboratory gas supplier; Tb (Terbium) – Specialty chemical suppliers; V (Vanadium) – Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30 g of chromium, 144 g of oxygen, 5 g of terbium, and 60 g of vanadium using an analytical balance.",
+        "2. In a clean, dry container, mix the powdered ingredients thoroughly using a spatula for at least 10 minutes to ensure even distribution.",
+        "3. Transfer the mixed powder into a suitable crucible for heating."
+      ],
+      "raw_text": "1. Weigh out 30 g of chromium, 144 g of oxygen, 5 g of terbium, and 60 g of vanadium using an analytical balance.  \n 2. In a clean, dry container, mix the powdered ingredients thoroughly using a spatula for at least 10 minutes to ensure even distribution.  \n 3. Transfer the mixed powder into a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the crucible containing the mixed powders into the furnace.",
+        "3. Heat the mixture for 2 hours to ensure complete reaction and formation of the compound Cr1O18Tb1V6."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C.  \n 2. Place the crucible containing the mixed powders into the furnace.  \n 3. Heat the mixture for 2 hours to ensure complete reaction and formation of the compound Cr1O18Tb1V6."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally for approximately 6 hours.",
+        "2. Avoid opening the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally for approximately 6 hours.  \n 2. Avoid opening the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and extract the solid sample.",
+        "2. Grind the solid material using a mortar and pestle to achieve a fine powder if necessary.",
+        "3. If required, mold the ground material into desired shapes and cure at 1000°C for 1 hour to enhance structural integrity.",
+        "4. Seal the final product with an appropriate sealant if moisture resistance is needed."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and extract the solid sample.  \n 2. Grind the solid material using a mortar and pestle to achieve a fine powder if necessary.  \n 3. If required, mold the ground material into desired shapes and cure at 1000°C for 1 hour to enhance structural integrity.  \n 4. Seal the final product with an appropriate sealant if moisture resistance is needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4602572.0,
+      "density": 81646.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -113699.0,
+      "formation_energy_per_atom": -6086.0,
+      "decomposition_energy_per_atom": -195.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -195.0,
+      "decomposition_energy_mp_oqmd": -195.0
+    },
+    "electronic": {
+      "bandgap": 0.0161,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e75b35d6a3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.643094Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Cu2Er6Ga12Y2.json",
+      "material://Co2Cu2Er6Ga12Y2"
+    ]
+  }
+}

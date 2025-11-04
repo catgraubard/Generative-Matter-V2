@@ -1,0 +1,141 @@
+{
+  "id": "Cr2In1O12Sr6Y1",
+  "uri": "material://Cr2In1O12Sr6Y1",
+  "composition": {
+    "formula": "Cr2In1O12Sr6Y1",
+    "elements": {
+      "Cr": 2,
+      "In": 1,
+      "O": 12,
+      "Sr": 6,
+      "Y": 1
+    },
+    "reduced_formula": "Sr6YCr2InO12",
+    "element_list": [
+      "O",
+      "Cr",
+      "Sr",
+      "Y",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 20.00 g \n In: 10.00 g \n O: 48.00 g \n Sr: 30.00 g \n Y: 5.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply companies (e.g., Sigma-Aldrich) \n In: Electronic component suppliers (e.g., Digi-Key) \n O: Laboratory supply stores (e.g., VWR) \n Sr: Chemical supply companies (e.g., Alfa Aesar) \n Y: Rare earth material suppliers (e.g., American Elements)",
+      "steps": [
+        "Cr: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "In: Electronic component suppliers (e.g., Digi-Key)",
+        "O: Laboratory supply stores (e.g., VWR)",
+        "Sr: Chemical supply companies (e.g., Alfa Aesar)",
+        "Y: Rare earth material suppliers (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a precision scale.",
+        "2. In a clean, dry environment, mix Cr, In, O, Sr, and Y in a ceramic bowl.",
+        "3. Use a mortar and pestle to achieve a fine, homogeneous powder.",
+        "4. Sift the mixture through a 100-micron sieve to ensure uniform particle size."
+      ],
+      "raw_text": "1. Weigh each component accurately using a precision scale. \n 2. In a clean, dry environment, mix Cr, In, O, Sr, and Y in a ceramic bowl. \n 3. Use a mortar and pestle to achieve a fine, homogeneous powder. \n 4. Sift the mixture through a 100-micron sieve to ensure uniform particle size."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the homogeneous powder in an alumina crucible.",
+        "3. Heat the sample at 800°C for 4 hours, ramping up to this temperature at a rate of 10°C/min."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the homogeneous powder in an alumina crucible. \n 3. Heat the sample at 800°C for 4 hours, ramping up to this temperature at a rate of 10°C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and let it cool naturally.",
+        "2. Allow the sample to cool to room temperature (approximately 25°C) over 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and let it cool naturally. \n 2. Allow the sample to cool to room temperature (approximately 25°C) over 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, use fine-grit sandpaper to smooth any rough edges.",
+        "4. Optionally, apply a sealant if the material is intended for environmental exposure."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, use fine-grit sandpaper to smooth any rough edges. \n 4. Optionally, apply a sealant if the material is intended for environmental exposure."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3187582.0,
+      "density": 53419.0,
+      "crystal_system": "trigonal",
+      "space_group": "R32",
+      "space_group_number": 155,
+      "point_group": "32",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1629448.0,
+      "formation_energy_per_atom": -29504.0,
+      "decomposition_energy_per_atom": -158.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -163.0,
+      "decomposition_energy_mp_oqmd": -163.0
+    },
+    "electronic": {
+      "bandgap": 2.6433,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fb51854338",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.678292Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2In1O12Sr6Y1.json",
+      "material://Cr2In1O12Sr6Y1"
+    ]
+  }
+}

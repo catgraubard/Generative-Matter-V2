@@ -1,0 +1,135 @@
+{
+  "id": "B4Nb8P2Ti2",
+  "uri": "material://B4Nb8P2Ti2",
+  "composition": {
+    "formula": "B4Nb8P2Ti2",
+    "elements": {
+      "B": 4,
+      "Nb": 8,
+      "P": 2,
+      "Ti": 2
+    },
+    "reduced_formula": "TiNb4B2P",
+    "element_list": [
+      "B",
+      "P",
+      "Ti",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 36.6,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 68.3,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 15.7,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 34.7,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 36.6 g (Boron) \n Nb: 68.3 g (Niobium) \n P: 15.7 g (Phosphorus) \n Ti: 34.7 g (Titanium)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Chemical supply stores or online chemical suppliers. \n Niobium: Metal suppliers or specialized online vendors. \n Phosphorus: Chemical supply stores or online suppliers. \n Titanium: Metal suppliers or online vendors.",
+      "steps": [
+        "Boron: Chemical supply stores or online chemical suppliers.",
+        "Niobium: Metal suppliers or specialized online vendors.",
+        "Phosphorus: Chemical supply stores or online suppliers.",
+        "Titanium: Metal suppliers or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 36.6 g of boron powder using an analytical balance.",
+        "2. Weigh out 68.3 g of niobium powder.",
+        "3. Weigh out 15.7 g of phosphorus (ensure it's in a suitable form, ideally white phosphorus under controlled conditions).",
+        "4. Weigh out 34.7 g of titanium powder.",
+        "5. In a clean, dry container, combine all powdered materials thoroughly using a spatula or mechanical mixer. Ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Weigh out 36.6 g of boron powder using an analytical balance. \n 2. Weigh out 68.3 g of niobium powder. \n 3. Weigh out 15.7 g of phosphorus (ensure it's in a suitable form, ideally white phosphorus under controlled conditions). \n 4. Weigh out 34.7 g of titanium powder. \n 5. In a clean, dry container, combine all powdered materials thoroughly using a spatula or mechanical mixer. Ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 6 hours to facilitate full reaction and sintering of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 6 hours to facilitate full reaction and sintering of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After 6 hours, turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C).",
+        "2. Ensure the furnace door remains closed during the cooling process to prevent contamination."
+      ],
+      "raw_text": "1. After 6 hours, turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C). \n 2. Ensure the furnace door remains closed during the cooling process to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use a diamond saw to slice the sample to the desired dimension (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using progressively finer sandpaper (up to 2000 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a sealant if chemical resistance is required, following the manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use a diamond saw to slice the sample to the desired dimension (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using progressively finer sandpaper (up to 2000 grit) to achieve a smooth finish. \n 4. Optionally, apply a sealant if chemical resistance is required, following the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2199154.0,
+      "density": 71293.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1468031.0,
+      "formation_energy_per_atom": -7911.0,
+      "decomposition_energy_per_atom": -406.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -33.0,
+      "decomposition_energy_mp": -405.0,
+      "decomposition_energy_mp_oqmd": -397.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "11ba1cd383",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:38.669248Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Nb8P2Ti2.json",
+      "material://B4Nb8P2Ti2"
+    ]
+  }
+}

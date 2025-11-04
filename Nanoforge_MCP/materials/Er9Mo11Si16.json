@@ -1,0 +1,130 @@
+{
+  "id": "Er9Mo11Si16",
+  "uri": "material://Er9Mo11Si16",
+  "composition": {
+    "formula": "Er9Mo11Si16",
+    "elements": {
+      "Er": 9,
+      "Mo": 11,
+      "Si": 16
+    },
+    "reduced_formula": "Er9Si16Mo11",
+    "element_list": [
+      "Si",
+      "Mo",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Gd",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.0 g \n Ga: 4.0 g \n Gd: 1.0 g \n O: 8.0 g (Total: 14.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Available from chemical suppliers or online stores specializing in rare elements. \n Ga (Gallium): Obtainable from chemical supply companies or online retailers. \n Gd (Gadolinium): Can be sourced from specialized chemical suppliers. \n O (Oxygen): Typically sourced from an air source or as a part of other chemicals such as oxides.",
+      "steps": [
+        "Cs (Cesium): Available from chemical suppliers or online stores specializing in rare elements.",
+        "Ga (Gallium): Obtainable from chemical supply companies or online retailers.",
+        "Gd (Gadolinium): Can be sourced from specialized chemical suppliers.",
+        "O (Oxygen): Typically sourced from an air source or as a part of other chemicals such as oxides."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Cs, Ga, Gd, and O accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cs, Ga, and Gd powders.",
+        "3. Gradually add O while stirring to ensure uniform distribution.",
+        "4. Mix thoroughly until a homogeneous mixture is achieved (approximately 10 minutes)."
+      ],
+      "raw_text": "1. Measure Cs, Ga, Gd, and O accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Cs, Ga, and Gd powders. \n 3. Gradually add O while stirring to ensure uniform distribution. \n 4. Mix thoroughly until a homogeneous mixture is achieved (approximately 10 minutes)."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible or appropriate heating vessel.",
+        "2. Heat the mixture gradually to 800°C at a rate of 100°C per hour.",
+        "3. Maintain the temperature at 800°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible or appropriate heating vessel. \n 2. Heat the mixture gradually to 800°C at a rate of 100°C per hour. \n 3. Maintain the temperature at 800°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking or structural damage."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking or structural damage."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any irregularities or surface defects.",
+        "3. Use fine-grit sandpaper to smooth out any rough edges (if necessary).",
+        "4. Optionally, apply a sealant to protect the surface if required for specific applications."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any irregularities or surface defects. \n 3. Use fine-grit sandpaper to smooth out any rough edges (if necessary). \n 4. Optionally, apply a sealant to protect the surface if required for specific applications."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5968058.0,
+      "density": 83751.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2711642.0,
+      "formation_energy_per_atom": -6652.0,
+      "decomposition_energy_per_atom": 265.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d543479ee7",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.730313Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er9Mo11Si16.json",
+      "material://Er9Mo11Si16"
+    ]
+  }
+}

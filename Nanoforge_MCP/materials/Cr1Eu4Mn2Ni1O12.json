@@ -1,0 +1,121 @@
+{
+  "id": "Cr1Eu4Mn2Ni1O12",
+  "uri": "material://Cr1Eu4Mn2Ni1O12",
+  "composition": {
+    "formula": "Cr1Eu4Mn2Ni1O12",
+    "elements": {
+      "Cr": 1,
+      "Eu": 4,
+      "Mn": 2,
+      "Ni": 1,
+      "O": 12
+    },
+    "reduced_formula": "Eu4Mn2CrNiO12",
+    "element_list": [
+      "O",
+      "Cr",
+      "Mn",
+      "Ni",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 5.0 g, Eu: 20.0 g, Mn: 10.0 g, Ni: 5.0 g, O (from source): 30.0 g (for stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply store, Eu: Rare earth supplier, Mn: Chemical supply store, Ni: Metal supply store, O: Oxygen canister or from air (via reaction)",
+      "steps": [
+        "Cr: Chemical supply store, Eu: Rare earth supplier, Mn: Chemical supply store, Ni: Metal supply store, O: Oxygen canister or from air (via reaction)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 5.0 g of Cr.",
+        "2. Weigh out 20.0 g of Eu.",
+        "3. Weigh out 10.0 g of Mn.",
+        "4. Weigh out 5.0 g of Ni.",
+        "5. Weigh out 30.0 g of O as needed.",
+        "6. Combine the weighed powders in a clean, dry mixing container.",
+        "7. Use a mortar and pestle to grind the powders together until homogenous."
+      ],
+      "raw_text": "1. Weigh out 5.0 g of Cr. \n 2. Weigh out 20.0 g of Eu. \n 3. Weigh out 10.0 g of Mn. \n 4. Weigh out 5.0 g of Ni. \n 5. Weigh out 30.0 g of O as needed. \n 6. Combine the weighed powders in a clean, dry mixing container. \n 7. Use a mortar and pestle to grind the powders together until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sample from the crucible.",
+        "2. Inspect the sample for any imperfections.",
+        "3. If necessary, use a diamond grinder to smooth any rough edges.",
+        "4. Optionally, apply a sealant to protect the surface."
+      ],
+      "raw_text": "1. Remove the sample from the crucible. \n 2. Inspect the sample for any imperfections. \n 3. If necessary, use a diamond grinder to smooth any rough edges. \n 4. Optionally, apply a sealant to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2328816.0,
+      "density": 7276.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1866897.0,
+      "formation_energy_per_atom": -26194.0,
+      "decomposition_energy_per_atom": -499.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -505.0,
+      "decomposition_energy_mp_oqmd": -98.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f4582661ad",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.702876Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Eu4Mn2Ni1O12.json",
+      "material://Cr1Eu4Mn2Ni1O12"
+    ]
+  }
+}

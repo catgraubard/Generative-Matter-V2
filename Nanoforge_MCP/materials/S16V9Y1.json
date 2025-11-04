@@ -1,0 +1,110 @@
+{
+  "id": "S16V9Y1",
+  "uri": "material://S16V9Y1",
+  "composition": {
+    "formula": "S16V9Y1",
+    "elements": {
+      "S": 16,
+      "V": 9,
+      "Y": 1
+    },
+    "reduced_formula": "YV9S16",
+    "element_list": [
+      "S",
+      "V",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 200 g, Cu: 50 g, In: 50 g, Pb: 150 g, Zr: 500 g"
+    },
+    "sourcing": {
+      "instructions": "Bi: Specialty metal suppliers, Cu: hardware stores, In: chemical suppliers, Pb: hardware stores, Zr: metallurgical suppliers",
+      "steps": [
+        "Bi: Specialty metal suppliers, Cu: hardware stores, In: chemical suppliers, Pb: hardware stores, Zr: metallurgical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine Bi, Cu, In, Pb, and Zr.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder.",
+        "4. Ensure a homogeneous blend by mixing thoroughly for at least 15 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean mixing container, combine Bi, Cu, In, Pb, and Zr. \n 3. Use a mortar and pestle to grind the mixture into a fine powder. \n 4. Ensure a homogeneous blend by mixing thoroughly for at least 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat using a furnace at 1000°C for 2 hours to promote alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Heat using a furnace at 1000°C for 2 hours to promote alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to prevent thermal shock, which may take 4 hours.",
+        "2. Once cooled, remove the crucible and allow the sample to reach room temperature."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to prevent thermal shock, which may take 4 hours. \n 2. Once cooled, remove the crucible and allow the sample to reach room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any surface defects.",
+        "2. If needed, use a grinder to smooth out rough edges.",
+        "3. Seal the sample with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Inspect the solid sample for any surface defects. \n 2. If needed, use a grinder to smooth out rough edges. \n 3. Seal the sample with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 455744.0,
+      "density": 38637.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1906627.0,
+      "formation_energy_per_atom": -13945.0,
+      "decomposition_energy_per_atom": -333.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -169.0,
+      "decomposition_energy_mp": -333.0,
+      "decomposition_energy_mp_oqmd": -322.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c03cf55708",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.159827Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/S16V9Y1.json",
+      "material://S16V9Y1"
+    ]
+  }
+}

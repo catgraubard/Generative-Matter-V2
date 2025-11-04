@@ -1,0 +1,135 @@
+{
+  "id": "Bi1Li8Sn7Y8",
+  "uri": "material://Bi1Li8Sn7Y8",
+  "composition": {
+    "formula": "Bi1Li8Sn7Y8",
+    "elements": {
+      "Bi": 1,
+      "Li": 8,
+      "Sn": 7,
+      "Y": 8
+    },
+    "reduced_formula": "Li8Y8Sn7Bi",
+    "element_list": [
+      "Li",
+      "Y",
+      "Sn",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "In",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "In: 50 g \n P: 20 g \n Rb: 15 g \n Sb: 25 g \n Total: 110 g"
+    },
+    "sourcing": {
+      "instructions": "In: Purchase from a chemical supply store or online supplier. \n P: Available at chemical supply stores or through online platforms. \n Rb: Obtain from specialized chemical suppliers. \n Sb: Purchase from chemical suppliers or online specialty shops.",
+      "steps": [
+        "In: Purchase from a chemical supply store or online supplier.",
+        "P: Available at chemical supply stores or through online platforms.",
+        "Rb: Obtain from specialized chemical suppliers.",
+        "Sb: Purchase from chemical suppliers or online specialty shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 50 g of Indium (In) using a precision scale.",
+        "2. Measure 20 g of Phosphorus (P) and ensure it is in a suitable form (e.g., white phosphorus crystals).",
+        "3. Measure 15 g of Rubidium (Rb) in a dry atmosphere to prevent oxidation.",
+        "4. Measure 25 g of Antimony (Sb) in solid form.",
+        "5. Combine all measured materials in a clean, dry, and inert atmosphere using a glove box or fume hood.",
+        "6. Mix the materials thoroughly using a mortar and pestle until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Measure 50 g of Indium (In) using a precision scale. \n 2. Measure 20 g of Phosphorus (P) and ensure it is in a suitable form (e.g., white phosphorus crystals). \n 3. Measure 15 g of Rubidium (Rb) in a dry atmosphere to prevent oxidation. \n 4. Measure 25 g of Antimony (Sb) in solid form. \n 5. Combine all measured materials in a clean, dry, and inert atmosphere using a glove box or fume hood. \n 6. Mix the materials thoroughly using a mortar and pestle until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible (e.g., alumina).",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min and hold for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible (e.g., alumina). \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 800°C at a rate of 5°C/min and hold for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature.",
+        "2. This process should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature. \n 2. This process should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth the edges and surface.",
+        "4. Optionally, apply a sealant to enhance surface stability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use fine-grit sandpaper to smooth the edges and surface. \n 4. Optionally, apply a sealant to enhance surface stability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5628941.0,
+      "density": 53298.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1155508.0,
+      "formation_energy_per_atom": -6913.0,
+      "decomposition_energy_per_atom": -114.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -114.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c906036e72",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.643327Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1Li8Sn7Y8.json",
+      "material://Bi1Li8Sn7Y8"
+    ]
+  }
+}

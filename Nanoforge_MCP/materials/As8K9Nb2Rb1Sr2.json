@@ -1,0 +1,140 @@
+{
+  "id": "As8K9Nb2Rb1Sr2",
+  "uri": "material://As8K9Nb2Rb1Sr2",
+  "composition": {
+    "formula": "As8K9Nb2Rb1Sr2",
+    "elements": {
+      "As": 8,
+      "K": 9,
+      "Nb": 2,
+      "Rb": 1,
+      "Sr": 2
+    },
+    "reduced_formula": "K9RbSr2(NbAs4)2",
+    "element_list": [
+      "K",
+      "As",
+      "Rb",
+      "Sr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 15.0 g \n Er: 40.0 g \n Sc: 60.0 g \n Si: 75.0 g \n Tb: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ag: Metal suppliers or online metal stores \n Er: Rare earth element suppliers \n Sc: Chemical suppliers \n Si: Silicon suppliers or electronic component stores \n Tb: Rare earth element suppliers",
+      "steps": [
+        "Ag: Metal suppliers or online metal stores",
+        "Er: Rare earth element suppliers",
+        "Sc: Chemical suppliers",
+        "Si: Silicon suppliers or electronic component stores",
+        "Tb: Rare earth element suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precise scale.",
+        "2. Mix Ag, Er, Sc, Si, and Tb powders in a clean, dry container.",
+        "3. Use a mortar and pestle to ensure a uniform mixture.",
+        "4. Transfer the mixed powder to a ball mill for 2 hours to achieve a fine homogenous powder."
+      ],
+      "raw_text": "1. Weigh each material using a precise scale. \n 2. Mix Ag, Er, Sc, Si, and Tb powders in a clean, dry container. \n 3. Use a mortar and pestle to ensure a uniform mixture. \n 4. Transfer the mixed powder to a ball mill for 2 hours to achieve a fine homogenous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the mixed powder into a crucible made of a suitable material (e.g., alumina).",
+        "3. Heat the crucible in the furnace for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the mixed powder into a crucible made of a suitable material (e.g., alumina). \n 3. Heat the crucible in the furnace for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool gradually to room temperature over 8 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool gradually to room temperature over 8 hours. \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface if necessary."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 7606976.0,
+      "density": 30512.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -854068.0,
+      "formation_energy_per_atom": -6172.0,
+      "decomposition_energy_per_atom": -379.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -378.0,
+      "decomposition_energy_mp_oqmd": -375.0
+    },
+    "electronic": {
+      "bandgap": 1.1889,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c43bb6a162",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.338181Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As8K9Nb2Rb1Sr2.json",
+      "material://As8K9Nb2Rb1Sr2"
+    ]
+  }
+}

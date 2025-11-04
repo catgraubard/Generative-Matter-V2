@@ -1,0 +1,107 @@
+{
+  "id": "Ba2Cu7Zn19",
+  "uri": "material://Ba2Cu7Zn19",
+  "composition": {
+    "formula": "Ba2Cu7Zn19",
+    "elements": {
+      "Ba": 2,
+      "Cu": 7,
+      "Zn": 19
+    },
+    "reduced_formula": "Ba2Zn19Cu7",
+    "element_list": [
+      "Cu",
+      "Zn",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Barium (Ba): 10.0 g  \n - Copper (Cu): 35.0 g  \n - Zinc (Zn): 50.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Barium: Obtain from chemical suppliers like Sigma-Aldrich or online marketplaces that specialize in metal powders. \n - Copper: Purchase from metal supply stores or hardware stores in the form of powder or fine filings. \n - Zinc: Available through metal suppliers or online retailers.",
+      "steps": [
+        "- Barium: Obtain from chemical suppliers like Sigma-Aldrich or online marketplaces that specialize in metal powders.",
+        "- Copper: Purchase from metal supply stores or hardware stores in the form of powder or fine filings.",
+        "- Zinc: Available through metal suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of barium, 35.0 g of copper, and 50.0 g of zinc using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed barium, copper, and zinc.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of barium, 35.0 g of copper, and 50.0 g of zinc using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed barium, copper, and zinc. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the blended powders into a ceramic crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 800°C at a rate of 5°C/min and maintain this temperature for 2 hours to ensure complete reaction and formation of Ba2Cu7Zn19."
+      ],
+      "raw_text": "1. Transfer the blended powders into a ceramic crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 800°C at a rate of 5°C/min and maintain this temperature for 2 hours to ensure complete reaction and formation of Ba2Cu7Zn19."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. This process should take about 4-6 hours. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. This process should take about 4-6 hours. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Use sandpaper to smooth the surface and edges of the solid sample.",
+        "3. Optionally, seal the sample with a clear coating to enhance durability and protect from oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Use sandpaper to smooth the surface and edges of the solid sample. \n 3. Optionally, seal the sample with a clear coating to enhance durability and protect from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4539242.0,
+      "density": 71783.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -614378.0,
+      "formation_energy_per_atom": -1775.0,
+      "decomposition_energy_per_atom": -254.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -254.0,
+      "decomposition_energy_mp_oqmd": -215.0
+    },
+    "electronic": {
+      "bandgap": 0.0069,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "995e5287fd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:37.538896Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Cu7Zn19.json",
+      "material://Ba2Cu7Zn19"
+    ]
+  }
+}

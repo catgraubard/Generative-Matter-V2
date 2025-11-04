@@ -1,0 +1,139 @@
+{
+  "id": "Al2Co2O8Zn2",
+  "uri": "material://Al2Co2O8Zn2",
+  "composition": {
+    "formula": "Al2Co2O8Zn2",
+    "elements": {
+      "Al": 2,
+      "Co": 2,
+      "O": 8,
+      "Zn": 2
+    },
+    "reduced_formula": "AlZnCoO4",
+    "element_list": [
+      "O",
+      "Al",
+      "Co",
+      "Zn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 45.0 g \n Ni: 75.0 g \n P: 12.0 g \n Ru: 100.0 g \n Y: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online marketplace. \n Ni: Available at metal supply stores or online. \n P: Obtain from a chemical supplier. \n Ru: Acquire from a specialty metal or chemical supplier. \n Y: Purchase from a chemical supply company or online.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online marketplace.",
+        "Ni: Available at metal supply stores or online.",
+        "P: Obtain from a chemical supplier.",
+        "Ru: Acquire from a specialty metal or chemical supplier.",
+        "Y: Purchase from a chemical supply company or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry container, add Co, Ni, P, Ru, and Y in the specified order.",
+        "3. Use a pestle and mortar or a mechanical grinder to thoroughly mix the powders until homogenous.",
+        "4. Transfer the mixed powders to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry container, add Co, Ni, P, Ru, and Y in the specified order. \n 3. Use a pestle and mortar or a mechanical grinder to thoroughly mix the powders until homogenous. \n 4. Transfer the mixed powders to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the ceramic crucible in the furnace.",
+        "3. Heat for 4 hours to ensure complete melting and alloying of materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the ceramic crucible in the furnace. \n 3. Heat for 4 hours to ensure complete melting and alloying of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified sample from the crucible.",
+        "3. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges with fine-grit sandpaper for a smooth finish.",
+        "5. Optionally, seal with a high-temperature resistant sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solidified sample from the crucible. \n 3. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Sand the edges with fine-grit sandpaper for a smooth finish. \n 5. Optionally, seal with a high-temperature resistant sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 136281.0,
+      "density": 52472.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imma",
+      "space_group_number": 74,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -955804.0,
+      "formation_energy_per_atom": -22692.0,
+      "decomposition_energy_per_atom": -231.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -191.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 2.2003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c40725ee1d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.290360Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Co2O8Zn2.json",
+      "material://Al2Co2O8Zn2"
+    ]
+  }
+}

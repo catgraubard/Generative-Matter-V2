@@ -1,0 +1,138 @@
+{
+  "id": "Na2O19Pa4Se4",
+  "uri": "material://Na2O19Pa4Se4",
+  "composition": {
+    "formula": "Na2O19Pa4Se4",
+    "elements": {
+      "Na": 2,
+      "O": 19,
+      "Pa": 4,
+      "Se": 4
+    },
+    "reduced_formula": "Na2Pa4Se4O19",
+    "element_list": [
+      "O",
+      "Na",
+      "Se",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 18.5,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 74.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 7.4,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 3.7,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 66.3,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 18.50 g \n Cu: 74.00 g \n Er: 7.40 g \n Nd: 3.70 g \n Ni: 66.30 g"
+    },
+    "sourcing": {
+      "instructions": "B: Available at chemical supply stores or online retailers. \n Cu: Copper metal can be sourced from hardware stores or metal suppliers. \n Er: Rare earth metal suppliers or specialized chemistry suppliers. \n Nd: Rare earth metal suppliers or specialized chemistry suppliers. \n Ni: Nickel can be sourced from metal suppliers or hardware stores.",
+      "steps": [
+        "B: Available at chemical supply stores or online retailers.",
+        "Cu: Copper metal can be sourced from hardware stores or metal suppliers.",
+        "Er: Rare earth metal suppliers or specialized chemistry suppliers.",
+        "Nd: Rare earth metal suppliers or specialized chemistry suppliers.",
+        "Ni: Nickel can be sourced from metal suppliers or hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Cu, Er, Nd, and Ni.",
+        "3. Use a mechanical stirrer to ensure an even blend of all materials for 10 minutes.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Cu, Er, Nd, and Ni. \n 3. Use a mechanical stirrer to ensure an even blend of all materials for 10 minutes. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Once the desired temperature is reached, place the crucible with the mixture inside.",
+        "3. Hold at 1200°C for 2 hours to allow complete melting and homogenization of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Once the desired temperature is reached, place the crucible with the mixture inside. \n 3. Hold at 1200°C for 2 hours to allow complete melting and homogenization of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature—approximately 4-6 hours.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature—approximately 4-6 hours. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect for any surface imperfections; use a metal file to smoothen any rough edges.",
+        "3. If required, sand the surface using fine-grit sandpaper for a polished finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect for any surface imperfections; use a metal file to smoothen any rough edges. \n 3. If required, sand the surface using fine-grit sandpaper for a polished finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 5380126.0,
+      "density": 49073.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2284241.0,
+      "formation_energy_per_atom": -27492.0,
+      "decomposition_energy_per_atom": -238.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -88.0,
+      "decomposition_energy_mp": -2386.0,
+      "decomposition_energy_mp_oqmd": -2167.0
+    },
+    "electronic": {
+      "bandgap": 2.8609,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd589747e4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.631412Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na2O19Pa4Se4.json",
+      "material://Na2O19Pa4Se4"
+    ]
+  }
+}

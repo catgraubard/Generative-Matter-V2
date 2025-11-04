@@ -1,0 +1,115 @@
+{
+  "id": "Mo4O24Se4Sr4",
+  "uri": "material://Mo4O24Se4Sr4",
+  "composition": {
+    "formula": "Mo4O24Se4Sr4",
+    "elements": {
+      "Mo": 4,
+      "O": 24,
+      "Se": 4,
+      "Sr": 4
+    },
+    "reduced_formula": "SrMoSeO6",
+    "element_list": [
+      "O",
+      "Se",
+      "Sr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "MoO3: 120 g \n Se: 40 g \n SrO: 30 g"
+    },
+    "sourcing": {
+      "instructions": "MoO3 can be purchased from chemical supply companies or online retailers specializing in laboratory chemicals. Se can be sourced from suppliers of electronic materials or chemical distributors. SrO is available from specialty chemical suppliers or online.",
+      "steps": [
+        "MoO3 can be purchased from chemical supply companies or online retailers specializing in laboratory chemicals. Se can be sourced from suppliers of electronic materials or chemical distributors. SrO is available from specialty chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh 120 g of MoO3 using a precision balance.",
+        "2. Weigh 40 g of Se and 30 g of SrO.",
+        "3. In a mortar and pestle, combine the MoO3, Se, and SrO thoroughly until a homogeneous mixture is achieved. Ensure no lumps remain.",
+        "4. Transfer the mixture to a ceramic crucible, ensuring even distribution."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh 120 g of MoO3 using a precision balance. \n 2. Weigh 40 g of Se and 30 g of SrO. \n 3. In a mortar and pestle, combine the MoO3, Se, and SrO thoroughly until a homogeneous mixture is achieved. Ensure no lumps remain. \n 4. Transfer the mixture to a ceramic crucible, ensuring even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 6,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Set the furnace temperature to 800 °C.",
+        "3. Heat the mixture at this temperature for 6 hours.",
+        "4. After 6 hours, increase the temperature to 1000 °C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Set the furnace temperature to 800 °C. \n 3. Heat the mixture at this temperature for 6 hours. \n 4. After 6 hours, increase the temperature to 1000 °C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature, approximately 4-6 hours.",
+        "2. Ensure the crucible remains in the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature, approximately 4-6 hours. \n 2. Ensure the crucible remains in the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth any rough edges and achieve the desired finish.",
+        "3. If necessary, cure the sample in an inert atmosphere at 600 °C for 1 hour to enhance structural integrity.",
+        "4. Seal the final product with a suitable polymer or coating for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth any rough edges and achieve the desired finish. \n 3. If necessary, cure the sample in an inert atmosphere at 600 °C for 1 hour to enhance structural integrity. \n 4. Seal the final product with a suitable polymer or coating for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5436091.0,
+      "density": 43806.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2615724.0,
+      "formation_energy_per_atom": -2186.0,
+      "decomposition_energy_per_atom": -94.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -92.0,
+      "decomposition_energy_mp": -101.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 2.4872,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "78142459ca",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:52.800211Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo4O24Se4Sr4.json",
+      "material://Mo4O24Se4Sr4"
+    ]
+  }
+}

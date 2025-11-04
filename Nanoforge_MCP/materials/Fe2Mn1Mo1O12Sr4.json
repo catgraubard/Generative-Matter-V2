@@ -1,0 +1,109 @@
+{
+  "id": "Fe2Mn1Mo1O12Sr4",
+  "uri": "material://Fe2Mn1Mo1O12Sr4",
+  "composition": {
+    "formula": "Fe2Mn1Mo1O12Sr4",
+    "elements": {
+      "Fe": 2,
+      "Mn": 1,
+      "Mo": 1,
+      "O": 12,
+      "Sr": 4
+    },
+    "reduced_formula": "Sr4MnFe2MoO12",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Sr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Fe2O3: 80 g, MnO2: 40 g, MoO3: 40 g, SrCO3: 80 g, Total: 240 g (to yield a solid sample)"
+    },
+    "sourcing": {
+      "instructions": "Fe2O3: Chemical supply stores or online, MnO2: Chemical suppliers or online, MoO3: Labs or chemical suppliers, SrCO3: Ceramic supply stores or online.",
+      "steps": [
+        "Fe2O3: Chemical supply stores or online, MnO2: Chemical suppliers or online, MoO3: Labs or chemical suppliers, SrCO3: Ceramic supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 80 g of Fe2O3, 40 g of MnO2, 40 g of MoO3, and 80 g of SrCO3 accurately using a digital scale.",
+        "2. In a clean, dry container, combine all measured powders.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until uniform.",
+        "4. Transfer the mixed powder into a suitable crucible for heating."
+      ],
+      "raw_text": "1. Measure 80 g of Fe2O3, 40 g of MnO2, 40 g of MoO3, and 80 g of SrCO3 accurately using a digital scale. \n 2. In a clean, dry container, combine all measured powders. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders until uniform. \n 4. Transfer the mixed powder into a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000°C.",
+        "2. Place the crucible with the mixed powder in the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and solidification of materials."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000°C. \n 2. Place the crucible with the mixed powder in the furnace. \n 3. Heat for 4 hours to ensure complete reaction and solidification of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper or a grinding wheel to smooth any rough edges or surfaces.",
+        "3. If desired, apply an appropriate sealant or coating to enhance durability and appearance. Allow to cure as per the sealant's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper or a grinding wheel to smooth any rough edges or surfaces. \n 3. If desired, apply an appropriate sealant or coating to enhance durability and appearance. Allow to cure as per the sealant's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2476798.0,
+      "density": 53973.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1532566.0,
+      "formation_energy_per_atom": -25088.0,
+      "decomposition_energy_per_atom": -86.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -86.0,
+      "decomposition_energy_mp": -92.0,
+      "decomposition_energy_mp_oqmd": -86.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "28f94b7f3e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:09.699619Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Mn1Mo1O12Sr4.json",
+      "material://Fe2Mn1Mo1O12Sr4"
+    ]
+  }
+}

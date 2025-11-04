@@ -1,0 +1,129 @@
+{
+  "id": "Fe4Mn4O20Sm4",
+  "uri": "material://Fe4Mn4O20Sm4",
+  "composition": {
+    "formula": "Fe4Mn4O20Sm4",
+    "elements": {
+      "Fe": 4,
+      "Mn": 4,
+      "O": 20,
+      "Sm": 4
+    },
+    "reduced_formula": "SmMnFeO5",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 800.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 320 g  \n Mn: 160 g  \n O: 800 g (as a source of oxygen, typically from an oxide)  \n Sm: 240 g"
+    },
+    "sourcing": {
+      "instructions": "Fe can be sourced from iron filings or pure iron powder available at chemical supply stores.  \n Mn can be obtained from manganese powder from metallurgy suppliers.  \n O can be sourced from a high-purity silica or alumina for oxide content from chemical supply stores.  \n Sm can be found in the form of samarium powder from specialized rare earth metal suppliers.",
+      "steps": [
+        "Fe can be sourced from iron filings or pure iron powder available at chemical supply stores.",
+        "Mn can be obtained from manganese powder from metallurgy suppliers.",
+        "O can be sourced from a high-purity silica or alumina for oxide content from chemical supply stores.",
+        "Sm can be found in the form of samarium powder from specialized rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 320 g of Fe powder, 160 g of Mn powder, 800 g of O source, and 240 g of Sm powder.",
+        "2. In a clean, dry mixing container, combine the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to ensure homogeneity.",
+        "3. Transfer the mixed powder to a suitable container for heating."
+      ],
+      "raw_text": "1. Weigh out 320 g of Fe powder, 160 g of Mn powder, 800 g of O source, and 240 g of Sm powder.  \n 2. In a clean, dry mixing container, combine the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to ensure homogeneity.  \n 3. Transfer the mixed powder to a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the container with the mixed powder in the furnace and maintain the temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C.  \n 2. Place the container with the mixed powder in the furnace and maintain the temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the material to cool inside the furnace gradually to room temperature over approximately 8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the material to cool inside the furnace gradually to room temperature over approximately 8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the material from the container and crush it gently to break any large chunks.",
+        "2. Sift the crushed material through a 100 mesh sieve to achieve a uniform particle size.",
+        "3. If necessary, press the powder into a desired shape using a hydraulic press to form the solid sample.",
+        "4. Optionally, seal the sample with a suitable resin or coating for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the material from the container and crush it gently to break any large chunks.  \n 2. Sift the crushed material through a 100 mesh sieve to achieve a uniform particle size.  \n 3. If necessary, press the powder into a desired shape using a hydraulic press to form the solid sample.  \n 4. Optionally, seal the sample with a suitable resin or coating for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3795025.0,
+      "density": 59707.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbam",
+      "space_group_number": 55,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2682368.0,
+      "formation_energy_per_atom": -24961.0,
+      "decomposition_energy_per_atom": -253.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -259.0,
+      "decomposition_energy_mp_oqmd": -259.0
+    },
+    "electronic": {
+      "bandgap": 1.1059,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "28d9897d84",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:09.531817Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Mn4O20Sm4.json",
+      "material://Fe4Mn4O20Sm4"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Cd1Co6Er6Nd1Sn22",
+  "uri": "material://Cd1Co6Er6Nd1Sn22",
+  "composition": {
+    "formula": "Cd1Co6Er6Nd1Sn22",
+    "elements": {
+      "Cd": 1,
+      "Co": 6,
+      "Er": 6,
+      "Nd": 1,
+      "Sn": 22
+    },
+    "reduced_formula": "NdEr6Cd(Co3Sn11)2",
+    "element_list": [
+      "Co",
+      "Cd",
+      "Sn",
+      "Nd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20 g, Sb: 40 g, Tb: 10 g, Y: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier, Sb: Obtain from a metal supply store, Tb: Available through rare earth element suppliers, Y: Buy from specialty chemical vendors.",
+      "steps": [
+        "Co: Purchase from a chemical supplier, Sb: Obtain from a metal supply store, Tb: Available through rare earth element suppliers, Y: Buy from specialty chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Sb, Tb, and Y.",
+        "3. Use a mortar and pestle to finely grind the mixture for uniformity.",
+        "4. Transfer the homogeneous mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Co, Sb, Tb, and Y. \n 3. Use a mortar and pestle to finely grind the mixture for uniformity. \n 4. Transfer the homogeneous mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat gradually to 1000°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat gradually to 1000°C at a rate of 5°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over 6 hours.",
+        "2. Do not open the furnace during cooling to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over 6 hours. \n 2. Do not open the furnace during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a belt sander to smooth out the edges and surfaces to achieve desired dimensions (3x2x7 inches).",
+        "3. Optionally, apply a sealant for enhanced stability and protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a belt sander to smooth out the edges and surfaces to achieve desired dimensions (3x2x7 inches). \n 3. Optionally, apply a sealant for enhanced stability and protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 807156.0,
+      "density": 86928.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1782706.0,
+      "formation_energy_per_atom": -3976.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 0.0046,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "adee5ee0b3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.091614Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd1Co6Er6Nd1Sn22.json",
+      "material://Cd1Co6Er6Nd1Sn22"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Co1Fe1Ni4P3",
+  "uri": "material://Co1Fe1Ni4P3",
+  "composition": {
+    "formula": "Co1Fe1Ni4P3",
+    "elements": {
+      "Co": 1,
+      "Fe": 1,
+      "Ni": 4,
+      "P": 3
+    },
+    "reduced_formula": "FeCoNi4P3",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 15.0 g \n Iron (Fe): 15.0 g \n Nickel (Ni): 60.0 g \n Phosphorus (P): 10.0 g \n Total: 100.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Purchase from a chemical supply company or online supplier (e.g., Sigma-Aldrich). \n Iron: Obtain from a local hardware store or chemical supplier. \n Nickel: Acquire from a metal supplier or online. \n Phosphorus: Available from chemical suppliers or online sources.",
+      "steps": [
+        "Cobalt: Purchase from a chemical supply company or online supplier (e.g., Sigma-Aldrich).",
+        "Iron: Obtain from a local hardware store or chemical supplier.",
+        "Nickel: Acquire from a metal supplier or online.",
+        "Phosphorus: Available from chemical suppliers or online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15.0 g of cobalt, 15.0 g of iron, 60.0 g of nickel, and 10.0 g of phosphorus using a precision balance.",
+        "2. In a clean, dry container, combine all weighed materials.",
+        "3. Mix thoroughly using a mortar and pestle or a ball mill to achieve a uniform powder."
+      ],
+      "raw_text": "1. Weigh out 15.0 g of cobalt, 15.0 g of iron, 60.0 g of nickel, and 10.0 g of phosphorus using a precision balance. \n 2. In a clean, dry container, combine all weighed materials. \n 3. Mix thoroughly using a mortar and pestle or a ball mill to achieve a uniform powder."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1000°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure proper synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1000°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure proper synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool to room temperature inside the furnace (approximately 6-8 hours).",
+        "2. Once cool, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool to room temperature inside the furnace (approximately 6-8 hours). \n 2. Once cool, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for uniformity.",
+        "2. Grind the sample lightly if any large particles are observed.",
+        "3. Optionally, seal the sample with a resin for protection or apply a protective coating.",
+        "4. If needed, sand the surfaces to achieve the desired finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for uniformity. \n 2. Grind the sample lightly if any large particles are observed. \n 3. Optionally, seal the sample with a resin for protection or apply a protective coating. \n 4. If needed, sand the surfaces to achieve the desired finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 981073.0,
+      "density": 74892.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -59798.0,
+      "formation_energy_per_atom": -5399.0,
+      "decomposition_energy_per_atom": -194.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -23.0,
+      "decomposition_energy_mp": -194.0,
+      "decomposition_energy_mp_oqmd": -181.0
+    },
+    "electronic": {
+      "bandgap": 0.0051,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "17125bba87",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:45.898335Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe1Ni4P3.json",
+      "material://Co1Fe1Ni4P3"
+    ]
+  }
+}

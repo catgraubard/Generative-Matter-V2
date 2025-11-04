@@ -1,0 +1,112 @@
+{
+  "id": "Ge1Sc3Si2Tc3",
+  "uri": "material://Ge1Sc3Si2Tc3",
+  "composition": {
+    "formula": "Ge1Sc3Si2Tc3",
+    "elements": {
+      "Ge": 1,
+      "Sc": 3,
+      "Si": 2,
+      "Tc": 3
+    },
+    "reduced_formula": "Sc3Si2Tc3Ge",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ge",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium Oxide (Er2O3): 36.0 g \n - Oxygen (O2): 48.0 g \n - Ruthenium (Ru): 4.0 g \n - Terbium Oxide (Tb2O3): 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium Oxide: Available from chemical supply companies like Sigma-Aldrich or Alfa Aesar. \n - Ruthenium: Obtain from specialized metal suppliers. \n - Terbium Oxide: Sourced from rare earth material suppliers. \n - Oxygen: Use high-purity gas cylinders from gas suppliers.",
+      "steps": [
+        "- Erbium Oxide: Available from chemical supply companies like Sigma-Aldrich or Alfa Aesar.",
+        "- Ruthenium: Obtain from specialized metal suppliers.",
+        "- Terbium Oxide: Sourced from rare earth material suppliers.",
+        "- Oxygen: Use high-purity gas cylinders from gas suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of each material on an analytical balance.",
+        "2. In a clean, dry container, mix Erbium Oxide, Ruthenium, and Terbium Oxide thoroughly using a spatula.",
+        "3. Gradually add the measured oxygen, ensuring even distribution within the mixture."
+      ],
+      "raw_text": "1. Weigh the required amounts of each material on an analytical balance. \n 2. In a clean, dry container, mix Erbium Oxide, Ruthenium, and Terbium Oxide thoroughly using a spatula. \n 3. Gradually add the measured oxygen, ensuring even distribution within the mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and formation of the solid sample."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and formation of the solid sample."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 4-6 hours.",
+        "2. Do not open the furnace door during the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 4-6 hours. \n 2. Do not open the furnace door during the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or defects.",
+        "3. If necessary, sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable clear coat for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any irregularities or defects. \n 3. If necessary, sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable clear coat for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1458107.0,
+      "density": 6351.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -719333.0,
+      "formation_energy_per_atom": -7089.0,
+      "decomposition_energy_per_atom": -1129.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -1242.0,
+      "decomposition_energy_mp_oqmd": -105.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e801d3b6a8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.815591Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Sc3Si2Tc3.json",
+      "material://Ge1Sc3Si2Tc3"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "B6Ba1Co1Ni11",
+  "uri": "material://B6Ba1Co1Ni11",
+  "composition": {
+    "formula": "B6Ba1Co1Ni11",
+    "elements": {
+      "B": 6,
+      "Ba": 1,
+      "Co": 1,
+      "Ni": 11
+    },
+    "reduced_formula": "BaCoNi11B6",
+    "element_list": [
+      "B",
+      "Co",
+      "Ni",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "grams"
+        }
+      ],
+      "raw_text": "B: 6 grams (Boron), Ba: 1 gram (Barium), Co: 1 gram (Cobalt), Ni: 11 grams (Nickel)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Chemical supply store, Barium: Chemical supply store, Cobalt: Metal supplier, Nickel: Metal supplier",
+      "steps": [
+        "Boron: Chemical supply store, Barium: Chemical supply store, Cobalt: Metal supplier, Nickel: Metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 6g of Boron and place in a clean, dry mixing container."
+      ],
+      "raw_text": "1. Measure 6g of Boron and place in a clean, dry mixing container."
+    },
+    "heating": {
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approx. 2-3 hours)."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approx. 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2010779.0,
+      "density": 74881.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1185353.0,
+      "formation_energy_per_atom": -3079.0,
+      "decomposition_energy_per_atom": -15.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1318805dd7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:40.719204Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Ba1Co1Ni11.json",
+      "material://B6Ba1Co1Ni11"
+    ]
+  }
+}

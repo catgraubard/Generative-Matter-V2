@@ -1,0 +1,130 @@
+{
+  "id": "Co1Fe3Nb16Te16",
+  "uri": "material://Co1Fe3Nb16Te16",
+  "composition": {
+    "formula": "Co1Fe3Nb16Te16",
+    "elements": {
+      "Co": 1,
+      "Fe": 3,
+      "Nb": 16,
+      "Te": 16
+    },
+    "reduced_formula": "Nb16Fe3CoTe16",
+    "element_list": [
+      "Fe",
+      "Co",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 15.0 g \n Fe: 45.0 g \n Nb: 240.0 g \n Te: 240.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or chemical supply stores \n Fe: Metal suppliers or bulk chemical suppliers \n Nb: Specialty metal suppliers or online marketplaces \n Te: Chemical supply stores or online chemical suppliers",
+      "steps": [
+        "Co: Metal suppliers or chemical supply stores",
+        "Fe: Metal suppliers or bulk chemical suppliers",
+        "Nb: Specialty metal suppliers or online marketplaces",
+        "Te: Chemical supply stores or online chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15.0 g of Co, 45.0 g of Fe, 240.0 g of Nb, and 240.0 g of Te using a precise digital scale.",
+        "2. Combine all the weighed materials in a clean, dry ceramic or glass mixing container.",
+        "3. Use a mortar and pestle or a high-energy ball mill to thoroughly mix the powders for at least 30 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out 15.0 g of Co, 45.0 g of Fe, 240.0 g of Nb, and 240.0 g of Te using a precise digital scale. \n 2. Combine all the weighed materials in a clean, dry ceramic or glass mixing container. \n 3. Use a mortar and pestle or a high-energy ball mill to thoroughly mix the powders for at least 30 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable high-temperature furnace or crucible.",
+        "2. Heat the mixture to 1200°C at a rate of 5°C per minute.",
+        "3. Maintain the temperature at 1200°C for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable high-temperature furnace or crucible. \n 2. Heat the mixture to 1200°C at a rate of 5°C per minute. \n 3. Maintain the temperature at 1200°C for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. If desired, use sandpaper (starting from 120 grit to 600 grit) to smooth the surfaces of the solid sample.",
+        "3. Optionally, apply a sealing agent to enhance durability, following the manufacturer's instructions for application and drying time."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. If desired, use sandpaper (starting from 120 grit to 600 grit) to smooth the surfaces of the solid sample. \n 3. Optionally, apply a sealing agent to enhance durability, following the manufacturer's instructions for application and drying time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9627347.0,
+      "density": 64759.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "1D"
+    },
+    "energetics": {
+      "corrected_energy": -2669892.0,
+      "formation_energy_per_atom": -6266.0,
+      "decomposition_energy_per_atom": -141.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -132.0,
+      "decomposition_energy_mp_oqmd": -128.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0d4edca903",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:33.110697Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe3Nb16Te16.json",
+      "material://Co1Fe3Nb16Te16"
+    ]
+  }
+}

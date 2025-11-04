@@ -1,0 +1,115 @@
+{
+  "id": "B16Mo4Tm2Y2",
+  "uri": "material://B16Mo4Tm2Y2",
+  "composition": {
+    "formula": "B16Mo4Tm2Y2",
+    "elements": {
+      "B": 16,
+      "Mo": 4,
+      "Tm": 2,
+      "Y": 2
+    },
+    "reduced_formula": "YTm(B4Mo)2",
+    "element_list": [
+      "B",
+      "Y",
+      "Mo",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 2000.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 2000 g, 16Mo: 500 g, 4Tm: 300 g, 2Y: 100 g"
+    },
+    "sourcing": {
+      "instructions": "B: Local metal supplier; 16Mo: Industrial metallurgist; 4Tm: Specialty alloy store; 2Y: Chemical supplier",
+      "steps": [
+        "B: Local metal supplier; 16Mo: Industrial metallurgist; 4Tm: Specialty alloy store; 2Y: Chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material on a precision scale.",
+        "2. In a clean, dry mixing bowl, combine 2000 g of B, 500 g of 16Mo, 300 g of 4Tm, and 100 g of 2Y.",
+        "3. Use a mechanical mixer to blend the powders for 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each material on a precision scale. \n 2. In a clean, dry mixing bowl, combine 2000 g of B, 500 g of 16Mo, 300 g of 4Tm, and 100 g of 2Y. \n 3. Use a mechanical mixer to blend the powders for 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 10°C per minute.",
+        "4. Maintain the temperature for 2 hours to allow for complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 10°C per minute. \n 4. Maintain the temperature for 2 hours to allow for complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to 800°C.",
+        "2. Once at 800°C, remove the crucible and place it in an insulated heat-resistant container.",
+        "3. Allow to cool to room temperature over 8 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to 800°C. \n 2. Once at 800°C, remove the crucible and place it in an insulated heat-resistant container. \n 3. Allow to cool to room temperature over 8 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. Use a metal file or grinder to smooth out any rough edges.",
+        "4. Optionally, seal the surface with a suitable metal sealant for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. Use a metal file or grinder to smooth out any rough edges. \n 4. Optionally, seal the surface with a suitable metal sealant for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2527934.0,
+      "density": 70444.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -187254.0,
+      "formation_energy_per_atom": -6299.0,
+      "decomposition_energy_per_atom": -25.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -174.0
+    },
+    "electronic": {
+      "bandgap": 0.3577,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "07c5d36959",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:25.348795Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B16Mo4Tm2Y2.json",
+      "material://B16Mo4Tm2Y2"
+    ]
+  }
+}

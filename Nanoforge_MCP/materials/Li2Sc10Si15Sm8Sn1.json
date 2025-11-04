@@ -1,0 +1,113 @@
+{
+  "id": "Li2Sc10Si15Sm8Sn1",
+  "uri": "material://Li2Sc10Si15Sm8Sn1",
+  "composition": {
+    "formula": "Li2Sc10Si15Sm8Sn1",
+    "elements": {
+      "Li": 2,
+      "Sc": 10,
+      "Si": 15,
+      "Sm": 8,
+      "Sn": 1
+    },
+    "reduced_formula": "Li2Sm8Sc10Si15Sn",
+    "element_list": [
+      "Li",
+      "Si",
+      "Sc",
+      "Sn",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 30 g, Cu: 20 g, Ru: 15 g, Sc: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Chemical supply stores or online chemical suppliers; Cu: Metal supply stores or online; Ru: Precious metal suppliers; Sc: Specialty chemical suppliers.",
+      "steps": [
+        "Cd: Chemical supply stores or online chemical suppliers; Cu: Metal supply stores or online; Ru: Precious metal suppliers; Sc: Specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry environment, combine Cd, Cu, Ru, and Sc in a mixing bowl.",
+        "3. Use a mortar and pestle to grind the mixture until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale.\n2. In a clean, dry environment, combine Cd, Cu, Ru, and Sc in a mixing bowl.\n3. Use a mortar and pestle to grind the mixture until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1000°C and maintain for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a suitable crucible.\n2. Place the crucible in a furnace.\n3. Heat to 1000°C and maintain for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth edges and surfaces.",
+        "3. Optionally, apply a protective sealant for enhanced durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Use a diamond file to smooth edges and surfaces.\n3. Optionally, apply a protective sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 762158.0,
+      "density": 4807.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2176492.0,
+      "formation_energy_per_atom": -7602.0,
+      "decomposition_energy_per_atom": 0.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": 2.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d7a362479a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.379805Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Sc10Si15Sm8Sn1.json",
+      "material://Li2Sc10Si15Sm8Sn1"
+    ]
+  }
+}

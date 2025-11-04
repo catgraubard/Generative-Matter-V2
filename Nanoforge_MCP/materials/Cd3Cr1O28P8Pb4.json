@@ -1,0 +1,140 @@
+{
+  "id": "Cd3Cr1O28P8Pb4",
+  "uri": "material://Cd3Cr1O28P8Pb4",
+  "composition": {
+    "formula": "Cd3Cr1O28P8Pb4",
+    "elements": {
+      "Cd": 3,
+      "Cr": 1,
+      "O": 28,
+      "P": 8,
+      "Pb": 4
+    },
+    "reduced_formula": "CrCd3P8(PbO7)4",
+    "element_list": [
+      "O",
+      "P",
+      "Cr",
+      "Cd",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10 g \n Ga: 4 g \n K: 1 g \n Rb: 1 g \n Te: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich) \n Ga: Obtain from a semiconductor supplier \n K: Source from a chemical vendor \n Rb: Available from a chemical supply store \n Te: Procure from a specialized materials provider",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich)",
+        "Ga: Obtain from a semiconductor supplier",
+        "K: Source from a chemical vendor",
+        "Rb: Available from a chemical supply store",
+        "Te: Procure from a specialized materials provider"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Gather all materials in a clean, dry environment.",
+        "2. Use an analytical balance to weigh each ingredient with precision.",
+        "3. In a clean ceramic or glass container, combine Cs, Ga, K, Rb, and Te in the specified amounts.",
+        "4. Stir the mixture thoroughly with a glass rod or spatula until uniform."
+      ],
+      "raw_text": "1. Gather all materials in a clean, dry environment. \n 2. Use an analytical balance to weigh each ingredient with precision. \n 3. In a clean ceramic or glass container, combine Cs, Ga, K, Rb, and Te in the specified amounts. \n 4. Stir the mixture thoroughly with a glass rod or spatula until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed materials into a high-temperature furnace.",
+        "2. Heat the mixture to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a high-temperature furnace. \n 2. Heat the mixture to 800 °C at a rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool slowly to room temperature inside the furnace (~4 hours).",
+        "2. Once cooled, safely remove the sample from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool slowly to room temperature inside the furnace (~4 hours). \n 2. Once cooled, safely remove the sample from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the cooled sample for uniformity and integrity.",
+        "2. If necessary, use a fine-grit sandpaper to smooth out any rough edges.",
+        "3. Optionally, seal the surface with a protective coating if required for your application."
+      ],
+      "raw_text": "1. Inspect the cooled sample for uniformity and integrity. \n 2. If necessary, use a fine-grit sandpaper to smooth out any rough edges. \n 3. Optionally, seal the surface with a protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 44,
+      "volume": 6335666.0,
+      "density": 5016.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3155247.0,
+      "formation_energy_per_atom": -24183.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -117.0,
+      "decomposition_energy_mp": -132.0,
+      "decomposition_energy_mp_oqmd": -131.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e2fcff2e8f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.456552Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd3Cr1O28P8Pb4.json",
+      "material://Cd3Cr1O28P8Pb4"
+    ]
+  }
+}

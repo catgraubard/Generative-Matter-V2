@@ -1,0 +1,132 @@
+{
+  "id": "Si4Tm1W4Zr3",
+  "uri": "material://Si4Tm1W4Zr3",
+  "composition": {
+    "formula": "Si4Tm1W4Zr3",
+    "elements": {
+      "Si": 4,
+      "Tm": 1,
+      "W": 4,
+      "Zr": 3
+    },
+    "reduced_formula": "TmZr3(SiW)4",
+    "element_list": [
+      "Si",
+      "Zr",
+      "Tm",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 150.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 200 g \n Tm: 50 g \n W: 200 g \n Zr: 150 g"
+    },
+    "sourcing": {
+      "instructions": "Si: Silicon powder can be sourced from chemical supply companies or online retailers. \n Tm: Thulium can be found at specialized metal suppliers or elemental suppliers. \n W: Tungsten powder is available from metal suppliers or specialty chemical vendors. \n Zr: Zirconium powder can be sourced from chemical supply companies or online marketplaces.",
+      "steps": [
+        "Si: Silicon powder can be sourced from chemical supply companies or online retailers.",
+        "Tm: Thulium can be found at specialized metal suppliers or elemental suppliers.",
+        "W: Tungsten powder is available from metal suppliers or specialty chemical vendors.",
+        "Zr: Zirconium powder can be sourced from chemical supply companies or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the precise amounts of each ingredient using a digital scale.",
+        "2. In a clean, dry mixing container, combine the Si, Tm, W, and Zr powders.",
+        "3. Mix thoroughly using a spatula or powder mixer for at least 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powder into a ball mill and mill for an additional 30 minutes to achieve a fine homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out the precise amounts of each ingredient using a digital scale. \n 2. In a clean, dry mixing container, combine the Si, Tm, W, and Zr powders. \n 3. Mix thoroughly using a spatula or powder mixer for at least 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powder into a ball mill and mill for an additional 30 minutes to achieve a fine homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1500°C.",
+        "2. Place the milled powder mixture into a suitable crucible made of a non-reactive material (e.g., alumina).",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate reaction and consolidation."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1500°C. \n 2. Place the milled powder mixture into a suitable crucible made of a non-reactive material (e.g., alumina). \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate reaction and consolidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches) if necessary.",
+        "3. If surface imperfections are present, sand the edges and surfaces with fine-grit sandpaper (500-grit) for a smooth finish.",
+        "4. Optionally, seal the surface with a clear protective coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches) if necessary. \n 3. If surface imperfections are present, sand the edges and surfaces with fine-grit sandpaper (500-grit) for a smooth finish. \n 4. Optionally, seal the surface with a clear protective coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2083404.0,
+      "density": 102842.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1109755.0,
+      "formation_energy_per_atom": -6102.0,
+      "decomposition_energy_per_atom": -313.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -87.0,
+      "decomposition_energy_mp": -304.0,
+      "decomposition_energy_mp_oqmd": -119.0
+    },
+    "electronic": {
+      "bandgap": 0.018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a41eeb7b19",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:51.631865Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si4Tm1W4Zr3.json",
+      "material://Si4Tm1W4Zr3"
+    ]
+  }
+}

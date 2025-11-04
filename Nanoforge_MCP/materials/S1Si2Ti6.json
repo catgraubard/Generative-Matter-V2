@@ -1,0 +1,111 @@
+{
+  "id": "S1Si2Ti6",
+  "uri": "material://S1Si2Ti6",
+  "composition": {
+    "formula": "S1Si2Ti6",
+    "elements": {
+      "S": 1,
+      "Si": 2,
+      "Ti": 6
+    },
+    "reduced_formula": "Ti6Si2S",
+    "element_list": [
+      "Si",
+      "S",
+      "Ti"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cobalt (Co): 30.0 g \n - Indium (In): 45.0 g \n - Terbium (Tb): 25.0 g \n - Oxygen (O): 0.0 g (as it will be incorporated during synthesis)"
+    },
+    "sourcing": {
+      "instructions": "- Cobalt: Obtain from a chemical supplier or metal alloy distributor. \n - Indium: Purchase from a specialized metal supplier or online chemical store. \n - Terbium: Source from rare earth metal suppliers or online markets.",
+      "steps": [
+        "- Cobalt: Obtain from a chemical supplier or metal alloy distributor.",
+        "- Indium: Purchase from a specialized metal supplier or online chemical store.",
+        "- Terbium: Source from rare earth metal suppliers or online markets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 30.0 g of cobalt powder.",
+        "2. Measure 45.0 g of indium powder.",
+        "3. Measure 25.0 g of terbium powder.",
+        "4. Combine all measured powders in a clean, dry ceramic or glass container.",
+        "5. Mix the powders thoroughly using a spatula or mechanical mixer to achieve a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure 30.0 g of cobalt powder. \n 2. Measure 45.0 g of indium powder. \n 3. Measure 25.0 g of terbium powder. \n 4. Combine all measured powders in a clean, dry ceramic or glass container. \n 5. Mix the powders thoroughly using a spatula or mechanical mixer to achieve a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1000 °C (1832 °F) at a rate of 5 °C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction and formation of Co2In3Tb4."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1000 °C (1832 °F) at a rate of 5 °C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction and formation of Co2In3Tb4."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool gradually to room temperature inside the furnace (approx. 6-8 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool gradually to room temperature inside the furnace (approx. 6-8 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Extract the solidified Co2In3Tb4 material carefully.",
+        "3. Use a diamond file or sandpaper to smooth the edges and surface of the sample.",
+        "4. Optionally, apply a sealant to enhance the durability of the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Extract the solidified Co2In3Tb4 material carefully. \n 3. Use a diamond file or sandpaper to smooth the edges and surface of the sample. \n 4. Optionally, apply a sealant to enhance the durability of the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1367183.0,
+      "density": 456.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -702515.0,
+      "formation_energy_per_atom": -8768.0,
+      "decomposition_energy_per_atom": -181.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -127.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": -179.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb78688729",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.657982Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/S1Si2Ti6.json",
+      "material://S1Si2Ti6"
+    ]
+  }
+}

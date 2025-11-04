@@ -1,0 +1,113 @@
+{
+  "id": "As2Be1Si9Ti20",
+  "uri": "material://As2Be1Si9Ti20",
+  "composition": {
+    "formula": "As2Be1Si9Ti20",
+    "elements": {
+      "As": 2,
+      "Be": 1,
+      "Si": 9,
+      "Ti": 20
+    },
+    "reduced_formula": "Ti20BeSi9As2",
+    "element_list": [
+      "Be",
+      "Si",
+      "Ti",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "K2Se (Potassium Selenide): 10.00 g \n Na2 (Sodium): 3.00 g \n Rb2 (Rubidium): 4.00 g \n Sn (Tin): 6.00 g \n Total: 23.00 g"
+    },
+    "sourcing": {
+      "instructions": "K2Se: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich). \n Na2: Metal suppliers or chemical supply stores. \n Rb2: Specialized metal suppliers. \n Sn: Hardware stores or online metal suppliers.",
+      "steps": [
+        "K2Se: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich).",
+        "Na2: Metal suppliers or chemical supply stores.",
+        "Rb2: Specialized metal suppliers.",
+        "Sn: Hardware stores or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, mask).",
+        "2. Weigh out each ingredient precisely using a digital scale.",
+        "3. In a clean glass container, combine K2Se, Na2, Rb2, and Sn.",
+        "4. Mix the powders thoroughly using a spatula or mortar and pestle until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, mask). \n 2. Weigh out each ingredient precisely using a digital scale. \n 3. In a clean glass container, combine K2Se, Na2, Rb2, and Sn. \n 4. Mix the powders thoroughly using a spatula or mortar and pestle until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and fusion."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This should take approximately 4-6 hours to avoid thermal shock and cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This should take approximately 4-6 hours to avoid thermal shock and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or irregularities.",
+        "3. Use sandpaper or a file to smooth out the surface as needed.",
+        "4. Optionally, apply a sealant or protective coating if required for your application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges or irregularities. \n 3. Use sandpaper or a file to smooth out the surface as needed. \n 4. Optionally, apply a sealant or protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4956623.0,
+      "density": 45862.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2433706.0,
+      "formation_energy_per_atom": -7367.0,
+      "decomposition_energy_per_atom": -148.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -145.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 0.0065,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc0b2230fb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.781136Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2Be1Si9Ti20.json",
+      "material://As2Be1Si9Ti20"
+    ]
+  }
+}

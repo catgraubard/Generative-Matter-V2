@@ -1,0 +1,136 @@
+{
+  "id": "B4Fe1In3Ni4O16",
+  "uri": "material://B4Fe1In3Ni4O16",
+  "composition": {
+    "formula": "B4Fe1In3Ni4O16",
+    "elements": {
+      "B": 4,
+      "Fe": 1,
+      "In": 3,
+      "Ni": 4,
+      "O": 16
+    },
+    "reduced_formula": "In3FeNi4(BO4)4",
+    "element_list": [
+      "B",
+      "O",
+      "Fe",
+      "Ni",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 7.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 28.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 56.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 52.0 g (Boron) \n Fe: 7.0 g (Iron) \n In: 15.0 g (Indium) \n Ni: 28.0 g (Nickel) \n O: 56.0 g (Oxygen - from Oxide sources, e.g., NiO, Fe2O3, In2O3, B2O3)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Chemical supply stores or online suppliers \n Iron: Metal supply shops or online distributors \n Indium: Specialty metal suppliers or online platforms \n Nickel: Metal supply stores or online suppliers \n Oxygen: Purchase as oxides from chemical suppliers (NiO, Fe2O3, In2O3, B2O3)",
+      "steps": [
+        "Boron: Chemical supply stores or online suppliers",
+        "Iron: Metal supply shops or online distributors",
+        "Indium: Specialty metal suppliers or online platforms",
+        "Nickel: Metal supply stores or online suppliers",
+        "Oxygen: Purchase as oxides from chemical suppliers (NiO, Fe2O3, In2O3, B2O3)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Grind the B, Fe, In, Ni, and O materials separately using a mortar and pestle or ball mill until fine powders are achieved.",
+        "3. Combine the powders in a clean container according to stoichiometric ratios to ensure the correct molar composition.",
+        "4. Mix the powders thoroughly using a spatula or mechanical mixer to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Grind the B, Fe, In, Ni, and O materials separately using a mortar and pestle or ball mill until fine powders are achieved. \n 3. Combine the powders in a clean container according to stoichiometric ratios to ensure the correct molar composition. \n 4. Mix the powders thoroughly using a spatula or mechanical mixer to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 1200°C at a rate of 5°C per minute.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction and formation of the solid phase."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 1200°C at a rate of 5°C per minute. \n 4. Maintain the temperature for 4 hours to ensure complete reaction and formation of the solid phase."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (around 25°C) over a period of 6-8 hours.",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (around 25°C) over a period of 6-8 hours. \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully to avoid breaking it.",
+        "2. Inspect the sample for any imperfections or cracks.",
+        "3. If necessary, sand down rough edges using 400-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the sample with a clear acrylic lacquer for protection against environmental factors."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully to avoid breaking it. \n 2. Inspect the sample for any imperfections or cracks. \n 3. If necessary, sand down rough edges using 400-grit sandpaper for a smooth finish. \n 4. Optionally, seal the sample with a clear acrylic lacquer for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 2817257.0,
+      "density": 5507.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2040489.0,
+      "formation_energy_per_atom": -20828.0,
+      "decomposition_energy_per_atom": -5.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -11.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9ea2f656be",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:44.162983Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Fe1In3Ni4O16.json",
+      "material://B4Fe1In3Ni4O16"
+    ]
+  }
+}

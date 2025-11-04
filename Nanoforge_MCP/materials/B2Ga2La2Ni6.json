@@ -1,0 +1,113 @@
+{
+  "id": "B2Ga2La2Ni6",
+  "uri": "material://B2Ga2La2Ni6",
+  "composition": {
+    "formula": "B2Ga2La2Ni6",
+    "elements": {
+      "B": 2,
+      "Ga": 2,
+      "La": 2,
+      "Ni": 6
+    },
+    "reduced_formula": "LaGaNi3B",
+    "element_list": [
+      "B",
+      "Ni",
+      "Ga",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 16.00 g, Nd: 4.00 g, P: 12.00 g, Tb: 2.00 g, W: 2.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Nd: Rare earth material suppliers; P: Chemical supply stores; Tb: Specialty metal suppliers; W: Metal supply companies.",
+      "steps": [
+        "Co: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Nd: Rare earth material suppliers; P: Chemical supply stores; Tb: Specialty metal suppliers; W: Metal supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using a digital scale.",
+        "2. Combine Co, Nd, P, Tb, and W in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to ensure thorough mixing of the powders for 10 minutes."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using a digital scale.\n2. Combine Co, Nd, P, Tb, and W in a clean, dry mixing container.\n3. Use a mechanical mixer or mortar and pestle to ensure thorough mixing of the powders for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Transfer the mixed powders into a graphite crucible.",
+        "3. Place the crucible in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F).\n2. Transfer the mixed powders into a graphite crucible.\n3. Place the crucible in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Avoid opening the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).\n2. Avoid opening the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the sample to cool for an additional hour outside the crucible.",
+        "3. Grind the solid sample using a diamond grinding wheel to achieve a smooth finish and desired dimensions (3 in x 2 in x 7 in).",
+        "4. Clean the sample with isopropyl alcohol to remove any residual powders."
+      ],
+      "raw_text": "1. Carefully remove the crucible from the furnace using heat-resistant gloves.\n2. Allow the sample to cool for an additional hour outside the crucible.\n3. Grind the solid sample using a diamond grinding wheel to achieve a smooth finish and desired dimensions (3 in x 2 in x 7 in).\n4. Clean the sample with isopropyl alcohol to remove any residual powders."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1683342.0,
+      "density": 78032.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -699357.0,
+      "formation_energy_per_atom": -4973.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -43.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -78.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "df07733b09",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.466981Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Ga2La2Ni6.json",
+      "material://B2Ga2La2Ni6"
+    ]
+  }
+}

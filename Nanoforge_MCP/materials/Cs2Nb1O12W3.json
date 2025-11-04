@@ -1,0 +1,114 @@
+{
+  "id": "Cs2Nb1O12W3",
+  "uri": "material://Cs2Nb1O12W3",
+  "composition": {
+    "formula": "Cs2Nb1O12W3",
+    "elements": {
+      "Cs": 2,
+      "Nb": 1,
+      "O": 12,
+      "W": 3
+    },
+    "reduced_formula": "Cs2Nb(WO4)3",
+    "element_list": [
+      "O",
+      "Nb",
+      "Cs",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.0 g (Cesium carbonate), Nb: 20.0 g (Niobium oxide), W: 34.5 g (Tungsten oxide), O: 15.0 g (Oxygen source, e.g., hydrogen peroxide or distilled water)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Available from chemical supply companies (e.g., Sigma-Aldrich); Nb: Obtain from specialty metallurgical suppliers; W: Purchase from chemical suppliers; O: Obtain from laboratory supply stores.",
+      "steps": [
+        "Cs: Available from chemical supply companies (e.g., Sigma-Aldrich); Nb: Obtain from specialty metallurgical suppliers; W: Purchase from chemical suppliers; O: Obtain from laboratory supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12.0 g of Cs, 20.0 g of Nb, and 34.5 g of W using an analytical balance.",
+        "2. Combine the Cs, Nb, and W in a clean ceramic or glass container.",
+        "3. Add 15.0 g of O to the mixture, ensuring it is well distributed.",
+        "4. Use a mortar and pestle to grind the mixture into a fine powder for 10-15 minutes."
+      ],
+      "raw_text": "1. Weigh out 12.0 g of Cs, 20.0 g of Nb, and 34.5 g of W using an analytical balance. \n 2. Combine the Cs, Nb, and W in a clean ceramic or glass container. \n 3. Add 15.0 g of O to the mixture, ensuring it is well distributed. \n 4. Use a mortar and pestle to grind the mixture into a fine powder for 10-15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the mixed powder in a crucible and insert it into the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the mixed powder in a crucible and insert it into the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the material for cracks or imperfections.",
+        "3. If needed, sand the edges to achieve desired dimensions and smoothness.",
+        "4. Seal the surface with a suitable ceramic sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the material for cracks or imperfections. \n 3. If needed, sand the edges to achieve desired dimensions and smoothness. \n 4. Seal the surface with a suitable ceramic sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2943081.0,
+      "density": 6219.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1544104.0,
+      "formation_energy_per_atom": -24594.0,
+      "decomposition_energy_per_atom": -278.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -283.0,
+      "decomposition_energy_mp_oqmd": -45.0
+    },
+    "electronic": {
+      "bandgap": 1.8493,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1bac88b738",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.916333Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Nb1O12W3.json",
+      "material://Cs2Nb1O12W3"
+    ]
+  }
+}

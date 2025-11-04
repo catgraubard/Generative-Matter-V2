@@ -1,0 +1,142 @@
+{
+  "id": "Al24Cu3Er6Mn3Ru2",
+  "uri": "material://Al24Cu3Er6Mn3Ru2",
+  "composition": {
+    "formula": "Al24Cu3Er6Mn3Ru2",
+    "elements": {
+      "Al": 24,
+      "Cu": 3,
+      "Er": 6,
+      "Mn": 3,
+      "Ru": 2
+    },
+    "reduced_formula": "Er6Mn3Al24Cu3Ru2",
+    "element_list": [
+      "Al",
+      "Mn",
+      "Cu",
+      "Ru",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 80 g \n Fe: 40 g \n Ga: 80 g \n Mn: 40 g \n V: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online from suppliers like Alfa Aesar. \n Fe: Obtain from metal supply stores or online sources. \n Ga: Available from specialty chemical suppliers. \n Mn: Can be sourced from metal suppliers. \n V: Purchase from chemical supply companies.",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online from suppliers like Alfa Aesar.",
+        "Fe: Obtain from metal supply stores or online sources.",
+        "Ga: Available from specialty chemical suppliers.",
+        "Mn: Can be sourced from metal suppliers.",
+        "V: Purchase from chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Co, Fe, Ga, Mn, and V.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powdered mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of Co, Fe, Ga, Mn, and V. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Transfer the powdered mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the ceramic crucible with the mixture in the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the ceramic crucible with the mixture in the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down gradually to room temperature (approximately 20°C).",
+        "2. This process should take about 8 hours.",
+        "3. Do not open the furnace until it has completely cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down gradually to room temperature (approximately 20°C). \n 2. This process should take about 8 hours. \n 3. Do not open the furnace until it has completely cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use sandpaper (120-grit) to smooth the surfaces.",
+        "4. Optionally, apply a protective sealant to enhance durability.",
+        "5. Store the final sample in a dry, controlled environment."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Inspect for any rough edges or imperfections. \n 3. Use sandpaper (120-grit) to smooth the surfaces. \n 4. Optionally, apply a protective sealant to enhance durability. \n 5. Store the final sample in a dry, controlled environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6251024.0,
+      "density": 58673.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1938144.0,
+      "formation_energy_per_atom": -4785.0,
+      "decomposition_energy_per_atom": -18.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": -51.0
+    },
+    "electronic": {
+      "bandgap": 0.0061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b59865ce29",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.166271Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al24Cu3Er6Mn3Ru2.json",
+      "material://Al24Cu3Er6Mn3Ru2"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "Hg1In8Pr6S1",
+  "uri": "material://Hg1In8Pr6S1",
+  "composition": {
+    "formula": "Hg1In8Pr6S1",
+    "elements": {
+      "Hg": 1,
+      "In": 8,
+      "Pr": 6,
+      "S": 1
+    },
+    "reduced_formula": "Pr6In8HgS",
+    "element_list": [
+      "S",
+      "In",
+      "Pr",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 5.0 g \n Na: 10.0 g \n P: 15.0 g \n Rb: 12.0 g \n Si: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Specialty metals supplier \n Na: Chemical supply store \n P: Chemical supply store \n Rb: Specialty metals supplier \n Si: Silicon supplier",
+      "steps": [
+        "Ge: Specialty metals supplier",
+        "Na: Chemical supply store",
+        "P: Chemical supply store",
+        "Rb: Specialty metals supplier",
+        "Si: Silicon supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Ge, Na, P, Rb, and Si.",
+        "3. Use a spatula or a mechanical mixer to thoroughly mix the ingredients until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine Ge, Na, P, Rb, and Si. \n 3. Use a spatula or a mechanical mixer to thoroughly mix the ingredients until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a suitable crucible.",
+        "2. Place the crucible in a furnace or high-temperature oven.",
+        "3. Heat the mixture to 1200°C for 2 hours to ensure complete fusion of the components."
+      ],
+      "raw_text": "1. Transfer the mixed material into a suitable crucible. \n 2. Place the crucible in a furnace or high-temperature oven. \n 3. Heat the mixture to 1200°C for 2 hours to ensure complete fusion of the components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled down to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has cooled down to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand the edges and surfaces for a smoother finish using fine-grit sandpaper.",
+        "4. Optionally, apply a protective sealant if the material will be exposed to environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand the edges and surfaces for a smoother finish using fine-grit sandpaper. \n 4. Optionally, apply a protective sealant if the material will be exposed to environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4460887.0,
+      "density": 74324.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/m",
+      "space_group_number": 87,
+      "point_group": "4/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -670506.0,
+      "formation_energy_per_atom": -7445.0,
+      "decomposition_energy_per_atom": -224.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -138.0,
+      "decomposition_energy_mp": -224.0,
+      "decomposition_energy_mp_oqmd": -138.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba75258c33",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.423987Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg1In8Pr6S1.json",
+      "material://Hg1In8Pr6S1"
+    ]
+  }
+}

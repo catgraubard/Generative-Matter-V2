@@ -1,0 +1,122 @@
+{
+  "id": "Te8Ti3V2",
+  "uri": "material://Te8Ti3V2",
+  "composition": {
+    "formula": "Te8Ti3V2",
+    "elements": {
+      "Te": 8,
+      "Ti": 3,
+      "V": 2
+    },
+    "reduced_formula": "Ti3(VTe4)2",
+    "element_list": [
+      "Ti",
+      "V",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 80 g \n Pb: 160 g \n Sc: 120 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum) - Purchase from a reputable chemical supplier or online store specializing in rare earth metals. \n Pb (Lead) - Obtain from a chemical supply store or metal supplier, ensuring safety precautions due to toxicity. \n Sc (Scandium) - Available from specialized metal suppliers or online platforms that sell rare metals.",
+      "steps": [
+        "La (Lanthanum) - Purchase from a reputable chemical supplier or online store specializing in rare earth metals.",
+        "Pb (Lead) - Obtain from a chemical supply store or metal supplier, ensuring safety precautions due to toxicity.",
+        "Sc (Scandium) - Available from specialized metal suppliers or online platforms that sell rare metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 80 g of La, 160 g of Pb, and 120 g of Sc using a precision scale.",
+        "2. In a clean, dry environment, combine the measured La, Pb, and Sc in a mixing container.",
+        "3. Use a mechanical mixer to blend the materials thoroughly for 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Measure 80 g of La, 160 g of Pb, and 120 g of Sc using a precision scale.\n 2. In a clean, dry environment, combine the measured La, Pb, and Sc in a mixing container. \n 3. Use a mechanical mixer to blend the materials thoroughly for 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace and set the temperature to 1200°C.",
+        "3. Allow the materials to fuse for 2 hours, monitoring the temperature throughout the process."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace and set the temperature to 1200°C. \n 3. Allow the materials to fuse for 2 hours, monitoring the temperature throughout the process."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not attempt to remove the crucible while it is still hot to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not attempt to remove the crucible while it is still hot to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the surface for any roughness and use a fine-grit sandpaper to smooth out imperfections.",
+        "3. Seal the surface with a protective coating suitable for metal to enhance durability and prevent oxidation. Allow the sealant to cure according to the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the surface for any roughness and use a fine-grit sandpaper to smooth out imperfections. \n 3. Seal the surface with a protective coating suitable for metal to enhance durability and prevent oxidation. Allow the sealant to cure according to the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 3297553.0,
+      "density": 63766.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -779075.0,
+      "formation_energy_per_atom": -839.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": 8.0,
+      "decomposition_energy_mp_oqmd": 8.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa8042e10c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:01.608268Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Te8Ti3V2.json",
+      "material://Te8Ti3V2"
+    ]
+  }
+}

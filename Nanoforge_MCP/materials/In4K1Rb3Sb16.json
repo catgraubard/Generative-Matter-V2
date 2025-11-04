@@ -1,0 +1,130 @@
+{
+  "id": "In4K1Rb3Sb16",
+  "uri": "material://In4K1Rb3Sb16",
+  "composition": {
+    "formula": "In4K1Rb3Sb16",
+    "elements": {
+      "In": 4,
+      "K": 1,
+      "Rb": 3,
+      "Sb": 16
+    },
+    "reduced_formula": "KRb3(InSb4)4",
+    "element_list": [
+      "K",
+      "Rb",
+      "In",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 110.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 50 g \n Nd: 110 g \n Sn: 160 g \n Tb: 40 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supply company or online supplier specializing in rare earth metals. \n Nd: Same as above. \n Sn: Obtain from metal suppliers or online stores. \n Tb: Source from a chemical supply company.",
+      "steps": [
+        "La: Purchase from a chemical supply company or online supplier specializing in rare earth metals.",
+        "Nd: Same as above.",
+        "Sn: Obtain from metal suppliers or online stores.",
+        "Tb: Source from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a digital scale for accuracy.",
+        "2. Place La, Nd, Sn, and Tb in a clean, dry mixing container.",
+        "3. Stir the mixture thoroughly with a non-reactive stirrer for 5 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient using a digital scale for accuracy. \n 2. Place La, Nd, Sn, and Tb in a clean, dry mixing container. \n 3. Stir the mixture thoroughly with a non-reactive stirrer for 5 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace or high-temperature oven to 1000°C.",
+        "3. Maintain this temperature for 2 hours to allow for proper alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace or high-temperature oven to 1000°C. \n 3. Maintain this temperature for 2 hours to allow for proper alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature slowly (approximately 4-6 hours) to prevent cracking or other structural issues."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature slowly (approximately 4-6 hours) to prevent cracking or other structural issues."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a belt sander or grinding tool to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Clean the sample with a soft cloth to remove any dust or debris.",
+        "4. Optionally, apply a protective coating if the material is sensitive to oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a belt sander or grinding tool to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Clean the sample with a soft cloth to remove any dust or debris. \n 4. Optionally, apply a protective coating if the material is sensitive to oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 9153477.0,
+      "density": 49034.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -88908.0,
+      "formation_energy_per_atom": -3244.0,
+      "decomposition_energy_per_atom": -479.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -479.0,
+      "decomposition_energy_mp_oqmd": -425.0
+    },
+    "electronic": {
+      "bandgap": 0.2058,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b4a862e9b0",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.975570Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In4K1Rb3Sb16.json",
+      "material://In4K1Rb3Sb16"
+    ]
+  }
+}

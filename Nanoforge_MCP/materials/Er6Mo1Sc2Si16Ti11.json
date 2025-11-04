@@ -1,0 +1,117 @@
+{
+  "id": "Er6Mo1Sc2Si16Ti11",
+  "uri": "material://Er6Mo1Sc2Si16Ti11",
+  "composition": {
+    "formula": "Er6Mo1Sc2Si16Ti11",
+    "elements": {
+      "Er": 6,
+      "Mo": 1,
+      "Sc": 2,
+      "Si": 16,
+      "Ti": 11
+    },
+    "reduced_formula": "Er6Sc2Ti11Si16Mo",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ti",
+      "Mo",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 164.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 164.5 g, Ga: 48.5 g, Ge: 32.0 g, Nd: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: copper wire or sheets from metal suppliers; Ga: gallium from specialty chemical suppliers; Ge: germanium from semiconductor suppliers; Nd: neodymium from rare earth material suppliers.",
+      "steps": [
+        "Cu: copper wire or sheets from metal suppliers; Ga: gallium from specialty chemical suppliers; Ge: germanium from semiconductor suppliers; Nd: neodymium from rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. Cut Cu into small pieces (1cm x 1cm).",
+        "3. Ensure Ga is in liquid form; melt if solid.",
+        "4. Crush Ge into fine powder.",
+        "5. Prepare Nd as a fine powder.",
+        "6. Combine all materials in a clean, dry crucible."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. Cut Cu into small pieces (1cm x 1cm). \n 3. Ensure Ga is in liquid form; melt if solid. \n 4. Crush Ge into fine powder. \n 5. Prepare Nd as a fine powder. \n 6. Combine all materials in a clean, dry crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the crucible in the furnace and maintain temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the crucible in the furnace and maintain temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature, approximately 2-3 hours.",
+        "2. Ensure no rapid cooling occurs to avoid cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature, approximately 2-3 hours. \n 2. Ensure no rapid cooling occurs to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the surface to achieve a uniform finish using 120-grit sandpaper, followed by 220-grit.",
+        "3. Cure the sample in an inert atmosphere for 24 hours to enhance stability.",
+        "4. Seal with a clear coat if desired for protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Sand the surface to achieve a uniform finish using 120-grit sandpaper, followed by 220-grit. \n 3. Cure the sample in an inert atmosphere for 24 hours to enhance stability. \n 4. Seal with a clear coat if desired for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6225255.0,
+      "density": 57758.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2540812.0,
+      "formation_energy_per_atom": -8197.0,
+      "decomposition_energy_per_atom": -406.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -428.0,
+      "decomposition_energy_mp_oqmd": -427.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dbb1d813e4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.460962Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er6Mo1Sc2Si16Ti11.json",
+      "material://Er6Mo1Sc2Si16Ti11"
+    ]
+  }
+}

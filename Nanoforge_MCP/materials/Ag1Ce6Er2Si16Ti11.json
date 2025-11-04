@@ -1,0 +1,114 @@
+{
+  "id": "Ag1Ce6Er2Si16Ti11",
+  "uri": "material://Ag1Ce6Er2Si16Ti11",
+  "composition": {
+    "formula": "Ag1Ce6Er2Si16Ti11",
+    "elements": {
+      "Ag": 1,
+      "Ce": 6,
+      "Er": 2,
+      "Si": 16,
+      "Ti": 11
+    },
+    "reduced_formula": "Ce6Er2Ti11Si16Ag",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Ag",
+      "Ce",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "**CeO2 (Cerium(IV) oxide)**: 40 g \n **CsCl (Cesium chloride)**: 20 g \n **Hg (Mercury)**: 20 g \n **Se (Selenium)**: 30 g"
+    },
+    "sourcing": {
+      "instructions": "**CeO2**: Available from chemical suppliers such as Sigma-Aldrich or local chemical stores. \n **CsCl**: Obtain from chemical suppliers or online marketplaces specializing in laboratory chemicals. \n **Hg**: Procure from chemical suppliers, though handling regulations must be observed. \n **Se**: Available from chemical suppliers or specialized mining material suppliers.",
+      "steps": [
+        "**CeO2**: Available from chemical suppliers such as Sigma-Aldrich or local chemical stores.",
+        "**CsCl**: Obtain from chemical suppliers or online marketplaces specializing in laboratory chemicals.",
+        "**Hg**: Procure from chemical suppliers, though handling regulations must be observed.",
+        "**Se**: Available from chemical suppliers or specialized mining material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, weigh out 40 g of CeO2, 20 g of CsCl, 20 g of Hg, and 30 g of Se using an analytical balance.",
+        "2. In a clean, dry beaker, combine the CeO2 and CsCl, stirring gently to ensure a homogeneous mixture.",
+        "3. In a separate container, carefully mix the mercury and selenium, ensuring no exposure to air or moisture.",
+        "4. Gradually add the mercury-selenium mixture to the CeO2-CsCl mixture while stirring continuously."
+      ],
+      "raw_text": "1. In a fume hood, weigh out 40 g of CeO2, 20 g of CsCl, 20 g of Hg, and 30 g of Se using an analytical balance. \n 2. In a clean, dry beaker, combine the CeO2 and CsCl, stirring gently to ensure a homogeneous mixture. \n 3. In a separate container, carefully mix the mercury and selenium, ensuring no exposure to air or moisture. \n 4. Gradually add the mercury-selenium mixture to the CeO2-CsCl mixture while stirring continuously."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the combined mixture into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the sample to 600°C at a rate of 10°C/min and hold at this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the combined mixture into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the sample to 600°C at a rate of 10°C/min and hold at this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature, which may take approximately 4-6 hours.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the crucible."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature, which may take approximately 4-6 hours. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible using gloves.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches) using fine-grit sandpaper.",
+        "4. Optionally, apply a sealant to enhance the material's stability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible using gloves. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches) using fine-grit sandpaper. \n 4. Optionally, apply a sealant to enhance the material's stability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6592629.0,
+      "density": 56899.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2477172.0,
+      "formation_energy_per_atom": -736.0,
+      "decomposition_energy_per_atom": -358.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -218.0,
+      "decomposition_energy_mp": -356.0,
+      "decomposition_energy_mp_oqmd": -275.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c05c01d2d6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.199074Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Ce6Er2Si16Ti11.json",
+      "material://Ag1Ce6Er2Si16Ti11"
+    ]
+  }
+}

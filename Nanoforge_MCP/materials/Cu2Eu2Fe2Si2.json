@@ -1,0 +1,110 @@
+{
+  "id": "Cu2Eu2Fe2Si2",
+  "uri": "material://Cu2Eu2Fe2Si2",
+  "composition": {
+    "formula": "Cu2Eu2Fe2Si2",
+    "elements": {
+      "Cu": 2,
+      "Eu": 2,
+      "Fe": 2,
+      "Si": 2
+    },
+    "reduced_formula": "EuFeCuSi",
+    "element_list": [
+      "Si",
+      "Fe",
+      "Cu",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper (Cu): 100 g \n Europium (Eu): 40 g \n Iron (Fe): 80 g \n Silicon (Si): 60 g"
+    },
+    "sourcing": {
+      "instructions": "Copper: Local metal supplier or online metal marketplace. \n Europium: Specialty chemical suppliers or online marketplaces. \n Iron: Local metal supplier or hardware store. \n Silicon: Local chemical supply store or online chemical distributor.",
+      "steps": [
+        "Copper: Local metal supplier or online metal marketplace.",
+        "Europium: Specialty chemical suppliers or online marketplaces.",
+        "Iron: Local metal supplier or hardware store.",
+        "Silicon: Local chemical supply store or online chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. Combine the weighed amounts of Cu, Eu, Fe, and Si in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to finely grind the mixture to ensure uniformity.",
+        "4. Transfer the mixed powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance. \n 2. Combine the weighed amounts of Cu, Eu, Fe, and Si in a clean, dry mixing container. \n 3. Use a mortar and pestle to finely grind the mixture to ensure uniformity. \n 4. Transfer the mixed powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1100°C.",
+        "2. Place the ceramic crucible with the mixed powder into the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1100°C. \n 2. Place the ceramic crucible with the mixed powder into the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (around 6-8 hours) without opening the door to avoid rapid cooling and cracking."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (around 6-8 hours) without opening the door to avoid rapid cooling and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the crucible has cooled, carefully remove the solidified material.",
+        "2. Use a diamond saw to cut the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the sample with a clear epoxy resin for protection and aesthetic purposes."
+      ],
+      "raw_text": "1. Once the crucible has cooled, carefully remove the solidified material. \n 2. Use a diamond saw to cut the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the sample with a clear epoxy resin for protection and aesthetic purposes."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1402607.0,
+      "density": 70901.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -594399.0,
+      "formation_energy_per_atom": -3583.0,
+      "decomposition_energy_per_atom": -154.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -286.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e939f168ef",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.078089Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Eu2Fe2Si2.json",
+      "material://Cu2Eu2Fe2Si2"
+    ]
+  }
+}

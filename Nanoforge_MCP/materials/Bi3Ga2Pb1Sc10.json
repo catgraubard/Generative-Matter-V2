@@ -1,0 +1,104 @@
+{
+  "id": "Bi3Ga2Pb1Sc10",
+  "uri": "material://Bi3Ga2Pb1Sc10",
+  "composition": {
+    "formula": "Bi3Ga2Pb1Sc10",
+    "elements": {
+      "Bi": 3,
+      "Ga": 2,
+      "Pb": 1,
+      "Sc": 10
+    },
+    "reduced_formula": "Sc10Ga2Bi3Pb",
+    "element_list": [
+      "Sc",
+      "Ga",
+      "Pb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20 g, Nb: 80 g, Ni: 70 g, Si: 140 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Specialty metal suppliers or online marketplaces, Nb: Metal suppliers, Ni: Local hardware stores or online, Si: Chemical suppliers or online.",
+      "steps": [
+        "Co: Specialty metal suppliers or online marketplaces, Nb: Metal suppliers, Ni: Local hardware stores or online, Si: Chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of Cobalt (Co), 80 g of Niobium (Nb), 70 g of Nickel (Ni), and 140 g of Silicon (Si) using a digital scale."
+      ],
+      "raw_text": "1. Weigh out 20 g of Cobalt (Co), 80 g of Niobium (Nb), 70 g of Nickel (Ni), and 140 g of Silicon (Si) using a digital scale."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "steps": [
+        "1. Preheat a furnace to 1500°C."
+      ],
+      "raw_text": "1. Preheat a furnace to 1500°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to 500°C at a rate of 10°C per minute."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to 500°C at a rate of 10°C per minute."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3765908.0,
+      "density": 62752.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -938393.0,
+      "formation_energy_per_atom": -5672.0,
+      "decomposition_energy_per_atom": -106.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -106.0,
+      "decomposition_energy_mp_oqmd": -91.0
+    },
+    "electronic": {
+      "bandgap": 0.0034,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c8444262ad",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.479694Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3Ga2Pb1Sc10.json",
+      "material://Bi3Ga2Pb1Sc10"
+    ]
+  }
+}

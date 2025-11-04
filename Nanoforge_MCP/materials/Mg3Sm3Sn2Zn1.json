@@ -1,0 +1,111 @@
+{
+  "id": "Mg3Sm3Sn2Zn1",
+  "uri": "material://Mg3Sm3Sn2Zn1",
+  "composition": {
+    "formula": "Mg3Sm3Sn2Zn1",
+    "elements": {
+      "Mg": 3,
+      "Sm": 3,
+      "Sn": 2,
+      "Zn": 1
+    },
+    "reduced_formula": "Sm3Mg3ZnSn2",
+    "element_list": [
+      "Mg",
+      "Zn",
+      "Sn",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 1.5 g, B: 4.2 g, Nb: 6.3 g, Ru: 12.5 g"
+    },
+    "sourcing": {
+      "instructions": "As: Specialty chemical suppliers; B: Chemical stores; Nb: Metal suppliers; Ru: Precious metal dealers",
+      "steps": [
+        "As: Specialty chemical suppliers; B: Chemical stores; Nb: Metal suppliers; Ru: Precious metal dealers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a precision scale.",
+        "2. Grind As, B, Nb, and Ru separately in a mortar and pestle until fine powder consistency is achieved.",
+        "3. Mix the powders in a clean container using a spatula until homogeneous."
+      ],
+      "raw_text": "1. Weigh each material accurately using a precision scale. \n 2. Grind As, B, Nb, and Ru separately in a mortar and pestle until fine powder consistency is achieved. \n 3. Mix the powders in a clean container using a spatula until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat in a controlled furnace at 1200 °C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat in a controlled furnace at 1200 °C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature (approximately 4-6 hours). \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. If necessary, use a diamond saw to cut the sample into the required dimensions (3 inches x 2 inches x 7 inches).",
+        "2. Sand the edges for a smooth finish.",
+        "3. Optionally, apply a sealant to enhance surface integrity."
+      ],
+      "raw_text": "1. If necessary, use a diamond saw to cut the sample into the required dimensions (3 inches x 2 inches x 7 inches). \n 2. Sand the edges for a smooth finish. \n 3. Optionally, apply a sealant to enhance surface integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2298923.0,
+      "density": 59722.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -324742.0,
+      "formation_energy_per_atom": -471.0,
+      "decomposition_energy_per_atom": -89.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -89.0,
+      "decomposition_energy_mp": -89.0,
+      "decomposition_energy_mp_oqmd": -89.0
+    },
+    "electronic": {
+      "bandgap": 0.0191,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e070c43d28",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.830944Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg3Sm3Sn2Zn1.json",
+      "material://Mg3Sm3Sn2Zn1"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Mg1Sc10Si16Tc1Tm8",
+  "uri": "material://Mg1Sc10Si16Tc1Tm8",
+  "composition": {
+    "formula": "Mg1Sc10Si16Tc1Tm8",
+    "elements": {
+      "Mg": 1,
+      "Sc": 10,
+      "Si": 16,
+      "Tc": 1,
+      "Tm": 8
+    },
+    "reduced_formula": "Tm8MgSc10Si16Tc",
+    "element_list": [
+      "Mg",
+      "Si",
+      "Sc",
+      "Tc",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mg",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mg: 30g, Sc: 60g, Si: 80g, Tc: 10g, Tm: 40g"
+    },
+    "sourcing": {
+      "instructions": "Mg: Metal suppliers, Sc: Specialty metal retailers, Si: Electronics stores, Tc: Nuclear material suppliers (with proper licensing), Tm: Rare metal distributors",
+      "steps": [
+        "Mg: Metal suppliers, Sc: Specialty metal retailers, Si: Electronics stores, Tc: Nuclear material suppliers (with proper licensing), Tm: Rare metal distributors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal accurately using a precision scale.",
+        "2. Place Mg, Sc, Si, Tc, and Tm in a clean, dry mixing container.",
+        "3. Use a high-purity spatula to mix the metals uniformly for 10 minutes to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each metal accurately using a precision scale. \n 2. Place Mg, Sc, Si, Tc, and Tm in a clean, dry mixing container. \n 3. Use a high-purity spatula to mix the metals uniformly for 10 minutes to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 10°C/minute and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1200°C at a rate of 10°C/minute and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature, approximately 2-3 hours.",
+        "2. Ensure the cooling environment is free of drafts to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature, approximately 2-3 hours. \n 2. Ensure the cooling environment is free of drafts to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible.",
+        "2. If necessary, grind the edges to achieve a smooth finish using a diamond grinder.",
+        "3. Seal the surface with a high-temperature resistant sealant for protection.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible. \n 2. If necessary, grind the edges to achieve a smooth finish using a diamond grinder. \n 3. Seal the surface with a high-temperature resistant sealant for protection. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7014794.0,
+      "density": 56167.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2265742.0,
+      "formation_energy_per_atom": -7966.0,
+      "decomposition_energy_per_atom": -382.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -397.0,
+      "decomposition_energy_mp_oqmd": -382.0
+    },
+    "electronic": {
+      "bandgap": 0.006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "653a7d4ecf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.220985Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg1Sc10Si16Tc1Tm8.json",
+      "material://Mg1Sc10Si16Tc1Tm8"
+    ]
+  }
+}

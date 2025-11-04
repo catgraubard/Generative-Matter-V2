@@ -1,0 +1,114 @@
+{
+  "id": "Ce8Cu3Ge1Si12",
+  "uri": "material://Ce8Cu3Ge1Si12",
+  "composition": {
+    "formula": "Ce8Cu3Ge1Si12",
+    "elements": {
+      "Ce": 8,
+      "Cu": 3,
+      "Ge": 1,
+      "Si": 12
+    },
+    "reduced_formula": "Ce8Cu3Si12Ge",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ge",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 15 g, Sc: 180 g, Si: 225 g, Tm: 105 g, Y: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Ga: Buy from a chemical supplier; Sc: Obtain from a rare earth materials distributor; Si: Purchase silicon powder from a semiconductor supplier; Tm: Source from a specialized metal supplier; Y: Acquire from a chemical supply store.",
+      "steps": [
+        "Ga: Buy from a chemical supplier; Sc: Obtain from a rare earth materials distributor; Si: Purchase silicon powder from a semiconductor supplier; Tm: Source from a specialized metal supplier; Y: Acquire from a chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Ga, Sc, Si, Tm, and Y using a precision balance.",
+        "2. In a clean, dry mixing container, add Ga and Sc first, followed by Si, Tm, and Y.",
+        "3. Use a mortar and pestle or mechanical mixer to grind the mixture thoroughly until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh Ga, Sc, Si, Tm, and Y using a precision balance. \n 2. In a clean, dry mixing container, add Ga and Sc first, followed by Si, Tm, and Y. \n 3. Use a mortar and pestle or mechanical mixer to grind the mixture thoroughly until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the sample to 1200°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the sample to 1200°C at a rate of 5°C/min. \n 4. Maintain the temperature for 4 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not remove the crucible until the temperature drops below 200°C to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not remove the crucible until the temperature drops below 200°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or surface defects.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Inspect for any irregularities or surface defects. \n 3. If necessary, use fine-grit sandpaper to smooth the surface. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4789419.0,
+      "density": 59677.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1452522.0,
+      "formation_energy_per_atom": -6568.0,
+      "decomposition_energy_per_atom": -356.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -226.0,
+      "decomposition_energy_mp": -351.0,
+      "decomposition_energy_mp_oqmd": -351.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c4b901ba73",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.440976Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce8Cu3Ge1Si12.json",
+      "material://Ce8Cu3Ge1Si12"
+    ]
+  }
+}

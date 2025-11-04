@@ -1,0 +1,136 @@
+{
+  "id": "Co3Fe1O24W8",
+  "uri": "material://Co3Fe1O24W8",
+  "composition": {
+    "formula": "Co3Fe1O24W8",
+    "elements": {
+      "Co": 3,
+      "Fe": 1,
+      "O": 24,
+      "W": 8
+    },
+    "reduced_formula": "FeCo3(WO3)8",
+    "element_list": [
+      "O",
+      "Fe",
+      "Co",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 24.00 g \n Nd: 2.00 g \n P: 12.00 g \n Si: 2.00 g \n Sm: 2.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt) - Available from chemical supply stores or online chemical suppliers. \n Nd (Neodymium) - Obtainable from rare earth material suppliers. \n P (Phosphorus) - Available from chemical retailers or online. \n Si (Silicon) - Can be sourced from electronics supply stores or chemical suppliers. \n Sm (Samarium) - Purchase from rare earth metal suppliers.",
+      "steps": [
+        "Co (Cobalt) - Available from chemical supply stores or online chemical suppliers.",
+        "Nd (Neodymium) - Obtainable from rare earth material suppliers.",
+        "P (Phosphorus) - Available from chemical retailers or online.",
+        "Si (Silicon) - Can be sourced from electronics supply stores or chemical suppliers.",
+        "Sm (Samarium) - Purchase from rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each component precisely using a digital scale.",
+        "2. In a clean and suitable mixing container, combine Co, Nd, P, Si, and Sm powders.",
+        "3. Use a mechanical stirrer to mix the powders for approximately 10 minutes to ensure uniformity.",
+        "4. Transfer the mixed powders into a suitable mold that fits the dimensions 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Measure out each component precisely using a digital scale. \n 2. In a clean and suitable mixing container, combine Co, Nd, P, Si, and Sm powders. \n 3. Use a mechanical stirrer to mix the powders for approximately 10 minutes to ensure uniformity. \n 4. Transfer the mixed powders into a suitable mold that fits the dimensions 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mold with the mixed powders into the furnace and maintain the temperature for 2 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mold with the mixed powders into the furnace and maintain the temperature for 2 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature over a period of 6 hours.",
+        "2. Ensure that the cooling process is gradual to avoid cracks in the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature over a period of 6 hours. \n 2. Ensure that the cooling process is gradual to avoid cracks in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the mold.",
+        "2. Use sandpaper to smooth any rough edges, ensuring the dimensions remain accurate.",
+        "3. If desired, apply a sealant to enhance surface durability and finish. Allow the sealant to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the mold. \n 2. Use sandpaper to smooth any rough edges, ensuring the dimensions remain accurate. \n 3. If desired, apply a sealant to enhance surface durability and finish. Allow the sealant to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4254716.0,
+      "density": 81466.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3246606.0,
+      "formation_energy_per_atom": -20125.0,
+      "decomposition_energy_per_atom": -349.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -352.0,
+      "decomposition_energy_mp_oqmd": -223.0
+    },
+    "electronic": {
+      "bandgap": 1.7479,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ad1136a222",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:06.133227Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3Fe1O24W8.json",
+      "material://Co3Fe1O24W8"
+    ]
+  }
+}

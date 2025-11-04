@@ -1,0 +1,112 @@
+{
+  "id": "Be8Mo2Tc1W1",
+  "uri": "material://Be8Mo2Tc1W1",
+  "composition": {
+    "formula": "Be8Mo2Tc1W1",
+    "elements": {
+      "Be": 8,
+      "Mo": 2,
+      "Tc": 1,
+      "W": 1
+    },
+    "reduced_formula": "Be8TcMo2W",
+    "element_list": [
+      "Be",
+      "Mo",
+      "Tc",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g, Er: 100 g, Sn: 10 g, Tm: 20 g, Zn: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online metal retailers; Er: Rare earth material suppliers; Sn: Electronics stores; Tm: Specialty rare earth suppliers; Zn: Hardware stores.",
+      "steps": [
+        "Co: Metal suppliers or online metal retailers; Er: Rare earth material suppliers; Sn: Electronics stores; Tm: Specialty rare earth suppliers; Zn: Hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry glass container, combine Co, Er, Sn, Tm, and Zn in the specified amounts.",
+        "3. Stir the mixture thoroughly to ensure uniform distribution of materials."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry glass container, combine Co, Er, Sn, Tm, and Zn in the specified amounts. \n 3. Stir the mixture thoroughly to ensure uniform distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 1200°C and maintain this temperature for 4 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 1200°C and maintain this temperature for 4 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours) without opening the door."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours) without opening the door."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully break apart the solidified material and remove it from the crucible.",
+        "3. Use a grinder or sandpaper to smooth out any rough edges if required.",
+        "4. Optionally, apply a protective sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully break apart the solidified material and remove it from the crucible. \n 3. Use a grinder or sandpaper to smooth out any rough edges if required. \n 4. Optionally, apply a protective sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1234592.0,
+      "density": 73413.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -791107.0,
+      "formation_energy_per_atom": -3488.0,
+      "decomposition_energy_per_atom": -537.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -537.0,
+      "decomposition_energy_mp_oqmd": -537.0
+    },
+    "electronic": {
+      "bandgap": 0.0198,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9da02e0aa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.275486Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Be8Mo2Tc1W1.json",
+      "material://Be8Mo2Tc1W1"
+    ]
+  }
+}

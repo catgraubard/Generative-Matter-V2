@@ -1,0 +1,113 @@
+{
+  "id": "Co4Fe2Pa6Sb8",
+  "uri": "material://Co4Fe2Pa6Sb8",
+  "composition": {
+    "formula": "Co4Fe2Pa6Sb8",
+    "elements": {
+      "Co": 4,
+      "Fe": 2,
+      "Pa": 6,
+      "Sb": 8
+    },
+    "reduced_formula": "Pa3Fe(CoSb2)2",
+    "element_list": [
+      "Fe",
+      "Co",
+      "Sb",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 200 g, Fe: 100 g, Pa: 300 g, Sb: 400 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical supply stores or online; Fe: Metal suppliers or hardware stores; Pa: Specialty chemical suppliers; Sb: Metal suppliers or online.",
+      "steps": [
+        "Co: Chemical supply stores or online; Fe: Metal suppliers or hardware stores; Pa: Specialty chemical suppliers; Sb: Metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 200 g of cobalt (Co), 100 g of iron (Fe), 300 g of palladium (Pa), and 400 g of antimony (Sb).",
+        "2. In a clean, dry mixing bowl, combine all materials thoroughly using a ceramic or glass spatula.",
+        "3. Ensure homogeneity of the mixture by mixing for at least 10 minutes."
+      ],
+      "raw_text": "1. Weigh 200 g of cobalt (Co), 100 g of iron (Fe), 300 g of palladium (Pa), and 400 g of antimony (Sb). \n 2. In a clean, dry mixing bowl, combine all materials thoroughly using a ceramic or glass spatula. \n 3. Ensure homogeneity of the mixture by mixing for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Heat in a furnace to 900°C for 2 hours to ensure proper alloying.",
+        "3. Use a controlled heating rate of 5°C/min to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Heat in a furnace to 900°C for 2 hours to ensure proper alloying. \n 3. Use a controlled heating rate of 5°C/min to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool inside the furnace to room temperature gradually to prevent cracking.",
+        "2. This should take approximately 4-5 hours."
+      ],
+      "raw_text": "1. Allow the crucible to cool inside the furnace to room temperature gradually to prevent cracking. \n 2. This should take approximately 4-5 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Seal the surface with a clear epoxy resin to protect the material, applying two thin coats with a drying time of 2 hours between coats."
+      ],
+      "raw_text": "1. After cooling, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 3. Seal the surface with a clear epoxy resin to protect the material, applying two thin coats with a drying time of 2 hours between coats."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4106541.0,
+      "density": 10949.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42d",
+      "space_group_number": 122,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1493274.0,
+      "formation_energy_per_atom": -6917.0,
+      "decomposition_energy_per_atom": -1986.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -1986.0,
+      "decomposition_energy_mp_oqmd": -184.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4cd99455e5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.782570Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Fe2Pa6Sb8.json",
+      "material://Co4Fe2Pa6Sb8"
+    ]
+  }
+}

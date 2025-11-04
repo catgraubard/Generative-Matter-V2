@@ -1,0 +1,107 @@
+{
+  "id": "Fe2Mn1O12Sr6",
+  "uri": "material://Fe2Mn1O12Sr6",
+  "composition": {
+    "formula": "Fe2Mn1O12Sr6",
+    "elements": {
+      "Fe": 2,
+      "Mn": 1,
+      "O": 12,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr6Mn(FeO6)2",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Fe2O3: 253.0 g \n MnO2: 53.0 g \n SrCO3: 120.0 g \n Total weight: 426.0 g"
+    },
+    "sourcing": {
+      "instructions": "Fe2O3 (Iron(III) oxide): Available at chemical supply stores or online (e.g., Amazon, Sigma-Aldrich). \n MnO2 (Manganese(IV) oxide): Specialty chemical suppliers or online. \n SrCO3 (Strontium carbonate): Chemical supply stores or online.",
+      "steps": [
+        "Fe2O3 (Iron(III) oxide): Available at chemical supply stores or online (e.g., Amazon, Sigma-Aldrich).",
+        "MnO2 (Manganese(IV) oxide): Specialty chemical suppliers or online.",
+        "SrCO3 (Strontium carbonate): Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 253.0 g of Fe2O3, 53.0 g of MnO2, and 120.0 g of SrCO3 using an analytical balance.",
+        "2. Combine the measured powders in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to blend the powders thoroughly until a homogeneous mixture is obtained."
+      ],
+      "raw_text": "1. Measure 253.0 g of Fe2O3, 53.0 g of MnO2, and 120.0 g of SrCO3 using an analytical balance. \n 2. Combine the measured powders in a clean, dry mixing container. \n 3. Use a mechanical mixer or mortar and pestle to blend the powders thoroughly until a homogeneous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature crucible.",
+        "2. Place the crucible in a furnace and heat to 1000°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature crucible. \n 2. Place the crucible in a furnace and heat to 1000°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves. Allow the sample to cool for an additional 30 minutes in a safe area before handling."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Once cooled, remove the crucible carefully using heat-resistant gloves. Allow the sample to cool for an additional 30 minutes in a safe area before handling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the cooled solid using a mortar and pestle to achieve a fine powder if needed, or leave it as a solid block.",
+        "2. If desired, polish the surface with sandpaper for a smoother finish.",
+        "3. Optionally, seal the surface with an appropriate sealant for durability, according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Crush the cooled solid using a mortar and pestle to achieve a fine powder if needed, or leave it as a solid block. \n 2. If desired, polish the surface with sandpaper for a smoother finish. \n 3. Optionally, seal the surface with an appropriate sealant for durability, according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2850735.0,
+      "density": 51512.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1497988.0,
+      "formation_energy_per_atom": -25802.0,
+      "decomposition_energy_per_atom": -36.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.0098,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "35196ce7c0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:25.193350Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Mn1O12Sr6.json",
+      "material://Fe2Mn1O12Sr6"
+    ]
+  }
+}

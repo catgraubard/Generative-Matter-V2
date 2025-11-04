@@ -1,0 +1,115 @@
+{
+  "id": "Fe4Mn4O20Sm2Tb2",
+  "uri": "material://Fe4Mn4O20Sm2Tb2",
+  "composition": {
+    "formula": "Fe4Mn4O20Sm2Tb2",
+    "elements": {
+      "Fe": 4,
+      "Mn": 4,
+      "O": 20,
+      "Sm": 2,
+      "Tb": 2
+    },
+    "reduced_formula": "TbSmMn2(FeO5)2",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Sm",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3): 25.0 g \n Cerium Oxide (CeO2): 5.0 g \n Lanthanum Oxide (La2O3): 75.0 g \n Total weight: 105.0 g (adjust for density and volume requirements)"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Available at chemical supply stores or online suppliers like Sigma-Aldrich. \n Cerium Oxide: Obtain from chemical supply companies or online marketplaces like Amazon. \n Lanthanum Oxide: Purchase from specialized chemical suppliers or online retailers like Alfa Aesar.",
+      "steps": [
+        "Bismuth Oxide: Available at chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Cerium Oxide: Obtain from chemical supply companies or online marketplaces like Amazon.",
+        "Lanthanum Oxide: Purchase from specialized chemical suppliers or online retailers like Alfa Aesar."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 25.0 g of Bismuth Oxide using an analytical balance.",
+        "2. Measure 5.0 g of Cerium Oxide.",
+        "3. Measure 75.0 g of Lanthanum Oxide.",
+        "4. Combine all measured powders in a clean, dry ceramic or glass mixing container.",
+        "5. Use a mortar and pestle or a mechanical mixer to achieve a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure 25.0 g of Bismuth Oxide using an analytical balance. \n 2. Measure 5.0 g of Cerium Oxide. \n 3. Measure 75.0 g of Lanthanum Oxide. \n 4. Combine all measured powders in a clean, dry ceramic or glass mixing container. \n 5. Use a mortar and pestle or a mechanical mixer to achieve a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 900°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 900°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until the temperature is below 200°C to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until the temperature is below 200°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, use fine-grit sandpaper to smooth out any rough edges.",
+        "4. Optionally, seal the surface with a suitable ceramic sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for any surface imperfections. \n 3. If necessary, use fine-grit sandpaper to smooth out any rough edges. \n 4. Optionally, seal the surface with a suitable ceramic sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3732112.0,
+      "density": 61476.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2685164.0,
+      "formation_energy_per_atom": -25101.0,
+      "decomposition_energy_per_atom": -165.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -171.0,
+      "decomposition_energy_mp_oqmd": -171.0
+    },
+    "electronic": {
+      "bandgap": 1.1284,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5b77272b2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.890592Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Mn4O20Sm2Tb2.json",
+      "material://Fe4Mn4O20Sm2Tb2"
+    ]
+  }
+}

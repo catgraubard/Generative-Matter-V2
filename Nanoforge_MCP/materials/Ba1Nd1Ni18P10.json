@@ -1,0 +1,134 @@
+{
+  "id": "Ba1Nd1Ni18P10",
+  "uri": "material://Ba1Nd1Ni18P10",
+  "composition": {
+    "formula": "Ba1Nd1Ni18P10",
+    "elements": {
+      "Ba": 1,
+      "Nd": 1,
+      "Ni": 18,
+      "P": 10
+    },
+    "reduced_formula": "BaNd(Ni9P5)2",
+    "element_list": [
+      "P",
+      "Ni",
+      "Ba",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 43.5,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 1.5 g \n Li: 43.5 g \n Si: 10.5 g \n Zn: 1.5 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Specialty chemical suppliers or metal distributors \n Li: Battery manufacturing suppliers or chemical suppliers \n Si: Silicon suppliers or electronics supply stores \n Zn: Metal supply stores or chemical suppliers",
+      "steps": [
+        "Hg: Specialty chemical suppliers or metal distributors",
+        "Li: Battery manufacturing suppliers or chemical suppliers",
+        "Si: Silicon suppliers or electronics supply stores",
+        "Zn: Metal supply stores or chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.5 g of Hg using a precise analytical balance.",
+        "2. Weigh out 43.5 g of Li using the same balance.",
+        "3. Weigh 10.5 g of Si.",
+        "4. Weigh 1.5 g of Zn.",
+        "5. In a fume hood, combine Hg and Li in a glass mixing container.",
+        "6. Gradually add Si while stirring continuously.",
+        "7. Finally, add Zn and mix thoroughly until the mixture is homogeneous."
+      ],
+      "raw_text": "1. Weigh out 1.5 g of Hg using a precise analytical balance. \n 2. Weigh out 43.5 g of Li using the same balance. \n 3. Weigh 10.5 g of Si. \n 4. Weigh 1.5 g of Zn. \n 5. In a fume hood, combine Hg and Li in a glass mixing container. \n 6. Gradually add Si while stirring continuously. \n 7. Finally, add Zn and mix thoroughly until the mixture is homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material to a crucible.",
+        "2. Heat the crucible in a furnace at 500°C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed material to a crucible. \n 2. Heat the crucible in a furnace at 500°C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace during the cooling process to avoid rapid temperature changes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace during the cooling process to avoid rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to protect the surface and prevent oxidation.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a sealant to protect the surface and prevent oxidation. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 3938928.0,
+      "density": 69466.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1851286.0,
+      "formation_energy_per_atom": -6755.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -104.0,
+      "decomposition_energy_mp_oqmd": -67.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e0e734f3f9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.933081Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Nd1Ni18P10.json",
+      "material://Ba1Nd1Ni18P10"
+    ]
+  }
+}

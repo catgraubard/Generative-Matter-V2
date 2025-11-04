@@ -1,0 +1,118 @@
+{
+  "id": "Nd1Pr3Si8Tc16",
+  "uri": "material://Nd1Pr3Si8Tc16",
+  "composition": {
+    "formula": "Nd1Pr3Si8Tc16",
+    "elements": {
+      "Nd": 1,
+      "Pr": 3,
+      "Si": 8,
+      "Tc": 16
+    },
+    "reduced_formula": "Pr3Nd(SiTc2)8",
+    "element_list": [
+      "Si",
+      "Tc",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 200 g \n  ZnO: 50 g \n  S: 16 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Purchase from chemical supply companies like Sigma-Aldrich or online chemical suppliers. \n ZnO: Available at local chemical supply stores or online retailers like Amazon. \n S: Obtain from local hardware stores or online marketplaces.",
+      "steps": [
+        "La2O3: Purchase from chemical supply companies like Sigma-Aldrich or online chemical suppliers.",
+        "ZnO: Available at local chemical supply stores or online retailers like Amazon.",
+        "S: Obtain from local hardware stores or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 200 g of La2O3 and transfer to a clean, dry mixing container.",
+        "2. Weigh 50 g of ZnO and add it to the container with La2O3.",
+        "3. Weigh 16 g of sulfur (S) and include it in the mixture.",
+        "4. Use a mortar and pestle to thoroughly mix the powders until homogeneous.",
+        "5. Transfer the mixture to a ceramic crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh 200 g of La2O3 and transfer to a clean, dry mixing container. \n 2. Weigh 50 g of ZnO and add it to the container with La2O3. \n 3. Weigh 16 g of sulfur (S) and include it in the mixture. \n 4. Use a mortar and pestle to thoroughly mix the powders until homogeneous. \n 5. Transfer the mixture to a ceramic crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Gradually heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Gradually heat to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Ensure the crucible remains undisturbed during the cooling phase (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Ensure the crucible remains undisturbed during the cooling phase (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities and use sandpaper (grit 400) to smooth any rough edges.",
+        "3. If desired, apply a sealing coat using a high-temperature resistant sealant for added protection.",
+        "4. Allow the sealant to cure for at least 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities and use sandpaper (grit 400) to smooth any rough edges. \n 3. If desired, apply a sealing coat using a high-temperature resistant sealant for added protection. \n 4. Allow the sealant to cure for at least 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4722264.0,
+      "density": 82975.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2430939.0,
+      "formation_energy_per_atom": -529.0,
+      "decomposition_energy_per_atom": -1762.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -126.0,
+      "decomposition_energy_mp": -1862.0,
+      "decomposition_energy_mp_oqmd": -1202.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d53dccea70",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.695895Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd1Pr3Si8Tc16.json",
+      "material://Nd1Pr3Si8Tc16"
+    ]
+  }
+}

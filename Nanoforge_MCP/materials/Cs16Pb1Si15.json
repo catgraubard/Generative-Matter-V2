@@ -1,0 +1,104 @@
+{
+  "id": "Cs16Pb1Si15",
+  "uri": "material://Cs16Pb1Si15",
+  "composition": {
+    "formula": "Cs16Pb1Si15",
+    "elements": {
+      "Cs": 16,
+      "Pb": 1,
+      "Si": 15
+    },
+    "reduced_formula": "Cs16Si15Pb",
+    "element_list": [
+      "Si",
+      "Cs",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CsCl: 6.5 g, PbO: 0.4 g, SiO2: 15.0 g, Na2O: 0.1 g, K2O: 0.1 g, Al2O3: 0.1 g"
+    },
+    "sourcing": {
+      "instructions": "CsCl: Chemical supply stores or online; PbO: Chemical supply stores; SiO2: Sand or silica suppliers; Na2O, K2O, Al2O3: Chemical supply stores or online.",
+      "steps": [
+        "CsCl: Chemical supply stores or online; PbO: Chemical supply stores; SiO2: Sand or silica suppliers; Na2O, K2O, Al2O3: Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. Mix CsCl, PbO, SiO2, Na2O, K2O, and Al2O3 in a clean, dry glass or ceramic container.",
+        "3. Stir the mixture thoroughly for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. Mix CsCl, PbO, SiO2, Na2O, K2O, and Al2O3 in a clean, dry glass or ceramic container. \n 3. Stir the mixture thoroughly for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete fusion."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace to 800°C. \n 3. Maintain this temperature for 2 hours to ensure complete fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature, approximately 4-6 hours.",
+        "2. Avoid quenching to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature, approximately 4-6 hours. \n 2. Avoid quenching to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid from the crucible.",
+        "2. Grind the sample to remove any rough edges using a fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a suitable clear epoxy or resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid from the crucible. \n 2. Grind the sample to remove any rough edges using a fine-grit sandpaper. \n 3. Optionally, seal the surface with a suitable clear epoxy or resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 12604973.0,
+      "density": 36293.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1005916.0,
+      "formation_energy_per_atom": -366.0,
+      "decomposition_energy_per_atom": -54.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": 9.0
+    },
+    "electronic": {
+      "bandgap": 1.1188,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "129236ad34",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:39.913298Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs16Pb1Si15.json",
+      "material://Cs16Pb1Si15"
+    ]
+  }
+}

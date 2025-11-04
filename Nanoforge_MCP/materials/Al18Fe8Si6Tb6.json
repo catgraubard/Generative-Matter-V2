@@ -1,0 +1,116 @@
+{
+  "id": "Al18Fe8Si6Tb6",
+  "uri": "material://Al18Fe8Si6Tb6",
+  "composition": {
+    "formula": "Al18Fe8Si6Tb6",
+    "elements": {
+      "Al": 18,
+      "Fe": 8,
+      "Si": 6,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb3Al9Fe4Si3",
+    "element_list": [
+      "Al",
+      "Si",
+      "Fe",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Na",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na: 120 g; S: 96 g; Tl: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Na (Sodium): Purchase from a chemical supplier; S (Sulfur): Obtain from a laboratory supply store; Tl (Thallium): Acquire from a reputable chemical vendor.",
+      "steps": [
+        "Na (Sodium): Purchase from a chemical supplier; S (Sulfur): Obtain from a laboratory supply store; Tl (Thallium): Acquire from a reputable chemical vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 120 g of sodium using an analytical balance.",
+        "2. Weigh 96 g of sulfur.",
+        "3. Weigh 40 g of thallium.",
+        "4. Combine sodium and sulfur in a clean, dry glass container, ensuring no moisture is present.",
+        "5. Stir the mixture thoroughly to ensure even distribution of the sodium and sulfur.",
+        "6. Gradually add the thallium to the mixture while continuously stirring."
+      ],
+      "raw_text": "1. Weigh 120 g of sodium using an analytical balance. \n 2. Weigh 96 g of sulfur. \n 3. Weigh 40 g of thallium. \n 4. Combine sodium and sulfur in a clean, dry glass container, ensuring no moisture is present. \n 5. Stir the mixture thoroughly to ensure even distribution of the sodium and sulfur. \n 6. Gradually add the thallium to the mixture while continuously stirring."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a quartz crucible.",
+        "2. Heat the crucible in a muffle furnace to a temperature of 300 °C.",
+        "3. Maintain this temperature for 2 hours to allow for proper reaction and formation of Na12S12Tl4."
+      ],
+      "raw_text": "1. Transfer the mixture to a quartz crucible. \n 2. Heat the crucible in a muffle furnace to a temperature of 300 °C. \n 3. Maintain this temperature for 2 hours to allow for proper reaction and formation of Na12S12Tl4."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Inspect the sample for uniformity and integrity.",
+        "3. If necessary, sand the edges of the sample to achieve a smooth finish.",
+        "4. Store the sample in a moisture-proof container to prevent degradation."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Inspect the sample for uniformity and integrity. \n 3. If necessary, sand the edges of the sample to achieve a smooth finish. \n 4. Store the sample in a moisture-proof container to prevent degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5858237.0,
+      "density": 58235.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2151233.0,
+      "formation_energy_per_atom": -5154.0,
+      "decomposition_energy_per_atom": -172.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -61.0,
+      "decomposition_energy_mp": -171.0,
+      "decomposition_energy_mp_oqmd": -151.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ad4b733106",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:06.521203Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al18Fe8Si6Tb6.json",
+      "material://Al18Fe8Si6Tb6"
+    ]
+  }
+}

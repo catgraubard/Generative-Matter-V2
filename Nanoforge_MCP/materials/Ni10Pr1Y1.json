@@ -1,0 +1,103 @@
+{
+  "id": "Ni10Pr1Y1",
+  "uri": "material://Ni10Pr1Y1",
+  "composition": {
+    "formula": "Ni10Pr1Y1",
+    "elements": {
+      "Ni": 10,
+      "Pr": 1,
+      "Y": 1
+    },
+    "reduced_formula": "PrYNi10",
+    "element_list": [
+      "Ni",
+      "Y",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 12.0 g, Pb: 10.0 g, Pr: 50.0 g, S: 20.0 g, Si: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium powder) - Chemical supply stores; Pb (Lead powder) - Metal supply vendors; Pr (Praseodymium oxide) - Rare earth suppliers; S (Sulfur powder) - Chemical suppliers; Si (Silicon powder) - Semiconductor material suppliers.",
+      "steps": [
+        "Cr (Chromium powder) - Chemical supply stores; Pb (Lead powder) - Metal supply vendors; Pr (Praseodymium oxide) - Rare earth suppliers; S (Sulfur powder) - Chemical suppliers; Si (Silicon powder) - Semiconductor material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using a digital scale. 2. In a clean, dry mixing container, combine Cr, Pb, Pr, S, and Si in the specified amounts. 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. 4. Transfer the mixed powder into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using a digital scale. 2. In a clean, dry mixing container, combine Cr, Pb, Pr, S, and Si in the specified amounts. 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. 4. Transfer the mixed powder into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C. 2. Place the crucible inside the furnace and allow it to heat for 2 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. 2. Place the crucible inside the furnace and allow it to heat for 2 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 3 hours). 2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 3 hours). 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible. 2. If necessary, use sandpaper to smooth out the edges and surface imperfections. 3. Optionally, apply a sealing coat (such as a clear epoxy) for added protection and finish. 4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. 2. If necessary, use sandpaper to smooth out the edges and surface imperfections. 3. Optionally, apply a sealing coat (such as a clear epoxy) for added protection and finish. 4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1679818.0,
+      "density": 80737.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -725482.0,
+      "formation_energy_per_atom": -2916.0,
+      "decomposition_energy_per_atom": -18.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c1cefb1c38",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.700754Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni10Pr1Y1.json",
+      "material://Ni10Pr1Y1"
+    ]
+  }
+}

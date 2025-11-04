@@ -1,0 +1,124 @@
+{
+  "id": "Li2Mg2O48S12Tl6",
+  "uri": "material://Li2Mg2O48S12Tl6",
+  "composition": {
+    "formula": "Li2Mg2O48S12Tl6",
+    "elements": {
+      "Li": 2,
+      "Mg": 2,
+      "O": 48,
+      "S": 12,
+      "Tl": 6
+    },
+    "reduced_formula": "LiMgTl3(SO4)6",
+    "element_list": [
+      "Li",
+      "O",
+      "Mg",
+      "S",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 4.8,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 9.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2O: 4.80 g \n MgO: 12.00 g \n S: 4.80 g \n Tl: 9.00 g (for Tl6, use 1.50 g per Tl)"
+    },
+    "sourcing": {
+      "instructions": "Li2O: Specialty chemical suppliers or online chemical retailers. \n MgO: Local chemical supply stores or online. \n S: Pharmacies or online chemical suppliers. \n Tl: Restricted substance, consult specialized suppliers with appropriate licensing.",
+      "steps": [
+        "Li2O: Specialty chemical suppliers or online chemical retailers.",
+        "MgO: Local chemical supply stores or online.",
+        "S: Pharmacies or online chemical suppliers.",
+        "Tl: Restricted substance, consult specialized suppliers with appropriate licensing."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Li2O, MgO, S, and Tl accurately using a digital scale.",
+        "2. In a clean, dry glass container, combine Li2O and MgO, mixing thoroughly with a spatula.",
+        "3. Gradually add sulfur (S) to the mixture while stirring continuously to ensure even distribution.",
+        "4. Finally, add thallium (Tl) and mix until all components are uniformly incorporated."
+      ],
+      "raw_text": "1. Measure Li2O, MgO, S, and Tl accurately using a digital scale.\n 2. In a clean, dry glass container, combine Li2O and MgO, mixing thoroughly with a spatula.\n 3. Gradually add sulfur (S) to the mixture while stirring continuously to ensure even distribution.\n 4. Finally, add thallium (Tl) and mix until all components are uniformly incorporated."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace and heat to 950°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the solid compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible.\n 2. Place the crucible in a furnace and heat to 950°C at a rate of 5°C/min.\n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the solid compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Ensure the crucible remains undisturbed during the cooling process to avoid cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).\n 2. Ensure the crucible remains undisturbed during the cooling process to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth out any rough edges on the solid sample.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added durability and protection against moisture."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible.\n 2. Use fine-grit sandpaper to smooth out any rough edges on the solid sample.\n 3. Optionally, seal the surface with a clear epoxy resin for added durability and protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 70,
+      "volume": 10330795.0,
+      "density": 39245.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -4359695.0,
+      "formation_energy_per_atom": -18235.0,
+      "decomposition_energy_per_atom": -279.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -208.0,
+      "decomposition_energy_mp": -282.0,
+      "decomposition_energy_mp_oqmd": -268.0
+    },
+    "electronic": {
+      "bandgap": 2.0469,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fb40e41ee2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.662929Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Mg2O48S12Tl6.json",
+      "material://Li2Mg2O48S12Tl6"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "Co1In8Ni3Y10",
+  "uri": "material://Co1In8Ni3Y10",
+  "composition": {
+    "formula": "Co1In8Ni3Y10",
+    "elements": {
+      "Co": 1,
+      "In": 8,
+      "Ni": 3,
+      "Y": 10
+    },
+    "reduced_formula": "Y10In8CoNi3",
+    "element_list": [
+      "Co",
+      "Ni",
+      "Y",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 5.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 5.4 g, In: 36.0 g, Ni: 15.0 g, Y: 4.5 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supplier or online source (e.g., metal.com). \n In: Obtain from a chemical supply company (e.g., Sigma-Aldrich). \n Ni: Available from a local hardware store or online (e.g., McMaster-Carr). \n Y: Source from a specialty materials supplier (e.g., Alfa Aesar).",
+      "steps": [
+        "Co: Purchase from a metal supplier or online source (e.g., metal.com).",
+        "In: Obtain from a chemical supply company (e.g., Sigma-Aldrich).",
+        "Ni: Available from a local hardware store or online (e.g., McMaster-Carr).",
+        "Y: Source from a specialty materials supplier (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Co, In, Ni, and Y.",
+        "3. Use a mortar and pestle to grind the mixture until it is a fine powder.",
+        "4. Transfer the powder to a ball mill and mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Co, In, Ni, and Y. \n 3. Use a mortar and pestle to grind the mixture until it is a fine powder. \n 4. Transfer the powder to a ball mill and mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900 °C.",
+        "2. Place the mixed powder in a crucible and insert it into the furnace.",
+        "3. Heat for 4 hours to allow for solid-state reaction and homogenization."
+      ],
+      "raw_text": "1. Preheat a furnace to 900 °C. \n 2. Place the mixed powder in a crucible and insert it into the furnace. \n 3. Heat for 4 hours to allow for solid-state reaction and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace.",
+        "2. Allow the furnace to cool to room temperature naturally (approximately 6-8 hours).",
+        "3. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace. \n 2. Allow the furnace to cool to room temperature naturally (approximately 6-8 hours). \n 3. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the solidified material gently if necessary to achieve desired particle size.",
+        "2. Sift through a mesh to ensure uniformity.",
+        "3. If required, polish the surface using sandpaper (grit 400-600) to achieve the desired finish."
+      ],
+      "raw_text": "1. Crush the solidified material gently if necessary to achieve desired particle size. \n 2. Sift through a mesh to ensure uniformity. \n 3. If required, polish the surface using sandpaper (grit 400-600) to achieve the desired finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 5203101.0,
+      "density": 65189.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -122343.0,
+      "formation_energy_per_atom": -5098.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -55.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "24b1e79dc7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:03.949004Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1In8Ni3Y10.json",
+      "material://Co1In8Ni3Y10"
+    ]
+  }
+}

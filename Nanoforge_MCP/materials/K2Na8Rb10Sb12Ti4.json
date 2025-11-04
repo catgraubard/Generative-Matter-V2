@@ -1,0 +1,115 @@
+{
+  "id": "K2Na8Rb10Sb12Ti4",
+  "uri": "material://K2Na8Rb10Sb12Ti4",
+  "composition": {
+    "formula": "K2Na8Rb10Sb12Ti4",
+    "elements": {
+      "K": 2,
+      "Na": 8,
+      "Rb": 10,
+      "Sb": 12,
+      "Ti": 4
+    },
+    "reduced_formula": "KRb5Na4(TiSb3)2",
+    "element_list": [
+      "Na",
+      "K",
+      "Ti",
+      "Rb",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 10 g, Ni: 80 g, Si: 140 g, Ti: 70 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Specialty metal suppliers; Ni: Industrial metal suppliers; Si: Chemical supply stores; Ti: Aerospace material suppliers.",
+      "steps": [
+        "Mo: Specialty metal suppliers; Ni: Industrial metal suppliers; Si: Chemical supply stores; Ti: Aerospace material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale.",
+        "2. In a clean mixing container, combine Mo, Ni, Si, and Ti.",
+        "3. Use a mechanical mixer to blend the powders evenly for 15 minutes, ensuring homogeneity."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale. \n 2. In a clean mixing container, combine Mo, Ni, Si, and Ti. \n 3. Use a mechanical mixer to blend the powders evenly for 15 minutes, ensuring homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Heat the crucible in a furnace to 1200°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure proper sintering and bonding of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Heat the crucible in a furnace to 1200°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure proper sintering and bonding of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 600°C naturally.",
+        "2. Once at 600°C, remove the crucible and place it in ambient air to cool to room temperature, taking about 1 hour."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 600°C naturally. \n 2. Once at 600°C, remove the crucible and place it in ambient air to cool to room temperature, taking about 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond grinder to smooth out any rough edges and achieve a polished surface.",
+        "3. Optionally, seal the surface with a high-temperature resistant sealant for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond grinder to smooth out any rough edges and achieve a polished surface. \n 3. Optionally, seal the surface with a high-temperature resistant sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 13255721.0,
+      "density": 34692.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1229104.0,
+      "formation_energy_per_atom": -5326.0,
+      "decomposition_energy_per_atom": -471.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -31.0,
+      "decomposition_energy_mp": -471.0,
+      "decomposition_energy_mp_oqmd": -415.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab623f18ac",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:03.148063Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K2Na8Rb10Sb12Ti4.json",
+      "material://K2Na8Rb10Sb12Ti4"
+    ]
+  }
+}

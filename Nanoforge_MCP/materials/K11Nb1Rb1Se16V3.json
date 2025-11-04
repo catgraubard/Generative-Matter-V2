@@ -1,0 +1,112 @@
+{
+  "id": "K11Nb1Rb1Se16V3",
+  "uri": "material://K11Nb1Rb1Se16V3",
+  "composition": {
+    "formula": "K11Nb1Rb1Se16V3",
+    "elements": {
+      "K": 11,
+      "Nb": 1,
+      "Rb": 1,
+      "Se": 16,
+      "V": 3
+    },
+    "reduced_formula": "K11RbNbV3Se16",
+    "element_list": [
+      "K",
+      "V",
+      "Se",
+      "Rb",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 11.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 11.5 g, Nb: 1.0 g, Rb: 1.0 g, Se: 32.0 g, V: 4.5 g"
+    },
+    "sourcing": {
+      "instructions": "K: Potassium chloride from chemical supply stores; Nb: Niobium powder from metal suppliers; Rb: Rubidium chloride from chemical supply stores; Se: Selenium powder from chemical suppliers; V: Vanadium powder from metal suppliers.",
+      "steps": [
+        "K: Potassium chloride from chemical supply stores; Nb: Niobium powder from metal suppliers; Rb: Rubidium chloride from chemical supply stores; Se: Selenium powder from chemical suppliers; V: Vanadium powder from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry mixing bowl, combine K, Nb, Rb, Se, and V thoroughly using a spatula or mechanical mixer.",
+        "3. Ensure the mixture is homogenous with no clumps."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry mixing bowl, combine K, Nb, Rb, Se, and V thoroughly using a spatula or mechanical mixer. \n 3. Ensure the mixture is homogenous with no clumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a muffle furnace at 800°C for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a muffle furnace at 800°C for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges and use fine-grit sandpaper to smooth the surfaces.",
+        "3. Optionally seal the material with a clear epoxy resin for enhanced durability, applying according to the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any rough edges and use fine-grit sandpaper to smooth the surfaces. \n 3. Optionally seal the material with a clear epoxy resin for enhanced durability, applying according to the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 10621156.0,
+      "density": 31654.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1485486.0,
+      "formation_energy_per_atom": -13146.0,
+      "decomposition_energy_per_atom": -863.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -863.0,
+      "decomposition_energy_mp_oqmd": -863.0
+    },
+    "electronic": {
+      "bandgap": 1.2505,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f97af1673f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:32.916066Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K11Nb1Rb1Se16V3.json",
+      "material://K11Nb1Rb1Se16V3"
+    ]
+  }
+}

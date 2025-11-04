@@ -1,0 +1,125 @@
+{
+  "id": "As4Nb12Te24",
+  "uri": "material://As4Nb12Te24",
+  "composition": {
+    "formula": "As4Nb12Te24",
+    "elements": {
+      "As": 4,
+      "Nb": 12,
+      "Te": 24
+    },
+    "reduced_formula": "Nb3Te6As",
+    "element_list": [
+      "As",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "In",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 13.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CO: 2.0 g \n In: 6.0 g \n Nd: 13.0 g \n Pr: 3.0 g"
+    },
+    "sourcing": {
+      "instructions": "CO (Cobalt): Can be sourced from chemical supply companies or online retailers (e.g., Sigma-Aldrich). \n In (Indium): Available from electronic component suppliers or specialized metal suppliers. \n Nd (Neodymium): Obtain from rare earth material suppliers or online stores. \n Pr (Praseodymium): Can be sourced from chemical supply companies or metal retailers.",
+      "steps": [
+        "CO (Cobalt): Can be sourced from chemical supply companies or online retailers (e.g., Sigma-Aldrich).",
+        "In (Indium): Available from electronic component suppliers or specialized metal suppliers.",
+        "Nd (Neodymium): Obtain from rare earth material suppliers or online stores.",
+        "Pr (Praseodymium): Can be sourced from chemical supply companies or metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a precision scale.",
+        "2. In a clean, dry environment, combine CO, In, Nd, and Pr in a ceramic or glass mixing container.",
+        "3. Use a glass rod or mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture into a compacting mold of desired dimensions (3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Weigh each component accurately using a precision scale. \n 2. In a clean, dry environment, combine CO, In, Nd, and Pr in a ceramic or glass mixing container. \n 3. Use a glass rod or mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture into a compacting mold of desired dimensions (3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace or kiln to 1200°C.",
+        "2. Place the mold with the mixture inside the furnace.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 1200°C. \n 2. Place the mold with the mixture inside the furnace. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Avoid opening the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Avoid opening the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect for any surface imperfections; if necessary, use fine-grit sandpaper to smooth the surface.",
+        "3. Optionally, apply a sealant to enhance durability and protect the material.",
+        "4. Store the final product in a dry, stable environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect for any surface imperfections; if necessary, use fine-grit sandpaper to smooth the surface. \n 3. Optionally, apply a sealant to enhance durability and protect the material. \n 4. Store the final product in a dry, stable environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 40,
+      "volume": 11411382.0,
+      "density": 65147.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -2437853.0,
+      "formation_energy_per_atom": -7123.0,
+      "decomposition_energy_per_atom": -211.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -182.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b2d1985a5b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.617381Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Nb12Te24.json",
+      "material://As4Nb12Te24"
+    ]
+  }
+}

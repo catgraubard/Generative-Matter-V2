@@ -1,0 +1,110 @@
+{
+  "id": "Fe14Ge1V1",
+  "uri": "material://Fe14Ge1V1",
+  "composition": {
+    "formula": "Fe14Ge1V1",
+    "elements": {
+      "Fe": 14,
+      "Ge": 1,
+      "V": 1
+    },
+    "reduced_formula": "VFe14Ge",
+    "element_list": [
+      "V",
+      "Fe",
+      "Ge"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Bi (Bismuth): 1.5 g \n - Rb (Rubidium): 9 g \n - Sb (Antimony): 3 g \n - Se (Selenium): 12 g \n - C (Carbon): 5 g \n - S (Sulfur): 1 g"
+    },
+    "sourcing": {
+      "instructions": "- Bismuth: Purchase from chemical supply companies or online suppliers. \n - Rubidium: Available from specialty chemical suppliers. \n - Antimony: Obtain from metals suppliers or chemical distributors. \n - Selenium: Sourced from chemical retailers or online. \n - Carbon (e.g., graphite): Found at hardware stores or online. \n - Sulfur: Can be bought from chemical supply stores or garden centers.",
+      "steps": [
+        "- Bismuth: Purchase from chemical supply companies or online suppliers.",
+        "- Rubidium: Available from specialty chemical suppliers.",
+        "- Antimony: Obtain from metals suppliers or chemical distributors.",
+        "- Selenium: Sourced from chemical retailers or online.",
+        "- Carbon (e.g., graphite): Found at hardware stores or online.",
+        "- Sulfur: Can be bought from chemical supply stores or garden centers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients using a precision scale.",
+        "2. In a clean, dry mixing container, combine Bi, Rb, Sb, Se, C, and S in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until it reaches a fine powder consistency.",
+        "4. Transfer the mixed powder to a crucible suitable for high temperatures."
+      ],
+      "raw_text": "1. Weigh all ingredients using a precision scale. \n 2. In a clean, dry mixing container, combine Bi, Rb, Sb, Se, C, and S in the specified amounts. \n 3. Use a mortar and pestle to thoroughly grind the mixture until it reaches a fine powder consistency. \n 4. Transfer the mixed powder to a crucible suitable for high temperatures."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C (1472°F).",
+        "2. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and reaction of the components."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C (1472°F). \n 2. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and reaction of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6 hours).",
+        "2. Do not remove the crucible until the furnace is completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6 hours). \n 2. Do not remove the crucible until the furnace is completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any imperfections or rough edges.",
+        "3. Use sandpaper to smooth any rough surfaces, if necessary.",
+        "4. Optionally, seal the sample with a clear coat for protection against environmental factors."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible. \n 2. Inspect for any imperfections or rough edges. \n 3. Use sandpaper to smooth any rough surfaces, if necessary. \n 4. Optionally, seal the sample with a clear coat for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 187177.0,
+      "density": 80324.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1333794.0,
+      "formation_energy_per_atom": -683.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -78.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae264ba0d3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.318710Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe14Ge1V1.json",
+      "material://Fe14Ge1V1"
+    ]
+  }
+}

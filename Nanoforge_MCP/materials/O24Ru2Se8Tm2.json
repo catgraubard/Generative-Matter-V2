@@ -1,0 +1,132 @@
+{
+  "id": "O24Ru2Se8Tm2",
+  "uri": "material://O24Ru2Se8Tm2",
+  "composition": {
+    "formula": "O24Ru2Se8Tm2",
+    "elements": {
+      "O": 24,
+      "Ru": 2,
+      "Se": 8,
+      "Tm": 2
+    },
+    "reduced_formula": "TmRu(SeO3)4",
+    "element_list": [
+      "O",
+      "Se",
+      "Ru",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 4.8,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 13.2,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 38.4,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 4.8 g (Oxygen source, e.g., potassium perchlorate) \n Ru: 13.2 g (Ruthenium powder) \n Se: 38.4 g (Selenium powder) \n Tm: 6.0 g (Thulium oxide)"
+    },
+    "sourcing": {
+      "instructions": "O: Obtain potassium perchlorate from chemical supply companies or online chemical retailers. \n Ru: Purchase ruthenium powder from precious metal suppliers or specialized chemical distributors. \n Se: Selenium powder can be acquired from chemical supply stores or online marketplaces. \n Tm: Thulium oxide is available from rare earth metal suppliers or online chemical vendors.",
+      "steps": [
+        "O: Obtain potassium perchlorate from chemical supply companies or online chemical retailers.",
+        "Ru: Purchase ruthenium powder from precious metal suppliers or specialized chemical distributors.",
+        "Se: Selenium powder can be acquired from chemical supply stores or online marketplaces.",
+        "Tm: Thulium oxide is available from rare earth metal suppliers or online chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a ceramic or glass container, measure and weigh all the materials precisely.",
+        "2. Combine the 4.8 g of potassium perchlorate, 13.2 g of ruthenium powder, 38.4 g of selenium powder, and 6.0 g of thulium oxide.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until it reaches a uniform consistency.",
+        "4. Transfer the blended powder into a clean, dry crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. In a ceramic or glass container, measure and weigh all the materials precisely. \n 2. Combine the 4.8 g of potassium perchlorate, 13.2 g of ruthenium powder, 38.4 g of selenium powder, and 6.0 g of thulium oxide. \n 3. Use a mortar and pestle to thoroughly grind the mixture until it reaches a uniform consistency. \n 4. Transfer the blended powder into a clean, dry crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat the crucible to 800°C (1472°F) at a rate of 5°C per minute.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat the crucible to 800°C (1472°F) at a rate of 5°C per minute. \n 3. Maintain this temperature for 4 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approx. 8 hours).",
+        "2. Do not open the furnace during cooling to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approx. 8 hours). \n 2. Do not open the furnace during cooling to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully and extract the solid sample.",
+        "2. Use a diamond saw or grinder to shape the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish and remove any sharp edges.",
+        "4. Optionally, seal the sample with a suitable resin for protection against environmental degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully and extract the solid sample. \n 2. Use a diamond saw or grinder to shape the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces to achieve a smooth finish and remove any sharp edges. \n 4. Optionally, seal the sample with a suitable resin for protection against environmental degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 621431.0,
+      "density": 41569.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -234194.0,
+      "formation_energy_per_atom": -1666.0,
+      "decomposition_energy_per_atom": -632.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -638.0,
+      "decomposition_energy_mp_oqmd": -638.0
+    },
+    "electronic": {
+      "bandgap": 0.2783,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5c2f8c4754",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:16.435157Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O24Ru2Se8Tm2.json",
+      "material://O24Ru2Se8Tm2"
+    ]
+  }
+}

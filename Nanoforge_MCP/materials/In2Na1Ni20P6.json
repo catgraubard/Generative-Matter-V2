@@ -1,0 +1,112 @@
+{
+  "id": "In2Na1Ni20P6",
+  "uri": "material://In2Na1Ni20P6",
+  "composition": {
+    "formula": "In2Na1Ni20P6",
+    "elements": {
+      "In": 2,
+      "Na": 1,
+      "Ni": 20,
+      "P": 6
+    },
+    "reduced_formula": "NaIn2(Ni10P3)2",
+    "element_list": [
+      "Na",
+      "P",
+      "Ni",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 20 g, Sc: 160 g, Si: 300 g, Ti: 10 g, V: 220 g"
+    },
+    "sourcing": {
+      "instructions": "P: Chemical supplier, Sc: Online marketplace, Si: Local hardware store, Ti: Metal supplier, V: Specialty alloy vendor",
+      "steps": [
+        "P: Chemical supplier, Sc: Online marketplace, Si: Local hardware store, Ti: Metal supplier, V: Specialty alloy vendor"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine P, Sc, Si, Ti, and V in the specified proportions.",
+        "3. Use a mechanical mixer or mortar and pestle to achieve a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine P, Sc, Si, Ti, and V in the specified proportions. \n 3. Use a mechanical mixer or mortar and pestle to achieve a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Extract the solid sample from the crucible.",
+        "2. Use a diamond file to smooth any rough edges.",
+        "3. Optionally, apply a sealant to the surface for enhanced durability.",
+        "4. Allow the sealant to cure according to manufacturer's instructions before use."
+      ],
+      "raw_text": "1. Extract the solid sample from the crucible. \n 2. Use a diamond file to smooth any rough edges. \n 3. Optionally, apply a sealant to the surface for enhanced durability. \n 4. Allow the sealant to cure according to manufacturer's instructions before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 347225.0,
+      "density": 77107.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1667367.0,
+      "formation_energy_per_atom": -4079.0,
+      "decomposition_energy_per_atom": -38.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -34.0,
+      "decomposition_energy_mp": -38.0,
+      "decomposition_energy_mp_oqmd": -35.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c419a7ead4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.306102Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In2Na1Ni20P6.json",
+      "material://In2Na1Ni20P6"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "Gd4In1Mg1Si4",
+  "uri": "material://Gd4In1Mg1Si4",
+  "composition": {
+    "formula": "Gd4In1Mg1Si4",
+    "elements": {
+      "Gd": 4,
+      "In": 1,
+      "Mg": 1,
+      "Si": 4
+    },
+    "reduced_formula": "Gd4MgInSi4",
+    "element_list": [
+      "Mg",
+      "Si",
+      "In",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, Co: 45 g, Ge: 50 g, Tb: 10 g, Y: 20 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder) - Chemical supply store or online chemical supplier; Co (Cobalt powder) - Metal supply store; Ge (Germanium powder) - Electronics supplier; Tb (Terbium oxide) - Rare earth supplier; Y (Yttrium oxide) - Chemical supplier.",
+      "steps": [
+        "B (Boron powder) - Chemical supply store or online chemical supplier; Co (Cobalt powder) - Metal supply store; Ge (Germanium powder) - Electronics supplier; Tb (Terbium oxide) - Rare earth supplier; Y (Yttrium oxide) - Chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each component using a precision scale. 2. Combine all powders in a clean, dry mixing container. 3. Use a mortar and pestle to thoroughly mix the powders for 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out each component using a precision scale. 2. Combine all powders in a clean, dry mixing container. 3. Use a mortar and pestle to thoroughly mix the powders for 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a sintering boat. 2. Place the boat in a furnace. 3. Heat the furnace to 1200 °C at a rate of 5 °C/min. 4. Maintain this temperature for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a sintering boat. 2. Place the boat in a furnace. 3. Heat the furnace to 1200 °C at a rate of 5 °C/min. 4. Maintain this temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace. 2. Allow the sample to cool down to room temperature naturally within the furnace (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace. 2. Allow the sample to cool down to room temperature naturally within the furnace (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the furnace. 2. Inspect for any irregularities. 3. If needed, sand down the edges to achieve a smooth finish using fine-grit sandpaper. 4. Optionally, apply a protective sealant."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the furnace. 2. Inspect for any irregularities. 3. If needed, sand down the edges to achieve a smooth finish using fine-grit sandpaper. 4. Optionally, apply a protective sealant."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2225677.0,
+      "density": 6569.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/m",
+      "space_group_number": 83,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -890273.0,
+      "formation_energy_per_atom": -667.0,
+      "decomposition_energy_per_atom": -148.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -64.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -64.0
+    },
+    "electronic": {
+      "bandgap": 0.0062,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d22323e80c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.905788Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd4In1Mg1Si4.json",
+      "material://Gd4In1Mg1Si4"
+    ]
+  }
+}

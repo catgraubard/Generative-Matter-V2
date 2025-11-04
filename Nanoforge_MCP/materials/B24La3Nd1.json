@@ -1,0 +1,109 @@
+{
+  "id": "B24La3Nd1",
+  "uri": "material://B24La3Nd1",
+  "composition": {
+    "formula": "B24La3Nd1",
+    "elements": {
+      "B": 24,
+      "La": 3,
+      "Nd": 1
+    },
+    "reduced_formula": "La3NdB24",
+    "element_list": [
+      "B",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Carbonate (BaCO3): 100 g \n Lanthanum Oxide (La2O3): 17.9 g \n Neodymium Oxide (Nd2O3): 4.4 g \n Total: 122.3 g (to account for stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific) \n Lanthanum Oxide: Specialty chemical suppliers \n Neodymium Oxide: Rare earth material suppliers",
+      "steps": [
+        "Barium Carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific)",
+        "Lanthanum Oxide: Specialty chemical suppliers",
+        "Neodymium Oxide: Rare earth material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Barium Carbonate.",
+        "2. Weigh out 17.9 g of Lanthanum Oxide.",
+        "3. Weigh out 4.4 g of Neodymium Oxide.",
+        "4. In a mortar and pestle, mix the powders thoroughly to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 100 g of Barium Carbonate. \n 2. Weigh out 17.9 g of Lanthanum Oxide. \n 3. Weigh out 4.4 g of Neodymium Oxide. \n 4. In a mortar and pestle, mix the powders thoroughly to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min and hold for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 5°C/min and hold for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Grind the material to a fine powder if necessary.",
+        "3. If required, sinter the powder at 1200°C for 2 hours to form a solid piece.",
+        "4. Sand the edges of the solid sample for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Grind the material to a fine powder if necessary. \n 3. If required, sinter the powder at 1200°C for 2 hours to form a solid piece. \n 4. Sand the edges of the solid sample for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 2859052.0,
+      "density": 4765.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1950702.0,
+      "formation_energy_per_atom": -5425.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": 0.0067,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0d67161e4b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:33.243527Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B24La3Nd1.json",
+      "material://B24La3Nd1"
+    ]
+  }
+}

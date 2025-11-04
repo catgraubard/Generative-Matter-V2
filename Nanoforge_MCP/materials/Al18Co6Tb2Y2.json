@@ -1,0 +1,131 @@
+{
+  "id": "Al18Co6Tb2Y2",
+  "uri": "material://Al18Co6Tb2Y2",
+  "composition": {
+    "formula": "Al18Co6Tb2Y2",
+    "elements": {
+      "Al": 18,
+      "Co": 6,
+      "Tb": 2,
+      "Y": 2
+    },
+    "reduced_formula": "TbY(Al3Co)3",
+    "element_list": [
+      "Al",
+      "Co",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ca",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ca: 20 g \n Rb: 40 g \n Se: 80 g \n Zr: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Ca: Obtain from a chemical supplier or online store that sells calcium carbonate or calcium metal. \n Rb: Purchase rubidium chloride from a chemical supplier. \n Se: Acquire selenium from a chemical supplier or online market. \n Zr: Source zirconium powder from a specialized metal supplier or online chemical store.",
+      "steps": [
+        "Ca: Obtain from a chemical supplier or online store that sells calcium carbonate or calcium metal.",
+        "Rb: Purchase rubidium chloride from a chemical supplier.",
+        "Se: Acquire selenium from a chemical supplier or online market.",
+        "Zr: Source zirconium powder from a specialized metal supplier or online chemical store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine Ca, Rb, Se, and Zr thoroughly.",
+        "3. Use a mortar and pestle or a mechanical mixer to ensure uniformity of the mixture.",
+        "4. Transfer the well-mixed powder to a mold that fits the dimensions 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine Ca, Rb, Se, and Zr thoroughly. \n 3. Use a mortar and pestle or a mechanical mixer to ensure uniformity of the mixture. \n 4. Transfer the well-mixed powder to a mold that fits the dimensions 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 5,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the filled mold in the furnace and heat for 5 hours to ensure complete reaction and solidification of the mixture."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the filled mold in the furnace and heat for 5 hours to ensure complete reaction and solidification of the mixture."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect the surface for any irregularities or rough edges.",
+        "3. If necessary, sand the edges with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to the surface to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect the surface for any irregularities or rough edges. \n 3. If necessary, sand the edges with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to the surface to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4433979.0,
+      "density": 49994.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1480082.0,
+      "formation_energy_per_atom": -562.0,
+      "decomposition_energy_per_atom": -185.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -185.0,
+      "decomposition_energy_mp_oqmd": -123.0
+    },
+    "electronic": {
+      "bandgap": 0.0034,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "adb264d2d8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:07.804083Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al18Co6Tb2Y2.json",
+      "material://Al18Co6Tb2Y2"
+    ]
+  }
+}

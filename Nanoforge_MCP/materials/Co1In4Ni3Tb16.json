@@ -1,0 +1,133 @@
+{
+  "id": "Co1In4Ni3Tb16",
+  "uri": "material://Co1In4Ni3Tb16",
+  "composition": {
+    "formula": "Co1In4Ni3Tb16",
+    "elements": {
+      "Co": 1,
+      "In": 4,
+      "Ni": 3,
+      "Tb": 16
+    },
+    "reduced_formula": "Tb16In4CoNi3",
+    "element_list": [
+      "Co",
+      "Ni",
+      "In",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g \n In: 40 g \n Ni: 30 g \n Tb: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supplier or online marketplace (e.g., metal.com) \n In: Obtain from a chemical supply company (e.g., Sigma-Aldrich) \n Ni: Buy from a local metal fabricator or online \n Tb: Acquire from a rare earth metal supplier (e.g., American Elements)",
+      "steps": [
+        "Co: Purchase from a metal supplier or online marketplace (e.g., metal.com)",
+        "In: Obtain from a chemical supply company (e.g., Sigma-Aldrich)",
+        "Ni: Buy from a local metal fabricator or online",
+        "Tb: Acquire from a rare earth metal supplier (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean and dry mixing container, combine Co, In, Ni, and Tb in the specified amounts.",
+        "3. Use a mechanical stirrer or spatula to mix the powders thoroughly for at least 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean and dry mixing container, combine Co, In, Ni, and Tb in the specified amounts. \n 3. Use a mechanical stirrer or spatula to mix the powders thoroughly for at least 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1,200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1,200°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 800°C naturally without opening it (approximately 1 hour).",
+        "2. After reaching 800°C, remove the crucible and place it in a ceramic fiber blanket to cool down to room temperature (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 800°C naturally without opening it (approximately 1 hour). \n 2. After reaching 800°C, remove the crucible and place it in a ceramic fiber blanket to cool down to room temperature (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a diamond saw to cut the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a diamond saw to cut the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6276024.0,
+      "density": 85648.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1176821.0,
+      "formation_energy_per_atom": -3365.0,
+      "decomposition_energy_per_atom": -227.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -226.0,
+      "decomposition_energy_mp_oqmd": -194.0
+    },
+    "electronic": {
+      "bandgap": 0.0065,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ea4b0fe1da",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.513758Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1In4Ni3Tb16.json",
+      "material://Co1In4Ni3Tb16"
+    ]
+  }
+}

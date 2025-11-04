@@ -1,0 +1,132 @@
+{
+  "id": "Ag12C4Tm12",
+  "uri": "material://Ag12C4Tm12",
+  "composition": {
+    "formula": "Ag12C4Tm12",
+    "elements": {
+      "Ag": 12,
+      "C": 4,
+      "Tm": 12
+    },
+    "reduced_formula": "Tm3Ag3C",
+    "element_list": [
+      "C",
+      "Ag",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Mo",
+          "amount": 2.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Se",
+          "amount": 16.0,
+          "unit": "grams"
+        },
+        {
+          "element": "V",
+          "amount": 2.0,
+          "unit": "grams"
+        }
+      ],
+      "raw_text": "Cs: 12 grams \n Mo: 2 grams \n Se: 16 grams \n V: 2 grams"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Obtain from a chemical supply store or online supplier such as Sigma-Aldrich.\n Mo (Molybdenum): Purchase from a metallurgical supplier or online platforms like eBay or Amazon.\n Se (Selenium): Available from chemical supply stores or scientific supply websites.\n V (Vanadium): Can be sourced from chemical suppliers or specialty metal vendors.",
+      "steps": [
+        "Cs (Cesium): Obtain from a chemical supply store or online supplier such as Sigma-Aldrich.",
+        "Mo (Molybdenum): Purchase from a metallurgical supplier or online platforms like eBay or Amazon.",
+        "Se (Selenium): Available from chemical supply stores or scientific supply websites.",
+        "V (Vanadium): Can be sourced from chemical suppliers or specialty metal vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 12 grams of Cs using an analytical balance.",
+        "2. Measure 2 grams of Mo.",
+        "3. Measure 16 grams of Se.",
+        "4. Measure 2 grams of V.",
+        "5. In a clean, dry ceramic or glass container, combine all measured elements thoroughly using a clean spatula or stirring rod. Ensure uniform mixing to achieve homogeneity."
+      ],
+      "raw_text": "1. Measure 12 grams of Cs using an analytical balance. \n 2. Measure 2 grams of Mo. \n 3. Measure 16 grams of Se. \n 4. Measure 2 grams of V. \n 5. In a clean, dry ceramic or glass container, combine all measured elements thoroughly using a clean spatula or stirring rod. Ensure uniform mixing to achieve homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the sample gradually to 800°C at a rate of 10°C per minute.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the sample gradually to 800°C at a rate of 10°C per minute. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature (approximately 2-3 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified material from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out the edges and surface of the sample.",
+        "3. If necessary, apply a sealant to the surface for protection against oxidation.",
+        "4. Allow the sealant to cure as per manufacturer’s instructions before handling."
+      ],
+      "raw_text": "1. Carefully remove the solidified material from the crucible. \n 2. Use a fine-grit sandpaper to smooth out the edges and surface of the sample. \n 3. If necessary, apply a sealant to the surface for protection against oxidation. \n 4. Allow the sealant to cure as per manufacturer’s instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5613062.0,
+      "density": 99687.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1346458.0,
+      "formation_energy_per_atom": -3585.0,
+      "decomposition_energy_per_atom": -81.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -52.0,
+      "decomposition_energy_mp": -81.0,
+      "decomposition_energy_mp_oqmd": -52.0
+    },
+    "electronic": {
+      "bandgap": 0.0145,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dd357c68b0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.844840Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag12C4Tm12.json",
+      "material://Ag12C4Tm12"
+    ]
+  }
+}

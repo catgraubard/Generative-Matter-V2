@@ -1,0 +1,135 @@
+{
+  "id": "Cs1Fe12Rb1Se14",
+  "uri": "material://Cs1Fe12Rb1Se14",
+  "composition": {
+    "formula": "Cs1Fe12Rb1Se14",
+    "elements": {
+      "Cs": 1,
+      "Fe": 12,
+      "Rb": 1,
+      "Se": 14
+    },
+    "reduced_formula": "CsRb(Fe6Se7)2",
+    "element_list": [
+      "Fe",
+      "Se",
+      "Rb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 140.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.0 g\nFe: 120.0 g\nRb: 10.0 g\nSe: 140.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Obtain from a chemical supplier or online specialty chemicals store.\nFe (Iron): Purchase from a metallurgy supplier or chemical supply store.\nRb (Rubidium): Obtain from a chemical supplier.\nSe (Selenium): Purchase from a chemical supply store.",
+      "steps": [
+        "Cs (Cesium): Obtain from a chemical supplier or online specialty chemicals store.",
+        "Fe (Iron): Purchase from a metallurgy supplier or chemical supply store.",
+        "Rb (Rubidium): Obtain from a chemical supplier.",
+        "Se (Selenium): Purchase from a chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10.0 g of Cs using a precision balance.",
+        "2. Measure 120.0 g of Fe, ensuring it's in powdered form.",
+        "3. Measure 10.0 g of Rb.",
+        "4. Measure 140.0 g of Se in powdered form.",
+        "5. In a clean, dry container, combine all measured ingredients.",
+        "6. Mix thoroughly using a mortar and pestle or mechanical mixer until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Measure 10.0 g of Cs using a precision balance.\n2. Measure 120.0 g of Fe, ensuring it's in powdered form.\n3. Measure 10.0 g of Rb.\n4. Measure 140.0 g of Se in powdered form.\n5. In a clean, dry container, combine all measured ingredients.\n6. Mix thoroughly using a mortar and pestle or mechanical mixer until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a suitable crucible.",
+        "2. Heat the crucible in a furnace or high-temperature oven at 800 °C for 4 hours.",
+        "3. Ensure an inert atmosphere, such as argon or nitrogen, to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a suitable crucible.\n2. Heat the crucible in a furnace or high-temperature oven at 800 °C for 4 hours.\n3. Ensure an inert atmosphere, such as argon or nitrogen, to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the crucible to cool slowly to room temperature (approximately 25 °C).",
+        "2. This process should take about 6 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, allow the crucible to cool slowly to room temperature (approximately 25 °C).\n2. This process should take about 6 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If needed, grind the sample to achieve a finer powder.",
+        "3. If a solid form is desired, press the powder into a mold to create a defined shape of 3 inches x 2 inches x 7 inches.",
+        "4. Optionally, cure the pressed sample at 500 °C for another 2 hours to enhance structural integrity.",
+        "5. Sand the edges and surfaces for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. If needed, grind the sample to achieve a finer powder.\n3. If a solid form is desired, press the powder into a mold to create a defined shape of 3 inches x 2 inches x 7 inches.\n4. Optionally, cure the pressed sample at 500 °C for another 2 hours to enhance structural integrity.\n5. Sand the edges and surfaces for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5944143.0,
+      "density": 55703.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1703997.0,
+      "formation_energy_per_atom": -6407.0,
+      "decomposition_energy_per_atom": -233.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -233.0,
+      "decomposition_energy_mp_oqmd": -179.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1fe1508e13",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:57.413766Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Fe12Rb1Se14.json",
+      "material://Cs1Fe12Rb1Se14"
+    ]
+  }
+}

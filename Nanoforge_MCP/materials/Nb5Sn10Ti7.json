@@ -1,0 +1,110 @@
+{
+  "id": "Nb5Sn10Ti7",
+  "uri": "material://Nb5Sn10Ti7",
+  "composition": {
+    "formula": "Nb5Sn10Ti7",
+    "elements": {
+      "Nb": 5,
+      "Sn": 10,
+      "Ti": 7
+    },
+    "reduced_formula": "Ti7(NbSn2)5",
+    "element_list": [
+      "Ti",
+      "Nb",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 150.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 150 g, Sn: 300 g, Ti: 175 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Specialty metal suppliers or online retailers; Sn: Electronics supply stores or metal suppliers; Ti: Aerospace material suppliers or online retailers.",
+      "steps": [
+        "Nb: Specialty metal suppliers or online retailers; Sn: Electronics supply stores or metal suppliers; Ti: Aerospace material suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 150 g of niobium (Nb), 300 g of tin (Sn), and 175 g of titanium (Ti).",
+        "2. In a clean, dry environment, mix the Nb, Sn, and Ti powders in a ceramic or glass container using a spatula or a mechanical mixer for uniformity.",
+        "3. Ensure all powders are finely processed to avoid clumping, ideally below 100 microns."
+      ],
+      "raw_text": "1. Weigh out 150 g of niobium (Nb), 300 g of tin (Sn), and 175 g of titanium (Ti). \n 2. In a clean, dry environment, mix the Nb, Sn, and Ti powders in a ceramic or glass container using a spatula or a mechanical mixer for uniformity. \n 3. Ensure all powders are finely processed to avoid clumping, ideally below 100 microns."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixed powders in a high-temperature furnace.",
+        "2. Heat gradually to 1200°C (2192°F) at a rate of 5°C per minute.",
+        "3. Maintain this temperature for 2 hours to allow for proper alloy formation."
+      ],
+      "raw_text": "1. Place the mixed powders in a high-temperature furnace. \n 2. Heat gradually to 1200°C (2192°F) at a rate of 5°C per minute. \n 3. Maintain this temperature for 2 hours to allow for proper alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally.",
+        "2. Avoid opening the furnace until it reaches room temperature (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally. \n 2. Avoid opening the furnace until it reaches room temperature (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified alloy from the furnace.",
+        "2. If necessary, grind or sand the edges to achieve desired dimensions.",
+        "3. Optionally, apply a sealant or protective coating to improve surface integrity and oxidation resistance."
+      ],
+      "raw_text": "1. Remove the solidified alloy from the furnace. \n 2. If necessary, grind or sand the edges to achieve desired dimensions. \n 3. Optionally, apply a sealant or protective coating to improve surface integrity and oxidation resistance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 4373471.0,
+      "density": 75432.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1525704.0,
+      "formation_energy_per_atom": -3045.0,
+      "decomposition_energy_per_atom": -228.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -228.0,
+      "decomposition_energy_mp_oqmd": -225.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "95863f4d55",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:32.235188Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb5Sn10Ti7.json",
+      "material://Nb5Sn10Ti7"
+    ]
+  }
+}

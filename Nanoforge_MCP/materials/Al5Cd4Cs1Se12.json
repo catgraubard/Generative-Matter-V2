@@ -1,0 +1,132 @@
+{
+  "id": "Al5Cd4Cs1Se12",
+  "uri": "material://Al5Cd4Cs1Se12",
+  "composition": {
+    "formula": "Al5Cd4Cs1Se12",
+    "elements": {
+      "Al": 5,
+      "Cd": 4,
+      "Cs": 1,
+      "Se": 12
+    },
+    "reduced_formula": "CsAl5(CdSe3)4",
+    "element_list": [
+      "Al",
+      "Se",
+      "Cd",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g \n Er: 10 g \n Ga: 10 g \n Tm: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt Powder): Purchase from a chemical supply store or online marketplace. \n Er (Erbium Oxide): Obtain from a specialized rare earth materials supplier. \n Ga (Gallium): Available from electronics suppliers or chemical suppliers. \n Tm (Thulium Oxide): Source from rare earth element suppliers or chemical supply companies.",
+      "steps": [
+        "Co (Cobalt Powder): Purchase from a chemical supply store or online marketplace.",
+        "Er (Erbium Oxide): Obtain from a specialized rare earth materials supplier.",
+        "Ga (Gallium): Available from electronics suppliers or chemical suppliers.",
+        "Tm (Thulium Oxide): Source from rare earth element suppliers or chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40 g of Co powder and place it in a clean, dry mixing container.",
+        "2. Add 10 g of Er oxide to the Co powder.",
+        "3. Introduce 10 g of Ga into the mixture.",
+        "4. Finally, add 30 g of Tm oxide.",
+        "5. Use a mortar and pestle or a mechanical grinder to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 40 g of Co powder and place it in a clean, dry mixing container. \n 2. Add 10 g of Er oxide to the Co powder. \n 3. Introduce 10 g of Ga into the mixture. \n 4. Finally, add 30 g of Tm oxide. \n 5. Use a mortar and pestle or a mechanical grinder to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a ceramic crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 1200°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and sintering of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a ceramic crucible. \n 2. Heat the crucible in a furnace to a temperature of 1200°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and sintering of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Avoid rapid cooling to prevent thermal shock and cracking of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Avoid rapid cooling to prevent thermal shock and cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid block from the crucible.",
+        "2. Use a diamond saw to trim the edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the surface using 120-grit sandpaper followed by 400-grit for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation or moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solid block from the crucible. \n 2. Use a diamond saw to trim the edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the surface using 120-grit sandpaper followed by 400-grit for a smooth finish. \n 4. Optionally, apply a sealant to protect the surface from oxidation or moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 6278068.0,
+      "density": 44038.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -895383.0,
+      "formation_energy_per_atom": -11033.0,
+      "decomposition_energy_per_atom": -447.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -447.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 1.8293,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bd635838db",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.192507Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al5Cd4Cs1Se12.json",
+      "material://Al5Cd4Cs1Se12"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "Ga2Nb8Sb4Ti2",
+  "uri": "material://Ga2Nb8Sb4Ti2",
+  "composition": {
+    "formula": "Ga2Nb8Sb4Ti2",
+    "elements": {
+      "Ga": 2,
+      "Nb": 8,
+      "Sb": 4,
+      "Ti": 2
+    },
+    "reduced_formula": "TiNb4GaSb2",
+    "element_list": [
+      "Ti",
+      "Ga",
+      "Nb",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 72 g (Carbon source, e.g., graphite) \n Mn: 200 g (Manganese source, e.g., manganese oxide) \n Mo: 10 g (Molybdenum source, e.g., molybdenum disulfide) \n Ni: 10 g (Nickel source, e.g., nickel powder) \n Ru: 10 g (Ruthenium source, e.g., ruthenium powder)"
+    },
+    "sourcing": {
+      "instructions": "C: Local hardware store or chemical supply store \n Mn: Chemical supply store or online suppliers \n Mo: Chemical supply store or online suppliers \n Ni: Chemical supply store or online suppliers \n Ru: Specialized metal suppliers or online suppliers",
+      "steps": [
+        "C: Local hardware store or chemical supply store",
+        "Mn: Chemical supply store or online suppliers",
+        "Mo: Chemical supply store or online suppliers",
+        "Ni: Chemical supply store or online suppliers",
+        "Ru: Specialized metal suppliers or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean mixing container, measure 72 g of carbon.",
+        "2. Add 200 g of manganese oxide to the container.",
+        "3. Incorporate 10 g of molybdenum disulfide.",
+        "4. Mix in 10 g of nickel powder.",
+        "5. Finally, add 10 g of ruthenium powder.",
+        "6. Use a mechanical mixer to blend the powders thoroughly for 10 minutes until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. In a clean mixing container, measure 72 g of carbon. \n 2. Add 200 g of manganese oxide to the container. \n 3. Incorporate 10 g of molybdenum disulfide. \n 4. Mix in 10 g of nickel powder. \n 5. Finally, add 10 g of ruthenium powder. \n 6. Use a mechanical mixer to blend the powders thoroughly for 10 minutes until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Heat the crucible in a furnace to 1200°C.",
+        "3. Maintain this temperature for 2 hours to ensure proper alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible. \n 2. Heat the crucible in a furnace to 1200°C. \n 3. Maintain this temperature for 2 hours to ensure proper alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace until it has cooled down to avoid oxidation."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours). \n 2. Do not open the furnace until it has cooled down to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using 400-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant to prevent oxidation and enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using 400-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant to prevent oxidation and enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2926628.0,
+      "density": 83149.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1259191.0,
+      "formation_energy_per_atom": -4216.0,
+      "decomposition_energy_per_atom": -185.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -185.0,
+      "decomposition_energy_mp_oqmd": -149.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ad7b0dd290",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:06.964047Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Nb8Sb4Ti2.json",
+      "material://Ga2Nb8Sb4Ti2"
+    ]
+  }
+}

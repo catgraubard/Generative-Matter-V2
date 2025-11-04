@@ -1,0 +1,114 @@
+{
+  "id": "Hg2In4Li8Sn2",
+  "uri": "material://Hg2In4Li8Sn2",
+  "composition": {
+    "formula": "Hg2In4Li8Sn2",
+    "elements": {
+      "Hg": 2,
+      "In": 4,
+      "Li": 8,
+      "Sn": 2
+    },
+    "reduced_formula": "Li4In2SnHg",
+    "element_list": [
+      "Li",
+      "In",
+      "Sn",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 5.0 g, In: 20.0 g, Li: 1.0 g, Sn: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Obtain from a chemical supply store or online chemical supplier; In: Metal alloy suppliers; Li: Battery suppliers; Sn: Metal suppliers or online stores.",
+      "steps": [
+        "Hg: Obtain from a chemical supply store or online chemical supplier; In: Metal alloy suppliers; Li: Battery suppliers; Sn: Metal suppliers or online stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 5.0 g of Hg, 20.0 g of In, 1.0 g of Li, and 10.0 g of Sn using an analytical balance.",
+        "2. Combine the measured amounts into a clean, dry crucible.",
+        "3. Use a pestle and mortar to finely grind the mixture until it is a homogeneous powder."
+      ],
+      "raw_text": "1. Measure out 5.0 g of Hg, 20.0 g of In, 1.0 g of Li, and 10.0 g of Sn using an analytical balance. \n 2. Combine the measured amounts into a clean, dry crucible. \n 3. Use a pestle and mortar to finely grind the mixture until it is a homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 400,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 400 °C at a ramp rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat to 400 °C at a ramp rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully using tongs.",
+        "2. Inspect for any irregularities or surface oxidation.",
+        "3. If necessary, sand the surface lightly with fine-grit sandpaper for a smooth finish.",
+        "4. Seal with an appropriate coating to prevent oxidation if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully using tongs. \n 2. Inspect for any irregularities or surface oxidation. \n 3. If necessary, sand the surface lightly with fine-grit sandpaper for a smooth finish. \n 4. Seal with an appropriate coating to prevent oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3178783.0,
+      "density": 60252.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -400724.0,
+      "formation_energy_per_atom": -323.0,
+      "decomposition_energy_per_atom": -93.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -93.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4aa212f8e7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:53.775259Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg2In4Li8Sn2.json",
+      "material://Hg2In4Li8Sn2"
+    ]
+  }
+}

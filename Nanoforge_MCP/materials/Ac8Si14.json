@@ -1,0 +1,110 @@
+{
+  "id": "Ac8Si14",
+  "uri": "material://Ac8Si14",
+  "composition": {
+    "formula": "Ac8Si14",
+    "elements": {
+      "Ac": 8,
+      "Si": 14
+    },
+    "reduced_formula": "Ac4Si7",
+    "element_list": [
+      "Si",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 40 g, Ga: 10 g, La: 100 g, Sb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "C: Graphite powder from a chemical supplier; Ga: Gallium ingots from a metal supplier; La: Lanthanum oxide from a chemical distributor; Sb: Antimony powder from a metal supplier.",
+      "steps": [
+        "C: Graphite powder from a chemical supplier; Ga: Gallium ingots from a metal supplier; La: Lanthanum oxide from a chemical distributor; Sb: Antimony powder from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 40 g of graphite powder.",
+        "2. Measure out 10 g of gallium ingots and slice into small pieces.",
+        "3. Measure out 100 g of lanthanum oxide powder.",
+        "4. Measure out 30 g of antimony powder.",
+        "5. Combine all ingredients in a clean, dry mixing bowl and stir thoroughly to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out 40 g of graphite powder. \n 2. Measure out 10 g of gallium ingots and slice into small pieces. \n 3. Measure out 100 g of lanthanum oxide powder. \n 4. Measure out 30 g of antimony powder. \n 5. Combine all ingredients in a clean, dry mixing bowl and stir thoroughly to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace at 800 °C for 2 hours to facilitate the reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace at 800 °C for 2 hours to facilitate the reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This cooling process should take around 4-6 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 25 °C). \n 2. This cooling process should take around 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If needed, sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If needed, sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 5563053.0,
+      "density": 65943.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1204591.0,
+      "formation_energy_per_atom": -5243.0,
+      "decomposition_energy_per_atom": -2798.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -75.0,
+      "decomposition_energy_mp": -2792.0,
+      "decomposition_energy_mp_oqmd": -2792.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6e5f340a1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.224157Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac8Si14.json",
+      "material://Ac8Si14"
+    ]
+  }
+}

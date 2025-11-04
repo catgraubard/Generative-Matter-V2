@@ -1,0 +1,104 @@
+{
+  "id": "Cu2K1Pr1Sb2",
+  "uri": "material://Cu2K1Pr1Sb2",
+  "composition": {
+    "formula": "Cu2K1Pr1Sb2",
+    "elements": {
+      "Cu": 2,
+      "K": 1,
+      "Pr": 1,
+      "Sb": 2
+    },
+    "reduced_formula": "KPr(CuSb)2",
+    "element_list": [
+      "K",
+      "Cu",
+      "Sb",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50 g, K: 10 g, Pr: 10 g, Sb: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supply store or online retailer; K: Chemical supply company; Pr: Specialty chemical supplier; Sb: Metal supplier.",
+      "steps": [
+        "Cu: Purchase from a metal supply store or online retailer; K: Chemical supply company; Pr: Specialty chemical supplier; Sb: Metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "steps": [
+        "1. Preheat a furnace or oven to 900°C."
+      ],
+      "raw_text": "1. Preheat a furnace or oven to 900°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours)."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1628745.0,
+      "density": 56137.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -261217.0,
+      "formation_energy_per_atom": -629.0,
+      "decomposition_energy_per_atom": -194.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -194.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3be209a9af",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:34.377892Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2K1Pr1Sb2.json",
+      "material://Cu2K1Pr1Sb2"
+    ]
+  }
+}

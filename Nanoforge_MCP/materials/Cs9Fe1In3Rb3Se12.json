@@ -1,0 +1,115 @@
+{
+  "id": "Cs9Fe1In3Rb3Se12",
+  "uri": "material://Cs9Fe1In3Rb3Se12",
+  "composition": {
+    "formula": "Cs9Fe1In3Rb3Se12",
+    "elements": {
+      "Cs": 9,
+      "Fe": 1,
+      "In": 3,
+      "Rb": 3,
+      "Se": 12
+    },
+    "reduced_formula": "Cs9Rb3In3FeSe12",
+    "element_list": [
+      "Fe",
+      "Se",
+      "Rb",
+      "In",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 9.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 9.0 g, Fe: 1.0 g, In: 3.0 g, Rb: 3.0 g, Se: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Fe: Purchase from a metals supplier; In: Available from specialty metal suppliers; Rb: Sourced from chemical suppliers; Se: Available from chemical supply companies.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Fe: Purchase from a metals supplier; In: Available from specialty metal suppliers; Rb: Sourced from chemical suppliers; Se: Available from chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for precision.",
+        "2. In a clean, dry glass container, combine Cs, Fe, In, Rb, and Se.",
+        "3. Use a mortar and pestle to grind the mixture until uniform in texture.",
+        "4. Transfer the ground mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for precision. \n 2. In a clean, dry glass container, combine Cs, Fe, In, Rb, and Se. \n 3. Use a mortar and pestle to grind the mixture until uniform in texture. \n 4. Transfer the ground mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900 °C.",
+        "2. Place the crucible in the furnace and hold at 900 °C for 4 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 900 °C. \n 2. Place the crucible in the furnace and hold at 900 °C for 4 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 8-10 hours).",
+        "2. Avoid opening the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 8-10 hours). \n 2. Avoid opening the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. Use fine-grit sandpaper to smooth any rough edges and surfaces.",
+        "4. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. Use fine-grit sandpaper to smooth any rough edges and surfaces. \n 4. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11665173.0,
+      "density": 39863.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -103552.0,
+      "formation_energy_per_atom": -12098.0,
+      "decomposition_energy_per_atom": -498.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -498.0,
+      "decomposition_energy_mp_oqmd": -353.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "969685c8f0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:34.039012Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs9Fe1In3Rb3Se12.json",
+      "material://Cs9Fe1In3Rb3Se12"
+    ]
+  }
+}

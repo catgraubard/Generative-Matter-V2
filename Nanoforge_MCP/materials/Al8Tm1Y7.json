@@ -1,0 +1,135 @@
+{
+  "id": "Al8Tm1Y7",
+  "uri": "material://Al8Tm1Y7",
+  "composition": {
+    "formula": "Al8Tm1Y7",
+    "elements": {
+      "Al": 8,
+      "Tm": 1,
+      "Y": 7
+    },
+    "reduced_formula": "Y7TmAl8",
+    "element_list": [
+      "Al",
+      "Y",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Eu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 120 g \n Er: 10 g \n Eu: 10 g \n P: 60 g \n Si: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Chemical supply stores or online chemical suppliers \n Er (Erbium): Rare earth metal suppliers \n Eu (Europium): Rare earth metal suppliers \n P (Phosphorus): Chemical supply stores \n Si (Silicon): Electronics stores or chemical supply stores",
+      "steps": [
+        "Co (Cobalt): Chemical supply stores or online chemical suppliers",
+        "Er (Erbium): Rare earth metal suppliers",
+        "Eu (Europium): Rare earth metal suppliers",
+        "P (Phosphorus): Chemical supply stores",
+        "Si (Silicon): Electronics stores or chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Co, Er, Eu, P, and Si.",
+        "3. Mix thoroughly using a spatula or a mechanical mixer to ensure even distribution of all components."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision scale. \n 2. In a clean, dry container, combine Co, Er, Eu, P, and Si. \n 3. Mix thoroughly using a spatula or a mechanical mixer to ensure even distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace preheated to 1,200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace preheated to 1,200 °C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This cooling process should take about 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. This cooling process should take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or excess material.",
+        "3. Use fine-grit sandpaper to smooth the surfaces.",
+        "4. Optionally, apply a sealant suitable for the material to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges or excess material. \n 3. Use fine-grit sandpaper to smooth the surfaces. \n 4. Optionally, apply a sealant suitable for the material to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3759209.0,
+      "density": 44487.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -86651.0,
+      "formation_energy_per_atom": -4341.0,
+      "decomposition_energy_per_atom": -129.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -129.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": 0.01,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae0fec65eb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.243975Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al8Tm1Y7.json",
+      "material://Al8Tm1Y7"
+    ]
+  }
+}

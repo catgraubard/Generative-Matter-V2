@@ -1,0 +1,115 @@
+{
+  "id": "Cs2In1O12W3",
+  "uri": "material://Cs2In1O12W3",
+  "composition": {
+    "formula": "Cs2In1O12W3",
+    "elements": {
+      "Cs": 2,
+      "In": 1,
+      "O": 12,
+      "W": 3
+    },
+    "reduced_formula": "Cs2In(WO4)3",
+    "element_list": [
+      "O",
+      "In",
+      "Cs",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cesium carbonate (Cs2CO3): 200 g \n - Indium oxide (In2O3): 100 g \n - Tungsten trioxide (WO3): 150 g \n - Deionized water: 50 g (for slurry preparation) \n - Ethanol: 30 g (for cleaning)"
+    },
+    "sourcing": {
+      "instructions": "- Cesium carbonate: Chemical suppliers or online marketplaces specializing in rare earth elements. \n - Indium oxide: Chemical supply companies or electronic material suppliers. \n - Tungsten trioxide: Materials science suppliers or chemical vendors. \n - Deionized water: Local laboratory supply stores or produce your own using a deionization unit. \n - Ethanol: Pharmacy or laboratory supply stores.",
+      "steps": [
+        "- Cesium carbonate: Chemical suppliers or online marketplaces specializing in rare earth elements.",
+        "- Indium oxide: Chemical supply companies or electronic material suppliers.",
+        "- Tungsten trioxide: Materials science suppliers or chemical vendors.",
+        "- Deionized water: Local laboratory supply stores or produce your own using a deionization unit.",
+        "- Ethanol: Pharmacy or laboratory supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, measure and add 200 g of cesium carbonate.",
+        "2. Add 100 g of indium oxide into the same container.",
+        "3. Next, add 150 g of tungsten trioxide.",
+        "4. Slowly incorporate 50 g of deionized water to form a slurry, mixing thoroughly until a consistent paste is achieved.",
+        "5. Use a mortar and pestle or a mechanical mixer to ensure homogeneity."
+      ],
+      "raw_text": "1. In a clean, dry container, measure and add 200 g of cesium carbonate. \n 2. Add 100 g of indium oxide into the same container. \n 3. Next, add 150 g of tungsten trioxide. \n 4. Slowly incorporate 50 g of deionized water to form a slurry, mixing thoroughly until a consistent paste is achieved. \n 5. Use a mortar and pestle or a mechanical mixer to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the prepared slurry into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min and maintain this temperature for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the prepared slurry into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 5°C/min and maintain this temperature for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool to room temperature naturally (approximately 6-8 hours).",
+        "3. Avoid forced cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool to room temperature naturally (approximately 6-8 hours). \n 3. Avoid forced cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Clean the surface using 30 g of ethanol to remove any residues.",
+        "3. Optionally, sand the edges for a smoother finish using fine-grit sandpaper.",
+        "4. Store the final product in a dry, inert atmosphere to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Clean the surface using 30 g of ethanol to remove any residues. \n 3. Optionally, sand the edges for a smoother finish using fine-grit sandpaper. \n 4. Store the final product in a dry, inert atmosphere to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3019254.0,
+      "density": 61826.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1413147.0,
+      "formation_energy_per_atom": -21401.0,
+      "decomposition_energy_per_atom": -14.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -72.0,
+      "decomposition_energy_mp": -118.0,
+      "decomposition_energy_mp_oqmd": -113.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "03066fd4fe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:18.591012Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2In1O12W3.json",
+      "material://Cs2In1O12W3"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "B14Fe2Tb1Y5",
+  "uri": "material://B14Fe2Tb1Y5",
+  "composition": {
+    "formula": "B14Fe2Tb1Y5",
+    "elements": {
+      "B": 14,
+      "Fe": 2,
+      "Tb": 1,
+      "Y": 5
+    },
+    "reduced_formula": "TbY5(FeB7)2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 45.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 10 g \n Er: 5 g \n Si: 25 g \n Tb: 45 g"
+    },
+    "sourcing": {
+      "instructions": "Bi (Bismuth): Specialty metal suppliers or online vendors \n Er (Erbium): Rare earth suppliers \n Si (Silicon): Electronics suppliers or chemical suppliers \n Tb (Terbium): Rare earth suppliers",
+      "steps": [
+        "Bi (Bismuth): Specialty metal suppliers or online vendors",
+        "Er (Erbium): Rare earth suppliers",
+        "Si (Silicon): Electronics suppliers or chemical suppliers",
+        "Tb (Terbium): Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine Bi, Er, Si, and Tb in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder. Ensure homogeneous mixing."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine Bi, Er, Si, and Tb in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture into a fine powder. Ensure homogeneous mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the powdered mixture to a crucible.",
+        "2. Heat in a furnace at 1200°C for 2 hours. Ensure the crucible is suitable for high temperatures."
+      ],
+      "raw_text": "1. Transfer the powdered mixture to a crucible. \n 2. Heat in a furnace at 1200°C for 2 hours. Ensure the crucible is suitable for high temperatures."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature over 6 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature over 6 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges.",
+        "3. If necessary, seal the surface with a clear epoxy resin for protection. Allow to cure as per manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges. \n 3. If necessary, seal the surface with a clear epoxy resin for protection. Allow to cure as per manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2506176.0,
+      "density": 57412.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1603153.0,
+      "formation_energy_per_atom": -5862.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.0084,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae9074c593",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.959904Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B14Fe2Tb1Y5.json",
+      "material://B14Fe2Tb1Y5"
+    ]
+  }
+}

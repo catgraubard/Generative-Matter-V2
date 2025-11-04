@@ -1,0 +1,109 @@
+{
+  "id": "In13Mo3O24",
+  "uri": "material://In13Mo3O24",
+  "composition": {
+    "formula": "In13Mo3O24",
+    "elements": {
+      "In": 13,
+      "Mo": 3,
+      "O": 24
+    },
+    "reduced_formula": "In13(MoO8)3",
+    "element_list": [
+      "O",
+      "Mo",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Indium oxide (In2O3): 130 g  \n - Molybdenum oxide (MoO3): 60 g  \n - Oxygen gas (O2): Sufficient for reaction (typically from ambient air during heating)"
+    },
+    "sourcing": {
+      "instructions": "- Indium oxide: Purchase from chemical supply companies or online retailers specializing in laboratory chemicals. \n - Molybdenum oxide: Available from specialized chemical suppliers.",
+      "steps": [
+        "- Indium oxide: Purchase from chemical supply companies or online retailers specializing in laboratory chemicals.",
+        "- Molybdenum oxide: Available from specialized chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 130 g of indium oxide using an analytical balance.",
+        "2. Weigh 60 g of molybdenum oxide.",
+        "3. In a clean, dry container, combine the indium oxide and molybdenum oxide thoroughly.",
+        "4. Mix the powders using a mortar and pestle or a ball mill for approximately 20 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh 130 g of indium oxide using an analytical balance. \n 2. Weigh 60 g of molybdenum oxide. \n 3. In a clean, dry container, combine the indium oxide and molybdenum oxide thoroughly. \n 4. Mix the powders using a mortar and pestle or a ball mill for approximately 20 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic or alumina crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the furnace to 800°C at a rate of 5°C/min.",
+        "4. Hold the temperature at 800°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic or alumina crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the furnace to 800°C at a rate of 5°C/min. \n 4. Hold the temperature at 800°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the material for any imperfections and use a fine-grit sandpaper to smooth the edges if necessary.",
+        "3. Optionally, cure the sample in an inert atmosphere (e.g., nitrogen) at 500°C for 2 hours to enhance stability.",
+        "4. Seal the surface with a protective coating if required for your application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the material for any imperfections and use a fine-grit sandpaper to smooth the edges if necessary. \n 3. Optionally, cure the sample in an inert atmosphere (e.g., nitrogen) at 500°C for 2 hours to enhance stability. \n 4. Seal the surface with a protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 40,
+      "volume": 5462938.0,
+      "density": 65791.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2657431.0,
+      "formation_energy_per_atom": -19671.0,
+      "decomposition_energy_per_atom": -27.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6d418ce70b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:38.599970Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In13Mo3O24.json",
+      "material://In13Mo3O24"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "B6Co12Fe2Nd1Tm3",
+  "uri": "material://B6Co12Fe2Nd1Tm3",
+  "composition": {
+    "formula": "B6Co12Fe2Nd1Tm3",
+    "elements": {
+      "B": 6,
+      "Co": 12,
+      "Fe": 2,
+      "Nd": 1,
+      "Tm": 3
+    },
+    "reduced_formula": "NdTm3Fe2(Co2B)6",
+    "element_list": [
+      "B",
+      "Fe",
+      "Co",
+      "Nd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 60 g \n Co: 120 g \n Fe: 20 g \n Nd: 10 g \n Tm: 30 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Chemical suppliers or online specialty stores \n Co: Metal suppliers or chemical distributors \n Fe: Industrial metal suppliers \n Nd: Rare earth metal suppliers or online marketplaces \n Tm: Specialty metal vendors",
+      "steps": [
+        "B6: Chemical suppliers or online specialty stores",
+        "Co: Metal suppliers or chemical distributors",
+        "Fe: Industrial metal suppliers",
+        "Nd: Rare earth metal suppliers or online marketplaces",
+        "Tm: Specialty metal vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine the weighed amounts of B6, Co, Fe, Nd, and Tm.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine the weighed amounts of B6, Co, Fe, Nd, and Tm. \n 3. Use a mortar and pestle to thoroughly mix the powders until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Set the furnace temperature to 1100°C.",
+        "3. Allow the material to heat for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Set the furnace temperature to 1100°C. \n 3. Allow the material to heat for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours.",
+        "3. Do not open the furnace until it has cooled completely."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This process should take approximately 6-8 hours. \n 3. Do not open the furnace until it has cooled completely."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect the surface for imperfections and use a file or sandpaper to smooth rough edges.",
+        "3. Optionally, apply a protective sealant if the material is sensitive to oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect the surface for imperfections and use a file or sandpaper to smooth rough edges. \n 3. Optionally, apply a protective sealant if the material is sensitive to oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2802421.0,
+      "density": 90943.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -170651.0,
+      "formation_energy_per_atom": -4225.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -8.0,
+      "decomposition_energy_mp_oqmd": -61.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0ba0509808",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:30.709223Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co12Fe2Nd1Tm3.json",
+      "material://B6Co12Fe2Nd1Tm3"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "Cs1Ga4Na3S6",
+  "uri": "material://Cs1Ga4Na3S6",
+  "composition": {
+    "formula": "Cs1Ga4Na3S6",
+    "elements": {
+      "Cs": 1,
+      "Ga": 4,
+      "Na": 3,
+      "S": 6
+    },
+    "reduced_formula": "CsNa3(Ga2S3)2",
+    "element_list": [
+      "Na",
+      "S",
+      "Ga",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10 g \n Ga: 40 g \n Na: 15 g \n S: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium) - Obtain from a chemical supplier or specialized metals distributor. \n Ga (Gallium) - Available from electronic component suppliers or chemical suppliers. \n Na (Sodium) - Purchase from a chemical supplier, ensuring it is in a suitable form (e.g., metal or sodium salt). \n S (Sulfur) - Obtain from a chemical supplier or agricultural supply stores.",
+      "steps": [
+        "Cs (Cesium) - Obtain from a chemical supplier or specialized metals distributor.",
+        "Ga (Gallium) - Available from electronic component suppliers or chemical suppliers.",
+        "Na (Sodium) - Purchase from a chemical supplier, ensuring it is in a suitable form (e.g., metal or sodium salt).",
+        "S (Sulfur) - Obtain from a chemical supplier or agricultural supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure and place 10 g of Cs, 40 g of Ga, 15 g of Na, and 30 g of S into a clean, dry mixing container.",
+        "2. Using a spatula, carefully mix the powders to achieve a uniform blend.",
+        "3. Transfer the mixture into a high-purity crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. In a fume hood, measure and place 10 g of Cs, 40 g of Ga, 15 g of Na, and 30 g of S into a clean, dry mixing container. \n 2. Using a spatula, carefully mix the powders to achieve a uniform blend. \n 3. Transfer the mixture into a high-purity crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Gradually heat to 800°C at a rate of 10°C per minute.",
+        "3. Hold at 800°C for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Gradually heat to 800°C at a rate of 10°C per minute. \n 3. Hold at 800°C for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it reaches below 200°C to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it reaches below 200°C to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use fine-grit sandpaper to smooth any rough edges on the sample.",
+        "3. Optionally, apply a protective sealant to the surface to enhance durability and stability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use fine-grit sandpaper to smooth any rough edges on the sample. \n 3. Optionally, apply a protective sealant to the surface to enhance durability and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3389266.0,
+      "density": 32981.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -579777.0,
+      "formation_energy_per_atom": -1156.0,
+      "decomposition_energy_per_atom": -202.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -206.0,
+      "decomposition_energy_mp_oqmd": -185.0
+    },
+    "electronic": {
+      "bandgap": 1.636,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "55756a1413",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:07.925067Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Ga4Na3S6.json",
+      "material://Cs1Ga4Na3S6"
+    ]
+  }
+}

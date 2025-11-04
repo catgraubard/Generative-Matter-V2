@@ -1,0 +1,133 @@
+{
+  "id": "Cs4Li2Te8V2",
+  "uri": "material://Cs4Li2Te8V2",
+  "composition": {
+    "formula": "Cs4Li2Te8V2",
+    "elements": {
+      "Cs": 4,
+      "Li": 2,
+      "Te": 8,
+      "V": 2
+    },
+    "reduced_formula": "Cs2LiVTe4",
+    "element_list": [
+      "Li",
+      "V",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ru: 90.0 g \n Si: 150.0 g \n Tb: 20.0 g \n Y: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ru (Ruthenium): Obtain from a reputable supplier of precious metals or chemical suppliers. \n Si (Silicon): Available at electronics or hardware stores. \n Tb (Terbium): Purchase from specialty chemical suppliers or online marketplaces. \n Y (Yttrium): Available from chemical suppliers or online.",
+      "steps": [
+        "Ru (Ruthenium): Obtain from a reputable supplier of precious metals or chemical suppliers.",
+        "Si (Silicon): Available at electronics or hardware stores.",
+        "Tb (Terbium): Purchase from specialty chemical suppliers or online marketplaces.",
+        "Y (Yttrium): Available from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 90.0 g of Ru, 150.0 g of Si, 20.0 g of Tb, and 20.0 g of Y using a precise balance.",
+        "2. In a clean, dry container, combine the weighed materials.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders. Ensure a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 90.0 g of Ru, 150.0 g of Si, 20.0 g of Tb, and 20.0 g of Y using a precise balance. \n 2. In a clean, dry container, combine the weighed materials. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders. Ensure a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1200°C at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down naturally to room temperature.",
+        "2. This process should take approximately 4-6 hours. Do not open the furnace until fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down naturally to room temperature. \n 2. This process should take approximately 4-6 hours. Do not open the furnace until fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable protective coating if required for your application."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 680236.0,
+      "density": 40722.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fddd",
+      "space_group_number": 70,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -664815.0,
+      "formation_energy_per_atom": -9855.0,
+      "decomposition_energy_per_atom": -512.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -154.0,
+      "decomposition_energy_mp": -502.0,
+      "decomposition_energy_mp_oqmd": -221.0
+    },
+    "electronic": {
+      "bandgap": 0.6835,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d3d0f57173",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.352775Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Li2Te8V2.json",
+      "material://Cs4Li2Te8V2"
+    ]
+  }
+}

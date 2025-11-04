@@ -1,0 +1,141 @@
+{
+  "id": "Ag1Cd3Co3Ni1Tb16",
+  "uri": "material://Ag1Cd3Co3Ni1Tb16",
+  "composition": {
+    "formula": "Ag1Cd3Co3Ni1Tb16",
+    "elements": {
+      "Ag": 1,
+      "Cd": 3,
+      "Co": 3,
+      "Ni": 1,
+      "Tb": 16
+    },
+    "reduced_formula": "Tb16Cd3Co3NiAg",
+    "element_list": [
+      "Co",
+      "Ni",
+      "Ag",
+      "Cd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 21.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 14.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 10.5 g \n Ni: 21 g \n O: 36 g \n Ru: 14.5 g \n Sr: 18 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Purchase from a chemical supply company or online (e.g., Sigma-Aldrich) \n Ni: Available at metal suppliers or online (e.g., Amazon) \n O: Obtainable as a gas or solid (e.g., from a laboratory gas supplier) \n Ru: Buy from specialized metal suppliers \n Sr: Source from chemical suppliers",
+      "steps": [
+        "Nb: Purchase from a chemical supply company or online (e.g., Sigma-Aldrich)",
+        "Ni: Available at metal suppliers or online (e.g., Amazon)",
+        "O: Obtainable as a gas or solid (e.g., from a laboratory gas supplier)",
+        "Ru: Buy from specialized metal suppliers",
+        "Sr: Source from chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.5 g of Niobium (Nb).",
+        "2. Weigh 21 g of Nickel (Ni).",
+        "3. Weigh 36 g of Oxygen (O) - consider using a compound such as barium oxide for ease of handling.",
+        "4. Weigh 14.5 g of Ruthenium (Ru).",
+        "5. Weigh 18 g of Strontium (Sr).",
+        "6. Mix all ingredients in a clean, dry ceramic crucible using a mortar and pestle until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 10.5 g of Niobium (Nb). \n 2. Weigh 21 g of Nickel (Ni). \n 3. Weigh 36 g of Oxygen (O) - consider using a compound such as barium oxide for ease of handling. \n 4. Weigh 14.5 g of Ruthenium (Ru). \n 5. Weigh 18 g of Strontium (Sr). \n 6. Mix all ingredients in a clean, dry ceramic crucible using a mortar and pestle until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder in the furnace and heat for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder in the furnace and heat for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has reached room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours). \n 2. Do not open the furnace until it has reached room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample to achieve a smoother finish using a fine-grit sandpaper.",
+        "3. Seal the sample with a protective coating (optional) for enhanced durability.",
+        "4. Store in a dry, cool place until ready for use."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. If necessary, grind the sample to achieve a smoother finish using a fine-grit sandpaper. \n 3. Seal the sample with a protective coating (optional) for enhanced durability. \n 4. Store in a dry, cool place until ready for use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6122142.0,
+      "density": 8743.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1129547.0,
+      "formation_energy_per_atom": -2541.0,
+      "decomposition_energy_per_atom": -67.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -67.0,
+      "decomposition_energy_mp_oqmd": -57.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c5ec79e4e5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.875340Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Cd3Co3Ni1Tb16.json",
+      "material://Ag1Cd3Co3Ni1Tb16"
+    ]
+  }
+}

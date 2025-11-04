@@ -1,0 +1,130 @@
+{
+  "id": "Ce6Nb12Si16Tb2",
+  "uri": "material://Ce6Nb12Si16Tb2",
+  "composition": {
+    "formula": "Ce6Nb12Si16Tb2",
+    "elements": {
+      "Ce": 6,
+      "Nb": 12,
+      "Si": 16,
+      "Tb": 2
+    },
+    "reduced_formula": "TbCe3(Nb3Si4)2",
+    "element_list": [
+      "Si",
+      "Nb",
+      "Ce",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 15.0 g \n Nb: 30.0 g \n Si: 40.0 g \n Tb: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ce (Cerium Oxide): Chemical supply stores or online suppliers like Sigma-Aldrich. \n Nb (Niobium): Specialty metal suppliers or online platforms such as Amazon or eBay. \n Si (Silicon): Electronics supply stores or online suppliers. \n Tb (Terbium Oxide): Rare earth material suppliers or chemical supply stores.",
+      "steps": [
+        "Ce (Cerium Oxide): Chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Nb (Niobium): Specialty metal suppliers or online platforms such as Amazon or eBay.",
+        "Si (Silicon): Electronics supply stores or online suppliers.",
+        "Tb (Terbium Oxide): Rare earth material suppliers or chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean container, mix Ce, Nb, Si, and Tb thoroughly to ensure a uniform mixture.",
+        "3. Use a mortar and pestle or a mechanical mixer for better consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale. \n 2. In a clean container, mix Ce, Nb, Si, and Tb thoroughly to ensure a uniform mixture. \n 3. Use a mortar and pestle or a mechanical mixer for better consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a muffle furnace at 1200°C for 4 hours.",
+        "3. Ensure that the heating ramp is gradual, increasing temperature by 10°C per minute until it reaches 1200°C."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a muffle furnace at 1200°C for 4 hours. \n 3. Ensure that the heating ramp is gradual, increasing temperature by 10°C per minute until it reaches 1200°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Grind the sample to achieve a smooth finish using fine sandpaper.",
+        "3. Optionally, apply a sealing coat or epoxy for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Grind the sample to achieve a smooth finish using fine sandpaper. \n 3. Optionally, apply a sealing coat or epoxy for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6662923.0,
+      "density": 67858.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2788944.0,
+      "formation_energy_per_atom": -7224.0,
+      "decomposition_energy_per_atom": -67.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -666.0,
+      "decomposition_energy_mp_oqmd": -598.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5877b63f03",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:11.949019Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce6Nb12Si16Tb2.json",
+      "material://Ce6Nb12Si16Tb2"
+    ]
+  }
+}

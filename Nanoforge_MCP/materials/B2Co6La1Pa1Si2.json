@@ -1,0 +1,116 @@
+{
+  "id": "B2Co6La1Pa1Si2",
+  "uri": "material://B2Co6La1Pa1Si2",
+  "composition": {
+    "formula": "B2Co6La1Pa1Si2",
+    "elements": {
+      "B": 2,
+      "Co": 6,
+      "La": 1,
+      "Pa": 1,
+      "Si": 2
+    },
+    "reduced_formula": "LaPaCo6(SiB)2",
+    "element_list": [
+      "B",
+      "Si",
+      "Co",
+      "La",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 120 g, Co: 80 g, La: 10 g, Pa: 10 g, Si: 40 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical suppliers; Co: Cobalt powder from metal suppliers; La: Lanthanum oxide from rare earth suppliers; Pa: Palladium powder from precious metal suppliers; Si: Silicon powder from semiconductor suppliers.",
+      "steps": [
+        "B: Boron powder from chemical suppliers; Co: Cobalt powder from metal suppliers; La: Lanthanum oxide from rare earth suppliers; Pa: Palladium powder from precious metal suppliers; Si: Silicon powder from semiconductor suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine 120 g of boron powder, 80 g of cobalt powder, 10 g of lanthanum oxide, 10 g of palladium powder, and 40 g of silicon powder.",
+        "3. Use a mechanical stirrer to mix the powders uniformly for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine 120 g of boron powder, 80 g of cobalt powder, 10 g of lanthanum oxide, 10 g of palladium powder, and 40 g of silicon powder. \n 3. Use a mechanical stirrer to mix the powders uniformly for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a furnace and heat it gradually to 800°C (1472°F) at a rate of 5°C/min.",
+        "3. Once the target temperature is reached, maintain this temperature for 2 hours to allow proper sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible.\n 2. Place the crucible in a furnace and heat it gradually to 800°C (1472°F) at a rate of 5°C/min. \n 3. Once the target temperature is reached, maintain this temperature for 2 hours to allow proper sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections or rough edges.",
+        "3. If necessary, use fine grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a protective sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections or rough edges. \n 3. If necessary, use fine grit sandpaper to smooth the surface. \n 4. Optionally, apply a protective sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1494559.0,
+      "density": 89033.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -882932.0,
+      "formation_energy_per_atom": -5819.0,
+      "decomposition_energy_per_atom": -754.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -752.0,
+      "decomposition_energy_mp_oqmd": -171.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0c5ea137d1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:31.855394Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co6La1Pa1Si2.json",
+      "material://B2Co6La1Pa1Si2"
+    ]
+  }
+}

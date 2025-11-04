@@ -1,0 +1,113 @@
+{
+  "id": "Cs3K1Mo2O8",
+  "uri": "material://Cs3K1Mo2O8",
+  "composition": {
+    "formula": "Cs3K1Mo2O8",
+    "elements": {
+      "Cs": 3,
+      "K": 1,
+      "Mo": 2,
+      "O": 8
+    },
+    "reduced_formula": "Cs3K(MoO4)2",
+    "element_list": [
+      "O",
+      "K",
+      "Mo",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g, K: 0.1 g, Mo: 0.2 g, O: 0.1 g (for a total of 1 g of the compound; scale up accordingly)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from chemical supply companies, K: Potassium nitrate from garden stores, Mo: Molybdenum powder from metal suppliers, O: Obtain from atmospheric oxygen or use in compounds",
+      "steps": [
+        "Cs: Purchase from chemical supply companies, K: Potassium nitrate from garden stores, Mo: Molybdenum powder from metal suppliers, O: Obtain from atmospheric oxygen or use in compounds"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.5 g of cesium chloride (CsCl), 0.1 g of potassium chloride (KCl), and 0.2 g of molybdenum disulfide (MoS2).",
+        "2. In a clean, dry glass container, mix the powders thoroughly using a mortar and pestle to ensure homogeneity.",
+        "3. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 0.5 g of cesium chloride (CsCl), 0.1 g of potassium chloride (KCl), and 0.2 g of molybdenum disulfide (MoS2). \n 2. In a clean, dry glass container, mix the powders thoroughly using a mortar and pestle to ensure homogeneity. \n 3. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to allow for complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 800°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to allow for complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (~25°C) over approximately 4 hours.",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (~25°C) over approximately 4 hours. \n 2. Do not open the furnace until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, grind the solid using a mortar and pestle to achieve a uniform particle size.",
+        "3. Seal the material in an airtight container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, grind the solid using a mortar and pestle to achieve a uniform particle size. \n 3. Seal the material in an airtight container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 328302.0,
+      "density": 38324.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -960892.0,
+      "formation_energy_per_atom": -22155.0,
+      "decomposition_energy_per_atom": -68.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -74.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 4.5761,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4112216b47",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:40.874928Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3K1Mo2O8.json",
+      "material://Cs3K1Mo2O8"
+    ]
+  }
+}

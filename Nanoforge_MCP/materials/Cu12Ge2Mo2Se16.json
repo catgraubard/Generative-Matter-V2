@@ -1,0 +1,133 @@
+{
+  "id": "Cu12Ge2Mo2Se16",
+  "uri": "material://Cu12Ge2Mo2Se16",
+  "composition": {
+    "formula": "Cu12Ge2Mo2Se16",
+    "elements": {
+      "Cu": 12,
+      "Ge": 2,
+      "Mo": 2,
+      "Se": 16
+    },
+    "reduced_formula": "Cu6GeMoSe8",
+    "element_list": [
+      "Cu",
+      "Ge",
+      "Se",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 48.0 g \n Ge: 16.0 g \n Mo: 12.0 g \n Se: 64.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu (Copper): Obtain from metal suppliers or online sources like Amazon or eBay. \n Ge (Germanium): Sourced from electronics suppliers or specialty chemical vendors. \n Mo (Molybdenum): Available from metal supply stores or online. \n Se (Selenium): Purchase from chemical suppliers or online marketplaces.",
+      "steps": [
+        "Cu (Copper): Obtain from metal suppliers or online sources like Amazon or eBay.",
+        "Ge (Germanium): Sourced from electronics suppliers or specialty chemical vendors.",
+        "Mo (Molybdenum): Available from metal supply stores or online.",
+        "Se (Selenium): Purchase from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 48.0 g of Cu, 16.0 g of Ge, 12.0 g of Mo, and 64.0 g of Se using a precise analytical balance.",
+        "2. In a clean, dry environment, mix Cu, Ge, Mo, and Se powders in a ceramic or glass container.",
+        "3. Use a mortar and pestle to achieve a homogeneous mixture, ensuring no lumps remain.",
+        "4. Transfer the mixed powders into a pre-weighed crucible for heating."
+      ],
+      "raw_text": "1. Measure out 48.0 g of Cu, 16.0 g of Ge, 12.0 g of Mo, and 64.0 g of Se using a precise analytical balance. \n 2. In a clean, dry environment, mix Cu, Ge, Mo, and Se powders in a ceramic or glass container. \n 3. Use a mortar and pestle to achieve a homogeneous mixture, ensuring no lumps remain. \n 4. Transfer the mixed powders into a pre-weighed crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800°C.",
+        "2. Place the crucible with the mixed powders inside the furnace.",
+        "3. Maintain the temperature at 800°C for 4 hours to promote full reaction and alloying of the components."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800°C. \n 2. Place the crucible with the mixed powders inside the furnace. \n 3. Maintain the temperature at 800°C for 4 hours to promote full reaction and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled completely to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. If necessary, grind the solid to achieve a smooth surface.",
+        "4. Optionally, apply a sealant if the material will be exposed to environmental conditions to enhance durability.",
+        "5. Store the final product in a cool, dry place for further use."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. If necessary, grind the solid to achieve a smooth surface. \n 4. Optionally, apply a sealant if the material will be exposed to environmental conditions to enhance durability. \n 5. Store the final product in a cool, dry place for further use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 7071454.0,
+      "density": 5549.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1531877.0,
+      "formation_energy_per_atom": -5352.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 0.3232,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0adb301ed7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:29.652695Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu12Ge2Mo2Se16.json",
+      "material://Cu12Ge2Mo2Se16"
+    ]
+  }
+}

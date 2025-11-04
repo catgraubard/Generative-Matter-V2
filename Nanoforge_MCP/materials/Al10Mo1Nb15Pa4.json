@@ -1,0 +1,137 @@
+{
+  "id": "Al10Mo1Nb15Pa4",
+  "uri": "material://Al10Mo1Nb15Pa4",
+  "composition": {
+    "formula": "Al10Mo1Nb15Pa4",
+    "elements": {
+      "Al": 10,
+      "Mo": 1,
+      "Nb": 15,
+      "Pa": 4
+    },
+    "reduced_formula": "Pa4Nb15Al10Mo",
+    "element_list": [
+      "Al",
+      "Nb",
+      "Mo",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 110.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 30 g \n Ni: 30 g \n P: 70 g \n Ru: 110 g \n Sc: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Nd - Rare earth suppliers or online chemical distributors \n Ni - Metal suppliers or hardware stores \n P - Chemical supply companies \n Ru - Precious metal suppliers \n Sc - Rare earth suppliers",
+      "steps": [
+        "Nd - Rare earth suppliers or online chemical distributors",
+        "Ni - Metal suppliers or hardware stores",
+        "P - Chemical supply companies",
+        "Ru - Precious metal suppliers",
+        "Sc - Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Nd, Ni, P, Ru, and Sc in the specified amounts.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine Nd, Ni, P, Ru, and Sc in the specified amounts. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure proper synthesis of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 1200 °C. \n 3. Maintain this temperature for 2 hours to ensure proper synthesis of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock; this may take approximately 5-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock; this may take approximately 5-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and extract the solid sample carefully.",
+        "2. If needed, grind the sample to achieve a uniform texture.",
+        "3. Optionally, seal the sample with a protective coating or finish to enhance durability.",
+        "4. Sand the edges and surfaces to achieve desired smoothness and dimensions."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and extract the solid sample carefully. \n 2. If needed, grind the sample to achieve a uniform texture. \n 3. Optionally, seal the sample with a protective coating or finish to enhance durability. \n 4. Sand the edges and surfaces to achieve desired smoothness and dimensions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 5462645.0,
+      "density": 81573.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2463909.0,
+      "formation_energy_per_atom": -2837.0,
+      "decomposition_energy_per_atom": -162.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -161.0,
+      "decomposition_energy_mp_oqmd": -161.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3513a59f9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.709736Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al10Mo1Nb15Pa4.json",
+      "material://Al10Mo1Nb15Pa4"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Cs2Cu4Mn2Se8",
+  "uri": "material://Cs2Cu4Mn2Se8",
+  "composition": {
+    "formula": "Cs2Cu4Mn2Se8",
+    "elements": {
+      "Cs": 2,
+      "Cu": 4,
+      "Mn": 2,
+      "Se": 8
+    },
+    "reduced_formula": "CsMn(CuSe2)2",
+    "element_list": [
+      "Mn",
+      "Cu",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cs (Cesium): 5.0 g \n Cu (Copper): 20.0 g \n Mn (Manganese): 10.0 g \n Se (Selenium): 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich) \n Cu: Obtain from a metal supplier \n Mn: Available from chemical supply stores \n Se: Can be sourced from chemical companies",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich)",
+        "Cu: Obtain from a metal supplier",
+        "Mn: Available from chemical supply stores",
+        "Se: Can be sourced from chemical companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean glass container, combine Cs, Cu, Mn, and Se.",
+        "3. Stir the mixture thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean glass container, combine Cs, Cu, Mn, and Se. \n 3. Stir the mixture thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 900°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 900°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature over 6 hours.",
+        "2. Do not open the furnace door until it has cooled completely."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature over 6 hours. \n 2. Do not open the furnace door until it has cooled completely."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect for any irregularities and sand down rough edges if necessary.",
+        "3. Optionally, seal the sample with a clear acrylic sealant for enhanced stability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Inspect for any irregularities and sand down rough edges if necessary. \n 3. Optionally, seal the sample with a clear acrylic sealant for enhanced stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4390513.0,
+      "density": 47713.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -766764.0,
+      "formation_energy_per_atom": -7623.0,
+      "decomposition_energy_per_atom": -978.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -134.0,
+      "decomposition_energy_mp": -978.0,
+      "decomposition_energy_mp_oqmd": -183.0
+    },
+    "electronic": {
+      "bandgap": 0.004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "09cc567a4c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:28.065244Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Cu4Mn2Se8.json",
+      "material://Cs2Cu4Mn2Se8"
+    ]
+  }
+}

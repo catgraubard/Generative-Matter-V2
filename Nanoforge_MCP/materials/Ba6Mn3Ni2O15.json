@@ -1,0 +1,123 @@
+{
+  "id": "Ba6Mn3Ni2O15",
+  "uri": "material://Ba6Mn3Ni2O15",
+  "composition": {
+    "formula": "Ba6Mn3Ni2O15",
+    "elements": {
+      "Ba": 6,
+      "Mn": 3,
+      "Ni": 2,
+      "O": 15
+    },
+    "reduced_formula": "Ba6Mn3Ni2O15",
+    "element_list": [
+      "O",
+      "Mn",
+      "Ni",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 17.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 13.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 17 g (Cobalt) \n Li: 13 g (Lithium) \n O: 40 g (Oxygen - typically sourced from a compound such as Lithium Cobalt Oxide, LiCoO2)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt can be sourced from cobalt(II) oxide or cobalt(III) acetate from chemical supply companies. Lithium can be sourced from lithium carbonate or lithium hydroxide. Oxygen is typically available as a part of lithium cobalt oxide.",
+      "steps": [
+        "Cobalt can be sourced from cobalt(II) oxide or cobalt(III) acetate from chemical supply companies. Lithium can be sourced from lithium carbonate or lithium hydroxide. Oxygen is typically available as a part of lithium cobalt oxide."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 17 g of cobalt(II) oxide and 13 g of lithium carbonate using an analytical balance for precision.",
+        "2. Combine the measured powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is obtained."
+      ],
+      "raw_text": "1. Measure 17 g of cobalt(II) oxide and 13 g of lithium carbonate using an analytical balance for precision. \n 2. Combine the measured powders in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 4 hours to allow for complete reaction and formation of Co17Li13O40."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 5°C/min. \n 4. Maintain the temperature for 4 hours to allow for complete reaction and formation of Co17Li13O40."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to avoid cracking the sample due to thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled to avoid cracking the sample due to thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use fine-grit sandpaper to smooth any rough edges on the sample.",
+        "3. Optionally, seal the sample with a clear epoxy to enhance stability and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use fine-grit sandpaper to smooth any rough edges on the sample. \n 3. Optionally, seal the sample with a clear epoxy to enhance stability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3882442.0,
+      "density": 57576.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1853078.0,
+      "formation_energy_per_atom": -2328.0,
+      "decomposition_energy_per_atom": -18.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -23.0,
+      "decomposition_energy_mp_oqmd": -23.0
+    },
+    "electronic": {
+      "bandgap": 1.3714,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e3f5560b43",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.701256Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba6Mn3Ni2O15.json",
+      "material://Ba6Mn3Ni2O15"
+    ]
+  }
+}

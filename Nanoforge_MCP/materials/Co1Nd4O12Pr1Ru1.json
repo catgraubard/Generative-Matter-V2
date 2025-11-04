@@ -1,0 +1,112 @@
+{
+  "id": "Co1Nd4O12Pr1Ru1",
+  "uri": "material://Co1Nd4O12Pr1Ru1",
+  "composition": {
+    "formula": "Co1Nd4O12Pr1Ru1",
+    "elements": {
+      "Co": 1,
+      "Nd": 4,
+      "O": 12,
+      "Pr": 1,
+      "Ru": 1
+    },
+    "reduced_formula": "PrNd4CoRuO12",
+    "element_list": [
+      "O",
+      "Co",
+      "Ru",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt Oxide (CoO): 10 g \n Neodymium Oxide (Nd2O3): 20 g \n Praseodymium Oxide (Pr6O11): 5 g \n Ruthenium Oxide (RuO2): 5 g \n Oxygen (O2): 0 g (gas, will be sourced from the environment during heating)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt Oxide: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich). \n Neodymium Oxide: Obtain from a rare earth metals supplier or online (e.g., American Elements). \n Praseodymium Oxide: Available from specialty chemical suppliers or online (e.g., Alfa Aesar). \n Ruthenium Oxide: Can be sourced from chemical supply companies or online (e.g., Inorganic Ventures).",
+      "steps": [
+        "Cobalt Oxide: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "Neodymium Oxide: Obtain from a rare earth metals supplier or online (e.g., American Elements).",
+        "Praseodymium Oxide: Available from specialty chemical suppliers or online (e.g., Alfa Aesar).",
+        "Ruthenium Oxide: Can be sourced from chemical supply companies or online (e.g., Inorganic Ventures)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh all ingredients accurately using a digital scale.",
+        "2. In a ceramic mixing bowl, combine 10 g of CoO, 20 g of Nd2O3, 5 g of Pr6O11, and 5 g of RuO2.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly to ensure a homogeneous powder.",
+        "4. Transfer the ground mixture into a high-temperature crucible suitable for sintering."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh all ingredients accurately using a digital scale. \n 2. In a ceramic mixing bowl, combine 10 g of CoO, 20 g of Nd2O3, 5 g of Pr6O11, and 5 g of RuO2. \n 3. Use a mortar and pestle to grind the mixture thoroughly to ensure a homogeneous powder. \n 4. Transfer the ground mixture into a high-temperature crucible suitable for sintering."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the furnace to 1200°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the furnace to 1200°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock to the material. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled to prevent thermal shock to the material. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond grinder to smooth the edges and surfaces of the solid piece to achieve the desired finish.",
+        "3. Optionally, apply a sealant to protect the surface from environmental factors, ensuring it is suitable for the intended application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond grinder to smooth the edges and surfaces of the solid piece to achieve the desired finish. \n 3. Optionally, apply a sealant to protect the surface from environmental factors, ensuring it is suitable for the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2771966.0,
+      "density": 6409.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1563088.0,
+      "formation_energy_per_atom": -29841.0,
+      "decomposition_energy_per_atom": -38.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -387.0,
+      "decomposition_energy_mp_oqmd": -349.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2d395de50b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:15.082677Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Nd4O12Pr1Ru1.json",
+      "material://Co1Nd4O12Pr1Ru1"
+    ]
+  }
+}

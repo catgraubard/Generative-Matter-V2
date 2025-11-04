@@ -1,0 +1,126 @@
+{
+  "id": "B6Ni20Sc1Ti2",
+  "uri": "material://B6Ni20Sc1Ti2",
+  "composition": {
+    "formula": "B6Ni20Sc1Ti2",
+    "elements": {
+      "B": 6,
+      "Ni": 20,
+      "Sc": 1,
+      "Ti": 2
+    },
+    "reduced_formula": "ScTi2(Ni10B3)2",
+    "element_list": [
+      "B",
+      "Sc",
+      "Ti",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 60 g \n Ni: 200 g \n Sc: 10 g \n Ti: 20 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Purchase from a specialized metal supplier or online metal store. \n Ni: Obtain from a metal supply store or online. \n Sc: Order from a chemical supplier or online. \n Ti: Available at metal supply stores or online.",
+      "steps": [
+        "B6: Purchase from a specialized metal supplier or online metal store.",
+        "Ni: Obtain from a metal supply store or online.",
+        "Sc: Order from a chemical supplier or online.",
+        "Ti: Available at metal supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed B6, Ni, Sc, and Ti powders.",
+        "3. Stir the mixture thoroughly using a spatula or a mechanical mixer to ensure even distribution of all components."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine the weighed B6, Ni, Sc, and Ti powders. \n 3. Stir the mixture thoroughly using a spatula or a mechanical mixer to ensure even distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace at a temperature of 1200°C for 2 hours to facilitate alloy formation.",
+        "3. Gradually increase the temperature to 1500°C and hold for an additional 1 hour."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace at a temperature of 1200°C for 2 hours to facilitate alloy formation. \n 3. Gradually increase the temperature to 1500°C and hold for an additional 1 hour."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over a period of 4 hours.",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over a period of 4 hours. \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sanding tools to smooth the surface of the sample.",
+        "3. Optionally, apply a sealant or coating for protection against oxidation.",
+        "4. Allow the sample to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sanding tools to smooth the surface of the sample. \n 3. Optionally, apply a sealant or coating for protection against oxidation. \n 4. Allow the sample to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2935997.0,
+      "density": 78017.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1905125.0,
+      "formation_energy_per_atom": -4383.0,
+      "decomposition_energy_per_atom": -84.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -84.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "10dee898d9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:37.537135Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Ni20Sc1Ti2.json",
+      "material://B6Ni20Sc1Ti2"
+    ]
+  }
+}

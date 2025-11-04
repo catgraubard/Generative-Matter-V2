@@ -1,0 +1,136 @@
+{
+  "id": "Nd4Pb16Pr16",
+  "uri": "material://Nd4Pb16Pr16",
+  "composition": {
+    "formula": "Nd4Pb16Pr16",
+    "elements": {
+      "Nd": 4,
+      "Pb": 16,
+      "Pr": 16
+    },
+    "reduced_formula": "Pr4NdPb4",
+    "element_list": [
+      "Pr",
+      "Nd",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 20 g \n Ni: 320 g \n P: 50 g \n Tb: 15 g \n Zr: 5 g"
+    },
+    "sourcing": {
+      "instructions": "La: Rare earth suppliers or online chemical retailers \n Ni: Metal suppliers or industrial hardware stores \n P: Chemical suppliers \n Tb: Rare earth suppliers \n Zr: Metal suppliers",
+      "steps": [
+        "La: Rare earth suppliers or online chemical retailers",
+        "Ni: Metal suppliers or industrial hardware stores",
+        "P: Chemical suppliers",
+        "Tb: Rare earth suppliers",
+        "Zr: Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine La, Ni, P, Tb, and Zr in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle or mechanical mixer for at least 15 minutes until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine La, Ni, P, Tb, and Zr in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle or mechanical mixer for at least 15 minutes until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1200°C at a rate of 5°C/minute.",
+        "3. Maintain the temperature at 1200°C for 4 hours to ensure complete reaction and solidification of the material."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 1200°C at a rate of 5°C/minute. \n 3. Maintain the temperature at 1200°C for 4 hours to ensure complete reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections or irregularities.",
+        "3. If necessary, sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if the material will be exposed to the environment."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections or irregularities. \n 3. If necessary, sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if the material will be exposed to the environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 12046123.0,
+      "density": 84731.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1758681.0,
+      "formation_energy_per_atom": -5805.0,
+      "decomposition_energy_per_atom": -37.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": -37.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b4f3153597",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.035725Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd4Pb16Pr16.json",
+      "material://Nd4Pb16Pr16"
+    ]
+  }
+}

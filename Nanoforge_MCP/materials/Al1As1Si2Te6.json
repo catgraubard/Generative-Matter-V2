@@ -1,0 +1,114 @@
+{
+  "id": "Al1As1Si2Te6",
+  "uri": "material://Al1As1Si2Te6",
+  "composition": {
+    "formula": "Al1As1Si2Te6",
+    "elements": {
+      "Al": 1,
+      "As": 1,
+      "Si": 2,
+      "Te": 6
+    },
+    "reduced_formula": "AlSi2Te6As",
+    "element_list": [
+      "Al",
+      "Si",
+      "As",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 12 g, Li: 8 g, Nb: 20 g, P: 12 g, Ti: 12 g, Total: 64 g"
+    },
+    "sourcing": {
+      "instructions": "K: Potassium carbonate from chemical suppliers; Li: Lithium carbonate from chemical suppliers; Nb: Niobium oxide from chemical suppliers; P: Phosphorus pentoxide from chemical suppliers; Ti: Titanium dioxide from chemical suppliers.",
+      "steps": [
+        "K: Potassium carbonate from chemical suppliers; Li: Lithium carbonate from chemical suppliers; Nb: Niobium oxide from chemical suppliers; P: Phosphorus pentoxide from chemical suppliers; Ti: Titanium dioxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mortar and pestle, combine K, Li, Nb, P, and Ti.",
+        "3. Grind the mixture thoroughly for 15-20 minutes to achieve a homogeneous powder.",
+        "4. Transfer the powder into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mortar and pestle, combine K, Li, Nb, P, and Ti. \n 3. Grind the mixture thoroughly for 15-20 minutes to achieve a homogeneous powder. \n 4. Transfer the powder into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 950°C.",
+        "2. Insert the ceramic crucible into the furnace and heat for 4 hours.",
+        "3. After 4 hours, increase the temperature to 1050°C and hold for another 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 950°C. \n 2. Insert the ceramic crucible into the furnace and heat for 4 hours. \n 3. After 4 hours, increase the temperature to 1050°C and hold for another 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Once at room temperature, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Once at room temperature, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Inspect for cracks or defects; if found, grind and reprocess as needed.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, seal with a clear epoxy if enhanced durability is required."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Inspect for cracks or defects; if found, grind and reprocess as needed. \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, seal with a clear epoxy if enhanced durability is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 317687.0,
+      "density": 4828.0,
+      "crystal_system": "trigonal",
+      "space_group": "P312",
+      "space_group_number": 149,
+      "point_group": "32",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -422675.0,
+      "formation_energy_per_atom": -4152.0,
+      "decomposition_energy_per_atom": -646.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -38.0,
+      "decomposition_energy_mp": -634.0,
+      "decomposition_energy_mp_oqmd": -175.0
+    },
+    "electronic": {
+      "bandgap": 0.939,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d195471a47",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.755397Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1As1Si2Te6.json",
+      "material://Al1As1Si2Te6"
+    ]
+  }
+}

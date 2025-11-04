@@ -1,0 +1,110 @@
+{
+  "id": "Cu6O8Zn1",
+  "uri": "material://Cu6O8Zn1",
+  "composition": {
+    "formula": "Cu6O8Zn1",
+    "elements": {
+      "Cu": 6,
+      "O": 8,
+      "Zn": 1
+    },
+    "reduced_formula": "Zn(Cu3O4)2",
+    "element_list": [
+      "O",
+      "Cu",
+      "Zn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 200 g, Nb: 20 g, P: 160 g, Sr: 40 g, V: 20 g"
+    },
+    "sourcing": {
+      "instructions": "K: Potassium carbonate from a chemical supply store; Nb: Niobium metal powder from a specialized metal supplier; P: Phosphorus pentoxide from a lab supplier; Sr: Strontium carbonate from a chemical supply store; V: Vanadium pentoxide from a chemical supplier.",
+      "steps": [
+        "K: Potassium carbonate from a chemical supply store; Nb: Niobium metal powder from a specialized metal supplier; P: Phosphorus pentoxide from a lab supplier; Sr: Strontium carbonate from a chemical supply store; V: Vanadium pentoxide from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the K, Nb, P, Sr, and V accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine K, Nb, P, Sr, and V.",
+        "3. Use a mortar and pestle to grind the mixture until it is a homogeneous powder.",
+        "4. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out the K, Nb, P, Sr, and V accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine K, Nb, P, Sr, and V. \n 3. Use a mortar and pestle to grind the mixture until it is a homogeneous powder. \n 4. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1000 °C.",
+        "2. Place the ceramic crucible in the furnace and hold at 1000 °C for 2 hours.",
+        "3. Increase the temperature to 1200 °C and maintain for an additional 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000 °C. \n 2. Place the ceramic crucible in the furnace and hold at 1000 °C for 2 hours. \n 3. Increase the temperature to 1200 °C and maintain for an additional 2 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled below 200 °C to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled below 200 °C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once cooled.",
+        "2. Sand any rough edges using fine-grit sandpaper.",
+        "3. Seal the sample with a clear epoxy resin to enhance durability, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once cooled. \n 2. Sand any rough edges using fine-grit sandpaper. \n 3. Seal the sample with a clear epoxy resin to enhance durability, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 1896163.0,
+      "density": 50327.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -810922.0,
+      "formation_energy_per_atom": -10436.0,
+      "decomposition_energy_per_atom": -13.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -117.0,
+      "decomposition_energy_mp": -136.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 0.009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bfe611880c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.052111Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu6O8Zn1.json",
+      "material://Cu6O8Zn1"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "Ni18P12Tb4Y2",
+  "uri": "material://Ni18P12Tb4Y2",
+  "composition": {
+    "formula": "Ni18P12Tb4Y2",
+    "elements": {
+      "Ni": 18,
+      "P": 12,
+      "Tb": 4,
+      "Y": 2
+    },
+    "reduced_formula": "Tb2Y(Ni3P2)3",
+    "element_list": [
+      "P",
+      "Ni",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 450.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 450 g \n P: 300 g \n Tb: 100 g \n Y: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Buy from a metal supplier or online (e.g., metal.com) \n P: Purchase phosphorous from a chemical supplier \n Tb: Obtain terbium from a rare earth metal supplier \n Y: Buy yttrium from a chemical supply store",
+      "steps": [
+        "Ni: Buy from a metal supplier or online (e.g., metal.com)",
+        "P: Purchase phosphorous from a chemical supplier",
+        "Tb: Obtain terbium from a rare earth metal supplier",
+        "Y: Buy yttrium from a chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 450 g of nickel and place in a clean mixing container.",
+        "2. Add 300 g of phosphorous to the container.",
+        "3. Introduce 100 g of terbium and 50 g of yttrium to the mixture.",
+        "4. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh out 450 g of nickel and place in a clean mixing container. \n 2. Add 300 g of phosphorous to the container. \n 3. Introduce 100 g of terbium and 50 g of yttrium to the mixture. \n 4. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat in a vacuum furnace at 1200°C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat in a vacuum furnace at 1200°C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature over 4 hours to prevent thermal shock.",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature over 4 hours to prevent thermal shock. \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Sand the surface of the solid sample using 120-grit sandpaper to achieve a smooth finish.",
+        "2. Cure the sample at 200°C for 1 hour to enhance structural integrity.",
+        "3. Optionally, seal the surface with a clear coat to protect against oxidation."
+      ],
+      "raw_text": "1. Sand the surface of the solid sample using 120-grit sandpaper to achieve a smooth finish. \n 2. Cure the sample at 200°C for 1 hour to enhance structural integrity. \n 3. Optionally, seal the surface with a clear coat to protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4901443.0,
+      "density": 75945.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2343373.0,
+      "formation_energy_per_atom": -9407.0,
+      "decomposition_energy_per_atom": -137.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -137.0,
+      "decomposition_energy_mp_oqmd": -135.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f0edeb0684",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.982904Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni18P12Tb4Y2.json",
+      "material://Ni18P12Tb4Y2"
+    ]
+  }
+}

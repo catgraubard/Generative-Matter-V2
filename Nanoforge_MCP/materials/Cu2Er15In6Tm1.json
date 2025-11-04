@@ -1,0 +1,103 @@
+{
+  "id": "Cu2Er15In6Tm1",
+  "uri": "material://Cu2Er15In6Tm1",
+  "composition": {
+    "formula": "Cu2Er15In6Tm1",
+    "elements": {
+      "Cu": 2,
+      "Er": 15,
+      "In": 6,
+      "Tm": 1
+    },
+    "reduced_formula": "Er15Tm(In3Cu)2",
+    "element_list": [
+      "Cu",
+      "In",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 300.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 300 g, Er: 450 g, In: 120 g, Tm: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Metal supplier or online metal store; Er: Specialty chemical supplier; In: Metal supplier; Tm: Specialty chemical supplier",
+      "steps": [
+        "Cu: Metal supplier or online metal store; Er: Specialty chemical supplier; In: Metal supplier; Tm: Specialty chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a digital scale."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a digital scale."
+    },
+    "heating": {
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high-temperature applications."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the crucible to cool slowly to room temperature inside the furnace to prevent cracking (approx. 6-8 hours)."
+      ],
+      "raw_text": "1. After heating, allow the crucible to cool slowly to room temperature inside the furnace to prevent cracking (approx. 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6467744.0,
+      "density": 89701.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1052333.0,
+      "formation_energy_per_atom": -3139.0,
+      "decomposition_energy_per_atom": -96.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -96.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 0.0046,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "358a1ab3e2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:25.811894Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Er15In6Tm1.json",
+      "material://Cu2Er15In6Tm1"
+    ]
+  }
+}

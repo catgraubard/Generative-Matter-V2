@@ -1,0 +1,113 @@
+{
+  "id": "B4Fe3Ni1W4",
+  "uri": "material://B4Fe3Ni1W4",
+  "composition": {
+    "formula": "B4Fe3Ni1W4",
+    "elements": {
+      "B": 4,
+      "Fe": 3,
+      "Ni": 1,
+      "W": 4
+    },
+    "reduced_formula": "Fe3Ni(BW)4",
+    "element_list": [
+      "B",
+      "Fe",
+      "Ni",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 4 g, Fe: 3 g, Ni: 1 g, W: 4 g, Total: 12 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online; Fe: Metal supply shops; Ni: Metal supply shops; W: Specialty metal suppliers or online.",
+      "steps": [
+        "B: Chemical supply stores or online; Fe: Metal supply shops; Ni: Metal supply shops; W: Specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine 4 g of boron (B), 3 g of iron (Fe), 1 g of nickel (Ni), and 4 g of tungsten (W).",
+        "3. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine 4 g of boron (B), 3 g of iron (Fe), 1 g of nickel (Ni), and 4 g of tungsten (W). \n 3. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1400,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1400°C (2552°F).",
+        "2. Transfer the mixed powder into a suitable crucible made of an inert material (e.g., alumina) that can withstand high temperatures.",
+        "3. Place the crucible in the furnace and heat for 2 hours to allow the materials to sinter together."
+      ],
+      "raw_text": "1. Preheat a furnace to 1400°C (2552°F). \n 2. Transfer the mixed powder into a suitable crucible made of an inert material (e.g., alumina) that can withstand high temperatures. \n 3. Place the crucible in the furnace and heat for 2 hours to allow the materials to sinter together."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2 hours).",
+        "2. Avoid opening the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2 hours). \n 2. Avoid opening the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully using appropriate protective gear.",
+        "2. Inspect the sample for any irregularities or rough edges.",
+        "3. If needed, use sandpaper (starting with 400 grit and moving to 1000 grit) to smooth the surfaces.",
+        "4. Optionally, apply a sealant to protect the surface, following the manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully using appropriate protective gear. \n 2. Inspect the sample for any irregularities or rough edges. \n 3. If needed, use sandpaper (starting with 400 grit and moving to 1000 grit) to smooth the surfaces. \n 4. Optionally, apply a sealant to protect the surface, following the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1258646.0,
+      "density": 132568.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1142103.0,
+      "formation_energy_per_atom": -3725.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -43.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5f017b043a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:20.155000Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Fe3Ni1W4.json",
+      "material://B4Fe3Ni1W4"
+    ]
+  }
+}

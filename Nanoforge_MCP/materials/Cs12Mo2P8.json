@@ -1,0 +1,107 @@
+{
+  "id": "Cs12Mo2P8",
+  "uri": "material://Cs12Mo2P8",
+  "composition": {
+    "formula": "Cs12Mo2P8",
+    "elements": {
+      "Cs": 12,
+      "Mo": 2,
+      "P": 8
+    },
+    "reduced_formula": "Cs6MoP4",
+    "element_list": [
+      "P",
+      "Mo",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Carbonate (BaCO3): 36.42 g \n Copper Oxide (CuO): 43.69 g \n Lanthanum Oxide (La2O3): 16.74 g \n Total weight: 96.85 g"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Chemical supply stores or online chemical suppliers. \n Copper Oxide: Available at chemical supply stores or online vendors. \n Lanthanum Oxide: Specialty chemical suppliers or online marketplaces.",
+      "steps": [
+        "Barium Carbonate: Chemical supply stores or online chemical suppliers.",
+        "Copper Oxide: Available at chemical supply stores or online vendors.",
+        "Lanthanum Oxide: Specialty chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 36.42 g of Barium Carbonate, 43.69 g of Copper Oxide, and 16.74 g of Lanthanum Oxide using an analytical balance.",
+        "2. Combine the powders in a clean, dry ceramic or glass container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved, ensuring no clumps remain."
+      ],
+      "raw_text": "1. Weigh out 36.42 g of Barium Carbonate, 43.69 g of Copper Oxide, and 16.74 g of Lanthanum Oxide using an analytical balance. \n 2. Combine the powders in a clean, dry ceramic or glass container. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved, ensuring no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Preheat the furnace to 800°C.",
+        "3. Once at temperature, hold for 4 hours to ensure complete reaction and formation of Ba2Cu4La1O8."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Preheat the furnace to 800°C. \n 3. Once at temperature, hold for 4 hours to ensure complete reaction and formation of Ba2Cu4La1O8."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace.",
+        "2. Carefully grind the solid sample using a mortar and pestle to achieve a finer consistency if needed.",
+        "3. Optionally, sinter the material at 1000°C for an additional 2 hours for improved density.",
+        "4. Allow to cool, then sand any rough edges to achieve desired dimensions and finish."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace. \n 2. Carefully grind the solid sample using a mortar and pestle to achieve a finer consistency if needed. \n 3. Optionally, sinter the material at 1000°C for an additional 2 hours for improved density. \n 4. Allow to cool, then sand any rough edges to achieve desired dimensions and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 8933741.0,
+      "density": 37816.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -836644.0,
+      "formation_energy_per_atom": -3601.0,
+      "decomposition_energy_per_atom": -315.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -315.0,
+      "decomposition_energy_mp": -315.0,
+      "decomposition_energy_mp_oqmd": -315.0
+    },
+    "electronic": {
+      "bandgap": 0.4693,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab0287e3d7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.454376Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Mo2P8.json",
+      "material://Cs12Mo2P8"
+    ]
+  }
+}

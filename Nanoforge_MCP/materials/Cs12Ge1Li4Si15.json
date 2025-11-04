@@ -1,0 +1,115 @@
+{
+  "id": "Cs12Ge1Li4Si15",
+  "uri": "material://Cs12Ge1Li4Si15",
+  "composition": {
+    "formula": "Cs12Ge1Li4Si15",
+    "elements": {
+      "Cs": 12,
+      "Ge": 1,
+      "Li": 4,
+      "Si": 15
+    },
+    "reduced_formula": "Cs12Li4Si15Ge",
+    "element_list": [
+      "Li",
+      "Si",
+      "Ge",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 36.0 g, Ge: 3.0 g, Li: 12.0 g, Si: 90.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Ge: Available from semiconductor material suppliers. Li: Purchase from a lithium chemical supplier. Si: Obtain from silicon material suppliers or electronics stores.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Ge: Available from semiconductor material suppliers. Li: Purchase from a lithium chemical supplier. Si: Obtain from silicon material suppliers or electronics stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 36.0 g of Cesium (Cs).",
+        "2. Weigh out 3.0 g of Germanium (Ge).",
+        "3. Weigh out 12.0 g of Lithium (Li).",
+        "4. Weigh out 90.0 g of Silicon (Si).",
+        "5. Combine all ingredients in a clean, dry mixing bowl.",
+        "6. Use a mortar and pestle to thoroughly mix the powders until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 36.0 g of Cesium (Cs). \n 2. Weigh out 3.0 g of Germanium (Ge). \n 3. Weigh out 12.0 g of Lithium (Li). \n 4. Weigh out 90.0 g of Silicon (Si). \n 5. Combine all ingredients in a clean, dry mixing bowl. \n 6. Use a mortar and pestle to thoroughly mix the powders until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200 °C for 2 hours to facilitate proper bonding and crystallization."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace to 1200 °C for 2 hours to facilitate proper bonding and crystallization."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, sand the edges to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Seal the surface with a protective coating if required.",
+        "4. Store in a cool, dry place until further use."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, sand the edges to achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Seal the surface with a protective coating if required. \n 4. Store in a cool, dry place until further use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11176515.0,
+      "density": 31446.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1078549.0,
+      "formation_energy_per_atom": -1085.0,
+      "decomposition_energy_per_atom": -355.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -348.0,
+      "decomposition_energy_mp_oqmd": -342.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "385322c267",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:29.764358Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Ge1Li4Si15.json",
+      "material://Cs12Ge1Li4Si15"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Cs10K2P8W2",
+  "uri": "material://Cs10K2P8W2",
+  "composition": {
+    "formula": "Cs10K2P8W2",
+    "elements": {
+      "Cs": 10,
+      "K": 2,
+      "P": 8,
+      "W": 2
+    },
+    "reduced_formula": "Cs5KP4W",
+    "element_list": [
+      "P",
+      "K",
+      "Cs",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Aluminum (Al): 40 g  \n - Boron (B): 5 g  \n - Nickel (Ni): 70 g  \n - Yttrium (Y): 10 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum: Obtain from a local metal supplier or online store specializing in metals. \n - Boron: Available from chemical supply companies or online retailers. \n - Nickel: Purchase from metal suppliers or specialty shops. \n - Yttrium: Obtain from chemical suppliers or online sources.",
+      "steps": [
+        "- Aluminum: Obtain from a local metal supplier or online store specializing in metals.",
+        "- Boron: Available from chemical supply companies or online retailers.",
+        "- Nickel: Purchase from metal suppliers or specialty shops.",
+        "- Yttrium: Obtain from chemical suppliers or online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the aluminum, boron, nickel, and yttrium powders.",
+        "3. Use a spatula to thoroughly blend the powders until a uniform mixture is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the aluminum, boron, nickel, and yttrium powders. \n 3. Use a spatula to thoroughly blend the powders until a uniform mixture is achieved. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 900 °C.",
+        "2. Place the mixed powder into a graphite crucible.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to ensure complete sintering of the material."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 900 °C. \n 2. Place the mixed powder into a graphite crucible. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to ensure complete sintering of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 6 hours. Avoid opening the furnace during this period to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 6 hours. Avoid opening the furnace during this period to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. Use sandpaper (starting with 120 grit and progressing to 600 grit) to smooth the surfaces of the solid sample.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. Use sandpaper (starting with 120 grit and progressing to 600 grit) to smooth the surfaces of the solid sample. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 8639855.0,
+      "density": 38876.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cc",
+      "space_group_number": 9,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -885316.0,
+      "formation_energy_per_atom": -3697.0,
+      "decomposition_energy_per_atom": -835.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -82.0,
+      "decomposition_energy_mp": -835.0,
+      "decomposition_energy_mp_oqmd": -805.0
+    },
+    "electronic": {
+      "bandgap": 0.6104,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e513d9330d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.973409Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs10K2P8W2.json",
+      "material://Cs10K2P8W2"
+    ]
+  }
+}

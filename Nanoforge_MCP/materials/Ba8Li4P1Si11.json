@@ -1,0 +1,111 @@
+{
+  "id": "Ba8Li4P1Si11",
+  "uri": "material://Ba8Li4P1Si11",
+  "composition": {
+    "formula": "Ba8Li4P1Si11",
+    "elements": {
+      "Ba": 8,
+      "Li": 4,
+      "P": 1,
+      "Si": 11
+    },
+    "reduced_formula": "Ba8Li4Si11P",
+    "element_list": [
+      "Li",
+      "Si",
+      "P",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ca",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ca: 40 g, Ga: 90 g, Nd: 160 g, Pb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Ca (Calcium Carbonate) from chemical supply stores; Ga (Gallium) from online metal suppliers; Nd (Neodymium Oxide) from rare earth element suppliers; Pb (Lead) from metal suppliers or recycling centers.",
+      "steps": [
+        "Ca (Calcium Carbonate) from chemical supply stores; Ga (Gallium) from online metal suppliers; Nd (Neodymium Oxide) from rare earth element suppliers; Pb (Lead) from metal suppliers or recycling centers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40 g of Calcium Carbonate, 90 g of Gallium, 160 g of Neodymium Oxide, and 30 g of Lead accurately using a digital scale.",
+        "2. In a clean, dry container, combine the Calcium Carbonate, Neodymium Oxide, and Lead.",
+        "3. Slowly add Gallium to the mixture while stirring continuously until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure 40 g of Calcium Carbonate, 90 g of Gallium, 160 g of Neodymium Oxide, and 30 g of Lead accurately using a digital scale. \n 2. In a clean, dry container, combine the Calcium Carbonate, Neodymium Oxide, and Lead. \n 3. Slowly add Gallium to the mixture while stirring continuously until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 1200°C for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed material into a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 1200°C for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the temperature to decrease naturally to below 600°C.",
+        "2. Once at 600°C, remove the crucible and allow it to cool to room temperature (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the temperature to decrease naturally to below 600°C. \n 2. Once at 600°C, remove the crucible and allow it to cool to room temperature (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified material from the crucible.",
+        "2. Use sandpaper (grit 120 and then 240) to smooth the edges and surfaces of the solid sample.",
+        "3. Optionally, apply a sealant to protect the surface if required for application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified material from the crucible. \n 2. Use sandpaper (grit 120 and then 240) to smooth the edges and surfaces of the solid sample. \n 3. Optionally, apply a sealant to protect the surface if required for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6445323.0,
+      "density": 37777.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -991056.0,
+      "formation_energy_per_atom": -4594.0,
+      "decomposition_energy_per_atom": -113.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -86.0,
+      "decomposition_energy_mp": -109.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 0.0063,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b523419fd7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.072905Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba8Li4P1Si11.json",
+      "material://Ba8Li4P1Si11"
+    ]
+  }
+}

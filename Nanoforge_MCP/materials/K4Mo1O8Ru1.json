@@ -1,0 +1,138 @@
+{
+  "id": "K4Mo1O8Ru1",
+  "uri": "material://K4Mo1O8Ru1",
+  "composition": {
+    "formula": "K4Mo1O8Ru1",
+    "elements": {
+      "K": 4,
+      "Mo": 1,
+      "O": 8,
+      "Ru": 1
+    },
+    "reduced_formula": "K4MoRuO8",
+    "element_list": [
+      "O",
+      "K",
+      "Mo",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 225.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 15.00 g \n Nb: 180.00 g \n Si: 225.00 g \n Tb: 90.00 g \n Zr: 36.00 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Semiconductor suppliers or online chemistry suppliers. \n Nb: Metal suppliers or specialty alloy vendors. \n Si: Silicon suppliers or electronics materials distributors. \n Tb: Rare earth material suppliers. \n Zr: Metal suppliers or online chemistry suppliers.",
+      "steps": [
+        "Ge: Semiconductor suppliers or online chemistry suppliers.",
+        "Nb: Metal suppliers or specialty alloy vendors.",
+        "Si: Silicon suppliers or electronics materials distributors.",
+        "Tb: Rare earth material suppliers.",
+        "Zr: Metal suppliers or online chemistry suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using an analytical balance for precision.",
+        "2. Combine Ge, Nb, Si, Tb, and Zr in a clean, dry glass or ceramic mixing bowl.",
+        "3. Use a mortar and pestle to grind the materials together until a homogeneous powder is obtained.",
+        "4. Transfer the mixture to a ball mill for further homogenization for 2 hours."
+      ],
+      "raw_text": "1. Weigh out each material using an analytical balance for precision. \n 2. Combine Ge, Nb, Si, Tb, and Zr in a clean, dry glass or ceramic mixing bowl. \n 3. Use a mortar and pestle to grind the materials together until a homogeneous powder is obtained. \n 4. Transfer the mixture to a ball mill for further homogenization for 2 hours."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the homogeneous powder in a crucible made of a non-reactive material (e.g., alumina).",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the homogeneous powder in a crucible made of a non-reactive material (e.g., alumina). \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid opening the furnace door until it has cooled down to prevent contamination or thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Avoid opening the furnace door until it has cooled down to prevent contamination or thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant if the material requires protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant if the material requires protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2697223.0,
+      "density": 29637.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -916664.0,
+      "formation_energy_per_atom": -19658.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -7.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.6575,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c5f14045f0",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.878372Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K4Mo1O8Ru1.json",
+      "material://K4Mo1O8Ru1"
+    ]
+  }
+}

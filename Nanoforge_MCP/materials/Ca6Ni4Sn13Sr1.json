@@ -1,0 +1,115 @@
+{
+  "id": "Ca6Ni4Sn13Sr1",
+  "uri": "material://Ca6Ni4Sn13Sr1",
+  "composition": {
+    "formula": "Ca6Ni4Sn13Sr1",
+    "elements": {
+      "Ca": 6,
+      "Ni": 4,
+      "Sn": 13,
+      "Sr": 1
+    },
+    "reduced_formula": "SrCa6Ni4Sn13",
+    "element_list": [
+      "Ca",
+      "Ni",
+      "Sr",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ca",
+          "amount": 540.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ca: 540 g, Ni: 360 g, Sn: 780 g, Sr: 45 g"
+    },
+    "sourcing": {
+      "instructions": "Ca: Chemical supply stores; Ni: Metal suppliers; Sn: Electronics stores; Sr: Chemical suppliers",
+      "steps": [
+        "Ca: Chemical supply stores; Ni: Metal suppliers; Sn: Electronics stores; Sr: Chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out Ca, Ni, Sn, and Sr accurately.",
+        "2. In a clean, dry container, combine Ca and Ni first.",
+        "3. Mix thoroughly using a mechanical mixer or a mortar and pestle for 10 minutes.",
+        "4. Gradually add Sn while mixing, ensuring a uniform blend.",
+        "5. Finally, add Sr and mix for an additional 5 minutes."
+      ],
+      "raw_text": "1. Weigh out Ca, Ni, Sn, and Sr accurately. \n 2. In a clean, dry container, combine Ca and Ni first. \n 3. Mix thoroughly using a mechanical mixer or a mortar and pestle for 10 minutes. \n 4. Gradually add Sn while mixing, ensuring a uniform blend. \n 5. Finally, add Sr and mix for an additional 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Transfer the mixed powder into a ceramic crucible.",
+        "3. Place the crucible in the furnace and maintain at 1200 °C for 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Transfer the mixed powder into a ceramic crucible. \n 3. Place the crucible in the furnace and maintain at 1200 °C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal with a clear epoxy resin for added protection and aesthetic quality."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal with a clear epoxy resin for added protection and aesthetic quality."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5933361.0,
+      "density": 58942.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1010198.0,
+      "formation_energy_per_atom": -5022.0,
+      "decomposition_energy_per_atom": -98.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -95.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2ea5560c9b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:16.799042Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca6Ni4Sn13Sr1.json",
+      "material://Ca6Ni4Sn13Sr1"
+    ]
+  }
+}

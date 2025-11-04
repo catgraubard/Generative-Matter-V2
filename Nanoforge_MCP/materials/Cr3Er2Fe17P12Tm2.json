@@ -1,0 +1,114 @@
+{
+  "id": "Cr3Er2Fe17P12Tm2",
+  "uri": "material://Cr3Er2Fe17P12Tm2",
+  "composition": {
+    "formula": "Cr3Er2Fe17P12Tm2",
+    "elements": {
+      "Cr": 3,
+      "Er": 2,
+      "Fe": 17,
+      "P": 12,
+      "Tm": 2
+    },
+    "reduced_formula": "Er2Tm2Cr3Fe17P12",
+    "element_list": [
+      "P",
+      "Cr",
+      "Fe",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 30.00 g, Er: 20.00 g, Fe: 85.00 g, P: 10.00 g, Tm: 5.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Supplier of rare metals, Er: Chemical supply company, Fe: Local metal supplier, P: Chemical supply company, Tm: Supplier of rare metals",
+      "steps": [
+        "Cr: Supplier of rare metals, Er: Chemical supply company, Fe: Local metal supplier, P: Chemical supply company, Tm: Supplier of rare metals"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Cr, Er, Fe, P, and Tm in the specified amounts.",
+        "3. Mix thoroughly using a mortar and pestle for at least 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Cr, Er, Fe, P, and Tm in the specified amounts. \n 3. Mix thoroughly using a mortar and pestle for at least 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C per minute and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1200°C at a rate of 5°C per minute and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has returned to ambient temperature to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has returned to ambient temperature to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample with a diamond wheel to achieve a smooth finish.",
+        "3. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. If necessary, grind the sample with a diamond wheel to achieve a smooth finish. \n 3. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4451335.0,
+      "density": 80183.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2835446.0,
+      "formation_energy_per_atom": -7652.0,
+      "decomposition_energy_per_atom": -202.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -202.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6d9628dd58",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:38.977309Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr3Er2Fe17P12Tm2.json",
+      "material://Cr3Er2Fe17P12Tm2"
+    ]
+  }
+}

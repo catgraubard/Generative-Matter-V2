@@ -1,0 +1,135 @@
+{
+  "id": "As8Cs11Ga2K6Rb1",
+  "uri": "material://As8Cs11Ga2K6Rb1",
+  "composition": {
+    "formula": "As8Cs11Ga2K6Rb1",
+    "elements": {
+      "As": 8,
+      "Cs": 11,
+      "Ga": 2,
+      "K": 6,
+      "Rb": 1
+    },
+    "reduced_formula": "Cs11K6Rb(GaAs4)2",
+    "element_list": [
+      "K",
+      "Ga",
+      "As",
+      "Rb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 1.5 g \n Ba: 30 g \n Bi: 12 g \n Ge: 6 g \n Total: 49.5 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supply company or online specialty materials store. \n Ba: Obtain from a chemical supplier or online marketplace. \n Bi: Source from a metal supplier or chemical vendor. \n Ge: Buy from a semiconductor materials supplier.",
+      "steps": [
+        "As: Purchase from a chemical supply company or online specialty materials store.",
+        "Ba: Obtain from a chemical supplier or online marketplace.",
+        "Bi: Source from a metal supplier or chemical vendor.",
+        "Ge: Buy from a semiconductor materials supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry glass container, measure 1.5 g of As.",
+        "2. Add 30 g of Ba to the same container.",
+        "3. Next, incorporate 12 g of Bi into the mixture.",
+        "4. Finally, mix in 6 g of Ge.",
+        "5. Use a spatula to thoroughly combine the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. In a clean, dry glass container, measure 1.5 g of As. \n 2. Add 30 g of Ba to the same container. \n 3. Next, incorporate 12 g of Bi into the mixture. \n 4. Finally, mix in 6 g of Ge. \n 5. Use a spatula to thoroughly combine the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature crucible.",
+        "2. Preheat the furnace to 800 °C.",
+        "3. Once the temperature is reached, place the crucible in the furnace and maintain this temperature for 2 hours to ensure complete melting and reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature crucible. \n 2. Preheat the furnace to 800 °C. \n 3. Once the temperature is reached, place the crucible in the furnace and maintain this temperature for 2 hours to ensure complete melting and reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-3 hours).",
+        "2. Avoid sudden temperature changes to prevent cracking."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-3 hours). \n 2. Avoid sudden temperature changes to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or surface imperfections.",
+        "3. Use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, seal the sample with a clear coat for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges or surface imperfections. \n 3. Use fine-grit sandpaper to smooth the surface. \n 4. Optionally, seal the sample with a clear coat for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 10942311.0,
+      "density": 38255.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -71232.0,
+      "formation_energy_per_atom": -3718.0,
+      "decomposition_energy_per_atom": -155.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -155.0,
+      "decomposition_energy_mp_oqmd": -111.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cc7ce3730e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.413961Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As8Cs11Ga2K6Rb1.json",
+      "material://As8Cs11Ga2K6Rb1"
+    ]
+  }
+}

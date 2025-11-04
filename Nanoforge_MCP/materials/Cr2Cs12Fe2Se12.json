@@ -1,0 +1,132 @@
+{
+  "id": "Cr2Cs12Fe2Se12",
+  "uri": "material://Cr2Cs12Fe2Se12",
+  "composition": {
+    "formula": "Cr2Cs12Fe2Se12",
+    "elements": {
+      "Cr": 2,
+      "Cs": 12,
+      "Fe": 2,
+      "Se": 12
+    },
+    "reduced_formula": "Cs6CrFeSe6",
+    "element_list": [
+      "Cr",
+      "Fe",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 16.2,
+          "unit": "g"
+        },
+        {
+          "element": "Cs",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 11.2,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 16.2 g \n Cs: 12.0 g \n Fe: 11.2 g \n Se: 24.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium) - Obtain from a chemical supply company or online chemical supplier. \n Cs (Cesium) - Purchase from a specialty chemical supplier. \n Fe (Iron) - Available at hardware stores or chemical suppliers. \n Se (Selenium) - Obtain from chemical supply companies specializing in rare elements.",
+      "steps": [
+        "Cr (Chromium) - Obtain from a chemical supply company or online chemical supplier.",
+        "Cs (Cesium) - Purchase from a specialty chemical supplier.",
+        "Fe (Iron) - Available at hardware stores or chemical suppliers.",
+        "Se (Selenium) - Obtain from chemical supply companies specializing in rare elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine 16.2 g of Cr, 12.0 g of Cs, 11.2 g of Fe, and 24.0 g of Se.",
+        "3. Use a mortar and pestle to grind the mixture to a fine powder to ensure thorough mixing.",
+        "4. Transfer the powder into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine 16.2 g of Cr, 12.0 g of Cs, 11.2 g of Fe, and 24.0 g of Se. \n 3. Use a mortar and pestle to grind the mixture to a fine powder to ensure thorough mixing. \n 4. Transfer the powder into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the crucible with the mixed powders inside the furnace.",
+        "3. Heat the mixture at 900°C for 4 hours to ensure complete reaction and formation of the target compound."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n 2. Place the crucible with the mixed powders inside the furnace. \n 3. Heat the mixture at 900°C for 4 hours to ensure complete reaction and formation of the target compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process may take approximately 6 to 8 hours. Ensure the crucible remains inside the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process may take approximately 6 to 8 hours. Ensure the crucible remains inside the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a spatula to extract the solid sample from the crucible.",
+        "3. If necessary, grind the solid sample to achieve a uniform texture.",
+        "4. Optionally, seal the sample with a clear epoxy resin for protection and aesthetic finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a spatula to extract the solid sample from the crucible. \n 3. If necessary, grind the solid sample to achieve a uniform texture. \n 4. Optionally, seal the sample with a clear epoxy resin for protection and aesthetic finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 1094417.0,
+      "density": 41848.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Aea2",
+      "space_group_number": 41,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1201946.0,
+      "formation_energy_per_atom": -11162.0,
+      "decomposition_energy_per_atom": -338.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -75.0,
+      "decomposition_energy_mp": -338.0,
+      "decomposition_energy_mp_oqmd": -144.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "90cb6a4d33",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:26.066739Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2Cs12Fe2Se12.json",
+      "material://Cr2Cs12Fe2Se12"
+    ]
+  }
+}

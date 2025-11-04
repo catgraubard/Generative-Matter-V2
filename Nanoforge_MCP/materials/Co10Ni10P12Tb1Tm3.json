@@ -1,0 +1,139 @@
+{
+  "id": "Co10Ni10P12Tb1Tm3",
+  "uri": "material://Co10Ni10P12Tb1Tm3",
+  "composition": {
+    "formula": "Co10Ni10P12Tb1Tm3",
+    "elements": {
+      "Co": 10,
+      "Ni": 10,
+      "P": 12,
+      "Tb": 1,
+      "Tm": 3
+    },
+    "reduced_formula": "TbTm3Co10(Ni5P6)2",
+    "element_list": [
+      "P",
+      "Co",
+      "Ni",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 100 g \n Ni: 100 g \n P: 120 g \n Tb: 10 g \n Tm: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supplier or online chemistry store. \n Ni: Available at local hardware stores or chemical suppliers. \n P: Obtain from a chemical supply store, typically in a powdered form. \n Tb: Source from rare earth material suppliers. \n Tm: Available from specialty metal suppliers or online.",
+      "steps": [
+        "Co: Purchase from a metal supplier or online chemistry store.",
+        "Ni: Available at local hardware stores or chemical suppliers.",
+        "P: Obtain from a chemical supply store, typically in a powdered form.",
+        "Tb: Source from rare earth material suppliers.",
+        "Tm: Available from specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. In a clean, dry container, combine the powdered Co, Ni, and P.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to ensure uniform distribution.",
+        "4. Gradually add Tb and Tm to the mixture while continuing to mix for another 5 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance. \n 2. In a clean, dry container, combine the powdered Co, Ni, and P. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to ensure uniform distribution. \n 4. Gradually add Tb and Tm to the mixture while continuing to mix for another 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible or suitable furnace container.",
+        "2. Heat the mixture to 1000°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to allow for full sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible or suitable furnace container. \n 2. Heat the mixture to 1000°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 2 hours to allow for full sintering of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool gradually to room temperature.",
+        "2. Ensure the cooling rate is no faster than 5°C per minute to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool gradually to room temperature. \n 2. Ensure the cooling rate is no faster than 5°C per minute to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw or grinder to cut the material to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using progressively finer grits of sandpaper up to 1200 grit for a smooth finish.",
+        "4. Optionally, apply a sealant or coating for protection and enhanced appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw or grinder to cut the material to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using progressively finer grits of sandpaper up to 1200 grit for a smooth finish. \n 4. Optionally, apply a sealant or coating for protection and enhanced appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4464996.0,
+      "density": 82327.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2425691.0,
+      "formation_energy_per_atom": -8518.0,
+      "decomposition_energy_per_atom": -224.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -224.0,
+      "decomposition_energy_mp_oqmd": -221.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1bb21abb32",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.944094Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co10Ni10P12Tb1Tm3.json",
+      "material://Co10Ni10P12Tb1Tm3"
+    ]
+  }
+}

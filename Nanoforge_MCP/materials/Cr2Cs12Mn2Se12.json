@@ -1,0 +1,132 @@
+{
+  "id": "Cr2Cs12Mn2Se12",
+  "uri": "material://Cr2Cs12Mn2Se12",
+  "composition": {
+    "formula": "Cr2Cs12Mn2Se12",
+    "elements": {
+      "Cr": 2,
+      "Cs": 12,
+      "Mn": 2,
+      "Se": 12
+    },
+    "reduced_formula": "Cs6MnCrSe6",
+    "element_list": [
+      "Cr",
+      "Mn",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 25 g \n C: 12 g \n Mn: 10 g \n Se: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium): Obtain from a chemical supply company or online chemical distributor. \n C (Carbon): Purchase graphite or carbon black from a local supplier or online. \n Mn (Manganese): Available from metal supply stores or online suppliers. \n Se (Selenium): Can be sourced from chemical supply companies or specialty chemical retailers.",
+      "steps": [
+        "Cr (Chromium): Obtain from a chemical supply company or online chemical distributor.",
+        "C (Carbon): Purchase graphite or carbon black from a local supplier or online.",
+        "Mn (Manganese): Available from metal supply stores or online suppliers.",
+        "Se (Selenium): Can be sourced from chemical supply companies or specialty chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Cr, C, Mn, and Se in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine Cr, C, Mn, and Se in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixed powders in a suitable crucible (e.g., alumina or silicon carbide) and insert it into the furnace.",
+        "3. Maintain the temperature for 4 hours to facilitate reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the mixed powders in a suitable crucible (e.g., alumina or silicon carbide) and insert it into the furnace. \n 3. Maintain the temperature for 4 hours to facilitate reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid opening the furnace door until fully cooled to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Avoid opening the furnace door until fully cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the surface for any irregularities, and use fine-grit sandpaper to smooth out rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added protection and durability.",
+        "4. Allow the epoxy to cure for at least 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the surface for any irregularities, and use fine-grit sandpaper to smooth out rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin for added protection and durability. \n 4. Allow the epoxy to cure for at least 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11251409.0,
+      "density": 40678.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Aea2",
+      "space_group_number": 41,
+      "point_group": "mm2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1226292.0,
+      "formation_energy_per_atom": -11537.0,
+      "decomposition_energy_per_atom": -443.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -85.0,
+      "decomposition_energy_mp": -443.0,
+      "decomposition_energy_mp_oqmd": -199.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9fdfbd4bde",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:45.773817Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2Cs12Mn2Se12.json",
+      "material://Cr2Cs12Mn2Se12"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "Er2Hg2Ni4Pa2",
+  "uri": "material://Er2Hg2Ni4Pa2",
+  "composition": {
+    "formula": "Er2Hg2Ni4Pa2",
+    "elements": {
+      "Er": 2,
+      "Hg": 2,
+      "Ni": 4,
+      "Pa": 2
+    },
+    "reduced_formula": "ErPaNi2Hg",
+    "element_list": [
+      "Ni",
+      "Er",
+      "Hg",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 2.0 g \n Er: 1.0 g \n Pr: 5.0 g \n Sn: 12.0 g \n Total: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich). \n Er: Buy from specialized rare earth metal suppliers or online. \n Pr: Obtain from rare earth element suppliers or online retailers. \n Sn: Available at hardware stores or online (e.g., Amazon).",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "Er: Buy from specialized rare earth metal suppliers or online.",
+        "Pr: Obtain from rare earth element suppliers or online retailers.",
+        "Sn: Available at hardware stores or online (e.g., Amazon)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 2.0 g of Co, 1.0 g of Er, 5.0 g of Pr, and 12.0 g of Sn using an analytical balance.",
+        "2. Combine the measured powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure 2.0 g of Co, 1.0 g of Er, 5.0 g of Pr, and 12.0 g of Sn using an analytical balance. \n 2. Combine the measured powders in a clean, dry mixing container. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Heat in a furnace or high-temperature oven at 800°C for 2 hours to allow the elements to react and form a solid compound.",
+        "3. Ensure the heating rate does not exceed 10°C per minute."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Heat in a furnace or high-temperature oven at 800°C for 2 hours to allow the elements to react and form a solid compound. \n 3. Ensure the heating rate does not exceed 10°C per minute."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Once the furnace reaches room temperature, remove the crucible carefully using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Once the furnace reaches room temperature, remove the crucible carefully using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges or surfaces of the solid sample.",
+        "3. Optionally, apply a clear sealant to enhance surface finish and protect the material from oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges or surfaces of the solid sample. \n 3. Optionally, apply a clear sealant to enhance surface finish and protect the material from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1930357.0,
+      "density": 123231.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -563944.0,
+      "formation_energy_per_atom": -4502.0,
+      "decomposition_energy_per_atom": -371.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -139.0,
+      "decomposition_energy_mp": -371.0,
+      "decomposition_energy_mp_oqmd": -233.0
+    },
+    "electronic": {
+      "bandgap": 0.0042,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d4f25f4081",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.612171Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er2Hg2Ni4Pa2.json",
+      "material://Er2Hg2Ni4Pa2"
+    ]
+  }
+}

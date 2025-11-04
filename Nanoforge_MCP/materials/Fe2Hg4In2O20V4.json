@@ -1,0 +1,125 @@
+{
+  "id": "Fe2Hg4In2O20V4",
+  "uri": "material://Fe2Hg4In2O20V4",
+  "composition": {
+    "formula": "Fe2Hg4In2O20V4",
+    "elements": {
+      "Fe": 2,
+      "Hg": 4,
+      "In": 2,
+      "O": 20,
+      "V": 4
+    },
+    "reduced_formula": "V2InFe(HgO5)2",
+    "element_list": [
+      "O",
+      "V",
+      "Fe",
+      "In",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe2O3: 200 g \n Hg: 80 g \n In: 40 g \n V2O5: 20 g \n Distilled water: 50 g \n Ethanol: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Fe2O3: Chemical supply stores or online vendors. \n Hg: Licensed chemical distributors (ensure proper handling). \n In: Specialty metal suppliers or online marketplaces. \n V2O5: Chemical supply stores or online vendors. \n Distilled water: Supermarkets or pharmacies. \n Ethanol: Pharmacies or chemical supply stores.",
+      "steps": [
+        "Fe2O3: Chemical supply stores or online vendors.",
+        "Hg: Licensed chemical distributors (ensure proper handling).",
+        "In: Specialty metal suppliers or online marketplaces.",
+        "V2O5: Chemical supply stores or online vendors.",
+        "Distilled water: Supermarkets or pharmacies.",
+        "Ethanol: Pharmacies or chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each solid ingredient accurately using a digital scale.",
+        "2. In a glass container, mix Fe2O3, Hg, In, and V2O5 thoroughly using a ceramic or glass stirrer.",
+        "3. Slowly add distilled water and ethanol to the mixture while stirring continuously to form a thick paste.",
+        "4. Ensure the mixture is homogeneous without lumps."
+      ],
+      "raw_text": "1. Weigh out each solid ingredient accurately using a digital scale. \n 2. In a glass container, mix Fe2O3, Hg, In, and V2O5 thoroughly using a ceramic or glass stirrer. \n 3. Slowly add distilled water and ethanol to the mixture while stirring continuously to form a thick paste. \n 4. Ensure the mixture is homogeneous without lumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the paste to a crucible.",
+        "2. Preheat a muffle furnace to 800 °C.",
+        "3. Place the crucible in the furnace and heat for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the paste to a crucible. \n 2. Preheat a muffle furnace to 800 °C. \n 3. Place the crucible in the furnace and heat for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Polish the surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal the material with a clear epoxy coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Polish the surfaces using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, seal the material with a clear epoxy coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4862631.0,
+      "density": 56941.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2160167.0,
+      "formation_energy_per_atom": -17832.0,
+      "decomposition_energy_per_atom": -102.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -108.0,
+      "decomposition_energy_mp_oqmd": -107.0
+    },
+    "electronic": {
+      "bandgap": 2.2917,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1b4627116c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.474340Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Hg4In2O20V4.json",
+      "material://Fe2Hg4In2O20V4"
+    ]
+  }
+}

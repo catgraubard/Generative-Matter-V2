@@ -1,0 +1,114 @@
+{
+  "id": "Cd2Co3Cu1Zr4",
+  "uri": "material://Cd2Co3Cu1Zr4",
+  "composition": {
+    "formula": "Cd2Co3Cu1Zr4",
+    "elements": {
+      "Cd": 2,
+      "Co": 3,
+      "Cu": 1,
+      "Zr": 4
+    },
+    "reduced_formula": "Zr4Cd2Co3Cu",
+    "element_list": [
+      "Co",
+      "Cu",
+      "Zr",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 10 g, Co: 5 g, Cu: 2 g, Zr: 20 g, Total: 37 g (to allow for losses during processing)"
+    },
+    "sourcing": {
+      "instructions": "Cd: Specialty chemical suppliers, Co: Metallurgical suppliers, Cu: Electrical supply stores, Zr: Refractory material suppliers",
+      "steps": [
+        "Cd: Specialty chemical suppliers, Co: Metallurgical suppliers, Cu: Electrical supply stores, Zr: Refractory material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cd, Co, Cu, and Zr powder.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixed powders to a ball mill for 1 hour to ensure fine particle size and homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Cd, Co, Cu, and Zr powder. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. \n 4. Transfer the mixed powders to a ball mill for 1 hour to ensure fine particle size and homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder in a ceramic crucible, ensuring even distribution.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder in a ceramic crucible, ensuring even distribution. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the solid to the dimensions of 3 inches x 2 inches x 7 inches if necessary.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealing agent to enhance surface integrity and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the solid to the dimensions of 3 inches x 2 inches x 7 inches if necessary. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealing agent to enhance surface integrity and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 174862.0,
+      "density": 78825.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -642307.0,
+      "formation_energy_per_atom": -277.0,
+      "decomposition_energy_per_atom": -517.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -39.0,
+      "decomposition_energy_mp": -517.0,
+      "decomposition_energy_mp_oqmd": -305.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "47a2493d23",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:49.684600Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd2Co3Cu1Zr4.json",
+      "material://Cd2Co3Cu1Zr4"
+    ]
+  }
+}

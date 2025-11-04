@@ -1,0 +1,112 @@
+{
+  "id": "Bi1Cd2Fe1Ni2O8",
+  "uri": "material://Bi1Cd2Fe1Ni2O8",
+  "composition": {
+    "formula": "Bi1Cd2Fe1Ni2O8",
+    "elements": {
+      "Bi": 1,
+      "Cd": 2,
+      "Fe": 1,
+      "Ni": 2,
+      "O": 8
+    },
+    "reduced_formula": "Cd2FeNi2BiO8",
+    "element_list": [
+      "O",
+      "Fe",
+      "Ni",
+      "Cd",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bi2O3: 60 g\nCdO: 80 g\nFe2O3: 20 g\nNiO: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Bi2O3: Chemical supply stores or online chemical suppliers (e.g., Sigma-Aldrich).\nCdO: Specialty metal oxide suppliers or online chemical suppliers.\nFe2O3: Chemical supply stores.\nNiO: Metal oxide suppliers or online chemical suppliers.",
+      "steps": [
+        "Bi2O3: Chemical supply stores or online chemical suppliers (e.g., Sigma-Aldrich).",
+        "CdO: Specialty metal oxide suppliers or online chemical suppliers.",
+        "Fe2O3: Chemical supply stores.",
+        "NiO: Metal oxide suppliers or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine 60 g of Bi2O3, 80 g of CdO, 20 g of Fe2O3, and 80 g of NiO.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 15 minutes, ensuring uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.\n2. In a clean, dry container, combine 60 g of Bi2O3, 80 g of CdO, 20 g of Fe2O3, and 80 g of NiO.\n3. Use a mortar and pestle to thoroughly mix the powders for 15 minutes, ensuring uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800 °C at a rate of 5 °C per minute.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible.\n2. Place the crucible in a furnace.\n3. Heat to 800 °C at a rate of 5 °C per minute.\n4. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature (approximately 1-2 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace.\n2. Allow the crucible to cool down naturally to room temperature (approximately 1-2 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If needed, use sandpaper to smooth the edges and surfaces.",
+        "3. Seal the surface with a clear epoxy resin to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. If needed, use sandpaper to smooth the edges and surfaces.\n3. Seal the surface with a clear epoxy resin to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 1812386.0,
+      "density": 67345.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -850016.0,
+      "formation_energy_per_atom": -14037.0,
+      "decomposition_energy_per_atom": -298.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -52.0,
+      "decomposition_energy_mp": -304.0,
+      "decomposition_energy_mp_oqmd": -303.0
+    },
+    "electronic": {
+      "bandgap": 0.0346,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5640c8e2b0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:08.999224Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1Cd2Fe1Ni2O8.json",
+      "material://Bi1Cd2Fe1Ni2O8"
+    ]
+  }
+}

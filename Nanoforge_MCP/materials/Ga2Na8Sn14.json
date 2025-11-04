@@ -1,0 +1,124 @@
+{
+  "id": "Ga2Na8Sn14",
+  "uri": "material://Ga2Na8Sn14",
+  "composition": {
+    "formula": "Ga2Na8Sn14",
+    "elements": {
+      "Ga": 2,
+      "Na": 8,
+      "Sn": 14
+    },
+    "reduced_formula": "Na4GaSn7",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 210.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 40 g \n Na: 80 g \n Sn: 210 g"
+    },
+    "sourcing": {
+      "instructions": "Ga (Gallium): Available from chemical suppliers or online specialty chemical stores. \n Na (Sodium): Obtain from chemical suppliers or metal suppliers. \n Sn (Tin): Available from hardware stores or metal suppliers.",
+      "steps": [
+        "Ga (Gallium): Available from chemical suppliers or online specialty chemical stores.",
+        "Na (Sodium): Obtain from chemical suppliers or metal suppliers.",
+        "Sn (Tin): Available from hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40 g of Gallium using an analytical balance.",
+        "2. Weigh out 80 g of Sodium in a dry environment.",
+        "3. Weigh out 210 g of Tin.",
+        "4. In a fume hood, combine the materials in a clean, dry crucible.",
+        "5. Use a spatula to mix the powders thoroughly for uniformity."
+      ],
+      "raw_text": "1. Weigh out 40 g of Gallium using an analytical balance. \n 2. Weigh out 80 g of Sodium in a dry environment. \n 3. Weigh out 210 g of Tin. \n 4. In a fume hood, combine the materials in a clean, dry crucible. \n 5. Use a spatula to mix the powders thoroughly for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 350,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 350°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 350°C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approx. 25°C).",
+        "2. This process should take about 4 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approx. 25°C). \n 2. This process should take about 4 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper or a file to smooth the edges and surfaces to achieve desired finish.",
+        "3. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper or a file to smooth the edges and surfaces to achieve desired finish. \n 3. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6697435.0,
+      "density": 49223.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -766604.0,
+      "formation_energy_per_atom": -1621.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9c915f463d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:41.671083Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Na8Sn14.json",
+      "material://Ga2Na8Sn14"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "Ge1Nb12Si15Tb1Tm7",
+  "uri": "material://Ge1Nb12Si15Tb1Tm7",
+  "composition": {
+    "formula": "Ge1Nb12Si15Tb1Tm7",
+    "elements": {
+      "Ge": 1,
+      "Nb": 12,
+      "Si": 15,
+      "Tb": 1,
+      "Tm": 7
+    },
+    "reduced_formula": "TbTm7Nb12Si15Ge",
+    "element_list": [
+      "Si",
+      "Ge",
+      "Nb",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 10 g \n Nb: 120 g \n Si: 150 g \n Tb: 10 g \n Tm: 70 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Obtain from semiconductor suppliers or specialty metal vendors. \n Nb: Available from metal suppliers or online marketplaces. \n Si: Purchase from chemical suppliers or online. \n Tb: Source from rare earth metal suppliers. \n Tm: Acquire from rare earth metal suppliers or specialty chemical suppliers.",
+      "steps": [
+        "Ge: Obtain from semiconductor suppliers or specialty metal vendors.",
+        "Nb: Available from metal suppliers or online marketplaces.",
+        "Si: Purchase from chemical suppliers or online.",
+        "Tb: Source from rare earth metal suppliers.",
+        "Tm: Acquire from rare earth metal suppliers or specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using a precision scale.",
+        "2. In a clean, dry container, combine Ge, Nb, Si, Tb, and Tm.",
+        "3. Mix the ingredients thoroughly using a clean spatula to ensure homogeneity.",
+        "4. Transfer the mixture into a suitable furnace crucible."
+      ],
+      "raw_text": "1. Weigh out each material using a precision scale. \n 2. In a clean, dry container, combine Ge, Nb, Si, Tb, and Tm. \n 3. Mix the ingredients thoroughly using a clean spatula to ensure homogeneity. \n 4. Transfer the mixture into a suitable furnace crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Once the temperature is reached, insert the crucible with the mixture.",
+        "3. Maintain this temperature for 2 hours to allow for complete melting and mixing of the ingredients."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Once the temperature is reached, insert the crucible with the mixture. \n 3. Maintain this temperature for 2 hours to allow for complete melting and mixing of the ingredients."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool to room temperature gradually.",
+        "2. This may take approximately 4-6 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool to room temperature gradually. \n 2. This may take approximately 4-6 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the surface with a protective coating if necessary for the intended use.",
+        "4. Store the finished sample in a dry environment away from moisture."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, seal the surface with a protective coating if necessary for the intended use. \n 4. Store the finished sample in a dry environment away from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6479119.0,
+      "density": 75613.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2724493.0,
+      "formation_energy_per_atom": -8129.0,
+      "decomposition_energy_per_atom": -1052.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -1048.0,
+      "decomposition_energy_mp_oqmd": -1048.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2bb685400b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:13.217831Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Nb12Si15Tb1Tm7.json",
+      "material://Ge1Nb12Si15Tb1Tm7"
+    ]
+  }
+}

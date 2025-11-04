@@ -1,0 +1,132 @@
+{
+  "id": "Cs12Nb3S16W1",
+  "uri": "material://Cs12Nb3S16W1",
+  "composition": {
+    "formula": "Cs12Nb3S16W1",
+    "elements": {
+      "Cs": 12,
+      "Nb": 3,
+      "S": 16,
+      "W": 1
+    },
+    "reduced_formula": "Cs12Nb3WS16",
+    "element_list": [
+      "S",
+      "Nb",
+      "Cs",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 66.24,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 22.08,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 9.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 66.24 g \n Nb: 22.08 g \n S: 40.00 g \n W: 9.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from a chemical supplier or specialty metal dealer. \n Nb (Niobium): Obtain from a reputable metal supplier or online marketplace. \n S (Sulfur): Available at chemical supply stores or online. \n W (Tungsten): Source from a metals supplier or chemical distributor.",
+      "steps": [
+        "Cs (Cesium): Purchase from a chemical supplier or specialty metal dealer.",
+        "Nb (Niobium): Obtain from a reputable metal supplier or online marketplace.",
+        "S (Sulfur): Available at chemical supply stores or online.",
+        "W (Tungsten): Source from a metals supplier or chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 66.24 g of Cs, 22.08 g of Nb, 40.00 g of S, and 9.00 g of W using a precision balance.",
+        "2. In a clean, dry container, combine the Cs, Nb, S, and W powders.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer for 10-15 minutes until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 66.24 g of Cs, 22.08 g of Nb, 40.00 g of S, and 9.00 g of W using a precision balance. \n 2. In a clean, dry container, combine the Cs, Nb, S, and W powders. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer for 10-15 minutes until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace and heat to 900°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and homogeneity."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace and heat to 900°C at a rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and homogeneity."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) for about 3 hours.",
+        "2. Do not open the furnace door until it has cooled down to prevent rapid cooling that may cause thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) for about 3 hours. \n 2. Do not open the furnace door until it has cooled down to prevent rapid cooling that may cause thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Use a diamond saw or grinder to shape the sample to the specified dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using progressively finer grit (from 120 to 600) to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear epoxy to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Use a diamond saw or grinder to shape the sample to the specified dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using progressively finer grit (from 120 to 600) to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear epoxy to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 12124275.0,
+      "density": 35205.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1664868.0,
+      "formation_energy_per_atom": -14468.0,
+      "decomposition_energy_per_atom": -1459.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -1464.0,
+      "decomposition_energy_mp_oqmd": -141.0
+    },
+    "electronic": {
+      "bandgap": 0.0024,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "138557140d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:41.252092Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Nb3S16W1.json",
+      "material://Cs12Nb3S16W1"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Ag10C4Er12Li2",
+  "uri": "material://Ag10C4Er12Li2",
+  "composition": {
+    "formula": "Ag10C4Er12Li2",
+    "elements": {
+      "Ag": 10,
+      "C": 4,
+      "Er": 12,
+      "Li": 2
+    },
+    "reduced_formula": "LiEr6Ag5C2",
+    "element_list": [
+      "Li",
+      "C",
+      "Ag",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 360.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 10.0 g \n Cu: 60.0 g \n Na: 5.0 g \n Se: 360.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ce: Buy from a chemical supply store or online chemical supplier. \n Cu: Obtain from a metals supplier or hardware store. \n Na: Purchase from a chemical supply store or online. \n Se: Buy from a chemical supply store specializing in inorganic compounds.",
+      "steps": [
+        "Ce: Buy from a chemical supply store or online chemical supplier.",
+        "Cu: Obtain from a metals supplier or hardware store.",
+        "Na: Purchase from a chemical supply store or online.",
+        "Se: Buy from a chemical supply store specializing in inorganic compounds."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10.0 g of Ce and place it in a clean, dry mixing container.",
+        "2. Add 60.0 g of Cu to the container and mix thoroughly using a spatula.",
+        "3. Weigh 5.0 g of Na and add it to the mixture, stirring continuously.",
+        "4. Gradually add 360.0 g of Se while mixing to ensure an even distribution of all components.",
+        "5. Ensure the mixture is homogeneous and free of clumps."
+      ],
+      "raw_text": "1. Measure 10.0 g of Ce and place it in a clean, dry mixing container. \n 2. Add 60.0 g of Cu to the container and mix thoroughly using a spatula. \n 3. Weigh 5.0 g of Na and add it to the mixture, stirring continuously. \n 4. Gradually add 360.0 g of Se while mixing to ensure an even distribution of all components. \n 5. Ensure the mixture is homogeneous and free of clumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace and set the temperature to 800°C.",
+        "3. Hold the temperature for 2 hours to allow for complete reaction and formation of Ce1Cu6Na1Se6."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace and set the temperature to 800°C. \n 3. Hold the temperature for 2 hours to allow for complete reaction and formation of Ce1Cu6Na1Se6."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C).",
+        "2. This cooling process should take about 4-5 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C). \n 2. This cooling process should take about 4-5 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or surface roughness.",
+        "3. If necessary, use sandpaper (grit 400) to smooth the surface.",
+        "4. Optionally, seal the sample with a clear protective finish to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any irregularities or surface roughness. \n 3. If necessary, use sandpaper (grit 400) to smooth the surface. \n 4. Optionally, seal the sample with a clear protective finish to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5643942.0,
+      "density": 92611.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imma",
+      "space_group_number": 74,
+      "point_group": "mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1334662.0,
+      "formation_energy_per_atom": -3427.0,
+      "decomposition_energy_per_atom": -132.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -132.0,
+      "decomposition_energy_mp_oqmd": -128.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ca37794a02",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.932074Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag10C4Er12Li2.json",
+      "material://Ag10C4Er12Li2"
+    ]
+  }
+}

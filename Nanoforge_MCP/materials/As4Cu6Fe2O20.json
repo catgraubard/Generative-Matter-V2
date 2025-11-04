@@ -1,0 +1,111 @@
+{
+  "id": "As4Cu6Fe2O20",
+  "uri": "material://As4Cu6Fe2O20",
+  "composition": {
+    "formula": "As4Cu6Fe2O20",
+    "elements": {
+      "As": 4,
+      "Cu": 6,
+      "Fe": 2,
+      "O": 20
+    },
+    "reduced_formula": "FeCu3(AsO5)2",
+    "element_list": [
+      "O",
+      "Fe",
+      "Cu",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Arsenic Trioxide (As2O3): 24.5 g \n - Copper(II) Oxide (CuO): 63.0 g \n - Iron(III) Oxide (Fe2O3): 14.0 g \n - Oxygen (O2) source (in air): 0 g (assumed from ambient conditions)"
+    },
+    "sourcing": {
+      "instructions": "- Arsenic Trioxide: Specialty chemical suppliers or online chemical retailers. \n - Copper(II) Oxide: Chemical supply stores or online science suppliers. \n - Iron(III) Oxide: Hardware stores, as it is often used as a pigment.",
+      "steps": [
+        "- Arsenic Trioxide: Specialty chemical suppliers or online chemical retailers.",
+        "- Copper(II) Oxide: Chemical supply stores or online science suppliers.",
+        "- Iron(III) Oxide: Hardware stores, as it is often used as a pigment."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a ceramic or glass mixing container, combine the 24.5 g of Arsenic Trioxide, 63.0 g of Copper(II) Oxide, and 14.0 g of Iron(III) Oxide.",
+        "3. Mix thoroughly using a ceramic spatula or mortar and pestle until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a ceramic or glass mixing container, combine the 24.5 g of Arsenic Trioxide, 63.0 g of Copper(II) Oxide, and 14.0 g of Iron(III) Oxide. \n 3. Mix thoroughly using a ceramic spatula or mortar and pestle until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace or kiln.",
+        "2. Heat the mixture to 900°C (1652°F) for 4 hours to ensure complete reaction and formation of the target compound.",
+        "3. Use a programmable kiln with a controlled ramp-up rate of 10°C/min to reach the target temperature."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace or kiln. \n 2. Heat the mixture to 900°C (1652°F) for 4 hours to ensure complete reaction and formation of the target compound. \n 3. Use a programmable kiln with a controlled ramp-up rate of 10°C/min to reach the target temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool naturally.",
+        "2. Do not open the furnace until the temperature drops below 300°C to avoid thermal shock.",
+        "3. Allow a total cooling time of approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool naturally. \n 2. Do not open the furnace until the temperature drops below 300°C to avoid thermal shock. \n 3. Allow a total cooling time of approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any cracks or imperfections; if found, grind the sample down and re-press it.",
+        "3. Optionally, seal the surface with a clear epoxy or lacquer for protection against moisture and damage.",
+        "4. If needed, sand down any rough edges or surfaces to achieve the desired finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any cracks or imperfections; if found, grind the sample down and re-press it. \n 3. Optionally, seal the surface with a clear epoxy or lacquer for protection against moisture and damage. \n 4. If needed, sand down any rough edges or surfaces to achieve the desired finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4359573.0,
+      "density": 4238.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2029577.0,
+      "formation_energy_per_atom": -13696.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -86.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2efdfd990a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:17.179785Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Cu6Fe2O20.json",
+      "material://As4Cu6Fe2O20"
+    ]
+  }
+}

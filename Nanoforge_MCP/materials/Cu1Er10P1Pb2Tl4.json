@@ -1,0 +1,132 @@
+{
+  "id": "Cu1Er10P1Pb2Tl4",
+  "uri": "material://Cu1Er10P1Pb2Tl4",
+  "composition": {
+    "formula": "Cu1Er10P1Pb2Tl4",
+    "elements": {
+      "Cu": 1,
+      "Er": 10,
+      "P": 1,
+      "Pb": 2,
+      "Tl": 4
+    },
+    "reduced_formula": "Er10Tl4CuPPb2",
+    "element_list": [
+      "P",
+      "Cu",
+      "Er",
+      "Tl",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 12.4,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 24.8,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 23.6,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 12.4 g \n Mn: 24.8 g \n Rb: 23.6 g \n Se: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder): Chemical supply companies or online chemical retailers. \n Mn (Manganese powder): Chemical supply companies. \n Rb (Rubidium powder): Specialty chemical suppliers. \n Se (Selenium powder): Chemical supply companies or online retailers.",
+      "steps": [
+        "Co (Cobalt powder): Chemical supply companies or online chemical retailers.",
+        "Mn (Manganese powder): Chemical supply companies.",
+        "Rb (Rubidium powder): Specialty chemical suppliers.",
+        "Se (Selenium powder): Chemical supply companies or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Co, Mn, Rb, and Se powders.",
+        "3. Mix thoroughly using a mortar and pestle for 15 minutes to ensure a homogenous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine Co, Mn, Rb, and Se powders. \n 3. Mix thoroughly using a mortar and pestle for 15 minutes to ensure a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace set to 800°C.",
+        "3. Heat for 2 hours to allow for complete reaction and formation of Co2Mn4Rb4Se8."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace set to 800°C. \n 3. Heat for 2 hours to allow for complete reaction and formation of Co2Mn4Rb4Se8."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Ensure the crucible is not disturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours). \n 2. Ensure the crucible is not disturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use fine grit sandpaper to smooth the surface if necessary.",
+        "3. Optionally, apply a sealing agent to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use fine grit sandpaper to smooth the surface if necessary. \n 3. Optionally, apply a sealing agent to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4776251.0,
+      "density": 104266.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -81706.0,
+      "formation_energy_per_atom": -5358.0,
+      "decomposition_energy_per_atom": -293.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -287.0,
+      "decomposition_energy_mp_oqmd": -228.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c29944f1e3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.927318Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Er10P1Pb2Tl4.json",
+      "material://Cu1Er10P1Pb2Tl4"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Ca2Fe4O12Sm2",
+  "uri": "material://Ca2Fe4O12Sm2",
+  "composition": {
+    "formula": "Ca2Fe4O12Sm2",
+    "elements": {
+      "Ca": 2,
+      "Fe": 4,
+      "O": 12,
+      "Sm": 2
+    },
+    "reduced_formula": "CaSm(FeO3)2",
+    "element_list": [
+      "O",
+      "Ca",
+      "Fe",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Calcium oxide (CaO): 15.00 g \n - Iron(III) oxide (Fe2O3): 30.00 g \n - Samarium(III) oxide (Sm2O3): 10.00 g \n - Deionized water: 50.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Calcium oxide: Chemical suppliers, online stores, or local hardware stores. \n - Iron(III) oxide: Chemical suppliers or online marketplaces. \n - Samarium(III) oxide: Specialty chemical suppliers or online chemical retailers. \n - Deionized water: Laboratory supply stores or water purification systems.",
+      "steps": [
+        "- Calcium oxide: Chemical suppliers, online stores, or local hardware stores.",
+        "- Iron(III) oxide: Chemical suppliers or online marketplaces.",
+        "- Samarium(III) oxide: Specialty chemical suppliers or online chemical retailers.",
+        "- Deionized water: Laboratory supply stores or water purification systems."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and combine 15.00 g of calcium oxide, 30.00 g of iron(III) oxide, and 10.00 g of samarium(III) oxide in a clean mixing container.",
+        "2. Slowly add 50.00 g of deionized water while continuously stirring to form a homogeneous slurry.",
+        "3. Ensure all solids are fully dissolved and no lumps remain."
+      ],
+      "raw_text": "1. Weigh and combine 15.00 g of calcium oxide, 30.00 g of iron(III) oxide, and 10.00 g of samarium(III) oxide in a clean mixing container. \n 2. Slowly add 50.00 g of deionized water while continuously stirring to form a homogeneous slurry. \n 3. Ensure all solids are fully dissolved and no lumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace to 900°C (1652°F) for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible. \n 2. Heat the crucible in a muffle furnace to 900°C (1652°F) for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a duration of 6-8 hours.",
+        "2. Do not open the furnace door until it has cooled down completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a duration of 6-8 hours. \n 2. Do not open the furnace door until it has cooled down completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any rough edges; if necessary, use fine-grit sandpaper to smooth the surfaces.",
+        "3. Optionally, apply a sealant to enhance durability.",
+        "4. Let the sealant cure according to the manufacturer's instructions before use."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any rough edges; if necessary, use fine-grit sandpaper to smooth the surfaces. \n 3. Optionally, apply a sealant to enhance durability. \n 4. Let the sealant cure according to the manufacturer's instructions before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2323116.0,
+      "density": 56915.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -157216.0,
+      "formation_energy_per_atom": -25256.0,
+      "decomposition_energy_per_atom": -88.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -38.0,
+      "decomposition_energy_mp": -94.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 0.0086,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "76c1d84e5e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:51.076667Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Fe4O12Sm2.json",
+      "material://Ca2Fe4O12Sm2"
+    ]
+  }
+}

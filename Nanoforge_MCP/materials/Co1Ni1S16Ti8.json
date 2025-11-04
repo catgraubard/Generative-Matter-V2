@@ -1,0 +1,131 @@
+{
+  "id": "Co1Ni1S16Ti8",
+  "uri": "material://Co1Ni1S16Ti8",
+  "composition": {
+    "formula": "Co1Ni1S16Ti8",
+    "elements": {
+      "Co": 1,
+      "Ni": 1,
+      "S": 16,
+      "Ti": 8
+    },
+    "reduced_formula": "Ti8CoNiS16",
+    "element_list": [
+      "S",
+      "Ti",
+      "Co",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g \n Ni: 40 g \n S: 128 g \n Ti: 64 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supply store or online chemical supplier. \n Ni: Available at metal supply shops or online. \n S: Obtain from a chemical supplier or a laboratory supply store. \n Ti: Buy from metal suppliers or specialty chemical vendors.",
+      "steps": [
+        "Co: Purchase from a metal supply store or online chemical supplier.",
+        "Ni: Available at metal supply shops or online.",
+        "S: Obtain from a chemical supplier or a laboratory supply store.",
+        "Ti: Buy from metal suppliers or specialty chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40 g of cobalt (Co) and 40 g of nickel (Ni) using a digital scale.",
+        "2. Weigh out 128 g of sulfur (S) and 64 g of titanium (Ti).",
+        "3. In a clean, dry mixing container, combine the measured amounts of Co, Ni, S, and Ti.",
+        "4. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Measure 40 g of cobalt (Co) and 40 g of nickel (Ni) using a digital scale. \n 2. Weigh out 128 g of sulfur (S) and 64 g of titanium (Ti). \n 3. In a clean, dry mixing container, combine the measured amounts of Co, Ni, S, and Ti. \n 4. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high-temperature use.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 900°C (1652°F) and hold for 2 hours to allow for complete reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high-temperature use. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 900°C (1652°F) and hold for 2 hours to allow for complete reaction and sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Ensure that the sample is not subjected to rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F). \n 2. Ensure that the sample is not subjected to rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections or rough edges.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant if the material will be exposed to moisture or corrosive environments."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible. \n 2. Inspect the sample for any surface imperfections or rough edges. \n 3. If necessary, use fine-grit sandpaper to smooth the surface. \n 4. Optionally, apply a sealant if the material will be exposed to moisture or corrosive environments."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 4549293.0,
+      "density": 36998.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -181844.0,
+      "formation_energy_per_atom": -15234.0,
+      "decomposition_energy_per_atom": -7.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "97ebabefc3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:35.826445Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Ni1S16Ti8.json",
+      "material://Co1Ni1S16Ti8"
+    ]
+  }
+}

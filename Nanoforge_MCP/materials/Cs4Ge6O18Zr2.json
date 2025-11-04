@@ -1,0 +1,111 @@
+{
+  "id": "Cs4Ge6O18Zr2",
+  "uri": "material://Cs4Ge6O18Zr2",
+  "composition": {
+    "formula": "Cs4Ge6O18Zr2",
+    "elements": {
+      "Cs": 4,
+      "Ge": 6,
+      "O": 18,
+      "Zr": 2
+    },
+    "reduced_formula": "Cs2Zr(GeO3)3",
+    "element_list": [
+      "O",
+      "Ge",
+      "Zr",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Cesium Oxide (Cs2O) - 20.00 g \n 2. Germanium Dioxide (GeO2) - 60.00 g \n 3. Zirconium Dioxide (ZrO2) - 10.00 g \n 4. Oxygen (O2) - 15.00 g (this will be in the atmosphere during the process)"
+    },
+    "sourcing": {
+      "instructions": "1. Cesium Oxide: Specialty chemical suppliers or online chemical retailers. \n 2. Germanium Dioxide: Chemical supply companies or online vendors. \n 3. Zirconium Dioxide: Available at industrial suppliers or online chemical stores. \n 4. Oxygen: Available in compressed gas cylinders from industrial gas suppliers (ensure proper safety measures).",
+      "steps": [
+        "1. Cesium Oxide: Specialty chemical suppliers or online chemical retailers.",
+        "2. Germanium Dioxide: Chemical supply companies or online vendors.",
+        "3. Zirconium Dioxide: Available at industrial suppliers or online chemical stores.",
+        "4. Oxygen: Available in compressed gas cylinders from industrial gas suppliers (ensure proper safety measures)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20.00 g of Cesium Oxide, 60.00 g of Germanium Dioxide, and 10.00 g of Zirconium Dioxide using an analytical balance.",
+        "2. In a clean, dry ceramic crucible, combine the weighed powders thoroughly using a ceramic pestle until a uniform mixture is achieved.",
+        "3. Add oxygen gas by ensuring the preparation is conducted in an atmosphere that allows for oxygen incorporation (in a controlled environment, if necessary)."
+      ],
+      "raw_text": "1. Weigh out 20.00 g of Cesium Oxide, 60.00 g of Germanium Dioxide, and 10.00 g of Zirconium Dioxide using an analytical balance. \n 2. In a clean, dry ceramic crucible, combine the weighed powders thoroughly using a ceramic pestle until a uniform mixture is achieved. \n 3. Add oxygen gas by ensuring the preparation is conducted in an atmosphere that allows for oxygen incorporation (in a controlled environment, if necessary)."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible with the mixed powders in a muffle furnace.",
+        "2. Heat the mixture gradually to 1000°C at a rate of 5°C/minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible with the mixed powders in a muffle furnace. \n 2. Heat the mixture gradually to 1000°C at a rate of 5°C/minute. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the furnace to cool down to room temperature naturally without opening the door (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace. \n 2. Allow the furnace to cool down to room temperature naturally without opening the door (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw to cut the solidified sample into dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand down the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable ceramic coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw to cut the solidified sample into dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand down the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable ceramic coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 5231217.0,
+      "density": 45643.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/m",
+      "space_group_number": 176,
+      "point_group": "6/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2125633.0,
+      "formation_energy_per_atom": -25028.0,
+      "decomposition_energy_per_atom": -852.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -568.0,
+      "decomposition_energy_mp": -779.0,
+      "decomposition_energy_mp_oqmd": -779.0
+    },
+    "electronic": {
+      "bandgap": 3.6151,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7e10c82b62",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:00.641320Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Ge6O18Zr2.json",
+      "material://Cs4Ge6O18Zr2"
+    ]
+  }
+}

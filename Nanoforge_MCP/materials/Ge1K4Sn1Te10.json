@@ -1,0 +1,137 @@
+{
+  "id": "Ge1K4Sn1Te10",
+  "uri": "material://Ge1K4Sn1Te10",
+  "composition": {
+    "formula": "Ge1K4Sn1Te10",
+    "elements": {
+      "Ge": 1,
+      "K": 4,
+      "Sn": 1,
+      "Te": 10
+    },
+    "reduced_formula": "K4SnGeTe10",
+    "element_list": [
+      "K",
+      "Ge",
+      "Sn",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 800.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 800 g (Boron) \n Co: 400 g (Cobalt) \n Fe: 40 g (Iron) \n Mn: 40 g (Manganese) \n Sc: 160 g (Scandium)"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from chemical supply companies or online chemical retailers. \n Co: Obtain from metal suppliers or online marketplaces. \n Fe: Available at hardware stores or metal suppliers. \n Mn: Sourced from metal suppliers or online retailers. \n Sc: Acquire from specialized chemical suppliers or online sources.",
+      "steps": [
+        "B: Purchase from chemical supply companies or online chemical retailers.",
+        "Co: Obtain from metal suppliers or online marketplaces.",
+        "Fe: Available at hardware stores or metal suppliers.",
+        "Mn: Sourced from metal suppliers or online retailers.",
+        "Sc: Acquire from specialized chemical suppliers or online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine B, Co, Fe, Mn, and Sc.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly blend the powders for 10 minutes to achieve a uniform mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing bowl, combine B, Co, Fe, Mn, and Sc. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly blend the powders for 10 minutes to achieve a uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C (1832°F).",
+        "2. Transfer the mixed powders into a suitable crucible made of a material that withstands high temperatures.",
+        "3. Place the crucible in the furnace and heat for 2 hours to facilitate alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C (1832°F). \n 2. Transfer the mixed powders into a suitable crucible made of a material that withstands high temperatures. \n 3. Place the crucible in the furnace and heat for 2 hours to facilitate alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door during the cooling process to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door during the cooling process to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and extract the solid sample using appropriate tools.",
+        "2. If necessary, grind the sample to achieve a smoother texture using a ball mill or grinder.",
+        "3. Optionally, seal the sample with a protective coating or lacquer to prevent corrosion.",
+        "4. Sand any rough edges to achieve desired dimensions and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and extract the solid sample using appropriate tools. \n 2. If necessary, grind the sample to achieve a smoother texture using a ball mill or grinder. \n 3. Optionally, seal the sample with a protective coating or lacquer to prevent corrosion. \n 4. Sand any rough edges to achieve desired dimensions and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5687616.0,
+      "density": 47406.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42m",
+      "space_group_number": 121,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -568512.0,
+      "formation_energy_per_atom": -7715.0,
+      "decomposition_energy_per_atom": -276.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -33.0,
+      "decomposition_energy_mp": -264.0,
+      "decomposition_energy_mp_oqmd": -216.0
+    },
+    "electronic": {
+      "bandgap": 0.4054,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cf07a738b5",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.032507Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1K4Sn1Te10.json",
+      "material://Ge1K4Sn1Te10"
+    ]
+  }
+}

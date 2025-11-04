@@ -1,0 +1,141 @@
+{
+  "id": "Co14Fe3Mo1Nd6P12",
+  "uri": "material://Co14Fe3Mo1Nd6P12",
+  "composition": {
+    "formula": "Co14Fe3Mo1Nd6P12",
+    "elements": {
+      "Co": 14,
+      "Fe": 3,
+      "Mo": 1,
+      "Nd": 6,
+      "P": 12
+    },
+    "reduced_formula": "Nd6Fe3Co14MoP12",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Mo",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 14 g\nFe: 3 g\nMo: 1 g\nNd: 6 g\nP: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supplier or online chemical vendor.\nFe: Buy from a hardware store or metal supplier.\nMo: Obtain from a chemical supply store.\nNd: Source from a rare earth metal supplier.\nP: Purchase from a chemical supply store or online vendor.",
+      "steps": [
+        "Co: Purchase from a metal supplier or online chemical vendor.",
+        "Fe: Buy from a hardware store or metal supplier.",
+        "Mo: Obtain from a chemical supply store.",
+        "Nd: Source from a rare earth metal supplier.",
+        "P: Purchase from a chemical supply store or online vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precise analytical balance.",
+        "2. Combine Co, Fe, Mo, Nd, and P in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or mechanical mixer to blend the powders uniformly for at least 10 minutes."
+      ],
+      "raw_text": "1. Weigh each material using a precise analytical balance.\n2. Combine Co, Fe, Mo, Nd, and P in a clean, dry mixing container.\n3. Use a mortar and pestle or mechanical mixer to blend the powders uniformly for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C (2192°F) at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 1200°C (2192°F) at a rate of 10°C/min.\n4. Maintain this temperature for 2 hours to ensure proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool in the furnace to room temperature over a period of 4 hours.",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool in the furnace to room temperature over a period of 4 hours.\n2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. Sand the surfaces using fine-grit sandpaper until smooth.",
+        "4. Optionally, apply a protective sealant if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Inspect for any surface imperfections.\n3. Sand the surfaces using fine-grit sandpaper until smooth.\n4. Optionally, apply a protective sealant if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5013616.0,
+      "density": 77028.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2608461.0,
+      "formation_energy_per_atom": -8752.0,
+      "decomposition_energy_per_atom": -326.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -326.0,
+      "decomposition_energy_mp_oqmd": -284.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "18653dcb2f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:47.611322Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co14Fe3Mo1Nd6P12.json",
+      "material://Co14Fe3Mo1Nd6P12"
+    ]
+  }
+}

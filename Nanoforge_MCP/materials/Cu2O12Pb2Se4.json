@@ -1,0 +1,108 @@
+{
+  "id": "Cu2O12Pb2Se4",
+  "uri": "material://Cu2O12Pb2Se4",
+  "composition": {
+    "formula": "Cu2O12Pb2Se4",
+    "elements": {
+      "Cu": 2,
+      "O": 12,
+      "Pb": 2,
+      "Se": 4
+    },
+    "reduced_formula": "CuPb(SeO3)2",
+    "element_list": [
+      "O",
+      "Cu",
+      "Se",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper(I) oxide (Cu2O): 120 g \n Lead(II) selenide (PbSe): 85 g \n Lead(II) oxide (PbO): 15 g \n Flux (e.g., boron oxide): 10 g"
+    },
+    "sourcing": {
+      "instructions": "Copper(I) oxide can be sourced from chemical supply companies or online chemical retailers. Lead(II) selenide may be available from specialized semiconductor material suppliers. Lead(II) oxide can be purchased from ceramic material suppliers. Boron oxide can be found at chemical supply stores or online.",
+      "steps": [
+        "Copper(I) oxide can be sourced from chemical supply companies or online chemical retailers. Lead(II) selenide may be available from specialized semiconductor material suppliers. Lead(II) oxide can be purchased from ceramic material suppliers. Boron oxide can be found at chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, measure 120 g of copper(I) oxide.",
+        "2. Add 85 g of lead(II) selenide to the container.",
+        "3. Incorporate 15 g of lead(II) oxide into the mixture.",
+        "4. Finally, add 10 g of boron oxide as a flux.",
+        "5. Mix the dry ingredients thoroughly using a mortar and pestle or a mechanical mixer for 10-15 minutes until homogenous."
+      ],
+      "raw_text": "1. In a clean, dry container, measure 120 g of copper(I) oxide. \n 2. Add 85 g of lead(II) selenide to the container. \n 3. Incorporate 15 g of lead(II) oxide into the mixture. \n 4. Finally, add 10 g of boron oxide as a flux. \n 5. Mix the dry ingredients thoroughly using a mortar and pestle or a mechanical mixer for 10-15 minutes until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 950 °C (1742 °F).",
+        "2. Transfer the mixed powder into a crucible made of a suitable material (e.g., alumina).",
+        "3. Place the crucible in the furnace and heat for 2 hours to allow for solid-state reaction and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 950 °C (1742 °F). \n 2. Transfer the mixed powder into a crucible made of a suitable material (e.g., alumina). \n 3. Place the crucible in the furnace and heat for 2 hours to allow for solid-state reaction and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. Do not open the furnace during cooling to avoid thermal shock to the crucible."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. Do not open the furnace during cooling to avoid thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample and inspect for uniformity.",
+        "3. If necessary, sand the edges with fine-grit sandpaper to achieve desired dimensions.",
+        "4. Optionally, seal the sample with an appropriate sealing agent for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample and inspect for uniformity. \n 3. If necessary, sand the edges with fine-grit sandpaper to achieve desired dimensions. \n 4. Optionally, seal the sample with an appropriate sealing agent for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3273006.0,
+      "density": 53237.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -1148231.0,
+      "formation_energy_per_atom": -1292.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -85.0,
+      "decomposition_energy_mp": -127.0,
+      "decomposition_energy_mp_oqmd": -91.0
+    },
+    "electronic": {
+      "bandgap": 0.3262,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7ca5837930",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:58.819636Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2O12Pb2Se4.json",
+      "material://Cu2O12Pb2Se4"
+    ]
+  }
+}

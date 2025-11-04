@@ -1,0 +1,108 @@
+{
+  "id": "Ba2Fe1Mn11O24",
+  "uri": "material://Ba2Fe1Mn11O24",
+  "composition": {
+    "formula": "Ba2Fe1Mn11O24",
+    "elements": {
+      "Ba": 2,
+      "Fe": 1,
+      "Mn": 11,
+      "O": 24
+    },
+    "reduced_formula": "Ba2Mn11FeO24",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "BaCO3: 40.0 g \n Fe2O3: 25.0 g \n MnO2: 60.0 g \n Distilled Water: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "BaCO3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Fe2O3: Local hardware stores or chemical suppliers \n MnO2: Online chemical suppliers (e.g., Fisher Scientific) \n Distilled Water: Grocery stores or pharmacies",
+      "steps": [
+        "BaCO3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Fe2O3: Local hardware stores or chemical suppliers",
+        "MnO2: Online chemical suppliers (e.g., Fisher Scientific)",
+        "Distilled Water: Grocery stores or pharmacies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all solid ingredients (BaCO3, Fe2O3, MnO2) accurately using an analytical balance.",
+        "2. In a clean, dry beaker, mix the BaCO3, Fe2O3, and MnO2 using a glass rod until a homogeneous powder is achieved.",
+        "3. Gradually add distilled water to the mixture while stirring continuously to form a thick paste. Ensure that no lumps remain."
+      ],
+      "raw_text": "1. Weigh all solid ingredients (BaCO3, Fe2O3, MnO2) accurately using an analytical balance. \n 2. In a clean, dry beaker, mix the BaCO3, Fe2O3, and MnO2 using a glass rod until a homogeneous powder is achieved. \n 3. Gradually add distilled water to the mixture while stirring continuously to form a thick paste. Ensure that no lumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Once the paste is uniform, transfer it into a crucible.",
+        "3. Place the crucible in the preheated furnace and heat for 4 hours to promote solid-state reaction and formation of Ba2Fe1Mn11O24."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Once the paste is uniform, transfer it into a crucible. \n 3. Place the crucible in the preheated furnace and heat for 4 hours to promote solid-state reaction and formation of Ba2Fe1Mn11O24."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 2-4 hours) inside the furnace to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 2-4 hours) inside the furnace to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible and gently break it to extract the solid sample.",
+        "2. Use sandpaper (grit 400) to smooth out any rough edges of the sample.",
+        "3. Optionally, seal the sample with an appropriate sealant to prevent moisture absorption and enhance durability."
+      ],
+      "raw_text": "1. Remove the cooled crucible and gently break it to extract the solid sample. \n 2. Use sandpaper (grit 400) to smooth out any rough edges of the sample. \n 3. Optionally, seal the sample with an appropriate sealant to prevent moisture absorption and enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 447489.0,
+      "density": 48938.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -3102232.0,
+      "formation_energy_per_atom": -20627.0,
+      "decomposition_energy_per_atom": 1.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": -5.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f67a42386d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:31.557494Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Fe1Mn11O24.json",
+      "material://Ba2Fe1Mn11O24"
+    ]
+  }
+}

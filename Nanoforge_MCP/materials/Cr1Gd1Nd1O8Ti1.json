@@ -1,0 +1,107 @@
+{
+  "id": "Cr1Gd1Nd1O8Ti1",
+  "uri": "material://Cr1Gd1Nd1O8Ti1",
+  "composition": {
+    "formula": "Cr1Gd1Nd1O8Ti1",
+    "elements": {
+      "Cr": 1,
+      "Gd": 1,
+      "Nd": 1,
+      "O": 8,
+      "Ti": 1
+    },
+    "reduced_formula": "NdGdTiCrO8",
+    "element_list": [
+      "O",
+      "Ti",
+      "Cr",
+      "Nd",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 22.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 22.5 g, Li: 45 g, O: 12 g, Sb: 5.5 g, Sr: 135 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Purchase from chemical suppliers or online platforms like Sigma-Aldrich; Li: Obtain from battery suppliers or specialty chemical stores; O: Use oxygen gas or metal oxides; Sb: Buy from chemical suppliers; Sr: Find at chemical suppliers or online platforms.",
+      "steps": [
+        "Fe: Purchase from chemical suppliers or online platforms like Sigma-Aldrich; Li: Obtain from battery suppliers or specialty chemical stores; O: Use oxygen gas or metal oxides; Sb: Buy from chemical suppliers; Sr: Find at chemical suppliers or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure all ingredients with a precision scale. 2. In a clean, dry container, combine Fe, Li, O, Sb, and Sr in the specified amounts. 3. Mix thoroughly using a mortar and pestle until uniform. 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Measure all ingredients with a precision scale. 2. In a clean, dry container, combine Fe, Li, O, Sb, and Sr in the specified amounts. 3. Mix thoroughly using a mortar and pestle until uniform. 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a furnace to 900°C. 2. Place the blended mixture in a ceramic crucible. 3. Heat the crucible for 6 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. 2. Place the blended mixture in a ceramic crucible. 3. Heat the crucible for 6 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After 6 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours). 2. Do not remove the crucible until it reaches room temperature to prevent cracking."
+      ],
+      "raw_text": "1. After 6 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours). 2. Do not remove the crucible until it reaches room temperature to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully. 2. Inspect for any surface imperfections. 3. If necessary, sand down rough edges with fine-grit sandpaper. 4. Seal the sample with a suitable epoxy or varnish for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. 2. Inspect for any surface imperfections. 3. If necessary, sand down rough edges with fine-grit sandpaper. 4. Seal the sample with a suitable epoxy or varnish for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1764384.0,
+      "density": 49819.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1134715.0,
+      "formation_energy_per_atom": -31246.0,
+      "decomposition_energy_per_atom": -397.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -403.0,
+      "decomposition_energy_mp_oqmd": -341.0
+    },
+    "electronic": {
+      "bandgap": 1.4306,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aac05a2aa5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.030281Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Gd1Nd1O8Ti1.json",
+      "material://Cr1Gd1Nd1O8Ti1"
+    ]
+  }
+}

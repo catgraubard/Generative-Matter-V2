@@ -1,0 +1,137 @@
+{
+  "id": "Be7Si1Tc2V2",
+  "uri": "material://Be7Si1Tc2V2",
+  "composition": {
+    "formula": "Be7Si1Tc2V2",
+    "elements": {
+      "Be": 7,
+      "Si": 1,
+      "Tc": 2,
+      "V": 2
+    },
+    "reduced_formula": "Be7V2SiTc2",
+    "element_list": [
+      "Be",
+      "Si",
+      "V",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30 g\nCo: 15 g\nGa: 6 g\nNd: 3 g\nY: 3 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder): Chemical supply stores or online chemical suppliers.\nCo (Cobalt powder): Metal suppliers or online marketplaces.\nGa (Gallium): Online chemical suppliers or electronic component suppliers.\nNd (Neodymium): Rare earth metal suppliers or online specialty stores.\nY (Yttrium): Chemical supply stores or online rare earth suppliers.",
+      "steps": [
+        "B (Boron powder): Chemical supply stores or online chemical suppliers.",
+        "Co (Cobalt powder): Metal suppliers or online marketplaces.",
+        "Ga (Gallium): Online chemical suppliers or electronic component suppliers.",
+        "Nd (Neodymium): Rare earth metal suppliers or online specialty stores.",
+        "Y (Yttrium): Chemical supply stores or online rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely according to the amounts listed.",
+        "2. In a clean, dry mixing container, combine the boron powder, cobalt powder, gallium, neodymium, and yttrium.",
+        "3. Use a mortar and pestle or a mechanical mixer to thoroughly blend the powders until homogeneous."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely according to the amounts listed.\n2. In a clean, dry mixing container, combine the boron powder, cobalt powder, gallium, neodymium, and yttrium.\n3. Use a mortar and pestle or a mechanical mixer to thoroughly blend the powders until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Preheat the furnace to 900°C (1652°F).",
+        "3. Once the temperature is reached, place the crucible inside and hold for 2 hours to promote full melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible.\n2. Preheat the furnace to 900°C (1652°F).\n3. Once the temperature is reached, place the crucible inside and hold for 2 hours to promote full melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature. This should take approximately 4-6 hours.",
+        "2. Do not attempt to remove the crucible until it has fully cooled to avoid cracking the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature. This should take approximately 4-6 hours.\n2. Do not attempt to remove the crucible until it has fully cooled to avoid cracking the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces as needed to achieve a smooth finish.",
+        "4. Optionally, apply a thin layer of protective sealant to enhance durability and surface quality."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges and surfaces as needed to achieve a smooth finish.\n4. Optionally, apply a thin layer of protective sealant to enhance durability and surface quality."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1194823.0,
+      "density": 5407.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -759259.0,
+      "formation_energy_per_atom": -453.0,
+      "decomposition_energy_per_atom": -1315.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -187.0,
+      "decomposition_energy_mp": -1315.0,
+      "decomposition_energy_mp_oqmd": -1303.0
+    },
+    "electronic": {
+      "bandgap": 0.0062,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da0587816b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.000416Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Be7Si1Tc2V2.json",
+      "material://Be7Si1Tc2V2"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Bi4Cr2Fe2O20Ti4",
+  "uri": "material://Bi4Cr2Fe2O20Ti4",
+  "composition": {
+    "formula": "Bi4Cr2Fe2O20Ti4",
+    "elements": {
+      "Bi": 4,
+      "Cr": 2,
+      "Fe": 2,
+      "O": 20,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2CrFe(BiO5)2",
+    "element_list": [
+      "O",
+      "Ti",
+      "Cr",
+      "Fe",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3): 40.5 g \n Chromium Oxide (Cr2O3): 15.0 g \n Iron Oxide (Fe2O3): 10.0 g \n Titanium Dioxide (TiO2): 34.5 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Purchase from chemical supply stores or online (e.g., Lab Alley, Sigma-Aldrich). \n Chromium Oxide: Available at chemical suppliers or online (e.g., Fisher Scientific). \n Iron Oxide: Obtain from industrial suppliers or online (e.g., Amazon, Sigma-Aldrich). \n Titanium Dioxide: Available at chemical supply stores or online (e.g., eBay, Sigma-Aldrich).",
+      "steps": [
+        "Bismuth Oxide: Purchase from chemical supply stores or online (e.g., Lab Alley, Sigma-Aldrich).",
+        "Chromium Oxide: Available at chemical suppliers or online (e.g., Fisher Scientific).",
+        "Iron Oxide: Obtain from industrial suppliers or online (e.g., Amazon, Sigma-Aldrich).",
+        "Titanium Dioxide: Available at chemical supply stores or online (e.g., eBay, Sigma-Aldrich)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Combine Bismuth Oxide, Chromium Oxide, Iron Oxide, and Titanium Dioxide in a clean, dry mixing bowl.",
+        "3. Use a mortar and pestle to grind the mixture until it is a uniform powder with no visible lumps.",
+        "4. Transfer the powder to a clean container for the next step."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Combine Bismuth Oxide, Chromium Oxide, Iron Oxide, and Titanium Dioxide in a clean, dry mixing bowl. \n 3. Use a mortar and pestle to grind the mixture until it is a uniform powder with no visible lumps. \n 4. Transfer the powder to a clean container for the next step."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200 °C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the crucible in the muffle furnace for 4 hours to ensure complete sintering of the compounds."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200 °C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the crucible in the muffle furnace for 4 hours to ensure complete sintering of the compounds."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid opening the furnace door until it has cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Avoid opening the furnace door until it has cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect the sample for any rough edges or irregularities.",
+        "3. If necessary, use sandpaper (grit 400) to smooth the surface of the sample.",
+        "4. Optionally, apply a sealing coat (e.g., acrylic sealant) to enhance durability. Allow to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Inspect the sample for any rough edges or irregularities. \n 3. If necessary, use sandpaper (grit 400) to smooth the surface of the sample. \n 4. Optionally, apply a sealing coat (e.g., acrylic sealant) to enhance durability. Allow to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4010063.0,
+      "density": 64725.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2622761.0,
+      "formation_energy_per_atom": -24978.0,
+      "decomposition_energy_per_atom": -183.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -189.0,
+      "decomposition_energy_mp_oqmd": -186.0
+    },
+    "electronic": {
+      "bandgap": 1.5589,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "444d9aee25",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:45.356150Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Cr2Fe2O20Ti4.json",
+      "material://Bi4Cr2Fe2O20Ti4"
+    ]
+  }
+}

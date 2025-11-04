@@ -1,0 +1,113 @@
+{
+  "id": "Co1Li3Ni17Si18",
+  "uri": "material://Co1Li3Ni17Si18",
+  "composition": {
+    "formula": "Co1Li3Ni17Si18",
+    "elements": {
+      "Co": 1,
+      "Li": 3,
+      "Ni": 17,
+      "Si": 18
+    },
+    "reduced_formula": "Li3CoSi18Ni17",
+    "element_list": [
+      "Li",
+      "Si",
+      "Co",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1 g, Li: 3 g, Ni: 17 g, Si: 18 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Obtain from a chemical supplier; Li: Purchase lithium carbonate from a chemical store; Ni: Source nickel powder from a metallurgical supplier; Si: Get silicon powder from a material science supplier.",
+      "steps": [
+        "Co: Obtain from a chemical supplier; Li: Purchase lithium carbonate from a chemical store; Ni: Source nickel powder from a metallurgical supplier; Si: Get silicon powder from a material science supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient carefully using a precision scale.",
+        "2. In a clean, dry container, add 1 g Co, 3 g Li, 17 g Ni, and 18 g Si.",
+        "3. Mix the powders thoroughly using a mortar and pestle for 10 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient carefully using a precision scale. \n 2. In a clean, dry container, add 1 g Co, 3 g Li, 17 g Ni, and 18 g Si. \n 3. Mix the powders thoroughly using a mortar and pestle for 10 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the mixed powders in a crucible.",
+        "2. Heat in a muffle furnace to 800°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Place the mixed powders in a crucible. \n 2. Heat in a muffle furnace to 800°C at a rate of 5°C/min. \n 3. Maintain the temperature for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 4-6 hours.",
+        "2. Ensure the crucible remains undisturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 4-6 hours. \n 2. Ensure the crucible remains undisturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges and surfaces.",
+        "3. Optionally, seal the surface with a suitable resin for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper to smooth any rough edges and surfaces. \n 3. Optionally, seal the surface with a suitable resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 39,
+      "volume": 468445.0,
+      "density": 56117.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmm2",
+      "space_group_number": 35,
+      "point_group": "mm2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2276079.0,
+      "formation_energy_per_atom": -4835.0,
+      "decomposition_energy_per_atom": 3.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -128.0,
+      "decomposition_energy_mp": -281.0,
+      "decomposition_energy_mp_oqmd": -244.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "97dbe9a8a2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:35.761650Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Li3Ni17Si18.json",
+      "material://Co1Li3Ni17Si18"
+    ]
+  }
+}

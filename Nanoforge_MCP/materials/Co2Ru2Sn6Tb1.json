@@ -1,0 +1,133 @@
+{
+  "id": "Co2Ru2Sn6Tb1",
+  "uri": "material://Co2Ru2Sn6Tb1",
+  "composition": {
+    "formula": "Co2Ru2Sn6Tb1",
+    "elements": {
+      "Co": 2,
+      "Ru": 2,
+      "Sn": 6,
+      "Tb": 1
+    },
+    "reduced_formula": "TbCo2(Sn3Ru)2",
+    "element_list": [
+      "Co",
+      "Ru",
+      "Sn",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20.0 g \n Ru: 40.0 g \n Sn: 120.0 g \n Tb: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt) - Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich). \n Ru (Ruthenium) - Obtain from specialized metal suppliers or online. \n Sn (Tin) - Available at hardware stores or metal supply shops. \n Tb (Terbium) - Source from chemical suppliers or rare earth metal providers.",
+      "steps": [
+        "Co (Cobalt) - Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich).",
+        "Ru (Ruthenium) - Obtain from specialized metal suppliers or online.",
+        "Sn (Tin) - Available at hardware stores or metal supply shops.",
+        "Tb (Terbium) - Source from chemical suppliers or rare earth metal providers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. Combine Co, Ru, Sn, and Tb in a clean, dry mixing container.",
+        "3. Use a high-purity mortar and pestle to grind the mixture for 10 minutes until homogenous.",
+        "4. Transfer the ground powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. Combine Co, Ru, Sn, and Tb in a clean, dry mixing container. \n 3. Use a high-purity mortar and pestle to grind the mixture for 10 minutes until homogenous. \n 4. Transfer the ground powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 900°C (1652°F) at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and mixing of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 900°C (1652°F) at a rate of 10°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has cooled to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace until it has cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully break the crucible to retrieve the solid sample.",
+        "3. If necessary, use a diamond file to smooth any rough edges of the sample.",
+        "4. Seal the sample with a clear acrylic coating to protect from environmental factors."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled. \n 2. Carefully break the crucible to retrieve the solid sample. \n 3. If necessary, use a diamond file to smooth any rough edges of the sample. \n 4. Seal the sample with a clear acrylic coating to protect from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 2234259.0,
+      "density": 88531.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -650112.0,
+      "formation_energy_per_atom": -3231.0,
+      "decomposition_energy_per_atom": -49.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -155.0,
+      "decomposition_energy_mp": -49.0,
+      "decomposition_energy_mp_oqmd": -367.0
+    },
+    "electronic": {
+      "bandgap": 0.0196,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1b85f9442e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.759673Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Ru2Sn6Tb1.json",
+      "material://Co2Ru2Sn6Tb1"
+    ]
+  }
+}

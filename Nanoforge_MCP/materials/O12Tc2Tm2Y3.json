@@ -1,0 +1,137 @@
+{
+  "id": "O12Tc2Tm2Y3",
+  "uri": "material://O12Tc2Tm2Y3",
+  "composition": {
+    "formula": "O12Tc2Tm2Y3",
+    "elements": {
+      "O": 12,
+      "Tc": 2,
+      "Tm": 2,
+      "Y": 3
+    },
+    "reduced_formula": "Y3Tm2(TcO6)2",
+    "element_list": [
+      "O",
+      "Y",
+      "Tc",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 12 g (Oxygen source, e.g., potassium permanganate) \n Tc: 2 g (Technetium source, e.g., technetium dioxide) \n Tm: 2 g (Thulium source, e.g., thulium oxide) \n Y: 3 g (Yttrium source, e.g., yttrium oxide)"
+    },
+    "sourcing": {
+      "instructions": "O: Available from chemical supply stores or online suppliers specializing in laboratory chemicals. \n Tc: Obtain from specialized nuclear material suppliers with proper licenses. \n Tm: Purchase from rare earth metal suppliers or online marketplaces. \n Y: Can be sourced from chemical supply companies or online retailers.",
+      "steps": [
+        "O: Available from chemical supply stores or online suppliers specializing in laboratory chemicals.",
+        "Tc: Obtain from specialized nuclear material suppliers with proper licenses.",
+        "Tm: Purchase from rare earth metal suppliers or online marketplaces.",
+        "Y: Can be sourced from chemical supply companies or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Gather all materials and ensure you are in a well-ventilated area with appropriate safety gear (gloves, goggles, lab coat).",
+        "2. Weigh each ingredient precisely using an analytical balance.",
+        "3. In a clean, dry crucible, add the 12 g of oxygen source.",
+        "4. Add the 2 g of technetium source.",
+        "5. Add the 2 g of thulium source.",
+        "6. Finally, add the 3 g of yttrium source.",
+        "7. Mix the powders thoroughly using a spatula to ensure even distribution of materials."
+      ],
+      "raw_text": "1. Gather all materials and ensure you are in a well-ventilated area with appropriate safety gear (gloves, goggles, lab coat). \n 2. Weigh each ingredient precisely using an analytical balance. \n 3. In a clean, dry crucible, add the 12 g of oxygen source. \n 4. Add the 2 g of technetium source. \n 5. Add the 2 g of thulium source. \n 6. Finally, add the 3 g of yttrium source. \n 7. Mix the powders thoroughly using a spatula to ensure even distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Transfer the mixed powder into a suitable ceramic crucible.",
+        "3. Place the crucible in the furnace and heat for 4 hours.",
+        "4. Monitor the temperature, ensuring it remains stable throughout the heating process."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Transfer the mixed powder into a suitable ceramic crucible. \n 3. Place the crucible in the furnace and heat for 4 hours. \n 4. Monitor the temperature, ensuring it remains stable throughout the heating process."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace for 6 hours to prevent thermal shock.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace for 6 hours to prevent thermal shock. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for uniformity.",
+        "2. If necessary, grind the material using a mortar and pestle for finer consistency.",
+        "3. Sift the ground material through a 200 mesh screen to ensure particle size uniformity.",
+        "4. Optionally, seal the material in an airtight container to prevent oxidation or degradation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for uniformity. \n 2. If necessary, grind the material using a mortar and pestle for finer consistency. \n 3. Sift the ground material through a 200 mesh screen to ensure particle size uniformity. \n 4. Optionally, seal the material in an airtight container to prevent oxidation or degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2495951.0,
+      "density": 66036.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1718126.0,
+      "formation_energy_per_atom": -3335.0,
+      "decomposition_energy_per_atom": -522.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -528.0,
+      "decomposition_energy_mp_oqmd": -528.0
+    },
+    "electronic": {
+      "bandgap": 0.0197,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7d35a64e8d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:59.470142Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O12Tc2Tm2Y3.json",
+      "material://O12Tc2Tm2Y3"
+    ]
+  }
+}

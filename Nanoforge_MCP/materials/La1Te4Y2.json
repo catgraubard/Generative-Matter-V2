@@ -1,0 +1,125 @@
+{
+  "id": "La1Te4Y2",
+  "uri": "material://La1Te4Y2",
+  "composition": {
+    "formula": "La1Te4Y2",
+    "elements": {
+      "La": 1,
+      "Te": 4,
+      "Y": 2
+    },
+    "reduced_formula": "La(YTe2)2",
+    "element_list": [
+      "Y",
+      "Te",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 40 g \n Te: 160 g \n Y: 80 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum) - Available from chemical supply companies or online marketplaces specializing in rare earth metals. \n Te (Tellurium) - Obtainable from chemical suppliers or specialty metal retailers. \n Y (Yttrium) - Can be sourced from metal suppliers or online chemical retailers.",
+      "steps": [
+        "La (Lanthanum) - Available from chemical supply companies or online marketplaces specializing in rare earth metals.",
+        "Te (Tellurium) - Obtainable from chemical suppliers or specialty metal retailers.",
+        "Y (Yttrium) - Can be sourced from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 40 g of Lanthanum, 160 g of Tellurium, and 80 g of Yttrium using an analytical balance for accuracy.",
+        "2. Place the weighed materials into a clean, dry ceramic crucible.",
+        "3. Use a mortar and pestle to grind the powders together to achieve a homogeneous mixture.",
+        "4. Transfer the mixed powders into a larger crucible for heating."
+      ],
+      "raw_text": "1. Weigh 40 g of Lanthanum, 160 g of Tellurium, and 80 g of Yttrium using an analytical balance for accuracy. \n 2. Place the weighed materials into a clean, dry ceramic crucible. \n 3. Use a mortar and pestle to grind the powders together to achieve a homogeneous mixture. \n 4. Transfer the mixed powders into a larger crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 950 °C at a rate of 5 °C/min.",
+        "3. Maintain this temperature for a duration of 4 hours to ensure complete reaction and formation of La1Te4Y2."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 950 °C at a rate of 5 °C/min. \n 3. Maintain this temperature for a duration of 4 hours to ensure complete reaction and formation of La1Te4Y2."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to decrease naturally.",
+        "2. Once the furnace reaches 500 °C, open the door slightly to facilitate gradual cooling.",
+        "3. Allow the sample to cool to room temperature over approximately 12 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to decrease naturally. \n 2. Once the furnace reaches 500 °C, open the door slightly to facilitate gradual cooling. \n 3. Allow the sample to cool to room temperature over approximately 12 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully using appropriate tools.",
+        "2. Inspect the sample for surface imperfections and use fine-grit sandpaper to smooth out any rough edges.",
+        "3. Optionally, seal the sample with a clear epoxy resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully using appropriate tools. \n 2. Inspect the sample for surface imperfections and use fine-grit sandpaper to smooth out any rough edges. \n 3. Optionally, seal the sample with a clear epoxy resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 7,
+      "volume": 2485392.0,
+      "density": 55261.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -425774.0,
+      "formation_energy_per_atom": -17336.0,
+      "decomposition_energy_per_atom": -149.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -138.0,
+      "decomposition_energy_mp_oqmd": -129.0
+    },
+    "electronic": {
+      "bandgap": 0.0142,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "64db6db14c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:27.782428Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Te4Y2.json",
+      "material://La1Te4Y2"
+    ]
+  }
+}

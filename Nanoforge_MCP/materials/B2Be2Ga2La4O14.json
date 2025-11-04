@@ -1,0 +1,138 @@
+{
+  "id": "B2Be2Ga2La4O14",
+  "uri": "material://B2Be2Ga2La4O14",
+  "composition": {
+    "formula": "B2Be2Ga2La4O14",
+    "elements": {
+      "B": 2,
+      "Be": 2,
+      "Ga": 2,
+      "La": 4,
+      "O": 14
+    },
+    "reduced_formula": "La2BeGaBO7",
+    "element_list": [
+      "Be",
+      "B",
+      "O",
+      "Ga",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Be",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 56.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 12.0 g\nBe: 10.0 g\nGa: 10.0 g\nLa: 20.0 g\nO: 56.0 g (calculated based on stoichiometry for the formula B2Be2Ga2La4O14)"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supplier or online store (e.g., Sigma-Aldrich).\nBe: Obtain from a specialized chemical supplier (ensure proper handling).\nGa: Available through chemical supply companies.\nLa: Obtain from a rare earth metal supplier.\nO: Use high-purity oxygen from a chemical supplier or laboratory grade.",
+      "steps": [
+        "B: Purchase from a chemical supplier or online store (e.g., Sigma-Aldrich).",
+        "Be: Obtain from a specialized chemical supplier (ensure proper handling).",
+        "Ga: Available through chemical supply companies.",
+        "La: Obtain from a rare earth metal supplier.",
+        "O: Use high-purity oxygen from a chemical supplier or laboratory grade."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, measure out each ingredient using a precision scale.",
+        "2. Combine the measured B, Be, Ga, La, and O in a ceramic mixing bowl.",
+        "3. Using a mortar and pestle, grind the mixture thoroughly to ensure a homogeneous blend.",
+        "4. Transfer the mixed powder to a clean crucible."
+      ],
+      "raw_text": "1. In a clean, dry environment, measure out each ingredient using a precision scale.\n2. Combine the measured B, Be, Ga, La, and O in a ceramic mixing bowl.\n3. Using a mortar and pestle, grind the mixture thoroughly to ensure a homogeneous blend.\n4. Transfer the mixed powder to a clean crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the crucible in the furnace and heat for 6 hours, ensuring a gradual heating ramp to prevent thermal shock."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C.\n2. Place the crucible in the furnace and heat for 6 hours, ensuring a gradual heating ramp to prevent thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid oxidation of the product."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).\n2. Do not open the furnace door until it has cooled completely to avoid oxidation of the product."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and extract the solid sample.",
+        "2. Inspect the sample for any irregularities, and use sandpaper to smooth out the surfaces if necessary.",
+        "3. Optionally, apply a sealing agent to enhance durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and extract the solid sample.\n2. Inspect the sample for any irregularities, and use sandpaper to smooth out the surfaces if necessary.\n3. Optionally, apply a sealing agent to enhance durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2932155.0,
+      "density": 54293.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1949215.0,
+      "formation_energy_per_atom": -32922.0,
+      "decomposition_energy_per_atom": -29.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -34.0,
+      "decomposition_energy_mp": -35.0,
+      "decomposition_energy_mp_oqmd": -34.0
+    },
+    "electronic": {
+      "bandgap": 4.541,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5de00d06c4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:18.644102Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Be2Ga2La4O14.json",
+      "material://B2Be2Ga2La4O14"
+    ]
+  }
+}

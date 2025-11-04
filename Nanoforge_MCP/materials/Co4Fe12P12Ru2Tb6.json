@@ -1,0 +1,140 @@
+{
+  "id": "Co4Fe12P12Ru2Tb6",
+  "uri": "material://Co4Fe12P12Ru2Tb6",
+  "composition": {
+    "formula": "Co4Fe12P12Ru2Tb6",
+    "elements": {
+      "Co": 4,
+      "Fe": 12,
+      "P": 12,
+      "Ru": 2,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb3Fe6Co2P6Ru",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Ru",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g \n Fe: 120 g \n P: 120 g \n Ru: 20 g \n Tb: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Supplier of cobalt powders or metal alloys \n Fe: Metal supply shops or online metal suppliers \n P: Chemical supply companies \n Ru: Precious metal suppliers or chemical distributors \n Tb: Rare earth metal suppliers",
+      "steps": [
+        "Co: Supplier of cobalt powders or metal alloys",
+        "Fe: Metal supply shops or online metal suppliers",
+        "P: Chemical supply companies",
+        "Ru: Precious metal suppliers or chemical distributors",
+        "Tb: Rare earth metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh each ingredient accurately using a digital scale.",
+        "2. Combine Co, Fe, P, Ru, and Tb powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture for 15 minutes to ensure uniformity.",
+        "4. Transfer the mixed powder to a ball mill and mill for 2 hours to achieve a fine homogenous blend."
+      ],
+      "raw_text": "1. Measure and weigh each ingredient accurately using a digital scale. \n 2. Combine Co, Fe, P, Ru, and Tb powders in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the mixture for 15 minutes to ensure uniformity. \n 4. Transfer the mixed powder to a ball mill and mill for 2 hours to achieve a fine homogenous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 3,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Insert the crucible into the furnace and heat for 3 hours in an inert atmosphere (e.g., Argon)."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Insert the crucible into the furnace and heat for 3 hours in an inert atmosphere (e.g., Argon)."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace.",
+        "2. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "3. Do not open the furnace until the temperature has stabilized at room temperature."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace. \n 2. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 3. Do not open the furnace until the temperature has stabilized at room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any surface defects; if necessary, use fine-grit sandpaper to smooth rough edges.",
+        "3. Optionally, apply a sealant to enhance surface stability if the sample will be exposed to moisture."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible. \n 2. Inspect for any surface defects; if necessary, use fine-grit sandpaper to smooth rough edges. \n 3. Optionally, apply a sealant to enhance surface stability if the sample will be exposed to moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 483207.0,
+      "density": 83619.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2733855.0,
+      "formation_energy_per_atom": -8888.0,
+      "decomposition_energy_per_atom": -355.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -355.0,
+      "decomposition_energy_mp_oqmd": -231.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9571351973",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:32.124953Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Fe12P12Ru2Tb6.json",
+      "material://Co4Fe12P12Ru2Tb6"
+    ]
+  }
+}

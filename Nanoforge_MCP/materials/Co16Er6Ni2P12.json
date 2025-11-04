@@ -1,0 +1,104 @@
+{
+  "id": "Co16Er6Ni2P12",
+  "uri": "material://Co16Er6Ni2P12",
+  "composition": {
+    "formula": "Co16Er6Ni2P12",
+    "elements": {
+      "Co": 16,
+      "Er": 6,
+      "Ni": 2,
+      "P": 12
+    },
+    "reduced_formula": "Er3Co8NiP6",
+    "element_list": [
+      "P",
+      "Co",
+      "Ni",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 320 g, Er: 120 g, Ni: 40 g, P: 240 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from metal supply stores or online suppliers.",
+      "steps": [
+        "Co: Purchase from metal supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 320 g of cobalt (Co), 120 g of erbium (Er), 40 g of nickel (Ni), and 240 g of phosphorus (P)."
+      ],
+      "raw_text": "1. Measure out 320 g of cobalt (Co), 120 g of erbium (Er), 40 g of nickel (Ni), and 240 g of phosphorus (P)."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "steps": [
+        "1. Preheat a furnace to 1,200 °C."
+      ],
+      "raw_text": "1. Preheat a furnace to 1,200 °C."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After sintering, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours)."
+      ],
+      "raw_text": "1. After sintering, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully to avoid damage."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully to avoid damage."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4710807.0,
+      "density": 85852.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2522393.0,
+      "formation_energy_per_atom": -9606.0,
+      "decomposition_energy_per_atom": -138.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -81.0,
+      "decomposition_energy_mp": -138.0,
+      "decomposition_energy_mp_oqmd": -137.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9adce1d6d5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:39.455676Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Er6Ni2P12.json",
+      "material://Co16Er6Ni2P12"
+    ]
+  }
+}

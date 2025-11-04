@@ -1,0 +1,137 @@
+{
+  "id": "Cu2Ga2La1Ti1",
+  "uri": "material://Cu2Ga2La1Ti1",
+  "composition": {
+    "formula": "Cu2Ga2La1Ti1",
+    "elements": {
+      "Cu": 2,
+      "Ga": 2,
+      "La": 1,
+      "Ti": 1
+    },
+    "reduced_formula": "LaTi(GaCu)2",
+    "element_list": [
+      "Ti",
+      "Cu",
+      "Ga",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50.00 g\nGa: 25.00 g\nLa: 12.50 g\nTi: 12.50 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper metal sheets or rods from a hardware store.\nGa: Gallium from specialty chemical suppliers or online.\nLa: Lanthanum oxide from chemical supply companies.\nTi: Titanium powder from metal suppliers or online distributors.",
+      "steps": [
+        "Cu: Copper metal sheets or rods from a hardware store.",
+        "Ga: Gallium from specialty chemical suppliers or online.",
+        "La: Lanthanum oxide from chemical supply companies.",
+        "Ti: Titanium powder from metal suppliers or online distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 50.00 g of copper.",
+        "2. Measure 25.00 g of gallium.",
+        "3. Measure 12.50 g of lanthanum oxide.",
+        "4. Measure 12.50 g of titanium powder.",
+        "5. Place all measured materials in a clean, dry mixing bowl.",
+        "6. Use a spatula to mix the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Measure 50.00 g of copper.\n2. Measure 25.00 g of gallium.\n3. Measure 12.50 g of lanthanum oxide.\n4. Measure 12.50 g of titanium powder.\n5. Place all measured materials in a clean, dry mixing bowl.\n6. Use a spatula to mix the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible.\n2. Place the crucible in a furnace.\n3. Heat to 800°C at a rate of 10°C/min.\n4. Maintain the temperature for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves.",
+        "3. Allow the alloy to cool in ambient conditions for an additional 1 hour."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally.\n2. Once cooled, remove the crucible carefully using heat-resistant gloves.\n3. Allow the alloy to cool in ambient conditions for an additional 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth out the edges and surfaces.",
+        "3. Optionally, apply a protective sealant to enhance the surface finish and prevent oxidation.",
+        "4. Allow the sample to cure for 24 hours if a sealant is used."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Use a file or sandpaper to smooth out the edges and surfaces.\n3. Optionally, apply a protective sealant to enhance the surface finish and prevent oxidation.\n4. Allow the sample to cure for 24 hours if a sealant is used."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1113317.0,
+      "density": 67612.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -29583.0,
+      "formation_energy_per_atom": -4161.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -8.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6b63350020",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:36.261594Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ga2La1Ti1.json",
+      "material://Cu2Ga2La1Ti1"
+    ]
+  }
+}

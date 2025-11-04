@@ -1,0 +1,110 @@
+{
+  "id": "As2Si1V13",
+  "uri": "material://As2Si1V13",
+  "composition": {
+    "formula": "As2Si1V13",
+    "elements": {
+      "As": 2,
+      "Si": 1,
+      "V": 13
+    },
+    "reduced_formula": "V13SiAs2",
+    "element_list": [
+      "Si",
+      "V",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 320 g, P: 240 g, Pr: 80 g, Sm: 40 g, V: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal supply store or online metal suppliers; P: Chemical supply store; Pr: Rare earth materials supplier; Sm: Rare earth materials supplier; V: Chemical supply store",
+      "steps": [
+        "Co: Metal supply store or online metal suppliers; P: Chemical supply store; Pr: Rare earth materials supplier; Sm: Rare earth materials supplier; V: Chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately using a digital scale.",
+        "2. In a clean, dry container, combine Co, P, Pr, Sm, and V in the specified amounts.",
+        "3. Mix thoroughly using a spatula or mechanical mixer to ensure uniform distribution of the components."
+      ],
+      "raw_text": "1. Weigh all materials accurately using a digital scale. \n 2. In a clean, dry container, combine Co, P, Pr, Sm, and V in the specified amounts. \n 3. Mix thoroughly using a spatula or mechanical mixer to ensure uniform distribution of the components."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a suitable furnace or high-temperature oven to 1,200 °C (2,192 °F).",
+        "2. Place the mixed materials in a crucible made of a compatible material (e.g., alumina) for high-temperature applications.",
+        "3. Heat for 4 hours to ensure complete melting and reaction of components."
+      ],
+      "raw_text": "1. Preheat a suitable furnace or high-temperature oven to 1,200 °C (2,192 °F). \n 2. Place the mixed materials in a crucible made of a compatible material (e.g., alumina) for high-temperature applications. \n 3. Heat for 4 hours to ensure complete melting and reaction of components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool gradually to room temperature (approximately 25 °C).",
+        "2. Once the furnace reaches 500 °C, you may open it to expedite cooling but avoid rapid temperature changes to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool gradually to room temperature (approximately 25 °C). \n 2. Once the furnace reaches 500 °C, you may open it to expedite cooling but avoid rapid temperature changes to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for any surface imperfections or irregularities.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the material with a suitable coating or resin to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for any surface imperfections or irregularities. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the material with a suitable coating or resin to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2131889.0,
+      "density": 65441.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1383755.0,
+      "formation_energy_per_atom": -3463.0,
+      "decomposition_energy_per_atom": -94.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -93.0,
+      "decomposition_energy_mp_oqmd": -84.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bbb6720cd9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.712028Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2Si1V13.json",
+      "material://As2Si1V13"
+    ]
+  }
+}

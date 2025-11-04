@@ -1,0 +1,133 @@
+{
+  "id": "La9Li1Pb2Si4",
+  "uri": "material://La9Li1Pb2Si4",
+  "composition": {
+    "formula": "La9Li1Pb2Si4",
+    "elements": {
+      "La": 9,
+      "Li": 1,
+      "Pb": 2,
+      "Si": 4
+    },
+    "reduced_formula": "LiLa9(Si2Pb)2",
+    "element_list": [
+      "Li",
+      "Si",
+      "La",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 123.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 6.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 221.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 138.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La:  123.00 g \n Li:  6.50 g \n Pb:  221.00 g \n Si:  138.00 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum) - Available from chemical suppliers like Sigma-Aldrich or online marketplaces. \n Li (Lithium) - Obtain from chemical supply companies or online retailers. \n Pb (Lead) - Purchase from metal suppliers or hardware stores. \n Si (Silicon) - Obtain from material suppliers or electronics stores.",
+      "steps": [
+        "La (Lanthanum) - Available from chemical suppliers like Sigma-Aldrich or online marketplaces.",
+        "Li (Lithium) - Obtain from chemical supply companies or online retailers.",
+        "Pb (Lead) - Purchase from metal suppliers or hardware stores.",
+        "Si (Silicon) - Obtain from material suppliers or electronics stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of La, Li, Pb, and Si using an analytical balance.",
+        "2. In a clean, dry container, combine La, Li, Pb, and Si in the specified ratios.",
+        "3. Use a mortar and pestle to thoroughly mix the powders to achieve a uniform blend.",
+        "4. Transfer the mixture to a ceramic crucible or suitable melting container."
+      ],
+      "raw_text": "1. Weigh the required amounts of La, Li, Pb, and Si using an analytical balance. \n 2. In a clean, dry container, combine La, Li, Pb, and Si in the specified ratios. \n 3. Use a mortar and pestle to thoroughly mix the powders to achieve a uniform blend. \n 4. Transfer the mixture to a ceramic crucible or suitable melting container."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 1200°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 1200°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 800°C naturally.",
+        "2. Once at 800°C, remove the crucible with heat-resistant gloves.",
+        "3. Allow the crucible to cool to room temperature in a safe, ventilated area."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 800°C naturally. \n 2. Once at 800°C, remove the crucible with heat-resistant gloves. \n 3. Allow the crucible to cool to room temperature in a safe, ventilated area."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120-400) to smooth any rough edges on the sample.",
+        "3. Optionally, seal the surface with a clear epoxy resin to protect the material and enhance finish.",
+        "4. Allow the resin to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120-400) to smooth any rough edges on the sample. \n 3. Optionally, seal the surface with a clear epoxy resin to protect the material and enhance finish. \n 4. Allow the resin to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4785392.0,
+      "density": 61899.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/m",
+      "space_group_number": 87,
+      "point_group": "4/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -850006.0,
+      "formation_energy_per_atom": -5963.0,
+      "decomposition_energy_per_atom": -272.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -36.0,
+      "decomposition_energy_mp": -272.0,
+      "decomposition_energy_mp_oqmd": -139.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "33348f170b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:22.672607Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La9Li1Pb2Si4.json",
+      "material://La9Li1Pb2Si4"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "O24Sb2Sc1Se8V1",
+  "uri": "material://O24Sb2Sc1Se8V1",
+  "composition": {
+    "formula": "O24Sb2Sc1Se8V1",
+    "elements": {
+      "O": 24,
+      "Sb": 2,
+      "Sc": 1,
+      "Se": 8,
+      "V": 1
+    },
+    "reduced_formula": "ScVSb2(SeO3)8",
+    "element_list": [
+      "O",
+      "Sc",
+      "V",
+      "Se",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 48.0 g, Sb: 19.0 g, Sc: 8.0 g, Se: 64.0 g, V: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "O: Purchase from chemical supply companies (e.g., Sigma-Aldrich); Sb: Supplier or online marketplace; Sc: Chemical supplier; Se: Chemical distributor; V: Chemical store",
+      "steps": [
+        "O: Purchase from chemical supply companies (e.g., Sigma-Aldrich); Sb: Supplier or online marketplace; Sc: Chemical supplier; Se: Chemical distributor; V: Chemical store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine O, Sb, Sc, Se, and V.",
+        "3. Use a mechanical stirrer to mix the powders uniformly for 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine O, Sb, Sc, Se, and V. \n 3. Use a mechanical stirrer to mix the powders uniformly for 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Heat in a furnace to 900°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours for complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Heat in a furnace to 900°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours for complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool gradually to room temperature (approximately 25°C).",
+        "2. This process should take about 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool gradually to room temperature (approximately 25°C). \n 2. This process should take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth the surfaces.",
+        "3. Optionally, seal the material with a clear epoxy for added durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth the surfaces. \n 3. Optionally, seal the material with a clear epoxy for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5767255.0,
+      "density": 39016.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2295963.0,
+      "formation_energy_per_atom": -16445.0,
+      "decomposition_energy_per_atom": -237.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -244.0,
+      "decomposition_energy_mp_oqmd": -241.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "98ec268f1e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.961461Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O24Sb2Sc1Se8V1.json",
+      "material://O24Sb2Sc1Se8V1"
+    ]
+  }
+}

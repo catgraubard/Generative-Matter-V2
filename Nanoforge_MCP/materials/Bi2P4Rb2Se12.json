@@ -1,0 +1,110 @@
+{
+  "id": "Bi2P4Rb2Se12",
+  "uri": "material://Bi2P4Rb2Se12",
+  "composition": {
+    "formula": "Bi2P4Rb2Se12",
+    "elements": {
+      "Bi": 2,
+      "P": 4,
+      "Rb": 2,
+      "Se": 12
+    },
+    "reduced_formula": "RbBi(PSe3)2",
+    "element_list": [
+      "P",
+      "Se",
+      "Rb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi): 10.00 g \n Phosphorus (P): 4.00 g \n Rubidium (Rb): 4.00 g \n Selenium (Se): 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich). \n Phosphorus: Chemical supply stores (white phosphorus must be handled with caution). \n Rubidium: Specialty chemical suppliers or online sources. \n Selenium: Chemical supply stores or online suppliers.",
+      "steps": [
+        "Bismuth: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich).",
+        "Phosphorus: Chemical supply stores (white phosphorus must be handled with caution).",
+        "Rubidium: Specialty chemical suppliers or online sources.",
+        "Selenium: Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precise balance.",
+        "2. In a fume hood, combine Bismuth, Phosphorus, Rubidium, and Selenium in a clean, dry glass container.",
+        "3. Mix thoroughly using a glass rod to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precise balance. \n 2. In a fume hood, combine Bismuth, Phosphorus, Rubidium, and Selenium in a clean, dry glass container. \n 3. Mix thoroughly using a glass rod to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth the edges and surfaces of the sample.",
+        "3. If desired, seal the sample with a clear protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth the edges and surfaces of the sample. \n 3. If desired, seal the sample with a clear protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 6222874.0,
+      "density": 44304.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -870148.0,
+      "formation_energy_per_atom": -6835.0,
+      "decomposition_energy_per_atom": -219.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -128.0,
+      "decomposition_energy_mp": -219.0,
+      "decomposition_energy_mp_oqmd": -217.0
+    },
+    "electronic": {
+      "bandgap": 1.8036,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f24c3157b6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.265776Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2P4Rb2Se12.json",
+      "material://Bi2P4Rb2Se12"
+    ]
+  }
+}

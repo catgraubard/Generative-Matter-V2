@@ -1,0 +1,112 @@
+{
+  "id": "K5Rb1Si2Te6",
+  "uri": "material://K5Rb1Si2Te6",
+  "composition": {
+    "formula": "K5Rb1Si2Te6",
+    "elements": {
+      "K": 5,
+      "Rb": 1,
+      "Si": 2,
+      "Te": 6
+    },
+    "reduced_formula": "K5Rb(SiTe3)2",
+    "element_list": [
+      "Si",
+      "K",
+      "Rb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "K2CO3: 23.0 g \n RbCl: 6.0 g \n SiO2: 38.0 g \n TeO2: 117.0 g"
+    },
+    "sourcing": {
+      "instructions": "K2CO3: Chemical supply stores or online retailers (e.g., Sigma-Aldrich) \n RbCl: Chemical supply stores or online (e.g., Alfa Aesar) \n SiO2: Local hardware stores (as silica sand) or chemical suppliers \n TeO2: Specialty chemical suppliers (e.g., Inorganic Ventures)",
+      "steps": [
+        "K2CO3: Chemical supply stores or online retailers (e.g., Sigma-Aldrich)",
+        "RbCl: Chemical supply stores or online (e.g., Alfa Aesar)",
+        "SiO2: Local hardware stores (as silica sand) or chemical suppliers",
+        "TeO2: Specialty chemical suppliers (e.g., Inorganic Ventures)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients separately using an analytical balance.",
+        "2. In a clean mortar and pestle, combine K2CO3 and RbCl, grinding until homogeneous.",
+        "3. Add SiO2 to the mixture and continue grinding for an additional 5 minutes.",
+        "4. Gradually add TeO2 while grinding, ensuring a uniform mixture is achieved.",
+        "5. Transfer the mixed powder to a clean, dry container for the next step."
+      ],
+      "raw_text": "1. Weigh all ingredients separately using an analytical balance. \n 2. In a clean mortar and pestle, combine K2CO3 and RbCl, grinding until homogeneous. \n 3. Add SiO2 to the mixture and continue grinding for an additional 5 minutes. \n 4. Gradually add TeO2 while grinding, ensuring a uniform mixture is achieved. \n 5. Transfer the mixed powder to a clean, dry container for the next step."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a programmable muffle furnace to 900°C.",
+        "2. Place the powdered mixture into a crucible suitable for high temperatures.",
+        "3. Bake the sample for 6 hours at 900°C to achieve full reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a programmable muffle furnace to 900°C. \n 2. Place the powdered mixture into a crucible suitable for high temperatures. \n 3. Bake the sample for 6 hours at 900°C to achieve full reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After 6 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-5 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 6 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-5 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solidified sample for any cracks or imperfections.",
+        "2. If necessary, use a diamond file or sandpaper to smooth any rough edges.",
+        "3. Seal the surface with a clear epoxy resin to protect the material, applying it in thin layers and allowing each layer to cure for 24 hours.",
+        "4. Final inspection for quality and uniformity before use."
+      ],
+      "raw_text": "1. Inspect the solidified sample for any cracks or imperfections. \n 2. If necessary, use a diamond file or sandpaper to smooth any rough edges. \n 3. Seal the surface with a clear epoxy resin to protect the material, applying it in thin layers and allowing each layer to cure for 24 hours. \n 4. Final inspection for quality and uniformity before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 5498854.0,
+      "density": 333.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -50229.0,
+      "formation_energy_per_atom": -999.0,
+      "decomposition_energy_per_atom": -177.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -169.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 1.7261,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1c67df237b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:52.911650Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K5Rb1Si2Te6.json",
+      "material://K5Rb1Si2Te6"
+    ]
+  }
+}

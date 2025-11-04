@@ -1,0 +1,117 @@
+{
+  "id": "P7Ru12Sr1Ti1",
+  "uri": "material://P7Ru12Sr1Ti1",
+  "composition": {
+    "formula": "P7Ru12Sr1Ti1",
+    "elements": {
+      "P": 7,
+      "Ru": 12,
+      "Sr": 1,
+      "Ti": 1
+    },
+    "reduced_formula": "SrTiP7Ru12",
+    "element_list": [
+      "P",
+      "Ti",
+      "Sr",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 7.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 7 g, Ru: 12 g, Sr: 1 g, Ti: 1 g"
+    },
+    "sourcing": {
+      "instructions": "P: Purchase from chemical suppliers or online chemical retailers. \n Ru: Obtain from specialty metal suppliers or online marketplaces. \n Sr: Available from chemical suppliers or online. \n Ti: Purchase from metal suppliers or online chemical retailers.",
+      "steps": [
+        "P: Purchase from chemical suppliers or online chemical retailers.",
+        "Ru: Obtain from specialty metal suppliers or online marketplaces.",
+        "Sr: Available from chemical suppliers or online.",
+        "Ti: Purchase from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using an analytical balance.",
+        "2. In a clean glass container, combine the weighed amounts of P, Ru, Sr, and Ti.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using an analytical balance. \n 2. In a clean glass container, combine the weighed amounts of P, Ru, Sr, and Ti. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for cracks or flaws; if necessary, grind the edges to achieve a uniform shape.",
+        "3. Optionally, apply a sealant for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for cracks or flaws; if necessary, grind the edges to achieve a uniform shape. \n 3. Optionally, apply a sealant for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 3025526.0,
+      "density": 85902.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1718266.0,
+      "formation_energy_per_atom": -6217.0,
+      "decomposition_energy_per_atom": -215.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -215.0,
+      "decomposition_energy_mp_oqmd": -196.0
+    },
+    "electronic": {
+      "bandgap": 0.0068,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "128773787b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:39.841315Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/P7Ru12Sr1Ti1.json",
+      "material://P7Ru12Sr1Ti1"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "Na1Nd2Pr3Se8",
+  "uri": "material://Na1Nd2Pr3Se8",
+  "composition": {
+    "formula": "Na1Nd2Pr3Se8",
+    "elements": {
+      "Na": 1,
+      "Nd": 2,
+      "Pr": 3,
+      "Se": 8
+    },
+    "reduced_formula": "NaPr3(NdSe4)2",
+    "element_list": [
+      "Na",
+      "Se",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 192.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 138.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 44.3,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 176.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O:  192 g (Oxygen source, e.g., sodium peroxide) \n Sb:  138.4 g (Antimony, e.g., antimony trioxide) \n Sc:  44.3 g (Scandium, e.g., scandium oxide) \n Se:  176 g (Selenium, e.g., selenium powder)"
+    },
+    "sourcing": {
+      "instructions": "O: Available at chemical supply stores or online (e.g., Sigma-Aldrich) \n Sb: Available from specialized metal suppliers or online (e.g., Alfa Aesar) \n Sc: Can be purchased from rare earth material suppliers or online \n Se: Available at chemical supply stores or online (e.g., Fisher Scientific)",
+      "steps": [
+        "O: Available at chemical supply stores or online (e.g., Sigma-Aldrich)",
+        "Sb: Available from specialized metal suppliers or online (e.g., Alfa Aesar)",
+        "Sc: Can be purchased from rare earth material suppliers or online",
+        "Se: Available at chemical supply stores or online (e.g., Fisher Scientific)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. In a clean, dry mixing container, combine 192 g of sodium peroxide, 138.4 g of antimony trioxide, 44.3 g of scandium oxide, and 176 g of selenium powder.",
+        "3. Mix thoroughly using a spatula or mechanical mixer until a homogenous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance. \n 2. In a clean, dry mixing container, combine 192 g of sodium peroxide, 138.4 g of antimony trioxide, 44.3 g of scandium oxide, and 176 g of selenium powder. \n 3. Mix thoroughly using a spatula or mechanical mixer until a homogenous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible made of high-temperature resistant material (e.g., alumina).",
+        "2. Place the crucible in a furnace and heat to 800 °C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible made of high-temperature resistant material (e.g., alumina). \n 2. Place the crucible in a furnace and heat to 800 °C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace and allow it to cool down gradually to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the crucible."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace and allow it to cool down gradually to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solidified material from the crucible using a chisel or appropriate tool.",
+        "3. If necessary, grind the solid into a finer powder using a mortar and pestle for further applications.",
+        "4. Optionally, seal the material in a vacuum bag or container to preserve its properties."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solidified material from the crucible using a chisel or appropriate tool. \n 3. If necessary, grind the solid into a finer powder using a mortar and pestle for further applications. \n 4. Optionally, seal the material in a vacuum bag or container to preserve its properties."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3633837.0,
+      "density": 62416.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -826086.0,
+      "formation_energy_per_atom": -21028.0,
+      "decomposition_energy_per_atom": -79.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -77.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 1.6121,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b1931a1f1e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.044945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na1Nd2Pr3Se8.json",
+      "material://Na1Nd2Pr3Se8"
+    ]
+  }
+}

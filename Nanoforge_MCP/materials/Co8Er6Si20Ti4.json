@@ -1,0 +1,113 @@
+{
+  "id": "Co8Er6Si20Ti4",
+  "uri": "material://Co8Er6Si20Ti4",
+  "composition": {
+    "formula": "Co8Er6Si20Ti4",
+    "elements": {
+      "Co": 8,
+      "Er": 6,
+      "Si": 20,
+      "Ti": 4
+    },
+    "reduced_formula": "Er3Ti2(Co2Si5)2",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Co",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 32 g, Er: 24 g, Si: 96 g, Ti: 16 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Supplier of cobalt metal or cobalt oxide, Er: Rare earth metal suppliers, Si: Silicon suppliers, Ti: Titanium suppliers",
+      "steps": [
+        "Co: Supplier of cobalt metal or cobalt oxide, Er: Rare earth metal suppliers, Si: Silicon suppliers, Ti: Titanium suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and prepare each material according to the specified amounts.",
+        "2. In a clean, dry mixing container, combine cobalt, erbium, silicon, and titanium powders thoroughly using a spatula or mechanical mixer for 10 minutes to ensure homogeneous distribution."
+      ],
+      "raw_text": "1. Weigh and prepare each material according to the specified amounts. \n 2. In a clean, dry mixing container, combine cobalt, erbium, silicon, and titanium powders thoroughly using a spatula or mechanical mixer for 10 minutes to ensure homogeneous distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Place the mixed powder in a ceramic or graphite crucible and insert it into the furnace.",
+        "3. Heat the sample gradually to prevent thermal shock, increasing temperature by 50°C every 30 minutes until reaching 1200°C.",
+        "4. Maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Place the mixed powder in a ceramic or graphite crucible and insert it into the furnace. \n 3. Heat the sample gradually to prevent thermal shock, increasing temperature by 50°C every 30 minutes until reaching 1200°C. \n 4. Maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating phase, turn off the furnace and allow the sample to cool down to room temperature naturally.",
+        "2. This process may take 6-8 hours; ensure no drafts or rapid cooling occurs."
+      ],
+      "raw_text": "1. After the heating phase, turn off the furnace and allow the sample to cool down to room temperature naturally. \n 2. This process may take 6-8 hours; ensure no drafts or rapid cooling occurs."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If needed, sand the surfaces using fine-grit sandpaper (400 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a sealant or coating to enhance surface properties."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If needed, sand the surfaces using fine-grit sandpaper (400 grit) to achieve a smooth finish. \n 4. Optionally, apply a sealant or coating to enhance surface properties."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5769001.0,
+      "density": 64136.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mbm",
+      "space_group_number": 127,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -251445.0,
+      "formation_energy_per_atom": -7127.0,
+      "decomposition_energy_per_atom": -107.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -102.0,
+      "decomposition_energy_mp_oqmd": -9.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "33d41d5797",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:23.442064Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co8Er6Si20Ti4.json",
+      "material://Co8Er6Si20Ti4"
+    ]
+  }
+}

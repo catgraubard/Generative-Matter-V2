@@ -1,0 +1,110 @@
+{
+  "id": "Cs4Fe2K2O8",
+  "uri": "material://Cs4Fe2K2O8",
+  "composition": {
+    "formula": "Cs4Fe2K2O8",
+    "elements": {
+      "Cs": 4,
+      "Fe": 2,
+      "K": 2,
+      "O": 8
+    },
+    "reduced_formula": "Cs2KFeO4",
+    "element_list": [
+      "O",
+      "K",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cesium Carbonate (Cs2CO3): 20.0 g  \n - Iron(III) Oxide (Fe2O3): 15.0 g  \n - Potassium Carbonate (K2CO3): 10.0 g  \n - Oxygen (O2): 0.0 g (assumed from the environment)"
+    },
+    "sourcing": {
+      "instructions": "- Cesium Carbonate: Obtain from chemical suppliers or online platforms specializing in laboratory chemicals.  \n - Iron(III) Oxide: Available at chemical supply stores, art supply stores, or online.  \n - Potassium Carbonate: Typically found in chemical supply stores or online.",
+      "steps": [
+        "- Cesium Carbonate: Obtain from chemical suppliers or online platforms specializing in laboratory chemicals.",
+        "- Iron(III) Oxide: Available at chemical supply stores, art supply stores, or online.",
+        "- Potassium Carbonate: Typically found in chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing bowl, combine 20.0 g of Cesium Carbonate and 15.0 g of Iron(III) Oxide.",
+        "2. Add 10.0 g of Potassium Carbonate to the mixture.",
+        "3. Use a mortar and pestle to grind the mixture until a fine, homogeneous powder is achieved.",
+        "4. Transfer the powdered mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. In a clean, dry mixing bowl, combine 20.0 g of Cesium Carbonate and 15.0 g of Iron(III) Oxide. \n 2. Add 10.0 g of Potassium Carbonate to the mixture. \n 3. Use a mortar and pestle to grind the mixture until a fine, homogeneous powder is achieved.  \n 4. Transfer the powdered mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace or kiln to 800°C (1472°F).",
+        "2. Place the ceramic crucible with the mixed powders inside the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of Cs4Fe2K2O8."
+      ],
+      "raw_text": "1. Preheat the furnace or kiln to 800°C (1472°F).  \n 2. Place the ceramic crucible with the mixed powders inside the furnace.  \n 3. Heat for 4 hours to ensure complete reaction and formation of Cs4Fe2K2O8."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).  \n 2. Do not open the furnace door until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the ceramic crucible from the furnace.",
+        "2. Extract the solid sample from the crucible using a spatula.",
+        "3. If needed, use sandpaper to smooth the edges and surfaces of the solid sample.",
+        "4. Optionally, apply a sealant to protect the surface if the material is to be exposed to moisture or air."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the ceramic crucible from the furnace.  \n 2. Extract the solid sample from the crucible using a spatula.  \n 3. If needed, use sandpaper to smooth the edges and surfaces of the solid sample.  \n 4. Optionally, apply a sealant to protect the surface if the material is to be exposed to moisture or air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3619436.0,
+      "density": 38974.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -868161.0,
+      "formation_energy_per_atom": -15306.0,
+      "decomposition_energy_per_atom": -265.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -27.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 0.6607,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "17722d9b20",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:46.342518Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Fe2K2O8.json",
+      "material://Cs4Fe2K2O8"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Nd6P2Pr4Sb6",
+  "uri": "material://Nd6P2Pr4Sb6",
+  "composition": {
+    "formula": "Nd6P2Pr4Sb6",
+    "elements": {
+      "Nd": 6,
+      "P": 2,
+      "Pr": 4,
+      "Sb": 6
+    },
+    "reduced_formula": "Pr2Nd3Sb3P",
+    "element_list": [
+      "P",
+      "Sb",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6 g, Co: 6 g, Ni: 8 g, Tb: 3 g, Y: 1 g (Total: 24 g)"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical suppliers (e.g., Sigma-Aldrich), Co: Metal suppliers, Ni: Metal suppliers, Tb: Rare earth suppliers, Y: Rare earth suppliers",
+      "steps": [
+        "B: Chemical suppliers (e.g., Sigma-Aldrich), Co: Metal suppliers, Ni: Metal suppliers, Tb: Rare earth suppliers, Y: Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry container, combine the weighed amounts of B, Co, Ni, Tb, and Y.",
+        "3. Use a mortar and pestle to blend the powder mixture thoroughly until uniform."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry container, combine the weighed amounts of B, Co, Ni, Tb, and Y. \n 3. Use a mortar and pestle to blend the powder mixture thoroughly until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the blended powder to a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the blended powder to a crucible. \n 2. Heat in a furnace to 1200°C for 2 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approx. 2-3 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approx. 2-3 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper (320 grit) to smooth the surface.",
+        "3. Optionally, seal with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper (320 grit) to smooth the surface. \n 3. Optionally, seal with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 5228517.0,
+      "density": 70556.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mcm",
+      "space_group_number": 193,
+      "point_group": "6/mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1056401.0,
+      "formation_energy_per_atom": -12393.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -68.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dd7f275b6d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.114222Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd6P2Pr4Sb6.json",
+      "material://Nd6P2Pr4Sb6"
+    ]
+  }
+}

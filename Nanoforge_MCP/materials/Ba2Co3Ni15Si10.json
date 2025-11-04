@@ -1,0 +1,126 @@
+{
+  "id": "Ba2Co3Ni15Si10",
+  "uri": "material://Ba2Co3Ni15Si10",
+  "composition": {
+    "formula": "Ba2Co3Ni15Si10",
+    "elements": {
+      "Ba": 2,
+      "Co": 3,
+      "Ni": 15,
+      "Si": 10
+    },
+    "reduced_formula": "Ba2Co3(Si2Ni3)5",
+    "element_list": [
+      "Si",
+      "Co",
+      "Ni",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 45.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "BaCO₃: 20 g \n Co: 15 g \n Ni: 45 g \n SiO₂: 30 g \n Total: 110 g"
+    },
+    "sourcing": {
+      "instructions": "BaCO₃: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Co: Metal supply stores or online sources (e.g., OnlineMetals) \n Ni: Metal supply stores or online sources (e.g., OnlineMetals) \n SiO₂: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+      "steps": [
+        "BaCO₃: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Co: Metal supply stores or online sources (e.g., OnlineMetals)",
+        "Ni: Metal supply stores or online sources (e.g., OnlineMetals)",
+        "SiO₂: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an accurate scale.",
+        "2. In a clean, dry container, add 20 g of BaCO₃.",
+        "3. Add 15 g of Co.",
+        "4. Add 45 g of Ni.",
+        "5. Add 30 g of SiO₂.",
+        "6. Mix thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using an accurate scale.\n 2. In a clean, dry container, add 20 g of BaCO₃.\n 3. Add 15 g of Co.\n 4. Add 45 g of Ni.\n 5. Add 30 g of SiO₂.\n 6. Mix thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible.\n 2. Place the crucible in a furnace.\n 3. Heat to 1200°C at a rate of 10°C/min.\n 4. Maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature.\n 2. This process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any rough edges.",
+        "3. If necessary, sand down rough areas using fine-grit sandpaper.",
+        "4. Optionally, seal the surface with a suitable sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible.\n 2. Inspect for any rough edges.\n 3. If necessary, sand down rough areas using fine-grit sandpaper.\n 4. Optionally, seal the surface with a suitable sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4230649.0,
+      "density": 63299.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1818066.0,
+      "formation_energy_per_atom": -523.0,
+      "decomposition_energy_per_atom": -77.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -93.0,
+      "decomposition_energy_mp": -282.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "12b73d07cb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:40.197923Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Co3Ni15Si10.json",
+      "material://Ba2Co3Ni15Si10"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "Cs2Mn3Rb2Te8Zn3",
+  "uri": "material://Cs2Mn3Rb2Te8Zn3",
+  "composition": {
+    "formula": "Cs2Mn3Rb2Te8Zn3",
+    "elements": {
+      "Cs": 2,
+      "Mn": 3,
+      "Rb": 2,
+      "Te": 8,
+      "Zn": 3
+    },
+    "reduced_formula": "Cs2Rb2Mn3Zn3Te8",
+    "element_list": [
+      "Mn",
+      "Zn",
+      "Rb",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 480.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 480 g (Cobalt powder) \n Li: 30 g (Lithium carbonate) \n Nb: 180 g (Niobium powder) \n P: 120 g (Phosphorus pentoxide) \n Tm: 10 g (Thulium oxide)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt powder: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Lithium carbonate: Chemical suppliers or online (e.g., Alfa Aesar) \n Niobium powder: Specialty metal suppliers \n Phosphorus pentoxide: Chemical supply stores \n Thulium oxide: Rare earth suppliers or online (e.g., American Elements)",
+      "steps": [
+        "Cobalt powder: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Lithium carbonate: Chemical suppliers or online (e.g., Alfa Aesar)",
+        "Niobium powder: Specialty metal suppliers",
+        "Phosphorus pentoxide: Chemical supply stores",
+        "Thulium oxide: Rare earth suppliers or online (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an analytical balance for precise quantities.",
+        "2. In a clean, dry mixing container, add Co, Li, Nb, P, and Tm powders.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogenous blend is achieved.",
+        "4. Transfer the mixture into a ball mill, and mill for 2 hours to ensure uniform particle size and distribution."
+      ],
+      "raw_text": "1. Measure each ingredient using an analytical balance for precise quantities. \n 2. In a clean, dry mixing container, add Co, Li, Nb, P, and Tm powders. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogenous blend is achieved. \n 4. Transfer the mixture into a ball mill, and mill for 2 hours to ensure uniform particle size and distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the milled powder mixture into a crucible (preferably alumina).",
+        "3. Heat the sample at 1200°C for 4 hours to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the milled powder mixture into a crucible (preferably alumina). \n 3. Heat the sample at 1200°C for 4 hours to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature gradually (approximately 6-8 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature gradually (approximately 6-8 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use sandpaper (start with 120 grit, then progress to 400 grit) to smooth the surface of the sample.",
+        "3. If desired, apply a thin layer of sealant to enhance durability.",
+        "4. Allow the sealant to cure as per manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use sandpaper (start with 120 grit, then progress to 400 grit) to smooth the surface of the sample. \n 3. If desired, apply a thin layer of sealant to enhance durability. \n 4. Allow the sealant to cure as per manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 6396446.0,
+      "density": 47211.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -745565.0,
+      "formation_energy_per_atom": -7996.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -116.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.6424,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e38d5742ae",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.598817Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Mn3Rb2Te8Zn3.json",
+      "material://Cs2Mn3Rb2Te8Zn3"
+    ]
+  }
+}

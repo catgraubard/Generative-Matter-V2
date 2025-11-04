@@ -1,0 +1,141 @@
+{
+  "id": "Nd2Ni4P4Pa1Tm1",
+  "uri": "material://Nd2Ni4P4Pa1Tm1",
+  "composition": {
+    "formula": "Nd2Ni4P4Pa1Tm1",
+    "elements": {
+      "Nd": 2,
+      "Ni": 4,
+      "P": 4,
+      "Pa": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "Nd2TmPa(NiP)4",
+    "element_list": [
+      "P",
+      "Ni",
+      "Nd",
+      "Tm",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 15.0 g \n Ni: 32.0 g \n P: 8.0 g \n Pa: 2.0 g \n Tm: 2.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium): Available from chemical supply companies or online retailers like Alfa Aesar. \n Ni (Nickel): Available at hardware stores or metal suppliers. \n P (Phosphorus): Can be obtained from chemical supply stores. \n Pa (Protactinium): Rare, consult specialized suppliers or research institutions. \n Tm (Thulium): Available through chemical supply companies.",
+      "steps": [
+        "Nd (Neodymium): Available from chemical supply companies or online retailers like Alfa Aesar.",
+        "Ni (Nickel): Available at hardware stores or metal suppliers.",
+        "P (Phosphorus): Can be obtained from chemical supply stores.",
+        "Pa (Protactinium): Rare, consult specialized suppliers or research institutions.",
+        "Tm (Thulium): Available through chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Nd, Ni, P, Pa, and Tm.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure even particle size distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Nd, Ni, P, Pa, and Tm. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure even particle size distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the crucible gradually to 1200°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 4 hours to allow for complete reaction and sintering."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the crucible gradually to 1200°C at a rate of 10°C/min. \n 4. Maintain the temperature for 4 hours to allow for complete reaction and sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the muffle furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has completely cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. Turn off the muffle furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has completely cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth the surfaces to the desired finish.",
+        "3. Optionally, seal the sample with a protective coating to prevent oxidation.",
+        "4. Label and store the final product in a suitable environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth the surfaces to the desired finish. \n 3. Optionally, seal the sample with a protective coating to prevent oxidation. \n 4. Label and store the final product in a suitable environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2105192.0,
+      "density": 82595.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -822872.0,
+      "formation_energy_per_atom": -11656.0,
+      "decomposition_energy_per_atom": -678.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -678.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.0039,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f0b830da17",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.931013Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd2Ni4P4Pa1Tm1.json",
+      "material://Nd2Ni4P4Pa1Tm1"
+    ]
+  }
+}

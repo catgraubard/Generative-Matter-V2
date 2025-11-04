@@ -1,0 +1,139 @@
+{
+  "id": "Cu1Li2Nd8Ni1Si12",
+  "uri": "material://Cu1Li2Nd8Ni1Si12",
+  "composition": {
+    "formula": "Cu1Li2Nd8Ni1Si12",
+    "elements": {
+      "Cu": 1,
+      "Li": 2,
+      "Nd": 8,
+      "Ni": 1,
+      "Si": 12
+    },
+    "reduced_formula": "Li2Nd8CuSi12Ni",
+    "element_list": [
+      "Li",
+      "Si",
+      "Ni",
+      "Cu",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 10 g \n Li: 20 g \n Nd: 80 g \n Ni: 5 g \n Si: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Metal supply stores or online metal distributors. \n Li: Lithium carbonate from chemical suppliers. \n Nd: Neodymium oxide from rare earth suppliers. \n Ni: Nickel powder from metal supply stores. \n Si: Silica sand from construction supply stores.",
+      "steps": [
+        "Cu: Metal supply stores or online metal distributors.",
+        "Li: Lithium carbonate from chemical suppliers.",
+        "Nd: Neodymium oxide from rare earth suppliers.",
+        "Ni: Nickel powder from metal supply stores.",
+        "Si: Silica sand from construction supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, add the weighed amounts of Cu, Li, Nd, Ni, and Si.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for at least 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixture to a suitable mold that can accommodate dimensions of 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, add the weighed amounts of Cu, Li, Nd, Ni, and Si. \n 3. Use a mechanical stirrer to mix the powders thoroughly for at least 10 minutes to ensure homogeneity. \n 4. Transfer the mixture to a suitable mold that can accommodate dimensions of 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the filled mold into the furnace.",
+        "3. Heat the mixture gradually over a period of 2 hours until it reaches the target temperature."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the filled mold into the furnace. \n 3. Heat the mixture gradually over a period of 2 hours until it reaches the target temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This cooling process should take about 6 hours to ensure no thermal shock occurs."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. This cooling process should take about 6 hours to ensure no thermal shock occurs."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid material from the mold.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges on the sample.",
+        "3. If desired, apply a sealant to the surface to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid material from the mold. \n 2. Use a fine-grit sandpaper to smooth out any rough edges on the sample. \n 3. If desired, apply a sealant to the surface to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4896491.0,
+      "density": 55179.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1340338.0,
+      "formation_energy_per_atom": -712.0,
+      "decomposition_energy_per_atom": -598.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -594.0,
+      "decomposition_energy_mp_oqmd": -264.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7a6b5547e2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:55.946289Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Li2Nd8Ni1Si12.json",
+      "material://Cu1Li2Nd8Ni1Si12"
+    ]
+  }
+}

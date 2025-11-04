@@ -1,0 +1,113 @@
+{
+  "id": "B4Er2K6O12",
+  "uri": "material://B4Er2K6O12",
+  "composition": {
+    "formula": "B4Er2K6O12",
+    "elements": {
+      "B": 4,
+      "Er": 2,
+      "K": 6,
+      "O": 12
+    },
+    "reduced_formula": "K3Er(BO3)2",
+    "element_list": [
+      "B",
+      "O",
+      "K",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.5 g, Hg: 9 g, Rb: 4.5 g, Se: 24 g, Sn: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from chemical suppliers (e.g., Sigma-Aldrich). Hg: Obtain from licensed mercury suppliers. Rb: Source from chemical vendors (e.g., American Elements). Se: Acquire from chemical supply companies. Sn: Purchase tin from metal suppliers.",
+      "steps": [
+        "Cs: Purchase from chemical suppliers (e.g., Sigma-Aldrich). Hg: Obtain from licensed mercury suppliers. Rb: Source from chemical vendors (e.g., American Elements). Se: Acquire from chemical supply companies. Sn: Purchase tin from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.5 g of cesium (Cs).",
+        "2. Weigh 9 g of mercury (Hg) and ensure to handle with proper safety measures.",
+        "3. Weigh 4.5 g of rubidium (Rb).",
+        "4. Weigh 24 g of selenium (Se).",
+        "5. Weigh 12 g of tin (Sn).",
+        "6. In a fume hood, combine the weighed ingredients in a clean glass or ceramic container. Stir gently to ensure uniform mixing."
+      ],
+      "raw_text": "1. Weigh out 1.5 g of cesium (Cs). \n 2. Weigh 9 g of mercury (Hg) and ensure to handle with proper safety measures. \n 3. Weigh 4.5 g of rubidium (Rb). \n 4. Weigh 24 g of selenium (Se). \n 5. Weigh 12 g of tin (Sn). \n 6. In a fume hood, combine the weighed ingredients in a clean glass or ceramic container. Stir gently to ensure uniform mixing."
+    },
+    "heating": {
+      "temperature_celsius": 500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed ingredients to a high-temperature furnace.",
+        "2. Heat to 500°C for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a high-temperature furnace. \n 2. Heat to 500°C for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool gradually to room temperature (about 2 hours) inside the furnace to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool gradually to room temperature (about 2 hours) inside the furnace to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the furnace.",
+        "2. If necessary, use sandpaper to smooth the surface to desired finish.",
+        "3. Seal the sample with a clear epoxy resin to enhance durability and prevent oxidation. Allow to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the furnace. \n 2. If necessary, use sandpaper to smooth the surface to desired finish. \n 3. Seal the sample with a clear epoxy resin to enhance durability and prevent oxidation. Allow to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3567344.0,
+      "density": 37441.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnnm",
+      "space_group_number": 58,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1703635.0,
+      "formation_energy_per_atom": -2853.0,
+      "decomposition_energy_per_atom": -385.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -367.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -367.0
+    },
+    "electronic": {
+      "bandgap": 3.219,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dbbb9bff74",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.473398Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Er2K6O12.json",
+      "material://B4Er2K6O12"
+    ]
+  }
+}

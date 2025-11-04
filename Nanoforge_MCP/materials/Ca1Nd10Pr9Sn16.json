@@ -1,0 +1,129 @@
+{
+  "id": "Ca1Nd10Pr9Sn16",
+  "uri": "material://Ca1Nd10Pr9Sn16",
+  "composition": {
+    "formula": "Ca1Nd10Pr9Sn16",
+    "elements": {
+      "Ca": 1,
+      "Nd": 10,
+      "Pr": 9,
+      "Sn": 16
+    },
+    "reduced_formula": "CaPr9(Nd5Sn8)2",
+    "element_list": [
+      "Ca",
+      "Sn",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ca",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ca: 20.0 g \n Nd: 50.0 g \n Pr: 45.0 g \n Sn: 80.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ca: Purchase from chemical supply companies (e.g., Sigma-Aldrich). \n Nd: Obtain from rare earth suppliers. \n Pr: Available from specialized metal suppliers. \n Sn: Can be sourced from electronics or metal suppliers.",
+      "steps": [
+        "Ca: Purchase from chemical supply companies (e.g., Sigma-Aldrich).",
+        "Nd: Obtain from rare earth suppliers.",
+        "Pr: Available from specialized metal suppliers.",
+        "Sn: Can be sourced from electronics or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Ca, Nd, Pr, and Sn in the specified amounts.",
+        "3. Mix thoroughly using a mortar and pestle or mechanical mixer to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Ca, Nd, Pr, and Sn in the specified amounts. \n 3. Mix thoroughly using a mortar and pestle or mechanical mixer to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat in a furnace at 800°C for 2 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool to room temperature gradually inside the furnace to prevent thermal shock.",
+        "2. This process should take approximately 4 hours."
+      ],
+      "raw_text": "1. Allow the crucible to cool to room temperature gradually inside the furnace to prevent thermal shock. \n 2. This process should take approximately 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use sandpaper to smooth out any rough edges and ensure uniformity.",
+        "3. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use sandpaper to smooth out any rough edges and ensure uniformity. \n 3. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11332266.0,
+      "density": 68138.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1843468.0,
+      "formation_energy_per_atom": -7633.0,
+      "decomposition_energy_per_atom": -16.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -16.0,
+      "decomposition_energy_mp_oqmd": -118.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8973517420",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:16.008818Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Nd10Pr9Sn16.json",
+      "material://Ca1Nd10Pr9Sn16"
+    ]
+  }
+}

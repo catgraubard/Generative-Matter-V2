@@ -1,0 +1,114 @@
+{
+  "id": "Co16Fe2Nd3P12Y3",
+  "uri": "material://Co16Fe2Nd3P12Y3",
+  "composition": {
+    "formula": "Co16Fe2Nd3P12Y3",
+    "elements": {
+      "Co": 16,
+      "Fe": 2,
+      "Nd": 3,
+      "P": 12,
+      "Y": 3
+    },
+    "reduced_formula": "Nd3Y3Fe2(Co4P3)4",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Y",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 32.0 g, Fe: 4.0 g, Nd: 9.0 g, P: 12.0 g, Y: 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: metal suppliers, Fe: hardware stores, Nd: rare earth suppliers, P: chemical supply stores, Y: rare earth suppliers",
+      "steps": [
+        "Co: metal suppliers, Fe: hardware stores, Nd: rare earth suppliers, P: chemical supply stores, Y: rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Co, Fe, Nd, P, and Y.",
+        "3. Use a ball mill to mix the powders for 2 hours to achieve a homogenous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Co, Fe, Nd, P, and Y. \n 3. Use a ball mill to mix the powders for 2 hours to achieve a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1100 °C.",
+        "2. Place the mixed powder in a crucible and insert it into the furnace.",
+        "3. Heat for 4 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1100 °C. \n 2. Place the mixed powder in a crucible and insert it into the furnace. \n 3. Heat for 4 hours to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Ensure the crucible is not exposed to drafts during cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Ensure the crucible is not exposed to drafts during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sintered sample from the crucible carefully.",
+        "2. Grind the edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches using a belt sander.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added durability and protection."
+      ],
+      "raw_text": "1. Remove the sintered sample from the crucible carefully. \n 2. Grind the edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches using a belt sander. \n 3. Optionally, seal the surface with a clear epoxy resin for added durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4858484.0,
+      "density": 72654.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2618403.0,
+      "formation_energy_per_atom": -9029.0,
+      "decomposition_energy_per_atom": -132.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -132.0,
+      "decomposition_energy_mp_oqmd": -123.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "33765a1719",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:23.014949Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Fe2Nd3P12Y3.json",
+      "material://Co16Fe2Nd3P12Y3"
+    ]
+  }
+}

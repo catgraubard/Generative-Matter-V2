@@ -1,0 +1,124 @@
+{
+  "id": "Rb1S16Ti12",
+  "uri": "material://Rb1S16Ti12",
+  "composition": {
+    "formula": "Rb1S16Ti12",
+    "elements": {
+      "Rb": 1,
+      "S": 16,
+      "Ti": 12
+    },
+    "reduced_formula": "Rb(Ti3S4)4",
+    "element_list": [
+      "S",
+      "Ti",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 26.52,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 76.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 26.52 g \n S: 128.00 g \n Ti: 76.80 g \n Total: 231.32 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Purchase from a chemical supplier or online store specializing in rare elements. \n S: Obtain from a chemical supplier or online store. \n Ti: Available from metal suppliers or online marketplaces.",
+      "steps": [
+        "Rb: Purchase from a chemical supplier or online store specializing in rare elements.",
+        "S: Obtain from a chemical supplier or online store.",
+        "Ti: Available from metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Rb must be handled in an inert atmosphere due to its reactivity; prepare in a glove box if possible.",
+        "3. In a clean container, combine Rb, S, and Ti in the specified amounts.",
+        "4. Mix thoroughly using a mortar and pestle or a ball mill for about 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Rb must be handled in an inert atmosphere due to its reactivity; prepare in a glove box if possible. \n 3. In a clean container, combine Rb, S, and Ti in the specified amounts. \n 4. Mix thoroughly using a mortar and pestle or a ball mill for about 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat in a muffle furnace to 900°C (1652°F) at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Rb1S16Ti12."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat in a muffle furnace to 900°C (1652°F) at a rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Rb1S16Ti12."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) at a rate of 10°C/min.",
+        "2. Avoid opening the furnace until it has fully cooled to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) at a rate of 10°C/min. \n 2. Avoid opening the furnace until it has fully cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Grind the sample lightly if necessary to achieve a smooth surface.",
+        "3. Optionally, apply a sealant or protective coating to enhance durability.",
+        "4. Allow the coated sample to cure for 24 hours at room temperature before use."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Grind the sample lightly if necessary to achieve a smooth surface. \n 3. Optionally, apply a sealant or protective coating to enhance durability. \n 4. Allow the coated sample to cure for 24 hours at room temperature before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 5391613.0,
+      "density": 36124.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2132765.0,
+      "formation_energy_per_atom": -17713.0,
+      "decomposition_energy_per_atom": -851.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -857.0,
+      "decomposition_energy_mp_oqmd": -687.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "26ddc06df8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:06.665429Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb1S16Ti12.json",
+      "material://Rb1S16Ti12"
+    ]
+  }
+}

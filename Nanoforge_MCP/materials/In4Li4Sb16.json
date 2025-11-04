@@ -1,0 +1,122 @@
+{
+  "id": "In4Li4Sb16",
+  "uri": "material://In4Li4Sb16",
+  "composition": {
+    "formula": "In4Li4Sb16",
+    "elements": {
+      "In": 4,
+      "Li": 4,
+      "Sb": 16
+    },
+    "reduced_formula": "LiInSb4",
+    "element_list": [
+      "Li",
+      "In",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "In",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "In: 32.00 g \n Li: 16.00 g \n Sb: 64.00 g"
+    },
+    "sourcing": {
+      "instructions": "In (Indium): Obtain from a chemical supplier or metal alloy provider. \n Li (Lithium): Acquire from a battery materials supplier or chemical supplier. \n Sb (Antimony): Purchase from a metal supplier or chemical distributor.",
+      "steps": [
+        "In (Indium): Obtain from a chemical supplier or metal alloy provider.",
+        "Li (Lithium): Acquire from a battery materials supplier or chemical supplier.",
+        "Sb (Antimony): Purchase from a metal supplier or chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 32.00 g of Indium, 16.00 g of Lithium, and 64.00 g of Antimony.",
+        "2. In a clean, dry container, combine the measured amounts of Indium and Lithium.",
+        "3. Gradually add the Antimony to the mixture while stirring to ensure uniform distribution.",
+        "4. Use a mortar and pestle or a ball mill to achieve a fine powder consistency, ensuring a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out 32.00 g of Indium, 16.00 g of Lithium, and 64.00 g of Antimony. \n 2. In a clean, dry container, combine the measured amounts of Indium and Lithium. \n 3. Gradually add the Antimony to the mixture while stirring to ensure uniform distribution. \n 4. Use a mortar and pestle or a ball mill to achieve a fine powder consistency, ensuring a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat the crucible in a muffle furnace to 800°C (1472°F) for 2 hours to ensure complete reaction and formation of In4Li4Sb16."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat the crucible in a muffle furnace to 800°C (1472°F) for 2 hours to ensure complete reaction and formation of In4Li4Sb16."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours) without opening the door to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours) without opening the door to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any irregularities or unreacted materials.",
+        "3. If necessary, use a grinder to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Optionally, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any irregularities or unreacted materials. \n 3. If necessary, use a grinder to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Optionally, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 7752769.0,
+      "density": 52159.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -902632.0,
+      "formation_energy_per_atom": -2315.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8ca488edd0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:20.822341Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In4Li4Sb16.json",
+      "material://In4Li4Sb16"
+    ]
+  }
+}

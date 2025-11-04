@@ -1,0 +1,108 @@
+{
+  "id": "Al2Gd2O12Te2",
+  "uri": "material://Al2Gd2O12Te2",
+  "composition": {
+    "formula": "Al2Gd2O12Te2",
+    "elements": {
+      "Al": 2,
+      "Gd": 2,
+      "O": 12,
+      "Te": 2
+    },
+    "reduced_formula": "GdAlTeO6",
+    "element_list": [
+      "O",
+      "Al",
+      "Te",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Aluminum Oxide (Al2O3): 120 g\n- Gadolinium Oxide (Gd2O3): 80 g\n- Tellurium Dioxide (TeO2): 40 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum Oxide: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).\n- Gadolinium Oxide: Obtain from specialized metal or chemical suppliers.\n- Tellurium Dioxide: Available from chemical supply companies.",
+      "steps": [
+        "- Aluminum Oxide: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "- Gadolinium Oxide: Obtain from specialized metal or chemical suppliers.",
+        "- Tellurium Dioxide: Available from chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 120 g of Aluminum Oxide, 80 g of Gadolinium Oxide, and 40 g of Tellurium Dioxide using a precision balance.",
+        "2. In a clean, dry mixing container, add the Aluminum Oxide, Gadolinium Oxide, and Tellurium Dioxide.",
+        "3. Use a mortar and pestle to finely grind the powders together until a homogeneous mixture is achieved.",
+        "4. Transfer the mixed powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 120 g of Aluminum Oxide, 80 g of Gadolinium Oxide, and 40 g of Tellurium Dioxide using a precision balance.\n2. In a clean, dry mixing container, add the Aluminum Oxide, Gadolinium Oxide, and Tellurium Dioxide.\n3. Use a mortar and pestle to finely grind the powders together until a homogeneous mixture is achieved.\n4. Transfer the mixed powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1400,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1400 °C.",
+        "2. Place the crucible in the furnace and hold at this temperature for 4 hours to ensure complete reaction and formation of Al2Gd2O12Te2."
+      ],
+      "raw_text": "1. Preheat the furnace to 1400 °C.\n2. Place the crucible in the furnace and hold at this temperature for 4 hours to ensure complete reaction and formation of Al2Gd2O12Te2."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 6-8 hours).",
+        "2. Ensure the crucible is not removed from the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 6-8 hours).\n2. Ensure the crucible is not removed from the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond file or sandpaper to smooth any rough edges and achieve the desired surface finish.",
+        "3. Optionally, apply a protective sealant if required for application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use a diamond file or sandpaper to smooth any rough edges and achieve the desired surface finish.\n3. Optionally, apply a protective sealant if required for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2251782.0,
+      "density": 60149.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31c",
+      "space_group_number": 163,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1519785.0,
+      "formation_energy_per_atom": -28152.0,
+      "decomposition_energy_per_atom": -782.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -61.0,
+      "decomposition_energy_mp_oqmd": -226.0
+    },
+    "electronic": {
+      "bandgap": 3.1466,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8b821af63f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:19.250964Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Gd2O12Te2.json",
+      "material://Al2Gd2O12Te2"
+    ]
+  }
+}

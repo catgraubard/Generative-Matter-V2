@@ -1,0 +1,124 @@
+{
+  "id": "B12K1Nd1",
+  "uri": "material://B12K1Nd1",
+  "composition": {
+    "formula": "B12K1Nd1",
+    "elements": {
+      "B": 12,
+      "K": 1,
+      "Nd": 1
+    },
+    "reduced_formula": "KNdB12",
+    "element_list": [
+      "B",
+      "K",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 40 g (Boron) \n Mo: 10 g (Molybdenum) \n Nb: 40 g (Niobium) \n Ti: 10 g (Titanium)"
+    },
+    "sourcing": {
+      "instructions": "B4: Purchase from chemical supply companies or online sources specializing in boron compounds. \n Mo: Obtain from metal suppliers or specialty chemical distributors. \n Nb: Available from metallurgical suppliers or online metal markets. \n Ti: Can be sourced from metal fabricators or online metal suppliers.",
+      "steps": [
+        "B4: Purchase from chemical supply companies or online sources specializing in boron compounds.",
+        "Mo: Obtain from metal suppliers or specialty chemical distributors.",
+        "Nb: Available from metallurgical suppliers or online metal markets.",
+        "Ti: Can be sourced from metal fabricators or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. Place B4, Mo, Nb, and Ti powders in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly combine the powders until a homogenous mixture is obtained."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. Place B4, Mo, Nb, and Ti powders in a clean, dry mixing container. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly combine the powders until a homogenous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1500 °C.",
+        "2. Transfer the mixed powders into a graphite crucible.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1500 °C. \n 2. Transfer the mixed powders into a graphite crucible. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally, which may take approximately 6-8 hours.",
+        "2. Avoid opening the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally, which may take approximately 6-8 hours. \n 2. Avoid opening the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions: 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant if necessary for the intended application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions: 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant if necessary for the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 145945.0,
+      "density": 35621.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -905425.0,
+      "formation_energy_per_atom": -3222.0,
+      "decomposition_energy_per_atom": -714.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -206.0,
+      "decomposition_energy_mp": -714.0,
+      "decomposition_energy_mp_oqmd": -714.0
+    },
+    "electronic": {
+      "bandgap": 0.0166,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d97ce95f2d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.840516Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B12K1Nd1.json",
+      "material://B12K1Nd1"
+    ]
+  }
+}

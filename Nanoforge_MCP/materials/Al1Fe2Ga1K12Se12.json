@@ -1,0 +1,140 @@
+{
+  "id": "Al1Fe2Ga1K12Se12",
+  "uri": "material://Al1Fe2Ga1K12Se12",
+  "composition": {
+    "formula": "Al1Fe2Ga1K12Se12",
+    "elements": {
+      "Al": 1,
+      "Fe": 2,
+      "Ga": 1,
+      "K": 12,
+      "Se": 12
+    },
+    "reduced_formula": "K12AlGa(FeSe6)2",
+    "element_list": [
+      "Al",
+      "K",
+      "Fe",
+      "Ga",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 10.0 g \n Fe: 20.0 g \n Ga: 5.0 g \n K: 60.0 g \n Se: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Purchase from a metal supplier or online (aluminum powder). \n Fe: Obtain from a local hardware store (iron filings or powder). \n Ga: Acquire from a chemical supply store (gallium metal). \n K: Source from a chemical supplier (potassium powder or granules). \n Se: Order from a chemical supply store (selenium powder).",
+      "steps": [
+        "Al: Purchase from a metal supplier or online (aluminum powder).",
+        "Fe: Obtain from a local hardware store (iron filings or powder).",
+        "Ga: Acquire from a chemical supply store (gallium metal).",
+        "K: Source from a chemical supplier (potassium powder or granules).",
+        "Se: Order from a chemical supply store (selenium powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the aluminum, iron, gallium, potassium, and selenium powders.",
+        "3. Use a spatula to mix the powders thoroughly to ensure a homogeneous mixture.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours at a low speed to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine the aluminum, iron, gallium, potassium, and selenium powders. \n 3. Use a spatula to mix the powders thoroughly to ensure a homogeneous mixture. \n 4. Transfer the mixture to a ball mill and mill for 2 hours at a low speed to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800 °C.",
+        "2. Place the mixed powder in a crucible that can withstand high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to promote reaction and solidification of the material."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C. \n 2. Place the mixed powder in a crucible that can withstand high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to promote reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cool, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Once cool, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the specified dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance the durability of the sample."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the specified dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance the durability of the sample."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9020296.0,
+      "density": 29916.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1128639.0,
+      "formation_energy_per_atom": -12098.0,
+      "decomposition_energy_per_atom": -41.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -41.0,
+      "decomposition_energy_mp_oqmd": -34.0
+    },
+    "electronic": {
+      "bandgap": 0.6455,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7913612009",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:54.072849Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Fe2Ga1K12Se12.json",
+      "material://Al1Fe2Ga1K12Se12"
+    ]
+  }
+}

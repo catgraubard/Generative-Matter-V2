@@ -1,0 +1,113 @@
+{
+  "id": "Gd2Pr2S8",
+  "uri": "material://Gd2Pr2S8",
+  "composition": {
+    "formula": "Gd2Pr2S8",
+    "elements": {
+      "Gd": 2,
+      "Pr": 2,
+      "S": 8
+    },
+    "reduced_formula": "PrGdS4",
+    "element_list": [
+      "S",
+      "Pr",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 225.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 225 g, P: 180 g, Ru: 15 g, Zr: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Obtain from a metal supplier or online retailer specializing in cobalt. \n P: Purchase from a chemical supplier or online marketplace. \n Ru: Source from precious metal suppliers or online. \n Zr: Available from chemical suppliers or online retailers.",
+      "steps": [
+        "Co: Obtain from a metal supplier or online retailer specializing in cobalt.",
+        "P: Purchase from a chemical supplier or online marketplace.",
+        "Ru: Source from precious metal suppliers or online.",
+        "Zr: Available from chemical suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Co, P, Ru, and Zr in the specified amounts.",
+        "3. Mix thoroughly using a mechanical stirrer or mortar and pestle for at least 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine Co, P, Ru, and Zr in the specified amounts. \n 3. Mix thoroughly using a mechanical stirrer or mortar and pestle for at least 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a sintering furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the mixture for 2 hours, maintaining the temperature constant."
+      ],
+      "raw_text": "1. Preheat a sintering furnace to 1200°C. \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Heat the mixture for 2 hours, maintaining the temperature constant."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This should take approximately 4-6 hours, depending on the furnace size and insulation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This should take approximately 4-6 hours, depending on the furnace size and insulation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Grind the edges and surfaces using a diamond grinder to achieve the desired dimensions and smooth finish.",
+        "3. Optionally, apply a sealing coat if necessary for surface protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Grind the edges and surfaces using a diamond grinder to achieve the desired dimensions and smooth finish. \n 3. Optionally, apply a sealing coat if necessary for surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2626087.0,
+      "density": 53927.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pc",
+      "space_group_number": 7,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -957175.0,
+      "formation_energy_per_atom": -2076.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": 0.3825,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd210cf620",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.574657Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd2Pr2S8.json",
+      "material://Gd2Pr2S8"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "Ce1Cs2Cu2Se4",
+  "uri": "material://Ce1Cs2Cu2Se4",
+  "composition": {
+    "formula": "Ce1Cs2Cu2Se4",
+    "elements": {
+      "Ce": 1,
+      "Cs": 2,
+      "Cu": 2,
+      "Se": 4
+    },
+    "reduced_formula": "Cs2Ce(CuSe2)2",
+    "element_list": [
+      "Cu",
+      "Se",
+      "Cs",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CeO2: 15.0 g \n Cs2CO3: 12.0 g \n Cu2Se: 18.0 g"
+    },
+    "sourcing": {
+      "instructions": "CeO2: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich) \n Cs2CO3: Available from chemical suppliers (e.g., Alfa Aesar) \n Cu2Se: Source from specialized metal vendors or online (e.g., American Elements)",
+      "steps": [
+        "CeO2: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich)",
+        "Cs2CO3: Available from chemical suppliers (e.g., Alfa Aesar)",
+        "Cu2Se: Source from specialized metal vendors or online (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 15.0 g of CeO2, 12.0 g of Cs2CO3, and 18.0 g of Cu2Se using an analytical balance.",
+        "2. Place the weighed powders in a clean, dry ceramic crucible.",
+        "3. Using a mortar and pestle, thoroughly mix the powders for 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh 15.0 g of CeO2, 12.0 g of Cs2CO3, and 18.0 g of Cu2Se using an analytical balance.\n 2. Place the weighed powders in a clean, dry ceramic crucible.\n 3. Using a mortar and pestle, thoroughly mix the powders for 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the crucible in the furnace and heat for 4 hours to allow for complete reaction and formation of Ce1Cs2Cu2Se4."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C.\n 2. Place the crucible in the furnace and heat for 4 hours to allow for complete reaction and formation of Ce1Cs2Cu2Se4."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature (approximately 6-8 hours).\n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any surface irregularities.",
+        "2. If needed, use sandpaper (grit 400) to smooth out the surface.",
+        "3. Optionally, seal the sample with a clear acrylic spray for protection against moisture."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any surface irregularities.\n 2. If needed, use sandpaper (grit 400) to smooth out the surface.\n 3. Optionally, seal the sample with a clear acrylic spray for protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2596576.0,
+      "density": 54285.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -418518.0,
+      "formation_energy_per_atom": -13273.0,
+      "decomposition_energy_per_atom": -1529.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -1575.0,
+      "decomposition_energy_mp_oqmd": -45.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7d077b2b43",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:59.285950Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce1Cs2Cu2Se4.json",
+      "material://Ce1Cs2Cu2Se4"
+    ]
+  }
+}

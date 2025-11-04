@@ -1,0 +1,130 @@
+{
+  "id": "Cs2Li14O14Zr3",
+  "uri": "material://Cs2Li14O14Zr3",
+  "composition": {
+    "formula": "Cs2Li14O14Zr3",
+    "elements": {
+      "Cs": 2,
+      "Li": 14,
+      "O": 14,
+      "Zr": 3
+    },
+    "reduced_formula": "Cs2Li14Zr3O14",
+    "element_list": [
+      "Li",
+      "O",
+      "Zr",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs2: 5.00 g \n Li: 2.00 g \n O: 8.00 g \n Zr: 15.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs2: Obtain from chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific). \n Li: Purchase lithium carbonate from battery material suppliers. \n O: Use distilled water or oxygen gas in controlled reactions. \n Zr: Obtain zirconium powder from materials suppliers.",
+      "steps": [
+        "Cs2: Obtain from chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Li: Purchase lithium carbonate from battery material suppliers.",
+        "O: Use distilled water or oxygen gas in controlled reactions.",
+        "Zr: Obtain zirconium powder from materials suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 5.00 g of Cs2 using an analytical balance.",
+        "2. Measure 2.00 g of lithium carbonate (Li).",
+        "3. Measure 8.00 g of oxygen source (distilled water or oxygen gas).",
+        "4. Measure 15.00 g of zirconium powder (Zr).",
+        "5. Combine Cs2, Li, O, and Zr in a clean, dry ceramic or glass container.",
+        "6. Mix thoroughly using a mortar and pestle for about 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 5.00 g of Cs2 using an analytical balance. \n 2. Measure 2.00 g of lithium carbonate (Li). \n 3. Measure 8.00 g of oxygen source (distilled water or oxygen gas). \n 4. Measure 15.00 g of zirconium powder (Zr). \n 5. Combine Cs2, Li, O, and Zr in a clean, dry ceramic or glass container. \n 6. Mix thoroughly using a mortar and pestle for about 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace and heat to 1000 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction of the ingredients."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace and heat to 1000 °C at a rate of 10 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction of the ingredients."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Transfer the solidified sample to a workbench.",
+        "2. Use sandpaper (grit 200-400) to smooth the edges and surfaces as desired.",
+        "3. Optionally, apply a sealant to enhance durability.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Transfer the solidified sample to a workbench. \n 2. Use sandpaper (grit 200-400) to smooth the edges and surfaces as desired. \n 3. Optionally, apply a sealant to enhance durability. \n 4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 33,
+      "volume": 3748579.0,
+      "density": 38125.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2084402.0,
+      "formation_energy_per_atom": -25761.0,
+      "decomposition_energy_per_atom": -265.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -103.0,
+      "decomposition_energy_mp": -269.0,
+      "decomposition_energy_mp_oqmd": -103.0
+    },
+    "electronic": {
+      "bandgap": 4.2842,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "50d3d66f2b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:01.754574Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Li14O14Zr3.json",
+      "material://Cs2Li14O14Zr3"
+    ]
+  }
+}

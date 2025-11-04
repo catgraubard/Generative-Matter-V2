@@ -1,0 +1,113 @@
+{
+  "id": "Al12Fe7Ru1Si12Tm6",
+  "uri": "material://Al12Fe7Ru1Si12Tm6",
+  "composition": {
+    "formula": "Al12Fe7Ru1Si12Tm6",
+    "elements": {
+      "Al": 12,
+      "Fe": 7,
+      "Ru": 1,
+      "Si": 12,
+      "Tm": 6
+    },
+    "reduced_formula": "Tm6Al12Fe7Si12Ru",
+    "element_list": [
+      "Al",
+      "Si",
+      "Fe",
+      "Ru",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Co (Cobalt): 170 g \n Er (Erbium): 50 g \n Nd (Neodymium): 10 g \n P (Phosphorus): 120 g \n Sc (Scandium): 10 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or chemical companies (e.g., Alfa Aesar, Sigma Aldrich) \n Er: Metal suppliers or specialty chemical suppliers \n Nd: Metal suppliers \n P: Chemical suppliers or online marketplaces \n Sc: Metal suppliers or chemical companies",
+      "steps": [
+        "Co: Metal suppliers or chemical companies (e.g., Alfa Aesar, Sigma Aldrich)",
+        "Er: Metal suppliers or specialty chemical suppliers",
+        "Nd: Metal suppliers",
+        "P: Chemical suppliers or online marketplaces",
+        "Sc: Metal suppliers or chemical companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a precision balance.",
+        "2. In a clean, dry container, combine the weighed powders of Co, Er, Nd, P, and Sc.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer to achieve a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each component accurately using a precision balance. \n 2. In a clean, dry container, combine the weighed powders of Co, Er, Nd, P, and Sc. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer to achieve a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace and set to a temperature of 1200°C.",
+        "3. Hold this temperature for 4 hours to ensure proper sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace and set to a temperature of 1200°C. \n 3. Hold this temperature for 4 hours to ensure proper sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 8-12 hours).",
+        "2. Ensure the cooling is gradual to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 8-12 hours). \n 2. Ensure the cooling is gradual to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible and inspect for any defects.",
+        "2. If necessary, use a diamond saw to cut the material into the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance the durability of the sample."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible and inspect for any defects. \n 2. If necessary, use a diamond saw to cut the material into the desired dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance the durability of the sample."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5587653.0,
+      "density": 64381.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2269124.0,
+      "formation_energy_per_atom": -5643.0,
+      "decomposition_energy_per_atom": -121.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -118.0,
+      "decomposition_energy_mp_oqmd": -118.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b84d249bdf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.745882Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al12Fe7Ru1Si12Tm6.json",
+      "material://Al12Fe7Ru1Si12Tm6"
+    ]
+  }
+}

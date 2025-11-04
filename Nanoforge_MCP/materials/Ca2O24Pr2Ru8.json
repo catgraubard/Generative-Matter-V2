@@ -1,0 +1,131 @@
+{
+  "id": "Ca2O24Pr2Ru8",
+  "uri": "material://Ca2O24Pr2Ru8",
+  "composition": {
+    "formula": "Ca2O24Pr2Ru8",
+    "elements": {
+      "Ca": 2,
+      "O": 24,
+      "Pr": 2,
+      "Ru": 8
+    },
+    "reduced_formula": "CaPr(RuO3)4",
+    "element_list": [
+      "O",
+      "Ca",
+      "Ru",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 6.4,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 2.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 6.4 g \n P: 2.4 g \n Sc: 12.0 g \n Zr: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich). \n P: Available at chemical supply stores or online (e.g., Fisher Scientific). \n Sc: Obtain from specialized metal suppliers or online stores. \n Zr: Available through metal suppliers or online markets.",
+      "steps": [
+        "As: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).",
+        "P: Available at chemical supply stores or online (e.g., Fisher Scientific).",
+        "Sc: Obtain from specialized metal suppliers or online stores.",
+        "Zr: Available through metal suppliers or online markets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, combine the 6.4 g of As, 2.4 g of P, 12.0 g of Sc, and 8.0 g of Zr.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for at least 10 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry container, combine the 6.4 g of As, 2.4 g of P, 12.0 g of Sc, and 8.0 g of Zr. \n 3. Use a mechanical stirrer to mix the powders thoroughly for at least 10 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat in a muffle furnace to 800°C.",
+        "3. Maintain this temperature for 2 hours to facilitate proper bonding of the elements."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat in a muffle furnace to 800°C. \n 3. Maintain this temperature for 2 hours to facilitate proper bonding of the elements."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid opening the furnace until it is at room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Avoid opening the furnace until it is at room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Trim any rough edges using a diamond-tipped saw for a precise shape.",
+        "3. Sand the surface using 400-grit sandpaper to ensure smoothness.",
+        "4. Optionally, seal the material with a suitable resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Trim any rough edges using a diamond-tipped saw for a precise shape. \n 3. Sand the surface using 400-grit sandpaper to ensure smoothness. \n 4. Optionally, seal the material with a suitable resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4379553.0,
+      "density": 58941.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2781975.0,
+      "formation_energy_per_atom": -19911.0,
+      "decomposition_energy_per_atom": -211.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -217.0,
+      "decomposition_energy_mp_oqmd": -217.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e2ae7f86f9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.390120Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2O24Pr2Ru8.json",
+      "material://Ca2O24Pr2Ru8"
+    ]
+  }
+}

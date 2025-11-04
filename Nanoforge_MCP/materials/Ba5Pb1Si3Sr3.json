@@ -1,0 +1,140 @@
+{
+  "id": "Ba5Pb1Si3Sr3",
+  "uri": "material://Ba5Pb1Si3Sr3",
+  "composition": {
+    "formula": "Ba5Pb1Si3Sr3",
+    "elements": {
+      "Ba": 5,
+      "Pb": 1,
+      "Si": 3,
+      "Sr": 3
+    },
+    "reduced_formula": "Ba5Sr3Si3Pb",
+    "element_list": [
+      "Si",
+      "Sr",
+      "Ba",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 100 g \n Nd: 12 g \n P: 72 g \n Pr: 16 g \n Ru: 4 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Purchase from a chemical supplier or metal alloy supplier. \n Nd (Neodymium): Available from rare earth material suppliers. \n P (Phosphorus): Obtain from chemical supply houses. \n Pr (Praseodymium): Find at rare earth metal distributors. \n Ru (Ruthenium): Sourced from precious metal suppliers.",
+      "steps": [
+        "Co (Cobalt): Purchase from a chemical supplier or metal alloy supplier.",
+        "Nd (Neodymium): Available from rare earth material suppliers.",
+        "P (Phosphorus): Obtain from chemical supply houses.",
+        "Pr (Praseodymium): Find at rare earth metal distributors.",
+        "Ru (Ruthenium): Sourced from precious metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using a digital scale.",
+        "2. In a clean and dry environment, combine Co, Nd, P, Pr, and Ru in a mixing bowl.",
+        "3. Use a mortar and pestle or mechanical mixer to ensure a homogeneous mixture.",
+        "4. Continue mixing until the materials are uniformly combined, ensuring no clumps remain."
+      ],
+      "raw_text": "1. Weigh each material precisely using a digital scale. \n 2. In a clean and dry environment, combine Co, Nd, P, Pr, and Ru in a mixing bowl. \n 3. Use a mortar and pestle or mechanical mixer to ensure a homogeneous mixture. \n 4. Continue mixing until the materials are uniformly combined, ensuring no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C (2192°F) at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C (2192°F) at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and let it cool down naturally to room temperature (approximately 25°C) over a period of 6 hours.",
+        "2. Ensure the furnace door remains closed to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and let it cool down naturally to room temperature (approximately 25°C) over a period of 6 hours. \n 2. Ensure the furnace door remains closed to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the sample for any rough edges or imperfections.",
+        "3. Use sandpaper or a grinding tool to smooth out the surfaces as necessary.",
+        "4. Optionally, apply a sealing coat of clear resin to enhance surface finish and protect the material."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the sample for any rough edges or imperfections. \n 3. Use sandpaper or a grinding tool to smooth out the surfaces as necessary. \n 4. Optionally, apply a sealing coat of clear resin to enhance surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 4653338.0,
+      "density": 44283.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -393372.0,
+      "formation_energy_per_atom": -3904.0,
+      "decomposition_energy_per_atom": -191.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -189.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.065,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bcfa91ee97",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.072114Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba5Pb1Si3Sr3.json",
+      "material://Ba5Pb1Si3Sr3"
+    ]
+  }
+}

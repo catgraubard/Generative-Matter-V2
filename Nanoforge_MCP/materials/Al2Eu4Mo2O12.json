@@ -1,0 +1,113 @@
+{
+  "id": "Al2Eu4Mo2O12",
+  "uri": "material://Al2Eu4Mo2O12",
+  "composition": {
+    "formula": "Al2Eu4Mo2O12",
+    "elements": {
+      "Al": 2,
+      "Eu": 4,
+      "Mo": 2,
+      "O": 12
+    },
+    "reduced_formula": "Eu2AlMoO6",
+    "element_list": [
+      "O",
+      "Al",
+      "Mo",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum Oxide (Al2O3): 200 g \n Europium Oxide (Eu2O3): 80 g \n Molybdenum Oxide (MoO3): 60 g \n Distilled Water: 50 g (for wet mixing)"
+    },
+    "sourcing": {
+      "instructions": "Aluminum Oxide: Purchase from a chemical supplier or online retailer specializing in ceramics. \n Europium Oxide: Obtain from a specialized rare earth materials supplier. \n Molybdenum Oxide: Available from metal or chemical supply companies. \n Distilled Water: Available from grocery stores or pharmacies.",
+      "steps": [
+        "Aluminum Oxide: Purchase from a chemical supplier or online retailer specializing in ceramics.",
+        "Europium Oxide: Obtain from a specialized rare earth materials supplier.",
+        "Molybdenum Oxide: Available from metal or chemical supply companies.",
+        "Distilled Water: Available from grocery stores or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 200 g of Aluminum Oxide, 80 g of Europium Oxide, and 60 g of Molybdenum Oxide accurately using a digital scale.",
+        "2. In a clean mixing container, add the solid oxides together.",
+        "3. Gradually add 50 g of distilled water while stirring continuously to form a slurry.",
+        "4. Ensure all powders are fully incorporated and the mixture is homogeneous without lumps."
+      ],
+      "raw_text": "1. Weigh out 200 g of Aluminum Oxide, 80 g of Europium Oxide, and 60 g of Molybdenum Oxide accurately using a digital scale. \n 2. In a clean mixing container, add the solid oxides together. \n 3. Gradually add 50 g of distilled water while stirring continuously to form a slurry. \n 4. Ensure all powders are fully incorporated and the mixture is homogeneous without lumps."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the slurry in a ceramic crucible.",
+        "3. Heat the mixture at a ramp rate of 5°C/min until the target temperature is reached.",
+        "4. Hold at 1200°C for 4 hours to allow for complete reaction and sintering."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the slurry in a ceramic crucible. \n 3. Heat the mixture at a ramp rate of 5°C/min until the target temperature is reached. \n 4. Hold at 1200°C for 4 hours to allow for complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (~25°C).",
+        "2. This should take approximately 6-8 hours. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (~25°C). \n 2. This should take approximately 6-8 hours. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. If necessary, grind the edges with a diamond grinder to achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Clean the surface with isopropyl alcohol to remove any residues.",
+        "4. Optionally, seal the material with a ceramic sealant for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. If necessary, grind the edges with a diamond grinder to achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Clean the surface with isopropyl alcohol to remove any residues. \n 4. Optionally, seal the material with a ceramic sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 241379.0,
+      "density": 71937.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1905206.0,
+      "formation_energy_per_atom": -30397.0,
+      "decomposition_energy_per_atom": -472.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -479.0,
+      "decomposition_energy_mp_oqmd": -105.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5d6c24cb0f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:17.997021Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Eu4Mo2O12.json",
+      "material://Al2Eu4Mo2O12"
+    ]
+  }
+}

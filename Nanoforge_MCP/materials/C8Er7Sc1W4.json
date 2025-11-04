@@ -1,0 +1,138 @@
+{
+  "id": "C8Er7Sc1W4",
+  "uri": "material://C8Er7Sc1W4",
+  "composition": {
+    "formula": "C8Er7Sc1W4",
+    "elements": {
+      "C": 8,
+      "Er": 7,
+      "Sc": 1,
+      "W": 4
+    },
+    "reduced_formula": "Er7Sc(WC2)4",
+    "element_list": [
+      "C",
+      "Sc",
+      "Er",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 10.00 g \n Nd: 30.00 g \n P: 20.00 g \n Ru: 15.00 g \n Tm: 5.00 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Chemical supply stores or online chemical suppliers \n Nd: Rare earth metal suppliers \n P: Chemical suppliers \n Ru: Precious metal suppliers \n Tm: Rare earth metal suppliers",
+      "steps": [
+        "Li: Chemical supply stores or online chemical suppliers",
+        "Nd: Rare earth metal suppliers",
+        "P: Chemical suppliers",
+        "Ru: Precious metal suppliers",
+        "Tm: Rare earth metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. Mix Li, Nd, P, Ru, and Tm in a clean, dry glass container.",
+        "3. Stir the mixture thoroughly for 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance. \n 2. Mix Li, Nd, P, Ru, and Tm in a clean, dry glass container. \n 3. Stir the mixture thoroughly for 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat in a furnace at 1200°C for 4 hours.",
+        "3. Use a controlled heating rate of 5°C/min to reach target temperature."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat in a furnace at 1200°C for 4 hours. \n 3. Use a controlled heating rate of 5°C/min to reach target temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature (approximately 25°C) over 6 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature (approximately 25°C) over 6 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth the surface.",
+        "3. Rinse with distilled water and dry thoroughly.",
+        "4. Optionally seal with a protective coating if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth the surface. \n 3. Rinse with distilled water and dry thoroughly. \n 4. Optionally seal with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 31492.0,
+      "density": 107947.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1715872.0,
+      "formation_energy_per_atom": -3817.0,
+      "decomposition_energy_per_atom": -768.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -768.0,
+      "decomposition_energy_mp_oqmd": -165.0
+    },
+    "electronic": {
+      "bandgap": 0.0029,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c895e55413",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.544831Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C8Er7Sc1W4.json",
+      "material://C8Er7Sc1W4"
+    ]
+  }
+}

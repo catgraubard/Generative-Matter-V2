@@ -1,0 +1,111 @@
+{
+  "id": "As12Co19Cr1Pr4",
+  "uri": "material://As12Co19Cr1Pr4",
+  "composition": {
+    "formula": "As12Co19Cr1Pr4",
+    "elements": {
+      "As": 12,
+      "Co": 19,
+      "Cr": 1,
+      "Pr": 4
+    },
+    "reduced_formula": "Pr4CrCo19As12",
+    "element_list": [
+      "Cr",
+      "Co",
+      "As",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, La: 5 g, Ni: 40 g, P: 5 g, A: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Barium (B): Chemical supplier; Lanthanum (La): Rare earth element supplier; Nickel (Ni): Metal supplier; Phosphorus (P): Chemical supplier; Aluminum (A): Metal supplier",
+      "steps": [
+        "Barium (B): Chemical supplier; Lanthanum (La): Rare earth element supplier; Nickel (Ni): Metal supplier; Phosphorus (P): Chemical supplier; Aluminum (A): Metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Barium, Lanthanum, Nickel, Phosphorus, and Aluminum using a precision scale.",
+        "2. In a clean, dry mixing container, add the weighed amounts of each material in the order listed.",
+        "3. Use a spatula to mix the powders thoroughly to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh Barium, Lanthanum, Nickel, Phosphorus, and Aluminum using a precision scale. \n 2. In a clean, dry mixing container, add the weighed amounts of each material in the order listed. \n 3. Use a spatula to mix the powders thoroughly to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to facilitate reaction and fusion of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat in a furnace to 1200°C for 2 hours to facilitate reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature over approximately 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature over approximately 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. Use sandpaper (grit 400) to smooth the surfaces if necessary.",
+        "4. Optionally, seal the material with a clear epoxy resin for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible. \n 2. Inspect the sample for any surface irregularities.\n 3. Use sandpaper (grit 400) to smooth the surfaces if necessary. \n 4. Optionally, seal the material with a clear epoxy resin for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5135834.0,
+      "density": 85177.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2370438.0,
+      "formation_energy_per_atom": -4805.0,
+      "decomposition_energy_per_atom": -107.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -107.0,
+      "decomposition_energy_mp_oqmd": -95.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b0214d97d9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:11.123483Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Co19Cr1Pr4.json",
+      "material://As12Co19Cr1Pr4"
+    ]
+  }
+}

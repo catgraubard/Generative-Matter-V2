@@ -1,0 +1,109 @@
+{
+  "id": "Bi3Ga3Ti10",
+  "uri": "material://Bi3Ga3Ti10",
+  "composition": {
+    "formula": "Bi3Ga3Ti10",
+    "elements": {
+      "Bi": 3,
+      "Ga": 3,
+      "Ti": 10
+    },
+    "reduced_formula": "Ti10(GaBi)3",
+    "element_list": [
+      "Ti",
+      "Ga",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Bismuth Oxide (Bi2O3): 67.5 g  \n - Gallium Oxide (Ga2O3): 16.5 g  \n - Titanium Dioxide (TiO2): 90 g  \n - Ethanol (for mixing): 10 ml"
+    },
+    "sourcing": {
+      "instructions": "- Bismuth Oxide: Chemical supply companies or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific)  \n - Gallium Oxide: Specialty chemical vendors  \n - Titanium Dioxide: Available at chemical suppliers or online stores  \n - Ethanol: Laboratory supply stores or pharmacies",
+      "steps": [
+        "- Bismuth Oxide: Chemical supply companies or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific)",
+        "- Gallium Oxide: Specialty chemical vendors",
+        "- Titanium Dioxide: Available at chemical suppliers or online stores",
+        "- Ethanol: Laboratory supply stores or pharmacies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the Bismuth Oxide, Gallium Oxide, and Titanium Dioxide using an analytical balance.",
+        "2. In a clean glass container, combine the weighed powders.",
+        "3. Slowly add 10 ml of ethanol to the mixture while stirring continuously to create a slurry.",
+        "4. Ensure the mixture is homogenous and free of lumps."
+      ],
+      "raw_text": "1. Weigh out the Bismuth Oxide, Gallium Oxide, and Titanium Dioxide using an analytical balance.  \n 2. In a clean glass container, combine the weighed powders.  \n 3. Slowly add 10 ml of ethanol to the mixture while stirring continuously to create a slurry.  \n 4. Ensure the mixture is homogenous and free of lumps."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Heat the crucible in a furnace to 900°C.",
+        "3. Maintain this temperature for 4 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible.  \n 2. Heat the crucible in a furnace to 900°C.  \n 3. Maintain this temperature for 4 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 8-10 hours).",
+        "2. Avoid opening the furnace during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 8-10 hours).  \n 2. Avoid opening the furnace during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear coat for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible.  \n 2. Inspect the sample for any surface irregularities.  \n 3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.  \n 4. Optionally, seal the sample with a clear coat for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2917309.0,
+      "density": 74838.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1048342.0,
+      "formation_energy_per_atom": -3203.0,
+      "decomposition_energy_per_atom": -231.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -231.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0c6b1057c1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:31.929422Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3Ga3Ti10.json",
+      "material://Bi3Ga3Ti10"
+    ]
+  }
+}

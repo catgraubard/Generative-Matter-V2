@@ -1,0 +1,114 @@
+{
+  "id": "Cr4Na4O16Sn4",
+  "uri": "material://Cr4Na4O16Sn4",
+  "composition": {
+    "formula": "Cr4Na4O16Sn4",
+    "elements": {
+      "Cr": 4,
+      "Na": 4,
+      "O": 16,
+      "Sn": 4
+    },
+    "reduced_formula": "NaCrSnO4",
+    "element_list": [
+      "O",
+      "Na",
+      "Cr",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 30 g, Sc: 240 g, Se: 160 g, Sr: 90 g"
+    },
+    "sourcing": {
+      "instructions": "Nd: Rare earth supplier, Sc: Metal distributor, Se: Chemical supplier, Sr: Chemical supplier",
+      "steps": [
+        "Nd: Rare earth supplier, Sc: Metal distributor, Se: Chemical supplier, Sr: Chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients accurately using a digital scale.",
+        "2. In a clean, dry container, combine Nd, Sc, Se, and Sr in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle for at least 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh all ingredients accurately using a digital scale. \n 2. In a clean, dry container, combine Nd, Sc, Se, and Sr in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle for at least 15 minutes to ensure homogeneity. \n 4. Transfer the mixed powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 10,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the crucible in the furnace once it reaches the desired temperature.",
+        "3. Maintain this temperature for 10 hours to ensure full reaction and synthesis."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the crucible in the furnace once it reaches the desired temperature. \n 3. Maintain this temperature for 10 hours to ensure full reaction and synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool gradually to room temperature (approximately 24 hours) within the furnace to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool gradually to room temperature (approximately 24 hours) within the furnace to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any impurities or irregularities.",
+        "3. If necessary, sand the edges to achieve a smooth finish using 120-grit sandpaper.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any impurities or irregularities. \n 3. If necessary, sand the edges to achieve a smooth finish using 120-grit sandpaper. \n 4. Optionally, seal the surface with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3240506.0,
+      "density": 5282.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2005875.0,
+      "formation_energy_per_atom": -21957.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -7.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 2.2459,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ccbd700c5d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.471764Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr4Na4O16Sn4.json",
+      "material://Cr4Na4O16Sn4"
+    ]
+  }
+}

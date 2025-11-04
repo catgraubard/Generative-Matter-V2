@@ -1,0 +1,131 @@
+{
+  "id": "Al18Ni3Ru3Tm4",
+  "uri": "material://Al18Ni3Ru3Tm4",
+  "composition": {
+    "formula": "Al18Ni3Ru3Tm4",
+    "elements": {
+      "Al": 18,
+      "Ni": 3,
+      "Ru": 3,
+      "Tm": 4
+    },
+    "reduced_formula": "Tm4Al18(NiRu)3",
+    "element_list": [
+      "Al",
+      "Ni",
+      "Ru",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 100 g \n Fe: 40 g \n Sm: 20 g \n Y: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Specialty metal suppliers or online metal distributors. \n Fe (Iron): Local hardware stores or online suppliers. \n Sm (Samarium): Rare earth metal suppliers or online distributors. \n Y (Yttrium): Rare earth metal suppliers or online distributors.",
+      "steps": [
+        "Co (Cobalt): Specialty metal suppliers or online metal distributors.",
+        "Fe (Iron): Local hardware stores or online suppliers.",
+        "Sm (Samarium): Rare earth metal suppliers or online distributors.",
+        "Y (Yttrium): Rare earth metal suppliers or online distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 100 g of cobalt, 40 g of iron, 20 g of samarium, and 20 g of yttrium using a precision scale.",
+        "2. Place all measured metals into a clean, dry mixing container.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders for at least 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out 100 g of cobalt, 40 g of iron, 20 g of samarium, and 20 g of yttrium using a precision scale. \n 2. Place all measured metals into a clean, dry mixing container. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders for at least 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1000°C.",
+        "2. Transfer the mixed powders into a suitable crucible.",
+        "3. Place the crucible inside the furnace and heat for 2 hours at 1000°C under a vacuum to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1000°C. \n 2. Transfer the mixed powders into a suitable crucible. \n 3. Place the crucible inside the furnace and heat for 2 hours at 1000°C under a vacuum to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 4-6 hours.",
+        "2. Ensure the crucible remains closed during cooling to avoid contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 4-6 hours. \n 2. Ensure the crucible remains closed during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if the sample will be exposed to environmental conditions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if the sample will be exposed to environmental conditions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 455064.0,
+      "density": 59869.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1481647.0,
+      "formation_energy_per_atom": -6313.0,
+      "decomposition_energy_per_atom": -239.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -37.0,
+      "decomposition_energy_mp": -238.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": 0.0159,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "df99d8c3ec",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.594308Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al18Ni3Ru3Tm4.json",
+      "material://Al18Ni3Ru3Tm4"
+    ]
+  }
+}

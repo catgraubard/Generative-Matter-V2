@@ -1,0 +1,111 @@
+{
+  "id": "Al8Be2Cu16Sr2",
+  "uri": "material://Al8Be2Cu16Sr2",
+  "composition": {
+    "formula": "Al8Be2Cu16Sr2",
+    "elements": {
+      "Al": 8,
+      "Be": 2,
+      "Cu": 16,
+      "Sr": 2
+    },
+    "reduced_formula": "SrBe(AlCu2)4",
+    "element_list": [
+      "Be",
+      "Al",
+      "Cu",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum (Al): 80 g\nBeryllium (Be): 20 g\nCopper (Cu): 320 g\nStrontium (Sr): 40 g"
+    },
+    "sourcing": {
+      "instructions": "Aluminum: Local metal supply stores or online metal suppliers.\nBeryllium: Specialty metal suppliers, often requiring special handling due to toxicity.\nCopper: Electrical supply stores or metal fabricators.\nStrontium: Chemical supply companies or online metal suppliers.",
+      "steps": [
+        "Aluminum: Local metal supply stores or online metal suppliers.",
+        "Beryllium: Specialty metal suppliers, often requiring special handling due to toxicity.",
+        "Copper: Electrical supply stores or metal fabricators.",
+        "Strontium: Chemical supply companies or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using a precise digital scale.",
+        "2. Cut aluminum and copper into small pieces (1 cm x 1 cm) for easier mixing.",
+        "3. Ensure gloves and safety goggles are worn when handling beryllium.",
+        "4. In a clean, dry container, combine all weighed materials thoroughly to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out each material using a precise digital scale.\n2. Cut aluminum and copper into small pieces (1 cm x 1 cm) for easier mixing.\n3. Ensure gloves and safety goggles are worn when handling beryllium.\n4. In a clean, dry container, combine all weighed materials thoroughly to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Place the mixture in a furnace or a crucible.",
+        "2. Heat the mixture gradually to 800°C (1472°F) over 30 minutes.",
+        "3. Maintain this temperature for 1 hour to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Place the mixture in a furnace or a crucible.\n2. Heat the mixture gradually to 800°C (1472°F) over 30 minutes.\n3. Maintain this temperature for 1 hour to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. Remove the crucible from the furnace using appropriate safety equipment.",
+        "2. Allow the material to cool in air for 2 hours until it reaches ambient temperature.",
+        "3. Optionally, place the cooled material in an inert atmosphere (e.g., argon) to prevent oxidation during cooling."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace using appropriate safety equipment.\n2. Allow the material to cool in air for 2 hours until it reaches ambient temperature.\n3. Optionally, place the cooled material in an inert atmosphere (e.g., argon) to prevent oxidation during cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder or file to smooth surfaces and achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally apply a sealant to enhance corrosion resistance, if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use a grinder or file to smooth surfaces and achieve desired dimensions (3 inches x 2 inches x 7 inches).\n3. Optionally apply a sealant to enhance corrosion resistance, if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4020775.0,
+      "density": 58886.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1136253.0,
+      "formation_energy_per_atom": -2577.0,
+      "decomposition_energy_per_atom": -585.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -132.0,
+      "decomposition_energy_mp": -585.0,
+      "decomposition_energy_mp_oqmd": -377.0
+    },
+    "electronic": {
+      "bandgap": 0.0022,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3a54aeaccd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:32.429135Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al8Be2Cu16Sr2.json",
+      "material://Al8Be2Cu16Sr2"
+    ]
+  }
+}

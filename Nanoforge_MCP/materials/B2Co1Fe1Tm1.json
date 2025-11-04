@@ -1,0 +1,135 @@
+{
+  "id": "B2Co1Fe1Tm1",
+  "uri": "material://B2Co1Fe1Tm1",
+  "composition": {
+    "formula": "B2Co1Fe1Tm1",
+    "elements": {
+      "B": 2,
+      "Co": 1,
+      "Fe": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "TmFeCoB2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Co",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30 g \n Co: 15 g \n Fe: 15 g \n Tm: 5 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Available from chemical supply stores or online suppliers. \n Co (Cobalt): Obtain from chemical supply stores or metal suppliers. \n Fe (Iron): Available from hardware stores or metal suppliers. \n Tm (Thulium): Purchase from specialized chemical suppliers or online.",
+      "steps": [
+        "B (Boron): Available from chemical supply stores or online suppliers.",
+        "Co (Cobalt): Obtain from chemical supply stores or metal suppliers.",
+        "Fe (Iron): Available from hardware stores or metal suppliers.",
+        "Tm (Thulium): Purchase from specialized chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 30 g of Boron using a precise balance.",
+        "2. Measure 15 g of Cobalt.",
+        "3. Measure 15 g of Iron.",
+        "4. Measure 5 g of Thulium.",
+        "5. In a clean, dry container, combine all measured materials.",
+        "6. Mix thoroughly using a spatula or mechanical mixer for 5 minutes until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Measure 30 g of Boron using a precise balance. \n 2. Measure 15 g of Cobalt. \n 3. Measure 15 g of Iron. \n 4. Measure 5 g of Thulium. \n 5. In a clean, dry container, combine all measured materials. \n 6. Mix thoroughly using a spatula or mechanical mixer for 5 minutes until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1200°C (2192°F).",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and fusion."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 1200°C (2192°F). \n 3. Maintain this temperature for 2 hours to ensure complete reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C or 77°F) over 4-6 hours.",
+        "2. Do not open the furnace until it has cooled down to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C or 77°F) over 4-6 hours. \n 2. Do not open the furnace until it has cooled down to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. Use sandpaper (grit 120-400) to smooth the surface if necessary.",
+        "4. Optionally, seal the surface with a suitable resin or coating for added protection.",
+        "5. Label the finished sample with composition and date."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. Use sandpaper (grit 120-400) to smooth the surface if necessary. \n 4. Optionally, seal the surface with a suitable resin or coating for added protection. \n 5. Label the finished sample with composition and date."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 58951.0,
+      "density": 86007.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -360808.0,
+      "formation_energy_per_atom": -5336.0,
+      "decomposition_energy_per_atom": -297.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -28.0,
+      "decomposition_energy_mp": -296.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "421fc64c2f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:42.529942Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co1Fe1Tm1.json",
+      "material://B2Co1Fe1Tm1"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "Cs3K4Rb1Te12Zr4",
+  "uri": "material://Cs3K4Rb1Te12Zr4",
+  "composition": {
+    "formula": "Cs3K4Rb1Te12Zr4",
+    "elements": {
+      "Cs": 3,
+      "K": 4,
+      "Rb": 1,
+      "Te": 12,
+      "Zr": 4
+    },
+    "reduced_formula": "Cs3K4Rb(ZrTe3)4",
+    "element_list": [
+      "K",
+      "Rb",
+      "Zr",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 45.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 45.0 g, K: 12.0 g, Rb: 3.0 g, Te: 180.0 g, Zr: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company (e.g., Sigma-Aldrich); K: Potassium can be sourced from a chemical supplier; Rb: Buy from chemical suppliers; Te: Purchase from specialty metal suppliers; Zr: Obtain from metal supply companies.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company (e.g., Sigma-Aldrich); K: Potassium can be sourced from a chemical supplier; Rb: Buy from chemical suppliers; Te: Purchase from specialty metal suppliers; Zr: Obtain from metal supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a precision scale.",
+        "2. In a clean, dry glass container, add Cs (45.0 g), K (12.0 g), Rb (3.0 g), Te (180.0 g), and Zr (30.0 g).",
+        "3. Stir the mixture thoroughly until all components are homogeneously combined."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a precision scale. \n 2. In a clean, dry glass container, add Cs (45.0 g), K (12.0 g), Rb (3.0 g), Te (180.0 g), and Zr (30.0 g). \n 3. Stir the mixture thoroughly until all components are homogeneously combined."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed ingredients to a high-temperature furnace.",
+        "2. Heat the mixture to 800 °C (1472 °F) at a rate of 5 °C/min.",
+        "3. Maintain this temperature for 2 hours for complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a high-temperature furnace. \n 2. Heat the mixture to 800 °C (1472 °F) at a rate of 5 °C/min. \n 3. Maintain this temperature for 2 hours for complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally over 6 hours.",
+        "2. Ensure the furnace door remains closed during cooling to avoid contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally over 6 hours. \n 2. Ensure the furnace door remains closed during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the furnace.",
+        "2. Use fine-grit sandpaper to smooth any rough edges.",
+        "3. If necessary, apply a sealant to enhance surface finish and durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the furnace. \n 2. Use fine-grit sandpaper to smooth any rough edges. \n 3. If necessary, apply a sealant to enhance surface finish and durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 9498598.0,
+      "density": 44346.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -109933.0,
+      "formation_energy_per_atom": -12464.0,
+      "decomposition_energy_per_atom": -501.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -491.0,
+      "decomposition_energy_mp_oqmd": -73.0
+    },
+    "electronic": {
+      "bandgap": 0.5383,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9f34061394",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:44.959013Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3K4Rb1Te12Zr4.json",
+      "material://Cs3K4Rb1Te12Zr4"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "Co4Er3Fe4O20Tb1",
+  "uri": "material://Co4Er3Fe4O20Tb1",
+  "composition": {
+    "formula": "Co4Er3Fe4O20Tb1",
+    "elements": {
+      "Co": 4,
+      "Er": 3,
+      "Fe": 4,
+      "O": 20,
+      "Tb": 1
+    },
+    "reduced_formula": "TbEr3Fe4(CoO5)4",
+    "element_list": [
+      "O",
+      "Fe",
+      "Co",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 0.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi2O3: 1.5 g \n Nd2O3: 0.5 g \n Pr6O11: 0.8 g \n Se: 0.2 g \n Total: 3.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bi2O3: Chemical supply stores or online suppliers (e.g. Sigma-Aldrich) \n Nd2O3: Chemical supply stores or online suppliers \n Pr6O11: Chemical supply stores or online suppliers \n Se: Chemical supply stores or online suppliers",
+      "steps": [
+        "Bi2O3: Chemical supply stores or online suppliers (e.g. Sigma-Aldrich)",
+        "Nd2O3: Chemical supply stores or online suppliers",
+        "Pr6O11: Chemical supply stores or online suppliers",
+        "Se: Chemical supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of Bi2O3, Nd2O3, Pr6O11, and Se using a precision balance.",
+        "2. In a clean, dry beaker, combine Bi2O3 and Nd2O3 first. Stir with a glass rod until well mixed.",
+        "3. Gradually add Pr6O11 and mix thoroughly.",
+        "4. Finally, add Se and mix until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of Bi2O3, Nd2O3, Pr6O11, and Se using a precision balance. \n 2. In a clean, dry beaker, combine Bi2O3 and Nd2O3 first. Stir with a glass rod until well mixed. \n 3. Gradually add Pr6O11 and mix thoroughly. \n 4. Finally, add Se and mix until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat the crucible in a furnace to 800°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat the crucible in a furnace to 800°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If necessary, sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. If necessary, sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3550854.0,
+      "density": 67332.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2514339.0,
+      "formation_energy_per_atom": -22445.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -436.0,
+      "decomposition_energy_mp_oqmd": -433.0
+    },
+    "electronic": {
+      "bandgap": 0.5943,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9dcedfc5a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.948411Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Er3Fe4O20Tb1.json",
+      "material://Co4Er3Fe4O20Tb1"
+    ]
+  }
+}

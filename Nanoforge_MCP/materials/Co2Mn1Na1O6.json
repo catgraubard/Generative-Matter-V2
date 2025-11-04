@@ -1,0 +1,113 @@
+{
+  "id": "Co2Mn1Na1O6",
+  "uri": "material://Co2Mn1Na1O6",
+  "composition": {
+    "formula": "Co2Mn1Na1O6",
+    "elements": {
+      "Co": 2,
+      "Mn": 1,
+      "Na": 1,
+      "O": 6
+    },
+    "reduced_formula": "NaMn(CoO3)2",
+    "element_list": [
+      "O",
+      "Na",
+      "Mn",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 50 g \n Antimony (Sb): 10 g \n Terbium (Tb): 50 g \n Yttrium (Y): 70 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Purchase from a chemical supply company or metal supplier. \n Antimony: Available from chemical suppliers or online marketplaces. \n Terbium: Obtain from rare earth metal suppliers or online vendors. \n Yttrium: Can be sourced from chemical suppliers or specialty metal suppliers.",
+      "steps": [
+        "Cobalt: Purchase from a chemical supply company or metal supplier.",
+        "Antimony: Available from chemical suppliers or online marketplaces.",
+        "Terbium: Obtain from rare earth metal suppliers or online vendors.",
+        "Yttrium: Can be sourced from chemical suppliers or specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each material using a precision scale.",
+        "2. In a clean, dry mixing container, add the cobalt powder first.",
+        "3. Gradually add the antimony powder while continuously stirring to ensure even distribution.",
+        "4. Add the terbium and yttrium powders in the same manner, mixing thoroughly for at least 10 minutes to ensure homogeneity.",
+        "5. Transfer the mixed powder to a pressing die suitable for the desired dimensions."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each material using a precision scale. \n 2. In a clean, dry mixing container, add the cobalt powder first. \n 3. Gradually add the antimony powder while continuously stirring to ensure even distribution. \n 4. Add the terbium and yttrium powders in the same manner, mixing thoroughly for at least 10 minutes to ensure homogeneity. \n 5. Transfer the mixed powder to a pressing die suitable for the desired dimensions."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Once at temperature, place the pressing die containing the mixed powder into the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure proper sintering and bonding of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Once at temperature, place the pressing die containing the mixed powder into the furnace. \n 3. Maintain this temperature for 2 hours to ensure proper sintering and bonding of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours).",
+        "3. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours). \n 3. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the die once completely cooled.",
+        "2. Inspect the sample for any imperfections or rough edges.",
+        "3. If needed, sand down any rough surfaces using fine-grit sandpaper (e.g., 400-grit).",
+        "4. Optionally, apply a sealant or coating to enhance surface durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the die once completely cooled. \n 2. Inspect the sample for any imperfections or rough edges. \n 3. If needed, sand down any rough surfaces using fine-grit sandpaper (e.g., 400-grit). \n 4. Optionally, apply a sealant or coating to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1193155.0,
+      "density": 40609.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -702051.0,
+      "formation_energy_per_atom": -15816.0,
+      "decomposition_energy_per_atom": -158.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -164.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 1.4525,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb255e9a6d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.589965Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Mn1Na1O6.json",
+      "material://Co2Mn1Na1O6"
+    ]
+  }
+}

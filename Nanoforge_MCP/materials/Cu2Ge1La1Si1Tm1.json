@@ -1,0 +1,115 @@
+{
+  "id": "Cu2Ge1La1Si1Tm1",
+  "uri": "material://Cu2Ge1La1Si1Tm1",
+  "composition": {
+    "formula": "Cu2Ge1La1Si1Tm1",
+    "elements": {
+      "Cu": 2,
+      "Ge": 1,
+      "La": 1,
+      "Si": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "LaTmCu2SiGe",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ge",
+      "La",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 12.5 g, Ge: 6.25 g, La: 6.25 g, Si: 6.25 g, Tm: 6.25 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Metal supplier or online chemical vendor, Ge: Specialty materials supplier, La: Rare earth supplier, Si: Electronics store, Tm: Rare earth supplier",
+      "steps": [
+        "Cu: Metal supplier or online chemical vendor, Ge: Specialty materials supplier, La: Rare earth supplier, Si: Electronics store, Tm: Rare earth supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. Place Cu, Ge, La, Si, and Tm in a clean, dry mixing container.",
+        "3. Use a mechanical stirrer for uniform mixing for at least 10 minutes.",
+        "4. Ensure the mixture is homogenous with no visible clumps."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. Place Cu, Ge, La, Si, and Tm in a clean, dry mixing container. \n 3. Use a mechanical stirrer for uniform mixing for at least 10 minutes. \n 4. Ensure the mixture is homogenous with no visible clumps."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace.",
+        "2. Heat to 1100 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace. \n 2. Heat to 1100 °C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door during cooling to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace carefully.",
+        "2. Inspect for any surface irregularities and use fine sandpaper to smooth surfaces if necessary.",
+        "3. Optionally, apply a sealant for protection against environmental factors."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace carefully. \n 2. Inspect for any surface irregularities and use fine sandpaper to smooth surfaces if necessary. \n 3. Optionally, apply a sealant for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1195183.0,
+      "density": 74422.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -315448.0,
+      "formation_energy_per_atom": -6477.0,
+      "decomposition_energy_per_atom": -57.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -55.0,
+      "decomposition_energy_mp_oqmd": -52.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "77bcf627bc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:52.288214Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ge1La1Si1Tm1.json",
+      "material://Cu2Ge1La1Si1Tm1"
+    ]
+  }
+}

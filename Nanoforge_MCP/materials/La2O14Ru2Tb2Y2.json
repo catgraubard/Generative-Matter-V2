@@ -1,0 +1,123 @@
+{
+  "id": "La2O14Ru2Tb2Y2",
+  "uri": "material://La2O14Ru2Tb2Y2",
+  "composition": {
+    "formula": "La2O14Ru2Tb2Y2",
+    "elements": {
+      "La": 2,
+      "O": 14,
+      "Ru": 2,
+      "Tb": 2,
+      "Y": 2
+    },
+    "reduced_formula": "LaTbYRuO7",
+    "element_list": [
+      "O",
+      "Y",
+      "Ru",
+      "La",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 20.0 g \n Ru: 10.0 g \n Tb2O3: 15.0 g \n Y2O3: 5.0 g \n Binder (e.g., PVA): 5.0 g \n Solvent (e.g., water): 50.0 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply companies or online chemical suppliers \n Ru: Precious metals suppliers or online marketplaces \n Tb2O3: Chemical supply companies or online chemical suppliers \n Y2O3: Chemical supply companies or online chemical suppliers \n Binder: Local craft stores or online suppliers \n Solvent: Any local hardware or craft store",
+      "steps": [
+        "La2O3: Chemical supply companies or online chemical suppliers",
+        "Ru: Precious metals suppliers or online marketplaces",
+        "Tb2O3: Chemical supply companies or online chemical suppliers",
+        "Y2O3: Chemical supply companies or online chemical suppliers",
+        "Binder: Local craft stores or online suppliers",
+        "Solvent: Any local hardware or craft store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 20.0 g of La2O3, 10.0 g of Ru, 15.0 g of Tb2O3, and 5.0 g of Y2O3 using an analytical balance.",
+        "2. In a clean glass container, combine the measured oxides.",
+        "3. Add 5.0 g of PVA binder and 50.0 g of water to the mixture.",
+        "4. Stir the mixture thoroughly with a glass rod until a homogenous paste is formed."
+      ],
+      "raw_text": "1. Measure out 20.0 g of La2O3, 10.0 g of Ru, 15.0 g of Tb2O3, and 5.0 g of Y2O3 using an analytical balance. \n 2. In a clean glass container, combine the measured oxides. \n 3. Add 5.0 g of PVA binder and 50.0 g of water to the mixture. \n 4. Stir the mixture thoroughly with a glass rod until a homogenous paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure proper synthesis."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure proper synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 20°C) for about 4 hours.",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 20°C) for about 4 hours. \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any irregularities.",
+        "2. If necessary, use fine-grit sandpaper to smooth out the surface.",
+        "3. Optionally, apply a sealant if chemical stability or moisture resistance is required.",
+        "4. Allow the sealant to cure as per product instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Inspect the solid sample for any irregularities. \n 2. If necessary, use fine-grit sandpaper to smooth out the surface. \n 3. Optionally, apply a sealant if chemical stability or moisture resistance is required. \n 4. Allow the sealant to cure as per product instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2992382.0,
+      "density": 66569.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1899863.0,
+      "formation_energy_per_atom": -3186.0,
+      "decomposition_energy_per_atom": -229.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -153.0,
+      "decomposition_energy_mp_oqmd": -137.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a6d19569ae",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:55.364610Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2O14Ru2Tb2Y2.json",
+      "material://La2O14Ru2Tb2Y2"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "Ce2Cu20La2Zn4",
+  "uri": "material://Ce2Cu20La2Zn4",
+  "composition": {
+    "formula": "Ce2Cu20La2Zn4",
+    "elements": {
+      "Ce": 2,
+      "Cu": 20,
+      "La": 2,
+      "Zn": 4
+    },
+    "reduced_formula": "LaCe(ZnCu5)2",
+    "element_list": [
+      "Cu",
+      "Zn",
+      "La",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CeO2: 20 g \n Cu: 10 g \n La: 15 g \n Zn: 8 g"
+    },
+    "sourcing": {
+      "instructions": "CeO2: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Cu: Metal suppliers or hardware stores \n La: Chemical supply stores \n Zn: Metal suppliers or online retailers",
+      "steps": [
+        "CeO2: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Cu: Metal suppliers or hardware stores",
+        "La: Chemical supply stores",
+        "Zn: Metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine CeO2, Cu, La, and Zn in the specified amounts.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture to a mortar and grind it with a pestle for about 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out each material accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine CeO2, Cu, La, and Zn in the specified amounts. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture to a mortar and grind it with a pestle for about 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the crucible in the furnace for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature gradually (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature gradually (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120-220) to smooth the edges and surface if necessary.",
+        "3. Optionally, apply a sealing agent to enhance surface finish and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120-220) to smooth the edges and surface if necessary. \n 3. Optionally, apply a sealing agent to enhance surface finish and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4269458.0,
+      "density": 81311.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1137127.0,
+      "formation_energy_per_atom": -1768.0,
+      "decomposition_energy_per_atom": -19.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -19.0,
+      "decomposition_energy_mp_oqmd": -116.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a75d2ff71e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:56.060284Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce2Cu20La2Zn4.json",
+      "material://Ce2Cu20La2Zn4"
+    ]
+  }
+}

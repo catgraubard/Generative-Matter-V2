@@ -1,0 +1,141 @@
+{
+  "id": "B2Co6Fe2Sm1Tb1",
+  "uri": "material://B2Co6Fe2Sm1Tb1",
+  "composition": {
+    "formula": "B2Co6Fe2Sm1Tb1",
+    "elements": {
+      "B": 2,
+      "Co": 6,
+      "Fe": 2,
+      "Sm": 1,
+      "Tb": 1
+    },
+    "reduced_formula": "TbSmFe2(Co3B)2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Co",
+      "Sm",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n Co: 30 g \n Fe: 15 g \n Sm: 5 g \n Tb: 5 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich) \n Co: Order from a metal supplier or online (e.g., Alfa Aesar) \n Fe: Available at a hardware store or online (e.g., McMaster-Carr) \n Sm: Obtain from a rare earth material supplier \n Tb: Purchase from a rare earth material supplier",
+      "steps": [
+        "B: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich)",
+        "Co: Order from a metal supplier or online (e.g., Alfa Aesar)",
+        "Fe: Available at a hardware store or online (e.g., McMaster-Carr)",
+        "Sm: Obtain from a rare earth material supplier",
+        "Tb: Purchase from a rare earth material supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine B, Co, Fe, Sm, and Tb in the specified amounts.",
+        "3. Use a mechanical stirrer or mortar and pestle to mix the powders thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine B, Co, Fe, Sm, and Tb in the specified amounts. \n 3. Use a mechanical stirrer or mortar and pestle to mix the powders thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a graphite crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1200°C at a rate of 10°C/min.",
+        "4. Maintain at 1200°C for 2 hours to allow for full reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a graphite crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 1200°C at a rate of 10°C/min. \n 4. Maintain at 1200°C for 2 hours to allow for full reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure the cooling process takes at least 4 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure the cooling process takes at least 4 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample has cooled, remove it from the crucible carefully.",
+        "2. Inspect for any irregularities; if necessary, use a diamond file to smooth any rough edges.",
+        "3. Optionally, apply a sealant to enhance the surface finish and protect the material.",
+        "4. Let the sealant cure according to the manufacturer's instructions before use."
+      ],
+      "raw_text": "1. Once the sample has cooled, remove it from the crucible carefully. \n 2. Inspect for any irregularities; if necessary, use a diamond file to smooth any rough edges. \n 3. Optionally, apply a sealant to enhance the surface finish and protect the material. \n 4. Let the sealant cure according to the manufacturer's instructions before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1524458.0,
+      "density": 86727.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -858799.0,
+      "formation_energy_per_atom": -2982.0,
+      "decomposition_energy_per_atom": -133.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -36.0,
+      "decomposition_energy_mp": -128.0,
+      "decomposition_energy_mp_oqmd": -119.0
+    },
+    "electronic": {
+      "bandgap": 0.0026,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "451a269c46",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:46.422524Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co6Fe2Sm1Tb1.json",
+      "material://B2Co6Fe2Sm1Tb1"
+    ]
+  }
+}

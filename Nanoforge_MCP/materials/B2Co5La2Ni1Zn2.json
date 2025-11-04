@@ -1,0 +1,137 @@
+{
+  "id": "B2Co5La2Ni1Zn2",
+  "uri": "material://B2Co5La2Ni1Zn2",
+  "composition": {
+    "formula": "B2Co5La2Ni1Zn2",
+    "elements": {
+      "B": 2,
+      "Co": 5,
+      "La": 2,
+      "Ni": 1,
+      "Zn": 2
+    },
+    "reduced_formula": "La2Zn2Co5NiB2",
+    "element_list": [
+      "B",
+      "Co",
+      "Ni",
+      "Zn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g\nCo: 10 g\nLa: 15 g\nNi: 5 g\nZn: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online suppliers\nCo: Metal supply stores or online suppliers\nLa: Rare earth metal suppliers\nNi: Metal supply stores\nZn: Metal supply stores or online suppliers",
+      "steps": [
+        "B: Chemical supply stores or online suppliers",
+        "Co: Metal supply stores or online suppliers",
+        "La: Rare earth metal suppliers",
+        "Ni: Metal supply stores",
+        "Zn: Metal supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, add B, Co, La, Ni, and Zn in the specified amounts.",
+        "3. Mix thoroughly using a mechanical stirrer for 15 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale.\n2. In a clean, dry mixing container, add B, Co, La, Ni, and Zn in the specified amounts.\n3. Mix thoroughly using a mechanical stirrer for 15 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible.",
+        "2. Heat the crucible in a furnace to 1000°C for 2 hours to facilitate the bonding of materials."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible.\n2. Heat the crucible in a furnace to 1000°C for 2 hours to facilitate the bonding of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours).\n2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the surfaces with 400-grit sandpaper for a smooth finish.",
+        "3. Optionally, seal the surface with a suitable coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Sand the surfaces with 400-grit sandpaper for a smooth finish.\n3. Optionally, seal the surface with a suitable coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1616681.0,
+      "density": 80487.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmm2",
+      "space_group_number": 35,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -714045.0,
+      "formation_energy_per_atom": -361.0,
+      "decomposition_energy_per_atom": -274.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -271.0,
+      "decomposition_energy_mp_oqmd": -219.0
+    },
+    "electronic": {
+      "bandgap": 0.0026,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "053f7f90f3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:21.863430Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co5La2Ni1Zn2.json",
+      "material://B2Co5La2Ni1Zn2"
+    ]
+  }
+}

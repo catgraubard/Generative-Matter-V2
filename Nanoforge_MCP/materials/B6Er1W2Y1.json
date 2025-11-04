@@ -1,0 +1,112 @@
+{
+  "id": "B6Er1W2Y1",
+  "uri": "material://B6Er1W2Y1",
+  "composition": {
+    "formula": "B6Er1W2Y1",
+    "elements": {
+      "B": 6,
+      "Er": 1,
+      "W": 2,
+      "Y": 1
+    },
+    "reduced_formula": "YEr(B3W)2",
+    "element_list": [
+      "B",
+      "Y",
+      "Er",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 300.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 300 g, Te: 200 g, V: 100 g"
+    },
+    "sourcing": {
+      "instructions": "K: available from chemical suppliers; Te: can be sourced from electronics supply stores; V: obtainable from specialized metal alloy suppliers.",
+      "steps": [
+        "K: available from chemical suppliers; Te: can be sourced from electronics supply stores; V: obtainable from specialized metal alloy suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 300 g of potassium (K), 200 g of tellurium (Te), and 100 g of vanadium (V).",
+        "2. In a fume hood, combine K, Te, and V in a clean, dry ceramic bowl.",
+        "3. Mix thoroughly using a non-reactive spatula until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 300 g of potassium (K), 200 g of tellurium (Te), and 100 g of vanadium (V). \n 2. In a fume hood, combine K, Te, and V in a clean, dry ceramic bowl. \n 3. Mix thoroughly using a non-reactive spatula until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature resistance furnace.",
+        "2. Heat the mixture to 800°C (1472°F) for 2 hours.",
+        "3. Ensure the furnace atmosphere is inert, using argon gas to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature resistance furnace. \n 2. Heat the mixture to 800°C (1472°F) for 2 hours. \n 3. Ensure the furnace atmosphere is inert, using argon gas to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the furnace to cool naturally to room temperature (approximately 25°C) over a period of 4 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid oxidation."
+      ],
+      "raw_text": "1. After heating, allow the furnace to cool naturally to room temperature (approximately 25°C) over a period of 4 hours. \n 2. Do not open the furnace until it has cooled completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a fine-grit sandpaper to smooth the surfaces.",
+        "3. Optionally, seal the sample with a clear epoxy resin to protect it from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a fine-grit sandpaper to smooth the surfaces. \n 3. Optionally, seal the sample with a clear epoxy resin to protect it from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1148988.0,
+      "density": 99534.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -82941.0,
+      "formation_energy_per_atom": -5914.0,
+      "decomposition_energy_per_atom": -385.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -385.0,
+      "decomposition_energy_mp_oqmd": -383.0
+    },
+    "electronic": {
+      "bandgap": 0.0085,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e7ebe58212",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.790639Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Er1W2Y1.json",
+      "material://B6Er1W2Y1"
+    ]
+  }
+}

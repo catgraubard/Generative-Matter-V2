@@ -1,0 +1,114 @@
+{
+  "id": "Cu6Ga1O36Se12V3",
+  "uri": "material://Cu6Ga1O36Se12V3",
+  "composition": {
+    "formula": "Cu6Ga1O36Se12V3",
+    "elements": {
+      "Cu": 6,
+      "Ga": 1,
+      "O": 36,
+      "Se": 12,
+      "V": 3
+    },
+    "reduced_formula": "V3GaCu6(SeO3)12",
+    "element_list": [
+      "O",
+      "V",
+      "Cu",
+      "Ga",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 900.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 900 g, Ga: 150 g, O: 300 g, Se: 120 g, V: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier, Ga: Chemical supply store, O: Laboratory supply, Se: Chemical supply store, V: Local metal supplier",
+      "steps": [
+        "Cu: Local metal supplier, Ga: Chemical supply store, O: Laboratory supply, Se: Chemical supply store, V: Local metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient carefully using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Cu, Ga, O, Se, and V in the specified amounts.",
+        "3. Mix the ingredients thoroughly using a mortar and pestle or a mechanical mixer to ensure uniform distribution."
+      ],
+      "raw_text": "1. Measure each ingredient carefully using an analytical balance. \n 2. In a clean, dry mixing container, combine Cu, Ga, O, Se, and V in the specified amounts. \n 3. Mix the ingredients thoroughly using a mortar and pestle or a mechanical mixer to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace and heat to 900°C.",
+        "3. Maintain this temperature for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace and heat to 900°C. \n 3. Maintain this temperature for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the sample for any defects or irregularities.",
+        "3. If necessary, grind the sample to achieve a smooth surface using a fine-grit sandpaper.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the sample for any defects or irregularities. \n 3. If necessary, grind the sample to achieve a smooth surface using a fine-grit sandpaper. \n 4. Optionally, apply a sealant to protect the surface from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 58,
+      "volume": 8151105.0,
+      "density": 43338.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3554546.0,
+      "formation_energy_per_atom": -1388.0,
+      "decomposition_energy_per_atom": -53.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -47.0,
+      "decomposition_energy_mp": -52.0,
+      "decomposition_energy_mp_oqmd": -47.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4547feddcd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:46.653443Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu6Ga1O36Se12V3.json",
+      "material://Cu6Ga1O36Se12V3"
+    ]
+  }
+}

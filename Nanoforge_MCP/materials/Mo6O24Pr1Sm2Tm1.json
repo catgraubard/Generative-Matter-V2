@@ -1,0 +1,117 @@
+{
+  "id": "Mo6O24Pr1Sm2Tm1",
+  "uri": "material://Mo6O24Pr1Sm2Tm1",
+  "composition": {
+    "formula": "Mo6O24Pr1Sm2Tm1",
+    "elements": {
+      "Mo": 6,
+      "O": 24,
+      "Pr": 1,
+      "Sm": 2,
+      "Tm": 1
+    },
+    "reduced_formula": "PrSm2Tm(MoO4)6",
+    "element_list": [
+      "O",
+      "Mo",
+      "Pr",
+      "Sm",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 100 g, W: 45 g, Y: 40 g, Zr: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Si: Silicon powder from chemical suppliers or online marketplaces; W: Tungsten powder from specialized metal suppliers; Y: Yttrium oxide from chemical supply stores; Zr: Zirconium powder from metal suppliers.",
+      "steps": [
+        "Si: Silicon powder from chemical suppliers or online marketplaces; W: Tungsten powder from specialized metal suppliers; Y: Yttrium oxide from chemical supply stores; Zr: Zirconium powder from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of silicon powder.",
+        "2. Weigh out 45 g of tungsten powder.",
+        "3. Weigh out 40 g of yttrium oxide.",
+        "4. Weigh out 15 g of zirconium powder.",
+        "5. In a clean, dry mixing container, combine all weighed powders thoroughly using a spatula or mechanical mixer to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh out 100 g of silicon powder. \n 2. Weigh out 45 g of tungsten powder. \n 3. Weigh out 40 g of yttrium oxide. \n 4. Weigh out 15 g of zirconium powder. \n 5. In a clean, dry mixing container, combine all weighed powders thoroughly using a spatula or mechanical mixer to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1500°C.",
+        "2. Once the desired temperature is reached, transfer the mixed powders into a crucible compatible with high temperatures.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1500°C. \n 2. Once the desired temperature is reached, transfer the mixed powders into a crucible compatible with high temperatures. \n 3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly inside the furnace to avoid thermal shock.",
+        "2. Let it cool for approximately 6 hours or until it reaches room temperature."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly inside the furnace to avoid thermal shock. \n 2. Let it cool for approximately 6 hours or until it reaches room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface using fine-grit sandpaper (around 400 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if the material is prone to oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface using fine-grit sandpaper (around 400 grit) to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if the material is prone to oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 6183396.0,
+      "density": 42167.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2922621.0,
+      "formation_energy_per_atom": -26395.0,
+      "decomposition_energy_per_atom": -61.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -68.0,
+      "decomposition_energy_mp_oqmd": -68.0
+    },
+    "electronic": {
+      "bandgap": 3.5611,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cbeb27310f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.288565Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo6O24Pr1Sm2Tm1.json",
+      "material://Mo6O24Pr1Sm2Tm1"
+    ]
+  }
+}

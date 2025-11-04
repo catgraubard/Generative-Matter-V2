@@ -1,0 +1,114 @@
+{
+  "id": "Ba1K2O8Ru2",
+  "uri": "material://Ba1K2O8Ru2",
+  "composition": {
+    "formula": "Ba1K2O8Ru2",
+    "elements": {
+      "Ba": 1,
+      "K": 2,
+      "O": 8,
+      "Ru": 2
+    },
+    "reduced_formula": "K2Ba(RuO4)2",
+    "element_list": [
+      "O",
+      "K",
+      "Ru",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 12.0 g, Sn: 6.0 g, Tb: 8.0 g, Tm: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "P: Chemical supply store, Sn: Electronics supply store, Tb: Rare earth metal supplier, Tm: Specialized metal supplier",
+      "steps": [
+        "P: Chemical supply store, Sn: Electronics supply store, Tb: Rare earth metal supplier, Tm: Specialized metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear gloves and goggles for safety.",
+        "2. Measure each ingredient precisely using an analytical balance.",
+        "3. In a clean, dry mixing container, combine P, Sn, Tb, and Tm in the specified amounts.",
+        "4. Use a pestle and mortar to thoroughly mix the powders until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Wear gloves and goggles for safety. \n 2. Measure each ingredient precisely using an analytical balance. \n 3. In a clean, dry mixing container, combine P, Sn, Tb, and Tm in the specified amounts. \n 4. Use a pestle and mortar to thoroughly mix the powders until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a furnace to 1200°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat the crucible in a furnace to 1200°C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C).",
+        "2. This may take around 4-6 hours."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C). \n 2. This may take around 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any imperfections.",
+        "3. If necessary, use a diamond grinding tool to sand down any rough edges.",
+        "4. Optionally, seal the surface with a clear resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any imperfections. \n 3. If necessary, use a diamond grinding tool to sand down any rough edges. \n 4. Optionally, seal the surface with a clear resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2322149.0,
+      "density": 39019.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -868183.0,
+      "formation_energy_per_atom": -18882.0,
+      "decomposition_energy_per_atom": -364.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": -341.0
+    },
+    "electronic": {
+      "bandgap": 0.3878,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab2ee866b3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.781359Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1K2O8Ru2.json",
+      "material://Ba1K2O8Ru2"
+    ]
+  }
+}

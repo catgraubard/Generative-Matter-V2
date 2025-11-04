@@ -1,0 +1,114 @@
+{
+  "id": "Li30Sb2Sn6",
+  "uri": "material://Li30Sb2Sn6",
+  "composition": {
+    "formula": "Li30Sb2Sn6",
+    "elements": {
+      "Li": 30,
+      "Sb": 2,
+      "Sn": 6
+    },
+    "reduced_formula": "Li15Sn3Sb",
+    "element_list": [
+      "Li",
+      "Sn",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 30 g, Sb: 20 g, Sn: 60 g (Total: 110 g)"
+    },
+    "sourcing": {
+      "instructions": "Li: Obtain from a chemical supply company; Sb: Purchase from a metal supplier; Sn: Source from an electronics parts distributor.",
+      "steps": [
+        "Li: Obtain from a chemical supply company; Sb: Purchase from a metal supplier; Sn: Source from an electronics parts distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 30 g of lithium (Li) using an analytical balance.",
+        "2. Weigh 20 g of antimony (Sb).",
+        "3. Weigh 60 g of tin (Sn).",
+        "4. Combine the weighed materials in a clean, dry ceramic or glass mixing container.",
+        "5. Use a mortar and pestle or high-energy ball mill to mix the powders thoroughly for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh 30 g of lithium (Li) using an analytical balance. \n 2. Weigh 20 g of antimony (Sb). \n 3. Weigh 60 g of tin (Sn). \n 4. Combine the weighed materials in a clean, dry ceramic or glass mixing container. \n 5. Use a mortar and pestle or high-energy ball mill to mix the powders thoroughly for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible (e.g., alumina or graphite).",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 800 °C at a rate of 5 °C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and formation of Li30Sb2Sn6."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible (e.g., alumina or graphite). \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 800 °C at a rate of 5 °C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and formation of Li30Sb2Sn6."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 23 °C).",
+        "2. Avoid opening the furnace until it has cooled to prevent contamination and oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 23 °C). \n 2. Avoid opening the furnace until it has cooled to prevent contamination and oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw or file to cut the solid sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw or file to cut the solid sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 7110182.0,
+      "density": 27185.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1060108.0,
+      "formation_energy_per_atom": -4323.0,
+      "decomposition_energy_per_atom": -33.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -68.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.0864,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "05b65b3ca3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:22.486137Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li30Sb2Sn6.json",
+      "material://Li30Sb2Sn6"
+    ]
+  }
+}

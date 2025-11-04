@@ -1,0 +1,124 @@
+{
+  "id": "Ga2Na12Sb6",
+  "uri": "material://Ga2Na12Sb6",
+  "composition": {
+    "formula": "Ga2Na12Sb6",
+    "elements": {
+      "Ga": 2,
+      "Na": 12,
+      "Sb": 6
+    },
+    "reduced_formula": "Na6GaSb3",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 94.6,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 276.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 1.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 94.6 g (for 2 moles) \n Na: 276.0 g (for 12 moles) \n Sb: 1.2 g (for 0.5 moles)"
+    },
+    "sourcing": {
+      "instructions": "Ga (Gallium) can be purchased from chemical supply companies or online retailers specializing in metals. \n Na (Sodium) can be sourced from chemical suppliers, ensuring it is in a suitable form (e.g., sodium metal). \n Sb (Antimony) can be obtained from metal suppliers or online chemical retailers.",
+      "steps": [
+        "Ga (Gallium) can be purchased from chemical supply companies or online retailers specializing in metals.",
+        "Na (Sodium) can be sourced from chemical suppliers, ensuring it is in a suitable form (e.g., sodium metal).",
+        "Sb (Antimony) can be obtained from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a well-ventilated fume hood, carefully weigh out 94.6 g of Gallium, 276.0 g of Sodium, and 1.2 g of Antimony using an analytical balance.",
+        "2. Place the Ga and Sb into a clean, heat-resistant ceramic or quartz crucible.",
+        "3. Slowly add the Na to the crucible while stirring gently with a non-reactive stirrer (like graphite) to ensure even distribution.",
+        "4. Make sure to handle Na with care, as it is highly reactive with moisture."
+      ],
+      "raw_text": "1. In a well-ventilated fume hood, carefully weigh out 94.6 g of Gallium, 276.0 g of Sodium, and 1.2 g of Antimony using an analytical balance. \n 2. Place the Ga and Sb into a clean, heat-resistant ceramic or quartz crucible. \n 3. Slowly add the Na to the crucible while stirring gently with a non-reactive stirrer (like graphite) to ensure even distribution. \n 4. Make sure to handle Na with care, as it is highly reactive with moisture."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat gradually to 300 °C at a rate of 10 °C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Ga2Na12Sb6."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat gradually to 300 °C at a rate of 10 °C per minute. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Ga2Na12Sb6."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking or structural defects in the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking or structural defects in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any imperfections.",
+        "3. If necessary, use a diamond file or sandpaper to smooth out rough edges and surfaces.",
+        "4. Optionally, seal the sample with a protective coating to prevent oxidation, especially for Ga and Na."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any imperfections. \n 3. If necessary, use a diamond file or sandpaper to smooth out rough edges and surfaces. \n 4. Optionally, seal the sample with a protective coating to prevent oxidation, especially for Ga and Na."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 6049773.0,
+      "density": 31452.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -556724.0,
+      "formation_energy_per_atom": -4486.0,
+      "decomposition_energy_per_atom": -128.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -28.0,
+      "decomposition_energy_mp": -128.0,
+      "decomposition_energy_mp_oqmd": -118.0
+    },
+    "electronic": {
+      "bandgap": 0.7654,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7f2654b837",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:01.972617Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Na12Sb6.json",
+      "material://Ga2Na12Sb6"
+    ]
+  }
+}

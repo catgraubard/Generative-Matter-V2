@@ -1,0 +1,140 @@
+{
+  "id": "Co1Fe1P1Si1Tb1",
+  "uri": "material://Co1Fe1P1Si1Tb1",
+  "composition": {
+    "formula": "Co1Fe1P1Si1Tb1",
+    "elements": {
+      "Co": 1,
+      "Fe": 1,
+      "P": 1,
+      "Si": 1,
+      "Tb": 1
+    },
+    "reduced_formula": "TbFeCoSiP",
+    "element_list": [
+      "Si",
+      "P",
+      "Fe",
+      "Co",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 50 g  \n Fe: 50 g  \n P: 30 g  \n Si: 40 g  \n Tb: 10 g  \n (Total: 180 g)"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier (e.g., Sigma-Aldrich or similar) \n Fe: Obtain from a metals supplier \n P: Available at chemical supply stores \n Si: Buy from electronics suppliers \n Tb: Source from specialized rare earth suppliers",
+      "steps": [
+        "Co: Purchase from a chemical supplier (e.g., Sigma-Aldrich or similar)",
+        "Fe: Obtain from a metals supplier",
+        "P: Available at chemical supply stores",
+        "Si: Buy from electronics suppliers",
+        "Tb: Source from specialized rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Accurately weigh each ingredient using a precision balance.",
+        "2. In a clean, dry mixing container, combine Co, Fe, P, Si, and Tb powders.",
+        "3. Use a mortar and pestle or mechanical mixer to blend the powders thoroughly for at least 15 minutes."
+      ],
+      "raw_text": "1. Accurately weigh each ingredient using a precision balance. \n 2. In a clean, dry mixing container, combine Co, Fe, P, Si, and Tb powders. \n 3. Use a mortar and pestle or mechanical mixer to blend the powders thoroughly for at least 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Heat in a muffle furnace to 1000 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Heat in a muffle furnace to 1000 °C at a rate of 5 °C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample to achieve the desired particle size.",
+        "3. Seal the sample with an appropriate resin for protection if required.",
+        "4. Sand the edges to achieve a smooth finish if desired."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, grind the sample to achieve the desired particle size. \n 3. Seal the sample with an appropriate resin for protection if required. \n 4. Sand the edges to achieve a smooth finish if desired."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 715998.0,
+      "density": 77174.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -355804.0,
+      "formation_energy_per_atom": -9058.0,
+      "decomposition_energy_per_atom": -38.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -36.0,
+      "decomposition_energy_mp_oqmd": -22.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1f7562094f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:56.906229Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe1P1Si1Tb1.json",
+      "material://Co1Fe1P1Si1Tb1"
+    ]
+  }
+}

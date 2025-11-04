@@ -1,0 +1,136 @@
+{
+  "id": "Cu4La1Nd2O2P4",
+  "uri": "material://Cu4La1Nd2O2P4",
+  "composition": {
+    "formula": "Cu4La1Nd2O2P4",
+    "elements": {
+      "Cu": 4,
+      "La": 1,
+      "Nd": 2,
+      "O": 2,
+      "P": 4
+    },
+    "reduced_formula": "LaNd2Cu4(P2O)2",
+    "element_list": [
+      "O",
+      "P",
+      "Cu",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 128.2,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 20.5,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 41.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 23.9,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 128.2 g \n La: 20.5 g \n Nd: 41.0 g \n O: 32.0 g (from 4 moles of O) \n P: 23.9 g (from 4 moles of P)"
+    },
+    "sourcing": {
+      "instructions": "Cu can be sourced from copper metal scraps or purchased as copper powder from chemical suppliers. \n La, Nd, and P can be obtained from rare earth metal suppliers or chemical vendors. \n Oxygen can be sourced from a chemical supplier or generated through water electrolysis (if required).",
+      "steps": [
+        "Cu can be sourced from copper metal scraps or purchased as copper powder from chemical suppliers.",
+        "La, Nd, and P can be obtained from rare earth metal suppliers or chemical vendors.",
+        "Oxygen can be sourced from a chemical supplier or generated through water electrolysis (if required)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 128.2 g of Cu, 20.5 g of La, 41.0 g of Nd, 32.0 g of O, and 23.9 g of P using a precise analytical balance.",
+        "2. In a clean, dry container, mix the weighed amounts of Cu, La, Nd, O, and P thoroughly to ensure homogeneity.",
+        "3. Transfer the mixture to a mortar and grind for 10 minutes to achieve a fine powder."
+      ],
+      "raw_text": "1. Weigh out 128.2 g of Cu, 20.5 g of La, 41.0 g of Nd, 32.0 g of O, and 23.9 g of P using a precise analytical balance. \n 2. In a clean, dry container, mix the weighed amounts of Cu, La, Nd, O, and P thoroughly to ensure homogeneity. \n 3. Transfer the mixture to a mortar and grind for 10 minutes to achieve a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace for 4 hours to facilitate the solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Heat the crucible in the furnace for 4 hours to facilitate the solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once at room temperature, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once at room temperature, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solidified sample for uniformity and structural integrity.",
+        "2. If necessary, sand the edges of the sample for a smoother finish using 120-grit sandpaper.",
+        "3. Optionally, apply a sealant to enhance durability and finish if the sample will be exposed to the environment."
+      ],
+      "raw_text": "1. Inspect the solidified sample for uniformity and structural integrity. \n 2. If necessary, sand the edges of the sample for a smoother finish using 120-grit sandpaper. \n 3. Optionally, apply a sealant to enhance durability and finish if the sample will be exposed to the environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2161732.0,
+      "density": 6433.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -818029.0,
+      "formation_energy_per_atom": -14911.0,
+      "decomposition_energy_per_atom": -344.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -8.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0920f53666",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:27.230302Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4La1Nd2O2P4.json",
+      "material://Cu4La1Nd2O2P4"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Al5Hg3O4Zr12",
+  "uri": "material://Al5Hg3O4Zr12",
+  "composition": {
+    "formula": "Al5Hg3O4Zr12",
+    "elements": {
+      "Al": 5,
+      "Hg": 3,
+      "O": 4,
+      "Zr": 12
+    },
+    "reduced_formula": "Zr12Al5Hg3O4",
+    "element_list": [
+      "O",
+      "Al",
+      "Zr",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 128.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 128.00 g, Cr: 8.00 g, Mn: 16.00 g, P: 96.00 g, Zr: 40.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online retailers; Cr: Metal suppliers; Mn: Chemical supply companies; P: Chemical supply companies; Zr: Metal suppliers or online retailers.",
+      "steps": [
+        "Co: Metal suppliers or online retailers; Cr: Metal suppliers; Mn: Chemical supply companies; P: Chemical supply companies; Zr: Metal suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately using a precision scale.",
+        "2. In a clean, dry container, combine Co, Cr, Mn, P, and Zr.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders for at least 30 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh all materials accurately using a precision scale. \n 2. In a clean, dry container, combine Co, Cr, Mn, P, and Zr. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders for at least 30 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a graphite crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 10°C/min and hold for 2 hours to achieve complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a graphite crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 10°C/min and hold for 2 hours to achieve complete melting and homogenization."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a diamond saw to cut the material into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to remove any sharp points and ensure a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a diamond saw to cut the material into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to remove any sharp points and ensure a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4160124.0,
+      "density": 75655.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1716024.0,
+      "formation_energy_per_atom": -12333.0,
+      "decomposition_energy_per_atom": -109.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -111.0,
+      "decomposition_energy_mp_oqmd": -86.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e4e2c81d7d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.935195Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al5Hg3O4Zr12.json",
+      "material://Al5Hg3O4Zr12"
+    ]
+  }
+}

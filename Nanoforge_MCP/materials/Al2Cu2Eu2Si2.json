@@ -1,0 +1,109 @@
+{
+  "id": "Al2Cu2Eu2Si2",
+  "uri": "material://Al2Cu2Eu2Si2",
+  "composition": {
+    "formula": "Al2Cu2Eu2Si2",
+    "elements": {
+      "Al": 2,
+      "Cu": 2,
+      "Eu": 2,
+      "Si": 2
+    },
+    "reduced_formula": "EuAlCuSi",
+    "element_list": [
+      "Al",
+      "Si",
+      "Cu",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium (Er): 6.0 g  \n - Lanthanum (La): 3.0 g  \n - Praseodymium (Pr): 9.0 g  \n - Silicon (Si): 24.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium: Obtain from a chemical supplier or rare earth metal distributor. \n - Lanthanum: Available from chemical supply houses. \n - Praseodymium: Purchase from specialized rare earth suppliers. \n - Silicon: Can be sourced from electronics suppliers or chemical markets.",
+      "steps": [
+        "- Erbium: Obtain from a chemical supplier or rare earth metal distributor.",
+        "- Lanthanum: Available from chemical supply houses.",
+        "- Praseodymium: Purchase from specialized rare earth suppliers.",
+        "- Silicon: Can be sourced from electronics suppliers or chemical markets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of Erbium, Lanthanum, Praseodymium, and Silicon using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the powdered materials.",
+        "3. Use a spatula to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure the specified amounts of Erbium, Lanthanum, Praseodymium, and Silicon using an analytical balance. \n 2. In a clean, dry mixing container, combine the powdered materials. \n 3. Use a spatula to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a muffle furnace at 1200°C for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Heat the crucible in a muffle furnace at 1200°C for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature, approximately 2-3 hours.",
+        "2. Ensure the cooling is done in a well-ventilated area to avoid any fume buildup."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature, approximately 2-3 hours. \n 2. Ensure the cooling is done in a well-ventilated area to avoid any fume buildup."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or rough edges.",
+        "3. Use fine grit sandpaper to smooth out the surface if necessary.",
+        "4. Optionally, seal the sample with a clear coat to protect it from moisture."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or rough edges. \n 3. Use fine grit sandpaper to smooth out the surface if necessary. \n 4. Optionally, seal the sample with a clear coat to protect it from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1532949.0,
+      "density": 5862.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -507559.0,
+      "formation_energy_per_atom": -454.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -248.0,
+      "decomposition_energy_mp_oqmd": -41.0
+    },
+    "electronic": {
+      "bandgap": 0.003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b18d23b6ba",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.030925Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Cu2Eu2Si2.json",
+      "material://Al2Cu2Eu2Si2"
+    ]
+  }
+}

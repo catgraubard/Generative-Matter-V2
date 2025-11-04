@@ -1,0 +1,113 @@
+{
+  "id": "Cs12Ga2Rb6Sb8",
+  "uri": "material://Cs12Ga2Rb6Sb8",
+  "composition": {
+    "formula": "Cs12Ga2Rb6Sb8",
+    "elements": {
+      "Cs": 12,
+      "Ga": 2,
+      "Rb": 6,
+      "Sb": 8
+    },
+    "reduced_formula": "Cs6Rb3GaSb4",
+    "element_list": [
+      "Ga",
+      "Rb",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 30 g, Ga: 20 g, Rb: 40 g, Sb: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company or online (e.g., Sigma-Aldrich); Ga: Available from electronics suppliers; Rb: Purchase from a chemical supplier; Sb: Obtain from a metal supplier.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company or online (e.g., Sigma-Aldrich); Ga: Available from electronics suppliers; Rb: Purchase from a chemical supplier; Sb: Obtain from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 30 g of Cs, 20 g of Ga, 40 g of Rb, and 50 g of Sb using an analytical balance.",
+        "2. In a clean, dry glass container, combine all the measured materials.",
+        "3. Use a ceramic rod to mix the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Measure 30 g of Cs, 20 g of Ga, 40 g of Rb, and 50 g of Sb using an analytical balance. \n 2. In a clean, dry glass container, combine all the measured materials. \n 3. Use a ceramic rod to mix the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a quartz crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min, maintaining this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a quartz crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 5°C/min, maintaining this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature gradually (approx. 4-6 hours) to avoid thermal shock.",
+        "2. Ensure the crucible remains in the furnace during the cooling process."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature gradually (approx. 4-6 hours) to avoid thermal shock. \n 2. Ensure the crucible remains in the furnace during the cooling process."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth the edges and surfaces as needed.",
+        "3. Optionally, seal the surface with a clear sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth the edges and surfaces as needed. \n 3. Optionally, seal the surface with a clear sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 13167976.0,
+      "density": 40621.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -68294.0,
+      "formation_energy_per_atom": -4492.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -8.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.505,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "173e3f56df",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:46.096271Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Ga2Rb6Sb8.json",
+      "material://Cs12Ga2Rb6Sb8"
+    ]
+  }
+}

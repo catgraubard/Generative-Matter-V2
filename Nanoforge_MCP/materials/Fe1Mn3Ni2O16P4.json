@@ -1,0 +1,143 @@
+{
+  "id": "Fe1Mn3Ni2O16P4",
+  "uri": "material://Fe1Mn3Ni2O16P4",
+  "composition": {
+    "formula": "Fe1Mn3Ni2O16P4",
+    "elements": {
+      "Fe": 1,
+      "Mn": 3,
+      "Ni": 2,
+      "O": 16,
+      "P": 4
+    },
+    "reduced_formula": "Mn3FeNi2(PO4)4",
+    "element_list": [
+      "O",
+      "P",
+      "Mn",
+      "Fe",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 37.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 12.5 g  \n Mn: 37.5 g  \n Ni: 15 g  \n O: 64 g (from O2) \n P: 18 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).  \n Mn: Chemical supply store or online (e.g., Alfa Aesar).  \n Ni: Local metal supplier or online (e.g., eBay).  \n O: Obtain as part of a gas cylinder for laboratory use.  \n P: Chemical supply store or online (e.g., Acros Organics).",
+      "steps": [
+        "Fe: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).",
+        "Mn: Chemical supply store or online (e.g., Alfa Aesar).",
+        "Ni: Local metal supplier or online (e.g., eBay).",
+        "O: Obtain as part of a gas cylinder for laboratory use.",
+        "P: Chemical supply store or online (e.g., Acros Organics)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12.5 g of iron powder (Fe).",
+        "2. Weigh out 37.5 g of manganese oxide (Mn).",
+        "3. Weigh out 15 g of nickel powder (Ni).",
+        "4. Measure 64 g of oxygen (O2) in a suitable gas cylinder.",
+        "5. Weigh out 18 g of phosphorus (P).",
+        "6. Mix all dry ingredients (Fe, Mn, Ni, P) in a ceramic or glass container using a spatula until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 12.5 g of iron powder (Fe).  \n 2. Weigh out 37.5 g of manganese oxide (Mn).  \n 3. Weigh out 15 g of nickel powder (Ni).  \n 4. Measure 64 g of oxygen (O2) in a suitable gas cylinder.  \n 5. Weigh out 18 g of phosphorus (P).  \n 6. Mix all dry ingredients (Fe, Mn, Ni, P) in a ceramic or glass container using a spatula until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the crucible to 800°C for 2 hours to ensure thorough reaction and formation of the compound.",
+        "4. Maintain an oxygen atmosphere during the heating process."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible.  \n 2. Place the crucible in a furnace.  \n 3. Heat the crucible to 800°C for 2 hours to ensure thorough reaction and formation of the compound.  \n 4. Maintain an oxygen atmosphere during the heating process."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace until it has cooled to avoid rapid oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).  \n 2. Do not open the furnace until it has cooled to avoid rapid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If needed, grind the surface lightly with sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear epoxy resin for protection and enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.  \n 2. Inspect the sample for any irregularities.  \n 3. If needed, grind the surface lightly with sandpaper to achieve a smooth finish.  \n 4. Optionally, seal the sample with a clear epoxy resin for protection and enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3159425.0,
+      "density": 37733.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2098492.0,
+      "formation_energy_per_atom": -23659.0,
+      "decomposition_energy_per_atom": -35.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -41.0
+    },
+    "electronic": {
+      "bandgap": 3.2487,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7ab72a9d80",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:56.314447Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Mn3Ni2O16P4.json",
+      "material://Fe1Mn3Ni2O16P4"
+    ]
+  }
+}

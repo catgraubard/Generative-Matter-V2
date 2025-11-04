@@ -1,0 +1,114 @@
+{
+  "id": "C6In2Tc4Ti4",
+  "uri": "material://C6In2Tc4Ti4",
+  "composition": {
+    "formula": "C6In2Tc4Ti4",
+    "elements": {
+      "C": 6,
+      "In": 2,
+      "Tc": 4,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2InTc2C3",
+    "element_list": [
+      "C",
+      "Ti",
+      "Tc",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 1.92,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 1.92 g, In: 0.95 g, Tc: 2.56 g, Ti: 2.17 g (total = 7.60 g)"
+    },
+    "sourcing": {
+      "instructions": "C: Graphite powder from a chemical supply store; In: Indium metal from a metals supplier; Tc: Technetium-99m from a nuclear pharmacy (ensure proper licensing); Ti: Titanium powder from an online specialty metals retailer.",
+      "steps": [
+        "C: Graphite powder from a chemical supply store; In: Indium metal from a metals supplier; Tc: Technetium-99m from a nuclear pharmacy (ensure proper licensing); Ti: Titanium powder from an online specialty metals retailer."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.92 g of graphite powder, 0.95 g of indium, 2.56 g of technetium, and 2.17 g of titanium powder.",
+        "2. Combine all powders in a clean, dry ceramic bowl.",
+        "3. Mix thoroughly with a spatula until a uniform blend is achieved, ensuring even distribution of all components."
+      ],
+      "raw_text": "1. Weigh out 1.92 g of graphite powder, 0.95 g of indium, 2.56 g of technetium, and 2.17 g of titanium powder. \n 2. Combine all powders in a clean, dry ceramic bowl. \n 3. Mix thoroughly with a spatula until a uniform blend is achieved, ensuring even distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 900°C at a rate of 10°C/min, maintaining this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 900°C at a rate of 10°C/min, maintaining this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any rough edges or irregularities.",
+        "3. Use fine-grit sandpaper to smooth any rough surfaces.",
+        "4. Optionally, apply a sealant to enhance surface protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect the sample for any rough edges or irregularities. \n 3. Use fine-grit sandpaper to smooth any rough surfaces. \n 4. Optionally, apply a sealant to enhance surface protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 193737.0,
+      "density": 75869.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1407234.0,
+      "formation_energy_per_atom": -4272.0,
+      "decomposition_energy_per_atom": -222.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -211.0,
+      "decomposition_energy_mp": -219.0,
+      "decomposition_energy_mp_oqmd": -211.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f0bc3e3e60",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.934683Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C6In2Tc4Ti4.json",
+      "material://C6In2Tc4Ti4"
+    ]
+  }
+}

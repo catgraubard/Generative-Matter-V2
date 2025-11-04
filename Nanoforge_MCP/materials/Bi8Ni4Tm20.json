@@ -1,0 +1,112 @@
+{
+  "id": "Bi8Ni4Tm20",
+  "uri": "material://Bi8Ni4Tm20",
+  "composition": {
+    "formula": "Bi8Ni4Tm20",
+    "elements": {
+      "Bi": 8,
+      "Ni": 4,
+      "Tm": 20
+    },
+    "reduced_formula": "Tm5NiBi2",
+    "element_list": [
+      "Ni",
+      "Tm",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 45.49,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 45.49 g, Ga: 19.84 g, In: 4.83 g, Li: 13.59 g, Sb: 61.34 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Alfa Aesar); Ga: Available at electronics suppliers or chemical vendors; In: Obtain from metal suppliers; Li: Battery supply stores; Sb: Chemical supply companies.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Alfa Aesar); Ga: Available at electronics suppliers or chemical vendors; In: Obtain from metal suppliers; Li: Battery supply stores; Sb: Chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each component using an analytical balance.",
+        "2. Place Cs, Ga, In, Li, and Sb in a clean, dry ceramic or glass container.",
+        "3. Mix the powders thoroughly using a mortar and pestle to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out each component using an analytical balance. \n 2. Place Cs, Ga, In, Li, and Sb in a clean, dry ceramic or glass container. \n 3. Mix the powders thoroughly using a mortar and pestle to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min, and maintain for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min, and maintain for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid opening the furnace until it reaches ambient temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Avoid opening the furnace until it reaches ambient temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. If necessary, grind the sample for uniformity using a mortar and pestle.",
+        "3. Optionally, seal the sample with a resin for enhanced durability.",
+        "4. Sand the edges to achieve the desired finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. If necessary, grind the sample for uniformity using a mortar and pestle. \n 3. Optionally, seal the sample with a resin for enhanced durability. \n 4. Sand the edges to achieve the desired finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 8476382.0,
+      "density": 10354.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1615185.0,
+      "formation_energy_per_atom": -555.0,
+      "decomposition_energy_per_atom": -103.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -103.0,
+      "decomposition_energy_mp_oqmd": -102.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e834ed34b1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.867140Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi8Ni4Tm20.json",
+      "material://Bi8Ni4Tm20"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "Cu2La2Zn20",
+  "uri": "material://Cu2La2Zn20",
+  "composition": {
+    "formula": "Cu2La2Zn20",
+    "elements": {
+      "Cu": 2,
+      "La": 2,
+      "Zn": 20
+    },
+    "reduced_formula": "LaZn10Cu",
+    "element_list": [
+      "Cu",
+      "Zn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 40.0 g \n La: 20.0 g \n Zn: 100.0 g \n O (for oxide formation): 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supply store or online metal distributors. \n La: Rare earth material suppliers or online chemical suppliers. \n Zn: Local metal supply store or online metal distributors. \n O: Obtain through chemical suppliers or atmospheric sources (as required).",
+      "steps": [
+        "Cu: Local metal supply store or online metal distributors.",
+        "La: Rare earth material suppliers or online chemical suppliers.",
+        "Zn: Local metal supply store or online metal distributors.",
+        "O: Obtain through chemical suppliers or atmospheric sources (as required)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40.0 g of copper (Cu) and place it in a clean mixing container.",
+        "2. Weigh out 20.0 g of lanthanum (La) and add it to the container with Cu.",
+        "3. Weigh out 100.0 g of zinc (Zn) and include it in the mixture.",
+        "4. Finally, weigh out 30.0 g of oxygen source (as required for oxide formation) and add it to the mixture.",
+        "5. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 40.0 g of copper (Cu) and place it in a clean mixing container. \n 2. Weigh out 20.0 g of lanthanum (La) and add it to the container with Cu. \n 3. Weigh out 100.0 g of zinc (Zn) and include it in the mixture. \n 4. Finally, weigh out 30.0 g of oxygen source (as required for oxide formation) and add it to the mixture. \n 5. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 900 °C (1652 °F) at a rate of 5 °C/min.",
+        "4. Maintain this temperature for 2 hours to promote complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 900 °C (1652 °F) at a rate of 5 °C/min. \n 4. Maintain this temperature for 2 hours to promote complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally.",
+        "2. This should take approximately 4-6 hours. Do not open the furnace during this cooling phase to avoid rapid temperature changes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally. \n 2. This should take approximately 4-6 hours. Do not open the furnace during this cooling phase to avoid rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid from the crucible.",
+        "2. Use sandpaper or a file to smooth out any rough edges on the solid sample to achieve the desired dimensions.",
+        "3. Optionally, seal the surface with a clear coat to prevent oxidation if necessary.",
+        "4. Allow the sealant to cure fully as per the manufacturer's instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid from the crucible. \n 2. Use sandpaper or a file to smooth out any rough edges on the solid sample to achieve the desired dimensions. \n 3. Optionally, seal the surface with a clear coat to prevent oxidation if necessary. \n 4. Allow the sealant to cure fully as per the manufacturer's instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3875426.0,
+      "density": 73402.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -494378.0,
+      "formation_energy_per_atom": -2572.0,
+      "decomposition_energy_per_atom": -187.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -187.0,
+      "decomposition_energy_mp_oqmd": -185.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "24a81ac1b7",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:03.897115Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2La2Zn20.json",
+      "material://Cu2La2Zn20"
+    ]
+  }
+}

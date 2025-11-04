@@ -1,0 +1,109 @@
+{
+  "id": "Mn8Na4S16",
+  "uri": "material://Mn8Na4S16",
+  "composition": {
+    "formula": "Mn8Na4S16",
+    "elements": {
+      "Mn": 8,
+      "Na": 4,
+      "S": 16
+    },
+    "reduced_formula": "Na(MnS2)2",
+    "element_list": [
+      "Na",
+      "S",
+      "Mn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 20 g, Li: 10 g, Pr: 30 g, Sc: 40 g, Si: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Supplier of semiconductor materials; Li: Chemical supply store; Pr: Rare earth material supplier; Sc: Metallurgical supplier; Si: Electronics store.",
+      "steps": [
+        "Ge: Supplier of semiconductor materials; Li: Chemical supply store; Pr: Rare earth material supplier; Sc: Metallurgical supplier; Si: Electronics store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine Ge, Li, Pr, Sc, and Si in the specified amounts.",
+        "3. Mix thoroughly with a glass stirring rod to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine Ge, Li, Pr, Sc, and Si in the specified amounts. \n 3. Mix thoroughly with a glass stirring rod to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a furnace at 1200°C for 2 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a furnace at 1200°C for 2 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow to cool slowly at room temperature for 3 hours to prevent cracking."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow to cool slowly at room temperature for 3 hours to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth the surface.",
+        "3. Optionally, apply a sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth the surface. \n 3. Optionally, apply a sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5493644.0,
+      "density": 31572.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1737846.0,
+      "formation_energy_per_atom": -10363.0,
+      "decomposition_energy_per_atom": -739.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -144.0,
+      "decomposition_energy_mp": -745.0,
+      "decomposition_energy_mp_oqmd": -613.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d2162bbe93",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.891826Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn8Na4S16.json",
+      "material://Mn8Na4S16"
+    ]
+  }
+}

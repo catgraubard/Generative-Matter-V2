@@ -1,0 +1,134 @@
+{
+  "id": "Co17Li1P12Tb4Tc2",
+  "uri": "material://Co17Li1P12Tb4Tc2",
+  "composition": {
+    "formula": "Co17Li1P12Tb4Tc2",
+    "elements": {
+      "Co": 17,
+      "Li": 1,
+      "P": 12,
+      "Tb": 4,
+      "Tc": 2
+    },
+    "reduced_formula": "LiTb4Co17(TcP6)2",
+    "element_list": [
+      "Li",
+      "P",
+      "Co",
+      "Tc",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 38.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 40 g (Lithium Carbonate, Li2CO3) \n Pb: 38 g (Lead Oxide, PbO) \n Si: 100 g (Silicon Dioxide, SiO2) \n Sr: 16 g (Strontium Carbonate, SrCO3)"
+    },
+    "sourcing": {
+      "instructions": "Li2CO3: Chemical supply stores or online suppliers. \n PbO: Chemical supply stores or specialized metal suppliers. \n SiO2: Sand suppliers or chemical supply stores. \n SrCO3: Chemical supply stores or online suppliers.",
+      "steps": [
+        "Li2CO3: Chemical supply stores or online suppliers.",
+        "PbO: Chemical supply stores or specialized metal suppliers.",
+        "SiO2: Sand suppliers or chemical supply stores.",
+        "SrCO3: Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine Li2CO3, PbO, SiO2, and SrCO3 in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity.",
+        "4. Transfer the powdered mixture into a mixing bowl and stir thoroughly using a spatula to achieve a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine Li2CO3, PbO, SiO2, and SrCO3 in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity. \n 4. Transfer the powdered mixture into a mixing bowl and stir thoroughly using a spatula to achieve a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace or kiln to 1200°C (2192°F).",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace and heat for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 1200°C (2192°F). \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace and heat for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 6-8 hours.",
+        "2. Do not open the furnace door during the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 6-8 hours. \n 2. Do not open the furnace door during the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. If necessary, use sandpaper to smooth the surface of the solid sample for aesthetic purposes.",
+        "4. Seal the sample with a protective coating if required to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. If necessary, use sandpaper to smooth the surface of the solid sample for aesthetic purposes. \n 4. Seal the sample with a protective coating if required to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4507261.0,
+      "density": 815.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2583002.0,
+      "formation_energy_per_atom": -8703.0,
+      "decomposition_energy_per_atom": -48.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -48.0,
+      "decomposition_energy_mp_oqmd": -471.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b380121269",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.750815Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co17Li1P12Tb4Tc2.json",
+      "material://Co17Li1P12Tb4Tc2"
+    ]
+  }
+}

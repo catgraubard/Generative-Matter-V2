@@ -1,0 +1,131 @@
+{
+  "id": "Ba1Ga4Na3Sb16",
+  "uri": "material://Ba1Ga4Na3Sb16",
+  "composition": {
+    "formula": "Ba1Ga4Na3Sb16",
+    "elements": {
+      "Ba": 1,
+      "Ga": 4,
+      "Na": 3,
+      "Sb": 16
+    },
+    "reduced_formula": "BaNa3(GaSb4)4",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Sb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 120 g \n Ga: 80 g \n Na: 30 g \n Sb: 200 g"
+    },
+    "sourcing": {
+      "instructions": "Barium (Ba): Chemical supply stores or online chemical suppliers \n Gallium (Ga): Electronics suppliers or online metal suppliers \n Sodium (Na): Chemical supply stores or online chemical suppliers \n Antimony (Sb): Metal suppliers or online chemical suppliers",
+      "steps": [
+        "Barium (Ba): Chemical supply stores or online chemical suppliers",
+        "Gallium (Ga): Electronics suppliers or online metal suppliers",
+        "Sodium (Na): Chemical supply stores or online chemical suppliers",
+        "Antimony (Sb): Metal suppliers or online chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 120 g of barium, 80 g of gallium, 30 g of sodium, and 200 g of antimony using an electronic scale.",
+        "2. In a fume hood, combine the metals in a clean, dry mixing container.",
+        "3. Use a ceramic or glass stirring rod to mix the powders thoroughly until they are homogeneously combined."
+      ],
+      "raw_text": "1. Measure out 120 g of barium, 80 g of gallium, 30 g of sodium, and 200 g of antimony using an electronic scale. \n 2. In a fume hood, combine the metals in a clean, dry mixing container. \n 3. Use a ceramic or glass stirring rod to mix the powders thoroughly until they are homogeneously combined."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 3,
+      "steps": [
+        "1. Transfer the mixed material into a ceramic crucible.",
+        "2. Place the crucible in a furnace set to 800°C.",
+        "3. Maintain this temperature for 3 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed material into a ceramic crucible. \n 2. Place the crucible in a furnace set to 800°C. \n 3. Maintain this temperature for 3 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified material from the crucible using a chisel or hammer.",
+        "3. Use sandpaper (grit 120 and 220) to smooth the surfaces of the sample.",
+        "4. Optionally, seal the material with a clear epoxy resin for protection against oxidation."
+      ],
+      "raw_text": "1. Once cool, remove the crucible from the furnace. \n 2. Carefully extract the solidified material from the crucible using a chisel or hammer. \n 3. Use sandpaper (grit 120 and 220) to smooth the surfaces of the sample. \n 4. Optionally, seal the material with a clear epoxy resin for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 7747831.0,
+      "density": 52152.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -920606.0,
+      "formation_energy_per_atom": -3332.0,
+      "decomposition_energy_per_atom": -29.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -381.0,
+      "decomposition_energy_mp_oqmd": -376.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "23ae81403a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:02.654174Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Ga4Na3Sb16.json",
+      "material://Ba1Ga4Na3Sb16"
+    ]
+  }
+}

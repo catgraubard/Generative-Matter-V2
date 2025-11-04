@@ -1,0 +1,132 @@
+{
+  "id": "La3Pr5Sc12Si16",
+  "uri": "material://La3Pr5Sc12Si16",
+  "composition": {
+    "formula": "La3Pr5Sc12Si16",
+    "elements": {
+      "La": 3,
+      "Pr": 5,
+      "Sc": 12,
+      "Si": 16
+    },
+    "reduced_formula": "La3Pr5(Sc3Si4)4",
+    "element_list": [
+      "Si",
+      "Sc",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 15.0 g \n Pr: 25.0 g \n Sc: 60.0 g \n Si: 80.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Supplier of rare earth metals \n Pr: Supplier of rare earth metals \n Sc: Supplier of rare earth metals \n Si: Chemical supply store or electronics supplier",
+      "steps": [
+        "La: Supplier of rare earth metals",
+        "Pr: Supplier of rare earth metals",
+        "Sc: Supplier of rare earth metals",
+        "Si: Chemical supply store or electronics supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Mix La, Pr, Sc, and Si powders in a clean, dry container.",
+        "3. Use a mortar and pestle to ensure a homogeneous mixture.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to achieve uniform particle size."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Mix La, Pr, Sc, and Si powders in a clean, dry container. \n 3. Use a mortar and pestle to ensure a homogeneous mixture. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to achieve uniform particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder in a crucible.",
+        "3. Heat the crucible in the furnace for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder in a crucible. \n 3. Heat the crucible in the furnace for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions if necessary.",
+        "3. Sand the edges with fine grit sandpaper to achieve a smooth finish.",
+        "4. Optionally apply a sealant to protect the surface."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions if necessary. \n 3. Sand the edges with fine grit sandpaper to achieve a smooth finish. \n 4. Optionally apply a sealant to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7898328.0,
+      "density": 44362.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2288866.0,
+      "formation_energy_per_atom": -7605.0,
+      "decomposition_energy_per_atom": -81.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -77.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2af2e1b2f1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:12.285348Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La3Pr5Sc12Si16.json",
+      "material://La3Pr5Sc12Si16"
+    ]
+  }
+}

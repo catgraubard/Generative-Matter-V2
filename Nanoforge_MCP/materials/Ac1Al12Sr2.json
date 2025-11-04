@@ -1,0 +1,122 @@
+{
+  "id": "Ac1Al12Sr2",
+  "uri": "material://Ac1Al12Sr2",
+  "composition": {
+    "formula": "Ac1Al12Sr2",
+    "elements": {
+      "Ac": 1,
+      "Al": 12,
+      "Sr": 2
+    },
+    "reduced_formula": "Sr2AcAl12",
+    "element_list": [
+      "Al",
+      "Sr",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Al",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 10 g \n Al: 120 g \n Sr: 20 g \n (Total: 150 g)"
+    },
+    "sourcing": {
+      "instructions": "Ac: Chemical supply stores or online chemical suppliers. \n Al: Metal suppliers or online retailers. \n Sr: Specialty chemical suppliers or online.",
+      "steps": [
+        "Ac: Chemical supply stores or online chemical suppliers.",
+        "Al: Metal suppliers or online retailers.",
+        "Sr: Specialty chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of Ac using an analytical balance.",
+        "2. Measure 120 g of Al using an analytical balance.",
+        "3. Measure 20 g of Sr using an analytical balance.",
+        "4. In a clean, dry glass container, combine Ac, Al, and Sr thoroughly using a glass stir rod for at least 5 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Measure 10 g of Ac using an analytical balance. \n 2. Measure 120 g of Al using an analytical balance. \n 3. Measure 20 g of Sr using an analytical balance. \n 4. In a clean, dry glass container, combine Ac, Al, and Sr thoroughly using a glass stir rod for at least 5 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixture in a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 600 °C for 2 hours to facilitate reaction."
+      ],
+      "raw_text": "1. Place the mixture in a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 600 °C for 2 hours to facilitate reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out rough edges and surfaces.",
+        "3. Optionally, apply a sealant to improve durability and finish (follow sealant instructions for application and drying time)."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a fine-grit sandpaper to smooth out rough edges and surfaces. \n 3. Optionally, apply a sealant to improve durability and finish (follow sealant instructions for application and drying time)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 3385982.0,
+      "density": 35605.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -563613.0,
+      "formation_energy_per_atom": -2609.0,
+      "decomposition_energy_per_atom": -123.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -123.0,
+      "decomposition_energy_mp_oqmd": -105.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4479fb4769",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:45.618805Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Al12Sr2.json",
+      "material://Ac1Al12Sr2"
+    ]
+  }
+}

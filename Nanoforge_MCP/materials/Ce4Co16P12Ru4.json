@@ -1,0 +1,114 @@
+{
+  "id": "Ce4Co16P12Ru4",
+  "uri": "material://Ce4Co16P12Ru4",
+  "composition": {
+    "formula": "Ce4Co16P12Ru4",
+    "elements": {
+      "Ce": 4,
+      "Co": 16,
+      "P": 12,
+      "Ru": 4
+    },
+    "reduced_formula": "CeCo4P3Ru",
+    "element_list": [
+      "P",
+      "Co",
+      "Ru",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 40 g, Nb: 320 g, P: 20 g, Si: 20 g, W: 80 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder) - Chemical supply stores; Nb (Niobium powder) - Metal suppliers; P (Phosphorus powder) - Chemical supply stores; Si (Silicon powder) - Electronic component suppliers; W (Tungsten powder) - Metal suppliers",
+      "steps": [
+        "B (Boron powder) - Chemical supply stores; Nb (Niobium powder) - Metal suppliers; P (Phosphorus powder) - Chemical supply stores; Si (Silicon powder) - Electronic component suppliers; W (Tungsten powder) - Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean, dry mixing bowl, combine B, Nb, P, Si, and W powders.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly to ensure homogeneity.",
+        "4. Transfer the mixed powder into a suitable container for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale. \n 2. In a clean, dry mixing bowl, combine B, Nb, P, Si, and W powders. \n 3. Use a mortar and pestle to grind the mixture thoroughly to ensure homogeneity. \n 4. Transfer the mixed powder into a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1600°C.",
+        "2. Place the container with the mixed powders in the furnace.",
+        "3. Heat the mixture for 2 hours to allow for solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 1600°C. \n 2. Place the container with the mixed powders in the furnace. \n 3. Heat the mixture for 2 hours to allow for solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace.",
+        "2. Allow the sample to cool inside the furnace to room temperature (approximately 4 hours)."
+      ],
+      "raw_text": "1. After heating, turn off the furnace. \n 2. Allow the sample to cool inside the furnace to room temperature (approximately 4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the container.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces of the sample for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the container. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces of the sample for a smooth finish. \n 4. Optionally, apply a sealant to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4630378.0,
+      "density": 81742.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2695968.0,
+      "formation_energy_per_atom": -8354.0,
+      "decomposition_energy_per_atom": -198.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -198.0,
+      "decomposition_energy_mp_oqmd": -113.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c57a68417d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.774945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce4Co16P12Ru4.json",
+      "material://Ce4Co16P12Ru4"
+    ]
+  }
+}

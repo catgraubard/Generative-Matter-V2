@@ -1,0 +1,133 @@
+{
+  "id": "O24Pb2Se8V4",
+  "uri": "material://O24Pb2Se8V4",
+  "composition": {
+    "formula": "O24Pb2Se8V4",
+    "elements": {
+      "O": 24,
+      "Pb": 2,
+      "Se": 8,
+      "V": 4
+    },
+    "reduced_formula": "V2Pb(SeO3)4",
+    "element_list": [
+      "O",
+      "V",
+      "Se",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 480.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 115.2,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 384.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 92.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 480 g \n Pb: 115.2 g \n Se: 384 g \n V: 92.8 g"
+    },
+    "sourcing": {
+      "instructions": "O: Chemical suppliers (e.g., Sigma-Aldrich) \n Pb: Metal suppliers (e.g., online metal shops) \n Se: Specialty chemical suppliers (e.g., Alfa Aesar) \n V: Elemental suppliers (e.g., American Elements)",
+      "steps": [
+        "O: Chemical suppliers (e.g., Sigma-Aldrich)",
+        "Pb: Metal suppliers (e.g., online metal shops)",
+        "Se: Specialty chemical suppliers (e.g., Alfa Aesar)",
+        "V: Elemental suppliers (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 480 g of oxygen (O) in a controlled environment.",
+        "2. Weigh 115.2 g of lead (Pb) and prepare it in a separate container.",
+        "3. Measure 384 g of selenium (Se) and place it in another container.",
+        "4. Finally, weigh 92.8 g of vanadium (V) and set aside.",
+        "5. In a clean mixing vessel, combine the O, Pb, Se, and V thoroughly to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure out 480 g of oxygen (O) in a controlled environment. \n 2. Weigh 115.2 g of lead (Pb) and prepare it in a separate container. \n 3. Measure 384 g of selenium (Se) and place it in another container. \n 4. Finally, weigh 92.8 g of vanadium (V) and set aside. \n 5. In a clean mixing vessel, combine the O, Pb, Se, and V thoroughly to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the mixed ingredients in a crucible suitable for high temperatures.",
+        "3. Heat the crucible gradually to 800°C and maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the mixed ingredients in a crucible suitable for high temperatures. \n 3. Heat the crucible gradually to 800°C and maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 25°C).",
+        "2. This process may take around 4-6 hours. Ensure that the crucible is not disturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 25°C). \n 2. This process may take around 4-6 hours. Ensure that the crucible is not disturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the material for any surface irregularities.",
+        "3. If necessary, grind the surface with fine sandpaper (around 400 grit) for a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the material for any surface irregularities. \n 3. If necessary, grind the surface with fine sandpaper (around 400 grit) for a smooth finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5754133.0,
+      "density": 47149.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2540074.0,
+      "formation_energy_per_atom": -16718.0,
+      "decomposition_energy_per_atom": -258.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -264.0,
+      "decomposition_energy_mp_oqmd": -261.0
+    },
+    "electronic": {
+      "bandgap": 1.9705,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "517bec8746",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:02.528332Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O24Pb2Se8V4.json",
+      "material://O24Pb2Se8V4"
+    ]
+  }
+}

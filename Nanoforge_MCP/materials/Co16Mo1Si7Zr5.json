@@ -1,0 +1,112 @@
+{
+  "id": "Co16Mo1Si7Zr5",
+  "uri": "material://Co16Mo1Si7Zr5",
+  "composition": {
+    "formula": "Co16Mo1Si7Zr5",
+    "elements": {
+      "Co": 16,
+      "Mo": 1,
+      "Si": 7,
+      "Zr": 5
+    },
+    "reduced_formula": "Zr5Co16Si7Mo",
+    "element_list": [
+      "Si",
+      "Co",
+      "Zr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 160 g, Mo: 10 g, Si: 70 g, Zr: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online retailers specializing in cobalt, Mo: Metal suppliers or online retailers specializing in molybdenum, Si: Chemical supply stores, Zr: Metal suppliers or online retailers specializing in zirconium",
+      "steps": [
+        "Co: Metal suppliers or online retailers specializing in cobalt, Mo: Metal suppliers or online retailers specializing in molybdenum, Si: Chemical supply stores, Zr: Metal suppliers or online retailers specializing in zirconium"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 160 g of cobalt powder, 10 g of molybdenum powder, 70 g of silicon powder, and 50 g of zirconium powder.",
+        "2. In a clean, dry mixing container, combine all four powders thoroughly using a spatula or mechanical mixer for 5-10 minutes until a uniform mixture is achieved.",
+        "3. Transfer the mixture to a suitable mold (3 inches x 2 inches x 7 inches). Ensure the mold is pre-treated with a release agent to facilitate easy removal after solidification."
+      ],
+      "raw_text": "1. Weigh out 160 g of cobalt powder, 10 g of molybdenum powder, 70 g of silicon powder, and 50 g of zirconium powder. \n 2. In a clean, dry mixing container, combine all four powders thoroughly using a spatula or mechanical mixer for 5-10 minutes until a uniform mixture is achieved. \n 3. Transfer the mixture to a suitable mold (3 inches x 2 inches x 7 inches). Ensure the mold is pre-treated with a release agent to facilitate easy removal after solidification."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1500 °C.",
+        "2. Once the furnace reaches the target temperature, place the mold with the powder mixture inside.",
+        "3. Hold at 1500 °C for 2 hours to allow for full densification and intermetallic formation."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1500 °C. \n 2. Once the furnace reaches the target temperature, place the mold with the powder mixture inside. \n 3. Hold at 1500 °C for 2 hours to allow for full densification and intermetallic formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature of the furnace to room temperature (approximately 25 °C) over a period of 4-6 hours to avoid cracking due to thermal shock.",
+        "2. Once the cooling process is complete, carefully remove the mold from the furnace."
+      ],
+      "raw_text": "1. Gradually reduce the temperature of the furnace to room temperature (approximately 25 °C) over a period of 4-6 hours to avoid cracking due to thermal shock. \n 2. Once the cooling process is complete, carefully remove the mold from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold.",
+        "2. Inspect for any surface defects; if present, sand down using fine-grit sandpaper (400-600 grit).",
+        "3. Optionally, apply a protective sealant suitable for metal alloys to enhance durability and resistance to oxidation. Allow the sealant to cure according to the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold. \n 2. Inspect for any surface defects; if present, sand down using fine-grit sandpaper (400-600 grit). \n 3. Optionally, apply a protective sealant suitable for metal alloys to enhance durability and resistance to oxidation. Allow the sealant to cure according to the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3665464.0,
+      "density": 76633.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2231005.0,
+      "formation_energy_per_atom": -614.0,
+      "decomposition_energy_per_atom": -115.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -111.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "30dc13b1e2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:19.737919Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Mo1Si7Zr5.json",
+      "material://Co16Mo1Si7Zr5"
+    ]
+  }
+}

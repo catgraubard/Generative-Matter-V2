@@ -1,0 +1,136 @@
+{
+  "id": "B4Co9Si2Sm1Tm2",
+  "uri": "material://B4Co9Si2Sm1Tm2",
+  "composition": {
+    "formula": "B4Co9Si2Sm1Tm2",
+    "elements": {
+      "B": 4,
+      "Co": 9,
+      "Si": 2,
+      "Sm": 1,
+      "Tm": 2
+    },
+    "reduced_formula": "SmTm2Co9(SiB2)2",
+    "element_list": [
+      "B",
+      "Si",
+      "Co",
+      "Sm",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 40.00 g \n Co: 90.00 g \n Si: 20.00 g \n Sm: 10.00 g \n Tm: 20.00 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Chemical supply stores or online suppliers \n Co (Cobalt): Chemical supply stores \n Si (Silicon): Hardware stores or online suppliers \n Sm (Samarium): Chemical supply stores \n Tm (Thulium): Chemical supply stores",
+      "steps": [
+        "B (Boron): Chemical supply stores or online suppliers",
+        "Co (Cobalt): Chemical supply stores",
+        "Si (Silicon): Hardware stores or online suppliers",
+        "Sm (Samarium): Chemical supply stores",
+        "Tm (Thulium): Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for precision.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Co, Si, Sm, and Tm.",
+        "3. Use a spatula to mix the dry powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for precision. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Co, Si, Sm, and Tm. \n 3. Use a spatula to mix the dry powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C (2192 °F).",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 2 hours to allow for complete reaction and formation of the desired composition."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C (2192 °F). \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 2 hours to allow for complete reaction and formation of the desired composition."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C) over a period of 6-8 hours.",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C) over a period of 6-8 hours. \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace.",
+        "2. Carefully extract the solidified sample from the crucible.",
+        "3. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "4. If necessary, sand the edges of the sample using progressively finer grit sandpaper until a smooth finish is achieved.",
+        "5. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace. \n 2. Carefully extract the solidified sample from the crucible. \n 3. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 4. If necessary, sand the edges of the sample using progressively finer grit sandpaper until a smooth finish is achieved. \n 5. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2123318.0,
+      "density": 87436.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1257585.0,
+      "formation_energy_per_atom": -5858.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -28.0,
+      "decomposition_energy_mp": -205.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 0.0119,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1e84100038",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:55.685035Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Co9Si2Sm1Tm2.json",
+      "material://B4Co9Si2Sm1Tm2"
+    ]
+  }
+}

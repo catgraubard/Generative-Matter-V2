@@ -1,0 +1,125 @@
+{
+  "id": "Er10In1Sn5",
+  "uri": "material://Er10In1Sn5",
+  "composition": {
+    "formula": "Er10In1Sn5",
+    "elements": {
+      "Er": 10,
+      "In": 1,
+      "Sn": 5
+    },
+    "reduced_formula": "Er10InSn5",
+    "element_list": [
+      "In",
+      "Sn",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 24.4,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 24.4,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 15.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 24.4 g \n Ga: 24.4 g \n Na: 15.4 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from chemical supply companies or online suppliers (e.g., Sigma-Aldrich). \n Ga: Obtain from electronic component suppliers or chemical retailers. \n Na: Acquire from chemical supply stores or online suppliers.",
+      "steps": [
+        "As: Purchase from chemical supply companies or online suppliers (e.g., Sigma-Aldrich).",
+        "Ga: Obtain from electronic component suppliers or chemical retailers.",
+        "Na: Acquire from chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 24.4 g of Arsenic (As) using a precision scale.",
+        "2. Weigh out 24.4 g of Gallium (Ga).",
+        "3. Weigh out 15.4 g of Sodium (Na).",
+        "4. In a fume hood, combine As and Ga in a clean, dry mixing container.",
+        "5. Slowly add Na to the As-Ga mixture while stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 24.4 g of Arsenic (As) using a precision scale. \n 2. Weigh out 24.4 g of Gallium (Ga). \n 3. Weigh out 15.4 g of Sodium (Na). \n 4. In a fume hood, combine As and Ga in a clean, dry mixing container. \n 5. Slowly add Na to the As-Ga mixture while stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixture to a suitable crucible.",
+        "2. Heat the crucible in a controlled atmosphere furnace to 300 °C at a rate of 5 °C per minute.",
+        "3. Maintain the temperature for 1 hour to allow for complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixture to a suitable crucible. \n 2. Heat the crucible in a controlled atmosphere furnace to 300 °C at a rate of 5 °C per minute. \n 3. Maintain the temperature for 1 hour to allow for complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After 1 hour, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. Ensure the crucible is left undisturbed during the cooling process for optimal solidification."
+      ],
+      "raw_text": "1. After 1 hour, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. Ensure the crucible is left undisturbed during the cooling process for optimal solidification."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified material from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the material with a clear epoxy resin for additional protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified material from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the material with a clear epoxy resin for additional protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4464264.0,
+      "density": 88563.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -789103.0,
+      "formation_energy_per_atom": -6521.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": 4.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bbf8ed7e1b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.764683Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er10In1Sn5.json",
+      "material://Er10In1Sn5"
+    ]
+  }
+}

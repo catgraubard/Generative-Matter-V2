@@ -1,0 +1,105 @@
+{
+  "id": "Mo3O12Pm4Tm1",
+  "uri": "material://Mo3O12Pm4Tm1",
+  "composition": {
+    "formula": "Mo3O12Pm4Tm1",
+    "elements": {
+      "Mo": 3,
+      "O": 12,
+      "Pm": 4,
+      "Tm": 1
+    },
+    "reduced_formula": "Pm4Tm(MoO4)3",
+    "element_list": [
+      "O",
+      "Mo",
+      "Pm",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 120 g, O: 240 g, Pm: 80 g, Tm: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Purchase from a chemical supplier (online or local); O: Use distilled water; Pm: Specialty chemical store; Tm: Online chemical supply store.",
+      "steps": [
+        "Mo: Purchase from a chemical supplier (online or local); O: Use distilled water; Pm: Specialty chemical store; Tm: Online chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately. 2. In a clean mixing container, combine 120 g of Mo and 240 g of O. 3. Stir the mixture until homogeneous. 4. Gradually add 80 g of Pm while continuously stirring. 5. Finally, add 30 g of Tm and mix thoroughly until a uniform paste is obtained."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately. 2. In a clean mixing container, combine 120 g of Mo and 240 g of O. 3. Stir the mixture until homogeneous. 4. Gradually add 80 g of Pm while continuously stirring. 5. Finally, add 30 g of Tm and mix thoroughly until a uniform paste is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "Transfer the mixture to a heat-resistant mold. Heat to 900°C for 2 hours in a furnace. Allow a ramp-up rate of 5°C per minute."
+      ],
+      "raw_text": "Transfer the mixture to a heat-resistant mold. Heat to 900°C for 2 hours in a furnace. Allow a ramp-up rate of 5°C per minute."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "After 2 hours, turn off the furnace and allow the sample to cool in the furnace for 6 hours to prevent thermal shock."
+      ],
+      "raw_text": "After 2 hours, turn off the furnace and allow the sample to cool in the furnace for 6 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold. 2. If necessary, use a fine-grit sandpaper to smooth the surface. 3. Seal the surface with a suitable sealant to protect against moisture. Allow to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold. 2. If necessary, use a fine-grit sandpaper to smooth the surface. 3. Seal the surface with a suitable sealant to protect against moisture. Allow to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2742999.0,
+      "density": 74385.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1780698.0,
+      "formation_energy_per_atom": -3134.0,
+      "decomposition_energy_per_atom": -215.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -109.0,
+      "decomposition_energy_mp": -22.0,
+      "decomposition_energy_mp_oqmd": -134.0
+    },
+    "electronic": {
+      "bandgap": 2.6969,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f0eb883174",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.977677Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo3O12Pm4Tm1.json",
+      "material://Mo3O12Pm4Tm1"
+    ]
+  }
+}

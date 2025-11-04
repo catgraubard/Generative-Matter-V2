@@ -1,0 +1,140 @@
+{
+  "id": "Co1O32Pb8Si8Zn7",
+  "uri": "material://Co1O32Pb8Si8Zn7",
+  "composition": {
+    "formula": "Co1O32Pb8Si8Zn7",
+    "elements": {
+      "Co": 1,
+      "O": 32,
+      "Pb": 8,
+      "Si": 8,
+      "Zn": 7
+    },
+    "reduced_formula": "Zn7CoSi8(PbO4)8",
+    "element_list": [
+      "O",
+      "Si",
+      "Co",
+      "Zn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 96.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 48.00 g \n O: 96.00 g \n Pb: 40.00 g \n Si: 40.00 g \n Zn: 30.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical suppliers or online marketplaces \n O: Can be sourced from oxygen suppliers \n Pb: Metal supply stores or recycling centers \n Si: Silicon suppliers or electronic component stores \n Zn: Metal supply stores or hardware stores",
+      "steps": [
+        "Co: Chemical suppliers or online marketplaces",
+        "O: Can be sourced from oxygen suppliers",
+        "Pb: Metal supply stores or recycling centers",
+        "Si: Silicon suppliers or electronic component stores",
+        "Zn: Metal supply stores or hardware stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Co, Pb, Si, and Zn powders first.",
+        "3. Slowly add O while continuously stirring to ensure even distribution.",
+        "4. Use a mortar and pestle to grind the mixture thoroughly for 10 minutes until a uniform powder is achieved.",
+        "5. Transfer the mixed powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Co, Pb, Si, and Zn powders first. \n 3. Slowly add O while continuously stirring to ensure even distribution. \n 4. Use a mortar and pestle to grind the mixture thoroughly for 10 minutes until a uniform powder is achieved. \n 5. Transfer the mixed powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C (1472°F).",
+        "2. Place the crucible in the furnace and maintain this temperature for 2 hours to allow the materials to react and form the desired compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C (1472°F). \n 2. Place the crucible in the furnace and maintain this temperature for 2 hours to allow the materials to react and form the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This cooling process should take about 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. This cooling process should take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Allow the solid sample to rest for 1 hour to ensure it is completely stable.",
+        "3. Use fine-grit sandpaper to smooth the surfaces of the solid sample.",
+        "4. Optionally, seal the surface with a clear epoxy resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Allow the solid sample to rest for 1 hour to ensure it is completely stable. \n 3. Use fine-grit sandpaper to smooth the surfaces of the solid sample. \n 4. Optionally, seal the surface with a clear epoxy resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 56,
+      "volume": 8267788.0,
+      "density": 58467.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3796919.0,
+      "formation_energy_per_atom": -2363.0,
+      "decomposition_energy_per_atom": -13.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": 2.8932,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a2dfea626e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:50.088567Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1O32Pb8Si8Zn7.json",
+      "material://Co1O32Pb8Si8Zn7"
+    ]
+  }
+}

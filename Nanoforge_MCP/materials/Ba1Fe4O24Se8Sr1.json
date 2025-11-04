@@ -1,0 +1,117 @@
+{
+  "id": "Ba1Fe4O24Se8Sr1",
+  "uri": "material://Ba1Fe4O24Se8Sr1",
+  "composition": {
+    "formula": "Ba1Fe4O24Se8Sr1",
+    "elements": {
+      "Ba": 1,
+      "Fe": 4,
+      "O": 24,
+      "Se": 8,
+      "Sr": 1
+    },
+    "reduced_formula": "BaSrFe4(SeO3)8",
+    "element_list": [
+      "O",
+      "Fe",
+      "Se",
+      "Sr",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "BaO: 5.0 g \n Fe2O3: 20.0 g \n Se: 8.0 g \n SrO: 3.0 g"
+    },
+    "sourcing": {
+      "instructions": "BaO: Specialty chemical suppliers or online chemical retailers. \n Fe2O3: Local chemical supply stores or online. \n Se: Chemical suppliers or online. \n SrO: Specialty chemical suppliers.",
+      "steps": [
+        "BaO: Specialty chemical suppliers or online chemical retailers.",
+        "Fe2O3: Local chemical supply stores or online.",
+        "Se: Chemical suppliers or online.",
+        "SrO: Specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, weigh the BaO (5.0 g) and Fe2O3 (20.0 g).",
+        "2. Add Se (8.0 g) and SrO (3.0 g) to the container.",
+        "3. Using a mortar and pestle, thoroughly mix all ingredients until a homogeneous powder is obtained."
+      ],
+      "raw_text": "1. In a clean, dry container, weigh the BaO (5.0 g) and Fe2O3 (20.0 g). \n 2. Add Se (8.0 g) and SrO (3.0 g) to the container. \n 3. Using a mortar and pestle, thoroughly mix all ingredients until a homogeneous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat the crucible in a furnace at 1000°C for 2 hours.",
+        "3. Allow the material to undergo a full reaction at this temperature."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Heat the crucible in a furnace at 1000°C for 2 hours. \n 3. Allow the material to undergo a full reaction at this temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature gradually (approximately 4-6 hours).",
+        "2. Do not open the furnace until it is completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature gradually (approximately 4-6 hours). \n 2. Do not open the furnace until it is completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges on the sample.",
+        "3. Optionally, seal the surface with a high-temperature resistant sealant for protection."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Use sandpaper to smooth any rough edges on the sample. \n 3. Optionally, seal the surface with a high-temperature resistant sealant for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5765477.0,
+      "density": 42165.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -247548.0,
+      "formation_energy_per_atom": -16669.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 2.3782,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "29dbad0ef4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:10.962441Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Fe4O24Se8Sr1.json",
+      "material://Ba1Fe4O24Se8Sr1"
+    ]
+  }
+}

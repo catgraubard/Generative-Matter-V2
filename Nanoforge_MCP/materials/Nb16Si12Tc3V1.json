@@ -1,0 +1,134 @@
+{
+  "id": "Nb16Si12Tc3V1",
+  "uri": "material://Nb16Si12Tc3V1",
+  "composition": {
+    "formula": "Nb16Si12Tc3V1",
+    "elements": {
+      "Nb": 16,
+      "Si": 12,
+      "Tc": 3,
+      "V": 1
+    },
+    "reduced_formula": "Nb16V(Si4Tc)3",
+    "element_list": [
+      "Si",
+      "V",
+      "Nb",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 96.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 128.0 g \n Si: 96.0 g \n Tc: 24.0 g \n V: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Obtain from a metallurgical supplier or online metal marketplace. \n Si: Buy from a chemical supplier or online industrial supplier. \n Tc: Obtain from a specialized nuclear material supplier (ensure proper licensing). \n V: Purchase from a metal alloy supplier or online marketplace.",
+      "steps": [
+        "Nb: Obtain from a metallurgical supplier or online metal marketplace.",
+        "Si: Buy from a chemical supplier or online industrial supplier.",
+        "Tc: Obtain from a specialized nuclear material supplier (ensure proper licensing).",
+        "V: Purchase from a metal alloy supplier or online marketplace."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 128.0 g of niobium (Nb) powder.",
+        "2. Weigh out 96.0 g of silicon (Si) powder.",
+        "3. Weigh out 24.0 g of technetium (Tc) powder.",
+        "4. Weigh out 8.0 g of vanadium (V) powder.",
+        "5. In a clean, dry mixing container, combine all the powders thoroughly using a mechanical mixer for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 128.0 g of niobium (Nb) powder. \n 2. Weigh out 96.0 g of silicon (Si) powder. \n 3. Weigh out 24.0 g of technetium (Tc) powder. \n 4. Weigh out 8.0 g of vanadium (V) powder. \n 5. In a clean, dry mixing container, combine all the powders thoroughly using a mechanical mixer for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 2000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 2000°C.",
+        "2. Transfer the mixed powder into a graphite crucible.",
+        "3. Place the crucible in the preheated furnace.",
+        "4. Maintain the temperature at 2000°C for 2 hours to facilitate full melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 2000°C. \n 2. Transfer the mixed powder into a graphite crucible. \n 3. Place the crucible in the preheated furnace. \n 4. Maintain the temperature at 2000°C for 2 hours to facilitate full melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool slowly inside the furnace to ambient temperature (approximately 12 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool slowly inside the furnace to ambient temperature (approximately 12 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Grind the edges using a diamond grinding wheel to achieve a smooth finish.",
+        "4. Optionally, seal the surface with an appropriate high-temperature resistant coating for protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Grind the edges using a diamond grinding wheel to achieve a smooth finish. \n 4. Optionally, seal the surface with an appropriate high-temperature resistant coating for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4996288.0,
+      "density": 7207.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2875033.0,
+      "formation_energy_per_atom": -6442.0,
+      "decomposition_energy_per_atom": -161.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -168.0,
+      "decomposition_energy_mp_oqmd": -165.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a01e7edf69",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:46.171687Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb16Si12Tc3V1.json",
+      "material://Nb16Si12Tc3V1"
+    ]
+  }
+}

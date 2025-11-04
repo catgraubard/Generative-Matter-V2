@@ -1,0 +1,134 @@
+{
+  "id": "B2Ca2Cu2Ni6",
+  "uri": "material://B2Ca2Cu2Ni6",
+  "composition": {
+    "formula": "B2Ca2Cu2Ni6",
+    "elements": {
+      "B": 2,
+      "Ca": 2,
+      "Cu": 2,
+      "Ni": 6
+    },
+    "reduced_formula": "CaCuNi3B",
+    "element_list": [
+      "B",
+      "Ca",
+      "Ni",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ca",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 90.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10 g \n Ca: 20 g \n Cu: 15 g \n Ni: 90 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online chemical suppliers \n Ca: Local hardware stores or chemical suppliers \n Cu: Electrical supply stores or metal suppliers \n Ni: Metal suppliers or online retailers",
+      "steps": [
+        "B: Chemical supply stores or online chemical suppliers",
+        "Ca: Local hardware stores or chemical suppliers",
+        "Cu: Electrical supply stores or metal suppliers",
+        "Ni: Metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients using a precision balance.",
+        "2. In a clean, dry mixing container, add 10 g of B, 20 g of Ca, 15 g of Cu, and 90 g of Ni.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. To ensure homogeneity, consider using a mortar and pestle to grind the mixture further if necessary."
+      ],
+      "raw_text": "1. Weigh the ingredients using a precision balance. \n 2. In a clean, dry mixing container, add 10 g of B, 20 g of Ca, 15 g of Cu, and 90 g of Ni. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. To ensure homogeneity, consider using a mortar and pestle to grind the mixture further if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 900 °C (1652 °F) for 2 hours.",
+        "4. Allow the temperature to rise gradually to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 900 °C (1652 °F) for 2 hours. \n 4. Allow the temperature to rise gradually to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down to room temperature naturally within the furnace (approximately 4-6 hours).",
+        "3. Do not open the furnace until it has cooled to prevent oxidation of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down to room temperature naturally within the furnace (approximately 4-6 hours). \n 3. Do not open the furnace until it has cooled to prevent oxidation of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible.",
+        "2. Use a hammer and chisel for any necessary shaping or trimming of the solid sample.",
+        "3. Sand the surface using fine-grit sandpaper for a smoother finish.",
+        "4. Optionally, apply a sealing agent to enhance surface protection and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible. \n 2. Use a hammer and chisel for any necessary shaping or trimming of the solid sample. \n 3. Sand the surface using fine-grit sandpaper for a smoother finish. \n 4. Optionally, apply a sealing agent to enhance surface protection and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1531258.0,
+      "density": 63009.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -643426.0,
+      "formation_energy_per_atom": -3411.0,
+      "decomposition_energy_per_atom": -493.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -297.0,
+      "decomposition_energy_mp": -493.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0368,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1aebd9c0cc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:50.978607Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Ca2Cu2Ni6.json",
+      "material://B2Ca2Cu2Ni6"
+    ]
+  }
+}

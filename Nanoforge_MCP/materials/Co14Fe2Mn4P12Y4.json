@@ -1,0 +1,142 @@
+{
+  "id": "Co14Fe2Mn4P12Y4",
+  "uri": "material://Co14Fe2Mn4P12Y4",
+  "composition": {
+    "formula": "Co14Fe2Mn4P12Y4",
+    "elements": {
+      "Co": 14,
+      "Fe": 2,
+      "Mn": 4,
+      "P": 12,
+      "Y": 4
+    },
+    "reduced_formula": "Y2Mn2FeCo7P6",
+    "element_list": [
+      "P",
+      "Mn",
+      "Fe",
+      "Co",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 14.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Fe",
+          "amount": 2.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Mn",
+          "amount": 4.0,
+          "unit": "grams"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Y",
+          "amount": 4.0,
+          "unit": "grams"
+        }
+      ],
+      "raw_text": "Co: 14 grams \n Fe: 2 grams \n Mn: 4 grams \n P: 12 grams \n Y: 4 grams \n Total weight: 36 grams"
+    },
+    "sourcing": {
+      "instructions": "Co: Online chemical suppliers (e.g., Sigma-Aldrich) \n Fe: Local metal supply stores or online \n Mn: Chemical suppliers \n P: Chemical suppliers \n Y: Online rare earth material suppliers",
+      "steps": [
+        "Co: Online chemical suppliers (e.g., Sigma-Aldrich)",
+        "Fe: Local metal supply stores or online",
+        "Mn: Chemical suppliers",
+        "P: Chemical suppliers",
+        "Y: Online rare earth material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient with a digital scale for accuracy.",
+        "2. In a clean, dry mixing container, combine Co, Fe, Mn, P, and Y.",
+        "3. Use a spatula or mixing tool to homogenize the powders for 5-10 minutes.",
+        "4. Ensure there are no clumps and the mixture is uniform."
+      ],
+      "raw_text": "1. Measure each ingredient with a digital scale for accuracy. \n 2. In a clean, dry mixing container, combine Co, Fe, Mn, P, and Y. \n 3. Use a spatula or mixing tool to homogenize the powders for 5-10 minutes. \n 4. Ensure there are no clumps and the mixture is uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C (2192°F) for 2 hours, ensuring a controlled ramp-up of 10°C/min."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C (2192°F) for 2 hours, ensuring a controlled ramp-up of 10°C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours.",
+        "3. Avoid opening the furnace until it has cooled completely to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 6-8 hours. \n 3. Avoid opening the furnace until it has cooled completely to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (medium to fine grit) to smooth any rough edges.",
+        "3. Optionally, apply a sealant if required for the application.",
+        "4. Store the finished sample in a dry, non-reactive container."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (medium to fine grit) to smooth any rough edges. \n 3. Optionally, apply a sealant if required for the application. \n 4. Store the finished sample in a dry, non-reactive container."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4448501.0,
+      "density": 70319.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2747673.0,
+      "formation_energy_per_atom": -8566.0,
+      "decomposition_energy_per_atom": -347.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -347.0,
+      "decomposition_energy_mp_oqmd": -313.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "44c6f7514f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:45.983159Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co14Fe2Mn4P12Y4.json",
+      "material://Co14Fe2Mn4P12Y4"
+    ]
+  }
+}

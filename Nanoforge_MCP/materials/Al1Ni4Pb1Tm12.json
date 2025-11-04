@@ -1,0 +1,135 @@
+{
+  "id": "Al1Ni4Pb1Tm12",
+  "uri": "material://Al1Ni4Pb1Tm12",
+  "composition": {
+    "formula": "Al1Ni4Pb1Tm12",
+    "elements": {
+      "Al": 1,
+      "Ni": 4,
+      "Pb": 1,
+      "Tm": 12
+    },
+    "reduced_formula": "Tm12AlNi4Pb",
+    "element_list": [
+      "Al",
+      "Ni",
+      "Tm",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.3,
+          "unit": "g"
+        },
+        {
+          "element": "Ce",
+          "amount": 1.7,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 1.2,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 3.2,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 4.6,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.3 g \n Ce: 1.7 g \n Er: 1.2 g \n Fe: 3.2 g \n Y: 4.6 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Ce: Rare earth metal suppliers or online chemicals marketplace \n Er: Specialty metal suppliers \n Fe: General hardware stores or chemical suppliers \n Y: Rare earth metal suppliers or online chemicals marketplace",
+      "steps": [
+        "B: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Ce: Rare earth metal suppliers or online chemicals marketplace",
+        "Er: Specialty metal suppliers",
+        "Fe: General hardware stores or chemical suppliers",
+        "Y: Rare earth metal suppliers or online chemicals marketplace"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Accurately weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine the weighed amounts of B, Ce, Er, Fe, and Y.",
+        "3. Mix thoroughly using a mechanical mixer or mortar and pestle until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Accurately weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine the weighed amounts of B, Ce, Er, Fe, and Y. \n 3. Mix thoroughly using a mechanical mixer or mortar and pestle until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 1200°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat the crucible in a furnace to a temperature of 1200°C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly within the furnace to room temperature, approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly within the furnace to room temperature, approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Grind the sample to achieve a smooth texture if necessary.",
+        "3. Optionally, seal with a protective coating or finish to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Grind the sample to achieve a smooth texture if necessary. \n 3. Optionally, seal with a protective coating or finish to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4353227.0,
+      "density": 95216.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -911201.0,
+      "formation_energy_per_atom": -3795.0,
+      "decomposition_energy_per_atom": -178.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -178.0,
+      "decomposition_energy_mp_oqmd": -153.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dc94b14768",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.691472Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Ni4Pb1Tm12.json",
+      "material://Al1Ni4Pb1Tm12"
+    ]
+  }
+}

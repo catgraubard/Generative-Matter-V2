@@ -1,0 +1,132 @@
+{
+  "id": "Al7Ni4Ru4Zn1",
+  "uri": "material://Al7Ni4Ru4Zn1",
+  "composition": {
+    "formula": "Al7Ni4Ru4Zn1",
+    "elements": {
+      "Al": 7,
+      "Ni": 4,
+      "Ru": 4,
+      "Zn": 1
+    },
+    "reduced_formula": "Al7Zn(NiRu)4",
+    "element_list": [
+      "Al",
+      "Ni",
+      "Zn",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 7.5,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 15.0 g \n Si: 30.0 g \n Y: 7.5 g \n Zn: 30.0 g \n Total: 82.5 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supply company (e.g., Sigma-Aldrich) \n Si: Obtain from a silicon supplier or electronics store \n Y: Acquire from a rare earth metal supplier \n Zn: Buy from a hardware store or chemical supplier",
+      "steps": [
+        "Li: Purchase from a chemical supply company (e.g., Sigma-Aldrich)",
+        "Si: Obtain from a silicon supplier or electronics store",
+        "Y: Acquire from a rare earth metal supplier",
+        "Zn: Buy from a hardware store or chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance for precision.",
+        "2. In a clean, dry environment, combine Li, Si, Y, and Zn in a mixing bowl.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Ensure the mixture is homogeneous by stirring thoroughly for at least 5 minutes."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance for precision. \n 2. In a clean, dry environment, combine Li, Si, Y, and Zn in a mixing bowl. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Ensure the mixture is homogeneous by stirring thoroughly for at least 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C (1472°F).",
+        "2. Transfer the powder mixture into a crucible made of a non-reactive material (e.g., alumina).",
+        "3. Place the crucible in the furnace and heat for 2 hours to promote reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C (1472°F). \n 2. Transfer the powder mixture into a crucible made of a non-reactive material (e.g., alumina). \n 3. Place the crucible in the furnace and heat for 2 hours to promote reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C or 77°F) over a period of 4 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C or 77°F) over a period of 4 hours. \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to smooth any rough surfaces and ensure a precise finish.",
+        "4. Optionally, coat the sample with a sealant to protect against oxidation, following the manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to smooth any rough surfaces and ensure a precise finish. \n 4. Optionally, coat the sample with a sealant to protect against oxidation, following the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2056091.0,
+      "density": 72147.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -984389.0,
+      "formation_energy_per_atom": -6714.0,
+      "decomposition_energy_per_atom": -353.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -353.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 0.0071,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e58ea56419",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.092424Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al7Ni4Ru4Zn1.json",
+      "material://Al7Ni4Ru4Zn1"
+    ]
+  }
+}

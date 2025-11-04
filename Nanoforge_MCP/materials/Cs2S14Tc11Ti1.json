@@ -1,0 +1,132 @@
+{
+  "id": "Cs2S14Tc11Ti1",
+  "uri": "material://Cs2S14Tc11Ti1",
+  "composition": {
+    "formula": "Cs2S14Tc11Ti1",
+    "elements": {
+      "Cs": 2,
+      "S": 14,
+      "Tc": 11,
+      "Ti": 1
+    },
+    "reduced_formula": "Cs2TiTc11S14",
+    "element_list": [
+      "S",
+      "Ti",
+      "Tc",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 2.33,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 1.52,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 12.76,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 7.21,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 2.33 g (4 moles) \n Pr: 1.52 g (4 moles) \n S: 12.76 g (16 moles) \n Sn: 7.21 g (4 moles)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich). \n Pr: Obtain from a specialty chemical supplier or online market (e.g., Strem Chemicals). \n S: Available from chemical suppliers or laboratory supply stores. \n Sn: Obtain from metal suppliers or chemical distributors.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich).",
+        "Pr: Obtain from a specialty chemical supplier or online market (e.g., Strem Chemicals).",
+        "S: Available from chemical suppliers or laboratory supply stores.",
+        "Sn: Obtain from metal suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an analytical balance for accuracy.",
+        "2. In a clean and dry glass container, sequentially add Cs, Pr, S, and Sn in the specified amounts.",
+        "3. Use a glass stirring rod to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Measure each ingredient using an analytical balance for accuracy. \n 2. In a clean and dry glass container, sequentially add Cs, Pr, S, and Sn in the specified amounts. \n 3. Use a glass stirring rod to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the ceramic crucible containing the mixture into the furnace.",
+        "3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the ceramic crucible containing the mixture into the furnace. \n 3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible using a spatula.",
+        "2. Inspect the sample for any irregularities or rough surfaces.",
+        "3. If needed, sand the surfaces using fine-grit sandpaper until smooth.",
+        "4. Store the final solid sample in a desiccator to avoid moisture absorption."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible using a spatula. \n 2. Inspect the sample for any irregularities or rough surfaces. \n 3. If needed, sand the surfaces using fine-grit sandpaper until smooth. \n 4. Store the final solid sample in a desiccator to avoid moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 6221998.0,
+      "density": 49122.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2090374.0,
+      "formation_energy_per_atom": -9812.0,
+      "decomposition_energy_per_atom": -684.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -126.0,
+      "decomposition_energy_mp": -689.0,
+      "decomposition_energy_mp_oqmd": -686.0
+    },
+    "electronic": {
+      "bandgap": 0.0094,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e3257f6a31",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.495564Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2S14Tc11Ti1.json",
+      "material://Cs2S14Tc11Ti1"
+    ]
+  }
+}

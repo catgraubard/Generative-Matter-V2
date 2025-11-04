@@ -1,0 +1,132 @@
+{
+  "id": "Mo3Si16W9Y8",
+  "uri": "material://Mo3Si16W9Y8",
+  "composition": {
+    "formula": "Mo3Si16W9Y8",
+    "elements": {
+      "Mo": 3,
+      "Si": 16,
+      "W": 9,
+      "Y": 8
+    },
+    "reduced_formula": "Y8Si16(MoW3)3",
+    "element_list": [
+      "Si",
+      "Y",
+      "Mo",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50 g \n Sb: 30 g \n Sn: 40 g \n Zr: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Buy from a local metal supplier or online (e.g., Amazon, eBay) \n Sb: Obtain from a chemical supplier (e.g., Sigma-Aldrich) \n Sn: Available at electronic supply stores or online \n Zr: Purchase from specialized metal suppliers or online chemical retailers",
+      "steps": [
+        "Cu: Buy from a local metal supplier or online (e.g., Amazon, eBay)",
+        "Sb: Obtain from a chemical supplier (e.g., Sigma-Aldrich)",
+        "Sn: Available at electronic supply stores or online",
+        "Zr: Purchase from specialized metal suppliers or online chemical retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 50 g of copper (Cu), 30 g of antimony (Sb), 40 g of tin (Sn), and 80 g of zirconium (Zr) using a precision scale.",
+        "2. Place the measured powders in a clean, dry mixing container.",
+        "3. Using a mortar and pestle, thoroughly mix the powders until a uniform blend is achieved, ensuring no clumps are present.",
+        "4. Transfer the mixture into a ball mill and mill for 2 hours at low speed to achieve a finer particle size and better homogeneity."
+      ],
+      "raw_text": "1. Measure out 50 g of copper (Cu), 30 g of antimony (Sb), 40 g of tin (Sn), and 80 g of zirconium (Zr) using a precision scale. \n 2. Place the measured powders in a clean, dry mixing container. \n 3. Using a mortar and pestle, thoroughly mix the powders until a uniform blend is achieved, ensuring no clumps are present. \n 4. Transfer the mixture into a ball mill and mill for 2 hours at low speed to achieve a finer particle size and better homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 3,
+      "steps": [
+        "1. Preheat a furnace to 950 °C.",
+        "2. Place the blended powder mixture into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature at 950 °C for 3 hours to allow for proper sintering and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 950 °C. \n 2. Place the blended powder mixture into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature at 950 °C for 3 hours to allow for proper sintering and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool inside the furnace until it reaches room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool inside the furnace until it reaches room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces of the sample using progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to the surface of the sample to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces of the sample using progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to the surface of the sample to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6099404.0,
+      "density": 84478.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3085376.0,
+      "formation_energy_per_atom": -5789.0,
+      "decomposition_energy_per_atom": -519.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -135.0,
+      "decomposition_energy_mp": -596.0,
+      "decomposition_energy_mp_oqmd": -596.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e154378fba",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.033166Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo3Si16W9Y8.json",
+      "material://Mo3Si16W9Y8"
+    ]
+  }
+}

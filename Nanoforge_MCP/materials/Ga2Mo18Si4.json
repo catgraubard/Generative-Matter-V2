@@ -1,0 +1,110 @@
+{
+  "id": "Ga2Mo18Si4",
+  "uri": "material://Ga2Mo18Si4",
+  "composition": {
+    "formula": "Ga2Mo18Si4",
+    "elements": {
+      "Ga": 2,
+      "Mo": 18,
+      "Si": 4
+    },
+    "reduced_formula": "GaSi2Mo9",
+    "element_list": [
+      "Si",
+      "Ga",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gallium (Ga): 60.4 g \n Molybdenum (Mo): 172.8 g \n Silicon (Si): 28.4 g"
+    },
+    "sourcing": {
+      "instructions": "Gallium: Available from chemical supply companies like Alfa Aesar or Sigma-Aldrich. \n Molybdenum: Obtain from metal suppliers or online marketplaces like Amazon or eBay. \n Silicon: Purchase from semiconductor material suppliers or electronics stores.",
+      "steps": [
+        "Gallium: Available from chemical supply companies like Alfa Aesar or Sigma-Aldrich.",
+        "Molybdenum: Obtain from metal suppliers or online marketplaces like Amazon or eBay.",
+        "Silicon: Purchase from semiconductor material suppliers or electronics stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Clean all glassware and mixing tools with isopropyl alcohol to avoid contamination.",
+        "2. Measure out 60.4 g of gallium using an analytical balance.",
+        "3. Measure 172.8 g of molybdenum powder.",
+        "4. Weigh out 28.4 g of silicon powder.",
+        "5. In a clean, dry container, combine the gallium, molybdenum, and silicon powders thoroughly using a spatula or mechanical mixer."
+      ],
+      "raw_text": "1. Clean all glassware and mixing tools with isopropyl alcohol to avoid contamination. \n 2. Measure out 60.4 g of gallium using an analytical balance. \n 3. Measure 172.8 g of molybdenum powder. \n 4. Weigh out 28.4 g of silicon powder. \n 5. In a clean, dry container, combine the gallium, molybdenum, and silicon powders thoroughly using a spatula or mechanical mixer."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/minute and maintain for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 5°C/minute and maintain for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature for at least 5 hours.",
+        "2. Do not open the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature for at least 5 hours. \n 2. Do not open the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified compound from the crucible.",
+        "3. Use a grinder or sandpaper to smooth any rough edges.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solidified compound from the crucible. \n 3. Use a grinder or sandpaper to smooth any rough edges. \n 4. Optionally, apply a sealant to protect the surface from oxidation if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3606373.0,
+      "density": 91109.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -22962.0,
+      "formation_energy_per_atom": -2767.0,
+      "decomposition_energy_per_atom": -112.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -112.0,
+      "decomposition_energy_mp_oqmd": -112.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a9112814d9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:58.999516Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Mo18Si4.json",
+      "material://Ga2Mo18Si4"
+    ]
+  }
+}

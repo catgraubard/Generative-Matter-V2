@@ -1,0 +1,124 @@
+{
+  "id": "O24Rb2Ti12",
+  "uri": "material://O24Rb2Ti12",
+  "composition": {
+    "formula": "O24Rb2Ti12",
+    "elements": {
+      "O": 24,
+      "Rb": 2,
+      "Ti": 12
+    },
+    "reduced_formula": "RbTi6O12",
+    "element_list": [
+      "O",
+      "Ti",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 192.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 46.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 192 g (for 24 atoms) \n Rb: 46 g (for 2 atoms) \n Ti: 240 g (for 12 atoms) \n Total: 478 g"
+    },
+    "sourcing": {
+      "instructions": "O: Obtain from a chemical supplier (e.g., Sigma-Aldrich) as a gas or liquid oxygen. \n Rb: Purchase rubidium carbonate from a chemical supplier. \n Ti: Acquire titanium powder from a metal supplier or online marketplace.",
+      "steps": [
+        "O: Obtain from a chemical supplier (e.g., Sigma-Aldrich) as a gas or liquid oxygen.",
+        "Rb: Purchase rubidium carbonate from a chemical supplier.",
+        "Ti: Acquire titanium powder from a metal supplier or online marketplace."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, carefully measure 192 g of oxygen gas (O) using appropriate gas handling equipment.",
+        "2. Weigh 46 g of rubidium carbonate (Rb) using an analytical balance.",
+        "3. Measure 240 g of titanium powder (Ti) using the balance.",
+        "4. In a dry environment, mix the titanium powder and rubidium carbonate in a ceramic or stainless steel container, ensuring uniform distribution.",
+        "5. Gradually introduce the oxygen gas into the mixture while stirring to ensure proper interaction."
+      ],
+      "raw_text": "1. In a fume hood, carefully measure 192 g of oxygen gas (O) using appropriate gas handling equipment. \n 2. Weigh 46 g of rubidium carbonate (Rb) using an analytical balance. \n 3. Measure 240 g of titanium powder (Ti) using the balance. \n 4. In a dry environment, mix the titanium powder and rubidium carbonate in a ceramic or stainless steel container, ensuring uniform distribution. \n 5. Gradually introduce the oxygen gas into the mixture while stirring to ensure proper interaction."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed materials into a high-temperature furnace.",
+        "2. Heat the mixture at 800°C for 4 hours in an inert atmosphere (e.g., argon) to facilitate reaction and formation of O24Rb2Ti12."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a high-temperature furnace. \n 2. Heat the mixture at 800°C for 4 hours in an inert atmosphere (e.g., argon) to facilitate reaction and formation of O24Rb2Ti12."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C) over a period of 6 hours.",
+        "2. Ensure the cooling process is not interrupted to avoid cracking of the formed material."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C) over a period of 6 hours. \n 2. Ensure the cooling process is not interrupted to avoid cracking of the formed material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the furnace.",
+        "2. Inspect for any irregularities or defects.",
+        "3. If necessary, sand the edges and surfaces to achieve a smooth finish.",
+        "4. Seal the final product with a protective coating (e.g., clear epoxy resin) to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the furnace. \n 2. Inspect for any irregularities or defects. \n 3. If necessary, sand the edges and surfaces to achieve a smooth finish. \n 4. Seal the final product with a protective coating (e.g., clear epoxy resin) to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4754195.0,
+      "density": 39445.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3442984.0,
+      "formation_energy_per_atom": -33905.0,
+      "decomposition_energy_per_atom": -76.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6da7227612",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:39.063139Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O24Rb2Ti12.json",
+      "material://O24Rb2Ti12"
+    ]
+  }
+}

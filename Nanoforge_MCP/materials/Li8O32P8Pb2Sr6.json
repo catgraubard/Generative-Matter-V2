@@ -1,0 +1,135 @@
+{
+  "id": "Li8O32P8Pb2Sr6",
+  "uri": "material://Li8O32P8Pb2Sr6",
+  "composition": {
+    "formula": "Li8O32P8Pb2Sr6",
+    "elements": {
+      "Li": 8,
+      "O": 32,
+      "P": 8,
+      "Pb": 2,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr3Li4P4PbO16",
+    "element_list": [
+      "Li",
+      "O",
+      "P",
+      "Sr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 20 g \n Rb: 40 g \n Sb: 30 g \n Tm: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supplier \n Rb: Available from specialty chemical vendors \n Sb: Obtain from a metal supplier \n Tm: Sourced from rare earth metal suppliers",
+      "steps": [
+        "Li: Purchase from a chemical supplier",
+        "Rb: Available from specialty chemical vendors",
+        "Sb: Obtain from a metal supplier",
+        "Tm: Sourced from rare earth metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of Lithium (Li) using an analytical balance.",
+        "2. Measure 40 g of Rubidium (Rb) in a separate container.",
+        "3. Accurately measure 30 g of Antimony (Sb).",
+        "4. Finally, weigh 10 g of Thulium (Tm).",
+        "5. Combine all weighed materials in a clean, dry ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 20 g of Lithium (Li) using an analytical balance.\n 2. Measure 40 g of Rubidium (Rb) in a separate container.\n 3. Accurately measure 30 g of Antimony (Sb).\n 4. Finally, weigh 10 g of Thulium (Tm).\n 5. Combine all weighed materials in a clean, dry ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 900°C.",
+        "2. Place the crucible with the mixed materials in the furnace.",
+        "3. Heat for 4 hours to ensure complete melting and reaction of materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 900°C.\n 2. Place the crucible with the mixed materials in the furnace.\n 3. Heat for 4 hours to ensure complete melting and reaction of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled down to prevent contamination."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool to room temperature naturally.\n 2. Do not open the furnace until it has cooled down to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges gently with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a clear coat to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible.\n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).\n 3. Sand the edges gently with fine-grit sandpaper for a smooth finish.\n 4. Optionally, seal the surface with a clear coat to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 56,
+      "volume": 7391322.0,
+      "density": 39437.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pc",
+      "space_group_number": 7,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -4005921.0,
+      "formation_energy_per_atom": -29664.0,
+      "decomposition_energy_per_atom": -121.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -47.0,
+      "decomposition_energy_mp": -126.0,
+      "decomposition_energy_mp_oqmd": -47.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5598cd2a1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.764873Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li8O32P8Pb2Sr6.json",
+      "material://Li8O32P8Pb2Sr6"
+    ]
+  }
+}

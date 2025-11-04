@@ -1,0 +1,109 @@
+{
+  "id": "Ca1O12Ru2Sr5",
+  "uri": "material://Ca1O12Ru2Sr5",
+  "composition": {
+    "formula": "Ca1O12Ru2Sr5",
+    "elements": {
+      "Ca": 1,
+      "O": 12,
+      "Ru": 2,
+      "Sr": 5
+    },
+    "reduced_formula": "Sr5Ca(RuO6)2",
+    "element_list": [
+      "O",
+      "Ca",
+      "Sr",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi): 20 g \n Silicon (Si): 10 g \n Tin (Sn): 30 g \n Zirconium (Zr): 40 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Available from chemical supply companies or online retailers.\n Silicon: Obtain from semiconductor suppliers or online chemical suppliers.\n Tin: Purchase from metal suppliers or online chemical stores.\n Zirconium: Source from metal suppliers or online specialty chemical suppliers.",
+      "steps": [
+        "Bismuth: Available from chemical supply companies or online retailers.",
+        "Silicon: Obtain from semiconductor suppliers or online chemical suppliers.",
+        "Tin: Purchase from metal suppliers or online chemical stores.",
+        "Zirconium: Source from metal suppliers or online specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of Bismuth, 10 g of Silicon, 30 g of Tin, and 40 g of Zirconium using a precise scale.",
+        "2. In a clean, dry container, combine the weighed materials thoroughly to ensure a homogeneous mixture. Use a spatula for thorough mixing.",
+        "3. Transfer the mixture to a suitable crucible or furnace that can withstand high temperatures."
+      ],
+      "raw_text": "1. Weigh out 20 g of Bismuth, 10 g of Silicon, 30 g of Tin, and 40 g of Zirconium using a precise scale.\n 2. In a clean, dry container, combine the weighed materials thoroughly to ensure a homogeneous mixture. Use a spatula for thorough mixing.\n 3. Transfer the mixture to a suitable crucible or furnace that can withstand high temperatures."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 950°C.",
+        "2. Once the desired temperature is reached, place the crucible with the material inside.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixture homogenization."
+      ],
+      "raw_text": "1. Preheat the furnace to 950°C.\n 2. Once the desired temperature is reached, place the crucible with the material inside.\n 3. Maintain this temperature for 2 hours to ensure complete melting and mixture homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to avoid thermal shock (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to avoid thermal shock (approximately 4-6 hours).\n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible. Use a chisel or hammer if necessary, but be cautious not to damage the material.",
+        "2. Inspect the sample for any surface imperfections. If needed, use sandpaper (grit 220) to smooth out rough edges.",
+        "3. Clean the surface with a soft cloth to remove any debris. If required, apply a suitable sealant for protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. Use a chisel or hammer if necessary, but be cautious not to damage the material.\n 2. Inspect the sample for any surface imperfections. If needed, use sandpaper (grit 220) to smooth out rough edges.\n 3. Clean the surface with a soft cloth to remove any debris. If required, apply a suitable sealant for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 291589.0,
+      "density": 49676.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -139325.0,
+      "formation_energy_per_atom": -25474.0,
+      "decomposition_energy_per_atom": -47.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -476.0,
+      "decomposition_energy_mp_oqmd": -358.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bdf963f798",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.386058Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1O12Ru2Sr5.json",
+      "material://Ca1O12Ru2Sr5"
+    ]
+  }
+}

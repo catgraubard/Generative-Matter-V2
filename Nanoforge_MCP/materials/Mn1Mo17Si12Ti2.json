@@ -1,0 +1,111 @@
+{
+  "id": "Mn1Mo17Si12Ti2",
+  "uri": "material://Mn1Mo17Si12Ti2",
+  "composition": {
+    "formula": "Mn1Mo17Si12Ti2",
+    "elements": {
+      "Mn": 1,
+      "Mo": 17,
+      "Si": 12,
+      "Ti": 2
+    },
+    "reduced_formula": "Ti2MnSi12Mo17",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Bismuth (Bi): 60 grams  \n - Copper (Cu): 40 grams \n - Lanthanum (La): 20 grams \n - Antimony (Sb): 10 grams"
+    },
+    "sourcing": {
+      "instructions": "- Bismuth: Purchase from chemical supply companies or online retailers specializing in metals. \n - Copper: Obtain from metal fabricators or hardware stores. \n - Lanthanum: Available from chemical suppliers or rare earth material vendors. \n - Antimony: Source from chemical supply companies or online specialty metal suppliers.",
+      "steps": [
+        "- Bismuth: Purchase from chemical supply companies or online retailers specializing in metals.",
+        "- Copper: Obtain from metal fabricators or hardware stores.",
+        "- Lanthanum: Available from chemical suppliers or rare earth material vendors.",
+        "- Antimony: Source from chemical supply companies or online specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance for precision.",
+        "2. In a clean and dry environment, combine the bismuth, copper, lanthanum, and antimony in a ceramic crucible.",
+        "3. Use a pestle and mortar to finely grind the mixture to ensure homogeneity.",
+        "4. Transfer the mixture back to the crucible."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance for precision. \n 2. In a clean and dry environment, combine the bismuth, copper, lanthanum, and antimony in a ceramic crucible. \n 3. Use a pestle and mortar to finely grind the mixture to ensure homogeneity. \n 4. Transfer the mixture back to the crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1050,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 1050°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 1050°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating phase, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This process may take about 4-6 hours."
+      ],
+      "raw_text": "1. After the heating phase, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This process may take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any defects or irregularities.",
+        "3. If necessary, use a diamond file to smooth edges and surfaces.",
+        "4. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any defects or irregularities. \n 3. If necessary, use a diamond file to smooth edges and surfaces. \n 4. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 457027.0,
+      "density": 76979.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2893326.0,
+      "formation_energy_per_atom": -4656.0,
+      "decomposition_energy_per_atom": -272.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -96.0,
+      "decomposition_energy_mp": -496.0,
+      "decomposition_energy_mp_oqmd": -367.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db4ae1ed6e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.351315Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn1Mo17Si12Ti2.json",
+      "material://Mn1Mo17Si12Ti2"
+    ]
+  }
+}

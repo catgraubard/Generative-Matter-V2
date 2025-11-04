@@ -1,0 +1,134 @@
+{
+  "id": "Er3Mg3Ni16P12Y2",
+  "uri": "material://Er3Mg3Ni16P12Y2",
+  "composition": {
+    "formula": "Er3Mg3Ni16P12Y2",
+    "elements": {
+      "Er": 3,
+      "Mg": 3,
+      "Ni": 16,
+      "P": 12,
+      "Y": 2
+    },
+    "reduced_formula": "Y2Er3Mg3(Ni4P3)4",
+    "element_list": [
+      "Mg",
+      "P",
+      "Ni",
+      "Y",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20.00 g \n In: 15.00 g \n Tm: 5.00 g \n Y: 0.50 g \n Total: 40.50 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich). \n In: Obtain from specialized metal suppliers or online platforms. \n Tm: Source through rare earth material suppliers. \n Y: Available from chemical supply houses or online vendors.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "In: Obtain from specialized metal suppliers or online platforms.",
+        "Tm: Source through rare earth material suppliers.",
+        "Y: Available from chemical supply houses or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Place Co, In, Tm, and Y in a clean, dry glass or ceramic mixing bowl.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixed powder into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Place Co, In, Tm, and Y in a clean, dry glass or ceramic mixing bowl. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixed powder into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the crucible in the furnace.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Co2In6Tm15Y1."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C. \n 2. Place the crucible in the furnace. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Co2In6Tm15Y1."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has reached room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Do not open the furnace door until it has reached room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully.",
+        "2. Inspect the solid sample for uniformity and integrity.",
+        "3. If necessary, grind the sample lightly with a mortar and pestle to achieve desired particle size.",
+        "4. Seal the sample in a protective container to prevent oxidation or contamination."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully. \n 2. Inspect the solid sample for uniformity and integrity. \n 3. If necessary, grind the sample lightly with a mortar and pestle to achieve desired particle size. \n 4. Seal the sample in a protective container to prevent oxidation or contamination."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4900334.0,
+      "density": 69917.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2216037.0,
+      "formation_energy_per_atom": -909.0,
+      "decomposition_energy_per_atom": -227.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -227.0,
+      "decomposition_energy_mp_oqmd": -226.0
+    },
+    "electronic": {
+      "bandgap": 0.003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ccaa465156",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.457895Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er3Mg3Ni16P12Y2.json",
+      "material://Er3Mg3Ni16P12Y2"
+    ]
+  }
+}

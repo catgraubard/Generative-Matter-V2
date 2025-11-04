@@ -1,0 +1,131 @@
+{
+  "id": "Ac1Ce1Li2Si2",
+  "uri": "material://Ac1Ce1Li2Si2",
+  "composition": {
+    "formula": "Ac1Ce1Li2Si2",
+    "elements": {
+      "Ac": 1,
+      "Ce": 1,
+      "Li": 2,
+      "Si": 2
+    },
+    "reduced_formula": "Li2AcCeSi2",
+    "element_list": [
+      "Li",
+      "Si",
+      "Ce",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 180.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 45.0 g \n Pa: 15.0 g \n Pr: 60.0 g \n Te: 180.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium) - Chemical supply stores or online chemical suppliers. \n Pa (Palladium) - Specialty metal suppliers or online. \n Pr (Praseodymium) - Chemical supply stores or online. \n Te (Tellurium) - Chemical supply stores or online.",
+      "steps": [
+        "Nd (Neodymium) - Chemical supply stores or online chemical suppliers.",
+        "Pa (Palladium) - Specialty metal suppliers or online.",
+        "Pr (Praseodymium) - Chemical supply stores or online.",
+        "Te (Tellurium) - Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine Nd, Pa, Pr, and Te in the specified proportions.",
+        "3. Use a spatula to mix the powders thoroughly for at least 10 minutes to ensure uniformity.",
+        "4. Transfer the mixed powder to a suitable container for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine Nd, Pa, Pr, and Te in the specified proportions. \n 3. Use a spatula to mix the powders thoroughly for at least 10 minutes to ensure uniformity. \n 4. Transfer the mixed powder to a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1000°C.",
+        "2. Place the container with the mixed powders into the furnace.",
+        "3. Heat for 4 hours to allow for complete reaction and solidification of the material."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1000°C. \n 2. Place the container with the mixed powders into the furnace. \n 3. Heat for 4 hours to allow for complete reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Ensure the container is not opened until it has completely cooled to prevent contamination."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Ensure the container is not opened until it has completely cooled to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the container.",
+        "2. Use sandpaper or a file to smooth out any rough edges and achieve desired dimensions.",
+        "3. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the container. \n 2. Use sandpaper or a file to smooth out any rough edges and achieve desired dimensions. \n 3. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1433137.0,
+      "density": 50654.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -273091.0,
+      "formation_energy_per_atom": -4311.0,
+      "decomposition_energy_per_atom": -484.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -49.0,
+      "decomposition_energy_mp_oqmd": -448.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bf1b8904fa",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.792684Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Ce1Li2Si2.json",
+      "material://Ac1Ce1Li2Si2"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "B14Mn2Nb5Zr1",
+  "uri": "material://B14Mn2Nb5Zr1",
+  "composition": {
+    "formula": "B14Mn2Nb5Zr1",
+    "elements": {
+      "B": 14,
+      "Mn": 2,
+      "Nb": 5,
+      "Zr": 1
+    },
+    "reduced_formula": "ZrMn2Nb5B14",
+    "element_list": [
+      "B",
+      "Mn",
+      "Zr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 14.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 14 g, Mn: 2 g, Nb: 5 g, Zr: 1 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical suppliers; Mn: Manganese powder from metal suppliers; Nb: Niobium powder from metal suppliers; Zr: Zirconium powder from chemical suppliers.",
+      "steps": [
+        "B: Boron powder from chemical suppliers; Mn: Manganese powder from metal suppliers; Nb: Niobium powder from metal suppliers; Zr: Zirconium powder from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 14 g of boron powder, 2 g of manganese powder, 5 g of niobium powder, and 1 g of zirconium powder using an analytical balance."
+      ],
+      "raw_text": "1. Weigh out 14 g of boron powder, 2 g of manganese powder, 5 g of niobium powder, and 1 g of zirconium powder using an analytical balance."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "steps": [
+        "1. Preheat a furnace to 1200°C."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the material to cool inside the furnace gradually for 4 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the material to cool inside the furnace gradually for 4 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the container."
+      ],
+      "raw_text": "1. Remove the solidified sample from the container."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2058526.0,
+      "density": 65903.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1863947.0,
+      "formation_energy_per_atom": -7048.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -43.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 0.0053,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a7146285ec",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:55.700976Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B14Mn2Nb5Zr1.json",
+      "material://B14Mn2Nb5Zr1"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Fe1Ni3O12Pm4",
+  "uri": "material://Fe1Ni3O12Pm4",
+  "composition": {
+    "formula": "Fe1Ni3O12Pm4",
+    "elements": {
+      "Fe": 1,
+      "Ni": 3,
+      "O": 12,
+      "Pm": 4
+    },
+    "reduced_formula": "Pm4Fe(NiO4)3",
+    "element_list": [
+      "O",
+      "Fe",
+      "Ni",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 10 g, Ru: 5 g, Tc: 5 g, Tm: 5 g"
+    },
+    "sourcing": {
+      "instructions": "P: Purchase from a chemical supplier or online platform (e.g., Sigma-Aldrich). Ru: Obtain from a precious metals supplier. Tc: Source from specialized nuclear material suppliers. Tm: Available at rare earth material suppliers.",
+      "steps": [
+        "P: Purchase from a chemical supplier or online platform (e.g., Sigma-Aldrich). Ru: Obtain from a precious metals supplier. Tc: Source from specialized nuclear material suppliers. Tm: Available at rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10 g of P, 5 g of Ru, 5 g of Tc, and 5 g of Tm using a precision scale.",
+        "2. Combine the powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders for 30 minutes to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh 10 g of P, 5 g of Ru, 5 g of Tc, and 5 g of Tm using a precision scale. \n 2. Combine the powders in a clean, dry mixing container. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders for 30 minutes to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours in an inert atmosphere (e.g., argon or nitrogen) to facilitate sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace to 1200°C for 2 hours in an inert atmosphere (e.g., argon or nitrogen) to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature over 6 hours once the heating duration is complete.",
+        "2. Open the furnace only when it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature over 6 hours once the heating duration is complete. \n 2. Open the furnace only when it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Grind the surface lightly to remove any rough edges using a fine-grit sandpaper.",
+        "3. Clean the sample with isopropyl alcohol to remove any residues.",
+        "4. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Grind the surface lightly to remove any rough edges using a fine-grit sandpaper. \n 3. Clean the sample with isopropyl alcohol to remove any residues. \n 4. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2335679.0,
+      "density": 71373.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1550236.0,
+      "formation_energy_per_atom": -25418.0,
+      "decomposition_energy_per_atom": -394.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -44.0,
+      "decomposition_energy_mp": -4.0,
+      "decomposition_energy_mp_oqmd": -88.0
+    },
+    "electronic": {
+      "bandgap": 0.0043,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dcfd84c241",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.797969Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ni3O12Pm4.json",
+      "material://Fe1Ni3O12Pm4"
+    ]
+  }
+}

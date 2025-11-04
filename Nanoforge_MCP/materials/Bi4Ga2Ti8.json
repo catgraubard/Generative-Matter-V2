@@ -1,0 +1,136 @@
+{
+  "id": "Bi4Ga2Ti8",
+  "uri": "material://Bi4Ga2Ti8",
+  "composition": {
+    "formula": "Bi4Ga2Ti8",
+    "elements": {
+      "Bi": 4,
+      "Ga": 2,
+      "Ti": 8
+    },
+    "reduced_formula": "Ti4GaBi2",
+    "element_list": [
+      "Ti",
+      "Ga",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n Ge: 10 g \n Ru: 50 g \n Sc: 15 g \n Tm: 15 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store or online retailer (e.g., Sigma-Aldrich). \n Ge: Available from electronic component suppliers. \n Ru: Obtain from precious metal suppliers or specialized chemical vendors. \n Sc: Source from rare earth material suppliers. \n Tm: Acquire from rare earth metal suppliers.",
+      "steps": [
+        "B: Purchase from a chemical supply store or online retailer (e.g., Sigma-Aldrich).",
+        "Ge: Available from electronic component suppliers.",
+        "Ru: Obtain from precious metal suppliers or specialized chemical vendors.",
+        "Sc: Source from rare earth material suppliers.",
+        "Tm: Acquire from rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing container, combine B, Ge, Ru, Sc, and Tm.",
+        "3. Use a mortar and pestle to grind the mixture until it is homogenous.",
+        "4. Transfer the powder into a mixing bowl and mix with a spatula for an additional 5 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry mixing container, combine B, Ge, Ru, Sc, and Tm. \n 3. Use a mortar and pestle to grind the mixture until it is homogenous. \n 4. Transfer the powder into a mixing bowl and mix with a spatula for an additional 5 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and heat for 2 hours to promote reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and heat for 2 hours to promote reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Avoid opening the furnace until it reaches below 300 °C to minimize thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Avoid opening the furnace until it reaches below 300 °C to minimize thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and extract the solid sample.",
+        "2. Use a file or sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a sealing agent (e.g., epoxy) if further protection or adhesion is needed.",
+        "4. Allow the sealing agent to cure as per the manufacturer’s instructions, typically 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and extract the solid sample. \n 2. Use a file or sandpaper to smooth any rough edges. \n 3. Optionally, apply a sealing agent (e.g., epoxy) if further protection or adhesion is needed. \n 4. Allow the sealing agent to cure as per the manufacturer’s instructions, typically 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2822704.0,
+      "density": 79906.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -887582.0,
+      "formation_energy_per_atom": -2841.0,
+      "decomposition_energy_per_atom": -112.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -112.0,
+      "decomposition_energy_mp_oqmd": -106.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af660969dd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:10.130056Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Ga2Ti8.json",
+      "material://Bi4Ga2Ti8"
+    ]
+  }
+}

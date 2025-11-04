@@ -1,0 +1,137 @@
+{
+  "id": "Ag2Fe2La2Si2",
+  "uri": "material://Ag2Fe2La2Si2",
+  "composition": {
+    "formula": "Ag2Fe2La2Si2",
+    "elements": {
+      "Ag": 2,
+      "Fe": 2,
+      "La": 2,
+      "Si": 2
+    },
+    "reduced_formula": "LaFeSiAg",
+    "element_list": [
+      "Si",
+      "Fe",
+      "Ag",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 108.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 21.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 12.00 g \n Cu: 108.00 g \n Ge: 1.00 g \n Si: 21.00 g \n Sr: 3.00 g"
+    },
+    "sourcing": {
+      "instructions": "Ba: Specialty chemical suppliers or online retailers \n Cu: Metal suppliers or hardware stores \n Ge: Semiconductor material suppliers \n Si: Chemical suppliers or electronics stores \n Sr: Specialty chemical suppliers",
+      "steps": [
+        "Ba: Specialty chemical suppliers or online retailers",
+        "Cu: Metal suppliers or hardware stores",
+        "Ge: Semiconductor material suppliers",
+        "Si: Chemical suppliers or electronics stores",
+        "Sr: Specialty chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precise scale.",
+        "2. In a clean, dry mixing container, start by adding Ba and Cu first.",
+        "3. Gradually add Ge, Si, and Sr while stirring continuously to ensure uniform mixing.",
+        "4. Use a mortar and pestle or ball mill to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precise scale. \n 2. In a clean, dry mixing container, start by adding Ba and Cu first. \n 3. Gradually add Ge, Si, and Sr while stirring continuously to ensure uniform mixing. \n 4. Use a mortar and pestle or ball mill to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a muffle furnace at 1000 °C for 2 hours to facilitate bonding.",
+        "3. Ensure the heating rate is gradual to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a muffle furnace at 1000 °C for 2 hours to facilitate bonding. \n 3. Ensure the heating rate is gradual to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process should take approximately 6-8 hours for complete cooling."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process should take approximately 6-8 hours for complete cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a sanding tool to smooth out the surfaces and edges, ensuring dimensions remain consistent.",
+        "3. Seal the sample with a clear protective coating to prevent oxidation if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a sanding tool to smooth out the surfaces and edges, ensuring dimensions remain consistent. \n 3. Seal the sample with a clear protective coating to prevent oxidation if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1583289.0,
+      "density": 69368.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -472287.0,
+      "formation_energy_per_atom": -4876.0,
+      "decomposition_energy_per_atom": -108.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -95.0,
+      "decomposition_energy_mp": -98.0,
+      "decomposition_energy_mp_oqmd": -95.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da248bb9a2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.036216Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag2Fe2La2Si2.json",
+      "material://Ag2Fe2La2Si2"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "Cr6Nb2Si2Ti1W1",
+  "uri": "material://Cr6Nb2Si2Ti1W1",
+  "composition": {
+    "formula": "Cr6Nb2Si2Ti1W1",
+    "elements": {
+      "Cr": 6,
+      "Nb": 2,
+      "Si": 2,
+      "Ti": 1,
+      "W": 1
+    },
+    "reduced_formula": "TiNb2Cr6Si2W",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Cr",
+      "Nb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 48.0 g, Nb: 20.0 g, Si: 12.0 g, Ti: 6.0 g, W: 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium): Chemical supply stores or metal suppliers. \n Nb (Niobium): Specialty metal suppliers or online chemical retailers. \n Si (Silicon): Silicon suppliers or electronics material suppliers. \n Ti (Titanium): Metal suppliers or online retailers specializing in titanium. \n W (Tungsten): Metal suppliers or specialty materials stores.",
+      "steps": [
+        "Cr (Chromium): Chemical supply stores or metal suppliers.",
+        "Nb (Niobium): Specialty metal suppliers or online chemical retailers.",
+        "Si (Silicon): Silicon suppliers or electronics material suppliers.",
+        "Ti (Titanium): Metal suppliers or online retailers specializing in titanium.",
+        "W (Tungsten): Metal suppliers or specialty materials stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, add the weighed Cr, Nb, Si, Ti, and W in the order listed.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders for 30 minutes to achieve a homogeneous blend.",
+        "4. Transfer the mixed powder to a pressing die designed for the desired dimensions (3 in x 2 in x 7 in)."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, add the weighed Cr, Nb, Si, Ti, and W in the order listed. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders for 30 minutes to achieve a homogeneous blend. \n 4. Transfer the mixed powder to a pressing die designed for the desired dimensions (3 in x 2 in x 7 in)."
+    },
+    "heating": {
+      "temperature_celsius": 1600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1600°C (2912°F).",
+        "2. Place the die with the mixed powder into the furnace.",
+        "3. Hold at 1600°C for 2 hours to ensure complete sintering of the material."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1600°C (2912°F). \n 2. Place the die with the mixed powder into the furnace. \n 3. Hold at 1600°C for 2 hours to ensure complete sintering of the material."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F). \n 2. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the die.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, use sandpaper (grit 120 to 400) to smooth out rough edges and surfaces.",
+        "4. Optionally apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the die. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, use sandpaper (grit 120 to 400) to smooth out rough edges and surfaces. \n 4. Optionally apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 16316.0,
+      "density": 7996.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1135606.0,
+      "formation_energy_per_atom": -3113.0,
+      "decomposition_energy_per_atom": -168.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -166.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.0063,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0fcbd0135f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:36.380801Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr6Nb2Si2Ti1W1.json",
+      "material://Cr6Nb2Si2Ti1W1"
+    ]
+  }
+}

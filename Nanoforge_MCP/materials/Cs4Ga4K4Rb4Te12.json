@@ -1,0 +1,107 @@
+{
+  "id": "Cs4Ga4K4Rb4Te12",
+  "uri": "material://Cs4Ga4K4Rb4Te12",
+  "composition": {
+    "formula": "Cs4Ga4K4Rb4Te12",
+    "elements": {
+      "Cs": 4,
+      "Ga": 4,
+      "K": 4,
+      "Rb": 4,
+      "Te": 12
+    },
+    "reduced_formula": "CsKRbGaTe3",
+    "element_list": [
+      "K",
+      "Ga",
+      "Rb",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 6.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 6.5 g, Ga: 4.5 g, K: 3.0 g, Rb: 3.5 g, Te: 20.5 g (Total: 38.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Alfa Aesar); Ga: Obtain from a semiconductor materials supplier (e.g., Sigma-Aldrich); K: Buy from a chemical supplier; Rb: Available from chemical supply companies; Te: Source from a semiconductor materials supplier.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Alfa Aesar); Ga: Obtain from a semiconductor materials supplier (e.g., Sigma-Aldrich); K: Buy from a chemical supplier; Rb: Available from chemical supply companies; Te: Source from a semiconductor materials supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an analytical balance. 2. In a clean glass container, combine Cs, Ga, K, Rb, and Te in the measured amounts. 3. Stir the mixture with a clean spatula for 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Measure each ingredient using an analytical balance. 2. In a clean glass container, combine Cs, Ga, K, Rb, and Te in the measured amounts. 3. Stir the mixture with a clean spatula for 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible. 2. Heat in a furnace at 600 °C for 2 hours. 3. Maintain the temperature for the duration to facilitate proper fusion of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. 2. Heat in a furnace at 600 °C for 2 hours. 3. Maintain the temperature for the duration to facilitate proper fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours). 2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours). 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid from the crucible. 2. Use a fine-grit sandpaper to smooth the edges and surfaces of the solid sample. 3. Optionally, apply a clear sealant to enhance durability and surface finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid from the crucible. 2. Use a fine-grit sandpaper to smooth the edges and surfaces of the solid sample. 3. Optionally, apply a clear sealant to enhance durability and surface finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 12223876.0,
+      "density": 38579.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -918041.0,
+      "formation_energy_per_atom": -10724.0,
+      "decomposition_energy_per_atom": -339.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -312.0
+    },
+    "electronic": {
+      "bandgap": 1.7436,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0eb600b7bd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:34.969888Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Ga4K4Rb4Te12.json",
+      "material://Cs4Ga4K4Rb4Te12"
+    ]
+  }
+}

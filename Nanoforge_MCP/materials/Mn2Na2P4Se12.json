@@ -1,0 +1,118 @@
+{
+  "id": "Mn2Na2P4Se12",
+  "uri": "material://Mn2Na2P4Se12",
+  "composition": {
+    "formula": "Mn2Na2P4Se12",
+    "elements": {
+      "Mn": 2,
+      "Na": 2,
+      "P": 4,
+      "Se": 12
+    },
+    "reduced_formula": "NaMn(PSe3)2",
+    "element_list": [
+      "Na",
+      "P",
+      "Mn",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "MnO2: 150 g \n Na2CO3: 100 g \n (NH4)2HPO4: 75 g \n Se: 50 g \n Distilled Water: 200 mL"
+    },
+    "sourcing": {
+      "instructions": "MnO2: Chemical supply stores or online suppliers \n Na2CO3: Grocery stores or chemical supply stores \n (NH4)2HPO4: Chemical supply stores \n Se: Chemical supply stores or specialty suppliers",
+      "steps": [
+        "MnO2: Chemical supply stores or online suppliers",
+        "Na2CO3: Grocery stores or chemical supply stores",
+        "(NH4)2HPO4: Chemical supply stores",
+        "Se: Chemical supply stores or specialty suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, combine 150 g of MnO2 and 100 g of Na2CO3.",
+        "2. Slowly add 75 g of (NH4)2HPO4 while stirring continuously.",
+        "3. Gradually add 50 g of Se to the mixture.",
+        "4. Add 200 mL of distilled water to achieve a paste-like consistency.",
+        "5. Mix thoroughly until homogeneous."
+      ],
+      "raw_text": "1. In a clean, dry container, combine 150 g of MnO2 and 100 g of Na2CO3. \n 2. Slowly add 75 g of (NH4)2HPO4 while stirring continuously. \n 3. Gradually add 50 g of Se to the mixture. \n 4. Add 200 mL of distilled water to achieve a paste-like consistency. \n 5. Mix thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat in a muffle furnace at 800 °C for 4 hours.",
+        "3. Ensure a gradual increase in temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat in a muffle furnace at 800 °C for 4 hours. \n 3. Ensure a gradual increase in temperature to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until cooled to avoid oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until cooled to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once cooled.",
+        "2. If necessary, grind the sample to achieve a finer consistency.",
+        "3. Seal the material in an airtight container to preserve its properties.",
+        "4. Optionally, sand the edges to achieve desired dimensions and finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once cooled. \n 2. If necessary, grind the sample to achieve a finer consistency. \n 3. Seal the material in an airtight container to preserve its properties. \n 4. Optionally, sand the edges to achieve desired dimensions and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 542465.0,
+      "density": 37568.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31c",
+      "space_group_number": 163,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -979173.0,
+      "formation_energy_per_atom": -6672.0,
+      "decomposition_energy_per_atom": -481.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -481.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4d17176323",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:57.089467Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn2Na2P4Se12.json",
+      "material://Mn2Na2P4Se12"
+    ]
+  }
+}

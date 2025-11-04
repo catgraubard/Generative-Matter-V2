@@ -1,0 +1,107 @@
+{
+  "id": "Si10Tb3Y3",
+  "uri": "material://Si10Tb3Y3",
+  "composition": {
+    "formula": "Si10Tb3Y3",
+    "elements": {
+      "Si": 10,
+      "Tb": 3,
+      "Y": 3
+    },
+    "reduced_formula": "Tb3Y3Si10",
+    "element_list": [
+      "Si",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Silicon (Si): 100 g \n - Terbium (Tb): 30 g \n - Yttrium (Y): 30 g"
+    },
+    "sourcing": {
+      "instructions": "- **Silicon (Si):** Available from chemical supply companies or online retailers specializing in elemental metals. \n - **Terbium (Tb):** Obtain from rare earth metal suppliers or specialty chemical vendors. \n - **Yttrium (Y):** Sourced from chemical supply companies or online marketplaces that provide rare elements.",
+      "steps": [
+        "- **Silicon (Si):** Available from chemical supply companies or online retailers specializing in elemental metals.",
+        "- **Terbium (Tb):** Obtain from rare earth metal suppliers or specialty chemical vendors.",
+        "- **Yttrium (Y):** Sourced from chemical supply companies or online marketplaces that provide rare elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, gather all materials and measure them accurately using an analytical balance.",
+        "2. Combine silicon, terbium, and yttrium in a high-purity alumina crucible.",
+        "3. Mix the powders thoroughly using a mortar and pestle to ensure even distribution of elements."
+      ],
+      "raw_text": "1. In a clean, dry environment, gather all materials and measure them accurately using an analytical balance. \n 2. Combine silicon, terbium, and yttrium in a high-purity alumina crucible. \n 3. Mix the powders thoroughly using a mortar and pestle to ensure even distribution of elements."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 1,600 °C with a ramp-up rate of 10 °C/min.",
+        "3. Hold at 1,600 °C for 2 hours to ensure complete melting and blending of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 1,600 °C with a ramp-up rate of 10 °C/min. \n 3. Hold at 1,600 °C for 2 hours to ensure complete melting and blending of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 12-24 hours).",
+        "2. Ensure no forced cooling is applied to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 12-24 hours). \n 2. Ensure no forced cooling is applied to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections and use fine-grit sandpaper to smooth out any rough edges.",
+        "3. Optionally, apply a sealant or protective coating if required for the intended application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections and use fine-grit sandpaper to smooth out any rough edges. \n 3. Optionally, apply a sealant or protective coating if required for the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3220614.0,
+      "density": 52815.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -979631.0,
+      "formation_energy_per_atom": -6505.0,
+      "decomposition_energy_per_atom": -444.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -439.0,
+      "decomposition_energy_mp_oqmd": -169.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "73aa63c530",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.837734Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si10Tb3Y3.json",
+      "material://Si10Tb3Y3"
+    ]
+  }
+}

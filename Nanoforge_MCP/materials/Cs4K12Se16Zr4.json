@@ -1,0 +1,117 @@
+{
+  "id": "Cs4K12Se16Zr4",
+  "uri": "material://Cs4K12Se16Zr4",
+  "composition": {
+    "formula": "Cs4K12Se16Zr4",
+    "elements": {
+      "Cs": 4,
+      "K": 12,
+      "Se": 16,
+      "Zr": 4
+    },
+    "reduced_formula": "CsK3ZrSe4",
+    "element_list": [
+      "K",
+      "Se",
+      "Zr",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 24.0 g, K: 12.0 g, Se: 32.0 g, Zr: 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Buy from chemical supply companies (e.g., Sigma-Aldrich). K: Purchase from local chemical suppliers or online. Se: Obtain from mineral suppliers or online chemical stores. Zr: Acquire from specialty metal suppliers or online.",
+      "steps": [
+        "Cs: Buy from chemical supply companies (e.g., Sigma-Aldrich). K: Purchase from local chemical suppliers or online. Se: Obtain from mineral suppliers or online chemical stores. Zr: Acquire from specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 24.0 g of cesium (Cs) using an analytical balance.",
+        "2. Measure 12.0 g of potassium (K).",
+        "3. Measure 32.0 g of selenium (Se).",
+        "4. Measure 16.0 g of zirconium (Zr).",
+        "5. In a clean, dry glass container, add Cs, K, Se, and Zr in the order listed.",
+        "6. Use a spatula to mix the powders gently until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Measure 24.0 g of cesium (Cs) using an analytical balance. \n 2. Measure 12.0 g of potassium (K). \n 3. Measure 32.0 g of selenium (Se). \n 4. Measure 16.0 g of zirconium (Zr). \n 5. In a clean, dry glass container, add Cs, K, Se, and Zr in the order listed. \n 6. Use a spatula to mix the powders gently until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat to 800 °C at a rate of 5 °C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat to 800 °C at a rate of 5 °C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid opening the furnace door until it has reached room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Avoid opening the furnace door until it has reached room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any surface imperfections or irregularities.",
+        "3. Use fine-grit sandpaper to smooth the edges and surfaces as needed.",
+        "4. Optionally, apply a sealant to protect the surface if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any surface imperfections or irregularities. \n 3. Use fine-grit sandpaper to smooth the edges and surfaces as needed. \n 4. Optionally, apply a sealant to protect the surface if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 14226223.0,
+      "density": 30687.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1617469.0,
+      "formation_energy_per_atom": -15199.0,
+      "decomposition_energy_per_atom": -804.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -804.0,
+      "decomposition_energy_mp_oqmd": -367.0
+    },
+    "electronic": {
+      "bandgap": 2.5038,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "732224b356",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.106734Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4K12Se16Zr4.json",
+      "material://Cs4K12Se16Zr4"
+    ]
+  }
+}

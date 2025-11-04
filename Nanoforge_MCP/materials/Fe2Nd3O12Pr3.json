@@ -1,0 +1,111 @@
+{
+  "id": "Fe2Nd3O12Pr3",
+  "uri": "material://Fe2Nd3O12Pr3",
+  "composition": {
+    "formula": "Fe2Nd3O12Pr3",
+    "elements": {
+      "Fe": 2,
+      "Nd": 3,
+      "O": 12,
+      "Pr": 3
+    },
+    "reduced_formula": "Pr3Nd3(FeO6)2",
+    "element_list": [
+      "O",
+      "Fe",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 15 g, Cd: 45 g, Fe: 15 g, Ni: 45 g, Tb: 240 g"
+    },
+    "sourcing": {
+      "instructions": "Ag: Precious metal suppliers, Cd: Chemical supply stores, Fe: Metal suppliers, Ni: Metal suppliers, Tb: Rare earth suppliers",
+      "steps": [
+        "Ag: Precious metal suppliers, Cd: Chemical supply stores, Fe: Metal suppliers, Ni: Metal suppliers, Tb: Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine 15 g of Ag, 45 g of Cd, 15 g of Fe, 45 g of Ni, and 240 g of Tb.",
+        "3. Mix thoroughly using a mechanical mixer or mortar and pestle until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine 15 g of Ag, 45 g of Cd, 15 g of Fe, 45 g of Ni, and 240 g of Tb. \n 3. Mix thoroughly using a mechanical mixer or mortar and pestle until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a furnace at 1200°C for 2 hours. Ensure the heating is done in a controlled environment to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a furnace at 1200°C for 2 hours. Ensure the heating is done in a controlled environment to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool down slowly to room temperature over a period of 4 hours.",
+        "2. Avoid rapid cooling to prevent cracking in the material."
+      ],
+      "raw_text": "1. Allow the crucible to cool down slowly to room temperature over a period of 4 hours. \n 2. Avoid rapid cooling to prevent cracking in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder or sandpaper to achieve a smooth finish on the surface.",
+        "3. If required, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a grinder or sandpaper to achieve a smooth finish on the surface. \n 3. If required, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3091265.0,
+      "density": 62265.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1703331.0,
+      "formation_energy_per_atom": -32685.0,
+      "decomposition_energy_per_atom": -23.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 2.8774,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b30eb9bce3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.658748Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Nd3O12Pr3.json",
+      "material://Fe2Nd3O12Pr3"
+    ]
+  }
+}

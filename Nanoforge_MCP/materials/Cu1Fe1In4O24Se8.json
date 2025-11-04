@@ -1,0 +1,124 @@
+{
+  "id": "Cu1Fe1In4O24Se8",
+  "uri": "material://Cu1Fe1In4O24Se8",
+  "composition": {
+    "formula": "Cu1Fe1In4O24Se8",
+    "elements": {
+      "Cu": 1,
+      "Fe": 1,
+      "In": 4,
+      "O": 24,
+      "Se": 8
+    },
+    "reduced_formula": "In4FeCu(SeO3)8",
+    "element_list": [
+      "O",
+      "Fe",
+      "Cu",
+      "Se",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CuO: 10.0 g \n Fe2O3: 5.0 g \n In2O3: 20.0 g \n Se: 8.0 g \n Oxide Binder: 5.0 g \n Additive (if needed): 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "CuO: Chemical supply stores or online chemical suppliers. \n Fe2O3: Chemical supply stores or online marketplaces. \n In2O3: Specialty suppliers or online sources. \n Se: Chemical supply stores or specialty material suppliers. \n Oxide Binder: Online suppliers or local hardware stores. \n Additive: Chemical supply stores or online.",
+      "steps": [
+        "CuO: Chemical supply stores or online chemical suppliers.",
+        "Fe2O3: Chemical supply stores or online marketplaces.",
+        "In2O3: Specialty suppliers or online sources.",
+        "Se: Chemical supply stores or specialty material suppliers.",
+        "Oxide Binder: Online suppliers or local hardware stores.",
+        "Additive: Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale.",
+        "2. In a clean, dry container, add CuO and Fe2O3.",
+        "3. Gradually mix in In2O3 while ensuring uniform distribution.",
+        "4. Introduce Se and mix thoroughly.",
+        "5. Add oxide binder and any additives, if necessary.",
+        "6. Mix all components for a minimum of 15 minutes to achieve a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale. \n 2. In a clean, dry container, add CuO and Fe2O3. \n 3. Gradually mix in In2O3 while ensuring uniform distribution. \n 4. Introduce Se and mix thoroughly. \n 5. Add oxide binder and any additives, if necessary. \n 6. Mix all components for a minimum of 15 minutes to achieve a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powder in a suitable crucible.",
+        "3. Heat for 4 hours, maintaining a stable temperature."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powder in a suitable crucible. \n 3. Heat for 4 hours, maintaining a stable temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace.",
+        "2. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "3. Avoid forced cooling to prevent structural damage."
+      ],
+      "raw_text": "1. After heating, turn off the furnace. \n 2. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 3. Avoid forced cooling to prevent structural damage."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for cracks or imperfections.",
+        "3. If necessary, sand the surface to achieve desired dimensions and finish.",
+        "4. Optionally, apply a sealing coat to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for cracks or imperfections. \n 3. If necessary, sand the surface to achieve desired dimensions and finish. \n 4. Optionally, apply a sealing coat to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6438355.0,
+      "density": 4112.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -2260451.0,
+      "formation_energy_per_atom": -14671.0,
+      "decomposition_energy_per_atom": -209.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -215.0,
+      "decomposition_energy_mp_oqmd": -201.0
+    },
+    "electronic": {
+      "bandgap": 0.9951,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "066f973434",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:23.505644Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Fe1In4O24Se8.json",
+      "material://Cu1Fe1In4O24Se8"
+    ]
+  }
+}

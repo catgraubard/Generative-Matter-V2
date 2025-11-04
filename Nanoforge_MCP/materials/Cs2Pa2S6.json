@@ -1,0 +1,129 @@
+{
+  "id": "Cs2Pa2S6",
+  "uri": "material://Cs2Pa2S6",
+  "composition": {
+    "formula": "Cs2Pa2S6",
+    "elements": {
+      "Cs": 2,
+      "Pa": 2,
+      "S": 6
+    },
+    "reduced_formula": "CsPaS3",
+    "element_list": [
+      "S",
+      "Cs",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 1.2,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 9.6,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 3.5,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 20.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 1.2 g \n Li: 9.6 g \n Si: 3.5 g \n Y: 20.8 g"
+    },
+    "sourcing": {
+      "instructions": "Bi: Local metal suppliers or online metal trading platforms. \n Li: Specialty chemical suppliers or battery manufacturers. \n Si: Silicon suppliers, electronic component stores, or chemical supply companies. \n Y: Rare earth metal suppliers or specialized online retailers.",
+      "steps": [
+        "Bi: Local metal suppliers or online metal trading platforms.",
+        "Li: Specialty chemical suppliers or battery manufacturers.",
+        "Si: Silicon suppliers, electronic component stores, or chemical supply companies.",
+        "Y: Rare earth metal suppliers or specialized online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Bi, Li, Si, and Y in the specified amounts.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Bi, Li, Si, and Y in the specified amounts. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace or high-temperature oven at 800°C for 4 hours.",
+        "3. Ensure the heating environment is inert (e.g., using argon atmosphere) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace or high-temperature oven at 800°C for 4 hours. \n 3. Ensure the heating environment is inert (e.g., using argon atmosphere) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. This should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally. \n 2. This should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use a diamond saw to cut the solid sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the sample with a protective coating if required for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use a diamond saw to cut the solid sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the sample with a protective coating if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 3574464.0,
+      "density": 42752.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -639796.0,
+      "formation_energy_per_atom": -18341.0,
+      "decomposition_energy_per_atom": -3987.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1182.0,
+      "decomposition_energy_mp": -3993.0,
+      "decomposition_energy_mp_oqmd": -2876.0
+    },
+    "electronic": {
+      "bandgap": 1.1799,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c562cc8d88",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.757251Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Pa2S6.json",
+      "material://Cs2Pa2S6"
+    ]
+  }
+}

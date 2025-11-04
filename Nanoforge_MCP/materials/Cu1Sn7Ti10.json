@@ -1,0 +1,108 @@
+{
+  "id": "Cu1Sn7Ti10",
+  "uri": "material://Cu1Sn7Ti10",
+  "composition": {
+    "formula": "Cu1Sn7Ti10",
+    "elements": {
+      "Cu": 1,
+      "Sn": 7,
+      "Ti": 10
+    },
+    "reduced_formula": "Ti10CuSn7",
+    "element_list": [
+      "Ti",
+      "Cu",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Nb2O5: 130.2 g \n PbO: 270.0 g \n Sb2O3: 57.5 g \n  Total: 457.7 g"
+    },
+    "sourcing": {
+      "instructions": "Nb2O5: Specialty chemical suppliers or online marketplaces (e.g., Sigma-Aldrich) \n PbO: Metal supply stores or online chemical suppliers \n Sb2O3: Chemical supply distributors or online sources",
+      "steps": [
+        "Nb2O5: Specialty chemical suppliers or online marketplaces (e.g., Sigma-Aldrich)",
+        "PbO: Metal supply stores or online chemical suppliers",
+        "Sb2O3: Chemical supply distributors or online sources"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Nb2O5, PbO, and Sb2O3 using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed Nb2O5, PbO, and Sb2O3.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture for 10 minutes to ensure uniformity.",
+        "4. Transfer the powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh Nb2O5, PbO, and Sb2O3 using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed Nb2O5, PbO, and Sb2O3. \n 3. Use a mortar and pestle to thoroughly grind the mixture for 10 minutes to ensure uniformity. \n 4. Transfer the powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the ceramic crucible in the furnace.",
+        "3. Hold the temperature at 800°C for 4 hours to facilitate the reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the ceramic crucible in the furnace. \n 3. Hold the temperature at 800°C for 4 hours to facilitate the reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any uneven surfaces or imperfections.",
+        "3. If necessary, sand down rough edges with fine-grit sandpaper.",
+        "4. Optionally, seal the sample with a clear epoxy resin for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any uneven surfaces or imperfections. \n 3. If necessary, sand down rough edges with fine-grit sandpaper. \n 4. Optionally, seal the sample with a clear epoxy resin for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 334348.0,
+      "density": 68199.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1177486.0,
+      "formation_energy_per_atom": -3682.0,
+      "decomposition_energy_per_atom": -96.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -96.0,
+      "decomposition_energy_mp_oqmd": -91.0
+    },
+    "electronic": {
+      "bandgap": 0.0049,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cdc119a284",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.725446Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Sn7Ti10.json",
+      "material://Cu1Sn7Ti10"
+    ]
+  }
+}

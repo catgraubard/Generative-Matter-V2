@@ -1,0 +1,111 @@
+{
+  "id": "Mo2Ru4Si6Ti6",
+  "uri": "material://Mo2Ru4Si6Ti6",
+  "composition": {
+    "formula": "Mo2Ru4Si6Ti6",
+    "elements": {
+      "Mo": 2,
+      "Ru": 4,
+      "Si": 6,
+      "Ti": 6
+    },
+    "reduced_formula": "Ti3Si3MoRu2",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Mo",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Molybdenum (Mo): 20 g \n Ruthenium (Ru): 40 g \n Silicon (Si): 60 g \n Titanium (Ti): 60 g"
+    },
+    "sourcing": {
+      "instructions": "Molybdenum: Obtain from a metallurgical supplier or online chemical distributor. \n Ruthenium: Available from specialty metal suppliers or online markets. \n Silicon: Purchase from electronic component suppliers or chemical suppliers. \n Titanium: Available from aerospace material suppliers or metal fabricators.",
+      "steps": [
+        "Molybdenum: Obtain from a metallurgical supplier or online chemical distributor.",
+        "Ruthenium: Available from specialty metal suppliers or online markets.",
+        "Silicon: Purchase from electronic component suppliers or chemical suppliers.",
+        "Titanium: Available from aerospace material suppliers or metal fabricators."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for accuracy.",
+        "2. In a clean, dry container, add 20 g of Mo, 40 g of Ru, 60 g of Si, and 60 g of Ti.",
+        "3. Use a high-energy ball mill to mix the powders for 2 hours to ensure a homogeneous mixture.",
+        "4. After milling, transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for accuracy. \n 2. In a clean, dry container, add 20 g of Mo, 40 g of Ru, 60 g of Si, and 60 g of Ti. \n 3. Use a high-energy ball mill to mix the powders for 2 hours to ensure a homogeneous mixture. \n 4. After milling, transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a sintering furnace to 1500°C.",
+        "2. Place the ceramic crucible with the mixture inside the furnace.",
+        "3. Sinter at 1500°C for 4 hours under an inert argon atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a sintering furnace to 1500°C. \n 2. Place the ceramic crucible with the mixture inside the furnace. \n 3. Sinter at 1500°C for 4 hours under an inert argon atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After sintering, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Ensure the furnace door remains closed during cooling to maintain an inert atmosphere."
+      ],
+      "raw_text": "1. After sintering, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours). \n 2. Ensure the furnace door remains closed during cooling to maintain an inert atmosphere."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond grinding wheel to shape the sample to exact dimensions (3 in x 2 in x 7 in).",
+        "3. Polish the surface with fine grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective coating if necessary for further applications."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond grinding wheel to shape the sample to exact dimensions (3 in x 2 in x 7 in). \n 3. Polish the surface with fine grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective coating if necessary for further applications."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2621234.0,
+      "density": 66636.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ima2",
+      "space_group_number": 46,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -152961.0,
+      "formation_energy_per_atom": -7915.0,
+      "decomposition_energy_per_atom": -196.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -353.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 0.0167,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8eec8634fb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:23.749417Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo2Ru4Si6Ti6.json",
+      "material://Mo2Ru4Si6Ti6"
+    ]
+  }
+}

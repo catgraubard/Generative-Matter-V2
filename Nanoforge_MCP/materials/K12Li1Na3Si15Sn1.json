@@ -1,0 +1,129 @@
+{
+  "id": "K12Li1Na3Si15Sn1",
+  "uri": "material://K12Li1Na3Si15Sn1",
+  "composition": {
+    "formula": "K12Li1Na3Si15Sn1",
+    "elements": {
+      "K": 12,
+      "Li": 1,
+      "Na": 3,
+      "Si": 15,
+      "Sn": 1
+    },
+    "reduced_formula": "K12Na3LiSi15Sn",
+    "element_list": [
+      "Li",
+      "Na",
+      "Si",
+      "K",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 45.0 g (Potassium carbonate) \n Ru: 320.0 g (Ruthenium powder) \n S: 64.0 g (Sulfur powder)"
+    },
+    "sourcing": {
+      "instructions": "Potassium carbonate can be sourced from chemical supply stores or online retailers. \n Ruthenium powder is typically available from specialized metal suppliers or online marketplaces. \n Sulfur powder can be found in gardening stores or chemical suppliers.",
+      "steps": [
+        "Potassium carbonate can be sourced from chemical supply stores or online retailers.",
+        "Ruthenium powder is typically available from specialized metal suppliers or online marketplaces.",
+        "Sulfur powder can be found in gardening stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear protective gear including gloves, goggles, and a mask.",
+        "2. In a clean, dry container, measure 45.0 g of potassium carbonate.",
+        "3. Add 320.0 g of ruthenium powder to the container.",
+        "4. Measure and add 64.0 g of sulfur powder to the mixture.",
+        "5. Stir the mixture thoroughly using a dry spatula to ensure even distribution of all components."
+      ],
+      "raw_text": "1. Wear protective gear including gloves, goggles, and a mask. \n 2. In a clean, dry container, measure 45.0 g of potassium carbonate. \n 3. Add 320.0 g of ruthenium powder to the container. \n 4. Measure and add 64.0 g of sulfur powder to the mixture. \n 5. Stir the mixture thoroughly using a dry spatula to ensure even distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat gradually to 800°C.",
+        "3. Maintain this temperature for 2 hours to allow for complete reaction and formation of K3Ru8S8."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace and heat gradually to 800°C. \n 3. Maintain this temperature for 2 hours to allow for complete reaction and formation of K3Ru8S8."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This may take approximately 4-6 hours. Do not open the furnace until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This may take approximately 4-6 hours. Do not open the furnace until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a hammer or pestle to break the solidified compound into smaller shards if necessary.",
+        "3. Optionally, grind the material to a finer powder using a mortar and pestle for further applications.",
+        "4. If desired, seal the sample with a suitable sealant for protection against air and moisture."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a hammer or pestle to break the solidified compound into smaller shards if necessary. \n 3. Optionally, grind the material to a finer powder using a mortar and pestle for further applications. \n 4. If desired, seal the sample with a suitable sealant for protection against air and moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 10065749.0,
+      "density": 17901.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1067825.0,
+      "formation_energy_per_atom": -685.0,
+      "decomposition_energy_per_atom": -38.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -28.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e7eef524d9",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.794722Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K12Li1Na3Si15Sn1.json",
+      "material://K12Li1Na3Si15Sn1"
+    ]
+  }
+}

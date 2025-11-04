@@ -1,0 +1,113 @@
+{
+  "id": "Cd4Nd10Ru4Tb6",
+  "uri": "material://Cd4Nd10Ru4Tb6",
+  "composition": {
+    "formula": "Cd4Nd10Ru4Tb6",
+    "elements": {
+      "Cd": 4,
+      "Nd": 10,
+      "Ru": 4,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb3Nd5(CdRu)2",
+    "element_list": [
+      "Ru",
+      "Cd",
+      "Nd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 80 g, Pr: 72 g, Sm: 8 g, Sn: 128 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Chemical supply stores; Pr: Rare earth suppliers; Sm: Metal alloy suppliers; Sn: Electronics suppliers",
+      "steps": [
+        "Ac: Chemical supply stores; Pr: Rare earth suppliers; Sm: Metal alloy suppliers; Sn: Electronics suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately with a digital scale.",
+        "2. In a clean, dry mixing container, combine Ac (80 g), Pr (72 g), Sm (8 g), and Sn (128 g).",
+        "3. Use a stirrer or spatula to mix the powders thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately with a digital scale. \n 2. In a clean, dry mixing container, combine Ac (80 g), Pr (72 g), Sm (8 g), and Sn (128 g). \n 3. Use a stirrer or spatula to mix the powders thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a crucible.",
+        "2. Place the crucible in a furnace set to 900°C.",
+        "3. Allow the mixture to heat for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixture into a crucible. \n 2. Place the crucible in a furnace set to 900°C. \n 3. Allow the mixture to heat for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid forced cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid forced cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth out any rough edges.",
+        "3. If required, seal the surface with a clear epoxy resin for durability.",
+        "4. Allow the epoxy to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a file or sandpaper to smooth out any rough edges. \n 3. If required, seal the surface with a clear epoxy resin for durability. \n 4. Allow the epoxy to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6706703.0,
+      "density": 80465.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1233565.0,
+      "formation_energy_per_atom": -295.0,
+      "decomposition_energy_per_atom": -136.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -136.0,
+      "decomposition_energy_mp_oqmd": -135.0
+    },
+    "electronic": {
+      "bandgap": 0.003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b0306dbbc9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:11.208181Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd4Nd10Ru4Tb6.json",
+      "material://Cd4Nd10Ru4Tb6"
+    ]
+  }
+}

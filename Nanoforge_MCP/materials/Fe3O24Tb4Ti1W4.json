@@ -1,0 +1,111 @@
+{
+  "id": "Fe3O24Tb4Ti1W4",
+  "uri": "material://Fe3O24Tb4Ti1W4",
+  "composition": {
+    "formula": "Fe3O24Tb4Ti1W4",
+    "elements": {
+      "Fe": 3,
+      "O": 24,
+      "Tb": 4,
+      "Ti": 1,
+      "W": 4
+    },
+    "reduced_formula": "Tb4TiFe3(WO6)4",
+    "element_list": [
+      "O",
+      "Ti",
+      "Fe",
+      "Tb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Fe2O3 (Iron(III) oxide): 93.00 g\n- Tb4O7 (Terbium(III) oxide): 14.48 g\n- TiO2 (Titanium dioxide): 1.00 g\n- WO3 (Tungsten trioxide): 48.52 g"
+    },
+    "sourcing": {
+      "instructions": "- Fe2O3: Purchase from chemical suppliers or online platforms like Sigma-Aldrich.\n- Tb4O7: Available from specialty metal suppliers or online chemical retailers.\n- TiO2: Obtain from local chemical suppliers or hardware stores.\n- WO3: Can be sourced from chemical suppliers or online marketplaces.",
+      "steps": [
+        "- Fe2O3: Purchase from chemical suppliers or online platforms like Sigma-Aldrich.",
+        "- Tb4O7: Available from specialty metal suppliers or online chemical retailers.",
+        "- TiO2: Obtain from local chemical suppliers or hardware stores.",
+        "- WO3: Can be sourced from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure all ingredients precisely using an analytical balance.",
+        "2. Combine Fe2O3, Tb4O7, TiO2, and WO3 in a clean, dry ceramic or glass container.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 15 minutes to ensure a uniform mixture."
+      ],
+      "raw_text": "1. Measure all ingredients precisely using an analytical balance.\n2. Combine Fe2O3, Tb4O7, TiO2, and WO3 in a clean, dry ceramic or glass container.\n3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 15 minutes to ensure a uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat in a furnace to 1200°C (2192°F) at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible.\n2. Heat in a furnace to 1200°C (2192°F) at a rate of 5°C/min.\n3. Maintain this temperature for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the sample to cool down slowly to room temperature (approximately 25°C) over a period of 6 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the sample to cool down slowly to room temperature (approximately 25°C) over a period of 6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, grind the material to the desired particle size using a mortar and pestle.",
+        "3. Optionally, seal the material with a protective coating if intended for use in environments that may cause degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible.\n2. If necessary, grind the material to the desired particle size using a mortar and pestle.\n3. Optionally, seal the material with a protective coating if intended for use in environments that may cause degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4378345.0,
+      "density": 74732.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3222744.0,
+      "formation_energy_per_atom": -27736.0,
+      "decomposition_energy_per_atom": -114.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -17.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "46bd3c3f86",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:48.558630Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe3O24Tb4Ti1W4.json",
+      "material://Fe3O24Tb4Ti1W4"
+    ]
+  }
+}

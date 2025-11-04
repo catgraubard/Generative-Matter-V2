@@ -1,0 +1,111 @@
+{
+  "id": "Ca2Cu2K2Se10Tb4",
+  "uri": "material://Ca2Cu2K2Se10Tb4",
+  "composition": {
+    "formula": "Ca2Cu2K2Se10Tb4",
+    "elements": {
+      "Ca": 2,
+      "Cu": 2,
+      "K": 2,
+      "Se": 10,
+      "Tb": 4
+    },
+    "reduced_formula": "KCaTb2CuSe5",
+    "element_list": [
+      "K",
+      "Ca",
+      "Cu",
+      "Se",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CaCO3: 20.0 g, CuO: 15.0 g, K2Se: 10.0 g, Tb2O3: 5.0 g, C: 2.0 g, DMSO (dimethyl sulfoxide): 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "CaCO3: Chemical supply stores or online (e.g., Sigma-Aldrich); CuO: Chemical supply stores; K2Se: Specialty chemical suppliers; Tb2O3: Online suppliers; C: Laboratory suppliers; DMSO: Pharmaceutical suppliers or online.",
+      "steps": [
+        "CaCO3: Chemical supply stores or online (e.g., Sigma-Aldrich); CuO: Chemical supply stores; K2Se: Specialty chemical suppliers; Tb2O3: Online suppliers; C: Laboratory suppliers; DMSO: Pharmaceutical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and prepare each ingredient using an analytical balance.",
+        "2. In a clean glass container, mix CaCO3 and CuO thoroughly.",
+        "3. Gradually add K2Se while stirring continuously to ensure uniform distribution.",
+        "4. Add Tb2O3 and C, mixing until a homogenous powder is achieved.",
+        "5. Slowly add DMSO to the mixture while stirring to create a paste."
+      ],
+      "raw_text": "1. Weigh and prepare each ingredient using an analytical balance. \n 2. In a clean glass container, mix CaCO3 and CuO thoroughly. \n 3. Gradually add K2Se while stirring continuously to ensure uniform distribution. \n 4. Add Tb2O3 and C, mixing until a homogenous powder is achieved. \n 5. Slowly add DMSO to the mixture while stirring to create a paste."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the paste into a ceramic mold of 3 inches x 2 inches x 7 inches.",
+        "2. Place the mold in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min and hold for 4 hours."
+      ],
+      "raw_text": "1. Transfer the paste into a ceramic mold of 3 inches x 2 inches x 7 inches. \n 2. Place the mold in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min and hold for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace during cooling to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace during cooling to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold.",
+        "2. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal the surface with a clear epoxy resin to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold. \n 2. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, seal the surface with a clear epoxy resin to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5311797.0,
+      "density": 5348.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1051379.0,
+      "formation_energy_per_atom": -18605.0,
+      "decomposition_energy_per_atom": -801.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -129.0,
+      "decomposition_energy_mp": -801.0,
+      "decomposition_energy_mp_oqmd": -226.0
+    },
+    "electronic": {
+      "bandgap": 1.1414,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "85120ca75d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:10.263619Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Cu2K2Se10Tb4.json",
+      "material://Ca2Cu2K2Se10Tb4"
+    ]
+  }
+}

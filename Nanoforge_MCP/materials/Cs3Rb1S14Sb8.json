@@ -1,0 +1,131 @@
+{
+  "id": "Cs3Rb1S14Sb8",
+  "uri": "material://Cs3Rb1S14Sb8",
+  "composition": {
+    "formula": "Cs3Rb1S14Sb8",
+    "elements": {
+      "Cs": 3,
+      "Rb": 1,
+      "S": 14,
+      "Sb": 8
+    },
+    "reduced_formula": "Cs3Rb(Sb4S7)2",
+    "element_list": [
+      "S",
+      "Rb",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 120 g (Cesium source, e.g., CsCl) \n Rb: 30 g (Rubidium source, e.g., RbCl) \n S: 40 g (Sulfur source, e.g., S8) \n Sb: 80 g (Antimony source, e.g., Sb2O3)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Available from chemical suppliers such as Alfa Aesar or Sigma-Aldrich. \n Rb: Obtain from chemical suppliers like Strem Chemicals or Thermo Fisher Scientific. \n S: Purchase from chemical supply companies or online marketplaces like Amazon. \n Sb: Sourced from chemical suppliers or specialized metal distributors.",
+      "steps": [
+        "Cs: Available from chemical suppliers such as Alfa Aesar or Sigma-Aldrich.",
+        "Rb: Obtain from chemical suppliers like Strem Chemicals or Thermo Fisher Scientific.",
+        "S: Purchase from chemical supply companies or online marketplaces like Amazon.",
+        "Sb: Sourced from chemical suppliers or specialized metal distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, measure out 120 g of CsCl, 30 g of RbCl, 40 g of S8, and 80 g of Sb2O3 using a precision balance.",
+        "2. Transfer the measured solids into a high-purity ceramic or quartz crucible.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved, ensuring no clumps remain."
+      ],
+      "raw_text": "1. In a clean, dry environment, measure out 120 g of CsCl, 30 g of RbCl, 40 g of S8, and 80 g of Sb2O3 using a precision balance. \n 2. Transfer the measured solids into a high-purity ceramic or quartz crucible. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved, ensuring no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a programmable furnace.",
+        "2. Heat the mixture to 600 °C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Place the crucible in a programmable furnace. \n 2. Heat the mixture to 600 °C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. If necessary, grind the sample to achieve a fine powder consistency using a mortar and pestle.",
+        "3. Optionally, press the powder into desired shapes or dimensions using a hydraulic press.",
+        "4. Cure the shaped samples at 200 °C for 2 hours to enhance stability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. If necessary, grind the sample to achieve a fine powder consistency using a mortar and pestle. \n 3. Optionally, press the powder into desired shapes or dimensions using a hydraulic press. \n 4. Cure the shaped samples at 200 °C for 2 hours to enhance stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 9132424.0,
+      "density": 34678.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1161907.0,
+      "formation_energy_per_atom": -8301.0,
+      "decomposition_energy_per_atom": -34.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -38.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 2.0026,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "486d348d91",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:50.709945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3Rb1S14Sb8.json",
+      "material://Cs3Rb1S14Sb8"
+    ]
+  }
+}

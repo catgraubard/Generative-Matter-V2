@@ -1,0 +1,112 @@
+{
+  "id": "Bi2O14Pb4Pr2",
+  "uri": "material://Bi2O14Pb4Pr2",
+  "composition": {
+    "formula": "Bi2O14Pb4Pr2",
+    "elements": {
+      "Bi": 2,
+      "O": 14,
+      "Pb": 4,
+      "Pr": 2
+    },
+    "reduced_formula": "PrBiPb2O7",
+    "element_list": [
+      "O",
+      "Pr",
+      "Pb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Bismuth Oxide (Bi2O3): 200 g  \n - Lead Oxide (PbO): 150 g  \n - Praseodymium Oxide (Pr6O11): 50 g  \n - Ethanol (C2H5OH): 50 mL"
+    },
+    "sourcing": {
+      "instructions": "- Bismuth Oxide: Chemical supply stores or online suppliers like Sigma-Aldrich.  \n - Lead Oxide: Specialty chemical suppliers or online.  \n - Praseodymium Oxide: Rare earth metal suppliers like Alfa Aesar.  \n - Ethanol: Chemical supply stores or pharmacy.",
+      "steps": [
+        "- Bismuth Oxide: Chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "- Lead Oxide: Specialty chemical suppliers or online.",
+        "- Praseodymium Oxide: Rare earth metal suppliers like Alfa Aesar.",
+        "- Ethanol: Chemical supply stores or pharmacy."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, measure 200 g of Bismuth Oxide.",
+        "2. Add 150 g of Lead Oxide to the same container.",
+        "3. Measure and add 50 g of Praseodymium Oxide.",
+        "4. Stir the dry ingredients thoroughly using a ceramic or glass rod until the mixture is homogeneous.",
+        "5. Gradually add 50 mL of ethanol to the mixture while continuously stirring to create a paste."
+      ],
+      "raw_text": "1. In a clean, dry container, measure 200 g of Bismuth Oxide.  \n 2. Add 150 g of Lead Oxide to the same container.  \n 3. Measure and add 50 g of Praseodymium Oxide.  \n 4. Stir the dry ingredients thoroughly using a ceramic or glass rod until the mixture is homogeneous.  \n 5. Gradually add 50 mL of ethanol to the mixture while continuously stirring to create a paste."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900°C.",
+        "2. Place the paste into a crucible and insert it into the furnace.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and sintering of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C.  \n 2. Place the paste into a crucible and insert it into the furnace.  \n 3. Maintain this temperature for 4 hours to ensure complete reaction and sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (about 2-3 hours).",
+        "2. Do not open the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (about 2-3 hours).  \n 2. Do not open the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the material has cooled, carefully remove it from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use fine-grit sandpaper to smooth the surface as needed.",
+        "4. Optionally, seal the material with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once the material has cooled, carefully remove it from the crucible.  \n 2. Inspect for any rough edges or imperfections.  \n 3. Use fine-grit sandpaper to smooth the surface as needed.  \n 4. Optionally, seal the material with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3364937.0,
+      "density": 86486.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imma",
+      "space_group_number": 74,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1453688.0,
+      "formation_energy_per_atom": -19957.0,
+      "decomposition_energy_per_atom": -451.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -458.0,
+      "decomposition_energy_mp_oqmd": -455.0
+    },
+    "electronic": {
+      "bandgap": 1.4602,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "18b9d8a74d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:48.046253Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2O14Pb4Pr2.json",
+      "material://Bi2O14Pb4Pr2"
+    ]
+  }
+}

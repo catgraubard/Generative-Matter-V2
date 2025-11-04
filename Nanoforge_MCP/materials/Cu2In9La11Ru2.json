@@ -1,0 +1,111 @@
+{
+  "id": "Cu2In9La11Ru2",
+  "uri": "material://Cu2In9La11Ru2",
+  "composition": {
+    "formula": "Cu2In9La11Ru2",
+    "elements": {
+      "Cu": 2,
+      "In": 9,
+      "La": 11,
+      "Ru": 2
+    },
+    "reduced_formula": "La11In9(CuRu)2",
+    "element_list": [
+      "Cu",
+      "Ru",
+      "In",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper (Cu): 26.0 g \n Indium (In): 45.0 g \n Lanthanum (La): 16.5 g \n Ruthenium (Ru): 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "Copper: Available at metal supply stores or online retailers. \n Indium: Specialty metal suppliers or online. \n Lanthanum: Chemical suppliers or online. \n Ruthenium: Precious metal suppliers or online.",
+      "steps": [
+        "Copper: Available at metal supply stores or online retailers.",
+        "Indium: Specialty metal suppliers or online.",
+        "Lanthanum: Chemical suppliers or online.",
+        "Ruthenium: Precious metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance for accuracy.",
+        "2. In a clean, dry container, combine 26.0 g of Cu, 45.0 g of In, 16.5 g of La, and 6.0 g of Ru.",
+        "3. Mix thoroughly using a spatula or a mortar and pestle until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance for accuracy. \n 2. In a clean, dry container, combine 26.0 g of Cu, 45.0 g of In, 16.5 g of La, and 6.0 g of Ru. \n 3. Mix thoroughly using a spatula or a mortar and pestle until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible; it may need careful chiseling if it’s stuck.",
+        "2. Use a diamond file to smooth out sharp edges and imperfections.",
+        "3. Optionally, seal the surface with a clear epoxy resin for protection against oxidation and wear. Allow the epoxy to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible; it may need careful chiseling if it’s stuck. \n 2. Use a diamond file to smooth out sharp edges and imperfections. \n 3. Optionally, seal the surface with a clear epoxy resin for protection against oxidation and wear. Allow the epoxy to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 673327.0,
+      "density": 71286.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1167828.0,
+      "formation_energy_per_atom": -4573.0,
+      "decomposition_energy_per_atom": -33.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -77.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -159.0
+    },
+    "electronic": {
+      "bandgap": 0.0086,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1b98f74ee3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.825965Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2In9La11Ru2.json",
+      "material://Cu2In9La11Ru2"
+    ]
+  }
+}

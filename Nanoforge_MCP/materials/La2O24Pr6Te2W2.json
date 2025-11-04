@@ -1,0 +1,100 @@
+{
+  "id": "La2O24Pr6Te2W2",
+  "uri": "material://La2O24Pr6Te2W2",
+  "composition": {
+    "formula": "La2O24Pr6Te2W2",
+    "elements": {
+      "La": 2,
+      "O": 24,
+      "Pr": 6,
+      "Te": 2,
+      "W": 2
+    },
+    "reduced_formula": "LaPr3TeWO12",
+    "element_list": [
+      "O",
+      "Te",
+      "La",
+      "Pr",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "La2O3: 24.0 g, Pr6O11: 6.0 g, Te: 2.0 g, W: 2.0 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Purchase from chemical suppliers such as Sigma-Aldrich or Alfa Aesar.",
+      "steps": [
+        "La2O3: Purchase from chemical suppliers such as Sigma-Aldrich or Alfa Aesar."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear gloves and safety goggles."
+      ],
+      "raw_text": "1. Wear gloves and safety goggles."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5432175.0,
+      "density": 65115.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3010045.0,
+      "formation_energy_per_atom": -3097.0,
+      "decomposition_energy_per_atom": -93.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -99.0,
+      "decomposition_energy_mp_oqmd": -97.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "68fcb3f304",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:33.063054Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2O24Pr6Te2W2.json",
+      "material://La2O24Pr6Te2W2"
+    ]
+  }
+}

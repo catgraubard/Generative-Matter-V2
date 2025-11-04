@@ -1,0 +1,106 @@
+{
+  "id": "Co3Fe1P12Ru15Tm5",
+  "uri": "material://Co3Fe1P12Ru15Tm5",
+  "composition": {
+    "formula": "Co3Fe1P12Ru15Tm5",
+    "elements": {
+      "Co": 3,
+      "Fe": 1,
+      "P": 12,
+      "Ru": 15,
+      "Tm": 5
+    },
+    "reduced_formula": "Tm5FeCo3(P4Ru5)3",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Ru",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 15.0 g, Fe: 5.0 g, P: 60.0 g, Ru: 75.0 g, Tm: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: chemical supply stores; Fe: metal suppliers; P: laboratory chemical suppliers; Ru: precious metal dealers; Tm: rare earth element suppliers.",
+      "steps": [
+        "Co: chemical supply stores; Fe: metal suppliers; P: laboratory chemical suppliers; Ru: precious metal dealers; Tm: rare earth element suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital balance."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital balance."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "steps": [
+        "1. Preheat a furnace to 1000°C."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature over 6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature over 6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5166628.0,
+      "density": 95296.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -287985.0,
+      "formation_energy_per_atom": -8815.0,
+      "decomposition_energy_per_atom": -1559.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -1559.0,
+      "decomposition_energy_mp_oqmd": -748.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e90c28da8f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.043677Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3Fe1P12Ru15Tm5.json",
+      "material://Co3Fe1P12Ru15Tm5"
+    ]
+  }
+}

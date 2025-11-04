@@ -1,0 +1,111 @@
+{
+  "id": "Bi1Hg2Mg3Y3",
+  "uri": "material://Bi1Hg2Mg3Y3",
+  "composition": {
+    "formula": "Bi1Hg2Mg3Y3",
+    "elements": {
+      "Bi": 1,
+      "Hg": 2,
+      "Mg": 3,
+      "Y": 3
+    },
+    "reduced_formula": "Y3Mg3Hg2Bi",
+    "element_list": [
+      "Mg",
+      "Y",
+      "Hg",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 0.6,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 0.6 g, In: 1 g, Mg: 0.05 g, Ni: 12 g, Sn: 0.5 g (Total: 14.15 g)"
+    },
+    "sourcing": {
+      "instructions": "B: Online chemical suppliers; In: Electronics component suppliers; Mg: Metal supply stores; Ni: Metal supply stores; Sn: Metal supply stores",
+      "steps": [
+        "B: Online chemical suppliers; In: Electronics component suppliers; Mg: Metal supply stores; Ni: Metal supply stores; Sn: Metal supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine B, In, Mg, Ni, and Sn thoroughly using a spatula.",
+        "3. Ensure a homogenous mixture by stirring for at least 10 minutes."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine B, In, Mg, Ni, and Sn thoroughly using a spatula. \n 3. Ensure a homogenous mixture by stirring for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800 °C.",
+        "2. Transfer the mixture into a crucible.",
+        "3. Place the crucible in the furnace and maintain temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C. \n 2. Transfer the mixture into a crucible. \n 3. Place the crucible in the furnace and maintain temperature for 2 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled down to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled down to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use sandpaper (grit 120) to smooth the surface of the sample.",
+        "3. If desired, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use sandpaper (grit 120) to smooth the surface of the sample. \n 3. If desired, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 227243.0,
+      "density": 69404.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -329246.0,
+      "formation_energy_per_atom": -4697.0,
+      "decomposition_energy_per_atom": -294.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -37.0,
+      "decomposition_energy_mp": -294.0,
+      "decomposition_energy_mp_oqmd": -37.0
+    },
+    "electronic": {
+      "bandgap": 0.0057,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b0d9b4bd6b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:12.068126Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1Hg2Mg3Y3.json",
+      "material://Bi1Hg2Mg3Y3"
+    ]
+  }
+}

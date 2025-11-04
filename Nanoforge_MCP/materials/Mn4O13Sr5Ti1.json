@@ -1,0 +1,132 @@
+{
+  "id": "Mn4O13Sr5Ti1",
+  "uri": "material://Mn4O13Sr5Ti1",
+  "composition": {
+    "formula": "Mn4O13Sr5Ti1",
+    "elements": {
+      "Mn": 4,
+      "O": 13,
+      "Sr": 5,
+      "Ti": 1
+    },
+    "reduced_formula": "Sr5TiMn4O13",
+    "element_list": [
+      "O",
+      "Ti",
+      "Mn",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 9.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 5.0 g \n Na: 3.0 g \n Rb: 12.0 g \n S: 9.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online suppliers \n Na: Sodium metal from chemical suppliers \n Rb: Rubidium chloride from chemical suppliers \n S: Sulfur from chemical supply stores",
+      "steps": [
+        "B: Chemical supply stores or online suppliers",
+        "Na: Sodium metal from chemical suppliers",
+        "Rb: Rubidium chloride from chemical suppliers",
+        "S: Sulfur from chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 5.0 g of B (e.g., boron).",
+        "2. Measure 3.0 g of Na (sodium metal).",
+        "3. Measure 12.0 g of Rb (rubidium chloride).",
+        "4. Measure 9.0 g of S (sulfur).",
+        "5. In a fume hood, mix B, Na, Rb, and S in a dry, inert atmosphere. Use a mortar and pestle to grind the mixture into a fine powder."
+      ],
+      "raw_text": "1. Measure 5.0 g of B (e.g., boron). \n 2. Measure 3.0 g of Na (sodium metal). \n 3. Measure 12.0 g of Rb (rubidium chloride). \n 4. Measure 9.0 g of S (sulfur). \n 5. In a fume hood, mix B, Na, Rb, and S in a dry, inert atmosphere. Use a mortar and pestle to grind the mixture into a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat the crucible in a furnace to 600°C (1112°F) for 2 hours to promote reaction and formation of B2Na2Rb4S6."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat the crucible in a furnace to 600°C (1112°F) for 2 hours to promote reaction and formation of B2Na2Rb4S6."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approx. 25°C or 77°F) over 4 hours.",
+        "2. Do not open the furnace during the cooling process to avoid contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approx. 25°C or 77°F) over 4 hours. \n 2. Do not open the furnace during the cooling process to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Grind the sample lightly to achieve a uniform texture.",
+        "3. Seal the sample in a vacuum-sealed bag to prevent oxidation and moisture absorption.",
+        "4. If desired, sand the edges of the solid to achieve smoother surfaces."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Grind the sample lightly to achieve a uniform texture. \n 3. Seal the sample in a vacuum-sealed bag to prevent oxidation and moisture absorption. \n 4. If desired, sand the edges of the solid to achieve smoother surfaces."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 23,
+      "volume": 3010369.0,
+      "density": 50401.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/m",
+      "space_group_number": 83,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -181427.0,
+      "formation_energy_per_atom": -27875.0,
+      "decomposition_energy_per_atom": -19.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -22.0
+    },
+    "electronic": {
+      "bandgap": 0.4584,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c286600591",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.915782Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn4O13Sr5Ti1.json",
+      "material://Mn4O13Sr5Ti1"
+    ]
+  }
+}

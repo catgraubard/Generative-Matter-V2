@@ -1,0 +1,131 @@
+{
+  "id": "C6La4Li2O2",
+  "uri": "material://C6La4Li2O2",
+  "composition": {
+    "formula": "C6La4Li2O2",
+    "elements": {
+      "C": 6,
+      "La": 4,
+      "Li": 2,
+      "O": 2
+    },
+    "reduced_formula": "LiLa2C3O",
+    "element_list": [
+      "Li",
+      "C",
+      "O",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 12 g (Carbon) \n La: 32 g (Lanthanum) \n Li: 6 g (Lithium) \n O: 16 g (Oxygen) \n Total: 66 g (for a sample of dimensions 3 in x 2 in x 7 in)"
+    },
+    "sourcing": {
+      "instructions": "Carbon: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich) \n Lanthanum: Obtain from rare earth element suppliers \n Lithium: Available from chemical suppliers \n Oxygen: Use as part of air (O2) during processing",
+      "steps": [
+        "Carbon: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich)",
+        "Lanthanum: Obtain from rare earth element suppliers",
+        "Lithium: Available from chemical suppliers",
+        "Oxygen: Use as part of air (O2) during processing"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the precise amounts of each ingredient using an analytical balance.",
+        "2. In a clean, dry mixing container, add the Carbon, Lanthanum, Lithium, and Oxygen in the specified amounts.",
+        "3. Mix thoroughly until a homogeneous mixture is achieved, using a mortar and pestle or mechanical mixer."
+      ],
+      "raw_text": "1. Measure out the precise amounts of each ingredient using an analytical balance.\n 2. In a clean, dry mixing container, add the Carbon, Lanthanum, Lithium, and Oxygen in the specified amounts.\n 3. Mix thoroughly until a homogeneous mixture is achieved, using a mortar and pestle or mechanical mixer."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to 1000 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to allow for complete reaction and formation of the compound C6La4Li2O2."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible suitable for high-temperature applications.\n 2. Heat the crucible in a furnace to 1000 °C at a rate of 10 °C/min.\n 3. Maintain this temperature for 2 hours to allow for complete reaction and formation of the compound C6La4Li2O2."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) over the course of 6-8 hours.",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock to the sample."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) over the course of 6-8 hours.\n 2. Do not open the furnace door until it has cooled to avoid thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Use sandpaper or a file to smooth any rough edges and achieve the desired finish on the solid sample.",
+        "3. Optionally, seal the surface with a clear epoxy resin to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible.\n 2. Use sandpaper or a file to smooth any rough edges and achieve the desired finish on the solid sample.\n 3. Optionally, seal the surface with a clear epoxy resin to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 199822.0,
+      "density": 55974.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mbm",
+      "space_group_number": 127,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1035033.0,
+      "formation_energy_per_atom": -10489.0,
+      "decomposition_energy_per_atom": -323.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -292.0,
+      "decomposition_energy_mp": -322.0,
+      "decomposition_energy_mp_oqmd": -292.0
+    },
+    "electronic": {
+      "bandgap": 0.0103,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4d1f098a83",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:57.112062Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C6La4Li2O2.json",
+      "material://C6La4Li2O2"
+    ]
+  }
+}

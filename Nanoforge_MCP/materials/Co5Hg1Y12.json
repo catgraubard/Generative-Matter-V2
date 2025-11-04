@@ -1,0 +1,109 @@
+{
+  "id": "Co5Hg1Y12",
+  "uri": "material://Co5Hg1Y12",
+  "composition": {
+    "formula": "Co5Hg1Y12",
+    "elements": {
+      "Co": 5,
+      "Hg": 1,
+      "Y": 12
+    },
+    "reduced_formula": "Y12Co5Hg",
+    "element_list": [
+      "Co",
+      "Y",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gd2O3: 22.5 g \n Nd2O3: 37.5 g \n SiO2: 29 g \n (Total: 89 g)"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3: Available from chemical suppliers like Alfa Aesar or Sigma-Aldrich. \n Nd2O3: Obtain from the same suppliers as Gd2O3. \n SiO2: Can be sourced from local hardware stores or chemical suppliers.",
+      "steps": [
+        "Gd2O3: Available from chemical suppliers like Alfa Aesar or Sigma-Aldrich.",
+        "Nd2O3: Obtain from the same suppliers as Gd2O3.",
+        "SiO2: Can be sourced from local hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 22.5 g of Gd2O3 and 37.5 g of Nd2O3 accurately using an analytical balance.",
+        "2. Weigh 29 g of SiO2.",
+        "3. Combine Gd2O3, Nd2O3, and SiO2 in a clean, dry mortar and pestle.",
+        "4. Grind the mixture thoroughly for 15-20 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh 22.5 g of Gd2O3 and 37.5 g of Nd2O3 accurately using an analytical balance. \n 2. Weigh 29 g of SiO2. \n 3. Combine Gd2O3, Nd2O3, and SiO2 in a clean, dry mortar and pestle. \n 4. Grind the mixture thoroughly for 15-20 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Set the furnace to heat to 1200°C.",
+        "4. Hold the temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Set the furnace to heat to 1200°C. \n 4. Hold the temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool slowly to ambient temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace until it is completely cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool slowly to ambient temperature (approximately 1-2 hours). \n 2. Do not open the furnace until it is completely cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond file or sandpaper (120 grit) to smooth out any rough edges on the sample.",
+        "3. Clean the surface with a soft brush to remove any residual powder.",
+        "4. Optionally, seal the sample with a clear epoxy resin for enhanced durability and aesthetic finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use a diamond file or sandpaper (120 grit) to smooth out any rough edges on the sample. \n 3. Clean the surface with a soft brush to remove any residual powder. \n 4. Optionally, seal the sample with a clear epoxy resin for enhanced durability and aesthetic finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4477728.0,
+      "density": 57931.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1173635.0,
+      "formation_energy_per_atom": -2178.0,
+      "decomposition_energy_per_atom": -205.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -205.0,
+      "decomposition_energy_mp_oqmd": -174.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e4a38a7996",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.882353Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co5Hg1Y12.json",
+      "material://Co5Hg1Y12"
+    ]
+  }
+}

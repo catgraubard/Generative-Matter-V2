@@ -1,0 +1,109 @@
+{
+  "id": "Al8Be1Co8Ti13",
+  "uri": "material://Al8Be1Co8Ti13",
+  "composition": {
+    "formula": "Al8Be1Co8Ti13",
+    "elements": {
+      "Al": 8,
+      "Be": 1,
+      "Co": 8,
+      "Ti": 13
+    },
+    "reduced_formula": "Ti13Be(AlCo)8",
+    "element_list": [
+      "Be",
+      "Al",
+      "Ti",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum (Al): 1600 g \n Beryllium (Be): 200 g \n Cobalt (Co): 320 g \n Titanium (Ti): 520 g"
+    },
+    "sourcing": {
+      "instructions": "Aluminum: Local metal supply stores or online suppliers. \n Beryllium: Specialty metal suppliers or online chemical suppliers. \n Cobalt: Local metal supply stores or online suppliers. \n Titanium: Aerospace material suppliers or online metal suppliers.",
+      "steps": [
+        "Aluminum: Local metal supply stores or online suppliers.",
+        "Beryllium: Specialty metal suppliers or online chemical suppliers.",
+        "Cobalt: Local metal supply stores or online suppliers.",
+        "Titanium: Aerospace material suppliers or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the required amounts of each metal using a precision scale.",
+        "2. Cut the beryllium into smaller pieces if necessary for easier mixing.",
+        "3. In a clean, dry mixing container, combine the aluminum, beryllium, cobalt, and titanium in the specified proportions.",
+        "4. Use a mechanical mixer or mortar and pestle to ensure a homogenous blend of the materials."
+      ],
+      "raw_text": "1. Weigh out the required amounts of each metal using a precision scale.\n 2. Cut the beryllium into smaller pieces if necessary for easier mixing.\n 3. In a clean, dry mixing container, combine the aluminum, beryllium, cobalt, and titanium in the specified proportions.\n 4. Use a mechanical mixer or mortar and pestle to ensure a homogenous blend of the materials."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1000°C (1832°F).",
+        "2. Once the furnace reaches the desired temperature, place the mixed powder in a suitable crucible for melting."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1000°C (1832°F). \n 2. Once the furnace reaches the desired temperature, place the mixed powder in a suitable crucible for melting."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After achieving a complete melt, hold the material at 1000°C for 30 minutes to ensure uniformity.",
+        "2. Gradually lower the temperature to 800°C (1472°F) over 1 hour before removing the crucible from the furnace.",
+        "3. Allow the material to cool in air for an additional 2 hours."
+      ],
+      "raw_text": "1. After achieving a complete melt, hold the material at 1000°C for 30 minutes to ensure uniformity. \n 2. Gradually lower the temperature to 800°C (1472°F) over 1 hour before removing the crucible from the furnace. \n 3. Allow the material to cool in air for an additional 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder or sanding tool to achieve a smooth surface finish on all sides.",
+        "3. Optionally, apply a protective sealant to enhance corrosion resistance, following the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n 2. Use a grinder or sanding tool to achieve a smooth surface finish on all sides.\n 3. Optionally, apply a protective sealant to enhance corrosion resistance, following the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4240643.0,
+      "density": 51633.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2082396.0,
+      "formation_energy_per_atom": -5009.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -51.0,
+      "decomposition_energy_mp_oqmd": -47.0
+    },
+    "electronic": {
+      "bandgap": 0.0086,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5249f72445",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:03.597897Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al8Be1Co8Ti13.json",
+      "material://Al8Be1Co8Ti13"
+    ]
+  }
+}

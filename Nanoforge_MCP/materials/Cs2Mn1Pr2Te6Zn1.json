@@ -1,0 +1,113 @@
+{
+  "id": "Cs2Mn1Pr2Te6Zn1",
+  "uri": "material://Cs2Mn1Pr2Te6Zn1",
+  "composition": {
+    "formula": "Cs2Mn1Pr2Te6Zn1",
+    "elements": {
+      "Cs": 2,
+      "Mn": 1,
+      "Pr": 2,
+      "Te": 6,
+      "Zn": 1
+    },
+    "reduced_formula": "Cs2Pr2MnZnTe6",
+    "element_list": [
+      "Mn",
+      "Zn",
+      "Te",
+      "Cs",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.0 g, Mn: 5.0 g, Pr: 10.0 g, Te: 15.0 g, Zn: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Online chemical suppliers (e.g., Sigma-Aldrich), Mn: metal suppliers, Pr: specialty chemical suppliers, Te: online chemical suppliers, Zn: hardware stores",
+      "steps": [
+        "Cs: Online chemical suppliers (e.g., Sigma-Aldrich), Mn: metal suppliers, Pr: specialty chemical suppliers, Te: online chemical suppliers, Zn: hardware stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry glass container, combine Cs, Mn, Pr, Te, and Zn in the specified amounts.",
+        "3. Mix thoroughly using a stirrer to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry glass container, combine Cs, Mn, Pr, Te, and Zn in the specified amounts. \n 3. Mix thoroughly using a stirrer to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Heat in a furnace or high-temperature oven at 800°C for 4 hours to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Heat in a furnace or high-temperature oven at 800°C for 4 hours to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace during cooling to avoid contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use sandpaper to smooth the surfaces if necessary.",
+        "3. Optionally, seal the sample with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use sandpaper to smooth the surfaces if necessary. \n 3. Optionally, seal the sample with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 4767763.0,
+      "density": 49929.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -558789.0,
+      "formation_energy_per_atom": -12704.0,
+      "decomposition_energy_per_atom": -509.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -277.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.8282,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9b8b99fcb9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:40.291710Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Mn1Pr2Te6Zn1.json",
+      "material://Cs2Mn1Pr2Te6Zn1"
+    ]
+  }
+}

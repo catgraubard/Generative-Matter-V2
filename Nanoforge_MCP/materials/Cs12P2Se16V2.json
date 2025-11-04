@@ -1,0 +1,136 @@
+{
+  "id": "Cs12P2Se16V2",
+  "uri": "material://Cs12P2Se16V2",
+  "composition": {
+    "formula": "Cs12P2Se16V2",
+    "elements": {
+      "Cs": 12,
+      "P": 2,
+      "Se": 16,
+      "V": 2
+    },
+    "reduced_formula": "Cs6VPSe8",
+    "element_list": [
+      "P",
+      "V",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.00 g \n P: 4.00 g \n Se: 32.00 g \n V: 2.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from a chemical supply company or online vendor specializing in rare elements. \n P (Phosphorus): Obtain from a chemical supplier or laboratory store. \n Se (Selenium): Available from chemical suppliers. \n V (Vanadium): Obtain from a chemical supply company.",
+      "steps": [
+        "Cs (Cesium): Purchase from a chemical supply company or online vendor specializing in rare elements.",
+        "P (Phosphorus): Obtain from a chemical supplier or laboratory store.",
+        "Se (Selenium): Available from chemical suppliers.",
+        "V (Vanadium): Obtain from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 12.00 g of Cesium in a fume hood due to its reactivity.",
+        "2. Carefully weigh 4.00 g of Phosphorus using gloves.",
+        "3. Measure 32.00 g of Selenium in a separate container.",
+        "4. Weigh 2.00 g of Vanadium.",
+        "5. In a clean, dry mixing container, combine all measured materials.",
+        "6. Use a mortar and pestle to grind the powders together until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Measure out 12.00 g of Cesium in a fume hood due to its reactivity. \n 2. Carefully weigh 4.00 g of Phosphorus using gloves. \n 3. Measure 32.00 g of Selenium in a separate container. \n 4. Weigh 2.00 g of Vanadium. \n 5. In a clean, dry mixing container, combine all measured materials. \n 6. Use a mortar and pestle to grind the powders together until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the crucible gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the crucible gradually to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Ensure that the cooling takes place over a period of 6 hours to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Ensure that the cooling takes place over a period of 6 hours to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth out the surfaces of the sample.",
+        "3. If desired, apply a sealing agent to enhance surface durability and prevent oxidation.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth out the surfaces of the sample. \n 3. If desired, apply a sealing agent to enhance surface durability and prevent oxidation. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11922621.0,
+      "density": 4209.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1349566.0,
+      "formation_energy_per_atom": -12276.0,
+      "decomposition_energy_per_atom": -242.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -242.0,
+      "decomposition_energy_mp_oqmd": -237.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6fcdecfbe8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:41.789899Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12P2Se16V2.json",
+      "material://Cs12P2Se16V2"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "Na1Nb12Se16",
+  "uri": "material://Na1Nb12Se16",
+  "composition": {
+    "formula": "Na1Nb12Se16",
+    "elements": {
+      "Na": 1,
+      "Nb": 12,
+      "Se": 16
+    },
+    "reduced_formula": "Na(Nb3Se4)4",
+    "element_list": [
+      "Na",
+      "Se",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Na",
+          "amount": 0.54,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 17.28,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 22.72,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na: 0.54 g\nNb: 17.28 g\nSe: 22.72 g"
+    },
+    "sourcing": {
+      "instructions": "Na: Obtain sodium metal from a chemical supplier or online store specializing in laboratory chemicals.\nNb: Purchase niobium metal from a specialized metallurgy supplier.\nSe: Selenium can be sourced from chemical supply companies or online laboratory suppliers.",
+      "steps": [
+        "Na: Obtain sodium metal from a chemical supplier or online store specializing in laboratory chemicals.",
+        "Nb: Purchase niobium metal from a specialized metallurgy supplier.",
+        "Se: Selenium can be sourced from chemical supply companies or online laboratory suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 0.54 g of sodium metal using a precision balance.",
+        "2. Weigh 17.28 g of niobium metal.",
+        "3. Weigh 22.72 g of selenium.",
+        "4. Combine the weighed materials in a dry, inert atmosphere to prevent oxidation. Use a glove box or a fume hood if necessary."
+      ],
+      "raw_text": "1. Weigh 0.54 g of sodium metal using a precision balance.\n2. Weigh 17.28 g of niobium metal.\n3. Weigh 22.72 g of selenium.\n4. Combine the weighed materials in a dry, inert atmosphere to prevent oxidation. Use a glove box or a fume hood if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F) for 4 hours to ensure complete reaction and formation of Na1Nb12Se16."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible.\n2. Heat the crucible in a furnace to 800°C (1472°F) for 4 hours to ensure complete reaction and formation of Na1Nb12Se16."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature, which may take approximately 6-8 hours. Avoid opening the furnace door during the cooling phase to prevent contamination."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature, which may take approximately 6-8 hours. Avoid opening the furnace door during the cooling phase to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use sandpaper to smooth the edges and surface of the sample to achieve the desired finish.",
+        "3. Optionally, seal the sample with a protective coating to enhance durability, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible.\n2. Use sandpaper to smooth the edges and surface of the sample to achieve the desired finish.\n3. Optionally, seal the sample with a protective coating to enhance durability, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 6264081.0,
+      "density": 63654.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2113083.0,
+      "formation_energy_per_atom": -11323.0,
+      "decomposition_energy_per_atom": -29.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -29.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8338d624af",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:07.774449Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na1Nb12Se16.json",
+      "material://Na1Nb12Se16"
+    ]
+  }
+}

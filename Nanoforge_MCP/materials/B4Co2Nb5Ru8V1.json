@@ -1,0 +1,115 @@
+{
+  "id": "B4Co2Nb5Ru8V1",
+  "uri": "material://B4Co2Nb5Ru8V1",
+  "composition": {
+    "formula": "B4Co2Nb5Ru8V1",
+    "elements": {
+      "B": 4,
+      "Co": 2,
+      "Nb": 5,
+      "Ru": 8,
+      "V": 1
+    },
+    "reduced_formula": "Nb5VCo2(BRu2)4",
+    "element_list": [
+      "B",
+      "V",
+      "Co",
+      "Nb",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g,  Co: 10 g,  Nb: 25 g,  Ru: 15 g,  V: 5 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical suppliers (e.g., Sigma-Aldrich); Co: Metal suppliers; Nb: Specialty metal providers; Ru: Precious metal suppliers; V: Chemical suppliers.",
+      "steps": [
+        "B: Chemical suppliers (e.g., Sigma-Aldrich); Co: Metal suppliers; Nb: Specialty metal providers; Ru: Precious metal suppliers; V: Chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry mixing container, combine B, Co, Nb, Ru, and V sequentially.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until uniform.",
+        "4. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry mixing container, combine B, Co, Nb, Ru, and V sequentially. \n 3. Use a mortar and pestle to thoroughly mix the powders until uniform. \n 4. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a sintering furnace to 1200°C.",
+        "2. Place the ball-milled powder in a graphite crucible.",
+        "3. Insert the crucible into the furnace and hold at 1200°C for 4 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a sintering furnace to 1200°C. \n 2. Place the ball-milled powder in a graphite crucible. \n 3. Insert the crucible into the furnace and hold at 1200°C for 4 hours to facilitate sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the sintering process, turn off the furnace and allow it to cool gradually to room temperature (approximately 25°C).",
+        "2. Ensure the crucible remains in the furnace during cooling for even temperature distribution."
+      ],
+      "raw_text": "1. After the sintering process, turn off the furnace and allow it to cool gradually to room temperature (approximately 25°C). \n 2. Ensure the crucible remains in the furnace during cooling for even temperature distribution."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the surfaces with 400-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealing coat to enhance surface properties."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the surfaces with 400-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealing coat to enhance surface properties."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2564579.0,
+      "density": 96162.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/m",
+      "space_group_number": 83,
+      "point_group": "4/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1838772.0,
+      "formation_energy_per_atom": -4579.0,
+      "decomposition_energy_per_atom": -181.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -171.0,
+      "decomposition_energy_mp": -181.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "900f560cf8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:25.119054Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Co2Nb5Ru8V1.json",
+      "material://B4Co2Nb5Ru8V1"
+    ]
+  }
+}

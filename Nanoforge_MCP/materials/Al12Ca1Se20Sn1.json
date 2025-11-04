@@ -1,0 +1,116 @@
+{
+  "id": "Al12Ca1Se20Sn1",
+  "uri": "material://Al12Ca1Se20Sn1",
+  "composition": {
+    "formula": "Al12Ca1Se20Sn1",
+    "elements": {
+      "Al": 12,
+      "Ca": 1,
+      "Se": 20,
+      "Sn": 1
+    },
+    "reduced_formula": "CaAl12SnSe20",
+    "element_list": [
+      "Al",
+      "Ca",
+      "Se",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 7.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 13.5 g\nFe2: 30.0 g\nNd: 7.5 g\nSm4: 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich).\nFe2: Metal suppliers or online retailers.\nNd: Rare earth suppliers or specialized chemical distributors.\nSm4: Rare earth material suppliers.",
+      "steps": [
+        "B6: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich).",
+        "Fe2: Metal suppliers or online retailers.",
+        "Nd: Rare earth suppliers or specialized chemical distributors.",
+        "Sm4: Rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital balance.",
+        "2. In a clean mixing container, combine B6, Fe2, Nd, and Sm4 in the specified amounts.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital balance.\n2. In a clean mixing container, combine B6, Fe2, Nd, and Sm4 in the specified amounts.\n3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to promote solid-state reaction.",
+        "3. Ensure a controlled atmosphere if necessary to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n2. Heat in a furnace to 1200°C for 2 hours to promote solid-state reaction.\n3. Ensure a controlled atmosphere if necessary to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has reached ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature (approximately 4-6 hours).\n2. Do not open the furnace until it has reached ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealing coat to enhance surface integrity."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n4. Optionally, apply a sealing coat to enhance surface integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 9209678.0,
+      "density": 37174.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1609492.0,
+      "formation_energy_per_atom": -11785.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -104.0,
+      "decomposition_energy_mp_oqmd": -39.0
+    },
+    "electronic": {
+      "bandgap": 1.9203,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e1a658003f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.134968Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al12Ca1Se20Sn1.json",
+      "material://Al12Ca1Se20Sn1"
+    ]
+  }
+}

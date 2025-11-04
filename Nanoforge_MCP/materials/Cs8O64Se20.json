@@ -1,0 +1,126 @@
+{
+  "id": "Cs8O64Se20",
+  "uri": "material://Cs8O64Se20",
+  "composition": {
+    "formula": "Cs8O64Se20",
+    "elements": {
+      "Cs": 8,
+      "O": 64,
+      "Se": 20
+    },
+    "reduced_formula": "Cs2Se5O16",
+    "element_list": [
+      "O",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.2,
+          "unit": "g"
+        },
+        {
+          "element": "Cs",
+          "amount": 76.8,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 51.2,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 33.6,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.2 g, O: 0.8 g, Se: 0.6 g (total: 2.6 g) for each of the 64 molecules, resulting in: \n Cs: 76.8 g \n O: 51.2 g \n Se: 33.6 g \n Total: 161.6 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Obtain from specialized chemical suppliers or online platforms like Sigma-Aldrich. \n O (Oxygen): Usually available as part of air or can be sourced from oxygen gas suppliers. \n Se (Selenium): Acquire from chemical supply companies such as Alfa Aesar or similar.",
+      "steps": [
+        "Cs (Cesium): Obtain from specialized chemical suppliers or online platforms like Sigma-Aldrich.",
+        "O (Oxygen): Usually available as part of air or can be sourced from oxygen gas suppliers.",
+        "Se (Selenium): Acquire from chemical supply companies such as Alfa Aesar or similar."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 76.8 g of cesium, 51.2 g of oxygen, and 33.6 g of selenium using a precision balance.",
+        "2. Mix cesium and selenium in a clean, dry glass container until homogeneous.",
+        "3. Slowly introduce oxygen gas into the mixture while stirring continuously to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out 76.8 g of cesium, 51.2 g of oxygen, and 33.6 g of selenium using a precision balance. \n 2. Mix cesium and selenium in a clean, dry glass container until homogeneous. \n 3. Slowly introduce oxygen gas into the mixture while stirring continuously to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the homogeneous mixture to a quartz crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 800°C for 2 hours to promote solid-state reactions. Ensure the environment is inert to prevent unwanted reactions."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture to a quartz crucible. \n 2. Heat the crucible in a furnace to a temperature of 800°C for 2 hours to promote solid-state reactions. Ensure the environment is inert to prevent unwanted reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to room temperature (approximately 4 hours) to avoid thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to room temperature (approximately 4 hours) to avoid thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any surface irregularities.",
+        "2. Use fine grit sandpaper to smooth the edges and surfaces as needed.",
+        "3. Optionally, seal the sample with a clear epoxy resin to protect the surface and enhance durability. Allow the resin to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any surface irregularities. \n 2. Use fine grit sandpaper to smooth the edges and surfaces as needed. \n 3. Optionally, seal the sample with a clear epoxy resin to protect the surface and enhance durability. Allow the resin to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 92,
+      "volume": 20834346.0,
+      "density": 29222.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbcn",
+      "space_group_number": 60,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -5065882.0,
+      "formation_energy_per_atom": -12265.0,
+      "decomposition_energy_per_atom": -533.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -74.0,
+      "decomposition_energy_mp": -539.0,
+      "decomposition_energy_mp_oqmd": -202.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "482c7c67ca",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:50.378916Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs8O64Se20.json",
+      "material://Cs8O64Se20"
+    ]
+  }
+}

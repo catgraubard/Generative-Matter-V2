@@ -1,0 +1,127 @@
+{
+  "id": "Ba1Cu18Ge1Si7Sr1",
+  "uri": "material://Ba1Cu18Ge1Si7Sr1",
+  "composition": {
+    "formula": "Ba1Cu18Ge1Si7Sr1",
+    "elements": {
+      "Ba": 1,
+      "Cu": 18,
+      "Ge": 1,
+      "Si": 7,
+      "Sr": 1
+    },
+    "reduced_formula": "BaSrCu18Si7Ge",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ge",
+      "Sr",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 2.5 g \n Pr: 1.0 g \n Sb: 5.0 g \n (Total: 8.5 g) \n Note: The total mass of the sample is estimated based on the density and volume required to create a solid sample of 3 in x 2 in x 7 in (approximately 6.9 cm x 5.1 cm x 17.8 cm = 606.2 cm³). This is a calculated estimate; actual needs may vary."
+    },
+    "sourcing": {
+      "instructions": "Erbium (Er) can be sourced from chemical suppliers like Sigma-Aldrich or Alfa Aesar. \n Praseodymium (Pr) can be obtained from online chemical vendors or specialty metal suppliers. \n Antimony (Sb) is available from metal suppliers or chemical stores.",
+      "steps": [
+        "Erbium (Er) can be sourced from chemical suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Praseodymium (Pr) can be obtained from online chemical vendors or specialty metal suppliers.",
+        "Antimony (Sb) is available from metal suppliers or chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each of the materials accurately using an analytical balance.",
+        "2. In a clean, dry container, combine the measured amounts of Er, Pr, and Sb.",
+        "3. Mix thoroughly using a mortar and pestle for at least 10 minutes to ensure a homogenous blend."
+      ],
+      "raw_text": "1. Weigh each of the materials accurately using an analytical balance. \n 2. In a clean, dry container, combine the measured amounts of Er, Pr, and Sb. \n 3. Mix thoroughly using a mortar and pestle for at least 10 minutes to ensure a homogenous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to a temperature of 1200°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete melting and mixing of the elements."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace to a temperature of 1200°C. \n 3. Maintain this temperature for 4 hours to ensure complete melting and mixing of the elements."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C).",
+        "2. Avoid opening the furnace until it has cooled to prevent thermal shock. This may take several hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C). \n 2. Avoid opening the furnace until it has cooled to prevent thermal shock. This may take several hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect the sample for any imperfections or irregularities.",
+        "3. If necessary, use a diamond saw to trim the edges to achieve the desired dimensions.",
+        "4. Polish the surface with fine-grit sandpaper to enhance appearance and remove any rough edges.",
+        "5. Optionally, apply a sealing coating to enhance durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect the sample for any imperfections or irregularities. \n 3. If necessary, use a diamond saw to trim the edges to achieve the desired dimensions. \n 4. Polish the surface with fine-grit sandpaper to enhance appearance and remove any rough edges. \n 5. Optionally, apply a sealing coating to enhance durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3963311.0,
+      "density": 68629.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1253682.0,
+      "formation_energy_per_atom": -1919.0,
+      "decomposition_energy_per_atom": -99.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -96.0,
+      "decomposition_energy_mp_oqmd": -96.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e4ad6fc80b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.891366Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Cu18Ge1Si7Sr1.json",
+      "material://Ba1Cu18Ge1Si7Sr1"
+    ]
+  }
+}

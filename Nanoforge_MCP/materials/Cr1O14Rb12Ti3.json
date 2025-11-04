@@ -1,0 +1,112 @@
+{
+  "id": "Cr1O14Rb12Ti3",
+  "uri": "material://Cr1O14Rb12Ti3",
+  "composition": {
+    "formula": "Cr1O14Rb12Ti3",
+    "elements": {
+      "Cr": 1,
+      "O": 14,
+      "Rb": 12,
+      "Ti": 3
+    },
+    "reduced_formula": "Rb12Ti3CrO14",
+    "element_list": [
+      "O",
+      "Ti",
+      "Cr",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 25 g, O: 70 g, Rb: 12 g, Ti: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply stores or online suppliers; O: Oxygen can be sourced as a gas from gas suppliers; Rb: Chemical supply stores or online suppliers; Ti: Metal supply stores or online suppliers.",
+      "steps": [
+        "Cr: Chemical supply stores or online suppliers; O: Oxygen can be sourced as a gas from gas suppliers; Rb: Chemical supply stores or online suppliers; Ti: Metal supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cr, O, Rb, and Ti in the specified amounts.",
+        "3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Cr, O, Rb, and Ti in the specified amounts. \n 3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 900°C (1652°F) and maintain this temperature for 2 hours to allow for complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 900°C (1652°F) and maintain this temperature for 2 hours to allow for complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled down to avoid thermal shock to the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled down to avoid thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120-220) to smooth out any rough edges and achieve a polished finish.",
+        "3. Optionally, apply a sealant if additional protection is required for the surface."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120-220) to smooth out any rough edges and achieve a polished finish. \n 3. Optionally, apply a sealant if additional protection is required for the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 6578108.0,
+      "density": 36482.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1849882.0,
+      "formation_energy_per_atom": -23537.0,
+      "decomposition_energy_per_atom": -187.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -192.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 2.2288,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3c4884fb89",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:34.835336Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1O14Rb12Ti3.json",
+      "material://Cr1O14Rb12Ti3"
+    ]
+  }
+}

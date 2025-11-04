@@ -1,0 +1,115 @@
+{
+  "id": "Si16Tc9Ti3Y8",
+  "uri": "material://Si16Tc9Ti3Y8",
+  "composition": {
+    "formula": "Si16Tc9Ti3Y8",
+    "elements": {
+      "Si": 16,
+      "Tc": 9,
+      "Ti": 3,
+      "Y": 8
+    },
+    "reduced_formula": "Y8Ti3Si16Tc9",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Y",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 32.0 g, Tc: 18.0 g, Ti: 6.0 g, Y: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "Si: Silicon powder from a chemical supplier; Tc: Technetium powder from a specialized nuclear material supplier; Ti: Titanium powder from a metal supplier; Y: Yttrium powder from a chemical supplier.",
+      "steps": [
+        "Si: Silicon powder from a chemical supplier; Tc: Technetium powder from a specialized nuclear material supplier; Ti: Titanium powder from a metal supplier; Y: Yttrium powder from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 32.0 g of silicon powder.",
+        "2. Weigh out 18.0 g of technetium powder.",
+        "3. Weigh out 6.0 g of titanium powder.",
+        "4. Weigh out 12.0 g of yttrium powder.",
+        "5. In a clean, dry mixing bowl, combine all powders thoroughly using a glass rod or spatula to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out 32.0 g of silicon powder. \n 2. Weigh out 18.0 g of technetium powder. \n 3. Weigh out 6.0 g of titanium powder. \n 4. Weigh out 12.0 g of yttrium powder. \n 5. In a clean, dry mixing bowl, combine all powders thoroughly using a glass rod or spatula to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Set the furnace to 1500 °C.",
+        "3. Hold the temperature for 2 hours to ensure complete reaction and fusion of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Set the furnace to 1500 °C. \n 3. Hold the temperature for 2 hours to ensure complete reaction and fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature over a period of 6 hours.",
+        "2. Ensure the furnace door remains closed during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature over a period of 6 hours. \n 2. Ensure the furnace door remains closed during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use sandpaper (grit 600) to smooth the surfaces of the sample.",
+        "3. If needed, apply a protective sealant to the surface to prevent oxidation.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use sandpaper (grit 600) to smooth the surfaces of the sample. \n 3. If needed, apply a protective sealant to the surface to prevent oxidation. \n 4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6002247.0,
+      "density": 60482.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -283202.0,
+      "formation_energy_per_atom": -7704.0,
+      "decomposition_energy_per_atom": -973.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -83.0,
+      "decomposition_energy_mp": -977.0,
+      "decomposition_energy_mp_oqmd": -975.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "430bb6da93",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:43.664772Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si16Tc9Ti3Y8.json",
+      "material://Si16Tc9Ti3Y8"
+    ]
+  }
+}

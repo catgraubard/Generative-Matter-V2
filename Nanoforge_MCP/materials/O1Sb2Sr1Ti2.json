@@ -1,0 +1,113 @@
+{
+  "id": "O1Sb2Sr1Ti2",
+  "uri": "material://O1Sb2Sr1Ti2",
+  "composition": {
+    "formula": "O1Sb2Sr1Ti2",
+    "elements": {
+      "O": 1,
+      "Sb": 2,
+      "Sr": 1,
+      "Ti": 2
+    },
+    "reduced_formula": "SrTi2Sb2O",
+    "element_list": [
+      "O",
+      "Ti",
+      "Sr",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 5.00 g, Sb: 10.00 g, Sr: 3.00 g, Ti: 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "O: Purchase from chemical supply companies; Sb: Obtain from a metals supplier; Sr: Available at specialty chemical vendors; Ti: Source from materials science suppliers.",
+      "steps": [
+        "O: Purchase from chemical supply companies; Sb: Obtain from a metals supplier; Sr: Available at specialty chemical vendors; Ti: Source from materials science suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients using an analytical balance.",
+        "2. Combine O, Sb, Sr, and Ti in a clean, dry container.",
+        "3. Mix thoroughly using a mortar and pestle to ensure a homogeneous powder."
+      ],
+      "raw_text": "1. Weigh the ingredients using an analytical balance. \n 2. Combine O, Sb, Sr, and Ti in a clean, dry container.\n 3. Mix thoroughly using a mortar and pestle to ensure a homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat in a muffle furnace at 800°C for 2 hours.",
+        "3. Increase temperature to 1000°C for an additional 1 hour."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat in a muffle furnace at 800°C for 2 hours. \n 3. Increase temperature to 1000°C for an additional 1 hour."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid opening the furnace door until it has cooled completely."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid opening the furnace door until it has cooled completely."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth out any rough edges.",
+        "3. Clean the surface with isopropyl alcohol to remove any residues.",
+        "4. Optionally, apply a clear sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond file to smooth out any rough edges. \n 3. Clean the surface with isopropyl alcohol to remove any residues. \n 4. Optionally, apply a clear sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1342331.0,
+      "density": 54786.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -39777.0,
+      "formation_energy_per_atom": -15151.0,
+      "decomposition_energy_per_atom": -138.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -14.0,
+      "decomposition_energy_mp_oqmd": -28.0
+    },
+    "electronic": {
+      "bandgap": 0.0042,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "73919c5c66",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.710223Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O1Sb2Sr1Ti2.json",
+      "material://O1Sb2Sr1Ti2"
+    ]
+  }
+}

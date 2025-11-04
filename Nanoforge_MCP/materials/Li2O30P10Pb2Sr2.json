@@ -1,0 +1,129 @@
+{
+  "id": "Li2O30P10Pb2Sr2",
+  "uri": "material://Li2O30P10Pb2Sr2",
+  "composition": {
+    "formula": "Li2O30P10Pb2Sr2",
+    "elements": {
+      "Li": 2,
+      "O": 30,
+      "P": 10,
+      "Pb": 2,
+      "Sr": 2
+    },
+    "reduced_formula": "SrLiP5PbO15",
+    "element_list": [
+      "Li",
+      "O",
+      "P",
+      "Sr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2O: 60 g \n P: 30 g \n Pb: 80 g \n Sr: 40 g \n Total: 210 g (to ensure sufficient volume for dimensions 3 in x 2 in x 7 in)"
+    },
+    "sourcing": {
+      "instructions": "Li2O: Chemical supply companies or online chemical retailers \n P: Phosphorus suppliers or chemical supply stores \n Pb: Lead suppliers or metal supply stores \n Sr: Strontium suppliers or chemical supply companies",
+      "steps": [
+        "Li2O: Chemical supply companies or online chemical retailers",
+        "P: Phosphorus suppliers or chemical supply stores",
+        "Pb: Lead suppliers or metal supply stores",
+        "Sr: Strontium suppliers or chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 60 g of Li2O and place in a clean mixing container.",
+        "2. Weigh 30 g of phosphorus and add to the container.",
+        "3. Weigh 80 g of lead and add to the mixture.",
+        "4. Weigh 40 g of strontium and add it to the container.",
+        "5. Using a spatula, mix the dry ingredients thoroughly until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 60 g of Li2O and place in a clean mixing container. \n 2. Weigh 30 g of phosphorus and add to the container. \n 3. Weigh 80 g of lead and add to the mixture. \n 4. Weigh 40 g of strontium and add it to the container. \n 5. Using a spatula, mix the dry ingredients thoroughly until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800 °C.",
+        "2. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete reaction and melting of materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 800 °C. \n 2. Transfer the mixed powder into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete reaction and melting of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature gradually.",
+        "2. This process should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature gradually. \n 2. This process should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use sandpaper to smooth the surfaces if necessary.",
+        "3. Optionally, apply a sealant for added durability and finish. Allow the sealant to cure according to the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use sandpaper to smooth the surfaces if necessary. \n 3. Optionally, apply a sealant for added durability and finish. Allow the sealant to cure according to the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 46,
+      "volume": 679956.0,
+      "density": 34025.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3431638.0,
+      "formation_energy_per_atom": -27385.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -36.0,
+      "decomposition_energy_mp_oqmd": -22.0
+    },
+    "electronic": {
+      "bandgap": 4.8412,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8aa6af3631",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:17.786088Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2O30P10Pb2Sr2.json",
+      "material://Li2O30P10Pb2Sr2"
+    ]
+  }
+}

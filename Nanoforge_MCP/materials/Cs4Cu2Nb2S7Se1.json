@@ -1,0 +1,116 @@
+{
+  "id": "Cs4Cu2Nb2S7Se1",
+  "uri": "material://Cs4Cu2Nb2S7Se1",
+  "composition": {
+    "formula": "Cs4Cu2Nb2S7Se1",
+    "elements": {
+      "Cs": 4,
+      "Cu": 2,
+      "Nb": 2,
+      "S": 7,
+      "Se": 1
+    },
+    "reduced_formula": "Cs4Nb2Cu2SeS7",
+    "element_list": [
+      "S",
+      "Cu",
+      "Se",
+      "Nb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.40 g, Cu: 0.20 g, Nb: 0.20 g, S: 0.70 g, Se: 0.10 g (total: 1.60 g for sample)"
+    },
+    "sourcing": {
+      "instructions": "Cs: from chemical suppliers like Sigma-Aldrich; Cu: from metal suppliers; Nb: from rare metal suppliers; S: from chemical suppliers; Se: from semiconductor suppliers.",
+      "steps": [
+        "Cs: from chemical suppliers like Sigma-Aldrich; Cu: from metal suppliers; Nb: from rare metal suppliers; S: from chemical suppliers; Se: from semiconductor suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Cs, Cu, Nb, S, and Se accurately using a balance.",
+        "2. In a clean, dry container, combine the weighed amounts of Cs, Cu, Nb, S, and Se.",
+        "3. Mix thoroughly using a mortar and pestle to ensure homogeneity.",
+        "4. Transfer the mixture into a crucible suitable for high temperatures."
+      ],
+      "raw_text": "1. Weigh Cs, Cu, Nb, S, and Se accurately using a balance. \n 2. In a clean, dry container, combine the weighed amounts of Cs, Cu, Nb, S, and Se. \n 3. Mix thoroughly using a mortar and pestle to ensure homogeneity. \n 4. Transfer the mixture into a crucible suitable for high temperatures."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible with the mixture in the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible with the mixture in the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Avoid rapid cooling to prevent cracking; this may take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Avoid rapid cooling to prevent cracking; this may take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use fine sandpaper to smooth out the surface as needed.",
+        "4. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for any rough edges or imperfections. \n 3. Use fine sandpaper to smooth out the surface as needed. \n 4. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5240187.0,
+      "density": 36377.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -856895.0,
+      "formation_energy_per_atom": -13285.0,
+      "decomposition_energy_per_atom": -1309.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -1313.0,
+      "decomposition_energy_mp_oqmd": -1142.0
+    },
+    "electronic": {
+      "bandgap": 1.8965,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6b74c908ce",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:36.322689Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Cu2Nb2S7Se1.json",
+      "material://Cs4Cu2Nb2S7Se1"
+    ]
+  }
+}

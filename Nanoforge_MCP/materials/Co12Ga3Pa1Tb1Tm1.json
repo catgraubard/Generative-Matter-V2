@@ -1,0 +1,132 @@
+{
+  "id": "Co12Ga3Pa1Tb1Tm1",
+  "uri": "material://Co12Ga3Pa1Tb1Tm1",
+  "composition": {
+    "formula": "Co12Ga3Pa1Tb1Tm1",
+    "elements": {
+      "Co": 12,
+      "Ga": 3,
+      "Pa": 1,
+      "Tb": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "TbTmPa(GaCo4)3",
+    "element_list": [
+      "Co",
+      "Ga",
+      "Tb",
+      "Tm",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 64 g \n Co: 16 g \n Tm: 8 g \n Zr: 8 g \n Total: 96 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Chemical supply stores or online chemical suppliers \n Co (Cobalt): Metal suppliers, online retailers \n Tm (Thulium): Specialty chemical suppliers \n Zr (Zirconium): Metal suppliers or online retailers",
+      "steps": [
+        "B (Boron): Chemical supply stores or online chemical suppliers",
+        "Co (Cobalt): Metal suppliers, online retailers",
+        "Tm (Thulium): Specialty chemical suppliers",
+        "Zr (Zirconium): Metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean container, combine the weighed Boron, Cobalt, Thulium, and Zirconium.",
+        "3. Mix thoroughly with a spatula until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean container, combine the weighed Boron, Cobalt, Thulium, and Zirconium. \n 3. Mix thoroughly with a spatula until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Transfer the mixed powders into a suitable crucible.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Transfer the mixed powders into a suitable crucible. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once cooled.",
+        "2. Use a diamond grinding wheel to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, apply a sealing coat to enhance surface properties."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once cooled. \n 2. Use a diamond grinding wheel to achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, apply a sealing coat to enhance surface properties."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 254736.0,
+      "density": 96167.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1184995.0,
+      "formation_energy_per_atom": -305.0,
+      "decomposition_energy_per_atom": -198.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -198.0,
+      "decomposition_energy_mp_oqmd": -156.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d89d98377d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.602699Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co12Ga3Pa1Tb1Tm1.json",
+      "material://Co12Ga3Pa1Tb1Tm1"
+    ]
+  }
+}

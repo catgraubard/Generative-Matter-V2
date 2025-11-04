@@ -1,0 +1,113 @@
+{
+  "id": "Co15Mn1Mo2P12Sm6",
+  "uri": "material://Co15Mn1Mo2P12Sm6",
+  "composition": {
+    "formula": "Co15Mn1Mo2P12Sm6",
+    "elements": {
+      "Co": 15,
+      "Mn": 1,
+      "Mo": 2,
+      "P": 12,
+      "Sm": 6
+    },
+    "reduced_formula": "Sm6MnCo15(MoP6)2",
+    "element_list": [
+      "P",
+      "Mn",
+      "Co",
+      "Mo",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 225.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 225 g, Mn: 15 g, Mo: 30 g, P: 180 g, Sm: 90 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supplier or online (e.g., Sigma-Aldrich); Mn: Local metal shop; Mo: Online chemical suppliers; P: Chemical supplier; Sm: Rare earth metal suppliers.",
+      "steps": [
+        "Co: Purchase from a metal supplier or online (e.g., Sigma-Aldrich); Mn: Local metal shop; Mo: Online chemical suppliers; P: Chemical supplier; Sm: Rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine Co, Mn, Mo, P, and Sm.",
+        "3. Mix thoroughly using a mechanical stirrer or mortar and pestle until homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine Co, Mn, Mo, P, and Sm. \n 3. Mix thoroughly using a mechanical stirrer or mortar and pestle until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a suitable crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours under inert atmosphere (e.g., argon)."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a suitable crucible. \n 2. Heat in a furnace to 1200°C for 2 hours under inert atmosphere (e.g., argon)."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure the crucible is not exposed to air during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Ensure the crucible is not exposed to air during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a belt sander or grinder to achieve desired dimensions and smoothness.",
+        "3. Clean the surface with a soft cloth and apply a protective sealant if necessary."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a belt sander or grinder to achieve desired dimensions and smoothness. \n 3. Clean the surface with a soft cloth and apply a protective sealant if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 494812.0,
+      "density": 80698.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -26357.0,
+      "formation_energy_per_atom": -9117.0,
+      "decomposition_energy_per_atom": -333.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -333.0,
+      "decomposition_energy_mp_oqmd": -329.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "200086810f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:57.560011Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co15Mn1Mo2P12Sm6.json",
+      "material://Co15Mn1Mo2P12Sm6"
+    ]
+  }
+}

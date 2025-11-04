@@ -1,0 +1,105 @@
+{
+  "id": "Cs1Cu2Sb2Y1",
+  "uri": "material://Cs1Cu2Sb2Y1",
+  "composition": {
+    "formula": "Cs1Cu2Sb2Y1",
+    "elements": {
+      "Cs": 1,
+      "Cu": 2,
+      "Sb": 2,
+      "Y": 1
+    },
+    "reduced_formula": "CsY(CuSb)2",
+    "element_list": [
+      "Cu",
+      "Y",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10 g, Cu: 20 g, Sb: 30 g, Y: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier specialized in alkali metals. Cu: Purchase from a local metal supplier or online metal shop. Sb: Available from chemical suppliers or electronics components stores. Y: Available from chemical suppliers.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier specialized in alkali metals. Cu: Purchase from a local metal supplier or online metal shop. Sb: Available from chemical suppliers or electronics components stores. Y: Available from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of Cs, 20 g of Cu, 30 g of Sb, and 5 g of Y using a precise scale. 2. In a dry, inert atmosphere (e.g., argon-filled glovebox), combine the weighed ingredients in a clean, dry mixing container. 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved. 4. Transfer the mixed powder into a suitable crucible for heating."
+      ],
+      "raw_text": "1. Weigh out 10 g of Cs, 20 g of Cu, 30 g of Sb, and 5 g of Y using a precise scale. 2. In a dry, inert atmosphere (e.g., argon-filled glovebox), combine the weighed ingredients in a clean, dry mixing container. 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved. 4. Transfer the mixed powder into a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800 °C. 2. Place the crucible with the blended materials in the furnace. 3. Allow the materials to heat for 4 hours, ensuring a consistent temperature throughout the process."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C. 2. Place the crucible with the blended materials in the furnace. 3. Allow the materials to heat for 4 hours, ensuring a consistent temperature throughout the process."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). 2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible and inspect for any irregularities. 2. If necessary, use a fine-grit sandpaper to smooth out the surfaces. 3. Optionally, apply a sealing agent to enhance durability. 4. Store the final product in a dry, inert atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible and inspect for any irregularities. 2. If necessary, use a fine-grit sandpaper to smooth out the surfaces. 3. Optionally, apply a sealing agent to enhance durability. 4. Store the final product in a dry, inert atmosphere to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 169674.0,
+      "density": 57978.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -274808.0,
+      "formation_energy_per_atom": -6104.0,
+      "decomposition_energy_per_atom": -138.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -138.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": 0.012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "730d26a7b9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:45.997989Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Cu2Sb2Y1.json",
+      "material://Cs1Cu2Sb2Y1"
+    ]
+  }
+}

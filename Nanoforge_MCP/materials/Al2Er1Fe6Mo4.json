@@ -1,0 +1,138 @@
+{
+  "id": "Al2Er1Fe6Mo4",
+  "uri": "material://Al2Er1Fe6Mo4",
+  "composition": {
+    "formula": "Al2Er1Fe6Mo4",
+    "elements": {
+      "Al": 2,
+      "Er": 1,
+      "Fe": 6,
+      "Mo": 4
+    },
+    "reduced_formula": "ErAl2(Fe3Mo2)2",
+    "element_list": [
+      "Al",
+      "Fe",
+      "Mo",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 640.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 480.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 640 g \n Mn: 80 g \n P: 480 g \n Sm: 20 g \n Tb: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or metallurgical supply store. \n Mn: Available at chemical suppliers or metal supply stores. \n P: Obtain from a chemical supplier. \n Sm: Source from a rare earth supplier. \n Tb: Acquire from a rare earth supplier or specialized chemical distributor.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or metallurgical supply store.",
+        "Mn: Available at chemical suppliers or metal supply stores.",
+        "P: Obtain from a chemical supplier.",
+        "Sm: Source from a rare earth supplier.",
+        "Tb: Acquire from a rare earth supplier or specialized chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Mn, P, Sm, and Tb.",
+        "3. Use a mechanical stirrer or mortar and pestle to mix thoroughly for 10 minutes until a homogenous mixture is achieved.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Co, Mn, P, Sm, and Tb. \n 3. Use a mechanical stirrer or mortar and pestle to mix thoroughly for 10 minutes until a homogenous mixture is achieved. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the crucible containing the mixture in the furnace.",
+        "3. Heat the material for 4 hours to ensure complete melting and reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the crucible containing the mixture in the furnace. \n 3. Heat the material for 4 hours to ensure complete melting and reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any imperfections or unreacted materials.",
+        "3. If necessary, sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface if required for your application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any imperfections or unreacted materials. \n 3. If necessary, sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to protect the surface if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 1848735.0,
+      "density": 84436.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1087647.0,
+      "formation_energy_per_atom": -1926.0,
+      "decomposition_energy_per_atom": -21.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -159.0,
+      "decomposition_energy_mp": -21.0,
+      "decomposition_energy_mp_oqmd": -204.0
+    },
+    "electronic": {
+      "bandgap": 0.0024,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ad4e4772d1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:06.547731Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Er1Fe6Mo4.json",
+      "material://Al2Er1Fe6Mo4"
+    ]
+  }
+}

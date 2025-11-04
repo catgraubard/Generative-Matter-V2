@@ -1,0 +1,142 @@
+{
+  "id": "Cu2Ge1Pr1Si1Tm1",
+  "uri": "material://Cu2Ge1Pr1Si1Tm1",
+  "composition": {
+    "formula": "Cu2Ge1Pr1Si1Tm1",
+    "elements": {
+      "Cu": 2,
+      "Ge": 1,
+      "Pr": 1,
+      "Si": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "PrTmCu2SiGe",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ge",
+      "Pr",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 20 g \n Ge: 10 g \n Pr: 5 g \n Si: 5 g \n Tm: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Copper (Cu): Local metal supplier or online metal shop. \n Germanium (Ge): Specialty chemical supplier or online marketplace. \n Praseodymium (Pr): Rare earth metals supplier or online rare earth elements retailer. \n Silicon (Si): Electronics store or online semiconductor supplier. \n Thulium (Tm): Rare earth metals supplier or online rare earth elements retailer.",
+      "steps": [
+        "Copper (Cu): Local metal supplier or online metal shop.",
+        "Germanium (Ge): Specialty chemical supplier or online marketplace.",
+        "Praseodymium (Pr): Rare earth metals supplier or online rare earth elements retailer.",
+        "Silicon (Si): Electronics store or online semiconductor supplier.",
+        "Thulium (Tm): Rare earth metals supplier or online rare earth elements retailer."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean container, combine Cu, Ge, Pr, Si, and Tm.",
+        "3. Use a pestle and mortar to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean container, combine Cu, Ge, Pr, Si, and Tm. \n 3. Use a pestle and mortar to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 1200°C at a rate of 5°C/min.",
+        "3. Maintain temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat to 1200°C at a rate of 5°C/min. \n 3. Maintain temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 600°C.",
+        "2. Once at 600°C, remove the crucible using heat-resistant gloves and place it in a controlled cooling environment.",
+        "3. Allow the sample to cool to room temperature over a period of 6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 600°C. \n 2. Once at 600°C, remove the crucible using heat-resistant gloves and place it in a controlled cooling environment. \n 3. Allow the sample to cool to room temperature over a period of 6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, carefully remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond file to smooth out any rough edges.",
+        "3. Seal the surface with a clear epoxy resin to protect the material and enhance its appearance.",
+        "4. Allow the epoxy to cure according to manufacturer instructions, typically 24 hours."
+      ],
+      "raw_text": "1. After cooling, carefully remove the solid sample from the crucible. \n 2. If necessary, use a diamond file to smooth out any rough edges. \n 3. Seal the surface with a clear epoxy resin to protect the material and enhance its appearance. \n 4. Allow the epoxy to cure according to manufacturer instructions, typically 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1177487.0,
+      "density": 75823.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -313158.0,
+      "formation_energy_per_atom": -6354.0,
+      "decomposition_energy_per_atom": -91.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -89.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": 0.0106,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8de6841fd9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:22.428964Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ge1Pr1Si1Tm1.json",
+      "material://Cu2Ge1Pr1Si1Tm1"
+    ]
+  }
+}

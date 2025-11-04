@@ -1,0 +1,121 @@
+{
+  "id": "Al1Co3Fe1Si3W4",
+  "uri": "material://Al1Co3Fe1Si3W4",
+  "composition": {
+    "formula": "Al1Co3Fe1Si3W4",
+    "elements": {
+      "Al": 1,
+      "Co": 3,
+      "Fe": 1,
+      "Si": 3,
+      "W": 4
+    },
+    "reduced_formula": "AlFeCo3Si3W4",
+    "element_list": [
+      "Al",
+      "Si",
+      "Fe",
+      "Co",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 992.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 992 g (Boron), Ru: 992 g (Ruthenium), Zr: 248 g (Zirconium)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Chemical supply stores or online specialty chemical suppliers.\nRuthenium: Precious metal suppliers or specialized chemical vendors.\nZirconium: Metal suppliers or online sources for high-purity zirconium.",
+      "steps": [
+        "Boron: Chemical supply stores or online specialty chemical suppliers.",
+        "Ruthenium: Precious metal suppliers or specialized chemical vendors.",
+        "Zirconium: Metal suppliers or online sources for high-purity zirconium."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing container, add 992 g of Boron.",
+        "3. Add 992 g of Ruthenium to the container.",
+        "4. Finally, add 248 g of Zirconium.",
+        "5. Mix the powders thoroughly using a mechanical mixer or mortar and pestle for at least 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance.\n2. In a clean, dry mixing container, add 992 g of Boron.\n3. Add 992 g of Ruthenium to the container.\n4. Finally, add 248 g of Zirconium.\n5. Mix the powders thoroughly using a mechanical mixer or mortar and pestle for at least 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 1500°C at a rate of 5°C/minute.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature resistant crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture gradually to 1500°C at a rate of 5°C/minute.\n4. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down slowly to room temperature (approx. 25°C) over a period of 6-8 hours. Ensure not to open the furnace during this time to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace.\n2. Allow the crucible to cool down slowly to room temperature (approx. 25°C) over a period of 6-8 hours. Ensure not to open the furnace during this time to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the final dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating if required for the specific application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use a diamond saw to cut the sample to the final dimensions of 3 inches x 2 inches x 7 inches.\n3. Sand the edges using fine-grit sandpaper for a smooth finish.\n4. Optionally, apply a sealant or protective coating if required for the specific application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1496172.0,
+      "density": 119781.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1062969.0,
+      "formation_energy_per_atom": -3873.0,
+      "decomposition_energy_per_atom": -129.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -68.0,
+      "decomposition_energy_mp": -126.0,
+      "decomposition_energy_mp_oqmd": -126.0
+    },
+    "electronic": {
+      "bandgap": 0.0022,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c56e4bddd0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.766082Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Co3Fe1Si3W4.json",
+      "material://Al1Co3Fe1Si3W4"
+    ]
+  }
+}

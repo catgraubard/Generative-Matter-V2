@@ -1,0 +1,113 @@
+{
+  "id": "Cs4Fe1Na1Se4",
+  "uri": "material://Cs4Fe1Na1Se4",
+  "composition": {
+    "formula": "Cs4Fe1Na1Se4",
+    "elements": {
+      "Cs": 4,
+      "Fe": 1,
+      "Na": 1,
+      "Se": 4
+    },
+    "reduced_formula": "Cs4NaFeSe4",
+    "element_list": [
+      "Na",
+      "Fe",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "**CsCl**: 30.00 g \n **FeCl3**: 7.50 g \n **NaCl**: 5.00 g \n **Se**: 10.00 g \n **Solvent (Ethanol)**: 50.00 mL"
+    },
+    "sourcing": {
+      "instructions": "**CsCl**: Purchase from chemical suppliers like Sigma-Aldrich or Fisher Scientific. \n **FeCl3**: Available at chemical supply stores or online. \n **NaCl**: Common table salt from grocery stores. \n **Se**: Obtain from chemical supply companies or online sources. \n **Ethanol**: Obtain from pharmacies, chemical suppliers, or online retailers.",
+      "steps": [
+        "**CsCl**: Purchase from chemical suppliers like Sigma-Aldrich or Fisher Scientific.",
+        "**FeCl3**: Available at chemical supply stores or online.",
+        "**NaCl**: Common table salt from grocery stores.",
+        "**Se**: Obtain from chemical supply companies or online sources.",
+        "**Ethanol**: Obtain from pharmacies, chemical suppliers, or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh CsCl, FeCl3, NaCl, and Se with a precision scale.",
+        "2. In a clean glass container, mix CsCl, FeCl3, and NaCl.",
+        "3. Slowly add Se powder to the mixture while stirring continuously.",
+        "4. Gradually add ethanol to the mixture, ensuring all solids are fully dissolved and homogeneous.",
+        "5. Stir the solution for 30 minutes to ensure complete mixing."
+      ],
+      "raw_text": "1. Measure and weigh CsCl, FeCl3, NaCl, and Se with a precision scale. \n 2. In a clean glass container, mix CsCl, FeCl3, and NaCl. \n 3. Slowly add Se powder to the mixture while stirring continuously. \n 4. Gradually add ethanol to the mixture, ensuring all solids are fully dissolved and homogeneous. \n 5. Stir the solution for 30 minutes to ensure complete mixing."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 600°C and maintain this temperature for 2 hours to promote solid formation."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 600°C and maintain this temperature for 2 hours to promote solid formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the surface with a suitable epoxy for protection.",
+        "4. Store in a dry environment to prevent moisture absorption."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, seal the surface with a suitable epoxy for protection. \n 4. Store in a dry environment to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 3951929.0,
+      "density": 38922.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "I222",
+      "space_group_number": 23,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -387738.0,
+      "formation_energy_per_atom": -11416.0,
+      "decomposition_energy_per_atom": -178.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -178.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": 0.8619,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "859ce32b66",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:10.901786Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Fe1Na1Se4.json",
+      "material://Cs4Fe1Na1Se4"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "Cs1Li2Pr1Sb2",
+  "uri": "material://Cs1Li2Pr1Sb2",
+  "composition": {
+    "formula": "Cs1Li2Pr1Sb2",
+    "elements": {
+      "Cs": 1,
+      "Li": 2,
+      "Pr": 1,
+      "Sb": 2
+    },
+    "reduced_formula": "CsLi2PrSb2",
+    "element_list": [
+      "Li",
+      "Sb",
+      "Cs",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.5 g\nLi: 25 g\nPr: 12.5 g\nSb: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Specialty chemical suppliers or online chemical marketplaces.\nLi (Lithium): Battery supply stores or chemical suppliers.\nPr (Praseodymium): Rare earth element suppliers.\nSb (Antimony): Metal suppliers or online marketplaces.",
+      "steps": [
+        "Cs (Cesium): Specialty chemical suppliers or online chemical marketplaces.",
+        "Li (Lithium): Battery supply stores or chemical suppliers.",
+        "Pr (Praseodymium): Rare earth element suppliers.",
+        "Sb (Antimony): Metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the Cs, Li, Pr, and Sb using an analytical balance.",
+        "2. In a clean, dry container, combine Cs, Li, Pr, and Sb in the specified amounts.",
+        "3. Mix the powders thoroughly with a spatula to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh the Cs, Li, Pr, and Sb using an analytical balance.\n2. In a clean, dry container, combine Cs, Li, Pr, and Sb in the specified amounts.\n3. Mix the powders thoroughly with a spatula to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the mixed powders in a crucible that can withstand high temperatures.",
+        "3. Heat the mixture in the furnace for 2 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C.\n2. Place the mixed powders in a crucible that can withstand high temperatures.\n3. Heat the mixture in the furnace for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool slowly to room temperature, approximately 4-6 hours.",
+        "2. Avoid opening the furnace door until it has reached a safe temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool slowly to room temperature, approximately 4-6 hours.\n2. Avoid opening the furnace door until it has reached a safe temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully crush the solidified sample into a fine powder using a mortar and pestle.",
+        "3. Sieve the powder to achieve a uniform particle size.",
+        "4. Optionally, use a binder to form into desired shapes or seal the material for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace.\n2. Carefully crush the solidified sample into a fine powder using a mortar and pestle.\n3. Sieve the powder to achieve a uniform particle size.\n4. Optionally, use a binder to form into desired shapes or seal the material for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1934691.0,
+      "density": 45594.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -227667.0,
+      "formation_energy_per_atom": -8358.0,
+      "decomposition_energy_per_atom": -103.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -103.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.5388,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7ca051d9a9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:58.793116Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Li2Pr1Sb2.json",
+      "material://Cs1Li2Pr1Sb2"
+    ]
+  }
+}

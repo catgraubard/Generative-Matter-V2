@@ -1,0 +1,113 @@
+{
+  "id": "C1Si12Tm20",
+  "uri": "material://C1Si12Tm20",
+  "composition": {
+    "formula": "C1Si12Tm20",
+    "elements": {
+      "C": 1,
+      "Si": 12,
+      "Tm": 20
+    },
+    "reduced_formula": "Tm20Si12C",
+    "element_list": [
+      "C",
+      "Si",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 12 g, Si: 144 g, Tm: 200 g"
+    },
+    "sourcing": {
+      "instructions": "C: Graphite powder from chemical suppliers; Si: High-purity silicon powder from semiconductor suppliers; Tm: Thulium oxide from rare earth material suppliers.",
+      "steps": [
+        "C: Graphite powder from chemical suppliers; Si: High-purity silicon powder from semiconductor suppliers; Tm: Thulium oxide from rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 12 g of graphite powder (C).",
+        "2. Weigh 144 g of silicon powder (Si).",
+        "3. Weigh 200 g of thulium oxide (Tm).",
+        "4. In a ceramic container, mix the powders thoroughly using a spatula until uniform.",
+        "5. Ensure that the mixture is free of lumps and has a consistent texture."
+      ],
+      "raw_text": "1. Weigh 12 g of graphite powder (C). \n 2. Weigh 144 g of silicon powder (Si). \n 3. Weigh 200 g of thulium oxide (Tm). \n 4. In a ceramic container, mix the powders thoroughly using a spatula until uniform. \n 5. Ensure that the mixture is free of lumps and has a consistent texture."
+    },
+    "heating": {
+      "temperature_celsius": 1600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1600°C.",
+        "2. Place the mixed powders into a crucible suitable for high-temperature processing.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1600°C. \n 2. Place the mixed powders into a crucible suitable for high-temperature processing. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace gradually for 6 hours until it reaches room temperature."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace gradually for 6 hours until it reaches room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible carefully.",
+        "2. Extract the solid sample from the crucible using a soft hammer if needed.",
+        "3. Use fine-grit sandpaper to smooth the surfaces of the solid sample, ensuring uniform dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Optionally, seal the surface with a suitable epoxy resin for added durability."
+      ],
+      "raw_text": "1. Remove the cooled crucible carefully. \n 2. Extract the solid sample from the crucible using a soft hammer if needed. \n 3. Use fine-grit sandpaper to smooth the surfaces of the solid sample, ensuring uniform dimensions (3 inches x 2 inches x 7 inches). \n 4. Optionally, seal the surface with a suitable epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 33,
+      "volume": 7505957.0,
+      "density": 82468.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1870879.0,
+      "formation_energy_per_atom": -7043.0,
+      "decomposition_energy_per_atom": -374.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": -361.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1606abfdb0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:44.473866Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Si12Tm20.json",
+      "material://C1Si12Tm20"
+    ]
+  }
+}

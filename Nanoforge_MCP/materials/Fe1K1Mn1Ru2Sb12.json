@@ -1,0 +1,121 @@
+{
+  "id": "Fe1K1Mn1Ru2Sb12",
+  "uri": "material://Fe1K1Mn1Ru2Sb12",
+  "composition": {
+    "formula": "Fe1K1Mn1Ru2Sb12",
+    "elements": {
+      "Fe": 1,
+      "K": 1,
+      "Mn": 1,
+      "Ru": 2,
+      "Sb": 12
+    },
+    "reduced_formula": "KMnFe(Sb6Ru)2",
+    "element_list": [
+      "K",
+      "Mn",
+      "Fe",
+      "Ru",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er2O3: 30 g \n Tb4O7: 10 g \n W: 10 g \n Y2O3: 20 g \n Binder (e.g., PVA): 5 g \n Water: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Er2O3: Chemical supply companies or online chemical retailers \n Tb4O7: Rare earth suppliers or specialized chemical vendors \n W (Tungsten): Metal suppliers or online marketplaces \n Y2O3: Chemical supply stores or online chemical retailers \n PVA: Craft stores or online suppliers \n Water: Tap water or distilled water",
+      "steps": [
+        "Er2O3: Chemical supply companies or online chemical retailers",
+        "Tb4O7: Rare earth suppliers or specialized chemical vendors",
+        "W (Tungsten): Metal suppliers or online marketplaces",
+        "Y2O3: Chemical supply stores or online chemical retailers",
+        "PVA: Craft stores or online suppliers",
+        "Water: Tap water or distilled water"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30 g of Er2O3, 10 g of Tb4O7, 10 g of W, and 20 g of Y2O3 using a precision scale.",
+        "2. Add the weighed powders into a clean mixing container.",
+        "3. Gradually add 5 g of PVA binder and 15 g of water to the powders.",
+        "4. Mix thoroughly using a spatula or mechanical mixer until a homogeneous paste is formed."
+      ],
+      "raw_text": "1. Weigh out 30 g of Er2O3, 10 g of Tb4O7, 10 g of W, and 20 g of Y2O3 using a precision scale. \n 2. Add the weighed powders into a clean mixing container. \n 3. Gradually add 5 g of PVA binder and 15 g of water to the powders. \n 4. Mix thoroughly using a spatula or mechanical mixer until a homogeneous paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixed paste into a suitable mold that corresponds to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Allow the mold to dry at room temperature for 2 hours before placing it in the furnace."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixed paste into a suitable mold that corresponds to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Allow the mold to dry at room temperature for 2 hours before placing it in the furnace."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating for 2 hours at 1000°C, turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).",
+        "2. Ensure the sample is not disturbed during the cooling process to avoid cracking."
+      ],
+      "raw_text": "1. After heating for 2 hours at 1000°C, turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours). \n 2. Ensure the sample is not disturbed during the cooling process to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold carefully.",
+        "2. Inspect the surface for any irregularities or rough edges.",
+        "3. Sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealing coat to enhance surface durability and appearance."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold carefully. \n 2. Inspect the surface for any irregularities or rough edges. \n 3. Sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealing coat to enhance surface durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4173975.0,
+      "density": 72132.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -919584.0,
+      "formation_energy_per_atom": -3011.0,
+      "decomposition_energy_per_atom": -82.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -43.0,
+      "decomposition_energy_mp": -368.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": 0.0063,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d98b2096c4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.853322Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1K1Mn1Ru2Sb12.json",
+      "material://Fe1K1Mn1Ru2Sb12"
+    ]
+  }
+}

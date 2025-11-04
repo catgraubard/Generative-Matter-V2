@@ -1,0 +1,130 @@
+{
+  "id": "Cu4La8Se20Tb4",
+  "uri": "material://Cu4La8Se20Tb4",
+  "composition": {
+    "formula": "Cu4La8Se20Tb4",
+    "elements": {
+      "Cu": 4,
+      "La": 8,
+      "Se": 20,
+      "Tb": 4
+    },
+    "reduced_formula": "La2TbCuSe5",
+    "element_list": [
+      "Cu",
+      "Se",
+      "La",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 40.0 g \n La: 80.0 g \n Se: 100.0 g \n Tb: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a chemical supply company or online (e.g., Sigma-Aldrich) \n La: Obtain from rare earth element suppliers \n Se: Buy from semiconductor suppliers \n Tb: Available from specialized metal suppliers",
+      "steps": [
+        "Cu: Purchase from a chemical supply company or online (e.g., Sigma-Aldrich)",
+        "La: Obtain from rare earth element suppliers",
+        "Se: Buy from semiconductor suppliers",
+        "Tb: Available from specialized metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the exact amounts of Cu, La, Se, and Tb as listed in the Materials section.",
+        "2. In a clean, dry mortar and pestle, carefully grind Cu and La together to a fine powder.",
+        "3. Add Se and Tb to the powdered mixture, continuing to grind until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out the exact amounts of Cu, La, Se, and Tb as listed in the Materials section. \n 2. In a clean, dry mortar and pestle, carefully grind Cu and La together to a fine powder. \n 3. Add Se and Tb to the powdered mixture, continuing to grind until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the powdered mixture into a high-temperature crucible.",
+        "2. Place the crucible in a furnace set to 900 °C.",
+        "3. Hold the temperature for 4 hours to ensure complete reaction and formation of Cu4La8Se20Tb4."
+      ],
+      "raw_text": "1. Transfer the powdered mixture into a high-temperature crucible. \n 2. Place the crucible in a furnace set to 900 °C. \n 3. Hold the temperature for 4 hours to ensure complete reaction and formation of Cu4La8Se20Tb4."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and let it cool down to room temperature naturally, which may take approximately 6-8 hours.",
+        "2. Avoid opening the furnace door until it reaches room temperature."
+      ],
+      "raw_text": "1. Turn off the furnace and let it cool down to room temperature naturally, which may take approximately 6-8 hours. \n 2. Avoid opening the furnace door until it reaches room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Inspect for any irregularities and use a fine-grit sandpaper to smooth out any rough edges.",
+        "3. Seal the final product with a clear epoxy resin to protect the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Inspect for any irregularities and use a fine-grit sandpaper to smooth out any rough edges.\n 3. Seal the final product with a clear epoxy resin to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9113205.0,
+      "density": 65238.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2148036.0,
+      "formation_energy_per_atom": -19573.0,
+      "decomposition_energy_per_atom": -177.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -177.0,
+      "decomposition_energy_mp_oqmd": -127.0
+    },
+    "electronic": {
+      "bandgap": 0.8345,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "752e09d9e2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:48.632441Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4La8Se20Tb4.json",
+      "material://Cu4La8Se20Tb4"
+    ]
+  }
+}

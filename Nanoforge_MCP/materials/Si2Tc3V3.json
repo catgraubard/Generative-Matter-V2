@@ -1,0 +1,109 @@
+{
+  "id": "Si2Tc3V3",
+  "uri": "material://Si2Tc3V3",
+  "composition": {
+    "formula": "Si2Tc3V3",
+    "elements": {
+      "Si": 2,
+      "Tc": 3,
+      "V": 3
+    },
+    "reduced_formula": "V3Si2Tc3",
+    "element_list": [
+      "Si",
+      "V",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Silicon (Si): 150 g \n Technetium (Tc): 90 g \n Vanadium (V): 90 g"
+    },
+    "sourcing": {
+      "instructions": "Silicon: Available at electronics supply stores or online (e.g., Amazon, Digi-Key). \n Technetium: Obtain from a licensed radioactive material supplier, typically used in medical applications. \n Vanadium: Available at metal supply stores or online (e.g., McMaster-Carr, OnlineMetals).",
+      "steps": [
+        "Silicon: Available at electronics supply stores or online (e.g., Amazon, Digi-Key).",
+        "Technetium: Obtain from a licensed radioactive material supplier, typically used in medical applications.",
+        "Vanadium: Available at metal supply stores or online (e.g., McMaster-Carr, OnlineMetals)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 150 g of silicon using a digital scale.",
+        "2. Measure 90 g of technetium (ensure proper safety precautions due to radioactivity).",
+        "3. Measure 90 g of vanadium.",
+        "4. In a clean, non-reactive mixing container, combine all three materials.",
+        "5. Use a mechanical mixer to ensure a homogeneous mixture for 10 minutes."
+      ],
+      "raw_text": "1. Measure out 150 g of silicon using a digital scale. \n 2. Measure 90 g of technetium (ensure proper safety precautions due to radioactivity). \n 3. Measure 90 g of vanadium. \n 4. In a clean, non-reactive mixing container, combine all three materials. \n 5. Use a mechanical mixer to ensure a homogeneous mixture for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat a furnace to 1,600 °C (2,912 °F).",
+        "2. Transfer the mixed materials into a crucible suitable for high-temperature applications.",
+        "3. Place the crucible in the furnace and maintain the temperature for 1 hour to facilitate alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1,600 °C (2,912 °F). \n 2. Transfer the mixed materials into a crucible suitable for high-temperature applications. \n 3. Place the crucible in the furnace and maintain the temperature for 1 hour to facilitate alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw to cut the solid sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges with 400-grit sandpaper for a smooth finish.",
+        "4. If necessary, apply a protective sealant to the surface to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw to cut the solid sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges with 400-grit sandpaper for a smooth finish. \n 4. If necessary, apply a protective sealant to the surface to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 106403.0,
+      "density": 78498.0,
+      "crystal_system": "trigonal",
+      "space_group": "R32",
+      "space_group_number": 155,
+      "point_group": "32",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -738274.0,
+      "formation_energy_per_atom": -5804.0,
+      "decomposition_energy_per_atom": -708.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -707.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0083,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "321bb44a61",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:21.321611Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si2Tc3V3.json",
+      "material://Si2Tc3V3"
+    ]
+  }
+}

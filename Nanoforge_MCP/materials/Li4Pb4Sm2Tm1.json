@@ -1,0 +1,134 @@
+{
+  "id": "Li4Pb4Sm2Tm1",
+  "uri": "material://Li4Pb4Sm2Tm1",
+  "composition": {
+    "formula": "Li4Pb4Sm2Tm1",
+    "elements": {
+      "Li": 4,
+      "Pb": 4,
+      "Sm": 2,
+      "Tm": 1
+    },
+    "reduced_formula": "Li4Sm2TmPb4",
+    "element_list": [
+      "Li",
+      "Sm",
+      "Tm",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cs",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 9 g (99.99% pure) \n Cs: 4 g (99.99% pure) \n Ga: 3 g (99.99% pure) \n Se: 20 g (99.999% pure)"
+    },
+    "sourcing": {
+      "instructions": "Al: Online suppliers like Alfa Aesar or local metal suppliers. \n Cs: Chemical suppliers such as Sigma-Aldrich. \n Ga: Online or local electronics suppliers. \n Se: Chemical suppliers like Strem Chemicals.",
+      "steps": [
+        "Al: Online suppliers like Alfa Aesar or local metal suppliers.",
+        "Cs: Chemical suppliers such as Sigma-Aldrich.",
+        "Ga: Online or local electronics suppliers.",
+        "Se: Chemical suppliers like Strem Chemicals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry glass container, combine the weighed amounts of Al, Cs, Ga, and Se.",
+        "3. Use a glass rod to stir the mixture thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry glass container, combine the weighed amounts of Al, Cs, Ga, and Se. \n 3. Use a glass rod to stir the mixture thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous mixture to a crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/minute.",
+        "4. Maintain the temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture to a crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/minute. \n 4. Maintain the temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves.",
+        "3. Allow the material to rest at room temperature for 24 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Once cooled, remove the crucible carefully using heat-resistant gloves. \n 3. Allow the material to rest at room temperature for 24 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond grinding wheel to shape the sample to the desired dimensions: 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to smooth any rough surfaces.",
+        "4. Optionally, apply a sealant for protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond grinding wheel to shape the sample to the desired dimensions: 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to smooth any rough surfaces. \n 4. Optionally, apply a sealant for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 2599468.0,
+      "density": 84719.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -415376.0,
+      "formation_energy_per_atom": -4671.0,
+      "decomposition_energy_per_atom": -387.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -387.0,
+      "decomposition_energy_mp_oqmd": -357.0
+    },
+    "electronic": {
+      "bandgap": 0.0278,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db73f2efe9",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.389453Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4Pb4Sm2Tm1.json",
+      "material://Li4Pb4Sm2Tm1"
+    ]
+  }
+}

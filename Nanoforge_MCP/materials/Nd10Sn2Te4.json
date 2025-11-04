@@ -1,0 +1,110 @@
+{
+  "id": "Nd10Sn2Te4",
+  "uri": "material://Nd10Sn2Te4",
+  "composition": {
+    "formula": "Nd10Sn2Te4",
+    "elements": {
+      "Nd": 10,
+      "Sn": 2,
+      "Te": 4
+    },
+    "reduced_formula": "Nd5SnTe2",
+    "element_list": [
+      "Sn",
+      "Te",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gallium (Ga): 40 g \n Germanium (Ge): 36 g \n Manganese (Mn): 24 g \n Oxygen (O): 20 g (from oxidizing agents like potassium permanganate or similar)"
+    },
+    "sourcing": {
+      "instructions": "Gallium: Obtain from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, eBay). \n Germanium: Available from electronic component suppliers. \n Manganese: Obtain from chemical suppliers or hardware stores. \n Oxygen: Use potassium permanganate from chemical suppliers.",
+      "steps": [
+        "Gallium: Obtain from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, eBay).",
+        "Germanium: Available from electronic component suppliers.",
+        "Manganese: Obtain from chemical suppliers or hardware stores.",
+        "Oxygen: Use potassium permanganate from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately using a digital scale.",
+        "2. In a clean, dry container, mix the gallium and germanium powders thoroughly until homogeneous.",
+        "3. Gradually add the manganese powder while stirring continuously to ensure even distribution.",
+        "4. Add the oxidizing agent (potassium permanganate) slowly while mixing.",
+        "5. Transfer the mixture to a crucible or suitable mold for heating."
+      ],
+      "raw_text": "1. Weigh all materials accurately using a digital scale. \n 2. In a clean, dry container, mix the gallium and germanium powders thoroughly until homogeneous. \n 3. Gradually add the manganese powder while stirring continuously to ensure even distribution. \n 4. Add the oxidizing agent (potassium permanganate) slowly while mixing. \n 5. Transfer the mixture to a crucible or suitable mold for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800 °C.",
+        "2. Place the crucible with the material mixture inside the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Ga4Ge4Mn4O20."
+      ],
+      "raw_text": "1. Preheat the furnace to 800 °C. \n 2. Place the crucible with the material mixture inside the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Ga4Ge4Mn4O20."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours) to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours) to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold, if applicable.",
+        "2. If necessary, use fine-grit sandpaper to smooth the edges and surfaces.",
+        "3. Optionally, seal the sample with a clear epoxy or resin for enhanced protection.",
+        "4. Allow any sealing agent to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold, if applicable. \n 2. If necessary, use fine-grit sandpaper to smooth the edges and surfaces. \n 3. Optionally, seal the sample with a clear epoxy or resin for enhanced protection. \n 4. Allow any sealing agent to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4925759.0,
+      "density": 73836.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -852835.0,
+      "formation_energy_per_atom": -10631.0,
+      "decomposition_energy_per_atom": -179.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -87.0,
+      "decomposition_energy_mp": -174.0,
+      "decomposition_energy_mp_oqmd": -124.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ca32f3d2a6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.927025Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd10Sn2Te4.json",
+      "material://Nd10Sn2Te4"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "As12K1Li8Na11Ti4",
+  "uri": "material://As12K1Li8Na11Ti4",
+  "composition": {
+    "formula": "As12K1Li8Na11Ti4",
+    "elements": {
+      "As": 12,
+      "K": 1,
+      "Li": 8,
+      "Na": 11,
+      "Ti": 4
+    },
+    "reduced_formula": "KNa11Li8(TiAs3)4",
+    "element_list": [
+      "Li",
+      "Na",
+      "K",
+      "Ti",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 12g, K: 1g, Li: 8g, Na: 11g, Ti: 4g (Total: 36g)"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier, K: Potassium chloride from a pharmacy, Li: Lithium carbonate from a lab supply store, Na: Sodium chloride from a grocery store, Ti: Titanium dioxide from a chemical supply store.",
+      "steps": [
+        "As: Purchase from a chemical supplier, K: Potassium chloride from a pharmacy, Li: Lithium carbonate from a lab supply store, Na: Sodium chloride from a grocery store, Ti: Titanium dioxide from a chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry glass container, combine 12g of arsenic (As), 1g of potassium (K), 8g of lithium (Li), 11g of sodium (Na), and 4g of titanium (Ti).",
+        "3. Stir the mixture thoroughly with a glass rod for 5 minutes to ensure even distribution of all components."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry glass container, combine 12g of arsenic (As), 1g of potassium (K), 8g of lithium (Li), 11g of sodium (Na), and 4g of titanium (Ti). \n 3. Stir the mixture thoroughly with a glass rod for 5 minutes to ensure even distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed components into a crucible.",
+        "2. Heat the crucible in a muffle furnace at 800°C for 2 hours.",
+        "3. Ensure the heating is uniform and monitor the temperature using a thermocouple."
+      ],
+      "raw_text": "1. Transfer the mixed components into a crucible. \n 2. Heat the crucible in a muffle furnace at 800°C for 2 hours. \n 3. Ensure the heating is uniform and monitor the temperature using a thermocouple."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool naturally inside for 4 hours.",
+        "2. Once cooled, remove the crucible from the furnace with heat-resistant gloves."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool naturally inside for 4 hours. \n 2. Once cooled, remove the crucible from the furnace with heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth out any rough edges on the sample.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added durability.",
+        "4. Allow the epoxy to cure for at least 24 hours before handling."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Use a diamond file to smooth out any rough edges on the sample. \n 3. Optionally, seal the surface with a clear epoxy resin for added durability. \n 4. Allow the epoxy to cure for at least 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7938179.0,
+      "density": 30081.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1424068.0,
+      "formation_energy_per_atom": -6663.0,
+      "decomposition_energy_per_atom": -32.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -157.0,
+      "decomposition_energy_mp": -32.0,
+      "decomposition_energy_mp_oqmd": -289.0
+    },
+    "electronic": {
+      "bandgap": 0.5777,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "42799f9192",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:42.943608Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12K1Li8Na11Ti4.json",
+      "material://As12K1Li8Na11Ti4"
+    ]
+  }
+}

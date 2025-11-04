@@ -1,0 +1,107 @@
+{
+  "id": "B4Fe10In1O20Sb1",
+  "uri": "material://B4Fe10In1O20Sb1",
+  "composition": {
+    "formula": "B4Fe10In1O20Sb1",
+    "elements": {
+      "B": 4,
+      "Fe": 10,
+      "In": 1,
+      "O": 20,
+      "Sb": 1
+    },
+    "reduced_formula": "InFe10B4SbO20",
+    "element_list": [
+      "B",
+      "O",
+      "Fe",
+      "In",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 4.00 g, Fe: 10.00 g, In: 1.00 g, O: 20.00 g, Sb: 1.00 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boric Acid): Chemical supply stores or online retailers. Fe (Iron Powder): Metal supply shops or online. In (Indium Powder): Specialty metal suppliers. O (Oxygen): Ambient air (from reaction). Sb (Antimony Powder): Chemical supply stores or online.",
+      "steps": [
+        "B (Boric Acid): Chemical supply stores or online retailers. Fe (Iron Powder): Metal supply shops or online. In (Indium Powder): Specialty metal suppliers. O (Oxygen): Ambient air (from reaction). Sb (Antimony Powder): Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance. 2. In a clean, dry container, mix B, Fe, In, Sb thoroughly using a spatula. 3. Gradually add O (as part of the chemical reaction) while stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. 2. In a clean, dry container, mix B, Fe, In, Sb thoroughly using a spatula. 3. Gradually add O (as part of the chemical reaction) while stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible. 2. Heat in a muffle furnace to 800°C. 3. Maintain this temperature for 2 hours to ensure full reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. 2. Heat in a muffle furnace to 800°C. 3. Maintain this temperature for 2 hours to ensure full reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). 2. Do not open the furnace during cooling to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). 2. Do not open the furnace during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible. 2. Use fine-grit sandpaper to smooth any rough edges. 3. If desired, seal the surface with a clear epoxy resin for added durability. Allow 24 hours for the resin to cure."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. 2. Use fine-grit sandpaper to smooth any rough edges. 3. If desired, seal the surface with a clear epoxy resin for added durability. Allow 24 hours for the resin to cure."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 393293.0,
+      "density": 48903.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2892348.0,
+      "formation_energy_per_atom": -19994.0,
+      "decomposition_energy_per_atom": -149.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -155.0,
+      "decomposition_energy_mp_oqmd": -139.0
+    },
+    "electronic": {
+      "bandgap": 1.3903,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "025eb307b3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:17.617832Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Fe10In1O20Sb1.json",
+      "material://B4Fe10In1O20Sb1"
+    ]
+  }
+}

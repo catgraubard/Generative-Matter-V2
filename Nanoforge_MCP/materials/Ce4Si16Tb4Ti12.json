@@ -1,0 +1,130 @@
+{
+  "id": "Ce4Si16Tb4Ti12",
+  "uri": "material://Ce4Si16Tb4Ti12",
+  "composition": {
+    "formula": "Ce4Si16Tb4Ti12",
+    "elements": {
+      "Ce": 4,
+      "Si": 16,
+      "Tb": 4,
+      "Ti": 12
+    },
+    "reduced_formula": "TbCeTi3Si4",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Ce",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 200 g  \n C: 50 g  \n Er: 400 g  \n Pb: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Bi (Bismuth): Purchase from a chemical supplier or online retailer. \n C (Carbon): Available from scientific supply stores or online. \n Er (Erbium): Obtain from a specialty metal supplier or online. \n Pb (Lead): Find at a chemical supply store or online retailer.",
+      "steps": [
+        "Bi (Bismuth): Purchase from a chemical supplier or online retailer.",
+        "C (Carbon): Available from scientific supply stores or online.",
+        "Er (Erbium): Obtain from a specialty metal supplier or online.",
+        "Pb (Lead): Find at a chemical supply store or online retailer."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing bowl, combine Bi, C, Er, and Pb in the specified amounts.",
+        "2. Use a digital scale to ensure each ingredient is weighed accurately.",
+        "3. Mix the components thoroughly using a spatula or mixing tool until the mixture is homogeneous.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. In a clean, dry mixing bowl, combine Bi, C, Er, and Pb in the specified amounts. \n 2. Use a digital scale to ensure each ingredient is weighed accurately. \n 3. Mix the components thoroughly using a spatula or mixing tool until the mixture is homogeneous. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800 °C.",
+        "2. Place the crucible in the furnace and allow the mixture to heat for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C. \n 2. Place the crucible in the furnace and allow the mixture to heat for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the crucible to cool in air at room temperature for approximately 1 hour or until it is safe to handle."
+      ],
+      "raw_text": "1. After 2 hours, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the crucible to cool in air at room temperature for approximately 1 hour or until it is safe to handle."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use sandpaper to smooth out any rough edges or surfaces on the sample.",
+        "3. Optionally, apply a sealant to enhance the finish and protect the material, following the manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use sandpaper to smooth out any rough edges or surfaces on the sample. \n 3. Optionally, apply a sealant to enhance the finish and protect the material, following the manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6567897.0,
+      "density": 56126.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2749981.0,
+      "formation_energy_per_atom": -14216.0,
+      "decomposition_energy_per_atom": -691.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6816.0,
+      "decomposition_energy_mp": -6906.0,
+      "decomposition_energy_mp_oqmd": -685.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c16f5f4aa9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.574993Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce4Si16Tb4Ti12.json",
+      "material://Ce4Si16Tb4Ti12"
+    ]
+  }
+}

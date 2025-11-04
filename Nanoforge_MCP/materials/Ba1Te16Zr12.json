@@ -1,0 +1,111 @@
+{
+  "id": "Ba1Te16Zr12",
+  "uri": "material://Ba1Te16Zr12",
+  "composition": {
+    "formula": "Ba1Te16Zr12",
+    "elements": {
+      "Ba": 1,
+      "Te": 16,
+      "Zr": 12
+    },
+    "reduced_formula": "Ba(Zr3Te4)4",
+    "element_list": [
+      "Zr",
+      "Te",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 200 g, Te: 640 g, Zr: 300 g"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium): Chemical supply companies (e.g., Sigma-Aldrich) \n Te (Tellurium): Metal suppliers or online chemical retailers \n Zr (Zirconium): Specialty metal suppliers or chemical distributors",
+      "steps": [
+        "Ba (Barium): Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Te (Tellurium): Metal suppliers or online chemical retailers",
+        "Zr (Zirconium): Specialty metal suppliers or chemical distributors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a calibrated scale.",
+        "2. In a clean, dry container, combine Ba, Te, and Zr in the specified amounts.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient using a calibrated scale. \n 2. In a clean, dry container, combine Ba, Te, and Zr in the specified amounts. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 1000 °C for 4 hours, ensuring a controlled atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 1000 °C for 4 hours, ensuring a controlled atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly to room temperature (approximately 25 °C) inside the furnace to avoid thermal shock.",
+        "2. This process should take around 6-8 hours."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly to room temperature (approximately 25 °C) inside the furnace to avoid thermal shock. \n 2. This process should take around 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth as needed.",
+        "3. Optionally, apply a sealant to protect the surface if necessary."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth as needed. \n 3. Optionally, apply a sealant to protect the surface if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 8501406.0,
+      "density": 63942.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -189807.0,
+      "formation_energy_per_atom": -12077.0,
+      "decomposition_energy_per_atom": -148.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -128.0,
+      "decomposition_energy_mp": -137.0,
+      "decomposition_energy_mp_oqmd": -128.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "268223729c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:06.164702Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Te16Zr12.json",
+      "material://Ba1Te16Zr12"
+    ]
+  }
+}

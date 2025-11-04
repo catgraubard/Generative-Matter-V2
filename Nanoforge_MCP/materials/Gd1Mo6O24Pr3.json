@@ -1,0 +1,116 @@
+{
+  "id": "Gd1Mo6O24Pr3",
+  "uri": "material://Gd1Mo6O24Pr3",
+  "composition": {
+    "formula": "Gd1Mo6O24Pr3",
+    "elements": {
+      "Gd": 1,
+      "Mo": 6,
+      "O": 24,
+      "Pr": 3
+    },
+    "reduced_formula": "Pr3Gd(MoO4)6",
+    "element_list": [
+      "O",
+      "Mo",
+      "Pr",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.5 g, Eu: 0.5 g, O: 5.6 g, V: 0.4 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Eu: Source from a rare earth materials supplier. O: Use high-purity oxygen or oxygen gas generator for synthesis. V: Purchase vanadium powder from a metal supplier.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Eu: Source from a rare earth materials supplier. O: Use high-purity oxygen or oxygen gas generator for synthesis. V: Purchase vanadium powder from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 1.5 g of cesium (Cs) powder.",
+        "2. Measure 0.5 g of europium (Eu) powder.",
+        "3. Measure 5.6 g of oxygen (O) gas.",
+        "4. Measure 0.4 g of vanadium (V) powder.",
+        "5. Combine all measured powders in a clean, dry mixing container.",
+        "6. Use a mortar and pestle to grind the mixture thoroughly until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Measure 1.5 g of cesium (Cs) powder. \n 2. Measure 0.5 g of europium (Eu) powder. \n 3. Measure 5.6 g of oxygen (O) gas. \n 4. Measure 0.4 g of vanadium (V) powder. \n 5. Combine all measured powders in a clean, dry mixing container. \n 6. Use a mortar and pestle to grind the mixture thoroughly until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 950°C over a duration of 1 hour to ensure proper reaction and formation of Cs3Eu1O8V2."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 950°C over a duration of 1 hour to ensure proper reaction and formation of Cs3Eu1O8V2."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25°C) over 4 hours.",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25°C) over 4 hours. \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If necessary, use fine sandpaper (600-grit) to smooth the surface.",
+        "4. Optionally, seal with a clear protective coating if desired for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. If necessary, use fine sandpaper (600-grit) to smooth the surface. \n 4. Optionally, seal with a clear protective coating if desired for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 6414421.0,
+      "density": 39857.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -3017232.0,
+      "formation_energy_per_atom": -26317.0,
+      "decomposition_energy_per_atom": 11.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": 5.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b2bfe6cab0",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.596996Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd1Mo6O24Pr3.json",
+      "material://Gd1Mo6O24Pr3"
+    ]
+  }
+}

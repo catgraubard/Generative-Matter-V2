@@ -1,0 +1,135 @@
+{
+  "id": "B4Mo2Se2Ti8",
+  "uri": "material://B4Mo2Se2Ti8",
+  "composition": {
+    "formula": "B4Mo2Se2Ti8",
+    "elements": {
+      "B": 4,
+      "Mo": 2,
+      "Se": 2,
+      "Ti": 8
+    },
+    "reduced_formula": "Ti4B2MoSe",
+    "element_list": [
+      "B",
+      "Ti",
+      "Se",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n Mo: 10 g \n Se: 15 g \n Ti: 40 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from chemical supply companies or online specialty stores. \n Mo: Obtain from a metals supplier or a chemical distributor. \n Se: Source from chemical supply stores or online platforms specializing in elemental selenium. \n Ti: Acquire from metal suppliers or online marketplaces that sell titanium powder.",
+      "steps": [
+        "B: Purchase from chemical supply companies or online specialty stores.",
+        "Mo: Obtain from a metals supplier or a chemical distributor.",
+        "Se: Source from chemical supply stores or online platforms specializing in elemental selenium.",
+        "Ti: Acquire from metal suppliers or online marketplaces that sell titanium powder."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 20 g of Boron (B) using a precise balance.",
+        "2. Measure 10 g of Molybdenum (Mo) powder.",
+        "3. Measure 15 g of Selenium (Se) powder.",
+        "4. Measure 40 g of Titanium (Ti) powder.",
+        "5. In a clean, dry mixing container, carefully combine all powders using a spatula to ensure uniform distribution.",
+        "6. Transfer the mixed powders into a ball mill or mortar and pestle for finer mixing (optional, but recommended for homogeneity). Grind for at least 30 minutes."
+      ],
+      "raw_text": "1. Measure 20 g of Boron (B) using a precise balance. \n 2. Measure 10 g of Molybdenum (Mo) powder. \n 3. Measure 15 g of Selenium (Se) powder. \n 4. Measure 40 g of Titanium (Ti) powder. \n 5. In a clean, dry mixing container, carefully combine all powders using a spatula to ensure uniform distribution. \n 6. Transfer the mixed powders into a ball mill or mortar and pestle for finer mixing (optional, but recommended for homogeneity). Grind for at least 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200 °C.",
+        "2. Once the furnace reaches the desired temperature, place the mixed powder in a crucible that can withstand high temperatures.",
+        "3. Heat the crucible for 2 hours to allow complete reaction and sintering of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200 °C. \n 2. Once the furnace reaches the desired temperature, place the mixed powder in a crucible that can withstand high temperatures. \n 3. Heat the crucible for 2 hours to allow complete reaction and sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock to the crucible. This process typically takes about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace until it has cooled to prevent thermal shock to the crucible. This process typically takes about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample from the crucible.",
+        "3. If necessary, use a diamond saw to cut the sample to precise dimensions of 3 inches x 2 inches x 7 inches.",
+        "4. Optionally, sand the edges and surfaces with fine-grit sandpaper for a smoother finish.",
+        "5. Store the finished sample in a dry and cool environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample from the crucible. \n 3. If necessary, use a diamond saw to cut the sample to precise dimensions of 3 inches x 2 inches x 7 inches. \n 4. Optionally, sand the edges and surfaces with fine-grit sandpaper for a smoother finish. \n 5. Store the finished sample in a dry and cool environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2133509.0,
+      "density": 60396.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1319348.0,
+      "formation_energy_per_atom": -8356.0,
+      "decomposition_energy_per_atom": -305.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -304.0,
+      "decomposition_energy_mp": -305.0,
+      "decomposition_energy_mp_oqmd": -304.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6ef4c5ddcd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:40.735979Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Mo2Se2Ti8.json",
+      "material://B4Mo2Se2Ti8"
+    ]
+  }
+}

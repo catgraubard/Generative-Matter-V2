@@ -1,0 +1,135 @@
+{
+  "id": "Co2Fe2P4W4",
+  "uri": "material://Co2Fe2P4W4",
+  "composition": {
+    "formula": "Co2Fe2P4W4",
+    "elements": {
+      "Co": 2,
+      "Fe": 2,
+      "P": 4,
+      "W": 4
+    },
+    "reduced_formula": "FeCo(PW)2",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g\nFe: 20 g\nP: 5 g\nW: 25 g\nBinder (e.g., polymer): 15 g\nSolvent (e.g., ethanol): 50 g"
+    },
+    "sourcing": {
+      "instructions": "Co: chemical supply stores or online suppliers\nFe: metal suppliers or online stores\nP: chemical suppliers\nW: metal supply companies\nBinder: craft stores or online\nSolvent: chemical supply or pharmacy",
+      "steps": [
+        "Co: chemical supply stores or online suppliers",
+        "Fe: metal suppliers or online stores",
+        "P: chemical suppliers",
+        "W: metal supply companies",
+        "Binder: craft stores or online",
+        "Solvent: chemical supply or pharmacy"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, add Co, Fe, P, and W in the given amounts.",
+        "3. Mix the dry powders thoroughly using a pestle and mortar until a homogeneous mixture is obtained.",
+        "4. Gradually add the binder while mixing.",
+        "5. Slowly incorporate the solvent to form a paste, ensuring uniform consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance.\n2. In a clean, dry container, add Co, Fe, P, and W in the given amounts.\n3. Mix the dry powders thoroughly using a pestle and mortar until a homogeneous mixture is obtained.\n4. Gradually add the binder while mixing.\n5. Slowly incorporate the solvent to form a paste, ensuring uniform consistency."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a mold of desired dimensions (3 in x 2 in x 7 in).",
+        "2. Preheat the furnace to 800°C.",
+        "3. Place the mold in the furnace and hold at this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture into a mold of desired dimensions (3 in x 2 in x 7 in).\n2. Preheat the furnace to 800°C.\n3. Place the mold in the furnace and hold at this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid opening the furnace until it reaches safe handling temperatures."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).\n2. Avoid opening the furnace until it reaches safe handling temperatures."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold.",
+        "2. Sand the edges to achieve desired smoothness.",
+        "3. If needed, apply a sealant to protect the surface from environmental factors.",
+        "4. Allow sealant to dry according to manufacturer's instructions before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold.\n2. Sand the edges to achieve desired smoothness.\n3. If needed, apply a sealant to protect the surface from environmental factors.\n4. Allow sealant to dry according to manufacturer's instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1470245.0,
+      "density": 122974.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1099612.0,
+      "formation_energy_per_atom": -4432.0,
+      "decomposition_energy_per_atom": -218.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -218.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "39dc04b98b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:31.903433Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe2P4W4.json",
+      "material://Co2Fe2P4W4"
+    ]
+  }
+}

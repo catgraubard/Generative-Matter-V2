@@ -1,0 +1,116 @@
+{
+  "id": "Co11Fe5P12Ru4Tb4",
+  "uri": "material://Co11Fe5P12Ru4Tb4",
+  "composition": {
+    "formula": "Co11Fe5P12Ru4Tb4",
+    "elements": {
+      "Co": 11,
+      "Fe": 5,
+      "P": 12,
+      "Ru": 4,
+      "Tb": 4
+    },
+    "reduced_formula": "Tb4Fe5Co11(P3Ru)4",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Ru",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 220.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 220 g, Fe: 100 g, P: 60 g, Ru: 40 g, Tb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical supply stores or online (e.g., Sigma-Aldrich); Fe: Metal suppliers or online (e.g., McMaster-Carr); P: Chemical supply stores; Ru: Online; Tb: Online or specialized suppliers.",
+      "steps": [
+        "Co: Chemical supply stores or online (e.g., Sigma-Aldrich); Fe: Metal suppliers or online (e.g., McMaster-Carr); P: Chemical supply stores; Ru: Online; Tb: Online or specialized suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using an analytical balance.",
+        "2. Combine Co, Fe, P, Ru, and Tb in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each material accurately using an analytical balance. \n 2. Combine Co, Fe, P, Ru, and Tb in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the mixture into a fine powder. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200 °C.",
+        "2. Place the mixed powder in a suitable crucible.",
+        "3. Heat the crucible in the furnace for 4 hours to achieve complete sintering."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200 °C. \n 2. Place the mixed powder in a suitable crucible. \n 3. Heat the crucible in the furnace for 4 hours to achieve complete sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions, if necessary.",
+        "3. Sand the surfaces to remove any sharp edges and achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions, if necessary. \n 3. Sand the surfaces to remove any sharp edges and achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4566679.0,
+      "density": 85057.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2716363.0,
+      "formation_energy_per_atom": -8472.0,
+      "decomposition_energy_per_atom": -41.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -388.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4c84e928fa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.341367Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co11Fe5P12Ru4Tb4.json",
+      "material://Co11Fe5P12Ru4Tb4"
+    ]
+  }
+}

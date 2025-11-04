@@ -1,0 +1,111 @@
+{
+  "id": "Bi2Cs12Sb2Se12",
+  "uri": "material://Bi2Cs12Sb2Se12",
+  "composition": {
+    "formula": "Bi2Cs12Sb2Se12",
+    "elements": {
+      "Bi": 2,
+      "Cs": 12,
+      "Sb": 2,
+      "Se": 12
+    },
+    "reduced_formula": "Cs6BiSbSe6",
+    "element_list": [
+      "Se",
+      "Sb",
+      "Cs",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Bismuth (Bi): 16.0 g  \n - Cesium (Cs): 12.0 g  \n - Antimony (Sb): 8.0 g  \n - Selenium (Se): 12.0 g  \n - Inert gas (e.g., Argon): 1000 mL (for atmosphere)"
+    },
+    "sourcing": {
+      "instructions": "- Bismuth: Purchase from a chemical supply company or online vendors like Sigma-Aldrich or eBay. \n - Cesium: Obtain from specialty chemical suppliers or academic suppliers. \n - Antimony: Available from metal suppliers or online chemical vendors. \n - Selenium: Can be found at chemical supply stores or through online retailers.",
+      "steps": [
+        "- Bismuth: Purchase from a chemical supply company or online vendors like Sigma-Aldrich or eBay.",
+        "- Cesium: Obtain from specialty chemical suppliers or academic suppliers.",
+        "- Antimony: Available from metal suppliers or online chemical vendors.",
+        "- Selenium: Can be found at chemical supply stores or through online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a glove box or under an inert atmosphere, combine the bismuth, cesium, antimony, and selenium in a clean, dry container.",
+        "3. Use a mortar and pestle to grind the mixture until a uniform powder is achieved.",
+        "4. Transfer the powder to a ceramic crucible suitable for high-temperature use."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a glove box or under an inert atmosphere, combine the bismuth, cesium, antimony, and selenium in a clean, dry container. \n 3. Use a mortar and pestle to grind the mixture until a uniform powder is achieved. \n 4. Transfer the powder to a ceramic crucible suitable for high-temperature use."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the crucible with the mixed powder into the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the crucible with the mixed powder into the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Ensure that the crucible remains in the inert atmosphere until it reaches room temperature to prevent oxidation."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours). \n 2. Ensure that the crucible remains in the inert atmosphere until it reaches room temperature to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect the surface for any irregularities or imperfections.",
+        "3. If needed, sand the surface using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, coat with a protective sealant to enhance stability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect the surface for any irregularities or imperfections. \n 3. If needed, sand the surface using fine-grit sandpaper for a smooth finish. \n 4. Optionally, coat with a protective sealant to enhance stability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 12914362.0,
+      "density": 41196.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1012765.0,
+      "formation_energy_per_atom": -11622.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -4.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": 1.949,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4e3aa785ab",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:58.575892Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2Cs12Sb2Se12.json",
+      "material://Bi2Cs12Sb2Se12"
+    ]
+  }
+}

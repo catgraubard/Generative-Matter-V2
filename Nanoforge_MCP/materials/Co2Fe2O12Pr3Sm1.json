@@ -1,0 +1,113 @@
+{
+  "id": "Co2Fe2O12Pr3Sm1",
+  "uri": "material://Co2Fe2O12Pr3Sm1",
+  "composition": {
+    "formula": "Co2Fe2O12Pr3Sm1",
+    "elements": {
+      "Co": 2,
+      "Fe": 2,
+      "O": 12,
+      "Pr": 3,
+      "Sm": 1
+    },
+    "reduced_formula": "Pr3SmFe2(CoO6)2",
+    "element_list": [
+      "O",
+      "Fe",
+      "Co",
+      "Pr",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CoO:  36.0 g  \n - Fe2O3:  56.0 g  \n - Pr2O3:  6.0 g  \n - Sm2O3:  2.0 g"
+    },
+    "sourcing": {
+      "instructions": "- CoO: Purchase from chemical suppliers like Sigma-Aldrich or Fisher Scientific.  \n - Fe2O3: Available at metal or chemical supply stores, or online.  \n - Pr2O3: Obtain from rare earth suppliers or specialized chemical retailers.  \n - Sm2O3: Can be sourced from similar rare earth suppliers.",
+      "steps": [
+        "- CoO: Purchase from chemical suppliers like Sigma-Aldrich or Fisher Scientific.",
+        "- Fe2O3: Available at metal or chemical supply stores, or online.",
+        "- Pr2O3: Obtain from rare earth suppliers or specialized chemical retailers.",
+        "- Sm2O3: Can be sourced from similar rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each component accurately using a digital scale.",
+        "2. In a clean, dry container, combine CoO, Fe2O3, Pr2O3, and Sm2O3.",
+        "3. Use a mortar and pestle to grind the mixture for 15 minutes to ensure uniformity.",
+        "4. Transfer the mixture to a ball mill and mill for an additional 30 minutes."
+      ],
+      "raw_text": "1. Measure each component accurately using a digital scale.  \n 2. In a clean, dry container, combine CoO, Fe2O3, Pr2O3, and Sm2O3.  \n 3. Use a mortar and pestle to grind the mixture for 15 minutes to ensure uniformity.  \n 4. Transfer the mixture to a ball mill and mill for an additional 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the mixed powders in a crucible.",
+        "3. Heat the crucible for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C.  \n 2. Place the mixed powders in a crucible.  \n 3. Heat the crucible for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approx. 6-8 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approx. 6-8 hours).  \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully crush the solid sample into smaller chunks if needed.",
+        "3. If necessary, sand the surface to achieve desired smoothness and dimensions.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled.  \n 2. Carefully crush the solid sample into smaller chunks if needed.  \n 3. If necessary, sand the surface to achieve desired smoothness and dimensions.  \n 4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2338585.0,
+      "density": 70625.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1630084.0,
+      "formation_energy_per_atom": -26707.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -28.0,
+      "decomposition_energy_mp": -213.0,
+      "decomposition_energy_mp_oqmd": -56.0
+    },
+    "electronic": {
+      "bandgap": 1.7958,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "305d76a051",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:19.173795Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe2O12Pr3Sm1.json",
+      "material://Co2Fe2O12Pr3Sm1"
+    ]
+  }
+}

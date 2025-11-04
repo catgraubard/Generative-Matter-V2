@@ -1,0 +1,113 @@
+{
+  "id": "Fe2O24P8Rb4",
+  "uri": "material://Fe2O24P8Rb4",
+  "composition": {
+    "formula": "Fe2O24P8Rb4",
+    "elements": {
+      "Fe": 2,
+      "O": 24,
+      "P": 8,
+      "Rb": 4
+    },
+    "reduced_formula": "Rb2Fe(PO3)4",
+    "element_list": [
+      "O",
+      "P",
+      "Fe",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Fe2O3 (Iron(III) oxide): 48.00 g \n - P2O5 (Phosphorus pentoxide): 16.00 g \n - Rb2O (Rubidium oxide): 8.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Fe2O3: Available from chemical suppliers or online chemical retailers. \n - P2O5: Obtainable from chemical supply companies or laboratory supply stores. \n - Rb2O: Can be sourced from specialized suppliers of rare earth materials or chemicals.",
+      "steps": [
+        "- Fe2O3: Available from chemical suppliers or online chemical retailers.",
+        "- P2O5: Obtainable from chemical supply companies or laboratory supply stores.",
+        "- Rb2O: Can be sourced from specialized suppliers of rare earth materials or chemicals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 48.00 g of Fe2O3 using an analytical balance.",
+        "2. Measure 16.00 g of P2O5.",
+        "3. Measure 8.00 g of Rb2O.",
+        "4. In a clean, dry ceramic or glass mixing bowl, combine the measured powders uniformly using a spatula.",
+        "5. Ensure thorough mixing until a consistent color and texture are achieved."
+      ],
+      "raw_text": "1. Measure 48.00 g of Fe2O3 using an analytical balance. \n 2. Measure 16.00 g of P2O5. \n 3. Measure 8.00 g of Rb2O. \n 4. In a clean, dry ceramic or glass mixing bowl, combine the measured powders uniformly using a spatula. \n 5. Ensure thorough mixing until a consistent color and texture are achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture gradually to 900°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture gradually to 900°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature for safety, which may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature for safety, which may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the surface for any irregularities or rough edges.",
+        "3. If necessary, sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper.",
+        "4. Optionally, seal the sample with a clear epoxy or acrylic sealant to protect its surface."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the surface for any irregularities or rough edges. \n 3. If necessary, sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper. \n 4. Optionally, seal the sample with a clear epoxy or acrylic sealant to protect its surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5778342.0,
+      "density": 3119.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cc",
+      "space_group_number": 9,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2812115.0,
+      "formation_energy_per_atom": -25866.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -61.0,
+      "decomposition_energy_mp_oqmd": -34.0
+    },
+    "electronic": {
+      "bandgap": 4.0226,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "82aeab58fd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:07.097034Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2O24P8Rb4.json",
+      "material://Fe2O24P8Rb4"
+    ]
+  }
+}

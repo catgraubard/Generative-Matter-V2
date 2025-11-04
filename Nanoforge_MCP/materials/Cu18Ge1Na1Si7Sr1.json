@@ -1,0 +1,138 @@
+{
+  "id": "Cu18Ge1Na1Si7Sr1",
+  "uri": "material://Cu18Ge1Na1Si7Sr1",
+  "composition": {
+    "formula": "Cu18Ge1Na1Si7Sr1",
+    "elements": {
+      "Cu": 18,
+      "Ge": 1,
+      "Na": 1,
+      "Si": 7,
+      "Sr": 1
+    },
+    "reduced_formula": "NaSrCu18Si7Ge",
+    "element_list": [
+      "Na",
+      "Si",
+      "Cu",
+      "Ge",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 900.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 350.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu:  900 g \n Ge:  50 g \n Na:  50 g \n Si:  350 g \n Sr:  50 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Metal suppliers or online retailers \n Ge: Specialty electronics suppliers \n Na: Chemical suppliers \n Si: Silicon manufacturers \n Sr: Chemical suppliers",
+      "steps": [
+        "Cu: Metal suppliers or online retailers",
+        "Ge: Specialty electronics suppliers",
+        "Na: Chemical suppliers",
+        "Si: Silicon manufacturers",
+        "Sr: Chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine Cu, Ge, Na, Si, and Sr.",
+        "3. Mix the powders thoroughly using a spatula or mechanical mixer for at least 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine Cu, Ge, Na, Si, and Sr. \n 3. Mix the powders thoroughly using a spatula or mechanical mixer for at least 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 3,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat in a furnace at 1000°C for 3 hours under an inert atmosphere (e.g., argon gas)."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat in a furnace at 1000°C for 3 hours under an inert atmosphere (e.g., argon gas)."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow to cool slowly to room temperature over a duration of 4 hours.",
+        "2. Ensure the crucible remains sealed during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow to cool slowly to room temperature over a duration of 4 hours. \n 2. Ensure the crucible remains sealed during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to smooth any rough surfaces.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to smooth any rough surfaces. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3859893.0,
+      "density": 65549.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1233675.0,
+      "formation_energy_per_atom": -1418.0,
+      "decomposition_energy_per_atom": -68.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -25.0,
+      "decomposition_energy_mp": -66.0,
+      "decomposition_energy_mp_oqmd": -64.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6c7354ef62",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:37.558854Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu18Ge1Na1Si7Sr1.json",
+      "material://Cu18Ge1Na1Si7Sr1"
+    ]
+  }
+}

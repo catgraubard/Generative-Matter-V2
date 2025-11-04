@@ -1,0 +1,116 @@
+{
+  "id": "Cr2Ni4O24P6Sr2",
+  "uri": "material://Cr2Ni4O24P6Sr2",
+  "composition": {
+    "formula": "Cr2Ni4O24P6Sr2",
+    "elements": {
+      "Cr": 2,
+      "Ni": 4,
+      "O": 24,
+      "P": 6,
+      "Sr": 2
+    },
+    "reduced_formula": "SrCrNi2(PO4)3",
+    "element_list": [
+      "O",
+      "P",
+      "Cr",
+      "Ni",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Chromium(III) oxide (Cr2O3): 40.0 g \n - Nickel(II) oxide (NiO): 24.0 g \n - Cobalt(II) oxide (CoO): 0.5 g \n - Phosphorus pentoxide (P2O5): 6.0 g \n - Strontium carbonate (SrCO3): 25.0 g \n - Distilled water: 50.0 g (for mixing)"
+    },
+    "sourcing": {
+      "instructions": "- Chromium(III) oxide: Chemical supply store or online chemical supplier. \n - Nickel(II) oxide: Chemical supply store or online chemical supplier. \n - Cobalt(II) oxide: Chemical supply store or online chemical supplier. \n - Phosphorus pentoxide: Chemical supply store or online chemical supplier. \n - Strontium carbonate: Chemical supply store or online chemical supplier. \n - Distilled water: Grocery store or laboratory supply store.",
+      "steps": [
+        "- Chromium(III) oxide: Chemical supply store or online chemical supplier.",
+        "- Nickel(II) oxide: Chemical supply store or online chemical supplier.",
+        "- Cobalt(II) oxide: Chemical supply store or online chemical supplier.",
+        "- Phosphorus pentoxide: Chemical supply store or online chemical supplier.",
+        "- Strontium carbonate: Chemical supply store or online chemical supplier.",
+        "- Distilled water: Grocery store or laboratory supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh all solid ingredients (Cr2O3, NiO, CoO, P2O5, SrCO3) using a precision scale.",
+        "2. Combine the solid materials in a clean, dry mixing bowl.",
+        "3. Slowly add distilled water to the mixture while stirring continuously to form a slurry.",
+        "4. Ensure the slurry is homogeneous with no lumps."
+      ],
+      "raw_text": "1. Measure and weigh all solid ingredients (Cr2O3, NiO, CoO, P2O5, SrCO3) using a precision scale. \n 2. Combine the solid materials in a clean, dry mixing bowl. \n 3. Slowly add distilled water to the mixture while stirring continuously to form a slurry. \n 4. Ensure the slurry is homogeneous with no lumps."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the slurry into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1000 °C (1832 °F) at a rate of 5 °C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the slurry into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1000 °C (1832 °F) at a rate of 5 °C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once cooled.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear resin or lacquer for added protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once cooled. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear resin or lacquer for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4560012.0,
+      "density": 39468.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imma",
+      "space_group_number": 74,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -295192.0,
+      "formation_energy_per_atom": -2583.0,
+      "decomposition_energy_per_atom": -273.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -276.0,
+      "decomposition_energy_mp": -279.0,
+      "decomposition_energy_mp_oqmd": -276.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "73b3bb40f2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.878267Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2Ni4O24P6Sr2.json",
+      "material://Cr2Ni4O24P6Sr2"
+    ]
+  }
+}

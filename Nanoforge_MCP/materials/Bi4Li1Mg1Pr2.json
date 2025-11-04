@@ -1,0 +1,113 @@
+{
+  "id": "Bi4Li1Mg1Pr2",
+  "uri": "material://Bi4Li1Mg1Pr2",
+  "composition": {
+    "formula": "Bi4Li1Mg1Pr2",
+    "elements": {
+      "Bi": 4,
+      "Li": 1,
+      "Mg": 1,
+      "Pr": 2
+    },
+    "reduced_formula": "LiPr2MgBi4",
+    "element_list": [
+      "Li",
+      "Mg",
+      "Pr",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Niobium (Nb): 20 g \n Technetium (Tc): 240 g \n Titanium (Ti): 120 g \n Tungsten (W): 100 g"
+    },
+    "sourcing": {
+      "instructions": "Niobium: Specialty metal suppliers or online metal retailers. \n Technetium: Obtain from a licensed nuclear supplier or institution (due to its radioactive nature). \n Titanium: Metal supply stores or online industrial materials suppliers. \n Tungsten: Specialty metal suppliers or online metal retailers.",
+      "steps": [
+        "Niobium: Specialty metal suppliers or online metal retailers.",
+        "Technetium: Obtain from a licensed nuclear supplier or institution (due to its radioactive nature).",
+        "Titanium: Metal supply stores or online industrial materials suppliers.",
+        "Tungsten: Specialty metal suppliers or online metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a precision scale.",
+        "2. In a clean, dry container, combine the niobium, technetium, titanium, and tungsten powders.",
+        "3. Stir the mixture thoroughly for at least 10 minutes to ensure even distribution of the metals.",
+        "4. Transfer the mixture to a high-capacity ball mill and mill for 4 hours at a speed of 300 RPM to achieve a fine homogeneous powder."
+      ],
+      "raw_text": "1. Weigh each material accurately using a precision scale. \n 2. In a clean, dry container, combine the niobium, technetium, titanium, and tungsten powders. \n 3. Stir the mixture thoroughly for at least 10 minutes to ensure even distribution of the metals. \n 4. Transfer the mixture to a high-capacity ball mill and mill for 4 hours at a speed of 300 RPM to achieve a fine homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1500°C.",
+        "2. Load the milled powder into a graphite crucible suitable for high temperatures.",
+        "3. Place the crucible into the furnace, ensuring a vacuum of <10^-3 torr is maintained.",
+        "4. Heat the material gradually for 2 hours to allow for alloying, maintaining the temperature."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1500°C. \n 2. Load the milled powder into a graphite crucible suitable for high temperatures. \n 3. Place the crucible into the furnace, ensuring a vacuum of <10^-3 torr is maintained. \n 4. Heat the material gradually for 2 hours to allow for alloying, maintaining the temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Once the heating period is complete, turn off the furnace.",
+        "2. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours) while still maintaining the vacuum."
+      ],
+      "raw_text": "1. Once the heating period is complete, turn off the furnace. \n 2. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours) while still maintaining the vacuum."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and allow it to cool to ambient temperature.",
+        "2. Carefully break the crucible to retrieve the solid sample.",
+        "3. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges to smooth any rough surfaces, finishing with 600-grit sandpaper.",
+        "5. Optionally, apply a protective sealant to reduce oxidation, following manufacturer instructions."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and allow it to cool to ambient temperature. \n 2. Carefully break the crucible to retrieve the solid sample. \n 3. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Sand the edges to smooth any rough surfaces, finishing with 600-grit sandpaper. \n 5. Optionally, apply a protective sealant to reduce oxidation, following manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 2345786.0,
+      "density": 81334.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4m2",
+      "space_group_number": 115,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -337448.0,
+      "formation_energy_per_atom": -6392.0,
+      "decomposition_energy_per_atom": -106.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -106.0,
+      "decomposition_energy_mp_oqmd": -45.0
+    },
+    "electronic": {
+      "bandgap": 0.0733,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b5a165beea",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.177229Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Li1Mg1Pr2.json",
+      "material://Bi4Li1Mg1Pr2"
+    ]
+  }
+}

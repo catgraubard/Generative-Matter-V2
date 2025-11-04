@@ -1,0 +1,112 @@
+{
+  "id": "Ce2Co1Ru2Si1",
+  "uri": "material://Ce2Co1Ru2Si1",
+  "composition": {
+    "formula": "Ce2Co1Ru2Si1",
+    "elements": {
+      "Ce": 2,
+      "Co": 1,
+      "Ru": 2,
+      "Si": 1
+    },
+    "reduced_formula": "Ce2CoSiRu2",
+    "element_list": [
+      "Si",
+      "Co",
+      "Ru",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ba (Barium): 20.0 g \n Ga (Gallium): 40.0 g \n Te (Tellurium): 220.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ba can be sourced from chemical supply companies like Sigma-Aldrich or Thermo Fisher Scientific. \n Ga can be purchased from electronic component suppliers or chemical distributors. \n Te can be obtained from specialized metallurgical suppliers.",
+      "steps": [
+        "Ba can be sourced from chemical supply companies like Sigma-Aldrich or Thermo Fisher Scientific.",
+        "Ga can be purchased from electronic component suppliers or chemical distributors.",
+        "Te can be obtained from specialized metallurgical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 20.0 g of Ba using an analytical balance.",
+        "2. Weigh 40.0 g of Ga.",
+        "3. Weigh 220.0 g of Te.",
+        "4. In a glove box or fume hood, combine Ba and Ga in a clean, dry container and mix thoroughly.",
+        "5. Gradually add Te to the Ba-Ga mixture while continuously stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh 20.0 g of Ba using an analytical balance. \n 2. Weigh 40.0 g of Ga. \n 3. Weigh 220.0 g of Te. \n 4. In a glove box or fume hood, combine Ba and Ga in a clean, dry container and mix thoroughly. \n 5. Gradually add Te to the Ba-Ga mixture while continuously stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace.",
+        "2. Heat the mixture to 900°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Ba1Ga2Te22."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace. \n 2. Heat the mixture to 900°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Ba1Ga2Te22."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace.",
+        "2. Allow the furnace to cool naturally to room temperature (approximately 5-6 hours) before removing the sample."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace. \n 2. Allow the furnace to cool naturally to room temperature (approximately 5-6 hours) before removing the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace and inspect for any irregularities.",
+        "2. If necessary, grind the sample using an agate mortar and pestle to achieve a uniform particle size.",
+        "3. Optionally, seal the sample with a suitable resin for enhanced durability or further experimentation.",
+        "4. Sand the edges to achieve a smooth finish if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace and inspect for any irregularities. \n 2. If necessary, grind the sample using an agate mortar and pestle to achieve a uniform particle size. \n 3. Optionally, seal the sample with a suitable resin for enhanced durability or further experimentation. \n 4. Sand the edges to achieve a smooth finish if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1016866.0,
+      "density": 92981.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -464898.0,
+      "formation_energy_per_atom": -5902.0,
+      "decomposition_energy_per_atom": -42.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -107.0,
+      "decomposition_energy_mp": -539.0,
+      "decomposition_energy_mp_oqmd": -129.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c444f84e6c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.346401Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce2Co1Ru2Si1.json",
+      "material://Ce2Co1Ru2Si1"
+    ]
+  }
+}

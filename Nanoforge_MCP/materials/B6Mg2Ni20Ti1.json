@@ -1,0 +1,112 @@
+{
+  "id": "B6Mg2Ni20Ti1",
+  "uri": "material://B6Mg2Ni20Ti1",
+  "composition": {
+    "formula": "B6Mg2Ni20Ti1",
+    "elements": {
+      "B": 6,
+      "Mg": 2,
+      "Ni": 20,
+      "Ti": 1
+    },
+    "reduced_formula": "Mg2Ti(Ni10B3)2",
+    "element_list": [
+      "B",
+      "Mg",
+      "Ti",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6g, Mg: 10g, Ni: 200g, Ti: 10g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical suppliers (e.g., Sigma-Aldrich); Mg: Metal suppliers or online retailers; Ni: Metal suppliers; Ti: Metal suppliers or online retailers.",
+      "steps": [
+        "B: Chemical suppliers (e.g., Sigma-Aldrich); Mg: Metal suppliers or online retailers; Ni: Metal suppliers; Ti: Metal suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 6g of B, 10g of Mg, 200g of Ni, and 10g of Ti using a precision balance.",
+        "2. In a clean, dry container, combine the measured B, Mg, Ni, and Ti powders.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer for 15 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh out 6g of B, 10g of Mg, 200g of Ni, and 10g of Ti using a precision balance. \n 2. In a clean, dry container, combine the measured B, Mg, Ni, and Ti powders. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer for 15 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the sample in the furnace for 2 hours to facilitate the reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Heat the sample in the furnace for 2 hours to facilitate the reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond file or grinder to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, apply a sealant to prevent oxidation and enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond file or grinder to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, apply a sealant to prevent oxidation and enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2930418.0,
+      "density": 75661.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1770934.0,
+      "formation_energy_per_atom": -3558.0,
+      "decomposition_energy_per_atom": -69.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -69.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "273cf8852f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:07.184803Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Mg2Ni20Ti1.json",
+      "material://B6Mg2Ni20Ti1"
+    ]
+  }
+}

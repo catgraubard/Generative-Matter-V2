@@ -1,0 +1,132 @@
+{
+  "id": "Co1P12Ru18Y5",
+  "uri": "material://Co1P12Ru18Y5",
+  "composition": {
+    "formula": "Co1P12Ru18Y5",
+    "elements": {
+      "Co": 1,
+      "P": 12,
+      "Ru": 18,
+      "Y": 5
+    },
+    "reduced_formula": "Y5Co(P2Ru3)6",
+    "element_list": [
+      "P",
+      "Co",
+      "Y",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 1.8,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.0 g \n P: 1.8 g \n Ru: 20.0 g \n Y: 5.0 g \n Total Weight: 36.8 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Supplier of metal powders (e.g., Alfa Aesar) \n P: Phosphorus supplier (e.g., Sigma-Aldrich) \n Ru: Ruthenium supplier (e.g., Strem Chemicals) \n Y: Yttrium supplier (e.g., American Elements)",
+      "steps": [
+        "Co: Supplier of metal powders (e.g., Alfa Aesar)",
+        "P: Phosphorus supplier (e.g., Sigma-Aldrich)",
+        "Ru: Ruthenium supplier (e.g., Strem Chemicals)",
+        "Y: Yttrium supplier (e.g., American Elements)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal powder accurately using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed amounts of Co, P, Ru, and Y.",
+        "3. Use a mechanical stirrer or mortar and pestle to achieve a homogeneous mixture.",
+        "4. Ensure the mixture is free from clumps and evenly distributed."
+      ],
+      "raw_text": "1. Weigh each metal powder accurately using an analytical balance. \n 2. In a clean, dry container, combine the weighed amounts of Co, P, Ru, and Y. \n 3. Use a mechanical stirrer or mortar and pestle to achieve a homogeneous mixture. \n 4. Ensure the mixture is free from clumps and evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the homogeneous mixture into a high-temperature furnace.",
+        "2. Heat the furnace to 1200 °C.",
+        "3. Maintain this temperature for 4 hours to promote alloy formation."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture into a high-temperature furnace. \n 2. Heat the furnace to 1200 °C. \n 3. Maintain this temperature for 4 hours to promote alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the sample to cool inside the furnace to room temperature gradually (approximately 6-8 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace. \n 2. Allow the sample to cool inside the furnace to room temperature gradually (approximately 6-8 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a fine-grit sandpaper to smooth the surface of the sample.",
+        "3. Optionally, apply a protective sealant for enhanced durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a fine-grit sandpaper to smooth the surface of the sample. \n 3. Optionally, apply a protective sealant for enhanced durability. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5376169.0,
+      "density": 83222.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3027502.0,
+      "formation_energy_per_atom": -8725.0,
+      "decomposition_energy_per_atom": -99.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -99.0,
+      "decomposition_energy_mp_oqmd": -99.0
+    },
+    "electronic": {
+      "bandgap": 0.0049,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "47ca3237ef",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:49.882522Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1P12Ru18Y5.json",
+      "material://Co1P12Ru18Y5"
+    ]
+  }
+}

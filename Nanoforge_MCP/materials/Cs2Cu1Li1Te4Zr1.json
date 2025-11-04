@@ -1,0 +1,136 @@
+{
+  "id": "Cs2Cu1Li1Te4Zr1",
+  "uri": "material://Cs2Cu1Li1Te4Zr1",
+  "composition": {
+    "formula": "Cs2Cu1Li1Te4Zr1",
+    "elements": {
+      "Cs": 2,
+      "Cu": 1,
+      "Li": 1,
+      "Te": 4,
+      "Zr": 1
+    },
+    "reduced_formula": "Cs2LiZrCuTe4",
+    "element_list": [
+      "Li",
+      "Cu",
+      "Zr",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 8.0 g \n In: 32.0 g \n Rb: 24.0 g \n Sb: 64.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier or online specialty chemical store. \n In: Obtain from a metal supplier or electronics component distributor. \n Rb: Acquire from a chemical supplier or research institution. \n Sb: Source from a metallurgical supplier or online chemical retailer.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier or online specialty chemical store.",
+        "In: Obtain from a metal supplier or electronics component distributor.",
+        "Rb: Acquire from a chemical supplier or research institution.",
+        "Sb: Source from a metallurgical supplier or online chemical retailer."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 8.0 g of Cesium (Cs) into a clean container.",
+        "2. Weigh out 32.0 g of Indium (In) and add it to the container.",
+        "3. Weigh out 24.0 g of Rubidium (Rb) and add it to the mixture.",
+        "4. Finally, weigh out 64.0 g of Antimony (Sb) and add to the mixture.",
+        "5. Mix the powders thoroughly using a mortar and pestle or a ball mill for 30 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out 8.0 g of Cesium (Cs) into a clean container. \n 2. Weigh out 32.0 g of Indium (In) and add it to the container. \n 3. Weigh out 24.0 g of Rubidium (Rb) and add it to the mixture. \n 4. Finally, weigh out 64.0 g of Antimony (Sb) and add to the mixture. \n 5. Mix the powders thoroughly using a mortar and pestle or a ball mill for 30 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Set the furnace to heat to 800°C.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Set the furnace to heat to 800°C. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This may take around 6-8 hours. Ensure the crucible is not disturbed during cooling."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This may take around 6-8 hours. Ensure the crucible is not disturbed during cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the material from the crucible.",
+        "2. Grind the solid sample lightly to remove any surface irregularities.",
+        "3. If necessary, use a fine-grit sandpaper to smooth the edges and surfaces for a uniform finish.",
+        "4. Optionally, seal the material with a suitable resin or coating to enhance durability, following the resin manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the material from the crucible. \n 2. Grind the solid sample lightly to remove any surface irregularities. \n 3. If necessary, use a fine-grit sandpaper to smooth the edges and surfaces for a uniform finish. \n 4. Optionally, seal the material with a suitable resin or coating to enhance durability, following the resin manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 3349258.0,
+      "density": 46502.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "C222",
+      "space_group_number": 21,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -387482.0,
+      "formation_energy_per_atom": -1092.0,
+      "decomposition_energy_per_atom": -853.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -844.0,
+      "decomposition_energy_mp_oqmd": -141.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ddefdfc293",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.214224Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Cu1Li1Te4Zr1.json",
+      "material://Cs2Cu1Li1Te4Zr1"
+    ]
+  }
+}

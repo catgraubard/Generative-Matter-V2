@@ -1,0 +1,132 @@
+{
+  "id": "Ge1Ni8Si13Ti8",
+  "uri": "material://Ge1Ni8Si13Ti8",
+  "composition": {
+    "formula": "Ge1Ni8Si13Ti8",
+    "elements": {
+      "Ge": 1,
+      "Ni": 8,
+      "Si": 13,
+      "Ti": 8
+    },
+    "reduced_formula": "Ti8Si13Ni8Ge",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Ni",
+      "Ge"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 6.00 g \n Rb: 12.00 g \n Se: 16.00 g \n Si: 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Purchase from a chemical supplier or online chemistry store. \n Rb: Obtain from a specialty chemical supplier or online. \n Se: Available from chemical suppliers or online markets. \n Si: Can be sourced from electronics suppliers (silicon wafers/powder).",
+      "steps": [
+        "Mo: Purchase from a chemical supplier or online chemistry store.",
+        "Rb: Obtain from a specialty chemical supplier or online.",
+        "Se: Available from chemical suppliers or online markets.",
+        "Si: Can be sourced from electronics suppliers (silicon wafers/powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry container, add the weighed Mo, Rb, Se, and Si in the specified order.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixture to a ceramic or quartz crucible suitable for high temperatures."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry container, add the weighed Mo, Rb, Se, and Si in the specified order. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. \n 4. Transfer the mixture to a ceramic or quartz crucible suitable for high temperatures."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Once the temperature is reached, place the crucible inside the furnace.",
+        "3. Maintain this temperature for 4 hours to allow for proper reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Once the temperature is reached, place the crucible inside the furnace. \n 3. Maintain this temperature for 4 hours to allow for proper reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 24 hours).",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 24 hours). \n 2. Do not open the furnace door until it has cooled completely to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a soft brush to clean any residual powders from the surface.",
+        "3. If a solid form is desired, use a diamond saw to cut the material into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Optionally, sand the edges to achieve a smooth finish and apply a protective sealant if necessary."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a soft brush to clean any residual powders from the surface. \n 3. If a solid form is desired, use a diamond saw to cut the material into the desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Optionally, sand the edges to achieve a smooth finish and apply a protective sealant if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 3944048.0,
+      "density": 54322.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2054632.0,
+      "formation_energy_per_atom": -6969.0,
+      "decomposition_energy_per_atom": 82.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -236.0,
+      "decomposition_energy_mp": -255.0,
+      "decomposition_energy_mp_oqmd": -236.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c69f0f176a",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.030822Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Ni8Si13Ti8.json",
+      "material://Ge1Ni8Si13Ti8"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "Ga8Ge3Nd6Si1",
+  "uri": "material://Ga8Ge3Nd6Si1",
+  "composition": {
+    "formula": "Ga8Ge3Nd6Si1",
+    "elements": {
+      "Ga": 8,
+      "Ge": 3,
+      "Nd": 6,
+      "Si": 1
+    },
+    "reduced_formula": "Nd6Ga8SiGe3",
+    "element_list": [
+      "Si",
+      "Ga",
+      "Ge",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 2.00 g, La: 2.00 g, Li: 1.00 g, Se: 6.00 g, Sm: 1.00 g, Total: 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Obtain from an electronics supplier or metal supplier; La: Purchase from a rare earth metal supplier; Li: Available at chemical supply companies; Se: Obtain from chemical suppliers; Sm: Sourced from rare earth metal suppliers.",
+      "steps": [
+        "Cu: Obtain from an electronics supplier or metal supplier; La: Purchase from a rare earth metal supplier; Li: Available at chemical supply companies; Se: Obtain from chemical suppliers; Sm: Sourced from rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 2.00 g of Cu using an analytical balance.",
+        "2. Measure 2.00 g of La using the same balance.",
+        "3. Weigh 1.00 g of Li.",
+        "4. Measure 6.00 g of Se accurately.",
+        "5. Weigh 1.00 g of Sm.",
+        "6. In a clean, inert atmosphere glove box, add all measured ingredients into a ceramic crucible.",
+        "7. Mix the powders thoroughly using a mortar and pestle to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out 2.00 g of Cu using an analytical balance. \n 2. Measure 2.00 g of La using the same balance. \n 3. Weigh 1.00 g of Li. \n 4. Measure 6.00 g of Se accurately. \n 5. Weigh 1.00 g of Sm. \n 6. In a clean, inert atmosphere glove box, add all measured ingredients into a ceramic crucible. \n 7. Mix the powders thoroughly using a mortar and pestle to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 12,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 800°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 12 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 800°C at a rate of 5°C/min. \n 3. Maintain this temperature for 12 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After 12 hours, turn off the furnace and allow it to cool naturally to room temperature, approximately 5-6 hours.",
+        "2. Do not open the furnace until it has cooled to avoid contamination."
+      ],
+      "raw_text": "1. After 12 hours, turn off the furnace and allow it to cool naturally to room temperature, approximately 5-6 hours. \n 2. Do not open the furnace until it has cooled to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and allow it to cool further in ambient air for an additional 1 hour.",
+        "2. Carefully break the crucible to retrieve the solid sample.",
+        "3. Use sandpaper to smooth the edges of the sample, if necessary, and ensure uniform dimensions.",
+        "4. Optionally, seal the sample with a clear coating to protect it from environmental degradation."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and allow it to cool further in ambient air for an additional 1 hour. \n 2. Carefully break the crucible to retrieve the solid sample. \n 3. Use sandpaper to smooth the edges of the sample, if necessary, and ensure uniform dimensions. \n 4. Optionally, seal the sample with a clear coating to protect it from environmental degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4012121.0,
+      "density": 69087.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -846259.0,
+      "formation_energy_per_atom": -6943.0,
+      "decomposition_energy_per_atom": -6.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -74.0,
+      "decomposition_energy_mp_oqmd": -36.0
+    },
+    "electronic": {
+      "bandgap": 0.0117,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3c4743306",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.810438Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga8Ge3Nd6Si1.json",
+      "material://Ga8Ge3Nd6Si1"
+    ]
+  }
+}

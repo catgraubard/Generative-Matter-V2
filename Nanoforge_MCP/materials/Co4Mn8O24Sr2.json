@@ -1,0 +1,121 @@
+{
+  "id": "Co4Mn8O24Sr2",
+  "uri": "material://Co4Mn8O24Sr2",
+  "composition": {
+    "formula": "Co4Mn8O24Sr2",
+    "elements": {
+      "Co": 4,
+      "Mn": 8,
+      "O": 24,
+      "Sr": 2
+    },
+    "reduced_formula": "SrMn4(CoO6)2",
+    "element_list": [
+      "O",
+      "Mn",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g, Mn: 20 g, O: 60 g, Sr: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt Carbonate): Chemical supplier or online specialty chemical store. \n Mn (Manganese Dioxide): Chemical supplier or online specialty chemical store. \n O (Oxygen source, e.g., from metal oxides): Can be sourced from a chemical supplier as part of metal oxides or used as a reagent in reactions. \n Sr (Strontium Carbonate): Chemical supplier or online specialty chemical store.",
+      "steps": [
+        "Co (Cobalt Carbonate): Chemical supplier or online specialty chemical store.",
+        "Mn (Manganese Dioxide): Chemical supplier or online specialty chemical store.",
+        "O (Oxygen source, e.g., from metal oxides): Can be sourced from a chemical supplier as part of metal oxides or used as a reagent in reactions.",
+        "Sr (Strontium Carbonate): Chemical supplier or online specialty chemical store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10 g of Cobalt Carbonate.",
+        "2. Weigh 20 g of Manganese Dioxide.",
+        "3. Weigh 60 g of the oxygen source (as part of metal oxides).",
+        "4. Weigh 15 g of Strontium Carbonate.",
+        "5. In a clean, dry mixing container, combine all the weighed materials thoroughly using a mortar and pestle or a mechanical mixer. Ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh 10 g of Cobalt Carbonate. \n 2. Weigh 20 g of Manganese Dioxide. \n 3. Weigh 60 g of the oxygen source (as part of metal oxides). \n 4. Weigh 15 g of Strontium Carbonate. \n 5. In a clean, dry mixing container, combine all the weighed materials thoroughly using a mortar and pestle or a mechanical mixer. Ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 800°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 800°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the muffle furnace.",
+        "2. Allow the furnace to cool down naturally to room temperature (approximately 2-3 hours).",
+        "3. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating period, turn off the muffle furnace. \n 2. Allow the furnace to cool down naturally to room temperature (approximately 2-3 hours). \n 3. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the solidified material into a fine powder if necessary using a mortar and pestle.",
+        "2. Sieve the powder to achieve uniform particle size.",
+        "3. If needed, compact the powder into the desired shape using a hydraulic press for final shaping.",
+        "4. Seal the final product with a suitable protective coating (if required) to enhance stability and durability."
+      ],
+      "raw_text": "1. Crush the solidified material into a fine powder if necessary using a mortar and pestle. \n 2. Sieve the powder to achieve uniform particle size. \n 3. If needed, compact the powder into the desired shape using a hydraulic press for final shaping. \n 4. Seal the final product with a suitable protective coating (if required) to enhance stability and durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4071214.0,
+      "density": 5035.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2958241.0,
+      "formation_energy_per_atom": -18938.0,
+      "decomposition_energy_per_atom": -449.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -47.0,
+      "decomposition_energy_mp": -455.0,
+      "decomposition_energy_mp_oqmd": -314.0
+    },
+    "electronic": {
+      "bandgap": 0.7511,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1639872ad4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:44.774764Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Mn8O24Sr2.json",
+      "material://Co4Mn8O24Sr2"
+    ]
+  }
+}

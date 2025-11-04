@@ -1,0 +1,134 @@
+{
+  "id": "Mg1Nd2Pr4Se14Si2",
+  "uri": "material://Mg1Nd2Pr4Se14Si2",
+  "composition": {
+    "formula": "Mg1Nd2Pr4Se14Si2",
+    "elements": {
+      "Mg": 1,
+      "Nd": 2,
+      "Pr": 4,
+      "Se": 14,
+      "Si": 2
+    },
+    "reduced_formula": "Pr4Nd2Mg(SiSe7)2",
+    "element_list": [
+      "Mg",
+      "Si",
+      "Se",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 80 g \n La: 60 g \n O: 100 g \n Se: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Obtain from a chemical supplier with proper safety measures. \n La: Available from metal suppliers or online chemical retailers. \n O: Can be sourced from oxygen gas or as part of an oxide compound. \n Se: Available from specialty chemical suppliers or online.",
+      "steps": [
+        "Hg: Obtain from a chemical supplier with proper safety measures.",
+        "La: Available from metal suppliers or online chemical retailers.",
+        "O: Can be sourced from oxygen gas or as part of an oxide compound.",
+        "Se: Available from specialty chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and prepare each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Hg, La, O, and Se in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture until it is homogeneous and fine.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh and prepare each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Hg, La, O, and Se in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture until it is homogeneous and fine. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900 °C.",
+        "2. Place the ceramic crucible in the furnace once it reaches the desired temperature.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Hg2La4O24Se8."
+      ],
+      "raw_text": "1. Preheat the furnace to 900 °C. \n 2. Place the ceramic crucible in the furnace once it reaches the desired temperature. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Hg2La4O24Se8."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. The cooling process should take approximately 6 hours. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. The cooling process should take approximately 6 hours. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. If necessary, sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. If necessary, sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 23,
+      "volume": 6031871.0,
+      "density": 56106.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1306694.0,
+      "formation_energy_per_atom": -17659.0,
+      "decomposition_energy_per_atom": -225.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -225.0,
+      "decomposition_energy_mp_oqmd": -174.0
+    },
+    "electronic": {
+      "bandgap": 1.4993,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc301136a7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.809189Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg1Nd2Pr4Se14Si2.json",
+      "material://Mg1Nd2Pr4Se14Si2"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Al6Ni11Tc1Ti6",
+  "uri": "material://Al6Ni11Tc1Ti6",
+  "composition": {
+    "formula": "Al6Ni11Tc1Ti6",
+    "elements": {
+      "Al": 6,
+      "Ni": 11,
+      "Tc": 1,
+      "Ti": 6
+    },
+    "reduced_formula": "Ti6Al6TcNi11",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Ni",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 440.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 240 g \n Ni: 440 g \n Tc: 40 g \n Ti: 240 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Aluminum ingots from a metal supply store \n Ni: Nickel metal from a chemical supplier \n Tc: Technetium obtained through a specialized nuclear material supplier \n Ti: Titanium bars from a metal fabrication company",
+      "steps": [
+        "Al: Aluminum ingots from a metal supply store",
+        "Ni: Nickel metal from a chemical supplier",
+        "Tc: Technetium obtained through a specialized nuclear material supplier",
+        "Ti: Titanium bars from a metal fabrication company"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine the aluminum and nickel powders.",
+        "3. Slowly add the technetium to the mixture while stirring continuously to ensure even distribution.",
+        "4. Finally, incorporate the titanium, ensuring all materials are thoroughly mixed.",
+        "5. Transfer the mixed material into a mold that matches the desired dimensions (3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine the aluminum and nickel powders. \n 3. Slowly add the technetium to the mixture while stirring continuously to ensure even distribution. \n 4. Finally, incorporate the titanium, ensuring all materials are thoroughly mixed. \n 5. Transfer the mixed material into a mold that matches the desired dimensions (3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 750,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 750°C.",
+        "2. Place the mold with the mixed material into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure proper bonding and material integrity."
+      ],
+      "raw_text": "1. Preheat a furnace to 750°C. \n 2. Place the mold with the mixed material into the furnace. \n 3. Maintain the temperature for 2 hours to ensure proper bonding and material integrity."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Once the furnace is at room temperature, carefully remove the mold.",
+        "3. Allow the solid sample to cool further in ambient air for at least 30 minutes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Once the furnace is at room temperature, carefully remove the mold. \n 3. Allow the solid sample to cool further in ambient air for at least 30 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove any excess material from the edges using a fine file.",
+        "2. Sand the surface to achieve a smooth finish with 400-grit sandpaper.",
+        "3. Optionally, apply a protective sealant to enhance durability and corrosion resistance.",
+        "4. Let the sealant cure for 24 hours before handling the final product."
+      ],
+      "raw_text": "1. Remove any excess material from the edges using a fine file. \n 2. Sand the surface to achieve a smooth finish with 400-grit sandpaper. \n 3. Optionally, apply a protective sealant to enhance durability and corrosion resistance. \n 4. Let the sealant cure for 24 hours before handling the final product."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3119089.0,
+      "density": 63498.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1585673.0,
+      "formation_energy_per_atom": -6158.0,
+      "decomposition_energy_per_atom": -3.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -3.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "58ebad1a73",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:12.520625Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al6Ni11Tc1Ti6.json",
+      "material://Al6Ni11Tc1Ti6"
+    ]
+  }
+}

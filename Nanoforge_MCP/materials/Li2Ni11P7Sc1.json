@@ -1,0 +1,136 @@
+{
+  "id": "Li2Ni11P7Sc1",
+  "uri": "material://Li2Ni11P7Sc1",
+  "composition": {
+    "formula": "Li2Ni11P7Sc1",
+    "elements": {
+      "Li": 2,
+      "Ni": 11,
+      "P": 7,
+      "Sc": 1
+    },
+    "reduced_formula": "Li2ScNi11P7",
+    "element_list": [
+      "Li",
+      "P",
+      "Sc",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 2.0 g (from lithium carbonate, Li2CO3) \n Ni: 80.0 g (from nickel oxide, NiO) \n P: 35.0 g (from red phosphorus, P) \n Sc: 1.0 g (from scandium oxide, Sc2O3)"
+    },
+    "sourcing": {
+      "instructions": "Lithium carbonate can be sourced from chemical suppliers or online marketplaces like Sigma-Aldrich. \n Nickel oxide is available from metal supply companies or chemical distributors. \n Red phosphorus can be purchased from chemical suppliers or specialized online retailers. \n Scandium oxide can be obtained from rare earth material suppliers or specialized online marketplaces.",
+      "steps": [
+        "Lithium carbonate can be sourced from chemical suppliers or online marketplaces like Sigma-Aldrich.",
+        "Nickel oxide is available from metal supply companies or chemical distributors.",
+        "Red phosphorus can be purchased from chemical suppliers or specialized online retailers.",
+        "Scandium oxide can be obtained from rare earth material suppliers or specialized online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 2.0 g of lithium carbonate using an analytical balance.",
+        "2. Measure 80.0 g of nickel oxide.",
+        "3. Measure 35.0 g of red phosphorus.",
+        "4. Measure 1.0 g of scandium oxide.",
+        "5. Combine all measured powders in a clean, dry ceramic bowl.",
+        "6. Use a mortar and pestle to thoroughly grind the mixture until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Measure out 2.0 g of lithium carbonate using an analytical balance. \n 2. Measure 80.0 g of nickel oxide. \n 3. Measure 35.0 g of red phosphorus. \n 4. Measure 1.0 g of scandium oxide. \n 5. Combine all measured powders in a clean, dry ceramic bowl. \n 6. Use a mortar and pestle to thoroughly grind the mixture until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the furnace to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and formation of Li2Ni11P7Sc1."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the furnace to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and formation of Li2Ni11P7Sc1."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take around 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. This cooling process should take around 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and retrieve the hardened solid sample.",
+        "2. If necessary, grind the solid sample again to achieve a finer powder.",
+        "3. If creating a solid block, mold the powder into the desired dimensions using a suitable mold.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and retrieve the hardened solid sample. \n 2. If necessary, grind the solid sample again to achieve a finer powder. \n 3. If creating a solid block, mold the powder into the desired dimensions using a suitable mold. \n 4. Optionally, seal the surface with a clear epoxy resin for added durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2520894.0,
+      "density": 60686.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1261985.0,
+      "formation_energy_per_atom": -694.0,
+      "decomposition_energy_per_atom": -67.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -74.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0136,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0689a2368b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:23.636080Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Ni11P7Sc1.json",
+      "material://Li2Ni11P7Sc1"
+    ]
+  }
+}

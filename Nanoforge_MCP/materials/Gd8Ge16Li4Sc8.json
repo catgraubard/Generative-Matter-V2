@@ -1,0 +1,112 @@
+{
+  "id": "Gd8Ge16Li4Sc8",
+  "uri": "material://Gd8Ge16Li4Sc8",
+  "composition": {
+    "formula": "Gd8Ge16Li4Sc8",
+    "elements": {
+      "Gd": 8,
+      "Ge": 16,
+      "Li": 4,
+      "Sc": 8
+    },
+    "reduced_formula": "LiGd2(ScGe2)2",
+    "element_list": [
+      "Li",
+      "Sc",
+      "Ge",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gadolinium (Gd): 32.0 g \n Germanium (Ge): 64.0 g \n Lithium (Li): 16.0 g \n Scandium (Sc): 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Gadolinium: Purchase from a chemical supplier (e.g., Alfa Aesar) \n Germanium: Obtain from semiconductor suppliers \n Lithium: Source from battery material suppliers \n Scandium: Acquire from metal suppliers or specialty chemical distributors",
+      "steps": [
+        "Gadolinium: Purchase from a chemical supplier (e.g., Alfa Aesar)",
+        "Germanium: Obtain from semiconductor suppliers",
+        "Lithium: Source from battery material suppliers",
+        "Scandium: Acquire from metal suppliers or specialty chemical distributors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for precision.",
+        "2. In a clean, dry container, combine Gd, Ge, Li, and Sc in the specified amounts.",
+        "3. Stir the mixture thoroughly using a ceramic or glass rod until homogenous.",
+        "4. Transfer the mixture into a high-purity quartz crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for precision. \n 2. In a clean, dry container, combine Gd, Ge, Li, and Sc in the specified amounts. \n 3. Stir the mixture thoroughly using a ceramic or glass rod until homogenous. \n 4. Transfer the mixture into a high-purity quartz crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 1500°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete melting and mixing of components."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 1500°C at a rate of 10°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete melting and mixing of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure cooling occurs slowly to prevent thermal shock, ideally over a period of 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure cooling occurs slowly to prevent thermal shock, ideally over a period of 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use a diamond file for sanding the edges to achieve desired dimensions.",
+        "4. Optionally, apply a protective sealant to enhance surface integrity."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use a diamond file for sanding the edges to achieve desired dimensions. \n 4. Optionally, apply a protective sealant to enhance surface integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7741883.0,
+      "density": 60221.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2735302.0,
+      "formation_energy_per_atom": -8375.0,
+      "decomposition_energy_per_atom": -5.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": -5.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "737c85a053",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.588209Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd8Ge16Li4Sc8.json",
+      "material://Gd8Ge16Li4Sc8"
+    ]
+  }
+}

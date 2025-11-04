@@ -1,0 +1,111 @@
+{
+  "id": "Ac1As4Ca1Cu4",
+  "uri": "material://Ac1As4Ca1Cu4",
+  "composition": {
+    "formula": "Ac1As4Ca1Cu4",
+    "elements": {
+      "Ac": 1,
+      "As": 4,
+      "Ca": 1,
+      "Cu": 4
+    },
+    "reduced_formula": "CaAc(CuAs)4",
+    "element_list": [
+      "Ca",
+      "Cu",
+      "As",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ac (Aluminum): 12 g \n As (Arsenic): 6 g \n Ca (Calcium): 4 g \n Cu (Copper): 48 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Local metal supply stores or online suppliers \n As: Chemical supply companies (ensure proper handling and safety) \n Ca: Metal supply stores \n Cu: Local metal supply stores or online suppliers",
+      "steps": [
+        "Ac: Local metal supply stores or online suppliers",
+        "As: Chemical supply companies (ensure proper handling and safety)",
+        "Ca: Metal supply stores",
+        "Cu: Local metal supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 12 g of Aluminum powder, 6 g of Arsenic powder, 4 g of Calcium powder, and 48 g of Copper powder using a precise scale.",
+        "2. In a fume hood (due to arsenic), combine the powders in a ceramic mixing container.",
+        "3. Mix the powders thoroughly with a spatula until homogeneous.",
+        "4. Ensure that the environment is well-ventilated and wear appropriate PPE (gloves, goggles, mask)."
+      ],
+      "raw_text": "1. Measure out 12 g of Aluminum powder, 6 g of Arsenic powder, 4 g of Calcium powder, and 48 g of Copper powder using a precise scale. \n 2. In a fume hood (due to arsenic), combine the powders in a ceramic mixing container. \n 3. Mix the powders thoroughly with a spatula until homogeneous. \n 4. Ensure that the environment is well-ventilated and wear appropriate PPE (gloves, goggles, mask)."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace or high-temperature oven.",
+        "3. Heat to 900 °C (1652 °F) for 2 hours.",
+        "4. Ensure the heating is gradual to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace or high-temperature oven. \n 3. Heat to 900 °C (1652 °F) for 2 hours. \n 4. Ensure the heating is gradual to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) for about 4 hours.",
+        "2. Do not remove the crucible until the temperature drops below 100 °C to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) for about 4 hours. \n 2. Do not remove the crucible until the temperature drops below 100 °C to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Sand the edges and surfaces with sandpaper (starting with 120-grit and moving to 600-grit) for a smooth finish.",
+        "3. Optionally, apply a sealant to protect the surface from oxidation, letting it cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Sand the edges and surfaces with sandpaper (starting with 120-grit and moving to 600-grit) for a smooth finish. \n 3. Optionally, apply a sealant to protect the surface from oxidation, letting it cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1881281.0,
+      "density": 72462.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4mm",
+      "space_group_number": 99,
+      "point_group": "4mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -468977.0,
+      "formation_energy_per_atom": -5738.0,
+      "decomposition_energy_per_atom": -2988.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -2988.0,
+      "decomposition_energy_mp_oqmd": -264.0
+    },
+    "electronic": {
+      "bandgap": 0.0082,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fb80400194",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.716289Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1As4Ca1Cu4.json",
+      "material://Ac1As4Ca1Cu4"
+    ]
+  }
+}

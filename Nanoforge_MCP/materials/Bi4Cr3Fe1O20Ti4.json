@@ -1,0 +1,116 @@
+{
+  "id": "Bi4Cr3Fe1O20Ti4",
+  "uri": "material://Bi4Cr3Fe1O20Ti4",
+  "composition": {
+    "formula": "Bi4Cr3Fe1O20Ti4",
+    "elements": {
+      "Bi": 4,
+      "Cr": 3,
+      "Fe": 1,
+      "O": 20,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti4Cr3Fe(BiO5)4",
+    "element_list": [
+      "O",
+      "Ti",
+      "Cr",
+      "Fe",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3): 30.0 g \n Chromium Oxide (Cr2O3): 22.5 g \n Iron(III) Oxide (Fe2O3): 7.5 g \n Titanium Dioxide (TiO2): 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Available from chemical suppliers like Sigma-Aldrich or local chemical supply stores. \n Chromium Oxide: Obtainable from industrial chemical suppliers or online marketplaces. \n Iron(III) Oxide: Available at hardware stores or online chemical supply retailers. \n Titanium Dioxide: Obtainable from paint supply stores or chemical suppliers.",
+      "steps": [
+        "Bismuth Oxide: Available from chemical suppliers like Sigma-Aldrich or local chemical supply stores.",
+        "Chromium Oxide: Obtainable from industrial chemical suppliers or online marketplaces.",
+        "Iron(III) Oxide: Available at hardware stores or online chemical supply retailers.",
+        "Titanium Dioxide: Obtainable from paint supply stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients precisely using an analytical balance.",
+        "2. In a clean, dry container, add Bismuth Oxide followed by Chromium Oxide.",
+        "3. Gradually add Iron(III) Oxide and mix thoroughly.",
+        "4. Finally, add Titanium Dioxide and continue mixing until a uniform powder is achieved.",
+        "5. Use a mortar and pestle or a ball mill to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh all ingredients precisely using an analytical balance. \n 2. In a clean, dry container, add Bismuth Oxide followed by Chromium Oxide. \n 3. Gradually add Iron(III) Oxide and mix thoroughly. \n 4. Finally, add Titanium Dioxide and continue mixing until a uniform powder is achieved. \n 5. Use a mortar and pestle or a ball mill to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the mixed powder in a high-temperature furnace.",
+        "2. Heat the mixture to 1200°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the mixed powder in a high-temperature furnace. \n 2. Heat the mixture to 1200°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool down naturally to room temperature, which may take approximately 6-8 hours.",
+        "3. Avoid sudden temperature changes to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool down naturally to room temperature, which may take approximately 6-8 hours. \n 3. Avoid sudden temperature changes to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any surface defects or irregularities.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a suitable ceramic sealant for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any surface defects or irregularities. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a suitable ceramic sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3999148.0,
+      "density": 64742.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -265244.0,
+      "formation_energy_per_atom": -25535.0,
+      "decomposition_energy_per_atom": -225.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -231.0,
+      "decomposition_energy_mp_oqmd": -229.0
+    },
+    "electronic": {
+      "bandgap": 1.8237,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "490cfa88f3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:51.514262Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Cr3Fe1O20Ti4.json",
+      "material://Bi4Cr3Fe1O20Ti4"
+    ]
+  }
+}

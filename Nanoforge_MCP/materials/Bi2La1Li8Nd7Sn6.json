@@ -1,0 +1,116 @@
+{
+  "id": "Bi2La1Li8Nd7Sn6",
+  "uri": "material://Bi2La1Li8Nd7Sn6",
+  "composition": {
+    "formula": "Bi2La1Li8Nd7Sn6",
+    "elements": {
+      "Bi": 2,
+      "La": 1,
+      "Li": 8,
+      "Nd": 7,
+      "Sn": 6
+    },
+    "reduced_formula": "Li8LaNd7(Sn3Bi)2",
+    "element_list": [
+      "Li",
+      "Sn",
+      "La",
+      "Nd",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 12 g, Ru: 6 g, Sc: 1 g, Si: 1 g, Tb: 1 g"
+    },
+    "sourcing": {
+      "instructions": "P: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Ru: Obtain from a precious metals dealer; Sc: Buy from a rare earth materials supplier; Si: Available at electronics stores; Tb: Source from specialized chemical suppliers.",
+      "steps": [
+        "P: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Ru: Obtain from a precious metals dealer; Sc: Buy from a rare earth materials supplier; Si: Available at electronics stores; Tb: Source from specialized chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean glass container, combine the weighed amounts of P, Ru, Sc, Si, and Tb.",
+        "3. Mix thoroughly with a spatula to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean glass container, combine the weighed amounts of P, Ru, Sc, Si, and Tb. \n 3. Mix thoroughly with a spatula to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the blended material to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1300°C at a rate of 10°C per minute.",
+        "4. Maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the blended material to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1300°C at a rate of 10°C per minute. \n 4. Maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature slowly.",
+        "2. Ensure the crucible remains in the furnace during cooling to prevent thermal shock.",
+        "3. Cooling duration should be approximately 8-10 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature slowly. \n 2. Ensure the crucible remains in the furnace during cooling to prevent thermal shock. \n 3. Cooling duration should be approximately 8-10 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible once cooled.",
+        "2. Use sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a sealant to enhance surface finish and protect against oxidation."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible once cooled. \n 2. Use sandpaper to smooth any rough edges. \n 3. Optionally, apply a sealant to enhance surface finish and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6162599.0,
+      "density": 629.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1021687.0,
+      "formation_energy_per_atom": -6978.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -151.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c2bbac027a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.963502Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2La1Li8Nd7Sn6.json",
+      "material://Bi2La1Li8Nd7Sn6"
+    ]
+  }
+}

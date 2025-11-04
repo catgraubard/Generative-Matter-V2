@@ -1,0 +1,144 @@
+{
+  "id": "C12Mn2Tb5Ti2Y1",
+  "uri": "material://C12Mn2Tb5Ti2Y1",
+  "composition": {
+    "formula": "C12Mn2Tb5Ti2Y1",
+    "elements": {
+      "C": 12,
+      "Mn": 2,
+      "Tb": 5,
+      "Ti": 2,
+      "Y": 1
+    },
+    "reduced_formula": "Tb5YTi2(MnC6)2",
+    "element_list": [
+      "C",
+      "Ti",
+      "Mn",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 12.0 g \n Mn: 2.0 g \n Tb: 5.0 g \n Ti: 2.0 g \n Y: 1.0 g \n Total: 22.0 g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon powder from a chemical supplier \n Mn: Manganese powder from a metal supplier \n Tb: Terbium oxide from a rare earth metals supplier \n Ti: Titanium powder from a metal supplier \n Y: Yttrium oxide from a rare earth metals supplier",
+      "steps": [
+        "C: Carbon powder from a chemical supplier",
+        "Mn: Manganese powder from a metal supplier",
+        "Tb: Terbium oxide from a rare earth metals supplier",
+        "Ti: Titanium powder from a metal supplier",
+        "Y: Yttrium oxide from a rare earth metals supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12.0 g of carbon powder.",
+        "2. Weigh out 2.0 g of manganese powder.",
+        "3. Weigh out 5.0 g of terbium oxide.",
+        "4. Weigh out 2.0 g of titanium powder.",
+        "5. Weigh out 1.0 g of yttrium oxide.",
+        "6. In a clean mixing container, combine all weighed powders thoroughly using a spatula or mechanical mixer until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 12.0 g of carbon powder. \n 2. Weigh out 2.0 g of manganese powder. \n 3. Weigh out 5.0 g of terbium oxide. \n 4. Weigh out 2.0 g of titanium powder. \n 5. Weigh out 1.0 g of yttrium oxide. \n 6. In a clean mixing container, combine all weighed powders thoroughly using a spatula or mechanical mixer until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture into a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1000°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixture into a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1000°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper.",
+        "3. Optionally seal the sample with a clear coat if desired for protection.",
+        "4. Allow the sealant to cure as per manufacturer instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper. \n 3. Optionally seal the sample with a clear coat if desired for protection. \n 4. Allow the sealant to cure as per manufacturer instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2969012.0,
+      "density": 68976.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1838204.0,
+      "formation_energy_per_atom": -4248.0,
+      "decomposition_energy_per_atom": -373.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -372.0,
+      "decomposition_energy_mp_oqmd": -367.0
+    },
+    "electronic": {
+      "bandgap": 0.0148,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ef732837f2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.619431Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C12Mn2Tb5Ti2Y1.json",
+      "material://C12Mn2Tb5Ti2Y1"
+    ]
+  }
+}

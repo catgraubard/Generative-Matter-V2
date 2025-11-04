@@ -1,0 +1,115 @@
+{
+  "id": "Al1Sb4Sn5Ti12",
+  "uri": "material://Al1Sb4Sn5Ti12",
+  "composition": {
+    "formula": "Al1Sb4Sn5Ti12",
+    "elements": {
+      "Al": 1,
+      "Sb": 4,
+      "Sn": 5,
+      "Ti": 12
+    },
+    "reduced_formula": "Ti12AlSn5Sb4",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Sn",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 12.5 g, Ni: 50 g, Te: 100 g, V: 5 g, Zr: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Specialty metal suppliers or online markets; Ni: Metal supply stores; Te: Chemical supply companies; V: Specialty metal suppliers; Zr: Metal supply stores or online markets",
+      "steps": [
+        "Nb: Specialty metal suppliers or online markets; Ni: Metal supply stores; Te: Chemical supply companies; V: Specialty metal suppliers; Zr: Metal supply stores or online markets"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Nb, Ni, Te, V, and Zr.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniformity.",
+        "4. Transfer the mixed powders into a suitable mold for the desired dimensions (3” x 2” x 7”)."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Nb, Ni, Te, V, and Zr. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniformity. \n 4. Transfer the mixed powders into a suitable mold for the desired dimensions (3” x 2” x 7”)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the mold in a furnace.",
+        "2. Heat the mixture to 1200°C (2192°F) at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to allow for proper fusion."
+      ],
+      "raw_text": "1. Place the mold in a furnace. \n 2. Heat the mixture to 1200°C (2192°F) at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to allow for proper fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Use a diamond-grit sandpaper to smooth the surfaces.",
+        "3. Optionally, apply a protective sealant to enhance durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Use a diamond-grit sandpaper to smooth the surfaces. \n 3. Optionally, apply a protective sealant to enhance durability. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 4184647.0,
+      "density": 66744.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1457262.0,
+      "formation_energy_per_atom": -485.0,
+      "decomposition_energy_per_atom": -27.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -268.0,
+      "decomposition_energy_mp_oqmd": -232.0
+    },
+    "electronic": {
+      "bandgap": 0.0125,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bffd001d59",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.078733Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Sb4Sn5Ti12.json",
+      "material://Al1Sb4Sn5Ti12"
+    ]
+  }
+}

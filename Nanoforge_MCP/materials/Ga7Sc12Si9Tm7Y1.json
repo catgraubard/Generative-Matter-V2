@@ -1,0 +1,115 @@
+{
+  "id": "Ga7Sc12Si9Tm7Y1",
+  "uri": "material://Ga7Sc12Si9Tm7Y1",
+  "composition": {
+    "formula": "Ga7Sc12Si9Tm7Y1",
+    "elements": {
+      "Ga": 7,
+      "Sc": 12,
+      "Si": 9,
+      "Tm": 7,
+      "Y": 1
+    },
+    "reduced_formula": "YTm7Sc12Ga7Si9",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ga",
+      "Y",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 40g, Co: 10g, Ga: 80g, Mn: 30g, Nb: 120g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon black from chemical supply stores; Co: Cobalt powder from metal suppliers; Ga: Gallium from specialty metal suppliers; Mn: Manganese powder from chemical suppliers; Nb: Niobium powder from metal suppliers.",
+      "steps": [
+        "C: Carbon black from chemical supply stores; Co: Cobalt powder from metal suppliers; Ga: Gallium from specialty metal suppliers; Mn: Manganese powder from chemical suppliers; Nb: Niobium powder from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40g of carbon black, 10g of cobalt powder, 80g of gallium, 30g of manganese powder, and 120g of niobium powder using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed ingredients.",
+        "3. Mix the powders thoroughly using a mechanical mixer or a mortar and pestle for 10-15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 40g of carbon black, 10g of cobalt powder, 80g of gallium, 30g of manganese powder, and 120g of niobium powder using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed ingredients. \n 3. Mix the powders thoroughly using a mechanical mixer or a mortar and pestle for 10-15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a graphite crucible.",
+        "2. Place the crucible into a muffle furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min and maintain this temperature for 2 hours to ensure complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a graphite crucible. \n 2. Place the crucible into a muffle furnace. \n 3. Heat to 1200°C at a rate of 5°C/min and maintain this temperature for 2 hours to ensure complete melting and homogenization."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the specified dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use a diamond saw to cut the sample to the specified dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7483043.0,
+      "density": 56625.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2101316.0,
+      "formation_energy_per_atom": -7311.0,
+      "decomposition_energy_per_atom": -206.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -203.0,
+      "decomposition_energy_mp_oqmd": -199.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc6287fd9e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.848162Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga7Sc12Si9Tm7Y1.json",
+      "material://Ga7Sc12Si9Tm7Y1"
+    ]
+  }
+}

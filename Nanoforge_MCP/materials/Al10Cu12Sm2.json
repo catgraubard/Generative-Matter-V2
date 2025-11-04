@@ -1,0 +1,129 @@
+{
+  "id": "Al10Cu12Sm2",
+  "uri": "material://Al10Cu12Sm2",
+  "composition": {
+    "formula": "Al10Cu12Sm2",
+    "elements": {
+      "Al": 10,
+      "Cu": 12,
+      "Sm": 2
+    },
+    "reduced_formula": "SmAl5Cu6",
+    "element_list": [
+      "Al",
+      "Cu",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 96.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 40 g \n Nd: 96 g \n Ni: 12 g \n Si: 32 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online metallurgy store \n Nd: Rare earth metals supplier or specialty online store \n Ni: Local metal supplier or hardware store \n Si: Chemical supply store or online supplier",
+      "steps": [
+        "Cu: Local metal supplier or online metallurgy store",
+        "Nd: Rare earth metals supplier or specialty online store",
+        "Ni: Local metal supplier or hardware store",
+        "Si: Chemical supply store or online supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using a digital scale.",
+        "2. In a clean, dry container, combine the weighed Cu, Nd, Ni, and Si.",
+        "3. Use a mechanical stirrer or a spoon to mix the powders thoroughly for at least 10 minutes, ensuring a uniform blend."
+      ],
+      "raw_text": "1. Weigh each material precisely using a digital scale. \n 2. In a clean, dry container, combine the weighed Cu, Nd, Ni, and Si. \n 3. Use a mechanical stirrer or a spoon to mix the powders thoroughly for at least 10 minutes, ensuring a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Transfer the mixed materials into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure proper melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Transfer the mixed materials into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure proper melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 600°C (1112°F) naturally.",
+        "2. Once at 600°C, carefully remove the crucible using heat-resistant gloves.",
+        "3. Allow the crucible to cool to room temperature over 4 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 600°C (1112°F) naturally. \n 2. Once at 600°C, carefully remove the crucible using heat-resistant gloves. \n 3. Allow the crucible to cool to room temperature over 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a file or sandpaper to smooth any rough edges and achieve the desired finish.",
+        "3. Optionally, apply a protective sealant or coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a file or sandpaper to smooth any rough edges and achieve the desired finish. \n 3. Optionally, apply a protective sealant or coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3525587.0,
+      "density": 62788.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fddd",
+      "space_group_number": 70,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1050744.0,
+      "formation_energy_per_atom": -3746.0,
+      "decomposition_energy_per_atom": -634.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -182.0,
+      "decomposition_energy_mp": -634.0,
+      "decomposition_energy_mp_oqmd": -543.0
+    },
+    "electronic": {
+      "bandgap": 0.0119,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae4be5bd60",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.544184Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al10Cu12Sm2.json",
+      "material://Al10Cu12Sm2"
+    ]
+  }
+}

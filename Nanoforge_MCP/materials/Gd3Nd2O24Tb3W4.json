@@ -1,0 +1,122 @@
+{
+  "id": "Gd3Nd2O24Tb3W4",
+  "uri": "material://Gd3Nd2O24Tb3W4",
+  "composition": {
+    "formula": "Gd3Nd2O24Tb3W4",
+    "elements": {
+      "Gd": 3,
+      "Nd": 2,
+      "O": 24,
+      "Tb": 3,
+      "W": 4
+    },
+    "reduced_formula": "Tb3Nd2Gd3(WO6)4",
+    "element_list": [
+      "O",
+      "Nd",
+      "Gd",
+      "Tb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Gd2O3: 25.0 g \n Nd2O3: 15.0 g \n Tb4O7: 10.0 g \n W: 5.0 g \n Total: 55.0 g"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3: Purchase from chemical supply companies or online retailers specializing in rare earth materials. \n Nd2O3: Available from similar sources as Gd2O3. \n Tb4O7: Obtainable through specialized chemical suppliers or online platforms. \n W (Tungsten): Can be sourced from metal suppliers or electronic component retailers.",
+      "steps": [
+        "Gd2O3: Purchase from chemical supply companies or online retailers specializing in rare earth materials.",
+        "Nd2O3: Available from similar sources as Gd2O3.",
+        "Tb4O7: Obtainable through specialized chemical suppliers or online platforms.",
+        "W (Tungsten): Can be sourced from metal suppliers or electronic component retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for accuracy.",
+        "2. In a clean, dry ceramic or glass container, combine Gd2O3, Nd2O3, Tb4O7, and W powder.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved.",
+        "4. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for accuracy. \n 2. In a clean, dry ceramic or glass container, combine Gd2O3, Nd2O3, Tb4O7, and W powder. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved. \n 4. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible made of alumina or other suitable material.",
+        "3. Heat in the furnace at 1200°C for 4 hours.",
+        "4. Ensure the heating ramp is gradual, approximately 5°C/min, to avoid thermal shock."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C. \n 2. Place the mixed powder in a crucible made of alumina or other suitable material. \n 3. Heat in the furnace at 1200°C for 4 hours. \n 4. Ensure the heating ramp is gradual, approximately 5°C/min, to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This process usually takes about 6-8 hours. Avoid opening the furnace door until it has cooled to prevent oxidation and contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This process usually takes about 6-8 hours. Avoid opening the furnace door until it has cooled to prevent oxidation and contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and allow to cool further at room temperature if necessary.",
+        "2. Crush the fused material into a fine powder using a mortar and pestle.",
+        "3. Optionally, sieve the powder through a 200 mesh screen for uniformity.",
+        "4. If a solid sample is desired, press the powder into a mold of dimensions 3 x 2 x 7 inches at 10,000 psi.",
+        "5. Finally, sinter the pressed sample at 1200°C for an additional 2 hours for enhanced density and structural integrity."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and allow to cool further at room temperature if necessary. \n 2. Crush the fused material into a fine powder using a mortar and pestle. \n 3. Optionally, sieve the powder through a 200 mesh screen for uniformity. \n 4. If a solid sample is desired, press the powder into a mold of dimensions 3 x 2 x 7 inches at 10,000 psi. \n 5. Finally, sinter the pressed sample at 1200°C for an additional 2 hours for enhanced density and structural integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4834109.0,
+      "density": 80942.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3541713.0,
+      "formation_energy_per_atom": -32756.0,
+      "decomposition_energy_per_atom": -36.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -41.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": 3.4186,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6063e50df8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:22.147786Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd3Nd2O24Tb3W4.json",
+      "material://Gd3Nd2O24Tb3W4"
+    ]
+  }
+}

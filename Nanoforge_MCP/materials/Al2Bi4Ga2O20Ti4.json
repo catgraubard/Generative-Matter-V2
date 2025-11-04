@@ -1,0 +1,112 @@
+{
+  "id": "Al2Bi4Ga2O20Ti4",
+  "uri": "material://Al2Bi4Ga2O20Ti4",
+  "composition": {
+    "formula": "Al2Bi4Ga2O20Ti4",
+    "elements": {
+      "Al": 2,
+      "Bi": 4,
+      "Ga": 2,
+      "O": 20,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2AlGa(BiO5)2",
+    "element_list": [
+      "O",
+      "Al",
+      "Ti",
+      "Ga",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum Oxide (Al2O3): 34.0 g \n Bismuth Oxide (Bi2O3): 56.0 g \n Gallium Oxide (Ga2O3): 20.0 g \n Titanium Dioxide (TiO2): 38.0 g"
+    },
+    "sourcing": {
+      "instructions": "Aluminum Oxide: Chemical supply stores or online chemical suppliers \n Bismuth Oxide: Specialty chemical suppliers or online \n Gallium Oxide: Online chemical suppliers \n Titanium Dioxide: Local hardware stores or online",
+      "steps": [
+        "Aluminum Oxide: Chemical supply stores or online chemical suppliers",
+        "Bismuth Oxide: Specialty chemical suppliers or online",
+        "Gallium Oxide: Online chemical suppliers",
+        "Titanium Dioxide: Local hardware stores or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Al2O3, Bi2O3, Ga2O3, and TiO2.",
+        "3. Use a ceramic mortar and pestle to grind the mixture into a fine powder to ensure uniformity.",
+        "4. Transfer the mixture into a clean, dry ball mill and mill for 2 hours to achieve a homogenous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of Al2O3, Bi2O3, Ga2O3, and TiO2. \n 3. Use a ceramic mortar and pestle to grind the mixture into a fine powder to ensure uniformity. \n 4. Transfer the mixture into a clean, dry ball mill and mill for 2 hours to achieve a homogenous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1300°C (2372°F).",
+        "2. Place the blended powder into a ceramic crucible.",
+        "3. Heat the crucible in the muffle furnace for 4 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1300°C (2372°F). \n 2. Place the blended powder into a ceramic crucible. \n 3. Heat the crucible in the muffle furnace for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any imperfections.",
+        "2. If necessary, use a diamond grinding tool to sand down any rough edges to achieve smooth surfaces.",
+        "3. Optionally seal the surface with a clear ceramic sealant for added durability and finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any imperfections. \n 2. If necessary, use a diamond grinding tool to sand down any rough edges to achieve smooth surfaces. \n 3. Optionally seal the surface with a clear ceramic sealant for added durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3897708.0,
+      "density": 65642.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2475775.0,
+      "formation_energy_per_atom": -27478.0,
+      "decomposition_energy_per_atom": -123.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -128.0
+    },
+    "electronic": {
+      "bandgap": 2.4231,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "065460b594",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:23.349373Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Bi4Ga2O20Ti4.json",
+      "material://Al2Bi4Ga2O20Ti4"
+    ]
+  }
+}

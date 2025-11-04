@@ -1,0 +1,114 @@
+{
+  "id": "Ca9Pr8Sn16Tb3",
+  "uri": "material://Ca9Pr8Sn16Tb3",
+  "composition": {
+    "formula": "Ca9Pr8Sn16Tb3",
+    "elements": {
+      "Ca": 9,
+      "Pr": 8,
+      "Sn": 16,
+      "Tb": 3
+    },
+    "reduced_formula": "Ca9Tb3(PrSn2)8",
+    "element_list": [
+      "Ca",
+      "Sn",
+      "Pr",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 64 g, Fe: 8 g, P: 48 g, Pa: 16 g, Tb: 32 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder): Specialty metal suppliers or online metal supply stores; Fe (Iron powder): Local hardware stores or online; P (Phosphorus powder): Chemical suppliers; Pa (Palladium powder): Precious metal suppliers; Tb (Terbium powder): Rare earth metal suppliers.",
+      "steps": [
+        "Co (Cobalt powder): Specialty metal suppliers or online metal supply stores; Fe (Iron powder): Local hardware stores or online; P (Phosphorus powder): Chemical suppliers; Pa (Palladium powder): Precious metal suppliers; Tb (Terbium powder): Rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean and dry container, combine 64 g of Co, 8 g of Fe, 48 g of P, 16 g of Pa, and 32 g of Tb.",
+        "3. Use a high-energy ball mill to mix the powders for 30 minutes to ensure a uniform blend.",
+        "4. Transfer the mixture into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean and dry container, combine 64 g of Co, 8 g of Fe, 48 g of P, 16 g of Pa, and 32 g of Tb. \n 3. Use a high-energy ball mill to mix the powders for 30 minutes to ensure a uniform blend. \n 4. Transfer the mixture into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Once at temperature, place the crucible containing the mixture into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure full alloying of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Once at temperature, place the crucible containing the mixture into the furnace. \n 3. Maintain the temperature for 2 hours to ensure full alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it is completely cool to prevent oxidation."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it is completely cool to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid material using appropriate tools.",
+        "3. Sand the edges and surfaces of the sample to achieve a smooth finish using 120-grit sandpaper.",
+        "4. Optionally, apply a sealant to protect the surface if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid material using appropriate tools. \n 3. Sand the edges and surfaces of the sample to achieve a smooth finish using 120-grit sandpaper. \n 4. Optionally, apply a sealant to protect the surface if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10903514.0,
+      "density": 58848.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1613984.0,
+      "formation_energy_per_atom": -7512.0,
+      "decomposition_energy_per_atom": -457.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -454.0,
+      "decomposition_energy_mp_oqmd": -229.0
+    },
+    "electronic": {
+      "bandgap": 0.0063,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e60b45606a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.201854Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca9Pr8Sn16Tb3.json",
+      "material://Ca9Pr8Sn16Tb3"
+    ]
+  }
+}

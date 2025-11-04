@@ -1,0 +1,113 @@
+{
+  "id": "Fe1Mo3O16Sr8",
+  "uri": "material://Fe1Mo3O16Sr8",
+  "composition": {
+    "formula": "Fe1Mo3O16Sr8",
+    "elements": {
+      "Fe": 1,
+      "Mo": 3,
+      "O": 16,
+      "Sr": 8
+    },
+    "reduced_formula": "Sr8FeMo3O16",
+    "element_list": [
+      "O",
+      "Fe",
+      "Sr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 10.0 g  \n - Molybdenum (Mo): 30.0 g  \n - Oxygen (O): 64.0 g (obtained from oxidizing agents) \n - Strontium (Sr): 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Purchase from a metal supply store or online (iron powder or filings). \n - Molybdenum: Available from specialty metal suppliers or online. \n - Oxygen: Use an oxidizing agent like potassium permanganate or sodium peroxide, available at chemical supply stores. \n - Strontium: Obtain strontium carbonate from a chemical supply store or online.",
+      "steps": [
+        "- Iron: Purchase from a metal supply store or online (iron powder or filings).",
+        "- Molybdenum: Available from specialty metal suppliers or online.",
+        "- Oxygen: Use an oxidizing agent like potassium permanganate or sodium peroxide, available at chemical supply stores.",
+        "- Strontium: Obtain strontium carbonate from a chemical supply store or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of iron powder.",
+        "2. Weigh 30.0 g of molybdenum powder.",
+        "3. Measure 64.0 g of oxidizing agent for oxygen.",
+        "4. Weigh 32.0 g of strontium carbonate.",
+        "5. In a clean mixing container, combine all powders thoroughly using a mortar and pestle or a mechanical mixer until homogenous."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of iron powder. \n 2. Weigh 30.0 g of molybdenum powder. \n 3. Measure 64.0 g of oxidizing agent for oxygen. \n 4. Weigh 32.0 g of strontium carbonate. \n 5. In a clean mixing container, combine all powders thoroughly using a mortar and pestle or a mechanical mixer until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours to facilitate the reaction between the metals and the oxidizing agent.",
+        "3. Ensure the furnace has a controlled atmosphere to prevent contamination."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours to facilitate the reaction between the metals and the oxidizing agent. \n 3. Ensure the furnace has a controlled atmosphere to prevent contamination."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible carefully.",
+        "2. Inspect the sample for any imperfections or rough edges.",
+        "3. Use sandpaper to smooth the edges and surface as needed.",
+        "4. If required, cure the material in a vacuum oven at 200°C (392°F) for 1 hour for better stability.",
+        "5. Optionally seal the surface with a clear coat for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible carefully. \n 2. Inspect the sample for any imperfections or rough edges. \n 3. Use sandpaper to smooth the edges and surface as needed. \n 4. If required, cure the material in a vacuum oven at 200°C (392°F) for 1 hour for better stability. \n 5. Optionally seal the surface with a clear coat for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4143168.0,
+      "density": 52127.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2100434.0,
+      "formation_energy_per_atom": -27269.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -64.0,
+      "decomposition_energy_mp_oqmd": -61.0
+    },
+    "electronic": {
+      "bandgap": 0.6749,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "589a9abb1f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:12.114917Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Mo3O16Sr8.json",
+      "material://Fe1Mo3O16Sr8"
+    ]
+  }
+}

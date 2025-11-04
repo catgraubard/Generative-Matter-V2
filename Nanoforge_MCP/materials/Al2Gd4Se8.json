@@ -1,0 +1,116 @@
+{
+  "id": "Al2Gd4Se8",
+  "uri": "material://Al2Gd4Se8",
+  "composition": {
+    "formula": "Al2Gd4Se8",
+    "elements": {
+      "Al": 2,
+      "Gd": 4,
+      "Se": 8
+    },
+    "reduced_formula": "Gd2AlSe4",
+    "element_list": [
+      "Al",
+      "Se",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 2.5 g, Mn: 2.5 g, Nd: 10 g, Ni: 5 g, O: 40 g (Total: 60 g)"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium Oxide): Chemical supply stores or online. \n Mn (Manganese Oxide): Chemical supply stores or online. \n Nd (Neodymium Oxide): Rare earth material suppliers. \n Ni (Nickel Oxide): Chemical supply stores or online. \n O (Oxygen): Use as part of the oxides (usually derived from the oxides themselves).",
+      "steps": [
+        "Cr (Chromium Oxide): Chemical supply stores or online.",
+        "Mn (Manganese Oxide): Chemical supply stores or online.",
+        "Nd (Neodymium Oxide): Rare earth material suppliers.",
+        "Ni (Nickel Oxide): Chemical supply stores or online.",
+        "O (Oxygen): Use as part of the oxides (usually derived from the oxides themselves)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each compound accurately using a digital scale.",
+        "2. In a clean, dry ceramic or glass mixing bowl, combine Cr, Mn, Nd, and Ni.",
+        "3. Gradually add O (as part of the oxides) while stirring continuously with a non-reactive spatula.",
+        "4. Ensure the mixture is homogeneous; continue mixing until all powders are well integrated."
+      ],
+      "raw_text": "1. Weigh each compound accurately using a digital scale. \n 2. In a clean, dry ceramic or glass mixing bowl, combine Cr, Mn, Nd, and Ni. \n 3. Gradually add O (as part of the oxides) while stirring continuously with a non-reactive spatula. \n 4. Ensure the mixture is homogeneous; continue mixing until all powders are well integrated."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000 °C.",
+        "2. Transfer the mixed powder into a heat-resistant crucible.",
+        "3. Place the crucible in the preheated furnace and heat for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000 °C. \n 2. Transfer the mixed powder into a heat-resistant crucible. \n 3. Place the crucible in the preheated furnace and heat for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully using heat-resistant gloves.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant if required for specific applications."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully using heat-resistant gloves. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant if required for specific applications."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3741924.0,
+      "density": 58339.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1185808.0,
+      "formation_energy_per_atom": -19097.0,
+      "decomposition_energy_per_atom": -934.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -83.0,
+      "decomposition_energy_mp": -934.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7fbab1b00",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.422690Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Gd4Se8.json",
+      "material://Al2Gd4Se8"
+    ]
+  }
+}

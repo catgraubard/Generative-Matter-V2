@@ -1,0 +1,115 @@
+{
+  "id": "Cs3Cu10Rb1Te10",
+  "uri": "material://Cs3Cu10Rb1Te10",
+  "composition": {
+    "formula": "Cs3Cu10Rb1Te10",
+    "elements": {
+      "Cs": 3,
+      "Cu": 10,
+      "Rb": 1,
+      "Te": 10
+    },
+    "reduced_formula": "Cs3Rb(CuTe)10",
+    "element_list": [
+      "Cu",
+      "Rb",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.875,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.875 g, Cu: 8.75 g, Rb: 0.125 g, Te: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Cu: Obtain from a metal supply store; Rb: Order from a chemical supplier; Te: Source from a chemical supply company.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Cu: Obtain from a metal supply store; Rb: Order from a chemical supplier; Te: Source from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Cs, Cu, Rb, and Te using an analytical balance.",
+        "2. In a clean glass or ceramic mortar, combine Cs, Rb, and Te.",
+        "3. Grind the mixture to a fine powder using a pestle for 10 minutes.",
+        "4. In a separate container, prepare the Cu powder.",
+        "5. Gradually add the Cu powder to the mixed Cs, Rb, and Te while continuously grinding for 15 minutes."
+      ],
+      "raw_text": "1. Measure Cs, Cu, Rb, and Te using an analytical balance. \n 2. In a clean glass or ceramic mortar, combine Cs, Rb, and Te. \n 3. Grind the mixture to a fine powder using a pestle for 10 minutes. \n 4. In a separate container, prepare the Cu powder. \n 5. Gradually add the Cu powder to the mixed Cs, Rb, and Te while continuously grinding for 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous powder mixture to a crucible.",
+        "2. Place the crucible in a furnace and heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the homogeneous powder mixture to a crucible. \n 2. Place the crucible in a furnace and heat to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally, approximately 12 hours.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally, approximately 12 hours. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully break the crucible to extract the solid sample.",
+        "2. Use sandpaper (grit 240) to smooth the surfaces of the sample, if necessary.",
+        "3. If required, seal the sample with a clear epoxy resin to enhance durability. Allow to cure for 24 hours."
+      ],
+      "raw_text": "1. Carefully break the crucible to extract the solid sample. \n 2. Use sandpaper (grit 240) to smooth the surfaces of the sample, if necessary. \n 3. If required, seal the sample with a clear epoxy resin to enhance durability. Allow to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6959146.0,
+      "density": 57163.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -892346.0,
+      "formation_energy_per_atom": -5476.0,
+      "decomposition_energy_per_atom": -316.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -308.0,
+      "decomposition_energy_mp_oqmd": -103.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1ca48cb1e5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:53.231066Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3Cu10Rb1Te10.json",
+      "material://Cs3Cu10Rb1Te10"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Mo1Si16W10Zr9",
+  "uri": "material://Mo1Si16W10Zr9",
+  "composition": {
+    "formula": "Mo1Si16W10Zr9",
+    "elements": {
+      "Mo": 1,
+      "Si": 16,
+      "W": 10,
+      "Zr": 9
+    },
+    "reduced_formula": "Zr9Si16MoW10",
+    "element_list": [
+      "Si",
+      "Zr",
+      "Mo",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 6.00 g, Ga: 2.00 g, S: 10.00 g, Se: 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Ga: Obtain from a specialized metal supplier; S: Buy from a chemical supplier; Se: Available from chemical suppliers or online marketplaces.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Ga: Obtain from a specialized metal supplier; S: Buy from a chemical supplier; Se: Available from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 6.00 g of Cesium (Cs), 2.00 g of Gallium (Ga), 10.00 g of Sulfur (S), and 4.00 g of Selenium (Se) with a precision scale.",
+        "2. Combine the measured elements in a clean, dry glass or ceramic crucible.",
+        "3. Use a pestle and mortar to thoroughly mix the ingredients to achieve a homogeneous powder."
+      ],
+      "raw_text": "1. Measure out 6.00 g of Cesium (Cs), 2.00 g of Gallium (Ga), 10.00 g of Sulfur (S), and 4.00 g of Selenium (Se) with a precision scale. \n 2. Combine the measured elements in a clean, dry glass or ceramic crucible. \n 3. Use a pestle and mortar to thoroughly mix the ingredients to achieve a homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace or high-temperature oven.",
+        "2. Heat the mixture gradually to 800°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Place the crucible in a furnace or high-temperature oven. \n 2. Heat the mixture gradually to 800°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 1-2 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 1-2 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible and inspect for any irregularities.",
+        "2. If necessary, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a protective sealant to preserve the material's integrity and enhance its appearance."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible and inspect for any irregularities. \n 2. If necessary, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a protective sealant to preserve the material's integrity and enhance its appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5775973.0,
+      "density": 92133.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3255376.0,
+      "formation_energy_per_atom": -5938.0,
+      "decomposition_energy_per_atom": -312.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -38.0,
+      "decomposition_energy_mp": -306.0,
+      "decomposition_energy_mp_oqmd": -153.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cc32394d0f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.354077Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo1Si16W10Zr9.json",
+      "material://Mo1Si16W10Zr9"
+    ]
+  }
+}

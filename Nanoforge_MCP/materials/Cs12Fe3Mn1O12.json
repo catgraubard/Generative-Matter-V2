@@ -1,0 +1,114 @@
+{
+  "id": "Cs12Fe3Mn1O12",
+  "uri": "material://Cs12Fe3Mn1O12",
+  "composition": {
+    "formula": "Cs12Fe3Mn1O12",
+    "elements": {
+      "Cs": 12,
+      "Fe": 3,
+      "Mn": 1,
+      "O": 12
+    },
+    "reduced_formula": "Cs12Mn(FeO4)3",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.0 g, Fe: 3.0 g, Mn: 1.0 g, O: 48.0 g (Total: 64.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company (e.g., Sigma-Aldrich); Fe: Source from a metal supplier; Mn: Available from chemical suppliers; O: Use distilled water or oxygen gas from a gas cylinder.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company (e.g., Sigma-Aldrich); Fe: Source from a metal supplier; Mn: Available from chemical suppliers; O: Use distilled water or oxygen gas from a gas cylinder."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12.0 g of Cesium (Cs), 3.0 g of Iron (Fe), 1.0 g of Manganese (Mn), and 48.0 g of Oxygen (O).",
+        "2. In a clean, dry container, mix Cs, Fe, and Mn thoroughly using a ceramic or glass stirring rod.",
+        "3. Gradually add oxygen in a controlled manner while stirring the mixture to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out 12.0 g of Cesium (Cs), 3.0 g of Iron (Fe), 1.0 g of Manganese (Mn), and 48.0 g of Oxygen (O). \n 2. In a clean, dry container, mix Cs, Fe, and Mn thoroughly using a ceramic or glass stirring rod. \n 3. Gradually add oxygen in a controlled manner while stirring the mixture to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat to 1000°C.",
+        "3. Maintain this temperature for 2 hours to allow for proper synthesis of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed material into a ceramic crucible. \n 2. Place the crucible in a furnace and heat to 1000°C. \n 3. Maintain this temperature for 2 hours to allow for proper synthesis of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace until it is completely cool to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours). \n 2. Do not open the furnace until it is completely cool to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the material from the crucible.",
+        "2. Grind the solid into a fine powder using a mortar and pestle.",
+        "3. Optionally, press the powder into a mold of dimensions 3 inches x 2 inches x 7 inches.",
+        "4. Cure the pressed material at 600°C for 1 hour, then cool as previously described.",
+        "5. Seal the final product with a clear epoxy resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the material from the crucible. \n 2. Grind the solid into a fine powder using a mortar and pestle. \n 3. Optionally, press the powder into a mold of dimensions 3 inches x 2 inches x 7 inches. \n 4. Cure the pressed material at 600°C for 1 hour, then cool as previously described. \n 5. Seal the final product with a clear epoxy resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 6964736.0,
+      "density": 47907.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1485596.0,
+      "formation_energy_per_atom": -15667.0,
+      "decomposition_energy_per_atom": -52.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -56.0,
+      "decomposition_energy_mp_oqmd": 8.0
+    },
+    "electronic": {
+      "bandgap": 1.5101,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "975b24ee44",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:35.088486Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Fe3Mn1O12.json",
+      "material://Cs12Fe3Mn1O12"
+    ]
+  }
+}

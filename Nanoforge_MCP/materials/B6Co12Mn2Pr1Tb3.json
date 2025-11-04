@@ -1,0 +1,133 @@
+{
+  "id": "B6Co12Mn2Pr1Tb3",
+  "uri": "material://B6Co12Mn2Pr1Tb3",
+  "composition": {
+    "formula": "B6Co12Mn2Pr1Tb3",
+    "elements": {
+      "B": 6,
+      "Co": 12,
+      "Mn": 2,
+      "Pr": 1,
+      "Tb": 3
+    },
+    "reduced_formula": "Tb3PrMn2(Co2B)6",
+    "element_list": [
+      "B",
+      "Mn",
+      "Co",
+      "Pr",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 90.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 150 g\nCo: 300 g\nMn: 60 g\nPr: 30 g\nTb: 90 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Specialty chemical suppliers or online chemical retailers\nCo: Metal suppliers or online marketplaces\nMn: Metal suppliers or online marketplaces\nPr: Chemical suppliers\nTb: Specialty chemical suppliers or online chemical retailers",
+      "steps": [
+        "B6: Specialty chemical suppliers or online chemical retailers",
+        "Co: Metal suppliers or online marketplaces",
+        "Mn: Metal suppliers or online marketplaces",
+        "Pr: Chemical suppliers",
+        "Tb: Specialty chemical suppliers or online chemical retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine B6, Co, Mn, Pr, and Tb sequentially.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes, ensuring homogeneity."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a precision scale.\n2. In a clean, dry container, combine B6, Co, Mn, Pr, and Tb sequentially.\n3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes, ensuring homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat in a furnace to 1200°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures.\n2. Heat in a furnace to 1200°C at a rate of 10°C per minute.\n3. Maintain this temperature for 2 hours to ensure proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to 600°C naturally over a period of 3 hours.",
+        "2. Once cooled to 600°C, remove the crucible and allow it to cool to room temperature over 2 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to 600°C naturally over a period of 3 hours.\n2. Once cooled to 600°C, remove the crucible and allow it to cool to room temperature over 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any surface imperfections.",
+        "2. If necessary, sand the surfaces with fine-grit sandpaper (600 grit) for a smooth finish.",
+        "3. Seal the surface with an appropriate sealant if needed, and allow it to cure for 24 hours."
+      ],
+      "raw_text": "1. Inspect the solid sample for any surface imperfections.\n2. If necessary, sand the surfaces with fine-grit sandpaper (600 grit) for a smooth finish.\n3. Seal the surface with an appropriate sealant if needed, and allow it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2875174.0,
+      "density": 8661.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1715703.0,
+      "formation_energy_per_atom": -3828.0,
+      "decomposition_energy_per_atom": -86.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -86.0,
+      "decomposition_energy_mp_oqmd": -65.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ecc152a76a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.030145Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co12Mn2Pr1Tb3.json",
+      "material://B6Co12Mn2Pr1Tb3"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "Er1Mo4O14Sr1Tb2",
+  "uri": "material://Er1Mo4O14Sr1Tb2",
+  "composition": {
+    "formula": "Er1Mo4O14Sr1Tb2",
+    "elements": {
+      "Er": 1,
+      "Mo": 4,
+      "O": 14,
+      "Sr": 1,
+      "Tb": 2
+    },
+    "reduced_formula": "SrTb2Er(Mo2O7)2",
+    "element_list": [
+      "O",
+      "Sr",
+      "Mo",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 18 g, Se: 54 g, Ti: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Purchase from a specialty metal supplier or online store; Se: Obtain from a chemical supplier; Ti: Source from a metal supplier or online store.",
+      "steps": [
+        "Nb: Purchase from a specialty metal supplier or online store; Se: Obtain from a chemical supplier; Ti: Source from a metal supplier or online store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 18 g of Niobium (Nb), 54 g of Selenium (Se), and 12 g of Titanium (Ti).",
+        "2. In a fume hood, mix Nb and Ti in a crucible using a clean spatula.",
+        "3. Gradually add Se to the mixture while stirring continuously to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 18 g of Niobium (Nb), 54 g of Selenium (Se), and 12 g of Titanium (Ti). \n 2. In a fume hood, mix Nb and Ti in a crucible using a clean spatula. \n 3. Gradually add Se to the mixture while stirring continuously to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible in the furnace for 2 hours to allow the materials to react and form Nb1Se18Ti3."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible in the furnace for 2 hours to allow the materials to react and form Nb1Se18Ti3."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Avoid opening the furnace door during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a clean chisel to separate the solid sample from the crucible.",
+        "3. Sand the edges of the sample for a smooth finish.",
+        "4. Store the solid sample in a dry, airtight container."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a clean chisel to separate the solid sample from the crucible. \n 3. Sand the edges of the sample for a smooth finish. \n 4. Store the solid sample in a dry, airtight container."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2885025.0,
+      "density": 67945.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -191435.0,
+      "formation_energy_per_atom": -28752.0,
+      "decomposition_energy_per_atom": -226.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -232.0,
+      "decomposition_energy_mp_oqmd": -127.0
+    },
+    "electronic": {
+      "bandgap": 1.6143,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e419ea5836",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.746176Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er1Mo4O14Sr1Tb2.json",
+      "material://Er1Mo4O14Sr1Tb2"
+    ]
+  }
+}

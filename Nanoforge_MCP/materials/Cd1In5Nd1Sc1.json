@@ -1,0 +1,113 @@
+{
+  "id": "Cd1In5Nd1Sc1",
+  "uri": "material://Cd1In5Nd1Sc1",
+  "composition": {
+    "formula": "Cd1In5Nd1Sc1",
+    "elements": {
+      "Cd": 1,
+      "In": 5,
+      "Nd": 1,
+      "Sc": 1
+    },
+    "reduced_formula": "NdScCdIn5",
+    "element_list": [
+      "Sc",
+      "Cd",
+      "In",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 40.0 g, Cu: 16.0 g, Nb: 8.0 g, Se: 32.0 g, V: 4.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company (e.g., Sigma-Aldrich); Cu: Purchase as copper powder from a metal supplier; Nb: Acquire from a specialty metal supplier; Se: Buy selenium powder from a chemical supplier; V: Get vanadium powder from a metal supplier.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company (e.g., Sigma-Aldrich); Cu: Purchase as copper powder from a metal supplier; Nb: Acquire from a specialty metal supplier; Se: Buy selenium powder from a chemical supplier; V: Get vanadium powder from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the Cs, Cu, Nb, Se, and V powders accurately on a digital scale.",
+        "2. In a clean, dry container, mix the Cs, Cu, Nb, Se, and V powders together using a spatula until a homogenous blend is achieved.",
+        "3. Transfer the mixture to a mortar and pestle for further grinding to ensure uniform particle size."
+      ],
+      "raw_text": "1. Weigh the Cs, Cu, Nb, Se, and V powders accurately on a digital scale. \n 2. In a clean, dry container, mix the Cs, Cu, Nb, Se, and V powders together using a spatula until a homogenous blend is achieved. \n 3. Transfer the mixture to a mortar and pestle for further grinding to ensure uniform particle size."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powder into a crucible made of alumina or another suitable high-temperature material.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powder into a crucible made of alumina or another suitable high-temperature material. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature.",
+        "2. Do not open the furnace door until the internal temperature is below 200°C to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature. \n 2. Do not open the furnace door until the internal temperature is below 200°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible and inspect for any defects.",
+        "2. If necessary, use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant if the material will be exposed to moisture or air."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible and inspect for any defects. \n 2. If necessary, use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant if the material will be exposed to moisture or air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1948551.0,
+      "density": 74626.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -287995.0,
+      "formation_energy_per_atom": -3772.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -104.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7fe21acfe",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.424330Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd1In5Nd1Sc1.json",
+      "material://Cd1In5Nd1Sc1"
+    ]
+  }
+}

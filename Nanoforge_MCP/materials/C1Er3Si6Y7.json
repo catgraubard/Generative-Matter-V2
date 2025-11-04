@@ -1,0 +1,113 @@
+{
+  "id": "C1Er3Si6Y7",
+  "uri": "material://C1Er3Si6Y7",
+  "composition": {
+    "formula": "C1Er3Si6Y7",
+    "elements": {
+      "C": 1,
+      "Er": 3,
+      "Si": 6,
+      "Y": 7
+    },
+    "reduced_formula": "Y7Er3Si6C",
+    "element_list": [
+      "C",
+      "Si",
+      "Y",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 10 g, Er: 30 g, Si: 90 g, Y: 35 g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon powder from chemical suppliers; Er: Erbium oxide from rare earth suppliers; Si: Silicon powder from semiconductor suppliers; Y: Yttrium oxide from chemical suppliers.",
+      "steps": [
+        "C: Carbon powder from chemical suppliers; Er: Erbium oxide from rare earth suppliers; Si: Silicon powder from semiconductor suppliers; Y: Yttrium oxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of carbon powder, 30 g of erbium oxide, 90 g of silicon powder, and 35 g of yttrium oxide using a precision scale.",
+        "2. Combine all ingredients in a clean, dry mixing container.",
+        "3. Use a mechanical mixer to blend the powders thoroughly for 15 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Measure 10 g of carbon powder, 30 g of erbium oxide, 90 g of silicon powder, and 35 g of yttrium oxide using a precision scale. \n 2. Combine all ingredients in a clean, dry mixing container. \n 3. Use a mechanical mixer to blend the powders thoroughly for 15 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat to 1200°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat to 1200°C at a rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Gradually cool the material in the furnace by reducing the temperature to 800°C at a rate of 5°C/min.",
+        "2. Once at 800°C, turn off the furnace and allow the material to cool to room temperature naturally (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. Gradually cool the material in the furnace by reducing the temperature to 800°C at a rate of 5°C/min. \n 2. Once at 800°C, turn off the furnace and allow the material to cool to room temperature naturally (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace and inspect for uniformity and defects.",
+        "2. If necessary, grind the sample to achieve a smooth surface using a grinding tool.",
+        "3. Optionally, apply a sealant to enhance surface durability and prevent oxidation, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace and inspect for uniformity and defects. \n 2. If necessary, grind the sample to achieve a smooth surface using a grinding tool. \n 3. Optionally, apply a sealant to enhance surface durability and prevent oxidation, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 393278.0,
+      "density": 55086.0,
+      "crystal_system": "trigonal",
+      "space_group": "P312",
+      "space_group_number": 149,
+      "point_group": "32",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1126779.0,
+      "formation_energy_per_atom": -7018.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -54.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3bff39aec3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:34.518710Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Er3Si6Y7.json",
+      "material://C1Er3Si6Y7"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Cu1Ni10Sn10Zn1",
+  "uri": "material://Cu1Ni10Sn10Zn1",
+  "composition": {
+    "formula": "Cu1Ni10Sn10Zn1",
+    "elements": {
+      "Cu": 1,
+      "Ni": 10,
+      "Sn": 10,
+      "Zn": 1
+    },
+    "reduced_formula": "ZnCu(NiSn)10",
+    "element_list": [
+      "Ni",
+      "Cu",
+      "Zn",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Palladium (Pa): 20.0 g  \n - Selenium (Se): 80.0 g  \n - Zirconium (Zr): 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Palladium: Obtain from a reputable chemical supplier or online marketplace specializing in precious metals. \n - Selenium: Available from chemical supply stores. \n - Zirconium: Purchase from specialty metal suppliers or online chemistry retailers.",
+      "steps": [
+        "- Palladium: Obtain from a reputable chemical supplier or online marketplace specializing in precious metals.",
+        "- Selenium: Available from chemical supply stores.",
+        "- Zirconium: Purchase from specialty metal suppliers or online chemistry retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 20.0 g of palladium powder using a precision scale.",
+        "2. Measure 80.0 g of selenium powder.",
+        "3. Measure 5.0 g of zirconium powder.",
+        "4. In a clean, dry mortar and pestle, combine the measured powders.",
+        "5. Grind the mixture thoroughly until a homogeneous powder is achieved, ensuring no clumps remain."
+      ],
+      "raw_text": "1. Measure 20.0 g of palladium powder using a precision scale. \n 2. Measure 80.0 g of selenium powder. \n 3. Measure 5.0 g of zirconium powder. \n 4. In a clean, dry mortar and pestle, combine the measured powders. \n 5. Grind the mixture thoroughly until a homogeneous powder is achieved, ensuring no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the powdered mixture to a high-temperature furnace.",
+        "2. Set the furnace temperature to 800°C.",
+        "3. Heat the mixture for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the powdered mixture to a high-temperature furnace. \n 2. Set the furnace temperature to 800°C. \n 3. Heat the mixture for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool gradually to room temperature inside the furnace (approx. 2-3 hours).",
+        "2. Once cooled, retrieve the sample carefully."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool gradually to room temperature inside the furnace (approx. 2-3 hours). \n 2. Once cooled, retrieve the sample carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Check the solid sample for integrity and uniformity.",
+        "2. If required, use a diamond file to smooth the edges and surfaces of the sample.",
+        "3. Optionally, seal the sample with a clear epoxy resin to enhance durability and protect against oxidation."
+      ],
+      "raw_text": "1. Check the solid sample for integrity and uniformity. \n 2. If required, use a diamond file to smooth the edges and surfaces of the sample. \n 3. Optionally, seal the sample with a clear epoxy resin to enhance durability and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3689055.0,
+      "density": 85658.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1085415.0,
+      "formation_energy_per_atom": -2402.0,
+      "decomposition_energy_per_atom": -132.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -132.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "afcd40fa09",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:10.659049Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Ni10Sn10Zn1.json",
+      "material://Cu1Ni10Sn10Zn1"
+    ]
+  }
+}

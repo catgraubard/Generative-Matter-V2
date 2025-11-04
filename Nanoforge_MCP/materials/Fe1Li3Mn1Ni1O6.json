@@ -1,0 +1,115 @@
+{
+  "id": "Fe1Li3Mn1Ni1O6",
+  "uri": "material://Fe1Li3Mn1Ni1O6",
+  "composition": {
+    "formula": "Fe1Li3Mn1Ni1O6",
+    "elements": {
+      "Fe": 1,
+      "Li": 3,
+      "Mn": 1,
+      "Ni": 1,
+      "O": 6
+    },
+    "reduced_formula": "Li3MnFeNiO6",
+    "element_list": [
+      "Li",
+      "O",
+      "Mn",
+      "Fe",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 10.0 g  \n - Lithium (Li): 30.0 g  \n - Manganese (Mn): 10.0 g  \n - Nickel (Ni): 10.0 g  \n - Oxygen (O): 60.0 g (from Lithium Oxide and Metal Oxides)"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Purchase from a local metal supplier or online.  \n - Lithium: Obtain lithium carbonate or lithium hydroxide from chemical supply stores.  \n - Manganese: Available from metal suppliers or online.  \n - Nickel: Acquire from metal suppliers or chemical suppliers.  \n - Oxygen: Use lithium oxide or other metal oxides that release oxygen upon heating.",
+      "steps": [
+        "- Iron: Purchase from a local metal supplier or online.",
+        "- Lithium: Obtain lithium carbonate or lithium hydroxide from chemical supply stores.",
+        "- Manganese: Available from metal suppliers or online.",
+        "- Nickel: Acquire from metal suppliers or chemical suppliers.",
+        "- Oxygen: Use lithium oxide or other metal oxides that release oxygen upon heating."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component precisely using an analytical balance.",
+        "2. In a clean, dry glass or ceramic container, combine the measured amounts of Iron, Lithium, Manganese, and Nickel.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 30 minutes to ensure uniform distribution.",
+        "4. Gradually add the source of oxygen (lithium oxide or metal oxides) while continuing to mix."
+      ],
+      "raw_text": "1. Weigh each component precisely using an analytical balance.  \n 2. In a clean, dry glass or ceramic container, combine the measured amounts of Iron, Lithium, Manganese, and Nickel.  \n 3. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 30 minutes to ensure uniform distribution.  \n 4. Gradually add the source of oxygen (lithium oxide or metal oxides) while continuing to mix."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat to 800°C at a ramp rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure proper solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible.  \n 2. Place the crucible in a furnace and heat to 800°C at a ramp rate of 5°C/min.  \n 3. Maintain this temperature for 4 hours to ensure proper solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid opening the furnace until it has cooled to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).  \n 2. Avoid opening the furnace until it has cooled to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw or grinder to trim the material to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the material with a clear epoxy resin for added protection and stability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.  \n 2. Use a diamond saw or grinder to trim the material to the desired dimensions (3 inches x 2 inches x 7 inches).  \n 3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.  \n 4. Optionally, seal the material with a clear epoxy resin for added protection and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1088327.0,
+      "density": 43682.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -821952.0,
+      "formation_energy_per_atom": -19474.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -6.0,
+      "decomposition_energy_mp_oqmd": 8.0
+    },
+    "electronic": {
+      "bandgap": 1.6821,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3610c83104",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:26.509027Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Li3Mn1Ni1O6.json",
+      "material://Fe1Li3Mn1Ni1O6"
+    ]
+  }
+}

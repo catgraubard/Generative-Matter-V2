@@ -1,0 +1,125 @@
+{
+  "id": "Al23Er5Ru8Sm1Ti1",
+  "uri": "material://Al23Er5Ru8Sm1Ti1",
+  "composition": {
+    "formula": "Al23Er5Ru8Sm1Ti1",
+    "elements": {
+      "Al": 23,
+      "Er": 5,
+      "Ru": 8,
+      "Sm": 1,
+      "Ti": 1
+    },
+    "reduced_formula": "SmEr5TiAl23Ru8",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Ru",
+      "Sm",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 200 g \n Ru: 50 g \n Tc: 100 g \n La2O3: 200 g \n La4O19Ru2Tc4: 0.5 g (for doping, optional)"
+    },
+    "sourcing": {
+      "instructions": "La2O3 can be sourced from chemical suppliers or online marketplaces specializing in rare earth materials. \n Ruthenium (Ru) can be obtained from precious metal suppliers or chemical vendors. \n Technetium (Tc) may require special licenses and is typically available through specialized nuclear material suppliers or research institutions.",
+      "steps": [
+        "La2O3 can be sourced from chemical suppliers or online marketplaces specializing in rare earth materials.",
+        "Ruthenium (Ru) can be obtained from precious metal suppliers or chemical vendors.",
+        "Technetium (Tc) may require special licenses and is typically available through specialized nuclear material suppliers or research institutions."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 200 g of La2O3 and place it in a clean, dry mixing container.",
+        "2. Weigh 50 g of Ru and add it to the La2O3.",
+        "3. Weigh 100 g of Tc and add it to the mixture.",
+        "4. If using, add 0.5 g of La4O19Ru2Tc4 for doping.",
+        "5. Mix all components thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 200 g of La2O3 and place it in a clean, dry mixing container. \n 2. Weigh 50 g of Ru and add it to the La2O3. \n 3. Weigh 100 g of Tc and add it to the mixture. \n 4. If using, add 0.5 g of La4O19Ru2Tc4 for doping. \n 5. Mix all components thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat the crucible in a furnace to 1200 °C at a rate of 5 °C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Heat the crucible in a furnace to 1200 °C at a rate of 5 °C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approx. 25 °C).",
+        "2. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approx. 25 °C). \n 2. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Grind the solid product to achieve the desired particle size if necessary.",
+        "3. Optionally, apply a sealant to the surface for enhanced durability.",
+        "4. Sand the edges to ensure smoothness and remove any sharp edges."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Grind the solid product to achieve the desired particle size if necessary. \n 3. Optionally, apply a sealant to the surface for enhanced durability. \n 4. Sand the edges to ensure smoothness and remove any sharp edges."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6435005.0,
+      "density": 63574.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2208766.0,
+      "formation_energy_per_atom": -66.0,
+      "decomposition_energy_per_atom": -5.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5c39f5b66",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.911521Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al23Er5Ru8Sm1Ti1.json",
+      "material://Al23Er5Ru8Sm1Ti1"
+    ]
+  }
+}

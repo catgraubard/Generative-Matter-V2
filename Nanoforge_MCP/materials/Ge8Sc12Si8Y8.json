@@ -1,0 +1,131 @@
+{
+  "id": "Ge8Sc12Si8Y8",
+  "uri": "material://Ge8Sc12Si8Y8",
+  "composition": {
+    "formula": "Ge8Sc12Si8Y8",
+    "elements": {
+      "Ge": 8,
+      "Sc": 12,
+      "Si": 8,
+      "Y": 8
+    },
+    "reduced_formula": "Y2Sc3(SiGe)2",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ge",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10 g \n Cu: 20 g \n Ni: 60 g \n Y: 15 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron) - Purchase from a chemical supply store or online supplier. \n Cu (Copper) - Available at hardware stores or metal suppliers. \n Ni (Nickel) - Obtain from metal suppliers or online. \n Y (Yttrium) - Acquire from specialized chemical suppliers.",
+      "steps": [
+        "B (Boron) - Purchase from a chemical supply store or online supplier.",
+        "Cu (Copper) - Available at hardware stores or metal suppliers.",
+        "Ni (Nickel) - Obtain from metal suppliers or online.",
+        "Y (Yttrium) - Acquire from specialized chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine the weighed B, Cu, Ni, and Y.",
+        "3. Stir the mixture thoroughly using a glass rod or spatula to ensure uniform distribution of components."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine the weighed B, Cu, Ni, and Y. \n 3. Stir the mixture thoroughly using a glass rod or spatula to ensure uniform distribution of components."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high-temperature processing.",
+        "2. Heat the crucible in a furnace to 1200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of B2Cu2Ni6Y2."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high-temperature processing. \n 2. Heat the crucible in a furnace to 1200 °C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of B2Cu2Ni6Y2."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled completely, which may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has cooled completely, which may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any irregularities or rough surfaces.",
+        "3. If necessary, sand or polish the surface to achieve the desired finish.",
+        "4. Seal the sample with a protective coating to prevent oxidation, if desired."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any irregularities or rough surfaces. \n 3. If necessary, sand or polish the surface to achieve the desired finish. \n 4. Seal the sample with a protective coating to prevent oxidation, if desired."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7496361.0,
+      "density": 45555.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2391601.0,
+      "formation_energy_per_atom": -8626.0,
+      "decomposition_energy_per_atom": -273.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -27.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 0.0089,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c306613067",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.049749Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge8Sc12Si8Y8.json",
+      "material://Ge8Sc12Si8Y8"
+    ]
+  }
+}

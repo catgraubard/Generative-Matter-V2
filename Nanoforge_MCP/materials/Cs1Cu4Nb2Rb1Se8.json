@@ -1,0 +1,115 @@
+{
+  "id": "Cs1Cu4Nb2Rb1Se8",
+  "uri": "material://Cs1Cu4Nb2Rb1Se8",
+  "composition": {
+    "formula": "Cs1Cu4Nb2Rb1Se8",
+    "elements": {
+      "Cs": 1,
+      "Cu": 4,
+      "Nb": 2,
+      "Rb": 1,
+      "Se": 8
+    },
+    "reduced_formula": "CsRbNb2(CuSe2)4",
+    "element_list": [
+      "Cu",
+      "Se",
+      "Rb",
+      "Nb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 5.0 g, Cu: 20.0 g, Nb: 10.0 g, Rb: 2.0 g, Se: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Specialty chemical suppliers; Cu: Metal suppliers; Nb: Metal suppliers; Rb: Specialty chemical suppliers; Se: Chemical suppliers",
+      "steps": [
+        "Cs: Specialty chemical suppliers; Cu: Metal suppliers; Nb: Metal suppliers; Rb: Specialty chemical suppliers; Se: Chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine Cs, Cu, Nb, Rb, and Se in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine Cs, Cu, Nb, Rb, and Se in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the mixed powders in a high-temperature furnace.",
+        "2. Heat to 800°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to facilitate proper synthesis."
+      ],
+      "raw_text": "1. Place the mixed powders in a high-temperature furnace. \n 2. Heat to 800°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to facilitate proper synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool slowly to room temperature (approx. 25°C) over a duration of 12 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool slowly to room temperature (approx. 25°C) over a duration of 12 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, use sandpaper to smooth rough edges and surfaces.",
+        "4. Store the finished sample in a desiccator to avoid moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, use sandpaper to smooth rough edges and surfaces. \n 4. Store the finished sample in a desiccator to avoid moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4514483.0,
+      "density": 47451.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -822976.0,
+      "formation_energy_per_atom": -9909.0,
+      "decomposition_energy_per_atom": -118.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -118.0,
+      "decomposition_energy_mp_oqmd": -118.0
+    },
+    "electronic": {
+      "bandgap": 1.5187,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7c19f77f20",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:58.127126Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Cu4Nb2Rb1Se8.json",
+      "material://Cs1Cu4Nb2Rb1Se8"
+    ]
+  }
+}

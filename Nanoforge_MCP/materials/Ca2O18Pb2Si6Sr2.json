@@ -1,0 +1,112 @@
+{
+  "id": "Ca2O18Pb2Si6Sr2",
+  "uri": "material://Ca2O18Pb2Si6Sr2",
+  "composition": {
+    "formula": "Ca2O18Pb2Si6Sr2",
+    "elements": {
+      "Ca": 2,
+      "O": 18,
+      "Pb": 2,
+      "Si": 6,
+      "Sr": 2
+    },
+    "reduced_formula": "SrCaSi3PbO9",
+    "element_list": [
+      "O",
+      "Si",
+      "Ca",
+      "Sr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium Oxide (CaO): 150g\nLead Oxide (PbO): 120g\nSilica (SiO2): 300g\nStrontium Oxide (SrO): 60g"
+    },
+    "sourcing": {
+      "instructions": "Calcium Oxide: Chemical supply stores or online chemical suppliers.\nLead Oxide: Specialty ceramic material suppliers or online.\nSilica: Local craft stores or chemical suppliers.\nStrontium Oxide: Online chemical suppliers or specialty ceramic shops.",
+      "steps": [
+        "Calcium Oxide: Chemical supply stores or online chemical suppliers.",
+        "Lead Oxide: Specialty ceramic material suppliers or online.",
+        "Silica: Local craft stores or chemical suppliers.",
+        "Strontium Oxide: Online chemical suppliers or specialty ceramic shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately using a digital scale.",
+        "2. In a clean, dry container, mix Calcium Oxide, Lead Oxide, Silica, and Strontium Oxide thoroughly for 10 minutes using a mechanical mixer or hand stirring.",
+        "3. Ensure a homogeneous mixture with no visible clumps."
+      ],
+      "raw_text": "1. Weigh all materials accurately using a digital scale.\n2. In a clean, dry container, mix Calcium Oxide, Lead Oxide, Silica, and Strontium Oxide thoroughly for 10 minutes using a mechanical mixer or hand stirring.\n3. Ensure a homogeneous mixture with no visible clumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed ingredients to a crucible.",
+        "2. Preheat the furnace to 800°C (1472°F).",
+        "3. Once at temperature, hold for 2 hours to achieve complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a crucible.\n2. Preheat the furnace to 800°C (1472°F).\n3. Once at temperature, hold for 2 hours to achieve complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "furnace_cool",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down slowly inside the furnace to ambient temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down slowly inside the furnace to ambient temperature (approximately 4-6 hours).\n2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. If necessary, grind the sample to achieve a smoother surface.",
+        "3. Seal the surface with a clear epoxy sealant for durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible.\n2. If necessary, grind the sample to achieve a smoother surface.\n3. Seal the surface with a clear epoxy sealant for durability.\n4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4245648.0,
+      "density": 44051.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2313984.0,
+      "formation_energy_per_atom": -31656.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -37.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": -37.0
+    },
+    "electronic": {
+      "bandgap": 4.3643,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ed12760b78",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.098270Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2O18Pb2Si6Sr2.json",
+      "material://Ca2O18Pb2Si6Sr2"
+    ]
+  }
+}

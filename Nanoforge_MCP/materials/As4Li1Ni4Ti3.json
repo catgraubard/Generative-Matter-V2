@@ -1,0 +1,115 @@
+{
+  "id": "As4Li1Ni4Ti3",
+  "uri": "material://As4Li1Ni4Ti3",
+  "composition": {
+    "formula": "As4Li1Ni4Ti3",
+    "elements": {
+      "As": 4,
+      "Li": 1,
+      "Ni": 4,
+      "Ti": 3
+    },
+    "reduced_formula": "LiTi3(NiAs)4",
+    "element_list": [
+      "Li",
+      "Ti",
+      "Ni",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 113.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 113.4 g, Li: 6.9 g, Ni: 109.6 g, Ti: 64.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Chemical supply stores or online chemical suppliers; Li: Battery manufacturing suppliers; Ni: Metal suppliers; Ti: Metal suppliers or alloy manufacturers.",
+      "steps": [
+        "As: Chemical supply stores or online chemical suppliers; Li: Battery manufacturing suppliers; Ni: Metal suppliers; Ti: Metal suppliers or alloy manufacturers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine As, Li, Ni, and Ti.",
+        "3. Use a mechanical stirrer to mix the powders for 15 minutes until homogeneous.",
+        "4. Optional: Use a mortar and pestle for finer mixing if necessary."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine As, Li, Ni, and Ti. \n 3. Use a mechanical stirrer to mix the powders for 15 minutes until homogeneous. \n 4. Optional: Use a mortar and pestle for finer mixing if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a pre-cleaned crucible.",
+        "2. Heat in a furnace to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a pre-cleaned crucible. \n 2. Heat in a furnace to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Ensure the crucible remains in the furnace during cooling to prevent thermal shock for approximately 4 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally. \n 2. Ensure the crucible remains in the furnace during cooling to prevent thermal shock for approximately 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Grind the sample using a diamond grinder to achieve a smooth surface.",
+        "3. If desired, apply a sealant for protection against oxidation.",
+        "4. Optional: Sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Grind the sample using a diamond grinder to achieve a smooth surface. \n 3. If desired, apply a sealant for protection against oxidation. \n 4. Optional: Sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1667738.0,
+      "density": 68205.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -762335.0,
+      "formation_energy_per_atom": -7401.0,
+      "decomposition_energy_per_atom": -309.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -309.0,
+      "decomposition_energy_mp_oqmd": -278.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "28f3c864ee",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:09.672570Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Li1Ni4Ti3.json",
+      "material://As4Li1Ni4Ti3"
+    ]
+  }
+}

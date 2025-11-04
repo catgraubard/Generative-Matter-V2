@@ -1,0 +1,115 @@
+{
+  "id": "Al1Co3Mn4O20Sm4",
+  "uri": "material://Al1Co3Mn4O20Sm4",
+  "composition": {
+    "formula": "Al1Co3Mn4O20Sm4",
+    "elements": {
+      "Al": 1,
+      "Co": 3,
+      "Mn": 4,
+      "O": 20,
+      "Sm": 4
+    },
+    "reduced_formula": "Sm4Mn4AlCo3O20",
+    "element_list": [
+      "O",
+      "Al",
+      "Mn",
+      "Co",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.75,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.75 g, K: 0.68 g, Rb: 1.36 g, Se: 9.00 g, Sn: 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company; K: Available at chemical suppliers; Rb: Obtain from chemical distributors; Se: Buy from a chemical supplier or online; Sn: Obtain from a metal supplier or online.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company; K: Available at chemical suppliers; Rb: Obtain from chemical distributors; Se: Buy from a chemical supplier or online; Sn: Obtain from a metal supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Cs, K, Rb, Se, and Sn.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until a fine powder is achieved.",
+        "4. Transfer the powder to a suitable vial for the next steps."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine Cs, K, Rb, Se, and Sn. \n 3. Use a mortar and pestle to grind the mixture thoroughly until a fine powder is achieved. \n 4. Transfer the powder to a suitable vial for the next steps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the crucible in the furnace for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the muffle furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled down to avoid thermal shock to the crucible."
+      ],
+      "raw_text": "1. Turn off the muffle furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled down to avoid thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully transfer the solid sample to a work surface.",
+        "3. Use sandpaper to smooth any rough edges and achieve the desired dimensions.",
+        "4. If necessary, apply a sealant to enhance surface stability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully transfer the solid sample to a work surface. \n 3. Use sandpaper to smooth any rough edges and achieve the desired dimensions. \n 4. If necessary, apply a sealant to enhance surface stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3670433.0,
+      "density": 60847.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2601586.0,
+      "formation_energy_per_atom": -2519.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -166.0,
+      "decomposition_energy_mp_oqmd": -54.0
+    },
+    "electronic": {
+      "bandgap": 0.7627,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e3622e305a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.558226Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Co3Mn4O20Sm4.json",
+      "material://Al1Co3Mn4O20Sm4"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "Fe4Tb1Tc8",
+  "uri": "material://Fe4Tb1Tc8",
+  "composition": {
+    "formula": "Fe4Tb1Tc8",
+    "elements": {
+      "Fe": 4,
+      "Tb": 1,
+      "Tc": 8
+    },
+    "reduced_formula": "Tb(FeTc2)4",
+    "element_list": [
+      "Fe",
+      "Tc",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 32.0 g, La: 2.0 g, P: 2.0 g, Sb: 128.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company or online chemical retailer. La: Obtain from specialized metallurgical suppliers. P: Available from chemical vendors or online. Sb: Purchase from a reputable chemical supplier.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company or online chemical retailer. La: Obtain from specialized metallurgical suppliers. P: Available from chemical vendors or online. Sb: Purchase from a reputable chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 32.0 g of Cs using a precision balance.",
+        "2. Weigh 2.0 g of La.",
+        "3. Weigh 2.0 g of P.",
+        "4. Weigh 128.0 g of Sb.",
+        "5. In a clean, dry mixing container, combine Cs, La, P, and Sb thoroughly using a spatula or mechanical stirrer until uniform."
+      ],
+      "raw_text": "1. Weigh 32.0 g of Cs using a precision balance. \n 2. Weigh 2.0 g of La. \n 3. Weigh 2.0 g of P. \n 4. Weigh 128.0 g of Sb. \n 5. In a clean, dry mixing container, combine Cs, La, P, and Sb thoroughly using a spatula or mechanical stirrer until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed ingredients to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat to 800 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 4 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a grinder or sandpaper to smooth the edges and surface as needed.",
+        "3. Optionally, apply a sealing agent if required for further applications.",
+        "4. Allow the finished sample to cure for 24 hours in a dry environment before use."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a grinder or sandpaper to smooth the edges and surface as needed. \n 3. Optionally, apply a sealing agent if required for further applications. \n 4. Allow the finished sample to cure for 24 hours in a dry environment before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 1884157.0,
+      "density": 102788.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mmm",
+      "space_group_number": 139,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1221111.0,
+      "formation_energy_per_atom": -547.0,
+      "decomposition_energy_per_atom": -181.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -37.0,
+      "decomposition_energy_mp": -181.0,
+      "decomposition_energy_mp_oqmd": -175.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e70526484e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.447130Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Tb1Tc8.json",
+      "material://Fe4Tb1Tc8"
+    ]
+  }
+}

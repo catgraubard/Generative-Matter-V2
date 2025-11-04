@@ -1,0 +1,115 @@
+{
+  "id": "Ag3In1Nd16Ru4",
+  "uri": "material://Ag3In1Nd16Ru4",
+  "composition": {
+    "formula": "Ag3In1Nd16Ru4",
+    "elements": {
+      "Ag": 3,
+      "In": 1,
+      "Nd": 16,
+      "Ru": 4
+    },
+    "reduced_formula": "Nd16InAg3Ru4",
+    "element_list": [
+      "Ru",
+      "Ag",
+      "In",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.0 g, Ni: 21.0 g, Tm: 1.0 g, Zn: 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical supply stores; Ni: Nickel powder from metal suppliers; Tm: Thulium oxide from specialty chemical suppliers; Zn: Zinc powder from metal suppliers.",
+      "steps": [
+        "B: Boron powder from chemical supply stores; Ni: Nickel powder from metal suppliers; Tm: Thulium oxide from specialty chemical suppliers; Zn: Zinc powder from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 6.0 g of boron powder using a precision scale.",
+        "2. Weigh out 21.0 g of nickel powder.",
+        "3. Weigh out 1.0 g of thulium oxide.",
+        "4. Weigh out 1.0 g of zinc powder.",
+        "5. In a clean, dry mixing container, combine all powders thoroughly using a spatula to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out 6.0 g of boron powder using a precision scale. \n 2. Weigh out 21.0 g of nickel powder. \n 3. Weigh out 1.0 g of thulium oxide. \n 4. Weigh out 1.0 g of zinc powder. \n 5. In a clean, dry mixing container, combine all powders thoroughly using a spatula to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature gradually over a period of 4 hours to avoid thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature gradually over a period of 4 hours to avoid thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a grinder or sanding tool to smooth any rough edges and achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. If necessary, apply a sealant to protect the surface of the material from oxidation. Allow sealant to cure as per manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a grinder or sanding tool to smooth any rough edges and achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 3. If necessary, apply a sealant to protect the surface of the material from oxidation. Allow sealant to cure as per manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6791365.0,
+      "density": 77034.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1305786.0,
+      "formation_energy_per_atom": -2476.0,
+      "decomposition_energy_per_atom": -106.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -106.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd0b075fa4",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.550659Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag3In1Nd16Ru4.json",
+      "material://Ag3In1Nd16Ru4"
+    ]
+  }
+}

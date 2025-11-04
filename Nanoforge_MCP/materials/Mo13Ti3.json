@@ -1,0 +1,105 @@
+{
+  "id": "Mo13Ti3",
+  "uri": "material://Mo13Ti3",
+  "composition": {
+    "formula": "Mo13Ti3",
+    "elements": {
+      "Mo": 13,
+      "Ti": 3
+    },
+    "reduced_formula": "Ti3Mo13",
+    "element_list": [
+      "Ti",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Molybdenum (Mo): 1300 g \n Titanium (Ti): 300 g"
+    },
+    "sourcing": {
+      "instructions": "Molybdenum: Purchase from metallurgical suppliers or online metal retailers. \n Titanium: Obtain from specialized metal suppliers or online industrial material providers.",
+      "steps": [
+        "Molybdenum: Purchase from metallurgical suppliers or online metal retailers.",
+        "Titanium: Obtain from specialized metal suppliers or online industrial material providers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 1300 grams of molybdenum powder using a precision scale.",
+        "2. Measure 300 grams of titanium powder using a precision scale.",
+        "3. In a clean, dry environment, combine the two powders in a ball mill.",
+        "4. Mill the mixture for 4 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 1300 grams of molybdenum powder using a precision scale. \n 2. Measure 300 grams of titanium powder using a precision scale. \n 3. In a clean, dry environment, combine the two powders in a ball mill. \n 4. Mill the mixture for 4 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1450,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the homogenized powder mixture into a graphite crucible.",
+        "2. Place the crucible in a vacuum furnace.",
+        "3. Heat the furnace to a temperature of 1450°C (2642°F).",
+        "4. Maintain this temperature for 2 hours to allow for complete sintering."
+      ],
+      "raw_text": "1. Transfer the homogenized powder mixture into a graphite crucible. \n 2. Place the crucible in a vacuum furnace. \n 3. Heat the furnace to a temperature of 1450°C (2642°F). \n 4. Maintain this temperature for 2 hours to allow for complete sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down to 600°C (1112°F) at a rate of 5°C/min.",
+        "2. Once at 600°C, open the furnace to air cool to room temperature."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down to 600°C (1112°F) at a rate of 5°C/min. \n 2. Once at 600°C, open the furnace to air cool to room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sintered block from the crucible and inspect for defects.",
+        "2. Use a diamond saw to cut the block to precise dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using progressively finer grits (starting from 120 to 600) to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if necessary for your application."
+      ],
+      "raw_text": "1. Remove the sintered block from the crucible and inspect for defects. \n 2. Use a diamond saw to cut the block to precise dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using progressively finer grits (starting from 120 to 600) to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if necessary for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2524774.0,
+      "density": 91474.0,
+      "crystal_system": "cubic",
+      "space_group": "Pm-3m",
+      "space_group_number": 221,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1665485.0,
+      "formation_energy_per_atom": -1168.0,
+      "decomposition_energy_per_atom": -63.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -62.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -62.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6da0862380",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:39.026044Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo13Ti3.json",
+      "material://Mo13Ti3"
+    ]
+  }
+}

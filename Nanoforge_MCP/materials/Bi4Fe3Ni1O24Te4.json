@@ -1,0 +1,112 @@
+{
+  "id": "Bi4Fe3Ni1O24Te4",
+  "uri": "material://Bi4Fe3Ni1O24Te4",
+  "composition": {
+    "formula": "Bi4Fe3Ni1O24Te4",
+    "elements": {
+      "Bi": 4,
+      "Fe": 3,
+      "Ni": 1,
+      "O": 24,
+      "Te": 4
+    },
+    "reduced_formula": "Fe3NiBi4(TeO6)4",
+    "element_list": [
+      "O",
+      "Fe",
+      "Ni",
+      "Te",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3):  163.52 g \n Iron(III) Oxide (Fe2O3):  297.00 g \n Nickel(II) Oxide (NiO):  69.49 g \n Tellurium Dioxide (TeO2):  193.76 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide (Bi2O3): Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Iron(III) Oxide (Fe2O3): Ceramic supply stores or online suppliers \n Nickel(II) Oxide (NiO): Chemical supply stores or online suppliers \n Tellurium Dioxide (TeO2): Specialty chemical suppliers or online (e.g., Alfa Aesar)",
+      "steps": [
+        "Bismuth Oxide (Bi2O3): Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Iron(III) Oxide (Fe2O3): Ceramic supply stores or online suppliers",
+        "Nickel(II) Oxide (NiO): Chemical supply stores or online suppliers",
+        "Tellurium Dioxide (TeO2): Specialty chemical suppliers or online (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients using a precision scale.",
+        "2. In a clean ceramic or glass container, combine 163.52 g of Bismuth Oxide, 297.00 g of Iron(III) Oxide, 69.49 g of Nickel(II) Oxide, and 193.76 g of Tellurium Dioxide.",
+        "3. Use a mortar and pestle to finely grind the mixture until a homogeneous powder is obtained.",
+        "4. Transfer the powder to a ball mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh all ingredients using a precision scale. \n 2. In a clean ceramic or glass container, combine 163.52 g of Bismuth Oxide, 297.00 g of Iron(III) Oxide, 69.49 g of Nickel(II) Oxide, and 193.76 g of Tellurium Dioxide. \n 3. Use a mortar and pestle to finely grind the mixture until a homogeneous powder is obtained. \n 4. Transfer the powder to a ball mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the powdered mixture in a crucible suitable for high temperatures.",
+        "3. Heat the mixture at 900°C for 4 hours, ensuring no air enters the crucible to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the powdered mixture in a crucible suitable for high temperatures. \n 3. Heat the mixture at 900°C for 4 hours, ensuring no air enters the crucible to prevent oxidation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace door until it has cooled below 300°C to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace door until it has cooled below 300°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. Inspect for any cracks or imperfections.",
+        "3. If necessary, use a diamond grinding wheel to smooth out any rough edges.",
+        "4. Seal the material with a suitable clear coat if needed for protection against moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible. \n 2. Inspect for any cracks or imperfections. \n 3. If necessary, use a diamond grinding wheel to smooth out any rough edges. \n 4. Seal the material with a suitable clear coat if needed for protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4793134.0,
+      "density": 67782.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2362173.0,
+      "formation_energy_per_atom": -16151.0,
+      "decomposition_energy_per_atom": -359.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -366.0,
+      "decomposition_energy_mp_oqmd": -356.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0f55207b7c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:35.796928Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Fe3Ni1O24Te4.json",
+      "material://Bi4Fe3Ni1O24Te4"
+    ]
+  }
+}

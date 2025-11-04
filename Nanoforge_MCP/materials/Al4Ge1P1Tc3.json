@@ -1,0 +1,134 @@
+{
+  "id": "Al4Ge1P1Tc3",
+  "uri": "material://Al4Ge1P1Tc3",
+  "composition": {
+    "formula": "Al4Ge1P1Tc3",
+    "elements": {
+      "Al": 4,
+      "Ge": 1,
+      "P": 1,
+      "Tc": 3
+    },
+    "reduced_formula": "Al4Tc3GeP",
+    "element_list": [
+      "Al",
+      "P",
+      "Ge",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 7.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g \n La: 2 g \n P: 7 g \n W: 2 g \n Total mass = 21 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder): Purchase from chemical supply companies or online marketplaces. \n La (Lanthanum powder): Available from specialized chemical suppliers. \n P (Phosphorus powder): Obtain from chemical suppliers or online. \n W (Tungsten powder): Can be sourced from materials science suppliers or online.",
+      "steps": [
+        "Co (Cobalt powder): Purchase from chemical supply companies or online marketplaces.",
+        "La (Lanthanum powder): Available from specialized chemical suppliers.",
+        "P (Phosphorus powder): Obtain from chemical suppliers or online.",
+        "W (Tungsten powder): Can be sourced from materials science suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of cobalt powder using a precision scale.",
+        "2. Measure 2 g of lanthanum powder.",
+        "3. Measure 7 g of phosphorus powder.",
+        "4. Measure 2 g of tungsten powder.",
+        "5. Combine all powders in a clean, dry mixing container.",
+        "6. Use a mechanical mixer or mortar and pestle to ensure a uniform blend for 10 minutes."
+      ],
+      "raw_text": "1. Measure 10 g of cobalt powder using a precision scale. \n 2. Measure 2 g of lanthanum powder. \n 3. Measure 7 g of phosphorus powder. \n 4. Measure 2 g of tungsten powder. \n 5. Combine all powders in a clean, dry mixing container. \n 6. Use a mechanical mixer or mortar and pestle to ensure a uniform blend for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Preheat a furnace to 900°C.",
+        "3. Place the crucible in the furnace for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Preheat a furnace to 900°C. \n 3. Place the crucible in the furnace for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Once the furnace is at room temperature, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Once the furnace is at room temperature, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges and use a diamond file to smooth surfaces if necessary.",
+        "3. Optionally, seal the material with a suitable coating to protect from oxidation.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any rough edges and use a diamond file to smooth surfaces if necessary. \n 3. Optionally, seal the material with a suitable coating to protect from oxidation. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1267413.0,
+      "density": 66235.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -605257.0,
+      "formation_energy_per_atom": -4917.0,
+      "decomposition_energy_per_atom": -905.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -173.0,
+      "decomposition_energy_mp": -1015.0,
+      "decomposition_energy_mp_oqmd": -1009.0
+    },
+    "electronic": {
+      "bandgap": 0.2704,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa5ab56be7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:01.311867Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al4Ge1P1Tc3.json",
+      "material://Al4Ge1P1Tc3"
+    ]
+  }
+}

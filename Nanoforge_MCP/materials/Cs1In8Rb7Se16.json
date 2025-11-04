@@ -1,0 +1,133 @@
+{
+  "id": "Cs1In8Rb7Se16",
+  "uri": "material://Cs1In8Rb7Se16",
+  "composition": {
+    "formula": "Cs1In8Rb7Se16",
+    "elements": {
+      "Cs": 1,
+      "In": 8,
+      "Rb": 7,
+      "Se": 16
+    },
+    "reduced_formula": "CsRb7(InSe2)8",
+    "element_list": [
+      "Se",
+      "Rb",
+      "In",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 28.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 4.0 g \n In: 32.0 g \n Rb: 28.0 g \n Se: 64.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich) \n In: Obtain from a specialty metal supplier \n Rb: Available at chemical retailers \n Se: Acquire from a chemical supply house",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich)",
+        "In: Obtain from a specialty metal supplier",
+        "Rb: Available at chemical retailers",
+        "Se: Acquire from a chemical supply house"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a calibrated balance.",
+        "2. In a fume hood, combine Cs, In, Rb, and Se in a clean, dry glass container.",
+        "3. Stir the mixture thoroughly with a glass rod to ensure uniform distribution of components.",
+        "4. Transfer the mixed powder into a quartz or ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a calibrated balance. \n 2. In a fume hood, combine Cs, In, Rb, and Se in a clean, dry glass container. \n 3. Stir the mixture thoroughly with a glass rod to ensure uniform distribution of components. \n 4. Transfer the mixed powder into a quartz or ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 800 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and synthesis."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 800 °C at a rate of 5 °C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and synthesis."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approx. 25 °C).",
+        "2. Avoid opening the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approx. 25 °C). \n 2. Avoid opening the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for consistency and homogeneity.",
+        "3. If necessary, grind the solid to a fine powder using a mortar and pestle.",
+        "4. Sift through a fine mesh to achieve uniform particle size.",
+        "5. Store in an airtight container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for consistency and homogeneity. \n 3. If necessary, grind the solid to a fine powder using a mortar and pestle. \n 4. Sift through a fine mesh to achieve uniform particle size. \n 5. Store in an airtight container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11466172.0,
+      "density": 42187.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1226242.0,
+      "formation_energy_per_atom": -11537.0,
+      "decomposition_energy_per_atom": 1.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": 1.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4e24ef0b61",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:58.445199Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1In8Rb7Se16.json",
+      "material://Cs1In8Rb7Se16"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "Fe1Na1O14S4",
+  "uri": "material://Fe1Na1O14S4",
+  "composition": {
+    "formula": "Fe1Na1O14S4",
+    "elements": {
+      "Fe": 1,
+      "Na": 1,
+      "O": 14,
+      "S": 4
+    },
+    "reduced_formula": "NaFe(S2O7)2",
+    "element_list": [
+      "O",
+      "Na",
+      "S",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 33.6,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 33.6 g, Cu: 201.6 g, Ga: 13.4 g, Y: 1.7 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Aluminum ingots from metal supply stores, Cu: Copper sheets or rods from electrical suppliers, Ga: Gallium from chemical suppliers, Y: Yttrium oxide from specialty metal suppliers.",
+      "steps": [
+        "Al: Aluminum ingots from metal supply stores, Cu: Copper sheets or rods from electrical suppliers, Ga: Gallium from chemical suppliers, Y: Yttrium oxide from specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the required amounts of Al, Cu, Ga, and Y using a precision scale. 2. Place Al and Cu in a clean, dry mixing container. 3. Add Ga and Y to the container. 4. Mix thoroughly to ensure even distribution."
+      ],
+      "raw_text": "1. Measure the required amounts of Al, Cu, Ga, and Y using a precision scale. 2. Place Al and Cu in a clean, dry mixing container. 3. Add Ga and Y to the container. 4. Mix thoroughly to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat a furnace to 800°C (1472°F). 2. Transfer the mixture into a crucible suitable for high temperatures. 3. Place the crucible in the furnace. 4. Maintain the temperature for 1 hour."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C (1472°F). 2. Transfer the mixture into a crucible suitable for high temperatures. 3. Place the crucible in the furnace. 4. Maintain the temperature for 1 hour."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 500°C (932°F) gradually. 2. Once at 500°C, remove the crucible using heat-resistant gloves. 3. Allow the crucible to cool to room temperature on a heat-resistant surface (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 500°C (932°F) gradually. 2. Once at 500°C, remove the crucible using heat-resistant gloves. 3. Allow the crucible to cool to room temperature on a heat-resistant surface (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully. 2. Use a grinder or sandpaper to smooth out any rough edges. 3. If needed, apply a sealant suitable for metals to protect the surface. 4. Allow the sealant to cure as per the manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. 2. Use a grinder or sandpaper to smooth out any rough edges. 3. If needed, apply a sealant suitable for metals to protect the surface. 4. Allow the sealant to cure as per the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3069231.0,
+      "density": 23323.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1322109.0,
+      "formation_energy_per_atom": -18298.0,
+      "decomposition_energy_per_atom": -116.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -123.0,
+      "decomposition_energy_mp_oqmd": -65.0
+    },
+    "electronic": {
+      "bandgap": 1.8173,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bfb629d7ea",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.999329Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Na1O14S4.json",
+      "material://Fe1Na1O14S4"
+    ]
+  }
+}

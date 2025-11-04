@@ -1,0 +1,113 @@
+{
+  "id": "Al10Si1Tc4",
+  "uri": "material://Al10Si1Tc4",
+  "composition": {
+    "formula": "Al10Si1Tc4",
+    "elements": {
+      "Al": 10,
+      "Si": 1,
+      "Tc": 4
+    },
+    "reduced_formula": "Al10SiTc4",
+    "element_list": [
+      "Al",
+      "Si",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 3.7,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 37.20 g \n TeO2: 11.44 g \n W: 3.70 g \n O2: 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply companies or online platforms like Sigma-Aldrich \n TeO2: Specialty chemical suppliers \n W: Metal suppliers or online stores \n O2: Laboratory gas suppliers",
+      "steps": [
+        "La2O3: Chemical supply companies or online platforms like Sigma-Aldrich",
+        "TeO2: Specialty chemical suppliers",
+        "W: Metal suppliers or online stores",
+        "O2: Laboratory gas suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh La2O3, TeO2, W, and O2 accurately using a digital scale.",
+        "2. Combine La2O3 and TeO2 in a mortar and pestle, grinding until a fine powder is achieved.",
+        "3. Add W powder to the mixture and continue grinding for an additional 5 minutes.",
+        "4. Gradually introduce O2 to the powder mixture while stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh La2O3, TeO2, W, and O2 accurately using a digital scale. \n 2. Combine La2O3 and TeO2 in a mortar and pestle, grinding until a fine powder is achieved. \n 3. Add W powder to the mixture and continue grinding for an additional 5 minutes. \n 4. Gradually introduce O2 to the powder mixture while stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace to 900°C, holding this temperature for 4 hours to facilitate the reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace to 900°C, holding this temperature for 4 hours to facilitate the reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 25°C) over 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 25°C) over 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid material from the crucible and inspect for uniformity.",
+        "2. If necessary, grind the solid further to achieve desired particle size.",
+        "3. Optionally, seal the surface with a clear resin for protection, allowing it to cure for 24 hours.",
+        "4. Sand any rough edges for a smooth finish."
+      ],
+      "raw_text": "1. Remove the solid material from the crucible and inspect for uniformity. \n 2. If necessary, grind the solid further to achieve desired particle size. \n 3. Optionally, seal the surface with a clear resin for protection, allowing it to cure for 24 hours. \n 4. Sand any rough edges for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 2271799.0,
+      "density": 50427.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -914729.0,
+      "formation_energy_per_atom": -4766.0,
+      "decomposition_energy_per_atom": -79.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -789.0,
+      "decomposition_energy_mp_oqmd": -785.0
+    },
+    "electronic": {
+      "bandgap": 0.1893,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b960af807b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.999123Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al10Si1Tc4.json",
+      "material://Al10Si1Tc4"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "Cu2Sb2Sn4Zr10",
+  "uri": "material://Cu2Sb2Sn4Zr10",
+  "composition": {
+    "formula": "Cu2Sb2Sn4Zr10",
+    "elements": {
+      "Cu": 2,
+      "Sb": 2,
+      "Sn": 4,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr5CuSn2Sb",
+    "element_list": [
+      "Cu",
+      "Zr",
+      "Sn",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 80 g  \n Sb: 35 g  \n Sn: 25 g  \n Zr: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper wire or metal sheets from a hardware store. \n Sb: Antimony powder from chemical supply companies. \n Sn: Tin ingots from metal suppliers. \n Zr: Zirconium powder from specialized metal suppliers.",
+      "steps": [
+        "Cu: Copper wire or metal sheets from a hardware store.",
+        "Sb: Antimony powder from chemical supply companies.",
+        "Sn: Tin ingots from metal suppliers.",
+        "Zr: Zirconium powder from specialized metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cu, Sb, Sn, and Zr in the specified amounts.",
+        "3. Mix thoroughly using a mechanical stirrer or a mortar and pestle until uniform."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Cu, Sb, Sn, and Zr in the specified amounts. \n 3. Mix thoroughly using a mechanical stirrer or a mortar and pestle until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Heat in a furnace at 1200 °C for 2 hours to ensure complete melting and mixing of components."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Heat in a furnace at 1200 °C for 2 hours to ensure complete melting and mixing of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (~25 °C) over a period of 4-6 hours.",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (~25 °C) over a period of 4-6 hours. \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a grinder to smooth out rough edges and achieve desired dimensions.",
+        "3. Optionally, seal with a protective coating if required for stability."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a grinder to smooth out rough edges and achieve desired dimensions. \n 3. Optionally, seal with a protective coating if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3820917.0,
+      "density": 76388.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1291052.0,
+      "formation_energy_per_atom": -6185.0,
+      "decomposition_energy_per_atom": -88.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -88.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": 0.0071,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ea27857006",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.481402Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Sb2Sn4Zr10.json",
+      "material://Cu2Sb2Sn4Zr10"
+    ]
+  }
+}

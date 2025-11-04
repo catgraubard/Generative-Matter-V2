@@ -1,0 +1,119 @@
+{
+  "id": "Ba4La1O12Sb2Tl1",
+  "uri": "material://Ba4La1O12Sb2Tl1",
+  "composition": {
+    "formula": "Ba4La1O12Sb2Tl1",
+    "elements": {
+      "Ba": 4,
+      "La": 1,
+      "O": 12,
+      "Sb": 2,
+      "Tl": 1
+    },
+    "reduced_formula": "Ba4LaTl(SbO6)2",
+    "element_list": [
+      "O",
+      "Sb",
+      "Ba",
+      "La",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 400.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 400 g, La: 100 g, O: 300 g, Sb: 200 g, Tl: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium Carbonate) from chemical supply stores; La (Lanthanum Oxide) from rare earth suppliers; O (Oxygen source, e.g., metal oxides) from chemical suppliers; Sb (Antimony) from metal suppliers; Tl (Thallium) from chemical suppliers.",
+      "steps": [
+        "Ba (Barium Carbonate) from chemical supply stores; La (Lanthanum Oxide) from rare earth suppliers; O (Oxygen source, e.g., metal oxides) from chemical suppliers; Sb (Antimony) from metal suppliers; Tl (Thallium) from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. In a clean ceramic or glass container, add Ba and La first.",
+        "3. Mix thoroughly using a spatula or mechanical mixer to ensure uniform distribution.",
+        "4. Gradually add the Sb and Tl, mixing continuously.",
+        "5. Finally, add the O source and continue mixing until a homogenous mixture is obtained."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance.  \n 2. In a clean ceramic or glass container, add Ba and La first. \n 3. Mix thoroughly using a spatula or mechanical mixer to ensure uniform distribution. \n 4. Gradually add the Sb and Tl, mixing continuously. \n 5. Finally, add the O source and continue mixing until a homogenous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixture to a high-purity alumina crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 1000°C at a rate of 5°C/min.",
+        "4. Maintain at 1000°C for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-purity alumina crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 1000°C at a rate of 5°C/min. \n 4. Maintain at 1000°C for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This should take approximately 6-8 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This should take approximately 6-8 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating if required for your application."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Inspect for any rough edges or imperfections. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3242642.0,
+      "density": 68012.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/m",
+      "space_group_number": 83,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1357337.0,
+      "formation_energy_per_atom": -26563.0,
+      "decomposition_energy_per_atom": -397.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": 8.0,
+      "decomposition_energy_mp_oqmd": 9.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "667f466f50",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:29.773661Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4La1O12Sb2Tl1.json",
+      "material://Ba4La1O12Sb2Tl1"
+    ]
+  }
+}

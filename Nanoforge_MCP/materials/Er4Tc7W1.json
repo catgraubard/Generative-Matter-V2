@@ -1,0 +1,112 @@
+{
+  "id": "Er4Tc7W1",
+  "uri": "material://Er4Tc7W1",
+  "composition": {
+    "formula": "Er4Tc7W1",
+    "elements": {
+      "Er": 4,
+      "Tc": 7,
+      "W": 1
+    },
+    "reduced_formula": "Er4Tc7W",
+    "element_list": [
+      "Tc",
+      "Er",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 10 g, Cr: 15 g, La: 8 g, Tc: 20 g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon black from chemical suppliers; Cr: Chromium metal from metal suppliers; La: Lanthanum oxide from chemical suppliers; Tc: Technetium-99m from nuclear medicine suppliers (ensure proper licensing).",
+      "steps": [
+        "C: Carbon black from chemical suppliers; Cr: Chromium metal from metal suppliers; La: Lanthanum oxide from chemical suppliers; Tc: Technetium-99m from nuclear medicine suppliers (ensure proper licensing)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of C, Cr, La, and Tc.",
+        "3. Use a mortar and pestle or mechanical mixer to ensure uniform mixing of the powders.",
+        "4. Continue mixing until a homogeneous blend is achieved, approximately 10 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of C, Cr, La, and Tc. \n 3. Use a mortar and pestle or mechanical mixer to ensure uniform mixing of the powders. \n 4. Continue mixing until a homogeneous blend is achieved, approximately 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 800°C for 2 hours to facilitate sintering.",
+        "3. Use a controlled heating ramp to avoid thermal shock, increasing temperature at a rate of 5°C/min."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace to 800°C for 2 hours to facilitate sintering. \n 3. Use a controlled heating ramp to avoid thermal shock, increasing temperature at a rate of 5°C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Gradually cool the crucible in the furnace to room temperature, approximately 6 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Gradually cool the crucible in the furnace to room temperature, approximately 6 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for defects.",
+        "2. If necessary, sand the surfaces with fine-grit sandpaper to achieve desired finish.",
+        "3. Optionally, apply a sealing coat to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for defects. \n 2. If necessary, sand the surfaces with fine-grit sandpaper to achieve desired finish. \n 3. Optionally, apply a sealing coat to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 223144.0,
+      "density": 114516.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1061486.0,
+      "formation_energy_per_atom": -1996.0,
+      "decomposition_energy_per_atom": -13.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b6fa62c7c6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.432983Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er4Tc7W1.json",
+      "material://Er4Tc7W1"
+    ]
+  }
+}

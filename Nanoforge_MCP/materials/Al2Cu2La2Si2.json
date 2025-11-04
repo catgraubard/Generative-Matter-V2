@@ -1,0 +1,113 @@
+{
+  "id": "Al2Cu2La2Si2",
+  "uri": "material://Al2Cu2La2Si2",
+  "composition": {
+    "formula": "Al2Cu2La2Si2",
+    "elements": {
+      "Al": 2,
+      "Cu": 2,
+      "La": 2,
+      "Si": 2
+    },
+    "reduced_formula": "LaAlCuSi",
+    "element_list": [
+      "Al",
+      "Si",
+      "Cu",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ru: 60 g, Sn: 180 g, Tm: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Ru: Purchase from a reputable precious metals supplier; Sn: Electronics supply store; Tm: Chemical supply company.",
+      "steps": [
+        "Ru: Purchase from a reputable precious metals supplier; Sn: Electronics supply store; Tm: Chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 60 g of ruthenium (Ru) using an analytical balance.",
+        "2. Weigh 180 g of tin (Sn).",
+        "3. Weigh 50 g of thulium (Tm).",
+        "4. In a clean, dry container, combine the metals thoroughly using a spatula until homogenous."
+      ],
+      "raw_text": "1. Weigh 60 g of ruthenium (Ru) using an analytical balance. \n 2. Weigh 180 g of tin (Sn). \n 3. Weigh 50 g of thulium (Tm). \n 4. In a clean, dry container, combine the metals thoroughly using a spatula until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature furnace.",
+        "2. Set the furnace to 1000°C.",
+        "3. Heat the mixture for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature furnace. \n 2. Set the furnace to 1000°C. \n 3. Heat the mixture for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature (approximately 25°C) naturally.",
+        "2. Do not open the furnace until it has cooled completely to avoid oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature (approximately 25°C) naturally. \n 2. Do not open the furnace until it has cooled completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the alloy from the furnace.",
+        "2. Use a grinder to smooth any rough edges.",
+        "3. Optionally, apply a protective sealant to the surface to prevent corrosion.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the alloy from the furnace. \n 2. Use a grinder to smooth any rough edges. \n 3. Optionally, apply a protective sealant to the surface to prevent corrosion. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1574526.0,
+      "density": 54317.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -411017.0,
+      "formation_energy_per_atom": -5862.0,
+      "decomposition_energy_per_atom": -27.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -265.0,
+      "decomposition_energy_mp_oqmd": -5.0
+    },
+    "electronic": {
+      "bandgap": 0.0185,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c3bd201084",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.234074Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Cu2La2Si2.json",
+      "material://Al2Cu2La2Si2"
+    ]
+  }
+}

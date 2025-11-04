@@ -1,0 +1,131 @@
+{
+  "id": "Nd2Pr6Sn12",
+  "uri": "material://Nd2Pr6Sn12",
+  "composition": {
+    "formula": "Nd2Pr6Sn12",
+    "elements": {
+      "Nd": 2,
+      "Pr": 6,
+      "Sn": 12
+    },
+    "reduced_formula": "Pr3NdSn6",
+    "element_list": [
+      "Sn",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 10 g \n Na: 30 g \n Sb: 5 g \n Se: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Cu (Copper): Local metal supply store or online metal supplier \n Na (Sodium): Chemical supply company \n Sb (Antimony): Chemical supply company \n Se (Selenium): Chemical supply company",
+      "steps": [
+        "Cu (Copper): Local metal supply store or online metal supplier",
+        "Na (Sodium): Chemical supply company",
+        "Sb (Antimony): Chemical supply company",
+        "Se (Selenium): Chemical supply company"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10 g of Cu, 30 g of Na, 5 g of Sb, and 60 g of Se using a precision scale.",
+        "2. In a clean mixing container, combine Cu and Sb first, then add Na and Se.",
+        "3. Mix the ingredients thoroughly using a spatula until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh 10 g of Cu, 30 g of Na, 5 g of Sb, and 60 g of Se using a precision scale. \n 2. In a clean mixing container, combine Cu and Sb first, then add Na and Se. \n 3. Mix the ingredients thoroughly using a spatula until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 400°C naturally (approximately 1 hour).",
+        "2. After reaching 400°C, remove the crucible and allow it to cool to room temperature (approximately 3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 400°C naturally (approximately 1 hour). \n 2. After reaching 400°C, remove the crucible and allow it to cool to room temperature (approximately 3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5793516.0,
+      "density": 7333.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1004458.0,
+      "formation_energy_per_atom": -7055.0,
+      "decomposition_energy_per_atom": -6.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -6.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 0.0052,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9266cc444",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.956668Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd2Pr6Sn12.json",
+      "material://Nd2Pr6Sn12"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Cu8Er1P4Tm1",
+  "uri": "material://Cu8Er1P4Tm1",
+  "composition": {
+    "formula": "Cu8Er1P4Tm1",
+    "elements": {
+      "Cu": 8,
+      "Er": 1,
+      "P": 4,
+      "Tm": 1
+    },
+    "reduced_formula": "ErTm(Cu2P)4",
+    "element_list": [
+      "P",
+      "Cu",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "La2O3: 32.1 g \n Nd2O3: 31.3 g \n Pr6O11: 6.1 g \n RuO2: 4.5 g \n Binder (e.g., PVA): 10 g \n Water: 5 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply companies (e.g., Sigma-Aldrich) \n Nd2O3: Rare earth suppliers (e.g., American Elements) \n Pr6O11: Specialty chemical suppliers \n RuO2: Chemical supply companies \n PVA: Craft stores or chemical suppliers \n Water: Distilled water from grocery stores",
+      "steps": [
+        "La2O3: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Nd2O3: Rare earth suppliers (e.g., American Elements)",
+        "Pr6O11: Specialty chemical suppliers",
+        "RuO2: Chemical supply companies",
+        "PVA: Craft stores or chemical suppliers",
+        "Water: Distilled water from grocery stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all powdered materials accurately using a precision scale.",
+        "2. In a clean, dry container, combine La2O3, Nd2O3, Pr6O11, and RuO2.",
+        "3. Mix the powders thoroughly using a spatula or mechanical mixer until uniform.",
+        "4. In a separate container, dissolve PVA in water to create a binder solution.",
+        "5. Gradually add the binder solution to the mixed powders while stirring to achieve a homogenous paste."
+      ],
+      "raw_text": "1. Weigh all powdered materials accurately using a precision scale. \n 2. In a clean, dry container, combine La2O3, Nd2O3, Pr6O11, and RuO2. \n 3. Mix the powders thoroughly using a spatula or mechanical mixer until uniform. \n 4. In a separate container, dissolve PVA in water to create a binder solution. \n 5. Gradually add the binder solution to the mixed powders while stirring to achieve a homogenous paste."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900°C.",
+        "2. Place the sample in a suitable crucible (e.g., alumina) and insert into the preheated furnace.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and crystallization."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C. \n 2. Place the sample in a suitable crucible (e.g., alumina) and insert into the preheated furnace. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and crystallization."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approx. 6-8 hours).",
+        "2. Do not remove the sample until the furnace is completely cool to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approx. 6-8 hours). \n 2. Do not remove the sample until the furnace is completely cool to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Inspect for any surface irregularities and use sandpaper (600 grit) to smooth edges and surfaces as needed.",
+        "3. Optionally, apply a sealant to enhance surface durability if the sample will be exposed to environmental conditions."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Inspect for any surface irregularities and use sandpaper (600 grit) to smooth edges and surfaces as needed. \n 3. Optionally, apply a sealant to enhance surface durability if the sample will be exposed to environmental conditions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 1952846.0,
+      "density": 8235.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -709031.0,
+      "formation_energy_per_atom": -5295.0,
+      "decomposition_energy_per_atom": -391.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -391.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c5c203968f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.837776Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu8Er1P4Tm1.json",
+      "material://Cu8Er1P4Tm1"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "Al8C4Co4Zr12",
+  "uri": "material://Al8C4Co4Zr12",
+  "composition": {
+    "formula": "Al8C4Co4Zr12",
+    "elements": {
+      "Al": 8,
+      "C": 4,
+      "Co": 4,
+      "Zr": 12
+    },
+    "reduced_formula": "Zr3Al2CoC",
+    "element_list": [
+      "C",
+      "Al",
+      "Co",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 76.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 76.5 g, Nb: 114.8 g, Sn: 108.0 g, Ti: 29.0 g, Zr: 38.5 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores (e.g., Sigma-Aldrich), Nb: Specialty metal suppliers, Sn: Electronics component suppliers, Ti: Metal fabrication suppliers, Zr: Chemical supply stores",
+      "steps": [
+        "B: Chemical supply stores (e.g., Sigma-Aldrich), Nb: Specialty metal suppliers, Sn: Electronics component suppliers, Ti: Metal fabrication suppliers, Zr: Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed amounts of B, Nb, Sn, Ti, and Zr.",
+        "3. Stir the mixture thoroughly using a spatula to ensure uniform distribution of all components.",
+        "4. Pour the mixture into a ball mill and mill for 2 hours to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, combine the weighed amounts of B, Nb, Sn, Ti, and Zr. \n 3. Stir the mixture thoroughly using a spatula to ensure uniform distribution of all components. \n 4. Pour the mixture into a ball mill and mill for 2 hours to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the milled powder into a graphite crucible.",
+        "3. Insert the crucible into the furnace and keep it at 1000°C for 4 hours to achieve complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the milled powder into a graphite crucible. \n 3. Insert the crucible into the furnace and keep it at 1000°C for 4 hours to achieve complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "3. Once cooled, remove the crucible from the furnace carefully."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 3. Once cooled, remove the crucible from the furnace carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Extract the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces using progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a sealing coating to enhance the surface properties of the material."
+      ],
+      "raw_text": "1. Extract the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces using progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 4. Optionally, apply a sealing coating to enhance the surface properties of the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4463474.0,
+      "density": 59313.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2160108.0,
+      "formation_energy_per_atom": -6476.0,
+      "decomposition_energy_per_atom": -515.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -103.0,
+      "decomposition_energy_mp": -515.0,
+      "decomposition_energy_mp_oqmd": -246.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c561eb5800",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.755949Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al8C4Co4Zr12.json",
+      "material://Al8C4Co4Zr12"
+    ]
+  }
+}

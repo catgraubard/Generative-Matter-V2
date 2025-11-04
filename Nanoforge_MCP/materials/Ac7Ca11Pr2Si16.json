@@ -1,0 +1,127 @@
+{
+  "id": "Ac7Ca11Pr2Si16",
+  "uri": "material://Ac7Ca11Pr2Si16",
+  "composition": {
+    "formula": "Ac7Ca11Pr2Si16",
+    "elements": {
+      "Ac": 7,
+      "Ca": 11,
+      "Pr": 2,
+      "Si": 16
+    },
+    "reduced_formula": "Ca11Ac7(PrSi8)2",
+    "element_list": [
+      "Si",
+      "Ca",
+      "Pr",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Na",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 640.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 400.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na: 160 g \n S: 640 g \n Ti: 400 g"
+    },
+    "sourcing": {
+      "instructions": "Na: Purchase sodium metal from a chemical supply store or online chemical supplier. \n S: Obtain sulfur from a local chemical supplier or hardware store. \n Ti: Purchase titanium powder from a metal supplier or specialty materials store.",
+      "steps": [
+        "Na: Purchase sodium metal from a chemical supply store or online chemical supplier.",
+        "S: Obtain sulfur from a local chemical supplier or hardware store.",
+        "Ti: Purchase titanium powder from a metal supplier or specialty materials store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, carefully measure 160 g of sodium metal using a digital scale.",
+        "2. Measure 640 g of sulfur and 400 g of titanium powder.",
+        "3. In a dry, inert atmosphere, combine the sodium, sulfur, and titanium in a ceramic or glass container to prevent reaction with moisture.",
+        "4. Mix the ingredients thoroughly using a spatula or mechanical mixer to ensure an even distribution."
+      ],
+      "raw_text": "1. In a fume hood, carefully measure 160 g of sodium metal using a digital scale. \n 2. Measure 640 g of sulfur and 400 g of titanium powder. \n 3. In a dry, inert atmosphere, combine the sodium, sulfur, and titanium in a ceramic or glass container to prevent reaction with moisture. \n 4. Mix the ingredients thoroughly using a spatula or mechanical mixer to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed materials to a high-temperature furnace.",
+        "2. Heat the mixture slowly to 300°C (572°F) and hold for 1 hour to allow for initial reactions.",
+        "3. Gradually increase the temperature to 800°C (1472°F) over a 2-hour period.",
+        "4. Maintain this temperature for an additional 4 hours to ensure complete synthesis of Na4S16Ti8."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a high-temperature furnace. \n 2. Heat the mixture slowly to 300°C (572°F) and hold for 1 hour to allow for initial reactions. \n 3. Gradually increase the temperature to 800°C (1472°F) over a 2-hour period. \n 4. Maintain this temperature for an additional 4 hours to ensure complete synthesis of Na4S16Ti8."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally, approximately 6-8 hours.",
+        "2. Do not open the furnace door until it has fully cooled to prevent any moisture exposure."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally, approximately 6-8 hours. \n 2. Do not open the furnace door until it has fully cooled to prevent any moisture exposure."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the furnace.",
+        "2. Use fine-grit sandpaper to smooth the surface of the sample, if necessary.",
+        "3. Optionally, apply a sealant suitable for the material to protect it from environmental factors.",
+        "4. Store the final product in a dry environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the furnace. \n 2. Use fine-grit sandpaper to smooth the surface of the sample, if necessary. \n 3. Optionally, apply a sealant suitable for the material to protect it from environmental factors. \n 4. Store the final product in a dry environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9913141.0,
+      "density": 4625.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1676163.0,
+      "formation_energy_per_atom": -565.0,
+      "decomposition_energy_per_atom": -1475.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -1471.0,
+      "decomposition_energy_mp_oqmd": -1461.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d86cb9703e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.560909Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac7Ca11Pr2Si16.json",
+      "material://Ac7Ca11Pr2Si16"
+    ]
+  }
+}

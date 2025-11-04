@@ -1,0 +1,114 @@
+{
+  "id": "Rb1Se24Sr3",
+  "uri": "material://Rb1Se24Sr3",
+  "composition": {
+    "formula": "Rb1Se24Sr3",
+    "elements": {
+      "Rb": 1,
+      "Se": 24,
+      "Sr": 3
+    },
+    "reduced_formula": "Rb(SrSe8)3",
+    "element_list": [
+      "Se",
+      "Rb",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 30.0 g, Se: 120.0 g, Sr: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Purchase from a chemical supply company or online supplier; Se: Obtain from a chemical store; Sr: Buy from a materials supplier specializing in metals.",
+      "steps": [
+        "Rb: Purchase from a chemical supply company or online supplier; Se: Obtain from a chemical store; Sr: Buy from a materials supplier specializing in metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 30.0 g of rubidium (Rb) using an analytical balance.",
+        "2. Weigh 120.0 g of selenium (Se).",
+        "3. Weigh 12.0 g of strontium (Sr).",
+        "4. Combine all materials in a clean, dry ceramic crucible.",
+        "5. Mix the powders thoroughly using a spatula to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh 30.0 g of rubidium (Rb) using an analytical balance. \n 2. Weigh 120.0 g of selenium (Se). \n 3. Weigh 12.0 g of strontium (Sr). \n 4. Combine all materials in a clean, dry ceramic crucible. \n 5. Mix the powders thoroughly using a spatula to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 900°C at a rate of 5°C/min.",
+        "3. Maintain at 900°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat to 900°C at a rate of 5°C/min. \n 3. Maintain at 900°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally.",
+        "2. Do not open the furnace until it reaches below 300°C.",
+        "3. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally. \n 2. Do not open the furnace until it reaches below 300°C. \n 3. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample using a mortar and pestle to achieve a finer consistency.",
+        "3. Optionally, polish the surface with fine sandpaper for a smoother finish.",
+        "4. Store the final product in a labeled, airtight container to prevent contamination."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. If necessary, grind the sample using a mortar and pestle to achieve a finer consistency. \n 3. Optionally, polish the surface with fine sandpaper for a smoother finish. \n 4. Store the final product in a labeled, airtight container to prevent contamination."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7787952.0,
+      "density": 47833.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1133088.0,
+      "formation_energy_per_atom": -8342.0,
+      "decomposition_energy_per_atom": -2269.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -2453.0,
+      "decomposition_energy_mp_oqmd": -1674.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "00a4433e09",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:15.349886Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb1Se24Sr3.json",
+      "material://Rb1Se24Sr3"
+    ]
+  }
+}

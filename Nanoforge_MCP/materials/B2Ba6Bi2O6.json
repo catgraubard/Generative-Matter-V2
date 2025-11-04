@@ -1,0 +1,128 @@
+{
+  "id": "B2Ba6Bi2O6",
+  "uri": "material://B2Ba6Bi2O6",
+  "composition": {
+    "formula": "B2Ba6Bi2O6",
+    "elements": {
+      "B": 2,
+      "Ba": 6,
+      "Bi": 2,
+      "O": 6
+    },
+    "reduced_formula": "Ba3BiBO3",
+    "element_list": [
+      "B",
+      "O",
+      "Ba",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 8.77,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 26.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B2: 9.83 g (Boron Oxide, B2O3) \n Ba: 20.00 g (Barium Carbonate, BaCO3) \n Bi: 8.77 g (Bismuth Oxide, Bi2O3) \n O: 26.40 g (Oxygen source, e.g., from Barium Peroxide, BaO2)"
+    },
+    "sourcing": {
+      "instructions": "Boron Oxide (B2O3): Available at chemical supply stores or online marketplaces. \n Barium Carbonate (BaCO3): Obtain from chemical suppliers or ceramics stores. \n Bismuth Oxide (Bi2O3): Purchase from specialty chemical suppliers. \n Barium Peroxide (BaO2): Can be sourced from chemical suppliers.",
+      "steps": [
+        "Boron Oxide (B2O3): Available at chemical supply stores or online marketplaces.",
+        "Barium Carbonate (BaCO3): Obtain from chemical suppliers or ceramics stores.",
+        "Bismuth Oxide (Bi2O3): Purchase from specialty chemical suppliers.",
+        "Barium Peroxide (BaO2): Can be sourced from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 9.83 g of Boron Oxide.",
+        "2. Weigh 20.00 g of Barium Carbonate.",
+        "3. Weigh 8.77 g of Bismuth Oxide.",
+        "4. Weigh 26.40 g of Barium Peroxide.",
+        "5. Combine all ingredients in a clean, dry mixing container.",
+        "6. Mix the powders thoroughly using a mortar and pestle or ball mill until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh 9.83 g of Boron Oxide. \n 2. Weigh 20.00 g of Barium Carbonate. \n 3. Weigh 8.77 g of Bismuth Oxide. \n 4. Weigh 26.40 g of Barium Peroxide. \n 5. Combine all ingredients in a clean, dry mixing container. \n 6. Mix the powders thoroughly using a mortar and pestle or ball mill until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible or suitable container.",
+        "2. Place in a furnace and heat to 800 °C.",
+        "3. Hold at 800 °C for 4 hours to allow for solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible or suitable container. \n 2. Place in a furnace and heat to 800 °C. \n 3. Hold at 800 °C for 4 hours to allow for solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool down gradually to room temperature (approximately 1-2 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool down gradually to room temperature (approximately 1-2 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any irregularities and sand the edges gently if necessary.",
+        "3. Optionally, seal with a suitable coating to enhance surface durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any irregularities and sand the edges gently if necessary. \n 3. Optionally, seal with a suitable coating to enhance surface durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4182524.0,
+      "density": 53976.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1021704.0,
+      "formation_energy_per_atom": -24894.0,
+      "decomposition_energy_per_atom": -391.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -394.0,
+      "decomposition_energy_mp_oqmd": -374.0
+    },
+    "electronic": {
+      "bandgap": 1.6115,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e9b19e4287",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.387741Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Ba6Bi2O6.json",
+      "material://B2Ba6Bi2O6"
+    ]
+  }
+}

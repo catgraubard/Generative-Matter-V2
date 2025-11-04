@@ -1,0 +1,115 @@
+{
+  "id": "Ca2Fe2Mn2O12Tb2",
+  "uri": "material://Ca2Fe2Mn2O12Tb2",
+  "composition": {
+    "formula": "Ca2Fe2Mn2O12Tb2",
+    "elements": {
+      "Ca": 2,
+      "Fe": 2,
+      "Mn": 2,
+      "O": 12,
+      "Tb": 2
+    },
+    "reduced_formula": "CaTbMnFeO6",
+    "element_list": [
+      "O",
+      "Ca",
+      "Mn",
+      "Fe",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium Oxide (CaO): 60 g \n Iron(III) Oxide (Fe2O3): 80 g \n Manganese Oxide (MnO2): 40 g \n Terbium Oxide (Tb2O3): 20 g \n Distilled Water: 100 mL"
+    },
+    "sourcing": {
+      "instructions": "Calcium Oxide: Chemical supply stores or online chemical suppliers \n Iron(III) Oxide: Local hardware store or chemical supply stores \n Manganese Oxide: Chemical supply stores or online chemical suppliers \n Terbium Oxide: Specialty chemical suppliers or online \n Distilled Water: Supermarkets or laboratories",
+      "steps": [
+        "Calcium Oxide: Chemical supply stores or online chemical suppliers",
+        "Iron(III) Oxide: Local hardware store or chemical supply stores",
+        "Manganese Oxide: Chemical supply stores or online chemical suppliers",
+        "Terbium Oxide: Specialty chemical suppliers or online",
+        "Distilled Water: Supermarkets or laboratories"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 60 g of Calcium Oxide, 80 g of Iron(III) Oxide, 40 g of Manganese Oxide, and 20 g of Terbium Oxide using a precision scale.",
+        "2. In a clean mixing bowl, combine the dry powders: CaO, Fe2O3, MnO2, and Tb2O3.",
+        "3. Slowly add 100 mL of distilled water while stirring continuously to form a homogenous slurry.",
+        "4. Ensure all solids are completely dissolved and the mixture is uniform."
+      ],
+      "raw_text": "1. Measure out 60 g of Calcium Oxide, 80 g of Iron(III) Oxide, 40 g of Manganese Oxide, and 20 g of Terbium Oxide using a precision scale. \n 2. In a clean mixing bowl, combine the dry powders: CaO, Fe2O3, MnO2, and Tb2O3. \n 3. Slowly add 100 mL of distilled water while stirring continuously to form a homogenous slurry. \n 4. Ensure all solids are completely dissolved and the mixture is uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Pour the slurry into a suitable mold (dimensions: 3\"x2\"x7\").",
+        "3. Place the mold in the preheated furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Pour the slurry into a suitable mold (dimensions: 3\"x2\"x7\"). \n 3. Place the mold in the preheated furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the material to cool inside the furnace gradually to room temperature (approx. 25°C) over a period of 6-8 hours.",
+        "2. Avoid opening the furnace during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the material to cool inside the furnace gradually to room temperature (approx. 25°C) over a period of 6-8 hours. \n 2. Avoid opening the furnace during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample carefully from the mold.",
+        "2. Inspect for any surface irregularities or sharp edges.",
+        "3. Use sandpaper (grit 120-400) to smooth the surface, if necessary.",
+        "4. Optionally, seal the surface with a clear epoxy resin for durability.",
+        "5. Allow the epoxy to cure according to manufacturer’s instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample carefully from the mold. \n 2. Inspect for any surface irregularities or sharp edges. \n 3. Use sandpaper (grit 120-400) to smooth the surface, if necessary. \n 4. Optionally, seal the surface with a clear epoxy resin for durability. \n 5. Allow the epoxy to cure according to manufacturer’s instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2250594.0,
+      "density": 59879.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pc",
+      "space_group_number": 7,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1621599.0,
+      "formation_energy_per_atom": -2712.0,
+      "decomposition_energy_per_atom": -152.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -158.0,
+      "decomposition_energy_mp_oqmd": -158.0
+    },
+    "electronic": {
+      "bandgap": 1.6196,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9086b2f259",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:25.672263Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Fe2Mn2O12Tb2.json",
+      "material://Ca2Fe2Mn2O12Tb2"
+    ]
+  }
+}

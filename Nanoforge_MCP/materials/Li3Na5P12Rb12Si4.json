@@ -1,0 +1,113 @@
+{
+  "id": "Li3Na5P12Rb12Si4",
+  "uri": "material://Li3Na5P12Rb12Si4",
+  "composition": {
+    "formula": "Li3Na5P12Rb12Si4",
+    "elements": {
+      "Li": 3,
+      "Na": 5,
+      "P": 12,
+      "Rb": 12,
+      "Si": 4
+    },
+    "reduced_formula": "Rb12Na5Li3(SiP3)4",
+    "element_list": [
+      "Li",
+      "Na",
+      "Si",
+      "P",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 15.0 g, Na: 10.0 g, P: 5.0 g, Rb: 12.0 g, Si: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Na: Obtain from a reputable source (e.g., Fisher Scientific); P: Chemical supply store; Rb: Online chemical supplier; Si: Local hardware store (silicon powder).",
+      "steps": [
+        "Li: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Na: Obtain from a reputable source (e.g., Fisher Scientific); P: Chemical supply store; Rb: Online chemical supplier; Si: Local hardware store (silicon powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, sequentially add Li, Na, P, Rb, and Si.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure out each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, sequentially add Li, Na, P, Rb, and Si. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 800°C for 4 hours to ensure complete reaction and formation of the solid material."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 800°C for 4 hours to ensure complete reaction and formation of the solid material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 8 hours).",
+        "2. Once the furnace is cool, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 8 hours). \n 2. Once the furnace is cool, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the solid sample using a ball mill to achieve a uniform particle size if necessary.",
+        "2. Sift through a mesh to remove larger particles.",
+        "3. Optionally, coat the sample with a sealant to protect against moisture (cure for 24 hours)."
+      ],
+      "raw_text": "1. Grind the solid sample using a ball mill to achieve a uniform particle size if necessary. \n 2. Sift through a mesh to remove larger particles. \n 3. Optionally, coat the sample with a sealant to protect against moisture (cure for 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9769493.0,
+      "density": 27967.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1262642.0,
+      "formation_energy_per_atom": -4305.0,
+      "decomposition_energy_per_atom": -887.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -887.0,
+      "decomposition_energy_mp_oqmd": -116.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "748176b175",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:47.871922Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li3Na5P12Rb12Si4.json",
+      "material://Li3Na5P12Rb12Si4"
+    ]
+  }
+}

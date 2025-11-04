@@ -1,0 +1,109 @@
+{
+  "id": "Na2O20Sc2Se8",
+  "uri": "material://Na2O20Sc2Se8",
+  "composition": {
+    "formula": "Na2O20Sc2Se8",
+    "elements": {
+      "Na": 2,
+      "O": 20,
+      "Sc": 2,
+      "Se": 8
+    },
+    "reduced_formula": "NaSc(Se2O5)2",
+    "element_list": [
+      "O",
+      "Na",
+      "Sc",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Oxygen (O): 24.0 g\n- Rubidium (Rb): 9.0 g\n- Ruthenium (Ru): 2.0 g\n- Tellurium (Te): 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Oxygen: Obtain from a gas supplier or use oxygen concentrators.\n- Rubidium: Purchase from chemical suppliers or online vendors specializing in rare elements.\n- Ruthenium: Available through metal supply companies or specialty chemical vendors.\n- Tellurium: Sourced from metal suppliers or chemical companies.",
+      "steps": [
+        "- Oxygen: Obtain from a gas supplier or use oxygen concentrators.",
+        "- Rubidium: Purchase from chemical suppliers or online vendors specializing in rare elements.",
+        "- Ruthenium: Available through metal supply companies or specialty chemical vendors.",
+        "- Tellurium: Sourced from metal suppliers or chemical companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 24.0 g of oxygen gas using a gas syringe.",
+        "2. Weigh 9.0 g of rubidium in an inert atmosphere glovebox.",
+        "3. Carefully measure 2.0 g of ruthenium powder.",
+        "4. Weigh 36.0 g of tellurium powder."
+      ],
+      "raw_text": "1. Measure out 24.0 g of oxygen gas using a gas syringe.\n2. Weigh 9.0 g of rubidium in an inert atmosphere glovebox.\n3. Carefully measure 2.0 g of ruthenium powder.\n4. Weigh 36.0 g of tellurium powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Combine the measured powders in a crucible made of alumina.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C for 2 hours to facilitate reaction."
+      ],
+      "raw_text": "1. Combine the measured powders in a crucible made of alumina.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 800°C for 2 hours to facilitate reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect for any surface imperfections and sand down if necessary using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a suitable polymer sealant to enhance stability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible.\n2. Inspect for any surface imperfections and sand down if necessary using fine-grit sandpaper.\n3. Optionally, seal the surface with a suitable polymer sealant to enhance stability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4937392.0,
+      "density": 36577.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnc2",
+      "space_group_number": 30,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1994773.0,
+      "formation_energy_per_atom": -17888.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -151.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 2.9155,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b37322fdda",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.739582Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na2O20Sc2Se8.json",
+      "material://Na2O20Sc2Se8"
+    ]
+  }
+}

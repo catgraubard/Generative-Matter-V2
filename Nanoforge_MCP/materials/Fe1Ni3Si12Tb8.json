@@ -1,0 +1,110 @@
+{
+  "id": "Fe1Ni3Si12Tb8",
+  "uri": "material://Fe1Ni3Si12Tb8",
+  "composition": {
+    "formula": "Fe1Ni3Si12Tb8",
+    "elements": {
+      "Fe": 1,
+      "Ni": 3,
+      "Si": 12,
+      "Tb": 8
+    },
+    "reduced_formula": "Tb8Fe(Si4Ni)3",
+    "element_list": [
+      "Si",
+      "Fe",
+      "Ni",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 20 g \n - Nickel (Ni): 60 g \n - Silicon (Si): 240 g \n - Terbium (Tb): 160 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron powder: Local metal supply stores or online suppliers. \n - Nickel powder: Chemical supply stores or online marketplaces. \n - Silicon powder: Electronics supply stores or specialized chemical suppliers. \n - Terbium oxide: Rare earth suppliers or specialized metal distributors.",
+      "steps": [
+        "- Iron powder: Local metal supply stores or online suppliers.",
+        "- Nickel powder: Chemical supply stores or online marketplaces.",
+        "- Silicon powder: Electronics supply stores or specialized chemical suppliers.",
+        "- Terbium oxide: Rare earth suppliers or specialized metal distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material using a precision scale.",
+        "2. Combine the iron, nickel, silicon, and terbium in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Measure each material using a precision scale. \n 2. Combine the iron, nickel, silicon, and terbium in a clean, dry mixing container. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C (2192°F) and maintain this temperature for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C (2192°F) and maintain this temperature for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not remove the crucible until fully cooled to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not remove the crucible until fully cooled to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a grinder to smooth rough edges and achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Clean the surface with isopropyl alcohol to remove any debris.",
+        "4. Optionally, seal the surface with a suitable clear coat to protect the material."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a grinder to smooth rough edges and achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Clean the surface with isopropyl alcohol to remove any debris. \n 4. Optionally, seal the surface with a suitable clear coat to protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4457724.0,
+      "density": 68555.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1472378.0,
+      "formation_energy_per_atom": -802.0,
+      "decomposition_energy_per_atom": -33.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -82.0,
+      "decomposition_energy_mp": -208.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "42d09db9a6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:43.390901Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ni3Si12Tb8.json",
+      "material://Fe1Ni3Si12Tb8"
+    ]
+  }
+}

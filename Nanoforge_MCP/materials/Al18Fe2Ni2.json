@@ -1,0 +1,106 @@
+{
+  "id": "Al18Fe2Ni2",
+  "uri": "material://Al18Fe2Ni2",
+  "composition": {
+    "formula": "Al18Fe2Ni2",
+    "elements": {
+      "Al": 18,
+      "Fe": 2,
+      "Ni": 2
+    },
+    "reduced_formula": "Al9FeNi",
+    "element_list": [
+      "Al",
+      "Fe",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Aluminum (Al): 180 g \n - Iron (Fe): 25 g \n - Nickel (Ni): 25 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum: Local metal supply store or online suppliers (e.g., Amazon, McMaster-Carr). \n - Iron: Local hardware store or metal supply. \n - Nickel: Specialty metal suppliers or online (e.g., OnlineMetals, Metal Supermarkets).",
+      "steps": [
+        "- Aluminum: Local metal supply store or online suppliers (e.g., Amazon, McMaster-Carr).",
+        "- Iron: Local hardware store or metal supply.",
+        "- Nickel: Specialty metal suppliers or online (e.g., OnlineMetals, Metal Supermarkets)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 180 g of aluminum, 25 g of iron, and 25 g of nickel using a digital scale.",
+        "2. Cut the aluminum into small pieces (approx. 1 cm cubes) for easier melting.",
+        "3. Grind the iron and nickel into a fine powder using a ball mill or mortar and pestle. Ensure they are well-mixed."
+      ],
+      "raw_text": "1. Measure out 180 g of aluminum, 25 g of iron, and 25 g of nickel using a digital scale. \n 2. Cut the aluminum into small pieces (approx. 1 cm cubes) for easier melting. \n 3. Grind the iron and nickel into a fine powder using a ball mill or mortar and pestle. Ensure they are well-mixed."
+    },
+    "heating": {
+      "temperature_celsius": 660,
+      "steps": [
+        "1. Place the aluminum pieces in a crucible.",
+        "2. Heat the crucible to 660°C (1220°F) using an induction furnace or a propane torch until the aluminum is completely melted.",
+        "3. Once melted, slowly add the powdered iron and nickel mixture to the molten aluminum while stirring continuously to ensure uniform distribution."
+      ],
+      "raw_text": "1. Place the aluminum pieces in a crucible. \n 2. Heat the crucible to 660°C (1220°F) using an induction furnace or a propane torch until the aluminum is completely melted. \n 3. Once melted, slowly add the powdered iron and nickel mixture to the molten aluminum while stirring continuously to ensure uniform distribution."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Pour the molten mixture into a preheated mold sized to fit the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "2. Allow the mixture to cool naturally at room temperature for approximately 1 hour until solidified."
+      ],
+      "raw_text": "1. Pour the molten mixture into a preheated mold sized to fit the desired dimensions (3 inches x 2 inches x 7 inches). \n 2. Allow the mixture to cool naturally at room temperature for approximately 1 hour until solidified."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold.",
+        "2. Use a sandpaper (grit 120 to 400) to smooth out the surface of the sample.",
+        "3. Optionally, apply a clear sealant to protect the surface if needed.",
+        "4. Finally, label the sample with its composition and date of creation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold. \n 2. Use a sandpaper (grit 120 to 400) to smooth out the surface of the sample. \n 3. Optionally, apply a clear sealant to protect the surface if needed. \n 4. Finally, label the sample with its composition and date of creation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3358861.0,
+      "density": 35335.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1021673.0,
+      "formation_energy_per_atom": -2839.0,
+      "decomposition_energy_per_atom": -44.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -44.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.0038,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "220c8c6486",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:00.440289Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al18Fe2Ni2.json",
+      "material://Al18Fe2Ni2"
+    ]
+  }
+}

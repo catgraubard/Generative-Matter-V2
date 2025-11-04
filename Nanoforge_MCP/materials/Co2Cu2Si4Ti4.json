@@ -1,0 +1,113 @@
+{
+  "id": "Co2Cu2Si4Ti4",
+  "uri": "material://Co2Cu2Si4Ti4",
+  "composition": {
+    "formula": "Co2Cu2Si4Ti4",
+    "elements": {
+      "Co": 2,
+      "Cu": 2,
+      "Si": 4,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2CoCuSi2",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Co",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cobalt (Co): 10.0 g \n - Copper (Cu): 30.0 g \n - Silicon (Si): 40.0 g \n - Titanium (Ti): 20.0 g \n - Oxygen (O2): 10.0 g (provided in the reaction)"
+    },
+    "sourcing": {
+      "instructions": "- Cobalt: Specialty metal suppliers or online metal retailers \n - Copper: Hardware stores or metal suppliers \n - Silicon: Chemical suppliers or online vendors \n - Titanium: Specialty metal suppliers or online shops \n - Oxygen: Laboratory gas suppliers",
+      "steps": [
+        "- Cobalt: Specialty metal suppliers or online metal retailers",
+        "- Copper: Hardware stores or metal suppliers",
+        "- Silicon: Chemical suppliers or online vendors",
+        "- Titanium: Specialty metal suppliers or online shops",
+        "- Oxygen: Laboratory gas suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. In a clean mixing container, add 10.0 g of Cobalt powder.",
+        "3. Add 30.0 g of Copper powder to the container.",
+        "4. Add 40.0 g of Silicon powder.",
+        "5. Add 20.0 g of Titanium powder.",
+        "6. Mix the ingredients thoroughly using a spatula or a mechanical mixer for 10 minutes until uniform."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance. \n 2. In a clean mixing container, add 10.0 g of Cobalt powder. \n 3. Add 30.0 g of Copper powder to the container. \n 4. Add 40.0 g of Silicon powder. \n 5. Add 20.0 g of Titanium powder. \n 6. Mix the ingredients thoroughly using a spatula or a mechanical mixer for 10 minutes until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the mixed powders in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace for 2 hours to facilitate the reaction and formation of Co2Cu2Si4Ti4."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C. \n 2. Place the mixed powders in a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace for 2 hours to facilitate the reaction and formation of Co2Cu2Si4Ti4."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool down slowly inside the furnace for about 4 hours to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool down slowly inside the furnace for about 4 hours to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder or sandpaper to smooth out any rough edges and achieve the desired finish.",
+        "3. Optionally, seal the sample with a clear epoxy or resin to enhance durability and aesthetics."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a grinder or sandpaper to smooth out any rough edges and achieve the desired finish. \n 3. Optionally, seal the sample with a clear epoxy or resin to enhance durability and aesthetics."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1612979.0,
+      "density": 56495.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -836299.0,
+      "formation_energy_per_atom": -661.0,
+      "decomposition_energy_per_atom": -79.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -65.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -72.0
+    },
+    "electronic": {
+      "bandgap": 0.0022,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6ecb47431b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:40.498344Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Cu2Si4Ti4.json",
+      "material://Co2Cu2Si4Ti4"
+    ]
+  }
+}

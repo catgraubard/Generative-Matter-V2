@@ -1,0 +1,139 @@
+{
+  "id": "Nb6Nd1Sb1Sn5",
+  "uri": "material://Nb6Nd1Sb1Sn5",
+  "composition": {
+    "formula": "Nb6Nd1Sb1Sn5",
+    "elements": {
+      "Nb": 6,
+      "Nd": 1,
+      "Sb": 1,
+      "Sn": 5
+    },
+    "reduced_formula": "NdNb6Sn5Sb",
+    "element_list": [
+      "Nb",
+      "Sn",
+      "Sb",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Eu",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 48.00 g\nEr: 12.00 g\nEu: 6.00 g\nMo: 6.00 g\nP: 24.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder): Chemical supply stores or online chemical suppliers.\nEr (Erbium oxide): Rare earth suppliers or chemical supply stores.\nEu (Europium oxide): Rare earth suppliers.\nMo (Molybdenum powder): Metal supply stores.\nP (Phosphorus powder): Chemical supply stores or online suppliers.",
+      "steps": [
+        "Co (Cobalt powder): Chemical supply stores or online chemical suppliers.",
+        "Er (Erbium oxide): Rare earth suppliers or chemical supply stores.",
+        "Eu (Europium oxide): Rare earth suppliers.",
+        "Mo (Molybdenum powder): Metal supply stores.",
+        "P (Phosphorus powder): Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed Co, Er, Eu, Mo, and P powders.",
+        "3. Use a mortar and pestle to mix the powders thoroughly for at least 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance.\n2. In a clean, dry container, combine the weighed Co, Er, Eu, Mo, and P powders.\n3. Use a mortar and pestle to mix the powders thoroughly for at least 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible.\n2. Place the crucible in a muffle furnace.\n3. Heat the mixture to 1200°C at a rate of 5°C/min.\n4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4 hours).",
+        "2. Do not open the furnace door during cooling to prevent oxidation of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4 hours).\n2. Do not open the furnace door during cooling to prevent oxidation of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper (600 grit) for a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating to the surface to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample.\n2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.\n3. Sand the edges and surfaces with fine-grit sandpaper (600 grit) for a smooth finish.\n4. Optionally, apply a sealant or protective coating to the surface to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2829025.0,
+      "density": 83172.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6mm",
+      "space_group_number": 183,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -94372.0,
+      "formation_energy_per_atom": -3707.0,
+      "decomposition_energy_per_atom": -457.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -152.0,
+      "decomposition_energy_mp": -457.0,
+      "decomposition_energy_mp_oqmd": -452.0
+    },
+    "electronic": {
+      "bandgap": 0.0098,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6233f2db7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.920134Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb6Nd1Sb1Sn5.json",
+      "material://Nb6Nd1Sb1Sn5"
+    ]
+  }
+}

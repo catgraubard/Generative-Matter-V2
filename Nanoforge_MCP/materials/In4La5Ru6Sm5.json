@@ -1,0 +1,114 @@
+{
+  "id": "In4La5Ru6Sm5",
+  "uri": "material://In4La5Ru6Sm5",
+  "composition": {
+    "formula": "In4La5Ru6Sm5",
+    "elements": {
+      "In": 4,
+      "La": 5,
+      "Ru": 6,
+      "Sm": 5
+    },
+    "reduced_formula": "La5Sm5(In2Ru3)2",
+    "element_list": [
+      "Ru",
+      "In",
+      "La",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 60 g, Nb: 240 g, Si: 90 g, V: 240 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Purchase from a semiconductor supplier; Nb: Obtain from a metal supplier; Si: Available at chemical suppliers; V: Purchase from a metal supplier.",
+      "steps": [
+        "Ge: Purchase from a semiconductor supplier; Nb: Obtain from a metal supplier; Si: Available at chemical suppliers; V: Purchase from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine the weighed amounts of Ge, Nb, Si, and V.",
+        "3. Use a mortar and pestle to grind the mixture uniformly.",
+        "4. Transfer the mixture to a mixing bowl and ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine the weighed amounts of Ge, Nb, Si, and V. \n 3. Use a mortar and pestle to grind the mixture uniformly. \n 4. Transfer the mixture to a mixing bowl and ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 3,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the homogeneous mixture in a crucible suitable for high temperatures.",
+        "3. Heat the mixture for 3 hours to allow for full reaction and alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the homogeneous mixture in a crucible suitable for high temperatures. \n 3. Heat the mixture for 3 hours to allow for full reaction and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a sealant for surface protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a sealant for surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5104527.0,
+      "density": 81718.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -122381.0,
+      "formation_energy_per_atom": -3727.0,
+      "decomposition_energy_per_atom": -249.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -249.0,
+      "decomposition_energy_mp_oqmd": -138.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "df7f81092b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.570490Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In4La5Ru6Sm5.json",
+      "material://In4La5Ru6Sm5"
+    ]
+  }
+}

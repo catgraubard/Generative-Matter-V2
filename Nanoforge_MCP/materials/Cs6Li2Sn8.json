@@ -1,0 +1,110 @@
+{
+  "id": "Cs6Li2Sn8",
+  "uri": "material://Cs6Li2Sn8",
+  "composition": {
+    "formula": "Cs6Li2Sn8",
+    "elements": {
+      "Cs": 6,
+      "Li": 2,
+      "Sn": 8
+    },
+    "reduced_formula": "Cs3LiSn4",
+    "element_list": [
+      "Li",
+      "Sn",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 120 g, Li: 60 g, Sn: 480 g (Total: 660 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from chemical suppliers like Sigma-Aldrich; Li: Purchase from battery material suppliers; Sn: Source from metal suppliers or alloy manufacturers.",
+      "steps": [
+        "Cs: Obtain from chemical suppliers like Sigma-Aldrich; Li: Purchase from battery material suppliers; Sn: Source from metal suppliers or alloy manufacturers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 120 g of cesium (Cs), 60 g of lithium (Li), and 480 g of tin (Sn) using an analytical balance.",
+        "2. Combine each ingredient in a clean, dry glass or ceramic mixing container.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until a uniform powder is obtained.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Measure 120 g of cesium (Cs), 60 g of lithium (Li), and 480 g of tin (Sn) using an analytical balance. \n 2. Combine each ingredient in a clean, dry glass or ceramic mixing container. \n 3. Use a mortar and pestle to thoroughly grind the mixture until a uniform powder is obtained. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible with the mixed powders inside the furnace and heat for 2 hours to allow for proper reaction and formation of Cs6Li2Sn8."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible with the mixed powders inside the furnace and heat for 2 hours to allow for proper reaction and formation of Cs6Li2Sn8."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the material is solidified, remove it from the crucible.",
+        "2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to achieve a smooth finish, if required.",
+        "4. Optionally, seal the surface with an appropriate protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once the material is solidified, remove it from the crucible. \n 2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to achieve a smooth finish, if required. \n 4. Optionally, seal the surface with an appropriate protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 6832707.0,
+      "density": 42797.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -463824.0,
+      "formation_energy_per_atom": -3197.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -66.0
+    },
+    "electronic": {
+      "bandgap": 0.7243,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "421d98cb36",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:42.519564Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs6Li2Sn8.json",
+      "material://Cs6Li2Sn8"
+    ]
+  }
+}

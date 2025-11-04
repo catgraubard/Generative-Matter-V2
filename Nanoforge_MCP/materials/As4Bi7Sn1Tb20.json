@@ -1,0 +1,127 @@
+{
+  "id": "As4Bi7Sn1Tb20",
+  "uri": "material://As4Bi7Sn1Tb20",
+  "composition": {
+    "formula": "As4Bi7Sn1Tb20",
+    "elements": {
+      "As": 4,
+      "Bi": 7,
+      "Sn": 1,
+      "Tb": 20
+    },
+    "reduced_formula": "Tb20SnBi7As4",
+    "element_list": [
+      "As",
+      "Sn",
+      "Tb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 270.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 120 g \n Ni: 270 g \n Zn: 30 g \n Total weight: 420 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum): Purchase from a chemical supplier or online vendor specializing in rare earth metals. \n Ni (Nickel): Obtain from a metallurgical supply store. \n Zn (Zinc): Available from hardware stores or metal suppliers.",
+      "steps": [
+        "La (Lanthanum): Purchase from a chemical supplier or online vendor specializing in rare earth metals.",
+        "Ni (Nickel): Obtain from a metallurgical supply store.",
+        "Zn (Zinc): Available from hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 120 g of Lanthanum using an analytical balance.",
+        "2. Measure 270 g of Nickel using the same balance.",
+        "3. Measure 30 g of Zinc.",
+        "4. Combine all measured materials in a clean, dry mixing container.",
+        "5. Use a mechanical stirrer to mix the powders uniformly for at least 10 minutes."
+      ],
+      "raw_text": "1. Measure 120 g of Lanthanum using an analytical balance. \n 2. Measure 270 g of Nickel using the same balance. \n 3. Measure 30 g of Zinc. \n 4. Combine all measured materials in a clean, dry mixing container. \n 5. Use a mechanical stirrer to mix the powders uniformly for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1000 °C.",
+        "2. Transfer the mixed powder into a graphite crucible.",
+        "3. Place the crucible in the furnace and heat for 2 hours to ensure complete reaction of the elements."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1000 °C. \n 2. Transfer the mixed powder into a graphite crucible. \n 3. Place the crucible in the furnace and heat for 2 hours to ensure complete reaction of the elements."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled down to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled down to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond blade saw to cut the sample to desired dimensions if necessary.",
+        "3. Sand the edges using 120-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealing coat of epoxy for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond blade saw to cut the sample to desired dimensions if necessary. \n 3. Sand the edges using 120-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealing coat of epoxy for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 9049756.0,
+      "density": 92842.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1702879.0,
+      "formation_energy_per_atom": -8664.0,
+      "decomposition_energy_per_atom": -117.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -117.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 0.0043,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e805daaa68",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.820122Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Bi7Sn1Tb20.json",
+      "material://As4Bi7Sn1Tb20"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "La8Si16Tb12",
+  "uri": "material://La8Si16Tb12",
+  "composition": {
+    "formula": "La8Si16Tb12",
+    "elements": {
+      "La": 8,
+      "Si": 16,
+      "Tb": 12
+    },
+    "reduced_formula": "La2Tb3Si4",
+    "element_list": [
+      "Si",
+      "La",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 40 g, Co: 160 g, Er: 440 g, In: 40 g, Sc: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Aluminum scrap or pellets from hardware stores; Co: Cobalt metal from metal suppliers; Er: Erbium oxide from chemical suppliers; In: Indium metal from electronic component suppliers; Sc: Scandium oxide from specialty metal suppliers.",
+      "steps": [
+        "Al: Aluminum scrap or pellets from hardware stores; Co: Cobalt metal from metal suppliers; Er: Erbium oxide from chemical suppliers; In: Indium metal from electronic component suppliers; Sc: Scandium oxide from specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean container, combine Al, Co, Er, In, and Sc thoroughly using a mechanical mixer for 10 minutes to ensure a homogeneous mixture.",
+        "3. Transfer the mixture to a crucible suitable for high-temperature processing."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean container, combine Al, Co, Er, In, and Sc thoroughly using a mechanical mixer for 10 minutes to ensure a homogeneous mixture. \n 3. Transfer the mixture to a crucible suitable for high-temperature processing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the crucible inside the furnace and maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the crucible inside the furnace and maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to decrease gradually to room temperature (approx. 20 °C) over a period of 8 hours to avoid thermal stress.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to decrease gradually to room temperature (approx. 20 °C) over a period of 8 hours to avoid thermal stress. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the alloy from the crucible and inspect for any defects.",
+        "2. Use a band saw to cut the sample into dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating suitable for metals."
+      ],
+      "raw_text": "1. Remove the alloy from the crucible and inspect for any defects. \n 2. Use a band saw to cut the sample into dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating suitable for metals."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 907019.0,
+      "density": 63486.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4_12_12",
+      "space_group_number": 92,
+      "point_group": "422",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2080122.0,
+      "formation_energy_per_atom": -7252.0,
+      "decomposition_energy_per_atom": -243.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -52.0,
+      "decomposition_energy_mp": -238.0,
+      "decomposition_energy_mp_oqmd": -236.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b869d8eca1",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.780611Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La8Si16Tb12.json",
+      "material://La8Si16Tb12"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "Al11Cr1Mn2Zn1",
+  "uri": "material://Al11Cr1Mn2Zn1",
+  "composition": {
+    "formula": "Al11Cr1Mn2Zn1",
+    "elements": {
+      "Al": 11,
+      "Cr": 1,
+      "Mn": 2,
+      "Zn": 1
+    },
+    "reduced_formula": "Mn2Al11ZnCr",
+    "element_list": [
+      "Al",
+      "Cr",
+      "Mn",
+      "Zn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 64.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 64 g, Nd: 8 g, P: 48 g, Tb: 16 g, W: 8 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Nd: Rare earth metal suppliers; P: Chemical supply stores; Tb: Rare earth metal suppliers; W: Metal suppliers or online (e.g., Amazon or eBay)",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Nd: Rare earth metal suppliers; P: Chemical supply stores; Tb: Rare earth metal suppliers; W: Metal suppliers or online (e.g., Amazon or eBay)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 64 g of Co, 8 g of Nd, 48 g of P, 16 g of Tb, and 8 g of W using an analytical balance.",
+        "2. Combine all measured materials in a clean, dry mixing bowl.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until a fine, homogeneous powder is achieved.",
+        "4. Transfer the powder to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Measure out 64 g of Co, 8 g of Nd, 48 g of P, 16 g of Tb, and 8 g of W using an analytical balance. \n 2. Combine all measured materials in a clean, dry mixing bowl. \n 3. Use a mortar and pestle to thoroughly grind the mixture until a fine, homogeneous powder is achieved. \n 4. Transfer the powder to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the crucible with the powder mixture in the furnace.",
+        "3. Heat for 2 hours to ensure complete reaction and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the crucible with the powder mixture in the furnace. \n 3. Heat for 2 hours to ensure complete reaction and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature gradually without opening the door.",
+        "2. Once cooled (approximately 4-6 hours), remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature gradually without opening the door. \n 2. Once cooled (approximately 4-6 hours), remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Use a diamond saw or grinder to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to remove any sharp points and ensure a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface if required."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Use a diamond saw or grinder to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to remove any sharp points and ensure a smooth finish. \n 4. Optionally, apply a sealant to protect the surface if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 2187257.0,
+      "density": 39787.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -733542.0,
+      "formation_energy_per_atom": -1944.0,
+      "decomposition_energy_per_atom": -37.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": -31.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "afd5de90b2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:10.724597Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al11Cr1Mn2Zn1.json",
+      "material://Al11Cr1Mn2Zn1"
+    ]
+  }
+}

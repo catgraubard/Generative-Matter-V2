@@ -1,0 +1,114 @@
+{
+  "id": "Bi5O10Sn5Tb18",
+  "uri": "material://Bi5O10Sn5Tb18",
+  "composition": {
+    "formula": "Bi5O10Sn5Tb18",
+    "elements": {
+      "Bi": 5,
+      "O": 10,
+      "Sn": 5,
+      "Tb": 18
+    },
+    "reduced_formula": "Tb18Sn5(BiO2)5",
+    "element_list": [
+      "O",
+      "Sn",
+      "Tb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10 g, Rb: 30 g, Sb: 80 g, Sn: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply store, Rb: Obtain from a specialty metals supplier, Sb: Source from a chemical distributor, Sn: Available at electronics supply stores.",
+      "steps": [
+        "Cs: Purchase from a chemical supply store, Rb: Obtain from a specialty metals supplier, Sb: Source from a chemical distributor, Sn: Available at electronics supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of Cs, 30 g of Rb, 80 g of Sb, and 50 g of Sn using an analytical balance.",
+        "2. In a clean, dry glass container, combine Cs and Rb, ensuring they are in a homogeneous mixture.",
+        "3. In a separate container, mix Sb and Sn until they form a uniform powder.",
+        "4. Gradually add the Cs/Rb mixture to the Sb/Sn mixture while stirring continuously to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 10 g of Cs, 30 g of Rb, 80 g of Sb, and 50 g of Sn using an analytical balance. \n 2. In a clean, dry glass container, combine Cs and Rb, ensuring they are in a homogeneous mixture. \n 3. In a separate container, mix Sb and Sn until they form a uniform powder. \n 4. Gradually add the Cs/Rb mixture to the Sb/Sn mixture while stirring continuously to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the combined mixture to a high-temperature furnace.",
+        "2. Heat to a temperature of 800°C (1472°F) at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure full reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the combined mixture to a high-temperature furnace. \n 2. Heat to a temperature of 800°C (1472°F) at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure full reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This cooling should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This cooling should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace and inspect for any surface imperfections.",
+        "2. If necessary, sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "3. If desired, apply a sealant to enhance the surface and protect against oxidation. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace and inspect for any surface imperfections. \n 2. If necessary, sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 3. If desired, apply a sealant to enhance the surface and protect against oxidation. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 9065274.0,
+      "density": 85343.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -256137.0,
+      "formation_energy_per_atom": -22037.0,
+      "decomposition_energy_per_atom": -53.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -56.0,
+      "decomposition_energy_mp_oqmd": -54.0
+    },
+    "electronic": {
+      "bandgap": 0.0131,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa05180835",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:00.800513Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi5O10Sn5Tb18.json",
+      "material://Bi5O10Sn5Tb18"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "Co4Fe1Li1O8",
+  "uri": "material://Co4Fe1Li1O8",
+  "composition": {
+    "formula": "Co4Fe1Li1O8",
+    "elements": {
+      "Co": 4,
+      "Fe": 1,
+      "Li": 1,
+      "O": 8
+    },
+    "reduced_formula": "LiFe(CoO2)4",
+    "element_list": [
+      "Li",
+      "O",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt(II) oxide (CoO) - 40.0 g \n Iron(III) oxide (Fe2O3) - 10.0 g \n Lithium oxide (Li2O) - 5.0 g \n Oxygen - 0 g (inherent in oxides)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt(II) oxide: Online chemical suppliers or local chemical supply stores. \n Iron(III) oxide: Online suppliers, local hardware stores. \n Lithium oxide: Specialty chemical suppliers or online chemical shops.",
+      "steps": [
+        "Cobalt(II) oxide: Online chemical suppliers or local chemical supply stores.",
+        "Iron(III) oxide: Online suppliers, local hardware stores.",
+        "Lithium oxide: Specialty chemical suppliers or online chemical shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 40.0 g of CoO using a digital scale.",
+        "2. Weigh 10.0 g of Fe2O3.",
+        "3. Weigh 5.0 g of Li2O.",
+        "4. In a clean, dry container, combine the weighed powders thoroughly using a spatula until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh 40.0 g of CoO using a digital scale. \n 2. Weigh 10.0 g of Fe2O3. \n 3. Weigh 5.0 g of Li2O. \n 4. In a clean, dry container, combine the weighed powders thoroughly using a spatula until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powders in a crucible.",
+        "3. Heat the crucible in the furnace for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powders in a crucible. \n 3. Heat the crucible in the furnace for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible and retrieve the solid sample.",
+        "2. Grind the obtained solid using a mortar and pestle for a finer consistency.",
+        "3. If necessary, shape the sample to fit desired dimensions using a diamond saw.",
+        "4. Optionally, apply a sealant to the surface to protect from moisture if required."
+      ],
+      "raw_text": "1. Remove the cooled crucible and retrieve the solid sample. \n 2. Grind the obtained solid using a mortar and pestle for a finer consistency. \n 3. If necessary, shape the sample to fit desired dimensions using a diamond saw. \n 4. Optionally, apply a sealant to the surface to protect from moisture if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 1335711.0,
+      "density": 53024.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -996917.0,
+      "formation_energy_per_atom": -15211.0,
+      "decomposition_energy_per_atom": -351.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -59.0,
+      "decomposition_energy_mp": -356.0,
+      "decomposition_energy_mp_oqmd": -61.0
+    },
+    "electronic": {
+      "bandgap": 1.8386,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e96d603af4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.329534Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Fe1Li1O8.json",
+      "material://Co4Fe1Li1O8"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "La5Mo1Nd1O12",
+  "uri": "material://La5Mo1Nd1O12",
+  "composition": {
+    "formula": "La5Mo1Nd1O12",
+    "elements": {
+      "La": 5,
+      "Mo": 1,
+      "Nd": 1,
+      "O": 12
+    },
+    "reduced_formula": "La5NdMoO12",
+    "element_list": [
+      "O",
+      "Mo",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La2O3: 40.00 g \n - MoO3: 8.00 g \n - Nd2O3: 8.00 g \n - O2: 10.00 g (as a gas)"
+    },
+    "sourcing": {
+      "instructions": "- La2O3 (Lanthanum Oxide): Purchase from chemical supply companies such as Alfa Aesar or Sigma-Aldrich. \n - MoO3 (Molybdenum Trioxide): Available at chemical suppliers like American Elements or Fisher Scientific. \n - Nd2O3 (Neodymium Oxide): Obtain from specialty chemical suppliers like Rare Earth Products. \n - O2: Obtain from gas suppliers or use laboratory-grade oxygen tanks.",
+      "steps": [
+        "- La2O3 (Lanthanum Oxide): Purchase from chemical supply companies such as Alfa Aesar or Sigma-Aldrich.",
+        "- MoO3 (Molybdenum Trioxide): Available at chemical suppliers like American Elements or Fisher Scientific.",
+        "- Nd2O3 (Neodymium Oxide): Obtain from specialty chemical suppliers like Rare Earth Products.",
+        "- O2: Obtain from gas suppliers or use laboratory-grade oxygen tanks."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40.00 g of La2O3, 8.00 g of MoO3, and 8.00 g of Nd2O3 using an analytical balance.",
+        "2. In a clean, dry container, combine the measured La2O3, MoO3, and Nd2O3.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a ball mill for 30 minutes to ensure a homogenous mixture.",
+        "4. Gradually introduce O2 gas into the mixture while stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Measure 40.00 g of La2O3, 8.00 g of MoO3, and 8.00 g of Nd2O3 using an analytical balance. \n 2. In a clean, dry container, combine the measured La2O3, MoO3, and Nd2O3. \n 3. Mix the powders thoroughly using a mortar and pestle or a ball mill for 30 minutes to ensure a homogenous mixture. \n 4. Gradually introduce O2 gas into the mixture while stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible suitable for ceramics.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C/minute.",
+        "4. Maintain this temperature for 6 hours to facilitate proper synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible suitable for ceramics. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C at a rate of 5°C/minute. \n 4. Maintain this temperature for 6 hours to facilitate proper synthesis."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Ensure the crucible remains in the furnace during the cooling phase to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Ensure the crucible remains in the furnace during the cooling phase to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or defects.",
+        "3. If necessary, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface stability and prevent oxidation if the material will be exposed to air."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or defects. \n 3. If necessary, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface stability and prevent oxidation if the material will be exposed to air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 3053977.0,
+      "density": 61262.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1669013.0,
+      "formation_energy_per_atom": -35385.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -64.0,
+      "decomposition_energy_mp_oqmd": -64.0
+    },
+    "electronic": {
+      "bandgap": 2.5373,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3afbc77f8a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:33.253592Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La5Mo1Nd1O12.json",
+      "material://La5Mo1Nd1O12"
+    ]
+  }
+}

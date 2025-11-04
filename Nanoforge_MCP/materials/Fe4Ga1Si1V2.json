@@ -1,0 +1,113 @@
+{
+  "id": "Fe4Ga1Si1V2",
+  "uri": "material://Fe4Ga1Si1V2",
+  "composition": {
+    "formula": "Fe4Ga1Si1V2",
+    "elements": {
+      "Fe": 4,
+      "Ga": 1,
+      "Si": 1,
+      "V": 2
+    },
+    "reduced_formula": "V2GaFe4Si",
+    "element_list": [
+      "Si",
+      "V",
+      "Fe",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Arsenic (As): 15.0 g \n Rubidium (Rb): 1.0 g \n Selenium (Se): 30.0 g \n Titanium (Ti): 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "Arsenic: Obtain from a chemical supplier or laboratory supply store (ensure proper safety measures). \n Rubidium: Available from specialized chemical suppliers. \n Selenium: Purchase from a chemical distributor. \n Titanium: Obtain from metal suppliers or online marketplaces.",
+      "steps": [
+        "Arsenic: Obtain from a chemical supplier or laboratory supply store (ensure proper safety measures).",
+        "Rubidium: Available from specialized chemical suppliers.",
+        "Selenium: Purchase from a chemical distributor.",
+        "Titanium: Obtain from metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, lab coat).",
+        "2. Weigh each material separately using an analytical balance.",
+        "3. In a clean, dry glass container, combine the arsenic, rubidium, selenium, and titanium powders.",
+        "4. Use a mortar and pestle to mix the powders thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, lab coat). \n 2. Weigh each material separately using an analytical balance. \n 3. In a clean, dry glass container, combine the arsenic, rubidium, selenium, and titanium powders. \n 4. Use a mortar and pestle to mix the powders thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C (1472°F) at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C (1472°F) at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace.",
+        "2. Carefully break the crucible to extract the solid sample.",
+        "3. Use a diamond file to smooth any rough edges on the sample.",
+        "4. Optionally, apply a sealant to the surface for protection against environmental factors."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace. \n 2. Carefully break the crucible to extract the solid sample. \n 3. Use a diamond file to smooth any rough edges on the sample. \n 4. Optionally, apply a sealant to the surface for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 912268.0,
+      "density": 77009.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -635864.0,
+      "formation_energy_per_atom": -3856.0,
+      "decomposition_energy_per_atom": -53.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -49.0,
+      "decomposition_energy_mp": -52.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0057,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d877b22798",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.572223Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Ga1Si1V2.json",
+      "material://Fe4Ga1Si1V2"
+    ]
+  }
+}

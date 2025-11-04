@@ -1,0 +1,141 @@
+{
+  "id": "La2Rb4Se16Si4Sm2",
+  "uri": "material://La2Rb4Se16Si4Sm2",
+  "composition": {
+    "formula": "La2Rb4Se16Si4Sm2",
+    "elements": {
+      "La": 2,
+      "Rb": 4,
+      "Se": 16,
+      "Si": 4,
+      "Sm": 2
+    },
+    "reduced_formula": "Rb2LaSm(SiSe4)2",
+    "element_list": [
+      "Si",
+      "Se",
+      "Rb",
+      "La",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 10.0 g \n Rb: 20.0 g \n Se: 64.0 g \n Si: 5.0 g \n Sm: 2.0 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum): Available from chemical supply companies or online suppliers (e.g., Sigma-Aldrich) \n Rb (Rubidium): Specialty chemical suppliers \n Se (Selenium): Chemical supply stores \n Si (Silicon): Electronics parts suppliers \n Sm (Samarium): Chemical supply companies",
+      "steps": [
+        "La (Lanthanum): Available from chemical supply companies or online suppliers (e.g., Sigma-Aldrich)",
+        "Rb (Rubidium): Specialty chemical suppliers",
+        "Se (Selenium): Chemical supply stores",
+        "Si (Silicon): Electronics parts suppliers",
+        "Sm (Samarium): Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using an analytical balance.",
+        "2. In a clean, dry container, combine La, Rb, Se, Si, and Sm in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out each ingredient using an analytical balance. \n 2. In a clean, dry container, combine La, Rb, Se, Si, and Sm in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. \n 4. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 1000°C at a rate of 5°C/min and hold for 4 hours.",
+        "3. After 4 hours, increase the temperature to 1200°C and maintain for an additional 2 hours."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat to 1000°C at a rate of 5°C/min and hold for 4 hours. \n 3. After 4 hours, increase the temperature to 1200°C and maintain for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth the edges and surfaces as necessary.",
+        "3. Optionally apply a sealant to enhance surface durability.",
+        "4. Allow any applied sealant to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth the edges and surfaces as necessary. \n 3. Optionally apply a sealant to enhance surface durability. \n 4. Allow any applied sealant to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8837007.0,
+      "density": 43145.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1440054.0,
+      "formation_energy_per_atom": -15406.0,
+      "decomposition_energy_per_atom": -349.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -349.0,
+      "decomposition_energy_mp_oqmd": -334.0
+    },
+    "electronic": {
+      "bandgap": 2.2714,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1b2759b665",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.302697Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Rb4Se16Si4Sm2.json",
+      "material://La2Rb4Se16Si4Sm2"
+    ]
+  }
+}

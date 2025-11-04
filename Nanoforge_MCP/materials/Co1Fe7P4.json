@@ -1,0 +1,109 @@
+{
+  "id": "Co1Fe7P4",
+  "uri": "material://Co1Fe7P4",
+  "composition": {
+    "formula": "Co1Fe7P4",
+    "elements": {
+      "Co": 1,
+      "Fe": 7,
+      "P": 4
+    },
+    "reduced_formula": "Fe7CoP4",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Co (Cobalt): 14.0 g \n Fe (Iron): 98.0 g \n P (Phosphorus): 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Buy from a chemical supplier or online (e.g., Sigma-Aldrich). \n Fe: Obtain from metal suppliers or hardware stores. \n P: Purchase from chemical suppliers.",
+      "steps": [
+        "Co: Buy from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "Fe: Obtain from metal suppliers or hardware stores.",
+        "P: Purchase from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 14.0 g of Cobalt powder and 98.0 g of Iron powder accurately using a digital scale.",
+        "2. Weigh 16.0 g of Phosphorus powder.",
+        "3. In a clean, dry container, combine the Co, Fe, and P powders.",
+        "4. Mix thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes to ensure a homogenous blend."
+      ],
+      "raw_text": "1. Weigh 14.0 g of Cobalt powder and 98.0 g of Iron powder accurately using a digital scale. \n 2. Weigh 16.0 g of Phosphorus powder. \n 3. In a clean, dry container, combine the Co, Fe, and P powders. \n 4. Mix thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes to ensure a homogenous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 5°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally.",
+        "2. This process may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally. \n 2. This process may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth any rough edges on the material.",
+        "3. Optionally, seal the surface with a clear epoxy resin for additional protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a file or sandpaper to smooth any rough edges on the material. \n 3. Optionally, seal the surface with a clear epoxy resin for additional protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1304908.0,
+      "density": 73011.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -939259.0,
+      "formation_energy_per_atom": -4895.0,
+      "decomposition_energy_per_atom": -82.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4ce8f913aa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.861229Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe7P4.json",
+      "material://Co1Fe7P4"
+    ]
+  }
+}

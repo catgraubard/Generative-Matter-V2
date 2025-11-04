@@ -1,0 +1,133 @@
+{
+  "id": "Er4Li8Pr4Sn8",
+  "uri": "material://Er4Li8Pr4Sn8",
+  "composition": {
+    "formula": "Er4Li8Pr4Sn8",
+    "elements": {
+      "Er": 4,
+      "Li": 8,
+      "Pr": 4,
+      "Sn": 8
+    },
+    "reduced_formula": "Li2PrErSn2",
+    "element_list": [
+      "Li",
+      "Sn",
+      "Pr",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 30 g \n Mn: 60 g \n Nb: 40 g \n P: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Ge (Germanium): Purchase from a chemical supplier or online marketplace. \n Mn (Manganese): Obtain from a chemical supplier or metal supply store. \n Nb (Niobium): Available at specialized metal suppliers. \n P (Phosphorus): Sourced from chemical suppliers or online.",
+      "steps": [
+        "Ge (Germanium): Purchase from a chemical supplier or online marketplace.",
+        "Mn (Manganese): Obtain from a chemical supplier or metal supply store.",
+        "Nb (Niobium): Available at specialized metal suppliers.",
+        "P (Phosphorus): Sourced from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 30 g of Germanium, 60 g of Manganese, 40 g of Niobium, and 20 g of Phosphorus using an analytical balance.",
+        "2. In a clean, dry crucible, combine the measured amounts of Ge, Mn, Nb, and P.",
+        "3. Use a mortar and pestle to finely grind the mixture until a homogeneous powder is achieved.",
+        "4. Transfer the powder into a high-purity alumina crucible for heating."
+      ],
+      "raw_text": "1. Measure out 30 g of Germanium, 60 g of Manganese, 40 g of Niobium, and 20 g of Phosphorus using an analytical balance. \n 2. In a clean, dry crucible, combine the measured amounts of Ge, Mn, Nb, and P. \n 3. Use a mortar and pestle to finely grind the mixture until a homogeneous powder is achieved. \n 4. Transfer the powder into a high-purity alumina crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the alumina crucible with the powder mixture into the furnace.",
+        "3. Heat the mixture at 1200°C for 4 hours to allow for complete reaction and formation of Ge2Mn4Nb4P2."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the alumina crucible with the powder mixture into the furnace. \n 3. Heat the mixture at 1200°C for 4 hours to allow for complete reaction and formation of Ge2Mn4Nb4P2."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample, which should now be formed into the desired shape.",
+        "3. If necessary, use a diamond saw or grinder to trim the sample to 3 inches x 2 inches x 7 inches dimensions.",
+        "4. Sand the edges and surface to achieve a smooth finish.",
+        "5. Optionally, apply a sealant if required for additional protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample, which should now be formed into the desired shape. \n 3. If necessary, use a diamond saw or grinder to trim the sample to 3 inches x 2 inches x 7 inches dimensions. \n 4. Sand the edges and surface to achieve a smooth finish. \n 5. Optionally, apply a sealant if required for additional protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5828962.0,
+      "density": 63752.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1003884.0,
+      "formation_energy_per_atom": -6519.0,
+      "decomposition_energy_per_atom": -41.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -41.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 0.009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b84a927248",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.744139Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er4Li8Pr4Sn8.json",
+      "material://Er4Li8Pr4Sn8"
+    ]
+  }
+}

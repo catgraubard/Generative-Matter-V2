@@ -1,0 +1,113 @@
+{
+  "id": "Fe3O12Sr4W1",
+  "uri": "material://Fe3O12Sr4W1",
+  "composition": {
+    "formula": "Fe3O12Sr4W1",
+    "elements": {
+      "Fe": 3,
+      "O": 12,
+      "Sr": 4,
+      "W": 1
+    },
+    "reduced_formula": "Sr4Fe3WO12",
+    "element_list": [
+      "O",
+      "Fe",
+      "Sr",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron(III) oxide (Fe2O3): 180 g \n - Strontium carbonate (SrCO3): 80 g \n - Tungsten trioxide (WO3): 40 g \n - Binder (e.g., polyvinyl alcohol): 20 g \n - Water: 60 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron(III) oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n - Strontium carbonate: Chemical supply stores or online suppliers (e.g., Alfa Aesar) \n - Tungsten trioxide: Specialty metal suppliers or online suppliers \n - Binder (polyvinyl alcohol): Craft stores or chemical suppliers \n - Water: Distilled water from grocery stores or tap water",
+      "steps": [
+        "- Iron(III) oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "- Strontium carbonate: Chemical supply stores or online suppliers (e.g., Alfa Aesar)",
+        "- Tungsten trioxide: Specialty metal suppliers or online suppliers",
+        "- Binder (polyvinyl alcohol): Craft stores or chemical suppliers",
+        "- Water: Distilled water from grocery stores or tap water"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 180 g of Iron(III) oxide and place in a mixing bowl.",
+        "2. Add 80 g of Strontium carbonate to the bowl.",
+        "3. Add 40 g of Tungsten trioxide to the bowl.",
+        "4. In a separate container, dissolve 20 g of polyvinyl alcohol in 60 g of water, mixing until fully dissolved.",
+        "5. Gradually add the binder solution to the powder mixture while stirring continuously until a uniform paste is formed."
+      ],
+      "raw_text": "1. Measure 180 g of Iron(III) oxide and place in a mixing bowl. \n 2. Add 80 g of Strontium carbonate to the bowl. \n 3. Add 40 g of Tungsten trioxide to the bowl. \n 4. In a separate container, dissolve 20 g of polyvinyl alcohol in 60 g of water, mixing until fully dissolved. \n 5. Gradually add the binder solution to the powder mixture while stirring continuously until a uniform paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the paste into a mold with dimensions 3 inches x 2 inches x 7 inches.",
+        "2. Preheat a furnace to 1000 °C (1832 °F).",
+        "3. Place the mold in the furnace and heat for 4 hours to achieve solidification and proper material formation."
+      ],
+      "raw_text": "1. Transfer the paste into a mold with dimensions 3 inches x 2 inches x 7 inches. \n 2. Preheat a furnace to 1000 °C (1832 °F). \n 3. Place the mold in the furnace and heat for 4 hours to achieve solidification and proper material formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C or 77 °F).",
+        "2. Monitor the cooling process, ensuring the material cools slowly to prevent cracking (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C or 77 °F). \n 2. Monitor the cooling process, ensuring the material cools slowly to prevent cracking (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold.",
+        "2. Inspect the sample for surface imperfections.",
+        "3. Sand the surfaces with fine-grit sandpaper if necessary to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface from moisture and environmental damage."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold. \n 2. Inspect the sample for surface imperfections. \n 3. Sand the surfaces with fine-grit sandpaper if necessary to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface from moisture and environmental damage."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2509744.0,
+      "density": 5914.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1542572.0,
+      "formation_energy_per_atom": -24878.0,
+      "decomposition_energy_per_atom": -7.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -76.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": 0.0089,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0ab117e355",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:29.443904Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe3O12Sr4W1.json",
+      "material://Fe3O12Sr4W1"
+    ]
+  }
+}

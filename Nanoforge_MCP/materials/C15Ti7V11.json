@@ -1,0 +1,112 @@
+{
+  "id": "C15Ti7V11",
+  "uri": "material://C15Ti7V11",
+  "composition": {
+    "formula": "C15Ti7V11",
+    "elements": {
+      "C": 15,
+      "Ti": 7,
+      "V": 11
+    },
+    "reduced_formula": "Ti7V11C15",
+    "element_list": [
+      "C",
+      "Ti",
+      "V"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20 g, Ga: 20 g, Se: 20 g, Ti: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Obtain from a chemical supply store or online supplier. Ga: Available at specialty metal suppliers or online. Se: Purchase from a chemical supplier. Ti: Obtain from a metal supplier (ensure it’s in powder form for ease of mixing).",
+      "steps": [
+        "Co: Obtain from a chemical supply store or online supplier. Ga: Available at specialty metal suppliers or online. Se: Purchase from a chemical supplier. Ti: Obtain from a metal supplier (ensure it’s in powder form for ease of mixing)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using an analytical balance.",
+        "2. In a clean, dry container, add 20 g of Co, 20 g of Ga, and 20 g of Se.",
+        "3. Gradually add 120 g of Ti powder to the container.",
+        "4. Mix the powders thoroughly using a pestle and mortar or a ball mill for approximately 30 minutes until a uniform mixture is obtained."
+      ],
+      "raw_text": "1. Weigh each material precisely using an analytical balance. \n 2. In a clean, dry container, add 20 g of Co, 20 g of Ga, and 20 g of Se. \n 3. Gradually add 120 g of Ti powder to the container. \n 4. Mix the powders thoroughly using a pestle and mortar or a ball mill for approximately 30 minutes until a uniform mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Place the crucible in a furnace preheated to 900°C.",
+        "3. Maintain this temperature for 2 hours to ensure proper alloying of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible. \n 2. Place the crucible in a furnace preheated to 900°C. \n 3. Maintain this temperature for 2 hours to ensure proper alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the alloy from the crucible.",
+        "2. Use a grinder to shape the material to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, sand the surface for a smooth finish.",
+        "4. If necessary, apply a suitable sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the alloy from the crucible. \n 2. Use a grinder to shape the material to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Optionally, sand the surface for a smooth finish. \n 4. If necessary, apply a suitable sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 33,
+      "volume": 3400121.0,
+      "density": 52529.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3154396.0,
+      "formation_energy_per_atom": -662.0,
+      "decomposition_energy_per_atom": -167.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -167.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9f163f7ee",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.303108Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C15Ti7V11.json",
+      "material://C15Ti7V11"
+    ]
+  }
+}

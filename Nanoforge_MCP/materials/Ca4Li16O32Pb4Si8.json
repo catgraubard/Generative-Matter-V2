@@ -1,0 +1,111 @@
+{
+  "id": "Ca4Li16O32Pb4Si8",
+  "uri": "material://Ca4Li16O32Pb4Si8",
+  "composition": {
+    "formula": "Ca4Li16O32Pb4Si8",
+    "elements": {
+      "Ca": 4,
+      "Li": 16,
+      "O": 32,
+      "Pb": 4,
+      "Si": 8
+    },
+    "reduced_formula": "Li4CaSi2PbO8",
+    "element_list": [
+      "Li",
+      "O",
+      "Si",
+      "Ca",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CaO: 80 g\nLi2O: 32 g\nPbO: 80 g\nSiO2: 64 g"
+    },
+    "sourcing": {
+      "instructions": "CaO (Calcium Oxide) - Chemical supply stores or online suppliers\nLi2O (Lithium Oxide) - Specialty chemical suppliers\nPbO (Lead(II) Oxide) - Chemical supply stores or online suppliers\nSiO2 (Silicon Dioxide) - Glass or ceramics suppliers",
+      "steps": [
+        "CaO (Calcium Oxide) - Chemical supply stores or online suppliers",
+        "Li2O (Lithium Oxide) - Specialty chemical suppliers",
+        "PbO (Lead(II) Oxide) - Chemical supply stores or online suppliers",
+        "SiO2 (Silicon Dioxide) - Glass or ceramics suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine CaO, Li2O, PbO, and SiO2 in the specified order.",
+        "3. Use a mechanical mixer or mortar and pestle to mix thoroughly until the mixture is homogenous."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale.\n2. In a clean, dry mixing container, combine CaO, Li2O, PbO, and SiO2 in the specified order.\n3. Use a mechanical mixer or mortar and pestle to mix thoroughly until the mixture is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C (1472°F) and maintain this temperature for 2 hours to ensure complete reaction and fusion."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 800°C (1472°F) and maintain this temperature for 2 hours to ensure complete reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 1-2 hours).",
+        "2. Do not remove the crucible until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 1-2 hours).\n2. Do not remove the crucible until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120) to smooth out any rough edges and surfaces.",
+        "3. Optionally, seal the surface with a clear resin to enhance durability and appearance, following the manufacturer's instructions for application and curing time."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. Use sandpaper (grit 120) to smooth out any rough edges and surfaces.\n3. Optionally, seal the surface with a clear resin to enhance durability and appearance, following the manufacturer's instructions for application and curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 64,
+      "volume": 7272708.0,
+      "density": 41939.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbcm",
+      "space_group_number": 57,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -4337903.0,
+      "formation_energy_per_atom": -27912.0,
+      "decomposition_energy_per_atom": -83.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "53e42467d7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.647038Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca4Li16O32Pb4Si8.json",
+      "material://Ca4Li16O32Pb4Si8"
+    ]
+  }
+}

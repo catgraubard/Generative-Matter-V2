@@ -1,0 +1,131 @@
+{
+  "id": "Eu2Hg1Pb1",
+  "uri": "material://Eu2Hg1Pb1",
+  "composition": {
+    "formula": "Eu2Hg1Pb1",
+    "elements": {
+      "Eu": 2,
+      "Hg": 1,
+      "Pb": 1
+    },
+    "reduced_formula": "Eu2HgPb",
+    "element_list": [
+      "Eu",
+      "Hg",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10 g \n 4: 5 g \n Er: 20 g \n 3: 5 g \n Ni: 15 g \n Y: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online suppliers \n 4: Specialty chemical suppliers \n Er: Rare earth material suppliers \n 3: Chemical distributors \n Ni: Metal suppliers \n Y: Rare earth suppliers",
+      "steps": [
+        "B: Chemical supply stores or online suppliers",
+        "4: Specialty chemical suppliers",
+        "Er: Rare earth material suppliers",
+        "3: Chemical distributors",
+        "Ni: Metal suppliers",
+        "Y: Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precise scale.",
+        "2. In a clean, dry mixing container, combine B, 4, Er, 3, Ni, and Y in the specified amounts.",
+        "3. Stir the mixture thoroughly for 10 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each material using a precise scale. \n 2. In a clean, dry mixing container, combine B, 4, Er, 3, Ni, and Y in the specified amounts. \n 3. Stir the mixture thoroughly for 10 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed material in a crucible suitable for high temperatures.",
+        "3. Heat the crucible for 2 hours at 1200°C to ensure complete melting and homogeneity."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed material in a crucible suitable for high temperatures. \n 3. Heat the crucible for 2 hours at 1200°C to ensure complete melting and homogeneity."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to 800°C.",
+        "2. Carefully remove the crucible and place it in a heat-resistant area to cool to room temperature naturally (approximately 4 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to 800°C. \n 2. Carefully remove the crucible and place it in a heat-resistant area to cool to room temperature naturally (approximately 4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a diamond blade saw to cut the sample into the desired dimensions (3” x 2” x 7”).",
+        "3. Sand the edges using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a diamond blade saw to cut the sample into the desired dimensions (3” x 2” x 7”). \n 3. Sand the edges using fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 4,
+      "volume": 1267414.0,
+      "density": 93248.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -270333.0,
+      "formation_energy_per_atom": -6082.0,
+      "decomposition_energy_per_atom": -648.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -881.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.0157,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab86dde390",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:03.402674Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Eu2Hg1Pb1.json",
+      "material://Eu2Hg1Pb1"
+    ]
+  }
+}

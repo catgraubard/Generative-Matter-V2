@@ -1,0 +1,132 @@
+{
+  "id": "Al2Ge2Nb16Te16",
+  "uri": "material://Al2Ge2Nb16Te16",
+  "composition": {
+    "formula": "Al2Ge2Nb16Te16",
+    "elements": {
+      "Al": 2,
+      "Ge": 2,
+      "Nb": 16,
+      "Te": 16
+    },
+    "reduced_formula": "Nb8AlGeTe8",
+    "element_list": [
+      "Al",
+      "Ge",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 128.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 24.0 g \n Ge: 16.0 g \n Nb: 128.0 g \n Te: 128.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Purchase from a metal supplier or online store specializing in metals. \n Ge: Obtain from a semiconductor supplier or online chemical supplier. \n Nb: Source from a metal alloy supplier. \n Te: Acquire from a chemical supplier or online store.",
+      "steps": [
+        "Al: Purchase from a metal supplier or online store specializing in metals.",
+        "Ge: Obtain from a semiconductor supplier or online chemical supplier.",
+        "Nb: Source from a metal alloy supplier.",
+        "Te: Acquire from a chemical supplier or online store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed amounts of Al, Ge, Nb, and Te.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture to ensure homogeneity.",
+        "4. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale. \n 2. In a clean, dry mixing bowl, combine the weighed amounts of Al, Ge, Nb, and Te. \n 3. Use a mortar and pestle to thoroughly grind the mixture to ensure homogeneity. \n 4. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1500 °C.",
+        "2. Place the ceramic crucible containing the mixture into the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1500 °C. \n 2. Place the ceramic crucible containing the mixture into the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool to room temperature naturally (approximately 12-24 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool to room temperature naturally (approximately 12-24 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solidified sample.",
+        "2. Use a diamond blade saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to remove any sharpness and achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solidified sample. \n 2. Use a diamond blade saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to remove any sharpness and achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11231254.0,
+      "density": 55109.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "P2_12_12",
+      "space_group_number": 18,
+      "point_group": "222",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2534348.0,
+      "formation_energy_per_atom": -6884.0,
+      "decomposition_energy_per_atom": -388.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -145.0,
+      "decomposition_energy_mp": -388.0,
+      "decomposition_energy_mp_oqmd": -387.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "739a7c7642",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.765753Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Ge2Nb16Te16.json",
+      "material://Al2Ge2Nb16Te16"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Co2O12Sr6Zn1Zr1",
+  "uri": "material://Co2O12Sr6Zn1Zr1",
+  "composition": {
+    "formula": "Co2O12Sr6Zn1Zr1",
+    "elements": {
+      "Co": 2,
+      "O": 12,
+      "Sr": 6,
+      "Zn": 1,
+      "Zr": 1
+    },
+    "reduced_formula": "Sr6ZrZn(CoO6)2",
+    "element_list": [
+      "O",
+      "Co",
+      "Zn",
+      "Sr",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 360.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 30 g \n Co: 120 g \n In: 30 g \n Tm: 360 g"
+    },
+    "sourcing": {
+      "instructions": "Ag: Local metal supplier or online precious metal store. \n Co: Chemical supply companies or metal alloy suppliers. \n In: Specialty metal stores or online suppliers of indium. \n Tm: Rare earth metal suppliers or online distributors.",
+      "steps": [
+        "Ag: Local metal supplier or online precious metal store.",
+        "Co: Chemical supply companies or metal alloy suppliers.",
+        "In: Specialty metal stores or online suppliers of indium.",
+        "Tm: Rare earth metal suppliers or online distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each metal precisely using a digital scale.",
+        "2. In a fume hood, combine Ag, Co, In, and Tm in a clean, dry container.",
+        "3. Mix the powders thoroughly using a spatula to ensure uniformity.",
+        "4. Transfer the mixed powders into a high-purity graphite crucible."
+      ],
+      "raw_text": "1. Weigh out each metal precisely using a digital scale. \n 2. In a fume hood, combine Ag, Co, In, and Tm in a clean, dry container. \n 3. Mix the powders thoroughly using a spatula to ensure uniformity. \n 4. Transfer the mixed powders into a high-purity graphite crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat gradually to 1000°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the metals."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat gradually to 1000°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the metals."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Ensure the crucible remains undisturbed during cooling for optimal solidification."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Ensure the crucible remains undisturbed during cooling for optimal solidification."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified alloy from the crucible.",
+        "2. Use a diamond grinding tool to smooth out any rough edges and achieve desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, apply a sealant to enhance surface finish and protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified alloy from the crucible. \n 2. Use a diamond grinding tool to smooth out any rough edges and achieve desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Optionally, apply a sealant to enhance surface finish and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2969895.0,
+      "density": 55477.0,
+      "crystal_system": "trigonal",
+      "space_group": "R32",
+      "space_group_number": 155,
+      "point_group": "32",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -153418.0,
+      "formation_energy_per_atom": -27219.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -34.0
+    },
+    "electronic": {
+      "bandgap": 2.484,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c393b39948",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.200319Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2O12Sr6Zn1Zr1.json",
+      "material://Co2O12Sr6Zn1Zr1"
+    ]
+  }
+}

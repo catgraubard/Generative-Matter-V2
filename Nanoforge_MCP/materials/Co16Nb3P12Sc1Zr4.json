@@ -1,0 +1,117 @@
+{
+  "id": "Co16Nb3P12Sc1Zr4",
+  "uri": "material://Co16Nb3P12Sc1Zr4",
+  "composition": {
+    "formula": "Co16Nb3P12Sc1Zr4",
+    "elements": {
+      "Co": 16,
+      "Nb": 3,
+      "P": 12,
+      "Sc": 1,
+      "Zr": 4
+    },
+    "reduced_formula": "Zr4ScNb3(Co4P3)4",
+    "element_list": [
+      "P",
+      "Sc",
+      "Co",
+      "Zr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 36.0 g, In: 23.0 g, Li: 14.0 g, Rb: 6.0 g, Sb: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Buy from a chemical supplier; In: Buy from a metal supplier; Li: Buy from a chemical supplier; Rb: Buy from a chemical supplier; Sb: Buy from a metal supplier.",
+      "steps": [
+        "Cs: Buy from a chemical supplier; In: Buy from a metal supplier; Li: Buy from a chemical supplier; Rb: Buy from a chemical supplier; Sb: Buy from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, add Cs first, followed by In, Li, Rb, and finally Sb.",
+        "3. Mix the powders thoroughly using a mortar and pestle for at least 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, add Cs first, followed by In, Li, Rb, and finally Sb. \n 3. Mix the powders thoroughly using a mortar and pestle for at least 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 5°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not remove the crucible until the furnace has cooled completely."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not remove the crucible until the furnace has cooled completely."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 458196.0,
+      "density": 72597.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2847042.0,
+      "formation_energy_per_atom": -9773.0,
+      "decomposition_energy_per_atom": -331.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -331.0,
+      "decomposition_energy_mp_oqmd": -33.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ceeb5fa133",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.007542Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Nb3P12Sc1Zr4.json",
+      "material://Co16Nb3P12Sc1Zr4"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "B8Er1Fe8Pa1",
+  "uri": "material://B8Er1Fe8Pa1",
+  "composition": {
+    "formula": "B8Er1Fe8Pa1",
+    "elements": {
+      "B": 8,
+      "Er": 1,
+      "Fe": 8,
+      "Pa": 1
+    },
+    "reduced_formula": "ErPa(FeB)8",
+    "element_list": [
+      "B",
+      "Fe",
+      "Er",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30g, 8Er: 20g, Fe: 40g, Pa: 10g, Resin binder: 50g, Hardener: 15g, Release agent: 5g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store, 8Er: Specialty electronics supplier, Fe: Metal supply store, Pa: Chemical supply store, Resin binder: Art supply store, Hardener: Art supply store, Release agent: Hardware store",
+      "steps": [
+        "B: Chemical supply store, 8Er: Specialty electronics supplier, Fe: Metal supply store, Pa: Chemical supply store, Resin binder: Art supply store, Hardener: Art supply store, Release agent: Hardware store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material accurately using a digital scale.",
+        "2. In a mixing container, combine B, 8Er, Fe, and Pa thoroughly using a metal spatula.",
+        "3. In a separate container, mix the resin binder with the hardener according to the manufacturer's instructions.",
+        "4. Slowly add the mixed resin to the solid ingredient mixture, stirring continuously until a uniform paste is formed."
+      ],
+      "raw_text": "1. Measure each material accurately using a digital scale. \n 2. In a mixing container, combine B, 8Er, Fe, and Pa thoroughly using a metal spatula. \n 3. In a separate container, mix the resin binder with the hardener according to the manufacturer's instructions. \n 4. Slowly add the mixed resin to the solid ingredient mixture, stirring continuously until a uniform paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 150,
+      "steps": [
+        "1. Preheat an oven to 150°C (302°F).",
+        "2. Pour the mixture into a mold of dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Place the mold in the preheated oven for 30 minutes to cure the resin."
+      ],
+      "raw_text": "1. Preheat an oven to 150°C (302°F). \n 2. Pour the mixture into a mold of dimensions 3 inches x 2 inches x 7 inches. \n 3. Place the mold in the preheated oven for 30 minutes to cure the resin."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After 30 minutes, turn off the oven and allow the mold to cool gradually inside the oven for an additional 30 minutes.",
+        "2. Remove the mold from the oven and let it cool at room temperature for 1 hour."
+      ],
+      "raw_text": "1. After 30 minutes, turn off the oven and allow the mold to cool gradually inside the oven for an additional 30 minutes. \n 2. Remove the mold from the oven and let it cool at room temperature for 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the mold.",
+        "2. Sand any rough edges using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Apply a coat of release agent to the surface for protection and shine.",
+        "4. Allow the release agent to dry completely before handling the final product."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the mold. \n 2. Sand any rough edges using fine-grit sandpaper to achieve a smooth finish. \n 3. Apply a coat of release agent to the surface for protection and shine. \n 4. Allow the release agent to dry completely before handling the final product."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 1837241.0,
+      "density": 84195.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4",
+      "space_group_number": 81,
+      "point_group": "-4",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1443052.0,
+      "formation_energy_per_atom": -5015.0,
+      "decomposition_energy_per_atom": -925.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -925.0,
+      "decomposition_energy_mp_oqmd": -602.0
+    },
+    "electronic": {
+      "bandgap": 0.0138,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "068d0606a7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:23.663469Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B8Er1Fe8Pa1.json",
+      "material://B8Er1Fe8Pa1"
+    ]
+  }
+}

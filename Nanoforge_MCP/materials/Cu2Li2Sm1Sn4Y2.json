@@ -1,0 +1,139 @@
+{
+  "id": "Cu2Li2Sm1Sn4Y2",
+  "uri": "material://Cu2Li2Sm1Sn4Y2",
+  "composition": {
+    "formula": "Cu2Li2Sm1Sn4Y2",
+    "elements": {
+      "Cu": 2,
+      "Li": 2,
+      "Sm": 1,
+      "Sn": 4,
+      "Y": 2
+    },
+    "reduced_formula": "Li2SmY2(CuSn2)2",
+    "element_list": [
+      "Li",
+      "Cu",
+      "Y",
+      "Sn",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 210.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 120 g \n Li: 30 g \n Sm: 20 g \n Sn: 210 g \n Y: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supplier or online (copper wire or pellets). \n Li: Obtain lithium from a chemical supplier (lithium carbonate or lithium metal). \n Sm: Source samarium from specialty metal suppliers. \n Sn: Acquire tin from a metal supplier (tin ingots or powder). \n Y: Get yttrium from a chemical supplier or metal distributor.",
+      "steps": [
+        "Cu: Purchase from a metal supplier or online (copper wire or pellets).",
+        "Li: Obtain lithium from a chemical supplier (lithium carbonate or lithium metal).",
+        "Sm: Source samarium from specialty metal suppliers.",
+        "Sn: Acquire tin from a metal supplier (tin ingots or powder).",
+        "Y: Get yttrium from a chemical supplier or metal distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Cu, Li, Sm, Sn, and Y.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powdered mixture into a suitable crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine Cu, Li, Sm, Sn, and Y. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Transfer the powdered mixture into a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000 °C.",
+        "2. Place the crucible with the powdered mixture in the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and homogenization of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000 °C. \n 2. Place the crucible with the powdered mixture in the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and homogenization of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cool, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cool, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified compound from the crucible.",
+        "2. Use a diamond grinder or sandpaper to smooth out any rough edges and achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, seal the surface with a suitable protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified compound from the crucible. \n 2. Use a diamond grinder or sandpaper to smooth out any rough edges and achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, seal the surface with a suitable protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 2448339.0,
+      "density": 64024.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -52211.0,
+      "formation_energy_per_atom": -5914.0,
+      "decomposition_energy_per_atom": -62.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -31.0,
+      "decomposition_energy_mp": -57.0,
+      "decomposition_energy_mp_oqmd": -39.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a723f47e69",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:55.762429Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Li2Sm1Sn4Y2.json",
+      "material://Cu2Li2Sm1Sn4Y2"
+    ]
+  }
+}

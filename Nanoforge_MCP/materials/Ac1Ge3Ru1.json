@@ -1,0 +1,113 @@
+{
+  "id": "Ac1Ge3Ru1",
+  "uri": "material://Ac1Ge3Ru1",
+  "composition": {
+    "formula": "Ac1Ge3Ru1",
+    "elements": {
+      "Ac": 1,
+      "Ge": 3,
+      "Ru": 1
+    },
+    "reduced_formula": "AcGe3Ru",
+    "element_list": [
+      "Ge",
+      "Ru",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 25.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 25.2 g, Ge: 75.6 g, Ru: 25.2 g"
+    },
+    "sourcing": {
+      "instructions": "Ac (Acetylene) - chemical supply store; Ge (Germanium) - electronics suppliers; Ru (Ruthenium) - precious metal suppliers.",
+      "steps": [
+        "Ac (Acetylene) - chemical supply store; Ge (Germanium) - electronics suppliers; Ru (Ruthenium) - precious metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 25.2 g of Acetylene, 75.6 g of Germanium, and 25.2 g of Ruthenium using an analytical balance.",
+        "2. In a fume hood, combine Acetylene with Germanium in a glass beaker.",
+        "3. Stir the mixture using a glass rod until homogeneous.",
+        "4. Slowly add Ruthenium powder while stirring continuously until fully integrated."
+      ],
+      "raw_text": "1. Measure 25.2 g of Acetylene, 75.6 g of Germanium, and 25.2 g of Ruthenium using an analytical balance. \n 2. In a fume hood, combine Acetylene with Germanium in a glass beaker. \n 3. Stir the mixture using a glass rod until homogeneous. \n 4. Slowly add Ruthenium powder while stirring continuously until fully integrated."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a graphite crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1200°C at a rate of 10°C/min and maintain for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a graphite crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 1200°C at a rate of 10°C/min and maintain for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature over 6 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature over 6 hours. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond blade saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective coating if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond blade saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1059062.0,
+      "density": 85608.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -29915.0,
+      "formation_energy_per_atom": -5301.0,
+      "decomposition_energy_per_atom": -1777.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -1777.0,
+      "decomposition_energy_mp_oqmd": -385.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6db4be4f47",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:39.172129Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Ge3Ru1.json",
+      "material://Ac1Ge3Ru1"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "B2Se2Zr4",
+  "uri": "material://B2Se2Zr4",
+  "composition": {
+    "formula": "B2Se2Zr4",
+    "elements": {
+      "B": 2,
+      "Se": 2,
+      "Zr": 4
+    },
+    "reduced_formula": "Zr2BSe",
+    "element_list": [
+      "B",
+      "Se",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30 g (Boron powder) \n Se: 20 g (Selenium powder) \n Zr: 80 g (Zirconium powder) \n Total: 130 g"
+    },
+    "sourcing": {
+      "instructions": "Boron powder: Available from chemical supply stores or online retailers (e.g., Sigma-Aldrich, Amazon). \n Selenium powder: Obtain from chemical suppliers or specialized online stores. \n Zirconium powder: Sourced from materials science suppliers or online marketplaces.",
+      "steps": [
+        "Boron powder: Available from chemical supply stores or online retailers (e.g., Sigma-Aldrich, Amazon).",
+        "Selenium powder: Obtain from chemical suppliers or specialized online stores.",
+        "Zirconium powder: Sourced from materials science suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine 30 g of Boron powder, 20 g of Selenium powder, and 80 g of Zirconium powder.",
+        "3. Mix thoroughly using a spatula, ensuring uniform distribution of powders.",
+        "4. Transfer the mixed powders to a ball mill for 1 hour to achieve a fine, homogeneous mixture."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine 30 g of Boron powder, 20 g of Selenium powder, and 80 g of Zirconium powder. \n 3. Mix thoroughly using a spatula, ensuring uniform distribution of powders. \n 4. Transfer the mixed powders to a ball mill for 1 hour to achieve a fine, homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the homogenized powder mixture in a crucible suitable for high temperatures.",
+        "3. Heat the mixture in the furnace for 2 hours to allow for compound formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the homogenized powder mixture in a crucible suitable for high temperatures. \n 3. Heat the mixture in the furnace for 2 hours to allow for compound formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace door until it has cooled completely (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace door until it has cooled completely (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surface with fine-grade sandpaper for a smooth finish.",
+        "4. Optionally, seal the sample with a clear resin for enhanced durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surface with fine-grade sandpaper for a smooth finish. \n 4. Optionally, seal the sample with a clear resin for enhanced durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 141518.0,
+      "density": 63883.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -641385.0,
+      "formation_energy_per_atom": -11996.0,
+      "decomposition_energy_per_atom": -265.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -254.0,
+      "decomposition_energy_mp": -265.0,
+      "decomposition_energy_mp_oqmd": -254.0
+    },
+    "electronic": {
+      "bandgap": 0.0207,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1d0fe22044",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:53.750148Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Se2Zr4.json",
+      "material://B2Se2Zr4"
+    ]
+  }
+}

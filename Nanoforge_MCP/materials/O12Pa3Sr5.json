@@ -1,0 +1,106 @@
+{
+  "id": "O12Pa3Sr5",
+  "uri": "material://O12Pa3Sr5",
+  "composition": {
+    "formula": "O12Pa3Sr5",
+    "elements": {
+      "O": 12,
+      "Pa": 3,
+      "Sr": 5
+    },
+    "reduced_formula": "Sr5Pa3O12",
+    "element_list": [
+      "O",
+      "Sr",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Oxygen (O): 192.00 g (from O2 gas) \n - Phosphorus (P): 93.00 g \n - Strontium (Sr): 250.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Oxygen: Obtain from gas suppliers or use oxygen concentrators. \n - Phosphorus: Purchase from chemical supply companies or online. \n - Strontium: Buy from chemical suppliers or online marketplaces.",
+      "steps": [
+        "- Oxygen: Obtain from gas suppliers or use oxygen concentrators.",
+        "- Phosphorus: Purchase from chemical supply companies or online.",
+        "- Strontium: Buy from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 192.00 g of oxygen gas (O2) using a gas flow meter.",
+        "2. Weigh out 93.00 g of phosphorus (P) in a fume hood.",
+        "3. Measure 250.00 g of strontium (Sr) using a digital scale.",
+        "4. In a controlled environment, combine the phosphorus and strontium in a ceramic or glass reaction vessel."
+      ],
+      "raw_text": "1. Measure 192.00 g of oxygen gas (O2) using a gas flow meter. \n 2. Weigh out 93.00 g of phosphorus (P) in a fume hood. \n 3. Measure 250.00 g of strontium (Sr) using a digital scale. \n 4. In a controlled environment, combine the phosphorus and strontium in a ceramic or glass reaction vessel."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 3,
+      "steps": [
+        "- Heat the mixture to 800°C in a muffle furnace.",
+        "- Maintain this temperature for 3 hours to ensure complete reaction."
+      ],
+      "raw_text": "- Heat the mixture to 800°C in a muffle furnace. \n - Maintain this temperature for 3 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "furnace_cool",
+      "steps": [
+        "- Allow the material to cool gradually in the furnace for 6 hours after heating is complete.",
+        "- Once cooled, transfer to a desiccator for 1 hour."
+      ],
+      "raw_text": "- Allow the material to cool gradually in the furnace for 6 hours after heating is complete. \n - Once cooled, transfer to a desiccator for 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sample from the desiccator and break it into smaller pieces if necessary.",
+        "2. Polish the exterior using fine-grit sandpaper.",
+        "3. Seal the surface with a clear epoxy resin for durability."
+      ],
+      "raw_text": "1. Remove the sample from the desiccator and break it into smaller pieces if necessary. \n 2. Polish the exterior using fine-grit sandpaper. \n 3. Seal the surface with a clear epoxy resin for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3325045.0,
+      "density": 66081.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1703135.0,
+      "formation_energy_per_atom": -36973.0,
+      "decomposition_energy_per_atom": -3205.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -216.0,
+      "decomposition_energy_mp": -321.0,
+      "decomposition_energy_mp_oqmd": -3149.0
+    },
+    "electronic": {
+      "bandgap": 0.003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5065e7676c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:01.179756Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O12Pa3Sr5.json",
+      "material://O12Pa3Sr5"
+    ]
+  }
+}

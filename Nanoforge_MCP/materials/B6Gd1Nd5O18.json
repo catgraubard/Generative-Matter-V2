@@ -1,0 +1,111 @@
+{
+  "id": "B6Gd1Nd5O18",
+  "uri": "material://B6Gd1Nd5O18",
+  "composition": {
+    "formula": "B6Gd1Nd5O18",
+    "elements": {
+      "B": 6,
+      "Gd": 1,
+      "Nd": 5,
+      "O": 18
+    },
+    "reduced_formula": "Nd5Gd(BO3)6",
+    "element_list": [
+      "B",
+      "O",
+      "Nd",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Oxide (BaO) - 1.5 g \n Gadolinium Oxide (Gd2O3) - 5.0 g \n Neodymium Oxide (Nd2O3) - 10.0 g \n Oxygen (O2) - 1.0 g (account for stoichiometric excess)"
+    },
+    "sourcing": {
+      "instructions": "Barium Oxide - Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Gadolinium Oxide - Specialty rare earth material suppliers \n Neodymium Oxide - Chemical suppliers or online marketplaces \n Oxygen - Gas cylinders from industrial gas suppliers",
+      "steps": [
+        "Barium Oxide - Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Gadolinium Oxide - Specialty rare earth material suppliers",
+        "Neodymium Oxide - Chemical suppliers or online marketplaces",
+        "Oxygen - Gas cylinders from industrial gas suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of BaO, Gd2O3, and Nd2O3 using a precision scale.",
+        "2. Place the weighed powders into a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly grind and mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh the required amounts of BaO, Gd2O3, and Nd2O3 using a precision scale. \n 2. Place the weighed powders into a clean, dry mixing container. \n 3. Use a mortar and pestle to thoroughly grind and mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the furnace to 1000°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the furnace to 1000°C at a rate of 5°C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. This may take approximately 6-8 hours.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. This may take approximately 6-8 hours. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any imperfections, and if necessary, use a diamond file to smooth out rough edges.",
+        "3. Optionally, apply a sealant suitable for metal oxides to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any imperfections, and if necessary, use a diamond file to smooth out rough edges. \n 3. Optionally, apply a sealant suitable for metal oxides to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 3630406.0,
+      "density": 5632.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2713617.0,
+      "formation_energy_per_atom": -34768.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -57.0,
+      "decomposition_energy_mp_oqmd": 5.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "67fbe557d8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:31.602533Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Gd1Nd5O18.json",
+      "material://B6Gd1Nd5O18"
+    ]
+  }
+}

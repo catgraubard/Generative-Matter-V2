@@ -1,0 +1,110 @@
+{
+  "id": "Al7La3Li1Zn1",
+  "uri": "material://Al7La3Li1Zn1",
+  "composition": {
+    "formula": "Al7La3Li1Zn1",
+    "elements": {
+      "Al": 7,
+      "La": 3,
+      "Li": 1,
+      "Zn": 1
+    },
+    "reduced_formula": "LiLa3Al7Zn",
+    "element_list": [
+      "Li",
+      "Al",
+      "Zn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La2O3: 80 g \n - Se: 30 g \n - La4O42Se12: 110 g (calculated based on stoichiometry, and adjusted for excess during synthesis)"
+    },
+    "sourcing": {
+      "instructions": "- La2O3: Can be purchased from chemical supply companies like Sigma-Aldrich or online marketplaces specializing in rare earth materials. \n - Se: Available from chemical suppliers or through specialized online retailers.",
+      "steps": [
+        "- La2O3: Can be purchased from chemical supply companies like Sigma-Aldrich or online marketplaces specializing in rare earth materials.",
+        "- Se: Available from chemical suppliers or through specialized online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 80 g of La2O3 and 30 g of Se using a precision balance.",
+        "2. In a glove box or under an inert atmosphere, combine the La2O3 and Se in a ceramic crucible.",
+        "3. Mix thoroughly until the materials are homogeneously blended."
+      ],
+      "raw_text": "1. Measure out 80 g of La2O3 and 30 g of Se using a precision balance. \n 2. In a glove box or under an inert atmosphere, combine the La2O3 and Se in a ceramic crucible. \n 3. Mix thoroughly until the materials are homogeneously blended."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 800°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La4O42Se12."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 800°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La4O42Se12."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature without opening the furnace door.",
+        "2. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature without opening the furnace door. \n 2. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Inspect the formed material for uniformity.",
+        "3. If necessary, grind the material to a fine powder using a mortar and pestle for any further processing.",
+        "4. If creating a solid sample, mold the material into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "5. Optionally, seal the surface with a suitable resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Inspect the formed material for uniformity. \n 3. If necessary, grind the material to a fine powder using a mortar and pestle for any further processing. \n 4. If creating a solid sample, mold the material into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 5. Optionally, seal the surface with a suitable resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 250078.0,
+      "density": 45016.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -496175.0,
+      "formation_energy_per_atom": -4518.0,
+      "decomposition_energy_per_atom": -107.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -75.0,
+      "decomposition_energy_mp": -107.0,
+      "decomposition_energy_mp_oqmd": -98.0
+    },
+    "electronic": {
+      "bandgap": 0.0166,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "be2a7c97a3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.451170Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al7La3Li1Zn1.json",
+      "material://Al7La3Li1Zn1"
+    ]
+  }
+}

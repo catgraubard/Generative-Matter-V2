@@ -1,0 +1,109 @@
+{
+  "id": "Ba2Er2Fe2O14Zn6",
+  "uri": "material://Ba2Er2Fe2O14Zn6",
+  "composition": {
+    "formula": "Ba2Er2Fe2O14Zn6",
+    "elements": {
+      "Ba": 2,
+      "Er": 2,
+      "Fe": 2,
+      "O": 14,
+      "Zn": 6
+    },
+    "reduced_formula": "BaErZn3FeO7",
+    "element_list": [
+      "O",
+      "Fe",
+      "Zn",
+      "Ba",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "BaO: 40.0 g, Er2O3: 49.4 g, Fe2O3: 23.0 g, ZnO: 48.0 g"
+    },
+    "sourcing": {
+      "instructions": "BaO: chemical supply stores; Er2O3: specialty metal suppliers; Fe2O3: chemical supply; ZnO: online chemical retailers",
+      "steps": [
+        "BaO: chemical supply stores; Er2O3: specialty metal suppliers; Fe2O3: chemical supply; ZnO: online chemical retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean container, combine BaO, Er2O3, Fe2O3, and ZnO.",
+        "3. Mix thoroughly using a mortar and pestle for at least 15 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean container, combine BaO, Er2O3, Fe2O3, and ZnO. \n 3. Mix thoroughly using a mortar and pestle for at least 15 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixture in a crucible and insert it into the furnace.",
+        "3. Heat for 4 hours and maintain the temperature."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixture in a crucible and insert it into the furnace. \n 3. Heat for 4 hours and maintain the temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature gradually (approximately 6-8 hours).",
+        "2. Do not open the furnace door during the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature gradually (approximately 6-8 hours). \n 2. Do not open the furnace door during the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or rough edges.",
+        "3. If necessary, sand the edges with fine-grit sandpaper for a smooth finish.",
+        "4. Seal the sample with a clear coat for protection against moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or rough edges. \n 3. If necessary, sand the edges with fine-grit sandpaper for a smooth finish. \n 4. Seal the sample with a clear coat for protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 371238.0,
+      "density": 59817.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1696072.0,
+      "formation_energy_per_atom": -24178.0,
+      "decomposition_energy_per_atom": -146.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -89.0,
+      "decomposition_energy_mp": -151.0,
+      "decomposition_energy_mp_oqmd": -151.0
+    },
+    "electronic": {
+      "bandgap": 2.2703,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fc60fd4881",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.921873Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Er2Fe2O14Zn6.json",
+      "material://Ba2Er2Fe2O14Zn6"
+    ]
+  }
+}

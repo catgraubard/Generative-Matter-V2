@@ -1,0 +1,113 @@
+{
+  "id": "Al3Nd1Pr1Sc1",
+  "uri": "material://Al3Nd1Pr1Sc1",
+  "composition": {
+    "formula": "Al3Nd1Pr1Sc1",
+    "elements": {
+      "Al": 3,
+      "Nd": 1,
+      "Pr": 1,
+      "Sc": 1
+    },
+    "reduced_formula": "PrNdScAl3",
+    "element_list": [
+      "Al",
+      "Sc",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 140.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 140 g, Mn: 40 g, Ni: 60 g, P: 35 g, Tb: 10 g (Total: 285 g)"
+    },
+    "sourcing": {
+      "instructions": "Fe: Metal supply stores or online suppliers, Mn: Chemical supply companies, Ni: Metal supply stores, P: Chemical supply stores, Tb: Rare earth metal suppliers.",
+      "steps": [
+        "Fe: Metal supply stores or online suppliers, Mn: Chemical supply companies, Ni: Metal supply stores, P: Chemical supply stores, Tb: Rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine Fe, Mn, Ni, P, and Tb.",
+        "3. Mix thoroughly using a mechanical stirrer to ensure uniform distribution of materials."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine Fe, Mn, Ni, P, and Tb. \n 3. Mix thoroughly using a mechanical stirrer to ensure uniform distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200 °C (2192 °F) at a rate of 5 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and homogeneity."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace to 1200 °C (2192 °F) at a rate of 5 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and homogeneity."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature to 800 °C (1472 °F) at a rate of 5 °C/min.",
+        "2. Allow to cool naturally in the furnace until it reaches room temperature (approx. 1-2 hours)."
+      ],
+      "raw_text": "1. Gradually reduce the temperature to 800 °C (1472 °F) at a rate of 5 °C/min. \n 2. Allow to cool naturally in the furnace until it reaches room temperature (approx. 1-2 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder to smooth out any rough edges.",
+        "3. Optionally, seal with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a grinder to smooth out any rough edges. \n 3. Optionally, seal with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1419691.0,
+      "density": 48078.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -295949.0,
+      "formation_energy_per_atom": -4128.0,
+      "decomposition_energy_per_atom": -42.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 0.0168,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d0a852d4cc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.389780Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Nd1Pr1Sc1.json",
+      "material://Al3Nd1Pr1Sc1"
+    ]
+  }
+}

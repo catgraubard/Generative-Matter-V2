@@ -1,0 +1,135 @@
+{
+  "id": "O12Sc2Tb3Y3",
+  "uri": "material://O12Sc2Tb3Y3",
+  "composition": {
+    "formula": "O12Sc2Tb3Y3",
+    "elements": {
+      "O": 12,
+      "Sc": 2,
+      "Tb": 3,
+      "Y": 3
+    },
+    "reduced_formula": "Tb3Y3Sc2O12",
+    "element_list": [
+      "O",
+      "Sc",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 36.0 g \n Sc: 10.0 g \n Tb: 15.0 g \n Y: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "O: Purchase from chemical supply stores or online suppliers specializing in oxides. \n Sc: Obtain from rare earth material suppliers. \n Tb: Source from specialty chemical vendors. \n Y: Available from chemical suppliers focusing on yttrium compounds.",
+      "steps": [
+        "O: Purchase from chemical supply stores or online suppliers specializing in oxides.",
+        "Sc: Obtain from rare earth material suppliers.",
+        "Tb: Source from specialty chemical vendors.",
+        "Y: Available from chemical suppliers focusing on yttrium compounds."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 36.0 g of O using an analytical balance.",
+        "2. Weigh out 10.0 g of Sc.",
+        "3. Weigh 15.0 g of Tb.",
+        "4. Weigh 15.0 g of Y.",
+        "5. Combine the weighed materials in a clean, dry mixing container.",
+        "6. Use a mortar and pestle to thoroughly mix the powders until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 36.0 g of O using an analytical balance. \n 2. Weigh out 10.0 g of Sc. \n 3. Weigh 15.0 g of Tb. \n 4. Weigh 15.0 g of Y. \n 5. Combine the weighed materials in a clean, dry mixing container. \n 6. Use a mortar and pestle to thoroughly mix the powders until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a muffle furnace at 1200 °C for 2 hours.",
+        "3. Ensure a controlled heating ramp rate of 5 °C/min to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a muffle furnace at 1200 °C for 2 hours. \n 3. Ensure a controlled heating ramp rate of 5 °C/min to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid opening the furnace door until it has cooled to prevent rapid cooling."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid opening the furnace door until it has cooled to prevent rapid cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully using appropriate safety equipment.",
+        "2. Grind any rough edges using a diamond file for smoothness.",
+        "3. Optionally, seal with a high-temperature resistant sealant if necessary for application.",
+        "4. Store in a dry, cool place for future use."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully using appropriate safety equipment. \n 2. Grind any rough edges using a diamond file for smoothness. \n 3. Optionally, seal with a high-temperature resistant sealant if necessary for application. \n 4. Store in a dry, cool place for future use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2903878.0,
+      "density": 58636.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1849593.0,
+      "formation_energy_per_atom": -39808.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -57.0,
+      "decomposition_energy_mp_oqmd": -57.0
+    },
+    "electronic": {
+      "bandgap": 4.4798,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "53e3713d40",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.644416Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O12Sc2Tb3Y3.json",
+      "material://O12Sc2Tb3Y3"
+    ]
+  }
+}

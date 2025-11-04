@@ -1,0 +1,113 @@
+{
+  "id": "Cr3Fe1Na1Sb12",
+  "uri": "material://Cr3Fe1Na1Sb12",
+  "composition": {
+    "formula": "Cr3Fe1Na1Sb12",
+    "elements": {
+      "Cr": 3,
+      "Fe": 1,
+      "Na": 1,
+      "Sb": 12
+    },
+    "reduced_formula": "NaCr3FeSb12",
+    "element_list": [
+      "Na",
+      "Cr",
+      "Fe",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 120 g, Fe: 80 g, Na: 30 g, Sb: 480 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Purchase from a chemical supplier or online platform specializing in metals; Fe: Local hardware store or online; Na: Chemical supply store; Sb: Metal supplier or online.",
+      "steps": [
+        "Cr: Purchase from a chemical supplier or online platform specializing in metals; Fe: Local hardware store or online; Na: Chemical supply store; Sb: Metal supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, add Cr, Fe, Na, and Sb sequentially.",
+        "3. Mix thoroughly using a mechanical stirrer for 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, add Cr, Fe, Na, and Sb sequentially. \n 3. Mix thoroughly using a mechanical stirrer for 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to allow for complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to allow for complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Avoid rapid cooling methods to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Avoid rapid cooling methods to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120 and 220) to smooth out any rough edges.",
+        "3. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120 and 220) to smooth out any rough edges. \n 3. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4238075.0,
+      "density": 6645.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -910897.0,
+      "formation_energy_per_atom": -1641.0,
+      "decomposition_energy_per_atom": -553.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -76.0,
+      "decomposition_energy_mp": -553.0,
+      "decomposition_energy_mp_oqmd": -551.0
+    },
+    "electronic": {
+      "bandgap": 0.0121,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9fd1aecca5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:45.697463Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr3Fe1Na1Sb12.json",
+      "material://Cr3Fe1Na1Sb12"
+    ]
+  }
+}

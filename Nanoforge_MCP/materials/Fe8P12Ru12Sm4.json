@@ -1,0 +1,135 @@
+{
+  "id": "Fe8P12Ru12Sm4",
+  "uri": "material://Fe8P12Ru12Sm4",
+  "composition": {
+    "formula": "Fe8P12Ru12Sm4",
+    "elements": {
+      "Fe": 8,
+      "P": 12,
+      "Ru": 12,
+      "Sm": 4
+    },
+    "reduced_formula": "SmFe2(PRu)3",
+    "element_list": [
+      "P",
+      "Fe",
+      "Ru",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 280.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 80 g \n Nb: 280 g \n Si: 20 g \n Ti: 10 g \n W: 50 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Chemical supply store or online chemical supplier. \n Nb (Niobium): Specialty metal supplier or online marketplace. \n Si (Silicon): Electronic component supplier or chemical supply store. \n Ti (Titanium): Metal supplier focused on aerospace or medical materials. \n W (Tungsten): Specialty metal supplier or online.",
+      "steps": [
+        "B (Boron): Chemical supply store or online chemical supplier.",
+        "Nb (Niobium): Specialty metal supplier or online marketplace.",
+        "Si (Silicon): Electronic component supplier or chemical supply store.",
+        "Ti (Titanium): Metal supplier focused on aerospace or medical materials.",
+        "W (Tungsten): Specialty metal supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials using an analytical balance for precision.",
+        "2. In a clean, dry container, add 80 g of Boron (B).",
+        "3. Gradually mix in 280 g of Niobium (Nb) while ensuring even distribution.",
+        "4. Add 20 g of Silicon (Si) followed by 10 g of Titanium (Ti), mixing thoroughly after each addition.",
+        "5. Finally, incorporate 50 g of Tungsten (W) and mix until homogenous."
+      ],
+      "raw_text": "1. Weigh all materials using an analytical balance for precision. \n 2. In a clean, dry container, add 80 g of Boron (B). \n 3. Gradually mix in 280 g of Niobium (Nb) while ensuring even distribution. \n 4. Add 20 g of Silicon (Si) followed by 10 g of Titanium (Ti), mixing thoroughly after each addition. \n 5. Finally, incorporate 50 g of Tungsten (W) and mix until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1400,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Preheat a furnace to 1400°C.",
+        "2. Place the mixed powder in a crucible suitable for high-temperature applications.",
+        "3. Heat the crucible gradually to avoid thermal shock, maintaining a ramp-up rate of 10°C/min until the target temperature is reached.",
+        "4. Hold at 1400°C for 2 hours to ensure complete melting and mixing of components."
+      ],
+      "raw_text": "1. Preheat a furnace to 1400°C. \n 2. Place the mixed powder in a crucible suitable for high-temperature applications. \n 3. Heat the crucible gradually to avoid thermal shock, maintaining a ramp-up rate of 10°C/min until the target temperature is reached. \n 4. Hold at 1400°C for 2 hours to ensure complete melting and mixing of components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Ensure the crucible is not opened until fully cooled to avoid contamination."
+      ],
+      "raw_text": "1. After heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Ensure the crucible is not opened until fully cooled to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using progressively finer grits (starting from 120-grit to 600-grit) for a smooth finish.",
+        "4. Optionally, seal the final product with a protective coating for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using progressively finer grits (starting from 120-grit to 600-grit) for a smooth finish. \n 4. Optionally, seal the final product with a protective coating for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4980041.0,
+      "density": 87785.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2906663.0,
+      "formation_energy_per_atom": -7717.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -121.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b115a384eb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:12.392221Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe8P12Ru12Sm4.json",
+      "material://Fe8P12Ru12Sm4"
+    ]
+  }
+}

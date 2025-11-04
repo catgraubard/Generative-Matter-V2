@@ -1,0 +1,112 @@
+{
+  "id": "Ag4Cd4Mo6O24",
+  "uri": "material://Ag4Cd4Mo6O24",
+  "composition": {
+    "formula": "Ag4Cd4Mo6O24",
+    "elements": {
+      "Ag": 4,
+      "Cd": 4,
+      "Mo": 6,
+      "O": 24
+    },
+    "reduced_formula": "Cd2Ag2(MoO4)3",
+    "element_list": [
+      "O",
+      "Mo",
+      "Ag",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20g, 6: 15g, In: 5g, Ni: 25g, Ti: 10g"
+    },
+    "sourcing": {
+      "instructions": "B: Local metal supplier, 6: Specialty chemical supplier, In: Electronics component store, Ni: Metal warehouse, Ti: Metal supplier",
+      "steps": [
+        "B: Local metal supplier, 6: Specialty chemical supplier, In: Electronics component store, Ni: Metal warehouse, Ti: Metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. Combine B, 6, In, Ni, and Ti in a clean, dry mixing container.",
+        "3. Stir the mixture using a spatula until uniform distribution is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale.\n2. Combine B, 6, In, Ni, and Ti in a clean, dry mixing container.\n3. Stir the mixture using a spatula until uniform distribution is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a furnace at 1200°C for 2 hours to facilitate alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible.\n2. Heat in a furnace at 1200°C for 2 hours to facilitate alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 3-4 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 3-4 hours).\n2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the material from the crucible.",
+        "2. Inspect for any irregularities.",
+        "3. Use a fine-grit sandpaper to smoothen the surfaces.",
+        "4. Optionally cure in a vacuum for 24 hours to enhance material stability."
+      ],
+      "raw_text": "1. Once cooled, remove the material from the crucible.\n2. Inspect for any irregularities.\n3. Use a fine-grit sandpaper to smoothen the surfaces.\n4. Optionally cure in a vacuum for 24 hours to enhance material stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 645938.0,
+      "density": 47321.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2610101.0,
+      "formation_energy_per_atom": -16359.0,
+      "decomposition_energy_per_atom": -229.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -32.0,
+      "decomposition_energy_mp": -235.0,
+      "decomposition_energy_mp_oqmd": -95.0
+    },
+    "electronic": {
+      "bandgap": 2.3308,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "deaf5377e2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.393847Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag4Cd4Mo6O24.json",
+      "material://Ag4Cd4Mo6O24"
+    ]
+  }
+}

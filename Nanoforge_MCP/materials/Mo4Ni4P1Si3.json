@@ -1,0 +1,128 @@
+{
+  "id": "Mo4Ni4P1Si3",
+  "uri": "material://Mo4Ni4P1Si3",
+  "composition": {
+    "formula": "Mo4Ni4P1Si3",
+    "elements": {
+      "Mo": 4,
+      "Ni": 4,
+      "P": 1,
+      "Si": 3
+    },
+    "reduced_formula": "Si3Ni4Mo4P",
+    "element_list": [
+      "Si",
+      "P",
+      "Ni",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 15.0 g\nIn: 10.0 g\nSb: 12.5 g\nZr: 20.0 g\nTotal: 67.5 g"
+    },
+    "sourcing": {
+      "instructions": "Erbium oxide (Er2O3) from chemical suppliers; Indium metal (In) from metal traders or online retailers; Antimony (Sb) from chemical suppliers; Zirconium (Zr) from metal suppliers.",
+      "steps": [
+        "Erbium oxide (Er2O3) from chemical suppliers; Indium metal (In) from metal traders or online retailers; Antimony (Sb) from chemical suppliers; Zirconium (Zr) from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15.0 g of Er, 10.0 g of In, 12.5 g of Sb, and 20.0 g of Zr using a precision scale.",
+        "2. Place each material in a clean, dry mixing bowl.",
+        "3. Use a mortar and pestle to finely grind the powders together until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 15.0 g of Er, 10.0 g of In, 12.5 g of Sb, and 20.0 g of Zr using a precision scale.\n2. Place each material in a clean, dry mixing bowl.\n3. Use a mortar and pestle to finely grind the powders together until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Place the crucible in a furnace set to 1200 °C.",
+        "3. Allow the mixture to sinter for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible.\n2. Place the crucible in a furnace set to 1200 °C.\n3. Allow the mixture to sinter for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Do not open the furnace door during cooling to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours).\n2. Do not open the furnace door during cooling to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges with fine-grit sandpaper to ensure smooth surfaces.",
+        "4. Optionally, apply a sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges with fine-grit sandpaper to ensure smooth surfaces.\n4. Optionally, apply a sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1534468.0,
+      "density": 79405.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -940206.0,
+      "formation_energy_per_atom": -4857.0,
+      "decomposition_energy_per_atom": 32.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -61.0,
+      "decomposition_energy_mp": -87.0,
+      "decomposition_energy_mp_oqmd": -87.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba01099459",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.316212Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo4Ni4P1Si3.json",
+      "material://Mo4Ni4P1Si3"
+    ]
+  }
+}

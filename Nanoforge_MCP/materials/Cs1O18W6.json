@@ -1,0 +1,126 @@
+{
+  "id": "Cs1O18W6",
+  "uri": "material://Cs1O18W6",
+  "composition": {
+    "formula": "Cs1O18W6",
+    "elements": {
+      "Cs": 1,
+      "O": 18,
+      "W": 6
+    },
+    "reduced_formula": "Cs(WO3)6",
+    "element_list": [
+      "O",
+      "Cs",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 144.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 180.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 30 g \n O: 144 g \n W: 180 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Available from specialized chemical suppliers or online platforms like Sigma-Aldrich. \n O (Oxygen): Available as a gas from gas suppliers or as part of water (H2O), can be extracted through electrolysis. \n W (Tungsten): Obtain from metal suppliers or online marketplaces like eBay or Amazon.",
+      "steps": [
+        "Cs (Cesium): Available from specialized chemical suppliers or online platforms like Sigma-Aldrich.",
+        "O (Oxygen): Available as a gas from gas suppliers or as part of water (H2O), can be extracted through electrolysis.",
+        "W (Tungsten): Obtain from metal suppliers or online marketplaces like eBay or Amazon."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 30 g of Cs using an analytical balance.",
+        "2. Measure 144 g of O (if using water, measure 180 g of H2O, then extract oxygen through electrolysis).",
+        "3. Measure 180 g of W.",
+        "4. Combine Cs and W in a clean, dry mixing container.",
+        "5. Gradually add O to the Cs and W mixture while stirring continuously to ensure even distribution."
+      ],
+      "raw_text": "1. Measure 30 g of Cs using an analytical balance. \n 2. Measure 144 g of O (if using water, measure 180 g of H2O, then extract oxygen through electrolysis). \n 3. Measure 180 g of W. \n 4. Combine Cs and W in a clean, dry mixing container. \n 5. Gradually add O to the Cs and W mixture while stirring continuously to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed material to a high-temperature furnace.",
+        "2. Heat the mixture to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Cs1O18W6."
+      ],
+      "raw_text": "1. Transfer the mixed material to a high-temperature furnace. \n 2. Heat the mixture to 800 °C at a rate of 10 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Cs1O18W6."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid sudden cooling to prevent cracking or structural integrity issues."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid sudden cooling to prevent cracking or structural integrity issues."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the material if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any irregularities or rough edges. \n 3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the material if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 25,
+      "volume": 3798074.0,
+      "density": 66627.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2235779.0,
+      "formation_energy_per_atom": -22348.0,
+      "decomposition_energy_per_atom": -176.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -152.0,
+      "decomposition_energy_mp_oqmd": -125.0
+    },
+    "electronic": {
+      "bandgap": 0.0201,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "144ac2a764",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:42.270133Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1O18W6.json",
+      "material://Cs1O18W6"
+    ]
+  }
+}

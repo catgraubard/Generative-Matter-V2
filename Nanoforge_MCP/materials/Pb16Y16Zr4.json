@@ -1,0 +1,113 @@
+{
+  "id": "Pb16Y16Zr4",
+  "uri": "material://Pb16Y16Zr4",
+  "composition": {
+    "formula": "Pb16Y16Zr4",
+    "elements": {
+      "Pb": 16,
+      "Y": 16,
+      "Zr": 4
+    },
+    "reduced_formula": "Y4ZrPb4",
+    "element_list": [
+      "Y",
+      "Zr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Pb",
+          "amount": 128.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Pb: 128.0 g, Y: 112.0 g, Zr: 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Pb (Lead): Purchase from a chemical supplier or a metal shop. \n Y (Yttrium Oxide): Available from specialty chemical suppliers or online marketplaces. \n Zr (Zirconium Oxide): Obtain from ceramics suppliers or chemical distributors.",
+      "steps": [
+        "Pb (Lead): Purchase from a chemical supplier or a metal shop.",
+        "Y (Yttrium Oxide): Available from specialty chemical suppliers or online marketplaces.",
+        "Zr (Zirconium Oxide): Obtain from ceramics suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 128.0 g of Pb, 112.0 g of Y, and 16.0 g of Zr using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine the Pb, Y, and Zr powders thoroughly using a ceramic spatula to ensure an even mixture.",
+        "3. Transfer the mixed powders into a high-energy ball mill and mill for 30 minutes to achieve a uniform particle size."
+      ],
+      "raw_text": "1. Weigh out 128.0 g of Pb, 112.0 g of Y, and 16.0 g of Zr using a precision scale. \n 2. In a clean, dry mixing bowl, combine the Pb, Y, and Zr powders thoroughly using a ceramic spatula to ensure an even mixture. \n 3. Transfer the mixed powders into a high-energy ball mill and mill for 30 minutes to achieve a uniform particle size."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1,200 °C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace for 2 hours to allow for proper sintering and material bonding."
+      ],
+      "raw_text": "1. Preheat a furnace to 1,200 °C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Heat the crucible in the furnace for 2 hours to allow for proper sintering and material bonding."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally in the furnace to room temperature (approximately 6-8 hours).",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace. \n 2. Allow the crucible to cool down naturally in the furnace to room temperature (approximately 6-8 hours). \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Allow the solid sample to cure for an additional 24 hours at room temperature.",
+        "2. If necessary, sand the surface lightly with 400-grit sandpaper to achieve a smooth finish.",
+        "3. Seal the sample with a clear epoxy resin to enhance durability and protect against oxidation."
+      ],
+      "raw_text": "1. Allow the solid sample to cure for an additional 24 hours at room temperature. \n 2. If necessary, sand the surface lightly with 400-grit sandpaper to achieve a smooth finish. \n 3. Seal the sample with a clear epoxy resin to enhance durability and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10259115.0,
+      "density": 8259.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2154746.0,
+      "formation_energy_per_atom": -5116.0,
+      "decomposition_energy_per_atom": -483.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -483.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "337a1b8301",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:23.029057Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Pb16Y16Zr4.json",
+      "material://Pb16Y16Zr4"
+    ]
+  }
+}

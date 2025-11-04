@@ -1,0 +1,109 @@
+{
+  "id": "Er6Fe1O12Sc1",
+  "uri": "material://Er6Fe1O12Sc1",
+  "composition": {
+    "formula": "Er6Fe1O12Sc1",
+    "elements": {
+      "Er": 6,
+      "Fe": 1,
+      "O": 12,
+      "Sc": 1
+    },
+    "reduced_formula": "Er6ScFeO12",
+    "element_list": [
+      "O",
+      "Sc",
+      "Fe",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Er2O3: 12.5 g (for Erbium) \n - Fe2O3: 10.5 g (for Iron) \n - Sc2O3: 5.0 g (for Scandium) \n - SiO2: 30.0 g (for structural integrity and silicate formation) \n - B2O3: 2.0 g (for fluxing) \n - MgO: 0.5 g (for stabilization) \n - Al2O3: 3.0 g (for enhancing mechanical properties) \n Total: 63.5 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium oxide (Er2O3), Iron oxide (Fe2O3), Scandium oxide (Sc2O3) can be sourced from chemical supply companies like Sigma-Aldrich or Alfa Aesar. \n - Silicon dioxide (SiO2) can be obtained from quartz or silica sand from local hardware stores. \n - Boron oxide (B2O3), magnesium oxide (MgO), and aluminum oxide (Al2O3) are available from specialty chemical suppliers.",
+      "steps": [
+        "- Erbium oxide (Er2O3), Iron oxide (Fe2O3), Scandium oxide (Sc2O3) can be sourced from chemical supply companies like Sigma-Aldrich or Alfa Aesar.",
+        "- Silicon dioxide (SiO2) can be obtained from quartz or silica sand from local hardware stores.",
+        "- Boron oxide (B2O3), magnesium oxide (MgO), and aluminum oxide (Al2O3) are available from specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine the Er2O3, Fe2O3, Sc2O3, SiO2, B2O3, MgO, and Al2O3.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until homogeneous.",
+        "4. Transfer the mixture into a ball mill and mill for 2 hours to ensure a fine particle size."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing bowl, combine the Er2O3, Fe2O3, Sc2O3, SiO2, B2O3, MgO, and Al2O3. \n 3. Use a mortar and pestle to thoroughly grind the mixture until homogeneous. \n 4. Transfer the mixture into a ball mill and mill for 2 hours to ensure a fine particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the milled powder into a suitable crucible (e.g., alumina crucible) and insert it into the furnace.",
+        "3. Heat the mixture at 1200°C for 4 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the milled powder into a suitable crucible (e.g., alumina crucible) and insert it into the furnace. \n 3. Heat the mixture at 1200°C for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the material to cool gradually to room temperature (approximately 3-4 hours) inside the furnace to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the material to cool gradually to room temperature (approximately 3-4 hours) inside the furnace to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, use a diamond saw to trim the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, use a diamond saw to trim the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2754665.0,
+      "density": 78145.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1768448.0,
+      "formation_energy_per_atom": -3763.0,
+      "decomposition_energy_per_atom": -101.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -69.0,
+      "decomposition_energy_mp": -107.0,
+      "decomposition_energy_mp_oqmd": -107.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8aeca181fb",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:18.534191Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er6Fe1O12Sc1.json",
+      "material://Er6Fe1O12Sc1"
+    ]
+  }
+}

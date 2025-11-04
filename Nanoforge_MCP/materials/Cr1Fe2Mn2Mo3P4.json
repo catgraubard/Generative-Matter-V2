@@ -1,0 +1,142 @@
+{
+  "id": "Cr1Fe2Mn2Mo3P4",
+  "uri": "material://Cr1Fe2Mn2Mo3P4",
+  "composition": {
+    "formula": "Cr1Fe2Mn2Mo3P4",
+    "elements": {
+      "Cr": 1,
+      "Fe": 2,
+      "Mn": 2,
+      "Mo": 3,
+      "P": 4
+    },
+    "reduced_formula": "Mn2CrFe2Mo3P4",
+    "element_list": [
+      "P",
+      "Cr",
+      "Mn",
+      "Fe",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 15.00 g \n Fe: 30.00 g \n Mn: 30.00 g \n Mo: 45.00 g \n P: 60.00 g \n Total: 180.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Supplier specializing in chromium compounds (e.g., metal supply stores, online chemical suppliers) \n Fe: Local metal suppliers or online retailers \n Mn: Chemical supply stores or online suppliers \n Mo: Specialty metal suppliers \n P: Chemical suppliers or agricultural supply stores",
+      "steps": [
+        "Cr: Supplier specializing in chromium compounds (e.g., metal supply stores, online chemical suppliers)",
+        "Fe: Local metal suppliers or online retailers",
+        "Mn: Chemical supply stores or online suppliers",
+        "Mo: Specialty metal suppliers",
+        "P: Chemical suppliers or agricultural supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean mixing bowl, combine Cr, Fe, Mn, Mo, and P in the amounts specified.",
+        "3. Stir the mixture thoroughly using a metal spatula for uniformity.",
+        "4. Ensure there are no clumps present in the mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean mixing bowl, combine Cr, Fe, Mn, Mo, and P in the amounts specified. \n 3. Stir the mixture thoroughly using a metal spatula for uniformity. \n 4. Ensure there are no clumps present in the mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200 °C (2192 °F) at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours for thorough melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace.\n 3. Heat to 1200 °C (2192 °F) at a rate of 10 °C/min. \n 4. Maintain the temperature for 2 hours for thorough melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 800 °C (1472 °F) naturally.",
+        "2. Remove the crucible from the furnace and let it cool to room temperature (approximately 25 °C or 77 °F) for about 2-3 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 800 °C (1472 °F) naturally. \n 2. Remove the crucible from the furnace and let it cool to room temperature (approximately 25 °C or 77 °F) for about 2-3 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces using a fine-grit sandpaper for a smooth finish.",
+        "3. Optionally, apply a sealant or coating to enhance durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces using a fine-grit sandpaper for a smooth finish. \n 3. Optionally, apply a sealant or coating to enhance durability. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1455956.0,
+      "density": 78157.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1058227.0,
+      "formation_energy_per_atom": -5596.0,
+      "decomposition_energy_per_atom": -238.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -238.0,
+      "decomposition_energy_mp_oqmd": -31.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9886329c8a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.430945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Fe2Mn2Mo3P4.json",
+      "material://Cr1Fe2Mn2Mo3P4"
+    ]
+  }
+}

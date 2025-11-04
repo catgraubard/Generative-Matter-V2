@@ -1,0 +1,135 @@
+{
+  "id": "Li1P12Ru18Y5",
+  "uri": "material://Li1P12Ru18Y5",
+  "composition": {
+    "formula": "Li1P12Ru18Y5",
+    "elements": {
+      "Li": 1,
+      "P": 12,
+      "Ru": 18,
+      "Y": 5
+    },
+    "reduced_formula": "LiY5(P2Ru3)6",
+    "element_list": [
+      "Li",
+      "P",
+      "Y",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 10.0 g \n P: 3.0 g \n Ru: 18.0 g \n Y: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supply company (e.g., Alfa Aesar) \n P: Obtain from a laboratory supply store or online (e.g., Sigma-Aldrich) \n Ru: Source from a precious metals supplier \n Y: Available from a chemical supply company",
+      "steps": [
+        "Li: Purchase from a chemical supply company (e.g., Alfa Aesar)",
+        "P: Obtain from a laboratory supply store or online (e.g., Sigma-Aldrich)",
+        "Ru: Source from a precious metals supplier",
+        "Y: Available from a chemical supply company"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of lithium (Li) using an analytical balance.",
+        "2. Weigh out 3.0 g of phosphorus (P) using the same balance.",
+        "3. Weigh out 18.0 g of ruthenium (Ru) and 5.0 g of yttrium (Y).",
+        "4. Combine all materials in a clean ceramic or glass container to avoid contamination.",
+        "5. Mix the ingredients thoroughly using a mortar and pestle until a uniform powder is obtained."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of lithium (Li) using an analytical balance. \n 2. Weigh out 3.0 g of phosphorus (P) using the same balance. \n 3. Weigh out 18.0 g of ruthenium (Ru) and 5.0 g of yttrium (Y). \n 4. Combine all materials in a clean ceramic or glass container to avoid contamination. \n 5. Mix the ingredients thoroughly using a mortar and pestle until a uniform powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a sintering furnace to 1200°C.",
+        "2. Transfer the mixed powder into a suitable crucible.",
+        "3. Place the crucible in the preheated furnace.",
+        "4. Hold the temperature at 1200°C for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a sintering furnace to 1200°C. \n 2. Transfer the mixed powder into a suitable crucible. \n 3. Place the crucible in the preheated furnace. \n 4. Hold the temperature at 1200°C for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool naturally to room temperature over a period of 6 hours.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool naturally to room temperature over a period of 6 hours. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for uniformity.",
+        "2. If needed, grind the sample further to achieve the desired consistency.",
+        "3. Optionally, polish the surface using fine-grit sandpaper for a smooth finish.",
+        "4. Seal the final product in a vacuum-sealed bag to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for uniformity. \n 2. If needed, grind the sample further to achieve the desired consistency. \n 3. Optionally, polish the surface using fine-grit sandpaper for a smooth finish. \n 4. Seal the final product in a vacuum-sealed bag to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5415474.0,
+      "density": 81024.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2975042.0,
+      "formation_energy_per_atom": -8712.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -43.0,
+      "decomposition_energy_mp_oqmd": -36.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1dd6ecdb92",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:54.699572Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li1P12Ru18Y5.json",
+      "material://Li1P12Ru18Y5"
+    ]
+  }
+}

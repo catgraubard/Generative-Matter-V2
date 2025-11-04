@@ -1,0 +1,115 @@
+{
+  "id": "Cs4Ga2Ge4In2Se16",
+  "uri": "material://Cs4Ga2Ge4In2Se16",
+  "composition": {
+    "formula": "Cs4Ga2Ge4In2Se16",
+    "elements": {
+      "Cs": 4,
+      "Ga": 2,
+      "Ge": 4,
+      "In": 2,
+      "Se": 16
+    },
+    "reduced_formula": "Cs2InGa(GeSe4)2",
+    "element_list": [
+      "Ga",
+      "Ge",
+      "Se",
+      "In",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 40.0 g, Ga: 14.5 g, Ge: 28.8 g, In: 7.5 g, Se: 132.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Alfa Aesar), Ga: Buy from a metals supplier (e.g., Sigma-Aldrich), Ge: Obtain from a semiconductor supplier (e.g., AXT), In: Source from an electronic materials supplier (e.g., Indium Corporation), Se: Acquire from a chemical distributor (e.g., Strem Chemicals)",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Alfa Aesar), Ga: Buy from a metals supplier (e.g., Sigma-Aldrich), Ge: Obtain from a semiconductor supplier (e.g., AXT), In: Source from an electronic materials supplier (e.g., Indium Corporation), Se: Acquire from a chemical distributor (e.g., Strem Chemicals)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the specified amounts of each ingredient accurately using a digital scale.",
+        "2. In a clean, dry beaker, add the Cs, Ga, Ge, In, and Se powders.",
+        "3. Use a pestle and mortar or a mechanical mixer to thoroughly mix the powders until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh the specified amounts of each ingredient accurately using a digital scale. \n 2. In a clean, dry beaker, add the Cs, Ga, Ge, In, and Se powders. \n 3. Use a pestle and mortar or a mechanical mixer to thoroughly mix the powders until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/min and maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/min and maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock to the sample."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled to avoid thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use sandpaper to smooth out any rough edges and surfaces of the solid sample.",
+        "3. Optionally, seal the sample with a clear coating to protect it from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use sandpaper to smooth out any rough edges and surfaces of the solid sample. \n 3. Optionally, seal the sample with a clear coating to protect it from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 1022546.0,
+      "density": 39861.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -116214.0,
+      "formation_energy_per_atom": -9516.0,
+      "decomposition_energy_per_atom": -337.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -315.0,
+      "decomposition_energy_mp_oqmd": -195.0
+    },
+    "electronic": {
+      "bandgap": 1.5889,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4b00076c64",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:54.205219Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Ga2Ge4In2Se16.json",
+      "material://Cs4Ga2Ge4In2Se16"
+    ]
+  }
+}

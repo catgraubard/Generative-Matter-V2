@@ -1,0 +1,112 @@
+{
+  "id": "Li4O16Sr8Y4",
+  "uri": "material://Li4O16Sr8Y4",
+  "composition": {
+    "formula": "Li4O16Sr8Y4",
+    "elements": {
+      "Li": 4,
+      "O": 16,
+      "Sr": 8,
+      "Y": 4
+    },
+    "reduced_formula": "Sr2LiYO4",
+    "element_list": [
+      "Li",
+      "O",
+      "Sr",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Lithium Oxide (Li2O): 32.0 g \n Strontium Oxide (SrO): 63.0 g \n Yttrium Oxide (Y2O3): 54.0 g \n Oxygen: 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Lithium Oxide: Chemical supply companies or online chemical retailers. \n Strontium Oxide: Specialty chemical suppliers. \n Yttrium Oxide: Online chemical suppliers or materials science suppliers. \n Oxygen: Can be derived from air but for precise measurements, use pure oxygen gas cylinders.",
+      "steps": [
+        "Lithium Oxide: Chemical supply companies or online chemical retailers.",
+        "Strontium Oxide: Specialty chemical suppliers.",
+        "Yttrium Oxide: Online chemical suppliers or materials science suppliers.",
+        "Oxygen: Can be derived from air but for precise measurements, use pure oxygen gas cylinders."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 32.0 g of Lithium Oxide, 63.0 g of Strontium Oxide, and 54.0 g of Yttrium Oxide using an analytical balance.",
+        "2. Add 16.0 g of Oxygen gas into a mixing chamber.",
+        "3. Combine the solid oxides in a mortar and pestle to ensure a homogeneous mixture.",
+        "4. Transfer the mixture into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh 32.0 g of Lithium Oxide, 63.0 g of Strontium Oxide, and 54.0 g of Yttrium Oxide using an analytical balance. \n 2. Add 16.0 g of Oxygen gas into a mixing chamber. \n 3. Combine the solid oxides in a mortar and pestle to ensure a homogeneous mixture. \n 4. Transfer the mixture into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the ceramic crucible in a furnace.",
+        "2. Heat the mixture to 1200°C at a ramp rate of 5°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the ceramic crucible in a furnace. \n 2. Heat the mixture to 1200°C at a ramp rate of 5°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool to room temperature naturally (approximately 6-8 hours). \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any irregularities or surface roughness.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a high-temperature resistant sealant to improve durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any irregularities or surface roughness. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a high-temperature resistant sealant to improve durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4666213.0,
+      "density": 47698.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2283909.0,
+      "formation_energy_per_atom": -31939.0,
+      "decomposition_energy_per_atom": -258.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -206.0,
+      "decomposition_energy_mp": -263.0,
+      "decomposition_energy_mp_oqmd": -206.0
+    },
+    "electronic": {
+      "bandgap": 3.3561,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "746adc761a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:47.764732Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4O16Sr8Y4.json",
+      "material://Li4O16Sr8Y4"
+    ]
+  }
+}

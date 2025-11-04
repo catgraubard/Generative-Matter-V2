@@ -1,0 +1,111 @@
+{
+  "id": "As2Li2Ni12P5",
+  "uri": "material://As2Li2Ni12P5",
+  "composition": {
+    "formula": "As2Li2Ni12P5",
+    "elements": {
+      "As": 2,
+      "Li": 2,
+      "Ni": 12,
+      "P": 5
+    },
+    "reduced_formula": "Li2Ni12As2P5",
+    "element_list": [
+      "Li",
+      "P",
+      "Ni",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Arsenic (As): 15.00 g  \n - Lithium (Li): 2.00 g  \n - Nickel (Ni): 120.00 g  \n - Phosphorus (P): 25.00 g  \n - Binder (e.g., epoxy): 10.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Arsenic: Obtain from chemical supply companies or specialized metal suppliers (ensure proper safety measures).  \n - Lithium: Purchase from battery manufacturers or chemical suppliers.  \n - Nickel: Available from metal suppliers or online marketplaces.  \n - Phosphorus: Can be sourced from chemical supply stores.  \n - Binder: Obtain from hardware stores or online suppliers.",
+      "steps": [
+        "- Arsenic: Obtain from chemical supply companies or specialized metal suppliers (ensure proper safety measures).",
+        "- Lithium: Purchase from battery manufacturers or chemical suppliers.",
+        "- Nickel: Available from metal suppliers or online marketplaces.",
+        "- Phosphorus: Can be sourced from chemical supply stores.",
+        "- Binder: Obtain from hardware stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, carefully measure out 15.00 g of arsenic, 2.00 g of lithium, 120.00 g of nickel, and 25.00 g of phosphorus.",
+        "2. In a clean, dry container, mix the solid ingredients thoroughly using a mortar and pestle until a homogeneous powder is obtained.",
+        "3. Slowly add 10.00 g of binder to the mixture while continuously stirring until the mixture forms a uniform paste."
+      ],
+      "raw_text": "1. In a fume hood, carefully measure out 15.00 g of arsenic, 2.00 g of lithium, 120.00 g of nickel, and 25.00 g of phosphorus.  \n  2. In a clean, dry container, mix the solid ingredients thoroughly using a mortar and pestle until a homogeneous powder is obtained.  \n  3. Slowly add 10.00 g of binder to the mixture while continuously stirring until the mixture forms a uniform paste."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "- Preheat a muffle furnace to 800°C.",
+        "- Place the prepared material in a crucible suitable for high temperatures.",
+        "- Heat the sample in the furnace for 2 hours to facilitate proper bonding and material formation."
+      ],
+      "raw_text": "- Preheat a muffle furnace to 800°C.  \n - Place the prepared material in a crucible suitable for high temperatures.  \n - Heat the sample in the furnace for 2 hours to facilitate proper bonding and material formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "- Turn off the furnace and allow the sample to cool down gradually inside the furnace for at least 4 hours to avoid thermal shock.",
+        "- Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "- Turn off the furnace and allow the sample to cool down gradually inside the furnace for at least 4 hours to avoid thermal shock.  \n - Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any irregularities or defects.",
+        "2. If necessary, use a diamond file or sanding paper to smooth out rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy to enhance durability.",
+        "4. Allow the sealed sample to cure for an additional 24 hours before handling."
+      ],
+      "raw_text": "1. Inspect the solid sample for any irregularities or defects.  \n 2. If necessary, use a diamond file or sanding paper to smooth out rough edges.  \n 3. Optionally, seal the surface with a clear epoxy to enhance durability.  \n 4. Allow the sealed sample to cure for an additional 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2564452.0,
+      "density": 66236.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1205098.0,
+      "formation_energy_per_atom": -5212.0,
+      "decomposition_energy_per_atom": -17.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -17.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.0022,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "53c35b5e81",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.484606Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2Li2Ni12P5.json",
+      "material://As2Li2Ni12P5"
+    ]
+  }
+}

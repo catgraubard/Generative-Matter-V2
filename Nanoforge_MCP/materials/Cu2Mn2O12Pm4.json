@@ -1,0 +1,137 @@
+{
+  "id": "Cu2Mn2O12Pm4",
+  "uri": "material://Cu2Mn2O12Pm4",
+  "composition": {
+    "formula": "Cu2Mn2O12Pm4",
+    "elements": {
+      "Cu": 2,
+      "Mn": 2,
+      "O": 12,
+      "Pm": 4
+    },
+    "reduced_formula": "Pm2MnCuO6",
+    "element_list": [
+      "O",
+      "Mn",
+      "Cu",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10 g \n Bi: 60 g \n Cu: 10 g \n Nd: 30 g \n Pr: 70 g"
+    },
+    "sourcing": {
+      "instructions": "As: Chemical supplier or online chemical marketplaces \n Bi: Metal supplier or online metal marketplaces \n Cu: Hardware store or metal supplier \n Nd: Rare earth material supplier \n Pr: Rare earth material supplier",
+      "steps": [
+        "As: Chemical supplier or online chemical marketplaces",
+        "Bi: Metal supplier or online metal marketplaces",
+        "Cu: Hardware store or metal supplier",
+        "Nd: Rare earth material supplier",
+        "Pr: Rare earth material supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of As, Bi, Cu, Nd, and Pr.",
+        "3. Use a ceramic or stainless steel spatula to mix the ingredients thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed amounts of As, Bi, Cu, Nd, and Pr. \n 3. Use a ceramic or stainless steel spatula to mix the ingredients thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature processing.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 900°C at a rate of 10°C/min and hold for 2 hours to allow for complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature processing. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 900°C at a rate of 10°C/min and hold for 2 hours to allow for complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure the crucible remains undisturbed during the cooling process, which should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure the crucible remains undisturbed during the cooling process, which should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sanding paper to smooth out any rough edges or surfaces.",
+        "3. Optionally, coat the sample with a clear sealant to enhance appearance and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sanding paper to smooth out any rough edges or surfaces. \n 3. Optionally, coat the sample with a clear sealant to enhance appearance and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2367256.0,
+      "density": 70775.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1586986.0,
+      "formation_energy_per_atom": -26899.0,
+      "decomposition_energy_per_atom": -401.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -407.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ccaf9c7461",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.462074Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Mn2O12Pm4.json",
+      "material://Cu2Mn2O12Pm4"
+    ]
+  }
+}

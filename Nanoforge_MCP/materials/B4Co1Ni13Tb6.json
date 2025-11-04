@@ -1,0 +1,113 @@
+{
+  "id": "B4Co1Ni13Tb6",
+  "uri": "material://B4Co1Ni13Tb6",
+  "composition": {
+    "formula": "B4Co1Ni13Tb6",
+    "elements": {
+      "B": 4,
+      "Co": 1,
+      "Ni": 13,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb6CoNi13B4",
+    "element_list": [
+      "B",
+      "Co",
+      "Ni",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 0.5 g, Co: 0.1 g, Ni: 1.3 g, Tb: 0.6 g (total: 2.5 g) for each cubic inch. Assuming a solid sample volume of 42 cubic inches (3 in x 2 in x 7 in), total amount needed: B: 21 g, Co: 4.2 g, Ni: 54.6 g, Tb: 25.2 g."
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store; Co: Metal supply or chemical supplier; Ni: Metal supply or chemical supplier; Tb: Rare earth metal supplier.",
+      "steps": [
+        "B: Chemical supply store; Co: Metal supply or chemical supplier; Ni: Metal supply or chemical supplier; Tb: Rare earth metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Co, Ni, and Tb.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powder to a ball mill and mill for 1 hour to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Co, Ni, and Tb. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Transfer the powder to a ball mill and mill for 1 hour to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Heat the crucible for 2 hours to facilitate reaction and sintering of materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Heat the crucible for 2 hours to facilitate reaction and sintering of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities and use fine-grit sandpaper to smooth the surface.",
+        "3. Optionally apply a sealant to protect the surface, allowing it to cure according to the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any irregularities and use fine-grit sandpaper to smooth the surface. \n 3. Optionally apply a sealant to protect the surface, allowing it to cure according to the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3219372.0,
+      "density": 9381.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1485946.0,
+      "formation_energy_per_atom": -4925.0,
+      "decomposition_energy_per_atom": 0.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": 1.0,
+      "decomposition_energy_mp_oqmd": 6.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2e6e3944dd",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:16.566324Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Co1Ni13Tb6.json",
+      "material://B4Co1Ni13Tb6"
+    ]
+  }
+}

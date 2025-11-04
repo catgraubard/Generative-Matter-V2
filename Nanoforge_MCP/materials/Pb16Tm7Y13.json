@@ -1,0 +1,112 @@
+{
+  "id": "Pb16Tm7Y13",
+  "uri": "material://Pb16Tm7Y13",
+  "composition": {
+    "formula": "Pb16Tm7Y13",
+    "elements": {
+      "Pb": 16,
+      "Tm": 7,
+      "Y": 13
+    },
+    "reduced_formula": "Y13Tm7Pb16",
+    "element_list": [
+      "Y",
+      "Tm",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 80 g, 16Er: 20 g, 1Tb: 10 g, 1Tm: 15 g, 2W: 30 g"
+    },
+    "sourcing": {
+      "instructions": "B: Local metal supplier; 16Er: Chemical supply store; Tb: Rare earth minerals vendor; Tm: Specialized alloy retailer; W: Industrial hardware store",
+      "steps": [
+        "B: Local metal supplier; 16Er: Chemical supply store; Tb: Rare earth minerals vendor; Tm: Specialized alloy retailer; W: Industrial hardware store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine B, 16Er, Tb, Tm, and W in the specified amounts.",
+        "3. Use a mechanical mixer to ensure uniform distribution for 10 minutes."
+      ],
+      "raw_text": "1. Weigh each component accurately using a digital scale. \n 2. In a clean, dry mixing container, combine B, 16Er, Tb, Tm, and W in the specified amounts. \n 3. Use a mechanical mixer to ensure uniform distribution for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Transfer the mixed material into a crucible suitable for high-temperature applications.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Transfer the mixed material into a crucible suitable for high-temperature applications. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Once the heating duration is complete, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally inside the furnace for 4 hours to prevent thermal shock.",
+        "3. After 4 hours, remove the crucible and let it cool at room temperature for an additional 2 hours."
+      ],
+      "raw_text": "1. Once the heating duration is complete, turn off the furnace. \n 2. Allow the crucible to cool down naturally inside the furnace for 4 hours to prevent thermal shock. \n 3. After 4 hours, remove the crucible and let it cool at room temperature for an additional 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish, using progressively finer grits of sandpaper until a desired surface texture is obtained.",
+        "4. Optionally, seal the surface with a clear coat to protect against oxidation."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to achieve a smooth finish, using progressively finer grits of sandpaper until a desired surface texture is obtained. \n 4. Optionally, seal the surface with a clear coat to protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10601322.0,
+      "density": 88554.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -194607.0,
+      "formation_energy_per_atom": -5503.0,
+      "decomposition_energy_per_atom": -322.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -322.0,
+      "decomposition_energy_mp_oqmd": -113.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba0974c521",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.323310Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Pb16Tm7Y13.json",
+      "material://Pb16Tm7Y13"
+    ]
+  }
+}

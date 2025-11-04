@@ -1,0 +1,113 @@
+{
+  "id": "Mn2O12Sn2Sr6",
+  "uri": "material://Mn2O12Sn2Sr6",
+  "composition": {
+    "formula": "Mn2O12Sn2Sr6",
+    "elements": {
+      "Mn": 2,
+      "O": 12,
+      "Sn": 2,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr3MnSnO6",
+    "element_list": [
+      "O",
+      "Mn",
+      "Sr",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "MnO2: 150 g \n SnO2: 100 g \n SrCO3: 300 g \n Dextrose (as a reducing agent): 10 g \n Ethanol (for mixing): 50 mL"
+    },
+    "sourcing": {
+      "instructions": "MnO2: Chemical supply stores or online chemical suppliers \n SnO2: Chemical supply stores or online chemical suppliers \n SrCO3: Chemical suppliers \n Dextrose: Local pharmacies or health food stores \n Ethanol: Chemical supply stores or pharmacies",
+      "steps": [
+        "MnO2: Chemical supply stores or online chemical suppliers",
+        "SnO2: Chemical supply stores or online chemical suppliers",
+        "SrCO3: Chemical suppliers",
+        "Dextrose: Local pharmacies or health food stores",
+        "Ethanol: Chemical supply stores or pharmacies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure MnO2, SnO2, and SrCO3 accurately using a digital scale.",
+        "2. Combine the dry powders (MnO2, SnO2, SrCO3) in a clean, dry mixing container.",
+        "3. Add dextrose to the mixture.",
+        "4. Gradually add ethanol while stirring to form a homogenous slurry.",
+        "5. Ensure the mixture is well combined with no lumps."
+      ],
+      "raw_text": "1. Measure MnO2, SnO2, and SrCO3 accurately using a digital scale. \n 2. Combine the dry powders (MnO2, SnO2, SrCO3) in a clean, dry mixing container. \n 3. Add dextrose to the mixture. \n 4. Gradually add ethanol while stirring to form a homogenous slurry. \n 5. Ensure the mixture is well combined with no lumps."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900 °C.",
+        "2. Transfer the slurry into a suitable mold (silicon or graphite) after it reaches a thick paste consistency.",
+        "3. Place the mold in the furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 900 °C. \n 2. Transfer the slurry into a suitable mold (silicon or graphite) after it reaches a thick paste consistency. \n 3. Place the mold in the furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it reaches a safe temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it reaches a safe temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand down rough edges with fine-grit sandpaper.",
+        "4. Optionally, apply a sealant if the material requires moisture protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand down rough edges with fine-grit sandpaper. \n 4. Optionally, apply a sealant if the material requires moisture protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3293284.0,
+      "density": 537.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1551323.0,
+      "formation_energy_per_atom": -26944.0,
+      "decomposition_energy_per_atom": -15.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -21.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 2.395,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fcc3f2da8f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:34.006950Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn2O12Sn2Sr6.json",
+      "material://Mn2O12Sn2Sr6"
+    ]
+  }
+}

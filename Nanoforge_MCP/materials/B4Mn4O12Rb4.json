@@ -1,0 +1,115 @@
+{
+  "id": "B4Mn4O12Rb4",
+  "uri": "material://B4Mn4O12Rb4",
+  "composition": {
+    "formula": "B4Mn4O12Rb4",
+    "elements": {
+      "B": 4,
+      "Mn": 4,
+      "O": 12,
+      "Rb": 4
+    },
+    "reduced_formula": "RbMnBO3",
+    "element_list": [
+      "B",
+      "O",
+      "Mn",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, Mn: 16 g, O: 48 g, Rb: 32 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boric acid from chemical supply stores; Mn: Manganese dioxide from mineral suppliers; O: Oxygen from air (no specific sourcing needed); Rb: Rubidium chloride from chemical suppliers.",
+      "steps": [
+        "B: Boric acid from chemical supply stores; Mn: Manganese dioxide from mineral suppliers; O: Oxygen from air (no specific sourcing needed); Rb: Rubidium chloride from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 20 g of boric acid (B) and place it in a clean, dry mixing container.",
+        "2. Add 16 g of manganese dioxide (Mn) to the container.",
+        "3. Gradually add 48 g of oxygen (from air) by ensuring the container is open to ambient air.",
+        "4. Finally, add 32 g of rubidium chloride (Rb) to the mixture.",
+        "5. Stir the mixture thoroughly with a spatula until all components are evenly distributed."
+      ],
+      "raw_text": "1. Measure 20 g of boric acid (B) and place it in a clean, dry mixing container. \n 2. Add 16 g of manganese dioxide (Mn) to the container. \n 3. Gradually add 48 g of oxygen (from air) by ensuring the container is open to ambient air. \n 4. Finally, add 32 g of rubidium chloride (Rb) to the mixture. \n 5. Stir the mixture thoroughly with a spatula until all components are evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the prepared mixture into a crucible.",
+        "2. Place the crucible in a furnace and heat it to 800°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the prepared mixture into a crucible. \n 2. Place the crucible in a furnace and heat it to 800°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use sandpaper to smooth out any rough surfaces.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added durability and protection. Allow the resin to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. Use sandpaper to smooth out any rough surfaces. \n 4. Optionally, seal the surface with a clear epoxy resin for added durability and protection. Allow the resin to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3830132.0,
+      "density": 34548.0,
+      "crystal_system": "cubic",
+      "space_group": "P2_13",
+      "space_group_number": 198,
+      "point_group": "23",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1845513.0,
+      "formation_energy_per_atom": -2412.0,
+      "decomposition_energy_per_atom": -36.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -41.0,
+      "decomposition_energy_mp_oqmd": -41.0
+    },
+    "electronic": {
+      "bandgap": 1.7346,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2530119a9e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:04.574445Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Mn4O12Rb4.json",
+      "material://B4Mn4O12Rb4"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "La2Se16Sr2Tm8",
+  "uri": "material://La2Se16Sr2Tm8",
+  "composition": {
+    "formula": "La2Se16Sr2Tm8",
+    "elements": {
+      "La": 2,
+      "Se": 16,
+      "Sr": 2,
+      "Tm": 8
+    },
+    "reduced_formula": "SrLa(TmSe2)4",
+    "element_list": [
+      "Se",
+      "Sr",
+      "La",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 1.5 g (Lanthanum Oxide) \n Nb: 12.0 g (Niobium Oxide) \n S: 32.0 g (Sulfur) \n Y: 1.0 g (Yttrium Oxide)"
+    },
+    "sourcing": {
+      "instructions": "Lanthanum Oxide: Chemical supply companies (e.g., Sigma-Aldrich) \n Niobium Oxide: Specialty metal suppliers \n Sulfur: Chemical supply stores or online \n Yttrium Oxide: Rare earth material suppliers",
+      "steps": [
+        "Lanthanum Oxide: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Niobium Oxide: Specialty metal suppliers",
+        "Sulfur: Chemical supply stores or online",
+        "Yttrium Oxide: Rare earth material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry mixing container, combine La, Nb, S, and Y thoroughly with a spatula.",
+        "3. Ensure a uniform mixture by grinding the powders together using a mortar and pestle."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry mixing container, combine La, Nb, S, and Y thoroughly with a spatula. \n 3. Ensure a uniform mixture by grinding the powders together using a mortar and pestle."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to a temperature of 1200 °C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La1Nb8S16Y1."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to a temperature of 1200 °C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La1Nb8S16Y1."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. If necessary, grind the sample to achieve the desired surface finish.",
+        "3. Optionally, apply a sealant or coating to prevent oxidation, depending on the intended application."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. If necessary, grind the sample to achieve the desired surface finish. \n 3. Optionally, apply a sealant or coating to prevent oxidation, depending on the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7642888.0,
+      "density": 66655.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1663475.0,
+      "formation_energy_per_atom": -21913.0,
+      "decomposition_energy_per_atom": -81.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -81.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 0.0191,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc5e7931d9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.843252Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Se16Sr2Tm8.json",
+      "material://La2Se16Sr2Tm8"
+    ]
+  }
+}

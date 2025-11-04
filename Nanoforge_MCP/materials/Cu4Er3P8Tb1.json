@@ -1,0 +1,111 @@
+{
+  "id": "Cu4Er3P8Tb1",
+  "uri": "material://Cu4Er3P8Tb1",
+  "composition": {
+    "formula": "Cu4Er3P8Tb1",
+    "elements": {
+      "Cu": 4,
+      "Er": 3,
+      "P": 8,
+      "Tb": 1
+    },
+    "reduced_formula": "TbEr3(CuP2)4",
+    "element_list": [
+      "P",
+      "Cu",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 1.25,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 1.25 g, Er: 9.25 g, In: 1.5 g, Ni: 2.0 g, Tm: 2.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cadmium (Cd): Chemical supply stores; Europium (Er): Rare earth element suppliers; Indium (In): Metal suppliers; Nickel (Ni): General metal suppliers; Thulium (Tm): Rare earth element suppliers.",
+      "steps": [
+        "Cadmium (Cd): Chemical supply stores; Europium (Er): Rare earth element suppliers; Indium (In): Metal suppliers; Nickel (Ni): General metal suppliers; Thulium (Tm): Rare earth element suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using a digital scale.",
+        "2. In a clean container, combine Cd and Ni first, mixing thoroughly.",
+        "3. Gradually add Er, In, and Tm to the mixture, ensuring even distribution.",
+        "4. Use a mortar and pestle or a high-energy ball mill to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using a digital scale. \n 2. In a clean container, combine Cd and Ni first, mixing thoroughly. \n 3. Gradually add Er, In, and Tm to the mixture, ensuring even distribution. \n 4. Use a mortar and pestle or a high-energy ball mill to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a furnace at 900 °C for 2 hours, ensuring an inert atmosphere (use argon gas if necessary)."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a furnace at 900 °C for 2 hours, ensuring an inert atmosphere (use argon gas if necessary)."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly to room temperature over 6 hours inside the furnace to prevent thermal shock."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly to room temperature over 6 hours inside the furnace to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled material from the crucible.",
+        "2. If necessary, grind the solid sample to achieve the desired surface finish.",
+        "3. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the cooled material from the crucible. \n 2. If necessary, grind the solid sample to achieve the desired surface finish. \n 3. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2686534.0,
+      "density": 71865.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -920696.0,
+      "formation_energy_per_atom": -8768.0,
+      "decomposition_energy_per_atom": -107.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -107.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": 0.0272,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af1f182b2e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.695864Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4Er3P8Tb1.json",
+      "material://Cu4Er3P8Tb1"
+    ]
+  }
+}

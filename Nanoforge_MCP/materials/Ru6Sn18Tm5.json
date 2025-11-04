@@ -1,0 +1,109 @@
+{
+  "id": "Ru6Sn18Tm5",
+  "uri": "material://Ru6Sn18Tm5",
+  "composition": {
+    "formula": "Ru6Sn18Tm5",
+    "elements": {
+      "Ru": 6,
+      "Sn": 18,
+      "Tm": 5
+    },
+    "reduced_formula": "Tm5(Sn3Ru)6",
+    "element_list": [
+      "Ru",
+      "Sn",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 500.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 500 g, Er: 125 g, Na: 125 g, Se: 500 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from a chemical supply company or online; Er (Erbium): Obtain from specialty metal suppliers; Na (Sodium): Local chemical suppliers; Se (Selenium): Chemical supply stores or online.",
+      "steps": [
+        "Cs (Cesium): Purchase from a chemical supply company or online; Er (Erbium): Obtain from specialty metal suppliers; Na (Sodium): Local chemical suppliers; Se (Selenium): Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 500 g of Cs, 125 g of Er, 125 g of Na, and 500 g of Se using a precision balance.",
+        "2. In a dry, inert atmosphere (e.g., argon), carefully mix Cs, Er, Na, and Se in a clean, dry container until uniform."
+      ],
+      "raw_text": "1. Weigh out 500 g of Cs, 125 g of Er, 125 g of Na, and 500 g of Se using a precision balance. \n 2. In a dry, inert atmosphere (e.g., argon), carefully mix Cs, Er, Na, and Se in a clean, dry container until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 800°C for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 800°C for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow it to cool down gradually to room temperature over a period of 6 hours.",
+        "2. Ensure the crucible is not disturbed during cooling to avoid structural defects."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow it to cool down gradually to room temperature over a period of 6 hours. \n 2. Ensure the crucible is not disturbed during cooling to avoid structural defects."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Grind the solid sample to the desired grain size using a mortar and pestle if necessary.",
+        "3. Optionally, apply a fine sanding to achieve a smooth finish on all surfaces.",
+        "4. Seal the material in a protective coating (e.g., epoxy) if required for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Grind the solid sample to the desired grain size using a mortar and pestle if necessary. \n 3. Optionally, apply a fine sanding to achieve a smooth finish on all surfaces. \n 4. Seal the material in a protective coating (e.g., epoxy) if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 6748885.0,
+      "density": 88278.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1623872.0,
+      "formation_energy_per_atom": -4203.0,
+      "decomposition_energy_per_atom": -463.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -463.0,
+      "decomposition_energy_mp_oqmd": -263.0
+    },
+    "electronic": {
+      "bandgap": 0.0119,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ce31befcaa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.830469Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ru6Sn18Tm5.json",
+      "material://Ru6Sn18Tm5"
+    ]
+  }
+}

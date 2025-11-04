@@ -1,0 +1,117 @@
+{
+  "id": "La2Nd6O24S4",
+  "uri": "material://La2Nd6O24S4",
+  "composition": {
+    "formula": "La2Nd6O24S4",
+    "elements": {
+      "La": 2,
+      "Nd": 6,
+      "O": 24,
+      "S": 4
+    },
+    "reduced_formula": "LaNd3(SO6)2",
+    "element_list": [
+      "O",
+      "S",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 20.00 g \n Nd2O3: 60.00 g \n S: 4.00 g \n Total: 84.00 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Purchase from chemical supply companies or online chemical suppliers. \n Nd2O3: Obtain from specialty metal oxide suppliers or online marketplaces. \n S: Available at chemical supply stores or online.",
+      "steps": [
+        "La2O3: Purchase from chemical supply companies or online chemical suppliers.",
+        "Nd2O3: Obtain from specialty metal oxide suppliers or online marketplaces.",
+        "S: Available at chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20.00 g of La2O3 using an analytical balance.",
+        "2. Weigh out 60.00 g of Nd2O3.",
+        "3. Weigh out 4.00 g of sulfur (S).",
+        "4. In a clean, dry mortar and pestle, combine La2O3, Nd2O3, and sulfur.",
+        "5. Grind the mixture thoroughly until a homogenous powder is obtained."
+      ],
+      "raw_text": "1. Weigh out 20.00 g of La2O3 using an analytical balance. \n 2. Weigh out 60.00 g of Nd2O3. \n 3. Weigh out 4.00 g of sulfur (S). \n 4. In a clean, dry mortar and pestle, combine La2O3, Nd2O3, and sulfur. \n 5. Grind the mixture thoroughly until a homogenous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the homogenized powder into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min and maintain for 6 hours."
+      ],
+      "raw_text": "1. Transfer the homogenized powder into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 5°C/min and maintain for 6 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace.",
+        "2. Allow the crucible to cool down to room temperature inside the furnace to prevent thermal shock, which may take approximately 12 hours."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace. \n 2. Allow the crucible to cool down to room temperature inside the furnace to prevent thermal shock, which may take approximately 12 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, use sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the material with a clear epoxy for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, use sandpaper to smooth any rough edges. \n 3. Optionally, seal the material with a clear epoxy for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4852083.0,
+      "density": 56657.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2870151.0,
+      "formation_energy_per_atom": -31455.0,
+      "decomposition_energy_per_atom": -46.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -467.0,
+      "decomposition_energy_mp_oqmd": 9.0
+    },
+    "electronic": {
+      "bandgap": 4.9001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fa7d3c61b6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.375459Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Nd6O24S4.json",
+      "material://La2Nd6O24S4"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Bi12Er1Tb3Tm16",
+  "uri": "material://Bi12Er1Tb3Tm16",
+  "composition": {
+    "formula": "Bi12Er1Tb3Tm16",
+    "elements": {
+      "Bi": 12,
+      "Er": 1,
+      "Tb": 3,
+      "Tm": 16
+    },
+    "reduced_formula": "Tb3Er(Tm4Bi3)4",
+    "element_list": [
+      "Tb",
+      "Er",
+      "Tm",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 1.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 1.2 g, La: 0.4 g, Li: 0.4 g, Ru: 0.8 g, Y: 1.6 g (Total: 4.4 g of precursor material, adjust for impurities and losses)"
+    },
+    "sourcing": {
+      "instructions": "Cd: Purchase from a chemical supplier or online; La: available from rare earth suppliers; Li: lithium carbonate from chemical suppliers; Ru: precious metal suppliers; Y: rare earth suppliers.",
+      "steps": [
+        "Cd: Purchase from a chemical supplier or online; La: available from rare earth suppliers; Li: lithium carbonate from chemical suppliers; Ru: precious metal suppliers; Y: rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, mix the weighed Cd, La, Li, Ru, and Y powders using a spatula.",
+        "3. For thorough mixing, use a mortar and pestle for an additional 5 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, mix the weighed Cd, La, Li, Ru, and Y powders using a spatula. \n 3. For thorough mixing, use a mortar and pestle for an additional 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min and hold for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min and hold for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally.",
+        "2. Do not disturb the crucible during cooling (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally. \n 2. Do not disturb the crucible during cooling (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible once cooled.",
+        "2. Use a fine-grit sandpaper to smooth the edges and surfaces of the sample.",
+        "3. Optionally, apply a sealant suitable for the material to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible once cooled. \n 2. Use a fine-grit sandpaper to smooth the edges and surfaces of the sample. \n 3. Optionally, apply a sealant suitable for the material to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 9195934.0,
+      "density": 105721.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -157257.0,
+      "formation_energy_per_atom": -6404.0,
+      "decomposition_energy_per_atom": -82.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.0052,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ac835db240",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:05.126796Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi12Er1Tb3Tm16.json",
+      "material://Bi12Er1Tb3Tm16"
+    ]
+  }
+}

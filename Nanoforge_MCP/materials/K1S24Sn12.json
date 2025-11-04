@@ -1,0 +1,112 @@
+{
+  "id": "K1S24Sn12",
+  "uri": "material://K1S24Sn12",
+  "composition": {
+    "formula": "K1S24Sn12",
+    "elements": {
+      "K": 1,
+      "S": 24,
+      "Sn": 12
+    },
+    "reduced_formula": "K(SnS2)12",
+    "element_list": [
+      "S",
+      "K",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 24 g, S: 12 g, Sn: 12 g"
+    },
+    "sourcing": {
+      "instructions": "K: Purchase from chemical supply stores or online vendors; S: Available at specialty chemical suppliers; Sn: Obtain from metal suppliers or hardware stores.",
+      "steps": [
+        "K: Purchase from chemical supply stores or online vendors; S: Available at specialty chemical suppliers; Sn: Obtain from metal suppliers or hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 24 g of potassium (K).",
+        "2. Weigh out 12 g of sulfur (S).",
+        "3. Weigh out 12 g of tin (Sn).",
+        "4. In a fume hood, combine K and S in a mortar and pestle, and grind to a fine powder.",
+        "5. Gradually add Sn to the mixture and continue to grind until uniform."
+      ],
+      "raw_text": "1. Weigh out 24 g of potassium (K).  \n 2. Weigh out 12 g of sulfur (S). \n 3. Weigh out 12 g of tin (Sn). \n 4. In a fume hood, combine K and S in a mortar and pestle, and grind to a fine powder. \n 5. Gradually add Sn to the mixture and continue to grind until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace to 300 °C for 1 hour to initiate reaction.",
+        "3. Increase the temperature to 600 °C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace to 300 °C for 1 hour to initiate reaction. \n 3. Increase the temperature to 600 °C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not remove the crucible until fully cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not remove the crucible until fully cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth out any rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a file or sandpaper to smooth out any rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 37,
+      "volume": 11172705.0,
+      "density": 33191.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1762623.0,
+      "formation_energy_per_atom": -7503.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3da6402230",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:36.571195Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K1S24Sn12.json",
+      "material://K1S24Sn12"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "Li12Nd4O48W8Y8",
+  "uri": "material://Li12Nd4O48W8Y8",
+  "composition": {
+    "formula": "Li12Nd4O48W8Y8",
+    "elements": {
+      "Li": 12,
+      "Nd": 4,
+      "O": 48,
+      "W": 8,
+      "Y": 8
+    },
+    "reduced_formula": "Li3NdY2(WO6)2",
+    "element_list": [
+      "Li",
+      "O",
+      "Y",
+      "Nd",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 490.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni:  490 g  \n  Sc:  70 g  \n  Zr:  70 g"
+    },
+    "sourcing": {
+      "instructions": "Ni (Nickel): Available at metal suppliers or online retailers. \n  Sc (Scandium): Specialty metal suppliers or online exotic metal retailers. \n  Zr (Zirconium): Available at metal suppliers or online retailers.",
+      "steps": [
+        "Ni (Nickel): Available at metal suppliers or online retailers.",
+        "Sc (Scandium): Specialty metal suppliers or online exotic metal retailers.",
+        "Zr (Zirconium): Available at metal suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 490 g of Ni, 70 g of Sc, and 70 g of Zr using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed materials.",
+        "3. Use a mechanical mixer or a mortar and pestle to ensure a uniform mixture.",
+        "4. Mix thoroughly for at least 10 minutes to achieve a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh out 490 g of Ni, 70 g of Sc, and 70 g of Zr using a precision scale. \n  2. In a clean, dry mixing container, combine the weighed materials. \n  3. Use a mechanical mixer or a mortar and pestle to ensure a uniform mixture. \n  4. Mix thoroughly for at least 10 minutes to achieve a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a suitable crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1200 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours to promote alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a suitable crucible. \n  2. Place the crucible in a high-temperature furnace. \n  3. Heat to 1200 °C at a rate of 10 °C/min. \n  4. Maintain the temperature for 2 hours to promote alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n  2. This process may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If required, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges and surfaces to achieve a smooth finish.",
+        "5. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n  2. Inspect the sample for any irregularities. \n  3. If required, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n  4. Sand the edges and surfaces to achieve a smooth finish. \n  5. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 80,
+      "volume": 9646403.0,
+      "density": 62146.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4_122",
+      "space_group_number": 98,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -6742351.0,
+      "formation_energy_per_atom": -2992.0,
+      "decomposition_energy_per_atom": -137.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -84.0,
+      "decomposition_energy_mp_oqmd": -28.0
+    },
+    "electronic": {
+      "bandgap": 3.7,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e1801bf69b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.086784Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li12Nd4O48W8Y8.json",
+      "material://Li12Nd4O48W8Y8"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Cr2Ni1O8Pb1",
+  "uri": "material://Cr2Ni1O8Pb1",
+  "composition": {
+    "formula": "Cr2Ni1O8Pb1",
+    "elements": {
+      "Cr": 2,
+      "Ni": 1,
+      "O": 8,
+      "Pb": 1
+    },
+    "reduced_formula": "Cr2NiPbO8",
+    "element_list": [
+      "O",
+      "Cr",
+      "Ni",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 300.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 100 g \n La: 160 g \n Li: 30 g \n Si: 300 g"
+    },
+    "sourcing": {
+      "instructions": "Hg (Mercury): Obtain from chemical supply companies. \n La (Lanthanum): Purchase from metal suppliers or online chemical retailers. \n Li (Lithium): Available from chemical suppliers or battery manufacturers. \n Si (Silicon): Source from electronics suppliers or chemical suppliers.",
+      "steps": [
+        "Hg (Mercury): Obtain from chemical supply companies.",
+        "La (Lanthanum): Purchase from metal suppliers or online chemical retailers.",
+        "Li (Lithium): Available from chemical suppliers or battery manufacturers.",
+        "Si (Silicon): Source from electronics suppliers or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a well-ventilated fume hood, weigh out 100 g of Hg and carefully place it into a clean mixing container.",
+        "2. Measure and add 160 g of La powder to the Hg.",
+        "3. Add 30 g of Li powder to the mixture.",
+        "4. Finally, incorporate 300 g of Si powder.",
+        "5. Use a spatula to carefully mix the powders until a homogeneous mixture is formed."
+      ],
+      "raw_text": "1. In a well-ventilated fume hood, weigh out 100 g of Hg and carefully place it into a clean mixing container. \n 2. Measure and add 160 g of La powder to the Hg. \n 3. Add 30 g of Li powder to the mixture. \n 4. Finally, incorporate 300 g of Si powder. \n 5. Use a spatula to carefully mix the powders until a homogeneous mixture is formed."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a suitable crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 900°C.",
+        "3. Maintain this temperature for a duration of 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixture into a suitable crucible. \n 2. Heat the crucible in a furnace to a temperature of 900°C. \n 3. Maintain this temperature for a duration of 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow the crucible to cool naturally to room temperature.",
+        "2. This process should take approximately 4-6 hours to avoid thermal shock and cracking."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow the crucible to cool naturally to room temperature. \n 2. This process should take approximately 4-6 hours to avoid thermal shock and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or imperfections.",
+        "3. If necessary, sand down the edges with fine-grit sandpaper to achieve the desired finish.",
+        "4. Optionally, seal the surface with a suitable sealant to protect the material."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any rough edges or imperfections. \n 3. If necessary, sand down the edges with fine-grit sandpaper to achieve the desired finish. \n 4. Optionally, seal the surface with a suitable sealant to protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1756277.0,
+      "density": 47074.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -879692.0,
+      "formation_energy_per_atom": -16322.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 2.0841,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3ad7f6f4c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.791882Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2Ni1O8Pb1.json",
+      "material://Cr2Ni1O8Pb1"
+    ]
+  }
+}

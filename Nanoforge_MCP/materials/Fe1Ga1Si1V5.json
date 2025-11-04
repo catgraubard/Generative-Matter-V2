@@ -1,0 +1,113 @@
+{
+  "id": "Fe1Ga1Si1V5",
+  "uri": "material://Fe1Ga1Si1V5",
+  "composition": {
+    "formula": "Fe1Ga1Si1V5",
+    "elements": {
+      "Fe": 1,
+      "Ga": 1,
+      "Si": 1,
+      "V": 5
+    },
+    "reduced_formula": "V5GaFeSi",
+    "element_list": [
+      "Si",
+      "V",
+      "Fe",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "In",
+          "amount": 100.0,
+          "unit": "grams"
+        }
+      ],
+      "raw_text": "In: 100 grams, Tb: 50 grams, Y: 10 grams"
+    },
+    "sourcing": {
+      "instructions": "In: Purchase from a chemical supplier or online retailer. Tb: Obtain from a specialty metal supplier. Y: Available from laboratory supply companies.",
+      "steps": [
+        "In: Purchase from a chemical supplier or online retailer. Tb: Obtain from a specialty metal supplier. Y: Available from laboratory supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 grams of In (Indium) and place it in a clean mixing container.",
+        "2. Weigh 50 grams of Tb (Terbium) and add it to the container with In.",
+        "3. Weigh 10 grams of Y (Yttrium) and add it to the container.",
+        "4. Mix the powders thoroughly using a spatula to ensure a uniform blend."
+      ],
+      "raw_text": "1. Weigh out 100 grams of In (Indium) and place it in a clean mixing container. \n 2. Weigh 50 grams of Tb (Terbium) and add it to the container with In. \n 3. Weigh 10 grams of Y (Yttrium) and add it to the container. \n 4. Mix the powders thoroughly using a spatula to ensure a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed composition to a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed composition to a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace to 800°C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the furnace temperature to room temperature (approximately 25°C).",
+        "2. Allow the crucible to remain in the furnace until it reaches ambient temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. Gradually reduce the furnace temperature to room temperature (approximately 25°C). \n 2. Allow the crucible to remain in the furnace until it reaches ambient temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the surface for any irregularities or rough edges.",
+        "3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear coat to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the surface for any irregularities or rough edges. \n 3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear coat to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1028094.0,
+      "density": 65957.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -651792.0,
+      "formation_energy_per_atom": -3545.0,
+      "decomposition_energy_per_atom": -124.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -24.0,
+      "decomposition_energy_mp": -123.0,
+      "decomposition_energy_mp_oqmd": -123.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e51dbf598c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.983456Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ga1Si1V5.json",
+      "material://Fe1Ga1Si1V5"
+    ]
+  }
+}

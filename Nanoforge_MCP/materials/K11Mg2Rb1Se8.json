@@ -1,0 +1,113 @@
+{
+  "id": "K11Mg2Rb1Se8",
+  "uri": "material://K11Mg2Rb1Se8",
+  "composition": {
+    "formula": "K11Mg2Rb1Se8",
+    "elements": {
+      "K": 11,
+      "Mg": 2,
+      "Rb": 1,
+      "Se": 8
+    },
+    "reduced_formula": "K11Rb(MgSe4)2",
+    "element_list": [
+      "Mg",
+      "K",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 50 g, Mg: 30 g, Rb: 10 g, Se: 120 g"
+    },
+    "sourcing": {
+      "instructions": "K: Chemical supply stores or online chemical suppliers; Mg: Metal suppliers or online; Rb: Specialty chemical suppliers; Se: Chemical supply stores or online.",
+      "steps": [
+        "K: Chemical supply stores or online chemical suppliers; Mg: Metal suppliers or online; Rb: Specialty chemical suppliers; Se: Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance.",
+        "2. In a clean, dry container, combine 50 g of K, 30 g of Mg, 10 g of Rb, and 120 g of Se.",
+        "3. Use a spatula to mix the powders gently to ensure homogeneity without introducing moisture.",
+        "4. Transfer the mixture to a mortar and pestle and grind for an additional 5 minutes to achieve a uniform powder."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance. \n 2. In a clean, dry container, combine 50 g of K, 30 g of Mg, 10 g of Rb, and 120 g of Se. \n 3. Use a spatula to mix the powders gently to ensure homogeneity without introducing moisture. \n 4. Transfer the mixture to a mortar and pestle and grind for an additional 5 minutes to achieve a uniform powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800 °C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate solid-state synthesis."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate solid-state synthesis."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it reaches approximately 300 °C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it reaches approximately 300 °C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. If necessary, use a diamond file to smooth any rough edges and achieve desired dimensions.",
+        "4. Optionally, apply a sealing coat to the surface for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. If necessary, use a diamond file to smooth any rough edges and achieve desired dimensions. \n 4. Optionally, apply a sealing coat to the surface for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 7618481.0,
+      "density": 26065.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -738372.0,
+      "formation_energy_per_atom": -13397.0,
+      "decomposition_energy_per_atom": -462.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -462.0,
+      "decomposition_energy_mp_oqmd": -128.0
+    },
+    "electronic": {
+      "bandgap": 2.0158,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1475392586",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:42.440810Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K11Mg2Rb1Se8.json",
+      "material://K11Mg2Rb1Se8"
+    ]
+  }
+}

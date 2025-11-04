@@ -1,0 +1,111 @@
+{
+  "id": "Ca1Fe1Ni1Si2",
+  "uri": "material://Ca1Fe1Ni1Si2",
+  "composition": {
+    "formula": "Ca1Fe1Ni1Si2",
+    "elements": {
+      "Ca": 1,
+      "Fe": 1,
+      "Ni": 1,
+      "Si": 2
+    },
+    "reduced_formula": "CaFeSi2Ni",
+    "element_list": [
+      "Si",
+      "Ca",
+      "Fe",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium Oxide (CaO): 25 g \n Iron(III) Oxide (Fe2O3): 30 g \n Nickel(II) Oxide (NiO): 25 g \n Silicon Dioxide (SiO2): 70 g \n Total Weight: 150 g"
+    },
+    "sourcing": {
+      "instructions": "Calcium Oxide: Available at chemical supply stores or online. \n Iron(III) Oxide: Available at hardware stores or online. \n Nickel(II) Oxide: Obtain from chemical supply companies or online. \n Silicon Dioxide: Available at hardware stores or online (as sand or silica gel).",
+      "steps": [
+        "Calcium Oxide: Available at chemical supply stores or online.",
+        "Iron(III) Oxide: Available at hardware stores or online.",
+        "Nickel(II) Oxide: Obtain from chemical supply companies or online.",
+        "Silicon Dioxide: Available at hardware stores or online (as sand or silica gel)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing container, combine 25 g of Calcium Oxide, 30 g of Iron(III) Oxide, 25 g of Nickel(II) Oxide, and 70 g of Silicon Dioxide.",
+        "2. Use a mortar and pestle or mechanical grinder to thoroughly mix the powders until a homogeneous powder is achieved.",
+        "3. Ensure there are no clumps and the mixture is uniform in color and texture."
+      ],
+      "raw_text": "1. In a clean, dry mixing container, combine 25 g of Calcium Oxide, 30 g of Iron(III) Oxide, 25 g of Nickel(II) Oxide, and 70 g of Silicon Dioxide. \n 2. Use a mortar and pestle or mechanical grinder to thoroughly mix the powders until a homogeneous powder is achieved. \n 3. Ensure there are no clumps and the mixture is uniform in color and texture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace or high-temperature kiln.",
+        "3. Heat the mixture gradually to 1200°C (2192°F) at a rate of 5°C per minute.",
+        "4. Maintain this temperature for 2 hours to achieve complete sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace or high-temperature kiln. \n 3. Heat the mixture gradually to 1200°C (2192°F) at a rate of 5°C per minute. \n 4. Maintain this temperature for 2 hours to achieve complete sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or irregularities.",
+        "3. Use fine-grit sandpaper to smooth the surfaces as needed.",
+        "4. Optionally, seal the surface with a suitable sealant to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any rough edges or irregularities. \n 3. Use fine-grit sandpaper to smooth the surfaces as needed. \n 4. Optionally, seal the surface with a suitable sealant to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 762874.0,
+      "density": 45882.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -29762.0,
+      "formation_energy_per_atom": -5311.0,
+      "decomposition_energy_per_atom": 58.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6ff251e96a",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:42.002955Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Fe1Ni1Si2.json",
+      "material://Ca1Fe1Ni1Si2"
+    ]
+  }
+}

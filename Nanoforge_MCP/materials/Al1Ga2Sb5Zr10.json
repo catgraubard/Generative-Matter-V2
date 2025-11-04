@@ -1,0 +1,135 @@
+{
+  "id": "Al1Ga2Sb5Zr10",
+  "uri": "material://Al1Ga2Sb5Zr10",
+  "composition": {
+    "formula": "Al1Ga2Sb5Zr10",
+    "elements": {
+      "Al": 1,
+      "Ga": 2,
+      "Sb": 5,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10AlGa2Sb5",
+    "element_list": [
+      "Al",
+      "Ga",
+      "Zr",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 22.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 48.00 g \n La: 3.00 g \n Nd: 9.00 g \n O: 64.00 g \n Pb: 22.00 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Aluminum powder can be sourced from chemical supply stores or online retailers. \n La: Lanthanum oxide can be obtained from specialty metal suppliers. \n Nd: Neodymium oxide can also be found at specialty chemical suppliers. \n O: Oxygen can be sourced as part of the aluminum oxide during the reaction. \n Pb: Lead powder can be purchased from metal suppliers or online chemical retailers.",
+      "steps": [
+        "Al: Aluminum powder can be sourced from chemical supply stores or online retailers.",
+        "La: Lanthanum oxide can be obtained from specialty metal suppliers.",
+        "Nd: Neodymium oxide can also be found at specialty chemical suppliers.",
+        "O: Oxygen can be sourced as part of the aluminum oxide during the reaction.",
+        "Pb: Lead powder can be purchased from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the precise amounts of each ingredient using a scale.",
+        "2. In a clean, dry mixing bowl, combine the aluminum powder, lanthanum oxide, neodymium oxide, and lead powder thoroughly using a spatula.",
+        "3. Gradually add oxygen in the form of a controlled atmosphere or through an oxidizing agent while mixing to ensure even distribution."
+      ],
+      "raw_text": "1. Measure out the precise amounts of each ingredient using a scale. \n 2. In a clean, dry mixing bowl, combine the aluminum powder, lanthanum oxide, neodymium oxide, and lead powder thoroughly using a spatula. \n 3. Gradually add oxygen in the form of a controlled atmosphere or through an oxidizing agent while mixing to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1200°C (2192°F) for 4 hours, ensuring a gradual temperature rise to prevent material degradation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 1200°C (2192°F) for 4 hours, ensuring a gradual temperature rise to prevent material degradation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not force cooling, as this may lead to material cracking. The cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not force cooling, as this may lead to material cracking. The cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections and sand down with fine-grit sandpaper.",
+        "3. If desired, seal the surface with a suitable epoxy resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections and sand down with fine-grit sandpaper. \n 3. If desired, seal the surface with a suitable epoxy resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3805963.0,
+      "density": 73624.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1302723.0,
+      "formation_energy_per_atom": -7971.0,
+      "decomposition_energy_per_atom": -591.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -89.0,
+      "decomposition_energy_mp": -591.0,
+      "decomposition_energy_mp_oqmd": -583.0
+    },
+    "electronic": {
+      "bandgap": 0.0046,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae2bc6453d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.339345Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Ga2Sb5Zr10.json",
+      "material://Al1Ga2Sb5Zr10"
+    ]
+  }
+}

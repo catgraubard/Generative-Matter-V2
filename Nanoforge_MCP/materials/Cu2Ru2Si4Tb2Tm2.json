@@ -1,0 +1,116 @@
+{
+  "id": "Cu2Ru2Si4Tb2Tm2",
+  "uri": "material://Cu2Ru2Si4Tb2Tm2",
+  "composition": {
+    "formula": "Cu2Ru2Si4Tb2Tm2",
+    "elements": {
+      "Cu": 2,
+      "Ru": 2,
+      "Si": 4,
+      "Tb": 2,
+      "Tm": 2
+    },
+    "reduced_formula": "TbTmCuSi2Ru",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ru",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 40 g, Ru: 10 g, Si: 20 g, Tb: 15 g, Tm: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online metal retailers; Ru: Precious metal supplier or specialized online stores; Si: Chemical supply stores; Tb: Rare earth suppliers; Tm: Rare earth suppliers.",
+      "steps": [
+        "Cu: Local metal supplier or online metal retailers; Ru: Precious metal supplier or specialized online stores; Si: Chemical supply stores; Tb: Rare earth suppliers; Tm: Rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using an analytical balance.",
+        "2. In a clean, dry environment, combine Cu, Ru, Si, Tb, and Tm in a ceramic bowl.",
+        "3. Use a mortar and pestle to grind the mixture until it is a fine powder.",
+        "4. Ensure homogeneity by mixing thoroughly with a spatula."
+      ],
+      "raw_text": "1. Weigh each material precisely using an analytical balance. \n 2. In a clean, dry environment, combine Cu, Ru, Si, Tb, and Tm in a ceramic bowl. \n 3. Use a mortar and pestle to grind the mixture until it is a fine powder. \n 4. Ensure homogeneity by mixing thoroughly with a spatula."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace and heat to 1200°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace and heat to 1200°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 8-10 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 8-10 hours). \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for surface imperfections; if necessary, use fine-grit sandpaper to smooth the surface.",
+        "3. Optionally, apply a sealant for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for surface imperfections; if necessary, use fine-grit sandpaper to smooth the surface. \n 3. Optionally, apply a sealant for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2141035.0,
+      "density": 85104.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -758542.0,
+      "formation_energy_per_atom": -7654.0,
+      "decomposition_energy_per_atom": -111.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -24.0,
+      "decomposition_energy_mp": -227.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": 0.0057,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0016e20fb5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:14.435633Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ru2Si4Tb2Tm2.json",
+      "material://Cu2Ru2Si4Tb2Tm2"
+    ]
+  }
+}

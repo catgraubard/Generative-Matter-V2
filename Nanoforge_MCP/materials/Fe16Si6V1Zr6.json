@@ -1,0 +1,130 @@
+{
+  "id": "Fe16Si6V1Zr6",
+  "uri": "material://Fe16Si6V1Zr6",
+  "composition": {
+    "formula": "Fe16Si6V1Zr6",
+    "elements": {
+      "Fe": 16,
+      "Si": 6,
+      "V": 1,
+      "Zr": 6
+    },
+    "reduced_formula": "Zr6V(Fe8Si3)2",
+    "element_list": [
+      "Si",
+      "V",
+      "Fe",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 64.0 g \n Si: 24.0 g \n V: 4.0 g \n Zr: 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Local metal supply store or online metal suppliers. \n Si: Chemical supply companies or online market. \n V: Specialty metal suppliers or chemical supply retailers. \n Zr: Online metal suppliers or specialty stores.",
+      "steps": [
+        "Fe: Local metal supply store or online metal suppliers.",
+        "Si: Chemical supply companies or online market.",
+        "V: Specialty metal suppliers or chemical supply retailers.",
+        "Zr: Online metal suppliers or specialty stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Fe, Si, V, and Zr in the specified amounts.",
+        "3. Mix thoroughly using a mechanical mixer or by hand until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Fe, Si, V, and Zr in the specified amounts. \n 3. Mix thoroughly using a mechanical mixer or by hand until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the blended mixture into a suitable crucible.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and homogenization."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Transfer the blended mixture into a suitable crucible. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Slowly reduce the furnace temperature to 800°C over 1 hour.",
+        "2. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 3-4 hours)."
+      ],
+      "raw_text": "1. Slowly reduce the furnace temperature to 800°C over 1 hour. \n 2. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 3-4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a grinder/sander to smooth out the edges and surfaces to achieve the desired finish.",
+        "3. Optionally, apply a sealant or coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a grinder/sander to smooth out the edges and surfaces to achieve the desired finish. \n 3. Optionally, apply a sealant or coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3804977.0,
+      "density": 72458.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2427514.0,
+      "formation_energy_per_atom": -4934.0,
+      "decomposition_energy_per_atom": -26.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4d0f956dbd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:57.055734Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe16Si6V1Zr6.json",
+      "material://Fe16Si6V1Zr6"
+    ]
+  }
+}

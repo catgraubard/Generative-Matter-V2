@@ -1,0 +1,132 @@
+{
+  "id": "Co2Ni2Si8Tb12",
+  "uri": "material://Co2Ni2Si8Tb12",
+  "composition": {
+    "formula": "Co2Ni2Si8Tb12",
+    "elements": {
+      "Co": 2,
+      "Ni": 2,
+      "Si": 8,
+      "Tb": 12
+    },
+    "reduced_formula": "Tb6CoSi4Ni",
+    "element_list": [
+      "Si",
+      "Co",
+      "Ni",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g \n Ni: 20 g \n Si: 40 g \n Tb: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt) - Purchase from a chemical supply store or online supplier specializing in metals. \n Ni (Nickel) - Available at metal supply shops or online metal distributors. \n Si (Silicon) - Obtain from electronic component suppliers or chemical supply stores. \n Tb (Terbium) - Sourced from specialized rare earth material suppliers or online chemical retailers.",
+      "steps": [
+        "Co (Cobalt) - Purchase from a chemical supply store or online supplier specializing in metals.",
+        "Ni (Nickel) - Available at metal supply shops or online metal distributors.",
+        "Si (Silicon) - Obtain from electronic component suppliers or chemical supply stores.",
+        "Tb (Terbium) - Sourced from specialized rare earth material suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10 g of cobalt, 20 g of nickel, 40 g of silicon, and 60 g of terbium precisely.",
+        "2. In a clean, dry bowl, combine the measured amounts of cobalt, nickel, silicon, and terbium.",
+        "3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh 10 g of cobalt, 20 g of nickel, 40 g of silicon, and 60 g of terbium precisely. \n 2. In a clean, dry bowl, combine the measured amounts of cobalt, nickel, silicon, and terbium. \n 3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to a temperature of 1200°C at a rate of 10°C per minute.",
+        "4. Maintain this temperature for 2 hours to allow for full reaction and sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to a temperature of 1200°C at a rate of 10°C per minute. \n 4. Maintain this temperature for 2 hours to allow for full reaction and sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating phase, turn off the furnace and allow the crucible to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating phase, turn off the furnace and allow the crucible to cool down naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the material is cooled, remove it from the crucible.",
+        "2. If necessary, grind the solid sample to achieve the desired surface finish using a fine-grit sandpaper or grinder.",
+        "3. For additional protection, apply a clear sealant suitable for metal surfaces if the sample will be exposed to moisture or air.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions before use."
+      ],
+      "raw_text": "1. Once the material is cooled, remove it from the crucible. \n 2. If necessary, grind the solid sample to achieve the desired surface finish using a fine-grit sandpaper or grinder. \n 3. For additional protection, apply a clear sealant suitable for metal surfaces if the sample will be exposed to moisture or air. \n 4. Allow the sealant to cure according to the manufacturer's instructions before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5288188.0,
+      "density": 74327.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1415564.0,
+      "formation_energy_per_atom": -6985.0,
+      "decomposition_energy_per_atom": -114.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -223.0,
+      "decomposition_energy_mp_oqmd": -107.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "316e3002cd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:20.414253Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Ni2Si8Tb12.json",
+      "material://Co2Ni2Si8Tb12"
+    ]
+  }
+}

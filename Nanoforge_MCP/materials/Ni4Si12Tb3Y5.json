@@ -1,0 +1,103 @@
+{
+  "id": "Ni4Si12Tb3Y5",
+  "uri": "material://Ni4Si12Tb3Y5",
+  "composition": {
+    "formula": "Ni4Si12Tb3Y5",
+    "elements": {
+      "Ni": 4,
+      "Si": 12,
+      "Tb": 3,
+      "Y": 5
+    },
+    "reduced_formula": "Tb3Y5(Si3Ni)4",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 27.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 27.4 g, Si: 19.8 g, Tb: 5.9 g, Y: 10.2 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a metal supplier or online (e.g., Aldrich, Sigma-Aldrich).",
+      "steps": [
+        "Ni: Purchase from a metal supplier or online (e.g., Aldrich, Sigma-Aldrich)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 27.4 g of Ni powder using a precision balance."
+      ],
+      "raw_text": "1. Weigh 27.4 g of Ni powder using a precision balance."
+    },
+    "heating": {
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4444776.0,
+      "density": 55781.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1549206.0,
+      "formation_energy_per_atom": -8525.0,
+      "decomposition_energy_per_atom": -192.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -281.0,
+      "decomposition_energy_mp_oqmd": -248.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9864bcb1b5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.299013Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4Si12Tb3Y5.json",
+      "material://Ni4Si12Tb3Y5"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": "Bi2Ga3Ni1Y10",
+  "uri": "material://Bi2Ga3Ni1Y10",
+  "composition": {
+    "formula": "Bi2Ga3Ni1Y10",
+    "elements": {
+      "Bi": 2,
+      "Ga": 3,
+      "Ni": 1,
+      "Y": 10
+    },
+    "reduced_formula": "Y10Ga3NiBi2",
+    "element_list": [
+      "Ni",
+      "Ga",
+      "Y",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 0.8,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 25.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 6.4 g (Lanthanum Oxide) \n Pr6O11: 3.0 g (Praseodymium Oxide) \n W: 0.8 g (Tungsten) \n O: 25.8 g (Oxygen) (assumed from stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Buy from chemical supply companies or online marketplaces specializing in rare earth materials. \n Pr6O11: Available from specialized chemical suppliers. \n W: Purchase tungsten powder from metal supply stores or online. \n O: Generally available in the form of oxides from chemical suppliers.",
+      "steps": [
+        "La2O3: Buy from chemical supply companies or online marketplaces specializing in rare earth materials.",
+        "Pr6O11: Available from specialized chemical suppliers.",
+        "W: Purchase tungsten powder from metal supply stores or online.",
+        "O: Generally available in the form of oxides from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, mix La2O3, Pr6O11, and W powder thoroughly using a spatula.",
+        "3. Gradually add the required amount of oxygen (in the form of a suitable oxidizing agent if needed) to the mixture while continuing to stir until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, mix La2O3, Pr6O11, and W powder thoroughly using a spatula. \n 3. Gradually add the required amount of oxygen (in the form of a suitable oxidizing agent if needed) to the mixture while continuing to stir until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1200°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 1200°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges or surfaces.",
+        "3. If required, apply a suitable sealant to protect the material from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges or surfaces. \n 3. If required, apply a suitable sealant to protect the material from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4309019.0,
+      "density": 6069.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -966187.0,
+      "formation_energy_per_atom": -5818.0,
+      "decomposition_energy_per_atom": -132.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -132.0,
+      "decomposition_energy_mp_oqmd": -125.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b15163e3ba",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:12.704309Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2Ga3Ni1Y10.json",
+      "material://Bi2Ga3Ni1Y10"
+    ]
+  }
+}

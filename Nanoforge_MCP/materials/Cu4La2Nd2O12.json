@@ -1,0 +1,111 @@
+{
+  "id": "Cu4La2Nd2O12",
+  "uri": "material://Cu4La2Nd2O12",
+  "composition": {
+    "formula": "Cu4La2Nd2O12",
+    "elements": {
+      "Cu": 4,
+      "La": 2,
+      "Nd": 2,
+      "O": 12
+    },
+    "reduced_formula": "LaNd(CuO3)2",
+    "element_list": [
+      "O",
+      "Cu",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Copper (Cu): 100 g  \n - Lanthanum (La): 30 g  \n - Neodymium (Nd): 30 g  \n - Oxygen (O): 48 g (from a source like calcium peroxide or other oxygen sources)"
+    },
+    "sourcing": {
+      "instructions": "- Copper: Obtain from a local metal supplier or online (e.g., copper powder). \n - Lanthanum: Purchase from a chemical supply company or specialized rare earth element suppliers. \n - Neodymium: Buy from a chemical supplier or a rare earth material supplier. \n - Oxygen: Use calcium peroxide or another reagent that releases oxygen upon heating.",
+      "steps": [
+        "- Copper: Obtain from a local metal supplier or online (e.g., copper powder).",
+        "- Lanthanum: Purchase from a chemical supply company or specialized rare earth element suppliers.",
+        "- Neodymium: Buy from a chemical supplier or a rare earth material supplier.",
+        "- Oxygen: Use calcium peroxide or another reagent that releases oxygen upon heating."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients using an analytical balance for precision.",
+        "2. In a clean, dry container, combine 100 g of copper powder, 30 g of lanthanum oxide, 30 g of neodymium oxide, and 48 g of calcium peroxide.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer for at least 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh all ingredients using an analytical balance for precision. \n 2. In a clean, dry container, combine 100 g of copper powder, 30 g of lanthanum oxide, 30 g of neodymium oxide, and 48 g of calcium peroxide. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer for at least 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the sample gradually to 1200°C at a rate of 5°C per minute.",
+        "4. Maintain this temperature for 4 hours to allow complete reaction and formation of Cu4La2Nd2O12."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the sample gradually to 1200°C at a rate of 5°C per minute. \n 4. Maintain this temperature for 4 hours to allow complete reaction and formation of Cu4La2Nd2O12."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool slowly inside the furnace to room temperature (approximately 4-6 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool slowly inside the furnace to room temperature (approximately 4-6 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the sample for any irregularities or unreacted materials.",
+        "3. If needed, grind the sample to achieve a smoother finish.",
+        "4. Optionally, seal the material with a clear resin to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the sample for any irregularities or unreacted materials. \n 3. If needed, grind the sample to achieve a smoother finish. \n 4. Optionally, seal the material with a clear resin to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2770466.0,
+      "density": 60685.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1439892.0,
+      "formation_energy_per_atom": -24404.0,
+      "decomposition_energy_per_atom": -362.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -151.0,
+      "decomposition_energy_mp": -368.0,
+      "decomposition_energy_mp_oqmd": -151.0
+    },
+    "electronic": {
+      "bandgap": 0.8961,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "84e77dc5eb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:10.021368Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4La2Nd2O12.json",
+      "material://Cu4La2Nd2O12"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "Bi1Ga1Si4Tb10",
+  "uri": "material://Bi1Ga1Si4Tb10",
+  "composition": {
+    "formula": "Bi1Ga1Si4Tb10",
+    "elements": {
+      "Bi": 1,
+      "Ga": 1,
+      "Si": 4,
+      "Tb": 10
+    },
+    "reduced_formula": "Tb10GaSi4Bi",
+    "element_list": [
+      "Si",
+      "Ga",
+      "Tb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 10.0 g  \n Ga: 10.0 g  \n Si: 40.0 g  \n Tb: 100.0 g  \n Total: 160.0 g (for a solid sample of dimensions 3 inches x 2 inches x 7 inches)"
+    },
+    "sourcing": {
+      "instructions": "Bi (Bismuth): Purchase from a chemical supply store or online supplier. \n Ga (Gallium): Obtain from a chemical supply store or electronic components vendor. \n Si (Silicon): Available at semiconductor material suppliers. \n Tb (Terbium): Buy from a rare earth metals supplier or specialty chemical distributor.",
+      "steps": [
+        "Bi (Bismuth): Purchase from a chemical supply store or online supplier.",
+        "Ga (Gallium): Obtain from a chemical supply store or electronic components vendor.",
+        "Si (Silicon): Available at semiconductor material suppliers.",
+        "Tb (Terbium): Buy from a rare earth metals supplier or specialty chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 10.0 g of Bi using an analytical balance.",
+        "2. Measure 10.0 g of Ga.",
+        "3. Measure 40.0 g of Si.",
+        "4. Measure 100.0 g of Tb.",
+        "5. In a clean and dry container, combine all measured materials.",
+        "6. Use a mortar and pestle or a mechanical mixer to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure out 10.0 g of Bi using an analytical balance. \n 2. Measure 10.0 g of Ga. \n 3. Measure 40.0 g of Si. \n 4. Measure 100.0 g of Tb. \n 5. In a clean and dry container, combine all measured materials. \n 6. Use a mortar and pestle or a mechanical mixer to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or high-temperature oven to 900°C.",
+        "2. Once at temperature, place the mixture in a suitable crucible made of alumina or quartz.",
+        "3. Heat the mixture for 2 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Preheat a furnace or high-temperature oven to 900°C. \n 2. Once at temperature, place the mixture in a suitable crucible made of alumina or quartz. \n 3. Heat the mixture for 2 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 500°C naturally without opening the door.",
+        "2. After reaching 500°C, remove the crucible and place it on a heat-resistant surface to cool to room temperature.",
+        "3. Cooling duration should be approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 500°C naturally without opening the door. \n 2. After reaching 500°C, remove the crucible and place it on a heat-resistant surface to cool to room temperature. \n 3. Cooling duration should be approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid from the crucible.",
+        "2. Inspect for any surface imperfections or rough edges.",
+        "3. If necessary, use a diamond file or sandpaper to smooth the surface.",
+        "4. Optionally, apply a protective sealant to enhance surface durability.",
+        "5. Store the finished sample in a moisture-controlled environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid from the crucible. \n 2. Inspect for any surface imperfections or rough edges. \n 3. If necessary, use a diamond file or sandpaper to smooth the surface. \n 4. Optionally, apply a protective sealant to enhance surface durability. \n 5. Store the finished sample in a moisture-controlled environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4181365.0,
+      "density": 78643.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -852309.0,
+      "formation_energy_per_atom": -6417.0,
+      "decomposition_energy_per_atom": -126.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -123.0,
+      "decomposition_energy_mp_oqmd": -117.0
+    },
+    "electronic": {
+      "bandgap": 0.0068,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "70850f4b1c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:42.707051Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1Ga1Si4Tb10.json",
+      "material://Bi1Ga1Si4Tb10"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "Er1Ru4Sb1Sn5",
+  "uri": "material://Er1Ru4Sb1Sn5",
+  "composition": {
+    "formula": "Er1Ru4Sb1Sn5",
+    "elements": {
+      "Er": 1,
+      "Ru": 4,
+      "Sb": 1,
+      "Sn": 5
+    },
+    "reduced_formula": "ErSn5SbRu4",
+    "element_list": [
+      "Ru",
+      "Sn",
+      "Sb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.2,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 16.2,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.2 g (Cesium Carbonate) \n Rb: 16.2 g (Rubidium Carbonate) \n S: 6.0 g (Sulfur)"
+    },
+    "sourcing": {
+      "instructions": "Cesium Carbonate: Available from chemical supply companies like Sigma-Aldrich or online vendors. \n Rubidium Carbonate: Obtain from specialty chemical suppliers or online marketplaces. \n Sulfur: Purchase from local hardware stores or chemical suppliers.",
+      "steps": [
+        "Cesium Carbonate: Available from chemical supply companies like Sigma-Aldrich or online vendors.",
+        "Rubidium Carbonate: Obtain from specialty chemical suppliers or online marketplaces.",
+        "Sulfur: Purchase from local hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, measure 10.2 g of Cesium Carbonate.",
+        "2. Add 16.2 g of Rubidium Carbonate into the same container.",
+        "3. Add 6.0 g of Sulfur to the mixture.",
+        "4. Use a spatula to mix the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. In a clean, dry container, measure 10.2 g of Cesium Carbonate. \n 2. Add 16.2 g of Rubidium Carbonate into the same container. \n 3. Add 6.0 g of Sulfur to the mixture. \n 4. Use a spatula to mix the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 800°C (1472°F) and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 800°C (1472°F) and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature, approximately 4-6 hours.",
+        "2. Do not open the furnace door until it has cooled completely to prevent rapid cooling and cracking."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature, approximately 4-6 hours. \n 2. Do not open the furnace door until it has cooled completely to prevent rapid cooling and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. If necessary, use fine-grit sandpaper to smooth the edges and surfaces.",
+        "3. Optionally, apply a sealant or protective coating to enhance durability and stability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. If necessary, use fine-grit sandpaper to smooth the edges and surfaces. \n 3. Optionally, apply a sealant or protective coating to enhance durability and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 235065.0,
+      "density": 90905.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "I222",
+      "space_group_number": 23,
+      "point_group": "222",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -697317.0,
+      "formation_energy_per_atom": -3536.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -22.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 0.1238,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d753d16608",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.323312Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er1Ru4Sb1Sn5.json",
+      "material://Er1Ru4Sb1Sn5"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "C1Si6Ti5V5",
+  "uri": "material://C1Si6Ti5V5",
+  "composition": {
+    "formula": "C1Si6Ti5V5",
+    "elements": {
+      "C": 1,
+      "Si": 6,
+      "Ti": 5,
+      "V": 5
+    },
+    "reduced_formula": "Ti5V5Si6C",
+    "element_list": [
+      "C",
+      "Si",
+      "Ti",
+      "V"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 12 g (Carbon, graphite powder) \n Si: 72 g (Silicon, fine powder) \n Ti: 60 g (Titanium, metal powder) \n V: 30 g (Vanadium, metal powder)"
+    },
+    "sourcing": {
+      "instructions": "C: Local hardware store or online supplier (e.g., Amazon) \n Si: Chemical supply store or online supplier \n Ti: Metal supply company or online supplier \n V: Metal supply company or online supplier",
+      "steps": [
+        "C: Local hardware store or online supplier (e.g., Amazon)",
+        "Si: Chemical supply store or online supplier",
+        "Ti: Metal supply company or online supplier",
+        "V: Metal supply company or online supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing bowl, add 12 g of carbon powder.",
+        "3. Gradually add 72 g of silicon powder to the bowl while stirring continuously with a spatula.",
+        "4. Add 60 g of titanium powder to the mixture and continue stirring until well combined.",
+        "5. Finally, add 30 g of vanadium powder and mix thoroughly to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing bowl, add 12 g of carbon powder. \n 3. Gradually add 72 g of silicon powder to the bowl while stirring continuously with a spatula. \n 4. Add 60 g of titanium powder to the mixture and continue stirring until well combined. \n 5. Finally, add 30 g of vanadium powder and mix thoroughly to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible for heating.",
+        "2. Heat the crucible in a furnace to 1200°C (2192°F) for 2 hours to achieve proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible for heating. \n 2. Heat the crucible in a furnace to 1200°C (2192°F) for 2 hours to achieve proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Once cooled, carefully remove the crucible with the formed solid sample."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 1-2 hours). \n 2. Once cooled, carefully remove the crucible with the formed solid sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches if needed.",
+        "2. Sand the edges using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to enhance surface durability and resistance to oxidation."
+      ],
+      "raw_text": "1. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches if needed. \n 2. Sand the edges using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a sealant to enhance surface durability and resistance to oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 2286061.0,
+      "density": 48999.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1396824.0,
+      "formation_energy_per_atom": -7651.0,
+      "decomposition_energy_per_atom": -687.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -82.0,
+      "decomposition_energy_mp": -768.0,
+      "decomposition_energy_mp_oqmd": -761.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6fa726a53c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:41.619775Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Si6Ti5V5.json",
+      "material://C1Si6Ti5V5"
+    ]
+  }
+}

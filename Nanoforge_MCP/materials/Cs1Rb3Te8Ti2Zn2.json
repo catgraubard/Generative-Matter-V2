@@ -1,0 +1,116 @@
+{
+  "id": "Cs1Rb3Te8Ti2Zn2",
+  "uri": "material://Cs1Rb3Te8Ti2Zn2",
+  "composition": {
+    "formula": "Cs1Rb3Te8Ti2Zn2",
+    "elements": {
+      "Cs": 1,
+      "Rb": 3,
+      "Te": 8,
+      "Ti": 2,
+      "Zn": 2
+    },
+    "reduced_formula": "CsRb3Ti2(ZnTe4)2",
+    "element_list": [
+      "Ti",
+      "Zn",
+      "Rb",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 2.5 g, Rb: 7.5 g, Te: 20 g, Ti: 5 g, Zn: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from a chemical supply company; Rb (Rubidium): Chemical supply company; Te (Tellurium): Specialty metal supplier; Ti (Titanium): Metal supplier; Zn (Zinc): Hardware store or chemical supplier.",
+      "steps": [
+        "Cs (Cesium): Purchase from a chemical supply company; Rb (Rubidium): Chemical supply company; Te (Tellurium): Specialty metal supplier; Ti (Titanium): Metal supplier; Zn (Zinc): Hardware store or chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Accurately weigh 2.5 g of Cs, 7.5 g of Rb, 20 g of Te, 5 g of Ti, and 5 g of Zn using a precision balance.",
+        "2. In a clean, dry glass container, combine all the weighed materials.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity.",
+        "4. Transfer the powder into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Accurately weigh 2.5 g of Cs, 7.5 g of Rb, 20 g of Te, 5 g of Ti, and 5 g of Zn using a precision balance. \n 2. In a clean, dry glass container, combine all the weighed materials. \n 3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity. \n 4. Transfer the powder into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800 °C.",
+        "2. Place the ceramic crucible with the mixed powder inside the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete material reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 800 °C. \n 2. Place the ceramic crucible with the mixed powder inside the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete material reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace without opening the door.",
+        "2. Allow the crucible to cool down to room temperature inside the furnace (approximately 5-6 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace without opening the door. \n 2. Allow the crucible to cool down to room temperature inside the furnace (approximately 5-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a spatula to extract the solidified material and place it on a clean surface.",
+        "3. Sand the edges of the solid sample to achieve a smooth finish, if needed.",
+        "4. Store the finished material in a dry, sealed container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a spatula to extract the solidified material and place it on a clean surface. \n 3. Sand the edges of the solid sample to achieve a smooth finish, if needed. \n 4. Store the finished material in a dry, sealed container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 6493177.0,
+      "density": 41855.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -639358.0,
+      "formation_energy_per_atom": -10401.0,
+      "decomposition_energy_per_atom": -771.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -37.0,
+      "decomposition_energy_mp": -761.0,
+      "decomposition_energy_mp_oqmd": -164.0
+    },
+    "electronic": {
+      "bandgap": 1.226,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7e4857f775",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:00.894065Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Rb3Te8Ti2Zn2.json",
+      "material://Cs1Rb3Te8Ti2Zn2"
+    ]
+  }
+}

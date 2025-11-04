@@ -1,0 +1,114 @@
+{
+  "id": "Er2P12Ru19Zr3",
+  "uri": "material://Er2P12Ru19Zr3",
+  "composition": {
+    "formula": "Er2P12Ru19Zr3",
+    "elements": {
+      "Er": 2,
+      "P": 12,
+      "Ru": 19,
+      "Zr": 3
+    },
+    "reduced_formula": "Er2Zr3P12Ru19",
+    "element_list": [
+      "P",
+      "Zr",
+      "Ru",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 60 g, P: 30 g, Ru: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Nd: Obtain from a rare earth metals supplier, P: Purchase from a chemical supplier, Ru: Acquire from a precious metals supplier.",
+      "steps": [
+        "Nd: Obtain from a rare earth metals supplier, P: Purchase from a chemical supplier, Ru: Acquire from a precious metals supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 60 g of Nd, 30 g of P, and 120 g of Ru using an analytical balance.",
+        "2. Place Nd and Ru in a clean, dry mixing container.",
+        "3. Add P to the container.",
+        "4. Mix the powders thoroughly using a mortar and pestle or a ball mill until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh 60 g of Nd, 30 g of P, and 120 g of Ru using an analytical balance. \n 2. Place Nd and Ru in a clean, dry mixing container. \n 3. Add P to the container. \n 4. Mix the powders thoroughly using a mortar and pestle or a ball mill until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat the mixture to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat the mixture to 1200 °C at a rate of 10 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 3 hours).",
+        "2. Once cooled, carefully remove the sample from the furnace using appropriate heat-resistant gloves."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 3 hours). \n 2. Once cooled, carefully remove the sample from the furnace using appropriate heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the solid sample to achieve a uniform grain size if necessary.",
+        "2. Polish the surface with fine-grit sandpaper to obtain a smooth finish.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Grind the solid sample to achieve a uniform grain size if necessary. \n 2. Polish the surface with fine-grit sandpaper to obtain a smooth finish. \n 3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 530074.0,
+      "density": 90853.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3059002.0,
+      "formation_energy_per_atom": -8319.0,
+      "decomposition_energy_per_atom": -637.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -637.0,
+      "decomposition_energy_mp_oqmd": -634.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dad21be582",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.229296Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er2P12Ru19Zr3.json",
+      "material://Er2P12Ru19Zr3"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "Nd7Sc12Sn16Y1",
+  "uri": "material://Nd7Sc12Sn16Y1",
+  "composition": {
+    "formula": "Nd7Sc12Sn16Y1",
+    "elements": {
+      "Nd": 7,
+      "Sc": 12,
+      "Sn": 16,
+      "Y": 1
+    },
+    "reduced_formula": "Nd7Y(Sc3Sn4)4",
+    "element_list": [
+      "Sc",
+      "Y",
+      "Sn",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 35.29,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 20.58,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 35.29,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 1.76,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 35.29 g\nSc: 20.58 g\nSn: 35.29 g\nY: 1.76 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium): Purchase from a chemical supplier or online marketplace like Sigma-Aldrich.\nSc (Scandium): Available from specialty metal suppliers.\nSn (Tin): Obtain from hardware stores or online.\nY (Yttrium): Purchase from chemical suppliers or online.",
+      "steps": [
+        "Nd (Neodymium): Purchase from a chemical supplier or online marketplace like Sigma-Aldrich.",
+        "Sc (Scandium): Available from specialty metal suppliers.",
+        "Sn (Tin): Obtain from hardware stores or online.",
+        "Y (Yttrium): Purchase from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for precise measurement.",
+        "2. In a clean, dry container, combine Nd, Sc, Sn, and Y powders.",
+        "3. Mix the powders thoroughly using a mortar and pestle for uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for precise measurement.\n2. In a clean, dry container, combine Nd, Sc, Sn, and Y powders.\n3. Mix the powders thoroughly using a mortar and pestle for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the mixed powders into a crucible.",
+        "2. Heat the crucible in a furnace to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and homogenization."
+      ],
+      "raw_text": "1. Place the mixed powders into a crucible.\n2. Heat the crucible in a furnace to 1200 °C at a rate of 10 °C/min.\n3. Maintain the temperature for 2 hours to ensure complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature slowly over approximately 4 hours to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature slowly over approximately 4 hours to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled material from the crucible and inspect for uniformity.",
+        "2. If needed, grind the solid sample to achieve a desired finish.",
+        "3. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the cooled material from the crucible and inspect for uniformity.\n2. If needed, grind the solid sample to achieve a desired finish.\n3. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9448787.0,
+      "density": 62167.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2075558.0,
+      "formation_energy_per_atom": -7658.0,
+      "decomposition_energy_per_atom": -548.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -131.0,
+      "decomposition_energy_mp": -548.0,
+      "decomposition_energy_mp_oqmd": -405.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "11e4738b93",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:38.893419Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd7Sc12Sn16Y1.json",
+      "material://Nd7Sc12Sn16Y1"
+    ]
+  }
+}

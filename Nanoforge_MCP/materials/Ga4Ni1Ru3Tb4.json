@@ -1,0 +1,133 @@
+{
+  "id": "Ga4Ni1Ru3Tb4",
+  "uri": "material://Ga4Ni1Ru3Tb4",
+  "composition": {
+    "formula": "Ga4Ni1Ru3Tb4",
+    "elements": {
+      "Ga": 4,
+      "Ni": 1,
+      "Ru": 3,
+      "Tb": 4
+    },
+    "reduced_formula": "Tb4Ga4NiRu3",
+    "element_list": [
+      "Ni",
+      "Ga",
+      "Ru",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 210.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 300 g \n Ga: 180 g \n Sr: 210 g \n Tl: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Bi (Bismuth): Purchase from chemical supply companies like Sigma-Aldrich. \n Ga (Gallium): Obtain from specialized metal suppliers or online platforms like eBay. \n Sr (Strontium): Available at chemical supply stores or through online chemical retailers. \n Tl (Thallium): Purchase from chemical suppliers with a focus on rare or specialty metals.",
+      "steps": [
+        "Bi (Bismuth): Purchase from chemical supply companies like Sigma-Aldrich.",
+        "Ga (Gallium): Obtain from specialized metal suppliers or online platforms like eBay.",
+        "Sr (Strontium): Available at chemical supply stores or through online chemical retailers.",
+        "Tl (Thallium): Purchase from chemical suppliers with a focus on rare or specialty metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh each component accurately using an analytical balance.",
+        "2. Use a mortar and pestle to finely grind Bi, Ga, Sr, and Tl individually to ensure uniformity.",
+        "3. Combine the ground powders in a ceramic crucible, ensuring even distribution.",
+        "4. Use a spatula to mix the powders thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh each component accurately using an analytical balance. \n 2. Use a mortar and pestle to finely grind Bi, Ga, Sr, and Tl individually to ensure uniformity. \n 3. Combine the ground powders in a ceramic crucible, ensuring even distribution. \n 4. Use a spatula to mix the powders thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800°C.",
+        "2. Place the crucible containing the mixture into the furnace.",
+        "3. Heat for 4 hours to allow for complete melting and reaction of the constituents."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800°C. \n 2. Place the crucible containing the mixture into the furnace. \n 3. Heat for 4 hours to allow for complete melting and reaction of the constituents."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 6-8 hours. Ensure no abrupt temperature changes occur to avoid cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This cooling process should take approximately 6-8 hours. Ensure no abrupt temperature changes occur to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample is cooled, remove it from the crucible carefully.",
+        "2. Inspect the solidified sample for any imperfections or bubbles.",
+        "3. If needed, use a diamond saw to trim the edges to achieve the desired dimensions.",
+        "4. Polish the surface with sandpaper (starting with 400 grit and moving to 1200 grit) to achieve a smooth finish.",
+        "5. Optionally, seal the sample with a coating of clear epoxy for protection against environmental factors."
+      ],
+      "raw_text": "1. Once the sample is cooled, remove it from the crucible carefully. \n 2. Inspect the solidified sample for any imperfections or bubbles. \n 3. If needed, use a diamond saw to trim the edges to achieve the desired dimensions. \n 4. Polish the surface with sandpaper (starting with 400 grit and moving to 1200 grit) to achieve a smooth finish. \n 5. Optionally, seal the sample with a coating of clear epoxy for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2297266.0,
+      "density": 92269.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -712824.0,
+      "formation_energy_per_atom": -5858.0,
+      "decomposition_energy_per_atom": -613.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -613.0,
+      "decomposition_energy_mp_oqmd": -292.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dace0d0468",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.224735Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga4Ni1Ru3Tb4.json",
+      "material://Ga4Ni1Ru3Tb4"
+    ]
+  }
+}

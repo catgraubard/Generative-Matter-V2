@@ -1,0 +1,109 @@
+{
+  "id": "Cs20Ga4O16",
+  "uri": "material://Cs20Ga4O16",
+  "composition": {
+    "formula": "Cs20Ga4O16",
+    "elements": {
+      "Cs": 20,
+      "Ga": 4,
+      "O": 16
+    },
+    "reduced_formula": "Cs5GaO4",
+    "element_list": [
+      "O",
+      "Ga",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cs2O: 20 g\nGa2O3: 16 g\nSiO2: 34 g (for binder, optional)\nAl2O3: 5 g (for stability, optional)"
+    },
+    "sourcing": {
+      "instructions": "Cs2O: Purchase from chemical suppliers or online platforms like Sigma-Aldrich.\nGa2O3: Available from specialized chemical suppliers or online sources.\nSiO2 and Al2O3: Obtain from ceramics suppliers or local hardware stores.",
+      "steps": [
+        "Cs2O: Purchase from chemical suppliers or online platforms like Sigma-Aldrich.",
+        "Ga2O3: Available from specialized chemical suppliers or online sources.",
+        "SiO2 and Al2O3: Obtain from ceramics suppliers or local hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of Cs2O and 16 g of Ga2O3 using a precision scale.",
+        "2. If using SiO2 and Al2O3, measure 34 g and 5 g respectively.",
+        "3. Combine Cs2O and Ga2O3 in a clean, dry mixing container.",
+        "4. If using SiO2 and Al2O3, add them to the mixture.",
+        "5. Mix thoroughly using a mortar and pestle or mechanical mixer for 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 20 g of Cs2O and 16 g of Ga2O3 using a precision scale.\n2. If using SiO2 and Al2O3, measure 34 g and 5 g respectively.\n3. Combine Cs2O and Ga2O3 in a clean, dry mixing container.\n4. If using SiO2 and Al2O3, add them to the mixture.\n5. Mix thoroughly using a mortar and pestle or mechanical mixer for 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C at a rate of 5°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible.\n2. Heat the crucible in a furnace to 800°C at a rate of 5°C per minute.\n3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process typically takes 4-6 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature. \n2. This process typically takes 4-6 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any imperfections or irregularities.",
+        "3. If necessary, use sandpaper to smooth the surface and edges.",
+        "4. Optionally, seal the material with a ceramic sealant for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible.\n2. Inspect for any imperfections or irregularities.\n3. If necessary, use sandpaper to smooth the surface and edges.\n4. Optionally, seal the material with a ceramic sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 40,
+      "volume": 11011104.0,
+      "density": 48152.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1739779.0,
+      "formation_energy_per_atom": -16198.0,
+      "decomposition_energy_per_atom": -86.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -89.0,
+      "decomposition_energy_mp_oqmd": -87.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "48c04ddda9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:51.101978Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs20Ga4O16.json",
+      "material://Cs20Ga4O16"
+    ]
+  }
+}

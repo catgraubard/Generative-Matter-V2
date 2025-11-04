@@ -1,0 +1,116 @@
+{
+  "id": "Fe1Ge2Mn5Nb4",
+  "uri": "material://Fe1Ge2Mn5Nb4",
+  "composition": {
+    "formula": "Fe1Ge2Mn5Nb4",
+    "elements": {
+      "Fe": 1,
+      "Ge": 2,
+      "Mn": 5,
+      "Nb": 4
+    },
+    "reduced_formula": "Mn5Nb4FeGe2",
+    "element_list": [
+      "Mn",
+      "Fe",
+      "Ge",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Pb",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2O:  24 g \n Pb:  12 g"
+    },
+    "sourcing": {
+      "instructions": "Li2O can be sourced from chemical supply companies or online chemical retailers. \n Lead (Pb) can be obtained from lead oxide or lead metal suppliers, which may be available through industrial metal suppliers or online marketplaces that specialize in metals.",
+      "steps": [
+        "Li2O can be sourced from chemical supply companies or online chemical retailers.",
+        "Lead (Pb) can be obtained from lead oxide or lead metal suppliers, which may be available through industrial metal suppliers or online marketplaces that specialize in metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing container, add 24 g of lithium oxide (Li2O).",
+        "2. Add 12 g of lead (Pb) to the container.",
+        "3. Using a spatula, mix the two powders thoroughly for about 5 minutes until a homogeneous mixture is achieved.",
+        "4. Ensure that proper safety equipment (gloves, goggles, mask) is worn during handling of materials."
+      ],
+      "raw_text": "1. In a clean, dry mixing container, add 24 g of lithium oxide (Li2O). \n 2. Add 12 g of lead (Pb) to the container. \n 3. Using a spatula, mix the two powders thoroughly for about 5 minutes until a homogeneous mixture is achieved. \n 4. Ensure that proper safety equipment (gloves, goggles, mask) is worn during handling of materials."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace or a high-temperature oven.",
+        "3. Heat the mixture gradually to 800°C (1472°F) at a rate of 10°C per minute.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and fusion of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace or a high-temperature oven. \n 3. Heat the mixture gradually to 800°C (1472°F) at a rate of 10°C per minute. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours; do not open the furnace during this time to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours; do not open the furnace during this time to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or imperfections.",
+        "3. If necessary, sand down rough edges using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface of the sample if it will be exposed to the environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or imperfections. \n 3. If necessary, sand down rough edges using fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to protect the surface of the sample if it will be exposed to the environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1668435.0,
+      "density": 84343.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1070526.0,
+      "formation_energy_per_atom": -2601.0,
+      "decomposition_energy_per_atom": -202.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -202.0,
+      "decomposition_energy_mp_oqmd": -124.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bbef3f6251",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.759748Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ge2Mn5Nb4.json",
+      "material://Fe1Ge2Mn5Nb4"
+    ]
+  }
+}

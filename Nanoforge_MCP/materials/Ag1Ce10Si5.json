@@ -1,0 +1,110 @@
+{
+  "id": "Ag1Ce10Si5",
+  "uri": "material://Ag1Ce10Si5",
+  "composition": {
+    "formula": "Ag1Ce10Si5",
+    "elements": {
+      "Ag": 1,
+      "Ce": 10,
+      "Si": 5
+    },
+    "reduced_formula": "Ce10Si5Ag",
+    "element_list": [
+      "Si",
+      "Ag",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 70.0 g, Pb: 80.0 g, Tb: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Order from a specialty chemical supplier or online marketplace; Pb: Purchase lead ingots from a metal supply store; Tb: Acquire from a rare earth mineral supplier.",
+      "steps": [
+        "La: Order from a specialty chemical supplier or online marketplace; Pb: Purchase lead ingots from a metal supply store; Tb: Acquire from a rare earth mineral supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 70.0 g of Lanthanum (La), 80.0 g of Lead (Pb), and 30.0 g of Terbium (Tb).",
+        "2. Place the powders in a clean, dry container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 10-15 minutes until a uniform composition is achieved."
+      ],
+      "raw_text": "1. Weigh out 70.0 g of Lanthanum (La), 80.0 g of Lead (Pb), and 30.0 g of Terbium (Tb). \n 2. Place the powders in a clean, dry container. \n 3. Use a mortar and pestle to thoroughly mix the powders for 10-15 minutes until a uniform composition is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat the crucible in a furnace to 1200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat the crucible in a furnace to 1200 °C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 4-6 hours). \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to protect the surface of the material."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish. \n 3. Optionally, apply a sealant to protect the surface of the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3951107.0,
+      "density": 69322.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -969937.0,
+      "formation_energy_per_atom": -4815.0,
+      "decomposition_energy_per_atom": -23.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -227.0,
+      "decomposition_energy_mp": -227.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ad57a155d6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:06.622213Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Ce10Si5.json",
+      "material://Ag1Ce10Si5"
+    ]
+  }
+}

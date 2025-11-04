@@ -1,0 +1,124 @@
+{
+  "id": "Ba2Ca1Te22",
+  "uri": "material://Ba2Ca1Te22",
+  "composition": {
+    "formula": "Ba2Ca1Te22",
+    "elements": {
+      "Ba": 2,
+      "Ca": 1,
+      "Te": 22
+    },
+    "reduced_formula": "Ba2CaTe22",
+    "element_list": [
+      "Ca",
+      "Te",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 1.25,
+          "unit": "g"
+        },
+        {
+          "element": "Ca",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 22.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 1.25 g \n Ca: 0.5 g \n Te: 22 g (Total: 23.75 g)"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium): Obtain from chemical supply companies or online chemical retailers. \n Ca (Calcium): Available from chemical suppliers or metal suppliers. \n Te (Tellurium): Purchase from specialized metal suppliers or online chemical vendors.",
+      "steps": [
+        "Ba (Barium): Obtain from chemical supply companies or online chemical retailers.",
+        "Ca (Calcium): Available from chemical suppliers or metal suppliers.",
+        "Te (Tellurium): Purchase from specialized metal suppliers or online chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a balance.",
+        "2. In a clean, dry container, combine Ba, Ca, and Te in the specified amounts.",
+        "3. Use a mortar and pestle to finely grind the mixture until homogeneous.",
+        "4. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a balance. \n 2. In a clean, dry container, combine Ba, Ca, and Te in the specified amounts. \n 3. Use a mortar and pestle to finely grind the mixture until homogeneous. \n 4. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the crucible with the mixture in the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and synthesis of Ba2Ca1Te22."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the crucible with the mixture in the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and synthesis of Ba2Ca1Te22."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and carefully extract the solid sample.",
+        "2. If necessary, grind the solid sample to achieve a uniform texture.",
+        "3. Optionally, seal the sample with a clear epoxy to enhance stability and protect from environmental factors.",
+        "4. Ensure the edges are smoothed using sandpaper for a refined finish."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and carefully extract the solid sample. \n 2. If necessary, grind the solid sample to achieve a uniform texture. \n 3. Optionally, seal the sample with a clear epoxy to enhance stability and protect from environmental factors. \n 4. Ensure the edges are smoothed using sandpaper for a refined finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 25,
+      "volume": 8972312.0,
+      "density": 57779.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -927098.0,
+      "formation_energy_per_atom": -7085.0,
+      "decomposition_energy_per_atom": -1758.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -1753.0,
+      "decomposition_energy_mp_oqmd": -165.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "11a0a171d1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:38.540554Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Ca1Te22.json",
+      "material://Ba2Ca1Te22"
+    ]
+  }
+}

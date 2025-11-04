@@ -1,0 +1,110 @@
+{
+  "id": "Ba2Fe1Ga6Tc1",
+  "uri": "material://Ba2Fe1Ga6Tc1",
+  "composition": {
+    "formula": "Ba2Fe1Ga6Tc1",
+    "elements": {
+      "Ba": 2,
+      "Fe": 1,
+      "Ga": 6,
+      "Tc": 1
+    },
+    "reduced_formula": "Ba2Ga6FeTc",
+    "element_list": [
+      "Fe",
+      "Ga",
+      "Tc",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Carbonate (BaCO3): 34.0 g \n Iron(III) Oxide (Fe2O3): 11.5 g \n Gallium Oxide (Ga2O3): 35.0 g \n Technetium(IV) Oxide (TcO2): 0.5 g \n Total mass = 81.0 g"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Chemical supply stores or online chemical suppliers. \n Iron(III) Oxide: Available at hardware stores or online. \n Gallium Oxide: Specialty chemical suppliers or online vendors. \n Technetium(IV) Oxide: Requires a nuclear materials supplier (ensure proper licenses for purchase).",
+      "steps": [
+        "Barium Carbonate: Chemical supply stores or online chemical suppliers.",
+        "Iron(III) Oxide: Available at hardware stores or online.",
+        "Gallium Oxide: Specialty chemical suppliers or online vendors.",
+        "Technetium(IV) Oxide: Requires a nuclear materials supplier (ensure proper licenses for purchase)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Barium Carbonate, Iron(III) Oxide, Gallium Oxide, and Technetium(IV) Oxide.",
+        "3. Use a mortar and pestle or mechanical mixer to blend the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Barium Carbonate, Iron(III) Oxide, Gallium Oxide, and Technetium(IV) Oxide. \n 3. Use a mortar and pestle or mechanical mixer to blend the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat gradually to 1200°C (2192°F) at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat gradually to 1200°C (2192°F) at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace door until it has cooled to avoid rapid temperature changes which may cause thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace door until it has cooled to avoid rapid temperature changes which may cause thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any irregularities and use a fine-grit sandpaper to smooth the surfaces if necessary.",
+        "3. If desired, seal the sample with a suitable high-temperature resin or coating for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect for any irregularities and use a fine-grit sandpaper to smooth the surfaces if necessary. \n 3. If desired, seal the sample with a suitable high-temperature resin or coating for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2234185.0,
+      "density": 6294.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -448861.0,
+      "formation_energy_per_atom": -4049.0,
+      "decomposition_energy_per_atom": -368.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -39.0,
+      "decomposition_energy_mp": -368.0,
+      "decomposition_energy_mp_oqmd": -39.0
+    },
+    "electronic": {
+      "bandgap": 0.0075,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "17e89b9119",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:46.935576Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Fe1Ga6Tc1.json",
+      "material://Ba2Fe1Ga6Tc1"
+    ]
+  }
+}

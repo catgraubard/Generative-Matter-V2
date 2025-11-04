@@ -1,0 +1,131 @@
+{
+  "id": "Cu2Ga22Nd4Zn2",
+  "uri": "material://Cu2Ga22Nd4Zn2",
+  "composition": {
+    "formula": "Cu2Ga22Nd4Zn2",
+    "elements": {
+      "Cu": 2,
+      "Ga": 22,
+      "Nd": 4,
+      "Zn": 2
+    },
+    "reduced_formula": "Nd2ZnGa11Cu",
+    "element_list": [
+      "Cu",
+      "Zn",
+      "Ga",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 60.25,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 279.5,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 19.9,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 24.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 60.25 g \n Ga: 279.5 g \n Nd: 19.9 g \n Zn: 24.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supply store or online supplier. \n Ga: Obtain from a chemical supply company or specialized metal dealer. \n Nd: Acquire from a rare earth materials supplier. \n Zn: Available from hardware stores or online metal suppliers.",
+      "steps": [
+        "Cu: Purchase from a metal supply store or online supplier.",
+        "Ga: Obtain from a chemical supply company or specialized metal dealer.",
+        "Nd: Acquire from a rare earth materials supplier.",
+        "Zn: Available from hardware stores or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an electronic balance.",
+        "2. In a clean, dry container, combine Cu, Ga, Nd, and Zn in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 10-15 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an electronic balance. \n 2. In a clean, dry container, combine Cu, Ga, Nd, and Zn in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 10-15 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a furnace and heat to 900°C (1652°F) at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a furnace and heat to 900°C (1652°F) at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature inside the furnace, which may take 4-6 hours.",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature inside the furnace, which may take 4-6 hours. \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified alloy from the crucible and inspect for any rough edges.",
+        "2. Use a grinder or sandpaper to smooth out any imperfections and achieve the desired dimensions.",
+        "3. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified alloy from the crucible and inspect for any rough edges. \n 2. Use a grinder or sandpaper to smooth out any imperfections and achieve the desired dimensions. \n 3. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 5808845.0,
+      "density": 67715.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P422",
+      "space_group_number": 89,
+      "point_group": "422",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1068148.0,
+      "formation_energy_per_atom": -3469.0,
+      "decomposition_energy_per_atom": -63.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -35.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6ef2504124",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:40.730739Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ga22Nd4Zn2.json",
+      "material://Cu2Ga22Nd4Zn2"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "As4Ba2Cu3Ti1",
+  "uri": "material://As4Ba2Cu3Ti1",
+  "composition": {
+    "formula": "As4Ba2Cu3Ti1",
+    "elements": {
+      "As": 4,
+      "Ba": 2,
+      "Cu": 3,
+      "Ti": 1
+    },
+    "reduced_formula": "Ba2TiCu3As4",
+    "element_list": [
+      "Ti",
+      "Cu",
+      "As",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Arsenic (As): 12.0 g  \n - Barium (Ba): 7.5 g  \n - Copper (Cu): 19.5 g  \n - Titanium (Ti): 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Arsenic: Specialty chemical suppliers or online marketplaces (ensure proper handling and safety measures).  \n - Barium: Chemical supply stores or online suppliers.  \n - Copper: Metal supply shops or hardware stores.  \n - Titanium: Metal suppliers or online metal retailers.",
+      "steps": [
+        "- Arsenic: Specialty chemical suppliers or online marketplaces (ensure proper handling and safety measures).",
+        "- Barium: Chemical supply stores or online suppliers.",
+        "- Copper: Metal supply shops or hardware stores.",
+        "- Titanium: Metal suppliers or online metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine all the weighed ingredients.",
+        "3. Use a mortar and pestle or ball mill to finely grind the mixture until homogeneous.",
+        "4. Transfer the mixture to a clean crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale.  \n 2. In a clean, dry mixing container, combine all the weighed ingredients.  \n 3. Use a mortar and pestle or ball mill to finely grind the mixture until homogeneous.  \n 4. Transfer the mixture to a clean crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900°C (1652°F).",
+        "2. Place the crucible containing the mixture in the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and phase formation."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C (1652°F).  \n 2. Place the crucible containing the mixture in the furnace.  \n 3. Maintain the temperature for 4 hours to ensure complete reaction and phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).  \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible.  \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.  \n 3. Sand the edges and surfaces to achieve a smooth finish.  \n 4. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2228823.0,
+      "density": 60559.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "C222",
+      "space_group_number": 21,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -496131.0,
+      "formation_energy_per_atom": -6946.0,
+      "decomposition_energy_per_atom": -289.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -283.0,
+      "decomposition_energy_mp": -289.0,
+      "decomposition_energy_mp_oqmd": -283.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "62f140b3c4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:25.444064Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Ba2Cu3Ti1.json",
+      "material://As4Ba2Cu3Ti1"
+    ]
+  }
+}

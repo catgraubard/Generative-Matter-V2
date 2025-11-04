@@ -1,0 +1,141 @@
+{
+  "id": "Fe5Mo1O24P6Sr2",
+  "uri": "material://Fe5Mo1O24P6Sr2",
+  "composition": {
+    "formula": "Fe5Mo1O24P6Sr2",
+    "elements": {
+      "Fe": 5,
+      "Mo": 1,
+      "O": 24,
+      "P": 6,
+      "Sr": 2
+    },
+    "reduced_formula": "Sr2Fe5Mo(PO4)6",
+    "element_list": [
+      "O",
+      "P",
+      "Fe",
+      "Sr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 100 g \n Mo: 20 g \n O: 240 g \n P: 60 g \n Sr: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Purchase from a metal supply store or online metal supplier. \n Mo: Obtain from a specialty metal supplier or chemical supply company. \n O: Get from a chemical supply store; ensure it's in the form of a suitable oxide. \n P: Find at a chemical supply store; look for phosphate compounds. \n Sr: Source from a chemical supply company specializing in rare earth metals or chemical suppliers.",
+      "steps": [
+        "Fe: Purchase from a metal supply store or online metal supplier.",
+        "Mo: Obtain from a specialty metal supplier or chemical supply company.",
+        "O: Get from a chemical supply store; ensure it's in the form of a suitable oxide.",
+        "P: Find at a chemical supply store; look for phosphate compounds.",
+        "Sr: Source from a chemical supply company specializing in rare earth metals or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 100 g of iron (Fe) and place it in a clean, dry mixing container.",
+        "2. Add 20 g of molybdenum (Mo) into the container.",
+        "3. Pour in 240 g of oxygen (O) in the appropriate oxide form (ensure it is properly weighed).",
+        "4. Add 60 g of phosphorus (P) to the mixture.",
+        "5. Finally, add 40 g of strontium (Sr).",
+        "6. Use a mechanical mixer to blend the ingredients uniformly for about 10 minutes."
+      ],
+      "raw_text": "1. Measure 100 g of iron (Fe) and place it in a clean, dry mixing container. \n 2. Add 20 g of molybdenum (Mo) into the container. \n 3. Pour in 240 g of oxygen (O) in the appropriate oxide form (ensure it is properly weighed). \n 4. Add 60 g of phosphorus (P) to the mixture. \n 5. Finally, add 40 g of strontium (Sr). \n 6. Use a mechanical mixer to blend the ingredients uniformly for about 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace set to 1200 °C.",
+        "3. Heat for 4 hours to allow for complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace set to 1200 °C. \n 3. Heat for 4 hours to allow for complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating is complete, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating is complete, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth the surface and edges of the sample.",
+        "3. If desired, apply a sealant to enhance durability and finish; allow it to cure according to the sealant's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth the surface and edges of the sample. \n 3. If desired, apply a sealant to enhance durability and finish; allow it to cure according to the sealant's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4907738.0,
+      "density": 37903.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3060059.0,
+      "formation_energy_per_atom": -25842.0,
+      "decomposition_energy_per_atom": -33.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 1.4331,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "655b55d2da",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.364120Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe5Mo1O24P6Sr2.json",
+      "material://Fe5Mo1O24P6Sr2"
+    ]
+  }
+}

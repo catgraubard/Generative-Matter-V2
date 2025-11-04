@@ -1,0 +1,137 @@
+{
+  "id": "Fe6Ge1Sc2Si1Zr2",
+  "uri": "material://Fe6Ge1Sc2Si1Zr2",
+  "composition": {
+    "formula": "Fe6Ge1Sc2Si1Zr2",
+    "elements": {
+      "Fe": 6,
+      "Ge": 1,
+      "Sc": 2,
+      "Si": 1,
+      "Zr": 2
+    },
+    "reduced_formula": "Zr2Sc2Fe6SiGe",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Fe",
+      "Ge",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 1.2,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 0.12,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 0.4,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 0.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 1.2 g \n Sc: 0.12 g \n Si: 1.5 g \n Tb: 0.4 g \n Tm: 0.4 g"
+    },
+    "sourcing": {
+      "instructions": "P: Purchase from a chemical supply site or specialty metal supplier. \n Sc: Available at rare earth metal suppliers. \n Si: Obtain from electronics suppliers. \n Tb: Purchase from a rare earth materials supplier. \n Tm: Available from specialty chemical suppliers.",
+      "steps": [
+        "P: Purchase from a chemical supply site or specialty metal supplier.",
+        "Sc: Available at rare earth metal suppliers.",
+        "Si: Obtain from electronics suppliers.",
+        "Tb: Purchase from a rare earth materials supplier.",
+        "Tm: Available from specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean container, combine P, Sc, Si, Tb, and Tm thoroughly.",
+        "3. Use a mortar and pestle to achieve a fine, homogeneous powder."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean container, combine P, Sc, Si, Tb, and Tm thoroughly. \n 3. Use a mortar and pestle to achieve a fine, homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a furnace at 1200 °C for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible.\n 2. Heat the crucible in a furnace at 1200 °C for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature.",
+        "2. This process should take approximately 4-6 hours to ensure even cooling and avoid cracking."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature. \n 2. This process should take approximately 4-6 hours to ensure even cooling and avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces of the sample to achieve a smooth finish.",
+        "3. Optionally, seal the sample with a protective coating if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces of the sample to achieve a smooth finish. \n 3. Optionally, seal the sample with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1736962.0,
+      "density": 677.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -964331.0,
+      "formation_energy_per_atom": -4837.0,
+      "decomposition_energy_per_atom": -34.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -25.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "abecea4636",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:04.197425Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe6Ge1Sc2Si1Zr2.json",
+      "material://Fe6Ge1Sc2Si1Zr2"
+    ]
+  }
+}

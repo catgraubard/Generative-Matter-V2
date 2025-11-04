@@ -1,0 +1,109 @@
+{
+  "id": "Al10Ga2Se20Sn2",
+  "uri": "material://Al10Ga2Se20Sn2",
+  "composition": {
+    "formula": "Al10Ga2Se20Sn2",
+    "elements": {
+      "Al": 10,
+      "Ga": 2,
+      "Se": 20,
+      "Sn": 2
+    },
+    "reduced_formula": "Al5GaSnSe10",
+    "element_list": [
+      "Al",
+      "Ga",
+      "Se",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum (Al): 195 g \n Gallium (Ga): 78 g \n Selenium (Se): 600 g \n Tin (Sn): 56 g"
+    },
+    "sourcing": {
+      "instructions": "Aluminum: Purchase from a metal supplier or online retailers like McMaster-Carr. \n Gallium: Obtain from chemical supply companies or online. \n Selenium: Available from chemical supply stores. \n Tin: Can be sourced from metal suppliers or online.",
+      "steps": [
+        "Aluminum: Purchase from a metal supplier or online retailers like McMaster-Carr.",
+        "Gallium: Obtain from chemical supply companies or online.",
+        "Selenium: Available from chemical supply stores.",
+        "Tin: Can be sourced from metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine 195 g of aluminum, 78 g of gallium, 600 g of selenium, and 56 g of tin.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer until a homogenous mixture is obtained."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine 195 g of aluminum, 78 g of gallium, 600 g of selenium, and 56 g of tin. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer until a homogenous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 600 °C (1112 °F) for 2 hours to ensure complete melting and alloying of components. Maintain a controlled atmosphere if possible to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 600 °C (1112 °F) for 2 hours to ensure complete melting and alloying of components. Maintain a controlled atmosphere if possible to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally.",
+        "2. This process should take approximately 4-6 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally. \n 2. This process should take approximately 4-6 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the surface for any irregularities or rough edges.",
+        "3. Sand any rough areas using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy or varnish for protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the surface for any irregularities or rough edges. \n 3. Sand any rough areas using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy or varnish for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 9303622.0,
+      "density": 39728.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1569751.0,
+      "formation_energy_per_atom": -10449.0,
+      "decomposition_energy_per_atom": -126.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -126.0,
+      "decomposition_energy_mp_oqmd": -64.0
+    },
+    "electronic": {
+      "bandgap": 1.5425,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8254b9a301",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:06.626426Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al10Ga2Se20Sn2.json",
+      "material://Al10Ga2Se20Sn2"
+    ]
+  }
+}

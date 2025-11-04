@@ -1,0 +1,106 @@
+{
+  "id": "Al1Co1Se1Ti3Zr3",
+  "uri": "material://Al1Co1Se1Ti3Zr3",
+  "composition": {
+    "formula": "Al1Co1Se1Ti3Zr3",
+    "elements": {
+      "Al": 1,
+      "Co": 1,
+      "Se": 1,
+      "Ti": 3,
+      "Zr": 3
+    },
+    "reduced_formula": "Zr3Ti3AlCoSe",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Co",
+      "Se",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 32.00 g, S: 16.00 g, Sn: 18.00 g, Te: 32.00 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Purchase from a chemical supply company, S: Sulfur from a laboratory supplier, Sn: Tin from a metal supplier, Te: Tellurium from a specialty chemical supplier.",
+      "steps": [
+        "Rb: Purchase from a chemical supply company, S: Sulfur from a laboratory supplier, Sn: Tin from a metal supplier, Te: Tellurium from a specialty chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 32.00 g of Rb, 16.00 g of S, 18.00 g of Sn, and 32.00 g of Te with an analytical balance. 2. In a clean, dry mixing container, combine Rb, S, Sn, and Te. 3. Stir the mixture thoroughly using a glass rod to ensure even distribution of the components."
+      ],
+      "raw_text": "1. Weigh 32.00 g of Rb, 16.00 g of S, 18.00 g of Sn, and 32.00 g of Te with an analytical balance. 2. In a clean, dry mixing container, combine Rb, S, Sn, and Te. 3. Stir the mixture thoroughly using a glass rod to ensure even distribution of the components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible. 2. Place the crucible in a furnace. 3. Heat the mixture to 800°C at a heating rate of 10°C per minute. 4. Maintain this temperature for 4 hours to ensure complete reaction of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible. 2. Place the crucible in a furnace. 3. Heat the mixture to 800°C at a heating rate of 10°C per minute. 4. Maintain this temperature for 4 hours to ensure complete reaction of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. 2. Do not open the furnace until the temperature is below 300°C to avoid contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. 2. Do not open the furnace until the temperature is below 300°C to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible. 2. Use a diamond file to smooth the edges and surfaces for a finished appearance. 3. Optionally, apply a sealant to the surface to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. 2. Use a diamond file to smooth the edges and surfaces for a finished appearance. 3. Optionally, apply a sealant to the surface to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1620813.0,
+      "density": 59642.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -690744.0,
+      "formation_energy_per_atom": -5994.0,
+      "decomposition_energy_per_atom": -197.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -53.0,
+      "decomposition_energy_mp": -197.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.0124,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b2703fadb0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.529477Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Co1Se1Ti3Zr3.json",
+      "material://Al1Co1Se1Ti3Zr3"
+    ]
+  }
+}

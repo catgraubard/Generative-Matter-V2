@@ -1,0 +1,133 @@
+{
+  "id": "Cs4O18Se6Ti2",
+  "uri": "material://Cs4O18Se6Ti2",
+  "composition": {
+    "formula": "Cs4O18Se6Ti2",
+    "elements": {
+      "Cs": 4,
+      "O": 18,
+      "Se": 6,
+      "Ti": 2
+    },
+    "reduced_formula": "Cs2Ti(SeO3)3",
+    "element_list": [
+      "O",
+      "Ti",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 144.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 180 g \n O: 144 g \n Se: 120 g \n Ti: 70 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain cesium carbonate from a chemical supplier. \n O: Purchase oxygen source (e.g., distilled water for hydrolysis). \n Se: Selenium powder from a chemical supplier. \n Ti: Titanium dioxide from a chemical supplier.",
+      "steps": [
+        "Cs: Obtain cesium carbonate from a chemical supplier.",
+        "O: Purchase oxygen source (e.g., distilled water for hydrolysis).",
+        "Se: Selenium powder from a chemical supplier.",
+        "Ti: Titanium dioxide from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 180 g of cesium carbonate (Cs).",
+        "2. Weigh out 144 g of oxygen source (H2O).",
+        "3. Weigh out 120 g of selenium powder (Se).",
+        "4. Weigh out 70 g of titanium dioxide (Ti).",
+        "5. In a clean, dry mixing container, combine all weighed materials thoroughly using a spatula until a homogeneous mixture is obtained."
+      ],
+      "raw_text": "1. Weigh out 180 g of cesium carbonate (Cs). \n 2. Weigh out 144 g of oxygen source (H2O). \n 3. Weigh out 120 g of selenium powder (Se). \n 4. Weigh out 70 g of titanium dioxide (Ti). \n 5. In a clean, dry mixing container, combine all weighed materials thoroughly using a spatula until a homogeneous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a crucible.",
+        "2. Heat the crucible in a furnace to 800°C.",
+        "3. Hold at 800°C for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixture into a crucible. \n 2. Heat the crucible in a furnace to 800°C. \n 3. Hold at 800°C for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature, approximately 4-6 hours.",
+        "2. Do not open the furnace while cooling to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature, approximately 4-6 hours. \n 2. Do not open the furnace while cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use sandpaper to smooth the surface if needed.",
+        "4. Optionally, apply a sealant to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. Use sandpaper to smooth the surface if needed. \n 4. Optionally, apply a sealant to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 5977421.0,
+      "density": 3859.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/m",
+      "space_group_number": 176,
+      "point_group": "6/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1882005.0,
+      "formation_energy_per_atom": -19596.0,
+      "decomposition_energy_per_atom": -409.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -409.0,
+      "decomposition_energy_mp": -507.0,
+      "decomposition_energy_mp_oqmd": -469.0
+    },
+    "electronic": {
+      "bandgap": 2.6503,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f3c365f53b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.586262Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4O18Se6Ti2.json",
+      "material://Cs4O18Se6Ti2"
+    ]
+  }
+}

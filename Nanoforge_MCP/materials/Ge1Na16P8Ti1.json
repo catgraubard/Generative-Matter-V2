@@ -1,0 +1,132 @@
+{
+  "id": "Ge1Na16P8Ti1",
+  "uri": "material://Ge1Na16P8Ti1",
+  "composition": {
+    "formula": "Ge1Na16P8Ti1",
+    "elements": {
+      "Ge": 1,
+      "Na": 16,
+      "P": 8,
+      "Ti": 1
+    },
+    "reduced_formula": "Na16TiGeP8",
+    "element_list": [
+      "Na",
+      "P",
+      "Ti",
+      "Ge"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 8.7,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 6.4,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 5.4,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 8.7 g \n Na: 6.4 g \n P: 5.4 g \n Ti: 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Purchase from semiconductor suppliers or online chemical distributors. \n Na: Obtain from a chemical supply store or online. \n P: Available from chemical suppliers. \n Ti: Source from metal suppliers or online.",
+      "steps": [
+        "Ge: Purchase from semiconductor suppliers or online chemical distributors.",
+        "Na: Obtain from a chemical supply store or online.",
+        "P: Available from chemical suppliers.",
+        "Ti: Source from metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using a digital scale.",
+        "2. In a clean glass beaker, combine Ge, Na, P, and Ti.",
+        "3. Use a magnetic stirrer to mix the ingredients thoroughly until a uniform mixture is achieved.",
+        "4. Ensure no lumps remain; if necessary, grind the mixture using a mortar and pestle for finer consistency."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using a digital scale. \n 2. In a clean glass beaker, combine Ge, Na, P, and Ti. \n 3. Use a magnetic stirrer to mix the ingredients thoroughly until a uniform mixture is achieved. \n 4. Ensure no lumps remain; if necessary, grind the mixture using a mortar and pestle for finer consistency."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a ceramic crucible.",
+        "2. Heat in a muffle furnace at 800°C for 2 hours.",
+        "3. Increase the temperature to 1000°C and hold for an additional 1 hour to facilitate sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a ceramic crucible. \n 2. Heat in a muffle furnace at 800°C for 2 hours. \n 3. Increase the temperature to 1000°C and hold for an additional 1 hour to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully to avoid breakage.",
+        "2. Use fine-grit sandpaper to smooth out any rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added durability.",
+        "4. Let the sealed sample cure according to the resin manufacturer’s instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully to avoid breakage. \n 2. Use fine-grit sandpaper to smooth out any rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin for added durability. \n 4. Let the sealed sample cure according to the resin manufacturer’s instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 6089824.0,
+      "density": 20072.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -879919.0,
+      "formation_energy_per_atom": -4233.0,
+      "decomposition_energy_per_atom": -156.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -156.0,
+      "decomposition_energy_mp_oqmd": -23.0
+    },
+    "electronic": {
+      "bandgap": 0.6338,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5442e58dc6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:06.080741Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Na16P8Ti1.json",
+      "material://Ge1Na16P8Ti1"
+    ]
+  }
+}

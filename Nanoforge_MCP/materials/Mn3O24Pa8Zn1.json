@@ -1,0 +1,115 @@
+{
+  "id": "Mn3O24Pa8Zn1",
+  "uri": "material://Mn3O24Pa8Zn1",
+  "composition": {
+    "formula": "Mn3O24Pa8Zn1",
+    "elements": {
+      "Mn": 3,
+      "O": 24,
+      "Pa": 8,
+      "Zn": 1
+    },
+    "reduced_formula": "Pa8Mn3ZnO24",
+    "element_list": [
+      "O",
+      "Mn",
+      "Zn",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 80 g, Co: 160 g, Ge: 8 g, Ti: 40 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store; Co: Metal supplier or online; Ge: Specialty mineral supplier; Ti: Metal supplier or online.",
+      "steps": [
+        "B: Chemical supply store; Co: Metal supplier or online; Ge: Specialty mineral supplier; Ti: Metal supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing container, combine 80 g of boron (B) and 160 g of cobalt (Co).",
+        "2. Add 8 g of germanium (Ge) to the mixture.",
+        "3. Finally, incorporate 40 g of titanium (Ti).",
+        "4. Use a spatula to thoroughly mix the dry ingredients until uniform in color and texture.",
+        "5. Transfer the mixture into a ball mill and mill for 2 hours to ensure a fine and homogenous powder is achieved."
+      ],
+      "raw_text": "1. In a clean, dry mixing container, combine 80 g of boron (B) and 160 g of cobalt (Co). \n 2. Add 8 g of germanium (Ge) to the mixture. \n 3. Finally, incorporate 40 g of titanium (Ti). \n 4. Use a spatula to thoroughly mix the dry ingredients until uniform in color and texture. \n 5. Transfer the mixture into a ball mill and mill for 2 hours to ensure a fine and homogenous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the milled powder into a ceramic crucible for heating.",
+        "3. Heat the sample for 4 hours, maintaining a consistent temperature."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the milled powder into a ceramic crucible for heating. \n 3. Heat the sample for 4 hours, maintaining a consistent temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool down gradually to room temperature over a period of 6 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool down gradually to room temperature over a period of 6 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges using progressively finer grit sandpaper (starting from 120 to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability, following the manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges using progressively finer grit sandpaper (starting from 120 to 600 grit) to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance durability, following the manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4631811.0,
+      "density": 88282.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3542361.0,
+      "formation_energy_per_atom": -36284.0,
+      "decomposition_energy_per_atom": -3772.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -172.0,
+      "decomposition_energy_mp": -3779.0,
+      "decomposition_energy_mp_oqmd": -3764.0
+    },
+    "electronic": {
+      "bandgap": 1.7933,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e457aafd7b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.807306Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn3O24Pa8Zn1.json",
+      "material://Mn3O24Pa8Zn1"
+    ]
+  }
+}

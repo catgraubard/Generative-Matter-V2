@@ -1,0 +1,108 @@
+{
+  "id": "Co1Cs1Mn3O8",
+  "uri": "material://Co1Cs1Mn3O8",
+  "composition": {
+    "formula": "Co1Cs1Mn3O8",
+    "elements": {
+      "Co": 1,
+      "Cs": 1,
+      "Mn": 3,
+      "O": 8
+    },
+    "reduced_formula": "CsMn3CoO8",
+    "element_list": [
+      "O",
+      "Mn",
+      "Co",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "K2O: 20.00 g, Na2O: 15.00 g, P2O5: 35.00 g, TiO2: 3.00 g, ZrO2: 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "K2O: Chemical supply stores, Na2O: Chemical supply stores, P2O5: Agricultural suppliers, TiO2: Industrial chemical suppliers, ZrO2: Ceramics suppliers",
+      "steps": [
+        "K2O: Chemical supply stores, Na2O: Chemical supply stores, P2O5: Agricultural suppliers, TiO2: Industrial chemical suppliers, ZrO2: Ceramics suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure K2O, Na2O, P2O5, TiO2, and ZrO2 accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine K2O, Na2O, P2O5, TiO2, and ZrO2.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure K2O, Na2O, P2O5, TiO2, and ZrO2 accurately using a digital scale. \n 2. In a clean, dry mixing container, combine K2O, Na2O, P2O5, TiO2, and ZrO2. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the milled mixture in a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 4 hours to achieve full crystallization."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the milled mixture in a ceramic crucible. \n 3. Heat the crucible in the furnace for 4 hours to achieve full crystallization."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until the temperature is below 300 °C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until the temperature is below 300 °C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, remove the crucible and extract the solid sample.",
+        "2. If necessary, use a diamond saw to trim the edges to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the surface with 120-grit sandpaper followed by 400-grit for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability if required."
+      ],
+      "raw_text": "1. Once cool, remove the crucible and extract the solid sample. \n 2. If necessary, use a diamond saw to trim the edges to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the surface with 120-grit sandpaper followed by 400-grit for a smooth finish. \n 4. Optionally, apply a sealant to enhance durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2083115.0,
+      "density": 38633.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -985877.0,
+      "formation_energy_per_atom": -18088.0,
+      "decomposition_energy_per_atom": -78.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -358.0,
+      "decomposition_energy_mp": -786.0,
+      "decomposition_energy_mp_oqmd": -742.0
+    },
+    "electronic": {
+      "bandgap": 1.768,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7fa6b2c32",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.421024Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Cs1Mn3O8.json",
+      "material://Co1Cs1Mn3O8"
+    ]
+  }
+}

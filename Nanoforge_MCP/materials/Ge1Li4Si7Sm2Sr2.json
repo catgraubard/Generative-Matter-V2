@@ -1,0 +1,116 @@
+{
+  "id": "Ge1Li4Si7Sm2Sr2",
+  "uri": "material://Ge1Li4Si7Sm2Sr2",
+  "composition": {
+    "formula": "Ge1Li4Si7Sm2Sr2",
+    "elements": {
+      "Ge": 1,
+      "Li": 4,
+      "Si": 7,
+      "Sm": 2,
+      "Sr": 2
+    },
+    "reduced_formula": "Sr2Li4Sm2Si7Ge",
+    "element_list": [
+      "Li",
+      "Si",
+      "Ge",
+      "Sr",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 5.0 g, Li: 1.0 g, Si: 15.0 g, Sm: 3.0 g, Sr: 2.0 g (Total = 26.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Ge: Buy from a semiconductor supplier; Li: Obtain from a chemical supplier; Si: Purchase from a materials lab; Sm: Source from a rare earth elements vendor; Sr: Acquire from a chemical supplier.",
+      "steps": [
+        "Ge: Buy from a semiconductor supplier; Li: Obtain from a chemical supplier; Si: Purchase from a materials lab; Sm: Source from a rare earth elements vendor; Sr: Acquire from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the ingredients accurately using a digital scale.",
+        "2. Place Ge, Li, Si, Sm, and Sr in a clean, dry glass vial.",
+        "3. Use a glass rod to mix the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out the ingredients accurately using a digital scale. \n 2. Place Ge, Li, Si, Sm, and Sr in a clean, dry glass vial. \n 3. Use a glass rod to mix the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace to a temperature of 1000°C at a heating rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a ceramic crucible. \n 2. Heat the crucible in a muffle furnace to a temperature of 1000°C at a heating rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to drop naturally to 500°C (about 1 hour).",
+        "2. Open the furnace and allow the crucible to cool to room temperature (approximately 3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to drop naturally to 500°C (about 1 hour). \n 2. Open the furnace and allow the crucible to cool to room temperature (approximately 3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified material from the crucible.",
+        "2. Trim any excess material to achieve the desired dimensions of 3 inches x 2 inches x 7 inches using a diamond saw.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified material from the crucible. \n 2. Trim any excess material to achieve the desired dimensions of 3 inches x 2 inches x 7 inches using a diamond saw. \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3301148.0,
+      "density": 38881.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -709782.0,
+      "formation_energy_per_atom": -4954.0,
+      "decomposition_energy_per_atom": -403.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -403.0,
+      "decomposition_energy_mp_oqmd": -396.0
+    },
+    "electronic": {
+      "bandgap": 0.0122,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1fe6e82977",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:57.438085Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Li4Si7Sm2Sr2.json",
+      "material://Ge1Li4Si7Sm2Sr2"
+    ]
+  }
+}

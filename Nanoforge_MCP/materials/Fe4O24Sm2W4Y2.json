@@ -1,0 +1,142 @@
+{
+  "id": "Fe4O24Sm2W4Y2",
+  "uri": "material://Fe4O24Sm2W4Y2",
+  "composition": {
+    "formula": "Fe4O24Sm2W4Y2",
+    "elements": {
+      "Fe": 4,
+      "O": 24,
+      "Sm": 2,
+      "W": 4,
+      "Y": 2
+    },
+    "reduced_formula": "SmYFe2(WO6)2",
+    "element_list": [
+      "O",
+      "Fe",
+      "Y",
+      "Sm",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 96.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 28.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 180 g \n O: 96 g \n Sm: 28 g \n W: 75 g \n Y: 36 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Local metal supplier or online metals retailer. \n O: Purchase oxygen gas or use iron oxide sources (Fe2O3). \n Sm: Rare earth metal suppliers or online chemical suppliers. \n W: Metal suppliers or online sources for tungsten. \n Y: Chemical suppliers or rare earth material distributors.",
+      "steps": [
+        "Fe: Local metal supplier or online metals retailer.",
+        "O: Purchase oxygen gas or use iron oxide sources (Fe2O3).",
+        "Sm: Rare earth metal suppliers or online chemical suppliers.",
+        "W: Metal suppliers or online sources for tungsten.",
+        "Y: Chemical suppliers or rare earth material distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 180 g of Fe and place it in a clean mixing container.",
+        "2. Add 96 g of O in the form of iron oxide (Fe2O3) to the container.",
+        "3. Incorporate 28 g of Sm into the mixture.",
+        "4. Add 75 g of W powder to the mix.",
+        "5. Finally, introduce 36 g of Y into the container.",
+        "6. Use a mechanical mixer to blend all ingredients thoroughly for 15 minutes, ensuring a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure out 180 g of Fe and place it in a clean mixing container. \n 2. Add 96 g of O in the form of iron oxide (Fe2O3) to the container. \n 3. Incorporate 28 g of Sm into the mixture. \n 4. Add 75 g of W powder to the mix. \n 5. Finally, introduce 36 g of Y into the container. \n 6. Use a mechanical mixer to blend all ingredients thoroughly for 15 minutes, ensuring a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "2. Heat the mixture in a muffle furnace to 1200°C.",
+        "3. Maintain this temperature for 4 hours to allow for proper chemical reactions and bonding."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high temperatures. \n 2. Heat the mixture in a muffle furnace to 1200°C. \n 3. Maintain this temperature for 4 hours to allow for proper chemical reactions and bonding."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 20°C).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 20°C). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the solid sample for any surface irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth out any rough edges.",
+        "4. Optionally, apply a sealant if required for specific applications, following the manufacturer's instructions for drying times."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the solid sample for any surface irregularities. \n 3. If necessary, use fine-grit sandpaper to smooth out any rough edges. \n 4. Optionally, apply a sealant if required for specific applications, following the manufacturer's instructions for drying times."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4394454.0,
+      "density": 6882.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pc",
+      "space_group_number": 7,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3209352.0,
+      "formation_energy_per_atom": -26139.0,
+      "decomposition_energy_per_atom": -156.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -148.0,
+      "decomposition_energy_mp_oqmd": 5.0
+    },
+    "electronic": {
+      "bandgap": 2.398,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "95b3a25106",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:32.525316Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4O24Sm2W4Y2.json",
+      "material://Fe4O24Sm2W4Y2"
+    ]
+  }
+}

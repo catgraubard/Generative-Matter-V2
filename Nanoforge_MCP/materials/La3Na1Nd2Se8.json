@@ -1,0 +1,116 @@
+{
+  "id": "La3Na1Nd2Se8",
+  "uri": "material://La3Na1Nd2Se8",
+  "composition": {
+    "formula": "La3Na1Nd2Se8",
+    "elements": {
+      "La": 3,
+      "Na": 1,
+      "Nd": 2,
+      "Se": 8
+    },
+    "reduced_formula": "NaLa3(NdSe4)2",
+    "element_list": [
+      "Na",
+      "Se",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 6.85 g \n Na2O: 2.53 g \n Nd2O3: 15.6 g \n Se: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Available from chemical supply companies (e.g., Sigma-Aldrich) \n Na2O: Obtainable from specialty chemical retailers or online (e.g., Amazon) \n Nd2O3: Can be sourced from rare earth suppliers (e.g., American Elements) \n Se: Purchase from chemical suppliers or online stores (e.g., Fisher Scientific)",
+      "steps": [
+        "La2O3: Available from chemical supply companies (e.g., Sigma-Aldrich)",
+        "Na2O: Obtainable from specialty chemical retailers or online (e.g., Amazon)",
+        "Nd2O3: Can be sourced from rare earth suppliers (e.g., American Elements)",
+        "Se: Purchase from chemical suppliers or online stores (e.g., Fisher Scientific)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise analytical balance.",
+        "2. In a clean, dry container, add La2O3, Na2O, Nd2O3, and Se in the specified amounts.",
+        "3. Mix the powders thoroughly using a ceramic mortar and pestle to ensure homogeneity.",
+        "4. Transfer the mixed powder into a clean, heat-resistant crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise analytical balance. \n 2. In a clean, dry container, add La2O3, Na2O, Nd2O3, and Se in the specified amounts. \n 3. Mix the powders thoroughly using a ceramic mortar and pestle to ensure homogeneity. \n 4. Transfer the mixed powder into a clean, heat-resistant crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800 °C.",
+        "2. Place the crucible in the furnace and heat for 4 hours to ensure complete reaction and formation of La3Na1Nd2Se8."
+      ],
+      "raw_text": "1. Preheat the furnace to 800 °C. \n 2. Place the crucible in the furnace and heat for 4 hours to ensure complete reaction and formation of La3Na1Nd2Se8."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool naturally to room temperature (approx. 25 °C) over a period of 6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool naturally to room temperature (approx. 25 °C) over a period of 6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the cooled crucible from the furnace.",
+        "2. Remove the solid sample from the crucible and inspect for uniformity.",
+        "3. Optionally, grind the sample using a mortar and pestle to achieve a finer consistency if desired.",
+        "4. Seal the final product in an airtight container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Carefully remove the cooled crucible from the furnace. \n 2. Remove the solid sample from the crucible and inspect for uniformity. \n 3. Optionally, grind the sample using a mortar and pestle to achieve a finer consistency if desired. \n 4. Seal the final product in an airtight container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3701092.0,
+      "density": 61012.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -841639.0,
+      "formation_energy_per_atom": -21807.0,
+      "decomposition_energy_per_atom": -84.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": 1.5648,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3dabc96e22",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:36.609265Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La3Na1Nd2Se8.json",
+      "material://La3Na1Nd2Se8"
+    ]
+  }
+}

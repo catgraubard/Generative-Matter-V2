@@ -1,0 +1,112 @@
+{
+  "id": "P4Sc2V4Zr2",
+  "uri": "material://P4Sc2V4Zr2",
+  "composition": {
+    "formula": "P4Sc2V4Zr2",
+    "elements": {
+      "P": 4,
+      "Sc": 2,
+      "V": 4,
+      "Zr": 2
+    },
+    "reduced_formula": "ZrSc(VP)2",
+    "element_list": [
+      "P",
+      "Sc",
+      "V",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 10 g, Cd: 5 g, Nd: 5 g, Ni: 10 g, Tb: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Ag: Local metal supplier, Cd: Chemical supply store, Nd: Rare earth metal vendor, Ni: Metal supplier, Tb: Specialized chemical supplier",
+      "steps": [
+        "Ag: Local metal supplier, Cd: Chemical supply store, Nd: Rare earth metal vendor, Ni: Metal supplier, Tb: Specialized chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, combine Ag, Cd, Nd, Ni, and Tb in the specified amounts.",
+        "3. Stir the mixture thoroughly using a glass rod for at least 5 minutes to ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry container, combine Ag, Cd, Nd, Ni, and Tb in the specified amounts. \n 3. Stir the mixture thoroughly using a glass rod for at least 5 minutes to ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixed powder in a crucible.",
+        "2. Heat in a furnace at 900°C for 2 hours to promote reaction and solidify."
+      ],
+      "raw_text": "1. Place the mixed powder in a crucible. \n 2. Heat in a furnace at 900°C for 2 hours to promote reaction and solidify."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool gradually inside the furnace for 4 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool gradually inside the furnace for 4 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible carefully.",
+        "2. Use sandpaper (grit 400) to smooth the surface.",
+        "3. If required, apply a protective sealant to enhance durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible carefully. \n 2. Use sandpaper (grit 400) to smooth the surface. \n 3. If required, apply a protective sealant to enhance durability. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1838271.0,
+      "density": 54201.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1009065.0,
+      "formation_energy_per_atom": -10964.0,
+      "decomposition_energy_per_atom": -406.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -406.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "caa77bc148",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.024282Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/P4Sc2V4Zr2.json",
+      "material://P4Sc2V4Zr2"
+    ]
+  }
+}

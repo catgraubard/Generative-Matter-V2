@@ -1,0 +1,117 @@
+{
+  "id": "La2Nd2Rb4Se16Si4",
+  "uri": "material://La2Nd2Rb4Se16Si4",
+  "composition": {
+    "formula": "La2Nd2Rb4Se16Si4",
+    "elements": {
+      "La": 2,
+      "Nd": 2,
+      "Rb": 4,
+      "Se": 16,
+      "Si": 4
+    },
+    "reduced_formula": "Rb2LaNd(SiSe4)2",
+    "element_list": [
+      "Si",
+      "Se",
+      "Rb",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 10.0 g, Nd: 10.0 g, Rb: 5.0 g, Se: 40.0 g, Si: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Chemical supplier, Nd: Chemical supplier, Rb: Chemical supplier, Se: Chemical supplier, Si: Semiconductor supplier",
+      "steps": [
+        "La: Chemical supplier, Nd: Chemical supplier, Rb: Chemical supplier, Se: Chemical supplier, Si: Semiconductor supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, combine La, Nd, Rb, Se, and Si.",
+        "3. Mix thoroughly using a mortar and pestle for 15 minutes to ensure uniformity.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature processing."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, combine La, Nd, Rb, Se, and Si. \n 3. Mix thoroughly using a mortar and pestle for 15 minutes to ensure uniformity. \n 4. Transfer the mixture to a crucible suitable for high-temperature processing."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible in the furnace and maintain the temperature for 4 hours.",
+        "3. Increase the temperature to 1000°C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible in the furnace and maintain the temperature for 4 hours. \n 3. Increase the temperature to 1000°C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 16,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This should take approximately 12-16 hours.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This should take approximately 12-16 hours. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any irregularities.",
+        "2. If necessary, grind the sample using a mortar and pestle to achieve a smoother finish.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability.",
+        "4. Allow the coating to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any irregularities. \n 2. If necessary, grind the sample using a mortar and pestle to achieve a smoother finish. \n 3. Optionally, seal the surface with a protective coating to enhance durability. \n 4. Allow the coating to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8840236.0,
+      "density": 429.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -144338.0,
+      "formation_energy_per_atom": -1549.0,
+      "decomposition_energy_per_atom": -445.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -445.0,
+      "decomposition_energy_mp_oqmd": -414.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "51a9e58709",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:02.761918Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Nd2Rb4Se16Si4.json",
+      "material://La2Nd2Rb4Se16Si4"
+    ]
+  }
+}

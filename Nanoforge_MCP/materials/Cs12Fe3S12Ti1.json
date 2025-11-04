@@ -1,0 +1,110 @@
+{
+  "id": "Cs12Fe3S12Ti1",
+  "uri": "material://Cs12Fe3S12Ti1",
+  "composition": {
+    "formula": "Cs12Fe3S12Ti1",
+    "elements": {
+      "Cs": 12,
+      "Fe": 3,
+      "S": 12,
+      "Ti": 1
+    },
+    "reduced_formula": "Cs12Ti(FeS4)3",
+    "element_list": [
+      "S",
+      "Ti",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gd2O3: 27.0 g \n Sc2O3: 10.0 g \n Y2O3: 16.0 g \n Total: 53.0 g"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3: Available from specialized chemical suppliers or online platforms like Sigma-Aldrich. \n Sc2O3: Obtain from rare earth metal suppliers or online vendors. \n Y2O3: Can be sourced from chemical supply companies or online marketplaces.",
+      "steps": [
+        "Gd2O3: Available from specialized chemical suppliers or online platforms like Sigma-Aldrich.",
+        "Sc2O3: Obtain from rare earth metal suppliers or online vendors.",
+        "Y2O3: Can be sourced from chemical supply companies or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 27.0 g of Gd2O3, 10.0 g of Sc2O3, and 16.0 g of Y2O3 using a precision balance.",
+        "2. Combine the three oxides in a clean, dry ceramic or glass container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform color and texture is achieved.",
+        "4. Transfer the mixed powders to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 27.0 g of Gd2O3, 10.0 g of Sc2O3, and 16.0 g of Y2O3 using a precision balance. \n 2. Combine the three oxides in a clean, dry ceramic or glass container. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform color and texture is achieved. \n 4. Transfer the mixed powders to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder into a crucible that can withstand high temperatures.",
+        "3. Insert the crucible into the preheated furnace and hold at 1200 °C for 6 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder into a crucible that can withstand high temperatures. \n 3. Insert the crucible into the preheated furnace and hold at 1200 °C for 6 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours).",
+        "2. Avoid opening the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours). \n 2. Avoid opening the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solidified Gd2O12Sc2Y4 sample from the crucible.",
+        "3. Inspect for any irregularities and grind down any rough edges using a diamond grinding wheel.",
+        "4. Optionally, seal the surface with a protective coating if needed, depending on the intended application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solidified Gd2O12Sc2Y4 sample from the crucible. \n 3. Inspect for any irregularities and grind down any rough edges using a diamond grinding wheel. \n 4. Optionally, seal the surface with a protective coating if needed, depending on the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9972621.0,
+      "density": 3655.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1284119.0,
+      "formation_energy_per_atom": -12401.0,
+      "decomposition_energy_per_atom": -275.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -28.0,
+      "decomposition_energy_mp_oqmd": -112.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e51acfd28f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.979194Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Fe3S12Ti1.json",
+      "material://Cs12Fe3S12Ti1"
+    ]
+  }
+}

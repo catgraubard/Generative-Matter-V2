@@ -1,0 +1,111 @@
+{
+  "id": "B6Ga2Ni20Zn1",
+  "uri": "material://B6Ga2Ni20Zn1",
+  "composition": {
+    "formula": "B6Ga2Ni20Zn1",
+    "elements": {
+      "B": 6,
+      "Ga": 2,
+      "Ni": 20,
+      "Zn": 1
+    },
+    "reduced_formula": "ZnGa2(Ni10B3)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Zn",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.0 g, Ga: 4.0 g, Ni: 160.0 g, Zn: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply company; Ga: Obtain from a metal supplier; Ni: Metal supplier; Zn: Chemical supplier.",
+      "steps": [
+        "B: Purchase from a chemical supply company; Ga: Obtain from a metal supplier; Ni: Metal supplier; Zn: Chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed amounts of B, Ga, Ni, and Zn.",
+        "3. Use a spatula to mix thoroughly for 5 minutes until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine the weighed amounts of B, Ga, Ni, and Zn. \n 3. Use a spatula to mix thoroughly for 5 minutes until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours to facilitate alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat in a furnace at 800°C for 2 hours to facilitate alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature.",
+        "2. This should take approximately 4 hours to minimize thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature. \n 2. This should take approximately 4 hours to minimize thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish using 120-grit sandpaper.",
+        "3. Optionally, apply a clear sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish using 120-grit sandpaper. \n 3. Optionally, apply a clear sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2878825.0,
+      "density": 83268.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -172274.0,
+      "formation_energy_per_atom": -32.0,
+      "decomposition_energy_per_atom": -56.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -36.0,
+      "decomposition_energy_mp": -56.0,
+      "decomposition_energy_mp_oqmd": -55.0
+    },
+    "electronic": {
+      "bandgap": 0.0026,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "14857f0a91",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:42.530862Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Ga2Ni20Zn1.json",
+      "material://B6Ga2Ni20Zn1"
+    ]
+  }
+}

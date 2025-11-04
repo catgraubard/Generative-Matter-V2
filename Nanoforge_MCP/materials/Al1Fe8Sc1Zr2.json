@@ -1,0 +1,132 @@
+{
+  "id": "Al1Fe8Sc1Zr2",
+  "uri": "material://Al1Fe8Sc1Zr2",
+  "composition": {
+    "formula": "Al1Fe8Sc1Zr2",
+    "elements": {
+      "Al": 1,
+      "Fe": 8,
+      "Sc": 1,
+      "Zr": 2
+    },
+    "reduced_formula": "Zr2ScAlFe8",
+    "element_list": [
+      "Al",
+      "Sc",
+      "Fe",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 20 g \n Nd: 30 g \n Pr: 50 g \n Si: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Specialty chemical suppliers \n Nd: Rare earth element suppliers \n Pr: Rare earth element suppliers \n Si: Silicon suppliers or electronic component stores",
+      "steps": [
+        "Hg: Specialty chemical suppliers",
+        "Nd: Rare earth element suppliers",
+        "Pr: Rare earth element suppliers",
+        "Si: Silicon suppliers or electronic component stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean and dry environment, measure out the specified amounts of Hg, Nd, Pr, and Si using a precision scale.",
+        "2. Combine Nd, Pr, and Si in a ceramic mixing bowl.",
+        "3. Slowly add Hg while continuously stirring the mixture to ensure even distribution.",
+        "4. Use a mortar and pestle to grind the mixture until a uniform powder is achieved."
+      ],
+      "raw_text": "1. In a clean and dry environment, measure out the specified amounts of Hg, Nd, Pr, and Si using a precision scale. \n 2. Combine Nd, Pr, and Si in a ceramic mixing bowl. \n 3. Slowly add Hg while continuously stirring the mixture to ensure even distribution. \n 4. Use a mortar and pestle to grind the mixture until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to promote reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to promote reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature over approximately 6 hours.",
+        "2. Do not open the furnace door during cooling to avoid rapid temperature changes."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature over approximately 6 hours. \n 2. Do not open the furnace door during cooling to avoid rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace safely using appropriate protective gear.",
+        "2. Carefully extract the solid sample and inspect for defects.",
+        "3. If necessary, use a diamond file to smooth any rough edges.",
+        "4. Optionally, apply a sealant compatible with the material to protect the surface."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace safely using appropriate protective gear. \n 2. Carefully extract the solid sample and inspect for defects. \n 3. If necessary, use a diamond file to smooth any rough edges. \n 4. Optionally, apply a sealant compatible with the material to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1665454.0,
+      "density": 69908.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -985065.0,
+      "formation_energy_per_atom": -2977.0,
+      "decomposition_energy_per_atom": -65.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -65.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba5b1a2b28",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.401125Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Fe8Sc1Zr2.json",
+      "material://Al1Fe8Sc1Zr2"
+    ]
+  }
+}

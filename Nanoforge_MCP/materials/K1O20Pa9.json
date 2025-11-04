@@ -1,0 +1,103 @@
+{
+  "id": "K1O20Pa9",
+  "uri": "material://K1O20Pa9",
+  "composition": {
+    "formula": "K1O20Pa9",
+    "elements": {
+      "K": 1,
+      "O": 20,
+      "Pa": 9
+    },
+    "reduced_formula": "KPa9O20",
+    "element_list": [
+      "O",
+      "K",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Pb",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Pb: 50 g, Sc: 60 g, Si: 150 g, Tm: 80 g (Total: 340 g for a solid sample of 3x2x7 inches)"
+    },
+    "sourcing": {
+      "instructions": "Pb: Purchase from a chemical supply store; Sc: Specialty metals supplier; Si: Electronics store; Tm: Rare earth metal supplier.",
+      "steps": [
+        "Pb: Purchase from a chemical supply store; Sc: Specialty metals supplier; Si: Electronics store; Tm: Rare earth metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale. 2. Combine Pb, Sc, Si, and Tm in a clean, dry mixing bowl. 3. Stir with a clean spatula until homogeneous. 4. Transfer to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. 2. Combine Pb, Sc, Si, and Tm in a clean, dry mixing bowl. 3. Stir with a clean spatula until homogeneous. 4. Transfer to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C. 2. Place the crucible in the furnace. 3. Maintain temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. 2. Place the crucible in the furnace. 3. Maintain temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool gradually inside the furnace for 4 hours. 2. Remove the crucible once cooled to room temperature."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool gradually inside the furnace for 4 hours. 2. Remove the crucible once cooled to room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible. 2. Use sandpaper to smooth any rough edges. 3. Optionally apply a sealant for protection."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. 2. Use sandpaper to smooth any rough edges. 3. Optionally apply a sealant for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4118663.0,
+      "density": 9831.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3052115.0,
+      "formation_energy_per_atom": -39837.0,
+      "decomposition_energy_per_atom": -1547.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -1553.0,
+      "decomposition_energy_mp_oqmd": -1553.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "de215da4da",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.264295Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K1O20Pa9.json",
+      "material://K1O20Pa9"
+    ]
+  }
+}

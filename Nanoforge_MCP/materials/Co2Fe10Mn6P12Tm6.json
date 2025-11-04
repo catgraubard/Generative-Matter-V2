@@ -1,0 +1,139 @@
+{
+  "id": "Co2Fe10Mn6P12Tm6",
+  "uri": "material://Co2Fe10Mn6P12Tm6",
+  "composition": {
+    "formula": "Co2Fe10Mn6P12Tm6",
+    "elements": {
+      "Co": 2,
+      "Fe": 10,
+      "Mn": 6,
+      "P": 12,
+      "Tm": 6
+    },
+    "reduced_formula": "Tm3Mn3Fe5CoP6",
+    "element_list": [
+      "P",
+      "Mn",
+      "Fe",
+      "Co",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g \n Fe: 60 g \n Mn: 36 g \n P: 24 g \n Tm: 6 g \n Total: 136 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Obtain from chemical supply stores or online specialty metal suppliers. \n Fe (Iron): Available at hardware stores or metal suppliers. \n Mn (Manganese): Sourced from chemical supply companies. \n P (Phosphorus): Obtain from chemical supply stores or online. \n Tm (Thulium): Purchase from specialty metal suppliers.",
+      "steps": [
+        "Co (Cobalt): Obtain from chemical supply stores or online specialty metal suppliers.",
+        "Fe (Iron): Available at hardware stores or metal suppliers.",
+        "Mn (Manganese): Sourced from chemical supply companies.",
+        "P (Phosphorus): Obtain from chemical supply stores or online.",
+        "Tm (Thulium): Purchase from specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry container, combine Co, Fe, Mn, P, and Tm in the specified amounts.",
+        "3. Mix thoroughly using a ceramic or glass stirrer to ensure even distribution of all components.",
+        "4. Transfer the mixture to a ball mill for fine grinding, ensuring a homogenous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry container, combine Co, Fe, Mn, P, and Tm in the specified amounts. \n 3. Mix thoroughly using a ceramic or glass stirrer to ensure even distribution of all components. \n 4. Transfer the mixture to a ball mill for fine grinding, ensuring a homogenous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Heat the crucible in the furnace for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample.",
+        "2. Use a fine-grit sandpaper to smooth out any rough surfaces as needed.",
+        "3. Optionally, seal the sample with a clear epoxy coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample. \n 2. Use a fine-grit sandpaper to smooth out any rough surfaces as needed. \n 3. Optionally, seal the sample with a clear epoxy coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4765599.0,
+      "density": 83321.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2772878.0,
+      "formation_energy_per_atom": -8773.0,
+      "decomposition_energy_per_atom": -351.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -351.0,
+      "decomposition_energy_mp_oqmd": -272.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f1a646a195",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.137991Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe10Mn6P12Tm6.json",
+      "material://Co2Fe10Mn6P12Tm6"
+    ]
+  }
+}

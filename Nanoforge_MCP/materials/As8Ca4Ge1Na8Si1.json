@@ -1,0 +1,114 @@
+{
+  "id": "As8Ca4Ge1Na8Si1",
+  "uri": "material://As8Ca4Ge1Na8Si1",
+  "composition": {
+    "formula": "As8Ca4Ge1Na8Si1",
+    "elements": {
+      "As": 8,
+      "Ca": 4,
+      "Ge": 1,
+      "Na": 8,
+      "Si": 1
+    },
+    "reduced_formula": "Na8Ca4SiGeAs8",
+    "element_list": [
+      "Na",
+      "Si",
+      "Ca",
+      "Ge",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 32 g, Ca: 16 g, Ge: 4 g, Na: 32 g, Si: 4 g"
+    },
+    "sourcing": {
+      "instructions": "As: chemical supply store, Ca: pharmacy or chemical supplier, Ge: chemical supply store, Na: chemical supply store, Si: hardware store",
+      "steps": [
+        "As: chemical supply store, Ca: pharmacy or chemical supplier, Ge: chemical supply store, Na: chemical supply store, Si: hardware store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 32 g of As, 16 g of Ca, 4 g of Ge, 32 g of Na, and 4 g of Si using an analytical balance.",
+        "2. In a clean, dry glass container, combine the measured amounts of As, Ca, Ge, Na, and Si.",
+        "3. Stir the mixture thoroughly with a glass rod until all ingredients are evenly distributed."
+      ],
+      "raw_text": "1. Measure out 32 g of As, 16 g of Ca, 4 g of Ge, 32 g of Na, and 4 g of Si using an analytical balance. \n 2. In a clean, dry glass container, combine the measured amounts of As, Ca, Ge, Na, and Si. \n 3. Stir the mixture thoroughly with a glass rod until all ingredients are evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800 °C and maintain this temperature for 2 hours to ensure complete melting and mixing of materials."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800 °C and maintain this temperature for 2 hours to ensure complete melting and mixing of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This process may take around 3-4 hours, depending on furnace specifications."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. This process may take around 3-4 hours, depending on furnace specifications."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth out the edges and surface imperfections.",
+        "3. Optionally, apply a sealant if required for the intended use, allowing it to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond file to smooth out the edges and surface imperfections. \n 3. Optionally, apply a sealant if required for the intended use, allowing it to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 5602068.0,
+      "density": 30955.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -805268.0,
+      "formation_energy_per_atom": -6638.0,
+      "decomposition_energy_per_atom": -42.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -49.0,
+      "decomposition_energy_mp_oqmd": -43.0
+    },
+    "electronic": {
+      "bandgap": 0.4549,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8cb1952f03",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:20.895250Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As8Ca4Ge1Na8Si1.json",
+      "material://As8Ca4Ge1Na8Si1"
+    ]
+  }
+}

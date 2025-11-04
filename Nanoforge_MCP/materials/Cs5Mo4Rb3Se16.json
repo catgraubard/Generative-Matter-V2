@@ -1,0 +1,112 @@
+{
+  "id": "Cs5Mo4Rb3Se16",
+  "uri": "material://Cs5Mo4Rb3Se16",
+  "composition": {
+    "formula": "Cs5Mo4Rb3Se16",
+    "elements": {
+      "Cs": 5,
+      "Mo": 4,
+      "Rb": 3,
+      "Se": 16
+    },
+    "reduced_formula": "Cs5Rb3(MoSe4)4",
+    "element_list": [
+      "Se",
+      "Rb",
+      "Mo",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 15.75,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 15.75 g, Mo: 10.2 g, Rb: 7.65 g, Se: 64.4 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Mo: Metal suppliers or online stores; Rb: Specialty chemical suppliers; Se: Chemical vendors or online supply stores.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Mo: Metal suppliers or online stores; Rb: Specialty chemical suppliers; Se: Chemical vendors or online supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 15.75 g of Cs, 10.2 g of Mo, 7.65 g of Rb, and 64.4 g of Se using a precision balance.",
+        "2. Combine all measured materials in a clean, dry crucible.",
+        "3. Use a pestle and mortar to grind the mixture to a fine powder to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out 15.75 g of Cs, 10.2 g of Mo, 7.65 g of Rb, and 64.4 g of Se using a precision balance. \n 2. Combine all measured materials in a clean, dry crucible. \n 3. Use a pestle and mortar to grind the mixture to a fine powder to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Transfer the ground mixture into the furnace.",
+        "3. Heat the mixture for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Transfer the ground mixture into the furnace. \n 3. Heat the mixture for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. If necessary, use a diamond file to smooth any rough edges.",
+        "3. Optionally, seal the sample with a clear epoxy resin for protection and enhanced stability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. If necessary, use a diamond file to smooth any rough edges. \n 3. Optionally, seal the sample with a clear epoxy resin for protection and enhanced stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 10687209.0,
+      "density": 39901.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -13827.0,
+      "formation_energy_per_atom": -11262.0,
+      "decomposition_energy_per_atom": -19.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -19.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": 1.1276,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ec38ead513",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.934906Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs5Mo4Rb3Se16.json",
+      "material://Cs5Mo4Rb3Se16"
+    ]
+  }
+}

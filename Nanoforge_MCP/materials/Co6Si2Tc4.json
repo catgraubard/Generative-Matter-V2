@@ -1,0 +1,128 @@
+{
+  "id": "Co6Si2Tc4",
+  "uri": "material://Co6Si2Tc4",
+  "composition": {
+    "formula": "Co6Si2Tc4",
+    "elements": {
+      "Co": 6,
+      "Si": 2,
+      "Tc": 4
+    },
+    "reduced_formula": "Co3SiTc2",
+    "element_list": [
+      "Si",
+      "Co",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 0.75,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 1.50 g \n Cu: 6.00 g \n In: 0.75 g \n Zr: 3.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Purchase from a chemical supplier or online marketplace (ensure proper handling due to toxicity). \n Cu: Obtain from a metal supplies store or online vendor. \n In: Can be sourced from specialized electronic component suppliers. \n Zr: Available at metal or chemical supply companies.",
+      "steps": [
+        "Cd: Purchase from a chemical supplier or online marketplace (ensure proper handling due to toxicity).",
+        "Cu: Obtain from a metal supplies store or online vendor.",
+        "In: Can be sourced from specialized electronic component suppliers.",
+        "Zr: Available at metal or chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry container, mix Cd, Cu, In, and Zr thoroughly using a spatula or mechanical mixer for 10 minutes to ensure homogeneity.",
+        "3. Transfer the mixture into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry container, mix Cd, Cu, In, and Zr thoroughly using a spatula or mechanical mixer for 10 minutes to ensure homogeneity. \n 3. Transfer the mixture into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900 °C.",
+        "2. Place the crucible inside the furnace and maintain the temperature for 2 hours to allow for complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 900 °C. \n 2. Place the crucible inside the furnace and maintain the temperature for 2 hours to allow for complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally for 4 hours to room temperature.",
+        "2. Avoid rapid cooling to prevent cracking or unwanted phase changes."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally for 4 hours to room temperature. \n 2. Avoid rapid cooling to prevent cracking or unwanted phase changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections or sharp edges.",
+        "3. Sand any rough surfaces using fine-grit sandpaper until smooth.",
+        "4. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections or sharp edges. \n 3. Sand any rough surfaces using fine-grit sandpaper until smooth. \n 4. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1407222.0,
+      "density": 9461.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -981435.0,
+      "formation_energy_per_atom": -2667.0,
+      "decomposition_energy_per_atom": -223.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -188.0,
+      "decomposition_energy_mp": -222.0,
+      "decomposition_energy_mp_oqmd": -215.0
+    },
+    "electronic": {
+      "bandgap": 0.0028,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d8d817bb40",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.654655Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co6Si2Tc4.json",
+      "material://Co6Si2Tc4"
+    ]
+  }
+}

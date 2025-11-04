@@ -1,0 +1,134 @@
+{
+  "id": "Co4O15Sr6Ti1",
+  "uri": "material://Co4O15Sr6Ti1",
+  "composition": {
+    "formula": "Co4O15Sr6Ti1",
+    "elements": {
+      "Co": 4,
+      "O": 15,
+      "Sr": 6,
+      "Ti": 1
+    },
+    "reduced_formula": "Sr6TiCo4O15",
+    "element_list": [
+      "O",
+      "Ti",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 200 g \n O: 75 g \n Sr: 100 g \n Ti: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Obtain from a chemical supplier or online marketplace specializing in metal oxides. \n O: Use oxygen source from a lab or purchase as a gas cylinder. \n Sr: Available from chemical suppliers or online. \n Ti: Source from a metal supplier or online store selling titanium powder.",
+      "steps": [
+        "Co: Obtain from a chemical supplier or online marketplace specializing in metal oxides.",
+        "O: Use oxygen source from a lab or purchase as a gas cylinder.",
+        "Sr: Available from chemical suppliers or online.",
+        "Ti: Source from a metal supplier or online store selling titanium powder."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 200 g of cobalt (Co) powder using a digital scale.",
+        "2. Measure 75 g of oxygen (O) in gaseous form.",
+        "3. Measure 100 g of strontium (Sr) powder.",
+        "4. Measure 50 g of titanium (Ti) powder.",
+        "5. In a clean, dry mixing container, combine all measured powders thoroughly using a spatula or mechanical mixer for 10 minutes to ensure a uniform blend."
+      ],
+      "raw_text": "1. Measure 200 g of cobalt (Co) powder using a digital scale. \n 2. Measure 75 g of oxygen (O) in gaseous form. \n 3. Measure 100 g of strontium (Sr) powder. \n 4. Measure 50 g of titanium (Ti) powder. \n 5. In a clean, dry mixing container, combine all measured powders thoroughly using a spatula or mechanical mixer for 10 minutes to ensure a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 1200°C.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 1200°C. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature.",
+        "2. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature. \n 2. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth out any rough edges or surfaces as necessary.",
+        "3. Optionally, apply a sealant if the material will be exposed to moisture or for enhanced durability.",
+        "4. Let the sealant cure for at least 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper to smooth out any rough edges or surfaces as necessary. \n 3. Optionally, apply a sealant if the material will be exposed to moisture or for enhanced durability. \n 4. Let the sealant cure for at least 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3328639.0,
+      "density": 52346.0,
+      "crystal_system": "trigonal",
+      "space_group": "R32",
+      "space_group_number": 155,
+      "point_group": "32",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1853889.0,
+      "formation_energy_per_atom": -24886.0,
+      "decomposition_energy_per_atom": -184.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -114.0,
+      "decomposition_energy_mp": -189.0,
+      "decomposition_energy_mp_oqmd": -132.0
+    },
+    "electronic": {
+      "bandgap": 0.6374,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0706cabaa3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:24.227965Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4O15Sr6Ti1.json",
+      "material://Co4O15Sr6Ti1"
+    ]
+  }
+}

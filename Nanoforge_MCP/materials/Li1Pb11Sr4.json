@@ -1,0 +1,123 @@
+{
+  "id": "Li1Pb11Sr4",
+  "uri": "material://Li1Pb11Sr4",
+  "composition": {
+    "formula": "Li1Pb11Sr4",
+    "elements": {
+      "Li": 1,
+      "Pb": 11,
+      "Sr": 4
+    },
+    "reduced_formula": "Sr4LiPb11",
+    "element_list": [
+      "Li",
+      "Sr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 65.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 26.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 0.5 g\nPb: 65.5 g\nSr: 26.0 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from chemical supply companies (e.g., Sigma-Aldrich or similar).\nPb: Obtain from lead metal suppliers or online marketplaces specializing in metals.\nSr: Source from chemical suppliers or online platforms.",
+      "steps": [
+        "Li: Purchase from chemical supply companies (e.g., Sigma-Aldrich or similar).",
+        "Pb: Obtain from lead metal suppliers or online marketplaces specializing in metals.",
+        "Sr: Source from chemical suppliers or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 0.5 g of lithium (Li), 65.5 g of lead (Pb), and 26.0 g of strontium (Sr) using an analytical balance.",
+        "2. Place the weighed materials in a clean, dry mortar.",
+        "3. Use a pestle to grind the materials together until a homogeneous powder is formed, ensuring no lumps remain.",
+        "4. Transfer the mixture to a small, heat-resistant container suitable for melting."
+      ],
+      "raw_text": "1. Weigh 0.5 g of lithium (Li), 65.5 g of lead (Pb), and 26.0 g of strontium (Sr) using an analytical balance.\n2. Place the weighed materials in a clean, dry mortar.\n3. Use a pestle to grind the materials together until a homogeneous powder is formed, ensuring no lumps remain.\n4. Transfer the mixture to a small, heat-resistant container suitable for melting."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C (1472°F).",
+        "2. Place the heat-resistant container with the mixture into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C (1472°F).\n2. Place the heat-resistant container with the mixture into the furnace.\n3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, carefully remove the container from the furnace using heat-resistant gloves.",
+        "2. Allow the material to cool to room temperature gradually, avoiding rapid cooling to prevent cracking. Cooling should take approximately 2-3 hours in a stable environment."
+      ],
+      "raw_text": "1. After 2 hours, carefully remove the container from the furnace using heat-resistant gloves.\n2. Allow the material to cool to room temperature gradually, avoiding rapid cooling to prevent cracking. Cooling should take approximately 2-3 hours in a stable environment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the container.",
+        "2. Optionally, sand the surfaces to achieve a smooth finish, using progressively finer sandpaper.",
+        "3. If desired, apply a sealant to enhance surface protection, allowing it to cure as per the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the container.\n2. Optionally, sand the surfaces to achieve a smooth finish, using progressively finer sandpaper.\n3. If desired, apply a sealant to enhance surface protection, allowing it to cure as per the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5093282.0,
+      "density": 85961.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -551306.0,
+      "formation_energy_per_atom": -3515.0,
+      "decomposition_energy_per_atom": -72.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -72.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9a9a542fd9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:39.100818Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li1Pb11Sr4.json",
+      "material://Li1Pb11Sr4"
+    ]
+  }
+}

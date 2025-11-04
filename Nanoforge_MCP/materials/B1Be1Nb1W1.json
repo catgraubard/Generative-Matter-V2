@@ -1,0 +1,111 @@
+{
+  "id": "B1Be1Nb1W1",
+  "uri": "material://B1Be1Nb1W1",
+  "composition": {
+    "formula": "B1Be1Nb1W1",
+    "elements": {
+      "B": 1,
+      "Be": 1,
+      "Nb": 1,
+      "W": 1
+    },
+    "reduced_formula": "BeNbBW",
+    "element_list": [
+      "Be",
+      "B",
+      "Nb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Beryllium (Be): 10 g \n Niobium (Nb): 10 g \n Tungsten (W): 20 g"
+    },
+    "sourcing": {
+      "instructions": "Beryllium: Purchase from specialized metal suppliers or online chemical suppliers. \n Niobium: Obtain from metal supply companies or online sources specializing in metals. \n Tungsten: Available from industrial suppliers or online retailers dealing in metals.",
+      "steps": [
+        "Beryllium: Purchase from specialized metal suppliers or online chemical suppliers.",
+        "Niobium: Obtain from metal supply companies or online sources specializing in metals.",
+        "Tungsten: Available from industrial suppliers or online retailers dealing in metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10 g of beryllium using a precision scale.",
+        "2. Weigh 10 g of niobium.",
+        "3. Weigh 20 g of tungsten.",
+        "4. Combine the three metals in a clean, dry mixing container.",
+        "5. Use a high-purity ball mill to mix the powdered metals thoroughly for 1 hour to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh 10 g of beryllium using a precision scale. \n 2. Weigh 10 g of niobium. \n 3. Weigh 20 g of tungsten. \n 4. Combine the three metals in a clean, dry mixing container. \n 5. Use a high-purity ball mill to mix the powdered metals thoroughly for 1 hour to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Transfer the mixed powder to a graphite crucible.",
+        "3. Place the crucible inside the furnace and apply a vacuum (below 1x10^-3 Torr).",
+        "4. Heat for 2 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Transfer the mixed powder to a graphite crucible. \n 3. Place the crucible inside the furnace and apply a vacuum (below 1x10^-3 Torr). \n 4. Heat for 2 hours to facilitate sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down to 800°C at a controlled rate of 10°C per minute.",
+        "2. Once at 800°C, turn off the vacuum and allow the sample to cool to room temperature in an inert atmosphere."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down to 800°C at a controlled rate of 10°C per minute. \n 2. Once at 800°C, turn off the vacuum and allow the sample to cool to room temperature in an inert atmosphere."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sample from the crucible.",
+        "2. Use a diamond saw to trim the sample to exact dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges using fine-grit sandpaper to ensure a smooth finish.",
+        "4. Optionally, apply a protective sealant to prevent oxidation if required."
+      ],
+      "raw_text": "1. Remove the sample from the crucible. \n 2. Use a diamond saw to trim the sample to exact dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges using fine-grit sandpaper to ensure a smooth finish. \n 4. Optionally, apply a protective sealant to prevent oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 4,
+      "volume": 463905.0,
+      "density": 106156.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -354915.0,
+      "formation_energy_per_atom": -5033.0,
+      "decomposition_energy_per_atom": -48.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -33.0,
+      "decomposition_energy_mp": -46.0,
+      "decomposition_energy_mp_oqmd": -33.0
+    },
+    "electronic": {
+      "bandgap": 0.009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4e43cfd767",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:58.622099Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B1Be1Nb1W1.json",
+      "material://B1Be1Nb1W1"
+    ]
+  }
+}

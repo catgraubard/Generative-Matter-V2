@@ -1,0 +1,134 @@
+{
+  "id": "Al1K4Na2Sb4Y1",
+  "uri": "material://Al1K4Na2Sb4Y1",
+  "composition": {
+    "formula": "Al1K4Na2Sb4Y1",
+    "elements": {
+      "Al": 1,
+      "K": 4,
+      "Na": 2,
+      "Sb": 4,
+      "Y": 1
+    },
+    "reduced_formula": "K4Na2YAlSb4",
+    "element_list": [
+      "Na",
+      "Al",
+      "K",
+      "Y",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 30 g\nNa: 10 g\nRu: 5 g\nSb: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online vendor specializing in metals.\nNa: Obtain sodium from a chemical supplier.\nRu: Ru can be sourced from precious metal dealers or specialized suppliers.\nSb: Antimony can be ordered from chemical supply companies or metal suppliers.",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online vendor specializing in metals.",
+        "Na: Obtain sodium from a chemical supplier.",
+        "Ru: Ru can be sourced from precious metal dealers or specialized suppliers.",
+        "Sb: Antimony can be ordered from chemical supply companies or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Co, Na, Ru, and Sb in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixture into a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale.\n2. In a clean, dry container, combine Co, Na, Ru, and Sb in the specified amounts.\n3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.\n4. Transfer the mixture into a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 950°C.",
+        "2. Place the uniformly mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the mixture for 4 hours at 950°C in a controlled atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 950°C.\n2. Place the uniformly mixed powder in a crucible suitable for high temperatures.\n3. Heat the mixture for 4 hours at 950°C in a controlled atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the furnace to cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Once at room temperature, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, allow the furnace to cool down naturally to room temperature (approximately 1-2 hours).\n2. Once at room temperature, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the solidified material using a grinder to achieve a fine powder if further processing is needed.",
+        "2. If a solid sample is required, press the ground material into a mold matching the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Cure the pressed sample at 300°C for 1 hour to enhance structural integrity.",
+        "4. Allow to cool to room temperature, then sand the edges if necessary for a smooth finish."
+      ],
+      "raw_text": "1. Grind the solidified material using a grinder to achieve a fine powder if further processing is needed.\n2. If a solid sample is required, press the ground material into a mold matching the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Cure the pressed sample at 300°C for 1 hour to enhance structural integrity.\n4. Allow to cool to room temperature, then sand the edges if necessary for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 4254099.0,
+      "density": 31434.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "I222",
+      "space_group_number": 23,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -415275.0,
+      "formation_energy_per_atom": -6427.0,
+      "decomposition_energy_per_atom": -276.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -276.0,
+      "decomposition_energy_mp_oqmd": -9.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6b71e50a3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.189858Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1K4Na2Sb4Y1.json",
+      "material://Al1K4Na2Sb4Y1"
+    ]
+  }
+}

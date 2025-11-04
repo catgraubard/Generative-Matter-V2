@@ -1,0 +1,133 @@
+{
+  "id": "Bi2Ga3Ru1Y10",
+  "uri": "material://Bi2Ga3Ru1Y10",
+  "composition": {
+    "formula": "Bi2Ga3Ru1Y10",
+    "elements": {
+      "Bi": 2,
+      "Ga": 3,
+      "Ru": 1,
+      "Y": 10
+    },
+    "reduced_formula": "Y10Ga3Bi2Ru",
+    "element_list": [
+      "Ga",
+      "Y",
+      "Ru",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cr",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 200 g \n Co: 300 g \n Cr: 30 g \n Ga: 40 g \n Mg: 60 g"
+    },
+    "sourcing": {
+      "instructions": "B4: Chemical supply stores or online chemical suppliers \n Co: Metal suppliers or online marketplaces \n Cr: Metal suppliers or online chemical suppliers \n Ga: Specialty metal suppliers or online \n Mg: Metal suppliers or online chemical suppliers",
+      "steps": [
+        "B4: Chemical supply stores or online chemical suppliers",
+        "Co: Metal suppliers or online marketplaces",
+        "Cr: Metal suppliers or online chemical suppliers",
+        "Ga: Specialty metal suppliers or online",
+        "Mg: Metal suppliers or online chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Begin by measuring all ingredients precisely using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine the measured B4, Co, Cr, Ga, and Mg.",
+        "3. Use a mechanical stirrer or a mortar and pestle to mix the powders thoroughly until a homogeneous mixture is achieved.",
+        "4. Ensure no clumps remain and that all powders are evenly distributed."
+      ],
+      "raw_text": "1. Begin by measuring all ingredients precisely using a digital scale. \n 2. In a clean, dry mixing bowl, combine the measured B4, Co, Cr, Ga, and Mg. \n 3. Use a mechanical stirrer or a mortar and pestle to mix the powders thoroughly until a homogeneous mixture is achieved. \n 4. Ensure no clumps remain and that all powders are evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Place the crucible in a furnace or kiln.",
+        "3. Heat the mixture to 1200°C (2192°F) for 2 hours to allow for proper sintering and bonding of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible. \n 2. Place the crucible in a furnace or kiln. \n 3. Heat the mixture to 1200°C (2192°F) for 2 hours to allow for proper sintering and bonding of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This cooling period should take approximately 4-6 hours to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This cooling period should take approximately 4-6 hours to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the surface for any rough edges or irregularities.",
+        "3. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth the edges and surface.",
+        "4. Optionally, seal the finished material with a clear coat or protective lacquer to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the surface for any rough edges or irregularities. \n 3. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth the edges and surface. \n 4. Optionally, seal the finished material with a clear coat or protective lacquer to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4330673.0,
+      "density": 62012.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1004151.0,
+      "formation_energy_per_atom": -6007.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -88.0,
+      "decomposition_energy_mp": -207.0,
+      "decomposition_energy_mp_oqmd": -199.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b09275ee44",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:11.707223Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2Ga3Ru1Y10.json",
+      "material://Bi2Ga3Ru1Y10"
+    ]
+  }
+}

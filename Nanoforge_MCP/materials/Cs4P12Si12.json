@@ -1,0 +1,110 @@
+{
+  "id": "Cs4P12Si12",
+  "uri": "material://Cs4P12Si12",
+  "composition": {
+    "formula": "Cs4P12Si12",
+    "elements": {
+      "Cs": 4,
+      "P": 12,
+      "Si": 12
+    },
+    "reduced_formula": "Cs(SiP)3",
+    "element_list": [
+      "Si",
+      "P",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 25 g, Er: 30 g, Li: 10 g, Sn: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Ac (Acetate): Chemical supply store; Er (Erbium): Specialty metals supplier; Li (Lithium): Battery supply store; Sn (Tin): Electronics supplier.",
+      "steps": [
+        "Ac (Acetate): Chemical supply store; Er (Erbium): Specialty metals supplier; Li (Lithium): Battery supply store; Sn (Tin): Electronics supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean glass container, combine 25 g of Ac, 30 g of Er, 10 g of Li, and 60 g of Sn.",
+        "3. Stir the mixture thoroughly using a non-reactive stirrer until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean glass container, combine 25 g of Ac, 30 g of Er, 10 g of Li, and 60 g of Sn. \n 3. Stir the mixture thoroughly using a non-reactive stirrer until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a furnace preheated to 900 °C.",
+        "3. Maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a furnace preheated to 900 °C. \n 3. Maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25 °C) over 4 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25 °C) over 4 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant for protection against moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a sealant for protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7402192.0,
+      "density": 27824.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbam",
+      "space_group_number": 55,
+      "point_group": "mmm",
+      "dimensionality": "inf"
+    },
+    "energetics": {
+      "corrected_energy": -1414101.0,
+      "formation_energy_per_atom": -2773.0,
+      "decomposition_energy_per_atom": -331.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -331.0,
+      "decomposition_energy_mp": -331.0,
+      "decomposition_energy_mp_oqmd": -331.0
+    },
+    "electronic": {
+      "bandgap": 1.2881,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c3f4b9111d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.275037Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4P12Si12.json",
+      "material://Cs4P12Si12"
+    ]
+  }
+}

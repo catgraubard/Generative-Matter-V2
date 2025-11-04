@@ -1,0 +1,113 @@
+{
+  "id": "Al2B6Cr1Fe20",
+  "uri": "material://Al2B6Cr1Fe20",
+  "composition": {
+    "formula": "Al2B6Cr1Fe20",
+    "elements": {
+      "Al": 2,
+      "B": 6,
+      "Cr": 1,
+      "Fe": 20
+    },
+    "reduced_formula": "Al2Cr(Fe10B3)2",
+    "element_list": [
+      "B",
+      "Al",
+      "Cr",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "MoO3: 12.0 g \n SrO: 4.0 g \n Y2O3: 1.0 g \n (Total: 17.0 g)"
+    },
+    "sourcing": {
+      "instructions": "MoO3: Chemical supply stores or online chemical suppliers. \n SrO: Specialty chemical suppliers or ceramics suppliers. \n Y2O3: Online chemical suppliers or metal oxide distributors.",
+      "steps": [
+        "MoO3: Chemical supply stores or online chemical suppliers.",
+        "SrO: Specialty chemical suppliers or ceramics suppliers.",
+        "Y2O3: Online chemical suppliers or metal oxide distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 12.0 g of MoO3 using an analytical balance.",
+        "2. Weigh 4.0 g of SrO using an analytical balance.",
+        "3. Weigh 1.0 g of Y2O3 using an analytical balance.",
+        "4. Combine all powders in a clean ceramic bowl.",
+        "5. Mix thoroughly using a mortar and pestle until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh 12.0 g of MoO3 using an analytical balance. \n 2. Weigh 4.0 g of SrO using an analytical balance. \n 3. Weigh 1.0 g of Y2O3 using an analytical balance. \n 4. Combine all powders in a clean ceramic bowl. \n 5. Mix thoroughly using a mortar and pestle until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid opening the furnace until it has fully cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid opening the furnace until it has fully cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or imperfections.",
+        "3. If necessary, sand down any rough areas using fine-grit sandpaper (400 grit).",
+        "4. Optionally, apply a sealant if the material will be exposed to moisture or requires a finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect the sample for any rough edges or imperfections. \n 3. If necessary, sand down any rough areas using fine-grit sandpaper (400 grit). \n 4. Optionally, apply a sealant if the material will be exposed to moisture or requires a finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2982381.0,
+      "density": 71698.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2339489.0,
+      "formation_energy_per_atom": -2527.0,
+      "decomposition_energy_per_atom": -23.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -23.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6be630612",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.059795Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2B6Cr1Fe20.json",
+      "material://Al2B6Cr1Fe20"
+    ]
+  }
+}

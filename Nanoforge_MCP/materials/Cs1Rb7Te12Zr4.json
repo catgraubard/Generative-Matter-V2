@@ -1,0 +1,131 @@
+{
+  "id": "Cs1Rb7Te12Zr4",
+  "uri": "material://Cs1Rb7Te12Zr4",
+  "composition": {
+    "formula": "Cs1Rb7Te12Zr4",
+    "elements": {
+      "Cs": 1,
+      "Rb": 7,
+      "Te": 12,
+      "Zr": 4
+    },
+    "reduced_formula": "CsRb7(ZrTe3)4",
+    "element_list": [
+      "Rb",
+      "Zr",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 3.5,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 7.2,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 4.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g \n Rb: 3.5 g \n Te: 7.2 g \n Zr: 4.8 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier specializing in alkali metals. \n Rb: Obtain from a chemical supply company. \n Te: Order from a supplier of rare elements. \n Zr: Source from a metallurgical supplier.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier specializing in alkali metals.",
+        "Rb: Obtain from a chemical supply company.",
+        "Te: Order from a supplier of rare elements.",
+        "Zr: Source from a metallurgical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.5 g of Cs, 3.5 g of Rb, 7.2 g of Te, and 4.8 g of Zr using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed ingredients thoroughly.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity."
+      ],
+      "raw_text": "1. Weigh out 0.5 g of Cs, 3.5 g of Rb, 7.2 g of Te, and 4.8 g of Zr using an analytical balance. \n 2. In a clean, dry container, combine the weighed ingredients thoroughly. \n 3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the powder mixture into a high-temperature crucible.",
+        "2. Heat in a furnace to 800 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the powder mixture into a high-temperature crucible. \n 2. Heat in a furnace to 800 °C at a rate of 5 °C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature over 6 hours.",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature over 6 hours. \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. If necessary, use a diamond file to smooth out any rough edges.",
+        "3. Optionally seal the surface with a suitable ceramic glaze for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. If necessary, use a diamond file to smooth out any rough edges. \n 3. Optionally seal the surface with a suitable ceramic glaze for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 977172.0,
+      "density": 44646.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1093038.0,
+      "formation_energy_per_atom": -12348.0,
+      "decomposition_energy_per_atom": -151.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -141.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "eb2435f052",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.688383Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Rb7Te12Zr4.json",
+      "material://Cs1Rb7Te12Zr4"
+    ]
+  }
+}

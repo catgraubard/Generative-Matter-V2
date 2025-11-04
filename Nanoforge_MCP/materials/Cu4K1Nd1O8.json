@@ -1,0 +1,111 @@
+{
+  "id": "Cu4K1Nd1O8",
+  "uri": "material://Cu4K1Nd1O8",
+  "composition": {
+    "formula": "Cu4K1Nd1O8",
+    "elements": {
+      "Cu": 4,
+      "K": 1,
+      "Nd": 1,
+      "O": 8
+    },
+    "reduced_formula": "KNd(CuO2)4",
+    "element_list": [
+      "O",
+      "K",
+      "Cu",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi): 1.25 g \n Germanium (Ge): 0.625 g \n Tin (Sn): 3.125 g \n Titanium (Ti): 6.25 g \n Total: 11.25 g (adjusted for volume)"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Available at chemical supply stores or online (e.g., Sigma-Aldrich). \n Germanium: Specialized electronic material suppliers. \n Tin: Hardware stores or online metal suppliers. \n Titanium: Metal suppliers or online (e.g., Titanium Industries).",
+      "steps": [
+        "Bismuth: Available at chemical supply stores or online (e.g., Sigma-Aldrich).",
+        "Germanium: Specialized electronic material suppliers.",
+        "Tin: Hardware stores or online metal suppliers.",
+        "Titanium: Metal suppliers or online (e.g., Titanium Industries)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a precision scale.",
+        "2. In a clean, dry container, combine Bismuth, Germanium, Tin, and Titanium.",
+        "3. Stir the mixture thoroughly until homogenous.",
+        "4. Transfer the mixture into a crucible suitable for melting."
+      ],
+      "raw_text": "1. Weigh each material accurately using a precision scale. \n 2. In a clean, dry container, combine Bismuth, Germanium, Tin, and Titanium. \n 3. Stir the mixture thoroughly until homogenous. \n 4. Transfer the mixture into a crucible suitable for melting."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the crucible containing the mixture in the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the crucible containing the mixture in the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the material to cool in air at room temperature for 30 minutes.",
+        "3. Once cooled, place the crucible in a water bath to cool further for 10 minutes."
+      ],
+      "raw_text": "1. Carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the material to cool in air at room temperature for 30 minutes. \n 3. Once cooled, place the crucible in a water bath to cool further for 10 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled solid from the crucible.",
+        "2. Inspect the solid for any imperfections.",
+        "3. If necessary, use a file or grinder to smooth out the edges.",
+        "4. Optionally, seal the surface with a clear epoxy coat for protection."
+      ],
+      "raw_text": "1. Remove the cooled solid from the crucible. \n 2. Inspect the solid for any imperfections. \n 3. If necessary, use a file or grinder to smooth out the edges. \n 4. Optionally, seal the surface with a clear epoxy coat for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 1725266.0,
+      "density": 5443.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4",
+      "space_group_number": 82,
+      "point_group": "-4",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -839812.0,
+      "formation_energy_per_atom": -15802.0,
+      "decomposition_energy_per_atom": -247.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -164.0,
+      "decomposition_energy_mp": -252.0,
+      "decomposition_energy_mp_oqmd": -246.0
+    },
+    "electronic": {
+      "bandgap": 0.7314,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6cbcbf2f6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.204975Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4K1Nd1O8.json",
+      "material://Cu4K1Nd1O8"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Cs1K11Mn4O16",
+  "uri": "material://Cs1K11Mn4O16",
+  "composition": {
+    "formula": "Cs1K11Mn4O16",
+    "elements": {
+      "Cs": 1,
+      "K": 11,
+      "Mn": 4,
+      "O": 16
+    },
+    "reduced_formula": "CsK11Mn4O16",
+    "element_list": [
+      "O",
+      "K",
+      "Mn",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 4.9,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 4.9 g, K: 1.8 g, Mn: 21.6 g, O: 8.0 g (assuming 4 O atoms per formula unit, O can be sourced as part of the MnO2)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain cesium chloride from a chemical supplier, K: Purchase potassium chloride from a chemical supplier, Mn: Get manganese dioxide from a mineral supplier, O: Use oxygen sourced from the chemical reactions involving MnO2.",
+      "steps": [
+        "Cs: Obtain cesium chloride from a chemical supplier, K: Purchase potassium chloride from a chemical supplier, Mn: Get manganese dioxide from a mineral supplier, O: Use oxygen sourced from the chemical reactions involving MnO2."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 4.9 g of CsCl, 1.8 g of KCl, and 21.6 g of MnO2 using an analytical balance.",
+        "2. Mix the dry powders in a clean, dry ceramic or glass container to ensure homogeneity.",
+        "3. Add 8.0 g of a suitable binder (e.g., polyvinyl alcohol) to the mixture to aid in forming a solid sample.",
+        "4. Stir the mixture thoroughly until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh out 4.9 g of CsCl, 1.8 g of KCl, and 21.6 g of MnO2 using an analytical balance. \n 2. Mix the dry powders in a clean, dry ceramic or glass container to ensure homogeneity. \n 3. Add 8.0 g of a suitable binder (e.g., polyvinyl alcohol) to the mixture to aid in forming a solid sample. \n 4. Stir the mixture thoroughly until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a muffle furnace to a temperature of 800°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a muffle furnace to a temperature of 800°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the muffle furnace and allow it to cool down naturally to room temperature for approximately 6-8 hours.",
+        "2. Once cooled, safely remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the muffle furnace and allow it to cool down naturally to room temperature for approximately 6-8 hours. \n 2. Once cooled, safely remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the resulting solid using a mortar and pestle to achieve a fine powder if necessary.",
+        "2. If a solid block is desired, compress the material into a mold of the desired dimensions (3 inches x 2 inches x 7 inches) and allow it to cure for 24 hours.",
+        "3. Optionally, seal the final product with a suitable resin if additional surface hardness or chemical resistance is required."
+      ],
+      "raw_text": "1. Grind the resulting solid using a mortar and pestle to achieve a fine powder if necessary. \n 2. If a solid block is desired, compress the material into a mold of the desired dimensions (3 inches x 2 inches x 7 inches) and allow it to cure for 24 hours. \n 3. Optionally, seal the final product with a suitable resin if additional surface hardness or chemical resistance is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 6111844.0,
+      "density": 28221.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42m",
+      "space_group_number": 121,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1865737.0,
+      "formation_energy_per_atom": -18015.0,
+      "decomposition_energy_per_atom": -407.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -159.0,
+      "decomposition_energy_mp": -412.0,
+      "decomposition_energy_mp_oqmd": -213.0
+    },
+    "electronic": {
+      "bandgap": 1.9575,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0466c45462",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:20.740546Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1K11Mn4O16.json",
+      "material://Cs1K11Mn4O16"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "Fe2Mn2O12Pm4",
+  "uri": "material://Fe2Mn2O12Pm4",
+  "composition": {
+    "formula": "Fe2Mn2O12Pm4",
+    "elements": {
+      "Fe": 2,
+      "Mn": 2,
+      "O": 12,
+      "Pm": 4
+    },
+    "reduced_formula": "Pm2MnFeO6",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pm",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 120 g \n Mn: 80 g \n O: 48 g \n Pm: 8 g \n (Total: 256 g)"
+    },
+    "sourcing": {
+      "instructions": "Fe can be obtained from iron filings available at hardware stores. \n Mn can be sourced from manganese oxide from chemical suppliers. \n O can be sourced from sodium percarbonate or other oxidizing agents. \n Pm is typically sourced from specialized vendors dealing in rare earth elements.",
+      "steps": [
+        "Fe can be obtained from iron filings available at hardware stores.",
+        "Mn can be sourced from manganese oxide from chemical suppliers.",
+        "O can be sourced from sodium percarbonate or other oxidizing agents.",
+        "Pm is typically sourced from specialized vendors dealing in rare earth elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 120 g of iron filings and place them in a mixing container.",
+        "2. Weigh 80 g of manganese oxide and add it to the container.",
+        "3. Measure 48 g of oxidizing agent (sodium percarbonate) and incorporate it into the mixture.",
+        "4. Finally, weigh 8 g of promethium and add it to the mixture.",
+        "5. Mix the ingredients thoroughly using a mortar and pestle or a mechanical mixer until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 120 g of iron filings and place them in a mixing container. \n 2. Weigh 80 g of manganese oxide and add it to the container. \n 3. Measure 48 g of oxidizing agent (sodium percarbonate) and incorporate it into the mixture. \n 4. Finally, weigh 8 g of promethium and add it to the mixture. \n 5. Mix the ingredients thoroughly using a mortar and pestle or a mechanical mixer until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Preheat the furnace to 800°C (1472°F).",
+        "3. Once the desired temperature is reached, place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Preheat the furnace to 800°C (1472°F). \n 3. Once the desired temperature is reached, place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C/77°F).",
+        "2. This process may take approximately 3-5 hours."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C/77°F). \n 2. This process may take approximately 3-5 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or rough edges.",
+        "3. If necessary, use sandpaper to smooth out the surface and edges.",
+        "4. Optionally, apply a sealing coat using a clear epoxy resin to protect the surface and enhance durability. Allow the epoxy to cure as per manufacturer's instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or rough edges. \n 3. If necessary, use sandpaper to smooth out the surface and edges. \n 4. Optionally, apply a sealing coat using a clear epoxy resin to protect the surface and enhance durability. Allow the epoxy to cure as per manufacturer's instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2445495.0,
+      "density": 67465.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1714659.0,
+      "formation_energy_per_atom": -28912.0,
+      "decomposition_energy_per_atom": -423.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -429.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 1.3683,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4bb101ee28",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:55.223035Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Mn2O12Pm4.json",
+      "material://Fe2Mn2O12Pm4"
+    ]
+  }
+}

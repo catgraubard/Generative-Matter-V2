@@ -1,0 +1,114 @@
+{
+  "id": "C3Fe3Tb2Tc14",
+  "uri": "material://C3Fe3Tb2Tc14",
+  "composition": {
+    "formula": "C3Fe3Tb2Tc14",
+    "elements": {
+      "C": 3,
+      "Fe": 3,
+      "Tb": 2,
+      "Tc": 14
+    },
+    "reduced_formula": "Tb2Fe3Tc14C3",
+    "element_list": [
+      "C",
+      "Fe",
+      "Tc",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2S3: 120 g \n (for La3S21, you need 3 moles of La per mole of compound; 1 mole = 138.9 g La) \n S: 32 g \n (1 mole of S = 32 g)"
+    },
+    "sourcing": {
+      "instructions": "La2S3 can be sourced from chemical suppliers or specialty materials suppliers online. \n Sulfur can be sourced from chemical supply companies or hardware stores.",
+      "steps": [
+        "La2S3 can be sourced from chemical suppliers or specialty materials suppliers online.",
+        "Sulfur can be sourced from chemical supply companies or hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 120 g of La2S3 and 32 g of sulfur accurately using a digital scale.",
+        "2. Place the La2S3 and sulfur in a clean, dry mixing container.",
+        "3. Mix thoroughly using a spatula or a mechanical mixer for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 120 g of La2S3 and 32 g of sulfur accurately using a digital scale. \n 2. Place the La2S3 and sulfur in a clean, dry mixing container. \n 3. Mix thoroughly using a spatula or a mechanical mixer for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Preheat the furnace to 800°C.",
+        "3. Once the temperature is reached, place the crucible inside the furnace.",
+        "4. Maintain this temperature for 2 hours to facilitate complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Preheat the furnace to 800°C. \n 3. Once the temperature is reached, place the crucible inside the furnace. \n 4. Maintain this temperature for 2 hours to facilitate complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and extract the solid sample.",
+        "2. Use a diamond file or sandpaper to smooth any rough edges.",
+        "3. If desired, apply a sealant to protect the surface of the material."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and extract the solid sample. \n 2. Use a diamond file or sandpaper to smooth any rough edges. \n 3. If desired, apply a sealant to protect the surface of the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3212345.0,
+      "density": 97875.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -210229.0,
+      "formation_energy_per_atom": -1282.0,
+      "decomposition_energy_per_atom": -473.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -148.0,
+      "decomposition_energy_mp": -473.0,
+      "decomposition_energy_mp_oqmd": -467.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c4d1a1b09f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.462424Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C3Fe3Tb2Tc14.json",
+      "material://C3Fe3Tb2Tc14"
+    ]
+  }
+}

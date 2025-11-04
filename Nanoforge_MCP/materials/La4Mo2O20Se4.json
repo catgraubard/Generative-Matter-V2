@@ -1,0 +1,116 @@
+{
+  "id": "La4Mo2O20Se4",
+  "uri": "material://La4Mo2O20Se4",
+  "composition": {
+    "formula": "La4Mo2O20Se4",
+    "elements": {
+      "La": 4,
+      "Mo": 2,
+      "O": 20,
+      "Se": 4
+    },
+    "reduced_formula": "La2Mo(SeO5)2",
+    "element_list": [
+      "O",
+      "Se",
+      "Mo",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 180 g \n MoO3: 28 g \n Se: 40 g \n (Total: 248 g)"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Purchase from chemical supply companies or online platforms specializing in rare earth elements. \n MoO3: Available from chemical suppliers or online distributors. \n Se: Obtain from chemical supply stores or electronics component suppliers.",
+      "steps": [
+        "La2O3: Purchase from chemical supply companies or online platforms specializing in rare earth elements.",
+        "MoO3: Available from chemical suppliers or online distributors.",
+        "Se: Obtain from chemical supply stores or electronics component suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 180 g of La2O3, 28 g of MoO3, and 40 g of Se using an analytical balance.",
+        "2. In a clean, dry ceramic mortar, combine La2O3 and MoO3.",
+        "3. Grind the mixture with a pestle until a fine powder is achieved.",
+        "4. Gradually add Se to the powdered mixture and continue grinding until homogeneous.",
+        "5. Transfer the blended powder into a clean, dry crucible."
+      ],
+      "raw_text": "1. Weigh out 180 g of La2O3, 28 g of MoO3, and 40 g of Se using an analytical balance. \n 2. In a clean, dry ceramic mortar, combine La2O3 and MoO3. \n 3. Grind the mixture with a pestle until a fine powder is achieved. \n 4. Gradually add Se to the powdered mixture and continue grinding until homogeneous. \n 5. Transfer the blended powder into a clean, dry crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the crucible in the furnace and heat for 4 hours.",
+        "3. After 4 hours, turn off the furnace but leave the crucible inside for gradual cooling."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n 2. Place the crucible in the furnace and heat for 4 hours. \n 3. After 4 hours, turn off the furnace but leave the crucible inside for gradual cooling."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool to room temperature inside the furnace (approximately 6-8 hours).",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool to room temperature inside the furnace (approximately 6-8 hours). \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible.",
+        "2. Use sandpaper (grit 400-600) to smooth out the edges and surfaces of the sample.",
+        "3. Optionally, apply a sealant to enhance surface finish and protect the material if required."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible. \n 2. Use sandpaper (grit 400-600) to smooth out the edges and surfaces of the sample. \n 3. Optionally, apply a sealant to enhance surface finish and protect the material if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4715714.0,
+      "density": 48711.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2286462.0,
+      "formation_energy_per_atom": -24756.0,
+      "decomposition_energy_per_atom": -154.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -161.0,
+      "decomposition_energy_mp": -161.0,
+      "decomposition_energy_mp_oqmd": -161.0
+    },
+    "electronic": {
+      "bandgap": 3.3564,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2fa9e6fdbb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:18.187944Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La4Mo2O20Se4.json",
+      "material://La4Mo2O20Se4"
+    ]
+  }
+}

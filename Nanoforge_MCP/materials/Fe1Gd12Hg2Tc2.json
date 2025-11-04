@@ -1,0 +1,132 @@
+{
+  "id": "Fe1Gd12Hg2Tc2",
+  "uri": "material://Fe1Gd12Hg2Tc2",
+  "composition": {
+    "formula": "Fe1Gd12Hg2Tc2",
+    "elements": {
+      "Fe": 1,
+      "Gd": 12,
+      "Hg": 2,
+      "Tc": 2
+    },
+    "reduced_formula": "Gd12Fe(TcHg)2",
+    "element_list": [
+      "Fe",
+      "Tc",
+      "Gd",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Gd",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 10 g \n Gd: 120 g \n Hg: 20 g \n Tc: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Metal supply stores or online suppliers \n Gd: Rare earth metal suppliers \n Hg: Chemical supply companies \n Tc: Radioactive material suppliers (ensure proper licensing and safety protocols are followed)",
+      "steps": [
+        "Fe: Metal supply stores or online suppliers",
+        "Gd: Rare earth metal suppliers",
+        "Hg: Chemical supply companies",
+        "Tc: Radioactive material suppliers (ensure proper licensing and safety protocols are followed)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 10 g of Fe using a precise scale.",
+        "2. Measure out 120 g of Gd.",
+        "3. Measure out 20 g of Hg.",
+        "4. Measure out 20 g of Tc.",
+        "5. In a fume hood, combine Fe, Gd, and Tc in a ceramic mixing bowl.",
+        "6. Slowly add liquid Hg while stirring continuously until a uniform mixture is obtained. Ensure no air bubbles are trapped."
+      ],
+      "raw_text": "1. Measure out 10 g of Fe using a precise scale. \n 2. Measure out 120 g of Gd. \n 3. Measure out 20 g of Hg. \n 4. Measure out 20 g of Tc. \n 5. In a fume hood, combine Fe, Gd, and Tc in a ceramic mixing bowl. \n 6. Slowly add liquid Hg while stirring continuously until a uniform mixture is obtained. Ensure no air bubbles are trapped."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat the crucible in a furnace at a temperature of 800°C for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat the crucible in a furnace at a temperature of 800°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down gradually inside the furnace to room temperature (approximately 4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down gradually inside the furnace to room temperature (approximately 4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth out any rough edges and surfaces.",
+        "3. Optionally, apply a sealant suitable for metals to protect the surface. Allow the sealant to cure according to manufacturer instructions."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth out any rough edges and surfaces. \n 3. Optionally, apply a sealant suitable for metals to protect the surface. Allow the sealant to cure according to manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4706789.0,
+      "density": 89611.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2018996.0,
+      "formation_energy_per_atom": -1731.0,
+      "decomposition_energy_per_atom": -535.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -97.0,
+      "decomposition_energy_mp": -529.0,
+      "decomposition_energy_mp_oqmd": -46.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9e60fc2bf2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:43.835713Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Gd12Hg2Tc2.json",
+      "material://Fe1Gd12Hg2Tc2"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "Eu4Li7P6",
+  "uri": "material://Eu4Li7P6",
+  "composition": {
+    "formula": "Eu4Li7P6",
+    "elements": {
+      "Eu": 4,
+      "Li": 7,
+      "P": 6
+    },
+    "reduced_formula": "Li7(Eu2P3)2",
+    "element_list": [
+      "Li",
+      "P",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 7.5,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 22.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 7.5 g \n Nb: 1.5 g \n Ru: 75 g \n W: 15 g \n Y: 22.5 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder): Chemical supply stores or online chemical suppliers. \n Nb (Niobium powder): Specialty metal suppliers or online marketplaces. \n Ru (Ruthenium powder): Precious metal suppliers or chemical supply companies. \n W (Tungsten powder): Metal suppliers or online chemical suppliers. \n Y (Yttrium powder): Chemical supply stores or online chemical suppliers.",
+      "steps": [
+        "B (Boron powder): Chemical supply stores or online chemical suppliers.",
+        "Nb (Niobium powder): Specialty metal suppliers or online marketplaces.",
+        "Ru (Ruthenium powder): Precious metal suppliers or chemical supply companies.",
+        "W (Tungsten powder): Metal suppliers or online chemical suppliers.",
+        "Y (Yttrium powder): Chemical supply stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision balance.",
+        "2. In a clean, dry mixing container, add B, Nb, Ru, W, and Y in the specified amounts.",
+        "3. Use a mortar and pestle to mix the powders thoroughly for 15 minutes, ensuring an even distribution of materials.",
+        "4. Transfer the mixed powder into a ball mill and mill for an additional 30 minutes to achieve a fine, homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision balance. \n 2. In a clean, dry mixing container, add B, Nb, Ru, W, and Y in the specified amounts. \n 3. Use a mortar and pestle to mix the powders thoroughly for 15 minutes, ensuring an even distribution of materials. \n 4. Transfer the mixed powder into a ball mill and mill for an additional 30 minutes to achieve a fine, homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200 °C.",
+        "2. Once the desired temperature is reached, place the mixed powder into a suitable crucible designed for high temperatures.",
+        "3. Seal the furnace and maintain the temperature for 4 hours to promote sintering and alloy formation."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200 °C. \n 2. Once the desired temperature is reached, place the mixed powder into a suitable crucible designed for high temperatures. \n 3. Seal the furnace and maintain the temperature for 4 hours to promote sintering and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, slowly reduce the furnace temperature to room temperature at a rate of 5 °C per minute to avoid thermal shock.",
+        "2. Once the furnace reaches room temperature, carefully remove the crucible."
+      ],
+      "raw_text": "1. After the heating duration, slowly reduce the furnace temperature to room temperature at a rate of 5 °C per minute to avoid thermal shock. \n 2. Once the furnace reaches room temperature, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any irregularities.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using 400-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any irregularities. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using 400-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 3234413.0,
+      "density": 43243.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1030855.0,
+      "formation_energy_per_atom": -9456.0,
+      "decomposition_energy_per_atom": -458.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -131.0,
+      "decomposition_energy_mp": -458.0,
+      "decomposition_energy_mp_oqmd": -235.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db44f2a4a9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.346744Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Eu4Li7P6.json",
+      "material://Eu4Li7P6"
+    ]
+  }
+}

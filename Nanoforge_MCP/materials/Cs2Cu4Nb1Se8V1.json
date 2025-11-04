@@ -1,0 +1,112 @@
+{
+  "id": "Cs2Cu4Nb1Se8V1",
+  "uri": "material://Cs2Cu4Nb1Se8V1",
+  "composition": {
+    "formula": "Cs2Cu4Nb1Se8V1",
+    "elements": {
+      "Cs": 2,
+      "Cu": 4,
+      "Nb": 1,
+      "Se": 8,
+      "V": 1
+    },
+    "reduced_formula": "Cs2NbV(CuSe2)4",
+    "element_list": [
+      "V",
+      "Cu",
+      "Se",
+      "Nb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Carbonate (BaCO3): 32.4 g \n Indium Oxide (In2O3): 8.6 g \n Nickel Oxide (NiO): 5.0 g \n Total sample weight: 46.0 g"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Available from chemical supply companies or online suppliers (e.g., Sigma-Aldrich). \n Indium Oxide: Obtain from specialty metal suppliers or online retailers. \n Nickel Oxide: Purchase from chemical distributors or online platforms.",
+      "steps": [
+        "Barium Carbonate: Available from chemical supply companies or online suppliers (e.g., Sigma-Aldrich).",
+        "Indium Oxide: Obtain from specialty metal suppliers or online retailers.",
+        "Nickel Oxide: Purchase from chemical distributors or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine 32.4 g of Barium Carbonate, 8.6 g of Indium Oxide, and 5.0 g of Nickel Oxide.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 15 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine 32.4 g of Barium Carbonate, 8.6 g of Indium Oxide, and 5.0 g of Nickel Oxide. \n 3. Mix the powders thoroughly using a mortar and pestle or a ball mill for at least 15 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 900°C at a rate of 5°C/min, hold for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 900°C at a rate of 5°C/min, hold for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the cooled solid into a fine powder if necessary.",
+        "2. Sift through a 200-mesh screen to ensure uniform particle size.",
+        "3. If desired, press the powder into a mold to create a sample of the specified dimensions.",
+        "4. Optionally, sinter the pressed sample at 1100°C for 4 hours for improved density and structural integrity."
+      ],
+      "raw_text": "1. Crush the cooled solid into a fine powder if necessary. \n 2. Sift through a 200-mesh screen to ensure uniform particle size. \n 3. If desired, press the powder into a mold to create a sample of the specified dimensions. \n 4. Optionally, sinter the pressed sample at 1100°C for 4 hours for improved density and structural integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4471142.0,
+      "density": 48114.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -810331.0,
+      "formation_energy_per_atom": -9808.0,
+      "decomposition_energy_per_atom": -82.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": 1.0092,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e2fb35a1a8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.452591Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Cu4Nb1Se8V1.json",
+      "material://Cs2Cu4Nb1Se8V1"
+    ]
+  }
+}

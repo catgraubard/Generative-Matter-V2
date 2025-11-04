@@ -1,0 +1,133 @@
+{
+  "id": "Co4Sn1Tm10Y2Zn1",
+  "uri": "material://Co4Sn1Tm10Y2Zn1",
+  "composition": {
+    "formula": "Co4Sn1Tm10Y2Zn1",
+    "elements": {
+      "Co": 4,
+      "Sn": 1,
+      "Tm": 10,
+      "Y": 2,
+      "Zn": 1
+    },
+    "reduced_formula": "Y2Tm10ZnCo4Sn",
+    "element_list": [
+      "Co",
+      "Zn",
+      "Y",
+      "Sn",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 64.0 g \n Mg: 14.0 g \n Sc: 15.0 g \n Si: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supply store or online chemical supplier. \n Mg: Obtain from a metal supply store or welding supply outlet. \n Sc: Buy from specialized chemical suppliers or metal alloy vendors. \n Si: Acquire from a chemical supply store or online.",
+      "steps": [
+        "Co: Purchase from a metal supply store or online chemical supplier.",
+        "Mg: Obtain from a metal supply store or welding supply outlet.",
+        "Sc: Buy from specialized chemical suppliers or metal alloy vendors.",
+        "Si: Acquire from a chemical supply store or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean container, combine Co, Mg, Sc, and Si in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean container, combine Co, Mg, Sc, and Si in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a furnace preheated to 1200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Place the crucible in a furnace preheated to 1200 °C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool down slowly inside the furnace for approximately 4 hours.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool down slowly inside the furnace for approximately 4 hours. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Use a belt sander or grinding tool to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Clean the surface with a soft cloth to remove any residue.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Use a belt sander or grinding tool to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Clean the surface with a soft cloth to remove any residue. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4275691.0,
+      "density": 8882.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -972851.0,
+      "formation_energy_per_atom": -3273.0,
+      "decomposition_energy_per_atom": -448.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -448.0,
+      "decomposition_energy_mp_oqmd": -151.0
+    },
+    "electronic": {
+      "bandgap": 0.0054,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b0b12eb9f3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:11.865087Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Sn1Tm10Y2Zn1.json",
+      "material://Co4Sn1Tm10Y2Zn1"
+    ]
+  }
+}

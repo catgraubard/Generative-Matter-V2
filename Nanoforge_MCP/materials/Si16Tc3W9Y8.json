@@ -1,0 +1,114 @@
+{
+  "id": "Si16Tc3W9Y8",
+  "uri": "material://Si16Tc3W9Y8",
+  "composition": {
+    "formula": "Si16Tc3W9Y8",
+    "elements": {
+      "Si": 16,
+      "Tc": 3,
+      "W": 9,
+      "Y": 8
+    },
+    "reduced_formula": "Y8Si16(TcW3)3",
+    "element_list": [
+      "Si",
+      "Y",
+      "Tc",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 1280.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 1280 g (16 moles), Tc: 312 g (3 moles), W: 1182 g (9 moles), Y: 1040 g (8 moles)"
+    },
+    "sourcing": {
+      "instructions": "Si: Silicon supplier or semiconductor manufacturer; Tc: Radioactive materials supplier (with permits); W: Tungsten supplier; Y: Yttrium supplier",
+      "steps": [
+        "Si: Silicon supplier or semiconductor manufacturer; Tc: Radioactive materials supplier (with permits); W: Tungsten supplier; Y: Yttrium supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 1280 g of Si, 312 g of Tc, 1182 g of W, and 1040 g of Y.",
+        "2. In a clean, dry environment, combine Si and Y in a high-purity ceramic crucible.",
+        "3. Use a mechanical mixer to ensure a uniform blend for 10 minutes.",
+        "4. Gradually add Tc while mixing continuously for another 10 minutes.",
+        "5. Finally, incorporate W and mix for an additional 10 minutes."
+      ],
+      "raw_text": "1. Measure 1280 g of Si, 312 g of Tc, 1182 g of W, and 1040 g of Y. \n 2. In a clean, dry environment, combine Si and Y in a high-purity ceramic crucible. \n 3. Use a mechanical mixer to ensure a uniform blend for 10 minutes. \n 4. Gradually add Tc while mixing continuously for another 10 minutes. \n 5. Finally, incorporate W and mix for an additional 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1600°C.",
+        "2. Transfer the mixed material into a high-purity graphite mold.",
+        "3. Place the mold in the furnace and maintain at 1600°C for 2 hours to achieve complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1600°C. \n 2. Transfer the mixed material into a high-purity graphite mold. \n 3. Place the mold in the furnace and maintain at 1600°C for 2 hours to achieve complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow slow cooling to room temperature over approximately 6 hours to avoid thermal shock.",
+        "2. Once cooled, remove the mold carefully."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow slow cooling to room temperature over approximately 6 hours to avoid thermal shock. \n 2. Once cooled, remove the mold carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Sand the exterior of the solid sample with 400-grit sandpaper to achieve a smooth finish.",
+        "2. Clean the surface with isopropyl alcohol to remove any residual dust.",
+        "3. Optionally, apply a clear sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Sand the exterior of the solid sample with 400-grit sandpaper to achieve a smooth finish. \n 2. Clean the surface with isopropyl alcohol to remove any residual dust. \n 3. Optionally, apply a clear sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 603842.0,
+      "density": 85501.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3067751.0,
+      "formation_energy_per_atom": -5704.0,
+      "decomposition_energy_per_atom": -368.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -366.0,
+      "decomposition_energy_mp_oqmd": -365.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5ca6ff4096",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:17.011160Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si16Tc3W9Y8.json",
+      "material://Si16Tc3W9Y8"
+    ]
+  }
+}

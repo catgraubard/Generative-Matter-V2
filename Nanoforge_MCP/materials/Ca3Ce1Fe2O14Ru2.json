@@ -1,0 +1,120 @@
+{
+  "id": "Ca3Ce1Fe2O14Ru2",
+  "uri": "material://Ca3Ce1Fe2O14Ru2",
+  "composition": {
+    "formula": "Ca3Ce1Fe2O14Ru2",
+    "elements": {
+      "Ca": 3,
+      "Ce": 1,
+      "Fe": 2,
+      "O": 14,
+      "Ru": 2
+    },
+    "reduced_formula": "Ca3CeFe2(RuO7)2",
+    "element_list": [
+      "O",
+      "Ca",
+      "Fe",
+      "Ru",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CaCO3: 70.5 g \n CeO2: 20.5 g \n Fe2O3: 30.0 g \n Ru: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "CaCO3: Local chemical supply store or online chemical supplier. \n CeO2: Rare earth material suppliers or online marketplaces. \n Fe2O3: Chemical supply store. \n Ru: Specialty metal suppliers or online marketplaces.",
+      "steps": [
+        "CaCO3: Local chemical supply store or online chemical supplier.",
+        "CeO2: Rare earth material suppliers or online marketplaces.",
+        "Fe2O3: Chemical supply store.",
+        "Ru: Specialty metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately with a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of CaCO3, CeO2, Fe2O3, and Ru.",
+        "3. Mix thoroughly using a mortar and pestle or mechanical mixer for at least 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately with a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of CaCO3, CeO2, Fe2O3, and Ru. \n 3. Mix thoroughly using a mortar and pestle or mechanical mixer for at least 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the material gradually to avoid thermal shock, maintaining a rate of 5°C/min until reaching 1200°C.",
+        "4. Hold at 1200°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Heat the material gradually to avoid thermal shock, maintaining a rate of 5°C/min until reaching 1200°C. \n 4. Hold at 1200°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature over a period of 6 hours.",
+        "2. Do not open the furnace door until it has cooled to prevent rapid cooling, which can cause cracking."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature over a period of 6 hours. \n 2. Do not open the furnace door until it has cooled to prevent rapid cooling, which can cause cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities or rough edges.",
+        "3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a suitable ceramic sealant to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities or rough edges. \n 3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a suitable ceramic sealant to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2720712.0,
+      "density": 48715.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -168525.0,
+      "formation_energy_per_atom": -23552.0,
+      "decomposition_energy_per_atom": -165.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -172.0,
+      "decomposition_energy_mp_oqmd": -171.0
+    },
+    "electronic": {
+      "bandgap": 0.0092,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "94fbcdc27e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:31.539609Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca3Ce1Fe2O14Ru2.json",
+      "material://Ca3Ce1Fe2O14Ru2"
+    ]
+  }
+}

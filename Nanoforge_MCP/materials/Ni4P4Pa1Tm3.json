@@ -1,0 +1,114 @@
+{
+  "id": "Ni4P4Pa1Tm3",
+  "uri": "material://Ni4P4Pa1Tm3",
+  "composition": {
+    "formula": "Ni4P4Pa1Tm3",
+    "elements": {
+      "Ni": 4,
+      "P": 4,
+      "Pa": 1,
+      "Tm": 3
+    },
+    "reduced_formula": "Tm3Pa(NiP)4",
+    "element_list": [
+      "P",
+      "Ni",
+      "Tm",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10 g; Ba: 4 g; Co: 10 g; K: 1 g; Total: 25 g"
+    },
+    "sourcing": {
+      "instructions": "As: Specialty chemical suppliers; Ba: Chemical supply stores; Co: Metal suppliers; K: Fertilizer suppliers or chemical stores",
+      "steps": [
+        "As: Specialty chemical suppliers; Ba: Chemical supply stores; Co: Metal suppliers; K: Fertilizer suppliers or chemical stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean glass or ceramic mixing container, add the measured As, Ba, Co, and K in the order listed.",
+        "3. Use a glass rod or a ceramic spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Ensure no clumps remain; if necessary, use a mortar and pestle for finer mixing."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean glass or ceramic mixing container, add the measured As, Ba, Co, and K in the order listed. \n 3. Use a glass rod or a ceramic spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Ensure no clumps remain; if necessary, use a mortar and pestle for finer mixing."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a furnace or kiln.",
+        "3. Heat gradually to 600°C at a rate of 10°C per minute.",
+        "4. Maintain this temperature for 2 hours to ensure proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Place the crucible in a furnace or kiln. \n 3. Heat gradually to 600°C at a rate of 10°C per minute. \n 4. Maintain this temperature for 2 hours to ensure proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally.",
+        "2. Do not open the furnace until it reaches room temperature (approximately 1-2 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally. \n 2. Do not open the furnace until it reaches room temperature (approximately 1-2 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for any imperfections; if necessary, use fine-grit sandpaper to smooth rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for any imperfections; if necessary, use fine-grit sandpaper to smooth rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1985059.0,
+      "density": 91725.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -820008.0,
+      "formation_energy_per_atom": -11904.0,
+      "decomposition_energy_per_atom": -573.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -573.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d55225bb62",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.754231Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4P4Pa1Tm3.json",
+      "material://Ni4P4Pa1Tm3"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "Na1Nd1Pr4Se8",
+  "uri": "material://Na1Nd1Pr4Se8",
+  "composition": {
+    "formula": "Na1Nd1Pr4Se8",
+    "elements": {
+      "Na": 1,
+      "Nd": 1,
+      "Pr": 4,
+      "Se": 8
+    },
+    "reduced_formula": "NaPr4NdSe8",
+    "element_list": [
+      "Na",
+      "Se",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 5.00 g \n Fe: 5.00 g \n Nb: 40.00 g \n Se: 80.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply company or online vendor specializing in metals. \n Fe: Available at local hardware stores or metal suppliers. \n Nb: Obtain from specialized metal suppliers or online chemical distributors. \n Se: Obtain from chemical supply companies or online vendors.",
+      "steps": [
+        "Co: Purchase from a chemical supply company or online vendor specializing in metals.",
+        "Fe: Available at local hardware stores or metal suppliers.",
+        "Nb: Obtain from specialized metal suppliers or online chemical distributors.",
+        "Se: Obtain from chemical supply companies or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Co, Fe, Nb, and Se using a precise analytical balance.",
+        "2. In a clean, dry mixing container, combine all the weighed materials.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until homogenous. Ensure no clumps remain.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh Co, Fe, Nb, and Se using a precise analytical balance. \n 2. In a clean, dry mixing container, combine all the weighed materials. \n 3. Use a mortar and pestle to thoroughly mix the powders until homogenous. Ensure no clumps remain. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the ceramic crucible in a furnace.",
+        "2. Heat the crucible to 800°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the solid material."
+      ],
+      "raw_text": "1. Place the ceramic crucible in a furnace. \n 2. Heat the crucible to 800°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the solid material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. Use fine-grit sandpaper to smooth out any rough edges.",
+        "4. If necessary, apply a sealant to protect the surface and enhance aesthetics, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. Use fine-grit sandpaper to smooth out any rough edges. \n 4. If necessary, apply a sealant to protect the surface and enhance aesthetics, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3653832.0,
+      "density": 61923.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -826317.0,
+      "formation_energy_per_atom": -21036.0,
+      "decomposition_energy_per_atom": -78.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -76.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 1.6118,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cbc131d89f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.257304Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na1Nd1Pr4Se8.json",
+      "material://Na1Nd1Pr4Se8"
+    ]
+  }
+}

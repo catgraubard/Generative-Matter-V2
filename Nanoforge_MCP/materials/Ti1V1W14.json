@@ -1,0 +1,126 @@
+{
+  "id": "Ti1V1W14",
+  "uri": "material://Ti1V1W14",
+  "composition": {
+    "formula": "Ti1V1W14",
+    "elements": {
+      "Ti": 1,
+      "V": 1,
+      "W": 14
+    },
+    "reduced_formula": "TiVW14",
+    "element_list": [
+      "Ti",
+      "V",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ti",
+          "amount": 19.5,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 19.5,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 546.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ti: 19.5 g \n V: 19.5 g \n W: 546 g"
+    },
+    "sourcing": {
+      "instructions": "Ti (Titanium powder) - Available from metal supply companies or online specialty materials suppliers. \n V (Vanadium powder) - Obtain from chemical suppliers. \n W (Tungsten powder) - Available from industrial metal supply stores or online.",
+      "steps": [
+        "Ti (Titanium powder) - Available from metal supply companies or online specialty materials suppliers.",
+        "V (Vanadium powder) - Obtain from chemical suppliers.",
+        "W (Tungsten powder) - Available from industrial metal supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 19.5 g of titanium powder.",
+        "2. Weigh out 19.5 g of vanadium powder.",
+        "3. Weigh out 546 g of tungsten powder.",
+        "4. Combine the powders in a clean, dry mixing container.",
+        "5. Use a mortar and pestle or a mechanical mixer to blend the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 19.5 g of titanium powder. \n 2. Weigh out 19.5 g of vanadium powder. \n 3. Weigh out 546 g of tungsten powder. \n 4. Combine the powders in a clean, dry mixing container. \n 5. Use a mortar and pestle or a mechanical mixer to blend the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a suitable crucible.",
+        "2. Place the crucible in a vacuum furnace.",
+        "3. Set furnace temperature to 1500°C.",
+        "4. Heat for 2 hours to ensure full alloying of the metals."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a suitable crucible. \n 2. Place the crucible in a vacuum furnace. \n 3. Set furnace temperature to 1500°C. \n 4. Heat for 2 hours to ensure full alloying of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Once the heating cycle is complete, allow the furnace to cool down to room temperature naturally.",
+        "2. This should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Once the heating cycle is complete, allow the furnace to cool down to room temperature naturally. \n 2. This should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the material to the specified dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if required for the intended use."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the material to the specified dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if required for the intended use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2556664.0,
+      "density": 173582.0,
+      "crystal_system": "cubic",
+      "space_group": "Pm-3m",
+      "space_group_number": 221,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1994633.0,
+      "formation_energy_per_atom": -669.0,
+      "decomposition_energy_per_atom": -427.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -152.0,
+      "decomposition_energy_mp": -427.0,
+      "decomposition_energy_mp_oqmd": -252.0
+    },
+    "electronic": {
+      "bandgap": 0.0077,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5cefc98f57",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:17.336937Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ti1V1W14.json",
+      "material://Ti1V1W14"
+    ]
+  }
+}

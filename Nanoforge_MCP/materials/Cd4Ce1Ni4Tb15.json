@@ -1,0 +1,134 @@
+{
+  "id": "Cd4Ce1Ni4Tb15",
+  "uri": "material://Cd4Ce1Ni4Tb15",
+  "composition": {
+    "formula": "Cd4Ce1Ni4Tb15",
+    "elements": {
+      "Cd": 4,
+      "Ce": 1,
+      "Ni": 4,
+      "Tb": 15
+    },
+    "reduced_formula": "Tb15Ce(CdNi)4",
+    "element_list": [
+      "Ni",
+      "Cd",
+      "Ce",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 1800.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 1200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 600.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 1800 g \n Mo: 1200 g \n Si: 300 g \n W: 600 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Obtain from a metal supplier or online store specializing in industrial metals. \n Mo: Available at specialty metal suppliers or online. \n Si: Can be found at chemical supply stores or online. \n W: Procure from metals suppliers or online markets.",
+      "steps": [
+        "Fe: Obtain from a metal supplier or online store specializing in industrial metals.",
+        "Mo: Available at specialty metal suppliers or online.",
+        "Si: Can be found at chemical supply stores or online.",
+        "W: Procure from metals suppliers or online markets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1800 g of iron powder (Fe).",
+        "2. Weigh out 1200 g of molybdenum powder (Mo).",
+        "3. Weigh out 300 g of silicon powder (Si).",
+        "4. Weigh out 600 g of tungsten powder (W).",
+        "5. Combine all powders in a large mixing container.",
+        "6. Mix thoroughly using a mechanical mixer for 15 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out 1800 g of iron powder (Fe). \n 2. Weigh out 1200 g of molybdenum powder (Mo). \n 3. Weigh out 300 g of silicon powder (Si). \n 4. Weigh out 600 g of tungsten powder (W). \n 5. Combine all powders in a large mixing container. \n 6. Mix thoroughly using a mechanical mixer for 15 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable furnace.",
+        "2. Heat the furnace to 1200°C (2192°F).",
+        "3. Maintain this temperature for 2 hours to allow for solid-state synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable furnace. \n 2. Heat the furnace to 1200°C (2192°F). \n 3. Maintain this temperature for 2 hours to allow for solid-state synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature over a period of approximately 6 hours.",
+        "2. Ensure the sample is not disturbed during cooling to prevent cracks."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature over a period of approximately 6 hours. \n 2. Ensure the sample is not disturbed during cooling to prevent cracks."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect the sample for any irregularities or surface imperfections.",
+        "3. If necessary, grind the surface using a fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect the sample for any irregularities or surface imperfections. \n 3. If necessary, grind the surface using a fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6256286.0,
+      "density": 85157.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1091615.0,
+      "formation_energy_per_atom": -2875.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -22.0,
+      "decomposition_energy_mp_oqmd": -17.0
+    },
+    "electronic": {
+      "bandgap": 0.0035,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d4bbaae741",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.574509Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd4Ce1Ni4Tb15.json",
+      "material://Cd4Ce1Ni4Tb15"
+    ]
+  }
+}

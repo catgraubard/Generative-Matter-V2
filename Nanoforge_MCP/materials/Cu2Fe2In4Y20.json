@@ -1,0 +1,105 @@
+{
+  "id": "Cu2Fe2In4Y20",
+  "uri": "material://Cu2Fe2In4Y20",
+  "composition": {
+    "formula": "Cu2Fe2In4Y20",
+    "elements": {
+      "Cu": 2,
+      "Fe": 2,
+      "In": 4,
+      "Y": 20
+    },
+    "reduced_formula": "Y10In2FeCu",
+    "element_list": [
+      "Fe",
+      "Cu",
+      "Y",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 100 g, Fe: 50 g, In: 40 g, Y: 10 g, O: 100 g (for oxidation)"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper metal from a hardware store or online metal supplier. Fe: Iron filings from a laboratory supply store. In: Indium metal from a specialized metal supplier. Y: Yttrium oxide from a chemical supplier. O: Oxygen can be sourced from air or through oxidation processes.",
+      "steps": [
+        "Cu: Copper metal from a hardware store or online metal supplier. Fe: Iron filings from a laboratory supply store. In: Indium metal from a specialized metal supplier. Y: Yttrium oxide from a chemical supplier. O: Oxygen can be sourced from air or through oxidation processes."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance. 2. In a clean, dry mortar and pestle, mix Cu, Fe, In, and Y powders until homogeneous. 3. Gradually add O powder to the mixture and continue to grind until a fine, even powder is achieved. 4. Transfer the mixed powder into a clean crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. 2. In a clean, dry mortar and pestle, mix Cu, Fe, In, and Y powders until homogeneous. 3. Gradually add O powder to the mixture and continue to grind until a fine, even powder is achieved. 4. Transfer the mixed powder into a clean crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a muffle furnace to 900 °C. 2. Once the temperature is reached, place the crucible inside the furnace. 3. Heat for 6 hours to ensure complete reaction of materials."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900 °C. 2. Once the temperature is reached, place the crucible inside the furnace. 3. Heat for 6 hours to ensure complete reaction of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After 6 hours, turn off the furnace and allow it to cool naturally to room temperature, approximately 4-6 hours. 2. Do not open the furnace until it has cooled completely to prevent oxidation."
+      ],
+      "raw_text": "1. After 6 hours, turn off the furnace and allow it to cool naturally to room temperature, approximately 4-6 hours. 2. Do not open the furnace until it has cooled completely to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible. 2. If necessary, use a diamond saw to shape the material to the desired dimensions (3 inches x 2 inches x 7 inches). 3. Sand the edges and surfaces to achieve a smooth finish. 4. Optionally, apply a protective sealant to enhance durability and stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. 2. If necessary, use a diamond saw to shape the material to the desired dimensions (3 inches x 2 inches x 7 inches). 3. Sand the edges and surfaces to achieve a smooth finish. 4. Optionally, apply a protective sealant to enhance durability and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7684407.0,
+      "density": 53508.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1717638.0,
+      "formation_energy_per_atom": -2246.0,
+      "decomposition_energy_per_atom": -152.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -24.0,
+      "decomposition_energy_mp": -152.0,
+      "decomposition_energy_mp_oqmd": -131.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "04a4f72b2c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:21.106239Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Fe2In4Y20.json",
+      "material://Cu2Fe2In4Y20"
+    ]
+  }
+}

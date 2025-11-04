@@ -1,0 +1,101 @@
+{
+  "id": "O18Pa8Sr1",
+  "uri": "material://O18Pa8Sr1",
+  "composition": {
+    "formula": "O18Pa8Sr1",
+    "elements": {
+      "O": 18,
+      "Pa": 8,
+      "Sr": 1
+    },
+    "reduced_formula": "SrPa8O18",
+    "element_list": [
+      "O",
+      "Sr",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 12 g, Rb: 24 g, Tl: 8 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier (ensure high purity); Rb: Specialty metal suppliers; Tl: Chemical supply companies",
+      "steps": [
+        "As: Purchase from a chemical supplier (ensure high purity); Rb: Specialty metal suppliers; Tl: Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 12 g of Arsenic (As) using a precision balance."
+      ],
+      "raw_text": "1. Weigh 12 g of Arsenic (As) using a precision balance."
+    },
+    "heating": {
+      "steps": [
+        "1. Transfer the homogeneous mixture into a quartz or ceramic crucible."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture into a quartz or ceramic crucible."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid from the crucible using protective gloves."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid from the crucible using protective gloves."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 27,
+      "volume": 3716307.0,
+      "density": 99369.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2760858.0,
+      "formation_energy_per_atom": -4045.0,
+      "decomposition_energy_per_atom": -2149.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -2155.0,
+      "decomposition_energy_mp_oqmd": -2109.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c21e12d95e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.796077Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O18Pa8Sr1.json",
+      "material://O18Pa8Sr1"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "Li8Na2Rb10Sb12Ti4",
+  "uri": "material://Li8Na2Rb10Sb12Ti4",
+  "composition": {
+    "formula": "Li8Na2Rb10Sb12Ti4",
+    "elements": {
+      "Li": 8,
+      "Na": 2,
+      "Rb": 10,
+      "Sb": 12,
+      "Ti": 4
+    },
+    "reduced_formula": "Rb5NaLi4(TiSb3)2",
+    "element_list": [
+      "Li",
+      "Na",
+      "Ti",
+      "Rb",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 16.74,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 4.62,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 28.75,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 35.61,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 12.09,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 16.74 g (lithium carbonate, Li2CO3) \n Na: 4.62 g (sodium carbonate, Na2CO3) \n Rb: 28.75 g (rubidium chloride, RbCl) \n Sb: 35.61 g (antimony oxide, Sb2O3) \n Ti: 12.09 g (titanium dioxide, TiO2)"
+    },
+    "sourcing": {
+      "instructions": "Li2CO3: Chemical supply stores or online chemical retailers. \n Na2CO3: Grocery stores (as washing soda) or online suppliers. \n RbCl: Specialty chemical suppliers or online. \n Sb2O3: Chemical supply companies. \n TiO2: Available from paint supply stores or chemical suppliers.",
+      "steps": [
+        "Li2CO3: Chemical supply stores or online chemical retailers.",
+        "Na2CO3: Grocery stores (as washing soda) or online suppliers.",
+        "RbCl: Specialty chemical suppliers or online.",
+        "Sb2O3: Chemical supply companies.",
+        "TiO2: Available from paint supply stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out all ingredients using a precise scale.",
+        "2. In a clean, dry mixing container, combine Li2CO3, Na2CO3, RbCl, Sb2O3, and TiO2 thoroughly.",
+        "3. Use a mortar and pestle or a ball mill to achieve a fine, homogeneous powder. Ensure there are no lumps."
+      ],
+      "raw_text": "1. Measure out all ingredients using a precise scale. \n 2. In a clean, dry mixing container, combine Li2CO3, Na2CO3, RbCl, Sb2O3, and TiO2 thoroughly. \n 3. Use a mortar and pestle or a ball mill to achieve a fine, homogeneous powder. Ensure there are no lumps."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Preheat the furnace to 600°C.",
+        "3. Once the temperature is reached, heat the crucible for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Preheat the furnace to 600°C. \n 3. Once the temperature is reached, heat the crucible for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not force cool; this may cause cracking in the material. Expect a cooling duration of approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not force cool; this may cause cracking in the material. Expect a cooling duration of approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Grind the sample lightly to achieve a uniform surface.",
+        "3. If required, seal the material with a suitable sealant to prevent moisture absorption.",
+        "4. Optionally, sand the edges for a smooth finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Grind the sample lightly to achieve a uniform surface. \n 3. If required, seal the material with a suitable sealant to prevent moisture absorption. \n 4. Optionally, sand the edges for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11827731.0,
+      "density": 36626.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1299357.0,
+      "formation_energy_per_atom": -5857.0,
+      "decomposition_energy_per_atom": -357.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -121.0,
+      "decomposition_energy_mp": -371.0,
+      "decomposition_energy_mp_oqmd": -285.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a3e049a027",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:51.301803Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li8Na2Rb10Sb12Ti4.json",
+      "material://Li8Na2Rb10Sb12Ti4"
+    ]
+  }
+}

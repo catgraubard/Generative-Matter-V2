@@ -1,0 +1,121 @@
+{
+  "id": "La4O32S8Tl4",
+  "uri": "material://La4O32S8Tl4",
+  "composition": {
+    "formula": "La4O32S8Tl4",
+    "elements": {
+      "La": 4,
+      "O": 32,
+      "S": 8,
+      "Tl": 4
+    },
+    "reduced_formula": "LaTl(SO4)2",
+    "element_list": [
+      "O",
+      "S",
+      "La",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 200 g \n  O2: 100 g \n  S: 50 g \n  Tl: 80 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Purchase from chemical suppliers or online marketplaces specializing in rare earth materials. \n  O2: Obtain from a gas supplier or use oxygen from the air (ensure proper containment). \n  S: Available at laboratory supply stores or online chemical suppliers. \n  Tl: Purchase from specialized chemical suppliers or online sources.",
+      "steps": [
+        "La2O3: Purchase from chemical suppliers or online marketplaces specializing in rare earth materials.",
+        "O2: Obtain from a gas supplier or use oxygen from the air (ensure proper containment).",
+        "S: Available at laboratory supply stores or online chemical suppliers.",
+        "Tl: Purchase from specialized chemical suppliers or online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, measure out 200 g of La2O3, 100 g of O2, 50 g of S, and 80 g of Tl.",
+        "2. Combine La2O3, S, and Tl in a ceramic mortar and pestle.",
+        "3. Gradually introduce O2 into the mixture while continuously stirring to ensure even distribution.",
+        "4. Transfer the mixture into a crucible suitable for high-temperature processing."
+      ],
+      "raw_text": "1. In a clean, dry environment, measure out 200 g of La2O3, 100 g of O2, 50 g of S, and 80 g of Tl. \n  2. Combine La2O3, S, and Tl in a ceramic mortar and pestle. \n  3. Gradually introduce O2 into the mixture while continuously stirring to ensure even distribution. \n  4. Transfer the mixture into a crucible suitable for high-temperature processing."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the crucible in the furnace and maintain the temperature for 4 hours to promote reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n  2. Place the crucible in the furnace and maintain the temperature for 4 hours to promote reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours) before opening.",
+        "2. Ensure the crucible is not disturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours) before opening. \n  2. Ensure the crucible is not disturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use fine-grit sandpaper to smooth the surface as necessary.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n  2. Inspect for any rough edges or imperfections. \n  3. Use fine-grit sandpaper to smooth the surface as necessary. \n  4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 48,
+      "volume": 7508347.0,
+      "density": 47365.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -3355217.0,
+      "formation_energy_per_atom": -23938.0,
+      "decomposition_energy_per_atom": -239.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -239.0,
+      "decomposition_energy_mp_oqmd": -213.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "69f9d2841e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:34.223011Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La4O32S8Tl4.json",
+      "material://La4O32S8Tl4"
+    ]
+  }
+}

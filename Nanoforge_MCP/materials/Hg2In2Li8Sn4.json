@@ -1,0 +1,111 @@
+{
+  "id": "Hg2In2Li8Sn4",
+  "uri": "material://Hg2In2Li8Sn4",
+  "composition": {
+    "formula": "Hg2In2Li8Sn4",
+    "elements": {
+      "Hg": 2,
+      "In": 2,
+      "Li": 8,
+      "Sn": 4
+    },
+    "reduced_formula": "Li4InSn2Hg",
+    "element_list": [
+      "Li",
+      "In",
+      "Sn",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 160 g, In: 200 g, Li: 12 g, Sn: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Chemical supply stores; In: Metal suppliers or online; Li: Battery manufacturers or chemical supplies; Sn: Metal suppliers or online.",
+      "steps": [
+        "Hg: Chemical supply stores; In: Metal suppliers or online; Li: Battery manufacturers or chemical supplies; Sn: Metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each metal component using an analytical balance.",
+        "2. Place Hg in a fume hood due to toxicity.",
+        "3. In a clean, dry container, add In and Sn to Hg.",
+        "4. Slowly add Li while stirring continuously to ensure thorough mixing."
+      ],
+      "raw_text": "1. Weigh out each metal component using an analytical balance.\n2. Place Hg in a fume hood due to toxicity.\n3. In a clean, dry container, add In and Sn to Hg.\n4. Slowly add Li while stirring continuously to ensure thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 350,
+      "duration_hours": 2,
+      "steps": [
+        "Heat the mixture to 350 °C using a controlled furnace.",
+        "Maintain this temperature for 2 hours to ensure complete alloy formation."
+      ],
+      "raw_text": "Heat the mixture to 350 °C using a controlled furnace.\n Maintain this temperature for 2 hours to ensure complete alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "Allow the furnace to cool down naturally to room temperature over 6 hours to prevent thermal shock to the material."
+      ],
+      "raw_text": "Allow the furnace to cool down naturally to room temperature over 6 hours to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace.",
+        "2. Sand the edges and surfaces for a smooth finish using fine-grit sandpaper.",
+        "3. Seal the material with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace.\n2. Sand the edges and surfaces for a smooth finish using fine-grit sandpaper.\n3. Seal the material with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3155092.0,
+      "density": 61114.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -428519.0,
+      "formation_energy_per_atom": -3395.0,
+      "decomposition_energy_per_atom": -116.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -116.0,
+      "decomposition_energy_mp_oqmd": -64.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "499b2bba40",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:52.285883Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg2In2Li8Sn4.json",
+      "material://Hg2In2Li8Sn4"
+    ]
+  }
+}

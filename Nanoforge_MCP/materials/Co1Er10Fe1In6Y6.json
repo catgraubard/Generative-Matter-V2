@@ -1,0 +1,139 @@
+{
+  "id": "Co1Er10Fe1In6Y6",
+  "uri": "material://Co1Er10Fe1In6Y6",
+  "composition": {
+    "formula": "Co1Er10Fe1In6Y6",
+    "elements": {
+      "Co": 1,
+      "Er": 10,
+      "Fe": 1,
+      "In": 6,
+      "Y": 6
+    },
+    "reduced_formula": "Y6Er10In6FeCo",
+    "element_list": [
+      "Fe",
+      "Co",
+      "Y",
+      "In",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.00 g \n Er: 100.00 g \n Fe: 10.00 g \n In: 60.00 g \n Y: 60.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online marketplace \n Er: Specialty metal supplier or online \n Fe: Local hardware store or chemical supplier \n In: Online chemical suppliers \n Y: Specialty metal supplier or online",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online marketplace",
+        "Er: Specialty metal supplier or online",
+        "Fe: Local hardware store or chemical supplier",
+        "In: Online chemical suppliers",
+        "Y: Specialty metal supplier or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance to ensure accuracy.",
+        "2. In a clean, dry mixing container, combine Co, Er, Fe, In, and Y in the specified amounts.",
+        "3. Stir the mixture thoroughly using a spatula or stirring rod to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance to ensure accuracy. \n 2. In a clean, dry mixing container, combine Co, Er, Fe, In, and Y in the specified amounts. \n 3. Stir the mixture thoroughly using a spatula or stirring rod to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 10°C per minute and maintain this temperature for 4 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 10°C per minute and maintain this temperature for 4 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature slowly for approximately 6 hours.",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature slowly for approximately 6 hours. \n 2. Do not open the furnace until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, grind the surface with a diamond grinding wheel to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear coating for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, grind the surface with a diamond grinding wheel to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear coating for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6444695.0,
+      "density": 77548.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1245697.0,
+      "formation_energy_per_atom": -3336.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -34.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "31756e98c6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:20.462709Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Er10Fe1In6Y6.json",
+      "material://Co1Er10Fe1In6Y6"
+    ]
+  }
+}

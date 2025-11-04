@@ -1,0 +1,112 @@
+{
+  "id": "La1Nd1Rb2Se8",
+  "uri": "material://La1Nd1Rb2Se8",
+  "composition": {
+    "formula": "La1Nd1Rb2Se8",
+    "elements": {
+      "La": 1,
+      "Nd": 1,
+      "Rb": 2,
+      "Se": 8
+    },
+    "reduced_formula": "Rb2LaNdSe8",
+    "element_list": [
+      "Se",
+      "Rb",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 5.0 g, Nd: 5.0 g, Rb: 10.0 g, Se: 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Nd: Obtain from rare earth metal suppliers; Rb: Source from chemical vendors; Se: Buy from semiconductor material suppliers.",
+      "steps": [
+        "La: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Nd: Obtain from rare earth metal suppliers; Rb: Source from chemical vendors; Se: Buy from semiconductor material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 5.0 g of La, 5.0 g of Nd, 10.0 g of Rb, and 40.0 g of Se using an analytical balance.",
+        "2. Place the weighed materials into a clean, dry mortar and pestle.",
+        "3. Grind the materials together until a fine, homogenous powder is obtained (approximately 10 minutes)."
+      ],
+      "raw_text": "1. Weigh out 5.0 g of La, 5.0 g of Nd, 10.0 g of Rb, and 40.0 g of Se using an analytical balance. \n 2. Place the weighed materials into a clean, dry mortar and pestle. \n 3. Grind the materials together until a fine, homogenous powder is obtained (approximately 10 minutes)."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a muffle furnace to a temperature of 800°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La1Nd1Rb2Se8."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat the crucible in a muffle furnace to a temperature of 800°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La1Nd1Rb2Se8."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible and inspect the sample for any irregularities."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible and inspect the sample for any irregularities."
+    },
+    "post_processing": {
+      "steps": [
+        "1. If necessary, crush the solid sample into finer particles using a mortar and pestle.",
+        "2. Sift through a 200-mesh screen to achieve uniform particle size.",
+        "3. If required, seal the sample in an inert atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. If necessary, crush the solid sample into finer particles using a mortar and pestle. \n 2. Sift through a 200-mesh screen to achieve uniform particle size. \n 3. If required, seal the sample in an inert atmosphere to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3676433.0,
+      "density": 49041.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P422",
+      "space_group_number": 89,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -576743.0,
+      "formation_energy_per_atom": -15035.0,
+      "decomposition_energy_per_atom": -42.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -502.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 0.6732,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5b74f20f05",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:15.511896Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Nd1Rb2Se8.json",
+      "material://La1Nd1Rb2Se8"
+    ]
+  }
+}

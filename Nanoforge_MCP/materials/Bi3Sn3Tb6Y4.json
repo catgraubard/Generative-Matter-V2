@@ -1,0 +1,137 @@
+{
+  "id": "Bi3Sn3Tb6Y4",
+  "uri": "material://Bi3Sn3Tb6Y4",
+  "composition": {
+    "formula": "Bi3Sn3Tb6Y4",
+    "elements": {
+      "Bi": 3,
+      "Sn": 3,
+      "Tb": 6,
+      "Y": 4
+    },
+    "reduced_formula": "Tb6Y4(SnBi)3",
+    "element_list": [
+      "Y",
+      "Sn",
+      "Tb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 400 g \n Co: 100 g \n Nb: 10 g \n Sc: 30 g \n Zn: 20 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder): Chemical supply companies \n Co (Cobalt powder): Metal suppliers or online chemical retailers \n Nb (Niobium powder): Specialty metal suppliers \n Sc (Scandium oxide): Rare earth metal suppliers \n Zn (Zinc powder): Chemical supply stores",
+      "steps": [
+        "B (Boron powder): Chemical supply companies",
+        "Co (Cobalt powder): Metal suppliers or online chemical retailers",
+        "Nb (Niobium powder): Specialty metal suppliers",
+        "Sc (Scandium oxide): Rare earth metal suppliers",
+        "Zn (Zinc powder): Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of each material using a precision scale.",
+        "2. In a clean, dry mixing bowl, add B, Co, Nb, Sc, and Zn in the order listed.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders for at least 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixture to a suitable container for heating."
+      ],
+      "raw_text": "1. Measure the specified amounts of each material using a precision scale. \n 2. In a clean, dry mixing bowl, add B, Co, Nb, Sc, and Zn in the order listed. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders for at least 15 minutes to ensure homogeneity. \n 4. Transfer the mixture to a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible and insert it into the furnace.",
+        "3. Maintain the temperature for 2 hours to facilitate proper bonding and phase formation."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the mixed powder in a crucible and insert it into the furnace. \n 3. Maintain the temperature for 2 hours to facilitate proper bonding and phase formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth any rough edges on the sample.",
+        "3. If desired, seal the surface with a suitable coating or sealing agent to enhance durability.",
+        "4. Allow the sealed sample to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth any rough edges on the sample. \n 3. If desired, seal the surface with a suitable coating or sealing agent to enhance durability. \n 4. Allow the sealed sample to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4681393.0,
+      "density": 81308.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -891899.0,
+      "formation_energy_per_atom": -7387.0,
+      "decomposition_energy_per_atom": -56.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -56.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "be322c0ed1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.460911Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3Sn3Tb6Y4.json",
+      "material://Bi3Sn3Tb6Y4"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Co5Hg1Tb5Y7",
+  "uri": "material://Co5Hg1Tb5Y7",
+  "composition": {
+    "formula": "Co5Hg1Tb5Y7",
+    "elements": {
+      "Co": 5,
+      "Hg": 1,
+      "Tb": 5,
+      "Y": 7
+    },
+    "reduced_formula": "Tb5Y7Co5Hg",
+    "element_list": [
+      "Co",
+      "Y",
+      "Tb",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.0 g, Rb: 0.1 g, Se: 20.0 g (Total: 21.1 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from chemical supply companies; Rb (Rubidium): Available from specialty chemical suppliers; Se (Selenium): Obtain from chemical vendors or online marketplaces.",
+      "steps": [
+        "Cs (Cesium): Purchase from chemical supply companies; Rb (Rubidium): Available from specialty chemical suppliers; Se (Selenium): Obtain from chemical vendors or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 1.0 g of Cs and 0.1 g of Rb using an analytical balance.",
+        "2. Weigh 20.0 g of Se.",
+        "3. In a clean, dry container, combine Cs, Rb, and Se thoroughly using a ceramic spatula.",
+        "4. Ensure the mixture is uniform and free of clumps."
+      ],
+      "raw_text": "1. Weigh 1.0 g of Cs and 0.1 g of Rb using an analytical balance. \n 2. Weigh 20.0 g of Se. \n 3. In a clean, dry container, combine Cs, Rb, and Se thoroughly using a ceramic spatula. \n 4. Ensure the mixture is uniform and free of clumps."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 600 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature at 600 °C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 600 °C at a rate of 10 °C/min. \n 4. Maintain the temperature at 600 °C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally.",
+        "2. This should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally. \n 2. This should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible and extract the solid sample.",
+        "2. Clean the sample with ethanol to remove any surface contaminants.",
+        "3. If necessary, sand the edges of the sample to achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Store the finished material in a desiccator to prevent moisture absorption."
+      ],
+      "raw_text": "1. Remove the cooled crucible and extract the solid sample. \n 2. Clean the sample with ethanol to remove any surface contaminants. \n 3. If necessary, sand the edges of the sample to achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Store the finished material in a desiccator to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4401379.0,
+      "density": 72144.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1081983.0,
+      "formation_energy_per_atom": -2176.0,
+      "decomposition_energy_per_atom": -211.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -211.0,
+      "decomposition_energy_mp_oqmd": -185.0
+    },
+    "electronic": {
+      "bandgap": 0.0058,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e2a9be2d8d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.383624Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co5Hg1Tb5Y7.json",
+      "material://Co5Hg1Tb5Y7"
+    ]
+  }
+}

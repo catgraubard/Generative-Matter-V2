@@ -1,0 +1,131 @@
+{
+  "id": "Ga2Tc6Y4",
+  "uri": "material://Ga2Tc6Y4",
+  "composition": {
+    "formula": "Ga2Tc6Y4",
+    "elements": {
+      "Ga": 2,
+      "Tc": 6,
+      "Y": 4
+    },
+    "reduced_formula": "Y2GaTc3",
+    "element_list": [
+      "Ga",
+      "Y",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 32.0 g \nSe: 8.0 g \nSm: 16.0 g \nSn: 48.0 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum): Obtain from a chemical supply company or online vendor specializing in rare earth metals. \nSe (Selenium): Available from chemical suppliers or electronics stores. \nSm (Samarium): Source from a specialized rare earth metal supplier. \nSn (Tin): Can be found at hardware stores or metal supply shops.",
+      "steps": [
+        "La (Lanthanum): Obtain from a chemical supply company or online vendor specializing in rare earth metals.",
+        "Se (Selenium): Available from chemical suppliers or electronics stores.",
+        "Sm (Samarium): Source from a specialized rare earth metal supplier.",
+        "Sn (Tin): Can be found at hardware stores or metal supply shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of La, Se, Sm, and Sn using an analytical balance.",
+        "2. Place La, Sm, and Sn in a clean, dry mixing container.",
+        "3. Slowly add Se to the mixture while stirring continuously to ensure even distribution.",
+        "4. Mix thoroughly for approximately 10 minutes until a homogenous blend is achieved."
+      ],
+      "raw_text": "1. Measure the specified amounts of La, Se, Sm, and Sn using an analytical balance. \n2. Place La, Sm, and Sn in a clean, dry mixing container. \n3. Slowly add Se to the mixture while stirring continuously to ensure even distribution. \n4. Mix thoroughly for approximately 10 minutes until a homogenous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1000 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n2. Heat the crucible in a furnace to 1000 °C at a rate of 5 °C/min. \n3. Maintain the temperature for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves.",
+        "3. Allow the sample to cool in ambient conditions for an additional 30 minutes."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally. \n2. Once cooled, remove the crucible carefully using heat-resistant gloves. \n3. Allow the sample to cool in ambient conditions for an additional 30 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a belt sander to smooth any rough edges and achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, polish the surface with fine-grit sandpaper for a more refined finish.",
+        "4. Store the final sample in a dry, sealed container to prevent contamination."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n2. Use a belt sander to smooth any rough edges and achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n3. Optionally, polish the surface with fine-grit sandpaper for a more refined finish. \n4. Store the final sample in a dry, sealed container to prevent contamination."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2249951.0,
+      "density": 79934.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -981697.0,
+      "formation_energy_per_atom": -3403.0,
+      "decomposition_energy_per_atom": -293.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -231.0,
+      "decomposition_energy_mp": -293.0,
+      "decomposition_energy_mp_oqmd": -289.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3a73618e0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.786378Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Tc6Y4.json",
+      "material://Ga2Tc6Y4"
+    ]
+  }
+}

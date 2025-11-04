@@ -1,0 +1,116 @@
+{
+  "id": "Co1Mo4Ni4Si3",
+  "uri": "material://Co1Mo4Ni4Si3",
+  "composition": {
+    "formula": "Co1Mo4Ni4Si3",
+    "elements": {
+      "Co": 1,
+      "Mo": 4,
+      "Ni": 4,
+      "Si": 3
+    },
+    "reduced_formula": "CoSi3(NiMo)4",
+    "element_list": [
+      "Si",
+      "Co",
+      "Ni",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 12 g, Fe: 2 g, Ni: 6 g, P: 12 g, Y: 4 g, Total: 36 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Buy cobalt powder from a chemical supplier; Fe: Purchase iron powder from a metal supplier; Ni: Obtain nickel powder from a chemical supplier; P: Get phosphorus powder from a chemical supplier; Y: Order yttrium powder from a metal supplier.",
+      "steps": [
+        "Co: Buy cobalt powder from a chemical supplier; Fe: Purchase iron powder from a metal supplier; Ni: Obtain nickel powder from a chemical supplier; P: Get phosphorus powder from a chemical supplier; Y: Order yttrium powder from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each metal powder precisely using a digital scale.",
+        "2. In a clean, dry container, combine the cobalt, iron, nickel, phosphorus, and yttrium powders.",
+        "3. Use a spatula to thoroughly mix the powders until homogeneous.",
+        "4. Optionally, use a mortar and pestle for finer mixing."
+      ],
+      "raw_text": "1. Measure each metal powder precisely using a digital scale. \n 2. In a clean, dry container, combine the cobalt, iron, nickel, phosphorus, and yttrium powders. \n 3. Use a spatula to thoroughly mix the powders until homogeneous. \n 4. Optionally, use a mortar and pestle for finer mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min; maintain temperature for 2 hours to ensure proper alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a rate of 5°C/min; maintain temperature for 2 hours to ensure proper alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool naturally to room temperature, approximately 4-6 hours.",
+        "3. Ensure no external cooling methods are used to avoid cracking the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool naturally to room temperature, approximately 4-6 hours. \n 3. Ensure no external cooling methods are used to avoid cracking the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully to avoid damage.",
+        "2. Use fine-grit sandpaper to smooth the edges and surface of the sample.",
+        "3. Optionally, apply a sealant if required for environmental protection.",
+        "4. Store the finished sample in a dry place."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully to avoid damage. \n 2. Use fine-grit sandpaper to smooth the edges and surface of the sample. \n 3. Optionally, apply a sealant if required for environmental protection. \n 4. Store the finished sample in a dry place."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1486161.0,
+      "density": 8511.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -95042.0,
+      "formation_energy_per_atom": -4296.0,
+      "decomposition_energy_per_atom": -295.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -379.0,
+      "decomposition_energy_mp_oqmd": -351.0
+    },
+    "electronic": {
+      "bandgap": 0.0046,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af4c6ddae1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.946296Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Mo4Ni4Si3.json",
+      "material://Co1Mo4Ni4Si3"
+    ]
+  }
+}

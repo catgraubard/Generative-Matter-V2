@@ -1,0 +1,110 @@
+{
+  "id": "Ba8Fe3O16V1",
+  "uri": "material://Ba8Fe3O16V1",
+  "composition": {
+    "formula": "Ba8Fe3O16V1",
+    "elements": {
+      "Ba": 8,
+      "Fe": 3,
+      "O": 16,
+      "V": 1
+    },
+    "reduced_formula": "Ba8VFe3O16",
+    "element_list": [
+      "O",
+      "V",
+      "Fe",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Oxide (BaO): 18.4 g \n Iron(III) Oxide (Fe2O3): 9.3 g \n Vanadium(V) Oxide (V2O5): 2.9 g"
+    },
+    "sourcing": {
+      "instructions": "Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich). \n Iron(III) Oxide: Local hardware stores or online suppliers. \n Vanadium(V) Oxide: Chemical supply stores or online suppliers.",
+      "steps": [
+        "Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich).",
+        "Iron(III) Oxide: Local hardware stores or online suppliers.",
+        "Vanadium(V) Oxide: Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 18.4 g of Barium Oxide, 9.3 g of Iron(III) Oxide, and 2.9 g of Vanadium(V) Oxide using a digital scale.",
+        "2. In a clean, dry glass or ceramic bowl, combine the measured powders thoroughly using a spatula.",
+        "3. Ensure a homogeneous mixture by grinding the powders together using a mortar and pestle until a fine powder is achieved."
+      ],
+      "raw_text": "1. Measure out 18.4 g of Barium Oxide, 9.3 g of Iron(III) Oxide, and 2.9 g of Vanadium(V) Oxide using a digital scale. \n 2. In a clean, dry glass or ceramic bowl, combine the measured powders thoroughly using a spatula. \n 3. Ensure a homogeneous mixture by grinding the powders together using a mortar and pestle until a fine powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the blended powder mixture into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200 °C at a rate of 5 °C/min and hold at this temperature for 4 hours to promote reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the blended powder mixture into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200 °C at a rate of 5 °C/min and hold at this temperature for 4 hours to promote reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace after the 4-hour hold and allow the crucible to cool slowly to room temperature.",
+        "2. This should take approximately 6-8 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace after the 4-hour hold and allow the crucible to cool slowly to room temperature. \n 2. This should take approximately 6-8 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Check for any rough edges or imperfections.",
+        "3. If needed, sand the surface lightly with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Check for any rough edges or imperfections. \n 3. If needed, sand the surface lightly with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5067416.0,
+      "density": 51548.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2013954.0,
+      "formation_energy_per_atom": -25851.0,
+      "decomposition_energy_per_atom": -153.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -159.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 0.3378,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ef3bb4d263",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.571013Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba8Fe3O16V1.json",
+      "material://Ba8Fe3O16V1"
+    ]
+  }
+}

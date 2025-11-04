@@ -1,0 +1,138 @@
+{
+  "id": "Cu1Ga1Pb4Sn2Zr10",
+  "uri": "material://Cu1Ga1Pb4Sn2Zr10",
+  "composition": {
+    "formula": "Cu1Ga1Pb4Sn2Zr10",
+    "elements": {
+      "Cu": 1,
+      "Ga": 1,
+      "Pb": 4,
+      "Sn": 2,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10GaCu(SnPb2)2",
+    "element_list": [
+      "Cu",
+      "Ga",
+      "Zr",
+      "Sn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 2.5 g \n Ga: 2.5 g \n Pb: 10 g \n Sn: 4 g \n Zr: 25 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper wire or sheets from electronics supply stores. \n Ga: Gallium from chemical suppliers or online marketplaces. \n Pb: Lead from hardware stores as lead shot or sheets. \n Sn: Tin from solder or alloy suppliers. \n Zr: Zirconium from specialty metal suppliers.",
+      "steps": [
+        "Cu: Copper wire or sheets from electronics supply stores.",
+        "Ga: Gallium from chemical suppliers or online marketplaces.",
+        "Pb: Lead from hardware stores as lead shot or sheets.",
+        "Sn: Tin from solder or alloy suppliers.",
+        "Zr: Zirconium from specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Cu, Ga, Pb, Sn, and Zr thoroughly.",
+        "3. Use a mortar and pestle or ball mill to achieve a fine, homogeneous powder."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Cu, Ga, Pb, Sn, and Zr thoroughly. \n 3. Use a mortar and pestle or ball mill to achieve a fine, homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder to a suitable crucible.",
+        "2. Heat the crucible in a furnace to 800°C at a rate of 10°C per minute.",
+        "3. Maintain the temperature for 1 hour to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a suitable crucible. \n 2. Heat the crucible in a furnace to 800°C at a rate of 10°C per minute. \n 3. Maintain the temperature for 1 hour to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Remove the crucible from the furnace and place it on a heat-resistant surface.",
+        "2. Allow the sample to cool to room temperature naturally, avoiding rapid cooling methods such as water quenching. This should take approximately 2-3 hours."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and place it on a heat-resistant surface. \n 2. Allow the sample to cool to room temperature naturally, avoiding rapid cooling methods such as water quenching. This should take approximately 2-3 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder to achieve a smoother finish on the surfaces if necessary.",
+        "3. Seal the sample with a clear coat to prevent oxidation, ensuring it is fully dry before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a grinder to achieve a smoother finish on the surfaces if necessary. \n 3. Seal the sample with a clear coat to prevent oxidation, ensuring it is fully dry before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3982681.0,
+      "density": 88046.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1233416.0,
+      "formation_energy_per_atom": -4371.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -57.0
+    },
+    "electronic": {
+      "bandgap": 0.0072,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8924add424",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:15.507681Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Ga1Pb4Sn2Zr10.json",
+      "material://Cu1Ga1Pb4Sn2Zr10"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "Cs1Fe2Na7O6",
+  "uri": "material://Cs1Fe2Na7O6",
+  "composition": {
+    "formula": "Cs1Fe2Na7O6",
+    "elements": {
+      "Cs": 1,
+      "Fe": 2,
+      "Na": 7,
+      "O": 6
+    },
+    "reduced_formula": "CsNa7(FeO3)2",
+    "element_list": [
+      "O",
+      "Na",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g, Fe: 1.0 g, Na: 1.75 g, O: 2.25 g (total: 5.5 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Fe: Purchase from a local hardware store or chemical supplier; Na: Sourced from a chemical supplier; O: Generate from a chemical reaction (e.g., via decomposition of potassium chlorate).",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Fe: Purchase from a local hardware store or chemical supplier; Na: Sourced from a chemical supplier; O: Generate from a chemical reaction (e.g., via decomposition of potassium chlorate)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.5 g of cesium (Cs) using a precision balance.",
+        "2. Measure 1.0 g of iron (Fe) powder.",
+        "3. Weigh 1.75 g of sodium (Na) in a separate container.",
+        "4. Combine Cs, Fe, and Na in a clean, dry mixing bowl.",
+        "5. Gradually add 2.25 g of oxygen source (if using potassium chlorate, ensure it is finely powdered).",
+        "6. Stir the mixture thoroughly for 5 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh out 0.5 g of cesium (Cs) using a precision balance. \n 2. Measure 1.0 g of iron (Fe) powder. \n 3. Weigh 1.75 g of sodium (Na) in a separate container. \n 4. Combine Cs, Fe, and Na in a clean, dry mixing bowl. \n 5. Gradually add 2.25 g of oxygen source (if using potassium chlorate, ensure it is finely powdered). \n 6. Stir the mixture thoroughly for 5 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a furnace or muffle oven.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a furnace or muffle oven. \n 3. Heat to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature gradually.",
+        "2. Do not open the furnace until the temperature is below 100°C to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature gradually. \n 2. Do not open the furnace until the temperature is below 100°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and retrieve the solid sample.",
+        "2. Use a diamond file to smooth any rough edges on the sample.",
+        "3. Optionally, seal the sample with a clear epoxy resin to enhance durability.",
+        "4. Allow the epoxy to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and retrieve the solid sample. \n 2. Use a diamond file to smooth any rough edges on the sample. \n 3. Optionally, seal the sample with a clear epoxy resin to enhance durability. \n 4. Allow the epoxy to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2725646.0,
+      "density": 30554.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -812999.0,
+      "formation_energy_per_atom": -15324.0,
+      "decomposition_energy_per_atom": -46.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -49.0,
+      "decomposition_energy_mp_oqmd": -35.0
+    },
+    "electronic": {
+      "bandgap": 1.2252,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "731ec47f20",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.081513Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Fe2Na7O6.json",
+      "material://Cs1Fe2Na7O6"
+    ]
+  }
+}

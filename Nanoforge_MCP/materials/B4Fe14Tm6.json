@@ -1,0 +1,127 @@
+{
+  "id": "B4Fe14Tm6",
+  "uri": "material://B4Fe14Tm6",
+  "composition": {
+    "formula": "B4Fe14Tm6",
+    "elements": {
+      "B": 4,
+      "Fe": 14,
+      "Tm": 6
+    },
+    "reduced_formula": "Tm3Fe7B2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20.0 g \n Fe: 100.0 g \n Tm: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder can be sourced from chemical supply companies or online retailers. \n Fe: Iron powder can be obtained from metal suppliers or hardware stores. \n Tm: Thulium can be purchased from specialized metallurgical suppliers or online chemical vendors.",
+      "steps": [
+        "B: Boron powder can be sourced from chemical supply companies or online retailers.",
+        "Fe: Iron powder can be obtained from metal suppliers or hardware stores.",
+        "Tm: Thulium can be purchased from specialized metallurgical suppliers or online chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 20.0 g of boron powder using an analytical scale.",
+        "2. Measure 100.0 g of iron powder.",
+        "3. Measure 30.0 g of thulium powder.",
+        "4. In a clean, dry mixing container, combine the boron, iron, and thulium powders.",
+        "5. Use a spatula to mix the powders thoroughly to ensure uniform distribution.",
+        "6. For better mixing, consider using a mortar and pestle or a ball mill for about 10 minutes."
+      ],
+      "raw_text": "1. Measure 20.0 g of boron powder using an analytical scale. \n 2. Measure 100.0 g of iron powder. \n 3. Measure 30.0 g of thulium powder. \n 4. In a clean, dry mixing container, combine the boron, iron, and thulium powders. \n 5. Use a spatula to mix the powders thoroughly to ensure uniform distribution. \n 6. For better mixing, consider using a mortar and pestle or a ball mill for about 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 1,200 °C at a rate of 10 °C per minute.",
+        "4. Maintain the temperature of 1,200 °C for 2 hours to ensure complete reaction and formation of B4Fe14Tm6."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 1,200 °C at a rate of 10 °C per minute. \n 4. Maintain the temperature of 1,200 °C for 2 hours to ensure complete reaction and formation of B4Fe14Tm6."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. This slow cooling process should take about 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. This slow cooling process should take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, sand the surfaces with 200-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, sand the surfaces with 200-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 323903.0,
+      "density": 94263.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1789622.0,
+      "formation_energy_per_atom": -2837.0,
+      "decomposition_energy_per_atom": -149.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -74.0,
+      "decomposition_energy_mp": -148.0,
+      "decomposition_energy_mp_oqmd": -74.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "833d70d89e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:07.802067Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Fe14Tm6.json",
+      "material://B4Fe14Tm6"
+    ]
+  }
+}

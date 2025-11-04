@@ -1,0 +1,131 @@
+{
+  "id": "B2Fe6Sc2Si2",
+  "uri": "material://B2Fe6Sc2Si2",
+  "composition": {
+    "formula": "B2Fe6Sc2Si2",
+    "elements": {
+      "B": 2,
+      "Fe": 6,
+      "Sc": 2,
+      "Si": 2
+    },
+    "reduced_formula": "ScFe3SiB",
+    "element_list": [
+      "B",
+      "Si",
+      "Sc",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 1.50 g\nFe: 24.00 g\nSc: 0.50 g\nSi: 5.00 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder): Available at chemical supply stores or online. \n Fe (Iron powder): Obtain from metal suppliers or online. \n Sc (Scandium oxide): Purchase from specialized chemical suppliers. \n Si (Silicon powder): Found at chemical supply stores or online.",
+      "steps": [
+        "B (Boron powder): Available at chemical supply stores or online.",
+        "Fe (Iron powder): Obtain from metal suppliers or online.",
+        "Sc (Scandium oxide): Purchase from specialized chemical suppliers.",
+        "Si (Silicon powder): Found at chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, add the boron powder first.",
+        "3. Gradually add the iron powder while stirring continuously to ensure even distribution.",
+        "4. Add the scandium oxide next, mixing thoroughly.",
+        "5. Finally, incorporate the silicon powder, ensuring a homogenous mixture."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance.\n2. In a clean, dry mixing container, add the boron powder first.\n3. Gradually add the iron powder while stirring continuously to ensure even distribution.\n4. Add the scandium oxide next, mixing thoroughly.\n5. Finally, incorporate the silicon powder, ensuring a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible or suitable container.",
+        "2. Heat the mixture in a furnace to 1200°C (2192°F) for 4 hours to facilitate reaction and fusion."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible or suitable container.\n2. Heat the mixture in a furnace to 1200°C (2192°F) for 4 hours to facilitate reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool gradually to room temperature (approximately 2-4 hours).",
+        "2. Ensure the furnace door remains closed during cooling to avoid rapid temperature changes."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool gradually to room temperature (approximately 2-4 hours).\n2. Ensure the furnace door remains closed during cooling to avoid rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a belt sander or grinding wheel to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, apply a sealant to enhance surface durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. Use a belt sander or grinding wheel to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Optionally, apply a sealant to enhance surface durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1439014.0,
+      "density": 58017.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -937069.0,
+      "formation_energy_per_atom": -501.0,
+      "decomposition_energy_per_atom": -114.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -25.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -25.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "09310087ae",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:27.304946Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Fe6Sc2Si2.json",
+      "material://B2Fe6Sc2Si2"
+    ]
+  }
+}

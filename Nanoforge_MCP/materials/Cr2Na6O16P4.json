@@ -1,0 +1,113 @@
+{
+  "id": "Cr2Na6O16P4",
+  "uri": "material://Cr2Na6O16P4",
+  "composition": {
+    "formula": "Cr2Na6O16P4",
+    "elements": {
+      "Cr": 2,
+      "Na": 6,
+      "O": 16,
+      "P": 4
+    },
+    "reduced_formula": "Na3Cr(PO4)2",
+    "element_list": [
+      "O",
+      "Na",
+      "P",
+      "Cr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 10 g, Na: 12 g, O: 32 g, P: 8 g (total: 62 g)"
+    },
+    "sourcing": {
+      "instructions": "Chromium (Cr) powder: Chemical supply stores; Sodium (Na): Chemical supply stores; Oxygen (O): Not necessary as it is from the atmosphere; Phosphorus (P): Chemical supply stores.",
+      "steps": [
+        "Chromium (Cr) powder: Chemical supply stores; Sodium (Na): Chemical supply stores; Oxygen (O): Not necessary as it is from the atmosphere; Phosphorus (P): Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10 g of Chromium powder.",
+        "2. Weigh 12 g of Sodium powder.",
+        "3. Weigh 8 g of Phosphorus powder.",
+        "4. In a clean, dry container, combine the powders thoroughly using a spatula to achieve a uniform mixture."
+      ],
+      "raw_text": "1. Weigh 10 g of Chromium powder. \n 2. Weigh 12 g of Sodium powder. \n 3. Weigh 8 g of Phosphorus powder. \n 4. In a clean, dry container, combine the powders thoroughly using a spatula to achieve a uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a muffle furnace at 800°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a muffle furnace at 800°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool naturally for 4 hours inside the furnace.",
+        "2. Once cooled, remove the crucible and allow the material to cool to room temperature (approximately 1 hour)."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool naturally for 4 hours inside the furnace. \n 2. Once cooled, remove the crucible and allow the material to cool to room temperature (approximately 1 hour)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the edges to remove any sharp points.",
+        "3. Seal the material using a suitable epoxy resin to enhance durability.",
+        "4. Allow the epoxy to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Sand the edges to remove any sharp points. \n 3. Seal the material using a suitable epoxy resin to enhance durability. \n 4. Allow the epoxy to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3262497.0,
+      "density": 31649.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2009762.0,
+      "formation_energy_per_atom": -26041.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -75.0,
+      "decomposition_energy_mp": -81.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": 2.9625,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "405e95bfd6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:40.022549Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2Na6O16P4.json",
+      "material://Cr2Na6O16P4"
+    ]
+  }
+}

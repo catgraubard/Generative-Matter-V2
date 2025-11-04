@@ -1,0 +1,113 @@
+{
+  "id": "Co16Cr2Na2Nb4P12",
+  "uri": "material://Co16Cr2Na2Nb4P12",
+  "composition": {
+    "formula": "Co16Cr2Na2Nb4P12",
+    "elements": {
+      "Co": 16,
+      "Cr": 2,
+      "Na": 2,
+      "Nb": 4,
+      "P": 12
+    },
+    "reduced_formula": "NaNb2Cr(Co4P3)2",
+    "element_list": [
+      "Na",
+      "P",
+      "Cr",
+      "Co",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 32.0 g, Cr: 4.0 g, Na: 2.0 g, Nb: 8.0 g, P: 48.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online metal retailers; Cr: Metal suppliers or online chemical suppliers; Na: Chemical suppliers; Nb: Metal suppliers; P: Chemical suppliers",
+      "steps": [
+        "Co: Metal suppliers or online metal retailers; Cr: Metal suppliers or online chemical suppliers; Na: Chemical suppliers; Nb: Metal suppliers; P: Chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a high-precision scale.",
+        "2. In a clean, dry container, combine Co, Cr, Na, Nb, and P evenly.",
+        "3. Use a mortar and pestle to grind the solid mixture into a fine powder, ensuring homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a high-precision scale. \n 2. In a clean, dry container, combine Co, Cr, Na, Nb, and P evenly. \n 3. Use a mortar and pestle to grind the solid mixture into a fine powder, ensuring homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace to 1200 °C for 2 hours to ensure proper sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace to 1200 °C for 2 hours to ensure proper sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and let the crucible cool naturally to room temperature, approximately 4-6 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and let the crucible cool naturally to room temperature, approximately 4-6 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder or sandpaper to smooth out any rough edges.",
+        "3. Optionally, seal with a protective coating if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a grinder or sandpaper to smooth out any rough edges. \n 3. Optionally, seal with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4391736.0,
+      "density": 69428.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2658861.0,
+      "formation_energy_per_atom": -6899.0,
+      "decomposition_energy_per_atom": -391.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -72.0,
+      "decomposition_energy_mp": -391.0,
+      "decomposition_energy_mp_oqmd": -279.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1dde7e1e2d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:54.727024Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Cr2Na2Nb4P12.json",
+      "material://Co16Cr2Na2Nb4P12"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Co2Cu2O14Sr9Zn2",
+  "uri": "material://Co2Cu2O14Sr9Zn2",
+  "composition": {
+    "formula": "Co2Cu2O14Sr9Zn2",
+    "elements": {
+      "Co": 2,
+      "Cu": 2,
+      "O": 14,
+      "Sr": 9,
+      "Zn": 2
+    },
+    "reduced_formula": "Sr9Zn2Co2(CuO7)2",
+    "element_list": [
+      "O",
+      "Co",
+      "Cu",
+      "Zn",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CoO: 15.00 g \n - CuO: 30.00 g \n - SrO: 12.00 g \n - ZnO: 6.00 g \n - Distilled water: 50.00 g (for slurry)"
+    },
+    "sourcing": {
+      "instructions": "- CoO: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n - CuO: Chemical supply stores or online suppliers (e.g., Alfa Aesar) \n - SrO: Specialty chemical suppliers or online suppliers \n - ZnO: Chemical supply stores or online suppliers (e.g., Fisher Scientific) \n - Distilled water: Grocery stores or pharmacies",
+      "steps": [
+        "- CoO: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "- CuO: Chemical supply stores or online suppliers (e.g., Alfa Aesar)",
+        "- SrO: Specialty chemical suppliers or online suppliers",
+        "- ZnO: Chemical supply stores or online suppliers (e.g., Fisher Scientific)",
+        "- Distilled water: Grocery stores or pharmacies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, weigh out 15.00 g of CoO.",
+        "2. Add 30.00 g of CuO to the container.",
+        "3. Weigh and add 12.00 g of SrO.",
+        "4. Add 6.00 g of ZnO to the mixture.",
+        "5. Gradually add 50.00 g of distilled water while stirring to form a slurry. Ensure all powders are fully wetted.",
+        "6. Mix thoroughly for 10 minutes until a homogeneous paste is formed."
+      ],
+      "raw_text": "1. In a clean, dry container, weigh out 15.00 g of CoO. \n 2. Add 30.00 g of CuO to the container. \n 3. Weigh and add 12.00 g of SrO. \n 4. Add 6.00 g of ZnO to the mixture. \n 5. Gradually add 50.00 g of distilled water while stirring to form a slurry. Ensure all powders are fully wetted. \n 6. Mix thoroughly for 10 minutes until a homogeneous paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the slurry into a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat to 800°C (1472°F).",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification of the material."
+      ],
+      "raw_text": "1. Transfer the slurry into a ceramic crucible. \n 2. Place the crucible in a furnace and heat to 800°C (1472°F). \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock. This process may take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock. This process may take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or uneven surfaces.",
+        "3. If necessary, use sandpaper (grit 400 and then 800) to smooth the surfaces.",
+        "4. Optionally, apply a clear sealant for added protection against moisture. Allow the sealant to cure according to manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any rough edges or uneven surfaces. \n 3. If necessary, use sandpaper (grit 400 and then 800) to smooth the surfaces. \n 4. Optionally, apply a clear sealant for added protection against moisture. Allow the sealant to cure according to manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 4604844.0,
+      "density": 50065.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1796781.0,
+      "formation_energy_per_atom": -2423.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -45.0,
+      "decomposition_energy_mp_oqmd": -35.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2e56bdf118",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:16.438825Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Cu2O14Sr9Zn2.json",
+      "material://Co2Cu2O14Sr9Zn2"
+    ]
+  }
+}

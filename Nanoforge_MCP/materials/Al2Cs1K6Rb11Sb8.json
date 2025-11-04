@@ -1,0 +1,110 @@
+{
+  "id": "Al2Cs1K6Rb11Sb8",
+  "uri": "material://Al2Cs1K6Rb11Sb8",
+  "composition": {
+    "formula": "Al2Cs1K6Rb11Sb8",
+    "elements": {
+      "Al": 2,
+      "Cs": 1,
+      "K": 6,
+      "Rb": 11,
+      "Sb": 8
+    },
+    "reduced_formula": "CsK6Rb11(AlSb4)2",
+    "element_list": [
+      "Al",
+      "K",
+      "Rb",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Lanthanum Oxide (La2O3): 206.49 g \n - Ruthenium (Ru): 72.44 g \n - Oxygen (O2): 192.00 g (from the air)"
+    },
+    "sourcing": {
+      "instructions": "- Lanthanum Oxide: Purchase from chemical supply companies or online platforms like Sigma-Aldrich. \n - Ruthenium: Obtain from chemical suppliers or precious metal retailers. \n - Oxygen: Obtain from compressed gas suppliers, or use ambient air for the reaction.",
+      "steps": [
+        "- Lanthanum Oxide: Purchase from chemical supply companies or online platforms like Sigma-Aldrich.",
+        "- Ruthenium: Obtain from chemical suppliers or precious metal retailers.",
+        "- Oxygen: Obtain from compressed gas suppliers, or use ambient air for the reaction."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 206.49 g of Lanthanum Oxide and 72.44 g of Ruthenium.",
+        "2. In a clean, dry mixing container, combine the Lanthanum Oxide and Ruthenium powders thoroughly using a mortar and pestle.",
+        "3. Ensure a homogenous mixture to facilitate even heating and reaction."
+      ],
+      "raw_text": "1. Weigh 206.49 g of Lanthanum Oxide and 72.44 g of Ruthenium. \n 2. In a clean, dry mixing container, combine the Lanthanum Oxide and Ruthenium powders thoroughly using a mortar and pestle. \n 3. Ensure a homogenous mixture to facilitate even heating and reaction."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture into a high-temperature ceramic crucible.",
+        "2. Place the crucible in a furnace preheated to 1200°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La8O24Ru4."
+      ],
+      "raw_text": "1. Transfer the mixture into a high-temperature ceramic crucible. \n 2. Place the crucible in a furnace preheated to 1200°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of La8O24Ru4."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approx. 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approx. 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible, checking for any irregularities.",
+        "2. If necessary, grind the sample to achieve a smoother finish using a fine-grit sandpaper or grinder.",
+        "3. Seal the sample with a protective coating if required to prevent oxidation or degradation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible, checking for any irregularities. \n 2. If necessary, grind the sample to achieve a smoother finish using a fine-grit sandpaper or grinder. \n 3. Seal the sample with a protective coating if required to prevent oxidation or degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11795754.0,
+      "density": 3288.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -71927.0,
+      "formation_energy_per_atom": -4664.0,
+      "decomposition_energy_per_atom": -154.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -154.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 0.4449,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cbaee21a34",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.239190Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Cs1K6Rb11Sb8.json",
+      "material://Al2Cs1K6Rb11Sb8"
+    ]
+  }
+}

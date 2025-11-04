@@ -1,0 +1,130 @@
+{
+  "id": "Al1Te1V6",
+  "uri": "material://Al1Te1V6",
+  "composition": {
+    "formula": "Al1Te1V6",
+    "elements": {
+      "Al": 1,
+      "Te": 1,
+      "V": 6
+    },
+    "reduced_formula": "AlV6Te",
+    "element_list": [
+      "Al",
+      "V",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 36.00 g \n Er: 8.00 g \n Ge: 4.00 g \n Si: 18.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Obtain from a chemical supply store or online supplier. \n Er (Erbium): Purchase from a rare earth element supplier. \n Ge (Germanium): Available from electronic component suppliers. \n Si (Silicon): Can be found at hardware stores or chemical suppliers.",
+      "steps": [
+        "Co (Cobalt): Obtain from a chemical supply store or online supplier.",
+        "Er (Erbium): Purchase from a rare earth element supplier.",
+        "Ge (Germanium): Available from electronic component suppliers.",
+        "Si (Silicon): Can be found at hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Er, Ge, and Si in the specified amounts.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture into a mortar and grind it gently to ensure a homogeneous texture."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Co, Er, Ge, and Si in the specified amounts. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture into a mortar and grind it gently to ensure a homogeneous texture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder into a crucible and insert it into the furnace.",
+        "3. Heat the mixture for 2 hours to promote sintering and achieve a solid form."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder into a crucible and insert it into the furnace. \n 3. Heat the mixture for 2 hours to promote sintering and achieve a solid form."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until it reaches room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until it reaches room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges or surfaces as needed.",
+        "3. Clean the sample with a soft cloth to remove dust and debris.",
+        "4. Optionally, apply a sealant to enhance the material's durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper to smooth any rough edges or surfaces as needed. \n 3. Clean the sample with a soft cloth to remove dust and debris. \n 4. Optionally, apply a sealant to enhance the material's durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1154062.0,
+      "density": 66221.0,
+      "crystal_system": "cubic",
+      "space_group": "Pm-3",
+      "space_group_number": 200,
+      "point_group": "m-3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -631436.0,
+      "formation_energy_per_atom": -2189.0,
+      "decomposition_energy_per_atom": -133.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -74.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3d247d176",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.819240Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Te1V6.json",
+      "material://Al1Te1V6"
+    ]
+  }
+}

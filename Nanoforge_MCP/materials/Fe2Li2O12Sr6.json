@@ -1,0 +1,114 @@
+{
+  "id": "Fe2Li2O12Sr6",
+  "uri": "material://Fe2Li2O12Sr6",
+  "composition": {
+    "formula": "Fe2Li2O12Sr6",
+    "elements": {
+      "Fe": 2,
+      "Li": 2,
+      "O": 12,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr3LiFeO6",
+    "element_list": [
+      "Li",
+      "O",
+      "Fe",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "**Ingredient**:  Fe2Li2O12Sr6 \n **Iron (Fe)**:  2.24 g \n **Lithium (Li)**:  0.45 g \n **Oxygen (O)**:  1.92 g \n **Strontium (Sr)**:  6.00 g \n **Total Weight**:  10.61 g (this is a theoretical example, adjust according to real densities and desired volume)"
+    },
+    "sourcing": {
+      "instructions": "**Iron (Fe)**: Obtain from a chemical supplier or hardware store. Look for iron powder. \n **Lithium (Li)**: Available through chemical supply companies; ensure it is in a safe, usable form. \n **Oxygen (O)**: Usually sourced from air; alternatively, use a compound that contains oxygen (like oxides). \n **Strontium (Sr)**: Chemical supply companies or specialized metal suppliers.",
+      "steps": [
+        "**Iron (Fe)**: Obtain from a chemical supplier or hardware store. Look for iron powder.",
+        "**Lithium (Li)**: Available through chemical supply companies; ensure it is in a safe, usable form.",
+        "**Oxygen (O)**: Usually sourced from air; alternatively, use a compound that contains oxygen (like oxides).",
+        "**Strontium (Sr)**: Chemical supply companies or specialized metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 2.24 g of iron powder using a precision scale.",
+        "2. Measure 0.45 g of lithium using the same scale.",
+        "3. Measure 1.92 g of oxygen source (if using an oxide, calculate from the compound).",
+        "4. Measure 6.00 g of strontium.",
+        "5. Combine all measured powders in a clean, dry mixing container.",
+        "6. Use a spatula to thoroughly mix the powders for 5-10 minutes."
+      ],
+      "raw_text": "1. Measure 2.24 g of iron powder using a precision scale. \n 2. Measure 0.45 g of lithium using the same scale. \n 3. Measure 1.92 g of oxygen source (if using an oxide, calculate from the compound). \n 4. Measure 6.00 g of strontium. \n 5. Combine all measured powders in a clean, dry mixing container. \n 6. Use a spatula to thoroughly mix the powders for 5-10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C (1472°F) at a rate of 10°C per minute.",
+        "4. Maintain this temperature for a duration of 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C (1472°F) at a rate of 10°C per minute. \n 4. Maintain this temperature for a duration of 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).",
+        "2. Do not open the furnace until it reaches below 200°C to avoid oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours). \n 2. Do not open the furnace until it reaches below 200°C to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120) to smooth the surface of the sample.",
+        "3. Optionally, apply a sealant to protect the surface if needed.",
+        "4. Store the finished sample in a dry, temperature-controlled environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120) to smooth the surface of the sample. \n 3. Optionally, apply a sealant to protect the surface if needed. \n 4. Store the finished sample in a dry, temperature-controlled environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2941741.0,
+      "density": 47601.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1446977.0,
+      "formation_energy_per_atom": -2474.0,
+      "decomposition_energy_per_atom": -107.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -134.0,
+      "decomposition_energy_mp_oqmd": -41.0
+    },
+    "electronic": {
+      "bandgap": 0.7917,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0371dd2787",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:19.289965Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Li2O12Sr6.json",
+      "material://Fe2Li2O12Sr6"
+    ]
+  }
+}

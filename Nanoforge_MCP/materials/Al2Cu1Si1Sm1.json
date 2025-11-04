@@ -1,0 +1,111 @@
+{
+  "id": "Al2Cu1Si1Sm1",
+  "uri": "material://Al2Cu1Si1Sm1",
+  "composition": {
+    "formula": "Al2Cu1Si1Sm1",
+    "elements": {
+      "Al": 2,
+      "Cu": 1,
+      "Si": 1,
+      "Sm": 1
+    },
+    "reduced_formula": "SmAl2CuSi",
+    "element_list": [
+      "Al",
+      "Si",
+      "Cu",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Niobium (Nb): 12.0 g  \n - Selenium (Se): 54.0 g  \n - Zirconium (Zr): 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Niobium: Obtain from a chemical supply store or online supplier specializing in metals.\n - Selenium: Purchase from a chemical supply company or online marketplace.\n - Zirconium: Source from a specialized metal supplier or online chemical store.",
+      "steps": [
+        "- Niobium: Obtain from a chemical supply store or online supplier specializing in metals.",
+        "- Selenium: Purchase from a chemical supply company or online marketplace.",
+        "- Zirconium: Source from a specialized metal supplier or online chemical store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12.0 g of Niobium powder using a precise scale.",
+        "2. Weigh out 54.0 g of Selenium powder.",
+        "3. Weigh out 12.0 g of Zirconium powder.",
+        "4. In a clean, dry container, carefully mix the Nb, Se, and Zr powders using a spatula until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 12.0 g of Niobium powder using a precise scale. \n 2. Weigh out 54.0 g of Selenium powder. \n 3. Weigh out 12.0 g of Zirconium powder. \n 4. In a clean, dry container, carefully mix the Nb, Se, and Zr powders using a spatula until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800 °C (1472 °F) at a rate of 10 °C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and formation of Nb2Se18Zr2."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 800 °C (1472 °F) at a rate of 10 °C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and formation of Nb2Se18Zr2."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure the crucible remains closed during the cooling process to prevent contamination."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure the crucible remains closed during the cooling process to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or surface roughness.",
+        "3. If necessary, use fine-grit sandpaper to smooth out the edges and surfaces.",
+        "4. Optionally, seal the sample with a clear epoxy resin for enhanced durability and protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or surface roughness. \n 3. If necessary, use fine-grit sandpaper to smooth out the edges and surfaces. \n 4. Optionally, seal the sample with a clear epoxy resin for enhanced durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 891453.0,
+      "density": 55128.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -241979.0,
+      "formation_energy_per_atom": -4927.0,
+      "decomposition_energy_per_atom": -92.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": 0.0411,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c617cb5973",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.908668Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Cu1Si1Sm1.json",
+      "material://Al2Cu1Si1Sm1"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "Co4Er5Hg2Mg2Tm11",
+  "uri": "material://Co4Er5Hg2Mg2Tm11",
+  "composition": {
+    "formula": "Co4Er5Hg2Mg2Tm11",
+    "elements": {
+      "Co": 4,
+      "Er": 5,
+      "Hg": 2,
+      "Mg": 2,
+      "Tm": 11
+    },
+    "reduced_formula": "Er5Tm11Mg2(Co2Hg)2",
+    "element_list": [
+      "Mg",
+      "Co",
+      "Er",
+      "Tm",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 44.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 44.4 g, Si: 9.2 g, W: 1.0 g, Zr: 9.3 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: supplier specializing in rare metals; Si: chemical supply store; W: metal supplier; Zr: specialized metal vendor",
+      "steps": [
+        "Nb: supplier specializing in rare metals; Si: chemical supply store; W: metal supplier; Zr: specialized metal vendor"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "steps": [
+        "1. Preheat the furnace to 1500 °C."
+      ],
+      "raw_text": "1. Preheat the furnace to 1500 °C."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the sample to cool gradually inside the furnace for 4 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the sample to cool gradually inside the furnace for 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any surface imperfections."
+      ],
+      "raw_text": "1. Inspect the solid sample for any surface imperfections."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5865129.0,
+      "density": 95697.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1101139.0,
+      "formation_energy_per_atom": -2417.0,
+      "decomposition_energy_per_atom": -225.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -225.0,
+      "decomposition_energy_mp_oqmd": -128.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e86c6fe9ce",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.913025Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Er5Hg2Mg2Tm11.json",
+      "material://Co4Er5Hg2Mg2Tm11"
+    ]
+  }
+}

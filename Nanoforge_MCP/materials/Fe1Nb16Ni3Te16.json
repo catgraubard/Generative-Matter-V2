@@ -1,0 +1,114 @@
+{
+  "id": "Fe1Nb16Ni3Te16",
+  "uri": "material://Fe1Nb16Ni3Te16",
+  "composition": {
+    "formula": "Fe1Nb16Ni3Te16",
+    "elements": {
+      "Fe": 1,
+      "Nb": 16,
+      "Ni": 3,
+      "Te": 16
+    },
+    "reduced_formula": "Nb16FeNi3Te16",
+    "element_list": [
+      "Fe",
+      "Ni",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 40.0 g, Mn: 32.0 g, Nd: 8.0 g, Pr: 8.0 g, O: 40.0 g (total: 128.0 g for solid sample)"
+    },
+    "sourcing": {
+      "instructions": "Cu: metallic copper from a hardware store, Mn: manganese powder from a chemical supplier, Nd: neodymium oxide from a rare earth supplier, Pr: praseodymium oxide from a rare earth supplier, O: oxygen from air (no additional sourcing required)",
+      "steps": [
+        "Cu: metallic copper from a hardware store, Mn: manganese powder from a chemical supplier, Nd: neodymium oxide from a rare earth supplier, Pr: praseodymium oxide from a rare earth supplier, O: oxygen from air (no additional sourcing required)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean ceramic or glass container, add Cu, Mn, Nd, and Pr in the specified amounts.",
+        "3. Gradually add O (as a gas or in a controlled environment) while stirring the mixture vigorously with a non-reactive stirrer.",
+        "4. Ensure a homogeneous blend with no visible lumps."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean ceramic or glass container, add Cu, Mn, Nd, and Pr in the specified amounts. \n 3. Gradually add O (as a gas or in a controlled environment) while stirring the mixture vigorously with a non-reactive stirrer. \n 4. Ensure a homogeneous blend with no visible lumps."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature furnace.",
+        "2. Set the furnace to 1200°C.",
+        "3. Heat the mixture for 4 hours to ensure full reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature furnace. \n 2. Set the furnace to 1200°C. \n 3. Heat the mixture for 4 hours to ensure full reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C).",
+        "2. This process should take about 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C). \n 2. This process should take about 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a diamond saw to cut the sample to desired dimensions if necessary.",
+        "3. Sand any rough edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a diamond saw to cut the sample to desired dimensions if necessary. \n 3. Sand any rough edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10293323.0,
+      "density": 60657.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "1D"
+    },
+    "energetics": {
+      "corrected_energy": -2599839.0,
+      "formation_energy_per_atom": -6183.0,
+      "decomposition_energy_per_atom": -171.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -23.0,
+      "decomposition_energy_mp": -162.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "adbe7d5693",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:07.849874Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Nb16Ni3Te16.json",
+      "material://Fe1Nb16Ni3Te16"
+    ]
+  }
+}

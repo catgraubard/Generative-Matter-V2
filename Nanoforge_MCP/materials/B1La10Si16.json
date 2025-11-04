@@ -1,0 +1,110 @@
+{
+  "id": "B1La10Si16",
+  "uri": "material://B1La10Si16",
+  "composition": {
+    "formula": "B1La10Si16",
+    "elements": {
+      "B": 1,
+      "La": 10,
+      "Si": 16
+    },
+    "reduced_formula": "La10Si16B",
+    "element_list": [
+      "B",
+      "Si",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 50 g, La: 100 g, Si: 160 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store; La: Rare earth metals supplier; Si: Electronics parts supplier.",
+      "steps": [
+        "B: Chemical supply store; La: Rare earth metals supplier; Si: Electronics parts supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 50 g of B, 100 g of La, and 160 g of Si.",
+        "2. In a clean, dry container, combine the B and La powders.",
+        "3. Gradually add Si powder to the mixture while stirring continuously to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh out 50 g of B, 100 g of La, and 160 g of Si. \n 2. In a clean, dry container, combine the B and La powders. \n 3. Gradually add Si powder to the mixture while stirring continuously to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixture in a crucible and insert it into the furnace.",
+        "3. Heat for 2 hours to allow for complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixture in a crucible and insert it into the furnace. \n 3. Heat for 2 hours to allow for complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 3-4 hours).",
+        "2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 3-4 hours). \n 2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Allow the solid sample to sit for an additional 24 hours at room temperature to stabilize.",
+        "2. If necessary, sand the edges for a smooth finish.",
+        "3. Optionally, apply a sealing coat to enhance surface durability."
+      ],
+      "raw_text": "1. Allow the solid sample to sit for an additional 24 hours at room temperature to stabilize. \n 2. If necessary, sand the edges for a smooth finish. \n 3. Optionally, apply a sealing coat to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 27,
+      "volume": 594413.0,
+      "density": 5166.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1608997.0,
+      "formation_energy_per_atom": -6687.0,
+      "decomposition_energy_per_atom": -294.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -111.0,
+      "decomposition_energy_mp": -273.0,
+      "decomposition_energy_mp_oqmd": -25.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ee19dae73e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.317273Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B1La10Si16.json",
+      "material://B1La10Si16"
+    ]
+  }
+}

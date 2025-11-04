@@ -1,0 +1,116 @@
+{
+  "id": "Ag2Li2Rb4Te8Ti2",
+  "uri": "material://Ag2Li2Rb4Te8Ti2",
+  "composition": {
+    "formula": "Ag2Li2Rb4Te8Ti2",
+    "elements": {
+      "Ag": 2,
+      "Li": 2,
+      "Rb": 4,
+      "Te": 8,
+      "Ti": 2
+    },
+    "reduced_formula": "Rb2LiTiAgTe4",
+    "element_list": [
+      "Li",
+      "Ti",
+      "Rb",
+      "Ag",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 12.0 g, Er: 60.0 g, In: 25.0 g, Ru: 10.0 g, Y: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Chemical suppliers (e.g., Sigma-Aldrich), Er: Rare earth metal suppliers, In: Electronics component suppliers, Ru: Precious metal suppliers, Y: Rare earth metal suppliers",
+      "steps": [
+        "Cd: Chemical suppliers (e.g., Sigma-Aldrich), Er: Rare earth metal suppliers, In: Electronics component suppliers, Ru: Precious metal suppliers, Y: Rare earth metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. Combine Cd, Er, In, Ru, and Y in a clean, dry glass container.",
+        "3. Stir the mixture thoroughly with a ceramic spatula to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance. \n 2. Combine Cd, Er, In, Ru, and Y in a clean, dry glass container. \n 3. Stir the mixture thoroughly with a ceramic spatula to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the crucible to 1200°C at a rate of 10°C/min and hold for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the crucible to 1200°C at a rate of 10°C/min and hold for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Ensure the crucible is not disturbed during the cooling process (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Ensure the crucible is not disturbed during the cooling process (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible using appropriate safety equipment.",
+        "2. Inspect the sample for uniformity and structural integrity.",
+        "3. If necessary, grind the sample lightly with a mortar and pestle to achieve a smoother finish.",
+        "4. Seal the material with a suitable protective coating if required for stability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible using appropriate safety equipment. \n 2. Inspect the sample for uniformity and structural integrity. \n 3. If necessary, grind the sample lightly with a mortar and pestle to achieve a smoother finish. \n 4. Seal the material with a suitable protective coating if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 6416805.0,
+      "density": 43683.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pccm",
+      "space_group_number": 49,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -729848.0,
+      "formation_energy_per_atom": -10357.0,
+      "decomposition_energy_per_atom": -808.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -93.0,
+      "decomposition_energy_mp": -791.0,
+      "decomposition_energy_mp_oqmd": -439.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d140aced46",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.515283Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag2Li2Rb4Te8Ti2.json",
+      "material://Ag2Li2Rb4Te8Ti2"
+    ]
+  }
+}

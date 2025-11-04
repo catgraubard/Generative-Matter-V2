@@ -1,0 +1,109 @@
+{
+  "id": "Al2Be3Fe1",
+  "uri": "material://Al2Be3Fe1",
+  "composition": {
+    "formula": "Al2Be3Fe1",
+    "elements": {
+      "Al": 2,
+      "Be": 3,
+      "Fe": 1
+    },
+    "reduced_formula": "Be3Al2Fe",
+    "element_list": [
+      "Be",
+      "Al",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium Oxide (Er2O3): 20.0 g  \n - Phosphorus (P): 10.0 g  \n - Lead (Pb): 45.0 g  \n - Lead(II) Oxide (PbO): 5.0 g  \n - Lead(II) Carbonate (PbCO3): 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium Oxide: Available from chemical supply companies or online marketplaces specializing in rare earth materials.  \n - Phosphorus: Can be sourced from chemical suppliers or laboratory supply stores.  \n - Lead: Obtain from metal suppliers or scrap yards, ensuring purity for safety.  \n - Lead(II) Oxide: Available from chemical supply companies or online.  \n - Lead(II) Carbonate: Obtainable from chemical suppliers or through specialized online sources.",
+      "steps": [
+        "- Erbium Oxide: Available from chemical supply companies or online marketplaces specializing in rare earth materials.",
+        "- Phosphorus: Can be sourced from chemical suppliers or laboratory supply stores.",
+        "- Lead: Obtain from metal suppliers or scrap yards, ensuring purity for safety.",
+        "- Lead(II) Oxide: Available from chemical supply companies or online.",
+        "- Lead(II) Carbonate: Obtainable from chemical suppliers or through specialized online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for precision.",
+        "2. In a clean, dry mixing container, combine 20.0 g of Erbium Oxide, 10.0 g of Phosphorus, 45.0 g of Lead, 5.0 g of Lead(II) Oxide, and 10.0 g of Lead(II) Carbonate.",
+        "3. Mix thoroughly using a spatula or mechanical mixer until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for precision.  \n 2. In a clean, dry mixing container, combine 20.0 g of Erbium Oxide, 10.0 g of Phosphorus, 45.0 g of Lead, 5.0 g of Lead(II) Oxide, and 10.0 g of Lead(II) Carbonate.  \n 3. Mix thoroughly using a spatula or mechanical mixer until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat in a muffle furnace to a temperature of 800°C (1472°F).",
+        "3. Maintain this temperature for a duration of 2 hours to ensure complete reaction and fusion of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible.  \n 2. Heat in a muffle furnace to a temperature of 800°C (1472°F).  \n 3. Maintain this temperature for a duration of 2 hours to ensure complete reaction and fusion of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) without opening the door.",
+        "2. This cooling process should take about 4-6 hours for gradual temperature reduction."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) without opening the door.  \n 2. This cooling process should take about 4-6 hours for gradual temperature reduction."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully take out the solidified material.",
+        "2. Inspect for any imperfections or excess roughness; if necessary, use a diamond file or sandpaper to smooth the surfaces.",
+        "3. If required, seal the surface with a clear epoxy resin for added protection and gloss.",
+        "4. Allow the resin to cure according to the manufacturer's instructions, typically 24-48 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully take out the solidified material.  \n 2. Inspect for any imperfections or excess roughness; if necessary, use a diamond file or sandpaper to smooth the surfaces.  \n 3. If required, seal the surface with a clear epoxy resin for added protection and gloss.  \n 4. Allow the resin to cure according to the manufacturer's instructions, typically 24-48 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 630726.0,
+      "density": 36028.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -287212.0,
+      "formation_energy_per_atom": -257.0,
+      "decomposition_energy_per_atom": -215.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -215.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 0.0133,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "de15bcdba5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.251448Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Be3Fe1.json",
+      "material://Al2Be3Fe1"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "Al4Ba4Ca2Sb8",
+  "uri": "material://Al4Ba4Ca2Sb8",
+  "composition": {
+    "formula": "Al4Ba4Ca2Sb8",
+    "elements": {
+      "Al": 4,
+      "Ba": 4,
+      "Ca": 2,
+      "Sb": 8
+    },
+    "reduced_formula": "Ba2Ca(AlSb2)2",
+    "element_list": [
+      "Al",
+      "Ca",
+      "Sb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 211.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ca",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 152.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 128.0 g (Aluminum powder) \n Ba: 211.0 g (Barium carbonate) \n Ca: 40.0 g (Calcium carbonate) \n Sb: 152.0 g (Antimony powder)"
+    },
+    "sourcing": {
+      "instructions": "Aluminum powder: Chemical supply stores or online chemical retailers. \n Barium carbonate: Chemical supply stores or mineral suppliers. \n Calcium carbonate: Pharmacies or natural supplement stores. \n Antimony powder: Chemical supply stores or online chemical retailers.",
+      "steps": [
+        "Aluminum powder: Chemical supply stores or online chemical retailers.",
+        "Barium carbonate: Chemical supply stores or mineral suppliers.",
+        "Calcium carbonate: Pharmacies or natural supplement stores.",
+        "Antimony powder: Chemical supply stores or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the specified amounts of each ingredient using a digital scale for accuracy.",
+        "2. In a clean, dry mixing container, combine the aluminum powder, barium carbonate, calcium carbonate, and antimony powder.",
+        "3. Mix thoroughly using a spatula or stirring rod until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Measure out the specified amounts of each ingredient using a digital scale for accuracy. \n 2. In a clean, dry mixing container, combine the aluminum powder, barium carbonate, calcium carbonate, and antimony powder. \n 3. Mix thoroughly using a spatula or stirring rod until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic or metal crucible.",
+        "2. Preheat a furnace or kiln to 800°C (1472°F).",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to facilitate reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic or metal crucible. \n 2. Preheat a furnace or kiln to 800°C (1472°F). \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to facilitate reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 4-6 hours.",
+        "2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 4-6 hours. \n 2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper (400 grit) to smooth the surface if necessary.",
+        "3. Optionally, apply a protective sealant appropriate for metal surfaces to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper (400 grit) to smooth the surface if necessary. \n 3. Optionally, apply a protective sealant appropriate for metal surfaces to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 6217025.0,
+      "density": 45713.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -74532.0,
+      "formation_energy_per_atom": -8239.0,
+      "decomposition_energy_per_atom": -113.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -77.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -108.0
+    },
+    "electronic": {
+      "bandgap": 0.568,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "651db73d90",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.063536Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al4Ba4Ca2Sb8.json",
+      "material://Al4Ba4Ca2Sb8"
+    ]
+  }
+}

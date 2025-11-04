@@ -1,0 +1,120 @@
+{
+  "id": "Al8Cu2Er1Fe1Mn1",
+  "uri": "material://Al8Cu2Er1Fe1Mn1",
+  "composition": {
+    "formula": "Al8Cu2Er1Fe1Mn1",
+    "elements": {
+      "Al": 8,
+      "Cu": 2,
+      "Er": 1,
+      "Fe": 1,
+      "Mn": 1
+    },
+    "reduced_formula": "ErMnAl8FeCu2",
+    "element_list": [
+      "Al",
+      "Mn",
+      "Fe",
+      "Cu",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 320 g, Cu: 80 g, Er: 40 g, Fe: 40 g, Mn: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Al (Aluminum): Local metal supplier or online metal supply store. \n Cu (Copper): Electrical supply stores or metal suppliers. \n Er (Erbium): Specialty chemical suppliers or online marketplaces. \n Fe (Iron): Local hardware stores or metal suppliers. \n Mn (Manganese): Chemical suppliers or online marketplaces.",
+      "steps": [
+        "Al (Aluminum): Local metal supplier or online metal supply store.",
+        "Cu (Copper): Electrical supply stores or metal suppliers.",
+        "Er (Erbium): Specialty chemical suppliers or online marketplaces.",
+        "Fe (Iron): Local hardware stores or metal suppliers.",
+        "Mn (Manganese): Chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each metal component precisely using a digital scale.",
+        "2. Clean all metals to remove any oxide layers or contaminants.",
+        "3. In a clean, dry container, combine the Al, Cu, Er, Fe, and Mn in the specified amounts.",
+        "4. Mix thoroughly using a mechanical stirrer or by hand until uniform."
+      ],
+      "raw_text": "1. Weigh out each metal component precisely using a digital scale. \n 2. Clean all metals to remove any oxide layers or contaminants. \n 3. In a clean, dry container, combine the Al, Cu, Er, Fe, and Mn in the specified amounts. \n 4. Mix thoroughly using a mechanical stirrer or by hand until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 700,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 700°C (1292°F).",
+        "2. Place the mixed powders in a crucible suitable for high-temperature applications.",
+        "3. Heat the crucible gradually to avoid thermal shock, maintaining the temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Preheat the furnace to 700°C (1292°F). \n 2. Place the mixed powders in a crucible suitable for high-temperature applications. \n 3. Heat the crucible gradually to avoid thermal shock, maintaining the temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any defects or inconsistencies.",
+        "3. Sand the surface to achieve a smooth finish, using progressively finer grits of sandpaper (starting from 120 grit to 600 grit).",
+        "4. Optionally, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any defects or inconsistencies. \n 3. Sand the surface to achieve a smooth finish, using progressively finer grits of sandpaper (starting from 120 grit to 600 grit). \n 4. Optionally, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 1934155.0,
+      "density": 53314.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -651753.0,
+      "formation_energy_per_atom": -3702.0,
+      "decomposition_energy_per_atom": -113.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -55.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1b89995bf2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.783717Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al8Cu2Er1Fe1Mn1.json",
+      "material://Al8Cu2Er1Fe1Mn1"
+    ]
+  }
+}

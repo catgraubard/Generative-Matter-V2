@@ -1,0 +1,112 @@
+{
+  "id": "Li2Ni4Sb4Ti2",
+  "uri": "material://Li2Ni4Sb4Ti2",
+  "composition": {
+    "formula": "Li2Ni4Sb4Ti2",
+    "elements": {
+      "Li": 2,
+      "Ni": 4,
+      "Sb": 4,
+      "Ti": 2
+    },
+    "reduced_formula": "LiTi(NiSb)2",
+    "element_list": [
+      "Li",
+      "Ti",
+      "Ni",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 48 g, Cr: 6 g, Er: 12 g, Fe: 6 g, P: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Specialty metal suppliers or online metals marketplace; Cr: Metal suppliers or chemical supply stores; Er: Rare earth metal suppliers; Fe: Hardware stores; P: Chemical supply stores.",
+      "steps": [
+        "Co: Specialty metal suppliers or online metals marketplace; Cr: Metal suppliers or chemical supply stores; Er: Rare earth metal suppliers; Fe: Hardware stores; P: Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine Co, Cr, Er, Fe, and P.",
+        "3. Use a spatula to mix thoroughly for about 10 minutes."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale.\n2. In a clean, dry mixing bowl, combine Co, Cr, Er, Fe, and P. \n3. Use a spatula to mix thoroughly for about 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the mixed powders in a ceramic crucible.",
+        "3. Heat the mixture for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C.\n2. Place the mixed powders in a ceramic crucible.\n3. Heat the mixture for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process can take approximately 4-6 hours. Ensure the environment is free from drafts."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature.\n2. This process can take approximately 4-6 hours. Ensure the environment is free from drafts."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to final dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to smooth any rough surfaces."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible.\n2. Use a diamond saw to cut the sample to final dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges to smooth any rough surfaces."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2101776.0,
+      "density": 65688.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42d",
+      "space_group_number": 122,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -664812.0,
+      "formation_energy_per_atom": -603.0,
+      "decomposition_energy_per_atom": -721.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -141.0,
+      "decomposition_energy_mp": -733.0,
+      "decomposition_energy_mp_oqmd": -143.0
+    },
+    "electronic": {
+      "bandgap": 0.0054,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b8dcdf659c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.892159Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Ni4Sb4Ti2.json",
+      "material://Li2Ni4Sb4Ti2"
+    ]
+  }
+}

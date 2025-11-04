@@ -1,0 +1,116 @@
+{
+  "id": "Al3As12Ba8Ga1Na4",
+  "uri": "material://Al3As12Ba8Ga1Na4",
+  "composition": {
+    "formula": "Al3As12Ba8Ga1Na4",
+    "elements": {
+      "Al": 3,
+      "As": 12,
+      "Ba": 8,
+      "Ga": 1,
+      "Na": 4
+    },
+    "reduced_formula": "Ba8Na4Al3GaAs12",
+    "element_list": [
+      "Na",
+      "Al",
+      "Ga",
+      "As",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 40 g, Mo: 20 g, Si: 10 g, V: 15 g, Binder (e.g., epoxy resin): 50 g, Hardener (epoxy): 25 g, Filler (e.g., silica): 30 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder) - Chemical supply stores or online; Mo (Molybdenum powder) - Metal suppliers or online; Si (Silicon powder) - Chemical supply stores; V (Vanadium powder) - Metal suppliers; Binder and Hardener - Local hardware stores or online; Filler - Chemical supply stores or online",
+      "steps": [
+        "B (Boron powder) - Chemical supply stores or online; Mo (Molybdenum powder) - Metal suppliers or online; Si (Silicon powder) - Chemical supply stores; V (Vanadium powder) - Metal suppliers; Binder and Hardener - Local hardware stores or online; Filler - Chemical supply stores or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing bowl, combine B, Mo, Si, and V powders.",
+        "3. Slowly add the filler while continuously mixing to ensure uniform distribution.",
+        "4. In a separate container, mix the binder and hardener according to the manufacturer's instructions.",
+        "5. Gradually combine the resin mixture with the powdered materials, stirring until a homogeneous paste is formed."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean mixing bowl, combine B, Mo, Si, and V powders. \n 3. Slowly add the filler while continuously mixing to ensure uniform distribution. \n 4. In a separate container, mix the binder and hardener according to the manufacturer's instructions. \n 5. Gradually combine the resin mixture with the powdered materials, stirring until a homogeneous paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 150,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat an oven to 150 °C (302 °F).",
+        "2. Pour the mixture into a mold with dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Place the mold in the preheated oven for 1 hour to cure the material."
+      ],
+      "raw_text": "1. Preheat an oven to 150 °C (302 °F). \n 2. Pour the mixture into a mold with dimensions 3 inches x 2 inches x 7 inches. \n 3. Place the mold in the preheated oven for 1 hour to cure the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the oven and allow the mold to cool inside for 30 minutes.",
+        "2. Carefully remove the mold from the oven and let it cool to room temperature for an additional 1 hour."
+      ],
+      "raw_text": "1. Turn off the oven and allow the mold to cool inside for 30 minutes. \n 2. Carefully remove the mold from the oven and let it cool to room temperature for an additional 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, demold the solid sample carefully.",
+        "2. If necessary, sand the edges for a smooth finish using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a clear epoxy coating for added durability."
+      ],
+      "raw_text": "1. Once cooled, demold the solid sample carefully. \n 2. If necessary, sand the edges for a smooth finish using fine-grit sandpaper. \n 3. Optionally, seal the surface with a clear epoxy coating for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8312629.0,
+      "density": 44752.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -114977.0,
+      "formation_energy_per_atom": -8629.0,
+      "decomposition_energy_per_atom": -166.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -166.0,
+      "decomposition_energy_mp_oqmd": -97.0
+    },
+    "electronic": {
+      "bandgap": 0.0132,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ca33fd5b25",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.928291Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3As12Ba8Ga1Na4.json",
+      "material://Al3As12Ba8Ga1Na4"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "Cs2Eu1Sm1Te8",
+  "uri": "material://Cs2Eu1Sm1Te8",
+  "composition": {
+    "formula": "Cs2Eu1Sm1Te8",
+    "elements": {
+      "Cs": 2,
+      "Eu": 1,
+      "Sm": 1,
+      "Te": 8
+    },
+    "reduced_formula": "Cs2SmEuTe8",
+    "element_list": [
+      "Te",
+      "Cs",
+      "Sm",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 20.0 g, Eu: 10.0 g, Sm: 10.0 g, Te: 160.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Buy from a chemical supplier (e.g., Sigma-Aldrich); Eu: Obtain from a rare earth material supplier; Sm: Obtain from a rare earth material supplier; Te: Purchase from a chemical supplier (e.g., Alfa Aesar).",
+      "steps": [
+        "Cs: Buy from a chemical supplier (e.g., Sigma-Aldrich); Eu: Obtain from a rare earth material supplier; Sm: Obtain from a rare earth material supplier; Te: Purchase from a chemical supplier (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Cs, Eu, Sm, and Te using an analytical balance. 2. In a clean, dry container, add Cs, Eu, and Sm. 3. Slowly add Te while stirring continuously to ensure uniform mixing. 4. Ensure no clumps remain and the mixture is homogeneous."
+      ],
+      "raw_text": "1. Weigh Cs, Eu, Sm, and Te using an analytical balance. 2. In a clean, dry container, add Cs, Eu, and Sm. 3. Slowly add Te while stirring continuously to ensure uniform mixing. 4. Ensure no clumps remain and the mixture is homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible. 2. Place the crucible in a furnace. 3. Set the temperature to 800 °C and hold for 2 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. 2. Place the crucible in a furnace. 3. Set the temperature to 800 °C and hold for 2 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 5-6 hours). 2. Do not open the furnace door until it reaches a safe temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 5-6 hours). 2. Do not open the furnace door until it reaches a safe temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully. 2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper. 3. Optionally, apply a clear sealant to protect the surface. Allow the sealant to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. 2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper. 3. Optionally, apply a clear sealant to protect the surface. Allow the sealant to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 4653031.0,
+      "density": 56705.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P422",
+      "space_group_number": 89,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -564509.0,
+      "formation_energy_per_atom": -12086.0,
+      "decomposition_energy_per_atom": -35.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -458.0,
+      "decomposition_energy_mp_oqmd": -86.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8e9369d7b9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:23.277709Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Eu1Sm1Te8.json",
+      "material://Cs2Eu1Sm1Te8"
+    ]
+  }
+}

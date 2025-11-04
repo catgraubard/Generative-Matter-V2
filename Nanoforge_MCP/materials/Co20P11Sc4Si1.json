@@ -1,0 +1,132 @@
+{
+  "id": "Co20P11Sc4Si1",
+  "uri": "material://Co20P11Sc4Si1",
+  "composition": {
+    "formula": "Co20P11Sc4Si1",
+    "elements": {
+      "Co": 20,
+      "P": 11,
+      "Sc": 4,
+      "Si": 1
+    },
+    "reduced_formula": "Sc4Co20SiP11",
+    "element_list": [
+      "Si",
+      "P",
+      "Sc",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 34.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 40.0 g \n Pa: 34.0 g \n Sn: 14.0 g \n Zn: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium): Purchase from a specialized chemical supplier or rare earth metals vendor. \n Pa (Protactinium): Obtain from a nuclear material supplier or chemical supply company specializing in radioisotopes. \n Sn (Tin): Available at hardware stores or online chemical suppliers. \n Zn (Zinc): Can be sourced from hardware stores or chemical suppliers.",
+      "steps": [
+        "Nd (Neodymium): Purchase from a specialized chemical supplier or rare earth metals vendor.",
+        "Pa (Protactinium): Obtain from a nuclear material supplier or chemical supply company specializing in radioisotopes.",
+        "Sn (Tin): Available at hardware stores or online chemical suppliers.",
+        "Zn (Zinc): Can be sourced from hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 40.0 g of Neodymium, 34.0 g of Protactinium, 14.0 g of Tin, and 10.0 g of Zinc using a precision scale.",
+        "2. In a clean, dry container, combine Nd, Pa, Sn, and Zn thoroughly using a mechanical mixer or mortar and pestle until a homogeneous mixture is achieved.",
+        "3. Transfer the mixed powder into a crucible suited for high-temperature applications."
+      ],
+      "raw_text": "1. Measure out 40.0 g of Neodymium, 34.0 g of Protactinium, 14.0 g of Tin, and 10.0 g of Zinc using a precision scale. \n 2. In a clean, dry container, combine Nd, Pa, Sn, and Zn thoroughly using a mechanical mixer or mortar and pestle until a homogeneous mixture is achieved. \n 3. Transfer the mixed powder into a crucible suited for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 1200°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Nd2Pa2Sn2Zn10."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 1200°C at a rate of 10°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Nd2Pa2Sn2Zn10."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 25°C). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any defects or impurities.",
+        "3. If necessary, use a fine-grit sandpaper to smooth out the surfaces.",
+        "4. Optionally, apply a sealant to enhance surface protection, following the manufacturer's instructions for application and curing time."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any defects or impurities. \n 3. If necessary, use a fine-grit sandpaper to smooth out the surfaces. \n 4. Optionally, apply a sealant to enhance surface protection, following the manufacturer's instructions for application and curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4224857.0,
+      "density": 67889.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2625784.0,
+      "formation_energy_per_atom": -8364.0,
+      "decomposition_energy_per_atom": -59.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -51.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d7ee5af3f4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.434689Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co20P11Sc4Si1.json",
+      "material://Co20P11Sc4Si1"
+    ]
+  }
+}

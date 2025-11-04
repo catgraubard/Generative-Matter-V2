@@ -1,0 +1,111 @@
+{
+  "id": "Si12Ti16V1W3",
+  "uri": "material://Si12Ti16V1W3",
+  "composition": {
+    "formula": "Si12Ti16V1W3",
+    "elements": {
+      "Si": 12,
+      "Ti": 16,
+      "V": 1,
+      "W": 3
+    },
+    "reduced_formula": "Ti16V(Si4W)3",
+    "element_list": [
+      "Si",
+      "Ti",
+      "V",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Silicon (Si): 120 g \n Titanium (Ti): 160 g \n Vanadium (V): 10 g \n Tungsten (W): 30 g"
+    },
+    "sourcing": {
+      "instructions": "Silicon: Purchase from chemical suppliers or online retailers specializing in raw materials. \n Titanium: Obtain from metal supply companies or online. \n Vanadium: Available from specialty metal suppliers. \n Tungsten: Sourced from metal fabricators or online metal distributors.",
+      "steps": [
+        "Silicon: Purchase from chemical suppliers or online retailers specializing in raw materials.",
+        "Titanium: Obtain from metal supply companies or online.",
+        "Vanadium: Available from specialty metal suppliers.",
+        "Tungsten: Sourced from metal fabricators or online metal distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of silicon, titanium, vanadium, and tungsten.",
+        "3. Use a mechanical stirrer or mortar and pestle to thoroughly mix the powders until uniform."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of silicon, titanium, vanadium, and tungsten. \n 3. Use a mechanical stirrer or mortar and pestle to thoroughly mix the powders until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1500°C at a rate of 10°C/min and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 1500°C at a rate of 10°C/min and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours).",
+        "2. Avoid rapid cooling to prevent material cracking or warping."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours). \n 2. Avoid rapid cooling to prevent material cracking or warping."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible once completely cooled.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 x 2 x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a sealing agent to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible once completely cooled. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 x 2 x 7 inches). \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a sealing agent to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4834591.0,
+      "density": 58574.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2620783.0,
+      "formation_energy_per_atom": -709.0,
+      "decomposition_energy_per_atom": -302.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -298.0,
+      "decomposition_energy_mp_oqmd": -298.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4fc22775f4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:00.353471Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si12Ti16V1W3.json",
+      "material://Si12Ti16V1W3"
+    ]
+  }
+}

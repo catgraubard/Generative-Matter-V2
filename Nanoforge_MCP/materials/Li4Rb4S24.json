@@ -1,0 +1,123 @@
+{
+  "id": "Li4Rb4S24",
+  "uri": "material://Li4Rb4S24",
+  "composition": {
+    "formula": "Li4Rb4S24",
+    "elements": {
+      "Li": 4,
+      "Rb": 4,
+      "S": 24
+    },
+    "reduced_formula": "RbLiS6",
+    "element_list": [
+      "Li",
+      "S",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 26.4,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 32.0 g (from Lithium carbonate, Li2CO3) \n Rb: 26.4 g (from Rubidium chloride, RbCl) \n S: 32.0 g (from Sulfur powder, S)"
+    },
+    "sourcing": {
+      "instructions": "Lithium carbonate (Li2CO3) can be sourced from chemical supply companies or online retailers specializing in laboratory chemicals. \n Rubidium chloride (RbCl) is available from specialized suppliers of alkali metals and chemical distributors. \n Sulfur powder (S) can be purchased from local hardware stores or chemical suppliers.",
+      "steps": [
+        "Lithium carbonate (Li2CO3) can be sourced from chemical supply companies or online retailers specializing in laboratory chemicals.",
+        "Rubidium chloride (RbCl) is available from specialized suppliers of alkali metals and chemical distributors.",
+        "Sulfur powder (S) can be purchased from local hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 32.0 g of Lithium carbonate and 26.4 g of Rubidium chloride accurately using a digital scale.",
+        "2. Weigh 32.0 g of sulfur powder.",
+        "3. In a clean, dry container, combine the Li2CO3, RbCl, and S thoroughly using a spatula to ensure an even mixture.",
+        "4. Transfer the mixture to a mortar and pestle, and grind it into a fine powder to enhance homogeneity."
+      ],
+      "raw_text": "1. Weigh 32.0 g of Lithium carbonate and 26.4 g of Rubidium chloride accurately using a digital scale. \n 2. Weigh 32.0 g of sulfur powder. \n 3. In a clean, dry container, combine the Li2CO3, RbCl, and S thoroughly using a spatula to ensure an even mixture. \n 4. Transfer the mixture to a mortar and pestle, and grind it into a fine powder to enhance homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 700,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a muffle furnace to 700 °C.",
+        "2. Place the powdered mixture in a ceramic crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 6 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 700 °C. \n 2. Place the powdered mixture in a ceramic crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 6 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally within the furnace to room temperature (approximately 4-6 hours).",
+        "2. Avoid removing the crucible while still hot to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally within the furnace to room temperature (approximately 4-6 hours). \n 2. Avoid removing the crucible while still hot to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and extract the solidified Li4Rb4S24 material.",
+        "2. If needed, use a diamond file or sandpaper to smooth out any rough edges on the solid sample.",
+        "3. Store the finished material in an airtight container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and extract the solidified Li4Rb4S24 material. \n 2. If needed, use a diamond file or sandpaper to smooth out any rough edges on the solid sample. \n 3. Store the finished material in an airtight container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 9071742.0,
+      "density": 20852.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1386576.0,
+      "formation_energy_per_atom": -8695.0,
+      "decomposition_energy_per_atom": -737.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -827.0,
+      "decomposition_energy_mp_oqmd": -824.0
+    },
+    "electronic": {
+      "bandgap": 1.8127,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "29e9e407b8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:11.053202Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4Rb4S24.json",
+      "material://Li4Rb4S24"
+    ]
+  }
+}

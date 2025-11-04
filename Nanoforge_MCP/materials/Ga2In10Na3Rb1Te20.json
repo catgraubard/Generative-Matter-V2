@@ -1,0 +1,140 @@
+{
+  "id": "Ga2In10Na3Rb1Te20",
+  "uri": "material://Ga2In10Na3Rb1Te20",
+  "composition": {
+    "formula": "Ga2In10Na3Rb1Te20",
+    "elements": {
+      "Ga": 2,
+      "In": 10,
+      "Na": 3,
+      "Rb": 1,
+      "Te": 20
+    },
+    "reduced_formula": "RbNa3In10(GaTe10)2",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Rb",
+      "In",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 20.0 g \n In: 100.0 g \n Na: 15.0 g \n Rb: 5.0 g \n Te: 200.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ga: Purchase from a chemical supply company like Alfa Aesar or Sigma-Aldrich. \n In: Obtain from metal suppliers or online chemical retailers. \n Na: Available from chemical suppliers or online. \n Rb: Can be sourced from specialty chemical suppliers. \n Te: Obtain from chemical supply companies or online vendors.",
+      "steps": [
+        "Ga: Purchase from a chemical supply company like Alfa Aesar or Sigma-Aldrich.",
+        "In: Obtain from metal suppliers or online chemical retailers.",
+        "Na: Available from chemical suppliers or online.",
+        "Rb: Can be sourced from specialty chemical suppliers.",
+        "Te: Obtain from chemical supply companies or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry glass or ceramic container, add Ga, In, Na, Rb, and Te in the specified amounts.",
+        "3. Mix the powders thoroughly using a spatula or a mortar and pestle to achieve a homogeneous blend.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance. \n 2. In a clean, dry glass or ceramic container, add Ga, In, Na, Rb, and Te in the specified amounts. \n 3. Mix the powders thoroughly using a spatula or a mortar and pestle to achieve a homogeneous blend. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat gradually to 800°C at a rate of 5°C per minute.",
+        "3. Maintain the temperature at 800°C for 4 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat gradually to 800°C at a rate of 5°C per minute. \n 3. Maintain the temperature at 800°C for 4 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over a duration of 6 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over a duration of 6 hours. \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the solid for any surface irregularities.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve the desired finish.",
+        "4. Seal the material with a clear epoxy or suitable sealant to protect it from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the solid for any surface irregularities. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve the desired finish. \n 4. Seal the material with a clear epoxy or suitable sealant to protect it from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 13556713.0,
+      "density": 48923.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1268344.0,
+      "formation_energy_per_atom": -7069.0,
+      "decomposition_energy_per_atom": -282.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -274.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "849301d7f3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:09.633939Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2In10Na3Rb1Te20.json",
+      "material://Ga2In10Na3Rb1Te20"
+    ]
+  }
+}

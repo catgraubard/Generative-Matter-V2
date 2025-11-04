@@ -1,0 +1,115 @@
+{
+  "id": "Nb11Sc8Si15Sn1Ti1",
+  "uri": "material://Nb11Sc8Si15Sn1Ti1",
+  "composition": {
+    "formula": "Nb11Sc8Si15Sn1Ti1",
+    "elements": {
+      "Nb": 11,
+      "Sc": 8,
+      "Si": 15,
+      "Sn": 1,
+      "Ti": 1
+    },
+    "reduced_formula": "Sc8TiNb11Si15Sn",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ti",
+      "Nb",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 880.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 880 g, Sc: 640 g, Si: 1200 g, Sn: 80 g, Ti: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Specialty metal suppliers; Sc: Rare earth metal suppliers; Si: Silicon suppliers (electronic grade); Sn: Metal suppliers; Ti: Metal suppliers",
+      "steps": [
+        "Nb: Specialty metal suppliers; Sc: Rare earth metal suppliers; Si: Silicon suppliers (electronic grade); Sn: Metal suppliers; Ti: Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component using a precision scale.",
+        "2. In a clean mixing container, combine Nb, Sc, Si, Sn, and Ti powders in the specified amounts.",
+        "3. Use a mechanical mixer to ensure a homogeneous blend for 30 minutes.",
+        "4. Transfer the mixed powder into a mold of desired dimensions (3 in x 2 in x 7 in)."
+      ],
+      "raw_text": "1. Weigh each component using a precision scale.\n2. In a clean mixing container, combine Nb, Sc, Si, Sn, and Ti powders in the specified amounts.\n3. Use a mechanical mixer to ensure a homogeneous blend for 30 minutes.\n4. Transfer the mixed powder into a mold of desired dimensions (3 in x 2 in x 7 in)."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1500°C.",
+        "2. Place the mold with the mixed powders into the furnace.",
+        "3. Heat for 4 hours to allow for complete melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat the furnace to 1500°C.\n2. Place the mold with the mixed powders into the furnace.\n3. Heat for 4 hours to allow for complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling should take about 8-10 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).\n2. This cooling should take about 8-10 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the mold.",
+        "2. Grind the edges and surfaces if necessary to achieve desired finish using a diamond grinder.",
+        "3. Optionally apply a sealant to protect the surface from oxidation, following the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Remove the solidified sample from the mold.\n2. Grind the edges and surfaces if necessary to achieve desired finish using a diamond grinder.\n3. Optionally apply a sealant to protect the surface from oxidation, following the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6186879.0,
+      "density": 5286.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2834739.0,
+      "formation_energy_per_atom": -7893.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -141.0,
+      "decomposition_energy_mp_oqmd": -118.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f3699ede01",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.515846Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb11Sc8Si15Sn1Ti1.json",
+      "material://Nb11Sc8Si15Sn1Ti1"
+    ]
+  }
+}

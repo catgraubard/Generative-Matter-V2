@@ -1,0 +1,110 @@
+{
+  "id": "Mg2Pm1Si2",
+  "uri": "material://Mg2Pm1Si2",
+  "composition": {
+    "formula": "Mg2Pm1Si2",
+    "elements": {
+      "Mg": 2,
+      "Pm": 1,
+      "Si": 2
+    },
+    "reduced_formula": "Pm(MgSi)2",
+    "element_list": [
+      "Mg",
+      "Si",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "**Boron (B):** 20 g  \n **Silicon (Si):** 40 g  \n **Tantalum (Tc):** 80 g  \n **Titanium (Ti):** 20 g"
+    },
+    "sourcing": {
+      "instructions": "**Boron:** Purchase from chemical supply companies or online suppliers (e.g., Sigma-Aldrich).  \n **Silicon:** Obtain from electronics supply stores or chemical suppliers.  \n **Tantalum:** Available from specialized metal suppliers or online marketplaces.  \n **Titanium:** Accessible through metal suppliers or online sources.",
+      "steps": [
+        "**Boron:** Purchase from chemical supply companies or online suppliers (e.g., Sigma-Aldrich).",
+        "**Silicon:** Obtain from electronics supply stores or chemical suppliers.",
+        "**Tantalum:** Available from specialized metal suppliers or online marketplaces.",
+        "**Titanium:** Accessible through metal suppliers or online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. In a clean, dry mixing container, combine 20 g of Boron, 40 g of Silicon, 80 g of Tantalum, and 20 g of Titanium.",
+        "3. Use a mortar and pestle to gently grind the mixture until homogeneous.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniform particle size and distribution."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance.  \n 2. In a clean, dry mixing container, combine 20 g of Boron, 40 g of Silicon, 80 g of Tantalum, and 20 g of Titanium.  \n 3. Use a mortar and pestle to gently grind the mixture until homogeneous.  \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniform particle size and distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the milled powder mixture in a ceramic crucible.",
+        "3. Insert the crucible into the preheated furnace and heat for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F).  \n 2. Place the milled powder mixture in a ceramic crucible.  \n 3. Insert the crucible into the preheated furnace and heat for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C or 77°F).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C or 77°F).  \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified sample from the crucible.",
+        "3. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges using fine-grit sandpaper for a smooth finish.",
+        "5. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace.  \n 2. Carefully extract the solidified sample from the crucible.  \n 3. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).  \n 4. Sand the edges using fine-grit sandpaper for a smooth finish.  \n 5. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1040745.0,
+      "density": 39853.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mmm",
+      "space_group_number": 139,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2058.0,
+      "formation_energy_per_atom": -3556.0,
+      "decomposition_energy_per_atom": -1636.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -269.0,
+      "decomposition_energy_mp": -1632.0,
+      "decomposition_energy_mp_oqmd": -1632.0
+    },
+    "electronic": {
+      "bandgap": 0.0123,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db2d8a7790",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.329125Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg2Pm1Si2.json",
+      "material://Mg2Pm1Si2"
+    ]
+  }
+}

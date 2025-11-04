@@ -1,0 +1,113 @@
+{
+  "id": "Nd4Pb1Si1Zn10",
+  "uri": "material://Nd4Pb1Si1Zn10",
+  "composition": {
+    "formula": "Nd4Pb1Si1Zn10",
+    "elements": {
+      "Nd": 4,
+      "Pb": 1,
+      "Si": 1,
+      "Zn": 10
+    },
+    "reduced_formula": "Nd4Zn10SiPb",
+    "element_list": [
+      "Si",
+      "Zn",
+      "Nd",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 192.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 192 g, Pm: 96 g, Te: 240 g, W: 48 g"
+    },
+    "sourcing": {
+      "instructions": "O: Laboratory supply store, Pm: Rare earth metal supplier, Te: Chemical supplier, W: Metal fabrication shop",
+      "steps": [
+        "O: Laboratory supply store, Pm: Rare earth metal supplier, Te: Chemical supplier, W: Metal fabrication shop"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine O and Pm thoroughly.",
+        "3. Gradually add Te while continuously stirring to ensure even distribution.",
+        "4. Finally, add W and mix until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine O and Pm thoroughly. \n 3. Gradually add Te while continuously stirring to ensure even distribution. \n 4. Finally, add W and mix until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible suitable for high-temperature applications.",
+        "2. Heat in a furnace to 1200°C for 2 hours to promote fusion of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible suitable for high-temperature applications. \n 2. Heat in a furnace to 1200°C for 2 hours to promote fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature (approximately 25°C).",
+        "2. This may take around 4-6 hours, depending on the size of the crucible."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature (approximately 25°C). \n 2. This may take around 4-6 hours, depending on the size of the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3288703.0,
+      "density": 74039.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -475498.0,
+      "formation_energy_per_atom": -4214.0,
+      "decomposition_energy_per_atom": -215.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -76.0,
+      "decomposition_energy_mp": -214.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bae453c0c0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.535942Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd4Pb1Si1Zn10.json",
+      "material://Nd4Pb1Si1Zn10"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Co3Fe4O24V6",
+  "uri": "material://Co3Fe4O24V6",
+  "composition": {
+    "formula": "Co3Fe4O24V6",
+    "elements": {
+      "Co": 3,
+      "Fe": 4,
+      "O": 24,
+      "V": 6
+    },
+    "reduced_formula": "V6Fe4(CoO8)3",
+    "element_list": [
+      "O",
+      "V",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 200 g, Cr: 20 g, Fe: 80 g, P: 30 g, Y: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Metal supplier or online metals distributor; Cr (Chromium): Metal supplier; Fe (Iron): Hardware store; P (Phosphorus): Chemical supplier; Y (Yttrium): Specialty metal supplier.",
+      "steps": [
+        "Co (Cobalt): Metal supplier or online metals distributor; Cr (Chromium): Metal supplier; Fe (Iron): Hardware store; P (Phosphorus): Chemical supplier; Y (Yttrium): Specialty metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Co, Cr, Fe, P, and Y.",
+        "3. Mix thoroughly using a mechanical mixer for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each material precisely using an analytical balance. \n 2. In a clean, dry container, combine Co, Cr, Fe, P, and Y. \n 3. Mix thoroughly using a mechanical mixer for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder into a crucible.",
+        "3. Heat for 2 hours to achieve the desired phase formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder into a crucible. \n 3. Heat for 2 hours to achieve the desired phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature gradually (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature gradually (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. Sand the surface with fine-grit sandpaper (400 grit) until smooth.",
+        "4. Optionally apply a protective sealant for durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. Sand the surface with fine-grit sandpaper (400 grit) until smooth. \n 4. Optionally apply a protective sealant for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 37,
+      "volume": 4846733.0,
+      "density": 37338.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -3031675.0,
+      "formation_energy_per_atom": -20191.0,
+      "decomposition_energy_per_atom": 11.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": 4.0,
+      "decomposition_energy_mp_oqmd": 6.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e1d20df696",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.181567Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3Fe4O24V6.json",
+      "material://Co3Fe4O24V6"
+    ]
+  }
+}

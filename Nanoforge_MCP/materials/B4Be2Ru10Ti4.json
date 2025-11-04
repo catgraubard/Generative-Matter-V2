@@ -1,0 +1,134 @@
+{
+  "id": "B4Be2Ru10Ti4",
+  "uri": "material://B4Be2Ru10Ti4",
+  "composition": {
+    "formula": "B4Be2Ru10Ti4",
+    "elements": {
+      "B": 4,
+      "Be": 2,
+      "Ru": 10,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti2BeB2Ru5",
+    "element_list": [
+      "Be",
+      "B",
+      "Ti",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Be",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n Be: 5 g \n Ru: 50 g \n Ti: 30 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder) - Chemical supply stores or online suppliers like Sigma-Aldrich. \n Be (Beryllium powder) - Specialty metal suppliers or online. \n Ru (Ruthenium powder) - Precious metal suppliers or chemical supply companies. \n Ti (Titanium powder) - Metal suppliers or online retailers specializing in metal powders.",
+      "steps": [
+        "B (Boron powder) - Chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Be (Beryllium powder) - Specialty metal suppliers or online.",
+        "Ru (Ruthenium powder) - Precious metal suppliers or chemical supply companies.",
+        "Ti (Titanium powder) - Metal suppliers or online retailers specializing in metal powders."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the required amounts of each ingredient using a precise digital scale.",
+        "2. In a clean, dry mixing container, combine the B, Be, Ru, and Ti powders.",
+        "3. Use a spatula to mix the powders thoroughly to ensure homogeneity.",
+        "4. Transfer the mixed powder into a ball mill and mill for 2 hours to achieve a fine and uniform mixture."
+      ],
+      "raw_text": "1. Measure the required amounts of each ingredient using a precise digital scale. \n 2. In a clean, dry mixing container, combine the B, Be, Ru, and Ti powders. \n 3. Use a spatula to mix the powders thoroughly to ensure homogeneity. \n 4. Transfer the mixed powder into a ball mill and mill for 2 hours to achieve a fine and uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C (2192°F).",
+        "2. Place the milled powder into a graphite mold that fits the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Insert the mold into the preheated furnace.",
+        "4. Hold at 1200°C for 2 hours to ensure complete sintering of the material."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C (2192°F). \n 2. Place the milled powder into a graphite mold that fits the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Insert the mold into the preheated furnace. \n 4. Hold at 1200°C for 2 hours to ensure complete sintering of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the sintering process is complete, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This may take about 6-8 hours.",
+        "3. Ensure that the furnace is not opened until it has fully cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the sintering process is complete, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. This may take about 6-8 hours. \n 3. Ensure that the furnace is not opened until it has fully cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the graphite mold.",
+        "2. Inspect for any surface irregularities or defects.",
+        "3. If needed, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant or coating to enhance the material's durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the graphite mold. \n 2. Inspect for any surface irregularities or defects. \n 3. If needed, use fine-grit sandpaper to smooth the surface. \n 4. Optionally, apply a sealant or coating to enhance the material's durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2422908.0,
+      "density": 8659.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mbm",
+      "space_group_number": 127,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1694418.0,
+      "formation_energy_per_atom": -546.0,
+      "decomposition_energy_per_atom": -268.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -62.0,
+      "decomposition_energy_mp": -268.0,
+      "decomposition_energy_mp_oqmd": -169.0
+    },
+    "electronic": {
+      "bandgap": 0.0089,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "250aa94bfa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:04.409898Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Be2Ru10Ti4.json",
+      "material://B4Be2Ru10Ti4"
+    ]
+  }
+}

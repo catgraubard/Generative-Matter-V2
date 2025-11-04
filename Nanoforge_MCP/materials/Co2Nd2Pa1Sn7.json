@@ -1,0 +1,113 @@
+{
+  "id": "Co2Nd2Pa1Sn7",
+  "uri": "material://Co2Nd2Pa1Sn7",
+  "composition": {
+    "formula": "Co2Nd2Pa1Sn7",
+    "elements": {
+      "Co": 2,
+      "Nd": 2,
+      "Pa": 1,
+      "Sn": 7
+    },
+    "reduced_formula": "Nd2PaCo2Sn7",
+    "element_list": [
+      "Co",
+      "Sn",
+      "Nd",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g, Nd: 20 g, Pa: 5 g, Sn: 70 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Buy from a chemical supplier or online (e.g., Sigma-Aldrich).\n Nd: Purchase from rare earth metal suppliers.\n Pa: Available from specialized chemical suppliers.\n Sn: Obtain from hardware stores or online.",
+      "steps": [
+        "Co: Buy from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "Nd: Purchase from rare earth metal suppliers.",
+        "Pa: Available from specialized chemical suppliers.",
+        "Sn: Obtain from hardware stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of cobalt (Co), 20 g of neodymium (Nd), 5 g of palladium (Pa), and 70 g of tin (Sn).",
+        "2. Combine the weighed powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to mix thoroughly for 10 minutes ensuring a homogenous blend."
+      ],
+      "raw_text": "1. Weigh out 10 g of cobalt (Co), 20 g of neodymium (Nd), 5 g of palladium (Pa), and 70 g of tin (Sn).\n 2. Combine the weighed powders in a clean, dry mixing container.\n 3. Use a mortar and pestle to mix thoroughly for 10 minutes ensuring a homogenous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 800 °C for 2 hours under an inert atmosphere (e.g., argon)."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n 2. Heat in a furnace at 800 °C for 2 hours under an inert atmosphere (e.g., argon)."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "Allow the crucible to cool gradually inside the furnace to room temperature (approximately 4 hours) to prevent thermal shock."
+      ],
+      "raw_text": "Allow the crucible to cool gradually inside the furnace to room temperature (approximately 4 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible.",
+        "2. Sand the edges and surfaces with 120-grit sandpaper to achieve desired finish.",
+        "3. Optionally, apply a sealant for additional protection if necessary."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible.\n 2. Sand the edges and surfaces with 120-grit sandpaper to achieve desired finish.\n 3. Optionally, apply a sealant for additional protection if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2855819.0,
+      "density": 85379.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -67066.0,
+      "formation_energy_per_atom": -4776.0,
+      "decomposition_energy_per_atom": -717.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -717.0,
+      "decomposition_energy_mp_oqmd": -163.0
+    },
+    "electronic": {
+      "bandgap": 0.0055,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "187d7eb9f5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:47.730898Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Nd2Pa1Sn7.json",
+      "material://Co2Nd2Pa1Sn7"
+    ]
+  }
+}

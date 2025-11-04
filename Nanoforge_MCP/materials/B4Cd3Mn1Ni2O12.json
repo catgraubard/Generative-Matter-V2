@@ -1,0 +1,133 @@
+{
+  "id": "B4Cd3Mn1Ni2O12",
+  "uri": "material://B4Cd3Mn1Ni2O12",
+  "composition": {
+    "formula": "B4Cd3Mn1Ni2O12",
+    "elements": {
+      "B": 4,
+      "Cd": 3,
+      "Mn": 1,
+      "Ni": 2,
+      "O": 12
+    },
+    "reduced_formula": "MnCd3Ni2(BO3)4",
+    "element_list": [
+      "B",
+      "O",
+      "Mn",
+      "Ni",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 30.0 g (Barium Carbonate) \n Cd: 18.0 g (Cadmium Oxide) \n Mn: 6.0 g (Manganese Oxide) \n Ni: 24.0 g (Nickel Oxide) \n O: 60.0 g (from the above oxides, approximate based on stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Chemical supply stores or online chemical suppliers. \n Cadmium Oxide: Specialty chemical suppliers or online sources. \n Manganese Oxide: Chemical supply stores or online suppliers. \n Nickel Oxide: Chemical supply stores or online suppliers.",
+      "steps": [
+        "Barium Carbonate: Chemical supply stores or online chemical suppliers.",
+        "Cadmium Oxide: Specialty chemical suppliers or online sources.",
+        "Manganese Oxide: Chemical supply stores or online suppliers.",
+        "Nickel Oxide: Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine Barium Carbonate, Cadmium Oxide, Manganese Oxide, and Nickel Oxide.",
+        "3. Mix thoroughly using a mortar and pestle or mechanical mixer for at least 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean mixing container, combine Barium Carbonate, Cadmium Oxide, Manganese Oxide, and Nickel Oxide. \n 3. Mix thoroughly using a mortar and pestle or mechanical mixer for at least 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 900°C (1652°F).",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C (1652°F). \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the crucible in the furnace for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has reached room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has reached room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for cracks or defects; if present, grind and re-press into a new shape.",
+        "3. Optionally sand the surface to achieve a smooth finish.",
+        "4. If desired, seal the surface with a suitable ceramic sealant for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for cracks or defects; if present, grind and re-press into a new shape. \n 3. Optionally sand the surface to achieve a smooth finish. \n 4. If desired, seal the surface with a suitable ceramic sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2468746.0,
+      "density": 50097.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1562012.0,
+      "formation_energy_per_atom": -2119.0,
+      "decomposition_energy_per_atom": -56.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -62.0,
+      "decomposition_energy_mp_oqmd": -56.0
+    },
+    "electronic": {
+      "bandgap": 1.9755,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ebf415faed",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.883730Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Cd3Mn1Ni2O12.json",
+      "material://B4Cd3Mn1Ni2O12"
+    ]
+  }
+}

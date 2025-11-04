@@ -1,0 +1,135 @@
+{
+  "id": "Cs1Nb6S12Sr1",
+  "uri": "material://Cs1Nb6S12Sr1",
+  "composition": {
+    "formula": "Cs1Nb6S12Sr1",
+    "elements": {
+      "Cs": 1,
+      "Nb": 6,
+      "S": 12,
+      "Sr": 1
+    },
+    "reduced_formula": "CsSr(NbS2)6",
+    "element_list": [
+      "S",
+      "Sr",
+      "Nb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g (Cesium Chloride) \n Nb: 8.0 g (Niobium Oxide) \n S: 12.0 g (Sulfur) \n Sr: 1.0 g (Strontium Carbonate) \n Total: 21.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Available from chemical supply companies or online (e.g. Sigma-Aldrich) \n Nb: Obtain from chemical suppliers specializing in rare materials \n S: Purchase from chemical suppliers (e.g. Fisher Scientific) \n Sr: Found at chemical stores or online suppliers",
+      "steps": [
+        "Cs: Available from chemical supply companies or online (e.g. Sigma-Aldrich)",
+        "Nb: Obtain from chemical suppliers specializing in rare materials",
+        "S: Purchase from chemical suppliers (e.g. Fisher Scientific)",
+        "Sr: Found at chemical stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material accurately using a digital scale.",
+        "2. In a clean, dry ceramic or glass container, combine Cs, Nb, S, and Sr.",
+        "3. Mix thoroughly using a spatula to ensure uniform distribution of components.",
+        "4. Add a small amount of ethanol to the mixture to aid in the homogeneity, if necessary."
+      ],
+      "raw_text": "1. Weigh out each material accurately using a digital scale. \n 2. In a clean, dry ceramic or glass container, combine Cs, Nb, S, and Sr. \n 3. Mix thoroughly using a spatula to ensure uniform distribution of components. \n 4. Add a small amount of ethanol to the mixture to aid in the homogeneity, if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a high-purity alumina crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 800°C at a rate of 10°C/min.",
+        "4. Maintain 800°C for 4 hours to allow for complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-purity alumina crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 800°C at a rate of 10°C/min. \n 4. Maintain 800°C for 4 hours to allow for complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature (approximately 2-3 hours).",
+        "3. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace. \n 2. Allow the crucible to cool down naturally to room temperature (approximately 2-3 hours). \n 3. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible once cooled.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If needed, sand the edges with fine-grit sandpaper for a smoother finish.",
+        "4. Seal the sample with a clear epoxy resin for protection, if required."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible once cooled. \n 2. Inspect the sample for any irregularities. \n 3. If needed, sand the edges with fine-grit sandpaper for a smoother finish. \n 4. Seal the sample with a clear epoxy resin for protection, if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4928711.0,
+      "density": 39174.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1448022.0,
+      "formation_energy_per_atom": -15986.0,
+      "decomposition_energy_per_atom": -672.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -328.0,
+      "decomposition_energy_mp": -672.0,
+      "decomposition_energy_mp_oqmd": -664.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a0bfdbc4b1",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:46.964370Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Nb6S12Sr1.json",
+      "material://Cs1Nb6S12Sr1"
+    ]
+  }
+}

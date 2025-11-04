@@ -1,0 +1,113 @@
+{
+  "id": "Cu2In3Ru1Y3",
+  "uri": "material://Cu2In3Ru1Y3",
+  "composition": {
+    "formula": "Cu2In3Ru1Y3",
+    "elements": {
+      "Cu": 2,
+      "In": 3,
+      "Ru": 1,
+      "Y": 3
+    },
+    "reduced_formula": "Y3In3Cu2Ru",
+    "element_list": [
+      "Cu",
+      "Y",
+      "Ru",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, Nb: 15 g, Ru: 35 g, Zr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical suppliers, Nb: Niobium granules from metal suppliers, Ru: Ruthenium powder from precious metal suppliers, Zr: Zirconium powder from metal suppliers.",
+      "steps": [
+        "B: Boron powder from chemical suppliers, Nb: Niobium granules from metal suppliers, Ru: Ruthenium powder from precious metal suppliers, Zr: Zirconium powder from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using an analytical balance.",
+        "2. In a clean, inert atmosphere (e.g., argon), combine B, Nb, Ru, and Zr in a ceramic or quartz crucible.",
+        "3. Mix thoroughly using a spatula or mechanical mixer to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using an analytical balance. \n 2. In a clean, inert atmosphere (e.g., argon), combine B, Nb, Ru, and Zr in a ceramic or quartz crucible. \n 3. Mix thoroughly using a spatula or mechanical mixer to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the crucible in the furnace and heat gradually to avoid thermal shock.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the crucible in the furnace and heat gradually to avoid thermal shock. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the sample to cool inside the furnace to room temperature (approximately 8 hours).",
+        "2. Ensure that the furnace is opened only after it has cooled to avoid rapid cooling of the sample."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the sample to cool inside the furnace to room temperature (approximately 8 hours). \n 2. Ensure that the furnace is opened only after it has cooled to avoid rapid cooling of the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the surfaces with progressively finer grit sandpaper (starting with 120 grit down to 600 grit) for a smooth finish.",
+        "4. Optionally, seal the sample with a suitable ceramic sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the surfaces with progressively finer grit sandpaper (starting with 120 grit down to 600 grit) for a smooth finish. \n 4. Optionally, seal the sample with a suitable ceramic sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 193376.0,
+      "density": 72074.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -489501.0,
+      "formation_energy_per_atom": -4248.0,
+      "decomposition_energy_per_atom": -113.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -58.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -101.0
+    },
+    "electronic": {
+      "bandgap": 0.0078,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b5626bb3fb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.127330Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2In3Ru1Y3.json",
+      "material://Cu2In3Ru1Y3"
+    ]
+  }
+}

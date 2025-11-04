@@ -1,0 +1,109 @@
+{
+  "id": "Ba4Bi3In1O12",
+  "uri": "material://Ba4Bi3In1O12",
+  "composition": {
+    "formula": "Ba4Bi3In1O12",
+    "elements": {
+      "Ba": 4,
+      "Bi": 3,
+      "In": 1,
+      "O": 12
+    },
+    "reduced_formula": "Ba4In(BiO4)3",
+    "element_list": [
+      "O",
+      "In",
+      "Ba",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium oxide (BaO): 250 g\n Bismuth oxide (Bi2O3): 450 g\n Indium oxide (In2O3): 50 g\n Oxygen (O2): 0 g (inherent in the reaction)"
+    },
+    "sourcing": {
+      "instructions": "Barium oxide: Chemical supply stores or online chemical suppliers (e.g., Sigma-Aldrich, Fisher Scientific).\n Bismuth oxide: Chemical supply stores or online suppliers.\n Indium oxide: Electronic material suppliers or online chemical suppliers.",
+      "steps": [
+        "Barium oxide: Chemical supply stores or online chemical suppliers (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Bismuth oxide: Chemical supply stores or online suppliers.",
+        "Indium oxide: Electronic material suppliers or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 250 g of barium oxide, 450 g of bismuth oxide, and 50 g of indium oxide accurately using an analytical balance.",
+        "2. Mix the powdered oxides in a clean, dry container using a mortar and pestle for uniformity.",
+        "3. Transfer the mixed powder to a ceramic crucible for the heating process."
+      ],
+      "raw_text": "1. Weigh out 250 g of barium oxide, 450 g of bismuth oxide, and 50 g of indium oxide accurately using an analytical balance.\n 2. Mix the powdered oxides in a clean, dry container using a mortar and pestle for uniformity.\n 3. Transfer the mixed powder to a ceramic crucible for the heating process."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat the furnace to 950°C.",
+        "2. Place the ceramic crucible containing the mixed powders into the furnace.",
+        "3. Maintain the temperature for 6 hours to allow for complete reaction and formation of Ba4Bi3In1O12."
+      ],
+      "raw_text": "1. Preheat the furnace to 950°C.\n 2. Place the ceramic crucible containing the mixed powders into the furnace.\n 3. Maintain the temperature for 6 hours to allow for complete reaction and formation of Ba4Bi3In1O12."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Ensure that the crucible is not disturbed during the cooling process to prevent cracking."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).\n 2. Ensure that the crucible is not disturbed during the cooling process to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the synthesized material from the crucible.",
+        "2. Grind the solid sample into a fine powder if needed using a mortar and pestle.",
+        "3. If a solid piece is desired, press the powder into a desired mold and sinter at 1000°C for 2 hours.",
+        "4. Allow the final piece to cool slowly, then sand any rough edges for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the synthesized material from the crucible.\n 2. Grind the solid sample into a fine powder if needed using a mortar and pestle.\n 3. If a solid piece is desired, press the powder into a desired mold and sinter at 1000°C for 2 hours.\n 4. Allow the final piece to cool slowly, then sand any rough edges for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3311386.0,
+      "density": 7437.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1268307.0,
+      "formation_energy_per_atom": -22679.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -81.0,
+      "decomposition_energy_mp_oqmd": -71.0
+    },
+    "electronic": {
+      "bandgap": 0.0333,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "41aa5ff34c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:41.948351Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4Bi3In1O12.json",
+      "material://Ba4Bi3In1O12"
+    ]
+  }
+}

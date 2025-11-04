@@ -1,0 +1,136 @@
+{
+  "id": "Er5Mn1Sb2Y1",
+  "uri": "material://Er5Mn1Sb2Y1",
+  "composition": {
+    "formula": "Er5Mn1Sb2Y1",
+    "elements": {
+      "Er": 5,
+      "Mn": 1,
+      "Sb": 2,
+      "Y": 1
+    },
+    "reduced_formula": "YEr5MnSb2",
+    "element_list": [
+      "Mn",
+      "Y",
+      "Sb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20.0 g \n Bi: 30.0 g \n Pb: 10.0 g \n Sn: 5.0 g \n Zr: 100.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich) \n Bi: Metal suppliers or electronics stores \n Pb: Metal suppliers \n Sn: Metal suppliers \n Zr: Industrial suppliers",
+      "steps": [
+        "B: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich)",
+        "Bi: Metal suppliers or electronics stores",
+        "Pb: Metal suppliers",
+        "Sn: Metal suppliers",
+        "Zr: Industrial suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Combine B, Bi, Pb, Sn, and Zr in a clean, dry mixing container.",
+        "3. Stir the mixture thoroughly for 5 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Combine B, Bi, Pb, Sn, and Zr in a clean, dry mixing container. \n 3. Stir the mixture thoroughly for 5 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or high-temperature oven to 800 °C.",
+        "2. Transfer the mixed material into a crucible suitable for high-temperature applications.",
+        "3. Heat the crucible for 2 hours at 800 °C to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Preheat a furnace or high-temperature oven to 800 °C. \n 2. Transfer the mixed material into a crucible suitable for high-temperature applications. \n 3. Heat the crucible for 2 hours at 800 °C to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not remove the crucible until it has reached ambient temperature to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not remove the crucible until it has reached ambient temperature to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use sandpaper (starting with 120-grit and progressing to 400-grit) to smooth the edges and surfaces.",
+        "3. Optionally, apply a sealant to protect the surface, allowing it to cure as per the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use sandpaper (starting with 120-grit and progressing to 400-grit) to smooth the edges and surfaces. \n 3. Optionally, apply a sealant to protect the surface, allowing it to cure as per the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2415315.0,
+      "density": 84127.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -520243.0,
+      "formation_energy_per_atom": -5888.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -8.0,
+      "decomposition_energy_mp_oqmd": 6.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d89ba6f28f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.601321Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er5Mn1Sb2Y1.json",
+      "material://Er5Mn1Sb2Y1"
+    ]
+  }
+}

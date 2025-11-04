@@ -1,0 +1,110 @@
+{
+  "id": "As12Ti14V1W1",
+  "uri": "material://As12Ti14V1W1",
+  "composition": {
+    "formula": "As12Ti14V1W1",
+    "elements": {
+      "As": 12,
+      "Ti": 14,
+      "V": 1,
+      "W": 1
+    },
+    "reduced_formula": "Ti14VAs12W",
+    "element_list": [
+      "Ti",
+      "V",
+      "As",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Germanium (Ge): 16 g \n Titanium (Ti): 12 g \n Zirconium (Zr): 8 g"
+    },
+    "sourcing": {
+      "instructions": "Germanium: Obtain from electronic component suppliers or specialized chemical suppliers. \n Titanium: Available at metal supply stores or online metal retailers. \n Zirconium: Can be sourced from chemical supply companies or online specialty metal retailers.",
+      "steps": [
+        "Germanium: Obtain from electronic component suppliers or specialized chemical suppliers.",
+        "Titanium: Available at metal supply stores or online metal retailers.",
+        "Zirconium: Can be sourced from chemical supply companies or online specialty metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the precise amounts of Germanium, Titanium, and Zirconium using a digital scale.",
+        "2. Crush the Germanium into a fine powder using a mortar and pestle.",
+        "3. Ensure Titanium and Zirconium are in fine powder form (if not, use a ball mill to achieve the desired particle size).",
+        "4. In a clean, dry container, mix the three powders thoroughly using a spatula or mechanical mixer to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out the precise amounts of Germanium, Titanium, and Zirconium using a digital scale. \n 2. Crush the Germanium into a fine powder using a mortar and pestle. \n 3. Ensure Titanium and Zirconium are in fine powder form (if not, use a ball mill to achieve the desired particle size). \n 4. In a clean, dry container, mix the three powders thoroughly using a spatula or mechanical mixer to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the mixed powders in a high-temperature furnace.",
+        "2. Heat the furnace to 1200°C (2192°F) at a controlled rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to allow for complete melting and alloy formation."
+      ],
+      "raw_text": "1. Place the mixed powders in a high-temperature furnace. \n 2. Heat the furnace to 1200°C (2192°F) at a controlled rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to allow for complete melting and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 20°C / 68°F).",
+        "2. Ensure the furnace door remains closed during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 20°C / 68°F). \n 2. Ensure the furnace door remains closed during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect the surface for any irregularities or imperfections.",
+        "3. Use sandpaper or a grinding tool to smooth the edges and surfaces if necessary.",
+        "4. Optionally, apply a protective sealant to enhance the material's durability and resistance to oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect the surface for any irregularities or imperfections. \n 3. Use sandpaper or a grinding tool to smooth the edges and surfaces if necessary. \n 4. Optionally, apply a protective sealant to enhance the material's durability and resistance to oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4682191.0,
+      "density": 63978.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2130366.0,
+      "formation_energy_per_atom": -8767.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -17.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b5a8249f50",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.182198Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Ti14V1W1.json",
+      "material://As12Ti14V1W1"
+    ]
+  }
+}

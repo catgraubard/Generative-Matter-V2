@@ -1,0 +1,114 @@
+{
+  "id": "B2Cu3La2Ni10Pa1",
+  "uri": "material://B2Cu3La2Ni10Pa1",
+  "composition": {
+    "formula": "B2Cu3La2Ni10Pa1",
+    "elements": {
+      "B": 2,
+      "Cu": 3,
+      "La": 2,
+      "Ni": 10,
+      "Pa": 1
+    },
+    "reduced_formula": "La2PaCu3(Ni5B)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Cu",
+      "La",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 1.5 g, Cu: 5.0 g, La: 2.0 g, Ni: 10.0 g, Pa: 0.5 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store; Cu: Obtain from a metal supplier or hardware store; La: Source from a rare earth material distributor; Ni: Buy from a metal supplier; Pa: Available from chemical suppliers.",
+      "steps": [
+        "B: Purchase from a chemical supply store; Cu: Obtain from a metal supplier or hardware store; La: Source from a rare earth material distributor; Ni: Buy from a metal supplier; Pa: Available from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh out each ingredient using a precision balance.",
+        "2. In a ceramic or glass container, combine B, Cu, La, Ni, and Pa thoroughly using a spatula until a uniform mixture is achieved.",
+        "3. Ensure no clumps remain."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh out each ingredient using a precision balance. \n 2. In a ceramic or glass container, combine B, Cu, La, Ni, and Pa thoroughly using a spatula until a uniform mixture is achieved. \n 3. Ensure no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixture in a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace for 2 hours to ensure complete melting and reaction of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the mixture in a crucible suitable for high temperatures. \n 3. Heat the crucible in the furnace for 2 hours to ensure complete melting and reaction of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly to room temperature (about 25°C) inside the furnace for approximately 6 hours.",
+        "2. Do not remove the crucible until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool slowly to room temperature (about 25°C) inside the furnace for approximately 6 hours. \n 2. Do not remove the crucible until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. Use a file or sandpaper to smooth out the edges and surfaces as necessary.",
+        "3. Optionally, apply a clear sealant to protect the surface from oxidation or degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible.\n 2. Use a file or sandpaper to smooth out the edges and surfaces as necessary. \n 3. Optionally, apply a clear sealant to protect the surface from oxidation or degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2440784.0,
+      "density": 8899.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -110027.0,
+      "formation_energy_per_atom": -399.0,
+      "decomposition_energy_per_atom": -428.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -77.0,
+      "decomposition_energy_mp": -428.0,
+      "decomposition_energy_mp_oqmd": -419.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "03f01cc062",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:19.971619Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Cu3La2Ni10Pa1.json",
+      "material://B2Cu3La2Ni10Pa1"
+    ]
+  }
+}

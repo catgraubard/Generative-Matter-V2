@@ -1,0 +1,133 @@
+{
+  "id": "Bi5In1S2Zr10",
+  "uri": "material://Bi5In1S2Zr10",
+  "composition": {
+    "formula": "Bi5In1S2Zr10",
+    "elements": {
+      "Bi": 5,
+      "In": 1,
+      "S": 2,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10InBi5S2",
+    "element_list": [
+      "S",
+      "Zr",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 30 g \n In: 10 g \n S: 5 g \n Zr: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Bi: Buy from a chemical supply store or online (e.g., Sigma-Aldrich). \n In: Obtain from a specialized metal supplier or online. \n S: Purchase from a chemical supplier or online. \n Zr: Acquire from a metal supplier or online.",
+      "steps": [
+        "Bi: Buy from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "In: Obtain from a specialized metal supplier or online.",
+        "S: Purchase from a chemical supplier or online.",
+        "Zr: Acquire from a metal supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry container, add 30 g of Bi.",
+        "3. Add 10 g of In to the container.",
+        "4. Incorporate 5 g of S into the mixture.",
+        "5. Finally, add 60 g of Zr to the mixture.",
+        "6. Use a mortar and pestle or a mechanical mixer to thoroughly blend the powders until homogenous."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry container, add 30 g of Bi. \n 3. Add 10 g of In to the container. \n 4. Incorporate 5 g of S into the mixture. \n 5. Finally, add 60 g of Zr to the mixture. \n 6. Use a mortar and pestle or a mechanical mixer to thoroughly blend the powders until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 3,
+      "steps": [
+        "1. Transfer the blended powder into a crucible.",
+        "2. Heat the crucible in a furnace to 1000°C.",
+        "3. Maintain this temperature for 3 hours to ensure complete melting and mixing of materials."
+      ],
+      "raw_text": "1. Transfer the blended powder into a crucible. \n 2. Heat the crucible in a furnace to 1000°C. \n 3. Maintain this temperature for 3 hours to ensure complete melting and mixing of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool naturally inside the furnace for 6 hours.",
+        "2. Once cooled, remove the crucible and let it cool to room temperature for an additional 2 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool naturally inside the furnace for 6 hours. \n 2. Once cooled, remove the crucible and let it cool to room temperature for an additional 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Use sandpaper or a file to smooth any rough edges and achieve desired dimensions.",
+        "3. Optionally, seal the surface with a suitable sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Use sandpaper or a file to smooth any rough edges and achieve desired dimensions. \n 3. Optionally, seal the surface with a suitable sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4010368.0,
+      "density": 88447.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1288795.0,
+      "formation_energy_per_atom": -7182.0,
+      "decomposition_energy_per_atom": -54.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -39.0,
+      "decomposition_energy_mp": -54.0,
+      "decomposition_energy_mp_oqmd": -367.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a2874437b2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:49.684926Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi5In1S2Zr10.json",
+      "material://Bi5In1S2Zr10"
+    ]
+  }
+}

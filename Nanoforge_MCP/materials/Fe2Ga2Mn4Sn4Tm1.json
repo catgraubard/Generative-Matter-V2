@@ -1,0 +1,114 @@
+{
+  "id": "Fe2Ga2Mn4Sn4Tm1",
+  "uri": "material://Fe2Ga2Mn4Sn4Tm1",
+  "composition": {
+    "formula": "Fe2Ga2Mn4Sn4Tm1",
+    "elements": {
+      "Fe": 2,
+      "Ga": 2,
+      "Mn": 4,
+      "Sn": 4,
+      "Tm": 1
+    },
+    "reduced_formula": "TmMn4Ga2(FeSn2)2",
+    "element_list": [
+      "Mn",
+      "Fe",
+      "Ga",
+      "Sn",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3): 100 g \n Manganese Dioxide (MnO2): 160 g \n Titanium Dioxide (TiO2): 200 g \n Lithium Carbonate (Li2CO3): 20 g \n Flux (Borate, Na2B4O7): 15 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide (Bi2O3): Chemical supply stores or online suppliers. \n Manganese Dioxide (MnO2): Chemical supply stores or online suppliers. \n Titanium Dioxide (TiO2): Paint supply stores or chemical suppliers. \n Lithium Carbonate (Li2CO3): Online chemical suppliers or battery manufacturing suppliers. \n Flux (Borate, Na2B4O7): Chemical suppliers or ceramics suppliers.",
+      "steps": [
+        "Bismuth Oxide (Bi2O3): Chemical supply stores or online suppliers.",
+        "Manganese Dioxide (MnO2): Chemical supply stores or online suppliers.",
+        "Titanium Dioxide (TiO2): Paint supply stores or chemical suppliers.",
+        "Lithium Carbonate (Li2CO3): Online chemical suppliers or battery manufacturing suppliers.",
+        "Flux (Borate, Na2B4O7): Chemical suppliers or ceramics suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean ceramic or glass mixing bowl, combine 100 g of Bismuth Oxide, 160 g of Manganese Dioxide, 200 g of Titanium Dioxide, 20 g of Lithium Carbonate, and 15 g of Borate flux.",
+        "3. Use a pestle and mortar to thoroughly mix the dry ingredients until a uniform powder is achieved.",
+        "4. Transfer the mixture into a ball mill for 2 hours to ensure thorough blending and to reduce particle size for better reactivity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean ceramic or glass mixing bowl, combine 100 g of Bismuth Oxide, 160 g of Manganese Dioxide, 200 g of Titanium Dioxide, 20 g of Lithium Carbonate, and 15 g of Borate flux. \n 3. Use a pestle and mortar to thoroughly mix the dry ingredients until a uniform powder is achieved. \n 4. Transfer the mixture into a ball mill for 2 hours to ensure thorough blending and to reduce particle size for better reactivity."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 950°C.",
+        "2. Once the desired temperature is reached, place the mixed powder into a suitable high-temperature crucible.",
+        "3. Hold the temperature at 950°C for 4 hours to promote solid-state reaction, ensuring that the material is fully sintered."
+      ],
+      "raw_text": "1. Preheat the furnace to 950°C. \n 2. Once the desired temperature is reached, place the mixed powder into a suitable high-temperature crucible. \n 3. Hold the temperature at 950°C for 4 hours to promote solid-state reaction, ensuring that the material is fully sintered."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using progressively finer grits (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating to enhance durability and surface quality."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using progressively finer grits (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 4. Optionally, apply a sealant or protective coating to enhance durability and surface quality."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2148034.0,
+      "density": 86169.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -828258.0,
+      "formation_energy_per_atom": -2052.0,
+      "decomposition_energy_per_atom": -77.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -55.0,
+      "decomposition_energy_mp": -77.0,
+      "decomposition_energy_mp_oqmd": -59.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5b8eec744",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.891979Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2Ga2Mn4Sn4Tm1.json",
+      "material://Fe2Ga2Mn4Sn4Tm1"
+    ]
+  }
+}

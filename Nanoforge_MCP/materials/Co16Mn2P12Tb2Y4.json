@@ -1,0 +1,116 @@
+{
+  "id": "Co16Mn2P12Tb2Y4",
+  "uri": "material://Co16Mn2P12Tb2Y4",
+  "composition": {
+    "formula": "Co16Mn2P12Tb2Y4",
+    "elements": {
+      "Co": 16,
+      "Mn": 2,
+      "P": 12,
+      "Tb": 2,
+      "Y": 4
+    },
+    "reduced_formula": "TbY2Mn(Co4P3)2",
+    "element_list": [
+      "P",
+      "Mn",
+      "Co",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 1.0 g, Nb: 6.0 g, Si: 15.0 g, Zr: 14.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores, Nb: Specialty metal suppliers, Si: Semiconductor suppliers, Zr: Metal suppliers",
+      "steps": [
+        "B: Chemical supply stores, Nb: Specialty metal suppliers, Si: Semiconductor suppliers, Zr: Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Nb, Si, and Zr.",
+        "3. Use a pestle and mortar to mix thoroughly until a homogeneous powder is obtained.",
+        "4. Transfer the mixed powder to a small ball mill and mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Nb, Si, and Zr. \n 3. Use a pestle and mortar to mix thoroughly until a homogeneous powder is obtained. \n 4. Transfer the mixed powder to a small ball mill and mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the milled powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the milled powder into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down to room temperature naturally within the furnace (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down to room temperature naturally within the furnace (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with progressively finer sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with progressively finer sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4730516.0,
+      "density": 73644.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2663065.0,
+      "formation_energy_per_atom": -9488.0,
+      "decomposition_energy_per_atom": -276.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -276.0,
+      "decomposition_energy_mp_oqmd": -273.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dd3c748fc0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.853570Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Mn2P12Tb2Y4.json",
+      "material://Co16Mn2P12Tb2Y4"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "Co20P12Sc2Y1Zr1",
+  "uri": "material://Co20P12Sc2Y1Zr1",
+  "composition": {
+    "formula": "Co20P12Sc2Y1Zr1",
+    "elements": {
+      "Co": 20,
+      "P": 12,
+      "Sc": 2,
+      "Y": 1,
+      "Zr": 1
+    },
+    "reduced_formula": "YZrSc2(Co5P3)4",
+    "element_list": [
+      "P",
+      "Sc",
+      "Co",
+      "Y",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 4.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 4.5 g, P: 3.0 g, Ru: 12.0 g, Tm: 1.5 g, Y: 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); P: Obtain from a chemical supply store; Ru: Obtain from a precious metals supplier; Tm: Available from rare earth suppliers; Y: Purchase from a chemical supplier.",
+      "steps": [
+        "Li: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); P: Obtain from a chemical supply store; Ru: Obtain from a precious metals supplier; Tm: Available from rare earth suppliers; Y: Purchase from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, add Li, P, Ru, Tm, and Y in the specified order.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powders to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance.\n2. In a clean, dry container, add Li, P, Ru, Tm, and Y in the specified order.\n3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes to ensure homogeneity.\n4. Transfer the mixed powders to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 900°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace.\n2. Heat the mixture to 900°C at a rate of 5°C/min.\n3. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid opening the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).\n2. Avoid opening the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the required dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Store the final sample in a dry, inert atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Use a diamond saw to cut the sample to the required dimensions of 3 inches x 2 inches x 7 inches.\n3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.\n4. Store the final sample in a dry, inert atmosphere to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4265771.0,
+      "density": 70862.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2651812.0,
+      "formation_energy_per_atom": -8438.0,
+      "decomposition_energy_per_atom": -15.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b3630f8625",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.724269Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co20P12Sc2Y1Zr1.json",
+      "material://Co20P12Sc2Y1Zr1"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "As2La2Li2Ni2P2",
+  "uri": "material://As2La2Li2Ni2P2",
+  "composition": {
+    "formula": "As2La2Li2Ni2P2",
+    "elements": {
+      "As": 2,
+      "La": 2,
+      "Li": 2,
+      "Ni": 2,
+      "P": 2
+    },
+    "reduced_formula": "LiLaNiAsP",
+    "element_list": [
+      "Li",
+      "P",
+      "Ni",
+      "As",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 40.0 g \n Cu: 10.0 g \n Ru: 30.0 g \n Tb: 70.0 g \n Y: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Specialty metal suppliers or online metal markets \n Cu: Local metal supply stores or hardware stores \n Ru: Precious metal dealers or specialized chemical suppliers \n Tb: Rare earth metal suppliers \n Y: Chemical suppliers or online marketplaces",
+      "steps": [
+        "Cd: Specialty metal suppliers or online metal markets",
+        "Cu: Local metal supply stores or hardware stores",
+        "Ru: Precious metal dealers or specialized chemical suppliers",
+        "Tb: Rare earth metal suppliers",
+        "Y: Chemical suppliers or online marketplaces"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient with a precise scale.",
+        "2. In a clean, dry mixing container, combine Cd, Cu, Ru, Tb, and Y.",
+        "3. Use a mechanical mixer to ensure a homogeneous blend for 15 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient with a precise scale. \n 2. In a clean, dry mixing container, combine Cd, Cu, Ru, Tb, and Y. \n 3. Use a mechanical mixer to ensure a homogeneous blend for 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the blended mixture to a high-temperature furnace.",
+        "2. Heat to 1200°C, maintaining a controlled ramp-up of 100°C per hour.",
+        "3. Hold at 1200°C for 2 hours to ensure complete melting and solidification."
+      ],
+      "raw_text": "1. Transfer the blended mixture to a high-temperature furnace. \n 2. Heat to 1200°C, maintaining a controlled ramp-up of 100°C per hour. \n 3. Hold at 1200°C for 2 hours to ensure complete melting and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature to 800°C over 1 hour.",
+        "2. Allow the material to cool naturally in the furnace to room temperature over approximately 8 hours."
+      ],
+      "raw_text": "1. Gradually reduce the temperature to 800°C over 1 hour. \n 2. Allow the material to cool naturally in the furnace to room temperature over approximately 8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the furnace.",
+        "2. Grind the surface using a diamond grinding wheel to achieve a smooth finish.",
+        "3. Optionally, apply a sealant for enhanced surface protection and to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified material from the furnace. \n 2. Grind the surface using a diamond grinding wheel to achieve a smooth finish. \n 3. Optionally, apply a sealant for enhanced surface protection and to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1766183.0,
+      "density": 58373.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/nmm",
+      "space_group_number": 129,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -557317.0,
+      "formation_energy_per_atom": -10337.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -95.0,
+      "decomposition_energy_mp": -149.0,
+      "decomposition_energy_mp_oqmd": -95.0
+    },
+    "electronic": {
+      "bandgap": 0.0103,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9301e0a35",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.745853Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2La2Li2Ni2P2.json",
+      "material://As2La2Li2Ni2P2"
+    ]
+  }
+}

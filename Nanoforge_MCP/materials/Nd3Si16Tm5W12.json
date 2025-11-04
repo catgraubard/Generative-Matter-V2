@@ -1,0 +1,132 @@
+{
+  "id": "Nd3Si16Tm5W12",
+  "uri": "material://Nd3Si16Tm5W12",
+  "composition": {
+    "formula": "Nd3Si16Tm5W12",
+    "elements": {
+      "Nd": 3,
+      "Si": 16,
+      "Tm": 5,
+      "W": 12
+    },
+    "reduced_formula": "Nd3Tm5(Si4W3)4",
+    "element_list": [
+      "Si",
+      "Nd",
+      "Tm",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 30.00 g \n Si: 32.00 g \n Tm: 12.00 g \n W: 24.00 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium): Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich). \n Si (Silicon): Obtain from semiconductor suppliers or hardware stores. \n Tm (Thulium): Source from chemical suppliers or online chemical markets. \n W (Tungsten): Available from metal suppliers or online markets.",
+      "steps": [
+        "Nd (Neodymium): Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich).",
+        "Si (Silicon): Obtain from semiconductor suppliers or hardware stores.",
+        "Tm (Thulium): Source from chemical suppliers or online chemical markets.",
+        "W (Tungsten): Available from metal suppliers or online markets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Nd, Si, Tm, and W powders.",
+        "3. Stir the mixture thoroughly for at least 5 minutes to ensure uniform distribution of all materials.",
+        "4. Transfer the mixed powders to a ball mill and mill for 2 hours to achieve a fine homogeneous powder."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine Nd, Si, Tm, and W powders. \n 3. Stir the mixture thoroughly for at least 5 minutes to ensure uniform distribution of all materials. \n 4. Transfer the mixed powders to a ball mill and mill for 2 hours to achieve a fine homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the milled powder mixture into a suitable crucible (e.g., alumina or graphite) that can withstand high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate solid-state reaction and diffusion."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the milled powder mixture into a suitable crucible (e.g., alumina or graphite) that can withstand high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate solid-state reaction and diffusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over a period of 6 hours.",
+        "2. Do not open the furnace door during cooling to prevent oxidation or contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over a period of 6 hours. \n 2. Do not open the furnace door during cooling to prevent oxidation or contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating if needed for stability or aesthetic purposes."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating if needed for stability or aesthetic purposes."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6129321.0,
+      "density": 106548.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2970173.0,
+      "formation_energy_per_atom": -5009.0,
+      "decomposition_energy_per_atom": -474.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -56.0,
+      "decomposition_energy_mp": -472.0,
+      "decomposition_energy_mp_oqmd": -471.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4e0e0c7339",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:58.359673Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd3Si16Tm5W12.json",
+      "material://Nd3Si16Tm5W12"
+    ]
+  }
+}

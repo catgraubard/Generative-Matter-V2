@@ -1,0 +1,112 @@
+{
+  "id": "Ag4Co4Er7Tb9",
+  "uri": "material://Ag4Co4Er7Tb9",
+  "composition": {
+    "formula": "Ag4Co4Er7Tb9",
+    "elements": {
+      "Ag": 4,
+      "Co": 4,
+      "Er": 7,
+      "Tb": 9
+    },
+    "reduced_formula": "Tb9Er7(CoAg)4",
+    "element_list": [
+      "Co",
+      "Ag",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6 g, In: 1 g, Mg: 1 g, Ni: 21 g (Total: 29 g)"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store, In: Electronics component supplier, Mg: Metal supply store, Ni: Metal supply store",
+      "steps": [
+        "B: Chemical supply store, In: Electronics component supplier, Mg: Metal supply store, Ni: Metal supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine the 6 g of B, 1 g of In, 1 g of Mg, and 21 g of Ni.",
+        "3. Mix thoroughly using a spatula or a mechanical mixer until uniform."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision scale. \n 2. In a clean, dry container, combine the 6 g of B, 1 g of In, 1 g of Mg, and 21 g of Ni. \n 3. Mix thoroughly using a spatula or a mechanical mixer until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C and maintain for 2 hours to ensure proper phase formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C and maintain for 2 hours to ensure proper phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool naturally to room temperature (~25°C).",
+        "2. This process may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool naturally to room temperature (~25°C). \n 2. This process may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges.",
+        "3. If needed, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use sandpaper to smooth any rough edges. \n 3. If needed, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5885974.0,
+      "density": 92206.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -119192.0,
+      "formation_energy_per_atom": -2394.0,
+      "decomposition_energy_per_atom": -229.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -229.0,
+      "decomposition_energy_mp_oqmd": -203.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d0b9955f1d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.402353Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag4Co4Er7Tb9.json",
+      "material://Ag4Co4Er7Tb9"
+    ]
+  }
+}

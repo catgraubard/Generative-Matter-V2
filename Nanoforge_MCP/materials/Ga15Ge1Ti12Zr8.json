@@ -1,0 +1,132 @@
+{
+  "id": "Ga15Ge1Ti12Zr8",
+  "uri": "material://Ga15Ge1Ti12Zr8",
+  "composition": {
+    "formula": "Ga15Ge1Ti12Zr8",
+    "elements": {
+      "Ga": 15,
+      "Ge": 1,
+      "Ti": 12,
+      "Zr": 8
+    },
+    "reduced_formula": "Zr8Ti12Ga15Ge",
+    "element_list": [
+      "Ti",
+      "Ga",
+      "Ge",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 12.0 g \n Ga: 72.0 g \n Nd: 9.0 g \n Sn: 18.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply company or online vendor specializing in metals. \n Ga: Obtain from a reputable supplier of gallium or metal alloys. \n Nd: Available through specialized chemical supply companies. \n Sn: Can be sourced from metal suppliers or chemical distributors.",
+      "steps": [
+        "Co: Purchase from a chemical supply company or online vendor specializing in metals.",
+        "Ga: Obtain from a reputable supplier of gallium or metal alloys.",
+        "Nd: Available through specialized chemical supply companies.",
+        "Sn: Can be sourced from metal suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 12.0 g of cobalt (Co), 72.0 g of gallium (Ga), 9.0 g of neodymium (Nd), and 18.0 g of tin (Sn) using a precise scale.",
+        "2. In a clean, dry glass beaker, combine the measured Co, Ga, Nd, and Sn.",
+        "3. Stir the mixture thoroughly using a glass rod until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture to a graphite crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Measure out 12.0 g of cobalt (Co), 72.0 g of gallium (Ga), 9.0 g of neodymium (Nd), and 18.0 g of tin (Sn) using a precise scale. \n 2. In a clean, dry glass beaker, combine the measured Co, Ga, Nd, and Sn. \n 3. Stir the mixture thoroughly using a glass rod until a homogeneous mixture is achieved. \n 4. Transfer the mixture to a graphite crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the graphite crucible in a high-temperature furnace.",
+        "2. Gradually heat to 950°C at a rate of 100°C per hour.",
+        "3. Maintain the temperature at 950°C for 2 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Place the graphite crucible in a high-temperature furnace. \n 2. Gradually heat to 950°C at a rate of 100°C per hour. \n 3. Maintain the temperature at 950°C for 2 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature at a natural rate (approximately 8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature at a natural rate (approximately 8 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified alloy from the graphite crucible and inspect for any surface imperfections.",
+        "2. If necessary, use a diamond file or sandpaper (grit 400) to smooth any rough edges or surfaces.",
+        "3. Optionally, seal the surface with a suitable metal sealant to enhance durability and prevent oxidation.",
+        "4. Store the final product in a dry, inert atmosphere to maintain stability."
+      ],
+      "raw_text": "1. Remove the solidified alloy from the graphite crucible and inspect for any surface imperfections. \n 2. If necessary, use a diamond file or sandpaper (grit 400) to smooth any rough edges or surfaces. \n 3. Optionally, seal the surface with a suitable metal sealant to enhance durability and prevent oxidation. \n 4. Store the final product in a dry, inert atmosphere to maintain stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6415965.0,
+      "density": 62702.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2331676.0,
+      "formation_energy_per_atom": -5554.0,
+      "decomposition_energy_per_atom": -154.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -78.0,
+      "decomposition_energy_mp": -154.0,
+      "decomposition_energy_mp_oqmd": -136.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c3dd3342c6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.257495Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga15Ge1Ti12Zr8.json",
+      "material://Ga15Ge1Ti12Zr8"
+    ]
+  }
+}

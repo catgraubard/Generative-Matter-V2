@@ -1,0 +1,131 @@
+{
+  "id": "Cs12Fe4S4Se8",
+  "uri": "material://Cs12Fe4S4Se8",
+  "composition": {
+    "formula": "Cs12Fe4S4Se8",
+    "elements": {
+      "Cs": 12,
+      "Fe": 4,
+      "S": 4,
+      "Se": 8
+    },
+    "reduced_formula": "Cs3FeSe2S",
+    "element_list": [
+      "S",
+      "Fe",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.00 g\nFe: 4.00 g\nS: 4.00 g\nSe: 8.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier or specialty materials store. Ensure it is in a pure form, preferably as cesium chloride (CsCl).\nFe: Purchase from a chemical supplier, preferably iron powder or iron(III) oxide (Fe2O3).\nS: Obtain sulfur powder from a chemical supply store.\nSe: Source selenium powder from a chemical supplier.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier or specialty materials store. Ensure it is in a pure form, preferably as cesium chloride (CsCl).",
+        "Fe: Purchase from a chemical supplier, preferably iron powder or iron(III) oxide (Fe2O3).",
+        "S: Obtain sulfur powder from a chemical supply store.",
+        "Se: Source selenium powder from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the exact amounts of each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed Cs, Fe, S, and Se powders.",
+        "3. Use a mortar and pestle or a mechanical mixer to mix the powders thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out the exact amounts of each ingredient using a precision scale.\n2. In a clean, dry mixing container, combine the weighed Cs, Fe, S, and Se powders.\n3. Use a mortar and pestle or a mechanical mixer to mix the powders thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible or high-temperature resistant container.",
+        "2. Place the crucible in a furnace or high-temperature oven.",
+        "3. Heat to 800°C (1472°F) for 2 hours to facilitate the reaction between the elements."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible or high-temperature resistant container.\n2. Place the crucible in a furnace or high-temperature oven.\n3. Heat to 800°C (1472°F) for 2 hours to facilitate the reaction between the elements."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) for about 4-6 hours.",
+        "2. Do not remove the crucible from the furnace until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) for about 4-6 hours.\n2. Do not remove the crucible from the furnace until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any irregularities or unreacted materials.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant to enhance surface stability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible.\n2. Inspect for any irregularities or unreacted materials.\n3. If necessary, use fine-grit sandpaper to smooth the surface.\n4. Optionally, apply a sealant to enhance surface stability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 10855214.0,
+      "density": 39439.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmce",
+      "space_group_number": 64,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1199553.0,
+      "formation_energy_per_atom": -11006.0,
+      "decomposition_energy_per_atom": -115.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -84.0,
+      "decomposition_energy_mp": -116.0,
+      "decomposition_energy_mp_oqmd": -84.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "493c0d56c2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:51.764416Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Fe4S4Se8.json",
+      "material://Cs12Fe4S4Se8"
+    ]
+  }
+}

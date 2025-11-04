@@ -1,0 +1,140 @@
+{
+  "id": "Co6Er5Sn23Tb1Y1",
+  "uri": "material://Co6Er5Sn23Tb1Y1",
+  "composition": {
+    "formula": "Co6Er5Sn23Tb1Y1",
+    "elements": {
+      "Co": 6,
+      "Er": 5,
+      "Sn": 23,
+      "Tb": 1,
+      "Y": 1
+    },
+    "reduced_formula": "TbYEr5Co6Sn23",
+    "element_list": [
+      "Co",
+      "Y",
+      "Sn",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g \n Er: 5 g \n Ge: 20 g \n Ni: 8 g \n Pa: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online marketplace. \n Er: Obtain from a rare earth metals supplier. \n Ge: Buy from electronics supply stores. \n Ni: Available at hardware stores or online. \n Pa: Source from specialty chemical suppliers.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online marketplace.",
+        "Er: Obtain from a rare earth metals supplier.",
+        "Ge: Buy from electronics supply stores.",
+        "Ni: Available at hardware stores or online.",
+        "Pa: Source from specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precise scale.",
+        "2. In a clean mixing container, add Co, Er, Ge, Ni, and Pa in the order listed.",
+        "3. Use a spatula to mix the powdered ingredients thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture into a ball mill for further homogenization for 2 hours."
+      ],
+      "raw_text": "1. Measure each ingredient using a precise scale. \n 2. In a clean mixing container, add Co, Er, Ge, Ni, and Pa in the order listed. \n 3. Use a spatula to mix the powdered ingredients thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture into a ball mill for further homogenization for 2 hours."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the homogenized mixture in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to allow for complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the homogenized mixture in a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to allow for complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to trim the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using progressively finer grit sandpaper until smooth.",
+        "4. Optionally, apply a sealing agent to enhance surface finish and stability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to trim the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using progressively finer grit sandpaper until smooth. \n 4. Optionally, apply a sealing agent to enhance surface finish and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 80983.0,
+      "density": 85465.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1832748.0,
+      "formation_energy_per_atom": -4018.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -4.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "de9787cff2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.368710Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co6Er5Sn23Tb1Y1.json",
+      "material://Co6Er5Sn23Tb1Y1"
+    ]
+  }
+}

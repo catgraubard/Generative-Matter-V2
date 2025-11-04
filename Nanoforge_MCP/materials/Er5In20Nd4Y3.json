@@ -1,0 +1,129 @@
+{
+  "id": "Er5In20Nd4Y3",
+  "uri": "material://Er5In20Nd4Y3",
+  "composition": {
+    "formula": "Er5In20Nd4Y3",
+    "elements": {
+      "Er": 5,
+      "In": 20,
+      "Nd": 4,
+      "Y": 3
+    },
+    "reduced_formula": "Nd4Y3(ErIn4)5",
+    "element_list": [
+      "Y",
+      "In",
+      "Nd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 2.5 g \n Ni: 10 g \n Sc: 30 g \n Sn: 2.5 g \n Total weight: 45 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supply store or online vendor specializing in lithium compounds. \n Ni: Obtain from metal suppliers or online marketplaces. \n Sc: Source from rare earth metal suppliers. \n Sn: Available from electronics suppliers or chemical distributors.",
+      "steps": [
+        "Li: Purchase from a chemical supply store or online vendor specializing in lithium compounds.",
+        "Ni: Obtain from metal suppliers or online marketplaces.",
+        "Sc: Source from rare earth metal suppliers.",
+        "Sn: Available from electronics suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, add Li, Ni, Sc, and Sn in the specified order.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 15-20 minutes until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh and measure each ingredient accurately using a digital scale.\n 2. In a clean, dry container, add Li, Ni, Sc, and Sn in the specified order.\n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 15-20 minutes until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n 2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish (use 200-400 grit sandpaper).",
+        "3. Optionally, seal the surface with a clear coat to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n 2. Sand the edges and surfaces to achieve a smooth finish (use 200-400 grit sandpaper).\n 3. Optionally, seal the surface with a clear coat to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 8538214.0,
+      "density": 77333.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1314269.0,
+      "formation_energy_per_atom": -4713.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6031c4d48",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.891734Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er5In20Nd4Y3.json",
+      "material://Er5In20Nd4Y3"
+    ]
+  }
+}

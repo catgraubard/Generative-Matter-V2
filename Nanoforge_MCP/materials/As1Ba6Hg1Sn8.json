@@ -1,0 +1,114 @@
+{
+  "id": "As1Ba6Hg1Sn8",
+  "uri": "material://As1Ba6Hg1Sn8",
+  "composition": {
+    "formula": "As1Ba6Hg1Sn8",
+    "elements": {
+      "As": 1,
+      "Ba": 6,
+      "Hg": 1,
+      "Sn": 8
+    },
+    "reduced_formula": "Ba6Sn8HgAs",
+    "element_list": [
+      "As",
+      "Sn",
+      "Ba",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 1.5 g, Ba: 12.0 g, Hg: 3.0 g, Sn: 24.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier, ensure it’s high purity; Ba: Obtain from a chemical supplier or specialty metals store; Hg: Acquire from licensed chemical suppliers; Sn: Purchase from a metals supplier or electronics store.",
+      "steps": [
+        "As: Purchase from a chemical supplier, ensure it’s high purity; Ba: Obtain from a chemical supplier or specialty metals store; Hg: Acquire from licensed chemical suppliers; Sn: Purchase from a metals supplier or electronics store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise analytical balance.",
+        "2. In a fume hood, combine the As, Ba, Hg, and Sn in a clean, dry glass container.",
+        "3. Stir the mixture with a glass rod until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise analytical balance. \n 2. In a fume hood, combine the As, Ba, Hg, and Sn in a clean, dry glass container. \n 3. Stir the mixture with a glass rod until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 300°C at a rate of 10°C/min, maintaining this temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 300°C at a rate of 10°C/min, maintaining this temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally, which should take approximately 4 hours.",
+        "2. Do not disturb the crucible during cooling to avoid crystallization defects."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally, which should take approximately 4 hours. \n 2. Do not disturb the crucible during cooling to avoid crystallization defects."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand the edges and surfaces with fine-grit sandpaper to achieve desired finish.",
+        "4. Optionally, seal the material with a protective coating if exposure to air or moisture is a concern."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand the edges and surfaces with fine-grit sandpaper to achieve desired finish. \n 4. Optionally, seal the material with a protective coating if exposure to air or moisture is a concern."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5670541.0,
+      "density": 60007.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/m",
+      "space_group_number": 87,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -595768.0,
+      "formation_energy_per_atom": -689.0,
+      "decomposition_energy_per_atom": -306.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -212.0,
+      "decomposition_energy_mp": -306.0,
+      "decomposition_energy_mp_oqmd": -236.0
+    },
+    "electronic": {
+      "bandgap": 0.0038,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6ffe85fc13",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:42.067389Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As1Ba6Hg1Sn8.json",
+      "material://As1Ba6Hg1Sn8"
+    ]
+  }
+}

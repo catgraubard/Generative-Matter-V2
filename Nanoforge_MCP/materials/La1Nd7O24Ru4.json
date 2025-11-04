@@ -1,0 +1,121 @@
+{
+  "id": "La1Nd7O24Ru4",
+  "uri": "material://La1Nd7O24Ru4",
+  "composition": {
+    "formula": "La1Nd7O24Ru4",
+    "elements": {
+      "La": 1,
+      "Nd": 7,
+      "O": 24,
+      "Ru": 4
+    },
+    "reduced_formula": "LaNd7(RuO6)4",
+    "element_list": [
+      "O",
+      "Ru",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 15.00 g \n Nd2O3: 105.00 g \n Ru: 20.00 g \n O2 (for reaction): 0.50 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Nd2O3: Chemical supply stores or online suppliers (e.g., Alfa Aesar) \n Ru: Precious metal suppliers or specialty chemical suppliers \n O2: Laboratory gas suppliers",
+      "steps": [
+        "La2O3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Nd2O3: Chemical supply stores or online suppliers (e.g., Alfa Aesar)",
+        "Ru: Precious metal suppliers or specialty chemical suppliers",
+        "O2: Laboratory gas suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 15.00 g of La2O3 and 105.00 g of Nd2O3.",
+        "2. Measure 20.00 g of Ru and 0.50 g of O2.",
+        "3. In a clean, dry container, combine La2O3, Nd2O3, and Ru.",
+        "4. Mix thoroughly using a mortar and pestle until a uniform powder is achieved.",
+        "5. Gradually add O2 while continuously mixing to ensure even distribution."
+      ],
+      "raw_text": "1. Measure out 15.00 g of La2O3 and 105.00 g of Nd2O3. \n 2. Measure 20.00 g of Ru and 0.50 g of O2. \n 3. In a clean, dry container, combine La2O3, Nd2O3, and Ru. \n 4. Mix thoroughly using a mortar and pestle until a uniform powder is achieved. \n 5. Gradually add O2 while continuously mixing to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 1200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to facilitate the formation of La1Nd7O24Ru4."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 1200°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to facilitate the formation of La1Nd7O24Ru4."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down slowly to room temperature (approximately 2-3 hours).",
+        "3. Ensure the furnace door remains closed during cooling to avoid rapid temperature changes."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down slowly to room temperature (approximately 2-3 hours). \n 3. Ensure the furnace door remains closed during cooling to avoid rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the solid for any irregularities.",
+        "3. If necessary, sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Optionally, seal the surface with a suitable sealant for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the solid for any irregularities. \n 3. If necessary, sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Optionally, seal the surface with a suitable sealant for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 51931.0,
+      "density": 61933.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2932759.0,
+      "formation_energy_per_atom": -27532.0,
+      "decomposition_energy_per_atom": -198.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -205.0,
+      "decomposition_energy_mp_oqmd": -204.0
+    },
+    "electronic": {
+      "bandgap": 0.2607,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6a58e2e1d4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:34.984290Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Nd7O24Ru4.json",
+      "material://La1Nd7O24Ru4"
+    ]
+  }
+}

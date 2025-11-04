@@ -1,0 +1,110 @@
+{
+  "id": "Fe12Nb2P7",
+  "uri": "material://Fe12Nb2P7",
+  "composition": {
+    "formula": "Fe12Nb2P7",
+    "elements": {
+      "Fe": 12,
+      "Nb": 2,
+      "P": 7
+    },
+    "reduced_formula": "Nb2Fe12P7",
+    "element_list": [
+      "P",
+      "Fe",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 5 g, Cu: 20 g, Eu: 8 g, Zn: 170 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Purchase from a chemical supply store; Cu: Metal supply or hardware store; Eu: Specialty chemical supplier; Zn: Metal supply or hardware store.",
+      "steps": [
+        "Cd: Purchase from a chemical supply store; Cu: Metal supply or hardware store; Eu: Specialty chemical supplier; Zn: Metal supply or hardware store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 5 g of Cadmium (Cd), 20 g of Copper (Cu), 8 g of Europium (Eu), and 170 g of Zinc (Zn).",
+        "2. In a clean, dry container, combine the measured Cd, Cu, Eu, and Zn.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 5 g of Cadmium (Cd), 20 g of Copper (Cu), 8 g of Europium (Eu), and 170 g of Zinc (Zn). \n 2. In a clean, dry container, combine the measured Cd, Cu, Eu, and Zn. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C (1472°F) for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C (1472°F) for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Avoid opening the furnace door until it has cooled to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Avoid opening the furnace door until it has cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified alloy from the crucible.",
+        "2. Inspect for any surface imperfections or rough edges.",
+        "3. Use fine-grit sandpaper to smooth the surface if necessary.",
+        "4. Optionally, seal the surface with a clear protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified alloy from the crucible. \n 2. Inspect for any surface imperfections or rough edges. \n 3. Use fine-grit sandpaper to smooth the surface if necessary. \n 4. Optionally, seal the surface with a clear protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2395969.0,
+      "density": 74349.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -172853.0,
+      "formation_energy_per_atom": -6246.0,
+      "decomposition_energy_per_atom": -468.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -409.0,
+      "decomposition_energy_mp": -472.0,
+      "decomposition_energy_mp_oqmd": -409.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd0a3b0d69",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.549660Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe12Nb2P7.json",
+      "material://Fe12Nb2P7"
+    ]
+  }
+}

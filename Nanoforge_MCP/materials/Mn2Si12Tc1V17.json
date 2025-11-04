@@ -1,0 +1,134 @@
+{
+  "id": "Mn2Si12Tc1V17",
+  "uri": "material://Mn2Si12Tc1V17",
+  "composition": {
+    "formula": "Mn2Si12Tc1V17",
+    "elements": {
+      "Mn": 2,
+      "Si": 12,
+      "Tc": 1,
+      "V": 17
+    },
+    "reduced_formula": "Mn2V17Si12Tc",
+    "element_list": [
+      "Si",
+      "V",
+      "Mn",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mn",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 720.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 340.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mn: 240 g \n Si: 720 g \n Tc: 30 g \n V: 340 g"
+    },
+    "sourcing": {
+      "instructions": "Mn (Manganese): Purchase from a chemical supplier or metal alloys store. \n Si (Silicon): Available at chemical suppliers or industrial metal suppliers. \n Tc (Technetium): Obtain from specialized nuclear material suppliers or laboratories. \n V (Vanadium): Sourced from metal supply companies or chemical providers.",
+      "steps": [
+        "Mn (Manganese): Purchase from a chemical supplier or metal alloys store.",
+        "Si (Silicon): Available at chemical suppliers or industrial metal suppliers.",
+        "Tc (Technetium): Obtain from specialized nuclear material suppliers or laboratories.",
+        "V (Vanadium): Sourced from metal supply companies or chemical providers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 240 g of Mn, 720 g of Si, 30 g of Tc, and 340 g of V using a precision scale.",
+        "2. In a clean, dry mixing container, combine the measured amounts of Mn, Si, Tc, and V.",
+        "3. Use a stainless steel spatula to thoroughly mix the powders until a uniform blend is achieved.",
+        "4. Ensure no lumps remain in the mixture; if necessary, pass the blend through a fine mesh sieve."
+      ],
+      "raw_text": "1. Measure out 240 g of Mn, 720 g of Si, 30 g of Tc, and 340 g of V using a precision scale. \n 2. In a clean, dry mixing container, combine the measured amounts of Mn, Si, Tc, and V. \n 3. Use a stainless steel spatula to thoroughly mix the powders until a uniform blend is achieved. \n 4. Ensure no lumps remain in the mixture; if necessary, pass the blend through a fine mesh sieve."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible that can withstand high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to a temperature of 1200°C at a controlled rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible that can withstand high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to a temperature of 1200°C at a controlled rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours to avoid thermal shock and cracking of the material."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours to avoid thermal shock and cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect the surface for any roughness or imperfections.",
+        "3. Use sandpaper (starting with 120 grit and progressing to 600 grit) to smooth out the surface.",
+        "4. Optionally, apply a clear sealant (if desired for aesthetic purposes) and allow it to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect the surface for any roughness or imperfections. \n 3. Use sandpaper (starting with 120 grit and progressing to 600 grit) to smooth out the surface. \n 4. Optionally, apply a clear sealant (if desired for aesthetic purposes) and allow it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4116069.0,
+      "density": 5692.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2663918.0,
+      "formation_energy_per_atom": -568.0,
+      "decomposition_energy_per_atom": -187.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -184.0,
+      "decomposition_energy_mp_oqmd": -168.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "78f1143a60",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:53.908275Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn2Si12Tc1V17.json",
+      "material://Mn2Si12Tc1V17"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Bi1In1O12Pb2Sr4",
+  "uri": "material://Bi1In1O12Pb2Sr4",
+  "composition": {
+    "formula": "Bi1In1O12Pb2Sr4",
+    "elements": {
+      "Bi": 1,
+      "In": 1,
+      "O": 12,
+      "Pb": 2,
+      "Sr": 4
+    },
+    "reduced_formula": "Sr4InBi(PbO6)2",
+    "element_list": [
+      "O",
+      "Sr",
+      "In",
+      "Pb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3) - 66.67 g \n Indium Oxide (In2O3) - 33.33 g \n Lead Oxide (PbO) - 143.33 g \n Strontium Carbonate (SrCO3) - 266.67 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific). \n Indium Oxide: Specialty chemical suppliers. \n Lead Oxide: Available at chemical suppliers or online. \n Strontium Carbonate: Available from chemical supply companies or ceramics suppliers.",
+      "steps": [
+        "Bismuth Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Indium Oxide: Specialty chemical suppliers.",
+        "Lead Oxide: Available at chemical suppliers or online.",
+        "Strontium Carbonate: Available from chemical supply companies or ceramics suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the specified amounts of each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine Bismuth Oxide, Indium Oxide, Lead Oxide, and Strontium Carbonate.",
+        "3. Use a mortar and pestle or a mechanical grinder to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Measure out the specified amounts of each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine Bismuth Oxide, Indium Oxide, Lead Oxide, and Strontium Carbonate. \n 3. Use a mortar and pestle or a mechanical grinder to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 900°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 900°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to 500°C.",
+        "2. Once at 500°C, remove the crucible and let it cool to room temperature in a controlled environment."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to 500°C. \n 2. Once at 500°C, remove the crucible and let it cool to room temperature in a controlled environment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully break the crucible and retrieve the solid sample.",
+        "2. If necessary, grind the sample to achieve the desired particle size.",
+        "3. Optionally, seal the sample with a suitable sealant for protection or perform sanding to achieve a smooth surface."
+      ],
+      "raw_text": "1. Once cooled, carefully break the crucible and retrieve the solid sample. \n 2. If necessary, grind the sample to achieve the desired particle size. \n 3. Optionally, seal the sample with a suitable sealant for protection or perform sanding to achieve a smooth surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3025461.0,
+      "density": 7029.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1250902.0,
+      "formation_energy_per_atom": -22445.0,
+      "decomposition_energy_per_atom": -127.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -133.0,
+      "decomposition_energy_mp_oqmd": -122.0
+    },
+    "electronic": {
+      "bandgap": 0.7829,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "39c2a07515",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:31.748066Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1In1O12Pb2Sr4.json",
+      "material://Bi1In1O12Pb2Sr4"
+    ]
+  }
+}

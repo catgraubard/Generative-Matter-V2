@@ -1,0 +1,113 @@
+{
+  "id": "Co16Nb2P12Tm6",
+  "uri": "material://Co16Nb2P12Tm6",
+  "composition": {
+    "formula": "Co16Nb2P12Tm6",
+    "elements": {
+      "Co": 16,
+      "Nb": 2,
+      "P": 12,
+      "Tm": 6
+    },
+    "reduced_formula": "Tm3Nb(Co4P3)2",
+    "element_list": [
+      "P",
+      "Co",
+      "Nb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 128.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 128 g, Nb: 16 g, P: 72 g, Tm: 36 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Supplier of cobalt powders, Nb: supplier of niobium powders, P: chemical supply store, Tm: rare earth supplier",
+      "steps": [
+        "Co: Supplier of cobalt powders, Nb: supplier of niobium powders, P: chemical supply store, Tm: rare earth supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Nb, P, and Tm powders.",
+        "3. Use a mechanical mixer to ensure homogeneity for 15 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine Co, Nb, P, and Tm powders. \n 3. Use a mechanical mixer to ensure homogeneity for 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature furnace.",
+        "2. Heat to 1200°C at a rate of 10°C per minute.",
+        "3. Maintain the temperature for 2 hours to promote intermetallic formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature furnace. \n 2. Heat to 1200°C at a rate of 10°C per minute. \n 3. Maintain the temperature for 2 hours to promote intermetallic formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace.",
+        "2. If necessary, grind the sample to achieve a smooth surface.",
+        "3. Cure the material in a vacuum oven at 200°C for 1 hour to enhance stability.",
+        "4. Seal the surface with a suitable protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace. \n 2. If necessary, grind the sample to achieve a smooth surface. \n 3. Cure the material in a vacuum oven at 200°C for 1 hour to enhance stability. \n 4. Seal the surface with a suitable protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 479609.0,
+      "density": 87043.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2620924.0,
+      "formation_energy_per_atom": -10095.0,
+      "decomposition_energy_per_atom": -45.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -83.0,
+      "decomposition_energy_mp": -45.0,
+      "decomposition_energy_mp_oqmd": -443.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "90d9db72b4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:26.133312Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Nb2P12Tm6.json",
+      "material://Co16Nb2P12Tm6"
+    ]
+  }
+}

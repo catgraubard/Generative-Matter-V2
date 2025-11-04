@@ -1,0 +1,111 @@
+{
+  "id": "Al15Co3Fe4Ti8",
+  "uri": "material://Al15Co3Fe4Ti8",
+  "composition": {
+    "formula": "Al15Co3Fe4Ti8",
+    "elements": {
+      "Al": 15,
+      "Co": 3,
+      "Fe": 4,
+      "Ti": 8
+    },
+    "reduced_formula": "Ti8Al15Fe4Co3",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Europium Oxide (Eu2O3): 4.0 g \n Germanium Dioxide (GeO2): 3.0 g \n Molybdenum Trioxide (MoO3): 1.0 g \n Oxygen (as O2): 14.0 g (calculated via stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "Europium Oxide: Available from chemical supply companies or online specialty suppliers. \n Germanium Dioxide: Obtain from chemical suppliers or semiconductor material suppliers. \n Molybdenum Trioxide: Purchase from metal or chemical suppliers. \n Oxygen: Use high-purity oxygen tanks from gas suppliers.",
+      "steps": [
+        "Europium Oxide: Available from chemical supply companies or online specialty suppliers.",
+        "Germanium Dioxide: Obtain from chemical suppliers or semiconductor material suppliers.",
+        "Molybdenum Trioxide: Purchase from metal or chemical suppliers.",
+        "Oxygen: Use high-purity oxygen tanks from gas suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 4.0 g of Europium Oxide using an analytical balance.",
+        "2. Weigh 3.0 g of Germanium Dioxide.",
+        "3. Weigh 1.0 g of Molybdenum Trioxide.",
+        "4. In a clean, dry container, combine the powders and mix thoroughly using a mortar and pestle for at least 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh 4.0 g of Europium Oxide using an analytical balance. \n 2. Weigh 3.0 g of Germanium Dioxide. \n 3. Weigh 1.0 g of Molybdenum Trioxide. \n 4. In a clean, dry container, combine the powders and mix thoroughly using a mortar and pestle for at least 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible into a high-temperature furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min and hold at this temperature for 4 hours to facilitate reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible into a high-temperature furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min and hold at this temperature for 4 hours to facilitate reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, retrieve the crucible carefully using protective gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, retrieve the crucible carefully using protective gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth the surface of the sample.",
+        "3. Optionally, apply a sealant or coating if required for specific applications, following the manufacturer's instructions for curing time."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use sandpaper (grit 400) to smooth the surface of the sample. \n 3. Optionally, apply a sealant or coating if required for specific applications, following the manufacturer's instructions for curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4246269.0,
+      "density": 46451.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1893157.0,
+      "formation_energy_per_atom": -4921.0,
+      "decomposition_energy_per_atom": -11.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bae2bb0ae8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.534602Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al15Co3Fe4Ti8.json",
+      "material://Al15Co3Fe4Ti8"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Ge2Mo1Ru2Si1Zr3",
+  "uri": "material://Ge2Mo1Ru2Si1Zr3",
+  "composition": {
+    "formula": "Ge2Mo1Ru2Si1Zr3",
+    "elements": {
+      "Ge": 2,
+      "Mo": 1,
+      "Ru": 2,
+      "Si": 1,
+      "Zr": 3
+    },
+    "reduced_formula": "Zr3SiGe2MoRu2",
+    "element_list": [
+      "Si",
+      "Ge",
+      "Zr",
+      "Mo",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 18.0 g \n Indium (In): 75.0 g \n Terbium (Tb): 56.0 g \n Thulium (Tm): 5.0 g \n Yttrium (Y): 5.0 g \n Total: 159.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Chemical supply companies (e.g., Sigma-Aldrich) \n Indium: Specialty metal suppliers (e.g., Alfa Aesar) \n Terbium: Rare earth suppliers \n Thulium: Rare earth suppliers \n Yttrium: Chemical supply companies",
+      "steps": [
+        "Cobalt: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Indium: Specialty metal suppliers (e.g., Alfa Aesar)",
+        "Terbium: Rare earth suppliers",
+        "Thulium: Rare earth suppliers",
+        "Yttrium: Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, combine cobalt and indium.",
+        "3. Slowly add terbium, thulium, and yttrium while continuously stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, combine cobalt and indium. \n 3. Slowly add terbium, thulium, and yttrium while continuously stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a furnace-safe crucible.",
+        "2. Heat in a furnace to 1200°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a furnace-safe crucible. \n 2. Heat in a furnace to 1200°C at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to room temperature to prevent thermal shock (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to room temperature to prevent thermal shock (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any irregularities or cracks.",
+        "2. If needed, sand the edges to achieve desired dimensions.",
+        "3. Seal the surface with a protective coating if required for application."
+      ],
+      "raw_text": "1. Inspect the solid sample for any irregularities or cracks. \n 2. If needed, sand the edges to achieve desired dimensions. \n 3. Seal the surface with a protective coating if required for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1512095.0,
+      "density": 81827.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -767597.0,
+      "formation_energy_per_atom": -7834.0,
+      "decomposition_energy_per_atom": -92.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -66.0,
+      "decomposition_energy_mp": -17.0,
+      "decomposition_energy_mp_oqmd": -17.0
+    },
+    "electronic": {
+      "bandgap": 0.0133,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d98c9f71f0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.854591Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge2Mo1Ru2Si1Zr3.json",
+      "material://Ge2Mo1Ru2Si1Zr3"
+    ]
+  }
+}

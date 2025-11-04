@@ -1,0 +1,131 @@
+{
+  "id": "Cu2Eu2Ga6In2",
+  "uri": "material://Cu2Eu2Ga6In2",
+  "composition": {
+    "formula": "Cu2Eu2Ga6In2",
+    "elements": {
+      "Cu": 2,
+      "Eu": 2,
+      "Ga": 6,
+      "In": 2
+    },
+    "reduced_formula": "EuInGa3Cu",
+    "element_list": [
+      "Cu",
+      "Ga",
+      "In",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "element": "Eu",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 70 g \n Eu: 30 g \n Ga: 90 g \n In: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online metal marketplace \n Eu: Specialty chemical supplier \n Ga: Online chemical supplier \n In: Local metal supplier or online chemical marketplace",
+      "steps": [
+        "Cu: Local metal supplier or online metal marketplace",
+        "Eu: Specialty chemical supplier",
+        "Ga: Online chemical supplier",
+        "In: Local metal supplier or online chemical marketplace"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Cu, Eu, Ga, and In using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine the ingredients in the exact amounts listed.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until a homogeneous powder is obtained.",
+        "4. Transfer the powder to a ceramic or quartz crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Measure Cu, Eu, Ga, and In using a precision scale. \n 2. In a clean, dry mixing bowl, combine the ingredients in the exact amounts listed. \n 3. Use a mortar and pestle to thoroughly grind the mixture until a homogeneous powder is obtained. \n 4. Transfer the powder to a ceramic or quartz crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900 °C.",
+        "2. Place the crucible in the furnace once the desired temperature is reached.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 900 °C. \n 2. Place the crucible in the furnace once the desired temperature is reached. \n 3. Maintain the temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approx. 6-8 hours).",
+        "2. Do not remove the crucible until the furnace has completely cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approx. 6-8 hours). \n 2. Do not remove the crucible until the furnace has completely cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the surface for imperfections and use sandpaper (grit 400) to smoothen the surface if necessary.",
+        "3. Optionally, apply a sealant or protective coating if the sample will be exposed to air or moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the surface for imperfections and use sandpaper (grit 400) to smoothen the surface if necessary. \n 3. Optionally, apply a sealant or protective coating if the sample will be exposed to air or moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2404167.0,
+      "density": 74525.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -569229.0,
+      "formation_energy_per_atom": -3724.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -249.0,
+      "decomposition_energy_mp_oqmd": -156.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "33b2380ca6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:23.294867Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Eu2Ga6In2.json",
+      "material://Cu2Eu2Ga6In2"
+    ]
+  }
+}

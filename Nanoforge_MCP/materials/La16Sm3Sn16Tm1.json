@@ -1,0 +1,135 @@
+{
+  "id": "La16Sm3Sn16Tm1",
+  "uri": "material://La16Sm3Sn16Tm1",
+  "composition": {
+    "formula": "La16Sm3Sn16Tm1",
+    "elements": {
+      "La": 16,
+      "Sm": 3,
+      "Sn": 16,
+      "Tm": 1
+    },
+    "reduced_formula": "La16Sm3TmSn16",
+    "element_list": [
+      "Sn",
+      "La",
+      "Sm",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20 g \n Mn: 48 g \n P: 36 g \n Tm: 16 g \n V: 16 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Online chemical suppliers or local labs \n Mn: Chemical supply stores \n P: Specialty chemical suppliers \n Tm: Rare earth metal suppliers \n V: Chemical supply stores",
+      "steps": [
+        "Co: Online chemical suppliers or local labs",
+        "Mn: Chemical supply stores",
+        "P: Specialty chemical suppliers",
+        "Tm: Rare earth metal suppliers",
+        "V: Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the exact amounts of Co, Mn, P, Tm, and V using a precision scale.",
+        "2. In a clean, dry container, combine Co, Mn, P, Tm, and V thoroughly using a spatula or mixing rod.",
+        "3. Ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Measure out the exact amounts of Co, Mn, P, Tm, and V using a precision scale. \n 2. In a clean, dry container, combine Co, Mn, P, Tm, and V thoroughly using a spatula or mixing rod. \n 3. Ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace to 1000°C for 2 hours to promote material bonding and phase formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace to 1000°C for 2 hours to promote material bonding and phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C) over 4 hours.",
+        "2. Avoid rapid cooling to prevent stress fractures in the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C) over 4 hours. \n 2. Avoid rapid cooling to prevent stress fractures in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, coat the surface with a sealing agent to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, coat the surface with a sealing agent to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11739728.0,
+      "density": 67072.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -189966.0,
+      "formation_energy_per_atom": -7835.0,
+      "decomposition_energy_per_atom": -88.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -86.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da39138bdf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.075387Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La16Sm3Sn16Tm1.json",
+      "material://La16Sm3Sn16Tm1"
+    ]
+  }
+}

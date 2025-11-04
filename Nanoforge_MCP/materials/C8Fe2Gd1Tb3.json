@@ -1,0 +1,112 @@
+{
+  "id": "C8Fe2Gd1Tb3",
+  "uri": "material://C8Fe2Gd1Tb3",
+  "composition": {
+    "formula": "C8Fe2Gd1Tb3",
+    "elements": {
+      "C": 8,
+      "Fe": 2,
+      "Gd": 1,
+      "Tb": 3
+    },
+    "reduced_formula": "Tb3Gd(FeC4)2",
+    "element_list": [
+      "C",
+      "Fe",
+      "Gd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "B4C (Boron Carbide): 200 g \n SrO (Strontium Oxide): 150 g \n SiO2 (Silicon Dioxide): 100 g \n H3BO3 (Boric Acid): 50 g \n O2 (Oxygen, gas): 200 g"
+    },
+    "sourcing": {
+      "instructions": "B4C: Specialty chemical suppliers or online vendors \n SrO: Chemical supply companies or material science suppliers \n SiO2: Available at laboratories or online \n H3BO3: Chemical suppliers or pharmacies \n O2: Industrial gas suppliers",
+      "steps": [
+        "B4C: Specialty chemical suppliers or online vendors",
+        "SrO: Chemical supply companies or material science suppliers",
+        "SiO2: Available at laboratories or online",
+        "H3BO3: Chemical suppliers or pharmacies",
+        "O2: Industrial gas suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately using a digital scale.",
+        "2. In a clean, dry container, combine B4C, SrO, SiO2, and H3BO3 in the specified proportions.",
+        "3. Mix thoroughly using a glass rod or mechanical mixer until uniform."
+      ],
+      "raw_text": "1. Weigh all materials accurately using a digital scale.\n 2. In a clean, dry container, combine B4C, SrO, SiO2, and H3BO3 in the specified proportions.\n 3. Mix thoroughly using a glass rod or mechanical mixer until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace.",
+        "2. Heat to 1200°C (2192°F) at a rate of 10°C/minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of B4Cs4O12Sr4."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace.\n 2. Heat to 1200°C (2192°F) at a rate of 10°C/minute.\n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of B4Cs4O12Sr4."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process may take approximately 4-6 hours; avoid opening the furnace door during cooling to prevent rapid temperature changes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature.\n 2. This process may take approximately 4-6 hours; avoid opening the furnace door during cooling to prevent rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any irregularities or surface imperfections.",
+        "3. If necessary, grind the sample using a mortar and pestle to achieve a smooth surface.",
+        "4. Optionally, seal the sample with a clear epoxy for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace.\n 2. Inspect for any irregularities or surface imperfections.\n 3. If necessary, grind the sample using a mortar and pestle to achieve a smooth surface.\n 4. Optionally, seal the sample with a clear epoxy for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 184694.0,
+      "density": 75684.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1226065.0,
+      "formation_energy_per_atom": -2766.0,
+      "decomposition_energy_per_atom": -13.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -112.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba933cf8db",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.451781Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C8Fe2Gd1Tb3.json",
+      "material://C8Fe2Gd1Tb3"
+    ]
+  }
+}

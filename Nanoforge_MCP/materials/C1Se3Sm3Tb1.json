@@ -1,0 +1,129 @@
+{
+  "id": "C1Se3Sm3Tb1",
+  "uri": "material://C1Se3Sm3Tb1",
+  "composition": {
+    "formula": "C1Se3Sm3Tb1",
+    "elements": {
+      "C": 1,
+      "Se": 3,
+      "Sm": 3,
+      "Tb": 1
+    },
+    "reduced_formula": "TbSm3CSe3",
+    "element_list": [
+      "C",
+      "Se",
+      "Sm",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 340.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 340 g \n Mg: 20 g \n Nd: 120 g \n P: 240 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Supplier of industrial metals or online metal supply stores. \n Mg (Magnesium): Chemical supply companies or online marketplaces. \n Nd (Neodymium): Rare earth metal suppliers or specialty chemical suppliers. \n P (Phosphorus): Chemical supply companies or online marketplaces.",
+      "steps": [
+        "Co (Cobalt): Supplier of industrial metals or online metal supply stores.",
+        "Mg (Magnesium): Chemical supply companies or online marketplaces.",
+        "Nd (Neodymium): Rare earth metal suppliers or specialty chemical suppliers.",
+        "P (Phosphorus): Chemical supply companies or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the exact amounts of each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Co, Mg, Nd, and P thoroughly using a spatula or mixing rod for at least 5 minutes to ensure an even distribution.",
+        "3. Transfer the mixed powder into a suitable mold (dimensions: 3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Weigh the exact amounts of each ingredient using a precision scale. \n 2. In a clean, dry container, combine Co, Mg, Nd, and P thoroughly using a spatula or mixing rod for at least 5 minutes to ensure an even distribution. \n 3. Transfer the mixed powder into a suitable mold (dimensions: 3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C (2192 °F).",
+        "2. Once the temperature is reached, place the mold with the mixed powder into the furnace and hold it at this temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C (2192 °F). \n 2. Once the temperature is reached, place the mold with the mixed powder into the furnace and hold it at this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature, which may take approximately 6 hours.",
+        "2. Do not open the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature, which may take approximately 6 hours. \n 2. Do not open the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Use a fine-grit sandpaper to smooth the surfaces if necessary.",
+        "3. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Use a fine-grit sandpaper to smooth the surfaces if necessary. \n 3. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1880072.0,
+      "density": 7586.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -516289.0,
+      "formation_energy_per_atom": -16405.0,
+      "decomposition_energy_per_atom": -324.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -323.0,
+      "decomposition_energy_mp_oqmd": -274.0
+    },
+    "electronic": {
+      "bandgap": 0.0197,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "abc06ec3ef",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:03.825222Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Se3Sm3Tb1.json",
+      "material://C1Se3Sm3Tb1"
+    ]
+  }
+}

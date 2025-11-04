@@ -1,0 +1,110 @@
+{
+  "id": "Ca2O10Si2Ti1V1",
+  "uri": "material://Ca2O10Si2Ti1V1",
+  "composition": {
+    "formula": "Ca2O10Si2Ti1V1",
+    "elements": {
+      "Ca": 2,
+      "O": 10,
+      "Si": 2,
+      "Ti": 1,
+      "V": 1
+    },
+    "reduced_formula": "Ca2TiV(SiO5)2",
+    "element_list": [
+      "O",
+      "Si",
+      "Ca",
+      "Ti",
+      "V"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Ac (Aluminum) - 80 g \n - Sb (Antimony) - 10 g \n - Si (Silicon) - 250 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum (Ac) can be obtained from metal suppliers or hardware stores in the form of aluminum powder. \n - Antimony (Sb) can be sourced from chemical suppliers or online platforms specializing in metals. \n - Silicon (Si) is available from chemical suppliers or electronic component distributors, usually in the form of silicon powder.",
+      "steps": [
+        "- Aluminum (Ac) can be obtained from metal suppliers or hardware stores in the form of aluminum powder.",
+        "- Antimony (Sb) can be sourced from chemical suppliers or online platforms specializing in metals.",
+        "- Silicon (Si) is available from chemical suppliers or electronic component distributors, usually in the form of silicon powder."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 80 g of aluminum powder, 10 g of antimony powder, and 250 g of silicon powder using a digital scale for precision.",
+        "2. In a clean, dry mixing bowl, combine the measured powders thoroughly with a spatula to ensure an even distribution.",
+        "3. Transfer the mixed powders to a mortar and pestle and grind gently for another 5 minutes to achieve a homogenous mixture."
+      ],
+      "raw_text": "1. Measure out 80 g of aluminum powder, 10 g of antimony powder, and 250 g of silicon powder using a digital scale for precision. \n 2. In a clean, dry mixing bowl, combine the measured powders thoroughly with a spatula to ensure an even distribution. \n 3. Transfer the mixed powders to a mortar and pestle and grind gently for another 5 minutes to achieve a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or high-temperature oven to 1100 °C (2012 °F).",
+        "2. Once the target temperature is reached, carefully place the mixed powders in a crucible suitable for high temperatures.",
+        "3. Allow the mixture to heat for 2 hours to ensure proper melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace or high-temperature oven to 1100 °C (2012 °F). \n 2. Once the target temperature is reached, carefully place the mixed powders in a crucible suitable for high temperatures. \n 3. Allow the mixture to heat for 2 hours to ensure proper melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and let it cool down naturally to room temperature, which may take approximately 3-4 hours.",
+        "2. Ensure the crucible is handled with heat-resistant gloves during the cooling process to avoid burns."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and let it cool down naturally to room temperature, which may take approximately 3-4 hours. \n 2. Ensure the crucible is handled with heat-resistant gloves during the cooling process to avoid burns."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible, and inspect for any surface imperfections.",
+        "2. Use sandpaper (grit 120-220) to smooth the surfaces and edges of the solid sample.",
+        "3. Optionally, apply a sealant to the surface to enhance durability and prevent oxidation, following the manufacturer's instructions for curing time."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible, and inspect for any surface imperfections. \n 2. Use sandpaper (grit 120-220) to smooth the surfaces and edges of the solid sample. \n 3. Optionally, apply a sealant to the surface to enhance durability and prevent oxidation, following the manufacturer's instructions for curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 1887584.0,
+      "density": 3476.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1340127.0,
+      "formation_energy_per_atom": -32932.0,
+      "decomposition_energy_per_atom": -19.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -25.0
+    },
+    "electronic": {
+      "bandgap": 1.7184,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e35b32af39",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.555070Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2O10Si2Ti1V1.json",
+      "material://Ca2O10Si2Ti1V1"
+    ]
+  }
+}

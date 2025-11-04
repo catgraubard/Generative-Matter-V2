@@ -1,0 +1,124 @@
+{
+  "id": "B4Be2Mo10",
+  "uri": "material://B4Be2Mo10",
+  "composition": {
+    "formula": "B4Be2Mo10",
+    "elements": {
+      "B": 4,
+      "Be": 2,
+      "Mo": 10
+    },
+    "reduced_formula": "BeB2Mo5",
+    "element_list": [
+      "Be",
+      "B",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Be",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.0 g (Boron) \n Be: 4.0 g (Beryllium) \n Mo: 40.0 g (Molybdenum)"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from chemical suppliers or online platforms specializing in boron compounds. \n Be: Obtain from certified chemical suppliers with a focus on beryllium products. \n Mo: Available from metal suppliers or specialty chemical distributors.",
+      "steps": [
+        "B: Purchase from chemical suppliers or online platforms specializing in boron compounds.",
+        "Be: Obtain from certified chemical suppliers with a focus on beryllium products.",
+        "Mo: Available from metal suppliers or specialty chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 6.0 g of boron accurately using an analytical balance.",
+        "2. Weigh 4.0 g of beryllium.",
+        "3. Weigh 40.0 g of molybdenum.",
+        "4. In a clean, dry container, combine the weighed materials.",
+        "5. Use a mortar and pestle to finely grind the mixture to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh 6.0 g of boron accurately using an analytical balance. \n 2. Weigh 4.0 g of beryllium. \n 3. Weigh 40.0 g of molybdenum. \n 4. In a clean, dry container, combine the weighed materials. \n 5. Use a mortar and pestle to finely grind the mixture to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the ground mixture to a ceramic crucible.",
+        "2. Heat in a furnace at 1000 °C for 2 hours.",
+        "3. Ensure a controlled atmosphere to prevent oxidation, preferably in an inert gas environment (e.g., argon)."
+      ],
+      "raw_text": "1. Transfer the ground mixture to a ceramic crucible. \n 2. Heat in a furnace at 1000 °C for 2 hours. \n 3. Ensure a controlled atmosphere to prevent oxidation, preferably in an inert gas environment (e.g., argon)."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool to room temperature naturally in the furnace (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. Allow the crucible to cool to room temperature naturally in the furnace (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the sample from the crucible.",
+        "2. Use fine sandpaper to smooth the edges and surface of the solid sample.",
+        "3. Optionally, apply a sealant suitable for the material to enhance surface protection."
+      ],
+      "raw_text": "1. After cooling, remove the sample from the crucible. \n 2. Use fine sandpaper to smooth the edges and surface of the solid sample. \n 3. Optionally, apply a sealant suitable for the material to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 1964846.0,
+      "density": 86259.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1480804.0,
+      "formation_energy_per_atom": -3392.0,
+      "decomposition_energy_per_atom": -282.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -281.0,
+      "decomposition_energy_mp_oqmd": -263.0
+    },
+    "electronic": {
+      "bandgap": 0.0113,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "934b9a8d5d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:29.308650Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Be2Mo10.json",
+      "material://B4Be2Mo10"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "Cs1Na1Nb4P2S20",
+  "uri": "material://Cs1Na1Nb4P2S20",
+  "composition": {
+    "formula": "Cs1Na1Nb4P2S20",
+    "elements": {
+      "Cs": 1,
+      "Na": 1,
+      "Nb": 4,
+      "P": 2,
+      "S": 20
+    },
+    "reduced_formula": "CsNaNb4(PS10)2",
+    "element_list": [
+      "Na",
+      "P",
+      "S",
+      "Nb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g, Na: 0.5 g, Nb: 2.0 g, P: 0.5 g, S: 16.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from chemical supply companies (e.g., Sigma-Aldrich). Na: Purchase from chemical suppliers (e.g., Fisher Scientific). Nb: Source from metal suppliers or specialty chemical retailers. P: Available from chemical suppliers. S: Obtain from chemical supply companies (e.g., Thermo Fisher).",
+      "steps": [
+        "Cs: Obtain from chemical supply companies (e.g., Sigma-Aldrich). Na: Purchase from chemical suppliers (e.g., Fisher Scientific). Nb: Source from metal suppliers or specialty chemical retailers. P: Available from chemical suppliers. S: Obtain from chemical supply companies (e.g., Thermo Fisher)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.5 g of Cs, 0.5 g of Na, 2.0 g of Nb, 0.5 g of P, and 16.5 g of S using a precise analytical balance.",
+        "2. In a clean, dry glass container, combine the weighed materials.",
+        "3. Stir the mixture thoroughly with a glass rod until all components are well-mixed.",
+        "4. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 0.5 g of Cs, 0.5 g of Na, 2.0 g of Nb, 0.5 g of P, and 16.5 g of S using a precise analytical balance.  \n 2. In a clean, dry glass container, combine the weighed materials.  \n 3. Stir the mixture thoroughly with a glass rod until all components are well-mixed.  \n 4. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the ceramic crucible in a furnace.",
+        "2. Heat the mixture to 900°C at a ramp rate of 5°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of the solid sample."
+      ],
+      "raw_text": "1. Place the ceramic crucible in a furnace. \n 2. Heat the mixture to 900°C at a ramp rate of 5°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of the solid sample."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take around 12 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This cooling process should take around 12 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample has cooled, remove it from the crucible.",
+        "2. Inspect the sample for any surface defects or irregularities.",
+        "3. Use fine-grit sandpaper to smooth any rough edges.",
+        "4. Optionally, seal the sample with a suitable epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once the sample has cooled, remove it from the crucible.  \n 2. Inspect the sample for any surface defects or irregularities. \n 3. Use fine-grit sandpaper to smooth any rough edges. \n 4. Optionally, seal the sample with a suitable epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7517396.0,
+      "density": 27187.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1662349.0,
+      "formation_energy_per_atom": -10734.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -38.0,
+      "decomposition_energy_mp_oqmd": 6.0
+    },
+    "electronic": {
+      "bandgap": 1.5254,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0e6063b4df",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:34.558222Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Na1Nb4P2S20.json",
+      "material://Cs1Na1Nb4P2S20"
+    ]
+  }
+}

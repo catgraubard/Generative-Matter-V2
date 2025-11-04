@@ -1,0 +1,118 @@
+{
+  "id": "Al1Ca4Co7O16",
+  "uri": "material://Al1Ca4Co7O16",
+  "composition": {
+    "formula": "Al1Ca4Co7O16",
+    "elements": {
+      "Al": 1,
+      "Ca": 4,
+      "Co": 7,
+      "O": 16
+    },
+    "reduced_formula": "Ca4AlCo7O16",
+    "element_list": [
+      "O",
+      "Al",
+      "Ca",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 10 g, Co: 20 g, Li: 5 g, Tb: 40 g, Zn: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Chemical suppliers (e.g., Sigma-Aldrich), Co: Metal suppliers (e.g., Alfa Aesar), Li: Battery material suppliers, Tb: Rare earth suppliers, Zn: Metal suppliers (e.g., Fisher Scientific)",
+      "steps": [
+        "Cd: Chemical suppliers (e.g., Sigma-Aldrich), Co: Metal suppliers (e.g., Alfa Aesar), Li: Battery material suppliers, Tb: Rare earth suppliers, Zn: Metal suppliers (e.g., Fisher Scientific)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of cadmium (Cd) using a precision scale.",
+        "2. Weigh 20 g of cobalt (Co).",
+        "3. Weigh 5 g of lithium (Li).",
+        "4. Weigh 40 g of terbium (Tb).",
+        "5. Weigh 5 g of zinc (Zn).",
+        "6. Combine all weighed materials in a clean, dry ceramic crucible.",
+        "7. Use a pestle and mortar to mix the powders thoroughly for at least 10 minutes until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 10 g of cadmium (Cd) using a precision scale. \n 2. Weigh 20 g of cobalt (Co). \n 3. Weigh 5 g of lithium (Li). \n 4. Weigh 40 g of terbium (Tb). \n 5. Weigh 5 g of zinc (Zn). \n 6. Combine all weighed materials in a clean, dry ceramic crucible. \n 7. Use a pestle and mortar to mix the powders thoroughly for at least 10 minutes until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture gradually to 800°C at a rate of 5°C/min.",
+        "3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture gradually to 800°C at a rate of 5°C/min. \n 3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it reaches a safe temperature to prevent oxidation of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it reaches a safe temperature to prevent oxidation of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant if required for protection against environmental factors."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant if required for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3079998.0,
+      "density": 4614.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2004585.0,
+      "formation_energy_per_atom": -21345.0,
+      "decomposition_energy_per_atom": -522.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -522.0,
+      "decomposition_energy_mp_oqmd": 8.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e872025243",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.917631Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Ca4Co7O16.json",
+      "material://Al1Ca4Co7O16"
+    ]
+  }
+}

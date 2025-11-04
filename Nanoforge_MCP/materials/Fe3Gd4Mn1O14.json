@@ -1,0 +1,109 @@
+{
+  "id": "Fe3Gd4Mn1O14",
+  "uri": "material://Fe3Gd4Mn1O14",
+  "composition": {
+    "formula": "Fe3Gd4Mn1O14",
+    "elements": {
+      "Fe": 3,
+      "Gd": 4,
+      "Mn": 1,
+      "O": 14
+    },
+    "reduced_formula": "Gd4MnFe3O14",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Fe2O3 (Iron(III) oxide): 78.0 g \n - Gd2O3 (Gadolinium(III) oxide): 46.0 g \n - MnO2 (Manganese(IV) oxide): 7.0 g \n - O2 (Oxygen, for reaction): Approx. 100 mL (in gaseous form during heating)"
+    },
+    "sourcing": {
+      "instructions": "- Fe2O3: Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Thermo Fisher). \n - Gd2O3: Obtainable from specialized chemical suppliers or rare earth materials vendors. \n - MnO2: Found in chemical supply stores or online.",
+      "steps": [
+        "- Fe2O3: Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Thermo Fisher).",
+        "- Gd2O3: Obtainable from specialized chemical suppliers or rare earth materials vendors.",
+        "- MnO2: Found in chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the specified amounts of Fe2O3, Gd2O3, and MnO2 using an analytical balance.",
+        "2. Combine the powders in a clean, dry ceramic or glass mixing container.",
+        "3. Mix thoroughly using a mortar and pestle for about 10 minutes until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh the specified amounts of Fe2O3, Gd2O3, and MnO2 using an analytical balance. \n 2. Combine the powders in a clean, dry ceramic or glass mixing container. \n 3. Mix thoroughly using a mortar and pestle for about 10 minutes until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the mixed powder into a high-purity alumina crucible.",
+        "2. Preheat a muffle furnace to 1200 °C.",
+        "3. Once the temperature is reached, insert the crucible and maintain at this temperature for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Place the mixed powder into a high-purity alumina crucible. \n 2. Preheat a muffle furnace to 1200 °C. \n 3. Once the temperature is reached, insert the crucible and maintain at this temperature for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled down to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled down to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully using heat-resistant gloves.",
+        "2. Inspect for any rough surfaces or imperfections.",
+        "3. If needed, sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the material using a suitable resin or clear coat for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully using heat-resistant gloves. \n 2. Inspect for any rough surfaces or imperfections. \n 3. If needed, sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the material using a suitable resin or clear coat for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2601857.0,
+      "density": 68638.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2178582.0,
+      "formation_energy_per_atom": -26232.0,
+      "decomposition_energy_per_atom": -143.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -148.0,
+      "decomposition_energy_mp_oqmd": -73.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "98cf46b0d9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.801602Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe3Gd4Mn1O14.json",
+      "material://Fe3Gd4Mn1O14"
+    ]
+  }
+}

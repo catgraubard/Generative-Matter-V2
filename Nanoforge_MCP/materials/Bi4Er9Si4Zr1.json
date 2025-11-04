@@ -1,0 +1,134 @@
+{
+  "id": "Bi4Er9Si4Zr1",
+  "uri": "material://Bi4Er9Si4Zr1",
+  "composition": {
+    "formula": "Bi4Er9Si4Zr1",
+    "elements": {
+      "Bi": 4,
+      "Er": 9,
+      "Si": 4,
+      "Zr": 1
+    },
+    "reduced_formula": "Er9Zr(SiBi)4",
+    "element_list": [
+      "Si",
+      "Zr",
+      "Er",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 180 g \n Nd: 60 g \n Sn: 320 g \n Tb: 240 g"
+    },
+    "sourcing": {
+      "instructions": "La: Available from chemical supply companies or online marketplaces (e.g., Sigma-Aldrich). \n Nd: Obtain from rare earth element suppliers or online chemical distributors. \n Sn: Purchase from metal supply stores or online retailers. \n Tb: Available from specialized rare earth material suppliers.",
+      "steps": [
+        "La: Available from chemical supply companies or online marketplaces (e.g., Sigma-Aldrich).",
+        "Nd: Obtain from rare earth element suppliers or online chemical distributors.",
+        "Sn: Purchase from metal supply stores or online retailers.",
+        "Tb: Available from specialized rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine La, Nd, Sn, and Tb in the specified amounts.",
+        "3. Use a stirrer or mechanical mixer to ensure a homogeneous mixture.",
+        "4. Continue mixing for at least 10 minutes to achieve uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine La, Nd, Sn, and Tb in the specified amounts. \n 3. Use a stirrer or mechanical mixer to ensure a homogeneous mixture. \n 4. Continue mixing for at least 10 minutes to achieve uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high-temperature processing.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C (2192°F) at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high-temperature processing. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C (2192°F) at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 24°C or 75°F).",
+        "2. This cooling process should take about 3-4 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 24°C or 75°F). \n 2. This cooling process should take about 3-4 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the compound from the crucible.",
+        "2. Use a diamond saw or grinder to shape the solid to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with progressively finer grits of sandpaper (starting from 80 grit to 400 grit) for a smooth finish.",
+        "4. Optionally, apply a clear sealant to protect the surface if desired."
+      ],
+      "raw_text": "1. Once cooled, remove the compound from the crucible. \n 2. Use a diamond saw or grinder to shape the solid to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with progressively finer grits of sandpaper (starting from 80 grit to 400 grit) for a smooth finish. \n 4. Optionally, apply a clear sealant to protect the surface if desired."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4607113.0,
+      "density": 91723.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1006518.0,
+      "formation_energy_per_atom": -763.0,
+      "decomposition_energy_per_atom": -49.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -47.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb8f3986e0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.678938Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Er9Si4Zr1.json",
+      "material://Bi4Er9Si4Zr1"
+    ]
+  }
+}

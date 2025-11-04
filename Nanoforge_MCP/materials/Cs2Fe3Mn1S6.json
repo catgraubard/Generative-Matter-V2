@@ -1,0 +1,110 @@
+{
+  "id": "Cs2Fe3Mn1S6",
+  "uri": "material://Cs2Fe3Mn1S6",
+  "composition": {
+    "formula": "Cs2Fe3Mn1S6",
+    "elements": {
+      "Cs": 2,
+      "Fe": 3,
+      "Mn": 1,
+      "S": 6
+    },
+    "reduced_formula": "Cs2Mn(FeS2)3",
+    "element_list": [
+      "S",
+      "Mn",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cesium Sulfide (Cs2S): 50 g  \n - Iron(III) Oxide (Fe2O3): 150 g \n - Manganese(II) Sulfide (MnS): 30 g \n - Sulfur (S): 60 g"
+    },
+    "sourcing": {
+      "instructions": "- Cesium Sulfide: Available from chemical supply companies or specialty chemical suppliers. \n - Iron(III) Oxide: Commonly found at hardware stores or online chemical suppliers. \n - Manganese(II) Sulfide: Purchase from chemical supply vendors. \n - Sulfur: Available at garden supply stores or online chemical suppliers.",
+      "steps": [
+        "- Cesium Sulfide: Available from chemical supply companies or specialty chemical suppliers.",
+        "- Iron(III) Oxide: Commonly found at hardware stores or online chemical suppliers.",
+        "- Manganese(II) Sulfide: Purchase from chemical supply vendors.",
+        "- Sulfur: Available at garden supply stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry glass or ceramic mixing bowl, combine the Cs2S, Fe2O3, MnS, and S in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture into a ceramic crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry glass or ceramic mixing bowl, combine the Cs2S, Fe2O3, MnS, and S in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture into a ceramic crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C (1472°F).",
+        "2. Place the crucible with the mixture into the furnace.",
+        "3. Heat for 2 hours to allow for complete reaction and formation of Cs2Fe3Mn1S6."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C (1472°F). \n 2. Place the crucible with the mixture into the furnace. \n 3. Heat for 2 hours to allow for complete reaction and formation of Cs2Fe3Mn1S6."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C / 77°F).",
+        "2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C / 77°F). \n 2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the material is removed from the crucible, inspect for any irregularities.",
+        "2. If necessary, grind the solid sample with a mortar and pestle to achieve a uniform texture.",
+        "3. Seal the sample in a protective coating (such as a clear epoxy resin) if required for stability and durability.",
+        "4. Optionally, sand the edges for a smoother finish."
+      ],
+      "raw_text": "1. Once the material is removed from the crucible, inspect for any irregularities. \n 2. If necessary, grind the solid sample with a mortar and pestle to achieve a uniform texture. \n 3. Seal the sample in a protective coating (such as a clear epoxy resin) if required for stability and durability. \n 4. Optionally, sand the edges for a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3064212.0,
+      "density": 36887.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -732412.0,
+      "formation_energy_per_atom": -1005.0,
+      "decomposition_energy_per_atom": -429.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -434.0,
+      "decomposition_energy_mp_oqmd": -296.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f4c6da91dd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.798243Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Fe3Mn1S6.json",
+      "material://Cs2Fe3Mn1S6"
+    ]
+  }
+}

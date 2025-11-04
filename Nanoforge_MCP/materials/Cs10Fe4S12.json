@@ -1,0 +1,108 @@
+{
+  "id": "Cs10Fe4S12",
+  "uri": "material://Cs10Fe4S12",
+  "composition": {
+    "formula": "Cs10Fe4S12",
+    "elements": {
+      "Cs": 10,
+      "Fe": 4,
+      "S": 12
+    },
+    "reduced_formula": "Cs5(FeS3)2",
+    "element_list": [
+      "S",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cesium Sulfide (Cs2S): 100 g  \n - Iron(II) Sulfide (FeS): 80 g  \n - Iron(III) Sulfide (Fe2S3): 20 g  \n - Sulfur (S): 40 g"
+    },
+    "sourcing": {
+      "instructions": "- Cesium Sulfide: Speciality chemical suppliers or online chemical retailers. \n - Iron(II) Sulfide and Iron(III) Sulfide: Chemical supply companies. \n - Sulfur: Local hardware stores or garden supply centers.",
+      "steps": [
+        "- Cesium Sulfide: Speciality chemical suppliers or online chemical retailers.",
+        "- Iron(II) Sulfide and Iron(III) Sulfide: Chemical supply companies.",
+        "- Sulfur: Local hardware stores or garden supply centers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, lab coat) before starting.",
+        "2. In a clean, dry container, combine 100 g of Cs2S, 80 g of FeS, 20 g of Fe2S3, and 40 g of S.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until a uniform powder is achieved.",
+        "4. Transfer the powder into a mixing bowl and continue mixing for an additional 5 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, lab coat) before starting. \n 2. In a clean, dry container, combine 100 g of Cs2S, 80 g of FeS, 20 g of Fe2S3, and 40 g of S. \n 3. Use a mortar and pestle to grind the mixture thoroughly until a uniform powder is achieved. \n 4. Transfer the powder into a mixing bowl and continue mixing for an additional 5 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 600°C.",
+        "2. Place the mixed powder in a ceramic crucible, ensuring it is evenly spread.",
+        "3. Insert the crucible into the furnace and allow it to react at 600°C for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 600°C. \n 2. Place the mixed powder in a ceramic crucible, ensuring it is evenly spread. \n 3. Insert the crucible into the furnace and allow it to react at 600°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and let it cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and let it cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a chisel and hammer to break the solidified mass into smaller pieces if necessary.",
+        "3. Optionally, sand the surfaces of the pieces to achieve a smoother finish.",
+        "4. Store the final product in a dry, sealed container away from moisture."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a chisel and hammer to break the solidified mass into smaller pieces if necessary. \n 3. Optionally, sand the surfaces of the pieces to achieve a smoother finish. \n 4. Store the final product in a dry, sealed container away from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 9690547.0,
+      "density": 33195.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1210941.0,
+      "formation_energy_per_atom": -11009.0,
+      "decomposition_energy_per_atom": -17.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -22.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "40c2763ccb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:40.520545Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs10Fe4S12.json",
+      "material://Cs10Fe4S12"
+    ]
+  }
+}

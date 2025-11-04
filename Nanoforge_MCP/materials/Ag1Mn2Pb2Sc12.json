@@ -1,0 +1,111 @@
+{
+  "id": "Ag1Mn2Pb2Sc12",
+  "uri": "material://Ag1Mn2Pb2Sc12",
+  "composition": {
+    "formula": "Ag1Mn2Pb2Sc12",
+    "elements": {
+      "Ag": 1,
+      "Mn": 2,
+      "Pb": 2,
+      "Sc": 12
+    },
+    "reduced_formula": "Sc12Mn2AgPb2",
+    "element_list": [
+      "Sc",
+      "Mn",
+      "Ag",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Boron (B): 200 g  \n - Molybdenum (Mo): 80 g  \n - Ruthenium (Ru): 400 g  \n - Zirconium (Zr): 160 g"
+    },
+    "sourcing": {
+      "instructions": "- Boron: Available from chemical supply stores or online (e.g., Sigma-Aldrich).  \n - Molybdenum: Obtainable from metal suppliers or online (e.g., McMaster-Carr).  \n - Ruthenium: Available from specialty metal suppliers or online (e.g., OnlineMetals).  \n - Zirconium: Obtain from metal suppliers or specialty chemical suppliers (e.g., Alfa Aesar).",
+      "steps": [
+        "- Boron: Available from chemical supply stores or online (e.g., Sigma-Aldrich).",
+        "- Molybdenum: Obtainable from metal suppliers or online (e.g., McMaster-Carr).",
+        "- Ruthenium: Available from specialty metal suppliers or online (e.g., OnlineMetals).",
+        "- Zirconium: Obtain from metal suppliers or specialty chemical suppliers (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the boron, molybdenum, ruthenium, and zirconium powders.",
+        "3. Use a pestle and mortar or a ball mill to thoroughly mix the powders for 30 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder to a suitable mold (3 in x 2 in x 7 in) that can withstand high temperatures."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.  \n 2. In a clean, dry mixing container, combine the boron, molybdenum, ruthenium, and zirconium powders.  \n 3. Use a pestle and mortar or a ball mill to thoroughly mix the powders for 30 minutes to ensure homogeneity.  \n 4. Transfer the mixed powder to a suitable mold (3 in x 2 in x 7 in) that can withstand high temperatures."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Once the furnace reaches the desired temperature, place the mold containing the mixed powders into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure proper sintering of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C.  \n 2. Once the furnace reaches the desired temperature, place the mold containing the mixed powders into the furnace.  \n 3. Maintain the temperature for 2 hours to ensure proper sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take about 4-6 hours to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).  \n 2. This cooling process should take about 4-6 hours to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect the surface for any rough areas or defects.",
+        "3. Use sandpaper (grit 400) to smooth out any rough edges or surfaces.",
+        "4. Optionally, apply a sealant to enhance surface durability if needed."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold.  \n 2. Inspect the surface for any rough areas or defects.  \n 3. Use sandpaper (grit 400) to smooth out any rough edges or surfaces.  \n 4. Optionally, apply a sealant to enhance surface durability if needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 3818016.0,
+      "density": 50956.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mmm",
+      "space_group_number": 139,
+      "point_group": "4/mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1082856.0,
+      "formation_energy_per_atom": -2185.0,
+      "decomposition_energy_per_atom": -124.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -124.0,
+      "decomposition_energy_mp_oqmd": -115.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dcaf8aaacc",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.720787Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Mn2Pb2Sc12.json",
+      "material://Ag1Mn2Pb2Sc12"
+    ]
+  }
+}

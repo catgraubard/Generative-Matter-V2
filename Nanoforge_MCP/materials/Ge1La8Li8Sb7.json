@@ -1,0 +1,130 @@
+{
+  "id": "Ge1La8Li8Sb7",
+  "uri": "material://Ge1La8Li8Sb7",
+  "composition": {
+    "formula": "Ge1La8Li8Sb7",
+    "elements": {
+      "Ge": 1,
+      "La": 8,
+      "Li": 8,
+      "Sb": 7
+    },
+    "reduced_formula": "Li8La8GeSb7",
+    "element_list": [
+      "Li",
+      "Ge",
+      "Sb",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 8.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 1.5 g \n La: 12.0 g \n Li: 12.0 g \n Sb: 8.5 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Semiconductor supply stores \n La: Rare earth metal suppliers \n Li: Battery component suppliers \n Sb: Chemical supply companies",
+      "steps": [
+        "Ge: Semiconductor supply stores",
+        "La: Rare earth metal suppliers",
+        "Li: Battery component suppliers",
+        "Sb: Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry glass container, add the weighed Ge, La, Li, and Sb in the order listed.",
+        "3. Mix the powders thoroughly using a spatula to ensure a homogeneous mixture.",
+        "4. Transfer the mixture into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry glass container, add the weighed Ge, La, Li, and Sb in the order listed. \n 3. Mix the powders thoroughly using a spatula to ensure a homogeneous mixture. \n 4. Transfer the mixture into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the ceramic crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and mixing of materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the ceramic crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and mixing of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Once the temperature reaches approximately 300°C, carefully remove the crucible with heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Once the temperature reaches approximately 300°C, carefully remove the crucible with heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Allow the solidified material to cool completely to room temperature.",
+        "2. Remove the solid sample from the crucible.",
+        "3. Use a diamond file to smooth any rough edges.",
+        "4. Optionally, seal the surface with a clear epoxy coat for added protection."
+      ],
+      "raw_text": "1. Allow the solidified material to cool completely to room temperature. \n 2. Remove the solid sample from the crucible. \n 3. Use a diamond file to smooth any rough edges. \n 4. Optionally, seal the surface with a clear epoxy coat for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6136408.0,
+      "density": 56603.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1110465.0,
+      "formation_energy_per_atom": -9484.0,
+      "decomposition_energy_per_atom": -385.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -81.0,
+      "decomposition_energy_mp": -384.0,
+      "decomposition_energy_mp_oqmd": -298.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ebfcd73ee4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.895573Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1La8Li8Sb7.json",
+      "material://Ge1La8Li8Sb7"
+    ]
+  }
+}

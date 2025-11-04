@@ -1,0 +1,113 @@
+{
+  "id": "C2Fe3Mn3Si6W12",
+  "uri": "material://C2Fe3Mn3Si6W12",
+  "composition": {
+    "formula": "C2Fe3Mn3Si6W12",
+    "elements": {
+      "C": 2,
+      "Fe": 3,
+      "Mn": 3,
+      "Si": 6,
+      "W": 12
+    },
+    "reduced_formula": "Mn3Fe3Si6(W6C)2",
+    "element_list": [
+      "C",
+      "Si",
+      "Mn",
+      "Fe",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium Oxide (Er2O3): 80.00 g \n - Neodymium Oxide (Nd2O3): 40.00 g \n - Silicon (Si): 120.00 g \n - Samarium Oxide (Sm2O3): 60.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium Oxide: Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich) \n - Neodymium Oxide: Obtainable from rare earth material suppliers or online \n - Silicon: Can be sourced from electronics suppliers or metal shops \n - Samarium Oxide: Procure from specialized chemical suppliers or online stores",
+      "steps": [
+        "- Erbium Oxide: Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich)",
+        "- Neodymium Oxide: Obtainable from rare earth material suppliers or online",
+        "- Silicon: Can be sourced from electronics suppliers or metal shops",
+        "- Samarium Oxide: Procure from specialized chemical suppliers or online stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, add Erbium Oxide, Neodymium Oxide, Silicon, and Samarium Oxide in the specified order.",
+        "3. Use a mortar and pestle to thoroughly blend the powders for 10 minutes until a homogeneous mixture is achieved.",
+        "4. Transfer the mixed powders into a ball mill and mill for an additional 30 minutes to ensure uniform particle size and mixture consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, add Erbium Oxide, Neodymium Oxide, Silicon, and Samarium Oxide in the specified order. \n 3. Use a mortar and pestle to thoroughly blend the powders for 10 minutes until a homogeneous mixture is achieved. \n 4. Transfer the mixed powders into a ball mill and mill for an additional 30 minutes to ensure uniform particle size and mixture consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the mixed powders in a ceramic crucible.",
+        "3. Insert the crucible into the furnace and heat for 2 hours to allow for sintering and solidification of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the mixed powders in a ceramic crucible. \n 3. Insert the crucible into the furnace and heat for 2 hours to allow for sintering and solidification of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and let it cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled down to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and let it cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled down to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully take out the solid sample.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, use sandpaper (grit 400) to smooth out any rough edges.",
+        "4. Optionally, seal the sample with a clear epoxy resin to enhance durability, following the manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully take out the solid sample. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, use sandpaper (grit 400) to smooth out any rough edges. \n 4. Optionally, seal the sample with a clear epoxy resin to enhance durability, following the manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3339992.0,
+      "density": 135775.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2668535.0,
+      "formation_energy_per_atom": -2867.0,
+      "decomposition_energy_per_atom": -583.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -578.0,
+      "decomposition_energy_mp_oqmd": -575.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d108309701",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.466568Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C2Fe3Mn3Si6W12.json",
+      "material://C2Fe3Mn3Si6W12"
+    ]
+  }
+}

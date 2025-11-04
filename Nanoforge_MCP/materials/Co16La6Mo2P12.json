@@ -1,0 +1,134 @@
+{
+  "id": "Co16La6Mo2P12",
+  "uri": "material://Co16La6Mo2P12",
+  "composition": {
+    "formula": "Co16La6Mo2P12",
+    "elements": {
+      "Co": 16,
+      "La": 6,
+      "Mo": 2,
+      "P": 12
+    },
+    "reduced_formula": "La3Co8MoP6",
+    "element_list": [
+      "P",
+      "Co",
+      "Mo",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 4.5,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.5 g (Cobalt) \n La: 4.5 g (Lanthanum) \n Mo: 1.5 g (Molybdenum) \n P: 15 g (Phosphorus) \n Total: 31.5 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Alfa Aesar) \n La: Rare earth metal suppliers \n Mo: Metal suppliers \n P: Chemical suppliers",
+      "steps": [
+        "Co: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Alfa Aesar)",
+        "La: Rare earth metal suppliers",
+        "Mo: Metal suppliers",
+        "P: Chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient with a precision scale.",
+        "2. In a clean, dry mixing container, combine Co, La, Mo, and P in the specified amounts.",
+        "3. Mix thoroughly using a spatula or mechanical mixer until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Measure each ingredient with a precision scale. \n 2. In a clean, dry mixing container, combine Co, La, Mo, and P in the specified amounts. \n 3. Mix thoroughly using a spatula or mechanical mixer until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C (1472°F) at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C (1472°F) at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 4–6 hours.",
+        "3. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 4–6 hours. \n 3. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file or sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin for enhanced durability.",
+        "4. Allow the epoxy to cure for at least 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond file or sandpaper to smooth any rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin for enhanced durability. \n 4. Allow the epoxy to cure for at least 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5106137.0,
+      "density": 76096.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2616546.0,
+      "formation_energy_per_atom": -8793.0,
+      "decomposition_energy_per_atom": -158.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -51.0,
+      "decomposition_energy_mp": -158.0,
+      "decomposition_energy_mp_oqmd": -148.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "842625b0f1",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:09.037538Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16La6Mo2P12.json",
+      "material://Co16La6Mo2P12"
+    ]
+  }
+}

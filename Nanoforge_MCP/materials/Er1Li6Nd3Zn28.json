@@ -1,0 +1,120 @@
+{
+  "id": "Er1Li6Nd3Zn28",
+  "uri": "material://Er1Li6Nd3Zn28",
+  "composition": {
+    "formula": "Er1Li6Nd3Zn28",
+    "elements": {
+      "Er": 1,
+      "Li": 6,
+      "Nd": 3,
+      "Zn": 28
+    },
+    "reduced_formula": "Li6Nd3ErZn28",
+    "element_list": [
+      "Li",
+      "Zn",
+      "Nd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs2O: 400 g \n Ru: 10 g \n Te: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cs2O: Obtain from chemical suppliers like Sigma-Aldrich or Alfa Aesar. \n Ru: Purchase from a reputable metal supplier or online marketplaces. \n Te: Acquire from chemical supply companies or online vendors.",
+      "steps": [
+        "Cs2O: Obtain from chemical suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Ru: Purchase from a reputable metal supplier or online marketplaces.",
+        "Te: Acquire from chemical supply companies or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 400 g of Cs2O, 10 g of Ru, and 30 g of Te using a precision scale.",
+        "2. In a clean, dry glass or ceramic container, mix the Cs2O with Ru and Te thoroughly using a spatula.",
+        "3. Ensure uniform distribution of all ingredients, avoiding clumps."
+      ],
+      "raw_text": "1. Measure 400 g of Cs2O, 10 g of Ru, and 30 g of Te using a precision scale. \n 2. In a clean, dry glass or ceramic container, mix the Cs2O with Ru and Te thoroughly using a spatula. \n 3. Ensure uniform distribution of all ingredients, avoiding clumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 800°C at a rate of 10°C per minute.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 800°C at a rate of 10°C per minute. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process may take approximately 6-8 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process may take approximately 6-8 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections; if present, sand the surface gently using fine-grit sandpaper.",
+        "3. Optionally, coat the surface with a sealant to preserve the material's integrity."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections; if present, sand the surface gently using fine-grit sandpaper. \n 3. Optionally, coat the surface with a sealant to preserve the material's integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6132186.0,
+      "density": 66969.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -763563.0,
+      "formation_energy_per_atom": -2831.0,
+      "decomposition_energy_per_atom": -66.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -66.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.0061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b76ee992e4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.559753Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er1Li6Nd3Zn28.json",
+      "material://Er1Li6Nd3Zn28"
+    ]
+  }
+}

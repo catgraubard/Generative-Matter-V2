@@ -1,0 +1,112 @@
+{
+  "id": "Ca1Hg12In6Tm5",
+  "uri": "material://Ca1Hg12In6Tm5",
+  "composition": {
+    "formula": "Ca1Hg12In6Tm5",
+    "elements": {
+      "Ca": 1,
+      "Hg": 12,
+      "In": 6,
+      "Tm": 5
+    },
+    "reduced_formula": "CaTm5(InHg2)6",
+    "element_list": [
+      "Ca",
+      "In",
+      "Tm",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ca",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ca: 10 g, Hg: 20 g, In: 15 g, Tm: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Ca: Purchase from a chemical supply store; Hg: Obtain from a licensed supplier; In: Available from metallurgical suppliers; Tm: Source from rare earth material suppliers.",
+      "steps": [
+        "Ca: Purchase from a chemical supply store; Hg: Obtain from a licensed supplier; In: Available from metallurgical suppliers; Tm: Source from rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Ca, Hg, In, and Tm in the specified amounts.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Measure each material precisely using a digital scale.\n2. In a clean, dry mixing container, combine Ca, Hg, In, and Tm in the specified amounts.\n3. Use a spatula to mix the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to allow for proper alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C.\n2. Transfer the mixed powders into a crucible suitable for high temperatures.\n3. Place the crucible in the furnace and maintain the temperature for 2 hours to allow for proper alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).\n2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a fine file to smooth the edges and surfaces of the sample.",
+        "3. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Use a fine file to smooth the edges and surfaces of the sample.\n3. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5790529.0,
+      "density": 114155.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -527354.0,
+      "formation_energy_per_atom": -3415.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2e200f33fa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:16.175754Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Hg12In6Tm5.json",
+      "material://Ca1Hg12In6Tm5"
+    ]
+  }
+}

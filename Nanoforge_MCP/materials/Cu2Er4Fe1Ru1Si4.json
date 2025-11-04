@@ -1,0 +1,138 @@
+{
+  "id": "Cu2Er4Fe1Ru1Si4",
+  "uri": "material://Cu2Er4Fe1Ru1Si4",
+  "composition": {
+    "formula": "Cu2Er4Fe1Ru1Si4",
+    "elements": {
+      "Cu": 2,
+      "Er": 4,
+      "Fe": 1,
+      "Ru": 1,
+      "Si": 4
+    },
+    "reduced_formula": "Er4FeCu2Si4Ru",
+    "element_list": [
+      "Si",
+      "Fe",
+      "Cu",
+      "Ru",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50 g \n Er: 20 g \n Fe: 5 g \n Ru: 5 g \n Si: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supply store or online metal suppliers \n Er: Specialty rare earth metal suppliers or online platforms \n Fe: Local hardware store \n Ru: Specialty metal suppliers or online platforms \n Si: Chemical suppliers or online chemical stores",
+      "steps": [
+        "Cu: Local metal supply store or online metal suppliers",
+        "Er: Specialty rare earth metal suppliers or online platforms",
+        "Fe: Local hardware store",
+        "Ru: Specialty metal suppliers or online platforms",
+        "Si: Chemical suppliers or online chemical stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry container, combine Cu, Er, Fe, Ru, and Si.",
+        "3. Mix thoroughly with a spatula or mechanical mixer to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry container, combine Cu, Er, Fe, Ru, and Si. \n 3. Mix thoroughly with a spatula or mechanical mixer to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible.",
+        "2. Heat the crucible in a furnace to 1200 °C for 2 hours to ensure complete melting and alloying of metals."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible. \n 2. Heat the crucible in a furnace to 1200 °C for 2 hours to ensure complete melting and alloying of metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the crucible to cool slowly to room temperature (approximately 25 °C) over a period of 4 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, allow the crucible to cool slowly to room temperature (approximately 25 °C) over a period of 4 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 200-600) to smooth the surface.",
+        "3. Optionally, apply a protective sealant to prevent oxidation.",
+        "4. Allow sealant to cure as per manufacturer instructions, typically 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper (grit 200-600) to smooth the surface. \n 3. Optionally, apply a protective sealant to prevent oxidation. \n 4. Allow sealant to cure as per manufacturer instructions, typically 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2092935.0,
+      "density": 84528.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -743665.0,
+      "formation_energy_per_atom": -7043.0,
+      "decomposition_energy_per_atom": -19.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -188.0,
+      "decomposition_energy_mp_oqmd": -121.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8930047da0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:15.570227Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Er4Fe1Ru1Si4.json",
+      "material://Cu2Er4Fe1Ru1Si4"
+    ]
+  }
+}

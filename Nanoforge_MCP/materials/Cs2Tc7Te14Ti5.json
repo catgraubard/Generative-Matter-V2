@@ -1,0 +1,133 @@
+{
+  "id": "Cs2Tc7Te14Ti5",
+  "uri": "material://Cs2Tc7Te14Ti5",
+  "composition": {
+    "formula": "Cs2Tc7Te14Ti5",
+    "elements": {
+      "Cs": 2,
+      "Tc": 7,
+      "Te": 14,
+      "Ti": 5
+    },
+    "reduced_formula": "Cs2Ti5(TcTe2)7",
+    "element_list": [
+      "Ti",
+      "Tc",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.5 g \n Tc: 6.0 g \n Te: 20.0 g \n Ti: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from a chemical supplier like Sigma-Aldrich or Alfa Aesar. \n Tc (Technetium): Obtain from specialized isotope suppliers or nuclear material suppliers. \n Te (Tellurium): Available from chemical suppliers or online marketplaces. \n Ti (Titanium): Can be sourced from metal suppliers or chemical companies.",
+      "steps": [
+        "Cs (Cesium): Purchase from a chemical supplier like Sigma-Aldrich or Alfa Aesar.",
+        "Tc (Technetium): Obtain from specialized isotope suppliers or nuclear material suppliers.",
+        "Te (Tellurium): Available from chemical suppliers or online marketplaces.",
+        "Ti (Titanium): Can be sourced from metal suppliers or chemical companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Cs, Tc, Te, and Ti in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture to a ceramic crucible suitable for high-temperature processing."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Cs, Tc, Te, and Ti in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture to a ceramic crucible suitable for high-temperature processing."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the ceramic crucible containing the mixture inside the furnace.",
+        "3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the ceramic crucible containing the mixture inside the furnace. \n 3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool down naturally to room temperature (approximately 2-3 hours).",
+        "3. Once cooled, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool down naturally to room temperature (approximately 2-3 hours). \n 3. Once cooled, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any surface imperfections.",
+        "2. If needed, use fine-grit sandpaper to smooth the edges and surface.",
+        "3. Optionally, apply a protective sealant to enhance durability and prevent oxidation.",
+        "4. Store the finished sample in a dry, cool place, away from direct sunlight."
+      ],
+      "raw_text": "1. Inspect the solid sample for any surface imperfections. \n 2. If needed, use fine-grit sandpaper to smooth the edges and surface. \n 3. Optionally, apply a protective sealant to enhance durability and prevent oxidation. \n 4. Store the finished sample in a dry, cool place, away from direct sunlight."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8267283.0,
+      "density": 59806.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1798321.0,
+      "formation_energy_per_atom": -7869.0,
+      "decomposition_energy_per_atom": -429.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -419.0,
+      "decomposition_energy_mp_oqmd": -301.0
+    },
+    "electronic": {
+      "bandgap": 0.0075,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "78e855766d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:53.852431Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Tc7Te14Ti5.json",
+      "material://Cs2Tc7Te14Ti5"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "Co2Cu2Ge1Si3Ti4",
+  "uri": "material://Co2Cu2Ge1Si3Ti4",
+  "composition": {
+    "formula": "Co2Cu2Ge1Si3Ti4",
+    "elements": {
+      "Co": 2,
+      "Cu": 2,
+      "Ge": 1,
+      "Si": 3,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti4Co2Cu2Si3Ge",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Co",
+      "Cu",
+      "Ge"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CO2: 4.4 g, Cu: 63.5 g, Ge: 72.6 g, Si: 28.1 g, Ti: 192.2 g"
+    },
+    "sourcing": {
+      "instructions": "CO2: Obtain from a gas supplier or through dry ice sublimation; Cu: local metal supplier or online; Ge: semiconductor supplier; Si: chemical supply store; Ti: metal supplier or online.",
+      "steps": [
+        "CO2: Obtain from a gas supplier or through dry ice sublimation; Cu: local metal supplier or online; Ge: semiconductor supplier; Si: chemical supply store; Ti: metal supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale. 2. In a clean, dry container, combine CO2, Cu, Ge, Si, and Ti in the specified amounts. 3. Mix thoroughly using a spatula or mechanical mixer until homogeneous."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale. 2. In a clean, dry container, combine CO2, Cu, Ge, Si, and Ti in the specified amounts. 3. Mix thoroughly using a spatula or mechanical mixer until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the mixed material in a crucible. 2. Heat in a furnace to 1200°C over a period of 4 hours, increasing temperature gradually."
+      ],
+      "raw_text": "1. Place the mixed material in a crucible. 2. Heat in a furnace to 1200°C over a period of 4 hours, increasing temperature gradually."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible. 2. If necessary, grind edges for a smooth finish with a grinder. 3. Seal the surface with a protective coating if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. 2. If necessary, grind edges for a smooth finish with a grinder. 3. Seal the surface with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1615019.0,
+      "density": 61005.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -827119.0,
+      "formation_energy_per_atom": -6513.0,
+      "decomposition_energy_per_atom": -213.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -162.0,
+      "decomposition_energy_mp": -21.0,
+      "decomposition_energy_mp_oqmd": -207.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "08bc098158",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:26.708134Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Cu2Ge1Si3Ti4.json",
+      "material://Co2Cu2Ge1Si3Ti4"
+    ]
+  }
+}

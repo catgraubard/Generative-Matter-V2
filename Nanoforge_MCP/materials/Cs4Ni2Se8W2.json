@@ -1,0 +1,131 @@
+{
+  "id": "Cs4Ni2Se8W2",
+  "uri": "material://Cs4Ni2Se8W2",
+  "composition": {
+    "formula": "Cs4Ni2Se8W2",
+    "elements": {
+      "Cs": 4,
+      "Ni": 2,
+      "Se": 8,
+      "W": 2
+    },
+    "reduced_formula": "Cs2NiWSe4",
+    "element_list": [
+      "Ni",
+      "Se",
+      "Cs",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 24.0 g \n Ni: 6.0 g \n Se: 32.0 g \n W: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from specialized chemical suppliers or online platforms such as Sigma-Aldrich. \n Ni (Nickel): Obtain from metal suppliers or hardware stores. \n Se (Selenium): Available from chemical suppliers. \n W (Tungsten): Source from metal suppliers or online chemical retailers.",
+      "steps": [
+        "Cs (Cesium): Purchase from specialized chemical suppliers or online platforms such as Sigma-Aldrich.",
+        "Ni (Nickel): Obtain from metal suppliers or hardware stores.",
+        "Se (Selenium): Available from chemical suppliers.",
+        "W (Tungsten): Source from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, combine Cs, Ni, Se, and W in the specified amounts.",
+        "3. Stir the mixture thoroughly for at least 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixture to a suitable crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry container, combine Cs, Ni, Se, and W in the specified amounts. \n 3. Stir the mixture thoroughly for at least 10 minutes to ensure homogeneity. \n 4. Transfer the mixture to a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible inside the furnace and maintain the temperature for 4 hours to ensure complete synthesis."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible inside the furnace and maintain the temperature for 4 hours to ensure complete synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled down to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled down to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample from the crucible and inspect for consistency.",
+        "3. If necessary, grind the sample to achieve a uniform particle size.",
+        "4. Optionally, seal the sample with an appropriate resin for protection against moisture and degradation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample from the crucible and inspect for consistency. \n 3. If necessary, grind the sample to achieve a uniform particle size. \n 4. Optionally, seal the sample with an appropriate resin for protection against moisture and degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5429674.0,
+      "density": 50412.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fddd",
+      "space_group_number": 70,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -85454.0,
+      "formation_energy_per_atom": -10268.0,
+      "decomposition_energy_per_atom": -757.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -165.0,
+      "decomposition_energy_mp": -757.0,
+      "decomposition_energy_mp_oqmd": -166.0
+    },
+    "electronic": {
+      "bandgap": 0.717,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "03684cb2e9",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:19.230089Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Ni2Se8W2.json",
+      "material://Cs4Ni2Se8W2"
+    ]
+  }
+}

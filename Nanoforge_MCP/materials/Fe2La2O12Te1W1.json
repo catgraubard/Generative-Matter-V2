@@ -1,0 +1,113 @@
+{
+  "id": "Fe2La2O12Te1W1",
+  "uri": "material://Fe2La2O12Te1W1",
+  "composition": {
+    "formula": "Fe2La2O12Te1W1",
+    "elements": {
+      "Fe": 2,
+      "La": 2,
+      "O": 12,
+      "Te": 1,
+      "W": 1
+    },
+    "reduced_formula": "La2Fe2TeWO12",
+    "element_list": [
+      "O",
+      "Fe",
+      "Te",
+      "La",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron(III) oxide (Fe2O3):  85.12 g  \n - Lanthanum oxide (La2O3):  76.34 g  \n - Tellurium dioxide (TeO2):  16.66 g  \n - Tungsten oxide (WO3):  18.88 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron(III) oxide: Available from chemical supply stores or online suppliers. \n - Lanthanum oxide: Obtainable from specialty chemical suppliers or online marketplaces. \n - Tellurium dioxide: Sourced from chemical suppliers or online retailers. \n - Tungsten oxide: Available from chemical suppliers or online stores.",
+      "steps": [
+        "- Iron(III) oxide: Available from chemical supply stores or online suppliers.",
+        "- Lanthanum oxide: Obtainable from specialty chemical suppliers or online marketplaces.",
+        "- Tellurium dioxide: Sourced from chemical suppliers or online retailers.",
+        "- Tungsten oxide: Available from chemical suppliers or online stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing bowl, combine 85.12 g of Fe2O3, 76.34 g of La2O3, 16.66 g of TeO2, and 18.88 g of WO3.",
+        "3. Mix the powders thoroughly using a mortar and pestle for 10 minutes until a homogeneous mixture is obtained.",
+        "4. Transfer the mixture to a ball mill and mill for an additional 30 minutes to achieve a fine particle size."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry mixing bowl, combine 85.12 g of Fe2O3, 76.34 g of La2O3, 16.66 g of TeO2, and 18.88 g of WO3. \n 3. Mix the powders thoroughly using a mortar and pestle for 10 minutes until a homogeneous mixture is obtained. \n 4. Transfer the mixture to a ball mill and mill for an additional 30 minutes to achieve a fine particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the milled powder mixture into a crucible suitable for high-temperature applications.",
+        "3. Heat the crucible in the furnace for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the milled powder mixture into a crucible suitable for high-temperature applications. \n 3. Heat the crucible in the furnace for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a period of 6 hours.",
+        "2. Do not open the furnace door until completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a period of 6 hours. \n 2. Do not open the furnace door until completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, sand the surface using 400-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable ceramic sealant for added durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, sand the surface using 400-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable ceramic sealant for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2502587.0,
+      "density": 59249.0,
+      "crystal_system": "trigonal",
+      "space_group": "P312",
+      "space_group_number": 149,
+      "point_group": "32",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1470152.0,
+      "formation_energy_per_atom": -24848.0,
+      "decomposition_energy_per_atom": -131.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -16.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 2.4095,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "975f30f2e9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:35.117048Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2La2O12Te1W1.json",
+      "material://Fe2La2O12Te1W1"
+    ]
+  }
+}

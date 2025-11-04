@@ -1,0 +1,110 @@
+{
+  "id": "As2Cu3Na3",
+  "uri": "material://As2Cu3Na3",
+  "composition": {
+    "formula": "As2Cu3Na3",
+    "elements": {
+      "As": 2,
+      "Cu": 3,
+      "Na": 3
+    },
+    "reduced_formula": "Na3Cu3As2",
+    "element_list": [
+      "Na",
+      "Cu",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Arsenic (As): 20 g \n Copper (Cu): 30 g \n Sodium (Na): 10 g \n Deionized Water: 50 g \n Hydrochloric Acid (HCl): 5 g \n Sodium Hydroxide (NaOH): 3 g"
+    },
+    "sourcing": {
+      "instructions": "Arsenic: Obtain from chemical suppliers or specialty chemical stores (ensure proper handling procedures are followed). \n Copper: Available at hardware stores or metal suppliers. \n Sodium: Purchase from chemical suppliers. \n Deionized Water: Obtain from laboratories or water purification suppliers. \n Hydrochloric Acid: Available at chemical supply stores. \n Sodium Hydroxide: Can be sourced from chemical suppliers or hardware stores (often labeled as lye).",
+      "steps": [
+        "Arsenic: Obtain from chemical suppliers or specialty chemical stores (ensure proper handling procedures are followed).",
+        "Copper: Available at hardware stores or metal suppliers.",
+        "Sodium: Purchase from chemical suppliers.",
+        "Deionized Water: Obtain from laboratories or water purification suppliers.",
+        "Hydrochloric Acid: Available at chemical supply stores.",
+        "Sodium Hydroxide: Can be sourced from chemical suppliers or hardware stores (often labeled as lye)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, carefully measure 20 g of arsenic and 30 g of copper using a digital scale.",
+        "2. In a glass beaker, dissolve 10 g of sodium in 50 g of deionized water.",
+        "3. Slowly add 5 g of hydrochloric acid to the sodium solution while stirring.",
+        "4. Once dissolved, add the arsenic and copper to the solution while maintaining constant stirring.",
+        "5. Add 3 g of sodium hydroxide to the mixture to neutralize excess acid. Stir until fully dissolved."
+      ],
+      "raw_text": "1. In a fume hood, carefully measure 20 g of arsenic and 30 g of copper using a digital scale. \n 2. In a glass beaker, dissolve 10 g of sodium in 50 g of deionized water. \n 3. Slowly add 5 g of hydrochloric acid to the sodium solution while stirring. \n 4. Once dissolved, add the arsenic and copper to the solution while maintaining constant stirring. \n 5. Add 3 g of sodium hydroxide to the mixture to neutralize excess acid. Stir until fully dissolved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 600°C for 2 hours to ensure complete reaction and formation of As2Cu3Na3."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 600°C for 2 hours to ensure complete reaction and formation of As2Cu3Na3."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature over 4-6 hours.",
+        "2. Do not open the furnace door until it is safe to handle the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature over 4-6 hours. \n 2. Do not open the furnace door until it is safe to handle the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth the edges and surfaces of the solid sample.",
+        "3. Optionally, seal the sample with a clear acrylic sealant for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth the edges and surfaces of the solid sample. \n 3. Optionally, seal the sample with a clear acrylic sealant for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1589408.0,
+      "density": 42777.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -279622.0,
+      "formation_energy_per_atom": -2974.0,
+      "decomposition_energy_per_atom": -163.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -164.0,
+      "decomposition_energy_mp_oqmd": -88.0
+    },
+    "electronic": {
+      "bandgap": 0.2868,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f1fe426cc5",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.204236Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2Cu3Na3.json",
+      "material://As2Cu3Na3"
+    ]
+  }
+}

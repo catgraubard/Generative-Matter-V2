@@ -1,0 +1,106 @@
+{
+  "id": "Al4Mn8O24Pb1Sr1",
+  "uri": "material://Al4Mn8O24Pb1Sr1",
+  "composition": {
+    "formula": "Al4Mn8O24Pb1Sr1",
+    "elements": {
+      "Al": 4,
+      "Mn": 8,
+      "O": 24,
+      "Pb": 1,
+      "Sr": 1
+    },
+    "reduced_formula": "SrMn8Al4PbO24",
+    "element_list": [
+      "O",
+      "Al",
+      "Mn",
+      "Sr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 120 g, Er: 40 g, Nd: 40 g, P: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Metal supply store, Er: Chemical supplier, Nd: Chemical supplier, P: Chemical supplier",
+      "steps": [
+        "Cu: Metal supply store, Er: Chemical supplier, Nd: Chemical supplier, P: Chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C for 2 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible and inspect for defects."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible and inspect for defects."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4139818.0,
+      "density": 49186.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3022261.0,
+      "formation_energy_per_atom": -2363.0,
+      "decomposition_energy_per_atom": -378.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -227.0,
+      "decomposition_energy_mp_oqmd": -172.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e79164746e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.716453Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al4Mn8O24Pb1Sr1.json",
+      "material://Al4Mn8O24Pb1Sr1"
+    ]
+  }
+}

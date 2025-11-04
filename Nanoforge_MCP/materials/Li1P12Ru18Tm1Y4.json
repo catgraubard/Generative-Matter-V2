@@ -1,0 +1,113 @@
+{
+  "id": "Li1P12Ru18Tm1Y4",
+  "uri": "material://Li1P12Ru18Tm1Y4",
+  "composition": {
+    "formula": "Li1P12Ru18Tm1Y4",
+    "elements": {
+      "Li": 1,
+      "P": 12,
+      "Ru": 18,
+      "Tm": 1,
+      "Y": 4
+    },
+    "reduced_formula": "LiY4Tm(P2Ru3)6",
+    "element_list": [
+      "Li",
+      "P",
+      "Y",
+      "Ru",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe):  144.0 g \n - Mercury (Hg):  24.0 g \n - Indium (In):  24.0 g \n - Scandium (Sc):  288.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Obtain from a local metal supplier or hardware store. \n - Mercury: Acquire from specialized chemical suppliers or online marketplaces (ensure safety regulations are followed). \n - Indium: Purchase from electronic component suppliers or metal dealers. \n - Scandium: Source from rare earth metal suppliers or online specialty metal retailers.",
+      "steps": [
+        "- Iron: Obtain from a local metal supplier or hardware store.",
+        "- Mercury: Acquire from specialized chemical suppliers or online marketplaces (ensure safety regulations are followed).",
+        "- Indium: Purchase from electronic component suppliers or metal dealers.",
+        "- Scandium: Source from rare earth metal suppliers or online specialty metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical scale for precision.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Iron, Mercury, Indium, and Scandium.",
+        "3. Use a mechanical mixer to thoroughly blend the powders for at least 10 minutes to ensure a uniform mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical scale for precision. \n 2. In a clean, dry mixing container, combine the weighed amounts of Iron, Mercury, Indium, and Scandium. \n 3. Use a mechanical mixer to thoroughly blend the powders for at least 10 minutes to ensure a uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixed material in a crucible suitable for high temperatures.",
+        "2. Preheat the furnace to 800°C (1472°F).",
+        "3. Once the desired temperature is reached, place the crucible inside and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Place the mixed material in a crucible suitable for high temperatures. \n 2. Preheat the furnace to 800°C (1472°F). \n 3. Once the desired temperature is reached, place the crucible inside and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace until it reaches ambient temperature (approximately 4-6 hours).",
+        "3. Once cool, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace until it reaches ambient temperature (approximately 4-6 hours). \n 3. Once cool, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use sandpaper (grit 120 to 400) to smooth the edges and surface of the sample.",
+        "3. Clean the surface with isopropyl alcohol to remove any dust or residue.",
+        "4. Optionally, seal the sample with a clear epoxy or lacquer for protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use sandpaper (grit 120 to 400) to smooth the edges and surface of the sample. \n 3. Clean the surface with isopropyl alcohol to remove any dust or residue. \n 4. Optionally, seal the sample with a clear epoxy or lacquer for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5430219.0,
+      "density": 83251.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2955186.0,
+      "formation_energy_per_atom": -8714.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -31.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 0.0029,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b429035747",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.877918Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li1P12Ru18Tm1Y4.json",
+      "material://Li1P12Ru18Tm1Y4"
+    ]
+  }
+}

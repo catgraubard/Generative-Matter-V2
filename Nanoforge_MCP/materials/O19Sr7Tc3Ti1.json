@@ -1,0 +1,132 @@
+{
+  "id": "O19Sr7Tc3Ti1",
+  "uri": "material://O19Sr7Tc3Ti1",
+  "composition": {
+    "formula": "O19Sr7Tc3Ti1",
+    "elements": {
+      "O": 19,
+      "Sr": 7,
+      "Tc": 3,
+      "Ti": 1
+    },
+    "reduced_formula": "Sr7TiTc3O19",
+    "element_list": [
+      "O",
+      "Ti",
+      "Sr",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 76.8,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 32.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 12.3,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 76.8 g (Oxygen source, e.g., sodium oxalate) \n Sr: 32.5 g (Strontium carbonate) \n Tc: 12.3 g (Technetium powder) \n Ti: 5.0 g (Titanium powder)"
+    },
+    "sourcing": {
+      "instructions": "O: Purchase from a chemical supply company or online (e.g., Sigma-Aldrich) \n Sr: Obtain from a chemical supplier or online (e.g., Fisher Scientific) \n Tc: Source from a specialized nuclear material supplier or laboratory \n Ti: Purchase from a metal supplier or online (e.g., Titanium Industries)",
+      "steps": [
+        "O: Purchase from a chemical supply company or online (e.g., Sigma-Aldrich)",
+        "Sr: Obtain from a chemical supplier or online (e.g., Fisher Scientific)",
+        "Tc: Source from a specialized nuclear material supplier or laboratory",
+        "Ti: Purchase from a metal supplier or online (e.g., Titanium Industries)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of O, Sr, Tc, and Ti.",
+        "3. Use a mortar and pestle or a ball mill to thoroughly grind the mixture to ensure uniformity.",
+        "4. Transfer the mixed powder to a suitable mold that matches the desired dimensions (3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of O, Sr, Tc, and Ti. \n 3. Use a mortar and pestle or a ball mill to thoroughly grind the mixture to ensure uniformity. \n 4. Transfer the mixed powder to a suitable mold that matches the desired dimensions (3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mold with the mixture into the furnace.",
+        "3. Maintain the temperature for 4 hours to facilitate solid-state reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mold with the mixture into the furnace. \n 3. Maintain the temperature for 4 hours to facilitate solid-state reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not remove the mold until the temperature is stable to avoid cracking."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Do not remove the mold until the temperature is stable to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use fine-grit sandpaper to smooth out the surface if necessary.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect for any rough edges or imperfections. \n 3. Use fine-grit sandpaper to smooth out the surface if necessary. \n 4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4029084.0,
+      "density": 51896.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2279027.0,
+      "formation_energy_per_atom": -27696.0,
+      "decomposition_energy_per_atom": -1489.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -1495.0,
+      "decomposition_energy_mp_oqmd": -1495.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8a810a8797",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:17.568440Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O19Sr7Tc3Ti1.json",
+      "material://O19Sr7Tc3Ti1"
+    ]
+  }
+}

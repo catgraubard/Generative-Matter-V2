@@ -1,0 +1,131 @@
+{
+  "id": "Cs1Cu2Rb3Se32",
+  "uri": "material://Cs1Cu2Rb3Se32",
+  "composition": {
+    "formula": "Cs1Cu2Rb3Se32",
+    "elements": {
+      "Cs": 1,
+      "Cu": 2,
+      "Rb": 3,
+      "Se": 32
+    },
+    "reduced_formula": "CsRb3(CuSe16)2",
+    "element_list": [
+      "Cu",
+      "Se",
+      "Rb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 6.62,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 12.71,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 12.24,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 64.43,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 6.62 g \n Cu: 12.71 g \n Rb: 12.24 g \n Se: 64.43 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich) \n Cu: Obtain from a metal supplier (e.g., online metal distributors) \n Rb: Buy from a chemical supplier (e.g., Alfa Aesar) \n Se: Acquire from a chemical supplier (e.g., Alfa Aesar)",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Sigma-Aldrich)",
+        "Cu: Obtain from a metal supplier (e.g., online metal distributors)",
+        "Rb: Buy from a chemical supplier (e.g., Alfa Aesar)",
+        "Se: Acquire from a chemical supplier (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Cs, Cu, Rb, and Se using an analytical balance.",
+        "2. Combine Cs, Cu, Rb, and Se in a clean glass beaker.",
+        "3. Use a stirrer to homogenize the mixture at room temperature for 10 minutes until a uniform powder is formed."
+      ],
+      "raw_text": "1. Measure Cs, Cu, Rb, and Se using an analytical balance. \n 2. Combine Cs, Cu, Rb, and Se in a clean glass beaker. \n 3. Use a stirrer to homogenize the mixture at room temperature for 10 minutes until a uniform powder is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the homogenized powder into a high-temperature furnace.",
+        "2. Heat to 800°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the homogenized powder into a high-temperature furnace. \n 2. Heat to 800°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool down to room temperature naturally (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool down to room temperature naturally (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace.",
+        "2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth edges if necessary.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace. \n 2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth edges if necessary. \n 3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 1210016.0,
+      "density": 41762.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4",
+      "space_group_number": 81,
+      "point_group": "-4",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1478479.0,
+      "formation_energy_per_atom": -6301.0,
+      "decomposition_energy_per_atom": -2058.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -2572.0,
+      "decomposition_energy_mp_oqmd": -2502.0
+    },
+    "electronic": {
+      "bandgap": 0.0121,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "98419a34f5",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:36.134377Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Cu2Rb3Se32.json",
+      "material://Cs1Cu2Rb3Se32"
+    ]
+  }
+}

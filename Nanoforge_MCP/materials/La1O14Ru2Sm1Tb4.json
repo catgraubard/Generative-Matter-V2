@@ -1,0 +1,117 @@
+{
+  "id": "La1O14Ru2Sm1Tb4",
+  "uri": "material://La1O14Ru2Sm1Tb4",
+  "composition": {
+    "formula": "La1O14Ru2Sm1Tb4",
+    "elements": {
+      "La": 1,
+      "O": 14,
+      "Ru": 2,
+      "Sm": 1,
+      "Tb": 4
+    },
+    "reduced_formula": "LaTb4Sm(RuO7)2",
+    "element_list": [
+      "O",
+      "Ru",
+      "La",
+      "Sm",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 10.0 g (Lanthanum Oxide) \n Ru: 3.0 g (Ruthenium) \n Sm2O3: 5.0 g (Samarium Oxide) \n Tb4O7: 20.0 g (Terbium Oxide)"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply companies (e.g., Sigma-Aldrich) \n Ru: Metal suppliers or online marketplaces \n Sm2O3: Chemical supply companies \n Tb4O7: Rare earth material suppliers",
+      "steps": [
+        "La2O3: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Ru: Metal suppliers or online marketplaces",
+        "Sm2O3: Chemical supply companies",
+        "Tb4O7: Rare earth material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine La2O3, Ru, Sm2O3, and Tb4O7.",
+        "3. Mix thoroughly using a mortar and pestle to achieve a homogeneous powder."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing bowl, combine La2O3, Ru, Sm2O3, and Tb4O7. \n 3. Mix thoroughly using a mortar and pestle to achieve a homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Heat in a furnace at 1200°C for 4 hours.",
+        "3. Ensure a controlled ramp-up to prevent thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Heat in a furnace at 1200°C for 4 hours. \n 3. Ensure a controlled ramp-up to prevent thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the temperature to decrease naturally to room temperature.",
+        "2. Ensure the crucible is left in the furnace during the cooling process for uniformity."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the temperature to decrease naturally to room temperature. \n 2. Ensure the crucible is left in the furnace during the cooling process for uniformity."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond file to smooth out any rough edges and achieve the desired dimensions.",
+        "3. Optionally, coat with a sealant for protection against environmental factors."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond file to smooth out any rough edges and achieve the desired dimensions. \n 3. Optionally, coat with a sealant for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2965816.0,
+      "density": 75647.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1859548.0,
+      "formation_energy_per_atom": -31792.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -3.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "73d36ffc5e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:47.035419Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1O14Ru2Sm1Tb4.json",
+      "material://La1O14Ru2Sm1Tb4"
+    ]
+  }
+}

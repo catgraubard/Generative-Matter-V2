@@ -1,0 +1,130 @@
+{
+  "id": "Li2Pb1Rb6Sn7",
+  "uri": "material://Li2Pb1Rb6Sn7",
+  "composition": {
+    "formula": "Li2Pb1Rb6Sn7",
+    "elements": {
+      "Li": 2,
+      "Pb": 1,
+      "Rb": 6,
+      "Sn": 7
+    },
+    "reduced_formula": "Rb6Li2Sn7Pb",
+    "element_list": [
+      "Li",
+      "Rb",
+      "Sn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Pb",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 114.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 98.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2: 18.00 g \n Pb: 18.00 g \n Rb: 114.00 g \n Sn: 98.00 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from chemical supply companies or online marketplaces specializing in lab chemicals. \n Pb: Obtain from lead ingots or soldering supplies. \n Rb: Available through chemical suppliers or online stores. \n Sn: Find in soldering materials or metal suppliers.",
+      "steps": [
+        "Li: Purchase from chemical supply companies or online marketplaces specializing in lab chemicals.",
+        "Pb: Obtain from lead ingots or soldering supplies.",
+        "Rb: Available through chemical suppliers or online stores.",
+        "Sn: Find in soldering materials or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 18.00 g of Li using a precision scale.",
+        "2. Weigh 18.00 g of Pb.",
+        "3. Weigh 114.00 g of Rb.",
+        "4. Weigh 98.00 g of Sn.",
+        "5. In a clean, dry glass container, combine all weighed materials.",
+        "6. Stir thoroughly using a non-reactive spatula until the mixture is uniform."
+      ],
+      "raw_text": "1. Weigh out 18.00 g of Li using a precision scale. \n 2. Weigh 18.00 g of Pb. \n 3. Weigh 114.00 g of Rb. \n 4. Weigh 98.00 g of Sn. \n 5. In a clean, dry glass container, combine all weighed materials. \n 6. Stir thoroughly using a non-reactive spatula until the mixture is uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed ingredients to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the crucible to 800°C (1472°F) at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the crucible to 800°C (1472°F) at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Do not remove the crucible until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F). \n 2. Do not remove the crucible until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth out the edges and surface to achieve the desired finish.",
+        "3. Optionally, seal the sample with a clear epoxy resin for added durability.",
+        "4. Allow the resin to cure as per manufacturer instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth out the edges and surface to achieve the desired finish. \n 3. Optionally, seal the sample with a clear epoxy resin for added durability. \n 4. Allow the resin to cure as per manufacturer instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 6180363.0,
+      "density": 42045.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -462831.0,
+      "formation_energy_per_atom": -3002.0,
+      "decomposition_energy_per_atom": -126.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -118.0,
+      "decomposition_energy_mp_oqmd": -96.0
+    },
+    "electronic": {
+      "bandgap": 0.5391,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "57a6eff489",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:10.864369Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Pb1Rb6Sn7.json",
+      "material://Li2Pb1Rb6Sn7"
+    ]
+  }
+}

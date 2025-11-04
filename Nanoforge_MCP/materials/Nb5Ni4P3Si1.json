@@ -1,0 +1,131 @@
+{
+  "id": "Nb5Ni4P3Si1",
+  "uri": "material://Nb5Ni4P3Si1",
+  "composition": {
+    "formula": "Nb5Ni4P3Si1",
+    "elements": {
+      "Nb": 5,
+      "Ni": 4,
+      "P": 3,
+      "Si": 1
+    },
+    "reduced_formula": "Nb5SiNi4P3",
+    "element_list": [
+      "Si",
+      "P",
+      "Ni",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 100 g \n Ni: 80 g \n P: 60 g \n Si: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Specialty metal suppliers or online retailers \n Ni: Alloy suppliers or local metal shops \n P: Chemical supply stores \n Si: Silicon suppliers or electronics stores",
+      "steps": [
+        "Nb: Specialty metal suppliers or online retailers",
+        "Ni: Alloy suppliers or local metal shops",
+        "P: Chemical supply stores",
+        "Si: Silicon suppliers or electronics stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry container, combine Nb, Ni, P, and Si powders thoroughly using a mortar and pestle for uniformity.",
+        "3. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure a fine and homogenous mixture."
+      ],
+      "raw_text": "1. Measure and weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry container, combine Nb, Ni, P, and Si powders thoroughly using a mortar and pestle for uniformity. \n 3. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure a fine and homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the mixed powders in a graphite crucible and insert it into the furnace.",
+        "3. Hold at this temperature for 4 hours to allow for complete reaction and sintering of the material."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the mixed powders in a graphite crucible and insert it into the furnace. \n 3. Hold at this temperature for 4 hours to allow for complete reaction and sintering of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use a diamond grinder to refine the edges and surfaces to achieve desired dimensions and smoothness.",
+        "3. If required, apply a sealant to enhance surface durability.",
+        "4. Finally, label the sample with its composition and any relevant information."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use a diamond grinder to refine the edges and surfaces to achieve desired dimensions and smoothness. \n 3. If required, apply a sealant to enhance surface durability. \n 4. Finally, label the sample with its composition and any relevant information."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 1783227.0,
+      "density": 76387.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1057729.0,
+      "formation_energy_per_atom": -8062.0,
+      "decomposition_energy_per_atom": -13.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -54.0,
+      "decomposition_energy_mp": -68.0,
+      "decomposition_energy_mp_oqmd": -62.0
+    },
+    "electronic": {
+      "bandgap": 0.0045,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e96d192121",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.329076Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb5Ni4P3Si1.json",
+      "material://Nb5Ni4P3Si1"
+    ]
+  }
+}

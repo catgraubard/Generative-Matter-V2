@@ -1,0 +1,107 @@
+{
+  "id": "Co15Fe1P12V2Y6",
+  "uri": "material://Co15Fe1P12V2Y6",
+  "composition": {
+    "formula": "Co15Fe1P12V2Y6",
+    "elements": {
+      "Co": 15,
+      "Fe": 1,
+      "P": 12,
+      "V": 2,
+      "Y": 6
+    },
+    "reduced_formula": "Y6V2Fe(Co5P4)3",
+    "element_list": [
+      "P",
+      "V",
+      "Fe",
+      "Co",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 750.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 750 g, Fe: 50 g, P: 600 g, V: 100 g, Y: 300 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical supply store or online supplier, Fe: Metal supply store or online supplier, P: Chemical supply store, V: Chemical supply store, Y: Rare earth element supplier",
+      "steps": [
+        "Co: Chemical supply store or online supplier, Fe: Metal supply store or online supplier, P: Chemical supply store, V: Chemical supply store, Y: Rare earth element supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely. 2. In a clean mixing container, combine Co, Fe, P, V, and Y. 3. Stir the mixture thoroughly for 10 minutes to ensure uniform distribution of components. 4. Transfer the mixture to a ball mill and mill for 2 hours to achieve a homogenous powder."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely. 2. In a clean mixing container, combine Co, Fe, P, V, and Y. 3. Stir the mixture thoroughly for 10 minutes to ensure uniform distribution of components. 4. Transfer the mixture to a ball mill and mill for 2 hours to achieve a homogenous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C. 2. Place the milled powder in a graphite crucible. 3. Heat the crucible in the furnace for 2 hours to facilitate alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. 2. Place the milled powder in a graphite crucible. 3. Heat the crucible in the furnace for 2 hours to facilitate alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4-5 hours). 2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4-5 hours). 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible. 2. Grind the edges to remove any roughness using a sandpaper with 120 grit. 3. Seal the surface with a clear epoxy resin for protection. 4. Allow the epoxy to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. 2. Grind the edges to remove any roughness using a sandpaper with 120 grit. 3. Seal the surface with a clear epoxy resin for protection. 4. Allow the epoxy to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4803939.0,
+      "density": 67295.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2727418.0,
+      "formation_energy_per_atom": -9922.0,
+      "decomposition_energy_per_atom": -461.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -461.0,
+      "decomposition_energy_mp_oqmd": -458.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0ad0ac7739",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:29.587879Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co15Fe1P12V2Y6.json",
+      "material://Co15Fe1P12V2Y6"
+    ]
+  }
+}

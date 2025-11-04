@@ -1,0 +1,111 @@
+{
+  "id": "K3Pb16Rb13",
+  "uri": "material://K3Pb16Rb13",
+  "composition": {
+    "formula": "K3Pb16Rb13",
+    "elements": {
+      "K": 3,
+      "Pb": 16,
+      "Rb": 13
+    },
+    "reduced_formula": "K3Rb13Pb16",
+    "element_list": [
+      "K",
+      "Rb",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 50 g, Ga: 100 g, In: 100 g, Mg: 25 g, Tm: 150 g"
+    },
+    "sourcing": {
+      "instructions": "Ag: Local metal supplier or online; Ga: Chemical supply company; In: Specialty metal supplier; Mg: Metal supplier; Tm: Rare earth metal supplier or online market.",
+      "steps": [
+        "Ag: Local metal supplier or online; Ga: Chemical supply company; In: Specialty metal supplier; Mg: Metal supplier; Tm: Rare earth metal supplier or online market."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Ag, Ga, In, Mg, and Tm.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of Ag, Ga, In, Mg, and Tm. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Transfer the mixed powder into a crucible made of a compatible material (e.g., alumina) suitable for high temperatures.",
+        "3. Place the crucible in the furnace and heat for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Transfer the mixed powder into a crucible made of a compatible material (e.g., alumina) suitable for high temperatures. \n 3. Place the crucible in the furnace and heat for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid forced cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Avoid forced cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified material from the crucible.",
+        "3. Use a grinder or sander to smooth out any rough edges and achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Optionally, apply a sealant if required to protect the surface from oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solidified material from the crucible. \n 3. Use a grinder or sander to smooth out any rough edges and achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Optionally, apply a sealant if required to protect the surface from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 1448951.0,
+      "density": 52071.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -825702.0,
+      "formation_energy_per_atom": -2216.0,
+      "decomposition_energy_per_atom": -18.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": 6.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e541238075",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.014649Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K3Pb16Rb13.json",
+      "material://K3Pb16Rb13"
+    ]
+  }
+}

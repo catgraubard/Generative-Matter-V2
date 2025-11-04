@@ -1,0 +1,110 @@
+{
+  "id": "Fe2La4O24Se8",
+  "uri": "material://Fe2La4O24Se8",
+  "composition": {
+    "formula": "Fe2La4O24Se8",
+    "elements": {
+      "Fe": 2,
+      "La": 4,
+      "O": 24,
+      "Se": 8
+    },
+    "reduced_formula": "La2Fe(SeO3)4",
+    "element_list": [
+      "O",
+      "Fe",
+      "Se",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Oxygen (O): 26 g \n - Terbium (Tb): 16 g (4 x 4 g) \n - Tellurium (Te): 100 g (10 x 10 g)"
+    },
+    "sourcing": {
+      "instructions": "- Oxygen: Use a high-purity gas supplier (e.g., Airgas) \n - Terbium: Purchase from a rare earth material supplier (e.g., American Elements) \n - Tellurium: Obtain from a chemical supplier (e.g., Sigma-Aldrich)",
+      "steps": [
+        "- Oxygen: Use a high-purity gas supplier (e.g., Airgas)",
+        "- Terbium: Purchase from a rare earth material supplier (e.g., American Elements)",
+        "- Tellurium: Obtain from a chemical supplier (e.g., Sigma-Aldrich)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 26 g of oxygen in a gas cylinder.",
+        "2. Weigh 16 g of terbium using an analytical balance.",
+        "3. Weigh 100 g of tellurium.",
+        "4. In a fume hood, mix the terbium and tellurium in a clean, dry crucible.",
+        "5. Slowly introduce the oxygen to the mixture while stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh 26 g of oxygen in a gas cylinder. \n 2. Weigh 16 g of terbium using an analytical balance. \n 3. Weigh 100 g of tellurium. \n 4. In a fume hood, mix the terbium and tellurium in a clean, dry crucible. \n 5. Slowly introduce the oxygen to the mixture while stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 950°C and maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 950°C and maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Ensure the crucible is placed in a safe area to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Ensure the crucible is placed in a safe area to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the material for any rough edges.",
+        "3. Use a fine-grit sandpaper to smooth the surfaces if necessary.",
+        "4. Optionally, apply a sealant to protect the surface and enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the material for any rough edges. \n 3. Use a fine-grit sandpaper to smooth the surfaces if necessary. \n 4. Optionally, apply a sealant to protect the surface and enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6405824.0,
+      "density": 43627.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2633322.0,
+      "formation_energy_per_atom": -21034.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -86.0,
+      "decomposition_energy_mp_oqmd": -17.0
+    },
+    "electronic": {
+      "bandgap": 3.6885,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9cb553eb7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.256656Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2La4O24Se8.json",
+      "material://Fe2La4O24Se8"
+    ]
+  }
+}

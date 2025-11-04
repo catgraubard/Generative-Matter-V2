@@ -1,0 +1,110 @@
+{
+  "id": "Er10S1Tl6",
+  "uri": "material://Er10S1Tl6",
+  "composition": {
+    "formula": "Er10S1Tl6",
+    "elements": {
+      "Er": 10,
+      "S": 1,
+      "Tl": 6
+    },
+    "reduced_formula": "Er10Tl6S",
+    "element_list": [
+      "S",
+      "Er",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cesium (Cs): 46.1 g \n Antimony (Sb): 120.0 g \n Tin (Sn): 120.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cesium: Purchase from a chemical supply company (e.g., Alfa Aesar, Sigma-Aldrich). \n Antimony: Obtain from a local chemical supplier or online (e.g., Amazon, eBay). \n Tin: Available at hardware stores or online chemical suppliers.",
+      "steps": [
+        "Cesium: Purchase from a chemical supply company (e.g., Alfa Aesar, Sigma-Aldrich).",
+        "Antimony: Obtain from a local chemical supplier or online (e.g., Amazon, eBay).",
+        "Tin: Available at hardware stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 46.1 g of cesium, 120.0 g of antimony, and 120.0 g of tin using an analytical balance.",
+        "2. In a fume hood, combine the three metals in a clean, dry crucible.",
+        "3. Use a clean metal stir rod to mix the powders evenly.",
+        "4. Ensure no moisture is present in the mixture to prevent unwanted reactions."
+      ],
+      "raw_text": "1. Weigh out 46.1 g of cesium, 120.0 g of antimony, and 120.0 g of tin using an analytical balance. \n 2. In a fume hood, combine the three metals in a clean, dry crucible. \n 3. Use a clean metal stir rod to mix the powders evenly. \n 4. Ensure no moisture is present in the mixture to prevent unwanted reactions."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat the mixture to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat the mixture to 800 °C at a rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature, approximately 4-6 hours.",
+        "2. Do not open the furnace until it has cooled to prevent oxidation of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature, approximately 4-6 hours. \n 2. Do not open the furnace until it has cooled to prevent oxidation of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified material using gloves and appropriate tools.",
+        "3. Grind the sample to achieve a uniform particle size if necessary.",
+        "4. Optionally, apply a protective sealant to enhance the stability of the material.",
+        "5. Polish the surface using fine sandpaper for a smoother finish."
+      ],
+      "raw_text": "1. After cooling, remove the crucible from the furnace. \n 2. Carefully extract the solidified material using gloves and appropriate tools. \n 3. Grind the sample to achieve a uniform particle size if necessary. \n 4. Optionally, apply a protective sealant to enhance the stability of the material. \n 5. Polish the surface using fine sandpaper for a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4602968.0,
+      "density": 105735.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -736795.0,
+      "formation_energy_per_atom": -5703.0,
+      "decomposition_energy_per_atom": -507.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -105.0,
+      "decomposition_energy_mp": -504.0,
+      "decomposition_energy_mp_oqmd": -499.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c751226857",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.277525Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er10S1Tl6.json",
+      "material://Er10S1Tl6"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "id": "Ni4Sc11Si12Zr1",
+  "uri": "material://Ni4Sc11Si12Zr1",
+  "composition": {
+    "formula": "Ni4Sc11Si12Zr1",
+    "elements": {
+      "Ni": 4,
+      "Sc": 11,
+      "Si": 12,
+      "Zr": 1
+    },
+    "reduced_formula": "ZrSc11(Si3Ni)4",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ni",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 80 g, Sc: 44 g, Si: 144 g, Zr: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a metal supplier or online store; Sc: Obtain from specialty metal suppliers; Si: Available from chemical suppliers; Zr: Buy from a metal or chemical supplier.",
+      "steps": [
+        "Ni: Purchase from a metal supplier or online store; Sc: Obtain from specialty metal suppliers; Si: Available from chemical suppliers; Zr: Buy from a metal or chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 80 g of nickel (Ni) using a precise scale.",
+        "2. Measure 44 g of scandium (Sc) and ensure it is in powder form.",
+        "3. Measure 144 g of silicon (Si) powder.",
+        "4. Measure 5 g of zirconium (Zr) powder.",
+        "5. In a clean, dry mixing container, add all measured powders.",
+        "6. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders for at least 15 minutes to achieve a homogeneous blend."
+      ],
+      "raw_text": "1. Measure out 80 g of nickel (Ni) using a precise scale. \n 2. Measure 44 g of scandium (Sc) and ensure it is in powder form. \n 3. Measure 144 g of silicon (Si) powder. \n 4. Measure 5 g of zirconium (Zr) powder. \n 5. In a clean, dry mixing container, add all measured powders. \n 6. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders for at least 15 minutes to achieve a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Transfer the mixed powder into a suitable crucible for heating.",
+        "3. Place the crucible inside the vacuum furnace and ensure it is properly sealed.",
+        "4. Heat for 2 hours to allow for sintering and bonding of the materials."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Transfer the mixed powder into a suitable crucible for heating. \n 3. Place the crucible inside the vacuum furnace and ensure it is properly sealed. \n 4. Heat for 2 hours to allow for sintering and bonding of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the 2-hour heating period, turn off the furnace and allow it to cool down naturally.",
+        "2. Ensure the cooling process takes at least 6 hours to reach room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After the 2-hour heating period, turn off the furnace and allow it to cool down naturally. \n 2. Ensure the cooling process takes at least 6 hours to reach room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully from the furnace.",
+        "2. Inspect the solid sample for any surface irregularities.",
+        "3. If necessary, use sandpaper (grit 400) to smooth any rough edges.",
+        "4. Optional: Apply a protective sealant to enhance surface durability.",
+        "5. Store the finalized sample in a dry, cool environment to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully from the furnace. \n 2. Inspect the solid sample for any surface irregularities. \n 3. If necessary, use sandpaper (grit 400) to smooth any rough edges. \n 4. Optional: Apply a protective sealant to enhance surface durability. \n 5. Store the finalized sample in a dry, cool environment to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 464411.0,
+      "density": 41389.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1901155.0,
+      "formation_energy_per_atom": -8459.0,
+      "decomposition_energy_per_atom": -65.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -43.0,
+      "decomposition_energy_mp": -65.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0ae8f2eda6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:29.744960Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4Sc11Si12Zr1.json",
+      "material://Ni4Sc11Si12Zr1"
+    ]
+  }
+}

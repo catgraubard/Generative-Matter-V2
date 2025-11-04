@@ -1,0 +1,140 @@
+{
+  "id": "Co16Na1Nb6P12Sc1",
+  "uri": "material://Co16Na1Nb6P12Sc1",
+  "composition": {
+    "formula": "Co16Na1Nb6P12Sc1",
+    "elements": {
+      "Co": 16,
+      "Na": 1,
+      "Nb": 6,
+      "P": 12,
+      "Sc": 1
+    },
+    "reduced_formula": "NaScNb6(Co4P3)4",
+    "element_list": [
+      "Na",
+      "P",
+      "Sc",
+      "Co",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 224.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 168.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 336.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 14.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 224 g\nNa: 14 g\nNb: 168 g\nP: 336 g\nSc: 14 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).\nNa: Obtain from a chemical supply store or online (e.g., Fisher Scientific).\nNb: Source from specialty alloy suppliers.\nP: Obtain from a chemical supplier or online (e.g., Alfa Aesar).\nSc: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "Na: Obtain from a chemical supply store or online (e.g., Fisher Scientific).",
+        "Nb: Source from specialty alloy suppliers.",
+        "P: Obtain from a chemical supplier or online (e.g., Alfa Aesar).",
+        "Sc: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean mixing container, combine the weighed Co, Na, Nb, P, and Sc.",
+        "3. Use a ceramic pestle and mortar to grind the mixture until a uniform powder is achieved.",
+        "4. Transfer the mixture to a clean, dry glass vial for the next step."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance.\n2. In a clean mixing container, combine the weighed Co, Na, Nb, P, and Sc.\n3. Use a ceramic pestle and mortar to grind the mixture until a uniform powder is achieved.\n4. Transfer the mixture to a clean, dry glass vial for the next step."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200°C.",
+        "2. Place the glass vial containing the powder in the furnace.",
+        "3. Hold at 1200°C for 4 hours to ensure full reaction and phase formation."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200°C.\n2. Place the glass vial containing the powder in the furnace.\n3. Hold at 1200°C for 4 hours to ensure full reaction and phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool gradually to room temperature (approximately 2-3 hours) before opening.",
+        "2. Once cooled, remove the vial carefully."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool gradually to room temperature (approximately 2-3 hours) before opening.\n2. Once cooled, remove the vial carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the vial.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, use sandpaper (grit 400) to smoothen the surface.",
+        "4. Optionally, apply a sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the vial.\n2. Inspect for any surface imperfections.\n3. If necessary, use sandpaper (grit 400) to smoothen the surface.\n4. Optionally, apply a sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4461401.0,
+      "density": 72207.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2758694.0,
+      "formation_energy_per_atom": -8032.0,
+      "decomposition_energy_per_atom": -178.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -178.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4188b80ee4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:41.715339Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Na1Nb6P12Sc1.json",
+      "material://Co16Na1Nb6P12Sc1"
+    ]
+  }
+}

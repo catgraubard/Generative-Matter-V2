@@ -1,0 +1,110 @@
+{
+  "id": "Mn2Ni4P4V2",
+  "uri": "material://Mn2Ni4P4V2",
+  "composition": {
+    "formula": "Mn2Ni4P4V2",
+    "elements": {
+      "Mn": 2,
+      "Ni": 4,
+      "P": 4,
+      "V": 2
+    },
+    "reduced_formula": "MnV(NiP)2",
+    "element_list": [
+      "P",
+      "V",
+      "Mn",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mn",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mn: 20.0 g, Ni: 40.0 g, P: 10.0 g, V: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Mn: Supplier of metal powders, Ni: Metal supply store, P: Chemical supplier, V: Online supplier",
+      "steps": [
+        "Mn: Supplier of metal powders, Ni: Metal supply store, P: Chemical supplier, V: Online supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely.",
+        "2. In a clean, dry container, combine Mn, Ni, P, and V.",
+        "3. Stir the mixture thoroughly for 10 minutes using a mechanical mixer to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each material precisely. \n 2. In a clean, dry container, combine Mn, Ni, P, and V. \n 3. Stir the mixture thoroughly for 10 minutes using a mechanical mixer to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 800°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally over 4 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally over 4 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth the surfaces.",
+        "3. Seal with a clear protective coating if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper to smooth the surfaces. \n 3. Seal with a clear protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 139357.0,
+      "density": 67971.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -891988.0,
+      "formation_energy_per_atom": -6611.0,
+      "decomposition_energy_per_atom": -21.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0a4b013a31",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:28.857257Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn2Ni4P4V2.json",
+      "material://Mn2Ni4P4V2"
+    ]
+  }
+}

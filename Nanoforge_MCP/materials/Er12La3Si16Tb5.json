@@ -1,0 +1,136 @@
+{
+  "id": "Er12La3Si16Tb5",
+  "uri": "material://Er12La3Si16Tb5",
+  "composition": {
+    "formula": "Er12La3Si16Tb5",
+    "elements": {
+      "Er": 12,
+      "La": 3,
+      "Si": 16,
+      "Tb": 5
+    },
+    "reduced_formula": "La3Tb5(Er3Si4)4",
+    "element_list": [
+      "Si",
+      "La",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 12.0 g \n La: 3.0 g \n Si: 16.0 g \n Tb: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Erbium (Er) powder: Available from chemical suppliers such as Sigma-Aldrich or Thermo Fisher. \n Lanthanum (La) powder: Obtain from online metal suppliers. \n Silicon (Si) powder: Sourced from semiconductor material suppliers. \n Terbium (Tb) powder: Procured from specialized rare earth material vendors.",
+      "steps": [
+        "Erbium (Er) powder: Available from chemical suppliers such as Sigma-Aldrich or Thermo Fisher.",
+        "Lanthanum (La) powder: Obtain from online metal suppliers.",
+        "Silicon (Si) powder: Sourced from semiconductor material suppliers.",
+        "Terbium (Tb) powder: Procured from specialized rare earth material vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 12.0 g of Er powder using an analytical balance.",
+        "2. Measure 3.0 g of La powder.",
+        "3. Measure 16.0 g of Si powder.",
+        "4. Measure 5.0 g of Tb powder.",
+        "5. Combine all measured powders in a clean, dry mixing container.",
+        "6. Use a mortar and pestle to thoroughly mix the powders for 15 minutes to achieve a homogeneous blend."
+      ],
+      "raw_text": "1. Measure 12.0 g of Er powder using an analytical balance. \n 2. Measure 3.0 g of La powder. \n 3. Measure 16.0 g of Si powder. \n 4. Measure 5.0 g of Tb powder. \n 5. Combine all measured powders in a clean, dry mixing container. \n 6. Use a mortar and pestle to thoroughly mix the powders for 15 minutes to achieve a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the sample gradually to 1200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the sample gradually to 1200°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the temperature to drop naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the temperature to drop naturally to room temperature (approximately 2-3 hours). \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for surface imperfections and use fine-grit sandpaper (300-400 grit) to smooth any rough areas.",
+        "3. Optionally, apply a protective sealant to enhance surface durability.",
+        "4. Allow any sealant to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for surface imperfections and use fine-grit sandpaper (300-400 grit) to smooth any rough areas. \n 3. Optionally, apply a protective sealant to enhance surface durability. \n 4. Allow any sealant to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 8421207.0,
+      "density": 72324.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2061245.0,
+      "formation_energy_per_atom": -7369.0,
+      "decomposition_energy_per_atom": -124.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": -114.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5be5f9358d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:16.080117Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er12La3Si16Tb5.json",
+      "material://Er12La3Si16Tb5"
+    ]
+  }
+}

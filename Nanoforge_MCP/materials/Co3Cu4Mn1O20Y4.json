@@ -1,0 +1,113 @@
+{
+  "id": "Co3Cu4Mn1O20Y4",
+  "uri": "material://Co3Cu4Mn1O20Y4",
+  "composition": {
+    "formula": "Co3Cu4Mn1O20Y4",
+    "elements": {
+      "Co": 3,
+      "Cu": 4,
+      "Mn": 1,
+      "O": 20,
+      "Y": 4
+    },
+    "reduced_formula": "Y4MnCo3(CuO5)4",
+    "element_list": [
+      "O",
+      "Mn",
+      "Co",
+      "Cu",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cobalt(III) oxide (Co2O3): 60.0 g \n - Copper(II) oxide (CuO): 95.0 g \n - Manganese(IV) oxide (MnO2): 10.0 g \n - Yttrium oxide (Y2O3): 30.0 g \n - Deionized water: 50.0 g (for slurry preparation)"
+    },
+    "sourcing": {
+      "instructions": "- Cobalt(III) oxide: Chemical supply companies or online distributors (e.g., Sigma-Aldrich) \n - Copper(II) oxide: Chemical supply stores or online (e.g., Fisher Scientific) \n - Manganese(IV) oxide: Specialty chemical suppliers \n - Yttrium oxide: Online suppliers (e.g., Alfa Aesar) \n - Deionized water: Laboratory supply stores or can be made using a water purification system",
+      "steps": [
+        "- Cobalt(III) oxide: Chemical supply companies or online distributors (e.g., Sigma-Aldrich)",
+        "- Copper(II) oxide: Chemical supply stores or online (e.g., Fisher Scientific)",
+        "- Manganese(IV) oxide: Specialty chemical suppliers",
+        "- Yttrium oxide: Online suppliers (e.g., Alfa Aesar)",
+        "- Deionized water: Laboratory supply stores or can be made using a water purification system"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the required amounts of each oxide using a precision scale.",
+        "2. In a clean, dry mixing container, combine the cobalt(III) oxide, copper(II) oxide, manganese(IV) oxide, and yttrium oxide.",
+        "3. Slowly add deionized water to the mixed powders while stirring continuously to create a homogeneous slurry.",
+        "4. Ensure there are no clumps by stirring for approximately 15 minutes."
+      ],
+      "raw_text": "1. Measure out the required amounts of each oxide using a precision scale. \n 2. In a clean, dry mixing container, combine the cobalt(III) oxide, copper(II) oxide, manganese(IV) oxide, and yttrium oxide. \n 3. Slowly add deionized water to the mixed powders while stirring continuously to create a homogeneous slurry. \n 4. Ensure there are no clumps by stirring for approximately 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Transfer the slurry into a suitable mold or crucible and allow it to dry at room temperature until no liquid remains.",
+        "3. Once dried, place the solid material into the preheated furnace.",
+        "4. Heat the sample at 900°C for 6 hours to facilitate the solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n 2. Transfer the slurry into a suitable mold or crucible and allow it to dry at room temperature until no liquid remains. \n 3. Once dried, place the solid material into the preheated furnace. \n 4. Heat the sample at 900°C for 6 hours to facilitate the solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours) without opening the furnace door to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours) without opening the furnace door to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the furnace and carefully demold if necessary.",
+        "2. Inspect the sample for any surface irregularities; if present, sand the surface using fine-grit sandpaper (e.g., 400-grit) until smooth.",
+        "3. Optionally, apply a sealant or coating to enhance surface durability if required."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the furnace and carefully demold if necessary. \n 2. Inspect the sample for any surface irregularities; if present, sand the surface using fine-grit sandpaper (e.g., 400-grit) until smooth. \n 3. Optionally, apply a sealant or coating to enhance surface durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3554363.0,
+      "density": 54265.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2371839.0,
+      "formation_energy_per_atom": -20461.0,
+      "decomposition_energy_per_atom": -324.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -31.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -324.0
+    },
+    "electronic": {
+      "bandgap": 0.1054,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "03ca0d7f50",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:19.777499Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3Cu4Mn1O20Y4.json",
+      "material://Co3Cu4Mn1O20Y4"
+    ]
+  }
+}

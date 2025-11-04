@@ -1,0 +1,123 @@
+{
+  "id": "Ga6Nd16Tc2",
+  "uri": "material://Ga6Nd16Tc2",
+  "composition": {
+    "formula": "Ga6Nd16Tc2",
+    "elements": {
+      "Ga": 6,
+      "Nd": 16,
+      "Tc": 2
+    },
+    "reduced_formula": "Nd8Ga3Tc",
+    "element_list": [
+      "Ga",
+      "Tc",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 800.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 300 g \n Nd: 800 g \n Tc: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Ga (Gallium): Available from chemical supply companies or online marketplaces. \n Nd (Neodymium): Obtain from rare earth metal suppliers or online. \n Tc (Technetium): Acquire from specialized nuclear material suppliers.",
+      "steps": [
+        "Ga (Gallium): Available from chemical supply companies or online marketplaces.",
+        "Nd (Neodymium): Obtain from rare earth metal suppliers or online.",
+        "Tc (Technetium): Acquire from specialized nuclear material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 300 g of Ga, 800 g of Nd, and 100 g of Tc using an analytical balance.",
+        "2. Combine the metals in a clean, dry crucible.",
+        "3. Use a spatula to mix the metals thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 300 g of Ga, 800 g of Nd, and 100 g of Tc using an analytical balance. \n 2. Combine the metals in a clean, dry crucible. \n 3. Use a spatula to mix the metals thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat to 1200 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat to 1200 °C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature (approximately 25 °C) over 6-8 hours.",
+        "3. Do not quench to avoid cracking or unwanted phase changes."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace. \n 2. Allow the crucible to cool down naturally to room temperature (approximately 25 °C) over 6-8 hours. \n 3. Do not quench to avoid cracking or unwanted phase changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or surface imperfections.",
+        "3. Use a fine-grit sandpaper to polish the edges and surface as needed for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any irregularities or surface imperfections. \n 3. Use a fine-grit sandpaper to polish the edges and surface as needed for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6812347.0,
+      "density": 7123.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1227131.0,
+      "formation_energy_per_atom": -3139.0,
+      "decomposition_energy_per_atom": -149.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -115.0,
+      "decomposition_energy_mp": -149.0,
+      "decomposition_energy_mp_oqmd": -115.0
+    },
+    "electronic": {
+      "bandgap": 0.0066,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "221a48dc86",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:00.494332Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga6Nd16Tc2.json",
+      "material://Ga6Nd16Tc2"
+    ]
+  }
+}

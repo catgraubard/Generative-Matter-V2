@@ -1,0 +1,133 @@
+{
+  "id": "Cu3Ni1Y4",
+  "uri": "material://Cu3Ni1Y4",
+  "composition": {
+    "formula": "Cu3Ni1Y4",
+    "elements": {
+      "Cu": 3,
+      "Ni": 1,
+      "Y": 4
+    },
+    "reduced_formula": "Y4Cu3Ni",
+    "element_list": [
+      "Ni",
+      "Cu",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g (Boron) \n Mn: 10 g (Manganese) \n P: 5 g (Phosphorus) \n Ti: 80 g (Titanium) \n Total: 115 g"
+    },
+    "sourcing": {
+      "instructions": "B: Available from chemical suppliers or online marketplaces. \n Mn: Purchase from metal suppliers or chemical suppliers. \n P: Obtain from chemical suppliers. \n Ti: Available from metal suppliers or online.",
+      "steps": [
+        "B: Available from chemical suppliers or online marketplaces.",
+        "Mn: Purchase from metal suppliers or chemical suppliers.",
+        "P: Obtain from chemical suppliers.",
+        "Ti: Available from metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, mask).",
+        "2. Weigh each ingredient accurately using a digital scale.",
+        "3. In a clean, dry mixing container, add 20 g of Boron.",
+        "4. Add 10 g of Manganese to the container.",
+        "5. Add 5 g of Phosphorus.",
+        "6. Finally, add 80 g of Titanium powder.",
+        "7. Mix thoroughly using a spatula or mechanical mixer for 10 minutes to ensure a uniform blend."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, mask). \n 2. Weigh each ingredient accurately using a digital scale. \n 3. In a clean, dry mixing container, add 20 g of Boron. \n 4. Add 10 g of Manganese to the container. \n 5. Add 5 g of Phosphorus. \n 6. Finally, add 80 g of Titanium powder. \n 7. Mix thoroughly using a spatula or mechanical mixer for 10 minutes to ensure a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Preheat the furnace to a temperature of 1000°C (1832°F).",
+        "3. Place the crucible in the furnace and heat for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Preheat the furnace to a temperature of 1000°C (1832°F). \n 3. Place the crucible in the furnace and heat for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample from the crucible with a chisel or hammer if necessary.",
+        "3. Sand the edges of the solid sample to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cool, carefully remove the crucible from the furnace. \n 2. Extract the solid sample from the crucible with a chisel or hammer if necessary. \n 3. Sand the edges of the solid sample to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1707619.0,
+      "density": 58828.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -464206.0,
+      "formation_energy_per_atom": -3096.0,
+      "decomposition_energy_per_atom": -77.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -77.0,
+      "decomposition_energy_mp_oqmd": -65.0
+    },
+    "electronic": {
+      "bandgap": 0.0047,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae835319f7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.905839Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu3Ni1Y4.json",
+      "material://Cu3Ni1Y4"
+    ]
+  }
+}

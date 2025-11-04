@@ -1,0 +1,118 @@
+{
+  "id": "Cu6Li1O8",
+  "uri": "material://Cu6Li1O8",
+  "composition": {
+    "formula": "Cu6Li1O8",
+    "elements": {
+      "Cu": 6,
+      "Li": 1,
+      "O": 8
+    },
+    "reduced_formula": "Li(Cu3O4)2",
+    "element_list": [
+      "Li",
+      "O",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 250.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu:  1,500 g (Copper powder, 99.9% pure) \n Li:  250 g (Lithium carbonate, 99.9% pure) \n O:  200 g (Oxide source, e.g., Lithium oxide)"
+    },
+    "sourcing": {
+      "instructions": "Cu powder can be sourced from chemical supply companies or online marketplaces specializing in metals. \n Lithium carbonate can be found at chemical suppliers or online retailers. \n Lithium oxide is available through specialized chemical suppliers.",
+      "steps": [
+        "Cu powder can be sourced from chemical supply companies or online marketplaces specializing in metals.",
+        "Lithium carbonate can be found at chemical suppliers or online retailers.",
+        "Lithium oxide is available through specialized chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the copper powder (1,500 g) and place it in a clean, dry mixing container.",
+        "2. Weigh and add lithium carbonate (250 g) and lithium oxide (200 g) to the copper powder.",
+        "3. Mix the powders thoroughly using a mechanical mixer or mortar and pestle for at least 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out the copper powder (1,500 g) and place it in a clean, dry mixing container. \n 2. Weigh and add lithium carbonate (250 g) and lithium oxide (200 g) to the copper powder. \n 3. Mix the powders thoroughly using a mechanical mixer or mortar and pestle for at least 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible made of alumina or a similar high-temperature resistant material.",
+        "2. Heat the crucible in a furnace to a temperature of 1,200 °C.",
+        "3. Maintain this temperature for 4 hours to allow for complete reaction and synthesis of Cu6Li1O8."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible made of alumina or a similar high-temperature resistant material. \n 2. Heat the crucible in a furnace to a temperature of 1,200 °C. \n 3. Maintain this temperature for 4 hours to allow for complete reaction and synthesis of Cu6Li1O8."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 8-12 hours).",
+        "2. Avoid opening the furnace until it has cooled completely to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 8-12 hours). \n 2. Avoid opening the furnace until it has cooled completely to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw or grinder to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw or grinder to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 1854212.0,
+      "density": 46229.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -820257.0,
+      "formation_energy_per_atom": -10625.0,
+      "decomposition_energy_per_atom": -203.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -209.0,
+      "decomposition_energy_mp_oqmd": -189.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1e08e8915b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:54.973842Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu6Li1O8.json",
+      "material://Cu6Li1O8"
+    ]
+  }
+}

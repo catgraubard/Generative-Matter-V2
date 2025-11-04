@@ -1,0 +1,107 @@
+{
+  "id": "Ba12Bi16O4",
+  "uri": "material://Ba12Bi16O4",
+  "composition": {
+    "formula": "Ba12Bi16O4",
+    "elements": {
+      "Ba": 12,
+      "Bi": 16,
+      "O": 4
+    },
+    "reduced_formula": "Ba3Bi4O",
+    "element_list": [
+      "O",
+      "Ba",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Barium Oxide (BaO) - 72.00 g  \n 2. Bismuth Oxide (Bi2O3) - 192.00 g \n 3. Oxygen (O) - 4.00 g (from BaO and Bi2O3) (considered as part of the oxides)"
+    },
+    "sourcing": {
+      "instructions": "1. Barium Oxide (BaO) - Available from chemical supply companies or online chemical retailers. \n 2. Bismuth Oxide (Bi2O3) - Obtain from specialty metal suppliers or online.",
+      "steps": [
+        "1. Barium Oxide (BaO) - Available from chemical supply companies or online chemical retailers.",
+        "2. Bismuth Oxide (Bi2O3) - Obtain from specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the Barium Oxide and Bismuth Oxide using an analytical balance.",
+        "2. In a clean, dry ceramic bowl, combine the weighed BaO and Bi2O3 thoroughly using a pestle.",
+        "3. Ensure a homogeneous mixture by grinding for at least 5 minutes."
+      ],
+      "raw_text": "1. Weigh the Barium Oxide and Bismuth Oxide using an analytical balance. \n 2. In a clean, dry ceramic bowl, combine the weighed BaO and Bi2O3 thoroughly using a pestle. \n 3. Ensure a homogeneous mixture by grinding for at least 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min and hold for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min and hold for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the material for any cracks or inconsistencies.",
+        "3. If necessary, grind the sample to achieve a desired smoothness.",
+        "4. Optionally, seal the sample with a clear epoxy for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the material for any cracks or inconsistencies. \n 3. If necessary, grind the sample to achieve a desired smoothness. \n 4. Optionally, seal the sample with a clear epoxy for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11808716.0,
+      "density": 71092.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1434756.0,
+      "formation_energy_per_atom": -12005.0,
+      "decomposition_energy_per_atom": -156.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -157.0,
+      "decomposition_energy_mp_oqmd": -137.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "65474a4fcc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.272188Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba12Bi16O4.json",
+      "material://Ba12Bi16O4"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "Co14Cr2Fe2P12Y6",
+  "uri": "material://Co14Cr2Fe2P12Y6",
+  "composition": {
+    "formula": "Co14Cr2Fe2P12Y6",
+    "elements": {
+      "Co": 14,
+      "Cr": 2,
+      "Fe": 2,
+      "P": 12,
+      "Y": 6
+    },
+    "reduced_formula": "Y3CrFeCo7P6",
+    "element_list": [
+      "P",
+      "Cr",
+      "Fe",
+      "Co",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 80.00 g \n Y: 64.00 g \n Zn: 16.00 g \n Total: 160.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online vendor specializing in cobalt compounds. \n Y: Available from chemical suppliers or online marketplaces. \n Zn: Obtain from hardware stores or chemical suppliers.",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online vendor specializing in cobalt compounds.",
+        "Y: Available from chemical suppliers or online marketplaces.",
+        "Zn: Obtain from hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, add 80.00 g of Co followed by 64.00 g of Y.",
+        "3. Thoroughly mix the Co and Y powders using a spatula for 2-3 minutes until uniform.",
+        "4. Gradually add 16.00 g of Zn while continuing to mix for another 2-3 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, add 80.00 g of Co followed by 64.00 g of Y. \n 3. Thoroughly mix the Co and Y powders using a spatula for 2-3 minutes until uniform. \n 4. Gradually add 16.00 g of Zn while continuing to mix for another 2-3 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature furnace or crucible.",
+        "2. Heat to 1200°C (2192°F) for 4 hours.",
+        "3. Ensure a controlled atmosphere to prevent oxidation during the process."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature furnace or crucible. \n 2. Heat to 1200°C (2192°F) for 4 hours. \n 3. Ensure a controlled atmosphere to prevent oxidation during the process."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool slowly to room temperature.",
+        "2. This should take approximately 6-8 hours.",
+        "3. Avoid rapid cooling to prevent cracking or warping."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool slowly to room temperature. \n 2. This should take approximately 6-8 hours. \n 3. Avoid rapid cooling to prevent cracking or warping."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth out any rough edges, focusing on achieving a uniform surface.",
+        "3. Optionally, apply a sealing agent to enhance the surface finish and protect against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper to smooth out any rough edges, focusing on achieving a uniform surface. \n 3. Optionally, apply a sealing agent to enhance the surface finish and protect against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4765846.0,
+      "density": 67799.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2737364.0,
+      "formation_energy_per_atom": -9504.0,
+      "decomposition_energy_per_atom": -424.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -94.0,
+      "decomposition_energy_mp": -424.0,
+      "decomposition_energy_mp_oqmd": -407.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e38edb786b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.601499Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co14Cr2Fe2P12Y6.json",
+      "material://Co14Cr2Fe2P12Y6"
+    ]
+  }
+}

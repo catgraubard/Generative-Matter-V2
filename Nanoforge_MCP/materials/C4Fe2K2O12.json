@@ -1,0 +1,109 @@
+{
+  "id": "C4Fe2K2O12",
+  "uri": "material://C4Fe2K2O12",
+  "composition": {
+    "formula": "C4Fe2K2O12",
+    "elements": {
+      "C": 4,
+      "Fe": 2,
+      "K": 2,
+      "O": 12
+    },
+    "reduced_formula": "KFe(CO3)2",
+    "element_list": [
+      "C",
+      "O",
+      "K",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cobalt(II) Oxide (CoO): 30.0 g  \n - Iron(III) Oxide (Fe2O3): 200.0 g  \n - Potassium Carbonate (K2CO3): 40.0 g  \n - Oxygen (O2): 0.0 g (assumed from the environment)"
+    },
+    "sourcing": {
+      "instructions": "- Cobalt(II) Oxide: Chemical supply stores or online chemical suppliers.  \n - Iron(III) Oxide: Local hardware stores or chemical suppliers.  \n - Potassium Carbonate: Grocery stores (often in the form of potash) or chemical suppliers.",
+      "steps": [
+        "- Cobalt(II) Oxide: Chemical supply stores or online chemical suppliers.",
+        "- Iron(III) Oxide: Local hardware stores or chemical suppliers.",
+        "- Potassium Carbonate: Grocery stores (often in the form of potash) or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30.0 g of Cobalt(II) Oxide, 200.0 g of Iron(III) Oxide, and 40.0 g of Potassium Carbonate using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed powders thoroughly using a spatula or mixing tool to ensure even distribution of ingredients.",
+        "3. Transfer the mixed powder into a ball mill or mortar and pestle for finer grinding to ensure homogeneity. Grind for approximately 10-15 minutes."
+      ],
+      "raw_text": "1. Weigh out 30.0 g of Cobalt(II) Oxide, 200.0 g of Iron(III) Oxide, and 40.0 g of Potassium Carbonate using a precision scale.  \n 2. In a clean, dry mixing bowl, combine the weighed powders thoroughly using a spatula or mixing tool to ensure even distribution of ingredients.  \n 3. Transfer the mixed powder into a ball mill or mortar and pestle for finer grinding to ensure homogeneity. Grind for approximately 10-15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace or kiln to a temperature of 1200°C (2192°F).",
+        "2. Place the mixed and ground powder in a suitable crucible that can withstand high temperatures.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to facilitate proper reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to a temperature of 1200°C (2192°F).  \n 2. Place the mixed and ground powder in a suitable crucible that can withstand high temperatures.  \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to facilitate proper reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Ensure the crucible is left undisturbed during the cooling process, which may take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature.  \n 2. Ensure the crucible is left undisturbed during the cooling process, which may take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or imperfections.",
+        "3. If necessary, use a diamond file or sandpaper to smooth out the surfaces.",
+        "4. Optionally, seal the surface with a clear epoxy resin to enhance durability and finish. Allow the resin to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.  \n 2. Inspect the sample for any rough edges or imperfections.  \n 3. If necessary, use a diamond file or sandpaper to smooth out the surfaces.  \n 4. Optionally, seal the surface with a clear epoxy resin to enhance durability and finish. Allow the resin to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2533799.0,
+      "density": 28175.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1538608.0,
+      "formation_energy_per_atom": -19209.0,
+      "decomposition_energy_per_atom": -617.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -623.0,
+      "decomposition_energy_mp_oqmd": -621.0
+    },
+    "electronic": {
+      "bandgap": 2.1331,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "733d29cb58",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.244802Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4Fe2K2O12.json",
+      "material://C4Fe2K2O12"
+    ]
+  }
+}

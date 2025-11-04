@@ -1,0 +1,109 @@
+{
+  "id": "As12Fe3Ni1Sr1",
+  "uri": "material://As12Fe3Ni1Sr1",
+  "composition": {
+    "formula": "As12Fe3Ni1Sr1",
+    "elements": {
+      "As": 12,
+      "Fe": 3,
+      "Ni": 1,
+      "Sr": 1
+    },
+    "reduced_formula": "SrFe3NiAs12",
+    "element_list": [
+      "Fe",
+      "Ni",
+      "As",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper (Cu): 1.00 g\nErbium (Er): 12.00 g\nGallium (Ga): 1.00 g\nNickel (Ni): 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "Copper: Local metal supplier or online retailers (e.g., Amazon, eBay)\nErbium: Specialty chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar)\nGallium: Metal suppliers or online (e.g., Amazon)\nNickel: Local metal suppliers or online retailers",
+      "steps": [
+        "Copper: Local metal supplier or online retailers (e.g., Amazon, eBay)",
+        "Erbium: Specialty chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar)",
+        "Gallium: Metal suppliers or online (e.g., Amazon)",
+        "Nickel: Local metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of each metal using a precision scale.",
+        "2. Clean each metal surface with a suitable solvent (e.g., acetone) to remove any contaminants.",
+        "3. Place the metals in a clean, dry crucible made of a material that can withstand high temperatures (e.g., graphite)."
+      ],
+      "raw_text": "1. Weigh the required amounts of each metal using a precision scale.\n2. Clean each metal surface with a suitable solvent (e.g., acetone) to remove any contaminants.\n3. Place the metals in a clean, dry crucible made of a material that can withstand high temperatures (e.g., graphite)."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat the furnace to a temperature of 1300°C.",
+        "2. Once the desired temperature is reached, place the crucible inside the furnace.",
+        "3. Maintain the temperature for 1 hour to ensure complete melting and homogenization of the metals."
+      ],
+      "raw_text": "1. Preheat the furnace to a temperature of 1300°C.\n2. Once the desired temperature is reached, place the crucible inside the furnace.\n3. Maintain the temperature for 1 hour to ensure complete melting and homogenization of the metals."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.\n2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, use a grinder or file to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Clean the surface with fine sandpaper to remove any oxidation or rough edges.",
+        "4. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. If necessary, use a grinder or file to achieve the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Clean the surface with fine sandpaper to remove any oxidation or rough edges.\n4. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 2954512.0,
+      "density": 6817.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -949642.0,
+      "formation_energy_per_atom": -3632.0,
+      "decomposition_energy_per_atom": -363.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -228.0,
+      "decomposition_energy_mp": -363.0,
+      "decomposition_energy_mp_oqmd": -36.0
+    },
+    "electronic": {
+      "bandgap": 0.0295,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bae03bafc1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.531502Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Fe3Ni1Sr1.json",
+      "material://As12Fe3Ni1Sr1"
+    ]
+  }
+}

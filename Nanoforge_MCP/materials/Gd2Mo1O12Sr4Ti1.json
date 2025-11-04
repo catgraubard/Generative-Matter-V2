@@ -1,0 +1,114 @@
+{
+  "id": "Gd2Mo1O12Sr4Ti1",
+  "uri": "material://Gd2Mo1O12Sr4Ti1",
+  "composition": {
+    "formula": "Gd2Mo1O12Sr4Ti1",
+    "elements": {
+      "Gd": 2,
+      "Mo": 1,
+      "O": 12,
+      "Sr": 4,
+      "Ti": 1
+    },
+    "reduced_formula": "Sr4Gd2TiMoO12",
+    "element_list": [
+      "O",
+      "Ti",
+      "Sr",
+      "Mo",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gd2Mo1O12Sr4Ti1 composition requires: \n - Gadolinium Oxide (Gd2O3): 200 g \n - Molybdenum Oxide (MoO3): 100 g \n - Strontium Carbonate (SrCO3): 80 g \n - Titanium Dioxide (TiO2): 20 g"
+    },
+    "sourcing": {
+      "instructions": "- Gadolinium Oxide: Available from chemical suppliers like Alfa Aesar or Sigma-Aldrich. \n - Molybdenum Oxide: Obtainable from suppliers such as American Elements or Thermo Fisher Scientific. \n - Strontium Carbonate: Can be sourced from companies like Acros Organics or Fisher Scientific. \n - Titanium Dioxide: Available from paint suppliers or chemical distributors like BASF or DuPont.",
+      "steps": [
+        "- Gadolinium Oxide: Available from chemical suppliers like Alfa Aesar or Sigma-Aldrich.",
+        "- Molybdenum Oxide: Obtainable from suppliers such as American Elements or Thermo Fisher Scientific.",
+        "- Strontium Carbonate: Can be sourced from companies like Acros Organics or Fisher Scientific.",
+        "- Titanium Dioxide: Available from paint suppliers or chemical distributors like BASF or DuPont."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 200 g of Gadolinium Oxide using an analytical balance.",
+        "2. Weigh 100 g of Molybdenum Oxide.",
+        "3. Measure 80 g of Strontium Carbonate.",
+        "4. Weigh 20 g of Titanium Dioxide.",
+        "5. In a clean mortar and pestle, combine the weighed powders thoroughly until a uniform mixture is obtained."
+      ],
+      "raw_text": "1. Measure out 200 g of Gadolinium Oxide using an analytical balance. \n 2. Weigh 100 g of Molybdenum Oxide. \n 3. Measure 80 g of Strontium Carbonate. \n 4. Weigh 20 g of Titanium Dioxide. \n 5. In a clean mortar and pestle, combine the weighed powders thoroughly until a uniform mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat to 1100°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace and heat to 1100°C at a rate of 10°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Avoid rapid cooling to prevent cracking; this process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Avoid rapid cooling to prevent cracking; this process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections and use fine-grit sandpaper to smooth the edges and surfaces as needed.",
+        "3. Optionally, apply a clear sealant to enhance surface durability, following the manufacturer’s instructions for application and curing times."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections and use fine-grit sandpaper to smooth the edges and surfaces as needed. \n 3. Optionally, apply a clear sealant to enhance surface durability, following the manufacturer’s instructions for application and curing times."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2878236.0,
+      "density": 57738.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -17889.0,
+      "formation_energy_per_atom": -32932.0,
+      "decomposition_energy_per_atom": -59.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -65.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "12efbbb3e2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:40.492540Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd2Mo1O12Sr4Ti1.json",
+      "material://Gd2Mo1O12Sr4Ti1"
+    ]
+  }
+}

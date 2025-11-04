@@ -1,0 +1,124 @@
+{
+  "id": "Al5In3K12Sb12",
+  "uri": "material://Al5In3K12Sb12",
+  "composition": {
+    "formula": "Al5In3K12Sb12",
+    "elements": {
+      "Al": 5,
+      "In": 3,
+      "K": 12,
+      "Sb": 12
+    },
+    "reduced_formula": "K12Al5(InSb4)3",
+    "element_list": [
+      "Al",
+      "K",
+      "In",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 56.0 g (Oxygen) \n Rb: 32.0 g (Rubidium) \n Tm: 16.0 g (Thulium)"
+    },
+    "sourcing": {
+      "instructions": "O: Can be sourced from high-purity oxygen cylinders. \n Rb: Obtain from chemical suppliers (ensure purity > 99%). \n Tm: Available from specialized metal suppliers or online chemical retailers.",
+      "steps": [
+        "O: Can be sourced from high-purity oxygen cylinders.",
+        "Rb: Obtain from chemical suppliers (ensure purity > 99%).",
+        "Tm: Available from specialized metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 56.0 g of O using a gas flow meter.",
+        "2. Weigh 32.0 g of Rb using a precision balance.",
+        "3. Weigh 16.0 g of Tm using the same balance.",
+        "4. In a dry, inert atmosphere, combine all three elements in a clean, dry crucible."
+      ],
+      "raw_text": "1. In a fume hood, measure 56.0 g of O using a gas flow meter. \n 2. Weigh 32.0 g of Rb using a precision balance. \n 3. Weigh 16.0 g of Tm using the same balance. \n 4. In a dry, inert atmosphere, combine all three elements in a clean, dry crucible."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Heat the crucible slowly to 300°C using a programmable furnace.",
+        "2. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Heat the crucible slowly to 300°C using a programmable furnace. \n 2. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature (approximately 25°C) naturally.",
+        "2. Do not open the furnace door during cooling to prevent contamination or reaction with air."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature (approximately 25°C) naturally. \n 2. Do not open the furnace door during cooling to prevent contamination or reaction with air."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the crucible carefully.",
+        "2. Grind the solid into a fine powder using a mortar and pestle.",
+        "3. If needed, press the powder into the desired dimensions (3 in x 2 in x 7 in) using a hydraulic press.",
+        "4. Optionally, seal the final product with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. After cooling, remove the crucible carefully. \n 2. Grind the solid into a fine powder using a mortar and pestle. \n 3. If needed, press the powder into the desired dimensions (3 in x 2 in x 7 in) using a hydraulic press. \n 4. Optionally, seal the final product with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11591875.0,
+      "density": 34518.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1048705.0,
+      "formation_energy_per_atom": -4692.0,
+      "decomposition_energy_per_atom": -324.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -324.0,
+      "decomposition_energy_mp_oqmd": -119.0
+    },
+    "electronic": {
+      "bandgap": 0.6156,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d35906f062",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.182524Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al5In3K12Sb12.json",
+      "material://Al5In3K12Sb12"
+    ]
+  }
+}

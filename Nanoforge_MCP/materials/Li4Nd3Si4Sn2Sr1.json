@@ -1,0 +1,139 @@
+{
+  "id": "Li4Nd3Si4Sn2Sr1",
+  "uri": "material://Li4Nd3Si4Sn2Sr1",
+  "composition": {
+    "formula": "Li4Nd3Si4Sn2Sr1",
+    "elements": {
+      "Li": 4,
+      "Nd": 3,
+      "Si": 4,
+      "Sn": 2,
+      "Sr": 1
+    },
+    "reduced_formula": "SrLi4Nd3(Si2Sn)2",
+    "element_list": [
+      "Li",
+      "Si",
+      "Sr",
+      "Sn",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 22.4,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 28.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 18.7,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 11.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 22.4 g (Lithium Carbonate, Li2CO3) \n Nd: 80.0 g (Neodymium Oxide, Nd2O3) \n Si: 28.4 g (Silicon Dioxide, SiO2) \n Sn: 18.7 g (Tin, Sn) \n Sr: 11.0 g (Strontium Carbonate, SrCO3)"
+    },
+    "sourcing": {
+      "instructions": "Li2CO3: Chemical supply stores or online suppliers \n Nd2O3: Rare earth material suppliers or online \n SiO2: Industrial suppliers or sand suppliers \n Sn: Metal suppliers or online \n SrCO3: Chemical supply stores or online suppliers",
+      "steps": [
+        "Li2CO3: Chemical supply stores or online suppliers",
+        "Nd2O3: Rare earth material suppliers or online",
+        "SiO2: Industrial suppliers or sand suppliers",
+        "Sn: Metal suppliers or online",
+        "SrCO3: Chemical supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Li2CO3, Nd2O3, SiO2, Sn, and SrCO3.",
+        "3. Use a mortar and pestle or a mechanical mixer to ensure uniform mixing of the powders for at least 15 minutes.",
+        "4. Transfer the mixed powders to a ceramic crucible."
+      ],
+      "raw_text": "1. Measure out each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine Li2CO3, Nd2O3, SiO2, Sn, and SrCO3. \n 3. Use a mortar and pestle or a mechanical mixer to ensure uniform mixing of the powders for at least 15 minutes. \n 4. Transfer the mixed powders to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the crucible in the furnace and hold at 1000°C for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the crucible in the furnace and hold at 1000°C for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has completely cooled to prevent thermal shock to the sample."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Do not open the furnace until it has completely cooled to prevent thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any imperfections or rough edges.",
+        "3. If necessary, use sandpaper (grit 200-400) to smooth the surfaces.",
+        "4. Optionally, apply a sealant or coating for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any imperfections or rough edges. \n 3. If necessary, use sandpaper (grit 200-400) to smooth the surfaces. \n 4. Optionally, apply a sealant or coating for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3049251.0,
+      "density": 48896.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -618072.0,
+      "formation_energy_per_atom": -6041.0,
+      "decomposition_energy_per_atom": -242.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -236.0,
+      "decomposition_energy_mp_oqmd": -204.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "54a68337cd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:06.592301Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4Nd3Si4Sn2Sr1.json",
+      "material://Li4Nd3Si4Sn2Sr1"
+    ]
+  }
+}

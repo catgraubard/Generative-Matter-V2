@@ -1,0 +1,124 @@
+{
+  "id": "In9La6Sn1",
+  "uri": "material://In9La6Sn1",
+  "composition": {
+    "formula": "In9La6Sn1",
+    "elements": {
+      "In": 9,
+      "La": 6,
+      "Sn": 1
+    },
+    "reduced_formula": "La6In9Sn",
+    "element_list": [
+      "In",
+      "Sn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 24.0 g (Potassium Carbonate, K2CO3) \n Mg: 12.0 g (Magnesium Oxide, MgO) \n Te: 160.0 g (Tellurium powder, Te) \n Total weight: 196.0 g"
+    },
+    "sourcing": {
+      "instructions": "K2CO3 can be obtained from laboratory supply stores or online chemical suppliers. \n MgO can be sourced from chemical supply companies or online. \n Tellurium powder is available from specialized metal suppliers or online marketplaces.",
+      "steps": [
+        "K2CO3 can be obtained from laboratory supply stores or online chemical suppliers.",
+        "MgO can be sourced from chemical supply companies or online.",
+        "Tellurium powder is available from specialized metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry glass or ceramic container, measure out 24.0 g of K2CO3.",
+        "2. Add 12.0 g of MgO into the same container.",
+        "3. Carefully measure and add 160.0 g of Tellurium powder.",
+        "4. Mix the powders thoroughly using a spatula or a mortar and pestle until a uniform blend is achieved."
+      ],
+      "raw_text": "1. In a clean, dry glass or ceramic container, measure out 24.0 g of K2CO3. \n 2. Add 12.0 g of MgO into the same container. \n 3. Carefully measure and add 160.0 g of Tellurium powder. \n 4. Mix the powders thoroughly using a spatula or a mortar and pestle until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Preheat a furnace to 800°C (1472°F).",
+        "3. Once the temperature is reached, place the crucible inside the furnace and hold at this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Preheat a furnace to 800°C (1472°F). \n 3. Once the temperature is reached, place the crucible inside the furnace and hold at this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it is fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it is fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible.",
+        "2. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth the surfaces of the sample.",
+        "3. Optionally, apply a sealant if desired for surface protection.",
+        "4. Allow any sealant to cure as per manufacturer's instructions before handling."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible. \n 2. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth the surfaces of the sample. \n 3. Optionally, apply a sealant if desired for surface protection. \n 4. Allow any sealant to cure as per manufacturer's instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4767122.0,
+      "density": 69161.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -674422.0,
+      "formation_energy_per_atom": -5657.0,
+      "decomposition_energy_per_atom": -235.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -235.0,
+      "decomposition_energy_mp_oqmd": -73.0
+    },
+    "electronic": {
+      "bandgap": 0.0128,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e34b13b354",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.536508Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/In9La6Sn1.json",
+      "material://In9La6Sn1"
+    ]
+  }
+}

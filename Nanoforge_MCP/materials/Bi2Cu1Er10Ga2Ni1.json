@@ -1,0 +1,109 @@
+{
+  "id": "Bi2Cu1Er10Ga2Ni1",
+  "uri": "material://Bi2Cu1Er10Ga2Ni1",
+  "composition": {
+    "formula": "Bi2Cu1Er10Ga2Ni1",
+    "elements": {
+      "Bi": 2,
+      "Cu": 1,
+      "Er": 10,
+      "Ga": 2,
+      "Ni": 1
+    },
+    "reduced_formula": "Er10Ga2CuNiBi2",
+    "element_list": [
+      "Ni",
+      "Cu",
+      "Ga",
+      "Er",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gallium (Ga): 109.2 g \n Neodymium (Nd): 6.5 g \n Nickel (Ni): 5.0 g \n Terbium (Tb): 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Gallium: Obtain from chemical suppliers like Alfa Aesar or Sigma-Aldrich. \n Neodymium: Purchase from rare earth metal suppliers or online marketplaces. \n Nickel: Available at hardware stores or metal suppliers. \n Terbium: Source from specialized rare earth metal suppliers.",
+      "steps": [
+        "Gallium: Obtain from chemical suppliers like Alfa Aesar or Sigma-Aldrich.",
+        "Neodymium: Purchase from rare earth metal suppliers or online marketplaces.",
+        "Nickel: Available at hardware stores or metal suppliers.",
+        "Terbium: Source from specialized rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the specified amounts of each metal using an analytical balance.",
+        "2. In a clean, dry environment, combine the metals in a ceramic crucible.",
+        "3. Mix thoroughly to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh the specified amounts of each metal using an analytical balance. \n 2. In a clean, dry environment, combine the metals in a ceramic crucible. \n 3. Mix thoroughly to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 950°C for 2 hours to ensure full melting and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 950°C for 2 hours to ensure full melting and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Ensure no rapid cooling methods (like water quenching) are used to avoid cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. Ensure no rapid cooling methods (like water quenching) are used to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified alloy from the crucible.",
+        "2. If necessary, use a metal file or sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified alloy from the crucible. \n 2. If necessary, use a metal file or sandpaper to smooth any rough edges. \n 3. Optionally, apply a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4109062.0,
+      "density": 95058.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -773686.0,
+      "formation_energy_per_atom": -4985.0,
+      "decomposition_energy_per_atom": -142.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -142.0,
+      "decomposition_energy_mp_oqmd": -135.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5998622b3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.843614Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2Cu1Er10Ga2Ni1.json",
+      "material://Bi2Cu1Er10Ga2Ni1"
+    ]
+  }
+}

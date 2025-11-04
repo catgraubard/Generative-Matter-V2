@@ -1,0 +1,111 @@
+{
+  "id": "Cu4Ge1Si3Tm4",
+  "uri": "material://Cu4Ge1Si3Tm4",
+  "composition": {
+    "formula": "Cu4Ge1Si3Tm4",
+    "elements": {
+      "Cu": 4,
+      "Ge": 1,
+      "Si": 3,
+      "Tm": 4
+    },
+    "reduced_formula": "Tm4Cu4Si3Ge",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ge",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 10 g \n Indium (In): 80 g \n Nickel (Ni): 30 g \n Terbium (Tb): 100 g \n Yttrium (Y): 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Sigma-Aldrich, online chemical supplier \n Indium: Alfa Aesar, online metal supplier \n Nickel: McMaster-Carr, hardware store \n Terbium: American Elements, online chemical supplier \n Yttrium: Sigma-Aldrich, online chemical supplier",
+      "steps": [
+        "Cobalt: Sigma-Aldrich, online chemical supplier",
+        "Indium: Alfa Aesar, online metal supplier",
+        "Nickel: McMaster-Carr, hardware store",
+        "Terbium: American Elements, online chemical supplier",
+        "Yttrium: Sigma-Aldrich, online chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each metal precisely using an analytical balance.",
+        "2. Place Co, In, Ni, Tb, and Y in a clean, dry crucible.",
+        "3. Use a ceramic or graphite mixing rod to thoroughly mix the powders until homogenous."
+      ],
+      "raw_text": "1. Measure each metal precisely using an analytical balance. \n 2. Place Co, In, Ni, Tb, and Y in a clean, dry crucible. \n 3. Use a ceramic or graphite mixing rod to thoroughly mix the powders until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 900°C.",
+        "2. Place the crucible with the mixed powders inside the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C. \n 2. Place the crucible with the mixed powders inside the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours).",
+        "2. Do not open the furnace until it has reached room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours). \n 2. Do not open the furnace until it has reached room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond grinder to shape the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant if required for oxidation prevention."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond grinder to shape the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant if required for oxidation prevention."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2111142.0,
+      "density": 85485.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -630333.0,
+      "formation_energy_per_atom": -6528.0,
+      "decomposition_energy_per_atom": -55.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -45.0,
+      "decomposition_energy_mp": -53.0,
+      "decomposition_energy_mp_oqmd": -48.0
+    },
+    "electronic": {
+      "bandgap": 0.007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9f8753b17",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.983534Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4Ge1Si3Tm4.json",
+      "material://Cu4Ge1Si3Tm4"
+    ]
+  }
+}

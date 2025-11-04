@@ -1,0 +1,116 @@
+{
+  "id": "Cu4K1Rb3Se16",
+  "uri": "material://Cu4K1Rb3Se16",
+  "composition": {
+    "formula": "Cu4K1Rb3Se16",
+    "elements": {
+      "Cu": 4,
+      "K": 1,
+      "Rb": 3,
+      "Se": 16
+    },
+    "reduced_formula": "KRb3(CuSe4)4",
+    "element_list": [
+      "K",
+      "Cu",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Copper (Cu): 4.00 g  \n - Potassium (K): 1.00 g  \n - Rubidium (Rb): 3.00 g  \n - Selenium (Se): 16.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Copper: Purchase from a metal supplier or online (e.g., Amazon, eBay). \n - Potassium: Obtain from a chemical supplier (e.g., Sigma-Aldrich, Thermo Fisher). \n - Rubidium: Acquire from a specialized chemical supplier (e.g., Alfa Aesar). \n - Selenium: Buy from a chemical supply store or online (e.g., Fisher Scientific).",
+      "steps": [
+        "- Copper: Purchase from a metal supplier or online (e.g., Amazon, eBay).",
+        "- Potassium: Obtain from a chemical supplier (e.g., Sigma-Aldrich, Thermo Fisher).",
+        "- Rubidium: Acquire from a specialized chemical supplier (e.g., Alfa Aesar).",
+        "- Selenium: Buy from a chemical supply store or online (e.g., Fisher Scientific)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 4.00 g of copper using an analytical balance.",
+        "2. Weigh out 1.00 g of potassium.",
+        "3. Weigh out 3.00 g of rubidium.",
+        "4. Weigh out 16.00 g of selenium.",
+        "5. In a fume hood, carefully combine the weighed ingredients in a clean, dry ceramic crucible.",
+        "6. Use a pestle and mortar to grind the mixture into a fine powder to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 4.00 g of copper using an analytical balance. \n 2. Weigh out 1.00 g of potassium. \n 3. Weigh out 3.00 g of rubidium. \n 4. Weigh out 16.00 g of selenium. \n 5. In a fume hood, carefully combine the weighed ingredients in a clean, dry ceramic crucible. \n 6. Use a pestle and mortar to grind the mixture into a fine powder to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound Cu4K1Rb3Se16."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound Cu4K1Rb3Se16."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Use a spatula to break up any large pieces of the solidified material.",
+        "3. Sieve the material through a 200-mesh screen to obtain a uniform powder.",
+        "4. If a solid block is desired, compress the powder using a hydraulic press at approximately 10,000 psi for 5 minutes.",
+        "5. Cure the pressed block at 500°C for 2 hours in the furnace to stabilize the structure.",
+        "6. Optionally, sand the edges of the block to achieve the desired dimensions and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Use a spatula to break up any large pieces of the solidified material. \n 3. Sieve the material through a 200-mesh screen to obtain a uniform powder. \n 4. If a solid block is desired, compress the powder using a hydraulic press at approximately 10,000 psi for 5 minutes. \n 5. Cure the pressed block at 500°C for 2 hours in the furnace to stabilize the structure. \n 6. Optionally, sand the edges of the block to achieve the desired dimensions and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 687036.0,
+      "density": 43821.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -936609.0,
+      "formation_energy_per_atom": -7199.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -85.0
+    },
+    "electronic": {
+      "bandgap": 0.9677,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3d8c6abed0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:36.462801Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4K1Rb3Se16.json",
+      "material://Cu4K1Rb3Se16"
+    ]
+  }
+}

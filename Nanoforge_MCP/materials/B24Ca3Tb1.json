@@ -1,0 +1,114 @@
+{
+  "id": "B24Ca3Tb1",
+  "uri": "material://B24Ca3Tb1",
+  "composition": {
+    "formula": "B24Ca3Tb1",
+    "elements": {
+      "B": 24,
+      "Ca": 3,
+      "Tb": 1
+    },
+    "reduced_formula": "Ca3TbB24",
+    "element_list": [
+      "B",
+      "Ca",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 2.5 g, Er: 1.25 g, Ga: 5 g, Na: 0.5 g, Ni: 15 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supplier, Er: Specialty alloy store, Ga: Gallium supplier, Na: Chemical supply store, Ni: Metal supplier",
+      "steps": [
+        "B: Chemical supplier, Er: Specialty alloy store, Ga: Gallium supplier, Na: Chemical supply store, Ni: Metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and prepare each ingredient according to the specified amounts.",
+        "2. In a clean, dry container, first add the boron (B) and erbium (Er) powders.",
+        "3. Gradually add the gallium (Ga), ensuring even distribution.",
+        "4. Add the sodium (Na) powder slowly while mixing continuously to avoid clumping.",
+        "5. Finally, add the nickel (Ni) powder and mix thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh and prepare each ingredient according to the specified amounts. \n 2. In a clean, dry container, first add the boron (B) and erbium (Er) powders. \n 3. Gradually add the gallium (Ga), ensuring even distribution. \n 4. Add the sodium (Na) powder slowly while mixing continuously to avoid clumping. \n 5. Finally, add the nickel (Ni) powder and mix thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C (1652°F).",
+        "2. Transfer the mixed materials into a suitable crucible made of graphite.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C (1652°F). \n 2. Transfer the mixed materials into a suitable crucible made of graphite. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to 500°C (932°F).",
+        "2. Once at 500°C, carefully remove the crucible using heat-resistant gloves and place it on a heat-resistant surface.",
+        "3. Allow the crucible to cool to room temperature naturally, which may take approximately 2-3 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to 500°C (932°F). \n 2. Once at 500°C, carefully remove the crucible using heat-resistant gloves and place it on a heat-resistant surface. \n 3. Allow the crucible to cool to room temperature naturally, which may take approximately 2-3 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid material from the crucible.",
+        "2. If necessary, use a diamond grinding tool to shape the solid sample to the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Clean the surface with a suitable solvent to remove any residue, and allow it to dry completely.",
+        "4. Optionally, apply a sealant to enhance surface durability and protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid material from the crucible. \n 2. If necessary, use a diamond grinding tool to shape the solid sample to the desired dimensions (3 in x 2 in x 7 in). \n 3. Clean the surface with a suitable solvent to remove any residue, and allow it to dry completely. \n 4. Optionally, apply a sealant to enhance surface durability and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 2816035.0,
+      "density": 31761.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1825984.0,
+      "formation_energy_per_atom": -4158.0,
+      "decomposition_energy_per_atom": -9.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -9.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.058,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cf79984b22",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.133657Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B24Ca3Tb1.json",
+      "material://B24Ca3Tb1"
+    ]
+  }
+}

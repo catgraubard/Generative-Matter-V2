@@ -1,0 +1,138 @@
+{
+  "id": "C8Mo2Tb8W2",
+  "uri": "material://C8Mo2Tb8W2",
+  "composition": {
+    "formula": "C8Mo2Tb8W2",
+    "elements": {
+      "C": 8,
+      "Mo": 2,
+      "Tb": 8,
+      "W": 2
+    },
+    "reduced_formula": "Tb4MoWC4",
+    "element_list": [
+      "C",
+      "Mo",
+      "Tb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 128.0 g (Cobalt) \n Mg: 8.0 g (Magnesium) \n Nb: 72.0 g (Niobium) \n P: 60.0 g (Phosphorus) \n Zr: 16.0 g (Zirconium)"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical supply stores or online specialty metal suppliers. \n Mg: Metal supply shops or online vendors. \n Nb: Specialty alloys suppliers. \n P: Chemical suppliers. \n Zr: Specialty metal retailers.",
+      "steps": [
+        "Co: Chemical supply stores or online specialty metal suppliers.",
+        "Mg: Metal supply shops or online vendors.",
+        "Nb: Specialty alloys suppliers.",
+        "P: Chemical suppliers.",
+        "Zr: Specialty metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for precise measurement.",
+        "2. In a clean, dry mixing container, add Co, Mg, Nb, P, and Zr in the specified amounts.",
+        "3. Mix thoroughly using a mechanical stirrer to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for precise measurement. \n 2. In a clean, dry mixing container, add Co, Mg, Nb, P, and Zr in the specified amounts. \n 3. Mix thoroughly using a mechanical stirrer to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a furnace to 1200 °C at a rate of 5 °C/min.",
+        "3. Hold at 1200 °C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat the crucible in a furnace to 1200 °C at a rate of 5 °C/min. \n 3. Hold at 1200 °C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to final dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges and surfaces using progressively finer sandpaper (up to 2000 grit) for a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating if needed."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to final dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges and surfaces using progressively finer sandpaper (up to 2000 grit) for a smooth finish. \n 4. Optionally, apply a sealant or protective coating if needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3295508.0,
+      "density": 971.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1650596.0,
+      "formation_energy_per_atom": -3281.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -502.0,
+      "decomposition_energy_mp_oqmd": -195.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e8d3645af2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.994557Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C8Mo2Tb8W2.json",
+      "material://C8Mo2Tb8W2"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "Al4O20Sm1Ti4Y3",
+  "uri": "material://Al4O20Sm1Ti4Y3",
+  "composition": {
+    "formula": "Al4O20Sm1Ti4Y3",
+    "elements": {
+      "Al": 4,
+      "O": 20,
+      "Sm": 1,
+      "Ti": 4,
+      "Y": 3
+    },
+    "reduced_formula": "SmY3Ti4Al4O20",
+    "element_list": [
+      "O",
+      "Al",
+      "Ti",
+      "Y",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Al2O3 (Aluminum oxide): 1600 g  \n - Sm2O3 (Samarium oxide): 5 g  \n - TiO2 (Titanium dioxide): 320 g  \n - Y2O3 (Yttrium oxide): 15 g"
+    },
+    "sourcing": {
+      "instructions": "- Al2O3: Available at chemical supply stores or online marketplaces. \n - Sm2O3: Specialty chemical suppliers or online. \n - TiO2: Commonly found in paint stores or chemical suppliers. \n - Y2O3: Available through chemical suppliers or online.",
+      "steps": [
+        "- Al2O3: Available at chemical supply stores or online marketplaces.",
+        "- Sm2O3: Specialty chemical suppliers or online.",
+        "- TiO2: Commonly found in paint stores or chemical suppliers.",
+        "- Y2O3: Available through chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine Al2O3, Sm2O3, TiO2, and Y2O3.",
+        "3. Mix the powders thoroughly using a spatula until a uniform mixture is achieved.",
+        "4. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure thorough blending and particle size reduction."
+      ],
+      "raw_text": "1. Weigh all ingredients accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine Al2O3, Sm2O3, TiO2, and Y2O3. \n 3. Mix the powders thoroughly using a spatula until a uniform mixture is achieved. \n 4. Transfer the mixed powders into a ball mill and mill for 2 hours to ensure thorough blending and particle size reduction."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1500°C.",
+        "2. Place the milled powder mixture into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace.",
+        "4. Maintain this temperature for 4 hours to facilitate chemical reactions and solidification."
+      ],
+      "raw_text": "1. Preheat the furnace to 1500°C. \n 2. Place the milled powder mixture into a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace. \n 4. Maintain this temperature for 4 hours to facilitate chemical reactions and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 8-10 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 8-10 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any surface irregularities; if necessary, use a diamond saw to trim to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal with a suitable ceramic sealer if required for additional protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any surface irregularities; if necessary, use a diamond saw to trim to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal with a suitable ceramic sealer if required for additional protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3623272.0,
+      "density": 47501.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2872637.0,
+      "formation_energy_per_atom": -36757.0,
+      "decomposition_energy_per_atom": -163.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -169.0,
+      "decomposition_energy_mp_oqmd": -158.0
+    },
+    "electronic": {
+      "bandgap": 3.37,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6cfe0428eb",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:38.246945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al4O20Sm1Ti4Y3.json",
+      "material://Al4O20Sm1Ti4Y3"
+    ]
+  }
+}

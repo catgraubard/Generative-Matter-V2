@@ -1,0 +1,137 @@
+{
+  "id": "Cu2Er1Ge1La1Si1",
+  "uri": "material://Cu2Er1Ge1La1Si1",
+  "composition": {
+    "formula": "Cu2Er1Ge1La1Si1",
+    "elements": {
+      "Cu": 2,
+      "Er": 1,
+      "Ge": 1,
+      "La": 1,
+      "Si": 1
+    },
+    "reduced_formula": "LaErCu2SiGe",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Ge",
+      "La",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 40 g \n Er: 20 g \n Ge: 20 g \n La: 20 g \n Si: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper metal can be sourced from metal suppliers or online retailers. \n Er: Erbium oxide can be obtained from chemical suppliers. \n Ge: Germanium can be sourced from electronic component suppliers. \n La: Lanthanum oxide can be found at specialty chemical suppliers. \n Si: Silicon can be acquired from semiconductor suppliers.",
+      "steps": [
+        "Cu: Copper metal can be sourced from metal suppliers or online retailers.",
+        "Er: Erbium oxide can be obtained from chemical suppliers.",
+        "Ge: Germanium can be sourced from electronic component suppliers.",
+        "La: Lanthanum oxide can be found at specialty chemical suppliers.",
+        "Si: Silicon can be acquired from semiconductor suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material with a precision scale.",
+        "2. Combine Cu, Er, Ge, La, and Si in a clean, dry mixing container.",
+        "3. Thoroughly mix the powders using a mortar and pestle or mechanical mixer until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Measure each material with a precision scale. \n 2. Combine Cu, Er, Ge, La, and Si in a clean, dry mixing container. \n 3. Thoroughly mix the powders using a mortar and pestle or mechanical mixer until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 1100°C (2012°F) for 2 hours to facilitate the reaction and form the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 1100°C (2012°F) for 2 hours to facilitate the reaction and form the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 25°C or 77°F) over a period of 4-6 hours."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 25°C or 77°F) over a period of 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample to achieve desired particle size.",
+        "3. Seal the sample with an appropriate sealant if it will be exposed to moisture or air.",
+        "4. For aesthetics, sand the sides to achieve a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, grind the sample to achieve desired particle size. \n 3. Seal the sample with an appropriate sealant if it will be exposed to moisture or air. \n 4. For aesthetics, sand the sides to achieve a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 11805.0,
+      "density": 75112.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -316317.0,
+      "formation_energy_per_atom": -6469.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -24.0
+    },
+    "electronic": {
+      "bandgap": 0.0154,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "698ada079c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:33.687038Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Er1Ge1La1Si1.json",
+      "material://Cu2Er1Ge1La1Si1"
+    ]
+  }
+}

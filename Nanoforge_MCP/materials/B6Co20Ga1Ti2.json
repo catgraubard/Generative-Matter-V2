@@ -1,0 +1,126 @@
+{
+  "id": "B6Co20Ga1Ti2",
+  "uri": "material://B6Co20Ga1Ti2",
+  "composition": {
+    "formula": "B6Co20Ga1Ti2",
+    "elements": {
+      "B": 6,
+      "Co": 20,
+      "Ga": 1,
+      "Ti": 2
+    },
+    "reduced_formula": "Ti2Ga(Co10B3)2",
+    "element_list": [
+      "B",
+      "Ti",
+      "Co",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 120 g \n Co: 300 g \n Ga: 15 g \n Ti: 30 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Specialty chemical supplier or online chemical retailer \n Co: Metal supply store or online metal distributor \n Ga: Chemical supply company \n Ti: Metal supply store or online metal distributor",
+      "steps": [
+        "B6: Specialty chemical supplier or online chemical retailer",
+        "Co: Metal supply store or online metal distributor",
+        "Ga: Chemical supply company",
+        "Ti: Metal supply store or online metal distributor"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each of the materials precisely using a digital scale.",
+        "2. In a clean, dry environment, combine B6, Co, Ga, and Ti in a stainless steel mixing container.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each of the materials precisely using a digital scale. \n 2. In a clean, dry environment, combine B6, Co, Ga, and Ti in a stainless steel mixing container. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "2. Preheat a furnace to 1200°C.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible suitable for high temperatures. \n 2. Preheat a furnace to 1200°C. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature over a period of 8 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature over a period of 8 hours. \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a bench grinder to shape the material to the desired dimensions (3 inches x 2 inches x 7 inches), ensuring smooth surfaces.",
+        "3. Optionally, sand the surface with fine-grit sandpaper for a polished finish.",
+        "4. If necessary, apply a sealant to protect the surface from oxidation or wear."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a bench grinder to shape the material to the desired dimensions (3 inches x 2 inches x 7 inches), ensuring smooth surfaces. \n 3. Optionally, sand the surface with fine-grit sandpaper for a polished finish. \n 4. If necessary, apply a sealant to protect the surface from oxidation or wear."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2876996.0,
+      "density": 81324.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -21016.0,
+      "formation_energy_per_atom": -3137.0,
+      "decomposition_energy_per_atom": -11.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8691d0e884",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:12.109800Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co20Ga1Ti2.json",
+      "material://B6Co20Ga1Ti2"
+    ]
+  }
+}

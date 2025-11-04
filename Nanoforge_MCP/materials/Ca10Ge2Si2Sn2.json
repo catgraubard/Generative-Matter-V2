@@ -1,0 +1,116 @@
+{
+  "id": "Ca10Ge2Si2Sn2",
+  "uri": "material://Ca10Ge2Si2Sn2",
+  "composition": {
+    "formula": "Ca10Ge2Si2Sn2",
+    "elements": {
+      "Ca": 10,
+      "Ge": 2,
+      "Si": 2,
+      "Sn": 2
+    },
+    "reduced_formula": "Ca5SiSnGe",
+    "element_list": [
+      "Si",
+      "Ca",
+      "Ge",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.0 g, Ni: 20.0 g, Sb: 1.0 g, Ti: 2.0 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron Powder) - Online chemical suppliers; Ni (Nickel Powder) - Metal supply stores; Sb (Antimony Powder) - Specialized metal suppliers; Ti (Titanium Powder) - Online metal suppliers",
+      "steps": [
+        "B (Boron Powder) - Online chemical suppliers; Ni (Nickel Powder) - Metal supply stores; Sb (Antimony Powder) - Specialized metal suppliers; Ti (Titanium Powder) - Online metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, add 6.0 g of Boron powder.",
+        "3. Add 20.0 g of Nickel powder to the bowl.",
+        "4. Introduce 1.0 g of Antimony powder.",
+        "5. Finally, add 2.0 g of Titanium powder.",
+        "6. Use a spatula to mix the powders thoroughly until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing bowl, add 6.0 g of Boron powder. \n 3. Add 20.0 g of Nickel powder to the bowl. \n 4. Introduce 1.0 g of Antimony powder. \n 5. Finally, add 2.0 g of Titanium powder. \n 6. Use a spatula to mix the powders thoroughly until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Transfer the mixed powder to a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and hold at 1000°C for 2 hours to ensure complete melting and homogenization of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Transfer the mixed powder to a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and hold at 1000°C for 2 hours to ensure complete melting and homogenization of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down gradually to ambient temperature.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves. Allow the crucible to cool in a safe area for an additional 30 minutes."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down gradually to ambient temperature. \n 2. Once cooled, remove the crucible carefully using heat-resistant gloves. Allow the crucible to cool in a safe area for an additional 30 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a diamond file or sandpaper to smooth any rough edges of the sample.",
+        "3. Optionally, you may seal the surface with a suitable coating to enhance durability.",
+        "4. Allow the coated sample to cure at room temperature for 24 hours before use."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a diamond file or sandpaper to smooth any rough edges of the sample. \n 3. Optionally, you may seal the surface with a suitable coating to enhance durability. \n 4. Allow the coated sample to cure at room temperature for 24 hours before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4625634.0,
+      "density": 30142.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmmm",
+      "space_group_number": 69,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -580327.0,
+      "formation_energy_per_atom": -6163.0,
+      "decomposition_energy_per_atom": -177.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -176.0,
+      "decomposition_energy_mp_oqmd": -171.0
+    },
+    "electronic": {
+      "bandgap": 0.0206,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e690e21e44",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.339902Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca10Ge2Si2Sn2.json",
+      "material://Ca10Ge2Si2Sn2"
+    ]
+  }
+}

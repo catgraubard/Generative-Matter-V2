@@ -1,0 +1,136 @@
+{
+  "id": "C4Cs2La2O12",
+  "uri": "material://C4Cs2La2O12",
+  "composition": {
+    "formula": "C4Cs2La2O12",
+    "elements": {
+      "C": 4,
+      "Cs": 2,
+      "La": 2,
+      "O": 12
+    },
+    "reduced_formula": "CsLa(CO3)2",
+    "element_list": [
+      "C",
+      "O",
+      "Cs",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 60.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Li",
+          "amount": 120.0,
+          "unit": "grams"
+        },
+        {
+          "element": "P",
+          "amount": 240.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Ru",
+          "amount": 850.0,
+          "unit": "grams"
+        },
+        {
+          "element": "Y",
+          "amount": 30.0,
+          "unit": "grams"
+        }
+      ],
+      "raw_text": "La: 60 grams \n Li: 120 grams \n P: 240 grams \n Ru: 850 grams \n Y: 30 grams"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supply company or online retailer specializing in rare earth metals. \n Li: Available from battery manufacturers or chemical supply stores. \n P: Obtain from phosphate suppliers or general chemical retailers. \n Ru: Source from precious metal suppliers or specialty chemical companies. \n Y: Purchase from rare earth metal suppliers or online chemical retailers.",
+      "steps": [
+        "La: Purchase from a chemical supply company or online retailer specializing in rare earth metals.",
+        "Li: Available from battery manufacturers or chemical supply stores.",
+        "P: Obtain from phosphate suppliers or general chemical retailers.",
+        "Ru: Source from precious metal suppliers or specialty chemical companies.",
+        "Y: Purchase from rare earth metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient accurately using a digital scale.",
+        "2. Place La, Li, P, Ru, and Y in a clean, dry mixing container.",
+        "3. Mix the powders thoroughly using a mechanical mixer or mortar and pestle until a uniform blend is achieved.",
+        "4. Transfer the mixed powder to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Measure out each ingredient accurately using a digital scale. \n 2. Place La, Li, P, Ru, and Y in a clean, dry mixing container. \n 3. Mix the powders thoroughly using a mechanical mixer or mortar and pestle until a uniform blend is achieved. \n 4. Transfer the mixed powder to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete reaction and solidification of the material."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature over approximately 8 hours.",
+        "2. Avoid rapid cooling to prevent cracking or warping of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature over approximately 8 hours. \n 2. Avoid rapid cooling to prevent cracking or warping of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect the material for any surface imperfections and use sandpaper (400-grit) to smooth out rough areas.",
+        "3. Optionally, seal the surface with a clear epoxy resin to improve durability and appearance. Let the resin cure for 24 hours before use."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Inspect the material for any surface imperfections and use sandpaper (400-grit) to smooth out rough areas. \n 3. Optionally, seal the surface with a clear epoxy resin to improve durability and appearance. Let the resin cure for 24 hours before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3252952.0,
+      "density": 40003.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1593619.0,
+      "formation_energy_per_atom": -25708.0,
+      "decomposition_energy_per_atom": -1075.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -1081.0,
+      "decomposition_energy_mp_oqmd": -1076.0
+    },
+    "electronic": {
+      "bandgap": 4.0535,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9eb007905",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.293208Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4Cs2La2O12.json",
+      "material://C4Cs2La2O12"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Mn4Rb2Se8V2",
+  "uri": "material://Mn4Rb2Se8V2",
+  "composition": {
+    "formula": "Mn4Rb2Se8V2",
+    "elements": {
+      "Mn": 4,
+      "Rb": 2,
+      "Se": 8,
+      "V": 2
+    },
+    "reduced_formula": "RbMn2VSe4",
+    "element_list": [
+      "V",
+      "Mn",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "MnO2: 80.0 g \n Rb2CO3: 40.0 g \n Se: 30.0 g \n V2O5: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "MnO2: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific) \n Rb2CO3: Specialty chemical suppliers or online stores \n Se: Local chemical suppliers or online \n V2O5: Chemical supply houses or online retailers",
+      "steps": [
+        "MnO2: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific)",
+        "Rb2CO3: Specialty chemical suppliers or online stores",
+        "Se: Local chemical suppliers or online",
+        "V2O5: Chemical supply houses or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure MnO2, Rb2CO3, Se, and V2O5 using a digital scale for precision.",
+        "2. In a clean, dry mixing bowl, combine MnO2 and Rb2CO3 thoroughly using a spatula.",
+        "3. Gradually add Se while continuously mixing to ensure uniform distribution.",
+        "4. Finally, incorporate V2O5 into the mixture and stir for an additional 5 minutes."
+      ],
+      "raw_text": "1. Measure MnO2, Rb2CO3, Se, and V2O5 using a digital scale for precision. \n 2. In a clean, dry mixing bowl, combine MnO2 and Rb2CO3 thoroughly using a spatula. \n 3. Gradually add Se while continuously mixing to ensure uniform distribution. \n 4. Finally, incorporate V2O5 into the mixture and stir for an additional 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed ingredients into a high-temperature crucible.",
+        "2. Preheat the furnace to 800°C.",
+        "3. Once at temperature, place the crucible inside and heat for a duration of 4 hours to allow for complete reaction and formation of Mn4Rb2Se8V2."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients into a high-temperature crucible. \n 2. Preheat the furnace to 800°C. \n 3. Once at temperature, place the crucible inside and heat for a duration of 4 hours to allow for complete reaction and formation of Mn4Rb2Se8V2."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not remove the crucible until the furnace has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Do not remove the crucible until the furnace has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified material from the crucible.",
+        "2. Use a diamond file to smooth the edges of the sample to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, seal the surface with a clear epoxy to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified material from the crucible. \n 2. Use a diamond file to smooth the edges of the sample to achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, seal the surface with a clear epoxy to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 466171.0,
+      "density": 40047.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1000407.0,
+      "formation_energy_per_atom": -956.0,
+      "decomposition_energy_per_atom": -502.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -73.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": -397.0
+    },
+    "electronic": {
+      "bandgap": 0.2427,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7956cecd83",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:54.417367Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn4Rb2Se8V2.json",
+      "material://Mn4Rb2Se8V2"
+    ]
+  }
+}

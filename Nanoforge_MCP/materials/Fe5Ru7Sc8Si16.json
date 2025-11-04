@@ -1,0 +1,128 @@
+{
+  "id": "Fe5Ru7Sc8Si16",
+  "uri": "material://Fe5Ru7Sc8Si16",
+  "composition": {
+    "formula": "Fe5Ru7Sc8Si16",
+    "elements": {
+      "Fe": 5,
+      "Ru": 7,
+      "Sc": 8,
+      "Si": 16
+    },
+    "reduced_formula": "Sc8Fe5Si16Ru7",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Fe",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 16 g  \n Rb:  32 g  \n Si:  15 g"
+    },
+    "sourcing": {
+      "instructions": "Ge can be obtained from semiconductor suppliers. \n Rb can be purchased from chemical suppliers or online marketplaces. \n Si can be sourced from silicon suppliers or electronic component stores.",
+      "steps": [
+        "Ge can be obtained from semiconductor suppliers.",
+        "Rb can be purchased from chemical suppliers or online marketplaces.",
+        "Si can be sourced from silicon suppliers or electronic component stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 16 g of germanium (Ge).",
+        "2. Weigh out 32 g of rubidium (Rb).",
+        "3. Weigh out 15 g of silicon (Si).",
+        "4. In a clean, dry bowl, combine Ge, Rb, and Si.",
+        "5. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 16 g of germanium (Ge). \n 2. Weigh out 32 g of rubidium (Rb). \n 3. Weigh out 15 g of silicon (Si). \n 4. In a clean, dry bowl, combine Ge, Rb, and Si. \n 5. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible that can withstand high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 900°C over a period of 1 hour.",
+        "4. Maintain the temperature for an additional 2 hours to ensure complete melting and mixing of the material."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible that can withstand high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 900°C over a period of 1 hour. \n 4. Maintain the temperature for an additional 2 hours to ensure complete melting and mixing of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C).",
+        "2. This cooling process should take around 4-5 hours to prevent thermal shock and cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C). \n 2. This cooling process should take around 4-5 hours to prevent thermal shock and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the solid sample has cooled, remove it from the crucible.",
+        "2. Inspect the surface for any roughness or imperfections.",
+        "3. If necessary, use fine-grit sandpaper to smooth the edges and surface.",
+        "4. Optionally, apply a sealant to protect the surface if the material is porous."
+      ],
+      "raw_text": "1. Once the solid sample has cooled, remove it from the crucible. \n 2. Inspect the surface for any roughness or imperfections. \n 3. If necessary, use fine-grit sandpaper to smooth the edges and surface. \n 4. Optionally, apply a sealant to protect the surface if the material is porous."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5142978.0,
+      "density": 5798.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2743555.0,
+      "formation_energy_per_atom": -8228.0,
+      "decomposition_energy_per_atom": -628.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -375.0,
+      "decomposition_energy_mp": -783.0,
+      "decomposition_energy_mp_oqmd": -401.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d4bb6dc53d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.573700Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe5Ru7Sc8Si16.json",
+      "material://Fe5Ru7Sc8Si16"
+    ]
+  }
+}

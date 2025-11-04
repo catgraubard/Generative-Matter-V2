@@ -1,0 +1,126 @@
+{
+  "id": "Be2Bi5In1Zr10",
+  "uri": "material://Be2Bi5In1Zr10",
+  "composition": {
+    "formula": "Be2Bi5In1Zr10",
+    "elements": {
+      "Be": 2,
+      "Bi": 5,
+      "In": 1,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10Be2InBi5",
+    "element_list": [
+      "Be",
+      "Zr",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Pb",
+          "amount": 1000.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 600.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 2000.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Pb: 1000 g \n Sn: 600 g \n Tm: 2000 g"
+    },
+    "sourcing": {
+      "instructions": "Pb: Local metal supplier or online metals retailer \n Sn: Local metal supplier or online metals retailer \n Tm: Specialty chemical suppliers or online vendors",
+      "steps": [
+        "Pb: Local metal supplier or online metals retailer",
+        "Sn: Local metal supplier or online metals retailer",
+        "Tm: Specialty chemical suppliers or online vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1000 g of lead (Pb) using a precision scale.",
+        "2. Weigh out 600 g of tin (Sn).",
+        "3. Weigh out 2000 g of thulium (Tm).",
+        "4. In a clean mixing container, combine all three metals thoroughly using a metal spatula. Ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 1000 g of lead (Pb) using a precision scale. \n 2. Weigh out 600 g of tin (Sn). \n 3. Weigh out 2000 g of thulium (Tm). \n 4. In a clean mixing container, combine all three metals thoroughly using a metal spatula. Ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixture in a crucible.",
+        "2. Heat using a furnace or a high-temperature stove.",
+        "3. Gradually increase the temperature to 900°C.",
+        "4. Maintain this temperature for 2 hours to ensure complete melting and mixing of the metals."
+      ],
+      "raw_text": "1. Place the mixture in a crucible. \n 2. Heat using a furnace or a high-temperature stove. \n 3. Gradually increase the temperature to 900°C. \n 4. Maintain this temperature for 2 hours to ensure complete melting and mixing of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Once the heating duration is complete, turn off the heat.",
+        "2. Allow the crucible to cool slowly to room temperature, which may take approximately 4-6 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Once the heating duration is complete, turn off the heat. \n 2. Allow the crucible to cool slowly to room temperature, which may take approximately 4-6 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a metal file or sanding paper to smooth out any rough edges.",
+        "3. Optionally, apply a sealant to protect the surface from oxidation. Allow the sealant to cure as per manufacturer instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a metal file or sanding paper to smooth out any rough edges. \n 3. Optionally, apply a sealant to protect the surface from oxidation. Allow the sealant to cure as per manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3916557.0,
+      "density": 88611.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1223181.0,
+      "formation_energy_per_atom": -3978.0,
+      "decomposition_energy_per_atom": -919.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -919.0,
+      "decomposition_energy_mp_oqmd": -788.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dafc246d58",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.279104Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Be2Bi5In1Zr10.json",
+      "material://Be2Bi5In1Zr10"
+    ]
+  }
+}

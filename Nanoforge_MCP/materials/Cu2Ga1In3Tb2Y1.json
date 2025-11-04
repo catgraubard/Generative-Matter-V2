@@ -1,0 +1,117 @@
+{
+  "id": "Cu2Ga1In3Tb2Y1",
+  "uri": "material://Cu2Ga1In3Tb2Y1",
+  "composition": {
+    "formula": "Cu2Ga1In3Tb2Y1",
+    "elements": {
+      "Cu": 2,
+      "Ga": 1,
+      "In": 3,
+      "Tb": 2,
+      "Y": 1
+    },
+    "reduced_formula": "Tb2YIn3GaCu2",
+    "element_list": [
+      "Cu",
+      "Ga",
+      "Y",
+      "In",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 80 g, Ga: 40 g, In: 120 g, Tb: 10 g, Y: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper wire or sheet from electrical supply stores; Ga: Gallium from chemical supply companies; In: Indium from metal suppliers; Tb: Terbium oxide from rare earth suppliers; Y: Yttrium oxide from chemical suppliers.",
+      "steps": [
+        "Cu: Copper wire or sheet from electrical supply stores; Ga: Gallium from chemical supply companies; In: Indium from metal suppliers; Tb: Terbium oxide from rare earth suppliers; Y: Yttrium oxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Grind Cu, Ga, In, Tb, and Y separately in a mortar and pestle until fine powders are obtained.",
+        "3. Combine all powdered ingredients in a clean, dry mixing bowl.",
+        "4. Mix thoroughly with a spatula to ensure uniform distribution of all materials."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Grind Cu, Ga, In, Tb, and Y separately in a mortar and pestle until fine powders are obtained. \n 3. Combine all powdered ingredients in a clean, dry mixing bowl. \n 4. Mix thoroughly with a spatula to ensure uniform distribution of all materials."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 1000°C for 2 hours with a ramp rate of 10°C/min.",
+        "3. Ensure an inert atmosphere (e.g., argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 1000°C for 2 hours with a ramp rate of 10°C/min. \n 3. Ensure an inert atmosphere (e.g., argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly to room temperature (about 1 hour).",
+        "2. Do not open the furnace until fully cooled to avoid contamination."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly to room temperature (about 1 hour). \n 2. Do not open the furnace until fully cooled to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use a diamond saw to shape the sample to dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a clear coat to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use a diamond saw to shape the sample to dimensions 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a clear coat to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1973509.0,
+      "density": 79768.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -395131.0,
+      "formation_energy_per_atom": -4774.0,
+      "decomposition_energy_per_atom": -98.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -98.0,
+      "decomposition_energy_mp_oqmd": -56.0
+    },
+    "electronic": {
+      "bandgap": 0.0181,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4b83372396",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:55.030295Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ga1In3Tb2Y1.json",
+      "material://Cu2Ga1In3Tb2Y1"
+    ]
+  }
+}

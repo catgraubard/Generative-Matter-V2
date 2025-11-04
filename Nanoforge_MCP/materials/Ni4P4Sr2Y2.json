@@ -1,0 +1,134 @@
+{
+  "id": "Ni4P4Sr2Y2",
+  "uri": "material://Ni4P4Sr2Y2",
+  "composition": {
+    "formula": "Ni4P4Sr2Y2",
+    "elements": {
+      "Ni": 4,
+      "P": 4,
+      "Sr": 2,
+      "Y": 2
+    },
+    "reduced_formula": "SrY(NiP)2",
+    "element_list": [
+      "P",
+      "Ni",
+      "Sr",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 56.7,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 9.2,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 17.7,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 56.7 g\nP: 9.2 g\nSr: 12.5 g\nY: 17.7 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich)\nP: Obtain from a chemical supplier or online source (e.g., Fisher Scientific)\nSr: Available at specialty metal suppliers or online\nY: Chemical supply companies or online marketplaces",
+      "steps": [
+        "Ni: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich)",
+        "P: Obtain from a chemical supplier or online source (e.g., Fisher Scientific)",
+        "Sr: Available at specialty metal suppliers or online",
+        "Y: Chemical supply companies or online marketplaces"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 56.7 g of Nickel powder (Ni).",
+        "2. Weigh out 9.2 g of Phosphorus powder (P).",
+        "3. Weigh out 12.5 g of Strontium powder (Sr).",
+        "4. Weigh out 17.7 g of Yttrium powder (Y).",
+        "5. In a clean, dry container, combine all weighed powders thoroughly to ensure a uniform mixture."
+      ],
+      "raw_text": "1. Weigh out 56.7 g of Nickel powder (Ni).\n2. Weigh out 9.2 g of Phosphorus powder (P).\n3. Weigh out 12.5 g of Strontium powder (Sr).\n4. Weigh out 17.7 g of Yttrium powder (Y).\n5. In a clean, dry container, combine all weighed powders thoroughly to ensure a uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to a temperature of 1200°C.",
+        "4. Maintain this temperature for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible.\n2. Place the crucible in a muffle furnace.\n3. Heat to a temperature of 1200°C.\n4. Maintain this temperature for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Ensure the crucible is left undisturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).\n2. Ensure the crucible is left undisturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces for a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges and surfaces for a smooth finish.\n4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2224876.0,
+      "density": 53119.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -73632.0,
+      "formation_energy_per_atom": -10455.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -53.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4f9fd0473e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:00.192298Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4P4Sr2Y2.json",
+      "material://Ni4P4Sr2Y2"
+    ]
+  }
+}

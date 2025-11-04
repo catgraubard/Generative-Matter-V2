@@ -1,0 +1,129 @@
+{
+  "id": "Al1Bi1Ga1Sn5Zr10",
+  "uri": "material://Al1Bi1Ga1Sn5Zr10",
+  "composition": {
+    "formula": "Al1Bi1Ga1Sn5Zr10",
+    "elements": {
+      "Al": 1,
+      "Bi": 1,
+      "Ga": 1,
+      "Sn": 5,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10AlGaSn5Bi",
+    "element_list": [
+      "Al",
+      "Ga",
+      "Zr",
+      "Sn",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Gd",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 5.0 g \n Gd: 60.0 g \n Tc: 15.0 g \n (Total: 80.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Cd (Cadmium): Available from chemical supply companies or online chemical retailers. \n Gd (Gadolinium): Obtainable through specialized rare earth metal suppliers or chemical supply stores. \n Tc (Technetium): Purchase from suppliers of radioactive materials or specialized isotopes vendors (ensure proper licensing and safety protocols).",
+      "steps": [
+        "Cd (Cadmium): Available from chemical supply companies or online chemical retailers.",
+        "Gd (Gadolinium): Obtainable through specialized rare earth metal suppliers or chemical supply stores.",
+        "Tc (Technetium): Purchase from suppliers of radioactive materials or specialized isotopes vendors (ensure proper licensing and safety protocols)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 5.0 g of Cadmium using a digital scale.",
+        "2. Weigh out 60.0 g of Gadolinium.",
+        "3. Weigh out 15.0 g of Technetium.",
+        "4. In a fume hood, combine Cd, Gd, and Tc in a clean, dry ceramic crucible.",
+        "5. Use a pestle and mortar to mix the powders thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 5.0 g of Cadmium using a digital scale. \n 2. Weigh out 60.0 g of Gadolinium. \n 3. Weigh out 15.0 g of Technetium. \n 4. In a fume hood, combine Cd, Gd, and Tc in a clean, dry ceramic crucible. \n 5. Use a pestle and mortar to mix the powders thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the crucible with the mixed powders into the furnace.",
+        "3. Maintain the temperature at 1000°C for 4 hours to allow for complete reaction and formation of Cd2Gd12Tc3."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the crucible with the mixed powders into the furnace. \n 3. Maintain the temperature at 1000°C for 4 hours to allow for complete reaction and formation of Cd2Gd12Tc3."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified compound from the crucible.",
+        "2. Inspect the sample for any rough edges or imperfections.",
+        "3. If necessary, use a diamond file or sandpaper to smooth the surfaces.",
+        "4. Optionally, apply a sealing agent to enhance the surface finish and protect the material."
+      ],
+      "raw_text": "1. Remove the solidified compound from the crucible. \n 2. Inspect the sample for any rough edges or imperfections. \n 3. If necessary, use a diamond file or sandpaper to smooth the surfaces. \n 4. Optionally, apply a sealing agent to enhance the surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3942274.0,
+      "density": 76302.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1271737.0,
+      "formation_energy_per_atom": -6103.0,
+      "decomposition_energy_per_atom": -178.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -178.0,
+      "decomposition_energy_mp_oqmd": -153.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a9fdf9f6fb",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:00.734281Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Bi1Ga1Sn5Zr10.json",
+      "material://Al1Bi1Ga1Sn5Zr10"
+    ]
+  }
+}

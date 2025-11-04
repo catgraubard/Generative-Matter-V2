@@ -1,0 +1,110 @@
+{
+  "id": "Be2Cu16Pr2Si8",
+  "uri": "material://Be2Cu16Pr2Si8",
+  "composition": {
+    "formula": "Be2Cu16Pr2Si8",
+    "elements": {
+      "Be": 2,
+      "Cu": 16,
+      "Pr": 2,
+      "Si": 8
+    },
+    "reduced_formula": "PrBe(Cu2Si)4",
+    "element_list": [
+      "Be",
+      "Si",
+      "Cu",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 15 g, Ag: 45 g, Eu: 10 g, In: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Chemical supply stores, Ag: Jewelry supply shops or online retailers, Eu: Specialized metal suppliers, In: Electronics component suppliers",
+      "steps": [
+        "Ac: Chemical supply stores, Ag: Jewelry supply shops or online retailers, Eu: Specialized metal suppliers, In: Electronics component suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Ac, Ag, Eu, and In in the specified amounts.",
+        "3. Mix thoroughly using a ceramic or glass stirrer until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine Ac, Ag, Eu, and In in the specified amounts. \n 3. Mix thoroughly using a ceramic or glass stirrer until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a high-temperature crucible.",
+        "2. Heat in a furnace to 800°C (1472°F) for 2 hours to ensure complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixture into a high-temperature crucible. \n 2. Heat in a furnace to 800°C (1472°F) for 2 hours to ensure complete melting and homogenization."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool gradually in the furnace to avoid thermal shock, maintaining the temperature drop rate of 10°C per hour.",
+        "2. Once cooled to room temperature, carefully remove the material from the crucible."
+      ],
+      "raw_text": "1. Allow the crucible to cool gradually in the furnace to avoid thermal shock, maintaining the temperature drop rate of 10°C per hour. \n 2. Once cooled to room temperature, carefully remove the material from the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the solid sample using a diamond grinding wheel to achieve the desired dimensions of 3 in x 2 in x 7 in.",
+        "2. Sand the edges and surfaces to a smooth finish.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Grind the solid sample using a diamond grinding wheel to achieve the desired dimensions of 3 in x 2 in x 7 in. \n 2. Sand the edges and surfaces to a smooth finish. \n 3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 371493.0,
+      "density": 68893.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mcm",
+      "space_group_number": 140,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -133195.0,
+      "formation_energy_per_atom": -2559.0,
+      "decomposition_energy_per_atom": -128.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -34.0,
+      "decomposition_energy_mp": -125.0,
+      "decomposition_energy_mp_oqmd": -112.0
+    },
+    "electronic": {
+      "bandgap": 0.0124,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab2bb91765",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.757712Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Be2Cu16Pr2Si8.json",
+      "material://Be2Cu16Pr2Si8"
+    ]
+  }
+}

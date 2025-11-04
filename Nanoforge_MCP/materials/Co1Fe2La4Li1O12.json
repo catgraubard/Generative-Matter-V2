@@ -1,0 +1,116 @@
+{
+  "id": "Co1Fe2La4Li1O12",
+  "uri": "material://Co1Fe2La4Li1O12",
+  "composition": {
+    "formula": "Co1Fe2La4Li1O12",
+    "elements": {
+      "Co": 1,
+      "Fe": 2,
+      "La": 4,
+      "Li": 1,
+      "O": 12
+    },
+    "reduced_formula": "LiLa4Fe2CoO12",
+    "element_list": [
+      "Li",
+      "O",
+      "Fe",
+      "Co",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 18.0 g, Fe: 36.0 g, La: 72.0 g, Li: 6.0 g, O: 72.0 g (total: 134.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical suppliers (e.g., Sigma-Aldrich); Fe: Metal suppliers; La: Rare earth element suppliers; Li: Battery manufacturers; O: Laboratory supply stores (e.g., Sigma-Aldrich).",
+      "steps": [
+        "Co: Chemical suppliers (e.g., Sigma-Aldrich); Fe: Metal suppliers; La: Rare earth element suppliers; Li: Battery manufacturers; O: Laboratory supply stores (e.g., Sigma-Aldrich)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Co, Fe, La, Li, and O.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance.  \n 2. In a clean, dry container, combine Co, Fe, La, Li, and O. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Transfer the powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the ceramic crucible in the furnace.",
+        "3. Heat for 6 hours to ensure complete reaction and formation of Co1Fe2La4Li1O12."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the ceramic crucible in the furnace. \n 3. Heat for 6 hours to ensure complete reaction and formation of Co1Fe2La4Li1O12."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After 6 hours, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. After 6 hours, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible and retrieve the solid material.",
+        "2. Grind the solid again if necessary to achieve a finer texture.",
+        "3. Optionally, seal the material with a clear sealant to protect it from environmental factors.",
+        "4. If required, sand the surfaces to achieve the desired finish and dimensions."
+      ],
+      "raw_text": "1. Remove the cooled crucible and retrieve the solid material. \n 2. Grind the solid again if necessary to achieve a finer texture. \n 3. Optionally, seal the material with a clear sealant to protect it from environmental factors. \n 4. If required, sand the surfaces to achieve the desired finish and dimensions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2408726.0,
+      "density": 6378.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1602614.0,
+      "formation_energy_per_atom": -27592.0,
+      "decomposition_energy_per_atom": -78.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -73.0,
+      "decomposition_energy_mp_oqmd": -35.0
+    },
+    "electronic": {
+      "bandgap": 0.0228,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5c2bb6c7c3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:16.412227Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe2La4Li1O12.json",
+      "material://Co1Fe2La4Li1O12"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Al1Ba5Fe3O36Se12Sr1",
+  "uri": "material://Al1Ba5Fe3O36Se12Sr1",
+  "composition": {
+    "formula": "Al1Ba5Fe3O36Se12Sr1",
+    "elements": {
+      "Al": 1,
+      "Ba": 5,
+      "Fe": 3,
+      "O": 36,
+      "Se": 12,
+      "Sr": 1
+    },
+    "reduced_formula": "Ba5SrAlFe3(SeO3)12",
+    "element_list": [
+      "O",
+      "Al",
+      "Fe",
+      "Se",
+      "Sr",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 40.00 g  \n - Neodymium (Nd): 20.00 g  \n - Tellurium (Te): 20.00 g  \n - Oxygen (O): 60.00 g (calculated based on molecular formula)"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Obtain from a chemical supply store or online distributor (e.g., Sigma-Aldrich). \n - Neodymium: Purchase from a rare earth materials supplier (e.g., American Elements). \n - Tellurium: Source from chemical suppliers or metals vendors (e.g., Alfa Aesar). \n - Oxygen: Use oxygen gas from a welding supply store or generate via chemical means in a controlled environment.",
+      "steps": [
+        "- Iron: Obtain from a chemical supply store or online distributor (e.g., Sigma-Aldrich).",
+        "- Neodymium: Purchase from a rare earth materials supplier (e.g., American Elements).",
+        "- Tellurium: Source from chemical suppliers or metals vendors (e.g., Alfa Aesar).",
+        "- Oxygen: Use oxygen gas from a welding supply store or generate via chemical means in a controlled environment."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, measure 40.00 g of iron powder using a digital scale.",
+        "2. Measure 20.00 g of neodymium oxide.",
+        "3. Measure 20.00 g of tellurium powder.",
+        "4. Combine all measured powders in a ceramic mixing bowl.",
+        "5. Mix the powders thoroughly using a spatula or mortar and pestle until a uniform mixture is obtained."
+      ],
+      "raw_text": "1. In a clean, dry environment, measure 40.00 g of iron powder using a digital scale. \n 2. Measure 20.00 g of neodymium oxide. \n 3. Measure 20.00 g of tellurium powder. \n 4. Combine all measured powders in a ceramic mixing bowl. \n 5. Mix the powders thoroughly using a spatula or mortar and pestle until a uniform mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 800°C (1472°F) and maintain this temperature for 4 hours to allow for complete reaction and formation of Fe2Nd2O12Te2."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 800°C (1472°F) and maintain this temperature for 4 hours to allow for complete reaction and formation of Fe2Nd2O12Te2."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 20°C or 68°F) over a period of 6-8 hours.",
+        "2. Do not open the furnace door during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 20°C or 68°F) over a period of 6-8 hours. \n 2. Do not open the furnace door during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the material for any uneven surfaces or edges.",
+        "3. Use a fine-grit sandpaper to smooth out any rough areas.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added durability and protection against moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the material for any uneven surfaces or edges. \n 3. Use a fine-grit sandpaper to smooth out any rough areas. \n 4. Optionally, seal the surface with a clear epoxy resin for added durability and protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 58,
+      "volume": 9700512.0,
+      "density": 42663.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3748105.0,
+      "formation_energy_per_atom": -19706.0,
+      "decomposition_energy_per_atom": -17.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -19.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d045f50d12",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.318294Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Ba5Fe3O36Se12Sr1.json",
+      "material://Al1Ba5Fe3O36Se12Sr1"
+    ]
+  }
+}

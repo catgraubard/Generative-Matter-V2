@@ -1,0 +1,112 @@
+{
+  "id": "Co2Nd2Pr4Sn12",
+  "uri": "material://Co2Nd2Pr4Sn12",
+  "composition": {
+    "formula": "Co2Nd2Pr4Sn12",
+    "elements": {
+      "Co": 2,
+      "Nd": 2,
+      "Pr": 4,
+      "Sn": 12
+    },
+    "reduced_formula": "Pr2NdCoSn6",
+    "element_list": [
+      "Co",
+      "Sn",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 5.00 g, Nd: 10.00 g, Pr: 20.00 g, Sn: 30.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from chemical supply stores or online (e.g., Sigma-Aldrich). Nd: Available from rare earth metal suppliers. Pr: Obtain from specialty metal suppliers. Sn: Available from electronics or alloy suppliers.",
+      "steps": [
+        "Co: Purchase from chemical supply stores or online (e.g., Sigma-Aldrich). Nd: Available from rare earth metal suppliers. Pr: Obtain from specialty metal suppliers. Sn: Available from electronics or alloy suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. Combine Co, Nd, Pr, and Sn in a clean, dry ceramic or glass container.",
+        "3. Mix the powders thoroughly using a mortar and pestle for 10 minutes to ensure a homogeneous mixture.",
+        "4. Transfer the mixed powder into a pre-cleaned crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. Combine Co, Nd, Pr, and Sn in a clean, dry ceramic or glass container. \n 3. Mix the powders thoroughly using a mortar and pestle for 10 minutes to ensure a homogeneous mixture. \n 4. Transfer the mixed powder into a pre-cleaned crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 900°C.",
+        "2. Place the crucible in the furnace and heat for 2 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C. \n 2. Place the crucible in the furnace and heat for 2 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (~25°C).",
+        "2. Do not open the furnace door until it has cooled completely to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (~25°C). \n 2. Do not open the furnace door until it has cooled completely to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and allow the sample to cool further in air for an additional 30 minutes.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. Use sandpaper to smooth out any rough edges and achieve desired surface finish.",
+        "4. Optionally, apply a protective sealant if the sample will be exposed to moisture or air."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and allow the sample to cool further in air for an additional 30 minutes. \n 2. Carefully extract the solid sample from the crucible. \n 3. Use sandpaper to smooth out any rough edges and achieve desired surface finish. \n 4. Optionally, apply a protective sealant if the sample will be exposed to moisture or air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5232187.0,
+      "density": 75994.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1032903.0,
+      "formation_energy_per_atom": -6149.0,
+      "decomposition_energy_per_atom": -243.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -241.0,
+      "decomposition_energy_mp_oqmd": -238.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7815fbd583",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:52.817031Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Nd2Pr4Sn12.json",
+      "material://Co2Nd2Pr4Sn12"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Fe1Ga3Rb12Se12",
+  "uri": "material://Fe1Ga3Rb12Se12",
+  "composition": {
+    "formula": "Fe1Ga3Rb12Se12",
+    "elements": {
+      "Fe": 1,
+      "Ga": 3,
+      "Rb": 12,
+      "Se": 12
+    },
+    "reduced_formula": "Rb12Ga3FeSe12",
+    "element_list": [
+      "Fe",
+      "Ga",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Fe (Iron): 10.0 g \n Ga (Gallium): 30.0 g \n Rb (Rubidium): 12.0 g \n Se (Selenium): 12.0 g \n Total: 64.0 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Available from metal supply stores or online retailers. \n Ga: Obtain from chemical suppliers or online marketplaces. \n Rb: Purchase from specialized chemical suppliers. \n Se: Available from chemical suppliers or online.",
+      "steps": [
+        "Fe: Available from metal supply stores or online retailers.",
+        "Ga: Obtain from chemical suppliers or online marketplaces.",
+        "Rb: Purchase from specialized chemical suppliers.",
+        "Se: Available from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using an analytical balance.",
+        "2. In a clean, dry glass container, combine the weighed amounts of Fe, Ga, Rb, and Se.",
+        "3. Stir the mixture thoroughly using a glass rod to ensure homogeneity.",
+        "4. Transfer the mixture into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh out each ingredient using an analytical balance. \n 2. In a clean, dry glass container, combine the weighed amounts of Fe, Ga, Rb, and Se. \n 3. Stir the mixture thoroughly using a glass rod to ensure homogeneity. \n 4. Transfer the mixture into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the ceramic crucible in the furnace and maintain the temperature for 4 hours.",
+        "3. Ensure that the environment is inert (e.g., argon atmosphere) to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the ceramic crucible in the furnace and maintain the temperature for 4 hours. \n 3. Ensure that the environment is inert (e.g., argon atmosphere) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool to room temperature gradually.",
+        "2. Do not open the furnace until it has fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool to room temperature gradually. \n 2. Do not open the furnace until it has fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, use fine-grit sandpaper to smooth out any rough edges.",
+        "4. Store the finished material in a clean, dry container to avoid contamination."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, use fine-grit sandpaper to smooth out any rough edges. \n 4. Store the finished material in a clean, dry container to avoid contamination."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 10214846.0,
+      "density": 36384.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1055155.0,
+      "formation_energy_per_atom": -1223.0,
+      "decomposition_energy_per_atom": -1488.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -1488.0,
+      "decomposition_energy_mp_oqmd": -73.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "44f260437a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:46.230867Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ga3Rb12Se12.json",
+      "material://Fe1Ga3Rb12Se12"
+    ]
+  }
+}

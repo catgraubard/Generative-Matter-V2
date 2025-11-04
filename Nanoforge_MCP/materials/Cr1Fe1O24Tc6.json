@@ -1,0 +1,134 @@
+{
+  "id": "Cr1Fe1O24Tc6",
+  "uri": "material://Cr1Fe1O24Tc6",
+  "composition": {
+    "formula": "Cr1Fe1O24Tc6",
+    "elements": {
+      "Cr": 1,
+      "Fe": 1,
+      "O": 24,
+      "Tc": 6
+    },
+    "reduced_formula": "CrFe(TcO4)6",
+    "element_list": [
+      "O",
+      "Cr",
+      "Fe",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 7.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 10 g \n Fe: 7 g \n O: 24 g \n Tc: 6 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Purchase from a chemical supply store or online chemical retailer. \n Fe: Obtain from a local metal supplier or online. \n O: Order from a gas supplier or chemical distributor. \n Tc: Acquire through a licensed radioactive material supplier.",
+      "steps": [
+        "Cr: Purchase from a chemical supply store or online chemical retailer.",
+        "Fe: Obtain from a local metal supplier or online.",
+        "O: Order from a gas supplier or chemical distributor.",
+        "Tc: Acquire through a licensed radioactive material supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of chromium (Cr) and 7 g of iron (Fe) using an analytical balance.",
+        "2. Add 24 g of oxygen (O) in the form of a gas or oxide.",
+        "3. Measure 6 g of technetium (Tc) in a controlled environment.",
+        "4. Combine all materials in a ceramic crucible.",
+        "5. Use a pestle and mortar to thoroughly mix the powders until homogenous."
+      ],
+      "raw_text": "1. Measure 10 g of chromium (Cr) and 7 g of iron (Fe) using an analytical balance. \n 2. Add 24 g of oxygen (O) in the form of a gas or oxide. \n 3. Measure 6 g of technetium (Tc) in a controlled environment. \n 4. Combine all materials in a ceramic crucible. \n 5. Use a pestle and mortar to thoroughly mix the powders until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure proper synthesis of the compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure proper synthesis of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 20-25°C) over a period of 3-4 hours.",
+        "2. Do not open the furnace door during cooling to avoid contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 20-25°C) over a period of 3-4 hours. \n 2. Do not open the furnace door during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the solid for uniformity and structural integrity.",
+        "3. If necessary, use fine-grit sandpaper to smooth any rough edges.",
+        "4. Optionally, apply a sealant to protect the surface if required for your application."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the solid for uniformity and structural integrity. \n 3. If necessary, use fine-grit sandpaper to smooth any rough edges. \n 4. Optionally, apply a sealant to protect the surface if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 6063602.0,
+      "density": 29571.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2595781.0,
+      "formation_energy_per_atom": -18919.0,
+      "decomposition_energy_per_atom": -547.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -272.0,
+      "decomposition_energy_mp": -555.0,
+      "decomposition_energy_mp_oqmd": -554.0
+    },
+    "electronic": {
+      "bandgap": 2.3032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "54840645e8",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:06.425464Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Fe1O24Tc6.json",
+      "material://Cr1Fe1O24Tc6"
+    ]
+  }
+}

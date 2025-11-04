@@ -1,0 +1,109 @@
+{
+  "id": "Ba6Fe1Nb2O12",
+  "uri": "material://Ba6Fe1Nb2O12",
+  "composition": {
+    "formula": "Ba6Fe1Nb2O12",
+    "elements": {
+      "Ba": 6,
+      "Fe": 1,
+      "Nb": 2,
+      "O": 12
+    },
+    "reduced_formula": "Ba6Nb2FeO12",
+    "element_list": [
+      "O",
+      "Fe",
+      "Nb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium carbonate (BaCO3):  930 g \n Iron(III) oxide (Fe2O3):  62 g \n Niobium oxide (Nb2O5):  206 g \n Total: 1198 g"
+    },
+    "sourcing": {
+      "instructions": "Barium carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Iron(III) oxide: Local hardware stores or online (e.g., Amazon) \n Niobium oxide: Specialty chemical suppliers or online suppliers (e.g., Alfa Aesar)",
+      "steps": [
+        "Barium carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Iron(III) oxide: Local hardware stores or online (e.g., Amazon)",
+        "Niobium oxide: Specialty chemical suppliers or online suppliers (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using a precise scale.",
+        "2. In a clean, dry mixing container, combine 930 g of barium carbonate, 62 g of iron(III) oxide, and 206 g of niobium oxide.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer for 15 minutes to ensure uniformity.",
+        "4. Transfer the mixed powder to a suitable crucible for heating."
+      ],
+      "raw_text": "1. Weigh out each material using a precise scale. \n 2. In a clean, dry mixing container, combine 930 g of barium carbonate, 62 g of iron(III) oxide, and 206 g of niobium oxide. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer for 15 minutes to ensure uniformity. \n 4. Transfer the mixed powder to a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900°C (1652°F).",
+        "2. Place the crucible with the mixed powders in the furnace and heat for 4 hours to ensure complete reaction and formation of Ba6Fe1Nb2O12."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C (1652°F). \n 2. Place the crucible with the mixed powders in the furnace and heat for 4 hours to ensure complete reaction and formation of Ba6Fe1Nb2O12."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has fully cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has fully cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, grind the sample to a finer consistency using a mortar and pestle.",
+        "3. Optionally, apply a sealant or protective coating if the material will be exposed to environmental factors.",
+        "4. Sand the edges to achieve desired dimensions and finish (if applicable)."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, grind the sample to a finer consistency using a mortar and pestle. \n 3. Optionally, apply a sealant or protective coating if the material will be exposed to environmental factors. \n 4. Sand the edges to achieve desired dimensions and finish (if applicable)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 3537137.0,
+      "density": 5904.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1630017.0,
+      "formation_energy_per_atom": -30209.0,
+      "decomposition_energy_per_atom": -152.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -155.0,
+      "decomposition_energy_mp": -158.0,
+      "decomposition_energy_mp_oqmd": -155.0
+    },
+    "electronic": {
+      "bandgap": 1.838,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "95b67b1d77",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:32.532039Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba6Fe1Nb2O12.json",
+      "material://Ba6Fe1Nb2O12"
+    ]
+  }
+}

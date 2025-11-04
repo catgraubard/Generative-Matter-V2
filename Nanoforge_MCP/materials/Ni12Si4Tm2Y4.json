@@ -1,0 +1,131 @@
+{
+  "id": "Ni12Si4Tm2Y4",
+  "uri": "material://Ni12Si4Tm2Y4",
+  "composition": {
+    "formula": "Ni12Si4Tm2Y4",
+    "elements": {
+      "Ni": 12,
+      "Si": 4,
+      "Tm": 2,
+      "Y": 4
+    },
+    "reduced_formula": "Y2Tm(SiNi3)2",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Y",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 144.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 144 g  \n Si: 48 g  \n Tm: 18 g  \n Y: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Ni (Nickel): Purchase from a chemical supplier or metals retailer. \n Si (Silicon): Obtain from a chemical supplier specializing in semiconductors. \n Tm (Thulium): Available from specialized rare earth metal suppliers. \n Y (Yttrium): Source from a rare earth material supplier or chemical supplier.",
+      "steps": [
+        "Ni (Nickel): Purchase from a chemical supplier or metals retailer.",
+        "Si (Silicon): Obtain from a chemical supplier specializing in semiconductors.",
+        "Tm (Thulium): Available from specialized rare earth metal suppliers.",
+        "Y (Yttrium): Source from a rare earth material supplier or chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 144 g of Ni, 48 g of Si, 18 g of Tm, and 80 g of Y using a precision balance.",
+        "2. In a clean, dry container, combine the measured amounts of Ni, Si, Tm, and Y.",
+        "3. Mix the powders thoroughly using a mortar and pestle for at least 10 minutes to ensure a homogeneous mixture.",
+        "4. Transfer the mixed powder into a ball mill and mill for an additional 30 minutes to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Measure out 144 g of Ni, 48 g of Si, 18 g of Tm, and 80 g of Y using a precision balance. \n 2. In a clean, dry container, combine the measured amounts of Ni, Si, Tm, and Y. \n 3. Mix the powders thoroughly using a mortar and pestle for at least 10 minutes to ensure a homogeneous mixture. \n 4. Transfer the mixed powder into a ball mill and mill for an additional 30 minutes to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200 °C.",
+        "2. Place the milled powder mixture into a suitable crucible made of alumina.",
+        "3. Insert the crucible into the preheated furnace and allow it to sinter for 2 hours to facilitate bonding between the elements."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200 °C. \n 2. Place the milled powder mixture into a suitable crucible made of alumina. \n 3. Insert the crucible into the preheated furnace and allow it to sinter for 2 hours to facilitate bonding between the elements."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After sintering, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After sintering, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface. Allow the sealant to cure per manufacturer instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface. Allow the sealant to cure per manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3351133.0,
+      "density": 74831.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mmm",
+      "space_group_number": 139,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1404469.0,
+      "formation_energy_per_atom": -6621.0,
+      "decomposition_energy_per_atom": 0.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": 0.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 0.0004,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f1686c793d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.086362Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni12Si4Tm2Y4.json",
+      "material://Ni12Si4Tm2Y4"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Er3Li1Si8Tc6",
+  "uri": "material://Er3Li1Si8Tc6",
+  "composition": {
+    "formula": "Er3Li1Si8Tc6",
+    "elements": {
+      "Er": 3,
+      "Li": 1,
+      "Si": 8,
+      "Tc": 6
+    },
+    "reduced_formula": "LiEr3(Si4Tc3)2",
+    "element_list": [
+      "Li",
+      "Si",
+      "Tc",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.5 g, Se: 2.0 g, Si: 0.5 g, V: 0.6 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Specialty chemical suppliers; Se (Selenium): Chemical supply stores; Si (Silicon): Electronics components stores; V (Vanadium): Metal suppliers or chemical suppliers.",
+      "steps": [
+        "Cs (Cesium): Specialty chemical suppliers; Se (Selenium): Chemical supply stores; Si (Silicon): Electronics components stores; V (Vanadium): Metal suppliers or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean, dry glass container, combine 1.5 g of Cesium, 2.0 g of Selenium, 0.5 g of Silicon, and 0.6 g of Vanadium.",
+        "3. Mix thoroughly with a glass rod until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale.\n2. In a clean, dry glass container, combine 1.5 g of Cesium, 2.0 g of Selenium, 0.5 g of Silicon, and 0.6 g of Vanadium.\n3. Mix thoroughly with a glass rod until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a ceramic crucible.",
+        "2. Place the crucible in a furnace and set the temperature to 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixture into a ceramic crucible.\n2. Place the crucible in a furnace and set the temperature to 800°C.\n3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4-6 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool inside the furnace to room temperature (approximately 4-6 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the cooled crucible from the furnace.",
+        "2. Extract the solid sample from the crucible using a non-metallic spatula.",
+        "3. If necessary, sand the edges of the solid sample using fine-grit sandpaper to achieve desired dimensions and smoothness.",
+        "4. Seal the sample with a suitable polymer coating to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Carefully remove the cooled crucible from the furnace.\n2. Extract the solid sample from the crucible using a non-metallic spatula.\n3. If necessary, sand the edges of the solid sample using fine-grit sandpaper to achieve desired dimensions and smoothness.\n4. Seal the sample with a suitable polymer coating to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2815861.0,
+      "density": 77924.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1335363.0,
+      "formation_energy_per_atom": -6866.0,
+      "decomposition_energy_per_atom": -1284.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -296.0,
+      "decomposition_energy_mp": -149.0,
+      "decomposition_energy_mp_oqmd": -1252.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cdf865ea7a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.780226Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er3Li1Si8Tc6.json",
+      "material://Er3Li1Si8Tc6"
+    ]
+  }
+}

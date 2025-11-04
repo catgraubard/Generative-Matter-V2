@@ -1,0 +1,112 @@
+{
+  "id": "O8Pm2Se1Si1",
+  "uri": "material://O8Pm2Se1Si1",
+  "composition": {
+    "formula": "O8Pm2Se1Si1",
+    "elements": {
+      "O": 8,
+      "Pm": 2,
+      "Se": 1,
+      "Si": 1
+    },
+    "reduced_formula": "Pm2SiSeO8",
+    "element_list": [
+      "O",
+      "Si",
+      "Se",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 300.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 300 g, Pb: 1200 g, Pr: 2000 g, Zn: 100 g"
+    },
+    "sourcing": {
+      "instructions": "P: Purchase from a chemical supply store; Pb: Obtain from a metal supplier; Pr: Available from industrial chemical suppliers; Zn: Buy from hardware stores or metal suppliers.",
+      "steps": [
+        "P: Purchase from a chemical supply store; Pb: Obtain from a metal supplier; Pr: Available from industrial chemical suppliers; Zn: Buy from hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 300 g of P and 1200 g of Pb.",
+        "2. Weigh 2000 g of Pr and 100 g of Zn.",
+        "3. In a clean mixing container, combine P, Pb, Pr, and Zn.",
+        "4. Stir the mixture thoroughly until uniform."
+      ],
+      "raw_text": "1. Weigh out 300 g of P and 1200 g of Pb. \n 2. Weigh 2000 g of Pr and 100 g of Zn. \n 3. In a clean mixing container, combine P, Pb, Pr, and Zn. \n 4. Stir the mixture thoroughly until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 750,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible.",
+        "2. Heat in a furnace at 750°C for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible. \n 2. Heat in a furnace at 750°C for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Remove the crucible from the furnace carefully using heat-resistant gloves.",
+        "2. Allow the material to cool gradually at room temperature for 5 hours."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace carefully using heat-resistant gloves. \n 2. Allow the material to cool gradually at room temperature for 5 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish. \n 3. Optionally, apply a sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 168103.0,
+      "density": 51864.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -927171.0,
+      "formation_energy_per_atom": -28926.0,
+      "decomposition_energy_per_atom": -1787.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -106.0,
+      "decomposition_energy_mp": -1793.0,
+      "decomposition_energy_mp_oqmd": -1052.0
+    },
+    "electronic": {
+      "bandgap": 2.051,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c9cc16b43a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.829881Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O8Pm2Se1Si1.json",
+      "material://O8Pm2Se1Si1"
+    ]
+  }
+}

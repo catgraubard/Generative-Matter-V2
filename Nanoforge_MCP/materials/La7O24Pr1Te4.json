@@ -1,0 +1,122 @@
+{
+  "id": "La7O24Pr1Te4",
+  "uri": "material://La7O24Pr1Te4",
+  "composition": {
+    "formula": "La7O24Pr1Te4",
+    "elements": {
+      "La": 7,
+      "O": 24,
+      "Pr": 1,
+      "Te": 4
+    },
+    "reduced_formula": "La7Pr(TeO6)4",
+    "element_list": [
+      "O",
+      "Te",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Pr",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 15.00 g \n Pr: 5.00 g \n Te: 20.00 g \n O2: 9.00 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Pr: Rare earth metal suppliers (e.g., American Elements) \n Te: Chemical supply companies (e.g., Alfa Aesar) \n O2: Use laboratory-grade oxygen or generate via electrolysis",
+      "steps": [
+        "La2O3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Pr: Rare earth metal suppliers (e.g., American Elements)",
+        "Te: Chemical supply companies (e.g., Alfa Aesar)",
+        "O2: Use laboratory-grade oxygen or generate via electrolysis"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh La2O3, Pr, Te, and O2 using a precision balance.",
+        "2. In a clean, dry container, combine La2O3 and Pr thoroughly using a spatula.",
+        "3. Gradually add Te to the mixture, ensuring an even distribution.",
+        "4. Slowly incorporate O2, mixing continuously to achieve a uniform blend."
+      ],
+      "raw_text": "1. Weigh La2O3, Pr, Te, and O2 using a precision balance. \n 2. In a clean, dry container, combine La2O3 and Pr thoroughly using a spatula. \n 3. Gradually add Te to the mixture, ensuring an even distribution. \n 4. Slowly incorporate O2, mixing continuously to achieve a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat in a furnace to 800°C for 2 hours to promote reaction.",
+        "3. Increase temperature to 1000°C for an additional 1 hour for complete synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Heat in a furnace to 800°C for 2 hours to promote reaction. \n 3. Increase temperature to 1000°C for an additional 1 hour for complete synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature, taking approximately 4-6 hours.",
+        "2. Avoid rapid cooling to prevent cracking of the solid sample."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature, taking approximately 4-6 hours. \n 2. Avoid rapid cooling to prevent cracking of the solid sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid from the crucible.",
+        "2. Grind the solid using a mortar and pestle to achieve a fine powder (if required for further processing).",
+        "3. If a solid block is desired, press the powder into a mold with dimensions of 3 inches x 2 inches x 7 inches.",
+        "4. Cure under ambient conditions for 24 hours before sealing or sanding the edges for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid from the crucible. \n 2. Grind the solid using a mortar and pestle to achieve a fine powder (if required for further processing). \n 3. If a solid block is desired, press the powder into a mold with dimensions of 3 inches x 2 inches x 7 inches. \n 4. Cure under ambient conditions for 24 hours before sealing or sanding the edges for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5561377.0,
+      "density": 59945.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2784902.0,
+      "formation_energy_per_atom": -29954.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -9.0,
+      "decomposition_energy_mp_oqmd": -9.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "736807435f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.440491Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La7O24Pr1Te4.json",
+      "material://La7O24Pr1Te4"
+    ]
+  }
+}

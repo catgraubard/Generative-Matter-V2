@@ -1,0 +1,112 @@
+{
+  "id": "Co2Fe1Mg1O24W8",
+  "uri": "material://Co2Fe1Mg1O24W8",
+  "composition": {
+    "formula": "Co2Fe1Mg1O24W8",
+    "elements": {
+      "Co": 2,
+      "Fe": 1,
+      "Mg": 1,
+      "O": 24,
+      "W": 8
+    },
+    "reduced_formula": "MgFeCo2(WO3)8",
+    "element_list": [
+      "O",
+      "Mg",
+      "Fe",
+      "Co",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CoO: 6.00 g \n Fe2O3: 12.00 g \n MgO: 7.00 g \n WO3: 32.00 g"
+    },
+    "sourcing": {
+      "instructions": "CoO: Chemical supply company (e.g., Sigma-Aldrich) \n Fe2O3: Local chemical supplier or online store \n MgO: Pharmaceutical supply store \n WO3: Online chemical vendor",
+      "steps": [
+        "CoO: Chemical supply company (e.g., Sigma-Aldrich)",
+        "Fe2O3: Local chemical supplier or online store",
+        "MgO: Pharmaceutical supply store",
+        "WO3: Online chemical vendor"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient to the specified grams.",
+        "2. In a clean, dry container, combine CoO, Fe2O3, MgO, and WO3.",
+        "3. Mix thoroughly using a mortar and pestle or mechanical mixer until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient to the specified grams. \n 2. In a clean, dry container, combine CoO, Fe2O3, MgO, and WO3. \n 3. Mix thoroughly using a mortar and pestle or mechanical mixer until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200°C (2192°F) for 4 hours.",
+        "3. Ensure the heating ramp is gradual to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace to 1200°C (2192°F) for 4 hours. \n 3. Ensure the heating ramp is gradual to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Gradually cool the crucible to room temperature by turning off the furnace and allowing it to cool naturally.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Gradually cool the crucible to room temperature by turning off the furnace and allowing it to cool naturally. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample to a finer consistency using a mortar and pestle.",
+        "3. Seal the sample with a clear acrylic sealant to enhance durability.",
+        "4. Optionally, sand the edges to achieve desired finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, grind the sample to a finer consistency using a mortar and pestle. \n 3. Seal the sample with a clear acrylic sealant to enhance durability. \n 4. Optionally, sand the edges to achieve desired finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4255584.0,
+      "density": 80098.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3228239.0,
+      "formation_energy_per_atom": -21145.0,
+      "decomposition_energy_per_atom": -294.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -297.0,
+      "decomposition_energy_mp_oqmd": -168.0
+    },
+    "electronic": {
+      "bandgap": 1.7498,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fc3552aae2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.876344Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe1Mg1O24W8.json",
+      "material://Co2Fe1Mg1O24W8"
+    ]
+  }
+}

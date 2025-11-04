@@ -1,0 +1,108 @@
+{
+  "id": "As12Ti14V2",
+  "uri": "material://As12Ti14V2",
+  "composition": {
+    "formula": "As12Ti14V2",
+    "elements": {
+      "As": 12,
+      "Ti": 14,
+      "V": 2
+    },
+    "reduced_formula": "Ti7VAs6",
+    "element_list": [
+      "Ti",
+      "V",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cerium (Ce): 20 g \n - Nickel (Ni): 20 g \n - Antimony (Sb): 60 g \n - Zirconium (Zr): 80 g"
+    },
+    "sourcing": {
+      "instructions": "- Cerium: Available from chemical supply companies or online retailers (e.g., Sigma-Aldrich). \n - Nickel: Obtain from metal suppliers or online marketplaces (e.g., Amazon). \n - Antimony: Purchase from specialized chemical suppliers. \n - Zirconium: Available from metal suppliers or online chemical distributors.",
+      "steps": [
+        "- Cerium: Available from chemical supply companies or online retailers (e.g., Sigma-Aldrich).",
+        "- Nickel: Obtain from metal suppliers or online marketplaces (e.g., Amazon).",
+        "- Antimony: Purchase from specialized chemical suppliers.",
+        "- Zirconium: Available from metal suppliers or online chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of cerium, 20 g of nickel, 60 g of antimony, and 80 g of zirconium using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed materials thoroughly.",
+        "3. Use a mortar and pestle to grind the mixture for 10 minutes to ensure a homogenous blend.",
+        "4. Transfer the mixed powder to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out 20 g of cerium, 20 g of nickel, 60 g of antimony, and 80 g of zirconium using a precision scale. \n 2. In a clean, dry mixing bowl, combine the weighed materials thoroughly. \n 3. Use a mortar and pestle to grind the mixture for 10 minutes to ensure a homogenous blend. \n 4. Transfer the mixed powder to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible in the furnace and maintain this temperature for 4 hours to facilitate the formation of Ce2Ni2Sb6Zr8."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the crucible in the furnace and maintain this temperature for 4 hours to facilitate the formation of Ce2Ni2Sb6Zr8."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature (approximately 25°C) naturally for about 6 hours.",
+        "2. Do not open the furnace until it has completely cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature (approximately 25°C) naturally for about 6 hours. \n 2. Do not open the furnace until it has completely cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the crucible from the furnace once cooled.",
+        "2. Using a diamond saw, cut the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with fine-grit sandpaper to smooth any rough surfaces.",
+        "4. Optionally, apply a sealant for protection against oxidation if the material will be exposed to air."
+      ],
+      "raw_text": "1. Carefully remove the crucible from the furnace once cooled. \n 2. Using a diamond saw, cut the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with fine-grit sandpaper to smooth any rough surfaces. \n 4. Optionally, apply a sealant for protection against oxidation if the material will be exposed to air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4675029.0,
+      "density": 59356.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2096784.0,
+      "formation_energy_per_atom": -8952.0,
+      "decomposition_energy_per_atom": -351.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -43.0,
+      "decomposition_energy_mp": -351.0,
+      "decomposition_energy_mp_oqmd": -185.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b97da11c6e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.189230Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Ti14V2.json",
+      "material://As12Ti14V2"
+    ]
+  }
+}

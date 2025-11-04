@@ -1,0 +1,111 @@
+{
+  "id": "B12Er1Na1",
+  "uri": "material://B12Er1Na1",
+  "composition": {
+    "formula": "B12Er1Na1",
+    "elements": {
+      "B": 12,
+      "Er": 1,
+      "Na": 1
+    },
+    "reduced_formula": "NaErB12",
+    "element_list": [
+      "B",
+      "Na",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Arsenic (As): 0.5 g \n - Barium (Ba): 1.0 g \n - Chromium (Cr): 0.1 g \n - Rubidium (Rb): 20.0 g \n - Titanium (Ti): 0.5 g \n - Binder (e.g. epoxy resin): 50.0 g \n - Filler (e.g. silica): 200.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Arsenic: Obtain from chemical supply stores or online chemical suppliers. \n - Barium: Available at specialty chemical suppliers or online. \n - Chromium: Purchase from chemical supply companies. \n - Rubidium: Obtain from specialized chemical suppliers. \n - Titanium: Available from metal suppliers or chemical vendors. \n - Binder: Local hardware stores or online suppliers. \n - Filler: Available from building supply stores or online.",
+      "steps": [
+        "- Arsenic: Obtain from chemical supply stores or online chemical suppliers.",
+        "- Barium: Available at specialty chemical suppliers or online.",
+        "- Chromium: Purchase from chemical supply companies.",
+        "- Rubidium: Obtain from specialized chemical suppliers.",
+        "- Titanium: Available from metal suppliers or chemical vendors.",
+        "- Binder: Local hardware stores or online suppliers.",
+        "- Filler: Available from building supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision balance.",
+        "2. In a clean, dry mixing bowl, first combine the filler (silica) with the binder (epoxy resin) and mix thoroughly until uniform.",
+        "3. Gradually add the powdered metals (As, Ba, Cr, Rb, Ti) to the binder-filler mixture while continuously stirring.",
+        "4. Ensure the mixture is homogenous with no lumps."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision balance. \n 2. In a clean, dry mixing bowl, first combine the filler (silica) with the binder (epoxy resin) and mix thoroughly until uniform. \n 3. Gradually add the powdered metals (As, Ba, Cr, Rb, Ti) to the binder-filler mixture while continuously stirring. \n 4. Ensure the mixture is homogenous with no lumps."
+    },
+    "heating": {
+      "temperature_celsius": 500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 500°C.",
+        "2. Once the mixture is well combined, transfer it to a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to facilitate proper binding and material formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 500°C. \n 2. Once the mixture is well combined, transfer it to a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to facilitate proper binding and material formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool inside the furnace to ambient temperature (approximately 1-2 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool inside the furnace to ambient temperature (approximately 1-2 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth out the surfaces of the sample.",
+        "3. Optionally, apply a sealing coat (e.g. a clear epoxy) to enhance surface durability. Allow the sealant to cure according to the manufacturer's instructions for at least 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth out the surfaces of the sample. \n 3. Optionally, apply a sealing coat (e.g. a clear epoxy) to enhance surface durability. Allow the sealant to cure according to the manufacturer's instructions for at least 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 1402552.0,
+      "density": 37884.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -898409.0,
+      "formation_energy_per_atom": -2713.0,
+      "decomposition_energy_per_atom": -249.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -224.0,
+      "decomposition_energy_mp": -249.0,
+      "decomposition_energy_mp_oqmd": -242.0
+    },
+    "electronic": {
+      "bandgap": 0.0186,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d2936d1838",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.003046Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B12Er1Na1.json",
+      "material://B12Er1Na1"
+    ]
+  }
+}

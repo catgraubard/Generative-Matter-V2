@@ -1,0 +1,129 @@
+{
+  "id": "Cs1Ga12In2Rb1",
+  "uri": "material://Cs1Ga12In2Rb1",
+  "composition": {
+    "formula": "Cs1Ga12In2Rb1",
+    "elements": {
+      "Cs": 1,
+      "Ga": 12,
+      "In": 2,
+      "Rb": 1
+    },
+    "reduced_formula": "CsRb(InGa6)2",
+    "element_list": [
+      "Ga",
+      "Rb",
+      "In",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g \n Ga: 12.0 g \n In: 2.0 g \n Rb: 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs can be sourced from chemical supply companies like Sigma-Aldrich. \n Ga, In, and Rb can be obtained from specialty metal suppliers or online chemistry retailers.",
+      "steps": [
+        "Cs can be sourced from chemical supply companies like Sigma-Aldrich.",
+        "Ga, In, and Rb can be obtained from specialty metal suppliers or online chemistry retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 0.5 g of Cs, 12.0 g of Ga, 2.0 g of In, and 1.0 g of Rb using a digital scale.",
+        "2. In a clean, dry container, combine all measured ingredients.",
+        "3. Mix thoroughly using a spatula or a magnetic stirrer for 5 minutes until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Measure out 0.5 g of Cs, 12.0 g of Ga, 2.0 g of In, and 1.0 g of Rb using a digital scale.\n 2. In a clean, dry container, combine all measured ingredients. \n 3. Mix thoroughly using a spatula or a magnetic stirrer for 5 minutes until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixed material into a high-temperature furnace.",
+        "2. Set the furnace to 800°C.",
+        "3. Allow the material to heat for 2 hours to ensure complete melting and reaction of components."
+      ],
+      "raw_text": "1. Place the mixed material into a high-temperature furnace.\n 2. Set the furnace to 800°C.\n 3. Allow the material to heat for 2 hours to ensure complete melting and reaction of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down slowly to room temperature (approximately 25°C).",
+        "2. This process should take about 4-6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down slowly to room temperature (approximately 25°C). \n 2. This process should take about 4-6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the material with a clear epoxy coating for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace.\n 2. Inspect for any surface irregularities.\n 3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the material with a clear epoxy coating for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4127725.0,
+      "density": 51682.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -455872.0,
+      "formation_energy_per_atom": -1169.0,
+      "decomposition_energy_per_atom": -159.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -24.0,
+      "decomposition_energy_mp": -159.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 0.0043,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "482f186702",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:50.395479Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Ga12In2Rb1.json",
+      "material://Cs1Ga12In2Rb1"
+    ]
+  }
+}

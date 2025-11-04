@@ -1,0 +1,136 @@
+{
+  "id": "Co1Nb2Ni15P12Tb6",
+  "uri": "material://Co1Nb2Ni15P12Tb6",
+  "composition": {
+    "formula": "Co1Nb2Ni15P12Tb6",
+    "elements": {
+      "Co": 1,
+      "Nb": 2,
+      "Ni": 15,
+      "P": 12,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb6Nb2Co(Ni5P4)3",
+    "element_list": [
+      "P",
+      "Co",
+      "Ni",
+      "Nb",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g\nNb: 20 g\nNi: 75 g\nP: 60 g\nTb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online chemical vendors\nNb: Specialty metal suppliers\nNi: General metal suppliers\nP: Chemical supply stores\nTb: Rare earth suppliers or online vendors",
+      "steps": [
+        "Co: Metal suppliers or online chemical vendors",
+        "Nb: Specialty metal suppliers",
+        "Ni: General metal suppliers",
+        "P: Chemical supply stores",
+        "Tb: Rare earth suppliers or online vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean and dry environment, combine Co, Nb, Ni, P, and Tb in a mixing container.",
+        "3. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale.\n2. In a clean and dry environment, combine Co, Nb, Ni, P, and Tb in a mixing container.\n3. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Heat in a furnace to 1200°C for 4 hours to promote alloying. Ensure the heating rate is gradual, approximately 5°C per minute."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible.\n2. Heat in a furnace to 1200°C for 4 hours to promote alloying. Ensure the heating rate is gradual, approximately 5°C per minute."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the sample to cool slowly within the furnace for 6 hours to room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the sample to cool slowly within the furnace for 6 hours to room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the sample from the crucible.",
+        "2. Sand the edges and surface to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. After cooling, remove the sample from the crucible.\n2. Sand the edges and surface to achieve a smooth finish.\n3. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5104445.0,
+      "density": 79714.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2431166.0,
+      "formation_energy_per_atom": -10094.0,
+      "decomposition_energy_per_atom": -417.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -417.0,
+      "decomposition_energy_mp_oqmd": -415.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0f86359f06",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:36.030327Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Nb2Ni15P12Tb6.json",
+      "material://Co1Nb2Ni15P12Tb6"
+    ]
+  }
+}

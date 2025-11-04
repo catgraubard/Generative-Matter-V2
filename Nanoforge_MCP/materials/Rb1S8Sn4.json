@@ -1,0 +1,113 @@
+{
+  "id": "Rb1S8Sn4",
+  "uri": "material://Rb1S8Sn4",
+  "composition": {
+    "formula": "Rb1S8Sn4",
+    "elements": {
+      "Rb": 1,
+      "S": 8,
+      "Sn": 4
+    },
+    "reduced_formula": "Rb(SnS2)4",
+    "element_list": [
+      "S",
+      "Rb",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 4.0 g, S: 32.0 g, Sn: 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Obtain from a chemical supplier or online store specializing in rare earth metals. \n S: Purchase elemental sulfur from a chemical supply store. \n Sn: Get tin from a metal supply store or online vendor.",
+      "steps": [
+        "Rb: Obtain from a chemical supplier or online store specializing in rare earth metals.",
+        "S: Purchase elemental sulfur from a chemical supply store.",
+        "Sn: Get tin from a metal supply store or online vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 4.0 g of Rb using an analytical balance.",
+        "2. Weigh 32.0 g of S using the same balance.",
+        "3. Weigh 16.0 g of Sn.",
+        "4. In a clean, dry mortar and pestle, grind Rb and S together until a uniform powder is achieved.",
+        "5. Add Sn powder to the mixture and continue grinding until all three components are homogeneously mixed."
+      ],
+      "raw_text": "1. Weigh out 4.0 g of Rb using an analytical balance. \n 2. Weigh 32.0 g of S using the same balance. \n 3. Weigh 16.0 g of Sn. \n 4. In a clean, dry mortar and pestle, grind Rb and S together until a uniform powder is achieved. \n 5. Add Sn powder to the mixture and continue grinding until all three components are homogeneously mixed."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 3,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace at 600°C for 3 hours to allow for proper reaction and formation of Rb1S8Sn4."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace at 600°C for 3 hours to allow for proper reaction and formation of Rb1S8Sn4."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Open the furnace only after it has cooled to avoid thermal shock to the crucible."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours). \n 2. Open the furnace only after it has cooled to avoid thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. If necessary, use a diamond file to smooth out rough edges and achieve desired dimensions.",
+        "3. Optionally, seal the surface with a clear coat for protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. If necessary, use a diamond file to smooth out rough edges and achieve desired dimensions. \n 3. Optionally, seal the surface with a clear coat for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 4137466.0,
+      "density": 32783.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -608981.0,
+      "formation_energy_per_atom": -8298.0,
+      "decomposition_energy_per_atom": -68.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -74.0,
+      "decomposition_energy_mp_oqmd": -74.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f013484965",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.755602Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb1S8Sn4.json",
+      "material://Rb1S8Sn4"
+    ]
+  }
+}

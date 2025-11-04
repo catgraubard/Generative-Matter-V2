@@ -1,0 +1,112 @@
+{
+  "id": "Co2P1Zn21Zr6",
+  "uri": "material://Co2P1Zn21Zr6",
+  "composition": {
+    "formula": "Co2P1Zn21Zr6",
+    "elements": {
+      "Co": 2,
+      "P": 1,
+      "Zn": 21,
+      "Zr": 6
+    },
+    "reduced_formula": "Zr6Zn21Co2P",
+    "element_list": [
+      "P",
+      "Co",
+      "Zn",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ba (Barium): 40 g \n Cs (Cesium): 15 g \n Rb (Rubidium): 15 g \n Se (Selenium): 80 g \n V (Vanadium): 10 g \n Total: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Ba: Chemical supply companies (e.g., Sigma-Aldrich) \n Cs: Chemical supply companies (e.g., Alfa Aesar) \n Rb: Chemical supply companies (e.g., Thermo Fisher Scientific) \n Se: Chemical supply companies (e.g., Strem Chemicals) \n V: Chemical supply companies (e.g., Acros Organics)",
+      "steps": [
+        "Ba: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Cs: Chemical supply companies (e.g., Alfa Aesar)",
+        "Rb: Chemical supply companies (e.g., Thermo Fisher Scientific)",
+        "Se: Chemical supply companies (e.g., Strem Chemicals)",
+        "V: Chemical supply companies (e.g., Acros Organics)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately to the specified amounts using a digital scale.",
+        "2. In a clean, dry mixing container, combine Ba, Cs, Rb, Se, and V.",
+        "3. Use a mortar and pestle to finely grind the mixture until it is homogeneous (approximately 10-15 minutes).",
+        "4. Transfer the mixture into a clean crucible for heating."
+      ],
+      "raw_text": "1. Weigh all materials accurately to the specified amounts using a digital scale. \n 2. In a clean, dry mixing container, combine Ba, Cs, Rb, Se, and V. \n 3. Use a mortar and pestle to finely grind the mixture until it is homogeneous (approximately 10-15 minutes). \n 4. Transfer the mixture into a clean crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900 °C (1652 °F).",
+        "2. Place the crucible containing the mixture into the furnace.",
+        "3. Heat the mixture for 4 hours, ensuring the temperature remains constant."
+      ],
+      "raw_text": "1. Preheat a furnace to 900 °C (1652 °F). \n 2. Place the crucible containing the mixture into the furnace. \n 3. Heat the mixture for 4 hours, ensuring the temperature remains constant."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace gradually to room temperature (approximately 6-8 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace gradually to room temperature (approximately 6-8 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any uneven surfaces or imperfections.",
+        "3. If necessary, use sandpaper (grit 220) to smooth out the surfaces.",
+        "4. Optionally, seal the material with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any uneven surfaces or imperfections. \n 3. If necessary, use sandpaper (grit 220) to smooth out the surfaces. \n 4. Optionally, seal the material with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4703478.0,
+      "density": 73072.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -108068.0,
+      "formation_energy_per_atom": -3566.0,
+      "decomposition_energy_per_atom": -147.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -128.0,
+      "decomposition_energy_mp": -147.0,
+      "decomposition_energy_mp_oqmd": -143.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "daa379f073",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.191016Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2P1Zn21Zr6.json",
+      "material://Co2P1Zn21Zr6"
+    ]
+  }
+}

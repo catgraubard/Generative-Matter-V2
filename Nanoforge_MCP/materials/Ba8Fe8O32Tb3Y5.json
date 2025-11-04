@@ -1,0 +1,114 @@
+{
+  "id": "Ba8Fe8O32Tb3Y5",
+  "uri": "material://Ba8Fe8O32Tb3Y5",
+  "composition": {
+    "formula": "Ba8Fe8O32Tb3Y5",
+    "elements": {
+      "Ba": 8,
+      "Fe": 8,
+      "O": 32,
+      "Tb": 3,
+      "Y": 5
+    },
+    "reduced_formula": "Ba8Tb3Y5(FeO4)8",
+    "element_list": [
+      "O",
+      "Fe",
+      "Y",
+      "Ba",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Oxide (BaO): 156.24 g \n Strontium Carbonate (SrCO3): 107.63 g \n Technetium(IV) Oxide (TcO2): 50.00 g \n Oxygen (O2): 1.92 g (calculated from stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "Barium Oxide: Chemical supply companies or specialty materials suppliers. \n Strontium Carbonate: Chemical supply companies or online marketplaces. \n Technetium(IV) Oxide: Specialty nuclear material suppliers (ensure proper licensing). \n Oxygen: Laboratory gas suppliers.",
+      "steps": [
+        "Barium Oxide: Chemical supply companies or specialty materials suppliers.",
+        "Strontium Carbonate: Chemical supply companies or online marketplaces.",
+        "Technetium(IV) Oxide: Specialty nuclear material suppliers (ensure proper licensing).",
+        "Oxygen: Laboratory gas suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine BaO, SrCO3, and TcO2.",
+        "3. Mix the dry ingredients thoroughly using a spatula or mechanical mixer until a homogenous mixture is achieved.",
+        "4. Gradually add the calculated amount of O2 in a controlled environment to avoid excessive reaction."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine BaO, SrCO3, and TcO2. \n 3. Mix the dry ingredients thoroughly using a spatula or mechanical mixer until a homogenous mixture is achieved. \n 4. Gradually add the calculated amount of O2 in a controlled environment to avoid excessive reaction."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat in a furnace to 800°C (1472°F) for 4 hours to ensure complete reaction and formation of the compound.",
+        "3. Use a ramp rate of 10°C/min for heating."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat in a furnace to 800°C (1472°F) for 4 hours to ensure complete reaction and formation of the compound. \n 3. Use a ramp rate of 10°C/min for heating."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a period of 6 hours.",
+        "2. Do not open the furnace until fully cooled to prevent oxidation or contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a period of 6 hours. \n 2. Do not open the furnace until fully cooled to prevent oxidation or contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. Use fine-grit sandpaper to smooth out any rough edges or surfaces.",
+        "4. Optionally, coat the sample with a sealing agent suitable for the material to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Inspect the sample for any surface irregularities. \n 3. Use fine-grit sandpaper to smooth out any rough edges or surfaces. \n 4. Optionally, coat the sample with a sealing agent suitable for the material to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 56,
+      "volume": 8006823.0,
+      "density": 61775.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -451199.0,
+      "formation_energy_per_atom": -29199.0,
+      "decomposition_energy_per_atom": -57.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc62bca2bf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.848981Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba8Fe8O32Tb3Y5.json",
+      "material://Ba8Fe8O32Tb3Y5"
+    ]
+  }
+}

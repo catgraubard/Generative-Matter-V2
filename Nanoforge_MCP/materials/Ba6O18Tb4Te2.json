@@ -1,0 +1,138 @@
+{
+  "id": "Ba6O18Tb4Te2",
+  "uri": "material://Ba6O18Tb4Te2",
+  "composition": {
+    "formula": "Ba6O18Tb4Te2",
+    "elements": {
+      "Ba": 6,
+      "O": 18,
+      "Tb": 4,
+      "Te": 2
+    },
+    "reduced_formula": "Ba3Tb2TeO9",
+    "element_list": [
+      "O",
+      "Te",
+      "Ba",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cs",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 6.0 g \n Cs: 18.0 g \n Nd: 12.0 g \n Se: 64.0 g \n Si: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ce (Cerium Oxide) from chemical suppliers like Sigma-Aldrich or local chemical distributors. \n Cs (Cesium Carbonate) from chemical suppliers like Alfa Aesar. \n Nd (Neodymium Oxide) from rare earth material suppliers. \n Se (Selenium Powder) from chemical suppliers. \n Si (Silicon Powder) from semiconductor material suppliers.",
+      "steps": [
+        "Ce (Cerium Oxide) from chemical suppliers like Sigma-Aldrich or local chemical distributors.",
+        "Cs (Cesium Carbonate) from chemical suppliers like Alfa Aesar.",
+        "Nd (Neodymium Oxide) from rare earth material suppliers.",
+        "Se (Selenium Powder) from chemical suppliers.",
+        "Si (Silicon Powder) from semiconductor material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 6.0 g of Ce, 18.0 g of Cs, 12.0 g of Nd, 64.0 g of Se, and 32.0 g of Si accurately on a precision scale.",
+        "2. In a clean, dry container, combine all measured ingredients.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly to ensure uniformity.",
+        "4. Transfer the ground mixture to a ceramic crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out 6.0 g of Ce, 18.0 g of Cs, 12.0 g of Nd, 64.0 g of Se, and 32.0 g of Si accurately on a precision scale. \n 2. In a clean, dry container, combine all measured ingredients. \n 3. Use a mortar and pestle to grind the mixture thoroughly to ensure uniformity. \n 4. Transfer the ground mixture to a ceramic crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 6,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 1,200°C at a rate of 10°C per minute.",
+        "3. Maintain the temperature for 6 hours to allow for proper sintering of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 1,200°C at a rate of 10°C per minute. \n 3. Maintain the temperature for 6 hours to allow for proper sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 800°C naturally.",
+        "2. Once at 800°C, open the furnace and let the crucible cool to room temperature over a period of 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 800°C naturally. \n 2. Once at 800°C, open the furnace and let the crucible cool to room temperature over a period of 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible carefully.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use sandpaper (grit 120 to 400) to smooth out the surface.",
+        "4. Optionally, coat the sample with a clear sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible carefully. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use sandpaper (grit 120 to 400) to smooth out the surface. \n 4. Optionally, coat the sample with a clear sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4846354.0,
+      "density": 68625.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3c1",
+      "space_group_number": 165,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2186914.0,
+      "formation_energy_per_atom": -31097.0,
+      "decomposition_energy_per_atom": -965.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -168.0,
+      "decomposition_energy_mp": -971.0,
+      "decomposition_energy_mp_oqmd": -168.0
+    },
+    "electronic": {
+      "bandgap": 3.0277,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c25529afe5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.866784Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba6O18Tb4Te2.json",
+      "material://Ba6O18Tb4Te2"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "id": "Si15Sn1Zr20",
+  "uri": "material://Si15Sn1Zr20",
+  "composition": {
+    "formula": "Si15Sn1Zr20",
+    "elements": {
+      "Si": 15,
+      "Sn": 1,
+      "Zr": 20
+    },
+    "reduced_formula": "Zr20Si15Sn",
+    "element_list": [
+      "Si",
+      "Zr",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 219.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 73.5,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 6.9,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 168.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 219.0 g \n Er: 73.5 g \n Li: 6.9 g \n Tm: 168.0 g \n O: 32.0 g (calculated using molecular weights and stoichiometry for the desired volume)"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online metal retailers \n Er: Specialty chemical suppliers or online marketplaces \n Li: Chemical supply companies \n Tm: Specialty metal suppliers \n O: Chemical supply companies",
+      "steps": [
+        "Cu: Local metal supplier or online metal retailers",
+        "Er: Specialty chemical suppliers or online marketplaces",
+        "Li: Chemical supply companies",
+        "Tm: Specialty metal suppliers",
+        "O: Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 219.0 g of Cu, 73.5 g of Er, 6.9 g of Li, 168.0 g of Tm, and 32.0 g of O using a precision scale.",
+        "2. In a ceramic or glass container, combine the weighed materials thoroughly.",
+        "3. Use a pestle and mortar or ball mill to ensure even mixing of the powders."
+      ],
+      "raw_text": "1. Weigh out 219.0 g of Cu, 73.5 g of Er, 6.9 g of Li, 168.0 g of Tm, and 32.0 g of O using a precision scale. \n 2. In a ceramic or glass container, combine the weighed materials thoroughly. \n 3. Use a pestle and mortar or ball mill to ensure even mixing of the powders."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the mixed powder to a crucible and place it inside the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Transfer the mixed powder to a crucible and place it inside the furnace. \n 3. Heat for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C).",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C). \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120-400) to smooth the surfaces and achieve the desired finish.",
+        "3. Optionally, seal the sample with a clear coat for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120-400) to smooth the surfaces and achieve the desired finish. \n 3. Optionally, seal the sample with a clear coat for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6812877.0,
+      "density": 57631.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2874552.0,
+      "formation_energy_per_atom": -8642.0,
+      "decomposition_energy_per_atom": -41.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -32.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": 0.0046,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e181446f9d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.088042Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si15Sn1Zr20.json",
+      "material://Si15Sn1Zr20"
+    ]
+  }
+}

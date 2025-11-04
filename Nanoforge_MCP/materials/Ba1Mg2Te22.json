@@ -1,0 +1,114 @@
+{
+  "id": "Ba1Mg2Te22",
+  "uri": "material://Ba1Mg2Te22",
+  "composition": {
+    "formula": "Ba1Mg2Te22",
+    "elements": {
+      "Ba": 1,
+      "Mg": 2,
+      "Te": 22
+    },
+    "reduced_formula": "Ba(MgTe11)2",
+    "element_list": [
+      "Mg",
+      "Te",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 20 g, Mg: 10 g, Te: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium): Specialty chemical suppliers or online chemical retailers. \n Mg (Magnesium): Metal suppliers or online chemical retailers. \n Te (Tellurium): Specialty chemical suppliers.",
+      "steps": [
+        "Ba (Barium): Specialty chemical suppliers or online chemical retailers.",
+        "Mg (Magnesium): Metal suppliers or online chemical retailers.",
+        "Te (Tellurium): Specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, measure out 20 g of Ba, 10 g of Mg, and 80 g of Te.",
+        "2. Using a mortar and pestle, grind the Ba and Mg together until a fine powder is achieved.",
+        "3. Gradually add the Te to the Ba-Mg mixture, ensuring even distribution by grinding continuously for 15 minutes.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. In a clean, dry environment, measure out 20 g of Ba, 10 g of Mg, and 80 g of Te. \n 2. Using a mortar and pestle, grind the Ba and Mg together until a fine powder is achieved. \n 3. Gradually add the Te to the Ba-Mg mixture, ensuring even distribution by grinding continuously for 15 minutes. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800 °C.",
+        "2. Place the ceramic crucible with the mixed powders into the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Ba1Mg2Te22."
+      ],
+      "raw_text": "1. Preheat the furnace to 800 °C. \n 2. Place the ceramic crucible with the mixed powders into the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Ba1Mg2Te22."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure that the crucible is not disturbed during cooling."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Ensure that the crucible is not disturbed during cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid material from the crucible using appropriate safety equipment.",
+        "2. Inspect the solid sample for uniformity and structural integrity.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surfaces of the solid sample.",
+        "4. Optionally, seal the surface with a clear protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid material from the crucible using appropriate safety equipment. \n 2. Inspect the solid sample for uniformity and structural integrity. \n 3. If necessary, use fine-grit sandpaper to smooth the surfaces of the solid sample. \n 4. Optionally, seal the surface with a clear protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 25,
+      "volume": 9285625.0,
+      "density": 53526.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -875583.0,
+      "formation_energy_per_atom": -5314.0,
+      "decomposition_energy_per_atom": -1335.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -757.0,
+      "decomposition_energy_mp": -1329.0,
+      "decomposition_energy_mp_oqmd": -1329.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "69732c9a48",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:33.564094Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Mg2Te22.json",
+      "material://Ba1Mg2Te22"
+    ]
+  }
+}

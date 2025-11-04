@@ -1,0 +1,132 @@
+{
+  "id": "As8Li4Mn4Na8",
+  "uri": "material://As8Li4Mn4Na8",
+  "composition": {
+    "formula": "As8Li4Mn4Na8",
+    "elements": {
+      "As": 8,
+      "Li": 4,
+      "Mn": 4,
+      "Na": 8
+    },
+    "reduced_formula": "Na2LiMnAs2",
+    "element_list": [
+      "Li",
+      "Na",
+      "Mn",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 24 g\nLi: 10 g\nMn: 12 g\nNa: 6 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier specializing in specialty metals.\nLi: Obtain from battery supply stores or specialized chemical suppliers.\nMn: Available from chemical supply companies or metal suppliers.\nNa: Acquire from chemical supply stores or online chemical suppliers.",
+      "steps": [
+        "As: Purchase from a chemical supplier specializing in specialty metals.",
+        "Li: Obtain from battery supply stores or specialized chemical suppliers.",
+        "Mn: Available from chemical supply companies or metal suppliers.",
+        "Na: Acquire from chemical supply stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear, including gloves and goggles.",
+        "2. In a clean, dry mixing bowl, combine 24 g of As, 10 g of Li, 12 g of Mn, and 6 g of Na.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixture into a pre-cleaned crucible for heating."
+      ],
+      "raw_text": "1. Wear appropriate safety gear, including gloves and goggles.\n2. In a clean, dry mixing bowl, combine 24 g of As, 10 g of Li, 12 g of Mn, and 6 g of Na.\n3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure homogeneity.\n4. Transfer the mixture into a pre-cleaned crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Gradually increase the temperature to 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace.\n2. Gradually increase the temperature to 800°C.\n3. Maintain this temperature for 2 hours to ensure complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down slowly to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the solidified material from the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down slowly to room temperature (approximately 2-3 hours).\n2. Once cooled, carefully remove the solidified material from the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Use a diamond file to smooth out any rough edges on the solid sample.",
+        "2. Rinse the sample with distilled water to remove any surface residues.",
+        "3. Allow the sample to air dry completely for 24 hours.",
+        "4. Optionally, coat the surface with a sealant to enhance stability and prevent oxidation."
+      ],
+      "raw_text": "1. Use a diamond file to smooth out any rough edges on the solid sample.\n2. Rinse the sample with distilled water to remove any surface residues.\n3. Allow the sample to air dry completely for 24 hours.\n4. Optionally, coat the surface with a sealant to enhance stability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4992845.0,
+      "density": 34283.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmce",
+      "space_group_number": 64,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1031892.0,
+      "formation_energy_per_atom": -4605.0,
+      "decomposition_energy_per_atom": -281.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -166.0,
+      "decomposition_energy_mp": -281.0,
+      "decomposition_energy_mp_oqmd": -255.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "044c701137",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:20.576142Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As8Li4Mn4Na8.json",
+      "material://As8Li4Mn4Na8"
+    ]
+  }
+}

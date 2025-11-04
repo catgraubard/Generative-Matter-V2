@@ -1,0 +1,139 @@
+{
+  "id": "Cs4Ge1Sb4Se16Si3",
+  "uri": "material://Cs4Ge1Sb4Se16Si3",
+  "composition": {
+    "formula": "Cs4Ge1Sb4Se16Si3",
+    "elements": {
+      "Cs": 4,
+      "Ge": 1,
+      "Sb": 4,
+      "Se": 16,
+      "Si": 3
+    },
+    "reduced_formula": "Cs4Si3Ge(SbSe4)4",
+    "element_list": [
+      "Si",
+      "Ge",
+      "Se",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 163.6,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 40.8,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 137.2,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 176.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 54.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs:  163.6 g  \n Ge:  40.8 g  \n Sb:  137.2 g  \n Se:  176.0 g  \n Si:  54.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier (e.g., Alfa Aesar, Sigma-Aldrich).  \n Ge: Obtain from semiconductor material suppliers.  \n Sb: Buy from metal suppliers.  \n Se: Find through chemical suppliers or specialty metal suppliers.  \n Si: Acquire from electronics or semiconductor material suppliers.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier (e.g., Alfa Aesar, Sigma-Aldrich).",
+        "Ge: Obtain from semiconductor material suppliers.",
+        "Sb: Buy from metal suppliers.",
+        "Se: Find through chemical suppliers or specialty metal suppliers.",
+        "Si: Acquire from electronics or semiconductor material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using an analytical balance.",
+        "2. In a clean, dry environment, combine Cs, Ge, Sb, Se, and Si in a ceramic or glass mixing container.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until homogenous.",
+        "4. Transfer the mixture to a clean crucible for heating."
+      ],
+      "raw_text": "1. Weigh each material accurately using an analytical balance.  \n 2. In a clean, dry environment, combine Cs, Ge, Sb, Se, and Si in a ceramic or glass mixing container.  \n 3. Use a mortar and pestle to thoroughly grind the mixture until homogenous.  \n 4. Transfer the mixture to a clean crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800 °C.",
+        "2. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete melting and mixing of components."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C.  \n 2. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete melting and mixing of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the temperature to decrease naturally.",
+        "2. Once the temperature reaches 300 °C, carefully remove the crucible using heat-resistant gloves.",
+        "3. Allow the crucible to cool to room temperature in a safe, ventilated area for at least 2 hours."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the temperature to decrease naturally.  \n 2. Once the temperature reaches 300 °C, carefully remove the crucible using heat-resistant gloves.  \n 3. Allow the crucible to cool to room temperature in a safe, ventilated area for at least 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any surface imperfections; if necessary, sand the edges using fine-grit sandpaper.",
+        "3. Optionally, apply a sealant to enhance surface properties and prevent oxidation, following manufacturer instructions for application and curing."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible.  \n 2. Inspect for any surface imperfections; if necessary, sand the edges using fine-grit sandpaper.  \n 3. Optionally, apply a sealant to enhance surface properties and prevent oxidation, following manufacturer instructions for application and curing."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9757985.0,
+      "density": 41504.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1219596.0,
+      "formation_energy_per_atom": -8939.0,
+      "decomposition_energy_per_atom": -79.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 1.8129,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4cbcb9ed8a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.647157Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Ge1Sb4Se16Si3.json",
+      "material://Cs4Ge1Sb4Se16Si3"
+    ]
+  }
+}

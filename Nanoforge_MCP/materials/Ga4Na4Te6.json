@@ -1,0 +1,115 @@
+{
+  "id": "Ga4Na4Te6",
+  "uri": "material://Ga4Na4Te6",
+  "composition": {
+    "formula": "Ga4Na4Te6",
+    "elements": {
+      "Ga": 4,
+      "Na": 4,
+      "Te": 6
+    },
+    "reduced_formula": "Na2Ga2Te3",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 40.0 g, K: 16.0 g, Sb: 30.0 g, Si: 12.0 g, Total: 98.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier, K: Obtain from a lab supply store, Sb: Source from chemical vendors, Si: Buy silicon powder from semiconductor suppliers.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier, K: Obtain from a lab supply store, Sb: Source from chemical vendors, Si: Buy silicon powder from semiconductor suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40.0 g of Cesium (Cs).",
+        "2. Weigh 16.0 g of Potassium (K).",
+        "3. Weigh 30.0 g of Antimony (Sb).",
+        "4. Weigh 12.0 g of Silicon (Si).",
+        "5. In a clean, dry mixing container, combine all ingredients thoroughly using a mortar and pestle to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 40.0 g of Cesium (Cs). \n 2. Weigh 16.0 g of Potassium (K). \n 3. Weigh 30.0 g of Antimony (Sb). \n 4. Weigh 12.0 g of Silicon (Si). \n 5. In a clean, dry mixing container, combine all ingredients thoroughly using a mortar and pestle to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/minute.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/minute. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (about 1-2 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (about 1-2 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 200-400) to smooth out the surface.",
+        "3. If desired, apply a sealant compatible with the material for protection.",
+        "4. Let the sealant cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper (grit 200-400) to smooth out the surface. \n 3. If desired, apply a sealant compatible with the material for protection. \n 4. Let the sealant cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 4330393.0,
+      "density": 43579.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -476422.0,
+      "formation_energy_per_atom": -8128.0,
+      "decomposition_energy_per_atom": -267.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -227.0,
+      "decomposition_energy_mp": -258.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": 1.0231,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b2848c1bf2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.547569Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga4Na4Te6.json",
+      "material://Ga4Na4Te6"
+    ]
+  }
+}

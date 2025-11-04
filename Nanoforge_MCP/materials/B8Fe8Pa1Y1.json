@@ -1,0 +1,113 @@
+{
+  "id": "B8Fe8Pa1Y1",
+  "uri": "material://B8Fe8Pa1Y1",
+  "composition": {
+    "formula": "B8Fe8Pa1Y1",
+    "elements": {
+      "B": 8,
+      "Fe": 8,
+      "Pa": 1,
+      "Y": 1
+    },
+    "reduced_formula": "YPa(FeB)8",
+    "element_list": [
+      "B",
+      "Fe",
+      "Y",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Barium Carbonate (BaCO3) - 127.5 g \n 2. Lanthanum Oxide (La2O3) - 34.2 g \n 3. Manganese Dioxide (MnO2) - 140.0 g \n 4. Praseodymium Oxide (Pr6O11) - 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "1. Barium Carbonate: Chemical suppliers like Sigma-Aldrich or local chemical stores. \n 2. Lanthanum Oxide: Online suppliers such as Alfa Aesar. \n 3. Manganese Dioxide: Available at hardware stores or online chemical suppliers. \n 4. Praseodymium Oxide: Specialty chemical suppliers or online marketplaces.",
+      "steps": [
+        "1. Barium Carbonate: Chemical suppliers like Sigma-Aldrich or local chemical stores.",
+        "2. Lanthanum Oxide: Online suppliers such as Alfa Aesar.",
+        "3. Manganese Dioxide: Available at hardware stores or online chemical suppliers.",
+        "4. Praseodymium Oxide: Specialty chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. Combine Barium Carbonate, Lanthanum Oxide, Manganese Dioxide, and Praseodymium Oxide in a clean, dry ceramic or glass container.",
+        "3. Mix the powders thoroughly using a mortar and pestle to ensure homogeneity.",
+        "4. Transfer the mixture to a ball mill for 30 minutes to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance. \n 2. Combine Barium Carbonate, Lanthanum Oxide, Manganese Dioxide, and Praseodymium Oxide in a clean, dry ceramic or glass container. \n 3. Mix the powders thoroughly using a mortar and pestle to ensure homogeneity. \n 4. Transfer the mixture to a ball mill for 30 minutes to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200 °C.",
+        "2. Place the fine powder mixture in a crucible made of alumina.",
+        "3. Heat the mixture gradually to 1200 °C at a rate of 5 °C/min.",
+        "4. Maintain this temperature for 6 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200 °C. \n 2. Place the fine powder mixture in a crucible made of alumina. \n 3. Heat the mixture gradually to 1200 °C at a rate of 5 °C/min. \n 4. Maintain this temperature for 6 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Avoid quenching to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Avoid quenching to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, use fine-grit sandpaper to smooth out the surface.",
+        "4. Optionally, seal the sample with a clear epoxy resin to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, use fine-grit sandpaper to smooth out the surface. \n 4. Optionally, seal the sample with a clear epoxy resin to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 1845515.0,
+      "density": 76767.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4",
+      "space_group_number": 81,
+      "point_group": "-4",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1461346.0,
+      "formation_energy_per_atom": -4977.0,
+      "decomposition_energy_per_atom": -1005.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -123.0,
+      "decomposition_energy_mp": -1005.0,
+      "decomposition_energy_mp_oqmd": -683.0
+    },
+    "electronic": {
+      "bandgap": 0.0129,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb702eb013",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.651555Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B8Fe8Pa1Y1.json",
+      "material://B8Fe8Pa1Y1"
+    ]
+  }
+}

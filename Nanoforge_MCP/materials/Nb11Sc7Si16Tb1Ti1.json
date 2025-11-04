@@ -1,0 +1,129 @@
+{
+  "id": "Nb11Sc7Si16Tb1Ti1",
+  "uri": "material://Nb11Sc7Si16Tb1Ti1",
+  "composition": {
+    "formula": "Nb11Sc7Si16Tb1Ti1",
+    "elements": {
+      "Nb": 11,
+      "Sc": 7,
+      "Si": 16,
+      "Tb": 1,
+      "Ti": 1
+    },
+    "reduced_formula": "TbSc7TiNb11Si16",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ti",
+      "Nb",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 50 g \n Tl: 25 g \n Y: 20 g \n (Total: 95 g, adjusted for density to yield a solid of required dimensions)"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a metallurgical supply company or online chemical supplier. \n Tl: Obtain from a chemical supplier specializing in rare metals. \n Y: Source from a reputable chemical supplier or laboratory.",
+      "steps": [
+        "Ni: Purchase from a metallurgical supply company or online chemical supplier.",
+        "Tl: Obtain from a chemical supplier specializing in rare metals.",
+        "Y: Source from a reputable chemical supplier or laboratory."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 50 g of nickel (Ni) powder using an analytical balance.",
+        "2. Weigh 25 g of thallium (Tl) powder.",
+        "3. Weigh 20 g of yttrium (Y) powder.",
+        "4. Combine all powders in a clean, dry mixing container.",
+        "5. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 50 g of nickel (Ni) powder using an analytical balance. \n 2. Weigh 25 g of thallium (Tl) powder. \n 3. Weigh 20 g of yttrium (Y) powder. \n 4. Combine all powders in a clean, dry mixing container. \n 5. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 900°C at a rate of 10°C/min, hold for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 900°C at a rate of 10°C/min, hold for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible and extract the solid sample.",
+        "2. Use a diamond file to smooth any rough edges.",
+        "3. Optionally, apply a sealant if required for surface protection."
+      ],
+      "raw_text": "1. Remove the cooled crucible and extract the solid sample. \n 2. Use a diamond file to smooth any rough edges. \n 3. Optionally, apply a sealant if required for surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 6174868.0,
+      "density": 53591.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2832628.0,
+      "formation_energy_per_atom": -7913.0,
+      "decomposition_energy_per_atom": -73.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -69.0,
+      "decomposition_energy_mp_oqmd": -5.0
+    },
+    "electronic": {
+      "bandgap": 0.0024,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dd7376d069",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.908273Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb11Sc7Si16Tb1Ti1.json",
+      "material://Nb11Sc7Si16Tb1Ti1"
+    ]
+  }
+}

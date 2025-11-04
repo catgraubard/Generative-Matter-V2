@@ -1,0 +1,116 @@
+{
+  "id": "Nd1Pr4Si4Sm1",
+  "uri": "material://Nd1Pr4Si4Sm1",
+  "composition": {
+    "formula": "Nd1Pr4Si4Sm1",
+    "elements": {
+      "Nd": 1,
+      "Pr": 4,
+      "Si": 4,
+      "Sm": 1
+    },
+    "reduced_formula": "Pr4NdSmSi4",
+    "element_list": [
+      "Si",
+      "Pr",
+      "Nd",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 130.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 130 g, Tb: 40 g, Zn: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Ni (Nickel) - Available from metal supply stores or online suppliers. \n Tb (Terbium) - Specialized chemical suppliers or online marketplaces. \n Zn (Zinc) - Hardware stores or metal supply retailers.",
+      "steps": [
+        "Ni (Nickel) - Available from metal supply stores or online suppliers.",
+        "Tb (Terbium) - Specialized chemical suppliers or online marketplaces.",
+        "Zn (Zinc) - Hardware stores or metal supply retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal component using a precision scale.",
+        "2. In a clean, dry container, combine the Ni, Tb, and Zn powders thoroughly using a spatula or mixing tool.",
+        "3. Ensure the mixture is homogeneous by stirring for at least 10 minutes to prevent segregation."
+      ],
+      "raw_text": "1. Weigh each metal component using a precision scale.\n 2. In a clean, dry container, combine the Ni, Tb, and Zn powders thoroughly using a spatula or mixing tool. \n 3. Ensure the mixture is homogeneous by stirring for at least 10 minutes to prevent segregation."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace or high-temperature oven.",
+        "3. Heat to 1200°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.\n 2. Place the crucible in a furnace or high-temperature oven.\n 3. Heat to 1200°C at a rate of 10°C/min.\n 4. Maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature (approximately 2-3 hours) without forced cooling to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace.\n 2. Allow the crucible to cool down naturally to room temperature (approximately 2-3 hours) without forced cooling to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified alloy from the crucible.",
+        "2. Use a grinder or sanding equipment to achieve desired surface finish and dimensions.",
+        "3. Optionally, apply a sealant to enhance corrosion resistance, following the manufacturer's instructions."
+      ],
+      "raw_text": "1. Remove the solidified alloy from the crucible.\n 2. Use a grinder or sanding equipment to achieve desired surface finish and dimensions.\n 3. Optionally, apply a sealant to enhance corrosion resistance, following the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2662754.0,
+      "density": 60527.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/m",
+      "space_group_number": 83,
+      "point_group": "4/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -562443.0,
+      "formation_energy_per_atom": -5933.0,
+      "decomposition_energy_per_atom": -29.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": 0.0028,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dea7f010f8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.386812Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd1Pr4Si4Sm1.json",
+      "material://Nd1Pr4Si4Sm1"
+    ]
+  }
+}

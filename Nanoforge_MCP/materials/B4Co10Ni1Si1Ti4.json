@@ -1,0 +1,134 @@
+{
+  "id": "B4Co10Ni1Si1Ti4",
+  "uri": "material://B4Co10Ni1Si1Ti4",
+  "composition": {
+    "formula": "B4Co10Ni1Si1Ti4",
+    "elements": {
+      "B": 4,
+      "Co": 10,
+      "Ni": 1,
+      "Si": 1,
+      "Ti": 4
+    },
+    "reduced_formula": "Ti4Co10SiNiB4",
+    "element_list": [
+      "B",
+      "Si",
+      "Ti",
+      "Co",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 160 g \n Co: 40 g \n Ni: 4 g \n Si: 4 g \n Ti: 160 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Chemical suppliers or specialized materials stores \n Co (Cobalt): Metal supply shops or online metal distributors \n Ni (Nickel): Metal supply shops or online metal distributors \n Si (Silicon): Chemical suppliers or electronics stores \n Ti (Titanium): Metal supply shops or online metal distributors",
+      "steps": [
+        "B (Boron): Chemical suppliers or specialized materials stores",
+        "Co (Cobalt): Metal supply shops or online metal distributors",
+        "Ni (Nickel): Metal supply shops or online metal distributors",
+        "Si (Silicon): Chemical suppliers or electronics stores",
+        "Ti (Titanium): Metal supply shops or online metal distributors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean mixing container, combine 160 g of B, 40 g of Co, 4 g of Ni, 4 g of Si, and 160 g of Ti.",
+        "3. Mix the dry powders thoroughly using a mechanical mixer or by hand with a spatula until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean mixing container, combine 160 g of B, 40 g of Co, 4 g of Ni, 4 g of Si, and 160 g of Ti. \n 3. Mix the dry powders thoroughly using a mechanical mixer or by hand with a spatula until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable furnace or crucible.",
+        "2. Heat the mixture to 1200°C at a rate of 10°C/minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable furnace or crucible. \n 2. Heat the mixture to 1200°C at a rate of 10°C/minute. \n 3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature.",
+        "2. This process should take approximately 4-6 hours. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature. \n 2. This process should take approximately 4-6 hours. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the furnace.",
+        "2. Inspect for any surface imperfections and use a sanding tool to smooth out rough edges.",
+        "3. Optionally, apply a sealant to enhance surface durability and resistance to oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the furnace. \n 2. Inspect for any surface imperfections and use a sanding tool to smooth out rough edges. \n 3. Optionally, apply a sealant to enhance surface durability and resistance to oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2080056.0,
+      "density": 72712.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/m",
+      "space_group_number": 83,
+      "point_group": "4/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1516377.0,
+      "formation_energy_per_atom": -5525.0,
+      "decomposition_energy_per_atom": -242.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -62.0,
+      "decomposition_energy_mp": -242.0,
+      "decomposition_energy_mp_oqmd": -214.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a94645eec2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:59.395142Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Co10Ni1Si1Ti4.json",
+      "material://B4Co10Ni1Si1Ti4"
+    ]
+  }
+}

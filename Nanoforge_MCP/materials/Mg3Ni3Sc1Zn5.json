@@ -1,0 +1,113 @@
+{
+  "id": "Mg3Ni3Sc1Zn5",
+  "uri": "material://Mg3Ni3Sc1Zn5",
+  "composition": {
+    "formula": "Mg3Ni3Sc1Zn5",
+    "elements": {
+      "Mg": 3,
+      "Ni": 3,
+      "Sc": 1,
+      "Zn": 5
+    },
+    "reduced_formula": "Mg3ScZn5Ni3",
+    "element_list": [
+      "Mg",
+      "Sc",
+      "Ni",
+      "Zn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mg",
+          "amount": 22.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mg: 22.5 g, Ni: 22.5 g, Sc: 7.5 g, Zn: 112.5 g"
+    },
+    "sourcing": {
+      "instructions": "Mg: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Ni: Available at metal suppliers or online; Sc: Specialized suppliers or online; Zn: Local hardware store or metal suppliers.",
+      "steps": [
+        "Mg: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Ni: Available at metal suppliers or online; Sc: Specialized suppliers or online; Zn: Local hardware store or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. In a clean, dry mixing bowl, combine Mg, Ni, Sc, and Zn in the specified amounts.",
+        "3. Use a spatula to mix thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance. \n 2. In a clean, dry mixing bowl, combine Mg, Ni, Sc, and Zn in the specified amounts. \n 3. Use a spatula to mix thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace and heat to 600°C (1112°F) for 2 hours.",
+        "3. Maintain an inert atmosphere (e.g., argon) during heating to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace and heat to 600°C (1112°F) for 2 hours. \n 3. Maintain an inert atmosphere (e.g., argon) during heating to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool to room temperature (approximately 1-2 hours).",
+        "2. Ensure the crucible is not exposed to air during cooling to avoid contamination."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool to room temperature (approximately 1-2 hours). \n 2. Ensure the crucible is not exposed to air during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a protective sealant to enhance surface durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, apply a protective sealant to enhance surface durability. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1818548.0,
+      "density": 56704.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -383073.0,
+      "formation_energy_per_atom": -2946.0,
+      "decomposition_energy_per_atom": -481.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -455.0,
+      "decomposition_energy_mp_oqmd": -388.0
+    },
+    "electronic": {
+      "bandgap": 0.0158,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2bcf3b6d97",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:13.340218Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg3Ni3Sc1Zn5.json",
+      "material://Mg3Ni3Sc1Zn5"
+    ]
+  }
+}

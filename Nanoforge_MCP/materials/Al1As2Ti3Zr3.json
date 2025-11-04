@@ -1,0 +1,128 @@
+{
+  "id": "Al1As2Ti3Zr3",
+  "uri": "material://Al1As2Ti3Zr3",
+  "composition": {
+    "formula": "Al1As2Ti3Zr3",
+    "elements": {
+      "Al": 1,
+      "As": 2,
+      "Ti": 3,
+      "Zr": 3
+    },
+    "reduced_formula": "Zr3Ti3AlAs2",
+    "element_list": [
+      "Al",
+      "Ti",
+      "As",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 12.0 g \n Fe: 40.0 g \n Hg: 0.5 g \n La: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "B6 (Vitamin B6 powder) can be sourced from health stores or online supplement suppliers. \n Fe (Iron powder) can be obtained from chemical supply companies or online metal suppliers. \n Hg (Mercury) should be sourced from licensed chemical suppliers, ensuring to follow safety regulations due to its toxicity. \n La (Lanthanum oxide) can be acquired from specialized chemical suppliers or online vendors dealing with rare earth materials.",
+      "steps": [
+        "B6 (Vitamin B6 powder) can be sourced from health stores or online supplement suppliers.",
+        "Fe (Iron powder) can be obtained from chemical supply companies or online metal suppliers.",
+        "Hg (Mercury) should be sourced from licensed chemical suppliers, ensuring to follow safety regulations due to its toxicity.",
+        "La (Lanthanum oxide) can be acquired from specialized chemical suppliers or online vendors dealing with rare earth materials."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 12.0 g of B6 using a precision scale.",
+        "2. Measure 40.0 g of iron powder.",
+        "3. Carefully measure 0.5 g of mercury using a dropper or a precision scale, ensuring to follow safety protocols.",
+        "4. Weigh 30.0 g of lanthanum oxide.",
+        "5. In a fume hood, combine all measured ingredients in a clean, dry mixing container.",
+        "6. Use a spatula to mix the powders thoroughly until a homogenous blend is achieved."
+      ],
+      "raw_text": "1. Measure 12.0 g of B6 using a precision scale. \n 2. Measure 40.0 g of iron powder. \n 3. Carefully measure 0.5 g of mercury using a dropper or a precision scale, ensuring to follow safety protocols. \n 4. Weigh 30.0 g of lanthanum oxide. \n 5. In a fume hood, combine all measured ingredients in a clean, dry mixing container. \n 6. Use a spatula to mix the powders thoroughly until a homogenous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed ingredients into a ceramic crucible.",
+        "2. Place the crucible in a furnace preheated to 800 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients into a ceramic crucible. \n 2. Place the crucible in a furnace preheated to 800 °C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25 °C) within the furnace for about 4 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25 °C) within the furnace for about 4 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth out rough edges.",
+        "3. Optionally, seal the surface with a protective coating to prevent oxidation, following the manufacturer's instructions for application.",
+        "4. Allow the coating to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect for any surface irregularities and use fine-grit sandpaper to smooth out rough edges. \n 3. Optionally, seal the surface with a protective coating to prevent oxidation, following the manufacturer's instructions for application. \n 4. Allow the coating to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1643583.0,
+      "density": 60023.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -695213.0,
+      "formation_energy_per_atom": -792.0,
+      "decomposition_energy_per_atom": -144.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -109.0,
+      "decomposition_energy_mp": -144.0,
+      "decomposition_energy_mp_oqmd": -135.0
+    },
+    "electronic": {
+      "bandgap": 0.0072,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "daab55f437",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.195870Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1As2Ti3Zr3.json",
+      "material://Al1As2Ti3Zr3"
+    ]
+  }
+}

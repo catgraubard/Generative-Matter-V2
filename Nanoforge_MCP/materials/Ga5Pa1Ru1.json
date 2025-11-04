@@ -1,0 +1,109 @@
+{
+  "id": "Ga5Pa1Ru1",
+  "uri": "material://Ga5Pa1Ru1",
+  "composition": {
+    "formula": "Ga5Pa1Ru1",
+    "elements": {
+      "Ga": 5,
+      "Pa": 1,
+      "Ru": 1
+    },
+    "reduced_formula": "PaGa5Ru",
+    "element_list": [
+      "Ga",
+      "Ru",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cadmium (Cd): 40 g \n Lanthanum (La): 30 g \n Neodymium (Nd): 130 g \n Ruthenium (Ru): 40 g \n Total: 240 g (to account for potential losses)"
+    },
+    "sourcing": {
+      "instructions": "Cadmium: Chemical supply companies (e.g., Sigma-Aldrich, Alfa Aesar) \n Lanthanum: Rare earth suppliers (e.g., American Elements) \n Neodymium: Rare earth suppliers \n Ruthenium: Precious metal suppliers (e.g., Johnson Matthey)",
+      "steps": [
+        "Cadmium: Chemical supply companies (e.g., Sigma-Aldrich, Alfa Aesar)",
+        "Lanthanum: Rare earth suppliers (e.g., American Elements)",
+        "Neodymium: Rare earth suppliers",
+        "Ruthenium: Precious metal suppliers (e.g., Johnson Matthey)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal powder accurately to the specified amounts.",
+        "2. Combine the metal powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each metal powder accurately to the specified amounts. \n 2. Combine the metal powders in a clean, dry mixing container. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature furnace.",
+        "2. Heat to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain temperature for 2 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature furnace. \n 2. Heat to 1200 °C at a rate of 10 °C/min. \n 3. Maintain temperature for 2 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. This may take approximately 6-8 hours. Ensure that no rapid cooling occurs to avoid cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally. \n 2. This may take approximately 6-8 hours. Ensure that no rapid cooling occurs to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surface to remove any rough spots and achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surface to remove any rough spots and achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 7,
+      "volume": 1306648.0,
+      "density": 86509.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -369346.0,
+      "formation_energy_per_atom": -4293.0,
+      "decomposition_energy_per_atom": -359.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -359.0,
+      "decomposition_energy_mp_oqmd": -292.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e7696bb629",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.660643Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga5Pa1Ru1.json",
+      "material://Ga5Pa1Ru1"
+    ]
+  }
+}

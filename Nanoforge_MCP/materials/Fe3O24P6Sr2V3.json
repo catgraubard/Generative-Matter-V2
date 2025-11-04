@@ -1,0 +1,118 @@
+{
+  "id": "Fe3O24P6Sr2V3",
+  "uri": "material://Fe3O24P6Sr2V3",
+  "composition": {
+    "formula": "Fe3O24P6Sr2V3",
+    "elements": {
+      "Fe": 3,
+      "O": 24,
+      "P": 6,
+      "Sr": 2,
+      "V": 3
+    },
+    "reduced_formula": "Sr2V3Fe3(PO4)6",
+    "element_list": [
+      "O",
+      "P",
+      "V",
+      "Fe",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 43.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 43.2 g, Mn: 24.5 g, Rb: 5.3 g, Te: 128.0 g, V: 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Mn: Purchase from a metal supplier or chemical supplier. Rb: Acquire from chemical suppliers. Te: Source from a chemical supplier. V: Obtain from a chemical supplier.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Mn: Purchase from a metal supplier or chemical supplier. Rb: Acquire from chemical suppliers. Te: Source from a chemical supplier. V: Obtain from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 43.2 g of Cs in a clean, dry container.",
+        "2. Weigh 24.5 g of Mn and add it to the container with Cs.",
+        "3. Weigh 5.3 g of Rb and add it to the mixture.",
+        "4. Weigh 128.0 g of Te and add it to the container.",
+        "5. Finally, weigh 6.0 g of V and mix all ingredients thoroughly using a mortar and pestle until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 43.2 g of Cs in a clean, dry container. \n 2. Weigh 24.5 g of Mn and add it to the container with Cs. \n 3. Weigh 5.3 g of Rb and add it to the mixture. \n 4. Weigh 128.0 g of Te and add it to the container. \n 5. Finally, weigh 6.0 g of V and mix all ingredients thoroughly using a mortar and pestle until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous powder to a high-temperature furnace.",
+        "2. Heat the mixture gradually to 800°C at a rate of 10°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the homogeneous powder to a high-temperature furnace. \n 2. Heat the mixture gradually to 800°C at a rate of 10°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down naturally to room temperature (approximately 20°C).",
+        "2. This process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down naturally to room temperature (approximately 20°C). \n 2. This process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear acrylic sealant to protect the material."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear acrylic sealant to protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4807446.0,
+      "density": 36801.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3108142.0,
+      "formation_energy_per_atom": -27248.0,
+      "decomposition_energy_per_atom": -147.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -153.0,
+      "decomposition_energy_mp_oqmd": -152.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7babab333",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.371528Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe3O24P6Sr2V3.json",
+      "material://Fe3O24P6Sr2V3"
+    ]
+  }
+}

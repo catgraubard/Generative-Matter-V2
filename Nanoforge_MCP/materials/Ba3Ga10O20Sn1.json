@@ -1,0 +1,111 @@
+{
+  "id": "Ba3Ga10O20Sn1",
+  "uri": "material://Ba3Ga10O20Sn1",
+  "composition": {
+    "formula": "Ba3Ga10O20Sn1",
+    "elements": {
+      "Ba": 3,
+      "Ga": 10,
+      "O": 20,
+      "Sn": 1
+    },
+    "reduced_formula": "Ba3Ga10SnO20",
+    "element_list": [
+      "O",
+      "Ga",
+      "Sn",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 25 g, Mn: 15 g, Ru: 90 g, Sc: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supply store or online; Mn: Chemical supply company; Ru: Specialty metal supplier; Sc: Rare earth material supplier.",
+      "steps": [
+        "Cu: Purchase from a metal supply store or online; Mn: Chemical supply company; Ru: Specialty metal supplier; Sc: Rare earth material supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a digital scale for accuracy.",
+        "2. In a clean, dry mixing container, combine Cu, Mn, Ru, and Sc.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient using a digital scale for accuracy. \n 2. In a clean, dry mixing container, combine Cu, Mn, Ru, and Sc. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to achieve a complete melt and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat in a furnace to 1200°C for 2 hours to achieve a complete melt and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature over a period of 6 hours.",
+        "2. Avoid quenching to preserve the microstructure of the alloy."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature over a period of 6 hours. \n 2. Avoid quenching to preserve the microstructure of the alloy."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid alloy from the crucible.",
+        "2. Use a belt sander to smooth edges and surfaces to desired finish.",
+        "3. Optionally, seal the alloy with a clear protective coating to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solid alloy from the crucible. \n 2. Use a belt sander to smooth edges and surfaces to desired finish. \n 3. Optionally, seal the alloy with a clear protective coating to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 481866.0,
+      "density": 53342.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -223491.0,
+      "formation_energy_per_atom": -24848.0,
+      "decomposition_energy_per_atom": -53.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -59.0,
+      "decomposition_energy_mp_oqmd": -46.0
+    },
+    "electronic": {
+      "bandgap": 2.5044,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6885b4181",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.145792Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba3Ga10O20Sn1.json",
+      "material://Ba3Ga10O20Sn1"
+    ]
+  }
+}

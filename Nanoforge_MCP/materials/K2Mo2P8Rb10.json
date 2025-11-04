@@ -1,0 +1,113 @@
+{
+  "id": "K2Mo2P8Rb10",
+  "uri": "material://K2Mo2P8Rb10",
+  "composition": {
+    "formula": "K2Mo2P8Rb10",
+    "elements": {
+      "K": 2,
+      "Mo": 2,
+      "P": 8,
+      "Rb": 10
+    },
+    "reduced_formula": "KRb5MoP4",
+    "element_list": [
+      "P",
+      "K",
+      "Rb",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 12.5 g, Co: 25 g, Ru: 25 g, Sb: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium): Chemical supply stores; Co (Cobalt): Metal suppliers; Ru (Ruthenium): Precious metal suppliers; Sb (Antimony): Metal suppliers",
+      "steps": [
+        "Ba (Barium): Chemical supply stores; Co (Cobalt): Metal suppliers; Ru (Ruthenium): Precious metal suppliers; Sb (Antimony): Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Combine Ba, Co, Ru, and Sb in a clean, dry mixing container.",
+        "3. Mix thoroughly with a spatula or a mechanical mixer for at least 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Combine Ba, Co, Ru, and Sb in a clean, dry mixing container. \n 3. Mix thoroughly with a spatula or a mechanical mixer for at least 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace at 1200°C for 4 hours.",
+        "3. Ensure the heating rate is gradual, reaching 1200°C in 1 hour."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace at 1200°C for 4 hours. \n 3. Ensure the heating rate is gradual, reaching 1200°C in 1 hour."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature gradually (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled down completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature gradually (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled down completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the sample from the crucible carefully.",
+        "2. If necessary, grind the sample to achieve desired particle size.",
+        "3. Seal the sample in an inert atmosphere or vacuum-seal bag if long-term storage is required.",
+        "4. If desired, sand the edges to achieve a smoother finish."
+      ],
+      "raw_text": "1. Remove the sample from the crucible carefully. \n 2. If necessary, grind the sample to achieve desired particle size. \n 3. Seal the sample in an inert atmosphere or vacuum-seal bag if long-term storage is required.\n 4. If desired, sand the edges to achieve a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 7801127.0,
+      "density": 29216.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cc",
+      "space_group_number": 9,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -85079.0,
+      "formation_energy_per_atom": -3661.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -158.0,
+      "decomposition_energy_mp": -4.0,
+      "decomposition_energy_mp_oqmd": -303.0
+    },
+    "electronic": {
+      "bandgap": 0.6159,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b196bf3310",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.068824Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K2Mo2P8Rb10.json",
+      "material://K2Mo2P8Rb10"
+    ]
+  }
+}

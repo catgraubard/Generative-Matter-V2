@@ -1,0 +1,133 @@
+{
+  "id": "Cd1Mn1O24Tc6",
+  "uri": "material://Cd1Mn1O24Tc6",
+  "composition": {
+    "formula": "Cd1Mn1O24Tc6",
+    "elements": {
+      "Cd": 1,
+      "Mn": 1,
+      "O": 24,
+      "Tc": 6
+    },
+    "reduced_formula": "MnCd(TcO4)6",
+    "element_list": [
+      "O",
+      "Mn",
+      "Tc",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 12.5 g \n Rb: 150 g \n Sb: 80 g \n Zr: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company or specialized online vendors. \n Rb: Available from chemical suppliers or online marketplaces. \n Sb: Source from high-purity metal suppliers or chemical distributors. \n Zr: Purchase from metal suppliers or laboratory chemical providers.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company or specialized online vendors.",
+        "Rb: Available from chemical suppliers or online marketplaces.",
+        "Sb: Source from high-purity metal suppliers or chemical distributors.",
+        "Zr: Purchase from metal suppliers or laboratory chemical providers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 12.5 g of Cs, 150 g of Rb, 80 g of Sb, and 20 g of Zr using an analytical balance.",
+        "2. In a clean, dry container, combine the Cs and Rb thoroughly.",
+        "3. Slowly add the Sb while continuously stirring the mixture to ensure uniform distribution.",
+        "4. Finally, incorporate the Zr into the mixture, mixing until a homogenous blend is achieved."
+      ],
+      "raw_text": "1. Measure out 12.5 g of Cs, 150 g of Rb, 80 g of Sb, and 20 g of Zr using an analytical balance. \n 2. In a clean, dry container, combine the Cs and Rb thoroughly. \n 3. Slowly add the Sb while continuously stirring the mixture to ensure uniform distribution. \n 4. Finally, incorporate the Zr into the mixture, mixing until a homogenous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat the crucible in a furnace at a temperature of 900 °C for 4 hours.",
+        "3. Ensure the heating ramp is gradual to avoid thermal shock (10 °C/min)."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat the crucible in a furnace at a temperature of 900 °C for 4 hours. \n 3. Ensure the heating ramp is gradual to avoid thermal shock (10 °C/min)."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Once the heating duration is complete, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it reaches a safe temperature to avoid oxidation."
+      ],
+      "raw_text": "1. Once the heating duration is complete, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it reaches a safe temperature to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible using heat-resistant gloves.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth out any rough edges.",
+        "4. Optionally, seal the sample with a suitable resin to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible using heat-resistant gloves. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, use fine-grit sandpaper to smooth out any rough edges. \n 4. Optionally, seal the sample with a suitable resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 6451582.0,
+      "density": 29325.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2493115.0,
+      "formation_energy_per_atom": -18222.0,
+      "decomposition_energy_per_atom": -386.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -386.0,
+      "decomposition_energy_mp_oqmd": -386.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b8f911aad3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.918699Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd1Mn1O24Tc6.json",
+      "material://Cd1Mn1O24Tc6"
+    ]
+  }
+}

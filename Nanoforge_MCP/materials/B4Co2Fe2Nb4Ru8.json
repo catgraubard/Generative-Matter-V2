@@ -1,0 +1,133 @@
+{
+  "id": "B4Co2Fe2Nb4Ru8",
+  "uri": "material://B4Co2Fe2Nb4Ru8",
+  "composition": {
+    "formula": "B4Co2Fe2Nb4Ru8",
+    "elements": {
+      "B": 4,
+      "Co": 2,
+      "Fe": 2,
+      "Nb": 4,
+      "Ru": 8
+    },
+    "reduced_formula": "Nb2FeCo(BRu2)2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Co",
+      "Nb",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 16 g  \n La: 6 g  \n Nb: 2 g  \n P: 12 g  \n Total: 36 g (adjust for additional material if needed)"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Purchase from a chemical supply company or metal supplier. \n La (Lanthanum): Available from specialty chemical suppliers. \n Nb (Niobium): Obtain from metal suppliers or online chemical retailers. \n P (Phosphorus): Sourced from a chemical supply store or online.",
+      "steps": [
+        "Co (Cobalt): Purchase from a chemical supply company or metal supplier.",
+        "La (Lanthanum): Available from specialty chemical suppliers.",
+        "Nb (Niobium): Obtain from metal suppliers or online chemical retailers.",
+        "P (Phosphorus): Sourced from a chemical supply store or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance for accuracy.",
+        "2. In a clean, dry container, add Co, La, Nb, and P in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance for accuracy. \n 2. In a clean, dry container, add Co, La, Nb, and P in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a furnace to 1200 °C for 2 hours to promote solid-state reaction.",
+        "3. Increase the temperature to 1400 °C and hold for another 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat the crucible in a furnace to 1200 °C for 2 hours to promote solid-state reaction. \n 3. Increase the temperature to 1400 °C and hold for another 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature gradually to prevent thermal shock.",
+        "2. This may take approximately 6-8 hours depending on the furnace design."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature gradually to prevent thermal shock. \n 2. This may take approximately 6-8 hours depending on the furnace design."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond saw or grinder to trim the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to remove any sharp or rough areas, ensuring a smooth finish.",
+        "4. Optionally, seal the surface with a suitable protective coating if required for your application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use a diamond saw or grinder to trim the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to remove any sharp or rough areas, ensuring a smooth finish. \n 4. Optionally, seal the surface with a suitable protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2500121.0,
+      "density": 96505.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mbm",
+      "space_group_number": 127,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1802056.0,
+      "formation_energy_per_atom": -3865.0,
+      "decomposition_energy_per_atom": -239.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -95.0,
+      "decomposition_energy_mp": -239.0,
+      "decomposition_energy_mp_oqmd": -234.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bf058ee52a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.762673Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Co2Fe2Nb4Ru8.json",
+      "material://B4Co2Fe2Nb4Ru8"
+    ]
+  }
+}

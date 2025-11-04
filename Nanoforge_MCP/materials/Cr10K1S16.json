@@ -1,0 +1,122 @@
+{
+  "id": "Cr10K1S16",
+  "uri": "material://Cr10K1S16",
+  "composition": {
+    "formula": "Cr10K1S16",
+    "elements": {
+      "Cr": 10,
+      "K": 1,
+      "S": 16
+    },
+    "reduced_formula": "K(Cr5S8)2",
+    "element_list": [
+      "S",
+      "K",
+      "Cr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 1000.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 1600.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 1000 g\nK: 100 g\nS: 1600 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Local metal supplier or online metal distributor.\nK: Chemical supply store or online chemical supplier.\nS: Local hardware store or online mineral supplier.",
+      "steps": [
+        "Cr: Local metal supplier or online metal distributor.",
+        "K: Chemical supply store or online chemical supplier.",
+        "S: Local hardware store or online mineral supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1000 g of chromium (Cr) using a precision scale.",
+        "2. Weigh out 100 g of potassium (K) using a precision scale.",
+        "3. Weigh out 1600 g of sulfur (S) using a precision scale.",
+        "4. In a clean mixing container, combine the Cr, K, and S thoroughly to ensure an even distribution of materials."
+      ],
+      "raw_text": "1. Weigh out 1000 g of chromium (Cr) using a precision scale.\n2. Weigh out 100 g of potassium (K) using a precision scale.\n3. Weigh out 1600 g of sulfur (S) using a precision scale.\n4. In a clean mixing container, combine the Cr, K, and S thoroughly to ensure an even distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible.",
+        "2. Heat the crucible in a high-temperature furnace.",
+        "3. Set the furnace to 1200°C and maintain this temperature for 2 hours to ensure full melting and alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible.\n2. Heat the crucible in a high-temperature furnace.\n3. Set the furnace to 1200°C and maintain this temperature for 2 hours to ensure full melting and alloying of the components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not remove the crucible until it has cooled to below 200°C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.\n2. Do not remove the crucible until it has cooled to below 200°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a coarse sandpaper to remove any rough edges and imperfections.",
+        "3. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. Use a coarse sandpaper to remove any rough edges and imperfections.\n3. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 27,
+      "volume": 5238846.0,
+      "density": 33982.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1921454.0,
+      "formation_energy_per_atom": -10489.0,
+      "decomposition_energy_per_atom": -119.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -125.0,
+      "decomposition_energy_mp_oqmd": -37.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9a769d2baa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:38.886327Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr10K1S16.json",
+      "material://Cr10K1S16"
+    ]
+  }
+}

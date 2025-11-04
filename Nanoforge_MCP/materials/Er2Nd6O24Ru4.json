@@ -1,0 +1,111 @@
+{
+  "id": "Er2Nd6O24Ru4",
+  "uri": "material://Er2Nd6O24Ru4",
+  "composition": {
+    "formula": "Er2Nd6O24Ru4",
+    "elements": {
+      "Er": 2,
+      "Nd": 6,
+      "O": 24,
+      "Ru": 4
+    },
+    "reduced_formula": "Nd3Er(RuO6)2",
+    "element_list": [
+      "O",
+      "Ru",
+      "Nd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 200 g, Ca: 50 g, Eu: 30 g, Sb: 300 g, Sr: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Aluminum scrap or powder from metal suppliers; Ca: Calcium metal from chemical suppliers; Eu: Europium oxide from rare earth suppliers; Sb: Antimony from metal suppliers; Sr: Strontium carbonate from chemical suppliers.",
+      "steps": [
+        "Al: Aluminum scrap or powder from metal suppliers; Ca: Calcium metal from chemical suppliers; Eu: Europium oxide from rare earth suppliers; Sb: Antimony from metal suppliers; Sr: Strontium carbonate from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine 200 g of Al, 50 g of Ca, 30 g of Eu, 300 g of Sb, and 60 g of Sr.",
+        "3. Mix thoroughly using a mechanical stirrer or mortar and pestle until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.\n2. In a clean, dry container, combine 200 g of Al, 50 g of Ca, 30 g of Eu, 300 g of Sb, and 60 g of Sr.\n3. Mix thoroughly using a mechanical stirrer or mortar and pestle until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C for 4 hours to facilitate alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 800°C for 4 hours to facilitate alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) inside the furnace for about 6 hours."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) inside the furnace for about 6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible and carefully extract the solid sample.",
+        "2. Inspect for any surface irregularities; if present, grind with a diamond file.",
+        "3. Optionally, seal the surface with a clear coat to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the crucible and carefully extract the solid sample.\n2. Inspect for any surface irregularities; if present, grind with a diamond file.\n3. Optionally, seal the surface with a clear coat to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 502564.0,
+      "density": 65694.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2933604.0,
+      "formation_energy_per_atom": -27713.0,
+      "decomposition_energy_per_atom": -208.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -215.0,
+      "decomposition_energy_mp_oqmd": -215.0
+    },
+    "electronic": {
+      "bandgap": 0.25,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba01ab61ac",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.317091Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er2Nd6O24Ru4.json",
+      "material://Er2Nd6O24Ru4"
+    ]
+  }
+}

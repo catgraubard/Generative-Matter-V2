@@ -1,0 +1,132 @@
+{
+  "id": "Ge1Nd1Pr3Si3",
+  "uri": "material://Ge1Nd1Pr3Si3",
+  "composition": {
+    "formula": "Ge1Nd1Pr3Si3",
+    "elements": {
+      "Ge": 1,
+      "Nd": 1,
+      "Pr": 3,
+      "Si": 3
+    },
+    "reduced_formula": "Pr3NdSi3Ge",
+    "element_list": [
+      "Si",
+      "Ge",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 48.6,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 6.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 48.6 g \n K: 12.0 g \n Se: 40.0 g \n Tb: 6.4 g"
+    },
+    "sourcing": {
+      "instructions": "Ag (Silver): Local metallurgical supply stores or online chemical suppliers. \n K (Potassium): Chemical supply companies or online. \n Se (Selenium): Chemical supply companies or online. \n Tb (Terbium): Rare earth metal suppliers or online.",
+      "steps": [
+        "Ag (Silver): Local metallurgical supply stores or online chemical suppliers.",
+        "K (Potassium): Chemical supply companies or online.",
+        "Se (Selenium): Chemical supply companies or online.",
+        "Tb (Terbium): Rare earth metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Ag, K, Se, and Tb with an electronic balance.",
+        "2. In a clean, dry mixing container, combine Ag, K, Se, and Tb in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring homogeneity.",
+        "4. Transfer the powder to a clean crucible for the next step."
+      ],
+      "raw_text": "1. Measure Ag, K, Se, and Tb with an electronic balance. \n 2. In a clean, dry mixing container, combine Ag, K, Se, and Tb in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring homogeneity. \n 4. Transfer the powder to a clean crucible for the next step."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800 °C.",
+        "2. Place the crucible with the mixed powder inside the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800 °C. \n 2. Place the crucible with the mixed powder inside the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and extract the solid sample.",
+        "2. Inspect the solid for any defects or unreacted materials.",
+        "3. If necessary, grind the solid to achieve a uniform consistency.",
+        "4. Optionally, seal with a suitable coating for protection against oxidation or environmental exposure."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and extract the solid sample. \n 2. Inspect the solid for any defects or unreacted materials. \n 3. If necessary, grind the solid to achieve a uniform consistency. \n 4. Optionally, seal with a suitable coating for protection against oxidation or environmental exposure."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1987765.0,
+      "density": 6047.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -460144.0,
+      "formation_energy_per_atom": -7506.0,
+      "decomposition_energy_per_atom": -77.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -74.0,
+      "decomposition_energy_mp_oqmd": -74.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e724128867",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.470653Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Nd1Pr3Si3.json",
+      "material://Ge1Nd1Pr3Si3"
+    ]
+  }
+}

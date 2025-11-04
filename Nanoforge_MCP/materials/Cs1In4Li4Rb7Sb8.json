@@ -1,0 +1,139 @@
+{
+  "id": "Cs1In4Li4Rb7Sb8",
+  "uri": "material://Cs1In4Li4Rb7Sb8",
+  "composition": {
+    "formula": "Cs1In4Li4Rb7Sb8",
+    "elements": {
+      "Cs": 1,
+      "In": 4,
+      "Li": 4,
+      "Rb": 7,
+      "Sb": 8
+    },
+    "reduced_formula": "CsRb7Li4(InSb2)4",
+    "element_list": [
+      "Li",
+      "Rb",
+      "In",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 2.5 g \n In: 10 g \n Li: 5 g \n Rb: 25 g \n Sb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Specialty chemical suppliers (e.g., Sigma-Aldrich) \n In: Electronic component suppliers \n Li: Battery material suppliers \n Rb: Specialty chemical suppliers \n Sb: Metal supply stores",
+      "steps": [
+        "Cs: Specialty chemical suppliers (e.g., Sigma-Aldrich)",
+        "In: Electronic component suppliers",
+        "Li: Battery material suppliers",
+        "Rb: Specialty chemical suppliers",
+        "Sb: Metal supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry environment, combine Cs, In, Li, Rb, and Sb in a ceramic crucible.",
+        "3. Use a high-purity spatula to ensure even mixing until a homogeneous powder is obtained."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry environment, combine Cs, In, Li, Rb, and Sb in a ceramic crucible. \n 3. Use a high-purity spatula to ensure even mixing until a homogeneous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Once at temperature, place the crucible with the mixed powders inside.",
+        "3. Hold at 800°C for 2 hours to facilitate reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Once at temperature, place the crucible with the mixed powders inside. \n 3. Hold at 800°C for 2 hours to facilitate reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure that the furnace door remains closed until fully cool to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Ensure that the furnace door remains closed until fully cool to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid product from the crucible carefully.",
+        "2. Grind the solid using a mortar and pestle to desired fineness if needed.",
+        "3. If required, shape the material into the desired dimensions using a mold or by cutting with a suitable tool.",
+        "4. Seal the surface with a protective coating if necessary for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid product from the crucible carefully. \n 2. Grind the solid using a mortar and pestle to desired fineness if needed. \n 3. If required, shape the material into the desired dimensions using a mold or by cutting with a suitable tool. \n 4. Seal the surface with a protective coating if necessary for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 8474866.0,
+      "density": 42955.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -727913.0,
+      "formation_energy_per_atom": -5566.0,
+      "decomposition_energy_per_atom": -863.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -874.0,
+      "decomposition_energy_mp_oqmd": -547.0
+    },
+    "electronic": {
+      "bandgap": 0.5754,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0cbd862351",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:32.425181Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1In4Li4Rb7Sb8.json",
+      "material://Cs1In4Li4Rb7Sb8"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "id": "Fe4O12Rb16",
+  "uri": "material://Fe4O12Rb16",
+  "composition": {
+    "formula": "Fe4O12Rb16",
+    "elements": {
+      "Fe": 4,
+      "O": 12,
+      "Rb": 16
+    },
+    "reduced_formula": "Rb4FeO3",
+    "element_list": [
+      "O",
+      "Fe",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Iron(III) oxide (Fe2O3): 1200 g \n Rubidium carbonate (Rb2CO3): 560 g \n Oxygen source (e.g., hydrogen peroxide or O2 gas): 30 g"
+    },
+    "sourcing": {
+      "instructions": "Iron(III) oxide can be purchased from chemical supply stores or online platforms. Rubidium carbonate may be available through specialized chemical suppliers or online. Oxygen sources can be obtained from chemical supply stores or hardware stores in the case of hydrogen peroxide.",
+      "steps": [
+        "Iron(III) oxide can be purchased from chemical supply stores or online platforms. Rubidium carbonate may be available through specialized chemical suppliers or online. Oxygen sources can be obtained from chemical supply stores or hardware stores in the case of hydrogen peroxide."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1200 g of Iron(III) oxide (Fe2O3) and 560 g of Rubidium carbonate (Rb2CO3).",
+        "2. In a clean, dry mixing container, combine the two powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to achieve a uniform mixture.",
+        "3. Gradually add 30 g of the oxygen source, mixing continuously to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 1200 g of Iron(III) oxide (Fe2O3) and 560 g of Rubidium carbonate (Rb2CO3). \n 2. In a clean, dry mixing container, combine the two powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes to achieve a uniform mixture. \n 3. Gradually add 30 g of the oxygen source, mixing continuously to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 1000 °C over 2 hours and maintain this temperature for 4 hours to facilitate complete reaction and formation of Fe4O12Rb16."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 1000 °C over 2 hours and maintain this temperature for 4 hours to facilitate complete reaction and formation of Fe4O12Rb16."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure the crucible is not disturbed during cooling to prevent cracking. This process may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure the crucible is not disturbed during cooling to prevent cracking. This process may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, use sandpaper to smooth any rough edges or surfaces.",
+        "4. Optionally, seal the surface with a suitable sealant to protect against moisture and degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, use sandpaper to smooth any rough edges or surfaces. \n 4. Optionally, seal the surface with a suitable sealant to protect against moisture and degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 785235.0,
+      "density": 37702.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1535854.0,
+      "formation_energy_per_atom": -1395.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -61.0,
+      "decomposition_energy_mp_oqmd": -59.0
+    },
+    "electronic": {
+      "bandgap": 1.1484,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "39fb7e8aad",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:32.013743Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4O12Rb16.json",
+      "material://Fe4O12Rb16"
+    ]
+  }
+}

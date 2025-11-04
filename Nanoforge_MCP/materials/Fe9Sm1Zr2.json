@@ -1,0 +1,112 @@
+{
+  "id": "Fe9Sm1Zr2",
+  "uri": "material://Fe9Sm1Zr2",
+  "composition": {
+    "formula": "Fe9Sm1Zr2",
+    "elements": {
+      "Fe": 9,
+      "Sm": 1,
+      "Zr": 2
+    },
+    "reduced_formula": "SmZr2Fe9",
+    "element_list": [
+      "Fe",
+      "Zr",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 1080 g \n - Samarium (Sm): 120 g \n - Zirconium (Zr): 240 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Local metal suppliers or online retailers (e.g., metal supermarkets) \n - Samarium: Specialty chemical suppliers or online stores (e.g., Aldrich, Sigma-Aldrich) \n - Zirconium: Metal supply companies or online marketplaces (e.g., Amazon, eBay)",
+      "steps": [
+        "- Iron: Local metal suppliers or online retailers (e.g., metal supermarkets)",
+        "- Samarium: Specialty chemical suppliers or online stores (e.g., Aldrich, Sigma-Aldrich)",
+        "- Zirconium: Metal supply companies or online marketplaces (e.g., Amazon, eBay)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 1080 g of Iron powder using a digital scale.",
+        "2. Measure out 120 g of Samarium powder.",
+        "3. Measure out 240 g of Zirconium powder.",
+        "4. Combine all measured powders in a clean, dry mixing container.",
+        "5. Use a mechanical mixer or ball mill to thoroughly mix the powders for 30 minutes, ensuring a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure out 1080 g of Iron powder using a digital scale. \n 2. Measure out 120 g of Samarium powder. \n 3. Measure out 240 g of Zirconium powder. \n 4. Combine all measured powders in a clean, dry mixing container. \n 5. Use a mechanical mixer or ball mill to thoroughly mix the powders for 30 minutes, ensuring a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200 °C.",
+        "2. Transfer the mixed powders into a suitable crucible for high-temperature processing.",
+        "3. Place the crucible inside the vacuum furnace and maintain a vacuum pressure of 10^-3 Torr.",
+        "4. Heat the crucible at a rate of 10 °C/min until reaching 1200 °C.",
+        "5. Hold at 1200 °C for 2 hours to allow for sintering and alloy formation."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200 °C. \n 2. Transfer the mixed powders into a suitable crucible for high-temperature processing. \n 3. Place the crucible inside the vacuum furnace and maintain a vacuum pressure of 10^-3 Torr. \n 4. Heat the crucible at a rate of 10 °C/min until reaching 1200 °C. \n 5. Hold at 1200 °C for 2 hours to allow for sintering and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours depending on furnace design."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours depending on furnace design."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample.",
+        "2. Use a grinder or sanding tool to smooth out any rough edges on the sample.",
+        "3. Optionally, apply a protective coating to the surface of the alloy for enhanced durability and appearance.",
+        "4. Allow the protective coating to cure as per manufacturer instructions before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample. \n 2. Use a grinder or sanding tool to smooth out any rough edges on the sample. \n 3. Optionally, apply a protective coating to the surface of the alloy for enhanced durability and appearance. \n 4. Allow the protective coating to cure as per manufacturer instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1742181.0,
+      "density": 79626.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -998848.0,
+      "formation_energy_per_atom": -1534.0,
+      "decomposition_energy_per_atom": -132.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -122.0
+    },
+    "electronic": {
+      "bandgap": 0.0074,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "82e7ee41aa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:07.360288Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe9Sm1Zr2.json",
+      "material://Fe9Sm1Zr2"
+    ]
+  }
+}

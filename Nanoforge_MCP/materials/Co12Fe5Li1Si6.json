@@ -1,0 +1,114 @@
+{
+  "id": "Co12Fe5Li1Si6",
+  "uri": "material://Co12Fe5Li1Si6",
+  "composition": {
+    "formula": "Co12Fe5Li1Si6",
+    "elements": {
+      "Co": 12,
+      "Fe": 5,
+      "Li": 1,
+      "Si": 6
+    },
+    "reduced_formula": "LiFe5(Co2Si)6",
+    "element_list": [
+      "Li",
+      "Si",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 240 g, Fe: 100 g, Li: 20 g, Si: 360 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online; Fe: Available at metal suppliers; Li: Specialty chemical suppliers; Si: Chemical supply stores.",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online; Fe: Available at metal suppliers; Li: Specialty chemical suppliers; Si: Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine Co and Fe thoroughly.",
+        "3. Gradually add Li while mixing continuously.",
+        "4. Slowly incorporate Si while ensuring uniform distribution of all components.",
+        "5. Mix until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing bowl, combine Co and Fe thoroughly. \n 3. Gradually add Li while mixing continuously. \n 4. Slowly incorporate Si while ensuring uniform distribution of all components. \n 5. Mix until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or kiln to 800°C.",
+        "2. Place the mixed powder in a suitable crucible.",
+        "3. Heat the mixture for 2 hours to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 800°C. \n 2. Place the mixed powder in a suitable crucible. \n 3. Heat the mixture for 2 hours to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it is safe to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it is safe to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use a grinder or sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the material with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use a grinder or sandpaper to smooth any rough edges. \n 3. Optionally, seal the material with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2646464.0,
+      "density": 72903.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -17114.0,
+      "formation_energy_per_atom": -3762.0,
+      "decomposition_energy_per_atom": -163.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -73.0,
+      "decomposition_energy_mp": -16.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8d300f60aa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:21.495980Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co12Fe5Li1Si6.json",
+      "material://Co12Fe5Li1Si6"
+    ]
+  }
+}

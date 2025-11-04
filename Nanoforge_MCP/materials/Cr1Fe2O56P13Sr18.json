@@ -1,0 +1,139 @@
+{
+  "id": "Cr1Fe2O56P13Sr18",
+  "uri": "material://Cr1Fe2O56P13Sr18",
+  "composition": {
+    "formula": "Cr1Fe2O56P13Sr18",
+    "elements": {
+      "Cr": 1,
+      "Fe": 2,
+      "O": 56,
+      "P": 13,
+      "Sr": 18
+    },
+    "reduced_formula": "Sr18CrFe2P13O56",
+    "element_list": [
+      "O",
+      "P",
+      "Cr",
+      "Fe",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 112.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 15.0 g \n Fe: 60.0 g \n O: 112.0 g (calculated as O2) \n P: 10.0 g \n Sr: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical suppliers (e.g., Sigma-Aldrich) \n Fe: Metal suppliers or online chemical retailers \n O: Oxygen can be sourced as part of other chemicals or directly from suppliers \n P: Phosphorus from chemical suppliers \n Sr: Strontium from chemical suppliers",
+      "steps": [
+        "Cr: Chemical suppliers (e.g., Sigma-Aldrich)",
+        "Fe: Metal suppliers or online chemical retailers",
+        "O: Oxygen can be sourced as part of other chemicals or directly from suppliers",
+        "P: Phosphorus from chemical suppliers",
+        "Sr: Strontium from chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Cr, Fe, P, and Sr powders.",
+        "3. Gradually add O2, ensuring even distribution.",
+        "4. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale. \n 2. In a clean, dry container, combine Cr, Fe, P, and Sr powders. \n 3. Gradually add O2, ensuring even distribution. \n 4. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat the crucible in a furnace to 1200°C for 4 hours.",
+        "3. Maintain an inert atmosphere to prevent oxidation during heating."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat the crucible in a furnace to 1200°C for 4 hours. \n 3. Maintain an inert atmosphere to prevent oxidation during heating."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool slowly inside the furnace to room temperature (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool slowly inside the furnace to room temperature (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Use a file or sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a sealant if the material is to be used in a reactive environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Use a file or sandpaper to smooth any rough edges. \n 3. Optionally, apply a sealant if the material is to be used in a reactive environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 90,
+      "volume": 13313766.0,
+      "density": 37909.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -6899463.0,
+      "formation_energy_per_atom": -3172.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -107.0,
+      "decomposition_energy_mp": -11.0,
+      "decomposition_energy_mp_oqmd": -107.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "280ac8e8de",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:08.422830Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Fe2O56P13Sr18.json",
+      "material://Cr1Fe2O56P13Sr18"
+    ]
+  }
+}

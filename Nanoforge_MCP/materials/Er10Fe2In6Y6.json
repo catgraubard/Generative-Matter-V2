@@ -1,0 +1,128 @@
+{
+  "id": "Er10Fe2In6Y6",
+  "uri": "material://Er10Fe2In6Y6",
+  "composition": {
+    "formula": "Er10Fe2In6Y6",
+    "elements": {
+      "Er": 10,
+      "Fe": 2,
+      "In": 6,
+      "Y": 6
+    },
+    "reduced_formula": "Y3Er5In3Fe",
+    "element_list": [
+      "Fe",
+      "Y",
+      "In",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 10 g \n Fe: 20 g \n In: 30 g \n Y: 36 g"
+    },
+    "sourcing": {
+      "instructions": "Erbium (Er) from a rare earth supplier, Iron (Fe) from a metal supplier, Indium (In) from a metal distributor, Yttrium (Y) from a chemical supplier.",
+      "steps": [
+        "Erbium (Er) from a rare earth supplier, Iron (Fe) from a metal supplier, Indium (In) from a metal distributor, Yttrium (Y) from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Er, Fe, In, and Y in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder.",
+        "4. Transfer the powder to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Er, Fe, In, and Y in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture into a fine powder. \n 4. Transfer the powder to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible made of alumina.",
+        "3. Insert the crucible into the furnace and sinter for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder in a crucible made of alumina. \n 3. Insert the crucible into the furnace and sinter for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the sintering process, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent cracking in the material."
+      ],
+      "raw_text": "1. After the sintering process, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent cracking in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges.",
+        "3. If necessary, apply a sealant designed for metal composites to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth out any rough edges. \n 3. If necessary, apply a sealant designed for metal composites to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6469175.0,
+      "density": 77175.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1252949.0,
+      "formation_energy_per_atom": -307.0,
+      "decomposition_energy_per_atom": -126.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -126.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7d2d209222",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:59.432036Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er10Fe2In6Y6.json",
+      "material://Er10Fe2In6Y6"
+    ]
+  }
+}

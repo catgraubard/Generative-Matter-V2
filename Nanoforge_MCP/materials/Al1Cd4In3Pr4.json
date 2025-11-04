@@ -1,0 +1,115 @@
+{
+  "id": "Al1Cd4In3Pr4",
+  "uri": "material://Al1Cd4In3Pr4",
+  "composition": {
+    "formula": "Al1Cd4In3Pr4",
+    "elements": {
+      "Al": 1,
+      "Cd": 4,
+      "In": 3,
+      "Pr": 4
+    },
+    "reduced_formula": "Pr4AlCd4In3",
+    "element_list": [
+      "Al",
+      "Cd",
+      "In",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 30 g, Sm: 70 g, Sn: 90 g, Y: 60 g"
+    },
+    "sourcing": {
+      "instructions": "La: Specialty chemical suppliers; Sm: Rare earth element suppliers; Sn: Metal suppliers; Y: Chemical supply stores",
+      "steps": [
+        "La: Specialty chemical suppliers; Sm: Rare earth element suppliers; Sn: Metal suppliers; Y: Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 30 g of La, 70 g of Sm, 90 g of Sn, and 60 g of Y using an analytical balance.",
+        "2. Combine all elements in a clean, dry crucible.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the powder back to the crucible."
+      ],
+      "raw_text": "1. Measure out 30 g of La, 70 g of Sm, 90 g of Sn, and 60 g of Y using an analytical balance. \n2. Combine all elements in a clean, dry crucible. \n3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n4. Transfer the powder back to the crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 1000°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure full reaction of the elements."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n2. Heat to 1000°C at a rate of 5°C/min. \n3. Maintain the temperature for 4 hours to ensure full reaction of the elements."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature over a period of 6 hours.",
+        "2. Once cooled, carefully remove the crucible to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature over a period of 6 hours. \n2. Once cooled, carefully remove the crucible to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the edges to achieve a smooth finish.",
+        "3. Optionally, apply a coating to seal the surface for protection.",
+        "4. Allow the coated sample to cure for 24 hours in a controlled environment."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n2. Sand the edges to achieve a smooth finish. \n3. Optionally, apply a coating to seal the surface for protection. \n4. Allow the coated sample to cure for 24 hours in a controlled environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3261252.0,
+      "density": 70506.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -401213.0,
+      "formation_energy_per_atom": -4421.0,
+      "decomposition_energy_per_atom": -165.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -165.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d88eb87e24",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.591602Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Cd4In3Pr4.json",
+      "material://Al1Cd4In3Pr4"
+    ]
+  }
+}

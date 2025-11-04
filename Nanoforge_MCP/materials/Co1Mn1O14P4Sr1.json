@@ -1,0 +1,140 @@
+{
+  "id": "Co1Mn1O14P4Sr1",
+  "uri": "material://Co1Mn1O14P4Sr1",
+  "composition": {
+    "formula": "Co1Mn1O14P4Sr1",
+    "elements": {
+      "Co": 1,
+      "Mn": 1,
+      "O": 14,
+      "P": 4,
+      "Sr": 1
+    },
+    "reduced_formula": "SrMnCo(P2O7)2",
+    "element_list": [
+      "O",
+      "P",
+      "Mn",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 112.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g \n Mn: 40 g \n O: 112 g \n P: 20 g \n Sr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt Oxide): Purchase from a chemical supply store or online. \n Mn (Manganese Oxide): Available at chemical suppliers or online. \n O (Oxides): Use as part of the Co and Mn sourcing. \n P (Phosphorus Pentoxide): Obtain from chemical supply stores. \n Sr (Strontium Carbonate): Sourced from chemical suppliers or online.",
+      "steps": [
+        "Co (Cobalt Oxide): Purchase from a chemical supply store or online.",
+        "Mn (Manganese Oxide): Available at chemical suppliers or online.",
+        "O (Oxides): Use as part of the Co and Mn sourcing.",
+        "P (Phosphorus Pentoxide): Obtain from chemical supply stores.",
+        "Sr (Strontium Carbonate): Sourced from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the precise amounts of each material using a digital scale.",
+        "2. In a clean, dry ceramic or glass mixing bowl, combine Co (40 g), Mn (40 g), O (112 g), P (20 g), and Sr (10 g).",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity.",
+        "4. Transfer the powdered mixture into a clean ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out the precise amounts of each material using a digital scale. \n 2. In a clean, dry ceramic or glass mixing bowl, combine Co (40 g), Mn (40 g), O (112 g), P (20 g), and Sr (10 g). \n 3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring uniformity. \n 4. Transfer the powdered mixture into a clean ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C (1472°F).",
+        "2. Place the crucible in the furnace and heat for 4 hours.",
+        "3. After 4 hours, gradually increase the temperature to 1000°C (1832°F) and maintain for an additional 2 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C (1472°F). \n 2. Place the crucible in the furnace and heat for 4 hours. \n 3. After 4 hours, gradually increase the temperature to 1000°C (1832°F) and maintain for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw or grinder to shape the material into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw or grinder to shape the material into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2689341.0,
+      "density": 33921.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1632338.0,
+      "formation_energy_per_atom": -25881.0,
+      "decomposition_energy_per_atom": -35.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.911,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2955609adc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:10.264475Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Mn1O14P4Sr1.json",
+      "material://Co1Mn1O14P4Sr1"
+    ]
+  }
+}

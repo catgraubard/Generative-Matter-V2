@@ -1,0 +1,111 @@
+{
+  "id": "As24Cs3Ga12Na33",
+  "uri": "material://As24Cs3Ga12Na33",
+  "composition": {
+    "formula": "As24Cs3Ga12Na33",
+    "elements": {
+      "As": 24,
+      "Cs": 3,
+      "Ga": 12,
+      "Na": 33
+    },
+    "reduced_formula": "CsNa11(GaAs2)4",
+    "element_list": [
+      "Na",
+      "Ga",
+      "As",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 150.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 150 g, Er: 10 g, Li: 10 g, P: 120 g, Tm: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online chemical vendors; Er: Rare earth material suppliers; Li: Lithium suppliers or battery recycling centers; P: Chemical supply companies; Tm: Rare earth material suppliers",
+      "steps": [
+        "Co: Metal suppliers or online chemical vendors; Er: Rare earth material suppliers; Li: Lithium suppliers or battery recycling centers; P: Chemical supply companies; Tm: Rare earth material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Er, Li, P, and Tm.",
+        "3. Use a mechanical stirrer or mortar and pestle to mix the powders thoroughly for at least 10 minutes until homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Co, Er, Li, P, and Tm. \n 3. Use a mechanical stirrer or mortar and pestle to mix the powders thoroughly for at least 10 minutes until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at a temperature of 1200°C for 2 hours to facilitate sintering. Ensure a controlled atmosphere if necessary to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at a temperature of 1200°C for 2 hours to facilitate sintering. Ensure a controlled atmosphere if necessary to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature slowly (approximately 4 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature slowly (approximately 4 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. Use fine-grit sandpaper to smooth the surface if needed.",
+        "4. Optionally, apply a sealant to enhance durability, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. Use fine-grit sandpaper to smooth the surface if needed. \n 4. Optionally, apply a sealant to enhance durability, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 72,
+      "volume": 19064453.0,
+      "density": 3303.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -226362.0,
+      "formation_energy_per_atom": -4427.0,
+      "decomposition_energy_per_atom": -301.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -298.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5ba94beb4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.894433Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As24Cs3Ga12Na33.json",
+      "material://As24Cs3Ga12Na33"
+    ]
+  }
+}

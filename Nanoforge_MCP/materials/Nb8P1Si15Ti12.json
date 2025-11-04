@@ -1,0 +1,131 @@
+{
+  "id": "Nb8P1Si15Ti12",
+  "uri": "material://Nb8P1Si15Ti12",
+  "composition": {
+    "formula": "Nb8P1Si15Ti12",
+    "elements": {
+      "Nb": 8,
+      "P": 1,
+      "Si": 15,
+      "Ti": 12
+    },
+    "reduced_formula": "Ti12Nb8Si15P",
+    "element_list": [
+      "Si",
+      "P",
+      "Ti",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 72.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 32.0 g \n P: 4.0 g \n Si: 90.0 g \n Ti: 72.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nb (Niobium): Specialty metal suppliers or online metal distributors \n P (Phosphorus): Chemical supply companies \n Si (Silicon): Electronic component suppliers or chemical suppliers \n Ti (Titanium): Metal suppliers or alloy manufacturers",
+      "steps": [
+        "Nb (Niobium): Specialty metal suppliers or online metal distributors",
+        "P (Phosphorus): Chemical supply companies",
+        "Si (Silicon): Electronic component suppliers or chemical suppliers",
+        "Ti (Titanium): Metal suppliers or alloy manufacturers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, add Nb, P, Si, and Ti in the specified order.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly blend the powders for at least 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder into a suitable mold for shaping the solid sample."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry mixing container, add Nb, P, Si, and Ti in the specified order. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly blend the powders for at least 10 minutes to ensure homogeneity. \n 4. Transfer the mixed powder into a suitable mold for shaping the solid sample."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C (2192°F).",
+        "2. Place the mold containing the mixed powders into the furnace.",
+        "3. Maintain this temperature for 2 hours to facilitate reaction and fusion of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C (2192°F). \n 2. Place the mold containing the mixed powders into the furnace. \n 3. Maintain this temperature for 2 hours to facilitate reaction and fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating is complete, turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours).",
+        "2. Do not open the furnace until it has fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating is complete, turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours). \n 2. Do not open the furnace until it has fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the mold.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges and surfaces.",
+        "3. Optionally, apply a sealant if needed for surface protection, following the manufacturer's instructions for curing time and method."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the mold. \n 2. Use a fine-grit sandpaper to smooth any rough edges and surfaces. \n 3. Optionally, apply a sealant if needed for surface protection, following the manufacturer's instructions for curing time and method."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5488749.0,
+      "density": 53546.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2911694.0,
+      "formation_energy_per_atom": -8006.0,
+      "decomposition_energy_per_atom": -657.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -304.0,
+      "decomposition_energy_mp": -652.0,
+      "decomposition_energy_mp_oqmd": -447.0
+    },
+    "electronic": {
+      "bandgap": 0.0016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7b5b81e357",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:57.213718Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb8P1Si15Ti12.json",
+      "material://Nb8P1Si15Ti12"
+    ]
+  }
+}

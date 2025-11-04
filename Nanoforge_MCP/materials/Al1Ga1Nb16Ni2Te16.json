@@ -1,0 +1,116 @@
+{
+  "id": "Al1Ga1Nb16Ni2Te16",
+  "uri": "material://Al1Ga1Nb16Ni2Te16",
+  "composition": {
+    "formula": "Al1Ga1Nb16Ni2Te16",
+    "elements": {
+      "Al": 1,
+      "Ga": 1,
+      "Nb": 16,
+      "Ni": 2,
+      "Te": 16
+    },
+    "reduced_formula": "Nb16AlGa(NiTe8)2",
+    "element_list": [
+      "Al",
+      "Ni",
+      "Ga",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 10.0 g, Ga: 10.0 g, Nb: 160.0 g, Ni: 20.0 g, Te: 160.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Metal supply store; Ga: Chemical supply company; Nb: Metal supply store; Ni: Metal supply store; Te: Chemical supply company",
+      "steps": [
+        "Al: Metal supply store; Ga: Chemical supply company; Nb: Metal supply store; Ni: Metal supply store; Te: Chemical supply company"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. In a clean, dry container, combine Al, Ga, Nb, Ni, and Te.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance.                                        \n 2. In a clean, dry container, combine Al, Ga, Nb, Ni, and Te. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat to 800 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat to 800 °C at a rate of 5 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the material to cool slowly to room temperature inside the furnace (approximately 4 hours).",
+        "2. Once cooled, remove the sample from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the material to cool slowly to room temperature inside the furnace (approximately 4 hours). \n 2. Once cooled, remove the sample from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any irregularities.",
+        "2. If needed, use a diamond saw to cut the sample to desired dimensions.",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Seal the sample with a clear epoxy if protection from oxidation is required."
+      ],
+      "raw_text": "1. Inspect the solid sample for any irregularities. \n 2. If needed, use a diamond saw to cut the sample to desired dimensions. \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Seal the sample with a clear epoxy if protection from oxidation is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10232675.0,
+      "density": 60728.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "1D"
+    },
+    "energetics": {
+      "corrected_energy": -2535135.0,
+      "formation_energy_per_atom": -6463.0,
+      "decomposition_energy_per_atom": -261.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -249.0,
+      "decomposition_energy_mp_oqmd": -243.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "faf505c0cd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.588462Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Ga1Nb16Ni2Te16.json",
+      "material://Al1Ga1Nb16Ni2Te16"
+    ]
+  }
+}

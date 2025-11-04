@@ -1,0 +1,110 @@
+{
+  "id": "Er16In3Ni4Sc1",
+  "uri": "material://Er16In3Ni4Sc1",
+  "composition": {
+    "formula": "Er16In3Ni4Sc1",
+    "elements": {
+      "Er": 16,
+      "In": 3,
+      "Ni": 4,
+      "Sc": 1
+    },
+    "reduced_formula": "Er16ScIn3Ni4",
+    "element_list": [
+      "Sc",
+      "Ni",
+      "In",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium Oxide (Er2O3): 30.00 g \n - Neodymium Oxide (Nd2O3): 60.00 g \n - Tungsten Oxide (WO3): 20.00 g \n - Yttrium Oxide (Y2O3): 25.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium Oxide: Specialty chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar) \n - Neodymium Oxide: Same suppliers as above \n - Tungsten Oxide: Available at metal supply stores or online \n - Yttrium Oxide: Chemical suppliers or online marketplaces",
+      "steps": [
+        "- Erbium Oxide: Specialty chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar)",
+        "- Neodymium Oxide: Same suppliers as above",
+        "- Tungsten Oxide: Available at metal supply stores or online",
+        "- Yttrium Oxide: Chemical suppliers or online marketplaces"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each oxide using an analytical balance for precision.",
+        "2. Combine the weighed oxides in a clean, dry ceramic or glass mixing container.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture to achieve a uniform powder consistency."
+      ],
+      "raw_text": "1. Weigh out each oxide using an analytical balance for precision. \n 2. Combine the weighed oxides in a clean, dry ceramic or glass mixing container. \n 3. Use a mortar and pestle to thoroughly grind the mixture to achieve a uniform powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible (preferably alumina).",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min and maintain this temperature for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible (preferably alumina). \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 1200°C at a rate of 5°C/min and maintain this temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid opening the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Avoid opening the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any imperfections and use sandpaper (grit 400-600) to smooth the surfaces if necessary.",
+        "3. Optionally, seal the surface with a clear epoxy resin for enhanced durability. Allow to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect for any imperfections and use sandpaper (grit 400-600) to smooth the surfaces if necessary. \n 3. Optionally, seal the surface with a clear epoxy resin for enhanced durability. Allow to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6087321.0,
+      "density": 90028.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1184804.0,
+      "formation_energy_per_atom": -3204.0,
+      "decomposition_energy_per_atom": -148.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -148.0,
+      "decomposition_energy_mp_oqmd": -131.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c3e090098f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.258823Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er16In3Ni4Sc1.json",
+      "material://Er16In3Ni4Sc1"
+    ]
+  }
+}

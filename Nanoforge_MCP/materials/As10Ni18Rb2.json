@@ -1,0 +1,111 @@
+{
+  "id": "As10Ni18Rb2",
+  "uri": "material://As10Ni18Rb2",
+  "composition": {
+    "formula": "As10Ni18Rb2",
+    "elements": {
+      "As": 10,
+      "Ni": 18,
+      "Rb": 2
+    },
+    "reduced_formula": "RbNi9As5",
+    "element_list": [
+      "Ni",
+      "As",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10 g, Ni: 18 g, Rb: 2 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier or online; Ni: Obtain from a metal supplier; Rb: Source from a specialty chemical vendor.",
+      "steps": [
+        "As: Purchase from a chemical supplier or online; Ni: Obtain from a metal supplier; Rb: Source from a specialty chemical vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh As, Ni, and Rb precisely using a digital scale.",
+        "2. Combine As and Ni in a clean, dry glass container.",
+        "3. Stir the mixture thoroughly to achieve homogeneity.",
+        "4. Slowly add Rb to the mixture while stirring continuously."
+      ],
+      "raw_text": "1. Weigh As, Ni, and Rb precisely using a digital scale. \n 2. Combine As and Ni in a clean, dry glass container. \n 3. Stir the mixture thoroughly to achieve homogeneity. \n 4. Slowly add Rb to the mixture while stirring continuously."
+    },
+    "heating": {
+      "temperature_celsius": 400,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature resistant crucible.",
+        "2. Heat the crucible to 400°C (752°F) in a muffle furnace.",
+        "3. Maintain this temperature for 1 hour to facilitate proper bonding of components."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature resistant crucible. \n 2. Heat the crucible to 400°C (752°F) in a muffle furnace. \n 3. Maintain this temperature for 1 hour to facilitate proper bonding of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature gradually (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature gradually (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the surface with a protective coating if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, seal the surface with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 449955.0,
+      "density": 72947.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1624427.0,
+      "formation_energy_per_atom": -3283.0,
+      "decomposition_energy_per_atom": -476.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -476.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "828ac04129",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:06.912137Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As10Ni18Rb2.json",
+      "material://As10Ni18Rb2"
+    ]
+  }
+}

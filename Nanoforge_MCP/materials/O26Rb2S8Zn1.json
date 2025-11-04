@@ -1,0 +1,134 @@
+{
+  "id": "O26Rb2S8Zn1",
+  "uri": "material://O26Rb2S8Zn1",
+  "composition": {
+    "formula": "O26Rb2S8Zn1",
+    "elements": {
+      "O": 26,
+      "Rb": 2,
+      "S": 8,
+      "Zn": 1
+    },
+    "reduced_formula": "Rb2Zn(S4O13)2",
+    "element_list": [
+      "O",
+      "S",
+      "Zn",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 78.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 65.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 78.0 g (Oxygen) \n Rb: 40.0 g (Rubidium) \n S: 128.0 g (Sulfur) \n Zn: 65.4 g (Zinc)"
+    },
+    "sourcing": {
+      "instructions": "O: Industrial gas supplier (oxygen tanks) \n Rb: Chemical supply company or online chemical retailer \n S: Chemical supply or sulfur supplier \n Zn: Metal supply store or online chemical retailer",
+      "steps": [
+        "O: Industrial gas supplier (oxygen tanks)",
+        "Rb: Chemical supply company or online chemical retailer",
+        "S: Chemical supply or sulfur supplier",
+        "Zn: Metal supply store or online chemical retailer"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 78.0 g of oxygen using a gas cylinder with a scale.",
+        "2. Measure 40.0 g of rubidium using a precise scale.",
+        "3. Weigh 128.0 g of sulfur.",
+        "4. Measure 65.4 g of zinc.",
+        "5. In a fume hood, slowly introduce rubidium to sulfur and zinc in a glass container, ensuring proper ventilation.",
+        "6. Add oxygen gradually while continuously stirring the mixture to prevent reaction hazards."
+      ],
+      "raw_text": "1. Weigh out 78.0 g of oxygen using a gas cylinder with a scale. \n 2. Measure 40.0 g of rubidium using a precise scale. \n 3. Weigh 128.0 g of sulfur. \n 4. Measure 65.4 g of zinc. \n 5. In a fume hood, slowly introduce rubidium to sulfur and zinc in a glass container, ensuring proper ventilation. \n 6. Add oxygen gradually while continuously stirring the mixture to prevent reaction hazards."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat the crucible in a furnace to 600°C for 2 hours.",
+        "3. Ensure the heating is done gradually to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat the crucible in a furnace to 600°C for 2 hours. \n 3. Ensure the heating is done gradually to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down to room temperature (approximately 1-2 hours).",
+        "2. Do not remove the crucible until it has fully cooled to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down to room temperature (approximately 1-2 hours). \n 2. Do not remove the crucible until it has fully cooled to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish.",
+        "3. Optionally, seal the sample with a clear epoxy resin to enhance durability.",
+        "4. Allow the sealant to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish. \n 3. Optionally, seal the sample with a clear epoxy resin to enhance durability. \n 4. Allow the sealant to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 37,
+      "volume": 5973135.0,
+      "density": 25266.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -231608.0,
+      "formation_energy_per_atom": -18013.0,
+      "decomposition_energy_per_atom": -168.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -99.0,
+      "decomposition_energy_mp": -175.0,
+      "decomposition_energy_mp_oqmd": -169.0
+    },
+    "electronic": {
+      "bandgap": 4.2791,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4cdec22885",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.813164Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O26Rb2S8Zn1.json",
+      "material://O26Rb2S8Zn1"
+    ]
+  }
+}

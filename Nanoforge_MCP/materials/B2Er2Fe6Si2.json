@@ -1,0 +1,127 @@
+{
+  "id": "B2Er2Fe6Si2",
+  "uri": "material://B2Er2Fe6Si2",
+  "composition": {
+    "formula": "B2Er2Fe6Si2",
+    "elements": {
+      "B": 2,
+      "Er": 2,
+      "Fe": 6,
+      "Si": 2
+    },
+    "reduced_formula": "ErFe3SiB",
+    "element_list": [
+      "B",
+      "Si",
+      "Fe",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 105.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 15 g \n Ga: 30 g \n S: 105 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply company or online vendor. \n Ga: Obtain from a metal supplier or chemical store. \n S: Source from a reputable mineral supplier.",
+      "steps": [
+        "Co: Purchase from a chemical supply company or online vendor.",
+        "Ga: Obtain from a metal supplier or chemical store.",
+        "S: Source from a reputable mineral supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15 g of cobalt (Co), 30 g of gallium (Ga), and 105 g of sulfur (S) using a precision balance.",
+        "2. In a fume hood or well-ventilated area, combine the weighed materials in a clean, dry ceramic or glass container.",
+        "3. Mix thoroughly using a spatula or glass rod until the mixture is homogenous."
+      ],
+      "raw_text": "1. Weigh out 15 g of cobalt (Co), 30 g of gallium (Ga), and 105 g of sulfur (S) using a precision balance. \n 2. In a fume hood or well-ventilated area, combine the weighed materials in a clean, dry ceramic or glass container. \n 3. Mix thoroughly using a spatula or glass rod until the mixture is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction and formation of Co1Ga2S21."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction and formation of Co1Ga2S21."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature gradually (approximately 6-8 hours) without opening the door to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature gradually (approximately 6-8 hours) without opening the door to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use pliers to extract the solidified material.",
+        "3. If necessary, grind the solid to remove any irregularities.",
+        "4. Optionally, seal with a clear epoxy resin for added durability.",
+        "5. Allow the epoxy to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use pliers to extract the solidified material. \n 3. If necessary, grind the solid to remove any irregularities. \n 4. Optionally, seal with a clear epoxy resin for added durability. \n 5. Allow the epoxy to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 150776.0,
+      "density": 82311.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -900878.0,
+      "formation_energy_per_atom": -4936.0,
+      "decomposition_energy_per_atom": -275.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -109.0,
+      "decomposition_energy_mp": -273.0,
+      "decomposition_energy_mp_oqmd": -219.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d36a9d8958",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.198986Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Er2Fe6Si2.json",
+      "material://B2Er2Fe6Si2"
+    ]
+  }
+}

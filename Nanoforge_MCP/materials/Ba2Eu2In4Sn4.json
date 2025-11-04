@@ -1,0 +1,111 @@
+{
+  "id": "Ba2Eu2In4Sn4",
+  "uri": "material://Ba2Eu2In4Sn4",
+  "composition": {
+    "formula": "Ba2Eu2In4Sn4",
+    "elements": {
+      "Ba": 2,
+      "Eu": 2,
+      "In": 4,
+      "Sn": 4
+    },
+    "reduced_formula": "BaEu(InSn)2",
+    "element_list": [
+      "In",
+      "Sn",
+      "Ba",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Barium Oxide (BaO): 250 g  \n - Europium Oxide (Eu2O3): 100 g  \n - Indium Metal (In): 200 g  \n - Tin Metal (Sn): 200 g  \n - Flux (optional, e.g., NaCl): 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Alfa Aesar) \n - Europium Oxide: Specialty chemical suppliers \n - Indium Metal: Metal suppliers or online stores \n - Tin Metal: Hardware stores or metal suppliers \n - Flux (NaCl): Grocery stores or chemical suppliers",
+      "steps": [
+        "- Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Alfa Aesar)",
+        "- Europium Oxide: Specialty chemical suppliers",
+        "- Indium Metal: Metal suppliers or online stores",
+        "- Tin Metal: Hardware stores or metal suppliers",
+        "- Flux (NaCl): Grocery stores or chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients accurately using a digital scale.",
+        "2. In a clean, dry container, mix BaO, Eu2O3, In, and Sn thoroughly using a spatula.",
+        "3. If using, add flux (NaCl) to the mixture and stir until evenly combined.",
+        "4. Transfer the mix into a ceramic crucible suitable for high temperatures."
+      ],
+      "raw_text": "1. Weigh the ingredients accurately using a digital scale. \n 2. In a clean, dry container, mix BaO, Eu2O3, In, and Sn thoroughly using a spatula. \n 3. If using, add flux (NaCl) to the mixture and stir until evenly combined. \n 4. Transfer the mix into a ceramic crucible suitable for high temperatures."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1100°C.",
+        "2. Place the ceramic crucible in the furnace and heat for 4 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1100°C. \n 2. Place the ceramic crucible in the furnace and heat for 4 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours). \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solidified sample from the crucible.",
+        "3. Inspect the surface for irregularities, sanding down rough edges using fine-grit sandpaper if necessary.",
+        "4. If desired, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solidified sample from the crucible. \n 3. Inspect the surface for irregularities, sanding down rough edges using fine-grit sandpaper if necessary. \n 4. If desired, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 4141473.0,
+      "density": 60652.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -579821.0,
+      "formation_energy_per_atom": -5429.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -145.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1f5153c5ac",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:56.762379Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Eu2In4Sn4.json",
+      "material://Ba2Eu2In4Sn4"
+    ]
+  }
+}

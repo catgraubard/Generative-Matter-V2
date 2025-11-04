@@ -1,0 +1,111 @@
+{
+  "id": "Fe4Na4O16Rb12",
+  "uri": "material://Fe4Na4O16Rb12",
+  "composition": {
+    "formula": "Fe4Na4O16Rb12",
+    "elements": {
+      "Fe": 4,
+      "Na": 4,
+      "O": 16,
+      "Rb": 12
+    },
+    "reduced_formula": "Rb3NaFeO4",
+    "element_list": [
+      "O",
+      "Na",
+      "Fe",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cadmium (Cd): 60.0 g \n Nickel (Ni): 20.0 g \n Terbium (Tb): 10.0 g \n Yttrium (Y): 171.0 g \n (Total: 261.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Cadmium: Chemical supply stores or authorized distributors. \n Nickel: Metal suppliers or online marketplaces. \n Terbium: Rare earth metal suppliers. \n Yttrium: Chemical supply stores or specialty metal vendors.",
+      "steps": [
+        "Cadmium: Chemical supply stores or authorized distributors.",
+        "Nickel: Metal suppliers or online marketplaces.",
+        "Terbium: Rare earth metal suppliers.",
+        "Yttrium: Chemical supply stores or specialty metal vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, mask).",
+        "2. Weigh each component precisely using a calibrated scale.",
+        "3. In a clean, dry container, combine Cd, Ni, Tb, and Y in the specified proportions.",
+        "4. Mix thoroughly using a pestle and mortar or mechanical mixer to ensure homogeneity."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, mask). \n 2. Weigh each component precisely using a calibrated scale. \n 3. In a clean, dry container, combine Cd, Ni, Tb, and Y in the specified proportions. \n 4. Mix thoroughly using a pestle and mortar or mechanical mixer to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a controlled rate, maintaining this temperature for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200°C at a controlled rate, maintaining this temperature for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C) over a period of 6-8 hours.",
+        "2. Avoid rapid cooling to prevent cracking or phase separation."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 25°C) over a period of 6-8 hours. \n 2. Avoid rapid cooling to prevent cracking or phase separation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections or rough edges.",
+        "3. If necessary, sand the edges using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally apply a clear sealant to enhance surface durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections or rough edges. \n 3. If necessary, sand the edges using fine-grit sandpaper for a smooth finish. \n 4. Optionally apply a clear sealant to enhance surface durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7119908.0,
+      "density": 37245.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1863392.0,
+      "formation_energy_per_atom": -15621.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -54.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": 0.2498,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d91bafd9ee",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.719747Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Na4O16Rb12.json",
+      "material://Fe4Na4O16Rb12"
+    ]
+  }
+}

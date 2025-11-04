@@ -1,0 +1,132 @@
+{
+  "id": "C4Cu2O12Rb4",
+  "uri": "material://C4Cu2O12Rb4",
+  "composition": {
+    "formula": "C4Cu2O12Rb4",
+    "elements": {
+      "C": 4,
+      "Cu": 2,
+      "O": 12,
+      "Rb": 4
+    },
+    "reduced_formula": "Rb2Cu(CO3)2",
+    "element_list": [
+      "C",
+      "O",
+      "Cu",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 15.0 g \n Sm: 45.0 g \n Sn: 60.0 g \n Tm: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from chemical supply companies or online suppliers. \n Sm: Obtain from rare earth metal suppliers. \n Sn: Available at metal shops or online chemical suppliers. \n Tm: Sourced from specialized rare earth metal distributors.",
+      "steps": [
+        "Co: Purchase from chemical supply companies or online suppliers.",
+        "Sm: Obtain from rare earth metal suppliers.",
+        "Sn: Available at metal shops or online chemical suppliers.",
+        "Tm: Sourced from specialized rare earth metal distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of Co, Sm, Sn, and Tm using a precision scale.",
+        "2. In a clean, dry container, combine the measured Co, Sm, Sn, and Tm powders.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved, approximately 10 minutes of grinding.",
+        "4. Transfer the mixture to a ball mill and mill for an additional 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of Co, Sm, Sn, and Tm using a precision scale. \n 2. In a clean, dry container, combine the measured Co, Sm, Sn, and Tm powders. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved, approximately 10 minutes of grinding. \n 4. Transfer the mixture to a ball mill and mill for an additional 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1,200 °C (2,192 °F).",
+        "2. Place the blended powder in a suitable crucible.",
+        "3. Heat the crucible in the furnace for 2 hours to allow for complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 1,200 °C (2,192 °F). \n 2. Place the blended powder in a suitable crucible. \n 3. Heat the crucible in the furnace for 2 hours to allow for complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure the crucible is handled with heat-resistant gloves to prevent burns."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Ensure the crucible is handled with heat-resistant gloves to prevent burns."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or irregularities.",
+        "3. Use a file or sandpaper to smooth out any sharp edges, ensuring a uniform finish.",
+        "4. Optionally, apply a sealant to enhance the surface finish and protect against oxidation. Allow the sealant to cure according to manufacturer instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any rough edges or irregularities. \n 3. Use a file or sandpaper to smooth out any sharp edges, ensuring a uniform finish. \n 4. Optionally, apply a sealant to enhance the surface finish and protect against oxidation. Allow the sealant to cure according to manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3575266.0,
+      "density": 3293.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fdd2",
+      "space_group_number": 43,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1489991.0,
+      "formation_energy_per_atom": -18453.0,
+      "decomposition_energy_per_atom": -532.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -534.0,
+      "decomposition_energy_mp": -538.0,
+      "decomposition_energy_mp_oqmd": -534.0
+    },
+    "electronic": {
+      "bandgap": 0.2815,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b64fb11bbf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.313634Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4Cu2O12Rb4.json",
+      "material://C4Cu2O12Rb4"
+    ]
+  }
+}

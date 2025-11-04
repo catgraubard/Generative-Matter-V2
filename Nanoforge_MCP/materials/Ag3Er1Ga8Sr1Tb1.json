@@ -1,0 +1,137 @@
+{
+  "id": "Ag3Er1Ga8Sr1Tb1",
+  "uri": "material://Ag3Er1Ga8Sr1Tb1",
+  "composition": {
+    "formula": "Ag3Er1Ga8Sr1Tb1",
+    "elements": {
+      "Ag": 3,
+      "Er": 1,
+      "Ga": 8,
+      "Sr": 1,
+      "Tb": 1
+    },
+    "reduced_formula": "SrTbErGa8Ag3",
+    "element_list": [
+      "Ga",
+      "Sr",
+      "Ag",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 360.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 30 g \n Ru: 150 g \n Tc: 180 g \n Zr: 360 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Buy from a metal supply store or online retailer specializing in industrial metals. \n Ru: Obtain from a precious metals supplier. \n Tc: Purchase from a nuclear materials supplier (ensure proper licensing). \n Zr: Acquire from a chemical supply company.",
+      "steps": [
+        "Ni: Buy from a metal supply store or online retailer specializing in industrial metals.",
+        "Ru: Obtain from a precious metals supplier.",
+        "Tc: Purchase from a nuclear materials supplier (ensure proper licensing).",
+        "Zr: Acquire from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30 g of nickel powder (Ni).",
+        "2. Weigh out 150 g of ruthenium powder (Ru).",
+        "3. Weigh out 180 g of technetium powder (Tc).",
+        "4. Weigh out 360 g of zirconium powder (Zr).",
+        "5. Combine all powders in a clean, dry mixing bowl.",
+        "6. Use a mortar and pestle to thoroughly mix the powders until uniform."
+      ],
+      "raw_text": "1. Weigh out 30 g of nickel powder (Ni). \n 2. Weigh out 150 g of ruthenium powder (Ru). \n 3. Weigh out 180 g of technetium powder (Tc). \n 4. Weigh out 360 g of zirconium powder (Zr). \n 5. Combine all powders in a clean, dry mixing bowl. \n 6. Use a mortar and pestle to thoroughly mix the powders until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat to 900°C (1652°F) at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat to 900°C (1652°F) at a rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the sample to cool down naturally to room temperature, approximately 1-2 hours.",
+        "3. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the sample to cool down naturally to room temperature, approximately 1-2 hours. \n 3. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the furnace.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges.",
+        "3. Optionally, apply a sealant to protect the surface if required."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the furnace. \n 2. Use a fine-grit sandpaper to smooth out any rough edges. \n 3. Optionally, apply a sealant to protect the surface if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2801506.0,
+      "density": 7677.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -498101.0,
+      "formation_energy_per_atom": -4426.0,
+      "decomposition_energy_per_atom": -109.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -109.0,
+      "decomposition_energy_mp_oqmd": -69.0
+    },
+    "electronic": {
+      "bandgap": 0.007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d09e1c8dd0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.382551Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag3Er1Ga8Sr1Tb1.json",
+      "material://Ag3Er1Ga8Sr1Tb1"
+    ]
+  }
+}

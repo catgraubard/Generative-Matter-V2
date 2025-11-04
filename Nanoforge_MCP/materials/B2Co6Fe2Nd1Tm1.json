@@ -1,0 +1,112 @@
+{
+  "id": "B2Co6Fe2Nd1Tm1",
+  "uri": "material://B2Co6Fe2Nd1Tm1",
+  "composition": {
+    "formula": "B2Co6Fe2Nd1Tm1",
+    "elements": {
+      "B": 2,
+      "Co": 6,
+      "Fe": 2,
+      "Nd": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "NdTmFe2(Co3B)2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Co",
+      "Nd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CsCl: 12.0 g  \n - Fe: 4.0 g  \n - Mo: 4.0 g  \n - Se: 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "- CsCl: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich). \n - Fe: Obtain from a metal supplier or hardware store, preferably in powder form. \n - Mo: Acquire from a metal supplier or specialty chemical vendor in powder form. \n - Se: Buy from a chemical supplier or online (e.g., Alfa Aesar).",
+      "steps": [
+        "- CsCl: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "- Fe: Obtain from a metal supplier or hardware store, preferably in powder form.",
+        "- Mo: Acquire from a metal supplier or specialty chemical vendor in powder form.",
+        "- Se: Buy from a chemical supplier or online (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mortar and pestle, combine CsCl, Fe, Mo, and Se powders.",
+        "3. Grind the mixture thoroughly until a homogeneous powder is obtained (approximately 10 minutes).",
+        "4. Transfer the powder into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mortar and pestle, combine CsCl, Fe, Mo, and Se powders. \n 3. Grind the mixture thoroughly until a homogeneous powder is obtained (approximately 10 minutes). \n 4. Transfer the powder into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Cs2Fe1Mo1Se4."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible with the mixture inside the furnace. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Cs2Fe1Mo1Se4."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).",
+        "2. Ensure the crucible is not disturbed during the cooling process to prevent cracking."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours). \n 2. Ensure the crucible is not disturbed during the cooling process to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified material from the crucible.",
+        "2. Use sandpaper (grit 240) to smooth any rough edges.",
+        "3. Optionally, apply a sealant if the material will be exposed to the environment for protection. Ensure the sealant is compatible with the material."
+      ],
+      "raw_text": "1. Carefully remove the solidified material from the crucible. \n 2. Use sandpaper (grit 240) to smooth any rough edges. \n 3. Optionally, apply a sealant if the material will be exposed to the environment for protection. Ensure the sealant is compatible with the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1520667.0,
+      "density": 87368.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -858468.0,
+      "formation_energy_per_atom": -3045.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e333918e7d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.511354Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co6Fe2Nd1Tm1.json",
+      "material://B2Co6Fe2Nd1Tm1"
+    ]
+  }
+}

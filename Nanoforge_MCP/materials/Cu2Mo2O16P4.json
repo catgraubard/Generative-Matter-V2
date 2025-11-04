@@ -1,0 +1,108 @@
+{
+  "id": "Cu2Mo2O16P4",
+  "uri": "material://Cu2Mo2O16P4",
+  "composition": {
+    "formula": "Cu2Mo2O16P4",
+    "elements": {
+      "Cu": 2,
+      "Mo": 2,
+      "O": 16,
+      "P": 4
+    },
+    "reduced_formula": "CuMo(PO4)2",
+    "element_list": [
+      "O",
+      "P",
+      "Cu",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Copper(II) oxide (CuO): 800 g  \n - Molybdenum trioxide (MoO3): 300 g  \n - Phosphorus pentoxide (P2O5): 200 g"
+    },
+    "sourcing": {
+      "instructions": "- Copper(II) oxide (CuO): Available from chemical supply stores or online chemical retailers. \n - Molybdenum trioxide (MoO3): Can be sourced from specialized metal and chemical suppliers. \n - Phosphorus pentoxide (P2O5): Obtainable from chemical distributors or online marketplaces.",
+      "steps": [
+        "- Copper(II) oxide (CuO): Available from chemical supply stores or online chemical retailers.",
+        "- Molybdenum trioxide (MoO3): Can be sourced from specialized metal and chemical suppliers.",
+        "- Phosphorus pentoxide (P2O5): Obtainable from chemical distributors or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh out 800 g of CuO, 300 g of MoO3, and 200 g of P2O5 using a digital scale.",
+        "2. In a mortar and pestle, carefully grind the three powders together until a homogeneous mixture is achieved.",
+        "3. Transfer the mixed powders into a ceramic crucible."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh out 800 g of CuO, 300 g of MoO3, and 200 g of P2O5 using a digital scale. \n 2. In a mortar and pestle, carefully grind the three powders together until a homogeneous mixture is achieved. \n 3. Transfer the mixed powders into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the ceramic crucible containing the mixture inside the furnace.",
+        "3. Maintain the temperature at 800°C for 6 hours to ensure complete reaction and formation of Cu2Mo2O16P4."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the ceramic crucible containing the mixture inside the furnace. \n 3. Maintain the temperature at 800°C for 6 hours to ensure complete reaction and formation of Cu2Mo2O16P4."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure that the crucible remains closed during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Ensure that the crucible remains closed during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges on the sample.",
+        "3. If desired, apply a sealing agent to enhance the durability of the final product. Allow it to cure as per the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth out any rough edges on the sample. \n 3. If desired, apply a sealing agent to enhance the durability of the final product. Allow it to cure as per the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3047318.0,
+      "density": 38082.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1847384.0,
+      "formation_energy_per_atom": -22512.0,
+      "decomposition_energy_per_atom": -45.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -52.0,
+      "decomposition_energy_mp_oqmd": -23.0
+    },
+    "electronic": {
+      "bandgap": 0.4428,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "87b664569a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:13.681842Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Mo2O16P4.json",
+      "material://Cu2Mo2O16P4"
+    ]
+  }
+}

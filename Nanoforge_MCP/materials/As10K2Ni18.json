@@ -1,0 +1,125 @@
+{
+  "id": "As10K2Ni18",
+  "uri": "material://As10K2Ni18",
+  "composition": {
+    "formula": "As10K2Ni18",
+    "elements": {
+      "As": 10,
+      "K": 2,
+      "Ni": 18
+    },
+    "reduced_formula": "KNi9As5",
+    "element_list": [
+      "K",
+      "Ni",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 180.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 100 g \n K: 20 g \n Ni: 180 g"
+    },
+    "sourcing": {
+      "instructions": "As: Specialty chemical suppliers or online marketplaces \n K: Chemical supply stores or online \n Ni: Metal suppliers or online retailers",
+      "steps": [
+        "As: Specialty chemical suppliers or online marketplaces",
+        "K: Chemical supply stores or online",
+        "Ni: Metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 100 g of Arsenic (As)",
+        "2. Measure 20 g of Potassium (K)",
+        "3. Measure 180 g of Nickel (Ni)",
+        "4. In a fume hood, carefully mix As and K in a glass container.",
+        "5. Gradually add Ni to the mixture while stirring consistently to ensure even distribution."
+      ],
+      "raw_text": "1. Measure 100 g of Arsenic (As) \n 2. Measure 20 g of Potassium (K) \n 3. Measure 180 g of Nickel (Ni) \n 4. In a fume hood, carefully mix As and K in a glass container. \n 5. Gradually add Ni to the mixture while stirring consistently to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours.",
+        "3. Ensure that the heating is done in a controlled atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible. \n 2. Heat the crucible in a furnace to 800°C (1472°F) for 2 hours. \n 3. Ensure that the heating is done in a controlled atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature over 6 hours.",
+        "2. Avoid sudden temperature changes to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature over 6 hours. \n 2. Avoid sudden temperature changes to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth the edges and surfaces for a uniform finish.",
+        "3. If necessary, apply a sealant to protect the surface from environmental factors.",
+        "4. Allow sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper to smooth the edges and surfaces for a uniform finish. \n 3. If necessary, apply a sealant to protect the surface from environmental factors. \n 4. Allow sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4442024.0,
+      "density": 70425.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1629903.0,
+      "formation_energy_per_atom": -3379.0,
+      "decomposition_energy_per_atom": -534.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -115.0,
+      "decomposition_energy_mp": -534.0,
+      "decomposition_energy_mp_oqmd": -374.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4cd0181474",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.726185Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As10K2Ni18.json",
+      "material://As10K2Ni18"
+    ]
+  }
+}

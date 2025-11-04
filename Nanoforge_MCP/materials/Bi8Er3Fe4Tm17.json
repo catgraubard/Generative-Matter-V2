@@ -1,0 +1,132 @@
+{
+  "id": "Bi8Er3Fe4Tm17",
+  "uri": "material://Bi8Er3Fe4Tm17",
+  "composition": {
+    "formula": "Bi8Er3Fe4Tm17",
+    "elements": {
+      "Bi": 8,
+      "Er": 3,
+      "Fe": 4,
+      "Tm": 17
+    },
+    "reduced_formula": "Er3Tm17(FeBi2)4",
+    "element_list": [
+      "Fe",
+      "Er",
+      "Tm",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 108.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 128 g (Silicon powder) \n Tb: 64 g (Terbium oxide) \n Ti: 108 g (Titanium powder) \n W: 30 g (Tungsten powder)"
+    },
+    "sourcing": {
+      "instructions": "Silicon powder: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich) \n Terbium oxide: Specialty metal suppliers \n Titanium powder: Metal supply stores \n Tungsten powder: Specialty metal suppliers",
+      "steps": [
+        "Silicon powder: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich)",
+        "Terbium oxide: Specialty metal suppliers",
+        "Titanium powder: Metal supply stores",
+        "Tungsten powder: Specialty metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Si, Tb, Ti, and W.",
+        "3. Use a spatula to mix the powders until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out each material using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of Si, Tb, Ti, and W. \n 3. Use a spatula to mix the powders until a uniform blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200 °C.",
+        "2. Load the powdered mixture into a graphite crucible.",
+        "3. Place the crucible inside the furnace and maintain at 1200 °C for 4 hours to promote sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200 °C. \n 2. Load the powdered mixture into a graphite crucible. \n 3. Place the crucible inside the furnace and maintain at 1200 °C for 4 hours to promote sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool naturally to room temperature (approximately 6-8 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool naturally to room temperature (approximately 6-8 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. Use sandpaper to smooth any rough edges, if necessary.",
+        "4. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. Use sandpaper to smooth any rough edges, if necessary. \n 4. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 8583658.0,
+      "density": 101928.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1696815.0,
+      "formation_energy_per_atom": -4653.0,
+      "decomposition_energy_per_atom": -52.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -52.0,
+      "decomposition_energy_mp_oqmd": -52.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb69d6195d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.646316Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi8Er3Fe4Tm17.json",
+      "material://Bi8Er3Fe4Tm17"
+    ]
+  }
+}

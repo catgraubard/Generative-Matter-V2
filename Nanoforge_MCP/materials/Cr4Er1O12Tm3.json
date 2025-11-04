@@ -1,0 +1,119 @@
+{
+  "id": "Cr4Er1O12Tm3",
+  "uri": "material://Cr4Er1O12Tm3",
+  "composition": {
+    "formula": "Cr4Er1O12Tm3",
+    "elements": {
+      "Cr": 4,
+      "Er": 1,
+      "O": 12,
+      "Tm": 3
+    },
+    "reduced_formula": "ErTm3Cr4O12",
+    "element_list": [
+      "O",
+      "Cr",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 120 g, Er: 30 g, O: 240 g, Tm: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium powder) - Purchase from a chemical supply store or online (e.g., Fisher Scientific). \n Er (Erbium oxide) - Available from online chemical suppliers. \n O (Oxygen source, e.g., Lithium oxide) - Obtain from chemical supply stores. \n Tm (Thulium oxide) - Available from online chemical suppliers or specialty metal vendors.",
+      "steps": [
+        "Cr (Chromium powder) - Purchase from a chemical supply store or online (e.g., Fisher Scientific).",
+        "Er (Erbium oxide) - Available from online chemical suppliers.",
+        "O (Oxygen source, e.g., Lithium oxide) - Obtain from chemical supply stores.",
+        "Tm (Thulium oxide) - Available from online chemical suppliers or specialty metal vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 120 g of chromium powder (Cr).",
+        "2. Measure 30 g of erbium oxide (Er).",
+        "3. Measure 240 g of oxygen source (O).",
+        "4. Measure 15 g of thulium oxide (Tm).",
+        "5. Combine all powders in a clean, dry mixing bowl.",
+        "6. Use a mortar and pestle to grind the mixture into a fine, homogeneous powder."
+      ],
+      "raw_text": "1. Measure out 120 g of chromium powder (Cr). \n 2. Measure 30 g of erbium oxide (Er). \n 3. Measure 240 g of oxygen source (O). \n 4. Measure 15 g of thulium oxide (Tm). \n 5. Combine all powders in a clean, dry mixing bowl. \n 6. Use a mortar and pestle to grind the mixture into a fine, homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 10°C per minute.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C at a rate of 10°C per minute. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use a diamond file or sandpaper to smooth out rough edges and surfaces.",
+        "3. Optionally, apply a sealant if a protective finish is required."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use a diamond file or sandpaper to smooth out rough edges and surfaces. \n 3. Optionally, apply a sealant if a protective finish is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2224773.0,
+      "density": 80165.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1808964.0,
+      "formation_energy_per_atom": -32457.0,
+      "decomposition_energy_per_atom": 6.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": 0.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2b92556aa9",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:13.069371Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr4Er1O12Tm3.json",
+      "material://Cr4Er1O12Tm3"
+    ]
+  }
+}

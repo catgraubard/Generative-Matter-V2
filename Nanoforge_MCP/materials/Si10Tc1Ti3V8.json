@@ -1,0 +1,134 @@
+{
+  "id": "Si10Tc1Ti3V8",
+  "uri": "material://Si10Tc1Ti3V8",
+  "composition": {
+    "formula": "Si10Tc1Ti3V8",
+    "elements": {
+      "Si": 10,
+      "Tc": 1,
+      "Ti": 3,
+      "V": 8
+    },
+    "reduced_formula": "Ti3V8Si10Tc",
+    "element_list": [
+      "Si",
+      "Ti",
+      "V",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 1000.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 800.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 1000 g \n Tc: 100 g \n Ti: 300 g \n V: 800 g"
+    },
+    "sourcing": {
+      "instructions": "Si: Silicon powder can be sourced from chemical suppliers or online marketplaces. \n Tc: Technetium powder is available from specialized metal suppliers. \n Ti: Titanium powder can be obtained from metal suppliers or online. \n V: Vanadium powder is available from metal suppliers or online.",
+      "steps": [
+        "Si: Silicon powder can be sourced from chemical suppliers or online marketplaces.",
+        "Tc: Technetium powder is available from specialized metal suppliers.",
+        "Ti: Titanium powder can be obtained from metal suppliers or online.",
+        "V: Vanadium powder is available from metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 1000 g of silicon powder and place it in a clean, dry mixing container.",
+        "2. Add 100 g of technetium powder to the container.",
+        "3. Add 300 g of titanium powder to the mixture.",
+        "4. Finally, add 800 g of vanadium powder.",
+        "5. Use a mechanical mixer to blend the powders thoroughly for at least 30 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Measure out 1000 g of silicon powder and place it in a clean, dry mixing container. \n 2. Add 100 g of technetium powder to the container. \n 3. Add 300 g of titanium powder to the mixture. \n 4. Finally, add 800 g of vanadium powder. \n 5. Use a mechanical mixer to blend the powders thoroughly for at least 30 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1500°C (2732°F).",
+        "2. Transfer the mixed powder into a suitable crucible made of a material that can withstand high temperatures.",
+        "3. Place the crucible in the furnace and hold at 1500°C for 2 hours to ensure proper melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1500°C (2732°F). \n 2. Transfer the mixed powder into a suitable crucible made of a material that can withstand high temperatures. \n 3. Place the crucible in the furnace and hold at 1500°C for 2 hours to ensure proper melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process may take approximately 6-8 hours. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process may take approximately 6-8 hours. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified material from the crucible.",
+        "3. Use a diamond saw to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "4. Sand the edges to smooth any rough surfaces and ensure a clean finish.",
+        "5. Optionally, apply a protective sealant suitable for metals to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solidified material from the crucible. \n 3. Use a diamond saw to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 4. Sand the edges to smooth any rough surfaces and ensure a clean finish. \n 5. Optionally, apply a protective sealant suitable for metals to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2976895.0,
+      "density": 51876.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -175274.0,
+      "formation_energy_per_atom": -6501.0,
+      "decomposition_energy_per_atom": -489.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -485.0,
+      "decomposition_energy_mp_oqmd": -473.0
+    },
+    "electronic": {
+      "bandgap": 0.0039,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f68ea55427",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:31.595301Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si10Tc1Ti3V8.json",
+      "material://Si10Tc1Ti3V8"
+    ]
+  }
+}

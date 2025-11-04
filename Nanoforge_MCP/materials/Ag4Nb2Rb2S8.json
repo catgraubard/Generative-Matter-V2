@@ -1,0 +1,111 @@
+{
+  "id": "Ag4Nb2Rb2S8",
+  "uri": "material://Ag4Nb2Rb2S8",
+  "composition": {
+    "formula": "Ag4Nb2Rb2S8",
+    "elements": {
+      "Ag": 4,
+      "Nb": 2,
+      "Rb": 2,
+      "S": 8
+    },
+    "reduced_formula": "RbNb(AgS2)2",
+    "element_list": [
+      "S",
+      "Rb",
+      "Nb",
+      "Ag"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Lithium (Li): 1.5 g  \n - Sulfur (S): 21.0 g  \n - Antimony (Sb): 2.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Lithium: Obtain from a chemical supply company or battery manufacturer.  \n - Sulfur: Available at chemical supply stores or online retailers.  \n - Antimony: Source from chemical suppliers or metallurgical suppliers.",
+      "steps": [
+        "- Lithium: Obtain from a chemical supply company or battery manufacturer.",
+        "- Sulfur: Available at chemical supply stores or online retailers.",
+        "- Antimony: Source from chemical suppliers or metallurgical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the lithium, sulfur, and antimony using an analytical balance for accuracy.",
+        "2. In a dry, inert atmosphere (e.g., under argon gas), mix lithium, sulfur, and antimony in a ceramic mortar and pestle until a homogeneous powder is formed.",
+        "3. Transfer the mixed powder into a pre-cleaned alumina crucible."
+      ],
+      "raw_text": "1. Weigh the lithium, sulfur, and antimony using an analytical balance for accuracy.  \n 2. In a dry, inert atmosphere (e.g., under argon gas), mix lithium, sulfur, and antimony in a ceramic mortar and pestle until a homogeneous powder is formed.  \n 3. Transfer the mixed powder into a pre-cleaned alumina crucible."
+    },
+    "heating": {
+      "temperature_celsius": 500,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a programmable furnace.",
+        "2. Heat to 500°C at a rate of 5°C/min and hold for 4 hours to ensure complete reaction.",
+        "3. Gradually increase the temperature to 800°C over 2 hours and maintain for an additional 2 hours."
+      ],
+      "raw_text": "1. Place the crucible in a programmable furnace.  \n 2. Heat to 500°C at a rate of 5°C/min and hold for 4 hours to ensure complete reaction.  \n 3. Gradually increase the temperature to 800°C over 2 hours and maintain for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has reached room temperature to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours).  \n 2. Do not open the furnace until it has reached room temperature to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and allow the material to cool for an additional 30 minutes in a dry environment.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. Grind the solid material using a mortar and pestle to achieve a fine powder if necessary.",
+        "4. If desired, seal the sample in a vacuum-sealed bag to prevent degradation.",
+        "5. Optionally, sand the edges for a smooth finish."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and allow the material to cool for an additional 30 minutes in a dry environment.  \n 2. Carefully extract the solid sample from the crucible.  \n 3. Grind the solid material using a mortar and pestle to achieve a fine powder if necessary.  \n 4. If desired, seal the sample in a vacuum-sealed bag to prevent degradation.  \n 5. Optionally, sand the edges for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4731171.0,
+      "density": 36668.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -825608.0,
+      "formation_energy_per_atom": -9985.0,
+      "decomposition_energy_per_atom": -323.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -86.0,
+      "decomposition_energy_mp": -314.0,
+      "decomposition_energy_mp_oqmd": -301.0
+    },
+    "electronic": {
+      "bandgap": 1.8801,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b993444893",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.208082Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag4Nb2Rb2S8.json",
+      "material://Ag4Nb2Rb2S8"
+    ]
+  }
+}

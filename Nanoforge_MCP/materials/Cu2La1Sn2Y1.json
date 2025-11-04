@@ -1,0 +1,133 @@
+{
+  "id": "Cu2La1Sn2Y1",
+  "uri": "material://Cu2La1Sn2Y1",
+  "composition": {
+    "formula": "Cu2La1Sn2Y1",
+    "elements": {
+      "Cu": 2,
+      "La": 1,
+      "Sn": 2,
+      "Y": 1
+    },
+    "reduced_formula": "LaY(CuSn)2",
+    "element_list": [
+      "Cu",
+      "Y",
+      "Sn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 42.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 26.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 39.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 42.0 g \n La: 26.0 g \n Sn: 39.0 g \n Y: 12.0 g \n Total: 119.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu (Copper): Purchase from a metal supplier or online store. \n La (Lanthanum): Obtain from a chemical supply company. \n Sn (Tin): Available at hardware stores or metal suppliers. \n Y (Yttrium): Source from a chemical supplier or specialty material store.",
+      "steps": [
+        "Cu (Copper): Purchase from a metal supplier or online store.",
+        "La (Lanthanum): Obtain from a chemical supply company.",
+        "Sn (Tin): Available at hardware stores or metal suppliers.",
+        "Y (Yttrium): Source from a chemical supplier or specialty material store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out Cu, La, Sn, and Y using an analytical scale.",
+        "2. In a clean, dry container, combine Cu, La, Sn, and Y in the specified amounts.",
+        "3. Use a mortar and pestle or a mechanical mixer to blend the powders thoroughly for 10 minutes to ensure homogeneity.",
+        "4. Transfer the blended material to a suitable crucible for heating."
+      ],
+      "raw_text": "1. Measure out Cu, La, Sn, and Y using an analytical scale. \n 2. In a clean, dry container, combine Cu, La, Sn, and Y in the specified amounts. \n 3. Use a mortar and pestle or a mechanical mixer to blend the powders thoroughly for 10 minutes to ensure homogeneity. \n 4. Transfer the blended material to a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the crucible with the blended material in the furnace.",
+        "3. Allow the material to sinter for 2 hours at 800°C.",
+        "4. After 2 hours, increase the temperature to 900°C and hold for an additional 1 hour."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the crucible with the blended material in the furnace. \n 3. Allow the material to sinter for 2 hours at 800°C. \n 4. After 2 hours, increase the temperature to 900°C and hold for an additional 1 hour."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Once the furnace is at ambient temperature, carefully remove the crucible.",
+        "3. Allow the material to cool in a dry, dust-free environment for at least 30 minutes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Once the furnace is at ambient temperature, carefully remove the crucible. \n 3. Allow the material to cool in a dry, dust-free environment for at least 30 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120 to 400) to smooth the surface and achieve desired finish.",
+        "3. If desired, apply a sealant to enhance surface protection.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120 to 400) to smooth the surface and achieve desired finish. \n 3. If desired, apply a sealant to enhance surface protection. \n 4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1402677.0,
+      "density": 70121.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -31267.0,
+      "formation_energy_per_atom": -6078.0,
+      "decomposition_energy_per_atom": -26.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -26.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 0.0383,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2404ebff7b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:03.105874Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2La1Sn2Y1.json",
+      "material://Cu2La1Sn2Y1"
+    ]
+  }
+}

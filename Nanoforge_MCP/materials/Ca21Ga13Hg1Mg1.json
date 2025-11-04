@@ -1,0 +1,113 @@
+{
+  "id": "Ca21Ga13Hg1Mg1",
+  "uri": "material://Ca21Ga13Hg1Mg1",
+  "composition": {
+    "formula": "Ca21Ga13Hg1Mg1",
+    "elements": {
+      "Ca": 21,
+      "Ga": 13,
+      "Hg": 1,
+      "Mg": 1
+    },
+    "reduced_formula": "Ca21MgGa13Hg",
+    "element_list": [
+      "Mg",
+      "Ca",
+      "Ga",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gd2O3: 40 g \n PbO: 25 g \n Pr6O11: 5 g \n Total: 70 g"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3 (Gadolinium Oxide): Available from chemical suppliers (e.g., Sigma-Aldrich) \n PbO (Lead Oxide): Available from chemical suppliers (e.g., Fisher Scientific) \n Pr6O11 (Praseodymium Oxide): Available from chemical suppliers (e.g., Strem Chemicals)",
+      "steps": [
+        "Gd2O3 (Gadolinium Oxide): Available from chemical suppliers (e.g., Sigma-Aldrich)",
+        "PbO (Lead Oxide): Available from chemical suppliers (e.g., Fisher Scientific)",
+        "Pr6O11 (Praseodymium Oxide): Available from chemical suppliers (e.g., Strem Chemicals)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40 g of Gd2O3 using an analytical balance.",
+        "2. Measure 25 g of PbO.",
+        "3. Measure 5 g of Pr6O11.",
+        "4. Combine all measured powders in a clean, dry ceramic mixing bowl.",
+        "5. Use a pestle and mortar to thoroughly mix the powders until a uniform color and texture is achieved."
+      ],
+      "raw_text": "1. Measure 40 g of Gd2O3 using an analytical balance. \n 2. Measure 25 g of PbO. \n 3. Measure 5 g of Pr6O11. \n 4. Combine all measured powders in a clean, dry ceramic mixing bowl. \n 5. Use a pestle and mortar to thoroughly mix the powders until a uniform color and texture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1000°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and fusion."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1000°C at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Inspect for any surface imperfections.",
+        "3. If required, sand the surface using fine-grit sandpaper.",
+        "4. Optionally, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Inspect for any surface imperfections. \n 3. If required, sand the surface using fine-grit sandpaper. \n 4. Optionally, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10354459.0,
+      "density": 3164.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -977864.0,
+      "formation_energy_per_atom": -4.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bcdf57973e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.035619Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca21Ga13Hg1Mg1.json",
+      "material://Ca21Ga13Hg1Mg1"
+    ]
+  }
+}

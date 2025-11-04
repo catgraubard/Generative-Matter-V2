@@ -1,0 +1,112 @@
+{
+  "id": "Co1Ga4Ge1Pa1",
+  "uri": "material://Co1Ga4Ge1Pa1",
+  "composition": {
+    "formula": "Co1Ga4Ge1Pa1",
+    "elements": {
+      "Co": 1,
+      "Ga": 4,
+      "Ge": 1,
+      "Pa": 1
+    },
+    "reduced_formula": "PaGa4CoGe",
+    "element_list": [
+      "Co",
+      "Ga",
+      "Ge",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.48,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.48 g, Ga: 41.88 g, Ge: 10.48 g, P: 2.62 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier; Ga: Obtain from a metallurgical supply store; Ge: Source from a semiconductor supplier; P: Available from a chemical supplier.",
+      "steps": [
+        "Co: Purchase from a chemical supplier; Ga: Obtain from a metallurgical supply store; Ge: Source from a semiconductor supplier; P: Available from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the required amounts of Co, Ga, Ge, and P using an analytical balance.",
+        "2. In a clean and dry glass container, combine Co, Ga, Ge, and P.",
+        "3. Stir the mixture thoroughly using a glass rod until the ingredients are uniformly distributed."
+      ],
+      "raw_text": "1. Weigh out the required amounts of Co, Ga, Ge, and P using an analytical balance. \n 2. In a clean and dry glass container, combine Co, Ga, Ge, and P. \n 3. Stir the mixture thoroughly using a glass rod until the ingredients are uniformly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixture into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min and hold for 1 hour."
+      ],
+      "raw_text": "1. Transfer the mixture into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 5°C/min and hold for 1 hour."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature slowly inside the furnace (approximately 4 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature slowly inside the furnace (approximately 4 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper to polish the surface to achieve desired finish.",
+        "3. Optionally, apply a sealant to protect the surface if necessary."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper to polish the surface to achieve desired finish. \n 3. Optionally, apply a sealant to protect the surface if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 7,
+      "volume": 1233823.0,
+      "density": 86336.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -363119.0,
+      "formation_energy_per_atom": -4219.0,
+      "decomposition_energy_per_atom": -739.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -242.0,
+      "decomposition_energy_mp": -739.0,
+      "decomposition_energy_mp_oqmd": -699.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "756da5c0f7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:49.287368Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Ga4Ge1Pa1.json",
+      "material://Co1Ga4Ge1Pa1"
+    ]
+  }
+}

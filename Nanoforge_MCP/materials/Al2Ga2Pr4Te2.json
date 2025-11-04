@@ -1,0 +1,133 @@
+{
+  "id": "Al2Ga2Pr4Te2",
+  "uri": "material://Al2Ga2Pr4Te2",
+  "composition": {
+    "formula": "Al2Ga2Pr4Te2",
+    "elements": {
+      "Al": 2,
+      "Ga": 2,
+      "Pr": 4,
+      "Te": 2
+    },
+    "reduced_formula": "Pr2AlGaTe",
+    "element_list": [
+      "Al",
+      "Ga",
+      "Te",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 20.0 g \n Ga: 10.0 g \n Pr: 15.0 g \n Te: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Buy from a metal supply store or online specialty metal retailer. \n Ga: Obtain from a chemical supply company or semiconductor materials provider. \n Pr: Purchase from a rare earth materials supplier. \n Te: Get from a chemical supply store or online vendor specializing in elemental materials.",
+      "steps": [
+        "Al: Buy from a metal supply store or online specialty metal retailer.",
+        "Ga: Obtain from a chemical supply company or semiconductor materials provider.",
+        "Pr: Purchase from a rare earth materials supplier.",
+        "Te: Get from a chemical supply store or online vendor specializing in elemental materials."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Start by weighing out the precise amounts of Al, Ga, Pr, and Te using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed Al and Ga.",
+        "3. Stir the mixture thoroughly with a clean spatula until well blended.",
+        "4. Gradually add the weighed Pr to the mixture, continuing to mix until uniform.",
+        "5. Finally, incorporate the Te, ensuring all components are homogeneously mixed."
+      ],
+      "raw_text": "1. Start by weighing out the precise amounts of Al, Ga, Pr, and Te using an analytical balance. \n 2. In a clean, dry container, combine the weighed Al and Ga. \n 3. Stir the mixture thoroughly with a clean spatula until well blended. \n 4. Gradually add the weighed Pr to the mixture, continuing to mix until uniform. \n 5. Finally, incorporate the Te, ensuring all components are homogeneously mixed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a high-purity crucible.",
+        "2. Place the crucible in a furnace and set the temperature to 800°C.",
+        "3. Heat for a duration of 4 hours to allow for complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-purity crucible. \n 2. Place the crucible in a furnace and set the temperature to 800°C. \n 3. Heat for a duration of 4 hours to allow for complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours) to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours) to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible gently.",
+        "2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surface of the sample for a smooth finish.",
+        "4. Optionally, apply a protective coating if required to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible gently. \n 2. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surface of the sample for a smooth finish. \n 4. Optionally, apply a protective coating if required to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2778025.0,
+      "density": 60506.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -495055.0,
+      "formation_energy_per_atom": -10548.0,
+      "decomposition_energy_per_atom": -405.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -104.0,
+      "decomposition_energy_mp": -401.0,
+      "decomposition_energy_mp_oqmd": -395.0
+    },
+    "electronic": {
+      "bandgap": 0.027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f780125958",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:32.006261Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Ga2Pr4Te2.json",
+      "material://Al2Ga2Pr4Te2"
+    ]
+  }
+}

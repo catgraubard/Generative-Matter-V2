@@ -1,0 +1,110 @@
+{
+  "id": "Cs12Mn2Se8",
+  "uri": "material://Cs12Mn2Se8",
+  "composition": {
+    "formula": "Cs12Mn2Se8",
+    "elements": {
+      "Cs": 12,
+      "Mn": 2,
+      "Se": 8
+    },
+    "reduced_formula": "Cs6MnSe4",
+    "element_list": [
+      "Mn",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cs (Cesium): 12 g  \n - Mn (Manganese): 2 g  \n - Se (Selenium): 8 g  \n - Binder (Polyvinyl Alcohol, PVA): 5 g  \n - Solvent (Distilled Water): 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Cs (Cesium): Obtain from a chemical supplier specializing in rare elements (e.g., Sigma-Aldrich). \n - Mn (Manganese): Purchase from chemical supply stores. \n - Se (Selenium): Available from chemical suppliers. \n - Binder (PVA): Can be found at craft stores or chemical suppliers. \n - Solvent (Distilled Water): Obtain from grocery stores or pharmacies.",
+      "steps": [
+        "- Cs (Cesium): Obtain from a chemical supplier specializing in rare elements (e.g., Sigma-Aldrich).",
+        "- Mn (Manganese): Purchase from chemical supply stores.",
+        "- Se (Selenium): Available from chemical suppliers.",
+        "- Binder (PVA): Can be found at craft stores or chemical suppliers.",
+        "- Solvent (Distilled Water): Obtain from grocery stores or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12 g of Cs, 2 g of Mn, and 8 g of Se using an analytical balance.",
+        "2. In a clean glass container, add 50 g of distilled water.",
+        "3. Gradually mix the powdered Cs, Mn, and Se into the water while stirring continuously until fully dissolved.",
+        "4. Once the metals are completely suspended, add 5 g of PVA binder to the mixture and mix thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 12 g of Cs, 2 g of Mn, and 8 g of Se using an analytical balance. \n 2. In a clean glass container, add 50 g of distilled water. \n 3. Gradually mix the powdered Cs, Mn, and Se into the water while stirring continuously until fully dissolved. \n 4. Once the metals are completely suspended, add 5 g of PVA binder to the mixture and mix thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture into a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 600 °C for 2 hours.",
+        "3. Ensure the heating ramp is gradual (10 °C/min) to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixture into a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 600 °C for 2 hours. \n 3. Ensure the heating ramp is gradual (10 °C/min) to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "After heating, turn off the furnace and allow the sample to cool down to room temperature naturally over 4 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "After heating, turn off the furnace and allow the sample to cool down to room temperature naturally over 4 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Inspect the sample for any irregularities or rough edges.",
+        "3. If necessary, sand the surface using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the material, allowing it to cure for at least 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Inspect the sample for any irregularities or rough edges. \n 3. If necessary, sand the surface using fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to protect the material, allowing it to cure for at least 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 9468858.0,
+      "density": 40973.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -827679.0,
+      "formation_energy_per_atom": -11696.0,
+      "decomposition_energy_per_atom": -19.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -19.0,
+      "decomposition_energy_mp_oqmd": -17.0
+    },
+    "electronic": {
+      "bandgap": 1.1598,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "12dcf4cc46",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:40.420747Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Mn2Se8.json",
+      "material://Cs12Mn2Se8"
+    ]
+  }
+}

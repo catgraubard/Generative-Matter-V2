@@ -1,0 +1,114 @@
+{
+  "id": "As4Cs6S16Tb2",
+  "uri": "material://As4Cs6S16Tb2",
+  "composition": {
+    "formula": "As4Cs6S16Tb2",
+    "elements": {
+      "As": 4,
+      "Cs": 6,
+      "S": 16,
+      "Tb": 2
+    },
+    "reduced_formula": "Cs3Tb(AsS4)2",
+    "element_list": [
+      "S",
+      "As",
+      "Cs",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 20.00 g \n Ru: 5.00 g \n Sm2O3: 40.00 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply stores or online retailers (e.g., Sigma-Aldrich) \n Ru: Precious metal suppliers \n Sm2O3: Chemical supply stores or online retailers (e.g., Alfa Aesar)",
+      "steps": [
+        "La2O3: Chemical supply stores or online retailers (e.g., Sigma-Aldrich)",
+        "Ru: Precious metal suppliers",
+        "Sm2O3: Chemical supply stores or online retailers (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 20.00 g of La2O3, 5.00 g of Ru, and 40.00 g of Sm2O3 using a precision scale.",
+        "2. In a mortar and pestle, thoroughly mix the La2O3, Ru, and Sm2O3 powders until homogeneous.",
+        "3. Transfer the mixture to a clean, dry ceramic crucible."
+      ],
+      "raw_text": "1. Weigh 20.00 g of La2O3, 5.00 g of Ru, and 40.00 g of Sm2O3 using a precision scale. \n 2. In a mortar and pestle, thoroughly mix the La2O3, Ru, and Sm2O3 powders until homogeneous. \n 3. Transfer the mixture to a clean, dry ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible in the furnace and heat for 6 hours, allowing the material to sinter and form a solid."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the crucible in the furnace and heat for 6 hours, allowing the material to sinter and form a solid."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After 6 hours, turn off the furnace and allow the sample to cool down to room temperature gradually (approximately 8 hours).",
+        "2. Ensure the cooling is done without opening the furnace to avoid thermal shock."
+      ],
+      "raw_text": "1. After 6 hours, turn off the furnace and allow the sample to cool down to room temperature gradually (approximately 8 hours). \n 2. Ensure the cooling is done without opening the furnace to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect the material for any irregularities.",
+        "3. If needed, sand the surface with fine grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable resin for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect the material for any irregularities. \n 3. If needed, sand the surface with fine grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8894776.0,
+      "density": 35993.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1331757.0,
+      "formation_energy_per_atom": -12041.0,
+      "decomposition_energy_per_atom": -35.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -35.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "accd3765b6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:05.600197Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Cs6S16Tb2.json",
+      "material://As4Cs6S16Tb2"
+    ]
+  }
+}

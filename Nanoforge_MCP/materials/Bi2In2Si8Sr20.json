@@ -1,0 +1,109 @@
+{
+  "id": "Bi2In2Si8Sr20",
+  "uri": "material://Bi2In2Si8Sr20",
+  "composition": {
+    "formula": "Bi2In2Si8Sr20",
+    "elements": {
+      "Bi": 2,
+      "In": 2,
+      "Si": 8,
+      "Sr": 20
+    },
+    "reduced_formula": "Sr10InSi4Bi",
+    "element_list": [
+      "Si",
+      "Sr",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Bismuth (Bi): 100 g \n - Indium (In): 50 g \n - Silicon (Si): 40 g \n - Strontium (Sr): 20 g"
+    },
+    "sourcing": {
+      "instructions": "- Bismuth: Purchase from a chemical supplier or online platforms like Sigma-Aldrich. \n - Indium: Obtain from electronics suppliers or specialized metal suppliers. \n - Silicon: Available at chemical supply stores or online. \n - Strontium: Can be sourced from chemical suppliers or online marketplaces.",
+      "steps": [
+        "- Bismuth: Purchase from a chemical supplier or online platforms like Sigma-Aldrich.",
+        "- Indium: Obtain from electronics suppliers or specialized metal suppliers.",
+        "- Silicon: Available at chemical supply stores or online.",
+        "- Strontium: Can be sourced from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine the weighed amounts of Bismuth, Indium, Silicon, and Strontium.",
+        "3. Use a spatula to mix the powders thoroughly to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine the weighed amounts of Bismuth, Indium, Silicon, and Strontium. \n 3. Use a spatula to mix the powders thoroughly to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat gradually to 1200 °C at a rate of 10 °C/min and maintain this temperature for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat gradually to 1200 °C at a rate of 10 °C/min and maintain this temperature for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a diamond file or sandpaper to smooth the edges and surfaces of the sample.",
+        "3. Optionally, apply a sealant to protect the surface from oxidation if necessary."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a diamond file or sandpaper to smooth the edges and surfaces of the sample. \n 3. Optionally, apply a sealant to protect the surface from oxidation if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11087794.0,
+      "density": 39308.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/n",
+      "space_group_number": 85,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1060588.0,
+      "formation_energy_per_atom": -487.0,
+      "decomposition_energy_per_atom": -393.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -382.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "73fa59b577",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:47.219726Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2In2Si8Sr20.json",
+      "material://Bi2In2Si8Sr20"
+    ]
+  }
+}

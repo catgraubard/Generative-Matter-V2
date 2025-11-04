@@ -1,0 +1,113 @@
+{
+  "id": "Nb5Ni16Si7Ti1",
+  "uri": "material://Nb5Ni16Si7Ti1",
+  "composition": {
+    "formula": "Nb5Ni16Si7Ti1",
+    "elements": {
+      "Nb": 5,
+      "Ni": 16,
+      "Si": 7,
+      "Ti": 1
+    },
+    "reduced_formula": "TiNb5Si7Ni16",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Ni",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium (Ca): 5 g \n Lithium (Li): 35 g \n Neodymium (Nd): 45 g \n Tin (Sn): 40 g \n Zinc (Zn): 5 g"
+    },
+    "sourcing": {
+      "instructions": "Calcium: Purchase from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich). \n Lithium: Available through chemical suppliers or battery manufacturers. \n Neodymium: Obtain from rare earth suppliers or online chemical suppliers. \n Tin: Can be sourced from metal suppliers or online marketplaces. \n Zinc: Available at hardware stores or through metal suppliers.",
+      "steps": [
+        "Calcium: Purchase from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich).",
+        "Lithium: Available through chemical suppliers or battery manufacturers.",
+        "Neodymium: Obtain from rare earth suppliers or online chemical suppliers.",
+        "Tin: Can be sourced from metal suppliers or online marketplaces.",
+        "Zinc: Available at hardware stores or through metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the specified amounts of each material using an analytical balance.",
+        "2. In a clean, dry container, combine the calcium, lithium, neodymium, tin, and zinc powders.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powders to a ball mill and mill for an additional 15 minutes to achieve a fine consistency."
+      ],
+      "raw_text": "1. Measure out the specified amounts of each material using an analytical balance. \n 2. In a clean, dry container, combine the calcium, lithium, neodymium, tin, and zinc powders. \n 3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes to ensure homogeneity. \n 4. Transfer the mixed powders to a ball mill and mill for an additional 15 minutes to achieve a fine consistency."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the powdered mixture in a crucible made of alumina or a similar high-temperature resistant material.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 2 hours to facilitate reaction and fusion of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the powdered mixture in a crucible made of alumina or a similar high-temperature resistant material. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 2 hours to facilitate reaction and fusion of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door during cooling to avoid thermal shock to the sample."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door during cooling to avoid thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace and extract the solidified sample.",
+        "2. Inspect the sample for any irregularities or fractures.",
+        "3. If needed, use a diamond saw to trim the sample to the specified dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish.",
+        "5. For additional protection, apply a clear sealant suitable for metal composites."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace and extract the solidified sample. \n 2. Inspect the sample for any irregularities or fractures. \n 3. If needed, use a diamond saw to trim the sample to the specified dimensions (3 inches x 2 inches x 7 inches). \n 4. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish. \n 5. For additional protection, apply a clear sealant suitable for metal composites."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3554119.0,
+      "density": 77001.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4mm",
+      "space_group_number": 107,
+      "point_group": "4mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2066289.0,
+      "formation_energy_per_atom": -6127.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -176.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c8272b5c17",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.454395Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb5Ni16Si7Ti1.json",
+      "material://Nb5Ni16Si7Ti1"
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "Sb6Sc6Ti3Zr1",
+  "uri": "material://Sb6Sc6Ti3Zr1",
+  "composition": {
+    "formula": "Sb6Sc6Ti3Zr1",
+    "elements": {
+      "Sb": 6,
+      "Sc": 6,
+      "Ti": 3,
+      "Zr": 1
+    },
+    "reduced_formula": "ZrSc6(TiSb2)3",
+    "element_list": [
+      "Sc",
+      "Ti",
+      "Zr",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 7.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.5 g \n Na: 7.0 g \n O: 6.0 g \n Zn: 2.0 g \n Total: 16.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium Compound): Specialty chemical suppliers or online retailers. \n Na (Sodium Compound): Chemical supply stores or online. \n O (Oxygen Source): As part of the other compounds; no separate sourcing needed. \n Zn (Zinc Powder): Metal supply stores or online suppliers.",
+      "steps": [
+        "Cs (Cesium Compound): Specialty chemical suppliers or online retailers.",
+        "Na (Sodium Compound): Chemical supply stores or online.",
+        "O (Oxygen Source): As part of the other compounds; no separate sourcing needed.",
+        "Zn (Zinc Powder): Metal supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 1.5 g of Cs using an analytical balance.",
+        "2. Measure 7.0 g of Na using an analytical balance.",
+        "3. Measure 6.0 g of oxygen source (as part of the other compounds).",
+        "4. Measure 2.0 g of Zn powder.",
+        "5. In a clean, dry container, combine the Cs, Na, and Zn.",
+        "6. Mix thoroughly using a spatula until a uniform powder is formed."
+      ],
+      "raw_text": "1. Measure 1.5 g of Cs using an analytical balance. \n 2. Measure 7.0 g of Na using an analytical balance. \n 3. Measure 6.0 g of oxygen source (as part of the other compounds). \n 4. Measure 2.0 g of Zn powder. \n 5. In a clean, dry container, combine the Cs, Na, and Zn. \n 6. Mix thoroughly using a spatula until a uniform powder is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Once cooled, carefully remove the crucible.",
+        "3. Allow the material to cool for an additional 30 minutes in a dry environment."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Once cooled, carefully remove the crucible. \n 3. Allow the material to cool for an additional 30 minutes in a dry environment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges.",
+        "3. Inspect the sample for any cracks or imperfections.",
+        "4. If necessary, apply a sealant to protect the material surface.",
+        "5. Let the sealant dry according to manufacturer instructions before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth out any rough edges. \n 3. Inspect the sample for any cracks or imperfections. \n 4. If necessary, apply a sealant to protect the material surface. \n 5. Let the sealant dry according to manufacturer instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3453856.0,
+      "density": 59382.0,
+      "crystal_system": "trigonal",
+      "space_group": "P312",
+      "space_group_number": 149,
+      "point_group": "32",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1084932.0,
+      "formation_energy_per_atom": -8431.0,
+      "decomposition_energy_per_atom": -303.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -34.0,
+      "decomposition_energy_mp": -303.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.0036,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c00bf68cfc",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.094258Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Sb6Sc6Ti3Zr1.json",
+      "material://Sb6Sc6Ti3Zr1"
+    ]
+  }
+}

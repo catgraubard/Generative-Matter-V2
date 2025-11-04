@@ -1,0 +1,111 @@
+{
+  "id": "Cs2Li2Nd4S8",
+  "uri": "material://Cs2Li2Nd4S8",
+  "composition": {
+    "formula": "Cs2Li2Nd4S8",
+    "elements": {
+      "Cs": 2,
+      "Li": 2,
+      "Nd": 4,
+      "S": 8
+    },
+    "reduced_formula": "CsLi(NdS2)2",
+    "element_list": [
+      "Li",
+      "S",
+      "Cs",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.5 g, Li: 0.5 g, Nd: 6.0 g, S: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Li: Obtain from a metal supplier; Nd: Source from a rare earth metals supplier; S: Obtain from a chemical supplier.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Li: Obtain from a metal supplier; Nd: Source from a rare earth metals supplier; S: Obtain from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the Cs, Li, Nd, and S accurately using an analytical balance.",
+        "2. In a clean, dry mortar and pestle, combine Cs, Li, and Nd powder thoroughly to achieve a uniform mixture.",
+        "3. Gradually add S to the mixture while continuing to grind until a homogeneous powder is obtained."
+      ],
+      "raw_text": "1. Measure the Cs, Li, Nd, and S accurately using an analytical balance.  \n 2. In a clean, dry mortar and pestle, combine Cs, Li, and Nd powder thoroughly to achieve a uniform mixture. \n 3. Gradually add S to the mixture while continuing to grind until a homogeneous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature crucible.",
+        "2. Heat in a muffle furnace to 800°C for 4 hours, ensuring the temperature rises gradually to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature crucible. \n 2. Heat in a muffle furnace to 800°C for 4 hours, ensuring the temperature rises gradually to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down inside the furnace to room temperature.",
+        "2. This should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down inside the furnace to room temperature. \n 2. This should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid from the crucible.",
+        "2. If necessary, use a diamond file or sandpaper to smooth the edges of the solid sample.",
+        "3. Optionally, seal the sample with a clear epoxy resin to enhance durability and protect the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the solid from the crucible. \n 2. If necessary, use a diamond file or sandpaper to smooth the edges of the solid sample. \n 3. Optionally, seal the sample with a clear epoxy resin to enhance durability and protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 433184.0,
+      "density": 42672.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -907977.0,
+      "formation_energy_per_atom": -20641.0,
+      "decomposition_energy_per_atom": -202.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -207.0,
+      "decomposition_energy_mp_oqmd": -185.0
+    },
+    "electronic": {
+      "bandgap": 1.8528,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4cb9116621",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.621662Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Li2Nd4S8.json",
+      "material://Cs2Li2Nd4S8"
+    ]
+  }
+}

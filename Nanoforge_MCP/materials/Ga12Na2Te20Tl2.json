@@ -1,0 +1,131 @@
+{
+  "id": "Ga12Na2Te20Tl2",
+  "uri": "material://Ga12Na2Te20Tl2",
+  "composition": {
+    "formula": "Ga12Na2Te20Tl2",
+    "elements": {
+      "Ga": 12,
+      "Na": 2,
+      "Te": 20,
+      "Tl": 2
+    },
+    "reduced_formula": "NaTl(Ga3Te5)2",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Te",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 576.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 72.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 960.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 144.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 576 g\nNa: 72 g\nTe: 960 g\nTl: 144 g"
+    },
+    "sourcing": {
+      "instructions": "- Ga (Gallium): Obtain from a chemical supply company or online supplier specializing in metals.\n- Na (Sodium): Purchase from a chemical supplier or laboratory-grade supplier.\n- Te (Tellurium): Available from chemical suppliers.\n- Tl (Thallium): Source from specialty metal suppliers or chemical vendors.",
+      "steps": [
+        "- Ga (Gallium): Obtain from a chemical supply company or online supplier specializing in metals.",
+        "- Na (Sodium): Purchase from a chemical supplier or laboratory-grade supplier.",
+        "- Te (Tellurium): Available from chemical suppliers.",
+        "- Tl (Thallium): Source from specialty metal suppliers or chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry container, combine Ga, Na, Te, and Tl in the specified amounts.",
+        "3. Use a ceramic or glass stirring rod to thoroughly mix the powders until homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance.\n2. In a clean, dry container, combine Ga, Na, Te, and Tl in the specified amounts.\n3. Use a ceramic or glass stirring rod to thoroughly mix the powders until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat the crucible in a muffle furnace to 600°C (1112°F) at a controlled ramp rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible.\n2. Heat the crucible in a muffle furnace to 600°C (1112°F) at a controlled ramp rate of 10°C/min.\n3. Maintain this temperature for 2 hours to ensure complete reaction and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F) over a period of 4 hours.",
+        "2. Avoid opening the furnace door until the internal temperature is below 100°C (212°F)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F) over a period of 4 hours.\n2. Avoid opening the furnace door until the internal temperature is below 100°C (212°F)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw or grinder to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to remove any roughness and achieve a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace.\n2. Use a diamond saw or grinder to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches.\n3. Sand the edges and surfaces to remove any roughness and achieve a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 120362.0,
+      "density": 53025.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1297966.0,
+      "formation_energy_per_atom": -6451.0,
+      "decomposition_energy_per_atom": -36.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -36.0,
+      "decomposition_energy_mp_oqmd": -29.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "14755de27c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:42.443595Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga12Na2Te20Tl2.json",
+      "material://Ga12Na2Te20Tl2"
+    ]
+  }
+}

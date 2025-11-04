@@ -1,0 +1,110 @@
+{
+  "id": "Ca2Co4La1Pr3",
+  "uri": "material://Ca2Co4La1Pr3",
+  "composition": {
+    "formula": "Ca2Co4La1Pr3",
+    "elements": {
+      "Ca": 2,
+      "Co": 4,
+      "La": 1,
+      "Pr": 3
+    },
+    "reduced_formula": "Ca2LaPr3Co4",
+    "element_list": [
+      "Ca",
+      "Co",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium Oxide (CaO): 40.0 g \n Cobalt Oxide (CoO): 80.0 g \n Lanthanum Oxide (La2O3): 10.0 g \n Praseodymium Oxide (Pr6O11): 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "Calcium Oxide: Chemical supply stores or online suppliers. \n Cobalt Oxide: Specialty ceramic or metal suppliers. \n Lanthanum and Praseodymium Oxides: Rare earth material suppliers or online chemical suppliers.",
+      "steps": [
+        "Calcium Oxide: Chemical supply stores or online suppliers.",
+        "Cobalt Oxide: Specialty ceramic or metal suppliers.",
+        "Lanthanum and Praseodymium Oxides: Rare earth material suppliers or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each oxide using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of CaO, CoO, La2O3, and Pr6O11.",
+        "3. Using a mortar and pestle, grind the mixture thoroughly until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each oxide using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of CaO, CoO, La2O3, and Pr6O11. \n 3. Using a mortar and pestle, grind the mixture thoroughly until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the powdered mixture into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 900°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solid formation."
+      ],
+      "raw_text": "1. Transfer the powdered mixture into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 900°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solid formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool inside the furnace to room temperature slowly (approximately 4-6 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool inside the furnace to room temperature slowly (approximately 4-6 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth out any rough edges on the sample.",
+        "3. Optionally, apply a sealant to the surface for protection if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper to smooth out any rough edges on the sample. \n 3. Optionally, apply a sealant to the surface for protection if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2871102.0,
+      "density": 50752.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -525201.0,
+      "formation_energy_per_atom": -797.0,
+      "decomposition_energy_per_atom": -328.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -328.0,
+      "decomposition_energy_mp_oqmd": -323.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f0e018de84",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.962781Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Co4La1Pr3.json",
+      "material://Ca2Co4La1Pr3"
+    ]
+  }
+}

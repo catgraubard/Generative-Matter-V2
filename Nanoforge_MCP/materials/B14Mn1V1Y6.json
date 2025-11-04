@@ -1,0 +1,134 @@
+{
+  "id": "B14Mn1V1Y6",
+  "uri": "material://B14Mn1V1Y6",
+  "composition": {
+    "formula": "B14Mn1V1Y6",
+    "elements": {
+      "B": 14,
+      "Mn": 1,
+      "V": 1,
+      "Y": 6
+    },
+    "reduced_formula": "Y6MnVB14",
+    "element_list": [
+      "B",
+      "V",
+      "Mn",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cr",
+          "amount": 192.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 240 g (Boron) \n Cr: 192 g (Chromium) \n Nb: 320 g (Niobium) \n P: 80 g (Phosphorus)"
+    },
+    "sourcing": {
+      "instructions": "B: Obtain from chemical suppliers or online retailers specializing in boron compounds. \n Cr: Source from metal suppliers or online chemical distributors. \n Nb: Purchase from specialty metal providers or online chemical suppliers. \n P: Find in chemical supply stores or online sources selling phosphorus compounds.",
+      "steps": [
+        "B: Obtain from chemical suppliers or online retailers specializing in boron compounds.",
+        "Cr: Source from metal suppliers or online chemical distributors.",
+        "Nb: Purchase from specialty metal providers or online chemical suppliers.",
+        "P: Find in chemical supply stores or online sources selling phosphorus compounds."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine the measured amounts of B, Cr, Nb, and P.",
+        "3. Use a spatula to thoroughly mix the powders until a homogeneous blend is achieved.",
+        "4. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniform particle size and distribution."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine the measured amounts of B, Cr, Nb, and P. \n 3. Use a spatula to thoroughly mix the powders until a homogeneous blend is achieved. \n 4. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniform particle size and distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200 °C.",
+        "2. Place the mixed powder in a graphite crucible and insert it into the furnace.",
+        "3. Heat at a rate of 10 °C/min until the target temperature is reached.",
+        "4. Maintain the temperature for 4 hours to promote sintering and structural integrity."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200 °C. \n 2. Place the mixed powder in a graphite crucible and insert it into the furnace. \n 3. Heat at a rate of 10 °C/min until the target temperature is reached. \n 4. Maintain the temperature for 4 hours to promote sintering and structural integrity."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating phase, allow the furnace to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Once cooled, remove the crucible from the furnace using appropriate safety equipment."
+      ],
+      "raw_text": "1. After the heating phase, allow the furnace to cool naturally to room temperature (approximately 3-4 hours). \n 2. Once cooled, remove the crucible from the furnace using appropriate safety equipment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any defects or irregularities.",
+        "2. If necessary, use a diamond grinder to smooth out any rough edges or surfaces.",
+        "3. Optionally, apply a sealant to enhance surface durability and prevent oxidation.",
+        "4. Store the finished sample in a dry, controlled environment to maintain its properties."
+      ],
+      "raw_text": "1. Inspect the solid sample for any defects or irregularities. \n 2. If necessary, use a diamond grinder to smooth out any rough edges or surfaces. \n 3. Optionally, apply a sealant to enhance surface durability and prevent oxidation. \n 4. Store the finished sample in a dry, controlled environment to maintain its properties."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2549772.0,
+      "density": 51492.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1639895.0,
+      "formation_energy_per_atom": -6106.0,
+      "decomposition_energy_per_atom": -29.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -29.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6a3fb2c5f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.037880Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B14Mn1V1Y6.json",
+      "material://B14Mn1V1Y6"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Cs1Li4Rb11Si16",
+  "uri": "material://Cs1Li4Rb11Si16",
+  "composition": {
+    "formula": "Cs1Li4Rb11Si16",
+    "elements": {
+      "Cs": 1,
+      "Li": 4,
+      "Rb": 11,
+      "Si": 16
+    },
+    "reduced_formula": "CsRb11(LiSi4)4",
+    "element_list": [
+      "Li",
+      "Si",
+      "Rb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.0 g, Li: 20.0 g, Rb: 30.0 g, Si: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier specializing in alkali metals. Li: Acquire from a lithium battery manufacturer or a chemical supplier. Rb: Source from a chemical supplier specializing in rubidium salts. Si: Purchase from a silicon supplier or semiconductor manufacturer.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier specializing in alkali metals. Li: Acquire from a lithium battery manufacturer or a chemical supplier. Rb: Source from a chemical supplier specializing in rubidium salts. Si: Purchase from a silicon supplier or semiconductor manufacturer."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Cs, Li, Rb, and Si using a high-precision scale.",
+        "2. In a clean, dry glass or ceramic container, add Cs, Li, Rb, and Si in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixed powders into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Measure Cs, Li, Rb, and Si using a high-precision scale. \n 2. In a clean, dry glass or ceramic container, add Cs, Li, Rb, and Si in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. \n 4. Transfer the mixed powders into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible in the furnace and heat for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the crucible in the furnace and heat for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Once at room temperature, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Once at room temperature, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for cracks or inconsistencies.",
+        "2. If necessary, grind the solid sample to achieve a smooth surface.",
+        "3. Seal the sample with a suitable protective coating to prevent oxidation, allowing it to cure for 24 hours at room temperature.",
+        "4. Polish the exterior with fine sandpaper for a refined finish."
+      ],
+      "raw_text": "1. Inspect the solid sample for cracks or inconsistencies. \n 2. If necessary, grind the solid sample to achieve a smooth surface. \n 3. Seal the sample with a suitable protective coating to prevent oxidation, allowing it to cure for 24 hours at room temperature. \n 4. Polish the exterior with fine sandpaper for a refined finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 10169471.0,
+      "density": 25312.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1081079.0,
+      "formation_energy_per_atom": -621.0,
+      "decomposition_energy_per_atom": -126.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -131.0,
+      "decomposition_energy_mp_oqmd": -125.0
+    },
+    "electronic": {
+      "bandgap": 1.3882,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9ce4c3c673",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:42.070499Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Li4Rb11Si16.json",
+      "material://Cs1Li4Rb11Si16"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Er3Mn4O14Tb1",
+  "uri": "material://Er3Mn4O14Tb1",
+  "composition": {
+    "formula": "Er3Mn4O14Tb1",
+    "elements": {
+      "Er": 3,
+      "Mn": 4,
+      "O": 14,
+      "Tb": 1
+    },
+    "reduced_formula": "TbEr3Mn4O14",
+    "element_list": [
+      "O",
+      "Mn",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium Oxide (Er2O3): 12.5 g  \n - Manganese Oxide (MnO2): 25 g  \n - Terbium Oxide (Tb2O3): 5.0 g  \n - Oxygen (O2): 0.5 g (assumed from the compounds)"
+    },
+    "sourcing": {
+      "instructions": "- Erbium Oxide: Available from chemical suppliers like Sigma-Aldrich or online marketplaces.  \n - Manganese Oxide: Obtainable from industrial chemical suppliers.  \n - Terbium Oxide: Can be sourced from specialty metal suppliers.  \n - Oxygen: Usually found in the air, use an oxygen supply system if needed for controlled environments.",
+      "steps": [
+        "- Erbium Oxide: Available from chemical suppliers like Sigma-Aldrich or online marketplaces.",
+        "- Manganese Oxide: Obtainable from industrial chemical suppliers.",
+        "- Terbium Oxide: Can be sourced from specialty metal suppliers.",
+        "- Oxygen: Usually found in the air, use an oxygen supply system if needed for controlled environments."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, weigh out 12.5 g of Erbium Oxide.",
+        "2. Add 25 g of Manganese Oxide to the container.",
+        "3. Include 5.0 g of Terbium Oxide.",
+        "4. Carefully mix the dry powders using a spatula until homogenous.",
+        "5. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniform particle size and mixing."
+      ],
+      "raw_text": "1. In a clean, dry container, weigh out 12.5 g of Erbium Oxide.  \n 2. Add 25 g of Manganese Oxide to the container.  \n 3. Include 5.0 g of Terbium Oxide.  \n 4. Carefully mix the dry powders using a spatula until homogenous.  \n 5. Transfer the mixture to a ball mill and mill for 2 hours to ensure uniform particle size and mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the milled powder in a ceramic crucible and insert it into the furnace.",
+        "3. Heat for 4 hours to allow for solid-state reaction to occur."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C.  \n 2. Place the milled powder in a ceramic crucible and insert it into the furnace.  \n 3. Heat for 4 hours to allow for solid-state reaction to occur."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it reaches at least 300 °C to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally.  \n 2. Do not open the furnace until it reaches at least 300 °C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Grind the solid using a mortar and pestle to achieve a fine powder.",
+        "3. If a solid piece is desired, compact the powder into a mold of 3 inches x 2 inches x 7 inches, using a hydraulic press at 200 MPa for 10 minutes.",
+        "4. Finally, sinter the compacted form at 1000 °C for 2 hours for densification."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible.  \n 2. Grind the solid using a mortar and pestle to achieve a fine powder.  \n 3. If a solid piece is desired, compact the powder into a mold of 3 inches x 2 inches x 7 inches, using a hydraulic press at 200 MPa for 10 minutes.  \n 4. Finally, sinter the compacted form at 1000 °C for 2 hours for densification."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2504869.0,
+      "density": 73216.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1882209.0,
+      "formation_energy_per_atom": -29074.0,
+      "decomposition_energy_per_atom": 8.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": 2.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0e11bba2e6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:34.073386Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er3Mn4O14Tb1.json",
+      "material://Er3Mn4O14Tb1"
+    ]
+  }
+}

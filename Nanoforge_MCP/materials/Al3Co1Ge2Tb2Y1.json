@@ -1,0 +1,114 @@
+{
+  "id": "Al3Co1Ge2Tb2Y1",
+  "uri": "material://Al3Co1Ge2Tb2Y1",
+  "composition": {
+    "formula": "Al3Co1Ge2Tb2Y1",
+    "elements": {
+      "Al": 3,
+      "Co": 1,
+      "Ge": 2,
+      "Tb": 2,
+      "Y": 1
+    },
+    "reduced_formula": "Tb2YAl3CoGe2",
+    "element_list": [
+      "Al",
+      "Co",
+      "Ge",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Sc",
+          "amount": 0.25,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Sc: 0.25 g, Se: 0.50 g, Sn: 1.50 g, Y: 2.00 g (total: 4.25 g for a density adjustment)"
+    },
+    "sourcing": {
+      "instructions": "Sc: Online chemical suppliers; Se: chemical supply stores; Sn: metal suppliers; Y: online vendors",
+      "steps": [
+        "Sc: Online chemical suppliers; Se: chemical supply stores; Sn: metal suppliers; Y: online vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Grind Sc, Se, Sn, and Y in a mortar and pestle until a fine powder is achieved.",
+        "3. Combine the powders in a clean beaker.",
+        "4. Stir the mixture thoroughly with a spatula to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Grind Sc, Se, Sn, and Y in a mortar and pestle until a fine powder is achieved. \n 3. Combine the powders in a clean beaker. \n 4. Stir the mixture thoroughly with a spatula to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the homogeneous mixture into a crucible.",
+        "2. Heat in a furnace to 800°C for 2 hours to promote alloy formation."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture into a crucible. \n 2. Heat in a furnace to 800°C for 2 hours to promote alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool to room temperature gradually in the furnace (approximately 3-4 hours).",
+        "2. Do not remove the crucible until it has fully cooled."
+      ],
+      "raw_text": "1. Allow the crucible to cool to room temperature gradually in the furnace (approximately 3-4 hours). \n 2. Do not remove the crucible until it has fully cooled."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use sandpaper to smooth out the edges and surface.",
+        "3. Optionally, apply a sealant if required for stability in environmental conditions."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use sandpaper to smooth out the edges and surface. \n 3. Optionally, apply a sealant if required for stability in environmental conditions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1738674.0,
+      "density": 66082.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -497368.0,
+      "formation_energy_per_atom": -7123.0,
+      "decomposition_energy_per_atom": -45.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -45.0,
+      "decomposition_energy_mp_oqmd": 5.0
+    },
+    "electronic": {
+      "bandgap": 0.0099,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c0ca012070",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.347575Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Co1Ge2Tb2Y1.json",
+      "material://Al3Co1Ge2Tb2Y1"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Nd7O24Pr1S4",
+  "uri": "material://Nd7O24Pr1S4",
+  "composition": {
+    "formula": "Nd7O24Pr1S4",
+    "elements": {
+      "Nd": 7,
+      "O": 24,
+      "Pr": 1,
+      "S": 4
+    },
+    "reduced_formula": "PrNd7(SO6)4",
+    "element_list": [
+      "O",
+      "S",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g, Er: 25 g, Ga: 30 g, Tb: 15 g, Tm: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers, Er: Rare earth suppliers, Ga: Electronics parts suppliers, Tb: Rare earth suppliers, Tm: Specialized chemical suppliers.",
+      "steps": [
+        "Co: Metal suppliers, Er: Rare earth suppliers, Ga: Electronics parts suppliers, Tb: Rare earth suppliers, Tm: Specialized chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed quantities of Co, Er, Ga, Tb, and Tm.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for at least 15 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed quantities of Co, Er, Ga, Tb, and Tm. \n 3. Use a mechanical stirrer to mix the powders thoroughly for at least 15 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat the crucible in a furnace to 1200°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat the crucible in a furnace to 1200°C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature over a period of 4 hours.",
+        "2. Avoid sudden temperature changes to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down gradually to room temperature over a period of 4 hours. \n 2. Avoid sudden temperature changes to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample to achieve desired dimensions using a diamond grinding wheel.",
+        "3. Seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. If necessary, grind the sample to achieve desired dimensions using a diamond grinding wheel. \n 3. Seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4802097.0,
+      "density": 575.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2860441.0,
+      "formation_energy_per_atom": -31275.0,
+      "decomposition_energy_per_atom": -547.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -66.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": 5.117,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c067b75d1d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.212453Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd7O24Pr1S4.json",
+      "material://Nd7O24Pr1S4"
+    ]
+  }
+}

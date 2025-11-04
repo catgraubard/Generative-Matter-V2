@@ -1,0 +1,110 @@
+{
+  "id": "Al10Cu12La2",
+  "uri": "material://Al10Cu12La2",
+  "composition": {
+    "formula": "Al10Cu12La2",
+    "elements": {
+      "Al": 10,
+      "Cu": 12,
+      "La": 2
+    },
+    "reduced_formula": "LaAl5Cu6",
+    "element_list": [
+      "Al",
+      "Cu",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Calcium (Ca): 1.5 g \n Mercury (Hg): 1.0 g \n Lanthanum (La): 4.5 g \n Silicon (Si): 9.0 g \n Zinc (Zn): 1.5 g"
+    },
+    "sourcing": {
+      "instructions": "Calcium: Purchase from a chemical supplier or online store (ensure it’s in a usable form, such as calcium metal or calcium carbonate). \n Mercury: Obtain from a licensed chemical supplier (note safety regulations). \n Lanthanum: Available from chemical suppliers or specialized metal vendors. \n Silicon: Purchase from electronics suppliers or chemical suppliers. \n Zinc: Obtain from hardware stores or chemical suppliers.",
+      "steps": [
+        "Calcium: Purchase from a chemical supplier or online store (ensure it’s in a usable form, such as calcium metal or calcium carbonate).",
+        "Mercury: Obtain from a licensed chemical supplier (note safety regulations).",
+        "Lanthanum: Available from chemical suppliers or specialized metal vendors.",
+        "Silicon: Purchase from electronics suppliers or chemical suppliers.",
+        "Zinc: Obtain from hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical scale.",
+        "2. In a fume hood, carefully combine the weighed amounts of Ca, Hg, La, Si, and Zn in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture into a suitable mold (dimensions: 3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical scale. \n 2. In a fume hood, carefully combine the weighed amounts of Ca, Hg, La, Si, and Zn in a clean, dry mixing container. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture into a suitable mold (dimensions: 3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 600°C.",
+        "2. Once the furnace reaches the desired temperature, place the mold with the mixture inside.",
+        "3. Maintain the temperature for 2 hours to allow for proper melting and bonding of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 600°C. \n 2. Once the furnace reaches the desired temperature, place the mold with the mixture inside. \n 3. Maintain the temperature for 2 hours to allow for proper melting and bonding of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace during the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace during the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect the surface for any defects.",
+        "3. If necessary, sand the edges and surface to achieve a smooth finish.",
+        "4. Optionally, seal the material with a protective coating suitable for the intended use."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect the surface for any defects. \n 3. If necessary, sand the edges and surface to achieve a smooth finish. \n 4. Optionally, seal the material with a protective coating suitable for the intended use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3616577.0,
+      "density": 60156.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fddd",
+      "space_group_number": 70,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1056243.0,
+      "formation_energy_per_atom": -3794.0,
+      "decomposition_energy_per_atom": -613.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -611.0,
+      "decomposition_energy_mp_oqmd": -515.0
+    },
+    "electronic": {
+      "bandgap": 0.0137,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e18bcd67a0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.098760Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al10Cu12La2.json",
+      "material://Al10Cu12La2"
+    ]
+  }
+}

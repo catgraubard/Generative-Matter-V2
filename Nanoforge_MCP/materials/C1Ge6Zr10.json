@@ -1,0 +1,109 @@
+{
+  "id": "C1Ge6Zr10",
+  "uri": "material://C1Ge6Zr10",
+  "composition": {
+    "formula": "C1Ge6Zr10",
+    "elements": {
+      "C": 1,
+      "Ge": 6,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10Ge6C",
+    "element_list": [
+      "C",
+      "Ge",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 10 g, Cu: 15 g, Er: 5 g, Ni: 2 g, Tb: 8 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Chemical supply stores; Cu: Metal suppliers; Er: Rare earth suppliers; Ni: Hardware stores; Tb: Rare earth suppliers",
+      "steps": [
+        "Cd: Chemical supply stores; Cu: Metal suppliers; Er: Rare earth suppliers; Ni: Hardware stores; Tb: Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry mixing container, combine Cd, Cu, Er, Ni, and Tb.",
+        "3. Mix thoroughly using a spatula or mechanical mixer for 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry mixing container, combine Cd, Cu, Er, Ni, and Tb. \n 3. Mix thoroughly using a spatula or mechanical mixer for 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a furnace or oven at 1200°C for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a furnace or oven at 1200°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally in the furnace for 4 hours.",
+        "2. Once cooled, remove the crucible carefully and let it sit at room temperature for an additional hour."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally in the furnace for 4 hours. \n 2. Once cooled, remove the crucible carefully and let it sit at room temperature for an additional hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file or grinder to smooth sharp edges and achieve desired dimensions.",
+        "3. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond file or grinder to smooth sharp edges and achieve desired dimensions. \n 3. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 3206472.0,
+      "density": 70435.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1364411.0,
+      "formation_energy_per_atom": -8235.0,
+      "decomposition_energy_per_atom": -66.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -56.0,
+      "decomposition_energy_mp": -66.0,
+      "decomposition_energy_mp_oqmd": -56.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d81df0cebb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.473792Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Ge6Zr10.json",
+      "material://C1Ge6Zr10"
+    ]
+  }
+}

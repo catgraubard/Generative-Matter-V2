@@ -1,0 +1,113 @@
+{
+  "id": "Cs1In4Rb3Sb16",
+  "uri": "material://Cs1In4Rb3Sb16",
+  "composition": {
+    "formula": "Cs1In4Rb3Sb16",
+    "elements": {
+      "Cs": 1,
+      "In": 4,
+      "Rb": 3,
+      "Sb": 16
+    },
+    "reduced_formula": "CsRb3(InSb4)4",
+    "element_list": [
+      "Rb",
+      "In",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Europium Oxide (Eu2O3): 10.40 g \n - Indium Oxide (In2O3): 4.10 g \n - Tungsten Oxide (WO3): 5.50 g \n - Oxygen (O2): 0.00 g (assumed from stoichiometry and not a separate ingredient)"
+    },
+    "sourcing": {
+      "instructions": "- Europium Oxide: Available from chemical supply companies or online suppliers specializing in rare earth elements. \n - Indium Oxide: Can be obtained from specialty chemical suppliers or online marketplaces. \n - Tungsten Oxide: Found at suppliers of industrial chemicals or online chemical retailers.",
+      "steps": [
+        "- Europium Oxide: Available from chemical supply companies or online suppliers specializing in rare earth elements.",
+        "- Indium Oxide: Can be obtained from specialty chemical suppliers or online marketplaces.",
+        "- Tungsten Oxide: Found at suppliers of industrial chemicals or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10.40 g of Europium Oxide using an analytical balance.",
+        "2. Measure 4.10 g of Indium Oxide using the same balance.",
+        "3. Measure 5.50 g of Tungsten Oxide.",
+        "4. Transfer all powders into a clean, dry ceramic mortar.",
+        "5. Use a pestle to thoroughly grind the powders together for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 10.40 g of Europium Oxide using an analytical balance. \n 2. Measure 4.10 g of Indium Oxide using the same balance. \n 3. Measure 5.50 g of Tungsten Oxide. \n 4. Transfer all powders into a clean, dry ceramic mortar. \n 5. Use a pestle to thoroughly grind the powders together for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into an alumina crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the furnace to 900°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to facilitate complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into an alumina crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the furnace to 900°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to facilitate complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heat treatment, turn off the furnace and allow it to cool down to room temperature gradually for approximately 6 hours.",
+        "2. Do not open the furnace door until the temperature is below 200°C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heat treatment, turn off the furnace and allow it to cool down to room temperature gradually for approximately 6 hours. \n 2. Do not open the furnace door until the temperature is below 200°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully break apart the crucible to retrieve the solid sample.",
+        "3. Use a fine grit sandpaper to smooth any rough edges on the sample.",
+        "4. Optionally coat the sample with a clear epoxy sealant to enhance durability and protect from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully break apart the crucible to retrieve the solid sample. \n 3. Use a fine grit sandpaper to smooth any rough edges on the sample. \n 4. Optionally coat the sample with a clear epoxy sealant to enhance durability and protect from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 936788.0,
+      "density": 49575.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -887958.0,
+      "formation_energy_per_atom": -3287.0,
+      "decomposition_energy_per_atom": -546.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -593.0,
+      "decomposition_energy_mp_oqmd": -449.0
+    },
+    "electronic": {
+      "bandgap": 0.2269,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e84297e14e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.877164Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1In4Rb3Sb16.json",
+      "material://Cs1In4Rb3Sb16"
+    ]
+  }
+}

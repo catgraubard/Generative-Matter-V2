@@ -1,0 +1,116 @@
+{
+  "id": "Na2O24Ru6",
+  "uri": "material://Na2O24Ru6",
+  "composition": {
+    "formula": "Na2O24Ru6",
+    "elements": {
+      "Na": 2,
+      "O": 24,
+      "Ru": 6
+    },
+    "reduced_formula": "Na(RuO4)3",
+    "element_list": [
+      "O",
+      "Na",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na2O: 10 g \n Ru: 60 g \n O: 30 g (sourced as O2 gas)"
+    },
+    "sourcing": {
+      "instructions": "Na2O: Purchase from a chemical supplier specializing in inorganic compounds. \n Ru: Obtain from a precious metals supplier or specialized chemical distributor. \n O: Can be sourced in a gas cylinder from a laboratory gas supplier.",
+      "steps": [
+        "Na2O: Purchase from a chemical supplier specializing in inorganic compounds.",
+        "Ru: Obtain from a precious metals supplier or specialized chemical distributor.",
+        "O: Can be sourced in a gas cylinder from a laboratory gas supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of Na2O and 60 g of Ru using an analytical balance.",
+        "2. In a fume hood, carefully mix Na2O and Ru in a clean, dry container to ensure homogeneity.",
+        "3. Introduce 30 g of O2 gradually while stirring the mixture to prevent excessive reaction heat."
+      ],
+      "raw_text": "1. Measure 10 g of Na2O and 60 g of Ru using an analytical balance. \n 2. In a fume hood, carefully mix Na2O and Ru in a clean, dry container to ensure homogeneity. \n 3. Introduce 30 g of O2 gradually while stirring the mixture to prevent excessive reaction heat."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a high-temperature crucible.",
+        "2. Heat the crucible in a furnace to 800°C for 2 hours to ensure complete reaction and formation of Na2O24Ru6."
+      ],
+      "raw_text": "1. Transfer the mixture into a high-temperature crucible. \n 2. Heat the crucible in a furnace to 800°C for 2 hours to ensure complete reaction and formation of Na2O24Ru6."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally within the furnace for approximately 4 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally within the furnace for approximately 4 hours. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. If necessary, sand the edges and surface of the solid sample using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to protect the surface if required for the intended application."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. If necessary, sand the edges and surface of the solid sample using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a sealant to protect the surface if required for the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 5986601.0,
+      "density": 28747.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/m",
+      "space_group_number": 176,
+      "point_group": "6/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2190018.0,
+      "formation_energy_per_atom": -13112.0,
+      "decomposition_energy_per_atom": -201.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -62.0,
+      "decomposition_energy_mp": -209.0,
+      "decomposition_energy_mp_oqmd": -206.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "964cd82e20",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:33.663379Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na2O24Ru6.json",
+      "material://Na2O24Ru6"
+    ]
+  }
+}

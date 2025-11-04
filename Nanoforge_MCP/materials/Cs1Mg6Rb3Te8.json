@@ -1,0 +1,112 @@
+{
+  "id": "Cs1Mg6Rb3Te8",
+  "uri": "material://Cs1Mg6Rb3Te8",
+  "composition": {
+    "formula": "Cs1Mg6Rb3Te8",
+    "elements": {
+      "Cs": 1,
+      "Mg": 6,
+      "Rb": 3,
+      "Te": 8
+    },
+    "reduced_formula": "CsRb3(Mg3Te4)2",
+    "element_list": [
+      "Mg",
+      "Rb",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.0 g, Mg: 60.0 g, Rb: 30.0 g, Te: 120.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Alfa Aesar); Mg: Purchase from a metal supplier (e.g., Sigma-Aldrich); Rb: Source from a chemical supplier (e.g., Acros Organics); Te: Acquire from a chemical supplier (e.g., Strem Chemicals).",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Alfa Aesar); Mg: Purchase from a metal supplier (e.g., Sigma-Aldrich); Rb: Source from a chemical supplier (e.g., Acros Organics); Te: Acquire from a chemical supplier (e.g., Strem Chemicals)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing bowl, combine 10.0 g of Cs, 60.0 g of Mg, 30.0 g of Rb, and 120.0 g of Te.",
+        "3. Use a mortar and pestle to mix the powders thoroughly until a homogenous mixture is achieved.",
+        "4. Transfer the mixed powder into a ceramic or quartz crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry mixing bowl, combine 10.0 g of Cs, 60.0 g of Mg, 30.0 g of Rb, and 120.0 g of Te. \n 3. Use a mortar and pestle to mix the powders thoroughly until a homogenous mixture is achieved. \n 4. Transfer the mixed powder into a ceramic or quartz crucible."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 600°C.",
+        "2. Place the crucible in the furnace and hold at 600°C for 2 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 600°C. \n 2. Place the crucible in the furnace and hold at 600°C for 2 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any defects.",
+        "2. If necessary, use a fine-grit sandpaper to smooth the surface of the material.",
+        "3. Seal the sample with a clear epoxy resin to protect it from moisture and other environmental factors. Allow the epoxy to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any defects. \n 2. If necessary, use a fine-grit sandpaper to smooth the surface of the material. \n 3. Seal the sample with a clear epoxy resin to protect it from moisture and other environmental factors. Allow the epoxy to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 6835638.0,
+      "density": 37797.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -594002.0,
+      "formation_energy_per_atom": -11564.0,
+      "decomposition_energy_per_atom": -541.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -532.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": 2.3222,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1bf075c684",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:52.235971Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Mg6Rb3Te8.json",
+      "material://Cs1Mg6Rb3Te8"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "id": "Ni4Sn2Te4",
+  "uri": "material://Ni4Sn2Te4",
+  "composition": {
+    "formula": "Ni4Sn2Te4",
+    "elements": {
+      "Ni": 4,
+      "Sn": 2,
+      "Te": 4
+    },
+    "reduced_formula": "Ni2SnTe2",
+    "element_list": [
+      "Ni",
+      "Sn",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 64.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 21.5,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 50.1,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 64.4 g \n Sn: 21.5 g \n Te: 50.1 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Obtain from a metal supplier or online retailer specializing in metal powders. \n Sn: Available at electronic component suppliers or chemical supply companies. \n Te: Purchase from specialty chemical suppliers.",
+      "steps": [
+        "Ni: Obtain from a metal supplier or online retailer specializing in metal powders.",
+        "Sn: Available at electronic component suppliers or chemical supply companies.",
+        "Te: Purchase from specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 64.4 g of nickel powder.",
+        "2. Weigh out 21.5 g of tin powder.",
+        "3. Weigh out 50.1 g of tellurium powder.",
+        "4. In a clean, dry mixing container, combine all powders thoroughly using a spatula or mortar and pestle for uniformity."
+      ],
+      "raw_text": "1. Weigh out 64.4 g of nickel powder. \n 2. Weigh out 21.5 g of tin powder. \n 3. Weigh out 50.1 g of tellurium powder. \n 4. In a clean, dry mixing container, combine all powders thoroughly using a spatula or mortar and pestle for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 950 °C at a rate of 10 °C/min.",
+        "4. Maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 950 °C at a rate of 10 °C/min. \n 4. Maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature (approximately 4-6 hours).",
+        "3. Avoid forced cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down naturally to room temperature (approximately 4-6 hours). \n 3. Avoid forced cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a grinder or sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a protective sealant to the surface for durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use a grinder or sandpaper to smooth any rough edges. \n 3. Optionally, apply a protective sealant to the surface for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2126037.0,
+      "density": 76745.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -481327.0,
+      "formation_energy_per_atom": -442.0,
+      "decomposition_energy_per_atom": -301.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -203.0,
+      "decomposition_energy_mp": -293.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4dc892c287",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:57.945727Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4Sn2Te4.json",
+      "material://Ni4Sn2Te4"
+    ]
+  }
+}

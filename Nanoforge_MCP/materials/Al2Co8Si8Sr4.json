@@ -1,0 +1,127 @@
+{
+  "id": "Al2Co8Si8Sr4",
+  "uri": "material://Al2Co8Si8Sr4",
+  "composition": {
+    "formula": "Al2Co8Si8Sr4",
+    "elements": {
+      "Al": 2,
+      "Co": 8,
+      "Si": 8,
+      "Sr": 4
+    },
+    "reduced_formula": "Sr2Al(CoSi)4",
+    "element_list": [
+      "Al",
+      "Si",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al2O3: 40 g \n Co: 20 g \n Si: 30 g \n Sr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Al2O3: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich). \n Co: Purchase cobalt powder from metal suppliers or online (e.g., Amazon). \n Si: Obtain silicon powder from chemical suppliers or online (e.g., Fisher Scientific). \n Sr: Buy strontium carbonate or strontium powder from chemical supply stores or online (e.g., eBay).",
+      "steps": [
+        "Al2O3: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "Co: Purchase cobalt powder from metal suppliers or online (e.g., Amazon).",
+        "Si: Obtain silicon powder from chemical suppliers or online (e.g., Fisher Scientific).",
+        "Sr: Buy strontium carbonate or strontium powder from chemical supply stores or online (e.g., eBay)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40 g of Al2O3, 20 g of Co, 30 g of Si, and 10 g of Sr using a precise scale.",
+        "2. In a clean, dry container, combine the measured powders.",
+        "3. Use a mortar and pestle to grind the mixture for 10 minutes to ensure uniformity.",
+        "4. Transfer the mixture into a ball mill and mill for 30 minutes to achieve a fine powder blend."
+      ],
+      "raw_text": "1. Measure 40 g of Al2O3, 20 g of Co, 30 g of Si, and 10 g of Sr using a precise scale. \n 2. In a clean, dry container, combine the measured powders. \n 3. Use a mortar and pestle to grind the mixture for 10 minutes to ensure uniformity. \n 4. Transfer the mixture into a ball mill and mill for 30 minutes to achieve a fine powder blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the blended powder in a crucible suitable for high temperatures.",
+        "3. Heat the mixture in the furnace for 2 hours, maintaining a consistent temperature."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the blended powder in a crucible suitable for high temperatures. \n 3. Heat the mixture in the furnace for 2 hours, maintaining a consistent temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "4. If desired, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 4. If desired, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3587592.0,
+      "density": 50942.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1261545.0,
+      "formation_energy_per_atom": -5289.0,
+      "decomposition_energy_per_atom": -72.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -48.0,
+      "decomposition_energy_mp": -66.0,
+      "decomposition_energy_mp_oqmd": -48.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a890c55b37",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:58.068565Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Co8Si8Sr4.json",
+      "material://Al2Co8Si8Sr4"
+    ]
+  }
+}

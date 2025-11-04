@@ -1,0 +1,112 @@
+{
+  "id": "Ag8Na6Te8",
+  "uri": "material://Ag8Na6Te8",
+  "composition": {
+    "formula": "Ag8Na6Te8",
+    "elements": {
+      "Ag": 8,
+      "Na": 6,
+      "Te": 8
+    },
+    "reduced_formula": "Na3(AgTe)4",
+    "element_list": [
+      "Na",
+      "Ag",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 30 g, In: 12 g, Ni: 5 g, Tb: 3 g, Y: 6 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Chemical supply stores (ensure proper handling), In: Online metal suppliers, Ni: Hardware stores, Tb: Specialized rare earth suppliers, Y: Online metal suppliers",
+      "steps": [
+        "Hg: Chemical supply stores (ensure proper handling), In: Online metal suppliers, Ni: Hardware stores, Tb: Specialized rare earth suppliers, Y: Online metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a digital scale.",
+        "2. In a fume hood, combine Hg, In, Ni, Tb, and Y in a clean ceramic mixing bowl.",
+        "3. Mix thoroughly with a stainless steel spatula until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a digital scale. \n 2. In a fume hood, combine Hg, In, Ni, Tb, and Y in a clean ceramic mixing bowl. \n 3. Mix thoroughly with a stainless steel spatula until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 900°C.",
+        "2. Place the mixed powder in a graphite crucible.",
+        "3. Heat the crucible in the furnace for 2 hours to achieve full melting and alloying."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 900°C. \n 2. Place the mixed powder in a graphite crucible. \n 3. Heat the crucible in the furnace for 2 hours to achieve full melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to drop to 600°C naturally (approximately 1 hour).",
+        "2. Once at 600°C, remove the crucible carefully using heat-resistant gloves.",
+        "3. Allow it to cool in an inert atmosphere for an additional 2 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to drop to 600°C naturally (approximately 1 hour). \n 2. Once at 600°C, remove the crucible carefully using heat-resistant gloves. \n 3. Allow it to cool in an inert atmosphere for an additional 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating suitable for metallic compounds."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating suitable for metallic compounds."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 6115226.0,
+      "density": 54897.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbam",
+      "space_group_number": 55,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -687524.0,
+      "formation_energy_per_atom": -5914.0,
+      "decomposition_energy_per_atom": -221.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -216.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aec4512960",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.245242Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag8Na6Te8.json",
+      "material://Ag8Na6Te8"
+    ]
+  }
+}

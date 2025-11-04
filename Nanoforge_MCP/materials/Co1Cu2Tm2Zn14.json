@@ -1,0 +1,129 @@
+{
+  "id": "Co1Cu2Tm2Zn14",
+  "uri": "material://Co1Cu2Tm2Zn14",
+  "composition": {
+    "formula": "Co1Cu2Tm2Zn14",
+    "elements": {
+      "Co": 1,
+      "Cu": 2,
+      "Tm": 2,
+      "Zn": 14
+    },
+    "reduced_formula": "Tm2Zn14CoCu2",
+    "element_list": [
+      "Co",
+      "Cu",
+      "Zn",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 14.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1.0 g\nCu: 2.0 g\nTm: 2.0 g\nZn: 14.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt) - Purchase from a chemical supply store or online chemical retailer.\nCu (Copper) - Available at hardware stores or metal suppliers.\nTm (Thulium) - Obtain from specialty metal suppliers or chemical retailers.\nZn (Zinc) - Available at hardware stores or online chemical suppliers.",
+      "steps": [
+        "Co (Cobalt) - Purchase from a chemical supply store or online chemical retailer.",
+        "Cu (Copper) - Available at hardware stores or metal suppliers.",
+        "Tm (Thulium) - Obtain from specialty metal suppliers or chemical retailers.",
+        "Zn (Zinc) - Available at hardware stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Cu, Tm, and Zn in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale.\n2. In a clean, dry mixing container, combine Co, Cu, Tm, and Zn in the specified amounts.\n3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace and heat to 800°C (1472°F) over a period of 1 hour. Maintain this temperature for an additional 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible.\n2. Place the crucible in a furnace and heat to 800°C (1472°F) over a period of 1 hour. Maintain this temperature for an additional 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not accelerate cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-4 hours).\n2. Do not accelerate cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth the surface, starting with coarse grit and progressing to fine grit.",
+        "3. Optionally, apply a sealing agent to protect the surface from oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use sandpaper to smooth the surface, starting with coarse grit and progressing to fine grit.\n3. Optionally, apply a sealing agent to protect the surface from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2924923.0,
+      "density": 8173.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -465232.0,
+      "formation_energy_per_atom": -2436.0,
+      "decomposition_energy_per_atom": -318.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -243.0,
+      "decomposition_energy_mp_oqmd": -196.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "356d71db46",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:25.679932Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Cu2Tm2Zn14.json",
+      "material://Co1Cu2Tm2Zn14"
+    ]
+  }
+}

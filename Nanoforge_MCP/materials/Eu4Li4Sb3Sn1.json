@@ -1,0 +1,114 @@
+{
+  "id": "Eu4Li4Sb3Sn1",
+  "uri": "material://Eu4Li4Sb3Sn1",
+  "composition": {
+    "formula": "Eu4Li4Sb3Sn1",
+    "elements": {
+      "Eu": 4,
+      "Li": 4,
+      "Sb": 3,
+      "Sn": 1
+    },
+    "reduced_formula": "Li4Eu4SnSb3",
+    "element_list": [
+      "Li",
+      "Sn",
+      "Sb",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 12.5 g, Se: 0.625 g, Si: 37.5 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supplier or online marketplace (ensure purity), Se: chemical supplier, Si: electronics or materials supplier.",
+      "steps": [
+        "La: Purchase from a chemical supplier or online marketplace (ensure purity), Se: chemical supplier, Si: electronics or materials supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each component accurately using a precision balance.",
+        "2. In a clean, dry container, combine La, Se, and Si.",
+        "3. Stir the mixture thoroughly using a spatula until homogenous.",
+        "4. Transfer the mixture to a high-purity crucible suitable for melting."
+      ],
+      "raw_text": "1. Weigh out each component accurately using a precision balance. \n 2. In a clean, dry container, combine La, Se, and Si. \n 3. Stir the mixture thoroughly using a spatula until homogenous. \n 4. Transfer the mixture to a high-purity crucible suitable for melting."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the crucible with the mixture inside the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 8 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 8 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface defects or irregularities.",
+        "3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface defects or irregularities. \n 3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3142945.0,
+      "density": 59153.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -761166.0,
+      "formation_energy_per_atom": -9097.0,
+      "decomposition_energy_per_atom": -177.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -175.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 0.0088,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d2cf0157ed",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.057164Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Eu4Li4Sb3Sn1.json",
+      "material://Eu4Li4Sb3Sn1"
+    ]
+  }
+}

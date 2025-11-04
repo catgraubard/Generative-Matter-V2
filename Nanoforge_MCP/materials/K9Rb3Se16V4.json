@@ -1,0 +1,114 @@
+{
+  "id": "K9Rb3Se16V4",
+  "uri": "material://K9Rb3Se16V4",
+  "composition": {
+    "formula": "K9Rb3Se16V4",
+    "elements": {
+      "K": 9,
+      "Rb": 3,
+      "Se": 16,
+      "V": 4
+    },
+    "reduced_formula": "K9Rb3(VSe4)4",
+    "element_list": [
+      "K",
+      "V",
+      "Se",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 2.5 g, Rb: 2.0 g, Se: 12.0 g, V: 1.5 g"
+    },
+    "sourcing": {
+      "instructions": "K: Potassium chloride from chemical suppliers; Rb: Rubidium acetate from chemical suppliers; Se: Selenium powder from chemical suppliers; V: Vanadium pentoxide from chemical suppliers.",
+      "steps": [
+        "K: Potassium chloride from chemical suppliers; Rb: Rubidium acetate from chemical suppliers; Se: Selenium powder from chemical suppliers; V: Vanadium pentoxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry beaker, combine K, Rb, Se, and V.",
+        "3. Stir the mixture gently with a glass rod until uniformly mixed.",
+        "4. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry beaker, combine K, Rb, Se, and V. \n 3. Stir the mixture gently with a glass rod until uniformly mixed. \n 4. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the crucible in the furnace for 4 hours.",
+        "3. Ensure the atmosphere is inert (e.g., using argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the crucible in the furnace for 4 hours. \n 3. Ensure the atmosphere is inert (e.g., using argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surfaces.",
+        "4. Optionally, seal the surface with a suitable coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, use fine-grit sandpaper to smooth the surfaces. \n 4. Optionally, seal the surface with a suitable coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 10619821.0,
+      "density": 32452.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1469203.0,
+      "formation_energy_per_atom": -13036.0,
+      "decomposition_energy_per_atom": -1212.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -1212.0,
+      "decomposition_energy_mp_oqmd": -1212.0
+    },
+    "electronic": {
+      "bandgap": 1.1757,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "778f41247b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:51.990056Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K9Rb3Se16V4.json",
+      "material://K9Rb3Se16V4"
+    ]
+  }
+}

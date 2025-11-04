@@ -1,0 +1,111 @@
+{
+  "id": "B4Cr4Fe6Ni2O20",
+  "uri": "material://B4Cr4Fe6Ni2O20",
+  "composition": {
+    "formula": "B4Cr4Fe6Ni2O20",
+    "elements": {
+      "B": 4,
+      "Cr": 4,
+      "Fe": 6,
+      "Ni": 2,
+      "O": 20
+    },
+    "reduced_formula": "Cr2Fe3Ni(BO5)2",
+    "element_list": [
+      "B",
+      "O",
+      "Cr",
+      "Fe",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Barium Oxide (BaO): 50.0 g  \n - Chromium Oxide (Cr2O3): 35.0 g  \n - Iron (III) Oxide (Fe2O3): 80.0 g  \n - Nickel Oxide (NiO): 20.0 g  \n - Oxygen source (if necessary, e.g., Ozone or air): sufficient to ensure proper oxidation during heating."
+    },
+    "sourcing": {
+      "instructions": "- Barium Oxide: Available from chemical supply companies or online suppliers (e.g., Sigma-Aldrich). \n - Chromium Oxide: Obtain from ceramic material suppliers. \n - Iron (III) Oxide: Commonly found in hardware stores or chemical suppliers. \n - Nickel Oxide: Available through specialty chemical suppliers or online.",
+      "steps": [
+        "- Barium Oxide: Available from chemical supply companies or online suppliers (e.g., Sigma-Aldrich).",
+        "- Chromium Oxide: Obtain from ceramic material suppliers.",
+        "- Iron (III) Oxide: Commonly found in hardware stores or chemical suppliers.",
+        "- Nickel Oxide: Available through specialty chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. Combine Barium Oxide, Chromium Oxide, Iron (III) Oxide, and Nickel Oxide in a clean, dry mixing bowl.",
+        "3. Mix the powders thoroughly using a mortar and pestle or mechanical mixer for 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powders into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. Combine Barium Oxide, Chromium Oxide, Iron (III) Oxide, and Nickel Oxide in a clean, dry mixing bowl. \n 3. Mix the powders thoroughly using a mortar and pestle or mechanical mixer for 15 minutes to ensure homogeneity. \n 4. Transfer the mixed powders into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the crucible in the furnace and heat for 2 hours.",
+        "3. After 2 hours, hold the temperature for an additional 30 minutes to ensure complete reaction of materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the crucible in the furnace and heat for 2 hours. \n 3. After 2 hours, hold the temperature for an additional 30 minutes to ensure complete reaction of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock to the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace until it has cooled to prevent thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections; if necessary, use sandpaper (grit 400) to smooth out the surface.",
+        "3. Optionally, seal the material with a clear epoxy or ceramic coating to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections; if necessary, use sandpaper (grit 400) to smooth out the surface. \n 3. Optionally, seal the material with a clear epoxy or ceramic coating to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 3641288.0,
+      "density": 46683.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbam",
+      "space_group_number": 55,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3037704.0,
+      "formation_energy_per_atom": -21417.0,
+      "decomposition_energy_per_atom": -99.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -105.0,
+      "decomposition_energy_mp_oqmd": -101.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2f77ff19b7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:17.746309Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Cr4Fe6Ni2O20.json",
+      "material://B4Cr4Fe6Ni2O20"
+    ]
+  }
+}

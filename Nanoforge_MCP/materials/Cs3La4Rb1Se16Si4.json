@@ -1,0 +1,114 @@
+{
+  "id": "Cs3La4Rb1Se16Si4",
+  "uri": "material://Cs3La4Rb1Se16Si4",
+  "composition": {
+    "formula": "Cs3La4Rb1Se16Si4",
+    "elements": {
+      "Cs": 3,
+      "La": 4,
+      "Rb": 1,
+      "Se": 16,
+      "Si": 4
+    },
+    "reduced_formula": "Cs3RbLa4(SiSe4)4",
+    "element_list": [
+      "Si",
+      "Se",
+      "Rb",
+      "Cs",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 2.1,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 2.1 g, La: 5.2 g, Rb: 1.3 g, Se: 12.4 g, Si: 4.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: from a chemical supplier (e.g., Sigma-Aldrich); La: from a rare earth material supplier; Rb: from a chemical supplier; Se: from a chemical supplier; Si: from a semiconductor material supplier.",
+      "steps": [
+        "Cs: from a chemical supplier (e.g., Sigma-Aldrich); La: from a rare earth material supplier; Rb: from a chemical supplier; Se: from a chemical supplier; Si: from a semiconductor material supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance.",
+        "2. In a clean, dry container, combine Cs, La, Rb, Se, and Si.",
+        "3. Use a mortar and pestle to grind the mixture until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance. \n 2. In a clean, dry container, combine Cs, La, Rb, Se, and Si. \n 3. Use a mortar and pestle to grind the mixture until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature crucible.",
+        "2. Heat in a furnace to 800°C for 4 hours.",
+        "3. Increase temperature to 1000°C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature crucible. \n 2. Heat in a furnace to 800°C for 4 hours. \n 3. Increase temperature to 1000°C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature of the furnace to room temperature over 6 hours.",
+        "2. Remove the crucible from the furnace once cooled."
+      ],
+      "raw_text": "1. Gradually reduce the temperature of the furnace to room temperature over 6 hours. \n 2. Remove the crucible from the furnace once cooled."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for cracks or imperfections.",
+        "2. If necessary, grind any rough edges using a diamond-coated sanding tool.",
+        "3. Seal the sample with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Inspect the solid sample for cracks or imperfections. \n 2. If necessary, grind any rough edges using a diamond-coated sanding tool. \n 3. Seal the sample with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9262709.0,
+      "density": 43303.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1454758.0,
+      "formation_energy_per_atom": -15868.0,
+      "decomposition_energy_per_atom": -432.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -432.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 2.2988,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f24c93c914",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.266299Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3La4Rb1Se16Si4.json",
+      "material://Cs3La4Rb1Se16Si4"
+    ]
+  }
+}

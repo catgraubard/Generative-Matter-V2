@@ -1,0 +1,130 @@
+{
+  "id": "Mg1Pb5Pr1Tm1",
+  "uri": "material://Mg1Pb5Pr1Tm1",
+  "composition": {
+    "formula": "Mg1Pb5Pr1Tm1",
+    "elements": {
+      "Mg": 1,
+      "Pb": 5,
+      "Pr": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "PrTmMgPb5",
+    "element_list": [
+      "Mg",
+      "Pr",
+      "Tm",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 300 g \n P: 240 g \n Ru: 100 g \n Y: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Ni (Nickel): Purchase from metal supply stores or online suppliers. \n P (Phosphorus): Obtain from chemical suppliers or specialty metal vendors. \n Ru (Ruthenium): Acquire from precious metal dealers or online marketplaces. \n Y (Yttrium): Source from material science suppliers or chemical distributors.",
+      "steps": [
+        "Ni (Nickel): Purchase from metal supply stores or online suppliers.",
+        "P (Phosphorus): Obtain from chemical suppliers or specialty metal vendors.",
+        "Ru (Ruthenium): Acquire from precious metal dealers or online marketplaces.",
+        "Y (Yttrium): Source from material science suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed amounts of Ni, P, Ru, and Y.",
+        "3. Use a mechanical mixer or pestle and mortar to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine the weighed amounts of Ni, P, Ru, and Y. \n 3. Use a mechanical mixer or pestle and mortar to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1300°C (2372°F).",
+        "2. Transfer the blended powder mixture into a crucible suitable for high temperatures.",
+        "3. Place the crucible into the preheated furnace and maintain this temperature for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1300°C (2372°F). \n 2. Transfer the blended powder mixture into a crucible suitable for high temperatures. \n 3. Place the crucible into the preheated furnace and maintain this temperature for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using appropriate safety equipment."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using appropriate safety equipment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder or sanding tool to smooth the edges and surfaces of the sample, achieving desired dimensions.",
+        "3. Optionally, apply a sealing coat if corrosion resistance is required, using a suitable chemical sealant for metal samples."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a grinder or sanding tool to smooth the edges and surfaces of the sample, achieving desired dimensions. \n 3. Optionally, apply a sealing coat if corrosion resistance is required, using a suitable chemical sealant for metal samples."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 2278938.0,
+      "density": 99835.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -32002.0,
+      "formation_energy_per_atom": -3227.0,
+      "decomposition_energy_per_atom": -94.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -31.0,
+      "decomposition_energy_mp": -94.0,
+      "decomposition_energy_mp_oqmd": -37.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e12c9bde50",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.995121Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg1Pb5Pr1Tm1.json",
+      "material://Mg1Pb5Pr1Tm1"
+    ]
+  }
+}

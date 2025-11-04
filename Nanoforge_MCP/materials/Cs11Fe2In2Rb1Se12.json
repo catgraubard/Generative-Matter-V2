@@ -1,0 +1,118 @@
+{
+  "id": "Cs11Fe2In2Rb1Se12",
+  "uri": "material://Cs11Fe2In2Rb1Se12",
+  "composition": {
+    "formula": "Cs11Fe2In2Rb1Se12",
+    "elements": {
+      "Cs": 11,
+      "Fe": 2,
+      "In": 2,
+      "Rb": 1,
+      "Se": 12
+    },
+    "reduced_formula": "Cs11RbIn2(FeSe6)2",
+    "element_list": [
+      "Fe",
+      "Se",
+      "Rb",
+      "In",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 120 g, Ga: 20 g, Se: 320 g, W: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier, Ga: Specialty chemical supplier, Se: Chemical supply store, W: Metal alloy supplier",
+      "steps": [
+        "Cu: Local metal supplier, Ga: Specialty chemical supplier, Se: Chemical supply store, W: Metal alloy supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely.",
+        "2. In a clean, dry container, combine Cu and Ga. Stir thoroughly until homogeneous.",
+        "3. Gradually add Se while continuously stirring to prevent clumping.",
+        "4. Finally, add W and mix until a uniform paste is formed."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely. \n 2. In a clean, dry container, combine Cu and Ga. Stir thoroughly until homogeneous. \n 3. Gradually add Se while continuously stirring to prevent clumping. \n 4. Finally, add W and mix until a uniform paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a quartz or ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain at 800°C for 2 hours to ensure proper melting and mixing of the components."
+      ],
+      "raw_text": "1. Transfer the mixture to a quartz or ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min. \n 4. Maintain at 800°C for 2 hours to ensure proper melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature over 6 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature over 6 hours. \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120 and 400) to smooth the surfaces of the sample.",
+        "3. If desired, apply a protective sealant to enhance surface durability.",
+        "4. Allow any sealant to cure as per the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120 and 400) to smooth the surfaces of the sample. \n 3. If desired, apply a protective sealant to enhance surface durability. \n 4. Allow any sealant to cure as per the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11609233.0,
+      "density": 40569.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1079673.0,
+      "formation_energy_per_atom": -11694.0,
+      "decomposition_energy_per_atom": -371.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -371.0,
+      "decomposition_energy_mp_oqmd": -311.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c892015f94",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.538400Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs11Fe2In2Rb1Se12.json",
+      "material://Cs11Fe2In2Rb1Se12"
+    ]
+  }
+}

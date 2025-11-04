@@ -1,0 +1,109 @@
+{
+  "id": "Co1Er1Ni1Pa1",
+  "uri": "material://Co1Er1Ni1Pa1",
+  "composition": {
+    "formula": "Co1Er1Ni1Pa1",
+    "elements": {
+      "Co": 1,
+      "Er": 1,
+      "Ni": 1,
+      "Pa": 1
+    },
+    "reduced_formula": "ErPaCoNi",
+    "element_list": [
+      "Co",
+      "Ni",
+      "Er",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Niobium Oxide (Nb2O5) - 32.0 g \n 2. Lead Oxide (PbO) - 12.0 g \n 3. Strontium Carbonate (SrCO3) - 4.0 g \n 4. Oxygen (O2) - 40.0 g (in reaction atmosphere)"
+    },
+    "sourcing": {
+      "instructions": "1. Niobium Oxide (Nb2O5) can be sourced from chemical supply companies or specialized electronic material suppliers. \n 2. Lead Oxide (PbO) is available from glass manufacturers or industrial chemical suppliers. \n 3. Strontium Carbonate (SrCO3) can be found through ceramic material suppliers or chemical distributors. \n 4. Oxygen can be sourced from gas suppliers, or through the air when using an open reaction environment.",
+      "steps": [
+        "1. Niobium Oxide (Nb2O5) can be sourced from chemical supply companies or specialized electronic material suppliers.",
+        "2. Lead Oxide (PbO) is available from glass manufacturers or industrial chemical suppliers.",
+        "3. Strontium Carbonate (SrCO3) can be found through ceramic material suppliers or chemical distributors.",
+        "4. Oxygen can be sourced from gas suppliers, or through the air when using an open reaction environment."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh all materials using an analytical balance for precision.",
+        "2. In a clean, dry container, combine 32.0 g Nb2O5, 12.0 g PbO, and 4.0 g SrCO3.",
+        "3. Mix the ingredients thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous powder is obtained."
+      ],
+      "raw_text": "1. Measure and weigh all materials using an analytical balance for precision. \n 2. In a clean, dry container, combine 32.0 g Nb2O5, 12.0 g PbO, and 4.0 g SrCO3. \n 3. Mix the ingredients thoroughly using a mortar and pestle or a mechanical mixer until a homogeneous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible suitable for ceramics.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 5°C/min and maintain this temperature for 4 hours to facilitate reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible suitable for ceramics. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 5°C/min and maintain this temperature for 4 hours to facilitate reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the 4-hour heating period, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours) without opening the door to avoid thermal shock."
+      ],
+      "raw_text": "1. After the 4-hour heating period, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours) without opening the door to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections and sand down rough edges with fine-grit sandpaper if necessary.",
+        "3. Optionally, apply a sealing agent if required for specific applications to enhance durability and stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections and sand down rough edges with fine-grit sandpaper if necessary. \n 3. Optionally, apply a sealing agent if required for specific applications to enhance durability and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 4,
+      "volume": 774897.0,
+      "density": 110558.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -28704.0,
+      "formation_energy_per_atom": -4333.0,
+      "decomposition_energy_per_atom": -836.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -107.0,
+      "decomposition_energy_mp": -836.0,
+      "decomposition_energy_mp_oqmd": -107.0
+    },
+    "electronic": {
+      "bandgap": 0.0061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cea32ecb95",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.936273Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Er1Ni1Pa1.json",
+      "material://Co1Er1Ni1Pa1"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "Ca8Pb1Sn3",
+  "uri": "material://Ca8Pb1Sn3",
+  "composition": {
+    "formula": "Ca8Pb1Sn3",
+    "elements": {
+      "Ca": 8,
+      "Pb": 1,
+      "Sn": 3
+    },
+    "reduced_formula": "Ca8Sn3Pb",
+    "element_list": [
+      "Ca",
+      "Sn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "In",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "In: 20g, La: 8g, Y: 4g"
+    },
+    "sourcing": {
+      "instructions": "In (Indium): Purchase from a specialized metal supplier or electronics store.",
+      "steps": [
+        "In (Indium): Purchase from a specialized metal supplier or electronics store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20g of Indium, 8g of Lanthanum, and 4g of Yttrium using a precision scale."
+      ],
+      "raw_text": "1. Weigh out 20g of Indium, 8g of Lanthanum, and 4g of Yttrium using a precision scale."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1000°C (1832°F)."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1000°C (1832°F)."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 3892682.0,
+      "density": 37708.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -39261.0,
+      "formation_energy_per_atom": -6229.0,
+      "decomposition_energy_per_atom": 3.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": 3.0,
+      "decomposition_energy_mp_oqmd": 5.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cef9366bdd",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.023172Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca8Pb1Sn3.json",
+      "material://Ca8Pb1Sn3"
+    ]
+  }
+}

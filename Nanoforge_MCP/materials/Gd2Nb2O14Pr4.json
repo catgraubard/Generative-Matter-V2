@@ -1,0 +1,112 @@
+{
+  "id": "Gd2Nb2O14Pr4",
+  "uri": "material://Gd2Nb2O14Pr4",
+  "composition": {
+    "formula": "Gd2Nb2O14Pr4",
+    "elements": {
+      "Gd": 2,
+      "Nb": 2,
+      "O": 14,
+      "Pr": 4
+    },
+    "reduced_formula": "Pr2GdNbO7",
+    "element_list": [
+      "O",
+      "Nb",
+      "Pr",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gd2O3: 40.0 g \n Nb2O5: 20.0 g \n Pr6O11: 10.0 g \n HCl (for cleaning): 5.0 g \n Ethanol (for mixing): 20.0 mL"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3: Purchase from a chemical supply store or online from suppliers like Sigma-Aldrich or Alfa Aesar. \n Nb2O5: Available from chemical suppliers such as Strem Chemicals. \n Pr6O11: Obtain from specialized rare earth suppliers. \n HCl: Available at hardware stores. \n Ethanol: Purchase from pharmacies or laboratory suppliers.",
+      "steps": [
+        "Gd2O3: Purchase from a chemical supply store or online from suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Nb2O5: Available from chemical suppliers such as Strem Chemicals.",
+        "Pr6O11: Obtain from specialized rare earth suppliers.",
+        "HCl: Available at hardware stores.",
+        "Ethanol: Purchase from pharmacies or laboratory suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Clean all glassware and tools with HCl followed by rinsing with distilled water.",
+        "2. Weigh out the required amounts of Gd2O3, Nb2O5, and Pr6O11 using an analytical balance.",
+        "3. In a clean mixing container, combine Gd2O3, Nb2O5, and Pr6O11.",
+        "4. Add ethanol gradually while stirring to ensure a homogeneous slurry is formed."
+      ],
+      "raw_text": "1. Clean all glassware and tools with HCl followed by rinsing with distilled water. \n 2. Weigh out the required amounts of Gd2O3, Nb2O5, and Pr6O11 using an analytical balance. \n 3. In a clean mixing container, combine Gd2O3, Nb2O5, and Pr6O11. \n 4. Add ethanol gradually while stirring to ensure a homogeneous slurry is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 800°C for 4 hours to promote solid-state reaction.",
+        "3. Ramp the temperature to 1100°C and maintain for an additional 6 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 800°C for 4 hours to promote solid-state reaction. \n 3. Ramp the temperature to 1100°C and maintain for an additional 6 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, allow the crucible to cool inside the furnace to room temperature (approx. 6-8 hours) to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating process, allow the crucible to cool inside the furnace to room temperature (approx. 6-8 hours) to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the obtained solid using a mortar and pestle to achieve a fine powder.",
+        "2. Press the powder into the desired shape (3 in x 2 in x 7 in) using a hydraulic press.",
+        "3. Sinter the pressed material at 1200°C for 2 hours to enhance density and stability.",
+        "4. Optionally, sand the surface to achieve a smooth finish."
+      ],
+      "raw_text": "1. Grind the obtained solid using a mortar and pestle to achieve a fine powder. \n 2. Press the powder into the desired shape (3 in x 2 in x 7 in) using a hydraulic press. \n 3. Sinter the pressed material at 1200°C for 2 hours to enhance density and stability. \n 4. Optionally, sand the surface to achieve a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3259314.0,
+      "density": 65617.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -217113.0,
+      "formation_energy_per_atom": -36529.0,
+      "decomposition_energy_per_atom": -6.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -66.0,
+      "decomposition_energy_mp_oqmd": -32.0
+    },
+    "electronic": {
+      "bandgap": 2.5536,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "95d4404475",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:32.668187Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd2Nb2O14Pr4.json",
+      "material://Gd2Nb2O14Pr4"
+    ]
+  }
+}

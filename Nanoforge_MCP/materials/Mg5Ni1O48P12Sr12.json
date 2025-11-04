@@ -1,0 +1,112 @@
+{
+  "id": "Mg5Ni1O48P12Sr12",
+  "uri": "material://Mg5Ni1O48P12Sr12",
+  "composition": {
+    "formula": "Mg5Ni1O48P12Sr12",
+    "elements": {
+      "Mg": 5,
+      "Ni": 1,
+      "O": 48,
+      "P": 12,
+      "Sr": 12
+    },
+    "reduced_formula": "Sr12Mg5Ni(PO4)12",
+    "element_list": [
+      "O",
+      "Mg",
+      "P",
+      "Ni",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Magnesium Oxide (MgO): 60.0 g \n Nickel Oxide (NiO): 12.0 g \n Phosphorus Pentoxide (P2O5): 48.0 g \n Strontium Carbonate (SrCO3): 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "Magnesium Oxide: Available from chemical supply stores or online platforms (e.g., Sigma-Aldrich, Fisher Scientific). \n Nickel Oxide: Obtain from chemical supply stores. \n Phosphorus Pentoxide: Available from chemical suppliers or online. \n Strontium Carbonate: Obtain from ceramic supply shops or online suppliers.",
+      "steps": [
+        "Magnesium Oxide: Available from chemical supply stores or online platforms (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Nickel Oxide: Obtain from chemical supply stores.",
+        "Phosphorus Pentoxide: Available from chemical suppliers or online.",
+        "Strontium Carbonate: Obtain from ceramic supply shops or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine all powdered ingredients: MgO, NiO, P2O5, and SrCO3.",
+        "3. Use a mortar and pestle or a ball mill to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine all powdered ingredients: MgO, NiO, P2O5, and SrCO3. \n 3. Use a mortar and pestle or a ball mill to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 900°C (1652°F).",
+        "2. Place the ceramic crucible containing the mixture into the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 900°C (1652°F). \n 2. Place the ceramic crucible containing the mixture into the furnace. \n 3. Heat for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Once the heating duration is complete, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it is at room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. Once the heating duration is complete, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it is at room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible once cooled.",
+        "2. Use sandpaper (grit 120, then 400) to smooth the surfaces of the sample.",
+        "3. If desired, apply a sealant to protect the material and enhance durability. Allow the sealant to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible once cooled. \n 2. Use sandpaper (grit 120, then 400) to smooth the surfaces of the sample. \n 3. If desired, apply a sealant to protect the material and enhance durability. Allow the sealant to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 78,
+      "volume": 1086824.0,
+      "density": 36231.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -5861007.0,
+      "formation_energy_per_atom": -31998.0,
+      "decomposition_energy_per_atom": -122.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -127.0,
+      "decomposition_energy_mp": -128.0,
+      "decomposition_energy_mp_oqmd": -127.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5f9c619341",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:21.159105Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mg5Ni1O48P12Sr12.json",
+      "material://Mg5Ni1O48P12Sr12"
+    ]
+  }
+}

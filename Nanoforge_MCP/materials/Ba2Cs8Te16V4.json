@@ -1,0 +1,112 @@
+{
+  "id": "Ba2Cs8Te16V4",
+  "uri": "material://Ba2Cs8Te16V4",
+  "composition": {
+    "formula": "Ba2Cs8Te16V4",
+    "elements": {
+      "Ba": 2,
+      "Cs": 8,
+      "Te": 16,
+      "V": 4
+    },
+    "reduced_formula": "Cs4Ba(VTe4)2",
+    "element_list": [
+      "V",
+      "Te",
+      "Cs",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 600.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 600 g, Ga: 500 g, La: 100 g (Total: 1200 g)"
+    },
+    "sourcing": {
+      "instructions": "Cu can be obtained from copper wire or sheets at hardware stores; Ga from electronic suppliers; La from chemical suppliers or online marketplaces.",
+      "steps": [
+        "Cu can be obtained from copper wire or sheets at hardware stores; Ga from electronic suppliers; La from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 600 g of copper, 500 g of gallium, and 100 g of lanthanum.",
+        "2. In a fume hood, melt the gallium in a suitable container.",
+        "3. Slowly add the weighed copper to the melted gallium while stirring continuously.",
+        "4. Gradually add lanthanum to the mixture and stir until fully integrated."
+      ],
+      "raw_text": "1. Weigh out 600 g of copper, 500 g of gallium, and 100 g of lanthanum. \n 2. In a fume hood, melt the gallium in a suitable container. \n 3. Slowly add the weighed copper to the melted gallium while stirring continuously. \n 4. Gradually add lanthanum to the mixture and stir until fully integrated."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Heat the mixture to 800°C using a high-temperature furnace.",
+        "2. Maintain this temperature for 1 hour to ensure complete alloying."
+      ],
+      "raw_text": "1. Heat the mixture to 800°C using a high-temperature furnace. \n 2. Maintain this temperature for 1 hour to ensure complete alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Remove the container from the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Ensure the cooling is done in a well-ventilated area."
+      ],
+      "raw_text": "1. Remove the container from the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Ensure the cooling is done in a well-ventilated area."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove any oxide layer from the surface using fine sandpaper (grit 400).",
+        "2. Optionally, apply a protective sealant to prevent oxidation if the material will be exposed to air.",
+        "3. Cut and shape the sample to the dimensions of 3 inches x 2 inches x 7 inches if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove any oxide layer from the surface using fine sandpaper (grit 400). \n 2. Optionally, apply a protective sealant to prevent oxidation if the material will be exposed to air. \n 3. Cut and shape the sample to the dimensions of 3 inches x 2 inches x 7 inches if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 13203701.0,
+      "density": 45064.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ibam",
+      "space_group_number": 72,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1297861.0,
+      "formation_energy_per_atom": -10719.0,
+      "decomposition_energy_per_atom": -438.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -68.0,
+      "decomposition_energy_mp": -427.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": 0.7146,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dea3831ee2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.381914Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Cs8Te16V4.json",
+      "material://Ba2Cs8Te16V4"
+    ]
+  }
+}

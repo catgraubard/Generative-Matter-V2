@@ -1,0 +1,136 @@
+{
+  "id": "Cr2Gd1Li1O8",
+  "uri": "material://Cr2Gd1Li1O8",
+  "composition": {
+    "formula": "Cr2Gd1Li1O8",
+    "elements": {
+      "Cr": 2,
+      "Gd": 1,
+      "Li": 1,
+      "O": 8
+    },
+    "reduced_formula": "LiGdCr2O8",
+    "element_list": [
+      "Li",
+      "O",
+      "Cr",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 45.00 g \n Nd: 36.00 g \n O: 48.00 g \n Pr: 3.00 g \n Ru: 3.00 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Purchase from a chemical supply company or online chemical retailer. \n Nd: Obtain from specialty metal suppliers or online marketplaces. \n O: Use high-purity oxygen from a gas supplier. \n Pr: Acquire from rare earth material suppliers. \n Ru: Buy from precious metal suppliers.",
+      "steps": [
+        "Mo: Purchase from a chemical supply company or online chemical retailer.",
+        "Nd: Obtain from specialty metal suppliers or online marketplaces.",
+        "O: Use high-purity oxygen from a gas supplier.",
+        "Pr: Acquire from rare earth material suppliers.",
+        "Ru: Buy from precious metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of Mo, Nd, O, Pr, and Ru using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Mo, Nd, and O thoroughly.",
+        "3. Add Pr and Ru to the mixture and continue mixing until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of Mo, Nd, O, Pr, and Ru using an analytical balance. \n 2. In a clean, dry mixing container, combine Mo, Nd, and O thoroughly. \n 3. Add Pr and Ru to the mixture and continue mixing until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace.",
+        "2. Heat gradually to 800°C at a rate of 5°C per minute.",
+        "3. Maintain the temperature for 4 hours to ensure proper reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace. \n 2. Heat gradually to 800°C at a rate of 5°C per minute. \n 3. Maintain the temperature for 4 hours to ensure proper reaction and formation of the compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace door until it has cooled to below 200°C to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace door until it has cooled to below 200°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the synthesized material from the furnace and break any agglomerates gently using a mortar and pestle.",
+        "2. Sieve the material through a 200 mesh screen to ensure uniform particle size.",
+        "3. If desired, seal the material in a vacuum-sealed container to preserve its properties.",
+        "4. Optionally, sand the material to achieve a smooth surface finish, if required for specific applications."
+      ],
+      "raw_text": "1. Remove the synthesized material from the furnace and break any agglomerates gently using a mortar and pestle. \n 2. Sieve the material through a 200 mesh screen to ensure uniform particle size. \n 3. If desired, seal the material in a vacuum-sealed container to preserve its properties. \n 4. Optionally, sand the material to achieve a smooth surface finish, if required for specific applications."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1625878.0,
+      "density": 40462.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1023733.0,
+      "formation_energy_per_atom": -22915.0,
+      "decomposition_energy_per_atom": -496.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -5.0,
+      "decomposition_energy_mp_oqmd": -437.0
+    },
+    "electronic": {
+      "bandgap": 2.1818,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae97dc4d0d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.990394Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2Gd1Li1O8.json",
+      "material://Cr2Gd1Li1O8"
+    ]
+  }
+}

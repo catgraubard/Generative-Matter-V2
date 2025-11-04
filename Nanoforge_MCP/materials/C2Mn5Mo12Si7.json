@@ -1,0 +1,116 @@
+{
+  "id": "C2Mn5Mo12Si7",
+  "uri": "material://C2Mn5Mo12Si7",
+  "composition": {
+    "formula": "C2Mn5Mo12Si7",
+    "elements": {
+      "C": 2,
+      "Mn": 5,
+      "Mo": 12,
+      "Si": 7
+    },
+    "reduced_formula": "Mn5Si7(Mo6C)2",
+    "element_list": [
+      "C",
+      "Si",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 6.00 g, Mn: 30.00 g, Mo: 72.00 g, Si: 42.00 g"
+    },
+    "sourcing": {
+      "instructions": "C: Graphite powder from chemical supply stores; Mn: Manganese powder from metal suppliers; Mo: Molybdenum powder from specialty metal suppliers; Si: Silicon powder from chemical suppliers.",
+      "steps": [
+        "C: Graphite powder from chemical supply stores; Mn: Manganese powder from metal suppliers; Mo: Molybdenum powder from specialty metal suppliers; Si: Silicon powder from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 6.00 g of graphite powder using a precision scale.",
+        "2. Measure 30.00 g of manganese powder.",
+        "3. Measure 72.00 g of molybdenum powder.",
+        "4. Measure 42.00 g of silicon powder.",
+        "5. Combine all powders in a ceramic or glass mixing bowl.",
+        "6. Mix thoroughly using a pestle and mortar until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure out 6.00 g of graphite powder using a precision scale. \n 2. Measure 30.00 g of manganese powder. \n 3. Measure 72.00 g of molybdenum powder. \n 4. Measure 42.00 g of silicon powder. \n 5. Combine all powders in a ceramic or glass mixing bowl. \n 6. Mix thoroughly using a pestle and mortar until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Preheat the furnace to 1200°C.",
+        "3. Once at temperature, place the crucible in the furnace and hold for 2 hours to facilitate reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible.\n 2. Preheat the furnace to 1200°C.\n 3. Once at temperature, place the crucible in the furnace and hold for 2 hours to facilitate reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample from the crucible using a chisel if necessary.",
+        "3. Sand the edges of the sample with 220-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear epoxy to enhance durability and surface finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample from the crucible using a chisel if necessary. \n 3. Sand the edges of the sample with 220-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear epoxy to enhance durability and surface finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3331726.0,
+      "density": 82066.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2419476.0,
+      "formation_energy_per_atom": -3677.0,
+      "decomposition_energy_per_atom": -421.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -193.0,
+      "decomposition_energy_mp": -55.0,
+      "decomposition_energy_mp_oqmd": -548.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "62040a4dea",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:24.307479Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C2Mn5Mo12Si7.json",
+      "material://C2Mn5Mo12Si7"
+    ]
+  }
+}

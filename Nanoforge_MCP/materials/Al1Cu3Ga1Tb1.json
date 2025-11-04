@@ -1,0 +1,111 @@
+{
+  "id": "Al1Cu3Ga1Tb1",
+  "uri": "material://Al1Cu3Ga1Tb1",
+  "composition": {
+    "formula": "Al1Cu3Ga1Tb1",
+    "elements": {
+      "Al": 1,
+      "Cu": 3,
+      "Ga": 1,
+      "Tb": 1
+    },
+    "reduced_formula": "TbAlGaCu3",
+    "element_list": [
+      "Al",
+      "Cu",
+      "Ga",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Gallium (Ga): 116.44 g \n Mercury (Hg): 200.59 g \n Neodymium (Nd): 105.00 g \n Silicon (Si): 28.09 g"
+    },
+    "sourcing": {
+      "instructions": "Gallium: Specialty chemical suppliers or online chemical retailers. \n Mercury: Licensed chemical suppliers. \n Neodymium: Rare earth material suppliers. \n Silicon: Electronics supply stores or online.",
+      "steps": [
+        "Gallium: Specialty chemical suppliers or online chemical retailers.",
+        "Mercury: Licensed chemical suppliers.",
+        "Neodymium: Rare earth material suppliers.",
+        "Silicon: Electronics supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Gallium, Mercury, Neodymium, and Silicon using an analytical balance for precision.",
+        "2. In a fume hood, carefully combine Gallium and Mercury in a glass beaker.",
+        "3. Slowly add Neodymium to the mixture while stirring continuously with a glass rod.",
+        "4. Gradually incorporate Silicon powder into the mixture, ensuring even distribution."
+      ],
+      "raw_text": "1. Measure Gallium, Mercury, Neodymium, and Silicon using an analytical balance for precision. \n 2. In a fume hood, carefully combine Gallium and Mercury in a glass beaker. \n 3. Slowly add Neodymium to the mixture while stirring continuously with a glass rod. \n 4. Gradually incorporate Silicon powder into the mixture, ensuring even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Heat the crucible in a furnace to 800°C for 2 hours.",
+        "3. Stir the mixture every 30 minutes to ensure uniform melting and bonding of components."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Heat the crucible in a furnace to 800°C for 2 hours. \n 3. Stir the mixture every 30 minutes to ensure uniform melting and bonding of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool to room temperature (approximately 2-3 hours).",
+        "2. Do not remove the crucible until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool to room temperature (approximately 2-3 hours). \n 2. Do not remove the crucible until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use sandpaper (grit 400 and 800) to smooth the edges and surfaces of the solid sample.",
+        "3. Optionally, apply a sealant suitable for metals to protect the surface and enhance durability.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions before handling."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use sandpaper (grit 400 and 800) to smooth the edges and surfaces of the solid sample. \n 3. Optionally, apply a sealant suitable for metals to protect the surface and enhance durability. \n 4. Allow the sealant to cure according to the manufacturer's instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 957462.0,
+      "density": 77397.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -260963.0,
+      "formation_energy_per_atom": -3984.0,
+      "decomposition_energy_per_atom": -293.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -65.0,
+      "decomposition_energy_mp": -293.0,
+      "decomposition_energy_mp_oqmd": -243.0
+    },
+    "electronic": {
+      "bandgap": 0.008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b66892d99d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.331028Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Cu3Ga1Tb1.json",
+      "material://Al1Cu3Ga1Tb1"
+    ]
+  }
+}

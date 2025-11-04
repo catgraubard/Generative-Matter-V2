@@ -1,0 +1,111 @@
+{
+  "id": "Cd2Hg8Mo2O12",
+  "uri": "material://Cd2Hg8Mo2O12",
+  "composition": {
+    "formula": "Cd2Hg8Mo2O12",
+    "elements": {
+      "Cd": 2,
+      "Hg": 8,
+      "Mo": 2,
+      "O": 12
+    },
+    "reduced_formula": "CdHg4MoO6",
+    "element_list": [
+      "O",
+      "Mo",
+      "Cd",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cadmium Oxide (CdO): 10.0 g \n Mercury (Hg): 4.0 g \n Molybdenum Trioxide (MoO3): 8.0 g \n Oxygen (O2): 0.0 g (derived from the combustion of Hg) \n Total weight: 22.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cadmium Oxide can be obtained from chemical supply stores or online chemical suppliers. \n Mercury can be sourced from specialized chemical suppliers (ensure proper safety protocols). \n Molybdenum Trioxide is available at chemical supply stores or online.",
+      "steps": [
+        "Cadmium Oxide can be obtained from chemical supply stores or online chemical suppliers.",
+        "Mercury can be sourced from specialized chemical suppliers (ensure proper safety protocols).",
+        "Molybdenum Trioxide is available at chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure out 10.0 g of Cadmium Oxide and 8.0 g of Molybdenum Trioxide into a clean, dry mixing container.",
+        "2. Carefully add 4.0 g of Mercury.",
+        "3. Mix the ingredients thoroughly using a clean, dry spatula until a uniform powder is formed."
+      ],
+      "raw_text": "1. In a fume hood, measure out 10.0 g of Cadmium Oxide and 8.0 g of Molybdenum Trioxide into a clean, dry mixing container. \n 2. Carefully add 4.0 g of Mercury. \n 3. Mix the ingredients thoroughly using a clean, dry spatula until a uniform powder is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours).",
+        "2. Avoid opening the furnace until it has cooled completely to prevent oxidation or contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-4 hours). \n 2. Avoid opening the furnace until it has cooled completely to prevent oxidation or contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample and gently grind it using a mortar and pestle if needed to achieve a fine powder.",
+        "3. If required, mold the powder into the desired dimensions (3 inches x 2 inches x 7 inches) using a suitable mold under pressure.",
+        "4. Allow the molded sample to cure at room temperature for 24 hours before use."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample and gently grind it using a mortar and pestle if needed to achieve a fine powder. \n 3. If required, mold the powder into the desired dimensions (3 inches x 2 inches x 7 inches) using a suitable mold under pressure. \n 4. Allow the molded sample to cure at room temperature for 24 hours before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 4879069.0,
+      "density": 75331.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1135314.0,
+      "formation_energy_per_atom": -11746.0,
+      "decomposition_energy_per_atom": -387.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -167.0,
+      "decomposition_energy_mp": -382.0,
+      "decomposition_energy_mp_oqmd": -376.0
+    },
+    "electronic": {
+      "bandgap": 1.3033,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a957b8802c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:59.552262Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd2Hg8Mo2O12.json",
+      "material://Cd2Hg8Mo2O12"
+    ]
+  }
+}

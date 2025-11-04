@@ -1,0 +1,132 @@
+{
+  "id": "Bi2Er6Ga4Sc4",
+  "uri": "material://Bi2Er6Ga4Sc4",
+  "composition": {
+    "formula": "Bi2Er6Ga4Sc4",
+    "elements": {
+      "Bi": 2,
+      "Er": 6,
+      "Ga": 4,
+      "Sc": 4
+    },
+    "reduced_formula": "Er3Sc2Ga2Bi",
+    "element_list": [
+      "Sc",
+      "Ga",
+      "Er",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 25.0 g \n Er: 15.0 g \n Ga: 10.0 g \n Sc: 10.0 g \n Total: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bi: Purchase from a chemical supply company or online supplier. \n Er: Obtain from a rare earth metal supplier or online marketplace. \n Ga: Available from electronic component suppliers. \n Sc: Source from specialized metal suppliers or online marketplaces.",
+      "steps": [
+        "Bi: Purchase from a chemical supply company or online supplier.",
+        "Er: Obtain from a rare earth metal supplier or online marketplace.",
+        "Ga: Available from electronic component suppliers.",
+        "Sc: Source from specialized metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each constituent element using an analytical balance.",
+        "2. Place Bi, Er, Ga, and Sc in a clean ceramic or quartz crucible.",
+        "3. Use a mortar and pestle to finely grind the powders to ensure a homogeneous mixture.",
+        "4. Transfer the mixture back to the crucible."
+      ],
+      "raw_text": "1. Weigh out each constituent element using an analytical balance. \n 2. Place Bi, Er, Ga, and Sc in a clean ceramic or quartz crucible. \n 3. Use a mortar and pestle to finely grind the powders to ensure a homogeneous mixture. \n 4. Transfer the mixture back to the crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 900°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat the mixture to 900°C at a rate of 5°C/min. \n 3. Maintain the temperature for 4 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to decrease naturally to 600°C.",
+        "2. Once at 600°C, open the furnace door and allow the crucible to cool to room temperature over the next 2 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to decrease naturally to 600°C. \n 2. Once at 600°C, open the furnace door and allow the crucible to cool to room temperature over the next 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth the surface of the sample, starting with 120 grit and finishing with 400 grit.",
+        "3. If needed, apply a sealing agent to enhance the surface finish and protect the material."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper to smooth the surface of the sample, starting with 120 grit and finishing with 400 grit. \n 3. If needed, apply a sealing agent to enhance the surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3949973.0,
+      "density": 79043.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ama2",
+      "space_group_number": 40,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -819864.0,
+      "formation_energy_per_atom": -5849.0,
+      "decomposition_energy_per_atom": -183.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -183.0,
+      "decomposition_energy_mp_oqmd": -175.0
+    },
+    "electronic": {
+      "bandgap": 0.0036,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "efa1673875",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.656382Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2Er6Ga4Sc4.json",
+      "material://Bi2Er6Ga4Sc4"
+    ]
+  }
+}

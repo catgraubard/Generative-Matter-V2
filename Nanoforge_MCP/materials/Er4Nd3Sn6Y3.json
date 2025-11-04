@@ -1,0 +1,139 @@
+{
+  "id": "Er4Nd3Sn6Y3",
+  "uri": "material://Er4Nd3Sn6Y3",
+  "composition": {
+    "formula": "Er4Nd3Sn6Y3",
+    "elements": {
+      "Er": 4,
+      "Nd": 3,
+      "Sn": 6,
+      "Y": 3
+    },
+    "reduced_formula": "Nd3Y3(Er2Sn3)2",
+    "element_list": [
+      "Y",
+      "Sn",
+      "Nd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 800.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 350.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 250.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 350.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 800 g \n Sm: 50 g \n Tb: 350 g \n Ti: 250 g \n W: 350 g"
+    },
+    "sourcing": {
+      "instructions": "Si: Silicon suppliers or electronics stores \n Sm: Rare earth metal suppliers \n Tb: Rare earth metal suppliers \n Ti: Metal supply stores or aerospace suppliers \n W: Metal supply stores or specialty suppliers",
+      "steps": [
+        "Si: Silicon suppliers or electronics stores",
+        "Sm: Rare earth metal suppliers",
+        "Tb: Rare earth metal suppliers",
+        "Ti: Metal supply stores or aerospace suppliers",
+        "W: Metal supply stores or specialty suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean mixing container, combine Si and Ti, stirring thoroughly with a non-reactive tool.",
+        "3. Gradually add Sm, Tb, and W to the mixture, continuing to mix until a homogeneous blend is achieved.",
+        "4. Ensure no lumps remain and that the mixture is uniformly distributed."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean mixing container, combine Si and Ti, stirring thoroughly with a non-reactive tool. \n 3. Gradually add Sm, Tb, and W to the mixture, continuing to mix until a homogeneous blend is achieved. \n 4. Ensure no lumps remain and that the mixture is uniformly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat a furnace to 1500°C.",
+        "2. Place the mixed material in a suitable crucible.",
+        "3. Heat the mixture gradually to the target temperature over 1 hour to avoid thermal shock.",
+        "4. Maintain at 1500°C for 2 hours to allow for full melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1500°C. \n 2. Place the mixed material in a suitable crucible. \n 3. Heat the mixture gradually to the target temperature over 1 hour to avoid thermal shock. \n 4. Maintain at 1500°C for 2 hours to allow for full melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally within the furnace for 4 hours.",
+        "2. Once cooled to below 600°C, remove the crucible and let it cool further at room temperature for an additional 2 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally within the furnace for 4 hours. \n 2. Once cooled to below 600°C, remove the crucible and let it cool further at room temperature for an additional 2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use a diamond file or grinder to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, polish the surface with fine-grit sandpaper for a smoother finish.",
+        "4. Seal the surface with a suitable protective coating if necessary."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Use a diamond file or grinder to achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, polish the surface with fine-grit sandpaper for a smoother finish. \n 4. Seal the surface with a suitable protective coating if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4672382.0,
+      "density": 73948.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -876834.0,
+      "formation_energy_per_atom": -7282.0,
+      "decomposition_energy_per_atom": -7.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -7.0,
+      "decomposition_energy_mp_oqmd": -66.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dcca410aed",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.748050Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er4Nd3Sn6Y3.json",
+      "material://Er4Nd3Sn6Y3"
+    ]
+  }
+}

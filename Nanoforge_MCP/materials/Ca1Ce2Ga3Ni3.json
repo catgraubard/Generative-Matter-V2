@@ -1,0 +1,113 @@
+{
+  "id": "Ca1Ce2Ga3Ni3",
+  "uri": "material://Ca1Ce2Ga3Ni3",
+  "composition": {
+    "formula": "Ca1Ce2Ga3Ni3",
+    "elements": {
+      "Ca": 1,
+      "Ce": 2,
+      "Ga": 3,
+      "Ni": 3
+    },
+    "reduced_formula": "CaCe2(GaNi)3",
+    "element_list": [
+      "Ca",
+      "Ni",
+      "Ga",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "B (Boron): 20 g \n Co (Cobalt): 30 g \n La (Lanthanum): 10 g \n Si (Silicon): 15 g \n O (Oxygen): 25 g (assumed as part of the synthesis)"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical suppliers or online marketplaces \n Co: Metal suppliers or online marketplaces \n La: Rare earth suppliers \n Si: Silicon suppliers \n O: Typically derived from air or can use an oxygen source like silica",
+      "steps": [
+        "B: Chemical suppliers or online marketplaces",
+        "Co: Metal suppliers or online marketplaces",
+        "La: Rare earth suppliers",
+        "Si: Silicon suppliers",
+        "O: Typically derived from air or can use an oxygen source like silica"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, weigh out the specified amounts of B, Co, La, and Si.",
+        "2. Combine all powdered materials into the container.",
+        "3. Use a mortar and pestle to mix the powders thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. In a clean, dry container, weigh out the specified amounts of B, Co, La, and Si. \n 2. Combine all powdered materials into the container. \n 3. Use a mortar and pestle to mix the powders thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous mixture into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200 °C at a rate of 10 °C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 1200 °C at a rate of 10 °C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect for any irregularities or surface imperfections.",
+        "3. If needed, sand the exterior using 400-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a suitable high-temperature resistant sealant for added protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Inspect for any irregularities or surface imperfections. \n 3. If needed, sand the exterior using 400-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a suitable high-temperature resistant sealant for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 164187.0,
+      "density": 71358.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -462613.0,
+      "formation_energy_per_atom": -6628.0,
+      "decomposition_energy_per_atom": -1041.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -895.0,
+      "decomposition_energy_mp": -1031.0,
+      "decomposition_energy_mp_oqmd": -1029.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ad9a2746fe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:07.232720Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Ce2Ga3Ni3.json",
+      "material://Ca1Ce2Ga3Ni3"
+    ]
+  }
+}

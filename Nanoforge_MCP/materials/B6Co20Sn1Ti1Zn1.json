@@ -1,0 +1,133 @@
+{
+  "id": "B6Co20Sn1Ti1Zn1",
+  "uri": "material://B6Co20Sn1Ti1Zn1",
+  "composition": {
+    "formula": "B6Co20Sn1Ti1Zn1",
+    "elements": {
+      "B": 6,
+      "Co": 20,
+      "Sn": 1,
+      "Ti": 1,
+      "Zn": 1
+    },
+    "reduced_formula": "TiZnCo20SnB6",
+    "element_list": [
+      "B",
+      "Ti",
+      "Co",
+      "Zn",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 720.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 180 g \n Co: 720 g \n Sn: 30 g \n Ti: 30 g \n Zn: 30 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Purchase from a chemical supplier or online store specializing in metal alloys. \n Co: Obtain from a metals supplier or recycling center. \n Sn: Available at electronics supply stores or metal suppliers. \n Ti: Can be sourced from aerospace material suppliers or specialty metal shops. \n Zn: Obtain from hardware stores or chemical suppliers.",
+      "steps": [
+        "B6: Purchase from a chemical supplier or online store specializing in metal alloys.",
+        "Co: Obtain from a metals supplier or recycling center.",
+        "Sn: Available at electronics supply stores or metal suppliers.",
+        "Ti: Can be sourced from aerospace material suppliers or specialty metal shops.",
+        "Zn: Obtain from hardware stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the B6, Co, Sn, Ti, and Zn powders.",
+        "3. Mix thoroughly using a mechanical mixer or by hand with a spatula for at least 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powder to a suitable mold that matches the target dimensions (3 in x 2 in x 7 in)."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the B6, Co, Sn, Ti, and Zn powders. \n 3. Mix thoroughly using a mechanical mixer or by hand with a spatula for at least 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powder to a suitable mold that matches the target dimensions (3 in x 2 in x 7 in)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C (2192 °F).",
+        "2. Place the filled mold into the furnace and maintain the temperature for 2 hours to allow proper bonding of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C (2192 °F). \n 2. Place the filled mold into the furnace and maintain the temperature for 2 hours to allow proper bonding of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the sample to cool slowly to room temperature inside the furnace (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the mold from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the sample to cool slowly to room temperature inside the furnace (approximately 4-6 hours). \n 2. Once cooled, carefully remove the mold from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold.",
+        "2. If necessary, sand the edges and surfaces with grit sandpaper (starting with 120 grit and progressing to 600 grit) for a smooth finish.",
+        "3. Optionally, apply a sealant or protective coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold. \n 2. If necessary, sand the edges and surfaces with grit sandpaper (starting with 120 grit and progressing to 600 grit) for a smooth finish. \n 3. Optionally, apply a sealant or protective coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2928537.0,
+      "density": 83665.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2025766.0,
+      "formation_energy_per_atom": -2472.0,
+      "decomposition_energy_per_atom": -48.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -48.0,
+      "decomposition_energy_mp_oqmd": -47.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5854d351e1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:11.779159Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co20Sn1Ti1Zn1.json",
+      "material://B6Co20Sn1Ti1Zn1"
+    ]
+  }
+}

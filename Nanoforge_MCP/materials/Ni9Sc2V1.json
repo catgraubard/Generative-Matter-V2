@@ -1,0 +1,127 @@
+{
+  "id": "Ni9Sc2V1",
+  "uri": "material://Ni9Sc2V1",
+  "composition": {
+    "formula": "Ni9Sc2V1",
+    "elements": {
+      "Ni": 9,
+      "Sc": 2,
+      "V": 1
+    },
+    "reduced_formula": "Sc2VNi9",
+    "element_list": [
+      "Sc",
+      "V",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 160 g (Boron) \n Co: 40 g (Cobalt) \n Sc: 30 g (Scandium) \n Zr: 10 g (Zirconium)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich). \n Cobalt: Metal suppliers or online (e.g., Amazon, eBay). \n Scandium: Specialty metal suppliers. \n Zirconium: Metal suppliers or online (e.g., OnlineMetals.com).",
+      "steps": [
+        "Boron: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich).",
+        "Cobalt: Metal suppliers or online (e.g., Amazon, eBay).",
+        "Scandium: Specialty metal suppliers.",
+        "Zirconium: Metal suppliers or online (e.g., OnlineMetals.com)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise scale.",
+        "2. In a clean, dry mixing container, combine all measured powders thoroughly.",
+        "3. Use a mechanical mixer for uniform consistency, ensuring no clumping."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise scale. \n 2. In a clean, dry mixing container, combine all measured powders thoroughly. \n 3. Use a mechanical mixer for uniform consistency, ensuring no clumping."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a furnace or high-temperature oven.",
+        "2. Heat to 1200°C (2192°F) for 2 hours to facilitate bonding and phase changes."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a furnace or high-temperature oven. \n 2. Heat to 1200°C (2192°F) for 2 hours to facilitate bonding and phase changes."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the sample to cool gradually in the furnace to room temperature over a period of 6 hours to prevent thermal shock.",
+        "2. Ensure the cooling environment is stable and free from drafts."
+      ],
+      "raw_text": "1. Allow the sample to cool gradually in the furnace to room temperature over a period of 6 hours to prevent thermal shock. \n 2. Ensure the cooling environment is stable and free from drafts."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, inspect the sample for any surface irregularities.",
+        "2. If necessary, sand the edges and surfaces to achieve desired smoothness using 120-grit sandpaper.",
+        "3. Optionally apply a protective sealant to enhance durability and surface finish."
+      ],
+      "raw_text": "1. Once cooled, inspect the sample for any surface irregularities. \n 2. If necessary, sand the edges and surfaces to achieve desired smoothness using 120-grit sandpaper. \n 3. Optionally apply a protective sealant to enhance durability and surface finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1456669.0,
+      "density": 76274.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -782061.0,
+      "formation_energy_per_atom": -3697.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -24.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b016a6a324",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:11.081005Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni9Sc2V1.json",
+      "material://Ni9Sc2V1"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Fe4Ge4La2Nb2",
+  "uri": "material://Fe4Ge4La2Nb2",
+  "composition": {
+    "formula": "Fe4Ge4La2Nb2",
+    "elements": {
+      "Fe": 4,
+      "Ge": 4,
+      "La": 2,
+      "Nb": 2
+    },
+    "reduced_formula": "LaNb(FeGe)2",
+    "element_list": [
+      "Fe",
+      "Ge",
+      "Nb",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 80 g  \n - Germanium (Ge): 64 g  \n - Lanthanum (La): 16 g  \n - Niobium (Nb): 16 g  \n  \n **Total Weight**: 176 g (to ensure sufficient material for the solid sample)"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Purchase from a local metal supply store or online retailers like McMaster-Carr. \n - Germanium: Obtain from specialized semiconductor supply companies or online marketplaces such as eBay. \n - Lanthanum: Acquire from chemical suppliers or online specialty shops. \n - Niobium: Source from metal suppliers or online platforms.",
+      "steps": [
+        "- Iron: Purchase from a local metal supply store or online retailers like McMaster-Carr.",
+        "- Germanium: Obtain from specialized semiconductor supply companies or online marketplaces such as eBay.",
+        "- Lanthanum: Acquire from chemical suppliers or online specialty shops.",
+        "- Niobium: Source from metal suppliers or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. Place the iron, germanium, lanthanum, and niobium in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or mechanical mixer to blend the powders thoroughly until a uniform mixture is achieved.",
+        "4. Make sure no clumps remain in the powder mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. Place the iron, germanium, lanthanum, and niobium in a clean, dry mixing container. \n 3. Use a mortar and pestle or mechanical mixer to blend the powders thoroughly until a uniform mixture is achieved. \n 4. Make sure no clumps remain in the powder mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C (2192°F).",
+        "2. Transfer the mixed powder into a crucible suitable for high temperatures (preferably made of alumina).",
+        "3. Place the crucible in the preheated furnace.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction and fusion of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C (2192°F). \n 2. Transfer the mixed powder into a crucible suitable for high temperatures (preferably made of alumina). \n 3. Place the crucible in the preheated furnace. \n 4. Maintain the temperature for 4 hours to ensure complete reaction and fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Ensure that cooling occurs in a controlled environment to prevent rapid thermal shock.",
+        "3. This process may take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Ensure that cooling occurs in a controlled environment to prevent rapid thermal shock. \n 3. This process may take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Inspect the sample for any surface imperfections or roughness.",
+        "3. If necessary, use sandpaper or a file to smooth out any rough edges.",
+        "4. Optionally, apply a sealant or protective coating if the material is to be used in an exposed environment."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Inspect the sample for any surface imperfections or roughness. \n 3. If necessary, use sandpaper or a file to smooth out any rough edges. \n 4. Optionally, apply a sealant or protective coating if the material is to be used in an exposed environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2136222.0,
+      "density": 75988.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -882165.0,
+      "formation_energy_per_atom": -4808.0,
+      "decomposition_energy_per_atom": -256.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -205.0,
+      "decomposition_energy_mp": -256.0,
+      "decomposition_energy_mp_oqmd": -205.0
+    },
+    "electronic": {
+      "bandgap": 0.0196,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a5ef614c35",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:54.260751Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4Ge4La2Nb2.json",
+      "material://Fe4Ge4La2Nb2"
+    ]
+  }
+}

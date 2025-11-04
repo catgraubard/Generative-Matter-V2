@@ -1,0 +1,134 @@
+{
+  "id": "As2Bi4La10Sn2",
+  "uri": "material://As2Bi4La10Sn2",
+  "composition": {
+    "formula": "As2Bi4La10Sn2",
+    "elements": {
+      "As": 2,
+      "Bi": 4,
+      "La": 10,
+      "Sn": 2
+    },
+    "reduced_formula": "La5SnBi2As",
+    "element_list": [
+      "As",
+      "Sn",
+      "La",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10.0 g \n Bi: 40.0 g \n La: 80.0 g \n Sn: 2.0 g \n Total mass = 132.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier or online store specializing in elemental chemicals. \n Bi: Available from chemical suppliers or metal vendors. \n La: Obtain from a rare earth metal supplier. \n Sn: Can be found at local hardware stores or metal supply shops.",
+      "steps": [
+        "As: Purchase from a chemical supplier or online store specializing in elemental chemicals.",
+        "Bi: Available from chemical suppliers or metal vendors.",
+        "La: Obtain from a rare earth metal supplier.",
+        "Sn: Can be found at local hardware stores or metal supply shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate PPE (gloves, goggles, lab coat).",
+        "2. Weigh 10.0 g of arsenic (As), 40.0 g of bismuth (Bi), 80.0 g of lanthanum (La), and 2.0 g of tin (Sn) using an analytical balance.",
+        "3. In a fume hood, carefully combine the powders in a clean, dry glass or ceramic container.",
+        "4. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Wear appropriate PPE (gloves, goggles, lab coat). \n 2. Weigh 10.0 g of arsenic (As), 40.0 g of bismuth (Bi), 80.0 g of lanthanum (La), and 2.0 g of tin (Sn) using an analytical balance. \n 3. In a fume hood, carefully combine the powders in a clean, dry glass or ceramic container. \n 4. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1000 °C at a rate of 5 °C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1000 °C at a rate of 5 °C/min. \n 4. Maintain this temperature for 2 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. Do not open the furnace door during cooling to prevent contamination and thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. Do not open the furnace door during cooling to prevent contamination and thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Inspect the solid for any surface imperfections.",
+        "3. If needed, use fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, seal the sample with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Inspect the solid for any surface imperfections. \n 3. If needed, use fine-grit sandpaper to smooth the surface. \n 4. Optionally, seal the sample with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 5840047.0,
+      "density": 74276.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1009843.0,
+      "formation_energy_per_atom": -10404.0,
+      "decomposition_energy_per_atom": -117.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -117.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": 0.0035,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4549496f94",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:46.665170Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2Bi4La10Sn2.json",
+      "material://As2Bi4La10Sn2"
+    ]
+  }
+}

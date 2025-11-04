@@ -1,0 +1,112 @@
+{
+  "id": "O16Rb2Te6V2",
+  "uri": "material://O16Rb2Te6V2",
+  "composition": {
+    "formula": "O16Rb2Te6V2",
+    "elements": {
+      "O": 16,
+      "Rb": 2,
+      "Te": 6,
+      "V": 2
+    },
+    "reduced_formula": "RbVTe3O8",
+    "element_list": [
+      "O",
+      "V",
+      "Rb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 16 g, Rb: 2 g, Te: 6 g, V: 2 g"
+    },
+    "sourcing": {
+      "instructions": "O: Oxygen gas from a gas supplier, Rb: Rubidium chloride from a chemical supplier, Te: Tellurium from a metal supplier, V: Vanadium pentoxide from a chemical supplier",
+      "steps": [
+        "O: Oxygen gas from a gas supplier, Rb: Rubidium chloride from a chemical supplier, Te: Tellurium from a metal supplier, V: Vanadium pentoxide from a chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 16 g of oxygen gas and collect it in a suitable gas container.",
+        "2. Measure 2 g of rubidium chloride and 6 g of tellurium powder in a clean, dry glass container.",
+        "3. Weigh 2 g of vanadium pentoxide in another dry container.",
+        "4. Combine the rubidium chloride, tellurium powder, and vanadium pentoxide in a mortar and pestle to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. In a fume hood, measure 16 g of oxygen gas and collect it in a suitable gas container. \n 2. Measure 2 g of rubidium chloride and 6 g of tellurium powder in a clean, dry glass container. \n 3. Weigh 2 g of vanadium pentoxide in another dry container. \n 4. Combine the rubidium chloride, tellurium powder, and vanadium pentoxide in a mortar and pestle to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the homogeneous mixture to a ceramic crucible.",
+        "2. Heat in a muffle furnace at 600 °C (1112 °F) for 2 hours under an inert atmosphere to avoid oxidation."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture to a ceramic crucible. \n 2. Heat in a muffle furnace at 600 °C (1112 °F) for 2 hours under an inert atmosphere to avoid oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool inside the furnace to room temperature, which may take approximately 6 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool inside the furnace to room temperature, which may take approximately 6 hours. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Gently break the solidified material from the crucible.",
+        "2. Use a diamond file to smooth any rough edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, seal the surface with a clear epoxy resin for protection and enhanced appearance."
+      ],
+      "raw_text": "1. Gently break the solidified material from the crucible. \n 2. Use a diamond file to smooth any rough edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Optionally, seal the surface with a clear epoxy resin for protection and enhanced appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 4482346.0,
+      "density": 47953.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1654356.0,
+      "formation_energy_per_atom": -18184.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -212.0,
+      "decomposition_energy_mp_oqmd": -199.0
+    },
+    "electronic": {
+      "bandgap": 1.8807,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2b932dd582",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:13.074471Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O16Rb2Te6V2.json",
+      "material://O16Rb2Te6V2"
+    ]
+  }
+}

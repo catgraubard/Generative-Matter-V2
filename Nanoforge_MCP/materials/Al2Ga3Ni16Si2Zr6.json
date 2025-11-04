@@ -1,0 +1,132 @@
+{
+  "id": "Al2Ga3Ni16Si2Zr6",
+  "uri": "material://Al2Ga3Ni16Si2Zr6",
+  "composition": {
+    "formula": "Al2Ga3Ni16Si2Zr6",
+    "elements": {
+      "Al": 2,
+      "Ga": 3,
+      "Ni": 16,
+      "Si": 2,
+      "Zr": 6
+    },
+    "reduced_formula": "Zr6Al2Ga3(SiNi8)2",
+    "element_list": [
+      "Al",
+      "Si",
+      "Ni",
+      "Ga",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 100 g \n P: 20 g \n Sn: 240 g \n Zr: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Nb (Niobium): Purchase from a specialized metal supplier or online metal store. \n P (Phosphorus): Obtain from a chemical supply company. \n Sn (Tin): Available at metal supply stores or online. \n Zr (Zirconium): Source from metal suppliers or online specialty stores.",
+      "steps": [
+        "Nb (Niobium): Purchase from a specialized metal supplier or online metal store.",
+        "P (Phosphorus): Obtain from a chemical supply company.",
+        "Sn (Tin): Available at metal supply stores or online.",
+        "Zr (Zirconium): Source from metal suppliers or online specialty stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Nb, 20 g of P, 240 g of Sn, and 160 g of Zr using an analytical balance.",
+        "2. Combine Nb, P, Sn, and Zr in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 100 g of Nb, 20 g of P, 240 g of Sn, and 160 g of Zr using an analytical balance. \n 2. Combine Nb, P, Sn, and Zr in a clean, dry mixing container. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed material into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1500 °C (2732 °F) and maintain this temperature for 4 hours to ensure complete reaction and fusion."
+      ],
+      "raw_text": "1. Transfer the mixed material into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1500 °C (2732 °F) and maintain this temperature for 4 hours to ensure complete reaction and fusion."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. Ensure the crucible remains in the furnace during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. Ensure the crucible remains in the furnace during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use a grinder or sandpaper to smooth out the surface.",
+        "4. Seal the finished product with a suitable sealant if required for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use a grinder or sandpaper to smooth out the surface. \n 4. Seal the finished product with a suitable sealant if required for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3998126.0,
+      "density": 74998.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1894375.0,
+      "formation_energy_per_atom": -6291.0,
+      "decomposition_energy_per_atom": -133.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -182.0,
+      "decomposition_energy_mp_oqmd": -36.0
+    },
+    "electronic": {
+      "bandgap": 0.0062,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c02d42b6fd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.137497Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Ga3Ni16Si2Zr6.json",
+      "material://Al2Ga3Ni16Si2Zr6"
+    ]
+  }
+}

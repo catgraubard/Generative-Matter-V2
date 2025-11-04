@@ -1,0 +1,125 @@
+{
+  "id": "B6Co2Nb2Ni18Pa1",
+  "uri": "material://B6Co2Nb2Ni18Pa1",
+  "composition": {
+    "formula": "B6Co2Nb2Ni18Pa1",
+    "elements": {
+      "B": 6,
+      "Co": 2,
+      "Nb": 2,
+      "Ni": 18,
+      "Pa": 1
+    },
+    "reduced_formula": "PaNb2Co2(Ni3B)6",
+    "element_list": [
+      "B",
+      "Co",
+      "Ni",
+      "Nb",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 15 g \n Co2: 30 g \n Nb2: 20 g \n Ni: 35 g \n Pa: 5 g"
+    },
+    "sourcing": {
+      "instructions": "B6: Chemical supply stores or online chemical suppliers. \n Co2: Metal supply stores or industrial suppliers. \n Nb2: Specialized metal suppliers. \n Ni: Local metal fabricators or online suppliers. \n Pa: Chemical supply stores.",
+      "steps": [
+        "B6: Chemical supply stores or online chemical suppliers.",
+        "Co2: Metal supply stores or industrial suppliers.",
+        "Nb2: Specialized metal suppliers.",
+        "Ni: Local metal fabricators or online suppliers.",
+        "Pa: Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine B6, Co2, Nb2, Ni, and Pa in the specified amounts.",
+        "3. Use a stainless steel spatula to mix thoroughly until a uniform mixture is achieved.",
+        "4. Transfer the mixture to a ball mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean mixing container, combine B6, Co2, Nb2, Ni, and Pa in the specified amounts. \n 3. Use a stainless steel spatula to mix thoroughly until a uniform mixture is achieved. \n 4. Transfer the mixture to a ball mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace for 4 hours to allow for material bonding and phase formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Heat the crucible in the furnace for 4 hours to allow for material bonding and phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Use a diamond grinding wheel to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface, following the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Use a diamond grinding wheel to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface, following the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3025381.0,
+      "density": 90896.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1989689.0,
+      "formation_energy_per_atom": -3764.0,
+      "decomposition_energy_per_atom": -237.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -237.0,
+      "decomposition_energy_mp_oqmd": -185.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "516f5d08ee",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:02.473227Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co2Nb2Ni18Pa1.json",
+      "material://B6Co2Nb2Ni18Pa1"
+    ]
+  }
+}

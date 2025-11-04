@@ -1,0 +1,130 @@
+{
+  "id": "As13Ni20Pr6",
+  "uri": "material://As13Ni20Pr6",
+  "composition": {
+    "formula": "As13Ni20Pr6",
+    "elements": {
+      "As": 13,
+      "Ni": 20,
+      "Pr": 6
+    },
+    "reduced_formula": "Pr6Ni20As13",
+    "element_list": [
+      "Ni",
+      "As",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 20 g \n Co: 100 g \n Ge: 10 g \n Mn: 10 g \n Ti: 40 g"
+    },
+    "sourcing": {
+      "instructions": "B4: Chemical supply companies or online specialty materials suppliers \n Co: Metal supply stores or industrial suppliers \n Ge: Semiconductor material suppliers \n Mn: Metal supply stores or industrial suppliers \n Ti: Metal supply stores or online suppliers",
+      "steps": [
+        "B4: Chemical supply companies or online specialty materials suppliers",
+        "Co: Metal supply stores or industrial suppliers",
+        "Ge: Semiconductor material suppliers",
+        "Mn: Metal supply stores or industrial suppliers",
+        "Ti: Metal supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine the B4, Co, Ge, Mn, and Ti powders.",
+        "3. Mix the powders thoroughly using a mechanical mixer for 10 minutes to ensure a homogeneous blend.",
+        "4. Transfer the mixture to a suitable mold that reflects the desired dimensions (3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine the B4, Co, Ge, Mn, and Ti powders. \n 3. Mix the powders thoroughly using a mechanical mixer for 10 minutes to ensure a homogeneous blend. \n 4. Transfer the mixture to a suitable mold that reflects the desired dimensions (3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 3,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the filled mold in the furnace and maintain the temperature for 3 hours to allow for proper sintering and bonding of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the filled mold in the furnace and maintain the temperature for 3 hours to allow for proper sintering and bonding of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow a slow cooldown to room temperature over a period of 6 hours.",
+        "2. Do not open the furnace until it has cooled completely to prevent thermal shock to the sample."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow a slow cooldown to room temperature over a period of 6 hours. \n 2. Do not open the furnace until it has cooled completely to prevent thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold.",
+        "2. Inspect the surface for any irregularities.",
+        "3. If necessary, sand the edges and surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealing agent or finish to enhance appearance and durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold. \n 2. Inspect the surface for any irregularities. \n 3. If necessary, sand the edges and surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealing agent or finish to enhance appearance and durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 39,
+      "volume": 6030491.0,
+      "density": 82423.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2310106.0,
+      "formation_energy_per_atom": -6706.0,
+      "decomposition_energy_per_atom": -121.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -96.0,
+      "decomposition_energy_mp": -121.0,
+      "decomposition_energy_mp_oqmd": -102.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c4fba09b6a",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.493417Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As13Ni20Pr6.json",
+      "material://As13Ni20Pr6"
+    ]
+  }
+}

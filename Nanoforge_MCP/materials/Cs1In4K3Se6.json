@@ -1,0 +1,132 @@
+{
+  "id": "Cs1In4K3Se6",
+  "uri": "material://Cs1In4K3Se6",
+  "composition": {
+    "formula": "Cs1In4K3Se6",
+    "elements": {
+      "Cs": 1,
+      "In": 4,
+      "K": 3,
+      "Se": 6
+    },
+    "reduced_formula": "CsK3(In2Se3)2",
+    "element_list": [
+      "K",
+      "Se",
+      "In",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.0 g \n In: 4.0 g \n K: 3.0 g \n Se: 6.0 g \n Total: 14.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Available from chemical supply companies or online platforms specialized in chemicals. \n In (Indium): Obtainable from electronic component suppliers or metals suppliers. \n K (Potassium): Available at chemical supply stores or agricultural suppliers. \n Se (Selenium): Purchase from chemical suppliers or online marketplaces.",
+      "steps": [
+        "Cs (Cesium): Available from chemical supply companies or online platforms specialized in chemicals.",
+        "In (Indium): Obtainable from electronic component suppliers or metals suppliers.",
+        "K (Potassium): Available at chemical supply stores or agricultural suppliers.",
+        "Se (Selenium): Purchase from chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry glass container, combine Cs, In, K, and Se in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry glass container, combine Cs, In, K, and Se in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture gradually to 600°C at a rate of 10°C/min.",
+        "4. Hold the temperature at 600°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture gradually to 600°C at a rate of 10°C/min. \n 4. Hold the temperature at 600°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to avoid oxidation of material."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace until it has cooled to avoid oxidation of material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Extract the solid sample and inspect for uniformity and consistency.",
+        "3. If necessary, grind the sample to achieve a finer texture.",
+        "4. Seal the final product in an airtight container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Extract the solid sample and inspect for uniformity and consistency. \n 3. If necessary, grind the sample to achieve a finer texture. \n 4. Seal the final product in an airtight container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 4836957.0,
+      "density": 40621.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -517375.0,
+      "formation_energy_per_atom": -11092.0,
+      "decomposition_energy_per_atom": -42.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -101.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -335.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fc87de0643",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.957299Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1In4K3Se6.json",
+      "material://Cs1In4K3Se6"
+    ]
+  }
+}

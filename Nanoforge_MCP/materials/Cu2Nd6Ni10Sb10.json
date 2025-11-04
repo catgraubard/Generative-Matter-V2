@@ -1,0 +1,133 @@
+{
+  "id": "Cu2Nd6Ni10Sb10",
+  "uri": "material://Cu2Nd6Ni10Sb10",
+  "composition": {
+    "formula": "Cu2Nd6Ni10Sb10",
+    "elements": {
+      "Cu": 2,
+      "Nd": 6,
+      "Ni": 10,
+      "Sb": 10
+    },
+    "reduced_formula": "Nd3Cu(NiSb)5",
+    "element_list": [
+      "Ni",
+      "Cu",
+      "Sb",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 30.0 g \n Nd: 10.0 g \n Ni: 15.0 g \n Sb: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supplier or online store specializing in metals. \n Nd: Buy from a rare earth metal supplier or online marketplace. \n Ni: Obtain from a local hardware store or metal supplier. \n Sb: Sourced from a chemical supply company or online vendor.",
+      "steps": [
+        "Cu: Purchase from a metal supplier or online store specializing in metals.",
+        "Nd: Buy from a rare earth metal supplier or online marketplace.",
+        "Ni: Obtain from a local hardware store or metal supplier.",
+        "Sb: Sourced from a chemical supply company or online vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients using an analytical balance for accuracy.",
+        "2. In a clean, dry container, combine Cu, Nd, Ni, and Sb.",
+        "3. Mix thoroughly using a mortar and pestle or ball mill to ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Weigh the ingredients using an analytical balance for accuracy. \n 2. In a clean, dry container, combine Cu, Nd, Ni, and Sb. \n 3. Mix thoroughly using a mortar and pestle or ball mill to ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 900 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours to promote complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 900 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 2 hours to promote complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4 hours). \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. Sand the edges and surfaces using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. Sand the edges and surfaces using fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5613373.0,
+      "density": 82743.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1561012.0,
+      "formation_energy_per_atom": -7215.0,
+      "decomposition_energy_per_atom": -181.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -125.0,
+      "decomposition_energy_mp": -181.0,
+      "decomposition_energy_mp_oqmd": -132.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "72af3ebaa7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:45.588167Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Nd6Ni10Sb10.json",
+      "material://Cu2Nd6Ni10Sb10"
+    ]
+  }
+}

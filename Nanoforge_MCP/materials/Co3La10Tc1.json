@@ -1,0 +1,128 @@
+{
+  "id": "Co3La10Tc1",
+  "uri": "material://Co3La10Tc1",
+  "composition": {
+    "formula": "Co3La10Tc1",
+    "elements": {
+      "Co": 3,
+      "La": 10,
+      "Tc": 1
+    },
+    "reduced_formula": "La10Co3Tc",
+    "element_list": [
+      "Co",
+      "Tc",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 150.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 30 g \n Mo: 30 g \n Nd: 150 g \n O: 60 g (as a source like Calcium Oxide or Silicon Dioxide for oxygen source)"
+    },
+    "sourcing": {
+      "instructions": "- **Iron (Fe):** Purchase from a metallurgical supply store or online chemical supplier. \n - **Molybdenum (Mo):** Obtain from specialized metal suppliers or online elemental suppliers. \n - **Neodymium (Nd):** Source from rare earth material suppliers or online retailers. \n - **Oxygen source (O):** Use Calcium Oxide (CaO) from a local chemical supplier or online.",
+      "steps": [
+        "- **Iron (Fe):** Purchase from a metallurgical supply store or online chemical supplier.",
+        "- **Molybdenum (Mo):** Obtain from specialized metal suppliers or online elemental suppliers.",
+        "- **Neodymium (Nd):** Source from rare earth material suppliers or online retailers.",
+        "- **Oxygen source (O):** Use Calcium Oxide (CaO) from a local chemical supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30 g of Fe, 30 g of Mo, 150 g of Nd, and 60 g of CaO using a precision scale.",
+        "2. In a clean, dry mixing container, combine the powders of Fe, Mo, Nd, and CaO thoroughly using a spatula for 5 minutes until a uniform blend is achieved.",
+        "3. Transfer the mixture to a ball mill for 1 hour to achieve a fine powder."
+      ],
+      "raw_text": "1. Weigh out 30 g of Fe, 30 g of Mo, 150 g of Nd, and 60 g of CaO using a precision scale. \n 2. In a clean, dry mixing container, combine the powders of Fe, Mo, Nd, and CaO thoroughly using a spatula for 5 minutes until a uniform blend is achieved. \n 3. Transfer the mixture to a ball mill for 1 hour to achieve a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the powdered mixture into a ceramic crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the powdered mixture into a ceramic crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any irregularities.",
+        "2. If necessary, use a grinding tool to achieve a smooth surface.",
+        "3. Optionally, apply a sealant to enhance stability and reduce oxidation, following manufacturer instructions for application and drying times."
+      ],
+      "raw_text": "1. Inspect the solid sample for any irregularities. \n 2. If necessary, use a grinding tool to achieve a smooth surface. \n 3. Optionally, apply a sealant to enhance stability and reduce oxidation, following manufacturer instructions for application and drying times."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 4071501.0,
+      "density": 67859.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -824075.0,
+      "formation_energy_per_atom": -973.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -103.0,
+      "decomposition_energy_mp_oqmd": -103.0
+    },
+    "electronic": {
+      "bandgap": 0.005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b7b4b182e4",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.626689Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3La10Tc1.json",
+      "material://Co3La10Tc1"
+    ]
+  }
+}

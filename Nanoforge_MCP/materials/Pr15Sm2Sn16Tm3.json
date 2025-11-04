@@ -1,0 +1,131 @@
+{
+  "id": "Pr15Sm2Sn16Tm3",
+  "uri": "material://Pr15Sm2Sn16Tm3",
+  "composition": {
+    "formula": "Pr15Sm2Sn16Tm3",
+    "elements": {
+      "Pr": 15,
+      "Sm": 2,
+      "Sn": 16,
+      "Tm": 3
+    },
+    "reduced_formula": "Pr15Sm2Tm3Sn16",
+    "element_list": [
+      "Sn",
+      "Pr",
+      "Sm",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 27.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 12.0 g \n Er: 9.0 g \n Pb: 48.0 g \n Y: 27.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Chemical supply stores or online chemical suppliers \n Er: Rare earth material suppliers \n Pb: Metal suppliers or hardware stores \n Y: Chemical supply stores or online chemical suppliers",
+      "steps": [
+        "Ac: Chemical supply stores or online chemical suppliers",
+        "Er: Rare earth material suppliers",
+        "Pb: Metal suppliers or hardware stores",
+        "Y: Chemical supply stores or online chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Ac, Er, Pb, and Y.",
+        "3. Use a mechanical stirrer to mix the ingredients thoroughly for about 10 minutes to ensure a uniform mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed amounts of Ac, Er, Pb, and Y. \n 3. Use a mechanical stirrer to mix the ingredients thoroughly for about 10 minutes to ensure a uniform mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture at 800°C for 2 hours to allow for proper fusion of the materials."
+      ],
+      "raw_text": "1. Transfer the mixture to a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture at 800°C for 2 hours to allow for proper fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally, which may take approximately 6-8 hours.",
+        "2. Do not open the furnace door until it has fully cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally, which may take approximately 6-8 hours. \n 2. Do not open the furnace door until it has fully cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11176302.0,
+      "density": 71621.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1861292.0,
+      "formation_energy_per_atom": -7611.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -103.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c1650a41bd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.565411Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Pr15Sm2Sn16Tm3.json",
+      "material://Pr15Sm2Sn16Tm3"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "Cd6Er20Fe2",
+  "uri": "material://Cd6Er20Fe2",
+  "composition": {
+    "formula": "Cd6Er20Fe2",
+    "elements": {
+      "Cd": 6,
+      "Er": 20,
+      "Fe": 2
+    },
+    "reduced_formula": "Er10Cd3Fe",
+    "element_list": [
+      "Fe",
+      "Cd",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.0 g \n Li: 12.0 g \n Mo: 20.0 g \n Ni: 35.0 g \n P: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Li: Lithium carbonate from chemical suppliers \n Mo: Molybdenum powder from metal suppliers \n Ni: Nickel powder from metal suppliers \n P: Phosphorus powder from chemical suppliers",
+      "steps": [
+        "Co: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Li: Lithium carbonate from chemical suppliers",
+        "Mo: Molybdenum powder from metal suppliers",
+        "Ni: Nickel powder from metal suppliers",
+        "P: Phosphorus powder from chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a high-precision scale.",
+        "2. In a clean, dry glass container, add Co, Li, Mo, Ni, and P in the order listed.",
+        "3. Use a mortar and pestle to mix the powders thoroughly until a homogenous mixture is achieved.",
+        "4. Transfer the mixture into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each component accurately using a high-precision scale. \n 2. In a clean, dry glass container, add Co, Li, Mo, Ni, and P in the order listed. \n 3. Use a mortar and pestle to mix the powders thoroughly until a homogenous mixture is achieved. \n 4. Transfer the mixture into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C (1472°F).",
+        "2. Once the temperature is reached, place the ceramic crucible with the mixture into the furnace.",
+        "3. Heat for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C (1472°F). \n 2. Once the temperature is reached, place the ceramic crucible with the mixture into the furnace. \n 3. Heat for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace.",
+        "2. Allow the crucible to cool down gradually inside the furnace to room temperature (approximately 2-3 hours).",
+        "3. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. After heating, turn off the furnace. \n 2. Allow the crucible to cool down gradually inside the furnace to room temperature (approximately 2-3 hours). \n 3. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible.",
+        "2. Use a belt sander to smooth out the edges and surfaces of the solid sample to achieve desired dimensions.",
+        "3. Optionally, apply a sealant for protection against oxidation. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible. \n 2. Use a belt sander to smooth out the edges and surfaces of the solid sample to achieve desired dimensions. \n 3. Optionally, apply a sealant for protection against oxidation. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7551379.0,
+      "density": 90848.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1188687.0,
+      "formation_energy_per_atom": -1799.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -237.0,
+      "decomposition_energy_mp": -31.0,
+      "decomposition_energy_mp_oqmd": -299.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7fa468494",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.420195Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd6Er20Fe2.json",
+      "material://Cd6Er20Fe2"
+    ]
+  }
+}

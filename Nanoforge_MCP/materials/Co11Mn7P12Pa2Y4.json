@@ -1,0 +1,116 @@
+{
+  "id": "Co11Mn7P12Pa2Y4",
+  "uri": "material://Co11Mn7P12Pa2Y4",
+  "composition": {
+    "formula": "Co11Mn7P12Pa2Y4",
+    "elements": {
+      "Co": 11,
+      "Mn": 7,
+      "P": 12,
+      "Pa": 2,
+      "Y": 4
+    },
+    "reduced_formula": "Y4Pa2Mn7Co11P12",
+    "element_list": [
+      "P",
+      "Mn",
+      "Co",
+      "Y",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 110.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 110 g, Mn: 77 g, P: 120 g, Pa: 20 g, Y: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal supplier, Mn: Chemical supply store, P: Laboratory supplier, Pa: Chemical supplier, Y: Rare earth metal supplier",
+      "steps": [
+        "Co: Metal supplier, Mn: Chemical supply store, P: Laboratory supplier, Pa: Chemical supplier, Y: Rare earth metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, add Co, Mn, P, Pa, and Y in the specified order.",
+        "3. Use a mechanical stirrer to mix the ingredients for 15 minutes to ensure uniform distribution.",
+        "4. Transfer the mixture to a ball mill and mill for an additional 30 minutes."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale. \n 2. In a clean, dry mixing container, add Co, Mn, P, Pa, and Y in the specified order. \n 3. Use a mechanical stirrer to mix the ingredients for 15 minutes to ensure uniform distribution. \n 4. Transfer the mixture to a ball mill and mill for an additional 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Insert the crucible into the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Insert the crucible into the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use sandpaper (grit 200-400) to smooth the surfaces.",
+        "4. Optionally seal with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. Use sandpaper (grit 200-400) to smooth the surfaces. \n 4. Optionally seal with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4859215.0,
+      "density": 7594.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2852249.0,
+      "formation_energy_per_atom": -9179.0,
+      "decomposition_energy_per_atom": -751.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -751.0,
+      "decomposition_energy_mp_oqmd": -333.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a8959ce161",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:58.091691Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co11Mn7P12Pa2Y4.json",
+      "material://Co11Mn7P12Pa2Y4"
+    ]
+  }
+}

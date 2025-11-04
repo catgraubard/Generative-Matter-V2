@@ -1,0 +1,122 @@
+{
+  "id": "Si2Te26W4",
+  "uri": "material://Si2Te26W4",
+  "composition": {
+    "formula": "Si2Te26W4",
+    "elements": {
+      "Si": 2,
+      "Te": 26,
+      "W": 4
+    },
+    "reduced_formula": "SiTe13W2",
+    "element_list": [
+      "Si",
+      "Te",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 624.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 72.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Si: 120 g \n Te: 624 g \n W: 72 g"
+    },
+    "sourcing": {
+      "instructions": "Si (Silicon): Available from chemical supply companies or online retailers. \n Te (Tellurium): Obtainable from specialty metal suppliers. \n W (Tungsten): Can be sourced from metal distributors or online.",
+      "steps": [
+        "Si (Silicon): Available from chemical supply companies or online retailers.",
+        "Te (Tellurium): Obtainable from specialty metal suppliers.",
+        "W (Tungsten): Can be sourced from metal distributors or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 120 g of Silicon (Si), 624 g of Tellurium (Te), and 72 g of Tungsten (W) using a precision scale.",
+        "2. In a clean, dry mortar and pestle, combine Si and W first. Grind them together until a uniform powder is achieved.",
+        "3. Gradually add Te to the Si-W mixture while continuously grinding to ensure an even distribution. Aim for a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh out 120 g of Silicon (Si), 624 g of Tellurium (Te), and 72 g of Tungsten (W) using a precision scale. \n 2. In a clean, dry mortar and pestle, combine Si and W first. Grind them together until a uniform powder is achieved. \n 3. Gradually add Te to the Si-W mixture while continuously grinding to ensure an even distribution. Aim for a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Heat in a controlled atmosphere furnace to 800 °C, maintaining this temperature for 2 hours to promote complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Heat in a controlled atmosphere furnace to 800 °C, maintaining this temperature for 2 hours to promote complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down gradually to room temperature (approximately 25 °C).",
+        "2. This slow cooling process should take around 4 hours to avoid thermal stress in the material."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down gradually to room temperature (approximately 25 °C). \n 2. This slow cooling process should take around 4 hours to avoid thermal stress in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, perform sanding with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, perform sanding with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 12681915.0,
+      "density": 53804.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -1515964.0,
+      "formation_energy_per_atom": -2246.0,
+      "decomposition_energy_per_atom": -1406.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -348.0,
+      "decomposition_energy_mp_oqmd": -182.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "00381ff66f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:14.628610Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si2Te26W4.json",
+      "material://Si2Te26W4"
+    ]
+  }
+}

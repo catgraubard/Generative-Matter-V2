@@ -1,0 +1,116 @@
+{
+  "id": "Bi8In2Ni2O24",
+  "uri": "material://Bi8In2Ni2O24",
+  "composition": {
+    "formula": "Bi8In2Ni2O24",
+    "elements": {
+      "Bi": 8,
+      "In": 2,
+      "Ni": 2,
+      "O": 24
+    },
+    "reduced_formula": "InNi(BiO3)4",
+    "element_list": [
+      "O",
+      "Ni",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 14.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "P: 14.4 g, Sc: 5.4 g, Si: 18.0 g, Tb: 0.9 g, Y: 2.7 g"
+    },
+    "sourcing": {
+      "instructions": "P: chemical suppliers (e.g., Sigma-Aldrich); Sc: rare earth metal suppliers; Si: electronics stores; Tb: rare earth suppliers; Y: metal suppliers or online chemical retailers.",
+      "steps": [
+        "P: chemical suppliers (e.g., Sigma-Aldrich); Sc: rare earth metal suppliers; Si: electronics stores; Tb: rare earth suppliers; Y: metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, add the P first.",
+        "3. Gradually add Sc while stirring continuously to ensure even distribution.",
+        "4. Next, incorporate Si while stirring.",
+        "5. Add Tb and Y last, ensuring all ingredients are well mixed.",
+        "6. Use a mortar and pestle or ball mill to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, add the P first. \n 3. Gradually add Sc while stirring continuously to ensure even distribution. \n 4. Next, incorporate Si while stirring. \n 5. Add Tb and Y last, ensuring all ingredients are well mixed. \n 6. Use a mortar and pestle or ball mill to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat in a furnace at 1200°C for 4 hours.",
+        "3. Use a controlled ramp-up to reach temperature to avoid rapid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat in a furnace at 1200°C for 4 hours. \n 3. Use a controlled ramp-up to reach temperature to avoid rapid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature for a minimum of 6 hours.",
+        "2. Do not open the furnace until it has cooled down to prevent exposure to air."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature for a minimum of 6 hours. \n 2. Do not open the furnace until it has cooled down to prevent exposure to air."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Grind the sample if needed to achieve desired dimensions.",
+        "3. Sand the edges to smooth out any rough surfaces.",
+        "4. Optionally, seal the surface with a protective coating suitable for rare earth materials."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Grind the sample if needed to achieve desired dimensions. \n 3. Sand the edges to smooth out any rough surfaces. \n 4. Optionally, seal the surface with a protective coating suitable for rare earth materials."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5028441.0,
+      "density": 79349.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2179182.0,
+      "formation_energy_per_atom": -14162.0,
+      "decomposition_energy_per_atom": -114.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": -62.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da8f0acedf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.170497Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi8In2Ni2O24.json",
+      "material://Bi8In2Ni2O24"
+    ]
+  }
+}

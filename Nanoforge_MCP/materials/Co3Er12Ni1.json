@@ -1,0 +1,111 @@
+{
+  "id": "Co3Er12Ni1",
+  "uri": "material://Co3Er12Ni1",
+  "composition": {
+    "formula": "Co3Er12Ni1",
+    "elements": {
+      "Co": 3,
+      "Er": 12,
+      "Ni": 1
+    },
+    "reduced_formula": "Er12Co3Ni",
+    "element_list": [
+      "Co",
+      "Ni",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 180.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 180 g, Er: 2160 g, Ni: 18 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Chemical suppliers or metal powder retailers; Er: Rare earth element suppliers; Ni: Metal powder suppliers.",
+      "steps": [
+        "Co: Chemical suppliers or metal powder retailers; Er: Rare earth element suppliers; Ni: Metal powder suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 180 g of Cobalt powder.",
+        "2. Weigh out 2160 g of Erbium powder.",
+        "3. Weigh out 18 g of Nickel powder.",
+        "4. Mix the powders in a clean, dry container using a mechanical mixer for 30 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out 180 g of Cobalt powder. \n 2. Weigh out 2160 g of Erbium powder. \n 3. Weigh out 18 g of Nickel powder. \n 4. Mix the powders in a clean, dry container using a mechanical mixer for 30 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a sintering furnace to 1200°C.",
+        "2. Place the mixed powders in a crucible suitable for high temperatures.",
+        "3. Sinter the mixture for 4 hours at 1200°C under a vacuum or inert atmosphere to avoid oxidation."
+      ],
+      "raw_text": "1. Preheat a sintering furnace to 1200°C. \n 2. Place the mixed powders in a crucible suitable for high temperatures. \n 3. Sinter the mixture for 4 hours at 1200°C under a vacuum or inert atmosphere to avoid oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to room temperature over a period of 6 hours to prevent thermal shock.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to room temperature over a period of 6 hours to prevent thermal shock. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth the edges and surfaces, starting with 120-grit and finishing with 600-grit sandpaper.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper to smooth the edges and surfaces, starting with 120-grit and finishing with 600-grit sandpaper. \n 3. Optionally, seal the surface with a clear epoxy resin for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3957017.0,
+      "density": 94109.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -851832.0,
+      "formation_energy_per_atom": -2041.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -22.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": 0.0018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "74a337f62c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:48.013746Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co3Er12Ni1.json",
+      "material://Co3Er12Ni1"
+    ]
+  }
+}

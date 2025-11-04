@@ -1,0 +1,134 @@
+{
+  "id": "Ag1Li3Si4Sm4Sn2",
+  "uri": "material://Ag1Li3Si4Sm4Sn2",
+  "composition": {
+    "formula": "Ag1Li3Si4Sm4Sn2",
+    "elements": {
+      "Ag": 1,
+      "Li": 3,
+      "Si": 4,
+      "Sm": 4,
+      "Sn": 2
+    },
+    "reduced_formula": "Li3Sm4Si4AgSn2",
+    "element_list": [
+      "Li",
+      "Si",
+      "Ag",
+      "Sn",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 13.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 13 g \n Nd: 4 g \n Ni: 20 g \n Pa: 2 g"
+    },
+    "sourcing": {
+      "instructions": "As (Arsenic): Obtain from chemical supply companies or specialized metal suppliers (handle with care due to toxicity). \n Nd (Neodymium): Available from rare earth metal suppliers. \n Ni (Nickel): Obtain from metal suppliers or online marketplaces. \n Pa (Protactinium): Acquire from specialized isotope suppliers (highly regulated material).",
+      "steps": [
+        "As (Arsenic): Obtain from chemical supply companies or specialized metal suppliers (handle with care due to toxicity).",
+        "Nd (Neodymium): Available from rare earth metal suppliers.",
+        "Ni (Nickel): Obtain from metal suppliers or online marketplaces.",
+        "Pa (Protactinium): Acquire from specialized isotope suppliers (highly regulated material)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Gather all materials in a fume hood or well-ventilated area, wearing appropriate personal protective equipment (PPE).",
+        "2. Weigh each ingredient using a precision scale.",
+        "3. In a clean, dry mixing container, add the weighed amounts of As, Nd, Ni, and Pa sequentially.",
+        "4. Use a high-speed mixer to blend the powders uniformly until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Gather all materials in a fume hood or well-ventilated area, wearing appropriate personal protective equipment (PPE). \n 2. Weigh each ingredient using a precision scale. \n 3. In a clean, dry mixing container, add the weighed amounts of As, Nd, Ni, and Pa sequentially. \n 4. Use a high-speed mixer to blend the powders uniformly until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the blended mixture to a crucible suitable for high-temperature processing.",
+        "2. Preheat the furnace to 800°C.",
+        "3. Once the furnace reaches the desired temperature, place the crucible inside and maintain for 2 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Transfer the blended mixture to a crucible suitable for high-temperature processing. \n 2. Preheat the furnace to 800°C. \n 3. Once the furnace reaches the desired temperature, place the crucible inside and maintain for 2 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door during the cooling phase to prevent contamination and oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door during the cooling phase to prevent contamination and oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully and extract the solidified sample.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, use a grinder or sanding tool to smooth the surface.",
+        "4. Seal the finished sample in a protective case to avoid oxidation and moisture exposure."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully and extract the solidified sample. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, use a grinder or sanding tool to smooth the surface. \n 4. Seal the finished sample in a protective case to avoid oxidation and moisture exposure."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2915022.0,
+      "density": 61516.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -657852.0,
+      "formation_energy_per_atom": -6165.0,
+      "decomposition_energy_per_atom": -266.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -272.0,
+      "decomposition_energy_mp_oqmd": -116.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cdde4ca004",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.750816Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Li3Si4Sm4Sn2.json",
+      "material://Ag1Li3Si4Sm4Sn2"
+    ]
+  }
+}

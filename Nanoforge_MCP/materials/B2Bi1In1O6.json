@@ -1,0 +1,129 @@
+{
+  "id": "B2Bi1In1O6",
+  "uri": "material://B2Bi1In1O6",
+  "composition": {
+    "formula": "B2Bi1In1O6",
+    "elements": {
+      "B": 2,
+      "Bi": 1,
+      "In": 1,
+      "O": 6
+    },
+    "reduced_formula": "InBi(BO3)2",
+    "element_list": [
+      "B",
+      "O",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 96.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 160 g (Neodymium metal powder) \n S: 96 g (Sulfur powder) \n Tb: 80 g (Terbium metal powder)"
+    },
+    "sourcing": {
+      "instructions": "Neodymium metal powder: Buy from online suppliers like Sigma-Aldrich or local chemical suppliers. \n Sulfur powder: Available at chemical supply stores or online retailers such as Amazon. \n Terbium metal powder: Obtain from specialized metal suppliers or online sources like Alfa Aesar.",
+      "steps": [
+        "Neodymium metal powder: Buy from online suppliers like Sigma-Aldrich or local chemical suppliers.",
+        "Sulfur powder: Available at chemical supply stores or online retailers such as Amazon.",
+        "Terbium metal powder: Obtain from specialized metal suppliers or online sources like Alfa Aesar."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 160 g of neodymium powder using an analytical balance.",
+        "2. Measure 96 g of sulfur powder and 80 g of terbium powder.",
+        "3. Combine the powders in a clean, dry ceramic or glass container.",
+        "4. Use a mortar and pestle to thoroughly mix the powders for 30 minutes, ensuring a homogenous mixture."
+      ],
+      "raw_text": "1. In a fume hood, measure 160 g of neodymium powder using an analytical balance. \n 2. Measure 96 g of sulfur powder and 80 g of terbium powder. \n 3. Combine the powders in a clean, dry ceramic or glass container. \n 4. Use a mortar and pestle to thoroughly mix the powders for 30 minutes, ensuring a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture into a high-temperature crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture into a high-temperature crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 10°C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the crucible to cool to room temperature naturally, which may take approximately 8 hours.",
+        "3. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace. \n 2. Allow the crucible to cool to room temperature naturally, which may take approximately 8 hours. \n 3. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Polish the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability, following the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Polish the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance durability, following the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 12064.0,
+      "density": 60758.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -734536.0,
+      "formation_energy_per_atom": -23765.0,
+      "decomposition_energy_per_atom": -7.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 3.2792,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a9b9e178e3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:00.248821Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Bi1In1O6.json",
+      "material://B2Bi1In1O6"
+    ]
+  }
+}

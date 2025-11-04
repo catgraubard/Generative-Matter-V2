@@ -1,0 +1,112 @@
+{
+  "id": "C2Mo1Na1O6",
+  "uri": "material://C2Mo1Na1O6",
+  "composition": {
+    "formula": "C2Mo1Na1O6",
+    "elements": {
+      "C": 2,
+      "Mo": 1,
+      "Na": 1,
+      "O": 6
+    },
+    "reduced_formula": "NaMo(CO3)2",
+    "element_list": [
+      "C",
+      "O",
+      "Na",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 15.0 g, Ga: 30.0 g, Na: 7.5 g, P: 12.5 g"
+    },
+    "sourcing": {
+      "instructions": "As (Arsenic): Specialty chemical suppliers; Ga (Gallium): Electronics suppliers or online chemical retailers; Na (Sodium): Chemical supply stores; P (Phosphorus): Chemical supply stores or online.",
+      "steps": [
+        "As (Arsenic): Specialty chemical suppliers; Ga (Gallium): Electronics suppliers or online chemical retailers; Na (Sodium): Chemical supply stores; P (Phosphorus): Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15.0 g of arsenic powder and transfer it to a clean mixing container.",
+        "2. Weigh 30.0 g of gallium and add it to the mixing container with arsenic.",
+        "3. Weigh 7.5 g of sodium and add it to the mixture.",
+        "4. Weigh 12.5 g of phosphorus and include it in the container.",
+        "5. Use a spatula to thoroughly mix the powders until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 15.0 g of arsenic powder and transfer it to a clean mixing container. \n 2. Weigh 30.0 g of gallium and add it to the mixing container with arsenic. \n 3. Weigh 7.5 g of sodium and add it to the mixture. \n 4. Weigh 12.5 g of phosphorus and include it in the container. \n 5. Use a spatula to thoroughly mix the powders until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed ingredients to a crucible.",
+        "2. Heat the crucible in a furnace or high-temperature oven at 800°C for 1 hour to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a crucible. \n 2. Heat the crucible in a furnace or high-temperature oven at 800°C for 1 hour to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over a period of 4 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 25°C) over a period of 4 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges and surfaces.",
+        "3. If necessary, apply a protective sealant to enhance stability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper to smooth any rough edges and surfaces. \n 3. If necessary, apply a protective sealant to enhance stability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 115699.0,
+      "density": 34294.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -801064.0,
+      "formation_energy_per_atom": -19797.0,
+      "decomposition_energy_per_atom": -849.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -731.0,
+      "decomposition_energy_mp": -865.0,
+      "decomposition_energy_mp_oqmd": -787.0
+    },
+    "electronic": {
+      "bandgap": 3.6395,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dafecaf0d0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.285285Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C2Mo1Na1O6.json",
+      "material://C2Mo1Na1O6"
+    ]
+  }
+}

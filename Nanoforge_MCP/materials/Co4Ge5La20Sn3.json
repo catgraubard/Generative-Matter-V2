@@ -1,0 +1,132 @@
+{
+  "id": "Co4Ge5La20Sn3",
+  "uri": "material://Co4Ge5La20Sn3",
+  "composition": {
+    "formula": "Co4Ge5La20Sn3",
+    "elements": {
+      "Co": 4,
+      "Ge": 5,
+      "La": 20,
+      "Sn": 3
+    },
+    "reduced_formula": "La20Co4Sn3Ge5",
+    "element_list": [
+      "Co",
+      "Ge",
+      "Sn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g \n Ge: 50 g \n La: 200 g \n Sn: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Chemical supply stores or online sources such as Sigma-Aldrich. \n Ge (Germanium): Specialty semiconductor material suppliers. \n La (Lanthanum): Rare earth material suppliers or chemical supply houses. \n Sn (Tin): Hardware stores or online metal suppliers.",
+      "steps": [
+        "Co (Cobalt): Chemical supply stores or online sources such as Sigma-Aldrich.",
+        "Ge (Germanium): Specialty semiconductor material suppliers.",
+        "La (Lanthanum): Rare earth material suppliers or chemical supply houses.",
+        "Sn (Tin): Hardware stores or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40 g of Co, 50 g of Ge, 200 g of La, and 30 g of Sn using an analytical balance.",
+        "2. Combine the weighed materials in a clean, dry ceramic crucible.",
+        "3. Ensure that the materials are thoroughly mixed using a spatula or a ceramic rod until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 40 g of Co, 50 g of Ge, 200 g of La, and 30 g of Sn using an analytical balance. \n 2. Combine the weighed materials in a clean, dry ceramic crucible. \n 3. Ensure that the materials are thoroughly mixed using a spatula or a ceramic rod until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Gradually heat to 900 °C at a rate of 5 °C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Gradually heat to 900 °C at a rate of 5 °C/min. \n 3. Maintain this temperature for 4 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 25 °C).",
+        "2. This process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 25 °C). \n 2. This process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, sand the surface using 600-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a clear sealant to enhance the surface finish and protect the material."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, sand the surface using 600-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a clear sealant to enhance the surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 9401005.0,
+      "density": 65941.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1792321.0,
+      "formation_energy_per_atom": -5455.0,
+      "decomposition_energy_per_atom": -307.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -144.0,
+      "decomposition_energy_mp": -307.0,
+      "decomposition_energy_mp_oqmd": -224.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "46adcf2837",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:48.496752Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Ge5La20Sn3.json",
+      "material://Co4Ge5La20Sn3"
+    ]
+  }
+}

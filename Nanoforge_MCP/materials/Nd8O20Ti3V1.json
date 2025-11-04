@@ -1,0 +1,128 @@
+{
+  "id": "Nd8O20Ti3V1",
+  "uri": "material://Nd8O20Ti3V1",
+  "composition": {
+    "formula": "Nd8O20Ti3V1",
+    "elements": {
+      "Nd": 8,
+      "O": 20,
+      "Ti": 3,
+      "V": 1
+    },
+    "reduced_formula": "Nd8Ti3VO20",
+    "element_list": [
+      "O",
+      "Ti",
+      "V",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 55.2,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 132.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 10.5 g \n Tc: 55.2 g \n Y: 132.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu (Copper): Local hardware store or online metal supplier. \n Tc (Technetium): Specialty chemical suppliers or research institutions. \n Y (Yttrium): Metal suppliers or online retailers.",
+      "steps": [
+        "Cu (Copper): Local hardware store or online metal supplier.",
+        "Tc (Technetium): Specialty chemical suppliers or research institutions.",
+        "Y (Yttrium): Metal suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10.5 g of Cu using a digital scale.",
+        "2. Measure 55.2 g of Tc accurately.",
+        "3. Measure 132.0 g of Y.",
+        "4. Combine all materials in a clean, dry mixing container.",
+        "5. Use a mechanical stirrer to mix thoroughly for 10 minutes until uniform."
+      ],
+      "raw_text": "1. Measure 10.5 g of Cu using a digital scale. \n 2. Measure 55.2 g of Tc accurately. \n 3. Measure 132.0 g of Y. \n 4. Combine all materials in a clean, dry mixing container. \n 5. Use a mechanical stirrer to mix thoroughly for 10 minutes until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a crucible.",
+        "2. Place the crucible in a furnace preheated to 1200°C.",
+        "3. Maintain this temperature for 2 hours to ensure full melting and integration of materials."
+      ],
+      "raw_text": "1. Transfer the mixed material into a crucible. \n 2. Place the crucible in a furnace preheated to 1200°C. \n 3. Maintain this temperature for 2 hours to ensure full melting and integration of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After heating, turn off the furnace.",
+        "2. Allow the crucible to cool gradually inside the furnace for 4 hours to prevent thermal shock.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace. \n 2. Allow the crucible to cool gradually inside the furnace for 4 hours to prevent thermal shock. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 x 2 x 7 inches).",
+        "3. Sand the edges and surface using 200-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective coating if necessary."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 x 2 x 7 inches). \n 3. Sand the edges and surface using 200-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective coating if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4826557.0,
+      "density": 57402.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2877792.0,
+      "formation_energy_per_atom": -36845.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -16.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e1f72b9389",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.219265Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd8O20Ti3V1.json",
+      "material://Nd8O20Ti3V1"
+    ]
+  }
+}

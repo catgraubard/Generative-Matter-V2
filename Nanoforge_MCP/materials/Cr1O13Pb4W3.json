@@ -1,0 +1,113 @@
+{
+  "id": "Cr1O13Pb4W3",
+  "uri": "material://Cr1O13Pb4W3",
+  "composition": {
+    "formula": "Cr1O13Pb4W3",
+    "elements": {
+      "Cr": 1,
+      "O": 13,
+      "Pb": 4,
+      "W": 3
+    },
+    "reduced_formula": "CrPb4W3O13",
+    "element_list": [
+      "O",
+      "Cr",
+      "W",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 24.0 g, O: 52.0 g, Pb: 82.0 g, W: 39.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply stores, O: Laboratory suppliers (as chromium oxide), Pb: Metal suppliers (ingots), W: Metal suppliers (tungsten powder)",
+      "steps": [
+        "Cr: Chemical supply stores, O: Laboratory suppliers (as chromium oxide), Pb: Metal suppliers (ingots), W: Metal suppliers (tungsten powder)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 24.0 g of chromium, 52.0 g of oxygen, 82.0 g of lead, and 39.0 g of tungsten.",
+        "2. In a clean, dry container, combine the measured ingredients.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixed powder into a suitable mold for the desired dimensions."
+      ],
+      "raw_text": "1. Measure 24.0 g of chromium, 52.0 g of oxygen, 82.0 g of lead, and 39.0 g of tungsten. \n 2. In a clean, dry container, combine the measured ingredients. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. \n 4. Transfer the mixed powder into a suitable mold for the desired dimensions."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mold with the mixture in the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mold with the mixture in the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace until it has fully cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace until it has fully cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. If necessary, sand the edges and surfaces for a smooth finish using 400-grit sandpaper.",
+        "3. Seal the surface with a clear epoxy resin for durability and protection against oxidation.",
+        "4. Allow the epoxy to cure as per manufacturer's instructions, typically 24-48 hours."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. If necessary, sand the edges and surfaces for a smooth finish using 400-grit sandpaper. \n 3. Seal the surface with a clear epoxy resin for durability and protection against oxidation. \n 4. Allow the epoxy to cure as per manufacturer's instructions, typically 24-48 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2997991.0,
+      "density": 90854.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1695571.0,
+      "formation_energy_per_atom": -19931.0,
+      "decomposition_energy_per_atom": -225.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -222.0,
+      "decomposition_energy_mp": -23.0,
+      "decomposition_energy_mp_oqmd": -222.0
+    },
+    "electronic": {
+      "bandgap": 0.2612,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "60f28fd0f2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:22.934730Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1O13Pb4W3.json",
+      "material://Cr1O13Pb4W3"
+    ]
+  }
+}

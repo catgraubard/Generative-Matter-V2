@@ -1,0 +1,114 @@
+{
+  "id": "B16Tb6Y4Zn4",
+  "uri": "material://B16Tb6Y4Zn4",
+  "composition": {
+    "formula": "B16Tb6Y4Zn4",
+    "elements": {
+      "B": 16,
+      "Tb": 6,
+      "Y": 4,
+      "Zn": 4
+    },
+    "reduced_formula": "Tb3Y2(ZnB4)2",
+    "element_list": [
+      "B",
+      "Zn",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 50g, Si: 200g, Tc: 30g, V: 150g"
+    },
+    "sourcing": {
+      "instructions": "B: Local chemical supply store; Si: Semiconductor material supplier; Tc: Specialty metal supplier; V: Metal alloy supplier.",
+      "steps": [
+        "B: Local chemical supply store; Si: Semiconductor material supplier; Tc: Specialty metal supplier; V: Metal alloy supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 50g of B and place in a clean mixing container.",
+        "2. Add 200g of Si to the container.",
+        "3. Incorporate 30g of Tc into the mixture.",
+        "4. Finally, add 150g of V.",
+        "5. Use a mechanical stirrer to mix thoroughly for 10 minutes until homogenous."
+      ],
+      "raw_text": "1. Measure 50g of B and place in a clean mixing container. \n 2. Add 200g of Si to the container. \n 3. Incorporate 30g of Tc into the mixture. \n 4. Finally, add 150g of V. \n 5. Use a mechanical stirrer to mix thoroughly for 10 minutes until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the mixed material into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Transfer the mixed material into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400) to smooth out the surfaces.",
+        "3. Optionally, apply a sealant to enhance surface finish and protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 400) to smooth out the surfaces. \n 3. Optionally, apply a sealant to enhance surface finish and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 43921.0,
+      "density": 65928.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1820742.0,
+      "formation_energy_per_atom": -5498.0,
+      "decomposition_energy_per_atom": -329.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -329.0,
+      "decomposition_energy_mp_oqmd": -325.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cc7b41c092",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.411009Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B16Tb6Y4Zn4.json",
+      "material://B16Tb6Y4Zn4"
+    ]
+  }
+}

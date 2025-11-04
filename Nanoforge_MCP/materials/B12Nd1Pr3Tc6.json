@@ -1,0 +1,125 @@
+{
+  "id": "B12Nd1Pr3Tc6",
+  "uri": "material://B12Nd1Pr3Tc6",
+  "composition": {
+    "formula": "B12Nd1Pr3Tc6",
+    "elements": {
+      "B": 12,
+      "Nd": 1,
+      "Pr": 3,
+      "Tc": 6
+    },
+    "reduced_formula": "Pr3Nd(TcB2)6",
+    "element_list": [
+      "B",
+      "Tc",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ru: 40 g \n Tb: 30 g \n Tm: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Ru (Ruthenium): Obtain from a chemical supply company or online distributor specializing in precious metals. \n Tb (Terbium): Purchase from a specialized chemical supplier or online retailer. \n Tm (Thulium): Source from a rare earth metals supplier or academic supply store.",
+      "steps": [
+        "Ru (Ruthenium): Obtain from a chemical supply company or online distributor specializing in precious metals.",
+        "Tb (Terbium): Purchase from a specialized chemical supplier or online retailer.",
+        "Tm (Thulium): Source from a rare earth metals supplier or academic supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40 g of Ru, 30 g of Tb, and 80 g of Tm using a precision balance.",
+        "2. In a clean, dry container, combine the weighed materials thoroughly using a spatula to ensure an even mixture.",
+        "3. Transfer the mixture into a ball mill for 1 hour to achieve an even particle size distribution."
+      ],
+      "raw_text": "1. Weigh out 40 g of Ru, 30 g of Tb, and 80 g of Tm using a precision balance. \n 2. In a clean, dry container, combine the weighed materials thoroughly using a spatula to ensure an even mixture. \n 3. Transfer the mixture into a ball mill for 1 hour to achieve an even particle size distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixture in a crucible made of high-temperature resistant material.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixture in a crucible made of high-temperature resistant material. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature over 6 hours.",
+        "2. Do not open the furnace during the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature over 6 hours. \n 2. Do not open the furnace during the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solidified material from the crucible.",
+        "3. Use sandpaper (grit 200-400) to smooth the edges and surfaces of the solid sample to the desired finish.",
+        "4. Optionally, apply a sealant or protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solidified material from the crucible. \n 3. Use sandpaper (grit 200-400) to smooth the edges and surfaces of the solid sample to the desired finish. \n 4. Optionally, apply a sealant or protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2771315.0,
+      "density": 76978.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1718068.0,
+      "formation_energy_per_atom": -4718.0,
+      "decomposition_energy_per_atom": -505.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -505.0,
+      "decomposition_energy_mp_oqmd": -503.0
+    },
+    "electronic": {
+      "bandgap": 0.0094,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bb979e051b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.687699Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B12Nd1Pr3Tc6.json",
+      "material://B12Nd1Pr3Tc6"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "La2O16Sb2Te4",
+  "uri": "material://La2O16Sb2Te4",
+  "composition": {
+    "formula": "La2O16Sb2Te4",
+    "elements": {
+      "La": 2,
+      "O": 16,
+      "Sb": 2,
+      "Te": 4
+    },
+    "reduced_formula": "LaSb(TeO4)2",
+    "element_list": [
+      "O",
+      "Sb",
+      "Te",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La2O3: 10.0 g \n - Sb2Te4: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "- La2O3 can be sourced from chemical supply companies such as Sigma-Aldrich or Alfa Aesar. \n - Sb2Te4 can be obtained from specialized suppliers like American Elements or research chemical vendors.",
+      "steps": [
+        "- La2O3 can be sourced from chemical supply companies such as Sigma-Aldrich or Alfa Aesar.",
+        "- Sb2Te4 can be obtained from specialized suppliers like American Elements or research chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10.0 g of La2O3 and 15.0 g of Sb2Te4 using an analytical balance.",
+        "2. In a clean, dry container, combine the La2O3 and Sb2Te4 powders.",
+        "3. Mix thoroughly using a mortar and pestle or a mechanical mixer to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh 10.0 g of La2O3 and 15.0 g of Sb2Te4 using an analytical balance. \n 2. In a clean, dry container, combine the La2O3 and Sb2Te4 powders. \n 3. Mix thoroughly using a mortar and pestle or a mechanical mixer to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a furnace and heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a furnace and heat to 800°C at a rate of 10°C/min. \n 3. Maintain the temperature at 800°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. This process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n 2. This process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Use sandpaper to smooth any rough edges from the solidified sample.",
+        "3. If necessary, apply a sealant to protect the surface of the material from moisture and other environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Use sandpaper to smooth any rough edges from the solidified sample. \n 3. If necessary, apply a sealant to protect the surface of the material from moisture and other environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3539879.0,
+      "density": 60406.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1623675.0,
+      "formation_energy_per_atom": -21874.0,
+      "decomposition_energy_per_atom": -143.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -145.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -145.0
+    },
+    "electronic": {
+      "bandgap": 2.5016,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3bf5ad4d0d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:34.477884Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2O16Sb2Te4.json",
+      "material://La2O16Sb2Te4"
+    ]
+  }
+}

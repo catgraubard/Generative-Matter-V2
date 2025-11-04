@@ -1,0 +1,120 @@
+{
+  "id": "Ag1Li1Mn1O6Te1",
+  "uri": "material://Ag1Li1Mn1O6Te1",
+  "composition": {
+    "formula": "Ag1Li1Mn1O6Te1",
+    "elements": {
+      "Ag": 1,
+      "Li": 1,
+      "Mn": 1,
+      "O": 6,
+      "Te": 1
+    },
+    "reduced_formula": "LiMnAgTeO6",
+    "element_list": [
+      "Li",
+      "O",
+      "Mn",
+      "Ag",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 12.5 g, Li: 6.5 g, Mn: 8.0 g, O: 30.0 g, Te: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "- **Ag**: Purchase from a precious metals supplier or online chemical supplier.\n- **Li**: Obtain lithium carbonate from a chemical supplier.\n- **Mn**: Source manganese oxide from a chemical supplier.\n- **O**: Use high-purity oxygen from a gas supplier or as part of the reaction environment.\n- **Te**: Get tellurium from a chemical supplier.",
+      "steps": [
+        "- **Ag**: Purchase from a precious metals supplier or online chemical supplier.",
+        "- **Li**: Obtain lithium carbonate from a chemical supplier.",
+        "- **Mn**: Source manganese oxide from a chemical supplier.",
+        "- **O**: Use high-purity oxygen from a gas supplier or as part of the reaction environment.",
+        "- **Te**: Get tellurium from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each ingredient accurately using a digital scale.",
+        "2. In a clean, dry ceramic or glass mixing container, combine the Ag, Li, Mn, O, and Te powders evenly.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Transfer the mixture to a high-temperature crucible suitable for sintering."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each ingredient accurately using a digital scale.\n2. In a clean, dry ceramic or glass mixing container, combine the Ag, Li, Mn, O, and Te powders evenly.\n3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.\n4. Transfer the mixture to a high-temperature crucible suitable for sintering."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a furnace to 800°C (1472°F).",
+        "2. Place the crucible with the mixed powders into the furnace.",
+        "3. Maintain the temperature for 6 hours to ensure complete reaction and solidification of the compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C (1472°F).\n2. Place the crucible with the mixed powders into the furnace.\n3. Maintain the temperature for 6 hours to ensure complete reaction and solidification of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).\n2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any imperfections or irregularities.",
+        "3. Use fine-grit sandpaper to smooth out any rough edges if necessary.",
+        "4. Optionally, seal the surface with a protective coating suitable for the final application."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible.\n2. Inspect the sample for any imperfections or irregularities.\n3. Use fine-grit sandpaper to smooth out any rough edges if necessary.\n4. Optionally, seal the surface with a protective coating suitable for the final application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 127025.0,
+      "density": 5142.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -626356.0,
+      "formation_energy_per_atom": -15901.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -23.0,
+      "decomposition_energy_mp": -146.0,
+      "decomposition_energy_mp_oqmd": -111.0
+    },
+    "electronic": {
+      "bandgap": 1.0886,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6b8fe0d113",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:36.456422Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Li1Mn1O6Te1.json",
+      "material://Ag1Li1Mn1O6Te1"
+    ]
+  }
+}

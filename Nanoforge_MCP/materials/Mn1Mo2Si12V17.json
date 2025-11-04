@@ -1,0 +1,111 @@
+{
+  "id": "Mn1Mo2Si12V17",
+  "uri": "material://Mn1Mo2Si12V17",
+  "composition": {
+    "formula": "Mn1Mo2Si12V17",
+    "elements": {
+      "Mn": 1,
+      "Mo": 2,
+      "Si": 12,
+      "V": 17
+    },
+    "reduced_formula": "MnV17(Si6Mo)2",
+    "element_list": [
+      "Si",
+      "V",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi): 50 g \n Tantalum (Pa): 20 g \n Titanium (Ti): 120 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Purchase from chemical supply stores or online suppliers specializing in metals. \n Tantalum: Obtain from metal suppliers or e-commerce platforms that provide rare metals. \n Titanium: Source from metal suppliers, industrial suppliers, or online chemical distributors.",
+      "steps": [
+        "Bismuth: Purchase from chemical supply stores or online suppliers specializing in metals.",
+        "Tantalum: Obtain from metal suppliers or e-commerce platforms that provide rare metals.",
+        "Titanium: Source from metal suppliers, industrial suppliers, or online chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 50 g of Bismuth using an analytical scale.",
+        "2. Measure 20 g of Tantalum.",
+        "3. Measure 120 g of Titanium.",
+        "4. In a clean, dry mixing container, combine all the measured materials thoroughly using a spatula to ensure an even mixture.",
+        "5. Transfer the combined powder mixture into a ball mill and mill for 2 hours to achieve a uniform particle size and homogeneity."
+      ],
+      "raw_text": "1. Measure 50 g of Bismuth using an analytical scale. \n 2. Measure 20 g of Tantalum. \n 3. Measure 120 g of Titanium. \n 4. In a clean, dry mixing container, combine all the measured materials thoroughly using a spatula to ensure an even mixture. \n 5. Transfer the combined powder mixture into a ball mill and mill for 2 hours to achieve a uniform particle size and homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the milled powder mixture in a crucible made of a non-reactive material (such as alumina).",
+        "3. Insert the crucible into the preheated furnace for 4 hours to initiate the sintering process."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the milled powder mixture in a crucible made of a non-reactive material (such as alumina). \n 3. Insert the crucible into the preheated furnace for 4 hours to initiate the sintering process."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool down gradually inside the furnace to room temperature (approximately 2-4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool down gradually inside the furnace to room temperature (approximately 2-4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for structural integrity.",
+        "2. If necessary, sand any rough edges using fine-grit sandpaper to achieve a smooth surface.",
+        "3. Optionally, apply a protective sealant to enhance surface durability.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions, typically for 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for structural integrity. \n 2. If necessary, sand any rough edges using fine-grit sandpaper to achieve a smooth surface. \n 3. Optionally, apply a protective sealant to enhance surface durability. \n 4. Allow the sealant to cure according to the manufacturer's instructions, typically for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 421627.0,
+      "density": 57101.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2680583.0,
+      "formation_energy_per_atom": -5523.0,
+      "decomposition_energy_per_atom": -101.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -116.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b624a15d6a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.277484Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn1Mo2Si12V17.json",
+      "material://Mn1Mo2Si12V17"
+    ]
+  }
+}

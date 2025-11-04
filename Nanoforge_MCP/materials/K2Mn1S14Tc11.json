@@ -1,0 +1,138 @@
+{
+  "id": "K2Mn1S14Tc11",
+  "uri": "material://K2Mn1S14Tc11",
+  "composition": {
+    "formula": "K2Mn1S14Tc11",
+    "elements": {
+      "K": 2,
+      "Mn": 1,
+      "S": 14,
+      "Tc": 11
+    },
+    "reduced_formula": "K2MnTc11S14",
+    "element_list": [
+      "S",
+      "K",
+      "Mn",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 80 g \n Er: 20 g \n Nd: 5 g \n P: 120 g \n Zr: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Specialty metal supply stores or online suppliers. \n Er (Erbium): Rare earth metal suppliers. \n Nd (Neodymium): Online rare earth material distributors. \n P (Phosphorus): Chemical supply companies or online retailers. \n Zr (Zirconium): Metal suppliers or online markets specializing in metals.",
+      "steps": [
+        "Co (Cobalt): Specialty metal supply stores or online suppliers.",
+        "Er (Erbium): Rare earth metal suppliers.",
+        "Nd (Neodymium): Online rare earth material distributors.",
+        "P (Phosphorus): Chemical supply companies or online retailers.",
+        "Zr (Zirconium): Metal suppliers or online markets specializing in metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately.",
+        "2. In a clean, dry mixing container, combine Co, Er, Nd, P, and Zr in the specified amounts.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure homogeneity.",
+        "4. Optionally, sieve the mixture through a 60 mesh screen to break up any clumps."
+      ],
+      "raw_text": "1. Weigh each material accurately. \n 2. In a clean, dry mixing container, combine Co, Er, Nd, P, and Zr in the specified amounts. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure homogeneity. \n 4. Optionally, sieve the mixture through a 60 mesh screen to break up any clumps."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat the crucible in a furnace to 1200°C (2192°F).",
+        "3. Maintain this temperature for 2 hours to allow for complete sintering of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat the crucible in a furnace to 1200°C (2192°F). \n 3. Maintain this temperature for 2 hours to allow for complete sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 5-6 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish, starting with 120 grit sandpaper and progressing to 400 grit.",
+        "4. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to achieve a smooth finish, starting with 120 grit sandpaper and progressing to 400 grit. \n 4. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 5965074.0,
+      "density": 46212.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2079867.0,
+      "formation_energy_per_atom": -8831.0,
+      "decomposition_energy_per_atom": -301.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -301.0,
+      "decomposition_energy_mp_oqmd": -299.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa31d982ce",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:01.095523Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K2Mn1S14Tc11.json",
+      "material://K2Mn1S14Tc11"
+    ]
+  }
+}

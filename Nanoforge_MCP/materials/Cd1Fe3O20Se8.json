@@ -1,0 +1,121 @@
+{
+  "id": "Cd1Fe3O20Se8",
+  "uri": "material://Cd1Fe3O20Se8",
+  "composition": {
+    "formula": "Cd1Fe3O20Se8",
+    "elements": {
+      "Cd": 1,
+      "Fe": 3,
+      "O": 20,
+      "Se": 8
+    },
+    "reduced_formula": "CdFe3(Se2O5)4",
+    "element_list": [
+      "O",
+      "Fe",
+      "Se",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CdO: 20 g \n Fe2O3: 60 g \n Se: 8 g \n Distilled Water: 50 g"
+    },
+    "sourcing": {
+      "instructions": "CdO (Cadmium Oxide) can be purchased from chemical supply companies or online retailers. \n Fe2O3 (Iron Oxide) is available at chemical suppliers, hardware stores, or art supply stores. \n Selenium (Se) can be sourced from chemical suppliers or online specialty chemical stores. \n Distilled Water can be obtained from grocery stores or pharmacies.",
+      "steps": [
+        "CdO (Cadmium Oxide) can be purchased from chemical supply companies or online retailers.",
+        "Fe2O3 (Iron Oxide) is available at chemical suppliers, hardware stores, or art supply stores.",
+        "Selenium (Se) can be sourced from chemical suppliers or online specialty chemical stores.",
+        "Distilled Water can be obtained from grocery stores or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, weigh out 20 g of CdO.",
+        "2. In another container, weigh 60 g of Fe2O3.",
+        "3. Combine the CdO and Fe2O3 in a mixing bowl.",
+        "4. Add 8 g of Selenium to the mixture.",
+        "5. Gradually add 50 g of distilled water while stirring to form a homogeneous paste.",
+        "6. Ensure all ingredients are thoroughly mixed."
+      ],
+      "raw_text": "1. In a clean, dry container, weigh out 20 g of CdO. \n 2. In another container, weigh 60 g of Fe2O3. \n 3. Combine the CdO and Fe2O3 in a mixing bowl. \n 4. Add 8 g of Selenium to the mixture. \n 5. Gradually add 50 g of distilled water while stirring to form a homogeneous paste. \n 6. Ensure all ingredients are thoroughly mixed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to allow for proper synthesis."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to allow for proper synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4825254.0,
+      "density": 42384.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1963697.0,
+      "formation_energy_per_atom": -13472.0,
+      "decomposition_energy_per_atom": -146.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -34.0,
+      "decomposition_energy_mp": -152.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 2.7299,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7608522e76",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:50.081843Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd1Fe3O20Se8.json",
+      "material://Cd1Fe3O20Se8"
+    ]
+  }
+}

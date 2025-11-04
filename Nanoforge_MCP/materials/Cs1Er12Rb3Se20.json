@@ -1,0 +1,133 @@
+{
+  "id": "Cs1Er12Rb3Se20",
+  "uri": "material://Cs1Er12Rb3Se20",
+  "composition": {
+    "formula": "Cs1Er12Rb3Se20",
+    "elements": {
+      "Cs": 1,
+      "Er": 12,
+      "Rb": 3,
+      "Se": 20
+    },
+    "reduced_formula": "CsRb3(Er3Se5)4",
+    "element_list": [
+      "Se",
+      "Rb",
+      "Cs",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 0.5 g \n Er: 12 g \n Rb: 3 g \n Se: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium) can be sourced from chemical suppliers like Sigma-Aldrich or Fisher Scientific. \n Er (Erbium) can be obtained from Rare Earth suppliers such as American Elements. \n Rb (Rubidium) can be purchased from chemical supply companies. \n Se (Selenium) is available at chemical suppliers and online marketplaces.",
+      "steps": [
+        "Cs (Cesium) can be sourced from chemical suppliers like Sigma-Aldrich or Fisher Scientific.",
+        "Er (Erbium) can be obtained from Rare Earth suppliers such as American Elements.",
+        "Rb (Rubidium) can be purchased from chemical supply companies.",
+        "Se (Selenium) is available at chemical suppliers and online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Gather all materials and wear appropriate safety gear (gloves, goggles, lab coat).",
+        "2. In a clean, dry environment, weigh each component using an analytical balance.",
+        "3. Combine Cs, Er, Rb, and Se in a ceramic mixing bowl.",
+        "4. Use a mortar and pestle to grind the mixture thoroughly until a uniform powder is obtained."
+      ],
+      "raw_text": "1. Gather all materials and wear appropriate safety gear (gloves, goggles, lab coat). \n 2. In a clean, dry environment, weigh each component using an analytical balance. \n 3. Combine Cs, Er, Rb, and Se in a ceramic mixing bowl. \n 4. Use a mortar and pestle to grind the mixture thoroughly until a uniform powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min and hold for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min and hold for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth the surface if necessary.",
+        "3. For sealing, apply a suitable resin or coating to enhance durability.",
+        "4. Allow the sealing material to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth the surface if necessary. \n 3. For sealing, apply a suitable resin or coating to enhance durability. \n 4. Allow the sealing material to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11152875.0,
+      "density": 59193.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2037035.0,
+      "formation_energy_per_atom": -20871.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -125.0,
+      "decomposition_energy_mp_oqmd": -114.0
+    },
+    "electronic": {
+      "bandgap": 1.4993,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8991f51633",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:16.224531Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Er12Rb3Se20.json",
+      "material://Cs1Er12Rb3Se20"
+    ]
+  }
+}

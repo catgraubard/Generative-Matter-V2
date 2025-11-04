@@ -1,0 +1,111 @@
+{
+  "id": "Ac3Co2Ge4",
+  "uri": "material://Ac3Co2Ge4",
+  "composition": {
+    "formula": "Ac3Co2Ge4",
+    "elements": {
+      "Ac": 3,
+      "Co": 2,
+      "Ge": 4
+    },
+    "reduced_formula": "Ac3(CoGe2)2",
+    "element_list": [
+      "Co",
+      "Ge",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20 g, La: 10 g, Pa: 10 g, Pr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online store; La: Rare earth elements supplier; Pa: Specialty chemical supplier; Pr: Chemical supplier or online marketplace.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online store; La: Rare earth elements supplier; Pa: Specialty chemical supplier; Pr: Chemical supplier or online marketplace."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of Co, 10 g of La, 10 g of Pa, and 10 g of Pr using an analytical balance.",
+        "2. In a clean mixing bowl, combine the ingredients thoroughly using a spatula or mixing rod until a uniform mixture is achieved.",
+        "3. Transfer the mixture into a mortar and pestle for further grinding until a fine powder is obtained."
+      ],
+      "raw_text": "1. Weigh out 20 g of Co, 10 g of La, 10 g of Pa, and 10 g of Pr using an analytical balance. \n 2. In a clean mixing bowl, combine the ingredients thoroughly using a spatula or mixing rod until a uniform mixture is achieved. \n 3. Transfer the mixture into a mortar and pestle for further grinding until a fine powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000°C.",
+        "2. Place the powdered mixture in a ceramic crucible.",
+        "3. Heat the sample in the furnace for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000°C. \n 2. Place the powdered mixture in a ceramic crucible. \n 3. Heat the sample in the furnace for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C) over a period of 4 hours.",
+        "2. Do not open the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C) over a period of 4 hours. \n 2. Do not open the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the sample to sit for an additional 30 minutes at room temperature.",
+        "3. Carefully transfer the solid sample to a sanding block and sand the surfaces to achieve the desired finish.",
+        "4. Optionally, apply a sealant to protect the surface if required."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the sample to sit for an additional 30 minutes at room temperature. \n 3. Carefully transfer the solid sample to a sanding block and sand the surfaces to achieve the desired finish. \n 4. Optionally, apply a sealant to protect the surface if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2099569.0,
+      "density": 86162.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -496591.0,
+      "formation_energy_per_atom": -5097.0,
+      "decomposition_energy_per_atom": -2489.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -54.0,
+      "decomposition_energy_mp": -2489.0,
+      "decomposition_energy_mp_oqmd": -2415.0
+    },
+    "electronic": {
+      "bandgap": 0.0057,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e5d7fbfe1d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.154649Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac3Co2Ge4.json",
+      "material://Ac3Co2Ge4"
+    ]
+  }
+}

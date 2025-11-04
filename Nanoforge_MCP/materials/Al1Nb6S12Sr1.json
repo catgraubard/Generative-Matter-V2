@@ -1,0 +1,135 @@
+{
+  "id": "Al1Nb6S12Sr1",
+  "uri": "material://Al1Nb6S12Sr1",
+  "composition": {
+    "formula": "Al1Nb6S12Sr1",
+    "elements": {
+      "Al": 1,
+      "Nb": 6,
+      "S": 12,
+      "Sr": 1
+    },
+    "reduced_formula": "SrNb6AlS12",
+    "element_list": [
+      "Al",
+      "S",
+      "Sr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 15.00 g \n Rb: 25.00 g \n Se: 35.00 g \n Sn: 10.00 g"
+    },
+    "sourcing": {
+      "instructions": "K: Chemical supply store or online chemical supplier \n Rb: Chemical supply store or online chemical supplier \n Se: Chemical supply store or online chemical supplier \n Sn: Local hardware store or chemical supply store",
+      "steps": [
+        "K: Chemical supply store or online chemical supplier",
+        "Rb: Chemical supply store or online chemical supplier",
+        "Se: Chemical supply store or online chemical supplier",
+        "Sn: Local hardware store or chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15.00 g of K using a precision balance.",
+        "2. Weigh out 25.00 g of Rb.",
+        "3. Weigh out 35.00 g of Se.",
+        "4. Weigh out 10.00 g of Sn.",
+        "5. In a clean, dry mixing container, combine all measured ingredients and mix thoroughly with a spatula to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 15.00 g of K using a precision balance. \n 2. Weigh out 25.00 g of Rb. \n 3. Weigh out 35.00 g of Se. \n 4. Weigh out 10.00 g of Sn. \n 5. In a clean, dry mixing container, combine all measured ingredients and mix thoroughly with a spatula to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min.",
+        "4. Hold at 800°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 5°C/min. \n 4. Hold at 800°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace.",
+        "2. Allow the crucible to cool down to room temperature naturally (approximately 4-6 hours)."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace. \n 2. Allow the crucible to cool down to room temperature naturally (approximately 4-6 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges on the sample.",
+        "3. Optionally seal the surface with a clear resin for protection.",
+        "4. Allow the resin to cure as per the manufacturer's instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use sandpaper to smooth any rough edges on the sample. \n 3. Optionally seal the surface with a clear resin for protection. \n 4. Allow the resin to cure as per the manufacturer's instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3908951.0,
+      "density": 44894.0,
+      "crystal_system": "trigonal",
+      "space_group": "P312",
+      "space_group_number": 149,
+      "point_group": "32",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1467618.0,
+      "formation_energy_per_atom": -15541.0,
+      "decomposition_energy_per_atom": -317.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -22.0,
+      "decomposition_energy_mp": -323.0,
+      "decomposition_energy_mp_oqmd": -319.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d31cbeb11a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.127380Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Nb6S12Sr1.json",
+      "material://Al1Nb6S12Sr1"
+    ]
+  }
+}

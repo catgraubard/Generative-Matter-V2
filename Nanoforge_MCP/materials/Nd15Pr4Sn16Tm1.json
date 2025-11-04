@@ -1,0 +1,132 @@
+{
+  "id": "Nd15Pr4Sn16Tm1",
+  "uri": "material://Nd15Pr4Sn16Tm1",
+  "composition": {
+    "formula": "Nd15Pr4Sn16Tm1",
+    "elements": {
+      "Nd": 15,
+      "Pr": 4,
+      "Sn": 16,
+      "Tm": 1
+    },
+    "reduced_formula": "Pr4Nd15TmSn16",
+    "element_list": [
+      "Sn",
+      "Pr",
+      "Nd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 67.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 108.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 67.5 g (15% of total) \n Pr: 18 g (4% of total) \n Sn: 108 g (16% of total) \n Tm: 1.5 g (1% of total)"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium): Purchase from chemical supply companies or online suppliers specializing in rare earth metals. \n Pr (Praseodymium): Available through similar suppliers or online marketplaces. \n Sn (Tin): Obtain from hardware stores or metal suppliers. \n Tm (Thulium): Sourced from chemical supply companies or online specialized vendors.",
+      "steps": [
+        "Nd (Neodymium): Purchase from chemical supply companies or online suppliers specializing in rare earth metals.",
+        "Pr (Praseodymium): Available through similar suppliers or online marketplaces.",
+        "Sn (Tin): Obtain from hardware stores or metal suppliers.",
+        "Tm (Thulium): Sourced from chemical supply companies or online specialized vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material using a precision scale.",
+        "2. In a clean, dry environment, combine Nd, Pr, Sn, and Tm in a clean, non-reactive mixing container.",
+        "3. Use a spatula or mixing rod to ensure all materials are evenly mixed.",
+        "4. Transfer the mixed powder to a ball mill for further homogenization for 1 hour."
+      ],
+      "raw_text": "1. Weigh out each material using a precision scale. \n 2. In a clean, dry environment, combine Nd, Pr, Sn, and Tm in a clean, non-reactive mixing container. \n 3. Use a spatula or mixing rod to ensure all materials are evenly mixed. \n 4. Transfer the mixed powder to a ball mill for further homogenization for 1 hour."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the homogenized mixture in a crucible made of a suitable material (e.g., alumina) that can withstand high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the homogenized mixture in a crucible made of a suitable material (e.g., alumina) that can withstand high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a period of 6-8 hours.",
+        "2. Do not open the furnace door until it reaches room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over a period of 6-8 hours. \n 2. Do not open the furnace door until it reaches room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once fully cooled.",
+        "2. Inspect for any surface imperfections and use sandpaper (grit 220 and then 400) to smooth the surface if necessary.",
+        "3. Optionally, apply a sealant to enhance durability and finish if required.",
+        "4. Store the final product in a dry, controlled environment to maintain quality."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once fully cooled. \n 2. Inspect for any surface imperfections and use sandpaper (grit 220 and then 400) to smooth the surface if necessary. \n 3. Optionally, apply a sealant to enhance durability and finish if required. \n 4. Store the final product in a dry, controlled environment to maintain quality."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 11250696.0,
+      "density": 7078.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1866052.0,
+      "formation_energy_per_atom": -7592.0,
+      "decomposition_energy_per_atom": -9.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -9.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "52f61526f8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:04.479919Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd15Pr4Sn16Tm1.json",
+      "material://Nd15Pr4Sn16Tm1"
+    ]
+  }
+}

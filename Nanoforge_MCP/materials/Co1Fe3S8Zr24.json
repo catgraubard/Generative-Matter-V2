@@ -1,0 +1,130 @@
+{
+  "id": "Co1Fe3S8Zr24",
+  "uri": "material://Co1Fe3S8Zr24",
+  "composition": {
+    "formula": "Co1Fe3S8Zr24",
+    "elements": {
+      "Co": 1,
+      "Fe": 3,
+      "S": 8,
+      "Zr": 24
+    },
+    "reduced_formula": "Zr24Fe3CoS8",
+    "element_list": [
+      "S",
+      "Fe",
+      "Co",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 4.5,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1.5 g \n Fe: 4.5 g \n S: 2 g \n Zr: 24 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich). \n Fe: Obtain from a local metal supplier or chemical supplier. \n S: Can be sourced from a chemical supply store. \n Zr: Available at specialty metal suppliers or online.",
+      "steps": [
+        "Co: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).",
+        "Fe: Obtain from a local metal supplier or chemical supplier.",
+        "S: Can be sourced from a chemical supply store.",
+        "Zr: Available at specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component precisely using a digital balance.",
+        "2. In a clean, dry mixing container, add 1.5 g of Co, 4.5 g of Fe, 2 g of S, and 24 g of Zr.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until a homogenous powder is formed."
+      ],
+      "raw_text": "1. Weigh each component precisely using a digital balance. \n 2. In a clean, dry mixing container, add 1.5 g of Co, 4.5 g of Fe, 2 g of S, and 24 g of Zr. \n 3. Use a mortar and pestle to grind the mixture thoroughly until a homogenous powder is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C (1472°F) for 2 hours to facilitate chemical reactions and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C (1472°F) for 2 hours to facilitate chemical reactions and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock to the crucible. This process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has cooled to avoid thermal shock to the crucible. This process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample.",
+        "2. Use a file or sandpaper to smooth out any rough edges, ensuring that the dimensions remain close to 3 inches x 2 inches x 7 inches.",
+        "3. If desired, seal the finished sample with a clear resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and carefully extract the solid sample. \n 2. Use a file or sandpaper to smooth out any rough edges, ensuring that the dimensions remain close to 3 inches x 2 inches x 7 inches. \n 3. If desired, seal the finished sample with a clear resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 689352.0,
+      "density": 64373.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3036693.0,
+      "formation_energy_per_atom": -9143.0,
+      "decomposition_energy_per_atom": -31.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f3cb529024",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.591036Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe3S8Zr24.json",
+      "material://Co1Fe3S8Zr24"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "Cu12P12Pr2Tb6",
+  "uri": "material://Cu12P12Pr2Tb6",
+  "composition": {
+    "formula": "Cu12P12Pr2Tb6",
+    "elements": {
+      "Cu": 12,
+      "P": 12,
+      "Pr": 2,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb3Pr(CuP)6",
+    "element_list": [
+      "P",
+      "Cu",
+      "Pr",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 7.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 7.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 15.0 g \n Sb: 10.0 g \n Sc: 7.5 g \n Tm: 7.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Purchase from a chemical supplier or online marketplace. \n Sb: Obtain from a reputable chemical supplier or specialized metal vendor. \n Sc: Acquire from a materials science supplier. \n Tm: Source from a high-purity element supplier.",
+      "steps": [
+        "Cr: Purchase from a chemical supplier or online marketplace.",
+        "Sb: Obtain from a reputable chemical supplier or specialized metal vendor.",
+        "Sc: Acquire from a materials science supplier.",
+        "Tm: Source from a high-purity element supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Combine Cr, Sb, Sc, and Tm in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture to a fine powder, ensuring uniform consistency.",
+        "4. Transfer the powdered mixture into a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.\n 2. Combine Cr, Sb, Sc, and Tm in a clean, dry mixing container.\n 3. Use a mortar and pestle to grind the mixture to a fine powder, ensuring uniform consistency.\n 4. Transfer the powdered mixture into a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the ceramic crucible with the mixture inside the furnace.",
+        "3. Maintain the temperature for 4 hours to ensure complete melting and homogeneity of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C.\n 2. Place the ceramic crucible with the mixture inside the furnace.\n 3. Maintain the temperature for 4 hours to ensure complete melting and homogeneity of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool slowly.",
+        "2. Once the furnace reaches room temperature (approximately 25°C), carefully remove the crucible.",
+        "3. Allow the sample to cool in the open air for an additional 30 minutes."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool slowly.\n 2. Once the furnace reaches room temperature (approximately 25°C), carefully remove the crucible.\n 3. Allow the sample to cool in the open air for an additional 30 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Use a diamond saw to cut the solidified sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "2. Sand the edges and surfaces of the sample using fine-grit sandpaper for a smooth finish.",
+        "3. Optionally, apply a sealant to protect the surface from oxidation and environmental exposure."
+      ],
+      "raw_text": "1. Use a diamond saw to cut the solidified sample into the desired dimensions of 3 inches x 2 inches x 7 inches.\n 2. Sand the edges and surfaces of the sample using fine-grit sandpaper for a smooth finish.\n 3. Optionally, apply a sealant to protect the surface from oxidation and environmental exposure."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 5477495.0,
+      "density": 71836.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1793544.0,
+      "formation_energy_per_atom": -8699.0,
+      "decomposition_energy_per_atom": -267.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -47.0,
+      "decomposition_energy_mp": -267.0,
+      "decomposition_energy_mp_oqmd": -105.0
+    },
+    "electronic": {
+      "bandgap": 0.0143,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dc09c8a802",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.546330Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu12P12Pr2Tb6.json",
+      "material://Cu12P12Pr2Tb6"
+    ]
+  }
+}

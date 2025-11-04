@@ -1,0 +1,113 @@
+{
+  "id": "Cs2O16Sc2Te6",
+  "uri": "material://Cs2O16Sc2Te6",
+  "composition": {
+    "formula": "Cs2O16Sc2Te6",
+    "elements": {
+      "Cs": 2,
+      "O": 16,
+      "Sc": 2,
+      "Te": 6
+    },
+    "reduced_formula": "CsScTe3O8",
+    "element_list": [
+      "O",
+      "Sc",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cs2O: 36.0 g \n Sc2O3: 8.0 g \n TeO2: 24.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs2O: Order from chemical suppliers like Sigma-Aldrich or Alfa Aesar. \n Sc2O3: Available from specialty chemical providers or online marketplaces. \n TeO2: Obtain from chemical supply companies or online retailers.",
+      "steps": [
+        "Cs2O: Order from chemical suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Sc2O3: Available from specialty chemical providers or online marketplaces.",
+        "TeO2: Obtain from chemical supply companies or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 36.0 g of Cs2O using an analytical balance.",
+        "2. Weigh 8.0 g of Sc2O3.",
+        "3. Weigh 24.0 g of TeO2.",
+        "4. Combine all three powders in a clean, dry mortar and pestle.",
+        "5. Grind the mixture until a homogeneous powder is achieved (about 10-15 minutes)."
+      ],
+      "raw_text": "1. Weigh out 36.0 g of Cs2O using an analytical balance. \n 2. Weigh 8.0 g of Sc2O3. \n 3. Weigh 24.0 g of TeO2. \n 4. Combine all three powders in a clean, dry mortar and pestle. \n 5. Grind the mixture until a homogeneous powder is achieved (about 10-15 minutes)."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the homogeneous powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the sample to 900°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the homogeneous powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the sample to 900°C at a rate of 5°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled completely."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. If needed, grind the solid to remove any surface irregularities.",
+        "3. Optionally, seal the sample with a clear epoxy or lacquer for protection.",
+        "4. Allow any sealant to cure as per manufacturer instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. If needed, grind the solid to remove any surface irregularities. \n 3. Optionally, seal the sample with a clear epoxy or lacquer for protection. \n 4. Allow any sealant to cure as per manufacturer instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 4882514.0,
+      "density": 46842.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -167126.0,
+      "formation_energy_per_atom": -21017.0,
+      "decomposition_energy_per_atom": -206.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -212.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 2.9752,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9903fe47b8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:37.103278Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2O16Sc2Te6.json",
+      "material://Cs2O16Sc2Te6"
+    ]
+  }
+}

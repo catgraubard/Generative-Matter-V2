@@ -1,0 +1,116 @@
+{
+  "id": "Cs4Nb8P2S40V2",
+  "uri": "material://Cs4Nb8P2S40V2",
+  "composition": {
+    "formula": "Cs4Nb8P2S40V2",
+    "elements": {
+      "Cs": 4,
+      "Nb": 8,
+      "P": 2,
+      "S": 40,
+      "V": 2
+    },
+    "reduced_formula": "Cs2Nb4VPS20",
+    "element_list": [
+      "P",
+      "S",
+      "V",
+      "Nb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 25.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 25.2 g, Nb: 40.0 g, P: 6.0 g, S: 30.0 g, V: 3.0 g, Total: 104.2 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Nb: Obtain from a metal supply store or online; P: Acquire from a chemical supplier; S: Source from a chemical supplier; V: Purchase from a chemical supplier or online.",
+      "steps": [
+        "Cs: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich); Nb: Obtain from a metal supply store or online; P: Acquire from a chemical supplier; S: Source from a chemical supplier; V: Purchase from a chemical supplier or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the precise amounts of each material using an electronic balance.",
+        "2. In a clean, dry container, add Cs, Nb, P, S, and V in the specified order.",
+        "3. Use a mortar and pestle to thoroughly mix the dry ingredients for 15 minutes until homogenous.",
+        "4. Transfer the mixed powder into a ceramic crucible for the heating process."
+      ],
+      "raw_text": "1. Weigh the precise amounts of each material using an electronic balance. \n 2. In a clean, dry container, add Cs, Nb, P, S, and V in the specified order. \n 3. Use a mortar and pestle to thoroughly mix the dry ingredients for 15 minutes until homogenous. \n 4. Transfer the mixed powder into a ceramic crucible for the heating process."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the ceramic crucible in the furnace and heat for 4 hours.",
+        "3. Ensure the temperature is stable before starting the timer."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n 2. Place the ceramic crucible in the furnace and heat for 4 hours. \n 3. Ensure the temperature is stable before starting the timer."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to naturally cool to room temperature (approximately 12 hours).",
+        "2. Do not open the furnace door until the temperature is below 100°C to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to naturally cool to room temperature (approximately 12 hours). \n 2. Do not open the furnace door until the temperature is below 100°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and extract the solid sample.",
+        "2. If necessary, grind the sample using a mortar and pestle to achieve a finer particle size.",
+        "3. Seal the sample in an airtight container to prevent moisture absorption.",
+        "4. Optionally, sand the edges to achieve a smooth finish if required."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and extract the solid sample. \n 2. If necessary, grind the sample using a mortar and pestle to achieve a finer particle size. \n 3. Seal the sample in an airtight container to prevent moisture absorption. \n 4. Optionally, sand the edges to achieve a smooth finish if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 56,
+      "volume": 15622052.0,
+      "density": 28926.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3428697.0,
+      "formation_energy_per_atom": -11433.0,
+      "decomposition_energy_per_atom": -101.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -108.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": 1.1638,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4e7fba0256",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:58.881669Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Nb8P2S40V2.json",
+      "material://Cs4Nb8P2S40V2"
+    ]
+  }
+}

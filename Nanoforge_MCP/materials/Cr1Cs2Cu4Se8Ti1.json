@@ -1,0 +1,140 @@
+{
+  "id": "Cr1Cs2Cu4Se8Ti1",
+  "uri": "material://Cr1Cs2Cu4Se8Ti1",
+  "composition": {
+    "formula": "Cr1Cs2Cu4Se8Ti1",
+    "elements": {
+      "Cr": 1,
+      "Cs": 2,
+      "Cu": 4,
+      "Se": 8,
+      "Ti": 1
+    },
+    "reduced_formula": "Cs2TiCr(CuSe2)4",
+    "element_list": [
+      "Ti",
+      "Cr",
+      "Cu",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cs",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 6.00 g \n Cs: 4.00 g \n Cu: 12.00 g \n Se: 8.00 g \n Ti: 3.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply stores or online chemical suppliers \n Cs: Specialty chemical suppliers \n Cu: Metal fabricators or online metal suppliers \n Se: Chemical supply stores or online sources \n Ti: Metal suppliers or online metal markets",
+      "steps": [
+        "Cr: Chemical supply stores or online chemical suppliers",
+        "Cs: Specialty chemical suppliers",
+        "Cu: Metal fabricators or online metal suppliers",
+        "Se: Chemical supply stores or online sources",
+        "Ti: Metal suppliers or online metal markets"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients accurately using a precision scale.",
+        "2. Place Cr, Cs, Cu, Se, and Ti in a clean, dry mixing container.",
+        "3. Using a mortar and pestle, grind the mixture thoroughly until it achieves a uniform texture.",
+        "4. Transfer the mixed powder to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh all ingredients accurately using a precision scale. \n 2. Place Cr, Cs, Cu, Se, and Ti in a clean, dry mixing container. \n 3. Using a mortar and pestle, grind the mixture thoroughly until it achieves a uniform texture. \n 4. Transfer the mixed powder to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Once temperature is reached, place the crucible inside the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Once temperature is reached, place the crucible inside the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions if necessary.",
+        "3. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions if necessary. \n 3. Sand the edges and surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4416948.0,
+      "density": 47051.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -785155.0,
+      "formation_energy_per_atom": -9258.0,
+      "decomposition_energy_per_atom": -185.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -64.0,
+      "decomposition_energy_mp": -185.0,
+      "decomposition_energy_mp_oqmd": -124.0
+    },
+    "electronic": {
+      "bandgap": 0.0046,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8e3389039b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:22.798894Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Cs2Cu4Se8Ti1.json",
+      "material://Cr1Cs2Cu4Se8Ti1"
+    ]
+  }
+}

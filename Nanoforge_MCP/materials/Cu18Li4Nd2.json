@@ -1,0 +1,125 @@
+{
+  "id": "Cu18Li4Nd2",
+  "uri": "material://Cu18Li4Nd2",
+  "composition": {
+    "formula": "Cu18Li4Nd2",
+    "elements": {
+      "Cu": 18,
+      "Li": 4,
+      "Nd": 2
+    },
+    "reduced_formula": "Li2NdCu9",
+    "element_list": [
+      "Li",
+      "Cu",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 900.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu:  900 g (Copper) \n Li:  200 g (Lithium) \n Nd:  80 g (Neodymium)"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online metal distributor. \n Li: Specialty chemical supplier or battery manufacturer. \n Nd: Rare earth metal supplier or online chemical retailer.",
+      "steps": [
+        "Cu: Local metal supplier or online metal distributor.",
+        "Li: Specialty chemical supplier or battery manufacturer.",
+        "Nd: Rare earth metal supplier or online chemical retailer."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 900 g of copper using a digital scale.",
+        "2. Measure out 200 g of lithium.",
+        "3. Measure out 80 g of neodymium.",
+        "4. Combine the measured metals in a clean, dry mixing container.",
+        "5. Use a mechanical mixer to ensure even distribution of the metals."
+      ],
+      "raw_text": "1. Measure out 900 g of copper using a digital scale. \n 2. Measure out 200 g of lithium. \n 3. Measure out 80 g of neodymium. \n 4. Combine the measured metals in a clean, dry mixing container. \n 5. Use a mechanical mixer to ensure even distribution of the metals."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1100 °C.",
+        "2. Place the mixed powders into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to promote alloying."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1100 °C. \n 2. Place the mixed powders into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to promote alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully extract the solid alloy sample from the crucible.",
+        "3. Use a grinder to smooth any rough edges and achieve desired dimensions.",
+        "4. Optionally, apply a protective sealant to prevent oxidation if required."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled. \n 2. Carefully extract the solid alloy sample from the crucible. \n 3. Use a grinder to smooth any rough edges and achieve desired dimensions. \n 4. Optionally, apply a protective sealant to prevent oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3515875.0,
+      "density": 68959.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -936146.0,
+      "formation_energy_per_atom": -1107.0,
+      "decomposition_energy_per_atom": -163.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -161.0,
+      "decomposition_energy_mp_oqmd": -28.0
+    },
+    "electronic": {
+      "bandgap": 0.0072,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8b4b4a6559",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:18.984171Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu18Li4Nd2.json",
+      "material://Cu18Li4Nd2"
+    ]
+  }
+}

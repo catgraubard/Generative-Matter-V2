@@ -1,0 +1,113 @@
+{
+  "id": "B8Ba2O52S12Sr2",
+  "uri": "material://B8Ba2O52S12Sr2",
+  "composition": {
+    "formula": "B8Ba2O52S12Sr2",
+    "elements": {
+      "B": 8,
+      "Ba": 2,
+      "O": 52,
+      "S": 12,
+      "Sr": 2
+    },
+    "reduced_formula": "BaSrB4(S3O13)2",
+    "element_list": [
+      "B",
+      "O",
+      "S",
+      "Sr",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium oxide (BaO): 20.0 g \n Strontium oxide (SrO): 10.0 g \n Sulfur (S): 2.0 g \n Boron oxide (B2O3): 15.0 g \n Total weight: 57.0 g"
+    },
+    "sourcing": {
+      "instructions": "Barium oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Strontium oxide: Chemical supply stores or online suppliers \n Sulfur: Local hardware stores or chemical suppliers \n Boron oxide: Chemical supply stores or online suppliers",
+      "steps": [
+        "Barium oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Strontium oxide: Chemical supply stores or online suppliers",
+        "Sulfur: Local hardware stores or chemical suppliers",
+        "Boron oxide: Chemical supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the specified amounts of each ingredient precisely using a digital scale.",
+        "2. In a clean and dry glass container, combine BaO, SrO, S, and B2O3.",
+        "3. Use a pestle and mortar to grind the mixture thoroughly until a homogeneous powder is obtained.",
+        "4. Transfer the powder to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh the specified amounts of each ingredient precisely using a digital scale. \n 2. In a clean and dry glass container, combine BaO, SrO, S, and B2O3. \n 3. Use a pestle and mortar to grind the mixture thoroughly until a homogeneous powder is obtained. \n 4. Transfer the powder to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the ceramic crucible with the mixture inside the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the ceramic crucible with the mixture inside the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace.",
+        "2. Carefully break apart the crucible to retrieve the solid material.",
+        "3. Use a diamond file to smooth any rough edges.",
+        "4. Seal the final product with a suitable resin if desired for enhanced durability."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace. \n 2. Carefully break apart the crucible to retrieve the solid material. \n 3. Use a diamond file to smooth any rough edges. \n 4. Seal the final product with a suitable resin if desired for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 76,
+      "volume": 9653418.0,
+      "density": 30157.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -54314.0,
+      "formation_energy_per_atom": -231.0,
+      "decomposition_energy_per_atom": -132.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -138.0,
+      "decomposition_energy_mp_oqmd": -14.0
+    },
+    "electronic": {
+      "bandgap": 6.2061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3461eca097",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:24.254821Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B8Ba2O52S12Sr2.json",
+      "material://B8Ba2O52S12Sr2"
+    ]
+  }
+}

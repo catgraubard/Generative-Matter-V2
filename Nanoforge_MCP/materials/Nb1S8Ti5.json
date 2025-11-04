@@ -1,0 +1,127 @@
+{
+  "id": "Nb1S8Ti5",
+  "uri": "material://Nb1S8Ti5",
+  "composition": {
+    "formula": "Nb1S8Ti5",
+    "elements": {
+      "Nb": 1,
+      "S": 8,
+      "Ti": 5
+    },
+    "reduced_formula": "Ti5NbS8",
+    "element_list": [
+      "S",
+      "Ti",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 30.0 g \n S: 40.0 g \n Ti: 25.0 g \n Total: 95.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Specialty metal suppliers or online metal markets \n S: Chemical supply stores or online chemical suppliers \n Ti: Specialty metal suppliers or online metal markets",
+      "steps": [
+        "Nb: Specialty metal suppliers or online metal markets",
+        "S: Chemical supply stores or online chemical suppliers",
+        "Ti: Specialty metal suppliers or online metal markets"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30.0 g of niobium (Nb) using a precision scale.",
+        "2. Weigh out 40.0 g of sulfur (S).",
+        "3. Weigh out 25.0 g of titanium (Ti).",
+        "4. In a fume hood, combine Nb, S, and Ti in a clean, dry mortar.",
+        "5. Use a pestle to grind the mixture thoroughly for 10 minutes to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh out 30.0 g of niobium (Nb) using a precision scale. \n 2. Weigh out 40.0 g of sulfur (S). \n 3. Weigh out 25.0 g of titanium (Ti). \n 4. In a fume hood, combine Nb, S, and Ti in a clean, dry mortar. \n 5. Use a pestle to grind the mixture thoroughly for 10 minutes to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the prepared powder mixture into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800 °C at a rate of 5 °C/minute.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and formation of Nb1S8Ti5."
+      ],
+      "raw_text": "1. Transfer the prepared powder mixture into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800 °C at a rate of 5 °C/minute. \n 4. Maintain the temperature for 2 hours to ensure complete reaction and formation of Nb1S8Ti5."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid opening the furnace until it has reached ambient temperature to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid opening the furnace until it has reached ambient temperature to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and let it cool for an additional 30 minutes outside.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. Use sandpaper to smooth any rough edges on the sample.",
+        "4. Optionally, seal the sample with a clear coat to preserve the surface and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and let it cool for an additional 30 minutes outside. \n 2. Carefully extract the solid sample from the crucible. \n 3. Use sandpaper to smooth any rough edges on the sample. \n 4. Optionally, seal the sample with a clear coat to preserve the surface and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2682072.0,
+      "density": 36452.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1063448.0,
+      "formation_energy_per_atom": -1691.0,
+      "decomposition_energy_per_atom": -195.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -193.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1015d16963",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:36.677489Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb1S8Ti5.json",
+      "material://Nb1S8Ti5"
+    ]
+  }
+}

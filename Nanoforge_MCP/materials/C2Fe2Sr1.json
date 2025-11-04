@@ -1,0 +1,110 @@
+{
+  "id": "C2Fe2Sr1",
+  "uri": "material://C2Fe2Sr1",
+  "composition": {
+    "formula": "C2Fe2Sr1",
+    "elements": {
+      "C": 2,
+      "Fe": 2,
+      "Sr": 1
+    },
+    "reduced_formula": "Sr(FeC)2",
+    "element_list": [
+      "C",
+      "Fe",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 100 g \n Gallium (Ga): 20 g \n Thulium (Tm): 200 g \n Yttrium (Y): 40 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Available from metal suppliers or online specialty chemical retailers. \n Gallium: Obtain from electronics suppliers or chemical vendors. \n Thulium: Sourced from rare earth metal suppliers. \n Yttrium: Found at chemical supply stores or online.",
+      "steps": [
+        "Cobalt: Available from metal suppliers or online specialty chemical retailers.",
+        "Gallium: Obtain from electronics suppliers or chemical vendors.",
+        "Thulium: Sourced from rare earth metal suppliers.",
+        "Yttrium: Found at chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of cobalt, 20 g of gallium, 200 g of thulium, and 40 g of yttrium using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed metals.",
+        "3. Use a mortar and pestle to gently grind the mixture to ensure uniformity.",
+        "4. Transfer the mixture into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out 100 g of cobalt, 20 g of gallium, 200 g of thulium, and 40 g of yttrium using an analytical balance. \n 2. In a clean, dry container, combine the weighed metals. \n 3. Use a mortar and pestle to gently grind the mixture to ensure uniformity. \n 4. Transfer the mixture into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the crucible with the mixture inside the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 1-2 hours).",
+        "2. Do not remove the crucible until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 1-2 hours). \n 2. Do not remove the crucible until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the sample for uniformity and defects.",
+        "3. If necessary, use a diamond saw to cut the sample to final dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "5. Optionally, apply a protective sealant if the material is to be exposed to the environment."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the sample for uniformity and defects. \n 3. If necessary, use a diamond saw to cut the sample to final dimensions (3 inches x 2 inches x 7 inches). \n 4. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 5. Optionally, apply a protective sealant if the material is to be exposed to the environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 646746.0,
+      "density": 57341.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/mmm",
+      "space_group_number": 139,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -373489.0,
+      "formation_energy_per_atom": -532.0,
+      "decomposition_energy_per_atom": -329.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -326.0,
+      "decomposition_energy_mp": -328.0,
+      "decomposition_energy_mp_oqmd": -326.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b538fea76f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.087911Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C2Fe2Sr1.json",
+      "material://C2Fe2Sr1"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "As12Cs12Na8Pr2V2",
+  "uri": "material://As12Cs12Na8Pr2V2",
+  "composition": {
+    "formula": "As12Cs12Na8Pr2V2",
+    "elements": {
+      "As": 12,
+      "Cs": 12,
+      "Na": 8,
+      "Pr": 2,
+      "V": 2
+    },
+    "reduced_formula": "Cs6Na4PrVAs6",
+    "element_list": [
+      "Na",
+      "V",
+      "As",
+      "Cs",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 20 g \n In: 100 g \n K: 5 g \n Na: 10 g \n Te: 200 g"
+    },
+    "sourcing": {
+      "instructions": "Ga: Specialty chemical supply stores \n In: Electronics suppliers or chemical distributors \n K: Chemical supply stores \n Na: Chemical supply stores \n Te: Specialty chemical supply stores",
+      "steps": [
+        "Ga: Specialty chemical supply stores",
+        "In: Electronics suppliers or chemical distributors",
+        "K: Chemical supply stores",
+        "Na: Chemical supply stores",
+        "Te: Specialty chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a balance.",
+        "2. In a clean, dry container, combine Ga, In, K, Na, and Te.",
+        "3. Mix thoroughly using a spatula until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a balance. \n 2. In a clean, dry container, combine Ga, In, K, Na, and Te. \n 3. Mix thoroughly using a spatula until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature furnace.",
+        "2. Heat to 800°C and maintain for 2 hours.",
+        "3. Ensure the atmosphere is inert (e.g., argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature furnace. \n 2. Heat to 800°C and maintain for 2 hours. \n 3. Ensure the atmosphere is inert (e.g., argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the sample to cool slowly in the furnace to room temperature over 6 hours.",
+        "2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, allow the sample to cool slowly in the furnace to room temperature over 6 hours. \n 2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the furnace.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface lightly with fine-grit sandpaper.",
+        "4. Optionally, seal the material with a suitable protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the furnace. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface lightly with fine-grit sandpaper. \n 4. Optionally, seal the material with a suitable protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 12885994.0,
+      "density": 39452.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "C222_1",
+      "space_group_number": 20,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1235695.0,
+      "formation_energy_per_atom": -5168.0,
+      "decomposition_energy_per_atom": -425.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -425.0,
+      "decomposition_energy_mp_oqmd": -318.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ddcf440607",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.185754Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Cs12Na8Pr2V2.json",
+      "material://As12Cs12Na8Pr2V2"
+    ]
+  }
+}

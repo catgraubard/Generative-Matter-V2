@@ -1,0 +1,132 @@
+{
+  "id": "Al2Ru12Si4Ti6",
+  "uri": "material://Al2Ru12Si4Ti6",
+  "composition": {
+    "formula": "Al2Ru12Si4Ti6",
+    "elements": {
+      "Al": 2,
+      "Ru": 12,
+      "Si": 4,
+      "Ti": 6
+    },
+    "reduced_formula": "Ti3Al(SiRu3)2",
+    "element_list": [
+      "Al",
+      "Si",
+      "Ti",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 35.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 25 g \n S: 35 g \n Tc: 20 g \n V: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply store or online supplier specializing in alkali metals. \n S: Available at chemical supply stores or online as sulfur powder. \n Tc: Can be sourced from a commercial isotope supplier. \n V: Purchase vanadium from a metal supplier or chemical distributor.",
+      "steps": [
+        "Cs: Obtain from a chemical supply store or online supplier specializing in alkali metals.",
+        "S: Available at chemical supply stores or online as sulfur powder.",
+        "Tc: Can be sourced from a commercial isotope supplier.",
+        "V: Purchase vanadium from a metal supplier or chemical distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry glass container, weigh out 25 g of cesium (Cs) and set aside.",
+        "2. In a separate container, measure 35 g of sulfur (S) and mix it with 20 g of technetium (Tc) powder.",
+        "3. Gradually add the 15 g of vanadium (V) to the sulfur-Tc mixture while stirring continuously to ensure even distribution.",
+        "4. Finally, combine the Cs with the sulfur-Tc-V mixture and stir thoroughly until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. In a clean, dry glass container, weigh out 25 g of cesium (Cs) and set aside. \n 2. In a separate container, measure 35 g of sulfur (S) and mix it with 20 g of technetium (Tc) powder. \n 3. Gradually add the 15 g of vanadium (V) to the sulfur-Tc mixture while stirring continuously to ensure even distribution. \n 4. Finally, combine the Cs with the sulfur-Tc-V mixture and stir thoroughly until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Transfer the mixture into a suitable crucible made from alumina or similar material.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Transfer the mixture into a suitable crucible made from alumina or similar material. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down gradually to room temperature, approximately 25°C, over a period of 4-6 hours.",
+        "2. Do not open the furnace door during the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down gradually to room temperature, approximately 25°C, over a period of 4-6 hours. \n 2. Do not open the furnace door during the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Remove the solid sample from the crucible.",
+        "3. If necessary, grind the solid to achieve the desired particle size using a mortar and pestle.",
+        "4. Finally, seal the sample in an airtight container to prevent oxidation or contamination."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Remove the solid sample from the crucible. \n 3. If necessary, grind the solid to achieve the desired particle size using a mortar and pestle. \n 4. Finally, seal the sample in an airtight container to prevent oxidation or contamination."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3291763.0,
+      "density": 84059.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -208432.0,
+      "formation_energy_per_atom": -8572.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -85.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cb05f3150f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.104605Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Ru12Si4Ti6.json",
+      "material://Al2Ru12Si4Ti6"
+    ]
+  }
+}

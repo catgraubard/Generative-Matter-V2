@@ -1,0 +1,131 @@
+{
+  "id": "B4Cr4Mo3W1",
+  "uri": "material://B4Cr4Mo3W1",
+  "composition": {
+    "formula": "B4Cr4Mo3W1",
+    "elements": {
+      "B": 4,
+      "Cr": 4,
+      "Mo": 3,
+      "W": 1
+    },
+    "reduced_formula": "Cr4B4Mo3W",
+    "element_list": [
+      "B",
+      "Cr",
+      "Mo",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cr",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B:  18.00 g (Boron) \n Cr:  24.00 g (Chromium) \n Mo:  12.00 g (Molybdenum) \n W:  6.00 g (Tungsten)"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich). \n Cr: Obtain from a metallurgical supplier or online source. \n Mo: Source from a specialty metals supplier. \n W: Available from metal supply stores or online distributors.",
+      "steps": [
+        "B: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).",
+        "Cr: Obtain from a metallurgical supplier or online source.",
+        "Mo: Source from a specialty metals supplier.",
+        "W: Available from metal supply stores or online distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Cr, Mo, and W.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders until homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Cr, Mo, and W. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly mix the powders until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a graphite crucible.",
+        "2. Place the crucible into a high-temperature furnace.",
+        "3. Heat to 1200°C (2192°F) at a rate of 5°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a graphite crucible. \n 2. Place the crucible into a high-temperature furnace. \n 3. Heat to 1200°C (2192°F) at a rate of 5°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled below 300°C (572°F) to avoid oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace until it has cooled below 300°C (572°F) to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a diamond grinder or sandpaper to smooth the edges and surfaces to achieve a finish according to desired specifications.",
+        "3. Optionally, apply a protective sealant to enhance appearance and durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a diamond grinder or sandpaper to smooth the edges and surfaces to achieve a finish according to desired specifications. \n 3. Optionally, apply a protective sealant to enhance appearance and durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1301595.0,
+      "density": 92224.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1152954.0,
+      "formation_energy_per_atom": -3725.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a584bca154",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:53.670184Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Cr4Mo3W1.json",
+      "material://B4Cr4Mo3W1"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "As8Cs4Pa2Rb10",
+  "uri": "material://As8Cs4Pa2Rb10",
+  "composition": {
+    "formula": "As8Cs4Pa2Rb10",
+    "elements": {
+      "As": 8,
+      "Cs": 4,
+      "Pa": 2,
+      "Rb": 10
+    },
+    "reduced_formula": "Cs2Rb5PaAs4",
+    "element_list": [
+      "As",
+      "Rb",
+      "Cs",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "La (Lanthanum): 80 g\nNd (Neodymium): 20 g\nRu (Ruthenium): 160 g\nY (Yttrium): 125 g"
+    },
+    "sourcing": {
+      "instructions": "La: Available from chemical supply companies (e.g., Sigma-Aldrich).\nNd: Obtain from rare earth metal suppliers (e.g., American Elements).\nRu: Purchase from precious metal suppliers (e.g., Johnson Matthey).\nY: Available from chemical supply companies (e.g., Alfa Aesar).",
+      "steps": [
+        "La: Available from chemical supply companies (e.g., Sigma-Aldrich).",
+        "Nd: Obtain from rare earth metal suppliers (e.g., American Elements).",
+        "Ru: Purchase from precious metal suppliers (e.g., Johnson Matthey).",
+        "Y: Available from chemical supply companies (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the amounts of each material using an analytical balance.",
+        "2. Place La, Nd, Ru, and Y in a clean, dry ceramic crucible.",
+        "3. Use a spatula to mix the powders thoroughly until homogenous."
+      ],
+      "raw_text": "1. Weigh the amounts of each material using an analytical balance.\n2. Place La, Nd, Ru, and Y in a clean, dry ceramic crucible.\n3. Use a spatula to mix the powders thoroughly until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible in the furnace.",
+        "3. Heat for 4 hours to ensure complete melting and mixing of the metals."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C.\n2. Place the crucible in the furnace.\n3. Heat for 4 hours to ensure complete melting and mixing of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace.",
+        "2. Allow the crucible to cool slowly to room temperature (approximately 2-3 hours).",
+        "3. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace.\n2. Allow the crucible to cool slowly to room temperature (approximately 2-3 hours).\n3. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use sandpaper (600 grit) to smooth the surface of the sample.",
+        "3. Optionally, apply a sealing agent to prevent oxidation (if required)."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible.\n2. Use sandpaper (600 grit) to smooth the surface of the sample.\n3. Optionally, apply a sealing agent to prevent oxidation (if required)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 9994188.0,
+      "density": 40669.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -807241.0,
+      "formation_energy_per_atom": -4598.0,
+      "decomposition_energy_per_atom": -497.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -497.0,
+      "decomposition_energy_mp_oqmd": -46.0
+    },
+    "electronic": {
+      "bandgap": 0.8283,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d4136a17c6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.405752Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As8Cs4Pa2Rb10.json",
+      "material://As8Cs4Pa2Rb10"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Fe2O24P8Rb2",
+  "uri": "material://Fe2O24P8Rb2",
+  "composition": {
+    "formula": "Fe2O24P8Rb2",
+    "elements": {
+      "Fe": 2,
+      "O": 24,
+      "P": 8,
+      "Rb": 2
+    },
+    "reduced_formula": "RbFe(PO3)4",
+    "element_list": [
+      "O",
+      "P",
+      "Fe",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3) - 58.15 g \n Nickel Oxide (NiO) - 3.95 g \n Antimony Oxide (Sb2O3) - 18.65 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Chemical supply stores or online chemical suppliers. \n Nickel Oxide: Specialty chemical suppliers or online marketplaces. \n Antimony Oxide: Chemical supply companies or online sources.",
+      "steps": [
+        "Bismuth Oxide: Chemical supply stores or online chemical suppliers.",
+        "Nickel Oxide: Specialty chemical suppliers or online marketplaces.",
+        "Antimony Oxide: Chemical supply companies or online sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of Bi2O3, NiO, and Sb2O3 using an analytical balance.",
+        "2. In a clean ceramic mortar and pestle, combine the Bi2O3, NiO, and Sb2O3 powders.",
+        "3. Grind the mixture thoroughly for about 10-15 minutes until a homogeneous powder is achieved.",
+        "4. Transfer the mixture into a clean, dry alumina crucible."
+      ],
+      "raw_text": "1. Weigh the required amounts of Bi2O3, NiO, and Sb2O3 using an analytical balance. \n 2. In a clean ceramic mortar and pestle, combine the Bi2O3, NiO, and Sb2O3 powders. \n 3. Grind the mixture thoroughly for about 10-15 minutes until a homogeneous powder is achieved. \n 4. Transfer the mixture into a clean, dry alumina crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 900 °C at a ramp rate of 5 °C/min.",
+        "3. Maintain this temperature for 6 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 900 °C at a ramp rate of 5 °C/min. \n 3. Maintain this temperature for 6 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Inspect the sample for any flaws or irregularities.",
+        "3. If needed, sand or grind the edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "4. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Inspect the sample for any flaws or irregularities. \n 3. If needed, sand or grind the edges to achieve the desired dimensions of 3 inches x 2 inches x 7 inches. \n 4. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5636835.0,
+      "density": 26937.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2727989.0,
+      "formation_energy_per_atom": -25511.0,
+      "decomposition_energy_per_atom": -156.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -52.0,
+      "decomposition_energy_mp": -163.0,
+      "decomposition_energy_mp_oqmd": -152.0
+    },
+    "electronic": {
+      "bandgap": 2.4786,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cdd999e06f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.747835Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2O24P8Rb2.json",
+      "material://Fe2O24P8Rb2"
+    ]
+  }
+}

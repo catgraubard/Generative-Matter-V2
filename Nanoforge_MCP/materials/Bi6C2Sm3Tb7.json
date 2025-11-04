@@ -1,0 +1,139 @@
+{
+  "id": "Bi6C2Sm3Tb7",
+  "uri": "material://Bi6C2Sm3Tb7",
+  "composition": {
+    "formula": "Bi6C2Sm3Tb7",
+    "elements": {
+      "Bi": 6,
+      "C": 2,
+      "Sm": 3,
+      "Tb": 7
+    },
+    "reduced_formula": "Tb7Sm3(Bi3C)2",
+    "element_list": [
+      "C",
+      "Sm",
+      "Tb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 57.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 37.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 29.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 16.00 g (lithium carbonate) \n Sb: 57.00 g (antimony powder) \n Sn: 37.00 g (tin powder) \n Tb: 20.00 g (terbium oxide) \n Y: 29.00 g (yttrium oxide)"
+    },
+    "sourcing": {
+      "instructions": "Lithium carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Antimony powder: Metal suppliers or online marketplaces \n Tin powder: Metal suppliers or online marketplaces \n Terbium oxide: Rare earth suppliers or online chemistry stores \n Yttrium oxide: Rare earth suppliers or online chemistry stores",
+      "steps": [
+        "Lithium carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Antimony powder: Metal suppliers or online marketplaces",
+        "Tin powder: Metal suppliers or online marketplaces",
+        "Terbium oxide: Rare earth suppliers or online chemistry stores",
+        "Yttrium oxide: Rare earth suppliers or online chemistry stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the lithium carbonate, antimony powder, tin powder, terbium oxide, and yttrium oxide.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixed powders to a ball mill for further homogenization for 2 hours."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the lithium carbonate, antimony powder, tin powder, terbium oxide, and yttrium oxide. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixed powders to a ball mill for further homogenization for 2 hours."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the homogenized powder mixture in a ceramic crucible.",
+        "3. Heat the crucible slowly to avoid thermal shock, allowing 30 minutes to reach 900°C.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n 2. Place the homogenized powder mixture in a ceramic crucible. \n 3. Heat the crucible slowly to avoid thermal shock, allowing 30 minutes to reach 900°C. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace but leave the crucible inside to cool down slowly.",
+        "2. Allow the crucible to cool to room temperature over approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace but leave the crucible inside to cool down slowly. \n 2. Allow the crucible to cool to room temperature over approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper.",
+        "3. If required, apply a sealant to enhance durability and surface protection.",
+        "4. Allow the sealant to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper. \n 3. If required, apply a sealant to enhance durability and surface protection. \n 4. Allow the sealant to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 487731.0,
+      "density": 96741.0,
+      "crystal_system": "trigonal",
+      "space_group": "P312",
+      "space_group_number": 149,
+      "point_group": "32",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1015186.0,
+      "formation_energy_per_atom": -7294.0,
+      "decomposition_energy_per_atom": -436.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -436.0,
+      "decomposition_energy_mp_oqmd": -432.0
+    },
+    "electronic": {
+      "bandgap": 0.0103,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7065c9a48",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.123337Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi6C2Sm3Tb7.json",
+      "material://Bi6C2Sm3Tb7"
+    ]
+  }
+}

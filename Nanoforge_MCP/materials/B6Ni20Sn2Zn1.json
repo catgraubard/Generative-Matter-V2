@@ -1,0 +1,133 @@
+{
+  "id": "B6Ni20Sn2Zn1",
+  "uri": "material://B6Ni20Sn2Zn1",
+  "composition": {
+    "formula": "B6Ni20Sn2Zn1",
+    "elements": {
+      "B": 6,
+      "Ni": 20,
+      "Sn": 2,
+      "Zn": 1
+    },
+    "reduced_formula": "ZnNi20(SnB3)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Zn",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 6 g\nNd: 4 g\nSi: 32 g\nTb: 24 g"
+    },
+    "sourcing": {
+      "instructions": "Ac (Acetate): Chemical supply stores or online chemical suppliers.\nNd (Neodymium): Rare earth metal suppliers or online marketplaces.\nSi (Silicon): Electronics or materials suppliers.\nTb (Terbium): Rare earth metal suppliers or online marketplaces.",
+      "steps": [
+        "Ac (Acetate): Chemical supply stores or online chemical suppliers.",
+        "Nd (Neodymium): Rare earth metal suppliers or online marketplaces.",
+        "Si (Silicon): Electronics or materials suppliers.",
+        "Tb (Terbium): Rare earth metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 6 g of Ac, 4 g of Nd, 32 g of Si, and 24 g of Tb using an analytical balance.",
+        "2. Combine all ingredients in a clean, dry ceramic or glass mixing container.",
+        "3. Use a pestle and mortar to thoroughly mix the powders until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 6 g of Ac, 4 g of Nd, 32 g of Si, and 24 g of Tb using an analytical balance.\n2. Combine all ingredients in a clean, dry ceramic or glass mixing container.\n3. Use a pestle and mortar to thoroughly mix the powders until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible.\n2. Place the crucible in a high-temperature furnace.\n3. Heat the mixture to 1200°C at a rate of 5°C/min.\n4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature over approximately 4 hours.",
+        "3. Do not force cool to avoid cracking the sample."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace.\n2. Allow the crucible to cool down naturally to room temperature over approximately 4 hours.\n3. Do not force cool to avoid cracking the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the material has cooled, carefully remove it from the crucible.",
+        "2. Use a diamond file or grinder to shape the sample to the dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, seal the surface with a high-temperature resistant sealant or lacquer to enhance durability."
+      ],
+      "raw_text": "1. Once the material has cooled, carefully remove it from the crucible.\n2. Use a diamond file or grinder to shape the sample to the dimensions of 3 inches x 2 inches x 7 inches.\n3. Optionally, seal the surface with a high-temperature resistant sealant or lacquer to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2972858.0,
+      "density": 86107.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1736235.0,
+      "formation_energy_per_atom": -2988.0,
+      "decomposition_energy_per_atom": -18.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -124.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": -178.0
+    },
+    "electronic": {
+      "bandgap": 0.0052,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cf9ba20e84",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.170865Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Ni20Sn2Zn1.json",
+      "material://B6Ni20Sn2Zn1"
+    ]
+  }
+}

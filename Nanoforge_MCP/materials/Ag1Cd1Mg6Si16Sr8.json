@@ -1,0 +1,114 @@
+{
+  "id": "Ag1Cd1Mg6Si16Sr8",
+  "uri": "material://Ag1Cd1Mg6Si16Sr8",
+  "composition": {
+    "formula": "Ag1Cd1Mg6Si16Sr8",
+    "elements": {
+      "Ag": 1,
+      "Cd": 1,
+      "Mg": 6,
+      "Si": 16,
+      "Sr": 8
+    },
+    "reduced_formula": "Sr8Mg6CdSi16Ag",
+    "element_list": [
+      "Mg",
+      "Si",
+      "Sr",
+      "Ag",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Molybdenum Oxide (MoO3): 150 g  \n - Neodymium Oxide (Nd2O3): 120 g  \n - Praseodymium Oxide (Pr6O11): 30 g  \n - Scandium Oxide (Sc2O3): 30 g"
+    },
+    "sourcing": {
+      "instructions": "- Molybdenum Oxide: Available at chemical supply stores or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar).  \n - Neodymium Oxide: Specialty metal suppliers.  \n - Praseodymium Oxide: Online chemical suppliers.  \n - Scandium Oxide: Rare earth material suppliers or online.",
+      "steps": [
+        "- Molybdenum Oxide: Available at chemical supply stores or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar).",
+        "- Neodymium Oxide: Specialty metal suppliers.",
+        "- Praseodymium Oxide: Online chemical suppliers.",
+        "- Scandium Oxide: Rare earth material suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the exact amounts of MoO3, Nd2O3, Pr6O11, and Sc2O3 using a calibrated scale.",
+        "2. In a clean, dry container, combine the powdered oxides.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly for about 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder to a ball mill and mill for an additional 30 minutes."
+      ],
+      "raw_text": "1. Measure the exact amounts of MoO3, Nd2O3, Pr6O11, and Sc2O3 using a calibrated scale.  \n 2. In a clean, dry container, combine the powdered oxides.  \n 3. Use a mortar and pestle to grind the mixture thoroughly for about 15 minutes to ensure homogeneity.  \n 4. Transfer the mixed powder to a ball mill and mill for an additional 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200 °C.",
+        "2. Place the mixed powder into a crucible made of alumina or a similar high-temperature material.",
+        "3. Heat the crucible in the furnace for 4 hours to allow for solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200 °C.  \n 2. Place the mixed powder into a crucible made of alumina or a similar high-temperature material.  \n 3. Heat the crucible in the furnace for 4 hours to allow for solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After the heating duration, turn off the furnace but do not open the door immediately.",
+        "2. Allow the sample to cool down gradually inside the furnace for approximately 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace but do not open the door immediately.  \n 2. Allow the sample to cool down gradually inside the furnace for approximately 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully transfer the sintered material to a work surface.",
+        "3. Use a diamond saw or grinding wheel to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "4. If necessary, sand the edges to remove any sharp points and achieve a smooth finish.",
+        "5. Optionally, seal the material with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace.  \n 2. Carefully transfer the sintered material to a work surface.  \n 3. Use a diamond saw or grinding wheel to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.  \n 4. If necessary, sand the edges to remove any sharp points and achieve a smooth finish.  \n 5. Optionally, seal the material with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 7260956.0,
+      "density": 3468.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1244422.0,
+      "formation_energy_per_atom": -3364.0,
+      "decomposition_energy_per_atom": -306.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -321.0,
+      "decomposition_energy_mp_oqmd": -111.0
+    },
+    "electronic": {
+      "bandgap": 0.01,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c3e54c10c8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.261856Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Cd1Mg6Si16Sr8.json",
+      "material://Ag1Cd1Mg6Si16Sr8"
+    ]
+  }
+}

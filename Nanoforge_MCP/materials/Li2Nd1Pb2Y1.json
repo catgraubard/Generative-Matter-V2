@@ -1,0 +1,109 @@
+{
+  "id": "Li2Nd1Pb2Y1",
+  "uri": "material://Li2Nd1Pb2Y1",
+  "composition": {
+    "formula": "Li2Nd1Pb2Y1",
+    "elements": {
+      "Li": 2,
+      "Nd": 1,
+      "Pb": 2,
+      "Y": 1
+    },
+    "reduced_formula": "Li2NdYPb2",
+    "element_list": [
+      "Li",
+      "Y",
+      "Nd",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Lithium Oxide (Li2O): 10.5 g \n Neodymium Oxide (Nd2O3): 12.6 g \n Lead Oxide (PbO): 25.2 g \n Yttrium Oxide (Y2O3): 12.6 g"
+    },
+    "sourcing": {
+      "instructions": "Lithium Oxide: Chemical supply companies (e.g., Sigma-Aldrich) \n Neodymium Oxide: Rare earth suppliers (e.g., American Elements) \n Lead Oxide: Local chemical suppliers \n Yttrium Oxide: Specialty metal suppliers",
+      "steps": [
+        "Lithium Oxide: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Neodymium Oxide: Rare earth suppliers (e.g., American Elements)",
+        "Lead Oxide: Local chemical suppliers",
+        "Yttrium Oxide: Specialty metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean ceramic or glass container, combine 10.5 g Li2O, 12.6 g Nd2O3, 25.2 g PbO, and 12.6 g Y2O3.",
+        "3. Use a pestle and mortar to mix the powders thoroughly until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean ceramic or glass container, combine 10.5 g Li2O, 12.6 g Nd2O3, 25.2 g PbO, and 12.6 g Y2O3. \n 3. Use a pestle and mortar to mix the powders thoroughly until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a quartz crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 10°C per minute, holding the temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a quartz crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 10°C per minute, holding the temperature for 2 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Ensure the crucible is not removed until the furnace temperature reaches 200°C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Ensure the crucible is not removed until the furnace temperature reaches 200°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace.",
+        "2. Carefully break the crucible to retrieve the solid sample.",
+        "3. Sand the edges of the solid sample to achieve smooth surfaces.",
+        "4. Optionally, apply a clear sealant to protect the surface of the material."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace. \n 2. Carefully break the crucible to retrieve the solid sample. \n 3. Sand the edges of the solid sample to achieve smooth surfaces. \n 4. Optionally, apply a clear sealant to protect the surface of the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1510915.0,
+      "density": 72693.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -257206.0,
+      "formation_energy_per_atom": -5405.0,
+      "decomposition_energy_per_atom": -72.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -724.0,
+      "decomposition_energy_mp_oqmd": -426.0
+    },
+    "electronic": {
+      "bandgap": 0.0659,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "849f7cc9df",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:09.700265Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Nd1Pb2Y1.json",
+      "material://Li2Nd1Pb2Y1"
+    ]
+  }
+}

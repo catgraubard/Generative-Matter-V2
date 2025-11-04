@@ -1,0 +1,110 @@
+{
+  "id": "Ac1Al2Sc1Zn2",
+  "uri": "material://Ac1Al2Sc1Zn2",
+  "composition": {
+    "formula": "Ac1Al2Sc1Zn2",
+    "elements": {
+      "Ac": 1,
+      "Al": 2,
+      "Sc": 1,
+      "Zn": 2
+    },
+    "reduced_formula": "AcSc(AlZn)2",
+    "element_list": [
+      "Al",
+      "Sc",
+      "Zn",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3): 49.5 g \n Cobalt(II) Oxide (CoO): 21.0 g \n Iron(III) Oxide (Fe2O3): 7.5 g \n Titanium Dioxide (TiO2): 22.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Thermo Fisher) \n Cobalt(II) Oxide: Specialty chemical suppliers \n Iron(III) Oxide: Local hardware stores or online \n Titanium Dioxide: Art supply stores or online suppliers",
+      "steps": [
+        "Bismuth Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Thermo Fisher)",
+        "Cobalt(II) Oxide: Specialty chemical suppliers",
+        "Iron(III) Oxide: Local hardware stores or online",
+        "Titanium Dioxide: Art supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a scale.",
+        "2. In a clean, dry mixing container, combine Bismuth Oxide, Cobalt(II) Oxide, Iron(III) Oxide, and Titanium Dioxide.",
+        "3. Use a mortar and pestle to grind the mixture for 10 minutes until a homogeneous powder is obtained.",
+        "4. Transfer the powder to a ball mill and mill for an additional 30 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a scale. \n 2. In a clean, dry mixing container, combine Bismuth Oxide, Cobalt(II) Oxide, Iron(III) Oxide, and Titanium Dioxide. \n 3. Use a mortar and pestle to grind the mixture for 10 minutes until a homogeneous powder is obtained. \n 4. Transfer the powder to a ball mill and mill for an additional 30 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder in a high-temperature ceramic crucible and insert it into the furnace.",
+        "3. Heat the mixture for 4 hours at 1200°C to promote solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder in a high-temperature ceramic crucible and insert it into the furnace. \n 3. Heat the mixture for 4 hours at 1200°C to promote solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, apply a sealant to enhance surface durability, allowing it to cure for at least 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, apply a sealant to enhance surface durability, allowing it to cure for at least 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1328853.0,
+      "density": 57074.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -230278.0,
+      "formation_energy_per_atom": -4273.0,
+      "decomposition_energy_per_atom": -724.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -255.0,
+      "decomposition_energy_mp": -724.0,
+      "decomposition_energy_mp_oqmd": -517.0
+    },
+    "electronic": {
+      "bandgap": 0.0186,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e81a2502c3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.838103Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Al2Sc1Zn2.json",
+      "material://Ac1Al2Sc1Zn2"
+    ]
+  }
+}

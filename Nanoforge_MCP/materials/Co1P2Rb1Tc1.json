@@ -1,0 +1,109 @@
+{
+  "id": "Co1P2Rb1Tc1",
+  "uri": "material://Co1P2Rb1Tc1",
+  "composition": {
+    "formula": "Co1P2Rb1Tc1",
+    "elements": {
+      "Co": 1,
+      "P": 2,
+      "Rb": 1,
+      "Tc": 1
+    },
+    "reduced_formula": "RbCoTcP2",
+    "element_list": [
+      "P",
+      "Co",
+      "Rb",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Manganese (Mn): 20.0 g \n Nickel (Ni): 20.0 g \n Silicon (Si): 40.0 g \n Vanadium (V): 240.0 g"
+    },
+    "sourcing": {
+      "instructions": "Manganese: Purchase from chemical supply stores or online suppliers such as Sigma-Aldrich. \n Nickel: Obtain from metal suppliers or online marketplaces. \n Silicon: Source from electronic component suppliers. \n Vanadium: Available from specialty metal suppliers or online chemical retailers.",
+      "steps": [
+        "Manganese: Purchase from chemical supply stores or online suppliers such as Sigma-Aldrich.",
+        "Nickel: Obtain from metal suppliers or online marketplaces.",
+        "Silicon: Source from electronic component suppliers.",
+        "Vanadium: Available from specialty metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing bowl, combine the weighed Mn, Ni, Si, and V thoroughly using a spatula.",
+        "3. Ensure an even mixture by stirring for at least 5 minutes."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing bowl, combine the weighed Mn, Ni, Si, and V thoroughly using a spatula. \n 3. Ensure an even mixture by stirring for at least 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a crucible.",
+        "2. Preheat a furnace to 1500°C.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to fully melt and alloy the materials."
+      ],
+      "raw_text": "1. Transfer the mixture into a crucible. \n 2. Preheat a furnace to 1500°C. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to fully melt and alloy the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Do not remove the crucible until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool down to room temperature naturally (approx. 4-6 hours). \n 2. Do not remove the crucible until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a grinding tool to smooth out any rough edges and achieve the desired dimensions.",
+        "3. Optionally apply a sealant to protect the surface from oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a grinding tool to smooth out any rough edges and achieve the desired dimensions. \n 3. Optionally apply a sealant to protect the surface from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1061451.0,
+      "density": 47612.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4m2",
+      "space_group_number": 119,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -319306.0,
+      "formation_energy_per_atom": -5309.0,
+      "decomposition_energy_per_atom": -492.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -492.0,
+      "decomposition_energy_mp_oqmd": -481.0
+    },
+    "electronic": {
+      "bandgap": 0.0084,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da5d9940e9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.120719Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1P2Rb1Tc1.json",
+      "material://Co1P2Rb1Tc1"
+    ]
+  }
+}

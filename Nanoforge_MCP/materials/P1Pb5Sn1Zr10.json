@@ -1,0 +1,111 @@
+{
+  "id": "P1Pb5Sn1Zr10",
+  "uri": "material://P1Pb5Sn1Zr10",
+  "composition": {
+    "formula": "P1Pb5Sn1Zr10",
+    "elements": {
+      "P": 1,
+      "Pb": 5,
+      "Sn": 1,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10SnPPb5",
+    "element_list": [
+      "P",
+      "Zr",
+      "Sn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Molybdenum Disulfide (Mo2S2): 100 g \n - Selenium (Se): 50 g \n - Technetium (Tc): 40 g"
+    },
+    "sourcing": {
+      "instructions": "- Molybdenum Disulfide: Available from chemical supply companies or online marketplaces specializing in materials for research. \n - Selenium: Can be sourced from chemical supply stores or online vendors. \n - Technetium: Obtain from specialized isotope suppliers or nuclear material providers, ensuring proper handling and licensing.",
+      "steps": [
+        "- Molybdenum Disulfide: Available from chemical supply companies or online marketplaces specializing in materials for research.",
+        "- Selenium: Can be sourced from chemical supply stores or online vendors.",
+        "- Technetium: Obtain from specialized isotope suppliers or nuclear material providers, ensuring proper handling and licensing."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh out 100 g of Mo2S2 using an analytical balance.",
+        "2. Weigh 50 g of Se and 40 g of Tc using the same balance.",
+        "3. In a fume hood, carefully mix the Mo2S2, Se, and Tc in a high-purity ceramic or glass container using a spatula until a homogeneous mixture is formed.",
+        "4. Transfer the mixture to a ball mill for 30 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh out 100 g of Mo2S2 using an analytical balance. \n 2. Weigh 50 g of Se and 40 g of Tc using the same balance. \n 3. In a fume hood, carefully mix the Mo2S2, Se, and Tc in a high-purity ceramic or glass container using a spatula until a homogeneous mixture is formed. \n 4. Transfer the mixture to a ball mill for 30 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the homogenized mixture in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 2 hours to allow for proper synthesis of the compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the homogenized mixture in a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 2 hours to allow for proper synthesis of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled completely to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a mortar and pestle to grind the solidified material into a fine powder if needed.",
+        "3. To create a solid sample, press the powder into a mold with dimensions 3 inches x 2 inches x 7 inches under 50 MPa pressure.",
+        "4. Allow the molded sample to cure at room temperature for 24 hours before demolding.",
+        "5. Optionally, sand the edges of the sample for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a mortar and pestle to grind the solidified material into a fine powder if needed. \n 3. To create a solid sample, press the powder into a mold with dimensions 3 inches x 2 inches x 7 inches under 50 MPa pressure. \n 4. Allow the molded sample to cure at room temperature for 24 hours before demolding. \n 5. Optionally, sand the edges of the sample for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 3877544.0,
+      "density": 89843.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1223215.0,
+      "formation_energy_per_atom": -5211.0,
+      "decomposition_energy_per_atom": -1006.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -1006.0,
+      "decomposition_energy_mp_oqmd": -615.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b8eb5c9254",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.901948Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/P1Pb5Sn1Zr10.json",
+      "material://P1Pb5Sn1Zr10"
+    ]
+  }
+}

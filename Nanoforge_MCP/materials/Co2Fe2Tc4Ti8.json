@@ -1,0 +1,104 @@
+{
+  "id": "Co2Fe2Tc4Ti8",
+  "uri": "material://Co2Fe2Tc4Ti8",
+  "composition": {
+    "formula": "Co2Fe2Tc4Ti8",
+    "elements": {
+      "Co": 2,
+      "Fe": 2,
+      "Tc": 4,
+      "Ti": 8
+    },
+    "reduced_formula": "Ti4FeCoTc2",
+    "element_list": [
+      "Ti",
+      "Fe",
+      "Co",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 20 g, Fe: 40 g, Tc: 10 g, Ti: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online marketplaces; Fe: Local metal suppliers or scrap yards; Tc: Specialized chemical suppliers; Ti: Metal suppliers or online marketplaces.",
+      "steps": [
+        "Co: Metal suppliers or online marketplaces; Fe: Local metal suppliers or scrap yards; Tc: Specialized chemical suppliers; Ti: Metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each metal component using an analytical balance for precision. 2. In a clean, dry mixing container, add Co, Fe, Tc, and Ti in the specified amounts. 3. Use a mechanical mixer to thoroughly mix the powders for at least 15 minutes to ensure uniform distribution of materials."
+      ],
+      "raw_text": "1. Measure each metal component using an analytical balance for precision. 2. In a clean, dry mixing container, add Co, Fe, Tc, and Ti in the specified amounts. 3. Use a mechanical mixer to thoroughly mix the powders for at least 15 minutes to ensure uniform distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature processing. 2. Place the crucible in a furnace and heat to 1200°C. 3. Maintain this temperature for 2 hours to ensure complete melting and alloying of components."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature processing. 2. Place the crucible in a furnace and heat to 1200°C. 3. Maintain this temperature for 2 hours to ensure complete melting and alloying of components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). 2. Do not open the furnace during the cooling process to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). 2. Do not open the furnace during the cooling process to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace. 2. Carefully extract the solidified alloy and inspect for any surface imperfections. 3. Use a grinding tool to sand down rough edges and achieve desired dimensions. 4. Optionally, apply a sealant to protect the surface against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. 2. Carefully extract the solidified alloy and inspect for any surface imperfections. 3. Use a grinding tool to sand down rough edges and achieve desired dimensions. 4. Optionally, apply a sealant to protect the surface against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2237094.0,
+      "density": 74561.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1437092.0,
+      "formation_energy_per_atom": -4966.0,
+      "decomposition_energy_per_atom": -114.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -48.0,
+      "decomposition_energy_mp": -114.0,
+      "decomposition_energy_mp_oqmd": -82.0
+    },
+    "electronic": {
+      "bandgap": 0.0121,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1b53364b61",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:51.535850Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe2Tc4Ti8.json",
+      "material://Co2Fe2Tc4Ti8"
+    ]
+  }
+}

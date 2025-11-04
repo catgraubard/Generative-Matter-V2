@@ -1,0 +1,117 @@
+{
+  "id": "Cs12Fe1Ga1Sc2Se12",
+  "uri": "material://Cs12Fe1Ga1Sc2Se12",
+  "composition": {
+    "formula": "Cs12Fe1Ga1Sc2Se12",
+    "elements": {
+      "Cs": 12,
+      "Fe": 1,
+      "Ga": 1,
+      "Sc": 2,
+      "Se": 12
+    },
+    "reduced_formula": "Cs12Sc2GaFeSe12",
+    "element_list": [
+      "Sc",
+      "Fe",
+      "Ga",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.0 g, Fe: 0.83 g, Ga: 0.83 g, Sc: 1.67 g, Se: 50.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Fe: local metal supplier; Ga: semiconductor material supplier; Sc: chemical supply company; Se: chemical supplier or online marketplace.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Fe: local metal supplier; Ga: semiconductor material supplier; Sc: chemical supply company; Se: chemical supplier or online marketplace."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry container, combine Cs, Fe, Ga, Sc, and Se.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until homogeneous.",
+        "4. Transfer the mixed powder into a suitable crucible for heating."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry container, combine Cs, Fe, Ga, Sc, and Se. \n 3. Use a mortar and pestle to thoroughly mix the powders until homogeneous. \n 4. Transfer the mixed powder into a suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat to 900°C at a rate of 5°C/min.",
+        "3. Maintain the temperature of 900°C for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat to 900°C at a rate of 5°C/min. \n 3. Maintain the temperature of 900°C for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C) without opening the door.",
+        "2. This should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C) without opening the door. \n 2. This should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw to cut the solid sample into the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant for added protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw to cut the solid sample into the desired dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant for added protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11634564.0,
+      "density": 39362.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1158395.0,
+      "formation_energy_per_atom": -13922.0,
+      "decomposition_energy_per_atom": -607.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -607.0,
+      "decomposition_energy_mp_oqmd": -32.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4c8559ca24",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.343860Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Fe1Ga1Sc2Se12.json",
+      "material://Cs12Fe1Ga1Sc2Se12"
+    ]
+  }
+}

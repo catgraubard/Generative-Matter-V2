@@ -1,0 +1,109 @@
+{
+  "id": "Mn1Mo2Si12Ti17",
+  "uri": "material://Mn1Mo2Si12Ti17",
+  "composition": {
+    "formula": "Mn1Mo2Si12Ti17",
+    "elements": {
+      "Mn": 1,
+      "Mo": 2,
+      "Si": 12,
+      "Ti": 17
+    },
+    "reduced_formula": "Ti17Mn(Si6Mo)2",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Lanthanum (La): 12.38 g  \n - Neodymium (Nd): 19.92 g  \n - Tellurium (Te): 19.70 g  \n - Total: 51.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Lanthanum: Obtain from chemical supply companies or online suppliers specializing in rare earth metals. \n - Neodymium: Available through chemical suppliers or online marketplaces. \n - Tellurium: Sourced from specialty metal suppliers or chemical vendors.",
+      "steps": [
+        "- Lanthanum: Obtain from chemical supply companies or online suppliers specializing in rare earth metals.",
+        "- Neodymium: Available through chemical suppliers or online marketplaces.",
+        "- Tellurium: Sourced from specialty metal suppliers or chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of La, Nd, and Te using an analytical balance for accuracy.",
+        "2. In a clean, dry environment, combine the powders in a ceramic crucible or glass vial.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 10-15 minutes until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh the required amounts of La, Nd, and Te using an analytical balance for accuracy. \n 2. In a clean, dry environment, combine the powders in a ceramic crucible or glass vial. \n 3. Use a mortar and pestle to thoroughly mix the powders for 10-15 minutes until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1100°C.",
+        "2. Place the crucible with the mixed powders in the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of La3Nd5Te12."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1100°C. \n 2. Place the crucible with the mixed powders in the furnace. \n 3. Heat for 4 hours to ensure complete reaction and formation of La3Nd5Te12."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until the temperature is below 100°C to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until the temperature is below 100°C to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully extract the solidified La3Nd5Te12 sample.",
+        "3. Grind the sample lightly if necessary for finishing.",
+        "4. Optionally, seal the sample with a coating of epoxy resin for protection from moisture."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled. \n 2. Carefully extract the solidified La3Nd5Te12 sample. \n 3. Grind the sample lightly if necessary for finishing. \n 4. Optionally, seal the sample with a coating of epoxy resin for protection from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4781144.0,
+      "density": 48539.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2537083.0,
+      "formation_energy_per_atom": -7352.0,
+      "decomposition_energy_per_atom": -386.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -383.0,
+      "decomposition_energy_mp_oqmd": -154.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da43ee3fff",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.089452Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn1Mo2Si12Ti17.json",
+      "material://Mn1Mo2Si12Ti17"
+    ]
+  }
+}

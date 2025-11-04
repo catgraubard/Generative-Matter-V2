@@ -1,0 +1,117 @@
+{
+  "id": "Co1O14Se4Zn1",
+  "uri": "material://Co1O14Se4Zn1",
+  "composition": {
+    "formula": "Co1O14Se4Zn1",
+    "elements": {
+      "Co": 1,
+      "O": 14,
+      "Se": 4,
+      "Zn": 1
+    },
+    "reduced_formula": "ZnCo(Se2O7)2",
+    "element_list": [
+      "O",
+      "Co",
+      "Zn",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 0.5 g, O: 7.0 g, Se: 3.0 g, Zn: 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder) - available from chemical supply companies; O (Oxygen) - can be sourced from air or chemical suppliers; Se (Selenium powder) - available from chemical suppliers; Zn (Zinc powder) - available from metal suppliers or chemical supply companies.",
+      "steps": [
+        "Co (Cobalt powder) - available from chemical supply companies; O (Oxygen) - can be sourced from air or chemical suppliers; Se (Selenium powder) - available from chemical suppliers; Zn (Zinc powder) - available from metal suppliers or chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean container, combine the cobalt powder, selenium powder, and zinc powder.",
+        "3. Gradually add the required amount of oxygen in a controlled environment (consider using a sealed reaction vessel to manage oxygen levels).",
+        "4. Mix thoroughly using a spatula or mechanical mixer to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean container, combine the cobalt powder, selenium powder, and zinc powder. \n 3. Gradually add the required amount of oxygen in a controlled environment (consider using a sealed reaction vessel to manage oxygen levels). \n 4. Mix thoroughly using a spatula or mechanical mixer to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 800°C (1472°F) at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to promote full reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 800°C (1472°F) at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to promote full reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6-8 hours.",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6-8 hours. \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. Use fine-grit sandpaper to smooth any rough surfaces.",
+        "4. If necessary, cure the sample by placing it in a vacuum chamber for 24 hours to remove any residual moisture.",
+        "5. Optionally, apply a sealant to the surface for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Inspect for any irregularities or rough edges. \n 3. Use fine-grit sandpaper to smooth any rough surfaces. \n 4. If necessary, cure the sample by placing it in a vacuum chamber for 24 hours to remove any residual moisture. \n 5. Optionally, apply a sealant to the surface for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 3141716.0,
+      "density": 35105.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1147756.0,
+      "formation_energy_per_atom": -11576.0,
+      "decomposition_energy_per_atom": -215.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -221.0,
+      "decomposition_energy_mp_oqmd": -211.0
+    },
+    "electronic": {
+      "bandgap": 1.8766,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9ae789c165",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:39.507289Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1O14Se4Zn1.json",
+      "material://Co1O14Se4Zn1"
+    ]
+  }
+}

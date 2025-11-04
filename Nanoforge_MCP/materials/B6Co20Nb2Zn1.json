@@ -1,0 +1,137 @@
+{
+  "id": "B6Co20Nb2Zn1",
+  "uri": "material://B6Co20Nb2Zn1",
+  "composition": {
+    "formula": "B6Co20Nb2Zn1",
+    "elements": {
+      "B": 6,
+      "Co": 20,
+      "Nb": 2,
+      "Zn": 1
+    },
+    "reduced_formula": "Nb2Zn(Co10B3)2",
+    "element_list": [
+      "B",
+      "Co",
+      "Zn",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 60 g \n Ni: 120 g \n P: 70 g \n Si: 30 g \n Sr: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supply store or online metal retailers. \n Ni: Local metal supply store or chemical suppliers. \n P: Chemical supply companies or online chemical suppliers. \n Si: Metal supply stores or online silicon suppliers. \n Sr: Chemical suppliers or online specialty retailers.",
+      "steps": [
+        "Cu: Local metal supply store or online metal retailers.",
+        "Ni: Local metal supply store or chemical suppliers.",
+        "P: Chemical supply companies or online chemical suppliers.",
+        "Si: Metal supply stores or online silicon suppliers.",
+        "Sr: Chemical suppliers or online specialty retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precise digital scale.",
+        "2. In a clean, dry mixing container, add Cu, Ni, P, Si, and Sr in the specified order.",
+        "3. Use a mechanical mixer or a spatula to ensure a uniform blend of all ingredients.",
+        "4. Continue mixing until the consistency is homogenous, about 5-10 minutes."
+      ],
+      "raw_text": "1. Measure each ingredient using a precise digital scale. \n 2. In a clean, dry mixing container, add Cu, Ni, P, Si, and Sr in the specified order. \n 3. Use a mechanical mixer or a spatula to ensure a uniform blend of all ingredients. \n 4. Continue mixing until the consistency is homogenous, about 5-10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature crucible.",
+        "2. Place crucible in a furnace set to 1100°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and alloying of components."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature crucible. \n 2. Place crucible in a furnace set to 1100°C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and alloying of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool slowly to room temperature (about 25°C) over 4-6 hours.",
+        "2. Avoid rapid cooling to prevent cracking or warping of the solid sample."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool slowly to room temperature (about 25°C) over 4-6 hours. \n 2. Avoid rapid cooling to prevent cracking or warping of the solid sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections; if present, sand down using fine-grit sandpaper.",
+        "3. Optionally, apply a sealant or coating to enhance surface finish and corrosion resistance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections; if present, sand down using fine-grit sandpaper. \n 3. Optionally, apply a sealant or coating to enhance surface finish and corrosion resistance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 292344.0,
+      "density": 84903.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2116067.0,
+      "formation_energy_per_atom": -2725.0,
+      "decomposition_energy_per_atom": -8.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -66.0,
+      "decomposition_energy_mp": -8.0,
+      "decomposition_energy_mp_oqmd": -75.0
+    },
+    "electronic": {
+      "bandgap": 0.0001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d59d73ced5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.850665Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co20Nb2Zn1.json",
+      "material://B6Co20Nb2Zn1"
+    ]
+  }
+}

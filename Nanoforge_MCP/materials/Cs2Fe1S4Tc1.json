@@ -1,0 +1,111 @@
+{
+  "id": "Cs2Fe1S4Tc1",
+  "uri": "material://Cs2Fe1S4Tc1",
+  "composition": {
+    "formula": "Cs2Fe1S4Tc1",
+    "elements": {
+      "Cs": 2,
+      "Fe": 1,
+      "S": 4,
+      "Tc": 1
+    },
+    "reduced_formula": "Cs2FeTcS4",
+    "element_list": [
+      "S",
+      "Fe",
+      "Tc",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cesium Sulfide (Cs2S):  12.8 g  \n - Iron(II) Sulfide (FeS): 4.8 g  \n - Technetium(IV) Sulfide (TcS2): 1.6 g"
+    },
+    "sourcing": {
+      "instructions": "- Cesium Sulfide: Available from chemical suppliers like Sigma-Aldrich or Alfa Aesar. \n - Iron(II) Sulfide: Can be purchased from laboratory chemical suppliers or online marketplaces. \n - Technetium(IV) Sulfide: Obtainable through specialized nuclear material suppliers or research institutions.",
+      "steps": [
+        "- Cesium Sulfide: Available from chemical suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "- Iron(II) Sulfide: Can be purchased from laboratory chemical suppliers or online marketplaces.",
+        "- Technetium(IV) Sulfide: Obtainable through specialized nuclear material suppliers or research institutions."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 12.8 g of Cesium Sulfide accurately using an analytical balance.",
+        "2. Weigh 4.8 g of Iron(II) Sulfide.",
+        "3. Weigh 1.6 g of Technetium(IV) Sulfide.",
+        "4. In a clean, dry ceramic or glass mixing container, combine the three powdered materials.",
+        "5. Use a mortar and pestle to mix thoroughly until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh 12.8 g of Cesium Sulfide accurately using an analytical balance. \n 2. Weigh 4.8 g of Iron(II) Sulfide. \n 3. Weigh 1.6 g of Technetium(IV) Sulfide. \n 4. In a clean, dry ceramic or glass mixing container, combine the three powdered materials. \n 5. Use a mortar and pestle to mix thoroughly until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800 °C at a rate of 10 °C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800 °C at a rate of 10 °C/min. \n 4. Maintain this temperature for 2 hours to ensure complete synthesis."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure the crucible remains undisturbed during cooling for optimal structure formation."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure the crucible remains undisturbed during cooling for optimal structure formation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth any rough edges, achieving a uniform surface finish.",
+        "3. Optionally, apply a protective sealant to enhance durability if required for the intended application."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth any rough edges, achieving a uniform surface finish. \n 3. Optionally, apply a protective sealant to enhance durability if required for the intended application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 2422966.0,
+      "density": 3755.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -457556.0,
+      "formation_energy_per_atom": -10735.0,
+      "decomposition_energy_per_atom": -89.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -94.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "32cc0f4097",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:22.112016Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Fe1S4Tc1.json",
+      "material://Cs2Fe1S4Tc1"
+    ]
+  }
+}

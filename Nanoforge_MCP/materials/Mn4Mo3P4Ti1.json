@@ -1,0 +1,111 @@
+{
+  "id": "Mn4Mo3P4Ti1",
+  "uri": "material://Mn4Mo3P4Ti1",
+  "composition": {
+    "formula": "Mn4Mo3P4Ti1",
+    "elements": {
+      "Mn": 4,
+      "Mo": 3,
+      "P": 4,
+      "Ti": 1
+    },
+    "reduced_formula": "TiMn4Mo3P4",
+    "element_list": [
+      "P",
+      "Ti",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Manganese (Mn): 200 g \n Molybdenum (Mo): 150 g \n Phosphorus (P): 100 g \n Titanium (Ti): 50 g"
+    },
+    "sourcing": {
+      "instructions": "Manganese: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Molybdenum: Metal suppliers or online platforms (e.g., McMaster-Carr) \n Phosphorus: Chemical supply stores (e.g., Fisher Scientific) \n Titanium: Metal supply or online specialty shops (e.g., Titanium Joe)",
+      "steps": [
+        "Manganese: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Molybdenum: Metal suppliers or online platforms (e.g., McMaster-Carr)",
+        "Phosphorus: Chemical supply stores (e.g., Fisher Scientific)",
+        "Titanium: Metal supply or online specialty shops (e.g., Titanium Joe)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material with a precise scale.",
+        "2. In a clean, dry container, combine all ingredients: Mn, Mo, P, and Ti.",
+        "3. Mix thoroughly using a mortar and pestle or a ball mill for uniformity.",
+        "4. Ensure the powder is free from clumps and homogeneously mixed."
+      ],
+      "raw_text": "1. Measure each material with a precise scale. \n 2. In a clean, dry container, combine all ingredients: Mn, Mo, P, and Ti. \n 3. Mix thoroughly using a mortar and pestle or a ball mill for uniformity. \n 4. Ensure the powder is free from clumps and homogeneously mixed."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder into a suitable crucible (e.g., alumina).",
+        "3. Insert the crucible into the furnace and allow it to heat for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder into a suitable crucible (e.g., alumina). \n 3. Insert the crucible into the furnace and allow it to heat for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 8 hours).",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 8 hours). \n 2. Do not open the furnace until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a sandblaster or fine-grit sandpaper to smooth the surface.",
+        "3. If necessary, apply a sealing coat to enhance durability, following the manufacturer's instructions for the sealant.",
+        "4. Allow the sealant to cure for the specified time before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a sandblaster or fine-grit sandpaper to smooth the surface. \n 3. If necessary, apply a sealing coat to enhance durability, following the manufacturer's instructions for the sealant. \n 4. Allow the sealant to cure for the specified time before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1504792.0,
+      "density": 74965.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1066844.0,
+      "formation_energy_per_atom": -6626.0,
+      "decomposition_energy_per_atom": -455.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -455.0,
+      "decomposition_energy_mp_oqmd": -29.0
+    },
+    "electronic": {
+      "bandgap": 0.0118,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0f3bcc0932",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:35.668519Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn4Mo3P4Ti1.json",
+      "material://Mn4Mo3P4Ti1"
+    ]
+  }
+}

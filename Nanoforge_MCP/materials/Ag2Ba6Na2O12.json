@@ -1,0 +1,110 @@
+{
+  "id": "Ag2Ba6Na2O12",
+  "uri": "material://Ag2Ba6Na2O12",
+  "composition": {
+    "formula": "Ag2Ba6Na2O12",
+    "elements": {
+      "Ag": 2,
+      "Ba": 6,
+      "Na": 2,
+      "O": 12
+    },
+    "reduced_formula": "Ba3NaAgO6",
+    "element_list": [
+      "O",
+      "Na",
+      "Ag",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Silver (Ag): 74.8 g\n- Barium (Ba): 85.4 g\n- Sodium (Na): 4.6 g\n- Oxygen (O): 12.0 g (derived from the stoichiometry of the compound)"
+    },
+    "sourcing": {
+      "instructions": "- Silver: Purchase from a precious metals supplier or online retailer (e.g., jewelry supply stores).\n- Barium: Obtain from chemical supply companies (e.g., Sigma-Aldrich).\n- Sodium: Buy sodium carbonate or sodium chloride from a chemical supply or pharmacy.\n- Oxygen: Not required as a separate material; it is present in the reaction.",
+      "steps": [
+        "- Silver: Purchase from a precious metals supplier or online retailer (e.g., jewelry supply stores).",
+        "- Barium: Obtain from chemical supply companies (e.g., Sigma-Aldrich).",
+        "- Sodium: Buy sodium carbonate or sodium chloride from a chemical supply or pharmacy.",
+        "- Oxygen: Not required as a separate material; it is present in the reaction."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 74.8 g of silver powder using a precision scale.",
+        "2. Weigh 85.4 g of barium oxide (BaO) for the barium component.",
+        "3. Weigh 4.6 g of sodium carbonate (Na2CO3) as the sodium source.",
+        "4. Mix the powders in a clean, dry ceramic bowl using a pestle and mortar until uniform."
+      ],
+      "raw_text": "1. Weigh out 74.8 g of silver powder using a precision scale.\n2. Weigh 85.4 g of barium oxide (BaO) for the barium component.\n3. Weigh 4.6 g of sodium carbonate (Na2CO3) as the sodium source.\n4. Mix the powders in a clean, dry ceramic bowl using a pestle and mortar until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a high-purity alumina crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 900°C (1652°F) and maintain this temperature for 2 hours to facilitate the reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-purity alumina crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 900°C (1652°F) and maintain this temperature for 2 hours to facilitate the reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool naturally to room temperature, approximately 2-3 hours.",
+        "2. Avoid removing the crucible from the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool naturally to room temperature, approximately 2-3 hours. \n2. Avoid removing the crucible from the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified sample from the crucible once cooled.",
+        "2. Use a fine-grit sandpaper to smooth out the edges and surface of the sample.",
+        "3. Optionally, apply a sealant or coating to enhance durability if required."
+      ],
+      "raw_text": "1. Carefully remove the solidified sample from the crucible once cooled.\n2. Use a fine-grit sandpaper to smooth out the edges and surface of the sample.\n3. Optionally, apply a sealant or coating to enhance durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3731313.0,
+      "density": 5686.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1239828.0,
+      "formation_energy_per_atom": -20356.0,
+      "decomposition_energy_per_atom": -489.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -84.0,
+      "decomposition_energy_mp": -495.0,
+      "decomposition_energy_mp_oqmd": -492.0
+    },
+    "electronic": {
+      "bandgap": 0.8935,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "01eeb23f6f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:17.043877Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag2Ba6Na2O12.json",
+      "material://Ag2Ba6Na2O12"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "Cd4La2Ni4Tb14",
+  "uri": "material://Cd4La2Ni4Tb14",
+  "composition": {
+    "formula": "Cd4La2Ni4Tb14",
+    "elements": {
+      "Cd": 4,
+      "La": 2,
+      "Ni": 4,
+      "Tb": 14
+    },
+    "reduced_formula": "LaTb7(CdNi)2",
+    "element_list": [
+      "Ni",
+      "Cd",
+      "La",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 16.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 5.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 51.6,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 2.1,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 46.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 16.4 g (La2) \n Sc: 5.5 g (Sc1) \n Sn: 51.6 g (Sn4) \n Tm: 2.1 g (Tm1) \n Zn: 46.4 g (Zn4)"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supplier or rare earth metal distributor. \n Sc: Obtain from a specialized rare earth metals dealer. \n Sn: Available from electronics supply stores or metal suppliers. \n Tm: Order from a chemical supply company that offers rare elements. \n Zn: Can be found in hardware stores or metal supply shops.",
+      "steps": [
+        "La: Purchase from a chemical supplier or rare earth metal distributor.",
+        "Sc: Obtain from a specialized rare earth metals dealer.",
+        "Sn: Available from electronics supply stores or metal suppliers.",
+        "Tm: Order from a chemical supply company that offers rare elements.",
+        "Zn: Can be found in hardware stores or metal supply shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials precisely using an analytical balance.",
+        "2. In a clean, dry container, combine La, Sc, Sn, Tm, and Zn.",
+        "3. Mix the powders thoroughly with a spatula or mechanical mixer until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh all materials precisely using an analytical balance. \n 2. In a clean, dry container, combine La, Sc, Sn, Tm, and Zn. \n 3. Mix the powders thoroughly with a spatula or mechanical mixer until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure full melting and mixing of the elements."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to ensure full melting and mixing of the elements."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace during cooling to avoid contamination. This process may take 5-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace during cooling to avoid contamination. This process may take 5-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample has cooled, remove it from the crucible.",
+        "2. Inspect the solid sample for any surface irregularities.",
+        "3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once the sample has cooled, remove it from the crucible. \n 2. Inspect the solid sample for any surface irregularities. \n 3. If necessary, sand the surface with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 6354222.0,
+      "density": 8329.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1084261.0,
+      "formation_energy_per_atom": -2859.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 0.0101,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b4d5e95d4a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.013915Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd4La2Ni4Tb14.json",
+      "material://Cd4La2Ni4Tb14"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "Ga1Ni8Si3Tb4",
+  "uri": "material://Ga1Ni8Si3Tb4",
+  "composition": {
+    "formula": "Ga1Ni8Si3Tb4",
+    "elements": {
+      "Ga": 1,
+      "Ni": 8,
+      "Si": 3,
+      "Tb": 4
+    },
+    "reduced_formula": "Tb4GaSi3Ni8",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Ga",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 300.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 30 g \n Ni: 30 g \n Pb: 180 g \n Zr: 300 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Purchase from a metal supplier or online (copper powder) \n Ni: Purchase from a metal supplier or online (nickel powder) \n Pb: Purchase from a metal supplier or online (lead powder) \n Zr: Purchase from a metal supplier or online (zirconium powder)",
+      "steps": [
+        "Cu: Purchase from a metal supplier or online (copper powder)",
+        "Ni: Purchase from a metal supplier or online (nickel powder)",
+        "Pb: Purchase from a metal supplier or online (lead powder)",
+        "Zr: Purchase from a metal supplier or online (zirconium powder)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 30 g of copper powder.",
+        "2. Weigh out 30 g of nickel powder.",
+        "3. Weigh out 180 g of lead powder.",
+        "4. Weigh out 300 g of zirconium powder.",
+        "5. Combine all powders in a clean, dry mixing container.",
+        "6. Use a mechanical mixer or mortar and pestle to blend the powders thoroughly for at least 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 30 g of copper powder. \n 2. Weigh out 30 g of nickel powder. \n 3. Weigh out 180 g of lead powder. \n 4. Weigh out 300 g of zirconium powder. \n 5. Combine all powders in a clean, dry mixing container. \n 6. Use a mechanical mixer or mortar and pestle to blend the powders thoroughly for at least 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or oven to 800°C.",
+        "2. Transfer the mixed powder into a suitable crucible.",
+        "3. Place the crucible in the preheated furnace and heat for 2 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Preheat a furnace or oven to 800°C. \n 2. Transfer the mixed powder into a suitable crucible. \n 3. Place the crucible in the preheated furnace and heat for 2 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace.",
+        "2. Allow the crucible to cool in the furnace to room temperature gradually, which should take approximately 4-6 hours.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace. \n 2. Allow the crucible to cool in the furnace to room temperature gradually, which should take approximately 4-6 hours. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use sandpaper or a file to smooth out the surfaces as needed.",
+        "4. Optionally, coat the surface with a sealant to protect against oxidation, following the manufacturer's instructions for application and drying times."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. Use sandpaper or a file to smooth out the surfaces as needed. \n 4. Optionally, coat the surface with a sealant to protect against oxidation, following the manufacturer's instructions for application and drying times."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2489526.0,
+      "density": 83992.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -949407.0,
+      "formation_energy_per_atom": -6786.0,
+      "decomposition_energy_per_atom": -74.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -56.0,
+      "decomposition_energy_mp": -162.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.0061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bed11095ce",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.639281Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga1Ni8Si3Tb4.json",
+      "material://Ga1Ni8Si3Tb4"
+    ]
+  }
+}

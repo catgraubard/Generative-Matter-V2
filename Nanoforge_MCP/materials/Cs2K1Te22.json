@@ -1,0 +1,126 @@
+{
+  "id": "Cs2K1Te22",
+  "uri": "material://Cs2K1Te22",
+  "composition": {
+    "formula": "Cs2K1Te22",
+    "elements": {
+      "Cs": 2,
+      "K": 1,
+      "Te": 22
+    },
+    "reduced_formula": "Cs2KTe22",
+    "element_list": [
+      "K",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 44.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.00 g \n Te: 44.00 g \n Tl: 2.00 g \n Total: 56.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Available from chemical suppliers like Alfa Aesar or Sigma-Aldrich. \n Te: Obtain from suppliers such as Strem Chemicals or Thermo Fisher. \n Tl: Purchase from specialty metal suppliers or online platforms like eBay or Amazon.",
+      "steps": [
+        "Cs: Available from chemical suppliers like Alfa Aesar or Sigma-Aldrich.",
+        "Te: Obtain from suppliers such as Strem Chemicals or Thermo Fisher.",
+        "Tl: Purchase from specialty metal suppliers or online platforms like eBay or Amazon."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 10.00 g of Cesium (Cs) using an analytical balance.",
+        "2. Weigh 44.00 g of Tellurium (Te).",
+        "3. Weigh 2.00 g of Thallium (Tl).",
+        "4. In a clean, dry environment, combine Cs, Te, and Tl in a quartz crucible.",
+        "5. Stir the mixture thoroughly to ensure uniform distribution of components."
+      ],
+      "raw_text": "1. Weigh 10.00 g of Cesium (Cs) using an analytical balance. \n 2. Weigh 44.00 g of Tellurium (Te). \n 3. Weigh 2.00 g of Thallium (Tl). \n 4. In a clean, dry environment, combine Cs, Te, and Tl in a quartz crucible. \n 5. Stir the mixture thoroughly to ensure uniform distribution of components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the quartz crucible in a high-temperature furnace.",
+        "2. Gradually heat to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and homogeneity."
+      ],
+      "raw_text": "1. Place the quartz crucible in a high-temperature furnace. \n 2. Gradually heat to 800 °C at a rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and homogeneity."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. Do not open the furnace until it has cooled to avoid contamination."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. Do not open the furnace until it has cooled to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a diamond saw to cut into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Smooth the edges with sandpaper (grit 400 and 800) for a polished finish.",
+        "4. Store the finished sample in a sealed container to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a diamond saw to cut into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Smooth the edges with sandpaper (grit 400 and 800) for a polished finish. \n 4. Store the finished sample in a sealed container to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 25,
+      "volume": 9719987.0,
+      "density": 53167.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/m",
+      "space_group_number": 87,
+      "point_group": "4/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -865471.0,
+      "formation_energy_per_atom": -5797.0,
+      "decomposition_energy_per_atom": -964.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -41.0,
+      "decomposition_energy_mp": -2849.0,
+      "decomposition_energy_mp_oqmd": -936.0
+    },
+    "electronic": {
+      "bandgap": 0.0276,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d2fc406d13",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.099529Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2K1Te22.json",
+      "material://Cs2K1Te22"
+    ]
+  }
+}

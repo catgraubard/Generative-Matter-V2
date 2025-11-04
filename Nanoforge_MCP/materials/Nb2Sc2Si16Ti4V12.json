@@ -1,0 +1,140 @@
+{
+  "id": "Nb2Sc2Si16Ti4V12",
+  "uri": "material://Nb2Sc2Si16Ti4V12",
+  "composition": {
+    "formula": "Nb2Sc2Si16Ti4V12",
+    "elements": {
+      "Nb": 2,
+      "Sc": 2,
+      "Si": 16,
+      "Ti": 4,
+      "V": 12
+    },
+    "reduced_formula": "ScTi2Nb(V3Si4)2",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ti",
+      "V",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 40.0 g \n Sc: 20.0 g \n Si: 320.0 g \n Ti: 10.0 g \n V: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nb (Niobium): Purchase from a specialized metal supplier or online metal retailer.\n Sc (Scandium): Obtain from a chemical supply company or online chemical distributor.\n Si (Silicon): Available at local hardware stores or chemical suppliers.\n Ti (Titanium): Acquire from metal suppliers or online platforms.\n V (Vanadium): Purchase from a chemical supply store or online distributor.",
+      "steps": [
+        "Nb (Niobium): Purchase from a specialized metal supplier or online metal retailer.",
+        "Sc (Scandium): Obtain from a chemical supply company or online chemical distributor.",
+        "Si (Silicon): Available at local hardware stores or chemical suppliers.",
+        "Ti (Titanium): Acquire from metal suppliers or online platforms.",
+        "V (Vanadium): Purchase from a chemical supply store or online distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Nb, Sc, Si, Ti, and V powders in the specified amounts.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for at least 15 minutes to ensure a uniform distribution of components.",
+        "4. Transfer the mixed powder into a mold of dimensions 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale.\n 2. In a clean, dry mixing container, combine Nb, Sc, Si, Ti, and V powders in the specified amounts.\n 3. Use a mechanical stirrer to mix the powders thoroughly for at least 15 minutes to ensure a uniform distribution of components.\n 4. Transfer the mixed powder into a mold of dimensions 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mold with the powder mixture in the furnace.",
+        "3. Maintain this temperature for 2 hours to allow for proper bonding and reaction of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C.\n 2. Place the mold with the powder mixture in the furnace.\n 3. Maintain this temperature for 2 hours to allow for proper bonding and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace door until it has cooled down completely, which may take around 4 to 6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).\n 2. Do not open the furnace door until it has cooled down completely, which may take around 4 to 6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand the edges and surfaces using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant suitable for metal to enhance surface protection and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold.\n 2. Inspect the sample for any surface imperfections.\n 3. If needed, sand the edges and surfaces using fine-grit sandpaper for a smooth finish.\n 4. Optionally, apply a sealant suitable for metal to enhance surface protection and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 512041.0,
+      "density": 49548.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2845992.0,
+      "formation_energy_per_atom": -676.0,
+      "decomposition_energy_per_atom": -381.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -377.0,
+      "decomposition_energy_mp_oqmd": -366.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0d2789de72",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:32.873444Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb2Sc2Si16Ti4V12.json",
+      "material://Nb2Sc2Si16Ti4V12"
+    ]
+  }
+}

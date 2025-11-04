@@ -1,0 +1,115 @@
+{
+  "id": "Cs1Na3Se24",
+  "uri": "material://Cs1Na3Se24",
+  "composition": {
+    "formula": "Cs1Na3Se24",
+    "elements": {
+      "Cs": 1,
+      "Na": 3,
+      "Se": 24
+    },
+    "reduced_formula": "Cs(NaSe8)3",
+    "element_list": [
+      "Na",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CsCl: 10.0 g \n NaCl: 20.0 g \n Se: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "CsCl: Available from chemical supply companies (e.g., Sigma-Aldrich) \n NaCl: Commonly available at grocery stores \n Se: Available from chemical supply companies (e.g., Alfa Aesar)",
+      "steps": [
+        "CsCl: Available from chemical supply companies (e.g., Sigma-Aldrich)",
+        "NaCl: Commonly available at grocery stores",
+        "Se: Available from chemical supply companies (e.g., Alfa Aesar)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear, including gloves and goggles.",
+        "2. Measure out 10.0 g of CsCl, 20.0 g of NaCl, and 12.0 g of Se using an analytical balance.",
+        "3. In a clean, dry glass container, combine CsCl, NaCl, and Se.",
+        "4. Mix thoroughly using a glass rod until a uniform mixture is obtained.",
+        "5. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Wear appropriate safety gear, including gloves and goggles. \n 2. Measure out 10.0 g of CsCl, 20.0 g of NaCl, and 12.0 g of Se using an analytical balance. \n 3. In a clean, dry glass container, combine CsCl, NaCl, and Se. \n 4. Mix thoroughly using a glass rod until a uniform mixture is obtained. \n 5. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat the mixture gradually to 800 °C over a period of 2 hours.",
+        "3. Maintain this temperature for an additional 2 hours to ensure complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat the mixture gradually to 800 °C over a period of 2 hours. \n 3. Maintain this temperature for an additional 2 hours to ensure complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the muffle furnace and allow it to cool down naturally to room temperature (approximately 4 hours).",
+        "2. Do not open the furnace until it has reached a safe temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the muffle furnace and allow it to cool down naturally to room temperature (approximately 4 hours). \n 2. Do not open the furnace until it has reached a safe temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, remove the crucible and carefully extract the solidified material.",
+        "2. Inspect the material for uniformity and any imperfections.",
+        "3. If necessary, use a diamond file to smooth edges and surfaces.",
+        "4. Optionally, seal the material with a clear epoxy resin for added durability and protection."
+      ],
+      "raw_text": "1. Once cool, remove the crucible and carefully extract the solidified material. \n 2. Inspect the material for uniformity and any imperfections. \n 3. If necessary, use a diamond file to smooth edges and surfaces. \n 4. Optionally, seal the material with a clear epoxy resin for added durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8680509.0,
+      "density": 40113.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1064678.0,
+      "formation_energy_per_atom": -6322.0,
+      "decomposition_energy_per_atom": -2024.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -2499.0,
+      "decomposition_energy_mp_oqmd": -2389.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f51aaf5dfa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.870067Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Na3Se24.json",
+      "material://Cs1Na3Se24"
+    ]
+  }
+}

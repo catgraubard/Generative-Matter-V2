@@ -1,0 +1,115 @@
+{
+  "id": "Al1Cs12Fe2Se12Ti1",
+  "uri": "material://Al1Cs12Fe2Se12Ti1",
+  "composition": {
+    "formula": "Al1Cs12Fe2Se12Ti1",
+    "elements": {
+      "Al": 1,
+      "Cs": 12,
+      "Fe": 2,
+      "Se": 12,
+      "Ti": 1
+    },
+    "reduced_formula": "Cs12TiAl(FeSe6)2",
+    "element_list": [
+      "Al",
+      "Ti",
+      "Fe",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Copper (Cu): 50 g  \n - Erbium (Er): 12 g \n - Nickel (Ni): 2 g \n - Silicon (Si): 8 g"
+    },
+    "sourcing": {
+      "instructions": "- Copper can be sourced from electrical supply stores or scrap metal yards. \n - Erbium can be obtained from specialized chemical suppliers or online platforms like Sigma-Aldrich. \n - Nickel can be purchased from metal suppliers or online retailers. \n - Silicon can be found at electronics stores or chemical suppliers.",
+      "steps": [
+        "- Copper can be sourced from electrical supply stores or scrap metal yards.",
+        "- Erbium can be obtained from specialized chemical suppliers or online platforms like Sigma-Aldrich.",
+        "- Nickel can be purchased from metal suppliers or online retailers.",
+        "- Silicon can be found at electronics stores or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 50 g of copper accurately using a digital scale.",
+        "2. Measure 12 g of erbium using the scale.",
+        "3. Weigh 2 g of nickel.",
+        "4. Measure 8 g of silicon.",
+        "5. Combine all the ingredients in a clean, dry container.",
+        "6. Mix thoroughly using a mechanical stirrer or mortar and pestle until the mixture is homogeneous."
+      ],
+      "raw_text": "1. Weigh out 50 g of copper accurately using a digital scale. \n 2. Measure 12 g of erbium using the scale. \n 3. Weigh 2 g of nickel. \n 4. Measure 8 g of silicon. \n 5. Combine all the ingredients in a clean, dry container. \n 6. Mix thoroughly using a mechanical stirrer or mortar and pestle until the mixture is homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace.",
+        "2. Heat the furnace to 1100°C (2012°F).",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and solidification of the material."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace. \n 2. Heat the furnace to 1100°C (2012°F). \n 3. Maintain this temperature for 2 hours to ensure complete reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the material to cool inside the furnace gradually to room temperature (approximately 2-4 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the material to cool inside the furnace gradually to room temperature (approximately 2-4 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Seal the sample with a clear epoxy resin to enhance durability and prevent oxidation. Allow the resin to cure fully as per the manufacturer's instructions (usually 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Seal the sample with a clear epoxy resin to enhance durability and prevent oxidation. Allow the resin to cure fully as per the manufacturer's instructions (usually 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11278466.0,
+      "density": 40178.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1168196.0,
+      "formation_energy_per_atom": -12694.0,
+      "decomposition_energy_per_atom": -1088.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -1088.0,
+      "decomposition_energy_mp_oqmd": -289.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae110071ba",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.249394Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Cs12Fe2Se12Ti1.json",
+      "material://Al1Cs12Fe2Se12Ti1"
+    ]
+  }
+}

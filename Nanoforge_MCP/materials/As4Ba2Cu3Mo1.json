@@ -1,0 +1,111 @@
+{
+  "id": "As4Ba2Cu3Mo1",
+  "uri": "material://As4Ba2Cu3Mo1",
+  "composition": {
+    "formula": "As4Ba2Cu3Mo1",
+    "elements": {
+      "As": 4,
+      "Ba": 2,
+      "Cu": 3,
+      "Mo": 1
+    },
+    "reduced_formula": "Ba2Cu3MoAs4",
+    "element_list": [
+      "Cu",
+      "As",
+      "Mo",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Ce (Cerium): 1.37 g \n Cu (Copper): 3.53 g \n Ge (Germanium): 1.00 g \n Sr (Strontium): 0.68 g \n Total: 6.58 g"
+    },
+    "sourcing": {
+      "instructions": "Ce: Available from chemical supply companies (e.g., Sigma-Aldrich). \n Cu: Obtain from electronics suppliers or online metal retailers. \n Ge: Purchase from semiconductor material suppliers. \n Sr: Acquire from chemical suppliers or specialty metal distributors.",
+      "steps": [
+        "Ce: Available from chemical supply companies (e.g., Sigma-Aldrich).",
+        "Cu: Obtain from electronics suppliers or online metal retailers.",
+        "Ge: Purchase from semiconductor material suppliers.",
+        "Sr: Acquire from chemical suppliers or specialty metal distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient on a precision balance.",
+        "2. In a clean, dry ceramic or glass container, combine Ce, Cu, Ge, and Sr in the exact amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Measure each ingredient on a precision balance. \n 2. In a clean, dry ceramic or glass container, combine Ce, Cu, Ge, and Sr in the exact amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 5°C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace, allowing it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not remove the crucible until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace, allowing it to cool naturally to room temperature (approximately 25°C). \n 2. Do not remove the crucible until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If needed, use fine-grit sandpaper to smoothen edges and surfaces.",
+        "4. Optionally, seal the sample with a clear epoxy for protection."
+      ],
+      "raw_text": "1. Once cool, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities. \n 3. If needed, use fine-grit sandpaper to smoothen edges and surfaces. \n 4. Optionally, seal the sample with a clear epoxy for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2208005.0,
+      "density": 64746.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "C222",
+      "space_group_number": 21,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -510832.0,
+      "formation_energy_per_atom": -5466.0,
+      "decomposition_energy_per_atom": -89.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -75.0,
+      "decomposition_energy_mp": -89.0,
+      "decomposition_energy_mp_oqmd": -78.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b7ed4e2d73",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.673230Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Ba2Cu3Mo1.json",
+      "material://As4Ba2Cu3Mo1"
+    ]
+  }
+}

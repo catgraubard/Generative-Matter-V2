@@ -1,0 +1,112 @@
+{
+  "id": "Bi3Cs16Sb5",
+  "uri": "material://Bi3Cs16Sb5",
+  "composition": {
+    "formula": "Bi3Cs16Sb5",
+    "elements": {
+      "Bi": 3,
+      "Cs": 16,
+      "Sb": 5
+    },
+    "reduced_formula": "Cs16Bi3Sb5",
+    "element_list": [
+      "Sb",
+      "Cs",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Calcium Carbonate (C4): 1200 g  \n - Lanthanum Oxide (La1): 150 g  \n - Oxygen (O20): 320 g (through the reaction process)  \n - Terbium Oxide (Tb7): 1800 g"
+    },
+    "sourcing": {
+      "instructions": "- Calcium Carbonate: Available at chemical supply stores or online retailers (e.g., Amazon, Sigma-Aldrich).  \n - Lanthanum Oxide: Specialty chemical suppliers or online (e.g., Alfa Aesar).  \n - Terbium Oxide: Chemical suppliers or online (e.g., American Elements).  \n - Oxygen: Generally sourced from air, but for precise measurements, use an oxygen cylinder or generator.",
+      "steps": [
+        "- Calcium Carbonate: Available at chemical supply stores or online retailers (e.g., Amazon, Sigma-Aldrich).",
+        "- Lanthanum Oxide: Specialty chemical suppliers or online (e.g., Alfa Aesar).",
+        "- Terbium Oxide: Chemical suppliers or online (e.g., American Elements).",
+        "- Oxygen: Generally sourced from air, but for precise measurements, use an oxygen cylinder or generator."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh the Calcium Carbonate (1200 g) and Lanthanum Oxide (150 g) using an analytical balance.",
+        "2. In a clean, dry container, add both powders.",
+        "3. Mix the powders thoroughly using a spatula or mechanical mixer until a uniform blend is achieved.",
+        "4. Gradually add Terbium Oxide (1800 g) to the mixture while continuing to mix.",
+        "5. Ensure the mixture is homogenous before proceeding to the next step."
+      ],
+      "raw_text": "1. Measure and weigh the Calcium Carbonate (1200 g) and Lanthanum Oxide (150 g) using an analytical balance.  \n 2. In a clean, dry container, add both powders.  \n 3. Mix the powders thoroughly using a spatula or mechanical mixer until a uniform blend is achieved.  \n 4. Gradually add Terbium Oxide (1800 g) to the mixture while continuing to mix.  \n 5. Ensure the mixture is homogenous before proceeding to the next step."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Preheat the furnace to 1000 °C.",
+        "3. Once the temperature is reached, insert the crucible and maintain this temperature for 4 hours to facilitate the reaction.",
+        "4. After 4 hours, increase the temperature to 1200 °C for an additional 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible.  \n 2. Preheat the furnace to 1000 °C.  \n 3. Once the temperature is reached, insert the crucible and maintain this temperature for 4 hours to facilitate the reaction.  \n 4. After 4 hours, increase the temperature to 1200 °C for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle is complete, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process may take approximately 6-8 hours.",
+        "3. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating cycle is complete, turn off the furnace and allow it to cool down to room temperature naturally.  \n 2. This process may take approximately 6-8 hours.  \n 3. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. Inspect the solid sample for any cracks or defects.",
+        "3. If necessary, sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the material using a suitable resin or lacquer for added protection, following the manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible.  \n 2. Inspect the solid sample for any cracks or defects.  \n 3. If necessary, sand the edges and surfaces with fine-grit sandpaper for a smooth finish.  \n 4. Optionally, seal the material using a suitable resin or lacquer for added protection, following the manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 12516182.0,
+      "density": 44607.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -562506.0,
+      "formation_energy_per_atom": -4004.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": 0.1504,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5b4335575",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.885355Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3Cs16Sb5.json",
+      "material://Bi3Cs16Sb5"
+    ]
+  }
+}

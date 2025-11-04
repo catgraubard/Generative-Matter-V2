@@ -1,0 +1,110 @@
+{
+  "id": "Ba4Mg2O18Se6",
+  "uri": "material://Ba4Mg2O18Se6",
+  "composition": {
+    "formula": "Ba4Mg2O18Se6",
+    "elements": {
+      "Ba": 4,
+      "Mg": 2,
+      "O": 18,
+      "Se": 6
+    },
+    "reduced_formula": "Ba2Mg(SeO3)3",
+    "element_list": [
+      "O",
+      "Mg",
+      "Se",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium oxide (BaO): 200 g \n Magnesium oxide (MgO): 50 g \n Selenium (Se): 100 g \n Oxygen (O2): 18 g (from BaO and MgO)"
+    },
+    "sourcing": {
+      "instructions": "Barium oxide: Chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific) \n Magnesium oxide: Chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific) \n Selenium: Chemical supply companies (e.g., Alfa Aesar, VWR)",
+      "steps": [
+        "Barium oxide: Chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific)",
+        "Magnesium oxide: Chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific)",
+        "Selenium: Chemical supply companies (e.g., Alfa Aesar, VWR)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 200 g of barium oxide, 50 g of magnesium oxide, and 100 g of selenium using a digital scale.",
+        "2. In a clean, dry container, combine the barium oxide and magnesium oxide thoroughly using a spatula.",
+        "3. Slowly add selenium to the mixture while stirring continuously to ensure even distribution.",
+        "4. Mix until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Measure 200 g of barium oxide, 50 g of magnesium oxide, and 100 g of selenium using a digital scale. \n 2. In a clean, dry container, combine the barium oxide and magnesium oxide thoroughly using a spatula. \n 3. Slowly add selenium to the mixture while stirring continuously to ensure even distribution. \n 4. Mix until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 8,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Set the furnace to heat at 1000°C for 8 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Set the furnace to heat at 1000°C for 8 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature.",
+        "2. This may take approximately 6-8 hours to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature. \n 2. This may take approximately 6-8 hours to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges or irregularities.",
+        "3. Use sandpaper (starting with 120 grit and moving to 600 grit) to smooth the surfaces.",
+        "4. Optionally, apply a sealant to enhance the durability of the sample and protect it from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any rough edges or irregularities. \n 3. Use sandpaper (starting with 120 grit and moving to 600 grit) to smooth the surfaces. \n 4. Optionally, apply a sealant to enhance the durability of the sample and protect it from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 5266833.0,
+      "density": 42868.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1879488.0,
+      "formation_energy_per_atom": -22345.0,
+      "decomposition_energy_per_atom": -115.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -121.0,
+      "decomposition_energy_mp_oqmd": -12.0
+    },
+    "electronic": {
+      "bandgap": 4.0833,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "48ac9f26f7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:51.021189Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4Mg2O18Se6.json",
+      "material://Ba4Mg2O18Se6"
+    ]
+  }
+}

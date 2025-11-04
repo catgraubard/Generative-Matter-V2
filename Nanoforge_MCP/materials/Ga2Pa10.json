@@ -1,0 +1,101 @@
+{
+  "id": "Ga2Pa10",
+  "uri": "material://Ga2Pa10",
+  "composition": {
+    "formula": "Ga2Pa10",
+    "elements": {
+      "Ga": 2,
+      "Pa": 10
+    },
+    "reduced_formula": "Pa5Ga",
+    "element_list": [
+      "Ga",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 7.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 7 g, Er: 5 g, Fe: 12 g, P: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder) - Chemical supply store; Er (Erbium oxide) - Rare earth metals supplier; Fe (Iron powder) - Metal supply store; P (Phosphorus powder) - Chemical supply store.",
+      "steps": [
+        "Co (Cobalt powder) - Chemical supply store; Er (Erbium oxide) - Rare earth metals supplier; Fe (Iron powder) - Metal supply store; P (Phosphorus powder) - Chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision scale. 2. In a clean, dry container, combine 7 g of Co, 5 g of Er, 12 g of Fe, and 12 g of P. 3. Mix thoroughly using a spatula or mechanical mixer until uniform."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision scale. 2. In a clean, dry container, combine 7 g of Co, 5 g of Er, 12 g of Fe, and 12 g of P. 3. Mix thoroughly using a spatula or mechanical mixer until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible. 2. Heat in a furnace to 1200 °C for 2 hours to ensure proper reaction and sintering of the material. 3. Maintain a nitrogen atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. 2. Heat in a furnace to 1200 °C for 2 hours to ensure proper reaction and sintering of the material. 3. Maintain a nitrogen atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool inside the furnace to room temperature over a period of 6 hours. 2. Do not open the furnace until it has fully cooled to prevent exposure to air."
+      ],
+      "raw_text": "1. Allow the crucible to cool inside the furnace to room temperature over a period of 6 hours. 2. Do not open the furnace until it has fully cooled to prevent exposure to air."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible. 2. Grind the surface lightly with sandpaper to remove any irregularities. 3. If desired, apply a sealing agent to enhance surface finish and protect the material."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. 2. Grind the surface lightly with sandpaper to remove any irregularities. 3. If desired, apply a sealing agent to enhance surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2811299.0,
+      "density": 144702.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1024021.0,
+      "formation_energy_per_atom": -999.0,
+      "decomposition_energy_per_atom": -158.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -38.0,
+      "decomposition_energy_mp": -158.0,
+      "decomposition_energy_mp_oqmd": -38.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e322e8e34b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.493136Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga2Pa10.json",
+      "material://Ga2Pa10"
+    ]
+  }
+}

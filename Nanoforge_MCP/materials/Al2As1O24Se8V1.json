@@ -1,0 +1,112 @@
+{
+  "id": "Al2As1O24Se8V1",
+  "uri": "material://Al2As1O24Se8V1",
+  "composition": {
+    "formula": "Al2As1O24Se8V1",
+    "elements": {
+      "Al": 2,
+      "As": 1,
+      "O": 24,
+      "Se": 8,
+      "V": 1
+    },
+    "reduced_formula": "Al2VAs(SeO3)8",
+    "element_list": [
+      "O",
+      "Al",
+      "V",
+      "As",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Aluminum Oxide (Al2O3): 100 g\nArsenic (As): 12.5 g\nSilicon Dioxide (SiO2): 48 g\nSelenium (Se): 32 g\nVanadium (V): 2.5 g"
+    },
+    "sourcing": {
+      "instructions": "Aluminum Oxide: Purchase from chemical supply stores or online retailers (e.g., Sigma-Aldrich).\nArsenic: Obtain from specialized chemical suppliers.\nSilicon Dioxide: Available at chemical supply stores.\nSelenium: Buy from chemical suppliers or online.\nVanadium: Obtain from metal suppliers or chemical stores.",
+      "steps": [
+        "Aluminum Oxide: Purchase from chemical supply stores or online retailers (e.g., Sigma-Aldrich).",
+        "Arsenic: Obtain from specialized chemical suppliers.",
+        "Silicon Dioxide: Available at chemical supply stores.",
+        "Selenium: Buy from chemical suppliers or online.",
+        "Vanadium: Obtain from metal suppliers or chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Aluminum Oxide, 12.5 g of Arsenic, 48 g of Silicon Dioxide, 32 g of Selenium, and 2.5 g of Vanadium using a precision scale.",
+        "2. In a fume hood, carefully mix the dry powders in a ceramic bowl to ensure an even distribution.",
+        "3. Add a small amount of ethanol (10 mL) to assist in binding the materials together while mixing thoroughly."
+      ],
+      "raw_text": "1. Weigh out 100 g of Aluminum Oxide, 12.5 g of Arsenic, 48 g of Silicon Dioxide, 32 g of Selenium, and 2.5 g of Vanadium using a precision scale.\n2. In a fume hood, carefully mix the dry powders in a ceramic bowl to ensure an even distribution.\n3. Add a small amount of ethanol (10 mL) to assist in binding the materials together while mixing thoroughly."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed material into a suitable crucible.",
+        "2. Place the crucible in a furnace and heat gradually to 800°C at a rate of 5°C per minute.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed material into a suitable crucible.\n2. Place the crucible in a furnace and heat gradually to 800°C at a rate of 5°C per minute.\n3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 25°C) over a period of 6 hours.",
+        "2. Avoid abrupt cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 25°C) over a period of 6 hours.\n2. Avoid abrupt cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces with fine-grit sandpaper to achieve smoothness.",
+        "3. Optionally, apply a sealant to enhance surface durability, allowing it to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Sand the edges and surfaces with fine-grit sandpaper to achieve smoothness.\n3. Optionally, apply a sealant to enhance surface durability, allowing it to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5078017.0,
+      "density": 39093.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2276215.0,
+      "formation_energy_per_atom": -16575.0,
+      "decomposition_energy_per_atom": -138.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -13.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": 1.6517,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "06009394ba",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:22.898641Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2As1O24Se8V1.json",
+      "material://Al2As1O24Se8V1"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Li7Pb1Sn1",
+  "uri": "material://Li7Pb1Sn1",
+  "composition": {
+    "formula": "Li7Pb1Sn1",
+    "elements": {
+      "Li": 7,
+      "Pb": 1,
+      "Sn": 1
+    },
+    "reduced_formula": "Li7SnPb",
+    "element_list": [
+      "Li",
+      "Sn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Ni (Nickel): 360 g  \n - Nb (Niobium): 80 g  \n - Sb (Antimony): 250 g  \n - Zn (Zinc): 120 g"
+    },
+    "sourcing": {
+      "instructions": "- Ni: Obtain from metal suppliers or online retailers specializing in metals. \n - Nb: Available from specialized chemical suppliers or online platforms. \n - Sb: Purchase from chemical supply companies or online marketplaces. \n - Zn: Obtain from hardware stores or metal suppliers.",
+      "steps": [
+        "- Ni: Obtain from metal suppliers or online retailers specializing in metals.",
+        "- Nb: Available from specialized chemical suppliers or online platforms.",
+        "- Sb: Purchase from chemical supply companies or online marketplaces.",
+        "- Zn: Obtain from hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal with a precision scale.",
+        "2. Place Ni, Nb, Sb, and Zn in a clean, dry mixing container.",
+        "3. Use a high-speed mixer or ball mill to thoroughly mix the powders for 30 minutes to ensure uniformity.",
+        "4. Check the consistency of the mixture to ensure no clumps remain."
+      ],
+      "raw_text": "1. Weigh each metal with a precision scale. \n 2. Place Ni, Nb, Sb, and Zn in a clean, dry mixing container. \n 3. Use a high-speed mixer or ball mill to thoroughly mix the powders for 30 minutes to ensure uniformity. \n 4. Check the consistency of the mixture to ensure no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed material into a suitable crucible.",
+        "2. Preheat the furnace to 900 °C.",
+        "3. Heat the crucible with the mixture for 2 hours to promote reaction and fusion of components."
+      ],
+      "raw_text": "1. Transfer the mixed material into a suitable crucible. \n 2. Preheat the furnace to 900 °C. \n 3. Heat the crucible with the mixture for 2 hours to promote reaction and fusion of components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it reaches below 100 °C to avoid thermal shock.",
+        "3. Once cool, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it reaches below 100 °C to avoid thermal shock. \n 3. Once cool, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder to smooth out any rough edges or surfaces.",
+        "3. Optionally, apply a sealant if the material will be exposed to moisture or air.",
+        "4. Allow any sealant to cure as per the manufacturer’s instructions before handling."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a grinder to smooth out any rough edges or surfaces. \n 3. Optionally, apply a sealant if the material will be exposed to moisture or air. \n 4. Allow any sealant to cure as per the manufacturer’s instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1630045.0,
+      "density": 3815.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -24266.0,
+      "formation_energy_per_atom": -3535.0,
+      "decomposition_energy_per_atom": -74.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -74.0,
+      "decomposition_energy_mp_oqmd": 4.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c5a0c08c24",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.809078Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li7Pb1Sn1.json",
+      "material://Li7Pb1Sn1"
+    ]
+  }
+}

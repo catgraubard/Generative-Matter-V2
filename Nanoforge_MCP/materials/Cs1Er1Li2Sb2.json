@@ -1,0 +1,111 @@
+{
+  "id": "Cs1Er1Li2Sb2",
+  "uri": "material://Cs1Er1Li2Sb2",
+  "composition": {
+    "formula": "Cs1Er1Li2Sb2",
+    "elements": {
+      "Cs": 1,
+      "Er": 1,
+      "Li": 2,
+      "Sb": 2
+    },
+    "reduced_formula": "CsLi2ErSb2",
+    "element_list": [
+      "Li",
+      "Sb",
+      "Cs",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 20 g, Er: 10 g, Li: 40 g, Sb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Er: Rare earth suppliers; Li: Battery supply stores; Sb: Metal suppliers or chemical vendors.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Er: Rare earth suppliers; Li: Battery supply stores; Sb: Metal suppliers or chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, combine Cs, Er, Li, and Sb in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture until it is a fine, homogeneous powder."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, combine Cs, Er, Li, and Sb in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture until it is a fine, homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the powder to a ceramic crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours to facilitate reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the powder to a ceramic crucible. \n 2. Heat in a furnace at 800°C for 2 hours to facilitate reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid opening the furnace until it is cool to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Avoid opening the furnace until it is cool to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges and use sandpaper to smooth surfaces.",
+        "3. Optionally, apply a sealant if required to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any rough edges and use sandpaper to smooth surfaces. \n 3. Optionally, apply a sealant if required to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1822602.0,
+      "density": 50799.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -223542.0,
+      "formation_energy_per_atom": -8025.0,
+      "decomposition_energy_per_atom": -256.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -28.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.6245,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5f8460bd44",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:20.776545Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Er1Li2Sb2.json",
+      "material://Cs1Er1Li2Sb2"
+    ]
+  }
+}

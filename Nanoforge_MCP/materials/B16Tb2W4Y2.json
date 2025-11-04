@@ -1,0 +1,127 @@
+{
+  "id": "B16Tb2W4Y2",
+  "uri": "material://B16Tb2W4Y2",
+  "composition": {
+    "formula": "B16Tb2W4Y2",
+    "elements": {
+      "B": 16,
+      "Tb": 2,
+      "W": 4,
+      "Y": 2
+    },
+    "reduced_formula": "TbY(B4W)2",
+    "element_list": [
+      "B",
+      "Y",
+      "Tb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 70.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 140.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 75.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi:  70.0 g \n Er:  140.0 g \n Pb:  75.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bi: Available at chemical supply stores or online (e.g., Sigma-Aldrich). \n Er: Rare Earth supplier or online (e.g., American Elements). \n Pb: Metal suppliers or online (e.g., Metal Supermarkets).",
+      "steps": [
+        "Bi: Available at chemical supply stores or online (e.g., Sigma-Aldrich).",
+        "Er: Rare Earth supplier or online (e.g., American Elements).",
+        "Pb: Metal suppliers or online (e.g., Metal Supermarkets)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 70.0 g of Bismuth (Bi).",
+        "2. Weigh out 140.0 g of Erbium (Er).",
+        "3. Weigh out 75.0 g of Lead (Pb).",
+        "4. In a clean container, combine all weighed materials.",
+        "5. Mix thoroughly using an appropriate tool (e.g., mechanical mixer or mortar and pestle) until a consistent blend is achieved."
+      ],
+      "raw_text": "1. Weigh out 70.0 g of Bismuth (Bi). \n 2. Weigh out 140.0 g of Erbium (Er). \n 3. Weigh out 75.0 g of Lead (Pb). \n 4. In a clean container, combine all weighed materials. \n 5. Mix thoroughly using an appropriate tool (e.g., mechanical mixer or mortar and pestle) until a consistent blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Preheat the furnace to 800 °C.",
+        "3. Once at temperature, place the crucible in the furnace and maintain at 800 °C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Preheat the furnace to 800 °C. \n 3. Once at temperature, place the crucible in the furnace and maintain at 800 °C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool gradually inside the furnace to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool gradually inside the furnace to room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface imperfections.",
+        "3. If necessary, sand the surface using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a suitable protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface imperfections. \n 3. If necessary, sand the surface using fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a suitable protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2570455.0,
+      "density": 907.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1950171.0,
+      "formation_energy_per_atom": -588.0,
+      "decomposition_energy_per_atom": 0.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": 0.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 0.2846,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da8871b3e8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.164456Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B16Tb2W4Y2.json",
+      "material://B16Tb2W4Y2"
+    ]
+  }
+}

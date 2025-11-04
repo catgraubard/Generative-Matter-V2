@@ -1,0 +1,129 @@
+{
+  "id": "B4Fe10Nb3Ti3",
+  "uri": "material://B4Fe10Nb3Ti3",
+  "composition": {
+    "formula": "B4Fe10Nb3Ti3",
+    "elements": {
+      "B": 4,
+      "Fe": 10,
+      "Nb": 3,
+      "Ti": 3
+    },
+    "reduced_formula": "Ti3Nb3(Fe5B2)2",
+    "element_list": [
+      "B",
+      "Ti",
+      "Fe",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 480.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 80 g (Boron) \n Fe: 480 g (Iron) \n Nb: 30 g (Niobium) \n Ti: 60 g (Titanium)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Iron: Local metal suppliers or hardware stores \n Niobium: Specialty metal suppliers or online sources \n Titanium: Metal suppliers or online vendors specializing in titanium",
+      "steps": [
+        "Boron: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Iron: Local metal suppliers or hardware stores",
+        "Niobium: Specialty metal suppliers or online sources",
+        "Titanium: Metal suppliers or online vendors specializing in titanium"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component precisely using a digital scale.",
+        "2. In a clean, dry mixing container, add 80 g of Boron.",
+        "3. Add 480 g of Iron to the container.",
+        "4. Add 30 g of Niobium to the mixture.",
+        "5. Finally, add 60 g of Titanium.",
+        "6. Use a mechanical mixer or a mortar and pestle to ensure uniform mixing of the powders for at least 10 minutes."
+      ],
+      "raw_text": "1. Weigh each component precisely using a digital scale. \n 2. In a clean, dry mixing container, add 80 g of Boron. \n 3. Add 480 g of Iron to the container. \n 4. Add 30 g of Niobium to the mixture. \n 5. Finally, add 60 g of Titanium. \n 6. Use a mechanical mixer or a mortar and pestle to ensure uniform mixing of the powders for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to ensure complete reaction and sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder into a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to ensure complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. Sand the surfaces of the sample to achieve a smooth finish, ensuring all dimensions are accurate.",
+        "4. If desired, apply a sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. Sand the surfaces of the sample to achieve a smooth finish, ensuring all dimensions are accurate. \n 4. If desired, apply a sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2226344.0,
+      "density": 76377.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1743848.0,
+      "formation_energy_per_atom": -4488.0,
+      "decomposition_energy_per_atom": -204.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -99.0,
+      "decomposition_energy_mp": -204.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1c90aa38ea",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:53.135326Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Fe10Nb3Ti3.json",
+      "material://B4Fe10Nb3Ti3"
+    ]
+  }
+}

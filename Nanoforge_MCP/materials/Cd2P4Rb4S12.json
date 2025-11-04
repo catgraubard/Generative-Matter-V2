@@ -1,0 +1,131 @@
+{
+  "id": "Cd2P4Rb4S12",
+  "uri": "material://Cd2P4Rb4S12",
+  "composition": {
+    "formula": "Cd2P4Rb4S12",
+    "elements": {
+      "Cd": 2,
+      "P": 4,
+      "Rb": 4,
+      "S": 12
+    },
+    "reduced_formula": "Rb2Cd(PS3)2",
+    "element_list": [
+      "P",
+      "S",
+      "Rb",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 42.0,
+          "unit": "g"
+        },
+        {
+          "element": "Be",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ge",
+          "amount": 66.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 560.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 42.0 g (Boron) \n Be: 8.0 g (Beryllium) \n Ge: 66.0 g (Germanium) \n Ni: 560.0 g (Nickel)"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores or online chemical retailers. \n Be: Specialized metal suppliers or online sources (ensure proper handling due to toxicity). \n Ge: Semiconductor material suppliers or online material distributors. \n Ni: Metal suppliers or general hardware stores.",
+      "steps": [
+        "B: Chemical supply stores or online chemical retailers.",
+        "Be: Specialized metal suppliers or online sources (ensure proper handling due to toxicity).",
+        "Ge: Semiconductor material suppliers or online material distributors.",
+        "Ni: Metal suppliers or general hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine Boron, Beryllium, Germanium, and Nickel in the specified amounts.",
+        "3. Use a mechanical mixer to blend the powders thoroughly for 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Measure out each ingredient using a precision scale. \n 2. In a clean, dry container, combine Boron, Beryllium, Germanium, and Nickel in the specified amounts. \n 3. Use a mechanical mixer to blend the powders thoroughly for 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a graphite crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1200°C at a rate of 10°C/min and maintain this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a graphite crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 1200°C at a rate of 10°C/min and maintain this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible using a non-reactive tool.",
+        "2. Inspect for any surface imperfections and use fine-grit sandpaper to smooth the surface if necessary.",
+        "3. Optionally, apply a protective sealant for durability and enhanced surface finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible using a non-reactive tool. \n 2. Inspect for any surface imperfections and use fine-grit sandpaper to smooth the surface if necessary. \n 3. Optionally, apply a protective sealant for durability and enhanced surface finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 6255862.0,
+      "density": 28544.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -990496.0,
+      "formation_energy_per_atom": -9996.0,
+      "decomposition_energy_per_atom": -272.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -276.0,
+      "decomposition_energy_mp": -278.0,
+      "decomposition_energy_mp_oqmd": -276.0
+    },
+    "electronic": {
+      "bandgap": 2.7685,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e5806b48a4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.076221Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd2P4Rb4S12.json",
+      "material://Cd2P4Rb4S12"
+    ]
+  }
+}

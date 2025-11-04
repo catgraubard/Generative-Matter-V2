@@ -1,0 +1,113 @@
+{
+  "id": "Ba6Fe2O13Tm2",
+  "uri": "material://Ba6Fe2O13Tm2",
+  "composition": {
+    "formula": "Ba6Fe2O13Tm2",
+    "elements": {
+      "Ba": 6,
+      "Fe": 2,
+      "O": 13,
+      "Tm": 2
+    },
+    "reduced_formula": "Ba6Tm2Fe2O13",
+    "element_list": [
+      "O",
+      "Fe",
+      "Ba",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 1.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 1.2 g, Na: 0.8 g, S: 10.4 g, Sn: 4.0 g (Total: 16.4 g)"
+    },
+    "sourcing": {
+      "instructions": "Li: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Na: Obtain from a metal supplier; S: Buy from a laboratory supplier; Sn: Source from an electronics supplier (e.g., Digi-Key)",
+      "steps": [
+        "Li: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Na: Obtain from a metal supplier; S: Buy from a laboratory supplier; Sn: Source from an electronics supplier (e.g., Digi-Key)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.2 g of lithium (Li) and place in a clean, dry container.",
+        "2. Measure 0.8 g of sodium (Na) and add to the container.",
+        "3. Add 10.4 g of sulfur (S) to the mixture.",
+        "4. Finally, weigh 4.0 g of tin (Sn) and incorporate into the mixture.",
+        "5. Mix the powders thoroughly using a mortar and pestle until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 1.2 g of lithium (Li) and place in a clean, dry container. \n 2. Measure 0.8 g of sodium (Na) and add to the container. \n 3. Add 10.4 g of sulfur (S) to the mixture. \n 4. Finally, weigh 4.0 g of tin (Sn) and incorporate into the mixture. \n 5. Mix the powders thoroughly using a mortar and pestle until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 300,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat the crucible in a furnace at 300°C for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Heat the crucible in a furnace at 300°C for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool gradually in the furnace to room temperature over 6 hours to avoid thermal shock.",
+        "2. Once at room temperature, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool gradually in the furnace to room temperature over 6 hours to avoid thermal shock. \n 2. Once at room temperature, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample carefully from the crucible.",
+        "2. If needed, sand the edges of the sample to achieve smooth dimensions.",
+        "3. Optionally, seal the sample with a protective coating suitable for sulfide compounds to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample carefully from the crucible. \n 2. If needed, sand the edges of the sample to achieve smooth dimensions. \n 3. Optionally, seal the sample with a protective coating suitable for sulfide compounds to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 23,
+      "volume": 3793008.0,
+      "density": 64859.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1677483.0,
+      "formation_energy_per_atom": -28704.0,
+      "decomposition_energy_per_atom": -291.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -297.0,
+      "decomposition_energy_mp_oqmd": -216.0
+    },
+    "electronic": {
+      "bandgap": 0.1403,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9ac2341a2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.227864Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba6Fe2O13Tm2.json",
+      "material://Ba6Fe2O13Tm2"
+    ]
+  }
+}

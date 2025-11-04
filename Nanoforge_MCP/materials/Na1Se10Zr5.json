@@ -1,0 +1,124 @@
+{
+  "id": "Na1Se10Zr5",
+  "uri": "material://Na1Se10Zr5",
+  "composition": {
+    "formula": "Na1Se10Zr5",
+    "elements": {
+      "Na": 1,
+      "Se": 10,
+      "Zr": 5
+    },
+    "reduced_formula": "Na(ZrSe2)5",
+    "element_list": [
+      "Na",
+      "Se",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Na",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 35.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na: 15.00 g \n Se: 100.00 g \n Zr: 35.00 g"
+    },
+    "sourcing": {
+      "instructions": "Na (Sodium): Purchase from a chemical supply store or online supplier specializing in laboratory-grade chemicals. \n Se (Selenium): Obtain from a chemical supplier or online source. \n Zr (Zirconium): Available at metal suppliers or online chemical retailers.",
+      "steps": [
+        "Na (Sodium): Purchase from a chemical supply store or online supplier specializing in laboratory-grade chemicals.",
+        "Se (Selenium): Obtain from a chemical supplier or online source.",
+        "Zr (Zirconium): Available at metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 15.00 g of Na using a precise digital scale.",
+        "2. Measure 100.00 g of Se and 35.00 g of Zr.",
+        "3. In a clean, dry container, combine Na, Se, and Zr thoroughly using a spatula to ensure even distribution.",
+        "4. Transfer the mixture to a high-purity alumina crucible for heating."
+      ],
+      "raw_text": "1. In a fume hood, measure 15.00 g of Na using a precise digital scale. \n 2. Measure 100.00 g of Se and 35.00 g of Zr. \n 3. In a clean, dry container, combine Na, Se, and Zr thoroughly using a spatula to ensure even distribution. \n 4. Transfer the mixture to a high-purity alumina crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Set the furnace temperature to 800°C.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of Na1Se10Zr5."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Set the furnace temperature to 800°C. \n 3. Heat for 4 hours to ensure complete reaction and formation of Na1Se10Zr5."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature (approximately 25°C) naturally without opening the door.",
+        "2. This cooling process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature (approximately 25°C) naturally without opening the door. \n 2. This cooling process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Allow the sample to rest for an additional hour at room temperature.",
+        "3. If necessary, grind the solid sample to achieve a uniform texture.",
+        "4. Optionally, seal the sample with a clear epoxy resin for protection against moisture."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Allow the sample to rest for an additional hour at room temperature. \n 3. If necessary, grind the solid sample to achieve a uniform texture. \n 4. Optionally, seal the sample with a clear epoxy resin for protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4644685.0,
+      "density": 45358.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1053621.0,
+      "formation_energy_per_atom": -16464.0,
+      "decomposition_energy_per_atom": -25.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -237.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6a382bc1c4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:34.554722Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na1Se10Zr5.json",
+      "material://Na1Se10Zr5"
+    ]
+  }
+}

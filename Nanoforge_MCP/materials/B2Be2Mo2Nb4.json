@@ -1,0 +1,113 @@
+{
+  "id": "B2Be2Mo2Nb4",
+  "uri": "material://B2Be2Mo2Nb4",
+  "composition": {
+    "formula": "B2Be2Mo2Nb4",
+    "elements": {
+      "B": 2,
+      "Be": 2,
+      "Mo": 2,
+      "Nb": 4
+    },
+    "reduced_formula": "BeNb2BMo",
+    "element_list": [
+      "Be",
+      "B",
+      "Nb",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 40 g, Cu: 60 g, Nd: 20 g, Sb: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Ce: Rare earth supplier, Cu: Metal supply stores, Nd: Rare earth supplier, Sb: Chemical supply stores",
+      "steps": [
+        "Ce: Rare earth supplier, Cu: Metal supply stores, Nd: Rare earth supplier, Sb: Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry container, combine Ce, Cu, Nd, and Sb.",
+        "3. Stir the mixture thoroughly with a spatula for 5 minutes to ensure even distribution.",
+        "4. Transfer the mixture to a mortar and grind it with a pestle for an additional 5 minutes."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry container, combine Ce, Cu, Nd, and Sb. \n 3. Stir the mixture thoroughly with a spatula for 5 minutes to ensure even distribution. \n 4. Transfer the mixture to a mortar and grind it with a pestle for an additional 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the ground mixture into a crucible.",
+        "3. Heat the crucible for 2 hours at 1200°C in the furnace to promote alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the ground mixture into a crucible. \n 3. Heat the crucible for 2 hours at 1200°C in the furnace to promote alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any surface imperfections.",
+        "2. If needed, sand the surfaces lightly with 400-grit sandpaper for a smooth finish.",
+        "3. Optionally, apply a sealant to enhance durability, following the manufacturer’s instructions."
+      ],
+      "raw_text": "1. Inspect the solid sample for any surface imperfections. \n 2. If needed, sand the surfaces lightly with 400-grit sandpaper for a smooth finish. \n 3. Optionally, apply a sealant to enhance durability, following the manufacturer’s instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1298708.0,
+      "density": 77119.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -875149.0,
+      "formation_energy_per_atom": -4581.0,
+      "decomposition_energy_per_atom": -314.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -74.0,
+      "decomposition_energy_mp": -314.0,
+      "decomposition_energy_mp_oqmd": -237.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cc406d0c69",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.365423Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Be2Mo2Nb4.json",
+      "material://B2Be2Mo2Nb4"
+    ]
+  }
+}

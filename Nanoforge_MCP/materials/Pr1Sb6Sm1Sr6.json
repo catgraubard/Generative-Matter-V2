@@ -1,0 +1,114 @@
+{
+  "id": "Pr1Sb6Sm1Sr6",
+  "uri": "material://Pr1Sb6Sm1Sr6",
+  "composition": {
+    "formula": "Pr1Sb6Sm1Sr6",
+    "elements": {
+      "Pr": 1,
+      "Sb": 6,
+      "Sm": 1,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr6PrSmSb6",
+    "element_list": [
+      "Sr",
+      "Sb",
+      "Pr",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.0 g, Mn: 2.0 g, S: 3.0 g (total: 6.0 g). Note: Scale up by a factor to fill desired dimensions. For a 3 in x 2 in x 7 in sample, approximately 1500 g total is needed, yielding 1.0 g Cs, 2.0 g Mn, 3.0 g S per 6.0 g of the compound. Hence, Cs: 250 g, Mn: 500 g, S: 750 g."
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Obtain from chemical supply companies like Sigma-Aldrich or similar. Mn (Manganese): Available from metal suppliers or chemical suppliers. S (Sulfur): Purchase from local chemical suppliers or online platforms like Amazon.",
+      "steps": [
+        "Cs (Cesium): Obtain from chemical supply companies like Sigma-Aldrich or similar. Mn (Manganese): Available from metal suppliers or chemical suppliers. S (Sulfur): Purchase from local chemical suppliers or online platforms like Amazon."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 250 g of Cs, 500 g of Mn, and 750 g of S using an analytical balance.",
+        "2. Grind the Cs, Mn, and S in a mortar and pestle until a fine powder is achieved.",
+        "3. Combine the powdered materials in a ceramic or glass mixing container.",
+        "4. Mix thoroughly to ensure a uniform distribution of particles."
+      ],
+      "raw_text": "1. Measure 250 g of Cs, 500 g of Mn, and 750 g of S using an analytical balance. \n 2. Grind the Cs, Mn, and S in a mortar and pestle until a fine powder is achieved. \n 3. Combine the powdered materials in a ceramic or glass mixing container. \n 4. Mix thoroughly to ensure a uniform distribution of particles."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Transfer the mixed powder into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, allow the furnace to cool naturally to room temperature (approximately 4 hours).",
+        "2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. After heating, allow the furnace to cool naturally to room temperature (approximately 4 hours). \n 2. Once cooled, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the solidified sample lightly to break any large aggregates.",
+        "2. Sieve the material through a mesh to obtain a uniform particle size.",
+        "3. Optionally, seal the material in an airtight container to prevent oxidation.",
+        "4. If necessary, sand the edges of the sample to achieve a smoother finish."
+      ],
+      "raw_text": "1. Crush the solidified sample lightly to break any large aggregates. \n 2. Sieve the material through a mesh to obtain a uniform particle size. \n 3. Optionally, seal the material in an airtight container to prevent oxidation. \n 4. If necessary, sand the edges of the sample to achieve a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 4849039.0,
+      "density": 52995.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -606568.0,
+      "formation_energy_per_atom": -11605.0,
+      "decomposition_energy_per_atom": -331.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -331.0,
+      "decomposition_energy_mp_oqmd": -324.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af29e2dc62",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.754819Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Pr1Sb6Sm1Sr6.json",
+      "material://Pr1Sb6Sm1Sr6"
+    ]
+  }
+}

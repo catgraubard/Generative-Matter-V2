@@ -1,0 +1,115 @@
+{
+  "id": "Bi2Er2Tm8Zn4",
+  "uri": "material://Bi2Er2Tm8Zn4",
+  "composition": {
+    "formula": "Bi2Er2Tm8Zn4",
+    "elements": {
+      "Bi": 2,
+      "Er": 2,
+      "Tm": 8,
+      "Zn": 4
+    },
+    "reduced_formula": "ErTm4Zn2Bi",
+    "element_list": [
+      "Zn",
+      "Er",
+      "Tm",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 320 g, La: 80 g, Mo: 640 g, Nd: 240 g, O: 1280 g (total: 2560 g)"
+    },
+    "sourcing": {
+      "instructions": "Cu: Copper metal from a metal supplier, La: Lanthanum oxide from a chemical supplier, Mo: Molybdenum powder from a metal powder supplier, Nd: Neodymium oxide from a chemical supplier, O: Oxygen source can be derived from high-purity oxygen gas or as part of the synthesis process.",
+      "steps": [
+        "Cu: Copper metal from a metal supplier, La: Lanthanum oxide from a chemical supplier, Mo: Molybdenum powder from a metal powder supplier, Nd: Neodymium oxide from a chemical supplier, O: Oxygen source can be derived from high-purity oxygen gas or as part of the synthesis process."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. In a clean ceramic container, add 320 g of Cu, 80 g of La, 640 g of Mo, and 240 g of Nd.",
+        "3. Gradually add 1280 g of O while stirring continuously to form a homogeneous mixture.",
+        "4. Mix thoroughly until a uniform powder is obtained, ensuring no clumps remain."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance. \n 2. In a clean ceramic container, add 320 g of Cu, 80 g of La, 640 g of Mo, and 240 g of Nd. \n 3. Gradually add 1280 g of O while stirring continuously to form a homogeneous mixture. \n 4. Mix thoroughly until a uniform powder is obtained, ensuring no clumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature furnace.",
+        "2. Heat the mixture gradually to 1000°C at a rate of 5°C per minute.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature furnace. \n 2. Heat the mixture gradually to 1000°C at a rate of 5°C per minute. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally.",
+        "2. Ensure the furnace cools to room temperature (approximately 25°C) before removing the material.",
+        "3. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally. \n 2. Ensure the furnace cools to room temperature (approximately 25°C) before removing the material. \n 3. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a diamond saw to cut the material into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the surfaces to achieve a smooth finish and remove any sharp edges.",
+        "4. Optionally, apply a sealant if required for protection against environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a diamond saw to cut the material into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the surfaces to achieve a smooth finish and remove any sharp edges. \n 4. Optionally, apply a sealant if required for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4131852.0,
+      "density": 9507.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -641873.0,
+      "formation_energy_per_atom": -4016.0,
+      "decomposition_energy_per_atom": -117.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -117.0,
+      "decomposition_energy_mp_oqmd": -95.0
+    },
+    "electronic": {
+      "bandgap": 0.0139,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b7fc02ce28",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.685680Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi2Er2Tm8Zn4.json",
+      "material://Bi2Er2Tm8Zn4"
+    ]
+  }
+}

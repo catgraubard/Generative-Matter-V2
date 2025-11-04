@@ -1,0 +1,122 @@
+{
+  "id": "Rb16Si15Sn1",
+  "uri": "material://Rb16Si15Sn1",
+  "composition": {
+    "formula": "Rb16Si15Sn1",
+    "elements": {
+      "Rb": 16,
+      "Si": 15,
+      "Sn": 1
+    },
+    "reduced_formula": "Rb16Si15Sn",
+    "element_list": [
+      "Si",
+      "Rb",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 16 g\nSi: 15 g\nSn: 1 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Obtain from a chemical supplier specializing in alkali metals.\nSi: Purchase from a semiconductor material supplier or chemical reagent supplier.\nSn: Acquire from a metal supplier or electronics store.",
+      "steps": [
+        "Rb: Obtain from a chemical supplier specializing in alkali metals.",
+        "Si: Purchase from a semiconductor material supplier or chemical reagent supplier.",
+        "Sn: Acquire from a metal supplier or electronics store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Carefully weigh out 16 g of Rb using an analytical balance.",
+        "2. Weigh 15 g of Si and 1 g of Sn using the same balance.",
+        "3. In a fume hood, combine Rb, Si, and Sn in a clean, dry glass container.",
+        "4. Stir the mixture thoroughly using a glass rod to ensure uniform distribution of materials."
+      ],
+      "raw_text": "1. Carefully weigh out 16 g of Rb using an analytical balance.\n2. Weigh 15 g of Si and 1 g of Sn using the same balance.\n3. In a fume hood, combine Rb, Si, and Sn in a clean, dry glass container. \n4. Stir the mixture thoroughly using a glass rod to ensure uniform distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 600°C (1112°F).",
+        "2. Place the glass container with the mixture into the furnace once it reaches the desired temperature.",
+        "3. Maintain the temperature for 2 hours to allow for complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 600°C (1112°F).\n2. Place the glass container with the mixture into the furnace once it reaches the desired temperature.\n3. Maintain the temperature for 2 hours to allow for complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 20°C or 68°F).",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 20°C or 68°F). \n2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. If the surface is rough, use sandpaper (grit 400) to smooth the edges and surfaces of the sample.",
+        "3. Optionally, apply a protective sealant to enhance durability and reduce oxidation if necessary."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace.\n2. If the surface is rough, use sandpaper (grit 400) to smooth the edges and surfaces of the sample.\n3. Optionally, apply a protective sealant to enhance durability and reduce oxidation if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 11188215.0,
+      "density": 28311.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1020689.0,
+      "formation_energy_per_atom": -31.0,
+      "decomposition_energy_per_atom": -88.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -81.0,
+      "decomposition_energy_mp": -83.0,
+      "decomposition_energy_mp_oqmd": -81.0
+    },
+    "electronic": {
+      "bandgap": 1.0911,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6e0bf0a2a6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:39.595328Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb16Si15Sn1.json",
+      "material://Rb16Si15Sn1"
+    ]
+  }
+}

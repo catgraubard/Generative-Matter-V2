@@ -1,0 +1,132 @@
+{
+  "id": "Fe6Mn6Si16Zr8",
+  "uri": "material://Fe6Mn6Si16Zr8",
+  "composition": {
+    "formula": "Fe6Mn6Si16Zr8",
+    "elements": {
+      "Fe": 6,
+      "Mn": 6,
+      "Si": 16,
+      "Zr": 8
+    },
+    "reduced_formula": "Zr4Mn3Fe3Si8",
+    "element_list": [
+      "Si",
+      "Mn",
+      "Fe",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 320.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 180 g \n Mn: 120 g \n Si: 320 g \n Zr: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Local metal supply store or online retailer. \n Mn: Specialty chemical supply store or online. \n Si: Silicon suppliers or electronics components store. \n Zr: Metal supply store or online chemical supplier.",
+      "steps": [
+        "Fe: Local metal supply store or online retailer.",
+        "Mn: Specialty chemical supply store or online.",
+        "Si: Silicon suppliers or electronics components store.",
+        "Zr: Metal supply store or online chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a precision scale.",
+        "2. Combine Fe, Mn, Si, and Zr in a large, clean mixing bowl.",
+        "3. Mix thoroughly using a mechanical mixer to ensure homogeneity, approximately 10 minutes.",
+        "4. Transfer the blended mixture into a mold that matches the dimensions of 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Weigh each material accurately using a precision scale. \n 2. Combine Fe, Mn, Si, and Zr in a large, clean mixing bowl. \n 3. Mix thoroughly using a mechanical mixer to ensure homogeneity, approximately 10 minutes. \n 4. Transfer the blended mixture into a mold that matches the dimensions of 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1500°C.",
+        "2. Place the mold with the material mixture in the furnace.",
+        "3. Heat for 2 hours to allow for proper melting and mixing of components."
+      ],
+      "raw_text": "1. Preheat the furnace to 1500°C. \n 2. Place the mold with the material mixture in the furnace. \n 3. Heat for 2 hours to allow for proper melting and mixing of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the material to cool slowly inside the furnace for 4 hours.",
+        "2. Once cooled, carefully remove the mold from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the material to cool slowly inside the furnace for 4 hours. \n 2. Once cooled, carefully remove the mold from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold.",
+        "2. If necessary, use a grinder to achieve a smooth surface.",
+        "3. Seal the surface with a protective coating to prevent oxidation.",
+        "4. Allow the coating to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold. \n 2. If necessary, use a grinder to achieve a smooth surface. \n 3. Seal the surface with a protective coating to prevent oxidation. \n 4. Allow the coating to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4947828.0,
+      "density": 61882.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2854878.0,
+      "formation_energy_per_atom": -6808.0,
+      "decomposition_energy_per_atom": -357.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -114.0,
+      "decomposition_energy_mp": -347.0,
+      "decomposition_energy_mp_oqmd": -288.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "17ca51732f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:46.799345Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe6Mn6Si16Zr8.json",
+      "material://Fe6Mn6Si16Zr8"
+    ]
+  }
+}

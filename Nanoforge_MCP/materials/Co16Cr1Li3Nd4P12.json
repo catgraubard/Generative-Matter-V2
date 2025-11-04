@@ -1,0 +1,114 @@
+{
+  "id": "Co16Cr1Li3Nd4P12",
+  "uri": "material://Co16Cr1Li3Nd4P12",
+  "composition": {
+    "formula": "Co16Cr1Li3Nd4P12",
+    "elements": {
+      "Co": 16,
+      "Cr": 1,
+      "Li": 3,
+      "Nd": 4,
+      "P": 12
+    },
+    "reduced_formula": "Li3Nd4Cr(Co4P3)4",
+    "element_list": [
+      "Li",
+      "P",
+      "Cr",
+      "Co",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 6.00 g, Bi: 12.00 g, Cd: 4.00 g (Total: 22.00 g)"
+    },
+    "sourcing": {
+      "instructions": "Ac (Acetylene): Chemical supply stores or online chemical suppliers; Bi (Bismuth): Metal suppliers; Cd (Cadmium): Metal suppliers or chemical supply stores.",
+      "steps": [
+        "Ac (Acetylene): Chemical supply stores or online chemical suppliers; Bi (Bismuth): Metal suppliers; Cd (Cadmium): Metal suppliers or chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 6.00 g of Ac using a precision scale.",
+        "2. Measure 12.00 g of Bi and 4.00 g of Cd using the same scale.",
+        "3. In a clean, dry container, combine all materials thoroughly. Ensure uniform mixing to achieve consistent composition."
+      ],
+      "raw_text": "1. Measure 6.00 g of Ac using a precision scale. \n 2. Measure 12.00 g of Bi and 4.00 g of Cd using the same scale. \n 3. In a clean, dry container, combine all materials thoroughly. Ensure uniform mixing to achieve consistent composition."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to a temperature of 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and homogenization of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to a temperature of 800°C. \n 3. Maintain this temperature for 2 hours to ensure complete melting and homogenization of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Slowly remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the crucible to cool down to room temperature naturally, approximately 2-3 hours. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Slowly remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the crucible to cool down to room temperature naturally, approximately 2-3 hours. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, use sandpaper (grit 400) to smooth any rough edges.",
+        "3. Seal the surface with a clear epoxy resin for stability and protection against oxidation. Allow the resin to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. If necessary, use sandpaper (grit 400) to smooth any rough edges. \n 3. Seal the surface with a clear epoxy resin for stability and protection against oxidation. Allow the resin to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4661854.0,
+      "density": 69971.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2425603.0,
+      "formation_energy_per_atom": -8171.0,
+      "decomposition_energy_per_atom": -236.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -236.0,
+      "decomposition_energy_mp_oqmd": -197.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "df57af6035",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.542506Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Cr1Li3Nd4P12.json",
+      "material://Co16Cr1Li3Nd4P12"
+    ]
+  }
+}

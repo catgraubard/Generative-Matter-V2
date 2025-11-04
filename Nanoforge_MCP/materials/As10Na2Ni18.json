@@ -1,0 +1,124 @@
+{
+  "id": "As10Na2Ni18",
+  "uri": "material://As10Na2Ni18",
+  "composition": {
+    "formula": "As10Na2Ni18",
+    "elements": {
+      "As": 10,
+      "Na": 2,
+      "Ni": 18
+    },
+    "reduced_formula": "NaNi9As5",
+    "element_list": [
+      "Na",
+      "Ni",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10 g \n Na: 2 g \n Ni: 18 g \n Total: 30 g"
+    },
+    "sourcing": {
+      "instructions": "As (Arsenic): Obtain from chemical supply companies or specialized labs. \n Na (Sodium): Available at chemical suppliers or online marketplaces. \n Ni (Nickel): Acquire from metal suppliers or chemical distributors.",
+      "steps": [
+        "As (Arsenic): Obtain from chemical supply companies or specialized labs.",
+        "Na (Sodium): Available at chemical suppliers or online marketplaces.",
+        "Ni (Nickel): Acquire from metal suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, gather all materials.",
+        "2. Weigh out 10 g of arsenic, 2 g of sodium, and 18 g of nickel using an analytical balance.",
+        "3. In a fume hood, combine the ingredients in a ceramic or glass mixing container.",
+        "4. Mix thoroughly using a non-reactive spatula until a uniform blend is achieved."
+      ],
+      "raw_text": "1. In a clean, dry environment, gather all materials. \n 2. Weigh out 10 g of arsenic, 2 g of sodium, and 18 g of nickel using an analytical balance. \n 3. In a fume hood, combine the ingredients in a ceramic or glass mixing container. \n 4. Mix thoroughly using a non-reactive spatula until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800 °C.",
+        "2. Transfer the mixed materials into a suitable crucible.",
+        "3. Place the crucible in the furnace and heat for 2 hours to ensure complete reaction and formation of the solid sample."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C. \n 2. Transfer the mixed materials into a suitable crucible. \n 3. Place the crucible in the furnace and heat for 2 hours to ensure complete reaction and formation of the solid sample."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace while it is still hot to prevent oxidation or contamination."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace while it is still hot to prevent oxidation or contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid material using appropriate safety equipment (gloves, goggles).",
+        "3. If needed, grind the solid sample to achieve a finer consistency.",
+        "4. Optionally, seal the sample in a suitable container to prevent oxidation and degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid material using appropriate safety equipment (gloves, goggles). \n 3. If needed, grind the solid sample to achieve a finer consistency. \n 4. Optionally, seal the sample in a suitable container to prevent oxidation and degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4379443.0,
+      "density": 70209.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1625228.0,
+      "formation_energy_per_atom": -3081.0,
+      "decomposition_energy_per_atom": -27.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -27.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": 0.0063,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8664c096a6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:11.892032Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As10Na2Ni18.json",
+      "material://As10Na2Ni18"
+    ]
+  }
+}

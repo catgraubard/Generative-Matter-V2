@@ -1,0 +1,119 @@
+{
+  "id": "Li2O16Te4Y2",
+  "uri": "material://Li2O16Te4Y2",
+  "composition": {
+    "formula": "Li2O16Te4Y2",
+    "elements": {
+      "Li": 2,
+      "O": 16,
+      "Te": 4,
+      "Y": 2
+    },
+    "reduced_formula": "LiY(TeO4)2",
+    "element_list": [
+      "Li",
+      "O",
+      "Y",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Te",
+          "amount": 104.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 39.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2O:  32.00 g \n Te:  104.00 g \n Y:  39.00 g \n Total: 175.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Li2O: Purchase from a chemical supplier or online store specializing in ceramics. \n - Te: Obtain from a materials supplier or online chemical vendor. \n - Y: Available from chemical supply companies or online marketplaces.",
+      "steps": [
+        "- Li2O: Purchase from a chemical supplier or online store specializing in ceramics.",
+        "- Te: Obtain from a materials supplier or online chemical vendor.",
+        "- Y: Available from chemical supply companies or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 32.00 g of Li2O, 104.00 g of Te, and 39.00 g of Y using an analytical balance.",
+        "2. Place the Li2O, Te, and Y in a clean, dry ceramic mixing bowl.",
+        "3. Use a pestle and mortar or a mechanical mixer to thoroughly mix the powders until a homogenous mixture is achieved.",
+        "4. Ensure there are no lumps and the mixture has a uniform color and texture."
+      ],
+      "raw_text": "1. Measure out 32.00 g of Li2O, 104.00 g of Te, and 39.00 g of Y using an analytical balance. \n 2. Place the Li2O, Te, and Y in a clean, dry ceramic mixing bowl. \n 3. Use a pestle and mortar or a mechanical mixer to thoroughly mix the powders until a homogenous mixture is achieved. \n 4. Ensure there are no lumps and the mixture has a uniform color and texture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Transfer the mixed powder into a suitable crucible (preferably alumina).",
+        "3. Place the crucible in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Transfer the mixed powder into a suitable crucible (preferably alumina). \n 3. Place the crucible in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible carefully and extract the solid sample.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges of the solid sample.",
+        "3. If desired, apply a sealant to enhance durability and appearance. Allow the sealant to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible carefully and extract the solid sample. \n 2. Use a fine-grit sandpaper to smooth any rough edges of the solid sample. \n 3. If desired, apply a sealant to enhance durability and appearance. Allow the sealant to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3090772.0,
+      "density": 51474.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/c",
+      "space_group_number": 13,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1600194.0,
+      "formation_energy_per_atom": -2147.0,
+      "decomposition_energy_per_atom": -36.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 2.0074,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7b9dbd8a12",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:57.537679Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2O16Te4Y2.json",
+      "material://Li2O16Te4Y2"
+    ]
+  }
+}

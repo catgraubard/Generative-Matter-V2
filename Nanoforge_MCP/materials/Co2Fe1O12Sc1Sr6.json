@@ -1,0 +1,116 @@
+{
+  "id": "Co2Fe1O12Sc1Sr6",
+  "uri": "material://Co2Fe1O12Sc1Sr6",
+  "composition": {
+    "formula": "Co2Fe1O12Sc1Sr6",
+    "elements": {
+      "Co": 2,
+      "Fe": 1,
+      "O": 12,
+      "Sc": 1,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr6ScFe(CoO6)2",
+    "element_list": [
+      "O",
+      "Sc",
+      "Fe",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 35.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 35.00 g, Fe: 18.00 g, O: 24.00 g, Sc: 1.00 g, Sr: 60.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt oxide): Chemical supply store; Fe (Iron oxide): Chemical supply store; O (Oxygen source, e.g., metal oxides): Chemical supply store; Sc (Scandium oxide): Specialized chemical supplier; Sr (Strontium carbonate): Chemical supply store.",
+      "steps": [
+        "Co (Cobalt oxide): Chemical supply store; Fe (Iron oxide): Chemical supply store; O (Oxygen source, e.g., metal oxides): Chemical supply store; Sc (Scandium oxide): Specialized chemical supplier; Sr (Strontium carbonate): Chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure and weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean and dry ceramic mortar, combine Co, Fe, O, Sc, and Sr.",
+        "3. Use a pestle to grind the mixture thoroughly until a homogeneous powder is achieved.",
+        "4. Transfer the mixture to a clean, dry mixing container."
+      ],
+      "raw_text": "1. Measure and weigh each ingredient precisely using an analytical balance. \n 2. In a clean and dry ceramic mortar, combine Co, Fe, O, Sc, and Sr. \n 3. Use a pestle to grind the mixture thoroughly until a homogeneous powder is achieved. \n 4. Transfer the mixture to a clean, dry mixing container."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a muffle furnace to 1200 °C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the crucible in the muffle furnace for 6 hours to ensure complete reaction and sintering of the materials."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1200 °C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the crucible in the muffle furnace for 6 hours to ensure complete reaction and sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has reached a safe temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has reached a safe temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and extract the solid sample.",
+        "2. Inspect the sample for uniformity and structural integrity.",
+        "3. If required, use a diamond file to smooth out any rough edges.",
+        "4. Optionally, seal the sample with a protective coating suitable for the application."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and extract the solid sample. \n 2. Inspect the sample for uniformity and structural integrity. \n 3. If required, use a diamond file to smooth out any rough edges. \n 4. Optionally, seal the sample with a protective coating suitable for the application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2913381.0,
+      "density": 53371.0,
+      "crystal_system": "trigonal",
+      "space_group": "R32",
+      "space_group_number": 155,
+      "point_group": "32",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1580483.0,
+      "formation_energy_per_atom": -27053.0,
+      "decomposition_energy_per_atom": -407.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -413.0,
+      "decomposition_energy_mp_oqmd": -383.0
+    },
+    "electronic": {
+      "bandgap": 2.4455,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "957b6fafbe",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:32.177893Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe1O12Sc1Sr6.json",
+      "material://Co2Fe1O12Sc1Sr6"
+    ]
+  }
+}

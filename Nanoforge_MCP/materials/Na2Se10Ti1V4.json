@@ -1,0 +1,123 @@
+{
+  "id": "Na2Se10Ti1V4",
+  "uri": "material://Na2Se10Ti1V4",
+  "composition": {
+    "formula": "Na2Se10Ti1V4",
+    "elements": {
+      "Na": 2,
+      "Se": 10,
+      "Ti": 1,
+      "V": 4
+    },
+    "reduced_formula": "Na2Ti(V2Se5)2",
+    "element_list": [
+      "Na",
+      "Ti",
+      "V",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ti",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na2Se10: 90.0 g \n Ti: 5.0 g \n V: 20.0 g \n Binder (e.g., Polyvinyl Alcohol): 10.0 g \n Solvent (e.g., Ethanol): 50.0 g"
+    },
+    "sourcing": {
+      "instructions": "Na2Se10: Chemical supply stores or online chemical suppliers \n Ti: Metal supply stores or online suppliers \n V: Chemical supply stores or online chemical suppliers \n Binder: Craft stores or online suppliers \n Solvent: Chemical supply stores or online suppliers",
+      "steps": [
+        "Na2Se10: Chemical supply stores or online chemical suppliers",
+        "Ti: Metal supply stores or online suppliers",
+        "V: Chemical supply stores or online chemical suppliers",
+        "Binder: Craft stores or online suppliers",
+        "Solvent: Chemical supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 90.0 g of Na2Se10, 5.0 g of titanium powder, and 20.0 g of vanadium powder using a digital scale.",
+        "2. In a glass beaker, combine the Na2Se10, Ti, and V powders.",
+        "3. In a separate container, dissolve 10.0 g of Polyvinyl Alcohol in 50.0 g of ethanol.",
+        "4. Slowly add the binder solution to the powder mixture while stirring continuously to prevent clumping.",
+        "5. Mix thoroughly until a uniform paste is formed."
+      ],
+      "raw_text": "1. Measure out 90.0 g of Na2Se10, 5.0 g of titanium powder, and 20.0 g of vanadium powder using a digital scale. \n 2. In a glass beaker, combine the Na2Se10, Ti, and V powders. \n 3. In a separate container, dissolve 10.0 g of Polyvinyl Alcohol in 50.0 g of ethanol. \n 4. Slowly add the binder solution to the powder mixture while stirring continuously to prevent clumping. \n 5. Mix thoroughly until a uniform paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 400,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the oven to 400 °C.",
+        "2. Transfer the uniform paste into a mold of dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Place the mold in the preheated oven and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat the oven to 400 °C. \n 2. Transfer the uniform paste into a mold of dimensions 3 inches x 2 inches x 7 inches. \n 3. Place the mold in the preheated oven and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the oven and allow it to cool down to room temperature naturally (approximately 1-2 hours).",
+        "2. Do not open the oven door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the oven and allow it to cool down to room temperature naturally (approximately 1-2 hours). \n 2. Do not open the oven door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect for any rough edges and sand down using fine-grit sandpaper if necessary.",
+        "3. Optionally, seal the surface with a clear acrylic sealant to enhance durability. Allow the sealant to dry completely before use."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect for any rough edges and sand down using fine-grit sandpaper if necessary. \n 3. Optionally, seal the surface with a clear acrylic sealant to enhance durability. Allow the sealant to dry completely before use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4057148.0,
+      "density": 44498.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1015116.0,
+      "formation_energy_per_atom": -11574.0,
+      "decomposition_energy_per_atom": -173.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -173.0,
+      "decomposition_energy_mp_oqmd": -168.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0c151ae877",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:31.421474Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na2Se10Ti1V4.json",
+      "material://Na2Se10Ti1V4"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "O18P6Rb2Sr2",
+  "uri": "material://O18P6Rb2Sr2",
+  "composition": {
+    "formula": "O18P6Rb2Sr2",
+    "elements": {
+      "O": 18,
+      "P": 6,
+      "Rb": 2,
+      "Sr": 2
+    },
+    "reduced_formula": "RbSr(PO3)3",
+    "element_list": [
+      "O",
+      "P",
+      "Rb",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 18.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 18 g, P: 6 g, Rb: 2 g, Sr: 2 g"
+    },
+    "sourcing": {
+      "instructions": "O: Purchase from chemical supply stores, P: Available at laboratory suppliers, Rb: Online specialty chemical suppliers, Sr: Chemical supply companies",
+      "steps": [
+        "O: Purchase from chemical supply stores, P: Available at laboratory suppliers, Rb: Online specialty chemical suppliers, Sr: Chemical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 18 g of oxygen (O) using a precise scale."
+      ],
+      "raw_text": "1. Measure 18 g of oxygen (O) using a precise scale."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "steps": [
+        "1. Preheat a furnace or kiln to 800 °C."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 800 °C."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally, which may take 6-8 hours."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally, which may take 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled crucible from the furnace."
+      ],
+      "raw_text": "1. Remove the cooled crucible from the furnace."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4783713.0,
+      "density": 28464.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6c2",
+      "space_group_number": 188,
+      "point_group": "-6m2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2077587.0,
+      "formation_energy_per_atom": -28884.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -18.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 4.9642,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "25169692b0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:04.461071Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O18P6Rb2Sr2.json",
+      "material://O18P6Rb2Sr2"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "Ac1Ru8Si24Tm5",
+  "uri": "material://Ac1Ru8Si24Tm5",
+  "composition": {
+    "formula": "Ac1Ru8Si24Tm5",
+    "elements": {
+      "Ac": 1,
+      "Ru": 8,
+      "Si": 24,
+      "Tm": 5
+    },
+    "reduced_formula": "AcTm5(Si3Ru)8",
+    "element_list": [
+      "Si",
+      "Ru",
+      "Tm",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 8.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 10 g\nRu: 8 g\nSi: 240 g\nTm: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Ac (Acetylene): Chemical supply stores or online retailers.\nRu (Ruthenium Powder): Specialty metal suppliers or online marketplaces.\nSi (Silicon): Electronics stores or chemical suppliers.\nTm (Thulium Oxide): Rare earth metal suppliers or online chemical vendors.",
+      "steps": [
+        "Ac (Acetylene): Chemical supply stores or online retailers.",
+        "Ru (Ruthenium Powder): Specialty metal suppliers or online marketplaces.",
+        "Si (Silicon): Electronics stores or chemical suppliers.",
+        "Tm (Thulium Oxide): Rare earth metal suppliers or online chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry container, combine 10 g of Ac, 8 g of Ru, 240 g of Si, and 50 g of Tm.",
+        "3. Stir the mixture thoroughly with a non-reactive stirring rod for at least 5 minutes to ensure even distribution of components."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale.\n2. In a clean, dry container, combine 10 g of Ac, 8 g of Ru, 240 g of Si, and 50 g of Tm.\n3. Stir the mixture thoroughly with a non-reactive stirring rod for at least 5 minutes to ensure even distribution of components."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature crucible.",
+        "2. Heat the crucible in a furnace to 1200°C.",
+        "3. Maintain this temperature for 2 hours to facilitate proper bonding of materials."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature crucible.\n2. Heat the crucible in a furnace to 1200°C.\n3. Maintain this temperature for 2 hours to facilitate proper bonding of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has reached ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally.\n2. Do not open the furnace until it has reached ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw to trim the sample to the specified dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance durability if required."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n2. Use a diamond saw to trim the sample to the specified dimensions of 3 inches x 2 inches x 7 inches.\n3. Sand the edges with fine-grit sandpaper for a smooth finish.\n4. Optionally, apply a sealant to enhance durability if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 6186301.0,
+      "density": 68563.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2543155.0,
+      "formation_energy_per_atom": -6161.0,
+      "decomposition_energy_per_atom": -367.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -178.0,
+      "decomposition_energy_mp": -365.0,
+      "decomposition_energy_mp_oqmd": -365.0
+    },
+    "electronic": {
+      "bandgap": 0.0146,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "636a2f1d2d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:26.002337Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac1Ru8Si24Tm5.json",
+      "material://Ac1Ru8Si24Tm5"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Cu1Fe3Na1Sb12",
+  "uri": "material://Cu1Fe3Na1Sb12",
+  "composition": {
+    "formula": "Cu1Fe3Na1Sb12",
+    "elements": {
+      "Cu": 1,
+      "Fe": 3,
+      "Na": 1,
+      "Sb": 12
+    },
+    "reduced_formula": "NaFe3CuSb12",
+    "element_list": [
+      "Na",
+      "Fe",
+      "Cu",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper (Cu): 10.0 g \n Iron (Fe): 30.0 g \n Sodium (Na): 5.0 g \n Antimony (Sb): 120.0 g \n Total: 165.0 g (to account for density & volume)"
+    },
+    "sourcing": {
+      "instructions": "Copper: Local metal supplier or online metal store \n Iron: Local hardware store or online metal supplier \n Sodium: Chemical supply store \n Antimony: Specialty metal supplier or online chemical store",
+      "steps": [
+        "Copper: Local metal supplier or online metal store",
+        "Iron: Local hardware store or online metal supplier",
+        "Sodium: Chemical supply store",
+        "Antimony: Specialty metal supplier or online chemical store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine the measured amounts of Cu, Fe, Na, and Sb.",
+        "3. Mix thoroughly using a spatula or mixing rod to ensure a homogeneous mixture.",
+        "4. Transfer the mixture into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.\n 2. In a clean, dry container, combine the measured amounts of Cu, Fe, Na, and Sb.\n 3. Mix thoroughly using a spatula or mixing rod to ensure a homogeneous mixture.\n 4. Transfer the mixture into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C (1472°F).",
+        "2. Place the crucible with the mixture into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C (1472°F).\n 2. Place the crucible with the mixture into the furnace.\n 3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Do not remove the crucible until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C or 77°F).\n 2. Do not remove the crucible until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Sand the edges of the sample to remove any roughness.",
+        "3. If required, seal the surface with a suitable protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n 2. Sand the edges of the sample to remove any roughness.\n 3. If required, seal the surface with a suitable protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 3948126.0,
+      "density": 72139.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -841437.0,
+      "formation_energy_per_atom": -2214.0,
+      "decomposition_energy_per_atom": -45.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -381.0,
+      "decomposition_energy_mp": -45.0,
+      "decomposition_energy_mp_oqmd": -381.0
+    },
+    "electronic": {
+      "bandgap": 0.0229,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9a79a94b5a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:38.898893Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Fe3Na1Sb12.json",
+      "material://Cu1Fe3Na1Sb12"
+    ]
+  }
+}

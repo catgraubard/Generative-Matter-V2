@@ -1,0 +1,113 @@
+{
+  "id": "Cu1K2Ni1O4",
+  "uri": "material://Cu1K2Ni1O4",
+  "composition": {
+    "formula": "Cu1K2Ni1O4",
+    "elements": {
+      "Cu": 1,
+      "K": 2,
+      "Ni": 1,
+      "O": 4
+    },
+    "reduced_formula": "K2CuNiO4",
+    "element_list": [
+      "O",
+      "K",
+      "Ni",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Copper (Cu) powder: 40 g  \n - Potassium (K) carbonate: 18 g  \n - Nickel (Ni) powder: 20 g  \n - Oxygen (O) source (e.g., potassium nitrate): 22 g"
+    },
+    "sourcing": {
+      "instructions": "- Copper powder: Available from chemical supply stores or online retailers like Sigma-Aldrich. \n - Potassium carbonate: Can be found at gardening supply stores or chemical suppliers. \n - Nickel powder: Obtainable from metal supply companies or online sources. \n - Potassium nitrate: Available at gardening stores or online.",
+      "steps": [
+        "- Copper powder: Available from chemical supply stores or online retailers like Sigma-Aldrich.",
+        "- Potassium carbonate: Can be found at gardening supply stores or chemical suppliers.",
+        "- Nickel powder: Obtainable from metal supply companies or online sources.",
+        "- Potassium nitrate: Available at gardening stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40 g of copper powder and place it in a clean mixing bowl.",
+        "2. Add 18 g of potassium carbonate to the bowl.",
+        "3. Introduce 20 g of nickel powder into the mixture.",
+        "4. Finally, add 22 g of potassium nitrate.",
+        "5. Using a mortar and pestle, thoroughly mix the powders until a uniform fine powder is obtained."
+      ],
+      "raw_text": "1. Weigh out 40 g of copper powder and place it in a clean mixing bowl. \n 2. Add 18 g of potassium carbonate to the bowl. \n 3. Introduce 20 g of nickel powder into the mixture. \n 4. Finally, add 22 g of potassium nitrate. \n 5. Using a mortar and pestle, thoroughly mix the powders until a uniform fine powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat the crucible in a furnace or kiln at a temperature of 900°C for 4 hours to facilitate solid-state reactions.",
+        "3. Ensure an inert atmosphere (e.g., argon) if possible to prevent oxidation during heating."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat the crucible in a furnace or kiln at a temperature of 900°C for 4 hours to facilitate solid-state reactions. \n 3. Ensure an inert atmosphere (e.g., argon) if possible to prevent oxidation during heating."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool slowly to room temperature (approximately 2-3 hours) to avoid thermal shock.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool slowly to room temperature (approximately 2-3 hours) to avoid thermal shock. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any rough edges or imperfections.",
+        "3. If necessary, use a file or sandpaper to smooth out the surfaces.",
+        "4. Optionally, seal the surface with a clear lacquer to protect against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect the sample for any rough edges or imperfections. \n 3. If necessary, use a file or sandpaper to smooth out the surfaces. \n 4. Optionally, seal the surface with a clear lacquer to protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1435658.0,
+      "density": 30585.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -424738.0,
+      "formation_energy_per_atom": -13227.0,
+      "decomposition_energy_per_atom": -38.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -43.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.9744,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fd8664f05c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:34.189840Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1K2Ni1O4.json",
+      "material://Cu1K2Ni1O4"
+    ]
+  }
+}

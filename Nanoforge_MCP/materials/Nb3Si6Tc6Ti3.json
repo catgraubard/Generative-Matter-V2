@@ -1,0 +1,118 @@
+{
+  "id": "Nb3Si6Tc6Ti3",
+  "uri": "material://Nb3Si6Tc6Ti3",
+  "composition": {
+    "formula": "Nb3Si6Tc6Ti3",
+    "elements": {
+      "Nb": 3,
+      "Si": 6,
+      "Tc": 6,
+      "Ti": 3
+    },
+    "reduced_formula": "TiNb(SiTc)2",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Nb",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Tc",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Niobium (Nb): 150 g\nSilicon (Si): 300 g\nTc: 200 g (Technetium)\nTitanium (Ti): 100 g"
+    },
+    "sourcing": {
+      "instructions": "Niobium: Obtain from specialized metal suppliers or online marketplaces.\nSilicon: Purchase from electronics suppliers or chemical supply companies.\nTc: Acquire from radioactive material suppliers or specialized labs (ensure proper licenses and handling).\nTitanium: Obtain from metal suppliers or online metal retailers.",
+      "steps": [
+        "Niobium: Obtain from specialized metal suppliers or online marketplaces.",
+        "Silicon: Purchase from electronics suppliers or chemical supply companies.",
+        "Tc: Acquire from radioactive material suppliers or specialized labs (ensure proper licenses and handling).",
+        "Titanium: Obtain from metal suppliers or online metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance.",
+        "2. Crush silicon and titanium into fine powders using a mortar and pestle.",
+        "3. In a clean mixing container, combine niobium, crushed silicon, technetium, and crushed titanium.",
+        "4. Mix thoroughly to ensure homogeneity (at least 10 minutes)."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance.\n2. Crush silicon and titanium into fine powders using a mortar and pestle.\n3. In a clean mixing container, combine niobium, crushed silicon, technetium, and crushed titanium.\n4. Mix thoroughly to ensure homogeneity (at least 10 minutes)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Place the mixed powders into a graphite crucible.",
+        "3. Seal the crucible and place it in the furnace.",
+        "4. Heat at 1200°C for 4 hours under vacuum to promote sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C.\n2. Place the mixed powders into a graphite crucible.\n3. Seal the crucible and place it in the furnace.\n4. Heat at 1200°C for 4 hours under vacuum to promote sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).",
+        "2. Once cooled, safely open the crucible."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours).\n2. Once cooled, safely open the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, grind the edges with a diamond file for a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating if required for your application."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully.\n2. Inspect for any surface irregularities.\n3. If necessary, grind the edges with a diamond file for a smooth finish.\n4. Optionally, apply a sealant or protective coating if required for your application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2654989.0,
+      "density": 73729.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1622786.0,
+      "formation_energy_per_atom": -754.0,
+      "decomposition_energy_per_atom": -1655.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -1654.0,
+      "decomposition_energy_mp_oqmd": -1615.0
+    },
+    "electronic": {
+      "bandgap": 0.0069,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9cdff2a9d5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:42.055087Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb3Si6Tc6Ti3.json",
+      "material://Nb3Si6Tc6Ti3"
+    ]
+  }
+}

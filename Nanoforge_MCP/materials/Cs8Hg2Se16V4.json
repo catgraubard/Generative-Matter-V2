@@ -1,0 +1,111 @@
+{
+  "id": "Cs8Hg2Se16V4",
+  "uri": "material://Cs8Hg2Se16V4",
+  "composition": {
+    "formula": "Cs8Hg2Se16V4",
+    "elements": {
+      "Cs": 8,
+      "Hg": 2,
+      "Se": 16,
+      "V": 4
+    },
+    "reduced_formula": "Cs4V2HgSe8",
+    "element_list": [
+      "V",
+      "Se",
+      "Cs",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10g, Hg: 5g, Se: 32g, V: 4g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company; Hg: Obtain from a licensed mercury supplier; Se: Buy from a chemical supplier; V: Source from a metal supplier.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company; Hg: Obtain from a licensed mercury supplier; Se: Buy from a chemical supplier; V: Source from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, weigh 10g of Cs, 5g of Hg, 32g of Se, and 4g of V.",
+        "2. Place the weighed ingredients in a clean, dry ceramic crucible.",
+        "3. Use a pestle to thoroughly mix the powders until homogenous.",
+        "4. Transfer the mixed powder to a suitable high-temperature crucible."
+      ],
+      "raw_text": "1. In a fume hood, weigh 10g of Cs, 5g of Hg, 32g of Se, and 4g of V. \n 2. Place the weighed ingredients in a clean, dry ceramic crucible. \n 3. Use a pestle to thoroughly mix the powders until homogenous. \n 4. Transfer the mixed powder to a suitable high-temperature crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "Heat the crucible in a muffle furnace to 800°C. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "Heat the crucible in a muffle furnace to 800°C. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "Allow the furnace to cool down to room temperature naturally over 8 hours. Do not open the furnace door during cooling to prevent contamination."
+      ],
+      "raw_text": "Allow the furnace to cool down to room temperature naturally over 8 hours. Do not open the furnace door during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid material using a spatula.",
+        "3. Grind the solid sample lightly to achieve a uniform texture.",
+        "4. Seal the sample in a vacuum-sealed bag to prevent degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid material using a spatula. \n 3. Grind the solid sample lightly to achieve a uniform texture. \n 4. Seal the sample in a vacuum-sealed bag to prevent degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 11777905.0,
+      "density": 41331.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1343693.0,
+      "formation_energy_per_atom": -11443.0,
+      "decomposition_energy_per_atom": -314.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -29.0,
+      "decomposition_energy_mp": -314.0,
+      "decomposition_energy_mp_oqmd": -189.0
+    },
+    "electronic": {
+      "bandgap": 1.3316,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "66b9d82fc8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:30.021461Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs8Hg2Se16V4.json",
+      "material://Cs8Hg2Se16V4"
+    ]
+  }
+}

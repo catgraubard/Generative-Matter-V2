@@ -1,0 +1,111 @@
+{
+  "id": "Ba2Mn4O10Sm1Sr1",
+  "uri": "material://Ba2Mn4O10Sm1Sr1",
+  "composition": {
+    "formula": "Ba2Mn4O10Sm1Sr1",
+    "elements": {
+      "Ba": 2,
+      "Mn": 4,
+      "O": 10,
+      "Sm": 1,
+      "Sr": 1
+    },
+    "reduced_formula": "Ba2SrSmMn4O10",
+    "element_list": [
+      "O",
+      "Mn",
+      "Sr",
+      "Ba",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 70 g \n Indium (In): 140 g \n Scandium (Sc): 30 g \n Zirconium (Zr): 60 g \n Total Weight: 300 g (to account for any losses during processing)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Specialty metal suppliers or online vendors (e.g., OnlineMetals) \n Indium: Metal suppliers or electronics component distributors \n Scandium: Specialty alloy suppliers \n Zirconium: Metal suppliers or online vendors",
+      "steps": [
+        "Cobalt: Specialty metal suppliers or online vendors (e.g., OnlineMetals)",
+        "Indium: Metal suppliers or electronics component distributors",
+        "Scandium: Specialty alloy suppliers",
+        "Zirconium: Metal suppliers or online vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each metal using a digital scale for accuracy.",
+        "2. Place Co, In, Sc, and Zr in a clean, dry container.",
+        "3. Use a high-speed mixer or ball mill to combine the powders thoroughly for 30 minutes."
+      ],
+      "raw_text": "1. Measure out each metal using a digital scale for accuracy. \n 2. Place Co, In, Sc, and Zr in a clean, dry container. \n 3. Use a high-speed mixer or ball mill to combine the powders thoroughly for 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1000°C.",
+        "2. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and hold at 1000°C for 2 hours to achieve complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1000°C. \n 2. Transfer the mixed powders into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and hold at 1000°C for 2 hours to achieve complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using appropriate safety equipment."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using appropriate safety equipment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for defects.",
+        "2. If needed, grind or sand the surface to achieve the desired finish.",
+        "3. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for defects. \n 2. If needed, grind or sand the surface to achieve the desired finish. \n 3. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 252338.0,
+      "density": 58724.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1440787.0,
+      "formation_energy_per_atom": -26503.0,
+      "decomposition_energy_per_atom": -81.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -77.0
+    },
+    "electronic": {
+      "bandgap": 0.0024,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d4972e3c09",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.537112Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Mn4O10Sm1Sr1.json",
+      "material://Ba2Mn4O10Sm1Sr1"
+    ]
+  }
+}

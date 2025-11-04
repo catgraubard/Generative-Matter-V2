@@ -1,0 +1,112 @@
+{
+  "id": "As12Nd6Ni16V2",
+  "uri": "material://As12Nd6Ni16V2",
+  "composition": {
+    "formula": "As12Nd6Ni16V2",
+    "elements": {
+      "As": 12,
+      "Nd": 6,
+      "Ni": 16,
+      "V": 2
+    },
+    "reduced_formula": "Nd3V(Ni4As3)2",
+    "element_list": [
+      "V",
+      "Ni",
+      "As",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Cesium (Cs): 50.0 g  \n  2. Selenium (Se): 16.0 g  \n  3. Yttrium (Y): 10.0 g  \n  4. Inert gas (Argon or Nitrogen): For atmosphere during synthesis"
+    },
+    "sourcing": {
+      "instructions": "1. Cesium: Purchase from a chemical supply company or online supplier specializing in rare elements.  \n  2. Selenium: Available from chemical suppliers or lab supply stores.  \n  3. Yttrium: Obtain from chemical suppliers or specialized metal providers.  \n  4. Inert gas: Available in gas cylinders from welding supply or industrial gas companies.",
+      "steps": [
+        "1. Cesium: Purchase from a chemical supply company or online supplier specializing in rare elements.",
+        "2. Selenium: Available from chemical suppliers or lab supply stores.",
+        "3. Yttrium: Obtain from chemical suppliers or specialized metal providers.",
+        "4. Inert gas: Available in gas cylinders from welding supply or industrial gas companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a dry glove box filled with inert gas, weigh 50.0 g of cesium and place it into a clean, dry crucible.",
+        "2. Weigh 16.0 g of selenium and add it to the crucible.",
+        "3. Weigh 10.0 g of yttrium and incorporate it into the mixture.",
+        "4. Thoroughly mix the powders using a clean spatula to ensure homogeneity.",
+        "5. Transfer the mixture to a pre-cleaned quartz ampoule. Seal the ampoule under inert gas atmosphere."
+      ],
+      "raw_text": "1. In a dry glove box filled with inert gas, weigh 50.0 g of cesium and place it into a clean, dry crucible.  \n  2. Weigh 16.0 g of selenium and add it to the crucible.  \n  3. Weigh 10.0 g of yttrium and incorporate it into the mixture.  \n  4. Thoroughly mix the powders using a clean spatula to ensure homogeneity.  \n  5. Transfer the mixture to a pre-cleaned quartz ampoule. Seal the ampoule under inert gas atmosphere."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the sealed quartz ampoule in a tube furnace.",
+        "2. Gradually heat to 800°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the sealed quartz ampoule in a tube furnace.  \n  2. Gradually heat to 800°C at a rate of 5°C/min.  \n  3. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not remove the ampoule until it has cooled completely to avoid oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.  \n  2. Do not remove the ampoule until it has cooled completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully break the quartz ampoule in a fume hood.",
+        "2. Retrieve the solid Cs2Se8Y2 material and clean it using ethanol to remove any residues.",
+        "3. Dry the sample in a vacuum desiccator for 24 hours.",
+        "4. Optionally, polish the sample using fine-grit sandpaper to achieve desired surface finish."
+      ],
+      "raw_text": "1. Once cooled, carefully break the quartz ampoule in a fume hood.  \n  2. Retrieve the solid Cs2Se8Y2 material and clean it using ethanol to remove any residues.  \n  3. Dry the sample in a vacuum desiccator for 24 hours.  \n  4. Optionally, polish the sample using fine-grit sandpaper to achieve desired surface finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5648105.0,
+      "density": 82481.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2219807.0,
+      "formation_energy_per_atom": -7448.0,
+      "decomposition_energy_per_atom": -137.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -92.0,
+      "decomposition_energy_mp": -137.0,
+      "decomposition_energy_mp_oqmd": -122.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b6e996a2c7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.424751Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Nd6Ni16V2.json",
+      "material://As12Nd6Ni16V2"
+    ]
+  }
+}

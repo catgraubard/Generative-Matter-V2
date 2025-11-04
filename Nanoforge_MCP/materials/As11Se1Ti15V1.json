@@ -1,0 +1,132 @@
+{
+  "id": "As11Se1Ti15V1",
+  "uri": "material://As11Se1Ti15V1",
+  "composition": {
+    "formula": "As11Se1Ti15V1",
+    "elements": {
+      "As": 11,
+      "Se": 1,
+      "Ti": 15,
+      "V": 1
+    },
+    "reduced_formula": "Ti15VAs11Se",
+    "element_list": [
+      "Ti",
+      "V",
+      "As",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 64.0 g \n S: 128.0 g \n Sn: 12.0 g \n V: 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company or online specialty chemical retailer. \n S: Elemental sulfur can be sourced from a chemical supply company. \n Sn: Tin can be obtained from a metal supplier or online chemical retailers. \n V: Vanadium can be found in chemical supply stores or online suppliers.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company or online specialty chemical retailer.",
+        "S: Elemental sulfur can be sourced from a chemical supply company.",
+        "Sn: Tin can be obtained from a metal supplier or online chemical retailers.",
+        "V: Vanadium can be found in chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 64.0 g of cesium (Cs).",
+        "2. Weigh out 128.0 g of sulfur (S).",
+        "3. Weigh out 12.0 g of tin (Sn).",
+        "4. Weigh out 16.0 g of vanadium (V).",
+        "5. In a clean, dry mixing container, combine all weighed ingredients thoroughly using a spatula until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 64.0 g of cesium (Cs). \n 2. Weigh out 128.0 g of sulfur (S). \n 3. Weigh out 12.0 g of tin (Sn). \n 4. Weigh out 16.0 g of vanadium (V). \n 5. In a clean, dry mixing container, combine all weighed ingredients thoroughly using a spatula until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 700,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace or kiln to 700 °C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace or kiln to 700 °C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool down slowly to room temperature inside the furnace to prevent cracking (approximately 4 hours).",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool down slowly to room temperature inside the furnace to prevent cracking (approximately 4 hours). \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. If necessary, sand any rough edges using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a protective coating appropriate for the material to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. If necessary, sand any rough edges using fine-grit sandpaper. \n 3. Optionally, seal the surface with a protective coating appropriate for the material to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4698008.0,
+      "density": 59099.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -208749.0,
+      "formation_energy_per_atom": -9459.0,
+      "decomposition_energy_per_atom": -336.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -336.0,
+      "decomposition_energy_mp_oqmd": -253.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d92ff2e4ef",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.745161Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As11Se1Ti15V1.json",
+      "material://As11Se1Ti15V1"
+    ]
+  }
+}

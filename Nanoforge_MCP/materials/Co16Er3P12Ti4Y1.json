@@ -1,0 +1,134 @@
+{
+  "id": "Co16Er3P12Ti4Y1",
+  "uri": "material://Co16Er3P12Ti4Y1",
+  "composition": {
+    "formula": "Co16Er3P12Ti4Y1",
+    "elements": {
+      "Co": 16,
+      "Er": 3,
+      "P": 12,
+      "Ti": 4,
+      "Y": 1
+    },
+    "reduced_formula": "YEr3Ti4(Co4P3)4",
+    "element_list": [
+      "P",
+      "Ti",
+      "Co",
+      "Y",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 3.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 36.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 3.5 g \n Ni: 36.0 g \n P: 20.0 g \n Y: 2.5 g \n Total: 62.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nd: Purchase from rare earth metal suppliers or online chemical supply stores. \n Ni: Available at metal suppliers or online marketplaces. \n P: Obtain from chemical suppliers, ensure it's in a suitable form. \n Y: Sourced from rare earth suppliers or chemical stores.",
+      "steps": [
+        "Nd: Purchase from rare earth metal suppliers or online chemical supply stores.",
+        "Ni: Available at metal suppliers or online marketplaces.",
+        "P: Obtain from chemical suppliers, ensure it's in a suitable form.",
+        "Y: Sourced from rare earth suppliers or chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Nd, Ni, P, and Y using an analytical balance for precision.",
+        "2. Place the measured materials into a clean, dry mixing container.",
+        "3. Use a pestle and mortar to thoroughly mix the powders until a uniform color and consistency is achieved.",
+        "4. Transfer the mixed powder to a ceramic or suitable crucible for heating."
+      ],
+      "raw_text": "1. Measure Nd, Ni, P, and Y using an analytical balance for precision. \n 2. Place the measured materials into a clean, dry mixing container. \n 3. Use a pestle and mortar to thoroughly mix the powders until a uniform color and consistency is achieved. \n 4. Transfer the mixed powder to a ceramic or suitable crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000 °C.",
+        "2. Place the crucible containing the mixed powders into the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000 °C. \n 2. Place the crucible containing the mixed powders into the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until the temperature is below 200 °C to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until the temperature is below 200 °C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4558992.0,
+      "density": 76371.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2680012.0,
+      "formation_energy_per_atom": -10432.0,
+      "decomposition_energy_per_atom": -317.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -317.0,
+      "decomposition_energy_mp_oqmd": -316.0
+    },
+    "electronic": {
+      "bandgap": 0.0026,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "df6effea38",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.555162Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Er3P12Ti4Y1.json",
+      "material://Co16Er3P12Ti4Y1"
+    ]
+  }
+}

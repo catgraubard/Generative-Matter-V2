@@ -1,0 +1,128 @@
+{
+  "id": "Li26Si7Sn1",
+  "uri": "material://Li26Si7Sn1",
+  "composition": {
+    "formula": "Li26Si7Sn1",
+    "elements": {
+      "Li": 26,
+      "Si": 7,
+      "Sn": 1
+    },
+    "reduced_formula": "Li26Si7Sn",
+    "element_list": [
+      "Li",
+      "Si",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 4.5,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1.5 g\nTb: 15.0 g\nTc: 4.5 g\nTm: 3.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Available from chemical supply companies or online marketplaces.\nTb: Rare earth metal suppliers or specialized online vendors.\nTc: Metal alloy suppliers or online chemical supply websites.\nTm: Specialty metal suppliers.",
+      "steps": [
+        "Co: Available from chemical supply companies or online marketplaces.",
+        "Tb: Rare earth metal suppliers or specialized online vendors.",
+        "Tc: Metal alloy suppliers or online chemical supply websites.",
+        "Tm: Specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the exact amounts of each ingredient using a precision scale.",
+        "2. Combine Co, Tb, Tc, and Tm in a clean, dry mixing bowl.",
+        "3. Use a spatula to mix the powders uniformly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh the exact amounts of each ingredient using a precision scale.\n2. Combine Co, Tb, Tc, and Tm in a clean, dry mixing bowl.\n3. Use a spatula to mix the powders uniformly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Preheat the furnace to 1200°C.",
+        "3. Place the crucible in the furnace and heat for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible.\n2. Preheat the furnace to 1200°C.\n3. Place the crucible in the furnace and heat for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible with protective gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).\n2. Once cooled, carefully remove the crucible with protective gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder or sanding tool to achieve the desired surface finish.",
+        "3. Seal the surface with an appropriate protective coating if required."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible.\n2. Use a grinder or sanding tool to achieve the desired surface finish.\n3. Seal the surface with an appropriate protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 5407587.0,
+      "density": 15224.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1007137.0,
+      "formation_energy_per_atom": -2675.0,
+      "decomposition_energy_per_atom": -133.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -143.0,
+      "decomposition_energy_mp_oqmd": -76.0
+    },
+    "electronic": {
+      "bandgap": 0.0225,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dd282b93d4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.835410Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li26Si7Sn1.json",
+      "material://Li26Si7Sn1"
+    ]
+  }
+}

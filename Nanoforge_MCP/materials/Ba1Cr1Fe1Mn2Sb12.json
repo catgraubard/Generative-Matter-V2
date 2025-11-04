@@ -1,0 +1,139 @@
+{
+  "id": "Ba1Cr1Fe1Mn2Sb12",
+  "uri": "material://Ba1Cr1Fe1Mn2Sb12",
+  "composition": {
+    "formula": "Ba1Cr1Fe1Mn2Sb12",
+    "elements": {
+      "Ba": 1,
+      "Cr": 1,
+      "Fe": 1,
+      "Mn": 2,
+      "Sb": 12
+    },
+    "reduced_formula": "BaMn2CrFeSb12",
+    "element_list": [
+      "Cr",
+      "Mn",
+      "Fe",
+      "Sb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cr",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 15.0 g\nCr: 15.0 g\nFe: 15.0 g\nMn: 30.0 g\nSb: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium): Chemical supply stores or online chemical suppliers.\nCr (Chromium): Chemical supply stores or online chemical suppliers.\nFe (Iron): Metal supply stores or online sites.\nMn (Manganese): Metal supply stores or online chemical suppliers.\nSb (Antimony): Chemical supply stores or online suppliers.",
+      "steps": [
+        "Ba (Barium): Chemical supply stores or online chemical suppliers.",
+        "Cr (Chromium): Chemical supply stores or online chemical suppliers.",
+        "Fe (Iron): Metal supply stores or online sites.",
+        "Mn (Manganese): Metal supply stores or online chemical suppliers.",
+        "Sb (Antimony): Chemical supply stores or online suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Ba, Cr, Fe, Mn, and Sb in the specified amounts.",
+        "3. Use a mortar and pestle or a mechanical grinder to mix the powders thoroughly until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using a precision scale.\n2. In a clean, dry mixing container, combine Ba, Cr, Fe, Mn, and Sb in the specified amounts.\n3. Use a mortar and pestle or a mechanical grinder to mix the powders thoroughly until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1000°C and maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 1000°C and maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature, which may take approximately 6-8 hours.",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature, which may take approximately 6-8 hours.\n2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If needed, sand the edges to achieve smoothness.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Inspect the sample for any surface irregularities.\n3. If needed, sand the edges to achieve smoothness.\n4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4175113.0,
+      "density": 72233.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -92533.0,
+      "formation_energy_per_atom": -2717.0,
+      "decomposition_energy_per_atom": -339.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -447.0,
+      "decomposition_energy_mp_oqmd": -319.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "006aad63c2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:14.971357Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Cr1Fe1Mn2Sb12.json",
+      "material://Ba1Cr1Fe1Mn2Sb12"
+    ]
+  }
+}

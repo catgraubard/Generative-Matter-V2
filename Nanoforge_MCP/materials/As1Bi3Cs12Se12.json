@@ -1,0 +1,113 @@
+{
+  "id": "As1Bi3Cs12Se12",
+  "uri": "material://As1Bi3Cs12Se12",
+  "composition": {
+    "formula": "As1Bi3Cs12Se12",
+    "elements": {
+      "As": 1,
+      "Bi": 3,
+      "Cs": 12,
+      "Se": 12
+    },
+    "reduced_formula": "Cs12Bi3AsSe12",
+    "element_list": [
+      "As",
+      "Se",
+      "Cs",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 12.75,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 12.75 g, Li: 5.10 g, Nd: 6.75 g, P: 17.00 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supplier; Li: Obtain from a battery materials supplier; Nd: Acquire from a rare earth materials supplier; P: Source from a chemical reagents supplier.",
+      "steps": [
+        "La: Purchase from a chemical supplier; Li: Obtain from a battery materials supplier; Nd: Acquire from a rare earth materials supplier; P: Source from a chemical reagents supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh La, Li, Nd, and P using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed quantities of La, Li, Nd, and P.",
+        "3. Mix the powders thoroughly using a mortar and pestle for 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixture into a ball mill and mill for an additional 30 minutes."
+      ],
+      "raw_text": "1. Weigh La, Li, Nd, and P using an analytical balance. \n 2. In a clean, dry container, combine the weighed quantities of La, Li, Nd, and P. \n 3. Mix the powders thoroughly using a mortar and pestle for 15 minutes to ensure homogeneity. \n 4. Transfer the mixture into a ball mill and mill for an additional 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Once the furnace is cool, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Once the furnace is cool, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file or sandpaper to smooth the edges and surfaces.",
+        "3. Optionally, apply a sealant to enhance durability and protect the surface. Allow the sealant to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond file or sandpaper to smooth the edges and surfaces. \n 3. Optionally, apply a sealant to enhance durability and protect the surface. Allow the sealant to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 12748721.0,
+      "density": 42257.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1011505.0,
+      "formation_energy_per_atom": -11473.0,
+      "decomposition_energy_per_atom": -185.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -185.0,
+      "decomposition_energy_mp_oqmd": -182.0
+    },
+    "electronic": {
+      "bandgap": 1.7968,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b187a5cc22",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.000785Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As1Bi3Cs12Se12.json",
+      "material://As1Bi3Cs12Se12"
+    ]
+  }
+}

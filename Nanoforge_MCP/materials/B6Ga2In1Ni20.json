@@ -1,0 +1,124 @@
+{
+  "id": "B6Ga2In1Ni20",
+  "uri": "material://B6Ga2In1Ni20",
+  "composition": {
+    "formula": "B6Ga2In1Ni20",
+    "elements": {
+      "B": 6,
+      "Ga": 2,
+      "In": 1,
+      "Ni": 20
+    },
+    "reduced_formula": "InGa2(Ni10B3)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Ga",
+      "In"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 400.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 60 g \n Ga: 20 g \n In: 10 g \n Ni: 400 g"
+    },
+    "sourcing": {
+      "instructions": "B6 (Boron): Chemical suppliers or online chemical retailers. \n Ga (Gallium): Metal suppliers or online. \n In (Indium): Metal suppliers or specialized online retailers. \n Ni (Nickel): Hardware stores or metal suppliers.",
+      "steps": [
+        "B6 (Boron): Chemical suppliers or online chemical retailers.",
+        "Ga (Gallium): Metal suppliers or online.",
+        "In (Indium): Metal suppliers or specialized online retailers.",
+        "Ni (Nickel): Hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine B6, Ga, In, and Ni.",
+        "3. Mix thoroughly using a mechanical stirrer for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine B6, Ga, In, and Ni. \n 3. Mix thoroughly using a mechanical stirrer for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat the crucible in a furnace to 1000°C for 2 hours to allow for proper melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat the crucible in a furnace to 1000°C for 2 hours to allow for proper melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature over 6 hours.",
+        "2. Ensure the environment is free from drafts to prevent rapid cooling."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature over 6 hours. \n 2. Ensure the environment is free from drafts to prevent rapid cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. If necessary, sand the surface with 400-grit sandpaper to achieve a smooth finish.",
+        "3. Seal the sample with a protective coating if required for preservation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. If necessary, sand the surface with 400-grit sandpaper to achieve a smooth finish. \n 3. Seal the sample with a protective coating if required for preservation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2944331.0,
+      "density": 84202.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1735214.0,
+      "formation_energy_per_atom": -3115.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -51.0,
+      "decomposition_energy_mp_oqmd": -49.0
+    },
+    "electronic": {
+      "bandgap": 0.018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e8f1055a31",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.019870Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Ga2In1Ni20.json",
+      "material://B6Ga2In1Ni20"
+    ]
+  }
+}

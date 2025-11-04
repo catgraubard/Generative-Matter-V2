@@ -1,0 +1,123 @@
+{
+  "id": "Cu2La3Si4",
+  "uri": "material://Cu2La3Si4",
+  "composition": {
+    "formula": "Cu2La3Si4",
+    "elements": {
+      "Cu": 2,
+      "La": 3,
+      "Si": 4
+    },
+    "reduced_formula": "La3(CuSi2)2",
+    "element_list": [
+      "Si",
+      "Cu",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 246.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 112.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 160 g\nLa: 246 g\nSi: 112 g\nOverall total: 518 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Obtain from a metal supplier or electronics store.\nLa: Purchase from specialized rare earth element suppliers.\nSi: Buy from a chemical supply company or online marketplace.",
+      "steps": [
+        "Cu: Obtain from a metal supplier or electronics store.",
+        "La: Purchase from specialized rare earth element suppliers.",
+        "Si: Buy from a chemical supply company or online marketplace."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean mixing container, combine Cu (160 g), La (246 g), and Si (112 g).",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring thorough mixing."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale.\n2. In a clean mixing container, combine Cu (160 g), La (246 g), and Si (112 g).\n3. Use a mortar and pestle to grind the mixture into a fine powder, ensuring thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200 °C (2192 °F) for 4 hours, ensuring a consistent temperature throughout."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 1200 °C (2192 °F) for 4 hours, ensuring a consistent temperature throughout."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature (approximately 2-3 hours).\n2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges and surfaces to achieve a smooth finish.\n4. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1936704.0,
+      "density": 56259.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -508859.0,
+      "formation_energy_per_atom": -6865.0,
+      "decomposition_energy_per_atom": -553.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -118.0,
+      "decomposition_energy_mp": -553.0,
+      "decomposition_energy_mp_oqmd": -118.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6537ae5167",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:28.201149Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2La3Si4.json",
+      "material://Cu2La3Si4"
+    ]
+  }
+}

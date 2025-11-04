@@ -1,0 +1,139 @@
+{
+  "id": "As12Co20Er1Sm1Y2",
+  "uri": "material://As12Co20Er1Sm1Y2",
+  "composition": {
+    "formula": "As12Co20Er1Sm1Y2",
+    "elements": {
+      "As": 12,
+      "Co": 20,
+      "Er": 1,
+      "Sm": 1,
+      "Y": 2
+    },
+    "reduced_formula": "SmY2Er(Co5As3)4",
+    "element_list": [
+      "Co",
+      "As",
+      "Y",
+      "Sm",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 2.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 14.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 3.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 6.0 g \n Fe: 2.0 g \n Tb: 3.0 g \n Tm: 14.0 g \n Y: 3.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cd (Cadmium) - Obtain from chemical suppliers like Sigma-Aldrich or VWR. \n Fe (Iron) - Available at hardware stores or metal suppliers. \n Tb (Terbium) - Purchase from specialized rare earth suppliers. \n Tm (Thulium) - Obtain from chemical suppliers or online rare earth element sellers. \n Y (Yttrium) - Available from chemical supply stores or online retailers.",
+      "steps": [
+        "Cd (Cadmium) - Obtain from chemical suppliers like Sigma-Aldrich or VWR.",
+        "Fe (Iron) - Available at hardware stores or metal suppliers.",
+        "Tb (Terbium) - Purchase from specialized rare earth suppliers.",
+        "Tm (Thulium) - Obtain from chemical suppliers or online rare earth element sellers.",
+        "Y (Yttrium) - Available from chemical supply stores or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Accurately weigh each metal component using a precision scale.",
+        "2. In a clean, dry ceramic or glass container, combine Cd, Fe, Tb, Tm, and Y.",
+        "3. Stir the mixture thoroughly to ensure an even distribution of all elements.",
+        "4. Transfer the mixed powders into a ball mill and mill for 2 hours to achieve a fine homogeneous powder."
+      ],
+      "raw_text": "1. Accurately weigh each metal component using a precision scale. \n 2. In a clean, dry ceramic or glass container, combine Cd, Fe, Tb, Tm, and Y. \n 3. Stir the mixture thoroughly to ensure an even distribution of all elements. \n 4. Transfer the mixed powders into a ball mill and mill for 2 hours to achieve a fine homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the milled powder in a quartz crucible.",
+        "3. Heat in the furnace for 4 hours to ensure complete reaction and sintering of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the milled powder in a quartz crucible. \n 3. Heat in the furnace for 4 hours to ensure complete reaction and sintering of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 22°C).",
+        "2. This process should take about 10-12 hours for safe handling."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 22°C). \n 2. This process should take about 10-12 hours for safe handling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Use a fine-grit sandpaper to smooth the surface and achieve the desired finish.",
+        "3. Optionally, seal the material with a clear epoxy resin to enhance durability and aesthetic appeal."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Use a fine-grit sandpaper to smooth the surface and achieve the desired finish. \n 3. Optionally, seal the material with a clear epoxy resin to enhance durability and aesthetic appeal."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4914219.0,
+      "density": 86948.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2386816.0,
+      "formation_energy_per_atom": -5107.0,
+      "decomposition_energy_per_atom": -175.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -175.0,
+      "decomposition_energy_mp_oqmd": -172.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bfa7edfb73",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.983414Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Co20Er1Sm1Y2.json",
+      "material://As12Co20Er1Sm1Y2"
+    ]
+  }
+}

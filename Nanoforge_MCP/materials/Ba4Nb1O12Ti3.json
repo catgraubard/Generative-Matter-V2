@@ -1,0 +1,109 @@
+{
+  "id": "Ba4Nb1O12Ti3",
+  "uri": "material://Ba4Nb1O12Ti3",
+  "composition": {
+    "formula": "Ba4Nb1O12Ti3",
+    "elements": {
+      "Ba": 4,
+      "Nb": 1,
+      "O": 12,
+      "Ti": 3
+    },
+    "reduced_formula": "Ba4Ti3NbO12",
+    "element_list": [
+      "O",
+      "Ti",
+      "Nb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium carbonate (BaCO3) - 32.4 g \n Niobium oxide (Nb2O5) - 8.5 g \n Titanium dioxide (TiO2) - 19.8 g"
+    },
+    "sourcing": {
+      "instructions": "Barium carbonate - Chemical supply stores or online (e.g., Sigma-Aldrich) \n Niobium oxide - Specialty metal suppliers or online \n Titanium dioxide - Chemical supply stores or online",
+      "steps": [
+        "Barium carbonate - Chemical supply stores or online (e.g., Sigma-Aldrich)",
+        "Niobium oxide - Specialty metal suppliers or online",
+        "Titanium dioxide - Chemical supply stores or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 32.4 g of barium carbonate using a precision scale.",
+        "2. Weigh 8.5 g of niobium oxide.",
+        "3. Weigh 19.8 g of titanium dioxide.",
+        "4. In a clean, dry container, combine the three powders thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh 32.4 g of barium carbonate using a precision scale. \n 2. Weigh 8.5 g of niobium oxide. \n 3. Weigh 19.8 g of titanium dioxide. \n 4. In a clean, dry container, combine the three powders thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace at 1200°C (2192°F) for 4 hours to facilitate solid-state reaction. Ensure a ramp-up to temperature of 10°C/min."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace at 1200°C (2192°F) for 4 hours to facilitate solid-state reaction. Ensure a ramp-up to temperature of 10°C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours). Avoid quenching to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours). Avoid quenching to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the solid sample from the crucible.",
+        "2. Grind the sample to a fine powder if needed for further processing.",
+        "3. Optionally, sinter the powder again at 1300°C (2372°F) for 2 hours for enhanced density and structural integrity.",
+        "4. If required, polish the edges to achieve the desired dimensions using fine-grit sandpaper."
+      ],
+      "raw_text": "1. After cooling, remove the solid sample from the crucible. \n 2. Grind the sample to a fine powder if needed for further processing. \n 3. Optionally, sinter the powder again at 1300°C (2372°F) for 2 hours for enhanced density and structural integrity. \n 4. If required, polish the edges to achieve the desired dimensions using fine-grit sandpaper."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2699783.0,
+      "density": 60141.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1692365.0,
+      "formation_energy_per_atom": -34199.0,
+      "decomposition_energy_per_atom": -54.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -6.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 0.0052,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "43057aa1d9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:43.631573Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4Nb1O12Ti3.json",
+      "material://Ba4Nb1O12Ti3"
+    ]
+  }
+}

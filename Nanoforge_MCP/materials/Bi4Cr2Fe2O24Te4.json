@@ -1,0 +1,114 @@
+{
+  "id": "Bi4Cr2Fe2O24Te4",
+  "uri": "material://Bi4Cr2Fe2O24Te4",
+  "composition": {
+    "formula": "Bi4Cr2Fe2O24Te4",
+    "elements": {
+      "Bi": 4,
+      "Cr": 2,
+      "Fe": 2,
+      "O": 24,
+      "Te": 4
+    },
+    "reduced_formula": "CrFeBi2(TeO6)2",
+    "element_list": [
+      "O",
+      "Cr",
+      "Fe",
+      "Te",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 40g,  Mo: 10g,  Tm: 5g,  W: 15g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron) - chemical supply stores; Mo (Molybdenum) - metal suppliers or online; Tm (Thulium) - specialized metal suppliers; W (Tungsten) - metal suppliers or online.",
+      "steps": [
+        "B (Boron) - chemical supply stores; Mo (Molybdenum) - metal suppliers or online; Tm (Thulium) - specialized metal suppliers; W (Tungsten) - metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Mo, Tm, and W.",
+        "3. Use a high-energy ball mill to mix the powders for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Mo, Tm, and W. \n 3. Use a high-energy ball mill to mix the powders for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder in a graphite crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder in a graphite crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it is cool to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it is cool to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Grind the sample edges with a diamond grinding wheel to achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally, seal the surface with an appropriate metal sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Grind the sample edges with a diamond grinding wheel to achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally, seal the surface with an appropriate metal sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 482359.0,
+      "density": 66991.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/c",
+      "space_group_number": 13,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2466921.0,
+      "formation_energy_per_atom": -17656.0,
+      "decomposition_energy_per_atom": -187.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -193.0,
+      "decomposition_energy_mp_oqmd": -193.0
+    },
+    "electronic": {
+      "bandgap": 1.804,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c318b1e119",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.074931Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Cr2Fe2O24Te4.json",
+      "material://Bi4Cr2Fe2O24Te4"
+    ]
+  }
+}

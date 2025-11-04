@@ -1,0 +1,134 @@
+{
+  "id": "Ag1Co2Ga7Nd2",
+  "uri": "material://Ag1Co2Ga7Nd2",
+  "composition": {
+    "formula": "Ag1Co2Ga7Nd2",
+    "elements": {
+      "Ag": 1,
+      "Co": 2,
+      "Ga": 7,
+      "Nd": 2
+    },
+    "reduced_formula": "Nd2Ga7Co2Ag",
+    "element_list": [
+      "Co",
+      "Ga",
+      "Ag",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 140.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n C: 140 g \n K: 10 g \n Sr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich). \n C: Obtain from a local supplier or online (e.g., Fisher Scientific). \n K: Available from a chemical supply store (e.g., VWR). \n Sr: Buy from a specialty chemical supplier (e.g., Alfa Aesar).",
+      "steps": [
+        "B: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).",
+        "C: Obtain from a local supplier or online (e.g., Fisher Scientific).",
+        "K: Available from a chemical supply store (e.g., VWR).",
+        "Sr: Buy from a specialty chemical supplier (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 20 g of B using a precision scale.",
+        "2. Measure 140 g of C carefully.",
+        "3. Weigh 10 g of K.",
+        "4. Weigh 10 g of Sr.",
+        "5. In a clean, dry mixing container, combine all the measured materials.",
+        "6. Mix thoroughly using a spatula or mechanical mixer to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out 20 g of B using a precision scale. \n 2. Measure 140 g of C carefully. \n 3. Weigh 10 g of K. \n 4. Weigh 10 g of Sr. \n 5. In a clean, dry mixing container, combine all the measured materials. \n 6. Mix thoroughly using a spatula or mechanical mixer to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace preheated to 800 °C.",
+        "3. Maintain this temperature for 2 hours to allow for complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace preheated to 800 °C. \n 3. Maintain this temperature for 2 hours to allow for complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Once the furnace is cool, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Once the furnace is cool, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. Use fine-grit sandpaper to polish the surface if necessary.",
+        "4. Optionally, apply a sealant to protect the material if required based on its intended use."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. Use fine-grit sandpaper to polish the surface if necessary. \n 4. Optionally, apply a sealant to protect the material if required based on its intended use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 217186.0,
+      "density": 76631.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -535157.0,
+      "formation_energy_per_atom": -4778.0,
+      "decomposition_energy_per_atom": -72.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -72.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b4977c8263",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.964568Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Co2Ga7Nd2.json",
+      "material://Ag1Co2Ga7Nd2"
+    ]
+  }
+}

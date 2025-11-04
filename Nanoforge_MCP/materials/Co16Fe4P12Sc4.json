@@ -1,0 +1,111 @@
+{
+  "id": "Co16Fe4P12Sc4",
+  "uri": "material://Co16Fe4P12Sc4",
+  "composition": {
+    "formula": "Co16Fe4P12Sc4",
+    "elements": {
+      "Co": 16,
+      "Fe": 4,
+      "P": 12,
+      "Sc": 4
+    },
+    "reduced_formula": "ScFeCo4P3",
+    "element_list": [
+      "P",
+      "Sc",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Co (Cobalt): 48.0 g \n Fe (Iron): 12.0 g \n P (Phosphorus): 30.0 g \n Sc (Scandium): 16.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Purchase from metal suppliers or online marketplaces specializing in metals. \n Iron: Obtain from hardware stores or online suppliers. \n Phosphorus: Available from chemical supply companies or online. \n Scandium: Can be sourced from specialized rare earth metal suppliers.",
+      "steps": [
+        "Cobalt: Purchase from metal suppliers or online marketplaces specializing in metals.",
+        "Iron: Obtain from hardware stores or online suppliers.",
+        "Phosphorus: Available from chemical supply companies or online.",
+        "Scandium: Can be sourced from specialized rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each material using a precision scale.",
+        "2. In a clean, dry container, combine the Co, Fe, P, and Sc powders.",
+        "3. Use a mortar and pestle to thoroughly mix the powders to ensure a homogenous blend.",
+        "4. Transfer the mixture into a ball mill and mill for 2 hours to achieve a fine, uniform powder."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each material using a precision scale. \n 2. In a clean, dry container, combine the Co, Fe, P, and Sc powders. \n 3. Use a mortar and pestle to thoroughly mix the powders to ensure a homogenous blend. \n 4. Transfer the mixture into a ball mill and mill for 2 hours to achieve a fine, uniform powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 800°C.",
+        "2. Place the milled powder mixture in a graphite boat and insert it into the furnace.",
+        "3. Heat the mixture gradually to avoid any reactions, maintaining the 800°C for 4 hours under vacuum conditions."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 800°C. \n 2. Place the milled powder mixture in a graphite boat and insert it into the furnace. \n 3. Heat the mixture gradually to avoid any reactions, maintaining the 800°C for 4 hours under vacuum conditions."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool naturally to room temperature (approximately 2-4 hours).",
+        "2. Ensure the vacuum remains until the temperature is below 200°C to avoid oxidation."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool naturally to room temperature (approximately 2-4 hours). \n 2. Ensure the vacuum remains until the temperature is below 200°C to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the graphite boat.",
+        "2. Use a diamond saw to cut the sample to exact dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surface using progressively finer sandpaper (starting from 120 grit to 600 grit) for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the graphite boat. \n 2. Use a diamond saw to cut the sample to exact dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surface using progressively finer sandpaper (starting from 120 grit to 600 grit) for a smooth finish. \n 4. Optionally, apply a sealant to enhance surface protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 423159.0,
+      "density": 6741.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2689042.0,
+      "formation_energy_per_atom": -8612.0,
+      "decomposition_energy_per_atom": -425.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -44.0,
+      "decomposition_energy_mp": -425.0,
+      "decomposition_energy_mp_oqmd": -388.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8eef690216",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:23.763259Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Fe4P12Sc4.json",
+      "material://Co16Fe4P12Sc4"
+    ]
+  }
+}

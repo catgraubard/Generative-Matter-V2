@@ -1,0 +1,123 @@
+{
+  "id": "Co10Cr4Er4Mn6P12",
+  "uri": "material://Co10Cr4Er4Mn6P12",
+  "composition": {
+    "formula": "Co10Cr4Er4Mn6P12",
+    "elements": {
+      "Co": 10,
+      "Cr": 4,
+      "Er": 4,
+      "Mn": 6,
+      "P": 12
+    },
+    "reduced_formula": "Er2Mn3Cr2Co5P6",
+    "element_list": [
+      "P",
+      "Cr",
+      "Mn",
+      "Co",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Te",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Eu2O3: 25 g \n Fe2O3: 10 g \n SO2: 5 g \n Te: 5 g \n Distilled Water: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Eu2O3: Purchase from a chemical supplier or rare earth materials vendor. \n Fe2O3: Available at chemical supply stores. \n SO2: Obtain from industrial gas suppliers. \n Te: Can be sourced from electronic or chemical suppliers. \n Distilled Water: Available at grocery stores or pharmacies.",
+      "steps": [
+        "Eu2O3: Purchase from a chemical supplier or rare earth materials vendor.",
+        "Fe2O3: Available at chemical supply stores.",
+        "SO2: Obtain from industrial gas suppliers.",
+        "Te: Can be sourced from electronic or chemical suppliers.",
+        "Distilled Water: Available at grocery stores or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using an analytical balance for precision.",
+        "2. In a clean glass beaker, combine 25 g of Eu2O3 and 10 g of Fe2O3.",
+        "3. Add 5 g of SO2 carefully to the mixture.",
+        "4. Gradually add 5 g of Te while stirring continuously with a glass rod.",
+        "5. Slowly pour in 50 g of distilled water to achieve a homogeneous slurry.",
+        "6. Stir for 15 minutes to ensure thorough mixing."
+      ],
+      "raw_text": "1. Weigh out each ingredient using an analytical balance for precision. \n 2. In a clean glass beaker, combine 25 g of Eu2O3 and 10 g of Fe2O3. \n 3. Add 5 g of SO2 carefully to the mixture. \n 4. Gradually add 5 g of Te while stirring continuously with a glass rod. \n 5. Slowly pour in 50 g of distilled water to achieve a homogeneous slurry. \n 6. Stir for 15 minutes to ensure thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the slurry into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 2 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the slurry into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800°C at a rate of 5°C/min. \n 4. Maintain this temperature for 2 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C).",
+        "2. This process should take about 4-5 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approx. 25°C). \n 2. This process should take about 4-5 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a protective coating if required for stability or aesthetic purposes."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges and surfaces to achieve a smooth finish using fine-grit sandpaper. \n 3. Optionally, seal the surface with a protective coating if required for stability or aesthetic purposes."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4514178.0,
+      "density": 79738.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2777372.0,
+      "formation_energy_per_atom": -8289.0,
+      "decomposition_energy_per_atom": -335.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -335.0,
+      "decomposition_energy_mp_oqmd": -329.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b66ce3bba0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.334207Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co10Cr4Er4Mn6P12.json",
+      "material://Co10Cr4Er4Mn6P12"
+    ]
+  }
+}

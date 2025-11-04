@@ -1,0 +1,119 @@
+{
+  "id": "Ge1La2Nd4Se14Si2",
+  "uri": "material://Ge1La2Nd4Se14Si2",
+  "composition": {
+    "formula": "Ge1La2Nd4Se14Si2",
+    "elements": {
+      "Ge": 1,
+      "La": 2,
+      "Nd": 4,
+      "Se": 14,
+      "Si": 2
+    },
+    "reduced_formula": "La2Nd4Si2GeSe14",
+    "element_list": [
+      "Si",
+      "Ge",
+      "Se",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Sn",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs2O: 10.00 g \n Cs2O: 10.00 g \n P2O5: 15.00 g \n SnO2: 20.00 g \n Sn: 5.00 g \n H2O: 5.00 g \n (Total: 65.00 g)"
+    },
+    "sourcing": {
+      "instructions": "Cs2O: Specialty chemical suppliers or online chemical marketplaces. \n P2O5: Chemical supply stores or online vendors. \n SnO2: Ceramic material suppliers. \n Sn: Metal supply stores or online marketplaces. \n H2O: Distilled water from grocery stores.",
+      "steps": [
+        "Cs2O: Specialty chemical suppliers or online chemical marketplaces.",
+        "P2O5: Chemical supply stores or online vendors.",
+        "SnO2: Ceramic material suppliers.",
+        "Sn: Metal supply stores or online marketplaces.",
+        "H2O: Distilled water from grocery stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a balance.",
+        "2. In a clean, dry mixing container, combine Cs2O and P2O5 first.",
+        "3. Gradually add SnO2 while stirring continuously.",
+        "4. Add Sn and H2O, mixing until a homogeneous paste is formed."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a balance. \n 2. In a clean, dry mixing container, combine Cs2O and P2O5 first. \n 3. Gradually add SnO2 while stirring continuously. \n 4. Add Sn and H2O, mixing until a homogeneous paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed paste in a ceramic mold of the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Heat the mold in the furnace for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed paste in a ceramic mold of the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Heat the mold in the furnace for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally.",
+        "2. Do not open the furnace door until it cools to below 300°C (approximately 4-5 hours)."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally. \n 2. Do not open the furnace door until it cools to below 300°C (approximately 4-5 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the mold.",
+        "2. Inspect for any irregularities and use fine-grit sandpaper to smooth rough edges.",
+        "3. If required, apply a sealant to enhance surface finish and protection."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the mold. \n 2. Inspect for any irregularities and use fine-grit sandpaper to smooth rough edges. \n 3. If required, apply a sealant to enhance surface finish and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 23,
+      "volume": 6065505.0,
+      "density": 57191.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -132401.0,
+      "formation_energy_per_atom": -16974.0,
+      "decomposition_energy_per_atom": -126.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -144.0,
+      "decomposition_energy_mp_oqmd": -88.0
+    },
+    "electronic": {
+      "bandgap": 1.2458,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d1a530e48c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.774486Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1La2Nd4Se14Si2.json",
+      "material://Ge1La2Nd4Se14Si2"
+    ]
+  }
+}

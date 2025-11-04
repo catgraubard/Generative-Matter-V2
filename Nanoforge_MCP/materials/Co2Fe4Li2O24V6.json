@@ -1,0 +1,109 @@
+{
+  "id": "Co2Fe4Li2O24V6",
+  "uri": "material://Co2Fe4Li2O24V6",
+  "composition": {
+    "formula": "Co2Fe4Li2O24V6",
+    "elements": {
+      "Co": 2,
+      "Fe": 4,
+      "Li": 2,
+      "O": 24,
+      "V": 6
+    },
+    "reduced_formula": "LiV3Fe2CoO12",
+    "element_list": [
+      "Li",
+      "O",
+      "V",
+      "Fe",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Co2: 1.44 g, Fe: 15.36 g, Li: 0.72 g, O: 1.44 g, V: 2.88 g (Total: 21.84 g)"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from chemical suppliers (e.g., Sigma-Aldrich). Fe: Obtain iron powder from metal supply stores. Li: Buy lithium carbonate from specialty chemical retailers. O: Use oxygen from air or as a component in lithium oxide. V: Acquire vanadium oxide from chemical suppliers.",
+      "steps": [
+        "Co: Purchase from chemical suppliers (e.g., Sigma-Aldrich). Fe: Obtain iron powder from metal supply stores. Li: Buy lithium carbonate from specialty chemical retailers. O: Use oxygen from air or as a component in lithium oxide. V: Acquire vanadium oxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Co, Fe, Li, O, and V.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder until homogeneous.",
+        "4. Sift the powder through a 100 mesh sieve to ensure consistency."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Co, Fe, Li, O, and V. \n 3. Use a mortar and pestle to grind the mixture into a fine powder until homogeneous. \n 4. Sift the powder through a 100 mesh sieve to ensure consistency."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the homogeneous powder into a crucible.",
+        "3. Heat the mixture gradually to avoid thermal shock, maintaining the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the homogeneous powder into a crucible. \n 3. Heat the mixture gradually to avoid thermal shock, maintaining the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature over approximately 6 hours.",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature over approximately 6 hours. \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible carefully.",
+        "2. If necessary, use a sandblaster to smooth out the surface.",
+        "3. Optionally, seal the material with a clear epoxy for added durability."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible carefully. \n 2. If necessary, use a sandblaster to smooth out the surface. \n 3. Optionally, seal the material with a clear epoxy for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 4948685.0,
+      "density": 35057.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3052743.0,
+      "formation_energy_per_atom": -2108.0,
+      "decomposition_energy_per_atom": -65.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -71.0,
+      "decomposition_energy_mp_oqmd": 8.0
+    },
+    "electronic": {
+      "bandgap": 1.9065,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "283f097c8b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:08.695606Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe4Li2O24V6.json",
+      "material://Co2Fe4Li2O24V6"
+    ]
+  }
+}

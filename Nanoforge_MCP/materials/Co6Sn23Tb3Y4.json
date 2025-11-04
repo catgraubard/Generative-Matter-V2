@@ -1,0 +1,110 @@
+{
+  "id": "Co6Sn23Tb3Y4",
+  "uri": "material://Co6Sn23Tb3Y4",
+  "composition": {
+    "formula": "Co6Sn23Tb3Y4",
+    "elements": {
+      "Co": 6,
+      "Sn": 23,
+      "Tb": 3,
+      "Y": 4
+    },
+    "reduced_formula": "Tb3Y4Co6Sn23",
+    "element_list": [
+      "Co",
+      "Y",
+      "Sn",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CeO2: 30.0 g \n - Cs2S: 20.0 g \n - SrS: 10.0 g \n - S: 5.0 g \n - Total: 65.0 g"
+    },
+    "sourcing": {
+      "instructions": "- CeO2: Available from chemical supply stores or online (e.g., Sigma Aldrich) \n - Cs2S: Specialty chemical suppliers or online (e.g., Alfa Aesar) \n - SrS: Specialty chemical suppliers \n - S: Commonly found in laboratory chemical supply stores or online",
+      "steps": [
+        "- CeO2: Available from chemical supply stores or online (e.g., Sigma Aldrich)",
+        "- Cs2S: Specialty chemical suppliers or online (e.g., Alfa Aesar)",
+        "- SrS: Specialty chemical suppliers",
+        "- S: Commonly found in laboratory chemical supply stores or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients accurately using an analytical balance.",
+        "2. In a clean, dry ceramic or glass container, combine 30.0 g of CeO2, 20.0 g of Cs2S, 10.0 g of SrS, and 5.0 g of S.",
+        "3. Mix the powders thoroughly using a mortar and pestle until a uniform powder mixture is achieved.",
+        "4. Transfer the mixed powder to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh all ingredients accurately using an analytical balance. \n 2. In a clean, dry ceramic or glass container, combine 30.0 g of CeO2, 20.0 g of Cs2S, 10.0 g of SrS, and 5.0 g of S. \n 3. Mix the powders thoroughly using a mortar and pestle until a uniform powder mixture is achieved. \n 4. Transfer the mixed powder to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the milled powder mixture in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to allow for complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the milled powder mixture in a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to allow for complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using appropriate safety equipment."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using appropriate safety equipment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections; use a diamond file or sanding paper (grit 400) to smooth the surfaces.",
+        "3. Optionally, apply a sealant to enhance the surface finish and protect the material (follow sealant manufacturer's instructions for application and curing)."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any rough edges or imperfections; use a diamond file or sanding paper (grit 400) to smooth the surfaces. \n 3. Optionally, apply a sealant to enhance the surface finish and protect the material (follow sealant manufacturer's instructions for application and curing)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 8183795.0,
+      "density": 79465.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1896739.0,
+      "formation_energy_per_atom": -4176.0,
+      "decomposition_energy_per_atom": -1.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bf0b421210",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.769147Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co6Sn23Tb3Y4.json",
+      "material://Co6Sn23Tb3Y4"
+    ]
+  }
+}

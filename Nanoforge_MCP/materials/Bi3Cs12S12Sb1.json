@@ -1,0 +1,119 @@
+{
+  "id": "Bi3Cs12S12Sb1",
+  "uri": "material://Bi3Cs12S12Sb1",
+  "composition": {
+    "formula": "Bi3Cs12S12Sb1",
+    "elements": {
+      "Bi": 3,
+      "Cs": 12,
+      "S": 12,
+      "Sb": 1
+    },
+    "reduced_formula": "Cs12Bi3SbS12",
+    "element_list": [
+      "S",
+      "Sb",
+      "Cs",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Sb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi2S3: 100 g \n Cs2S: 50 g \n Sb: 10 g \n Elemental sulfur: 30 g \n Carbon: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Bi2S3: Chemical supply stores or online suppliers \n Cs2S: Specialty chemical suppliers \n Sb: Metal suppliers or online marketplaces \n Elemental sulfur: Garden supply stores \n Carbon: Laboratory suppliers",
+      "steps": [
+        "Bi2S3: Chemical supply stores or online suppliers",
+        "Cs2S: Specialty chemical suppliers",
+        "Sb: Metal suppliers or online marketplaces",
+        "Elemental sulfur: Garden supply stores",
+        "Carbon: Laboratory suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean glass or ceramic mixing container, combine Bi2S3, Cs2S, Sb, elemental sulfur, and carbon.",
+        "3. Mix thoroughly using a spatula or mechanical stirrer to ensure a uniform blend."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean glass or ceramic mixing container, combine Bi2S3, Cs2S, Sb, elemental sulfur, and carbon. \n 3. Mix thoroughly using a spatula or mechanical stirrer to ensure a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed ingredients into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges.",
+        "3. If necessary, sand the edges using fine-grit sandpaper to achieve the desired dimensions and finish.",
+        "4. Optionally, seal the surface with a protective coating if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges. \n 3. If necessary, sand the edges using fine-grit sandpaper to achieve the desired dimensions and finish. \n 4. Optionally, seal the surface with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 11619396.0,
+      "density": 38991.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1086644.0,
+      "formation_energy_per_atom": -11601.0,
+      "decomposition_energy_per_atom": -792.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -796.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": 2.2107,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "04447a2e61",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:20.544662Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi3Cs12S12Sb1.json",
+      "material://Bi3Cs12S12Sb1"
+    ]
+  }
+}

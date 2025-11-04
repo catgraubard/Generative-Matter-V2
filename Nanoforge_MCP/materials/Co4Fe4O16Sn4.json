@@ -1,0 +1,130 @@
+{
+  "id": "Co4Fe4O16Sn4",
+  "uri": "material://Co4Fe4O16Sn4",
+  "composition": {
+    "formula": "Co4Fe4O16Sn4",
+    "elements": {
+      "Co": 4,
+      "Fe": 4,
+      "O": 16,
+      "Sn": 4
+    },
+    "reduced_formula": "FeCoSnO4",
+    "element_list": [
+      "O",
+      "Fe",
+      "Co",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 68.6,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 64.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 68.6 g \n Fe: 56.0 g \n O: 64.0 g \n Sn: 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt Oxide): Chemical supply companies or online chemical retailers. \n Fe (Iron Oxide): Metal supply stores or chemical suppliers. \n O (Oxygen source): Can be sourced from air, but for specific needs, use a suitable oxidizing agent like Potassium Permanganate. \n Sn (Tin): Metal supply stores or online metal retailers.",
+      "steps": [
+        "Co (Cobalt Oxide): Chemical supply companies or online chemical retailers.",
+        "Fe (Iron Oxide): Metal supply stores or chemical suppliers.",
+        "O (Oxygen source): Can be sourced from air, but for specific needs, use a suitable oxidizing agent like Potassium Permanganate.",
+        "Sn (Tin): Metal supply stores or online metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 68.6 g of Cobalt Oxide, 56.0 g of Iron Oxide, 64.0 g of suitable oxidizing agent, and 40.0 g of Tin.",
+        "2. In a clean, dry container, combine all measured powders thoroughly using a mortar and pestle or ball mill for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 68.6 g of Cobalt Oxide, 56.0 g of Iron Oxide, 64.0 g of suitable oxidizing agent, and 40.0 g of Tin. \n 2. In a clean, dry container, combine all measured powders thoroughly using a mortar and pestle or ball mill for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixed powder in a ceramic crucible.",
+        "3. Heat the mixture for 2 hours at 900°C under an inert atmosphere (use Argon or Nitrogen gas)."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the mixed powder in a ceramic crucible. \n 3. Heat the mixture for 2 hours at 900°C under an inert atmosphere (use Argon or Nitrogen gas)."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally.",
+        "2. This process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool to room temperature naturally. \n 2. This process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use sandpaper to smooth out surfaces and edges.",
+        "3. Optionally, apply a sealing agent to enhance surface durability.",
+        "4. Allow to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use sandpaper to smooth out surfaces and edges. \n 3. Optionally, apply a sealing agent to enhance surface durability. \n 4. Allow to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3452096.0,
+      "density": 57239.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4_322",
+      "space_group_number": 95,
+      "point_group": "422",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2053668.0,
+      "formation_energy_per_atom": -17089.0,
+      "decomposition_energy_per_atom": -97.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -99.0,
+      "decomposition_energy_mp_oqmd": -99.0
+    },
+    "electronic": {
+      "bandgap": 1.1656,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8069addfd0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:03.972375Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Fe4O16Sn4.json",
+      "material://Co4Fe4O16Sn4"
+    ]
+  }
+}

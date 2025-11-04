@@ -1,0 +1,118 @@
+{
+  "id": "Cs5Cu2Rb1Se4",
+  "uri": "material://Cs5Cu2Rb1Se4",
+  "composition": {
+    "formula": "Cs5Cu2Rb1Se4",
+    "elements": {
+      "Cs": 5,
+      "Cu": 2,
+      "Rb": 1,
+      "Se": 4
+    },
+    "reduced_formula": "Cs5Rb(CuSe2)2",
+    "element_list": [
+      "Cu",
+      "Se",
+      "Rb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 22.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 22.5 g, Cu: 9 g, Rb: 3.6 g, Se: 36 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Cu: Purchase from a metal supplier or a local hardware store. Rb: Source from a chemical supplier. Se: Obtain from a chemical supplier or laboratory supply store.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich). Cu: Purchase from a metal supplier or a local hardware store. Rb: Source from a chemical supplier. Se: Obtain from a chemical supplier or laboratory supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry glass container, add the Cs (22.5 g) first.",
+        "3. Add the Cu (9 g) next, ensuring even distribution.",
+        "4. Follow with Rb (3.6 g), and then Se (36 g).",
+        "5. Use a glass stirring rod to mix the powders thoroughly for about 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry glass container, add the Cs (22.5 g) first. \n 3. Add the Cu (9 g) next, ensuring even distribution. \n 4. Follow with Rb (3.6 g), and then Se (36 g). \n 5. Use a glass stirring rod to mix the powders thoroughly for about 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 800°C at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool to room temperature slowly (approximately 4-6 hours).",
+        "2. Avoid opening the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool to room temperature slowly (approximately 4-6 hours). \n 2. Avoid opening the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample and inspect for uniformity.",
+        "3. If necessary, use a diamond saw to trim the sample to the desired dimensions.",
+        "4. Optionally, sand the edges for a smooth finish.",
+        "5. Store the final product in a dry, inert atmosphere to prevent degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample and inspect for uniformity. \n 3. If necessary, use a diamond saw to trim the sample to the desired dimensions. \n 4. Optionally, sand the edges for a smooth finish. \n 5. Store the final product in a dry, inert atmosphere to prevent degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 5253633.0,
+      "density": 37705.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -403172.0,
+      "formation_energy_per_atom": -10565.0,
+      "decomposition_energy_per_atom": -579.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -579.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 1.6672,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "92258b5bf0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:27.802605Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs5Cu2Rb1Se4.json",
+      "material://Cs5Cu2Rb1Se4"
+    ]
+  }
+}

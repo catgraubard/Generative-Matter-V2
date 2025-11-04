@@ -1,0 +1,139 @@
+{
+  "id": "Er10Ga20Sc2",
+  "uri": "material://Er10Ga20Sc2",
+  "composition": {
+    "formula": "Er10Ga20Sc2",
+    "elements": {
+      "Er": 10,
+      "Ga": 20,
+      "Sc": 2
+    },
+    "reduced_formula": "Er5ScGa10",
+    "element_list": [
+      "Sc",
+      "Ga",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 30.0 g \n Ba: 20.0 g \n Nd: 20.0 g \n O: 56.0 g \n Zn: 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "Al can be sourced from aluminum powder suppliers. \n Ba can be obtained from barium carbonate suppliers. \n Nd can be acquired from neodymium oxide suppliers. \n O is derived from oxygen gas or available in various compounds. \n Zn can be sourced from zinc powder suppliers.",
+      "steps": [
+        "Al can be sourced from aluminum powder suppliers.",
+        "Ba can be obtained from barium carbonate suppliers.",
+        "Nd can be acquired from neodymium oxide suppliers.",
+        "O is derived from oxygen gas or available in various compounds.",
+        "Zn can be sourced from zinc powder suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 30.0 g of aluminum powder.",
+        "2. Measure 20.0 g of barium carbonate.",
+        "3. Measure 20.0 g of neodymium oxide.",
+        "4. Measure 56.0 g of oxygen gas (if using a compound, calculate accordingly).",
+        "5. Measure 36.0 g of zinc powder.",
+        "6. In a clean, dry container, combine all measured powders.",
+        "7. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is formed."
+      ],
+      "raw_text": "1. Measure 30.0 g of aluminum powder. \n 2. Measure 20.0 g of barium carbonate. \n 3. Measure 20.0 g of neodymium oxide. \n 4. Measure 56.0 g of oxygen gas (if using a compound, calculate accordingly). \n 5. Measure 36.0 g of zinc powder. \n 6. In a clean, dry container, combine all measured powders. \n 7. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixture into a heat-resistant crucible.",
+        "2. Preheat the furnace to 800°C.",
+        "3. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete reaction and formation of Al2Ba2Nd2O14Zn6."
+      ],
+      "raw_text": "1. Transfer the mixture into a heat-resistant crucible. \n 2. Preheat the furnace to 800°C. \n 3. Place the crucible in the furnace and maintain the temperature for 4 hours to ensure complete reaction and formation of Al2Ba2Nd2O14Zn6."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges on the sample.",
+        "3. If needed, apply a sealant to protect the material from environmental factors.",
+        "4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use a fine-grit sandpaper to smooth out any rough edges on the sample. \n 3. If needed, apply a sealant to protect the material from environmental factors. \n 4. Allow the sealant to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 652775.0,
+      "density": 80307.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1392957.0,
+      "formation_energy_per_atom": -6372.0,
+      "decomposition_energy_per_atom": -39.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -39.0,
+      "decomposition_energy_mp_oqmd": -36.0
+    },
+    "electronic": {
+      "bandgap": 0.0024,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d3a2f838c3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.253393Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er10Ga20Sc2.json",
+      "material://Er10Ga20Sc2"
+    ]
+  }
+}

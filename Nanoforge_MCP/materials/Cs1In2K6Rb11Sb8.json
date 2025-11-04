@@ -1,0 +1,117 @@
+{
+  "id": "Cs1In2K6Rb11Sb8",
+  "uri": "material://Cs1In2K6Rb11Sb8",
+  "composition": {
+    "formula": "Cs1In2K6Rb11Sb8",
+    "elements": {
+      "Cs": 1,
+      "In": 2,
+      "K": 6,
+      "Rb": 11,
+      "Sb": 8
+    },
+    "reduced_formula": "CsK6Rb11(InSb4)2",
+    "element_list": [
+      "K",
+      "Rb",
+      "In",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10.0 g, In: 20.0 g, K: 8.0 g, Rb: 15.0 g, Sb: 25.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Specialty chemical suppliers; In (Indium): Electronic component suppliers; K (Potassium): Chemical supply stores; Rb (Rubidium): Specialty chemical suppliers; Sb (Antimony): Metal suppliers or chemical distributors.",
+      "steps": [
+        "Cs (Cesium): Specialty chemical suppliers; In (Indium): Electronic component suppliers; K (Potassium): Chemical supply stores; Rb (Rubidium): Specialty chemical suppliers; Sb (Antimony): Metal suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using an analytical balance.",
+        "2. In a clean, dry glass container, combine the Cs, In, K, Rb, and Sb powders.",
+        "3. Stir the mixture gently with a spatula to ensure even distribution of components.",
+        "4. Transfer the mixed powders into a larger crucible suitable for high-temperature synthesis."
+      ],
+      "raw_text": "1. Weigh each material accurately using an analytical balance. \n 2. In a clean, dry glass container, combine the Cs, In, K, Rb, and Sb powders. \n 3. Stir the mixture gently with a spatula to ensure even distribution of components. \n 4. Transfer the mixed powders into a larger crucible suitable for high-temperature synthesis."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 900°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 900°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample using appropriate safety equipment.",
+        "3. Grind the solid to a fine powder if necessary, or leave it as is for bulk applications.",
+        "4. If desired, seal the material in an airtight container to prevent moisture absorption.",
+        "5. Optionally, polish the surface with fine sandpaper to achieve a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample using appropriate safety equipment. \n 3. Grind the solid to a fine powder if necessary, or leave it as is for bulk applications. \n 4. If desired, seal the material in an airtight container to prevent moisture absorption. \n 5. Optionally, polish the surface with fine sandpaper to achieve a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 12129456.0,
+      "density": 34381.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -700586.0,
+      "formation_energy_per_atom": -4707.0,
+      "decomposition_energy_per_atom": -527.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -526.0,
+      "decomposition_energy_mp_oqmd": -173.0
+    },
+    "electronic": {
+      "bandgap": 0.3935,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "491f4b7f3b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:51.599726Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1In2K6Rb11Sb8.json",
+      "material://Cs1In2K6Rb11Sb8"
+    ]
+  }
+}

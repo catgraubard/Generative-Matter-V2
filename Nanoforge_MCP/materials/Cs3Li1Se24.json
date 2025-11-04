@@ -1,0 +1,112 @@
+{
+  "id": "Cs3Li1Se24",
+  "uri": "material://Cs3Li1Se24",
+  "composition": {
+    "formula": "Cs3Li1Se24",
+    "elements": {
+      "Cs": 3,
+      "Li": 1,
+      "Se": 24
+    },
+    "reduced_formula": "Cs3LiSe24",
+    "element_list": [
+      "Li",
+      "Se",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cesium Carbonate (Cs2CO3): 25.0 g  \n - Lithium Selenide (Li2Se): 10.0 g \n - Selenium (Se): 10.0 g \n - High-Purity Argon (for atmosphere)"
+    },
+    "sourcing": {
+      "instructions": "- Cesium Carbonate: Available from chemical supply companies or online (e.g., Sigma-Aldrich). \n - Lithium Selenide: Purchase from specialty materials suppliers. \n - Selenium: Obtain from chemical suppliers or electronic materials vendors. \n - High-Purity Argon: Obtain from gas supply companies.",
+      "steps": [
+        "- Cesium Carbonate: Available from chemical supply companies or online (e.g., Sigma-Aldrich).",
+        "- Lithium Selenide: Purchase from specialty materials suppliers.",
+        "- Selenium: Obtain from chemical suppliers or electronic materials vendors.",
+        "- High-Purity Argon: Obtain from gas supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, weigh out 25.0 g of Cesium Carbonate and 10.0 g of Lithium Selenide.",
+        "2. Weigh 10.0 g of elemental Selenium.",
+        "3. Combine all ingredients in a clean, dry alumina crucible.",
+        "4. Mix thoroughly using a clean spatula to ensure homogeneity."
+      ],
+      "raw_text": "1. In a fume hood, weigh out 25.0 g of Cesium Carbonate and 10.0 g of Lithium Selenide. \n 2. Weigh 10.0 g of elemental Selenium. \n 3. Combine all ingredients in a clean, dry alumina crucible. \n 4. Mix thoroughly using a clean spatula to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a tube furnace.",
+        "2. Purge the furnace with high-purity argon for 15 minutes to create an inert atmosphere.",
+        "3. Heat the mixture to 950°C at a rate of 5°C/min.",
+        "4. Maintain the temperature at 950°C for 4 hours."
+      ],
+      "raw_text": "1. Place the crucible in a tube furnace. \n 2. Purge the furnace with high-purity argon for 15 minutes to create an inert atmosphere. \n 3. Heat the mixture to 950°C at a rate of 5°C/min. \n 4. Maintain the temperature at 950°C for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace.",
+        "2. Allow the crucible to cool to room temperature gradually (do not remove from furnace during cooling).",
+        "3. This cooling should take approximately 6-8 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace. \n 2. Allow the crucible to cool to room temperature gradually (do not remove from furnace during cooling). \n 3. This cooling should take approximately 6-8 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Gently break the crucible to retrieve the solid material.",
+        "3. If necessary, grind the solid to achieve the desired particle size using a mortar and pestle.",
+        "4. Seal the material in a vacuum-sealed bag to protect from moisture and oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Gently break the crucible to retrieve the solid material. \n 3. If necessary, grind the solid to achieve the desired particle size using a mortar and pestle. \n 4. Seal the material in a vacuum-sealed bag to protect from moisture and oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 10012785.0,
+      "density": 38155.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1074737.0,
+      "formation_energy_per_atom": -6777.0,
+      "decomposition_energy_per_atom": -1636.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -3062.0,
+      "decomposition_energy_mp_oqmd": -2732.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5c151af408",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:16.301465Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3Li1Se24.json",
+      "material://Cs3Li1Se24"
+    ]
+  }
+}

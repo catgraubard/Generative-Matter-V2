@@ -1,0 +1,116 @@
+{
+  "id": "As7Li2Mg2Ni9Zr1",
+  "uri": "material://As7Li2Mg2Ni9Zr1",
+  "composition": {
+    "formula": "As7Li2Mg2Ni9Zr1",
+    "elements": {
+      "As": 7,
+      "Li": 2,
+      "Mg": 2,
+      "Ni": 9,
+      "Zr": 1
+    },
+    "reduced_formula": "Li2Mg2ZrNi9As7",
+    "element_list": [
+      "Li",
+      "Mg",
+      "Ni",
+      "As",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Na",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na: 10.0 g, Nd: 20.0 g, Pr: 30.0 g, Se: 32.0 g (Total: 92.0 g)"
+    },
+    "sourcing": {
+      "instructions": "Na: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Nd: Rare earth metal suppliers; Pr: Rare earth metal suppliers; Se: Chemical suppliers or online marketplaces.",
+      "steps": [
+        "Na: Purchase from a chemical supplier (e.g., Sigma-Aldrich); Nd: Rare earth metal suppliers; Pr: Rare earth metal suppliers; Se: Chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10.0 g of Na, 20.0 g of Nd, 30.0 g of Pr, and 32.0 g of Se using an analytical balance.",
+        "2. Combine the measured ingredients in a clean, dry ceramic crucible.",
+        "3. Use a mortar and pestle to thoroughly mix the powder until homogeneous."
+      ],
+      "raw_text": "1. Measure 10.0 g of Na, 20.0 g of Nd, 30.0 g of Pr, and 32.0 g of Se using an analytical balance.\n2. Combine the measured ingredients in a clean, dry ceramic crucible. \n3. Use a mortar and pestle to thoroughly mix the powder until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure proper reaction and formation of Na1Nd2Pr3Se8."
+      ],
+      "raw_text": "1. Place the crucible in a furnace.\n2. Heat the mixture to 800°C at a rate of 10°C/min.\n3. Maintain this temperature for 4 hours to ensure proper reaction and formation of Na1Nd2Pr3Se8."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 6 hours).",
+        "2. Ensure the crucible is not disturbed during the cooling process to avoid cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 6 hours).\n2. Ensure the crucible is not disturbed during the cooling process to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges of the sample with fine grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant for protection against environmental factors."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully.\n2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Sand the edges of the sample with fine grit sandpaper for a smooth finish.\n4. Optionally, apply a sealant for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2997227.0,
+      "density": 66838.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -111017.0,
+      "formation_energy_per_atom": -515.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -75.0,
+      "decomposition_energy_mp_oqmd": -69.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e634385174",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.244554Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As7Li2Mg2Ni9Zr1.json",
+      "material://As7Li2Mg2Ni9Zr1"
+    ]
+  }
+}

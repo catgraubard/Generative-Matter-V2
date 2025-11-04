@@ -1,0 +1,111 @@
+{
+  "id": "Fe2K6O24S6",
+  "uri": "material://Fe2K6O24S6",
+  "composition": {
+    "formula": "Fe2K6O24S6",
+    "elements": {
+      "Fe": 2,
+      "K": 6,
+      "O": 24,
+      "S": 6
+    },
+    "reduced_formula": "K3Fe(SO4)3",
+    "element_list": [
+      "O",
+      "S",
+      "K",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Manganese Dioxide (MnO2): 120 g \n - Samarium Oxide (Sm2O3): 200 g \n - Yttrium Oxide (Y2O3): 20 g \n - Binder (e.g., Polyvinyl Alcohol): 30 g \n - Water: 50 mL"
+    },
+    "sourcing": {
+      "instructions": "- Manganese Dioxide: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Amazon) \n - Samarium Oxide: Specialty metal suppliers or online vendors \n - Yttrium Oxide: Chemical suppliers or online marketplaces \n - Binder: Craft stores or online retailers \n - Water: Tap water or distilled water",
+      "steps": [
+        "- Manganese Dioxide: Chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Amazon)",
+        "- Samarium Oxide: Specialty metal suppliers or online vendors",
+        "- Yttrium Oxide: Chemical suppliers or online marketplaces",
+        "- Binder: Craft stores or online retailers",
+        "- Water: Tap water or distilled water"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean mixing bowl, combine 120 g of Manganese Dioxide and 200 g of Samarium Oxide.",
+        "2. Slowly add 20 g of Yttrium Oxide to the mixture.",
+        "3. In a separate container, dissolve 30 g of Polyvinyl Alcohol in 50 mL of warm water until fully integrated.",
+        "4. Gradually incorporate the binder solution into the dry mixture while stirring continuously until a uniform paste forms."
+      ],
+      "raw_text": "1. In a clean mixing bowl, combine 120 g of Manganese Dioxide and 200 g of Samarium Oxide. \n 2. Slowly add 20 g of Yttrium Oxide to the mixture. \n 3. In a separate container, dissolve 30 g of Polyvinyl Alcohol in 50 mL of warm water until fully integrated. \n 4. Gradually incorporate the binder solution into the dry mixture while stirring continuously until a uniform paste forms."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the mixture to a suitable crucible and place it in the preheated furnace.",
+        "3. Maintain the temperature for 4 hours to ensure proper sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Transfer the mixture to a suitable crucible and place it in the preheated furnace. \n 3. Maintain the temperature for 4 hours to ensure proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until it has reached ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace door until it has reached ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, sand the edges and surfaces for a smoother finish using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a clear coat for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, sand the edges and surfaces for a smoother finish using fine-grit sandpaper. \n 3. Optionally, seal the surface with a clear coat for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 38,
+      "volume": 5898729.0,
+      "density": 25973.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2472507.0,
+      "formation_energy_per_atom": -21073.0,
+      "decomposition_energy_per_atom": -73.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -79.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 2.2394,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c145488ab5",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.511023Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2K6O24S6.json",
+      "material://Fe2K6O24S6"
+    ]
+  }
+}

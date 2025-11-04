@@ -1,0 +1,112 @@
+{
+  "id": "Ca1Eu9Si6",
+  "uri": "material://Ca1Eu9Si6",
+  "composition": {
+    "formula": "Ca1Eu9Si6",
+    "elements": {
+      "Ca": 1,
+      "Eu": 9,
+      "Si": 6
+    },
+    "reduced_formula": "Ca(Eu3Si2)3",
+    "element_list": [
+      "Si",
+      "Ca",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.0 g, Be: 12.0 g, Mo: 30.0 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder) - Available from chemical supply companies; Be (Beryllium metal) - Specialized metal suppliers; Mo (Molybdenum powder) - Online chemical retailers.",
+      "steps": [
+        "B (Boron powder) - Available from chemical supply companies; Be (Beryllium metal) - Specialized metal suppliers; Mo (Molybdenum powder) - Online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 6.0 g of Boron powder using a precision scale.",
+        "2. Measure out 12.0 g of Beryllium metal.",
+        "3. Measure out 30.0 g of Molybdenum powder.",
+        "4. Combine the Boron, Beryllium, and Molybdenum powders in a clean, dry glass or ceramic container.",
+        "5. Stir the mixture thoroughly using a clean spatula until all components are evenly distributed."
+      ],
+      "raw_text": "1. Measure out 6.0 g of Boron powder using a precision scale. \n 2. Measure out 12.0 g of Beryllium metal. \n 3. Measure out 30.0 g of Molybdenum powder. \n 4. Combine the Boron, Beryllium, and Molybdenum powders in a clean, dry glass or ceramic container. \n 5. Stir the mixture thoroughly using a clean spatula until all components are evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Set the furnace temperature to 1000°C.",
+        "3. Heat the materials for 2 hours to ensure complete reaction and formation of B3Be3Mo10."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Set the furnace temperature to 1000°C. \n 3. Heat the materials for 2 hours to ensure complete reaction and formation of B3Be3Mo10."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. This cooling process should take about 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. This cooling process should take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth out the surface of the sample for a polished finish.",
+        "3. Optionally, apply a sealant for added protection against oxidation if required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use sandpaper (starting with 120 grit and progressing to 400 grit) to smooth out the surface of the sample for a polished finish. \n 3. Optionally, apply a sealant for added protection against oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 4554749.0,
+      "density": 57466.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/m",
+      "space_group_number": 87,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1352701.0,
+      "formation_energy_per_atom": -5053.0,
+      "decomposition_energy_per_atom": -434.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -441.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d7b1860e8e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.392905Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Eu9Si6.json",
+      "material://Ca1Eu9Si6"
+    ]
+  }
+}

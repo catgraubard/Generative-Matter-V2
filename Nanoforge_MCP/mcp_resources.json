@@ -1,0 +1,89 @@
+{
+  "mcp_version": "2024-11-05",
+  "name": "Acadia Nanoforge Materials Database",
+  "description": "Material synthesis recipes and properties for AI-assisted material discovery",
+  "resources": [
+    {
+      "uri_template": "material://{composition}",
+      "name": "Material Record",
+      "description": "Complete material record including recipe and properties",
+      "mime_type": "application/json"
+    }
+  ],
+  "tools": [
+    {
+      "name": "search_materials",
+      "description": "Search materials by composition, elements, or properties",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "elements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Filter by chemical elements (e.g., ['Cu', 'O'])"
+          },
+          "crystal_system": {
+            "type": "string",
+            "description": "Filter by crystal system (e.g., 'cubic', 'monoclinic')"
+          },
+          "min_bandgap": {
+            "type": "number",
+            "description": "Minimum bandgap in eV"
+          },
+          "max_bandgap": {
+            "type": "number",
+            "description": "Maximum bandgap in eV"
+          },
+          "min_temperature": {
+            "type": "number",
+            "description": "Minimum synthesis temperature in Celsius"
+          },
+          "max_temperature": {
+            "type": "number",
+            "description": "Maximum synthesis temperature in Celsius"
+          }
+        }
+      }
+    },
+    {
+      "name": "get_material",
+      "description": "Get complete material record by composition",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "composition": {
+            "type": "string",
+            "description": "Chemical composition (e.g., 'Ag3Er2Ga8La1')"
+          }
+        },
+        "required": [
+          "composition"
+        ]
+      }
+    }
+  ],
+  "access_patterns": {
+    "streaming": {
+      "file": "materials_database.jsonl",
+      "description": "Line-delimited JSON for streaming, memory-efficient processing",
+      "use_case": "Process entire database incrementally"
+    },
+    "full_load": {
+      "file": "materials_database.json",
+      "description": "Complete database in single JSON array",
+      "use_case": "Load all data for in-memory analysis"
+    },
+    "individual": {
+      "pattern": "materials/{composition}.json",
+      "description": "Direct access to individual material records",
+      "use_case": "Query specific materials by composition"
+    },
+    "index": {
+      "file": "materials_index.json",
+      "description": "Search index with multiple query patterns",
+      "use_case": "Find materials by elements, properties, or structure"
+    }
+  }
+}

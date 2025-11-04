@@ -1,0 +1,114 @@
+{
+  "id": "Fe1O12Sb2Sr4Zr1",
+  "uri": "material://Fe1O12Sb2Sr4Zr1",
+  "composition": {
+    "formula": "Fe1O12Sb2Sr4Zr1",
+    "elements": {
+      "Fe": 1,
+      "O": 12,
+      "Sb": 2,
+      "Sr": 4,
+      "Zr": 1
+    },
+    "reduced_formula": "Sr4ZrFe(SbO6)2",
+    "element_list": [
+      "O",
+      "Fe",
+      "Sr",
+      "Zr",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Fe (Iron): 48.00 g \n - O (Oxygen): 96.00 g \n - Sb (Antimony): 32.00 g \n - Sr (Strontium): 32.00 g \n - Zr (Zirconium): 8.00 g"
+    },
+    "sourcing": {
+      "instructions": "- **Fe (Iron)**: Purchase from metal suppliers or chemical suppliers. \n - **O (Oxygen)**: Obtain from a laboratory gas supplier in compressed form. \n - **Sb (Antimony)**: Available from chemical suppliers. \n - **Sr (Strontium)**: Obtain from a chemical supply store. \n - **Zr (Zirconium)**: Purchase from specialized metal or chemical suppliers.",
+      "steps": [
+        "- **Fe (Iron)**: Purchase from metal suppliers or chemical suppliers.",
+        "- **O (Oxygen)**: Obtain from a laboratory gas supplier in compressed form.",
+        "- **Sb (Antimony)**: Available from chemical suppliers.",
+        "- **Sr (Strontium)**: Obtain from a chemical supply store.",
+        "- **Zr (Zirconium)**: Purchase from specialized metal or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry mixing bowl, combine the Fe, O, Sb, Sr, and Zr in their specified amounts.",
+        "3. Mix thoroughly using a spatula or mechanical mixer to ensure uniform distribution of the powders.",
+        "4. Transfer the mixture to a suitable container for heating."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry mixing bowl, combine the Fe, O, Sb, Sr, and Zr in their specified amounts. \n 3. Mix thoroughly using a spatula or mechanical mixer to ensure uniform distribution of the powders. \n 4. Transfer the mixture to a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the container in a furnace or kiln.",
+        "2. Heat to 1200°C (2192°F) for 4 hours.",
+        "3. Ensure that the heating is done gradually to avoid thermal shock."
+      ],
+      "raw_text": "1. Place the container in a furnace or kiln. \n 2. Heat to 1200°C (2192°F) for 4 hours. \n 3. Ensure that the heating is done gradually to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6 hours.",
+        "2. Do not open the furnace until it has cooled completely to prevent contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6 hours. \n 2. Do not open the furnace until it has cooled completely to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the furnace.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the edges and surfaces using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the material with a suitable coating to protect from oxidation if required."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the furnace. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the edges and surfaces using fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the material with a suitable coating to protect from oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2730839.0,
+      "density": 56737.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1478793.0,
+      "formation_energy_per_atom": -28235.0,
+      "decomposition_energy_per_atom": -167.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -65.0,
+      "decomposition_energy_mp": -173.0,
+      "decomposition_energy_mp_oqmd": -173.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "32cf7c5cf7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:22.132753Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1O12Sb2Sr4Zr1.json",
+      "material://Fe1O12Sb2Sr4Zr1"
+    ]
+  }
+}

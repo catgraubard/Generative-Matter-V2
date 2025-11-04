@@ -1,0 +1,111 @@
+{
+  "id": "C1Pb6Tb10",
+  "uri": "material://C1Pb6Tb10",
+  "composition": {
+    "formula": "C1Pb6Tb10",
+    "elements": {
+      "C": 1,
+      "Pb": 6,
+      "Tb": 10
+    },
+    "reduced_formula": "Tb10Pb6C",
+    "element_list": [
+      "C",
+      "Tb",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 2.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 2.5 g, Pb: 15 g, Tb: 25 g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon powder from a chemical supply store. Pb: Lead metal from a metal supplier. Tb: Terbium oxide from a rare earth materials supplier.",
+      "steps": [
+        "C: Carbon powder from a chemical supply store. Pb: Lead metal from a metal supplier. Tb: Terbium oxide from a rare earth materials supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 2.5 g of carbon powder using a precision scale.",
+        "2. Measure 15 g of lead metal and cut it into small pieces.",
+        "3. Measure 25 g of terbium oxide.",
+        "4. Combine the three ingredients in a clean, dry mixing bowl.",
+        "5. Mix thoroughly using a ceramic pestle for at least 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Measure 2.5 g of carbon powder using a precision scale.\n2. Measure 15 g of lead metal and cut it into small pieces.\n3. Measure 25 g of terbium oxide. \n4. Combine the three ingredients in a clean, dry mixing bowl. \n5. Mix thoroughly using a ceramic pestle for at least 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a muffle furnace at 800°C for 4 hours to facilitate the formation of C1Pb6Tb10."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n2. Heat in a muffle furnace at 800°C for 4 hours to facilitate the formation of C1Pb6Tb10."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approx. 2-3 hours).",
+        "2. Do not open the furnace until it is at room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approx. 2-3 hours).\n2. Do not open the furnace until it is at room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible and gently tap to release the solid sample.",
+        "2. Sand the edges of the sample using a fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant if the surface needs protection from moisture."
+      ],
+      "raw_text": "1. Remove the crucible and gently tap to release the solid sample.\n2. Sand the edges of the sample using a fine-grit sandpaper to achieve a smooth finish.\n3. Optionally, apply a sealant if the surface needs protection from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4818618.0,
+      "density": 98023.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -874731.0,
+      "formation_energy_per_atom": -5663.0,
+      "decomposition_energy_per_atom": -482.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -482.0,
+      "decomposition_energy_mp_oqmd": -3.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "538269ec63",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:05.191766Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Pb6Tb10.json",
+      "material://C1Pb6Tb10"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "Fe6Nb4Si1V1",
+  "uri": "material://Fe6Nb4Si1V1",
+  "composition": {
+    "formula": "Fe6Nb4Si1V1",
+    "elements": {
+      "Fe": 6,
+      "Nb": 4,
+      "Si": 1,
+      "V": 1
+    },
+    "reduced_formula": "Nb4VFe6Si",
+    "element_list": [
+      "Si",
+      "V",
+      "Fe",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 600.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 400.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe:  600 g \n Nb:  400 g \n Si:  100 g \n V:  100 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Obtain from metal suppliers or online metal retailers. \n Nb: Sourced from specialty metal suppliers or online. \n Si: Available at chemical suppliers or online. \n V: Purchase from metal suppliers or chemical distributors.",
+      "steps": [
+        "Fe: Obtain from metal suppliers or online metal retailers.",
+        "Nb: Sourced from specialty metal suppliers or online.",
+        "Si: Available at chemical suppliers or online.",
+        "V: Purchase from metal suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, add 600 g of Fe, 400 g of Nb, 100 g of Si, and 100 g of V.",
+        "3. Mix the powders thoroughly using a mechanical mixer or by hand with a spatula for at least 10 minutes, ensuring homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, add 600 g of Fe, 400 g of Nb, 100 g of Si, and 100 g of V. \n 3. Mix the powders thoroughly using a mechanical mixer or by hand with a spatula for at least 10 minutes, ensuring homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Heat in a furnace gradually to 1500°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to allow for complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Heat in a furnace gradually to 1500°C at a rate of 5°C/min. \n 3. Maintain this temperature for 2 hours to allow for complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to prevent thermal shock, reducing the temperature to 800°C over 4 hours.",
+        "2. Once at 800°C, remove the crucible and allow it to cool to room temperature in air."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to prevent thermal shock, reducing the temperature to 800°C over 4 hours. \n 2. Once at 800°C, remove the crucible and allow it to cool to room temperature in air."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a grinder or sandpaper to smooth out any rough edges.",
+        "3. Optionally, polish the surface for a finished appearance.",
+        "4. If necessary, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a grinder or sandpaper to smooth out any rough edges. \n 3. Optionally, polish the surface for a finished appearance. \n 4. If necessary, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1619961.0,
+      "density": 8054.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1090702.0,
+      "formation_energy_per_atom": -278.0,
+      "decomposition_energy_per_atom": -257.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -38.0,
+      "decomposition_energy_mp": -256.0,
+      "decomposition_energy_mp_oqmd": -155.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "115383e80a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:38.166109Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe6Nb4Si1V1.json",
+      "material://Fe6Nb4Si1V1"
+    ]
+  }
+}

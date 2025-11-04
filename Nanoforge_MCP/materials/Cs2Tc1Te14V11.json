@@ -1,0 +1,114 @@
+{
+  "id": "Cs2Tc1Te14V11",
+  "uri": "material://Cs2Tc1Te14V11",
+  "composition": {
+    "formula": "Cs2Tc1Te14V11",
+    "elements": {
+      "Cs": 2,
+      "Tc": 1,
+      "Te": 14,
+      "V": 11
+    },
+    "reduced_formula": "Cs2V11TcTe14",
+    "element_list": [
+      "V",
+      "Tc",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 10 g, Tc: 5 g, Te: 70 g, V: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Tc: Obtain from a nuclear material supplier; Te: Buy from a chemical supplier (e.g., Alfa Aesar); V: Source from a metal distributor.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich); Tc: Obtain from a nuclear material supplier; Te: Buy from a chemical supplier (e.g., Alfa Aesar); V: Source from a metal distributor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry glass container, add 10 g of Cs.",
+        "3. Add 5 g of Tc to the container.",
+        "4. Mix in 70 g of Te slowly while stirring to ensure even distribution.",
+        "5. Finally, add 15 g of V and mix thoroughly until a uniform mixture is obtained."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry glass container, add 10 g of Cs. \n 3. Add 5 g of Tc to the container. \n 4. Mix in 70 g of Te slowly while stirring to ensure even distribution. \n 5. Finally, add 15 g of V and mix thoroughly until a uniform mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a muffle furnace at 800°C for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible suitable for high temperatures. \n 2. Heat the crucible in a muffle furnace at 800°C for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature, approximately 2-3 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature, approximately 2-3 hours. \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges using fine-grit sandpaper to smooth out any rough surfaces.",
+        "4. Optionally, apply a sealing agent to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges using fine-grit sandpaper to smooth out any rough surfaces. \n 4. Optionally, apply a sealing agent to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7888362.0,
+      "density": 57059.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1746661.0,
+      "formation_energy_per_atom": -6638.0,
+      "decomposition_energy_per_atom": -487.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -33.0,
+      "decomposition_energy_mp": -477.0,
+      "decomposition_energy_mp_oqmd": -354.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7a28f74b40",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:55.509516Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Tc1Te14V11.json",
+      "material://Cs2Tc1Te14V11"
+    ]
+  }
+}

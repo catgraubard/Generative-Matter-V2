@@ -1,0 +1,127 @@
+{
+  "id": "Gd2Ni1Ru1Sn1",
+  "uri": "material://Gd2Ni1Ru1Sn1",
+  "composition": {
+    "formula": "Gd2Ni1Ru1Sn1",
+    "elements": {
+      "Gd": 2,
+      "Ni": 1,
+      "Ru": 1,
+      "Sn": 1
+    },
+    "reduced_formula": "Gd2NiSnRu",
+    "element_list": [
+      "Ni",
+      "Ru",
+      "Sn",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 23.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 16.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CsI: 19.2 g \n P: 12.0 g \n S: 23.4 g \n Sb: 16.8 g"
+    },
+    "sourcing": {
+      "instructions": "CsI: Purchase from a chemical supplier (e.g., Sigma-Aldrich) \n P: Available from laboratory supply stores or online vendors \n S: Find at chemical suppliers or online stores \n Sb: Obtain from chemical suppliers or metallurgical supply companies",
+      "steps": [
+        "CsI: Purchase from a chemical supplier (e.g., Sigma-Aldrich)",
+        "P: Available from laboratory supply stores or online vendors",
+        "S: Find at chemical suppliers or online stores",
+        "Sb: Obtain from chemical suppliers or metallurgical supply companies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 19.2 g of CsI, 12.0 g of P, 23.4 g of S, and 16.8 g of Sb using an analytical balance.",
+        "2. Combine the weighed materials in a clean, dry mortar and pestle.",
+        "3. Grind the mixture thoroughly until a homogenous powder is obtained.",
+        "4. Transfer the powder to a clean, dry crucible."
+      ],
+      "raw_text": "1. Weigh out 19.2 g of CsI, 12.0 g of P, 23.4 g of S, and 16.8 g of Sb using an analytical balance. \n 2. Combine the weighed materials in a clean, dry mortar and pestle. \n 3. Grind the mixture thoroughly until a homogenous powder is obtained. \n 4. Transfer the powder to a clean, dry crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 900°C.",
+        "2. Place the crucible in the furnace and heat for 2 hours.",
+        "3. Ensure the furnace atmosphere is inert (e.g., argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 900°C. \n 2. Place the crucible in the furnace and heat for 2 hours. \n 3. Ensure the furnace atmosphere is inert (e.g., argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid sudden temperature changes."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to avoid sudden temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Allow the sample to sit at room temperature for an additional hour.",
+        "3. If necessary, grind the solid sample to achieve the desired particle size.",
+        "4. Seal the final product in an airtight container to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Allow the sample to sit at room temperature for an additional hour. \n 3. If necessary, grind the solid sample to achieve the desired particle size. \n 4. Seal the final product in an airtight container to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1070279.0,
+      "density": 92.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -498667.0,
+      "formation_energy_per_atom": -5301.0,
+      "decomposition_energy_per_atom": -72.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -71.0,
+      "decomposition_energy_mp_oqmd": -448.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b4fc87bd47",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.042110Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd2Ni1Ru1Sn1.json",
+      "material://Gd2Ni1Ru1Sn1"
+    ]
+  }
+}

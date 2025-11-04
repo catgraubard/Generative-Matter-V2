@@ -1,0 +1,137 @@
+{
+  "id": "Ca1Mn5Mo6O24",
+  "uri": "material://Ca1Mn5Mo6O24",
+  "composition": {
+    "formula": "Ca1Mn5Mo6O24",
+    "elements": {
+      "Ca": 1,
+      "Mn": 5,
+      "Mo": 6,
+      "O": 24
+    },
+    "reduced_formula": "CaMn5(MoO4)6",
+    "element_list": [
+      "O",
+      "Ca",
+      "Mn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 40 g \n O: 160 g \n P: 20 g \n Ti: 40 g \n V: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Purchase from a metal supply store or online retailer. \n O: Source as a high-purity metal oxide from chemical suppliers. \n P: Obtain from chemical supply stores or online. \n Ti: Purchase from metal supply or online suppliers specializing in titanium. \n V: Acquire from chemical suppliers or specialty metal suppliers.",
+      "steps": [
+        "Fe: Purchase from a metal supply store or online retailer.",
+        "O: Source as a high-purity metal oxide from chemical suppliers.",
+        "P: Obtain from chemical supply stores or online.",
+        "Ti: Purchase from metal supply or online suppliers specializing in titanium.",
+        "V: Acquire from chemical suppliers or specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Fe, O, P, Ti, and V.",
+        "3. Use a mechanical mixer or mortar and pestle to ensure a homogeneous mixture for 10 minutes.",
+        "4. Transfer the mixed powders to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine Fe, O, P, Ti, and V. \n 3. Use a mechanical mixer or mortar and pestle to ensure a homogeneous mixture for 10 minutes. \n 4. Transfer the mixed powders to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the ceramic crucible in the furnace and heat for 2 hours to promote solid-state reactions.",
+        "3. Maintain the temperature to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the ceramic crucible in the furnace and heat for 2 hours to promote solid-state reactions. \n 3. Maintain the temperature to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled to prevent oxidation of the sample."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled to prevent oxidation of the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond file or sandpaper to smooth the edges and surfaces.",
+        "3. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use a diamond file or sandpaper to smooth the edges and surfaces. \n 3. Optionally, apply a sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5936899.0,
+      "density": 35645.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -3094964.0,
+      "formation_energy_per_atom": -21627.0,
+      "decomposition_energy_per_atom": 3.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -4.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c8eb690b30",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.622837Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Mn5Mo6O24.json",
+      "material://Ca1Mn5Mo6O24"
+    ]
+  }
+}

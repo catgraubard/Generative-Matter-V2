@@ -1,0 +1,128 @@
+{
+  "id": "Co19Er3Li1P12Tb1",
+  "uri": "material://Co19Er3Li1P12Tb1",
+  "composition": {
+    "formula": "Co19Er3Li1P12Tb1",
+    "elements": {
+      "Co": 19,
+      "Er": 3,
+      "Li": 1,
+      "P": 12,
+      "Tb": 1
+    },
+    "reduced_formula": "LiTbEr3Co19P12",
+    "element_list": [
+      "Li",
+      "P",
+      "Co",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 408.4,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 137.3,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 465.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 408.4 g \n Ba: 137.3 g \n Sr: 465.0 g \n Total: 1010.7 g"
+    },
+    "sourcing": {
+      "instructions": "Ag (Silver): Purchase from a precious metals supplier or online marketplaces. \n Ba (Barium): Obtain from chemical supply stores or online chemical suppliers. \n Sr (Strontium): Available from chemical supply stores or online chemical suppliers.",
+      "steps": [
+        "Ag (Silver): Purchase from a precious metals supplier or online marketplaces.",
+        "Ba (Barium): Obtain from chemical supply stores or online chemical suppliers.",
+        "Sr (Strontium): Available from chemical supply stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the specified amounts of Ag, Ba, and Sr using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed Ag, Ba, and Sr powders.",
+        "3. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved.",
+        "4. Transfer the mixture to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Weigh the specified amounts of Ag, Ba, and Sr using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed Ag, Ba, and Sr powders. \n 3. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved. \n 4. Transfer the mixture to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800 °C (1472 °F).",
+        "2. Place the ceramic crucible with the mixed powder into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 800 °C (1472 °F). \n 2. Place the ceramic crucible with the mixed powder into the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) to prevent thermal shock.",
+        "2. Do not open the furnace door until fully cooled, which may take about 4-6 hours."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) to prevent thermal shock. \n 2. Do not open the furnace door until fully cooled, which may take about 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation or wear."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface from oxidation or wear."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4365773.0,
+      "density": 82121.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2511984.0,
+      "formation_energy_per_atom": -8593.0,
+      "decomposition_energy_per_atom": -77.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -77.0,
+      "decomposition_energy_mp_oqmd": -68.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d653e5f004",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.088298Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co19Er3Li1P12Tb1.json",
+      "material://Co19Er3Li1P12Tb1"
+    ]
+  }
+}

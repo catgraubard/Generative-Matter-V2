@@ -1,0 +1,116 @@
+{
+  "id": "Cu4Pr1Si2Sn2Y2",
+  "uri": "material://Cu4Pr1Si2Sn2Y2",
+  "composition": {
+    "formula": "Cu4Pr1Si2Sn2Y2",
+    "elements": {
+      "Cu": 4,
+      "Pr": 1,
+      "Si": 2,
+      "Sn": 2,
+      "Y": 2
+    },
+    "reduced_formula": "PrY2Cu4(SiSn)2",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Y",
+      "Sn",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 400.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 400 g, Pr: 100 g, Si: 200 g, Sn: 200 g, Y: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: local metal supplier; Pr: rare earth supplier; Si: electronics store; Sn: local metal supplier; Y: rare earth supplier",
+      "steps": [
+        "Cu: local metal supplier; Pr: rare earth supplier; Si: electronics store; Sn: local metal supplier; Y: rare earth supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately.",
+        "2. In a clean, dry container, combine Cu, Pr, Si, Sn, and Y.",
+        "3. Use a mechanical mixer to blend the powder uniformly for 30 minutes.",
+        "4. Ensure no clumps remain and the mixture is homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately. \n 2. In a clean, dry container, combine Cu, Pr, Si, Sn, and Y. \n 3. Use a mechanical mixer to blend the powder uniformly for 30 minutes. \n 4. Ensure no clumps remain and the mixture is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powders in a crucible.",
+        "3. Insert the crucible into the furnace and hold at 1200°C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powders in a crucible. \n 3. Insert the crucible into the furnace and hold at 1200°C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 600°C naturally (approximately 1 hour).",
+        "2. After reaching 600°C, remove the crucible and place it on a heat-resistant surface to cool to room temperature (approximately 2 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 600°C naturally (approximately 1 hour). \n 2. After reaching 600°C, remove the crucible and place it on a heat-resistant surface to cool to room temperature (approximately 2 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Use sandpaper (grit 120-220) to smooth the surfaces of the sample.",
+        "3. Optionally, apply a sealant to protect the surface if required.",
+        "4. Cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches) using a metal saw."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Use sandpaper (grit 120-220) to smooth the surfaces of the sample. \n 3. Optionally, apply a sealant to protect the surface if required. \n 4. Cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches) using a metal saw."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 2126302.0,
+      "density": 67669.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -595028.0,
+      "formation_energy_per_atom": -5929.0,
+      "decomposition_energy_per_atom": -48.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -46.0,
+      "decomposition_energy_mp_oqmd": -29.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f9ee54dc62",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:33.108556Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4Pr1Si2Sn2Y2.json",
+      "material://Cu4Pr1Si2Sn2Y2"
+    ]
+  }
+}

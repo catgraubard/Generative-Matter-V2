@@ -1,0 +1,140 @@
+{
+  "id": "Ge1Na8P12Rb12Ti3",
+  "uri": "material://Ge1Na8P12Rb12Ti3",
+  "composition": {
+    "formula": "Ge1Na8P12Rb12Ti3",
+    "elements": {
+      "Ge": 1,
+      "Na": 8,
+      "P": 12,
+      "Rb": 12,
+      "Ti": 3
+    },
+    "reduced_formula": "Rb12Na8Ti3GeP12",
+    "element_list": [
+      "Na",
+      "P",
+      "Ti",
+      "Ge",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 15 g \n Na: 10 g \n P: 12 g \n Rb: 15 g \n Ti: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Purchase from chemical supply companies (e.g., Sigma-Aldrich) \n Na: Available at chemical suppliers or online \n P: Obtain from chemical suppliers \n Rb: Available from specialized suppliers \n Ti: Purchase from metal suppliers or online chemical vendors",
+      "steps": [
+        "Ge: Purchase from chemical supply companies (e.g., Sigma-Aldrich)",
+        "Na: Available at chemical suppliers or online",
+        "P: Obtain from chemical suppliers",
+        "Rb: Available from specialized suppliers",
+        "Ti: Purchase from metal suppliers or online chemical vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Ge, Na, P, Rb, and Ti.",
+        "3. Use a mortar and pestle to grind the mixture until homogeneous.",
+        "4. Transfer the mixture to a clean crucible for heating."
+      ],
+      "raw_text": "1. Measure out each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Ge, Na, P, Rb, and Ti. \n 3. Use a mortar and pestle to grind the mixture until homogeneous. \n 4. Transfer the mixture to a clean crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Gradually heat the mixture to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Gradually heat the mixture to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not remove the crucible until it has cooled completely to avoid cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not remove the crucible until it has cooled completely to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid block from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, sand the edges to create a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid block from the crucible. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, sand the edges to create a smooth finish. \n 4. Optionally, seal the surface with a protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 1046058.0,
+      "density": 28533.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1328333.0,
+      "formation_energy_per_atom": -4783.0,
+      "decomposition_energy_per_atom": -391.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -391.0,
+      "decomposition_energy_mp_oqmd": -281.0
+    },
+    "electronic": {
+      "bandgap": 0.9424,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "02c9b4f1fb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:18.244646Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge1Na8P12Rb12Ti3.json",
+      "material://Ge1Na8P12Rb12Ti3"
+    ]
+  }
+}

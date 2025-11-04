@@ -1,0 +1,140 @@
+{
+  "id": "Ba6La1O18Pr1Te3",
+  "uri": "material://Ba6La1O18Pr1Te3",
+  "composition": {
+    "formula": "Ba6La1O18Pr1Te3",
+    "elements": {
+      "Ba": 6,
+      "La": 1,
+      "O": 18,
+      "Pr": 1,
+      "Te": 3
+    },
+    "reduced_formula": "Ba6LaPr(TeO6)3",
+    "element_list": [
+      "O",
+      "Te",
+      "Ba",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ba",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ba: 60.0 g  \n La: 10.0 g  \n Pr: 4.0 g  \n Te: 30.0 g  \n O: 20.0 g  \n (Total: 124.0 g for sample dimensions of 3 in x 2 in x 7 in)"
+    },
+    "sourcing": {
+      "instructions": "Ba (Barium Carbonate): Chemical supply stores or online suppliers. \n La (Lanthanum Oxide): Chemical supply stores or online suppliers. \n Pr (Praseodymium Oxide): Chemical supply stores or online suppliers. \n Te (Tellurium): Chemical supply stores or online suppliers. \n O (Oxygen): Can be sourced from air or commercially available oxygen sources.",
+      "steps": [
+        "Ba (Barium Carbonate): Chemical supply stores or online suppliers.",
+        "La (Lanthanum Oxide): Chemical supply stores or online suppliers.",
+        "Pr (Praseodymium Oxide): Chemical supply stores or online suppliers.",
+        "Te (Tellurium): Chemical supply stores or online suppliers.",
+        "O (Oxygen): Can be sourced from air or commercially available oxygen sources."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine Ba, La, Pr, Te, and O in the specified amounts.",
+        "3. Mix thoroughly using a pestle and mortar or ball mill for 20 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine Ba, La, Pr, Te, and O in the specified amounts. \n 3. Mix thoroughly using a pestle and mortar or ball mill for 20 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat in a furnace to 1000°C at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Heat in a furnace to 1000°C at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to room temperature (approx. 25°C) over 6-8 hours.",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to room temperature (approx. 25°C) over 6-8 hours. \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully using appropriate tools.",
+        "2. Inspect for cracks or defects.",
+        "3. If necessary, sand the surface to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear coating for protection."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully using appropriate tools. \n 2. Inspect for cracks or defects. \n 3. If necessary, sand the surface to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear coating for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 4859572.0,
+      "density": 60638.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2003153.0,
+      "formation_energy_per_atom": -2779.0,
+      "decomposition_energy_per_atom": -997.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -1003.0,
+      "decomposition_energy_mp_oqmd": -324.0
+    },
+    "electronic": {
+      "bandgap": 3.2111,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "37c2729efb",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:28.811764Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba6La1O18Pr1Te3.json",
+      "material://Ba6La1O18Pr1Te3"
+    ]
+  }
+}

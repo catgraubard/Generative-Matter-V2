@@ -1,0 +1,132 @@
+{
+  "id": "Cu2Ni2Sc4Sn2",
+  "uri": "material://Cu2Ni2Sc4Sn2",
+  "composition": {
+    "formula": "Cu2Ni2Sc4Sn2",
+    "elements": {
+      "Cu": 2,
+      "Ni": 2,
+      "Sc": 4,
+      "Sn": 2
+    },
+    "reduced_formula": "Sc2CuNiSn",
+    "element_list": [
+      "Sc",
+      "Ni",
+      "Cu",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50 g \n Ni: 30 g \n Sc: 20 g \n Sn: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Cu can be sourced from copper wire or sheets from a hardware store. \n Ni can be sourced from nickel coins or nickel oxide from chemical suppliers. \n Sc can be sourced from scandium oxide from specialty metal suppliers. \n Sn can be sourced from solder or tin sheets from electronics suppliers.",
+      "steps": [
+        "Cu can be sourced from copper wire or sheets from a hardware store.",
+        "Ni can be sourced from nickel coins or nickel oxide from chemical suppliers.",
+        "Sc can be sourced from scandium oxide from specialty metal suppliers.",
+        "Sn can be sourced from solder or tin sheets from electronics suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Place Cu, Ni, Sc, and Sn in a clean, dry mixing bowl.",
+        "3. Use a mortar and pestle to grind the materials together until a homogeneous powder is achieved.",
+        "4. Transfer the mixed powder into a clean container."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Place Cu, Ni, Sc, and Sn in a clean, dry mixing bowl. \n 3. Use a mortar and pestle to grind the materials together until a homogeneous powder is achieved. \n 4. Transfer the mixed powder into a clean container."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the container with the mixed powder in the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and fusion."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the container with the mixed powder in the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and fusion."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. Use fine-grit sandpaper to smooth the surface if necessary.",
+        "4. Optionally, apply a sealant for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect the sample for any surface irregularities. \n 3. Use fine-grit sandpaper to smooth the surface if necessary. \n 4. Optionally, apply a sealant for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1765674.0,
+      "density": 62232.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -585048.0,
+      "formation_energy_per_atom": -5397.0,
+      "decomposition_energy_per_atom": -72.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -72.0,
+      "decomposition_energy_mp_oqmd": -66.0
+    },
+    "electronic": {
+      "bandgap": 0.0044,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "73951b9082",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.725594Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ni2Sc4Sn2.json",
+      "material://Cu2Ni2Sc4Sn2"
+    ]
+  }
+}

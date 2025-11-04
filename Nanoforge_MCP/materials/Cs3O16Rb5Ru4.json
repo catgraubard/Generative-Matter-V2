@@ -1,0 +1,133 @@
+{
+  "id": "Cs3O16Rb5Ru4",
+  "uri": "material://Cs3O16Rb5Ru4",
+  "composition": {
+    "formula": "Cs3O16Rb5Ru4",
+    "elements": {
+      "Cs": 3,
+      "O": 16,
+      "Rb": 5,
+      "Ru": 4
+    },
+    "reduced_formula": "Cs3Rb5(RuO4)4",
+    "element_list": [
+      "O",
+      "Rb",
+      "Ru",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 500.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 800.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 500 g \n Rb: 300 g \n O: 800 g \n Ru: 200 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Specialty chemical suppliers or online chemical retailers. \n Rb (Rubidium): Specialty chemical suppliers or online chemical retailers. \n O (Oxygen): Use pure gas from gas suppliers or generate via electrolysis. \n Ru (Ruthenium): Specialty metal suppliers or online precious metal retailers.",
+      "steps": [
+        "Cs (Cesium): Specialty chemical suppliers or online chemical retailers.",
+        "Rb (Rubidium): Specialty chemical suppliers or online chemical retailers.",
+        "O (Oxygen): Use pure gas from gas suppliers or generate via electrolysis.",
+        "Ru (Ruthenium): Specialty metal suppliers or online precious metal retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 500 g of Cs using a precision scale.",
+        "2. Weigh out 300 g of Rb.",
+        "3. Measure 800 g of O (ensure it’s in a sealed environment).",
+        "4. Weigh 200 g of Ru.",
+        "5. Combine Cs, Rb, and Ru in a clean, dry container.",
+        "6. Slowly introduce O while stirring to ensure even mixing."
+      ],
+      "raw_text": "1. Weigh out 500 g of Cs using a precision scale. \n 2. Weigh out 300 g of Rb. \n 3. Measure 800 g of O (ensure it’s in a sealed environment). \n 4. Weigh 200 g of Ru. \n 5. Combine Cs, Rb, and Ru in a clean, dry container. \n 6. Slowly introduce O while stirring to ensure even mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed ingredients to a furnace or suitable high-temperature reactor.",
+        "2. Heat to 1200°C over a period of 2 hours, allowing the materials to react fully."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a furnace or suitable high-temperature reactor. \n 2. Heat to 1200°C over a period of 2 hours, allowing the materials to react fully."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to decrease gradually to room temperature (approximately 25°C) over a period of 4 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid oxidation or contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to decrease gradually to room temperature (approximately 25°C) over a period of 4 hours. \n 2. Do not open the furnace until it has cooled completely to avoid oxidation or contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any surface irregularities or imperfections.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any surface irregularities or imperfections. \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 6216763.0,
+      "density": 39701.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1720285.0,
+      "formation_energy_per_atom": -17205.0,
+      "decomposition_energy_per_atom": 6.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": 1.0,
+      "decomposition_energy_mp_oqmd": 2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "767d37665c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:50.678557Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3O16Rb5Ru4.json",
+      "material://Cs3O16Rb5Ru4"
+    ]
+  }
+}

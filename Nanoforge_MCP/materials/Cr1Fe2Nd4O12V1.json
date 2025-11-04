@@ -1,0 +1,140 @@
+{
+  "id": "Cr1Fe2Nd4O12V1",
+  "uri": "material://Cr1Fe2Nd4O12V1",
+  "composition": {
+    "formula": "Cr1Fe2Nd4O12V1",
+    "elements": {
+      "Cr": 1,
+      "Fe": 2,
+      "Nd": 4,
+      "O": 12,
+      "V": 1
+    },
+    "reduced_formula": "Nd4VCr(FeO6)2",
+    "element_list": [
+      "O",
+      "V",
+      "Cr",
+      "Fe",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 96.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 12 g \n Fe: 24 g \n Nd: 48 g \n O: 96 g \n V: 6 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium): Chemical supply stores or online chemical distributors. \n Fe (Iron): Metal supply shops or online retailers. \n Nd (Neodymium): Rare earth metal suppliers or specialized online vendors. \n O (Oxygen): Use of oxidizing agents like potassium nitrate (KNO3) available at chemical suppliers. \n V (Vanadium): Chemical supply stores or online distributors.",
+      "steps": [
+        "Cr (Chromium): Chemical supply stores or online chemical distributors.",
+        "Fe (Iron): Metal supply shops or online retailers.",
+        "Nd (Neodymium): Rare earth metal suppliers or specialized online vendors.",
+        "O (Oxygen): Use of oxidizing agents like potassium nitrate (KNO3) available at chemical suppliers.",
+        "V (Vanadium): Chemical supply stores or online distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine 12 g of Cr, 24 g of Fe, 48 g of Nd, 96 g of O (using 120 g of KNO3 to provide oxygen), and 6 g of V.",
+        "3. Mix thoroughly using a mechanical mixer to ensure a homogeneous blend.",
+        "4. Transfer the mixture into a suitable mold that matches the dimensions of 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine 12 g of Cr, 24 g of Fe, 48 g of Nd, 96 g of O (using 120 g of KNO3 to provide oxygen), and 6 g of V. \n 3. Mix thoroughly using a mechanical mixer to ensure a homogeneous blend. \n 4. Transfer the mixture into a suitable mold that matches the dimensions of 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Once at temperature, place the mold with the mixture inside the furnace.",
+        "3. Maintain this temperature for 4 hours to allow for proper sintering of the material."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Once at temperature, place the mold with the mixture inside the furnace. \n 3. Maintain this temperature for 4 hours to allow for proper sintering of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the temperature to drop naturally to 600 °C before removing the mold.",
+        "2. Once at 600 °C, remove the mold and place the sample in ambient air to cool completely, which may take approximately 2-3 hours."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the temperature to drop naturally to 600 °C before removing the mold. \n 2. Once at 600 °C, remove the mold and place the sample in ambient air to cool completely, which may take approximately 2-3 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample is cool, carefully remove it from the mold.",
+        "2. Inspect for any rough edges and sand them down using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a suitable clear coat to enhance durability.",
+        "4. Allow the sealant to cure for 24 hours before handling."
+      ],
+      "raw_text": "1. Once the sample is cool, carefully remove it from the mold. \n 2. Inspect for any rough edges and sand them down using fine-grit sandpaper. \n 3. Optionally, seal the surface with a suitable clear coat to enhance durability. \n 4. Allow the sealant to cure for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2445783.0,
+      "density": 6678.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1738963.0,
+      "formation_energy_per_atom": -29886.0,
+      "decomposition_energy_per_atom": -69.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -58.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5e0ad8cce0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:18.942446Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Fe2Nd4O12V1.json",
+      "material://Cr1Fe2Nd4O12V1"
+    ]
+  }
+}

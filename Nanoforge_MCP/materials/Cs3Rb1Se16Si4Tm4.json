@@ -1,0 +1,118 @@
+{
+  "id": "Cs3Rb1Se16Si4Tm4",
+  "uri": "material://Cs3Rb1Se16Si4Tm4",
+  "composition": {
+    "formula": "Cs3Rb1Se16Si4Tm4",
+    "elements": {
+      "Cs": 3,
+      "Rb": 1,
+      "Se": 16,
+      "Si": 4,
+      "Tm": 4
+    },
+    "reduced_formula": "Cs3RbTm4(SiSe4)4",
+    "element_list": [
+      "Si",
+      "Se",
+      "Rb",
+      "Cs",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 60 g, Rb: 20 g, Se: 256 g, Si: 40 g, Tm: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier or laboratory (look for cesium chloride). \n Rb: Available from chemical suppliers (rubidium chloride). \n Se: Purchase elemental selenium from chemical suppliers. \n Si: Obtain silicon powder from electronics suppliers. \n Tm: Get thulium oxide from chemical suppliers.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier or laboratory (look for cesium chloride).",
+        "Rb: Available from chemical suppliers (rubidium chloride).",
+        "Se: Purchase elemental selenium from chemical suppliers.",
+        "Si: Obtain silicon powder from electronics suppliers.",
+        "Tm: Get thulium oxide from chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients accurately using a precision balance.",
+        "2. In a clean, dry container, mix Cs, Rb, and Se powders until homogeneous.",
+        "3. In a separate container, combine Si and Tm powders.",
+        "4. Gradually add the Si-Tm mixture to the Cs-Rb-Se mixture while stirring continuously to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh the ingredients accurately using a precision balance. \n 2. In a clean, dry container, mix Cs, Rb, and Se powders until homogeneous. \n 3. In a separate container, combine Si and Tm powders. \n 4. Gradually add the Si-Tm mixture to the Cs-Rb-Se mixture while stirring continuously to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a suitable crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours to facilitate reaction and fusion of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a suitable crucible. \n 2. Heat in a furnace at 800°C for 2 hours to facilitate reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature over a period of 4 hours to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool slowly to room temperature over a period of 4 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. If necessary, sand the edges to achieve a smooth finish.",
+        "4. Seal the material with an appropriate coating if needed for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. If necessary, sand the edges to achieve a smooth finish. \n 4. Seal the material with an appropriate coating if needed for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8678027.0,
+      "density": 48519.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1409975.0,
+      "formation_energy_per_atom": -14926.0,
+      "decomposition_energy_per_atom": -71.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -71.0,
+      "decomposition_energy_mp_oqmd": -69.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5e58aa20b2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:19.373945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3Rb1Se16Si4Tm4.json",
+      "material://Cs3Rb1Se16Si4Tm4"
+    ]
+  }
+}

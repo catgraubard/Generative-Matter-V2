@@ -1,0 +1,135 @@
+{
+  "id": "Co16Fe4Nd3P12Pa1",
+  "uri": "material://Co16Fe4Nd3P12Pa1",
+  "composition": {
+    "formula": "Co16Fe4Nd3P12Pa1",
+    "elements": {
+      "Co": 16,
+      "Fe": 4,
+      "Nd": 3,
+      "P": 12,
+      "Pa": 1
+    },
+    "reduced_formula": "Nd3PaFe4(Co4P3)4",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Nd",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 20 g \n Rb: 5 g \n Ru: 20 g \n Sb: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Ni (Nickel) - Purchase from a chemical supply store or online supplier like Sigma-Aldrich. \n Rb (Rubidium) - Obtain from a specialized chemical supplier. \n Ru (Ruthenium) - Available from precious metal suppliers or chemistry suppliers. \n Sb (Antimony) - Sourced from metallurgy suppliers or online chemical stores.",
+      "steps": [
+        "Ni (Nickel) - Purchase from a chemical supply store or online supplier like Sigma-Aldrich.",
+        "Rb (Rubidium) - Obtain from a specialized chemical supplier.",
+        "Ru (Ruthenium) - Available from precious metal suppliers or chemistry suppliers.",
+        "Sb (Antimony) - Sourced from metallurgy suppliers or online chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Combine Ni, Rb, Ru, and Sb in a clean, dry ceramic or glass container.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity.",
+        "4. Ensure the mixture is homogenous by mixing thoroughly with a spatula."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Combine Ni, Rb, Ru, and Sb in a clean, dry ceramic or glass container. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity. \n 4. Ensure the mixture is homogenous by mixing thoroughly with a spatula."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1100 °C.",
+        "2. Transfer the powdered mixture into a crucible made of a suitable material (e.g., alumina).",
+        "3. Place the crucible in the preheated furnace.",
+        "4. Heat for 2 hours to ensure complete fusion of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 1100 °C. \n 2. Transfer the powdered mixture into a crucible made of a suitable material (e.g., alumina). \n 3. Place the crucible in the preheated furnace. \n 4. Heat for 2 hours to ensure complete fusion of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace until it has fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or surface imperfections.",
+        "3. If necessary, sand the surfaces using fine-grit sandpaper to achieve the desired finish.",
+        "4. Optionally, seal the sample with a suitable protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or surface imperfections. \n 3. If necessary, sand the surfaces using fine-grit sandpaper to achieve the desired finish. \n 4. Optionally, seal the sample with a suitable protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4521932.0,
+      "density": 80853.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2650796.0,
+      "formation_energy_per_atom": -7969.0,
+      "decomposition_energy_per_atom": -606.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -606.0,
+      "decomposition_energy_mp_oqmd": -364.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b77acc931f",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.571330Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Fe4Nd3P12Pa1.json",
+      "material://Co16Fe4Nd3P12Pa1"
+    ]
+  }
+}

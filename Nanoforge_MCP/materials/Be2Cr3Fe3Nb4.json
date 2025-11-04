@@ -1,0 +1,125 @@
+{
+  "id": "Be2Cr3Fe3Nb4",
+  "uri": "material://Be2Cr3Fe3Nb4",
+  "composition": {
+    "formula": "Be2Cr3Fe3Nb4",
+    "elements": {
+      "Be": 2,
+      "Cr": 3,
+      "Fe": 3,
+      "Nb": 4
+    },
+    "reduced_formula": "Be2Nb4(CrFe)3",
+    "element_list": [
+      "Be",
+      "Cr",
+      "Fe",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 6.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 10.5 g  \n Se: 20.0 g  \n Tm: 6.5 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a chemical supply company or online supplier. \n Se: Obtain from a chemical supply company or specialized mineral supplier. \n Tm: Source from a chemical supply company or online vendor specializing in rare earth metals.",
+      "steps": [
+        "Ni: Purchase from a chemical supply company or online supplier.",
+        "Se: Obtain from a chemical supply company or specialized mineral supplier.",
+        "Tm: Source from a chemical supply company or online vendor specializing in rare earth metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10.5 g of nickel powder (Ni).",
+        "2. Measure 20.0 g of selenium powder (Se).",
+        "3. Measure 6.5 g of thulium powder (Tm).",
+        "4. In a clean, dry container, combine the three powders thoroughly using a mortar and pestle for at least 10 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure 10.5 g of nickel powder (Ni). \n 2. Measure 20.0 g of selenium powder (Se). \n 3. Measure 6.5 g of thulium powder (Tm). \n 4. In a clean, dry container, combine the three powders thoroughly using a mortar and pestle for at least 10 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to a temperature of 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Ni1Se4Tm5."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to a temperature of 800°C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Ni1Se4Tm5."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 2-4 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 2-4 hours). \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. If necessary, grind the sample to achieve a smoother finish using a fine-grit sandpaper or grinder.",
+        "3. Optionally, seal the surface with an appropriate protective coating to prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. If necessary, grind the sample to achieve a smoother finish using a fine-grit sandpaper or grinder. \n 3. Optionally, seal the surface with an appropriate protective coating to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1567064.0,
+      "density": 75571.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1041755.0,
+      "formation_energy_per_atom": -1602.0,
+      "decomposition_energy_per_atom": -431.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -102.0,
+      "decomposition_energy_mp": -431.0,
+      "decomposition_energy_mp_oqmd": -43.0
+    },
+    "electronic": {
+      "bandgap": 0.0032,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "be9a05b1e4",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.583819Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Be2Cr3Fe3Nb4.json",
+      "material://Be2Cr3Fe3Nb4"
+    ]
+  }
+}

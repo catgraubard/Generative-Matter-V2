@@ -1,0 +1,114 @@
+{
+  "id": "La10Mg1Ru6Sn3",
+  "uri": "material://La10Mg1Ru6Sn3",
+  "composition": {
+    "formula": "La10Mg1Ru6Sn3",
+    "elements": {
+      "La": 10,
+      "Mg": 1,
+      "Ru": 6,
+      "Sn": 3
+    },
+    "reduced_formula": "La10Mg(SnRu2)3",
+    "element_list": [
+      "Mg",
+      "Ru",
+      "Sn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 40.0 g, Mg: 4.0 g, Ru: 24.0 g, Sn: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supplier such as Sigma-Aldrich; Mg: Obtain from a metallurgy supplier; Ru: Source from specialty metal dealers; Sn: Available at electronics supply stores or metal suppliers.",
+      "steps": [
+        "La: Purchase from a chemical supplier such as Sigma-Aldrich; Mg: Obtain from a metallurgy supplier; Ru: Source from specialty metal dealers; Sn: Available at electronics supply stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh La, Mg, Ru, and Sn using an analytical balance.",
+        "2. In a clean, dry container, add La and Mg first.",
+        "3. Mix these metals thoroughly using a spatula for about 5 minutes.",
+        "4. Gradually add Ru while continuously mixing to ensure homogeneity.",
+        "5. Finally, add Sn and mix for an additional 5 minutes."
+      ],
+      "raw_text": "1. Weigh La, Mg, Ru, and Sn using an analytical balance. \n 2. In a clean, dry container, add La and Mg first. \n 3. Mix these metals thoroughly using a spatula for about 5 minutes. \n 4. Gradually add Ru while continuously mixing to ensure homogeneity. \n 5. Finally, add Sn and mix for an additional 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800°C.",
+        "2. Transfer the mixed powders into a graphite crucible.",
+        "3. Place the crucible in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800°C. \n 2. Transfer the mixed powders into a graphite crucible. \n 3. Place the crucible in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled down completely to avoid oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled down completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a sandpaper (grit 120) to smooth the surfaces of the sample.",
+        "3. Optionally, apply a sealant for added protection against oxidation if necessary."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a sandpaper (grit 120) to smooth the surfaces of the sample. \n 3. Optionally, apply a sealant for added protection against oxidation if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5234332.0,
+      "density": 75373.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1277184.0,
+      "formation_energy_per_atom": -4541.0,
+      "decomposition_energy_per_atom": -532.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -531.0,
+      "decomposition_energy_mp_oqmd": -405.0
+    },
+    "electronic": {
+      "bandgap": 0.0052,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "88f169494b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:15.215453Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La10Mg1Ru6Sn3.json",
+      "material://La10Mg1Ru6Sn3"
+    ]
+  }
+}

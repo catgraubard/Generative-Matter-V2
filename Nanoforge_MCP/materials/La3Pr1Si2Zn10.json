@@ -1,0 +1,132 @@
+{
+  "id": "La3Pr1Si2Zn10",
+  "uri": "material://La3Pr1Si2Zn10",
+  "composition": {
+    "formula": "La3Pr1Si2Zn10",
+    "elements": {
+      "La": 3,
+      "Pr": 1,
+      "Si": 2,
+      "Zn": 10
+    },
+    "reduced_formula": "La3Pr(Zn5Si)2",
+    "element_list": [
+      "Si",
+      "Zn",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 10.1,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 3.9,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 7.2,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 37.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 10.1 g \n Pr: 3.9 g \n Si: 7.2 g \n Zn: 37.0 g"
+    },
+    "sourcing": {
+      "instructions": "La (Lanthanum) - Purchase from a chemical supplier or specialty metal distributor. \n Pr (Praseodymium) - Available through rare earth metal suppliers. \n Si (Silicon) - Obtain from electronic component suppliers or chemical stores. \n Zn (Zinc) - Commonly found in hardware stores or metal suppliers.",
+      "steps": [
+        "La (Lanthanum) - Purchase from a chemical supplier or specialty metal distributor.",
+        "Pr (Praseodymium) - Available through rare earth metal suppliers.",
+        "Si (Silicon) - Obtain from electronic component suppliers or chemical stores.",
+        "Zn (Zinc) - Commonly found in hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine La, Pr, Si, and Zn in the specified amounts.",
+        "3. Use a spatula to mix thoroughly until a uniform blend is achieved.",
+        "4. If needed, grind the mixture using a mortar and pestle to ensure fine particle size."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine La, Pr, Si, and Zn in the specified amounts. \n 3. Use a spatula to mix thoroughly until a uniform blend is achieved. \n 4. If needed, grind the mixture using a mortar and pestle to ensure fine particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature crucible.",
+        "2. Place the crucible in a furnace and heat to 1200°C.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature crucible. \n 2. Place the crucible in a furnace and heat to 1200°C. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. This process should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. This process should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities; if present, use a diamond file to smooth the edges.",
+        "3. Optionally, apply a sealing coat if required for environmental protection.",
+        "4. Store the final product in a dry place."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities; if present, use a diamond file to smooth the edges. \n 3. Optionally, apply a sealing coat if required for environmental protection. \n 4. Store the final product in a dry place."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3263893.0,
+      "density": 64505.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -50299.0,
+      "formation_energy_per_atom": -4539.0,
+      "decomposition_energy_per_atom": -36.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -358.0,
+      "decomposition_energy_mp_oqmd": -69.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "572c502d18",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:10.138849Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La3Pr1Si2Zn10.json",
+      "material://La3Pr1Si2Zn10"
+    ]
+  }
+}

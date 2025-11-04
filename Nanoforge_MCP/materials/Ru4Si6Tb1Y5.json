@@ -1,0 +1,132 @@
+{
+  "id": "Ru4Si6Tb1Y5",
+  "uri": "material://Ru4Si6Tb1Y5",
+  "composition": {
+    "formula": "Ru4Si6Tb1Y5",
+    "elements": {
+      "Ru": 4,
+      "Si": 6,
+      "Tb": 1,
+      "Y": 5
+    },
+    "reduced_formula": "TbY5(Si3Ru2)2",
+    "element_list": [
+      "Si",
+      "Y",
+      "Ru",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 30 g \n Pr: 10 g \n Si: 20 g \n Zn: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium) - Available from chemical supply companies or online marketplaces specializing in rare earth metals. \n Pr (Praseodymium) - Obtain from similar sources as Nd or from specialized metal suppliers. \n Si (Silicon) - Can be sourced from electronics suppliers or chemical shops. \n Zn (Zinc) - Obtain from hardware stores or metal suppliers.",
+      "steps": [
+        "Nd (Neodymium) - Available from chemical supply companies or online marketplaces specializing in rare earth metals.",
+        "Pr (Praseodymium) - Obtain from similar sources as Nd or from specialized metal suppliers.",
+        "Si (Silicon) - Can be sourced from electronics suppliers or chemical shops.",
+        "Zn (Zinc) - Obtain from hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the specified amounts of Nd, Pr, Si, and Zn using a precision scale.",
+        "2. In a clean, dry environment, combine the Nd and Pr in a mortar and pestle. Grind until they form a fine powder.",
+        "3. Gradually add Si to the Nd-Pr mixture, ensuring uniform distribution. Continue grinding.",
+        "4. Add Zn powder to the mix, and grind the entire mixture until it is homogenous."
+      ],
+      "raw_text": "1. Measure the specified amounts of Nd, Pr, Si, and Zn using a precision scale. \n 2. In a clean, dry environment, combine the Nd and Pr in a mortar and pestle. Grind until they form a fine powder. \n 3. Gradually add Si to the Nd-Pr mixture, ensuring uniform distribution. Continue grinding. \n 4. Add Zn powder to the mix, and grind the entire mixture until it is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Preheat the furnace to 900°C (1652°F).",
+        "3. Place the crucible in the furnace and maintain this temperature for 2 hours to allow the materials to react and form the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Preheat the furnace to 900°C (1652°F). \n 3. Place the crucible in the furnace and maintain this temperature for 2 hours to allow the materials to react and form the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability and protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample into desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3109077.0,
+      "density": 62823.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1204436.0,
+      "formation_energy_per_atom": -8642.0,
+      "decomposition_energy_per_atom": -417.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -434.0,
+      "decomposition_energy_mp_oqmd": -365.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa01f7d806",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:00.775980Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ru4Si6Tb1Y5.json",
+      "material://Ru4Si6Tb1Y5"
+    ]
+  }
+}

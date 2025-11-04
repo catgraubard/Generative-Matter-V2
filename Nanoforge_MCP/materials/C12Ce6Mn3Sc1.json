@@ -1,0 +1,136 @@
+{
+  "id": "C12Ce6Mn3Sc1",
+  "uri": "material://C12Ce6Mn3Sc1",
+  "composition": {
+    "formula": "C12Ce6Mn3Sc1",
+    "elements": {
+      "C": 12,
+      "Ce": 6,
+      "Mn": 3,
+      "Sc": 1
+    },
+    "reduced_formula": "Ce6Sc(MnC4)3",
+    "element_list": [
+      "C",
+      "Sc",
+      "Mn",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 33.33,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 7.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 33.33 g (NiO) \n O: 32.00 g (O2) \n Sr: 24.00 g (SrCO3) \n W: 56.00 g (WO3) \n Zn: 7.00 g (ZnO)"
+    },
+    "sourcing": {
+      "instructions": "NiO: Chemical suppliers or online marketplaces \n O2: Lab gas suppliers \n SrCO3: Chemical suppliers \n WO3: Chemical suppliers \n ZnO: Chemical suppliers",
+      "steps": [
+        "NiO: Chemical suppliers or online marketplaces",
+        "O2: Lab gas suppliers",
+        "SrCO3: Chemical suppliers",
+        "WO3: Chemical suppliers",
+        "ZnO: Chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the NiO, O2, SrCO3, WO3, and ZnO.",
+        "3. Mix thoroughly using a spatula or mechanical mixer for at least 10 minutes to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine the NiO, O2, SrCO3, WO3, and ZnO. \n 3. Mix thoroughly using a spatula or mechanical mixer for at least 10 minutes to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C (1472°F) and hold for 2 hours to facilitate complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C (1472°F) and hold for 2 hours to facilitate complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (about 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (about 4-6 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for uniformity; if needed, grind the sample to achieve a finer consistency.",
+        "3. Seal the material with a protective coating if required, or proceed to any further processing as needed."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for uniformity; if needed, grind the sample to achieve a finer consistency. \n 3. Seal the material with a protective coating if required, or proceed to any further processing as needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 3090194.0,
+      "density": 64192.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3",
+      "space_group_number": 147,
+      "point_group": "-3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -186155.0,
+      "formation_energy_per_atom": -2735.0,
+      "decomposition_energy_per_atom": -388.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -91.0,
+      "decomposition_energy_mp": -387.0,
+      "decomposition_energy_mp_oqmd": -208.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db8b6387d0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.424587Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C12Ce6Mn3Sc1.json",
+      "material://C12Ce6Mn3Sc1"
+    ]
+  }
+}

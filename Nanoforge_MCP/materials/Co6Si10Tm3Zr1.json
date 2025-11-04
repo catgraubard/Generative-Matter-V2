@@ -1,0 +1,129 @@
+{
+  "id": "Co6Si10Tm3Zr1",
+  "uri": "material://Co6Si10Tm3Zr1",
+  "composition": {
+    "formula": "Co6Si10Tm3Zr1",
+    "elements": {
+      "Co": 6,
+      "Si": 10,
+      "Tm": 3,
+      "Zr": 1
+    },
+    "reduced_formula": "Tm3Zr(Co3Si5)2",
+    "element_list": [
+      "Si",
+      "Co",
+      "Zr",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 10.8,
+          "unit": "g"
+        },
+        {
+          "element": "B",
+          "amount": 23.7,
+          "unit": "g"
+        },
+        {
+          "element": "Be",
+          "amount": 0.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 10.80 g (Aluminum powder, 99.9% purity) \n B: 23.70 g (Boron powder, 99.5% purity) \n Be: 0.50 g (Beryllium powder, 99% purity) \n Ni: 120.00 g (Nickel powder, 99.9% purity)"
+    },
+    "sourcing": {
+      "instructions": "Aluminum powder: Chemical supply stores or online retailers. \n Boron powder: Chemical supply stores or specialty metal suppliers. \n Beryllium powder: Specialty suppliers with safety certifications due to toxicity. \n Nickel powder: Chemical supply stores or online metal suppliers.",
+      "steps": [
+        "Aluminum powder: Chemical supply stores or online retailers.",
+        "Boron powder: Chemical supply stores or specialty metal suppliers.",
+        "Beryllium powder: Specialty suppliers with safety certifications due to toxicity.",
+        "Nickel powder: Chemical supply stores or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an analytical scale for precision.",
+        "2. In a clean, dry container, combine Al, B, Be, and Ni powders thoroughly using a spatula to ensure uniform distribution.",
+        "3. Transfer the mixed powders to a ball mill and mill for 1 hour to achieve a fine and homogeneous blend."
+      ],
+      "raw_text": "1. Measure each ingredient using an analytical scale for precision. \n 2. In a clean, dry container, combine Al, B, Be, and Ni powders thoroughly using a spatula to ensure uniform distribution. \n 3. Transfer the mixed powders to a ball mill and mill for 1 hour to achieve a fine and homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the milled powder mixture into a suitable crucible (preferably made of graphite) and insert it into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete sintering of the material."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the milled powder mixture into a suitable crucible (preferably made of graphite) and insert it into the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete sintering of the material."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace door until it has cooled below 300°C to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace door until it has cooled below 300°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and extract the solid sample.",
+        "2. Sand the exterior surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, apply a sealant to enhance surface integrity and protect against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and extract the solid sample. \n 2. Sand the exterior surfaces using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, apply a sealant to enhance surface integrity and protect against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2872884.0,
+      "density": 71238.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1334427.0,
+      "formation_energy_per_atom": -7282.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e3e8f3145c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.689646Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co6Si10Tm3Zr1.json",
+      "material://Co6Si10Tm3Zr1"
+    ]
+  }
+}

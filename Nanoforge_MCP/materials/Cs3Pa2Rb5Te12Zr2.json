@@ -1,0 +1,140 @@
+{
+  "id": "Cs3Pa2Rb5Te12Zr2",
+  "uri": "material://Cs3Pa2Rb5Te12Zr2",
+  "composition": {
+    "formula": "Cs3Pa2Rb5Te12Zr2",
+    "elements": {
+      "Cs": 3,
+      "Pa": 2,
+      "Rb": 5,
+      "Te": 12,
+      "Zr": 2
+    },
+    "reduced_formula": "Cs3Rb5Zr2(PaTe6)2",
+    "element_list": [
+      "Rb",
+      "Zr",
+      "Te",
+      "Cs",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 7.5,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 4.5,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 11.5,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 7.5 g \n Pa: 4.5 g \n Rb: 11.5 g \n Te: 20 g \n Zr: 1.5 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Available from chemical supply companies like Sigma-Aldrich. \n Pa (Protactinium): Obtain from specialized nuclear material suppliers. \n Rb (Rubidium): Available from chemical supply companies. \n Te (Tellurium): Obtain from chemical suppliers or mining companies. \n Zr (Zirconium): Available from metal suppliers or chemical supply companies.",
+      "steps": [
+        "Cs (Cesium): Available from chemical supply companies like Sigma-Aldrich.",
+        "Pa (Protactinium): Obtain from specialized nuclear material suppliers.",
+        "Rb (Rubidium): Available from chemical supply companies.",
+        "Te (Tellurium): Obtain from chemical suppliers or mining companies.",
+        "Zr (Zirconium): Available from metal suppliers or chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, add Cs, Pa, Rb, Te, and Zr in the order listed.",
+        "3. Use a mortar and pestle to blend the powders thoroughly to achieve a uniform mixture.",
+        "4. Transfer the blended mixture into a ball mill and mill for 4 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean, dry container, add Cs, Pa, Rb, Te, and Zr in the order listed. \n 3. Use a mortar and pestle to blend the powders thoroughly to achieve a uniform mixture. \n 4. Transfer the blended mixture into a ball mill and mill for 4 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 6,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixture in a suitable crucible (preferably made of alumina) and insert it into the furnace.",
+        "3. Maintain this temperature for 6 hours to promote reaction and solidify the material."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the mixture in a suitable crucible (preferably made of alumina) and insert it into the furnace. \n 3. Maintain this temperature for 6 hours to promote reaction and solidify the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace during cooling to prevent contamination and rapid temperature changes."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace during cooling to prevent contamination and rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface if necessary."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface if necessary."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 10296047.0,
+      "density": 48412.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1119374.0,
+      "formation_energy_per_atom": -1271.0,
+      "decomposition_energy_per_atom": -1991.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -1981.0,
+      "decomposition_energy_mp_oqmd": -1868.0
+    },
+    "electronic": {
+      "bandgap": 0.3443,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "66c5542c1a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:30.080062Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs3Pa2Rb5Te12Zr2.json",
+      "material://Cs3Pa2Rb5Te12Zr2"
+    ]
+  }
+}

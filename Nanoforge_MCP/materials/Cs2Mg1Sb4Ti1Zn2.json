@@ -1,0 +1,142 @@
+{
+  "id": "Cs2Mg1Sb4Ti1Zn2",
+  "uri": "material://Cs2Mg1Sb4Ti1Zn2",
+  "composition": {
+    "formula": "Cs2Mg1Sb4Ti1Zn2",
+    "elements": {
+      "Cs": 2,
+      "Mg": 1,
+      "Sb": 4,
+      "Ti": 1,
+      "Zn": 2
+    },
+    "reduced_formula": "Cs2MgTi(ZnSb2)2",
+    "element_list": [
+      "Mg",
+      "Ti",
+      "Zn",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 11.4,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 2.4,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 38.6,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 9.5,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 15.7,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 11.4 g (Cesium chloride) \n Mg: 2.4 g (Magnesium oxide) \n Sb: 38.6 g (Antimony) \n Ti: 9.5 g (Titanium powder) \n Zn: 15.7 g (Zinc powder)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich) or online. \n Mg: Available at chemical supply stores or online (e.g., Amazon). \n Sb: Obtain from a chemical supplier or online marketplace. \n Ti: Available at specialty metal suppliers. \n Zn: Purchase from hardware stores or online.",
+      "steps": [
+        "Cs: Purchase from a chemical supply company (e.g., Sigma-Aldrich) or online.",
+        "Mg: Available at chemical supply stores or online (e.g., Amazon).",
+        "Sb: Obtain from a chemical supplier or online marketplace.",
+        "Ti: Available at specialty metal suppliers.",
+        "Zn: Purchase from hardware stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate personal protective equipment (gloves, goggles, lab coat).",
+        "2. Weigh the required amounts of each ingredient using a precision scale.",
+        "3. In a clean, dry glass or ceramic mixing container, combine Cs, Mg, Sb, Ti, and Zn thoroughly using a spatula.",
+        "4. Ensure uniform distribution of powders."
+      ],
+      "raw_text": "1. Wear appropriate personal protective equipment (gloves, goggles, lab coat). \n 2. Weigh the required amounts of each ingredient using a precision scale. \n 3. In a clean, dry glass or ceramic mixing container, combine Cs, Mg, Sb, Ti, and Zn thoroughly using a spatula. \n 4. Ensure uniform distribution of powders."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace or crucible.",
+        "2. Heat the mixture to 800°C (1472°F) at a rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace or crucible. \n 2. Heat the mixture to 800°C (1472°F) at a rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. This may take approximately 6-8 hours.",
+        "3. Do not open the furnace until it has cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. This may take approximately 6-8 hours. \n 3. Do not open the furnace until it has cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the furnace using heat-resistant gloves.",
+        "2. Allow the sample to air cool completely.",
+        "3. If necessary, sand the edges or surface to achieve the desired finish using fine-grit sandpaper.",
+        "4. Optionally, seal the surface with a suitable protective coating to enhance durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the furnace using heat-resistant gloves. \n 2. Allow the sample to air cool completely. \n 3. If necessary, sand the edges or surface to achieve the desired finish using fine-grit sandpaper. \n 4. Optionally, seal the surface with a suitable protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 3316523.0,
+      "density": 47858.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "C222",
+      "space_group_number": 21,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -353323.0,
+      "formation_energy_per_atom": -501.0,
+      "decomposition_energy_per_atom": -784.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -18.0,
+      "decomposition_energy_mp": -773.0,
+      "decomposition_energy_mp_oqmd": -281.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1cfac51b49",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:53.646746Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2Mg1Sb4Ti1Zn2.json",
+      "material://Cs2Mg1Sb4Ti1Zn2"
+    ]
+  }
+}

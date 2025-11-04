@@ -1,0 +1,114 @@
+{
+  "id": "Fe16P12Tb4Ti4",
+  "uri": "material://Fe16P12Tb4Ti4",
+  "composition": {
+    "formula": "Fe16P12Tb4Ti4",
+    "elements": {
+      "Fe": 16,
+      "P": 12,
+      "Tb": 4,
+      "Ti": 4
+    },
+    "reduced_formula": "TbTiFe4P3",
+    "element_list": [
+      "P",
+      "Ti",
+      "Fe",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 34.4,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 34.4 g, Rb: 16.0 g, Se: 64.0 g, Sm: 7.1 g, Tb: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: metal supplier or online retailer; Rb: chemical supplier or specialty store; Se: chemical supplier; Sm: rare earth material suppliers; Tb: rare earth material suppliers.",
+      "steps": [
+        "Cu: metal supplier or online retailer; Rb: chemical supplier or specialty store; Se: chemical supplier; Sm: rare earth material suppliers; Tb: rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry environment, combine all ingredients in a ceramic crucible.",
+        "3. Mix the powders thoroughly using a spatula or mortar and pestle to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry environment, combine all ingredients in a ceramic crucible. \n 3. Mix the powders thoroughly using a spatula or mortar and pestle to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat gradually to 800 °C at a rate of 5 °C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat gradually to 800 °C at a rate of 5 °C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature.",
+        "2. This should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature. \n 2. This should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid from the crucible and inspect for uniformity.",
+        "2. If necessary, grind the solid to a fine powder using a mortar and pestle.",
+        "3. If a solid sample is preferred, press the powder into a mold of the desired dimensions and sinter at 900 °C for 2 hours.",
+        "4. Optionally, seal the sample with a clear epoxy for durability."
+      ],
+      "raw_text": "1. Remove the solid from the crucible and inspect for uniformity. \n 2. If necessary, grind the solid to a fine powder using a mortar and pestle. \n 3. If a solid sample is preferred, press the powder into a mold of the desired dimensions and sinter at 900 °C for 2 hours. \n 4. Optionally, seal the sample with a clear epoxy for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4702635.0,
+      "density": 73883.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2834839.0,
+      "formation_energy_per_atom": -9135.0,
+      "decomposition_energy_per_atom": -128.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -128.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ccff6b9099",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.536095Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe16P12Tb4Ti4.json",
+      "material://Fe16P12Tb4Ti4"
+    ]
+  }
+}

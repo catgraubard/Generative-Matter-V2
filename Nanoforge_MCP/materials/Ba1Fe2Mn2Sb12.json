@@ -1,0 +1,128 @@
+{
+  "id": "Ba1Fe2Mn2Sb12",
+  "uri": "material://Ba1Fe2Mn2Sb12",
+  "composition": {
+    "formula": "Ba1Fe2Mn2Sb12",
+    "elements": {
+      "Ba": 1,
+      "Fe": 2,
+      "Mn": 2,
+      "Sb": 12
+    },
+    "reduced_formula": "BaMn2(FeSb6)2",
+    "element_list": [
+      "Mn",
+      "Fe",
+      "Sb",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 20.0 g \n Mn: 5.0 g \n Na: 5.0 g \n S: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium) - Available from chemical suppliers or specialized online retailers. \n Mn (Manganese) - Obtain from chemical supply stores. \n Na (Sodium) - Purchase from chemical suppliers or pharmacies. \n S (Sulfur) - Available at chemical suppliers or gardening stores.",
+      "steps": [
+        "Cs (Cesium) - Available from chemical suppliers or specialized online retailers.",
+        "Mn (Manganese) - Obtain from chemical supply stores.",
+        "Na (Sodium) - Purchase from chemical suppliers or pharmacies.",
+        "S (Sulfur) - Available at chemical suppliers or gardening stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20.0 g of Cs, 5.0 g of Mn, 5.0 g of Na, and 20.0 g of S using an analytical balance.",
+        "2. In a clean, dry container, combine the weighed materials thoroughly to ensure a homogeneous mixture.",
+        "3. Use a mortar and pestle to grind the mixture until a fine powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 20.0 g of Cs, 5.0 g of Mn, 5.0 g of Na, and 20.0 g of S using an analytical balance. \n 2. In a clean, dry container, combine the weighed materials thoroughly to ensure a homogeneous mixture. \n 3. Use a mortar and pestle to grind the mixture until a fine powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the powdered mixture into a crucible.",
+        "2. Heat the crucible in a muffle furnace at a temperature of 800 °C for 2 hours to promote solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the powdered mixture into a crucible. \n 2. Heat the crucible in a muffle furnace at a temperature of 800 °C for 2 hours to promote solid-state reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the muffle furnace and allow it to cool down to room temperature naturally.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the muffle furnace and allow it to cool down to room temperature naturally. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solidified sample for uniformity and structure.",
+        "2. Use a sanding tool to smooth out any rough edges on the sample.",
+        "3. Optionally, apply a sealant to protect the surface of the material, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Inspect the solidified sample for uniformity and structure. \n 2. Use a sanding tool to smooth out any rough edges on the sample. \n 3. Optionally, apply a sealant to protect the surface of the material, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4077356.0,
+      "density": 74122.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -918724.0,
+      "formation_energy_per_atom": -3024.0,
+      "decomposition_energy_per_atom": -314.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -275.0,
+      "decomposition_energy_mp": -403.0,
+      "decomposition_energy_mp_oqmd": -275.0
+    },
+    "electronic": {
+      "bandgap": 0.0062,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ccd5957bbf",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.492816Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba1Fe2Mn2Sb12.json",
+      "material://Ba1Fe2Mn2Sb12"
+    ]
+  }
+}

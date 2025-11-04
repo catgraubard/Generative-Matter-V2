@@ -1,0 +1,112 @@
+{
+  "id": "B16Eu3Tb1",
+  "uri": "material://B16Eu3Tb1",
+  "composition": {
+    "formula": "B16Eu3Tb1",
+    "elements": {
+      "B": 16,
+      "Eu": 3,
+      "Tb": 1
+    },
+    "reduced_formula": "TbEu3B16",
+    "element_list": [
+      "B",
+      "Eu",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ga",
+          "amount": 8.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ga: 8.8 g, P: 1.1 g, Rb: 0.5 g, Se: 39.6 g"
+    },
+    "sourcing": {
+      "instructions": "Ga: Specialty chemical suppliers; P: Chemical supply companies; Rb: Online chemical retailers; Se: Specialty chemical suppliers",
+      "steps": [
+        "Ga: Specialty chemical suppliers; P: Chemical supply companies; Rb: Online chemical retailers; Se: Specialty chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Ga, P, Rb, and Se accurately using a digital scale.",
+        "2. In a fume hood, combine Ga, P, and Rb in a quartz crucible.",
+        "3. Stir the mixture using a clean, non-reactive spatula until well mixed.",
+        "4. Gradually add Se to the mixture while stirring continuously to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh Ga, P, Rb, and Se accurately using a digital scale. \n 2. In a fume hood, combine Ga, P, and Rb in a quartz crucible. \n 3. Stir the mixture using a clean, non-reactive spatula until well mixed. \n 4. Gradually add Se to the mixture while stirring continuously to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat to 800°C (1472°F) at a rate of 10°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace. \n 2. Heat to 800°C (1472°F) at a rate of 10°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to 500°C (932°F).",
+        "2. Once at 500°C, remove the crucible and place it on a heat-resistant surface to cool to room temperature (approximately 25°C)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to 500°C (932°F). \n 2. Once at 500°C, remove the crucible and place it on a heat-resistant surface to cool to room temperature (approximately 25°C)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. If necessary, use a diamond saw to cut the sample to desired dimensions.",
+        "3. Sand the edges and surfaces using fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface stability and protection."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. If necessary, use a diamond saw to cut the sample to desired dimensions. \n 3. Sand the edges and surfaces using fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to enhance surface stability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 213137.0,
+      "density": 61377.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1523627.0,
+      "formation_energy_per_atom": -4991.0,
+      "decomposition_energy_per_atom": -193.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -21.0,
+      "decomposition_energy_mp_oqmd": -115.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bdc0fe754f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.302601Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B16Eu3Tb1.json",
+      "material://B16Eu3Tb1"
+    ]
+  }
+}

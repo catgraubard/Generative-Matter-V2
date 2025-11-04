@@ -1,0 +1,138 @@
+{
+  "id": "Bi8Cu1La6Ni5",
+  "uri": "material://Bi8Cu1La6Ni5",
+  "composition": {
+    "formula": "Bi8Cu1La6Ni5",
+    "elements": {
+      "Bi": 8,
+      "Cu": 1,
+      "La": 6,
+      "Ni": 5
+    },
+    "reduced_formula": "La6CuNi5Bi8",
+    "element_list": [
+      "Ni",
+      "Cu",
+      "La",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 16.25,
+          "unit": "g"
+        },
+        {
+          "element": "Cr",
+          "amount": 4.25,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 12.75,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 51.75,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 10.25,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 16.25 g \n Cr: 4.25 g \n Nb: 12.75 g \n Ru: 51.75 g \n Sc: 10.25 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical supply stores or online suppliers. \n Cr: Chromium powder from metal suppliers or online chemical retailers. \n Nb: Niobium powder from specialized metal suppliers. \n Ru: Ruthenium powder from precious metals dealers. \n Sc: Scandium powder from metal supply companies.",
+      "steps": [
+        "B: Boron powder from chemical supply stores or online suppliers.",
+        "Cr: Chromium powder from metal suppliers or online chemical retailers.",
+        "Nb: Niobium powder from specialized metal suppliers.",
+        "Ru: Ruthenium powder from precious metals dealers.",
+        "Sc: Scandium powder from metal supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Cr, Nb, Ru, and Sc.",
+        "3. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved.",
+        "4. Transfer the mixed powder to a ball mill and mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Cr, Nb, Ru, and Sc. \n 3. Use a mortar and pestle to grind the mixture thoroughly until a homogeneous powder is achieved. \n 4. Transfer the mixed powder to a ball mill and mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Place the powder mixture in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Place the powder mixture in a crucible suitable for high temperatures. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the sintered sample for any imperfections.",
+        "2. If needed, use a diamond file to smooth any rough edges.",
+        "3. Seal the surface with a suitable high-temperature resistant sealant to enhance durability.",
+        "4. Store the finished sample in a dry place away from moisture."
+      ],
+      "raw_text": "1. Inspect the sintered sample for any imperfections. \n 2. If needed, use a diamond file to smooth any rough edges. \n 3. Seal the surface with a suitable high-temperature resistant sealant to enhance durability. \n 4. Store the finished sample in a dry place away from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 495943.0,
+      "density": 95836.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-4",
+      "space_group_number": 82,
+      "point_group": "-4",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1066342.0,
+      "formation_energy_per_atom": -6449.0,
+      "decomposition_energy_per_atom": 1.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": 1.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd74d3dff3",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.663891Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi8Cu1La6Ni5.json",
+      "material://Bi8Cu1La6Ni5"
+    ]
+  }
+}

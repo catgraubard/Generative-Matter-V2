@@ -1,0 +1,129 @@
+{
+  "id": "O2Pm2Se1",
+  "uri": "material://O2Pm2Se1",
+  "composition": {
+    "formula": "O2Pm2Se1",
+    "elements": {
+      "O": 2,
+      "Pm": 2,
+      "Se": 1
+    },
+    "reduced_formula": "Pm2SeO2",
+    "element_list": [
+      "O",
+      "Se",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 128.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 72.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 128 g (Cobalt) \n Er: 32 g (Erbium) \n Li: 12 g (Lithium) \n P: 72 g (Phosphorus)"
+    },
+    "sourcing": {
+      "instructions": "Co: Obtain from a chemical supply company or metal alloy supplier. \n Er: Purchase from a rare earth element supplier or chemical distributor. \n Li: Source from a lithium chemical supplier or battery manufacturing company. \n P: Acquire from a chemical supply company.",
+      "steps": [
+        "Co: Obtain from a chemical supply company or metal alloy supplier.",
+        "Er: Purchase from a rare earth element supplier or chemical distributor.",
+        "Li: Source from a lithium chemical supplier or battery manufacturing company.",
+        "P: Acquire from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 128 g of Cobalt powder, 32 g of Erbium powder, 12 g of Lithium powder, and 72 g of Phosphorus powder using a precision scale.",
+        "2. In a clean, dry mixing container, combine the measured powders thoroughly using a spatula to ensure even distribution.",
+        "3. Use a mortar and pestle to further grind the mixture for uniformity."
+      ],
+      "raw_text": "1. Measure out 128 g of Cobalt powder, 32 g of Erbium powder, 12 g of Lithium powder, and 72 g of Phosphorus powder using a precision scale. \n 2. In a clean, dry mixing container, combine the measured powders thoroughly using a spatula to ensure even distribution. \n 3. Use a mortar and pestle to further grind the mixture for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace gradually to 800°C (1472°F) over 1 hour to ensure proper melting and mixing of the components.",
+        "3. Maintain the temperature at 800°C for 2 hours to allow for complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace gradually to 800°C (1472°F) over 1 hour to ensure proper melting and mixing of the components. \n 3. Maintain the temperature at 800°C for 2 hours to allow for complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid rapid cooling to prevent cracking in the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 6-8 hours). \n 2. Avoid rapid cooling to prevent cracking in the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 964929.0,
+      "density": 69001.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -399416.0,
+      "formation_energy_per_atom": -34097.0,
+      "decomposition_energy_per_atom": -1255.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -1259.0,
+      "decomposition_energy_mp_oqmd": -1259.0
+    },
+    "electronic": {
+      "bandgap": 2.139,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd10277ca8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.555764Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O2Pm2Se1.json",
+      "material://O2Pm2Se1"
+    ]
+  }
+}

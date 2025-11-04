@@ -1,0 +1,110 @@
+{
+  "id": "Fe2K4O20Si8",
+  "uri": "material://Fe2K4O20Si8",
+  "composition": {
+    "formula": "Fe2K4O20Si8",
+    "elements": {
+      "Fe": 2,
+      "K": 4,
+      "O": 20,
+      "Si": 8
+    },
+    "reduced_formula": "K2Fe(Si2O5)2",
+    "element_list": [
+      "O",
+      "Si",
+      "K",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron(III) oxide (Fe2O3): 40 g  \n - Potassium carbonate (K2CO3): 10 g  \n - Silicon dioxide (SiO2): 52 g  \n - Water: 100 g (for mixing)"
+    },
+    "sourcing": {
+      "instructions": "- Iron(III) oxide: Chemical supply stores or online chemical suppliers \n - Potassium carbonate: Grocery stores (as a food additive) or chemical suppliers \n - Silicon dioxide: Chemical supply stores or online suppliers \n - Water: Tap water or distilled water",
+      "steps": [
+        "- Iron(III) oxide: Chemical supply stores or online chemical suppliers",
+        "- Potassium carbonate: Grocery stores (as a food additive) or chemical suppliers",
+        "- Silicon dioxide: Chemical supply stores or online suppliers",
+        "- Water: Tap water or distilled water"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40 g of Iron(III) oxide and 10 g of Potassium carbonate.",
+        "2. Measure 52 g of Silicon dioxide.",
+        "3. In a clean mixing bowl, combine the Iron(III) oxide, Potassium carbonate, and Silicon dioxide thoroughly.",
+        "4. Gradually add 100 g of water to the dry mixture while stirring to form a homogeneous paste."
+      ],
+      "raw_text": "1. Measure 40 g of Iron(III) oxide and 10 g of Potassium carbonate. \n 2. Measure 52 g of Silicon dioxide. \n 3. In a clean mixing bowl, combine the Iron(III) oxide, Potassium carbonate, and Silicon dioxide thoroughly. \n 4. Gradually add 100 g of water to the dry mixture while stirring to form a homogeneous paste."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C (1472°F).",
+        "2. Once the paste is well-mixed, transfer it into a suitable heat-resistant mold (3x2x7 inches).",
+        "3. Place the mold in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C (1472°F). \n  2. Once the paste is well-mixed, transfer it into a suitable heat-resistant mold (3x2x7 inches). \n  3. Place the mold in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the sample to cool inside the furnace slowly for 4 hours to avoid cracking.",
+        "2. Once cooled, remove the mold from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the sample to cool inside the furnace slowly for 4 hours to avoid cracking. \n  2. Once cooled, remove the mold from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the mold.",
+        "2. If necessary, use a fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the sample with a clear sealant to protect the surface."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the mold. \n  2. If necessary, use a fine-grit sandpaper to smooth any rough edges. \n  3. Optionally, seal the sample with a clear sealant to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 5109233.0,
+      "density": 26415.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2627734.0,
+      "formation_energy_per_atom": -29126.0,
+      "decomposition_energy_per_atom": -241.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -218.0,
+      "decomposition_energy_mp": -246.0,
+      "decomposition_energy_mp_oqmd": -245.0
+    },
+    "electronic": {
+      "bandgap": 3.0743,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "19865daa66",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:49.117875Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe2K4O20Si8.json",
+      "material://Fe2K4O20Si8"
+    ]
+  }
+}

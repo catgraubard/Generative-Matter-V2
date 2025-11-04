@@ -1,0 +1,140 @@
+{
+  "id": "As4Ba1Fe2Na1Ni2",
+  "uri": "material://As4Ba1Fe2Na1Ni2",
+  "composition": {
+    "formula": "As4Ba1Fe2Na1Ni2",
+    "elements": {
+      "As": 4,
+      "Ba": 1,
+      "Fe": 2,
+      "Na": 1,
+      "Ni": 2
+    },
+    "reduced_formula": "BaNaFe2(NiAs2)2",
+    "element_list": [
+      "Na",
+      "Fe",
+      "Ni",
+      "As",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 4.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 1.1,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 0.8,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 4.5 g \n Ba: 1.1 g \n Fe: 3.0 g \n Na: 0.8 g \n Ni: 6.0 g \n Total: 16.4 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from chemical suppliers (e.g., Sigma-Aldrich) \n Ba: Obtain from mineral suppliers or online chemical distributors \n Fe: Buy from metal suppliers or chemical stores \n Na: Source from chemical suppliers (sodium compounds like NaCl) \n Ni: Purchase from metal or chemical suppliers",
+      "steps": [
+        "As: Purchase from chemical suppliers (e.g., Sigma-Aldrich)",
+        "Ba: Obtain from mineral suppliers or online chemical distributors",
+        "Fe: Buy from metal suppliers or chemical stores",
+        "Na: Source from chemical suppliers (sodium compounds like NaCl)",
+        "Ni: Purchase from metal or chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine As, Ba, Fe, Na, and Ni.",
+        "3. Stir the mixture thoroughly using a spatula or mechanical mixer to ensure homogeneity.",
+        "4. Transfer the mixed powder to a ball mill for 30 minutes to ensure uniform particle size and distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine As, Ba, Fe, Na, and Ni. \n 3. Stir the mixture thoroughly using a spatula or mechanical mixer to ensure homogeneity. \n 4. Transfer the mixed powder to a ball mill for 30 minutes to ensure uniform particle size and distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powder in a crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powder in a crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool slowly to room temperature.",
+        "2. After reaching ambient temperature, remove the crucible carefully.",
+        "3. Allow the material to cool completely on a heat-resistant surface for an additional 30 minutes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool slowly to room temperature. \n 2. After reaching ambient temperature, remove the crucible carefully. \n 3. Allow the material to cool completely on a heat-resistant surface for an additional 30 minutes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out surfaces if required.",
+        "3. Optionally, apply a sealing coat (e.g., epoxy resin) for enhanced durability.",
+        "4. Allow any applied sealant to cure according to manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth out surfaces if required. \n 3. Optionally, apply a sealing coat (e.g., epoxy resin) for enhanced durability. \n 4. Allow any applied sealant to cure according to manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1912964.0,
+      "density": 59815.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -551381.0,
+      "formation_energy_per_atom": -476.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -27.0,
+      "decomposition_energy_mp": -85.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": 0.0041,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3c0dc7a89e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:34.580909Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Ba1Fe2Na1Ni2.json",
+      "material://As4Ba1Fe2Na1Ni2"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "Ge2In1Li3Tb2Tm1",
+  "uri": "material://Ge2In1Li3Tb2Tm1",
+  "composition": {
+    "formula": "Ge2In1Li3Tb2Tm1",
+    "elements": {
+      "Ge": 2,
+      "In": 1,
+      "Li": 3,
+      "Tb": 2,
+      "Tm": 1
+    },
+    "reduced_formula": "Li3Tb2TmInGe2",
+    "element_list": [
+      "Li",
+      "Ge",
+      "In",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 20 g, In: 10 g, Li: 30 g, Tb: 15 g, Tm: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: semiconductor suppliers, In: metal suppliers, Li: battery manufacturers, Tb: rare earth suppliers, Tm: rare earth suppliers",
+      "steps": [
+        "Ge: semiconductor suppliers, In: metal suppliers, Li: battery manufacturers, Tb: rare earth suppliers, Tm: rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material accurately using a precision scale.",
+        "2. In a clean, dry container, combine Ge, In, Li, Tb, and Tm in the specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh out each material accurately using a precision scale. \n 2. In a clean, dry container, combine Ge, In, Li, Tb, and Tm in the specified amounts. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace to 800°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and mixing of materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace to 800°C at a rate of 5°C/min. \n 3. Maintain the temperature for 2 hours to ensure complete melting and mixing of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it reaches 200°C to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it reaches 200°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges or imperfections.",
+        "3. If necessary, use a diamond file to smooth the edges.",
+        "4. Optionally, apply a protective sealant to preserve the material."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any rough edges or imperfections. \n 3. If necessary, use a diamond file to smooth the edges. \n 4. Optionally, apply a protective sealant to preserve the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 194094.0,
+      "density": 6568.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -368088.0,
+      "formation_energy_per_atom": -5933.0,
+      "decomposition_energy_per_atom": -97.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -97.0,
+      "decomposition_energy_mp_oqmd": -73.0
+    },
+    "electronic": {
+      "bandgap": 0.0086,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6e9203cebe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:40.223043Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge2In1Li3Tb2Tm1.json",
+      "material://Ge2In1Li3Tb2Tm1"
+    ]
+  }
+}

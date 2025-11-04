@@ -1,0 +1,113 @@
+{
+  "id": "Ba2O6Sc1Sn1",
+  "uri": "material://Ba2O6Sc1Sn1",
+  "composition": {
+    "formula": "Ba2O6Sc1Sn1",
+    "elements": {
+      "Ba": 2,
+      "O": 6,
+      "Sc": 1,
+      "Sn": 1
+    },
+    "reduced_formula": "Ba2ScSnO6",
+    "element_list": [
+      "O",
+      "Sc",
+      "Sn",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 70 g, Pr: 20 g, Sc: 40 g, Sn: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Nd: Rare earth materials supplier, Pr: Rare earth materials supplier, Sc: Rare earth materials supplier, Sn: Metal supplier or electronics store",
+      "steps": [
+        "Nd: Rare earth materials supplier, Pr: Rare earth materials supplier, Sc: Rare earth materials supplier, Sn: Metal supplier or electronics store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. Combine Nd, Pr, Sc, and Sn in a clean, dry mixing container.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale.\n2. Combine Nd, Pr, Sc, and Sn in a clean, dry mixing container.\n3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to promote alloying.",
+        "3. Ensure the heating ramp is gradual (10°C/min)."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible.\n2. Heat in a furnace to 1200°C for 2 hours to promote alloying.\n3. Ensure the heating ramp is gradual (10°C/min)."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to room temperature (approximately 4 hours) to avoid thermal shock.",
+        "2. After reaching room temperature, remove the crucible."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to room temperature (approximately 4 hours) to avoid thermal shock.\n2. After reaching room temperature, remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Grind the surface using a diamond grinder to achieve a smooth finish.",
+        "3. Seal the sample with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible.\n2. Grind the surface using a diamond grinder to achieve a smooth finish.\n3. Seal the sample with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 149164.0,
+      "density": 59482.0,
+      "crystal_system": "cubic",
+      "space_group": "Fm-3m",
+      "space_group_number": 225,
+      "point_group": "m-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -73189.0,
+      "formation_energy_per_atom": -29321.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -131.0,
+      "decomposition_energy_mp_oqmd": -123.0
+    },
+    "electronic": {
+      "bandgap": 0.0122,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dee1c34a43",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.440199Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2O6Sc1Sn1.json",
+      "material://Ba2O6Sc1Sn1"
+    ]
+  }
+}

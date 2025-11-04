@@ -1,0 +1,132 @@
+{
+  "id": "Nb1Si10V10W1",
+  "uri": "material://Nb1Si10V10W1",
+  "composition": {
+    "formula": "Nb1Si10V10W1",
+    "elements": {
+      "Nb": 1,
+      "Si": 10,
+      "V": 10,
+      "W": 1
+    },
+    "reduced_formula": "NbV10Si10W",
+    "element_list": [
+      "Si",
+      "V",
+      "Nb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 1.5 g \n Si: 15 g \n V: 15 g \n W: 1.5 g"
+    },
+    "sourcing": {
+      "instructions": "Nb (Niobium): Specialty metal suppliers or online chemical vendors \n Si (Silicon): Chemical supply stores or electronics suppliers \n V (Vanadium): Metal supply stores or online suppliers \n W (Tungsten): Specialty metal suppliers or online chemical vendors",
+      "steps": [
+        "Nb (Niobium): Specialty metal suppliers or online chemical vendors",
+        "Si (Silicon): Chemical supply stores or electronics suppliers",
+        "V (Vanadium): Metal supply stores or online suppliers",
+        "W (Tungsten): Specialty metal suppliers or online chemical vendors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry container, combine Nb, Si, V, and W.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved.",
+        "4. Transfer the mixed powders into a ball mill and mill for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry container, combine Nb, Si, V, and W. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform consistency is achieved. \n 4. Transfer the mixed powders into a ball mill and mill for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200°C.",
+        "2. Place the uniformly mixed powder into a graphite mold that matches the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Seal the furnace and heat at a rate of 10°C per minute until reaching 1200°C.",
+        "4. Maintain the temperature for 2 hours to ensure complete sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200°C. \n 2. Place the uniformly mixed powder into a graphite mold that matches the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Seal the furnace and heat at a rate of 10°C per minute until reaching 1200°C. \n 4. Maintain the temperature for 2 hours to ensure complete sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to 800°C naturally at a rate of 10°C per minute.",
+        "2. Once at 800°C, switch to forced air cooling until reaching room temperature."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to 800°C naturally at a rate of 10°C per minute. \n 2. Once at 800°C, switch to forced air cooling until reaching room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the molded sample from the furnace and allow it to cool completely.",
+        "2. Inspect for any surface irregularities or defects.",
+        "3. Use a fine-grit sandpaper to smooth the edges and surface if necessary.",
+        "4. Optionally, apply a clear sealant to enhance surface finish and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the molded sample from the furnace and allow it to cool completely. \n 2. Inspect for any surface irregularities or defects. \n 3. Use a fine-grit sandpaper to smooth the edges and surface if necessary. \n 4. Optionally, apply a clear sealant to enhance surface finish and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 29298.0,
+      "density": 60476.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1801616.0,
+      "formation_energy_per_atom": -5459.0,
+      "decomposition_energy_per_atom": -246.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -242.0,
+      "decomposition_energy_mp_oqmd": -23.0
+    },
+    "electronic": {
+      "bandgap": 0.0002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e9ddabecbe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.426221Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb1Si10V10W1.json",
+      "material://Nb1Si10V10W1"
+    ]
+  }
+}

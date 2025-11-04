@@ -1,0 +1,118 @@
+{
+  "id": "K6Na6Nb4Se16",
+  "uri": "material://K6Na6Nb4Se16",
+  "composition": {
+    "formula": "K6Na6Nb4Se16",
+    "elements": {
+      "K": 6,
+      "Na": 6,
+      "Nb": 4,
+      "Se": 16
+    },
+    "reduced_formula": "K3Na3(NbSe4)2",
+    "element_list": [
+      "Na",
+      "K",
+      "Se",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K2O: 100 g \n Na2O: 60 g \n Nb2O5: 180 g \n Se: 100 g"
+    },
+    "sourcing": {
+      "instructions": "K2O: Chemical supply stores or online chemical suppliers \n Na2O: Chemical supply stores or online chemical suppliers \n Nb2O5: Specialty metal oxide suppliers \n Se: Chemical supply stores or online chemical suppliers",
+      "steps": [
+        "K2O: Chemical supply stores or online chemical suppliers",
+        "Na2O: Chemical supply stores or online chemical suppliers",
+        "Nb2O5: Specialty metal oxide suppliers",
+        "Se: Chemical supply stores or online chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry ceramic or glass container, add K2O.",
+        "3. Gradually add Na2O while stirring continuously.",
+        "4. Add Nb2O5 to the mixture and stir uniformly.",
+        "5. Finally, add Se and mix thoroughly until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry ceramic or glass container, add K2O. \n 3. Gradually add Na2O while stirring continuously. \n 4. Add Nb2O5 to the mixture and stir uniformly. \n 5. Finally, add Se and mix thoroughly until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous mixture into a high-temperature furnace-safe crucible.",
+        "2. Heat the crucible to 800°C (1472°F) at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the homogeneous mixture into a high-temperature furnace-safe crucible. \n 2. Heat the crucible to 800°C (1472°F) at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Avoid rapid cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours). \n 2. Avoid rapid cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If needed, use a grinder to achieve the desired dimensions and finish the surface.",
+        "3. Optionally seal the surface with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If needed, use a grinder to achieve the desired dimensions and finish the surface. \n 3. Optionally seal the surface with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 10300933.0,
+      "density": 32362.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1519.0,
+      "formation_energy_per_atom": -12801.0,
+      "decomposition_energy_per_atom": -242.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -242.0,
+      "decomposition_energy_mp_oqmd": -66.0
+    },
+    "electronic": {
+      "bandgap": 1.82,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6e6022d0dd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:40.007202Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K6Na6Nb4Se16.json",
+      "material://K6Na6Nb4Se16"
+    ]
+  }
+}

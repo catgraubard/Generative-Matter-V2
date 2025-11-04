@@ -1,0 +1,113 @@
+{
+  "id": "B6Co2Ni18V3",
+  "uri": "material://B6Co2Ni18V3",
+  "composition": {
+    "formula": "B6Co2Ni18V3",
+    "elements": {
+      "B": 6,
+      "Co": 2,
+      "Ni": 18,
+      "V": 3
+    },
+    "reduced_formula": "V3Co2(Ni3B)6",
+    "element_list": [
+      "B",
+      "V",
+      "Co",
+      "Ni"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6 g, Co: 2 g, Ni: 18 g, V: 3 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supplier; Co: Available from metal suppliers; Ni: Obtain from metal supply stores; V: Source from chemical distributors.",
+      "steps": [
+        "B: Purchase from a chemical supplier; Co: Available from metal suppliers; Ni: Obtain from metal supply stores; V: Source from chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. Combine B, Co, Ni, and V in a clean, dry mixing bowl.",
+        "3. Mix thoroughly using a spatula until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. Combine B, Co, Ni, and V in a clean, dry mixing bowl. \n 3. Mix thoroughly using a spatula until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C (1832°F).",
+        "2. Transfer the mixed powder into a suitable crucible.",
+        "3. Place the crucible in the furnace for 2 hours to facilitate complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C (1832°F). \n 2. Transfer the mixed powder into a suitable crucible. \n 3. Place the crucible in the furnace for 2 hours to facilitate complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the crucible to cool in air for 1 hour.",
+        "3. Once cooled, place it in a desiccator for an additional 2 hours to prevent oxidation."
+      ],
+      "raw_text": "1. After 2 hours, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the crucible to cool in air for 1 hour. \n 3. Once cooled, place it in a desiccator for an additional 2 hours to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth the surface to desired finish.",
+        "3. Optionally, seal with a clear coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use sandpaper to smooth the surface to desired finish. \n 3. Optionally, seal with a clear coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 2849785.0,
+      "density": 81113.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1947157.0,
+      "formation_energy_per_atom": -3148.0,
+      "decomposition_energy_per_atom": -95.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -95.0,
+      "decomposition_energy_mp_oqmd": -69.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "21331973e7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:59.313400Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B6Co2Ni18V3.json",
+      "material://B6Co2Ni18V3"
+    ]
+  }
+}

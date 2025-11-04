@@ -1,0 +1,108 @@
+{
+  "id": "Tb4Tc6Zn2",
+  "uri": "material://Tb4Tc6Zn2",
+  "composition": {
+    "formula": "Tb4Tc6Zn2",
+    "elements": {
+      "Tb": 4,
+      "Tc": 6,
+      "Zn": 2
+    },
+    "reduced_formula": "Tb2ZnTc3",
+    "element_list": [
+      "Zn",
+      "Tc",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Tellurium (Tb): 80.00 g  \n - Technetium (Tc): 120.00 g  \n - Zinc (Zn): 24.00 g"
+    },
+    "sourcing": {
+      "instructions": "- Tellurium: Obtain from chemical suppliers such as Sigma-Aldrich or Alfa Aesar. \n - Technetium: Acquire from specialized nuclear material suppliers or research institutions. \n - Zinc: Available at hardware stores or metal suppliers.",
+      "steps": [
+        "- Tellurium: Obtain from chemical suppliers such as Sigma-Aldrich or Alfa Aesar.",
+        "- Technetium: Acquire from specialized nuclear material suppliers or research institutions.",
+        "- Zinc: Available at hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 80.00 g of Tellurium, 120.00 g of Technetium, and 24.00 g of Zinc using an analytical balance for precision.",
+        "2. In a clean ceramic mixing bowl, combine the three elements thoroughly with a stainless steel spatula to ensure an even distribution."
+      ],
+      "raw_text": "1. Weigh out 80.00 g of Tellurium, 120.00 g of Technetium, and 24.00 g of Zinc using an analytical balance for precision. \n 2. In a clean ceramic mixing bowl, combine the three elements thoroughly with a stainless steel spatula to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a graphite crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 1000°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to allow for complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a graphite crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 1000°C at a rate of 10°C/min. \n 4. Maintain this temperature for 2 hours to allow for complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, use a fine-grit sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant if the material will be exposed to moisture."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, use a fine-grit sandpaper to smooth the surface. \n 4. Optionally, apply a sealant if the material will be exposed to moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 223659.0,
+      "density": 100565.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -859502.0,
+      "formation_energy_per_atom": -2275.0,
+      "decomposition_energy_per_atom": -109.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -94.0,
+      "decomposition_energy_mp": -102.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": 0.0059,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "00c09d2b40",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:15.483865Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Tb4Tc6Zn2.json",
+      "material://Tb4Tc6Zn2"
+    ]
+  }
+}

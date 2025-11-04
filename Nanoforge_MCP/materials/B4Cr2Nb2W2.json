@@ -1,0 +1,113 @@
+{
+  "id": "B4Cr2Nb2W2",
+  "uri": "material://B4Cr2Nb2W2",
+  "composition": {
+    "formula": "B4Cr2Nb2W2",
+    "elements": {
+      "B": 4,
+      "Cr": 2,
+      "Nb": 2,
+      "W": 2
+    },
+    "reduced_formula": "NbCrB2W",
+    "element_list": [
+      "B",
+      "Cr",
+      "Nb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 0.5 g, Nb: 4.0 g, S: 6.4 g, Sb: 0.1 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchase from a chemical supply store or online; Nb: Available from specialized metal suppliers; S: Obtain from sulfur suppliers; Sb: Procure from a chemical vendor.",
+      "steps": [
+        "La: Purchase from a chemical supply store or online; Nb: Available from specialized metal suppliers; S: Obtain from sulfur suppliers; Sb: Procure from a chemical vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 0.5 g of La, 4.0 g of Nb, 6.4 g of S, and 0.1 g of Sb using an analytical balance.",
+        "2. In a clean mortar and pestle, combine the weighed ingredients.",
+        "3. Grind the mixture thoroughly until a homogeneous powder is achieved, ensuring no lumps remain."
+      ],
+      "raw_text": "1. Weigh out 0.5 g of La, 4.0 g of Nb, 6.4 g of S, and 0.1 g of Sb using an analytical balance. \n 2. In a clean mortar and pestle, combine the weighed ingredients. \n 3. Grind the mixture thoroughly until a homogeneous powder is achieved, ensuring no lumps remain."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the ground mixture into a crucible.",
+        "2. Place the crucible in a furnace set to 900°C.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of La1Nb8S16Sb1."
+      ],
+      "raw_text": "1. Transfer the ground mixture into a crucible. \n 2. Place the crucible in a furnace set to 900°C. \n 3. Heat for 4 hours to ensure complete reaction and formation of La1Nb8S16Sb1."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cool.",
+        "2. Carefully take out the solidified sample and inspect for consistency and cracks.",
+        "3. Use a fine-grit sandpaper to smooth any rough edges or surfaces.",
+        "4. Optionally, seal the sample with a clear acrylic spray for protection."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cool. \n 2. Carefully take out the solidified sample and inspect for consistency and cracks. \n 3. Use a fine-grit sandpaper to smooth any rough edges or surfaces. \n 4. Optionally, seal the sample with a clear acrylic spray for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 111604.0,
+      "density": 10426.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -973763.0,
+      "formation_energy_per_atom": -5234.0,
+      "decomposition_energy_per_atom": -41.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -37.0,
+      "decomposition_energy_mp_oqmd": -35.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e0e93e1977",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.936257Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Cr2Nb2W2.json",
+      "material://B4Cr2Nb2W2"
+    ]
+  }
+}

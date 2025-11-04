@@ -1,0 +1,116 @@
+{
+  "id": "Mn2Si12Tc4V13W1",
+  "uri": "material://Mn2Si12Tc4V13W1",
+  "composition": {
+    "formula": "Mn2Si12Tc4V13W1",
+    "elements": {
+      "Mn": 2,
+      "Si": 12,
+      "Tc": 4,
+      "V": 13,
+      "W": 1
+    },
+    "reduced_formula": "Mn2V13Si12Tc4W",
+    "element_list": [
+      "Si",
+      "V",
+      "Mn",
+      "Tc",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mn",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mn: 200 g, Si: 480 g, Tc: 120 g, V: 65 g, W: 15 g"
+    },
+    "sourcing": {
+      "instructions": "Mn: Chemical supply stores, Si: Silicon suppliers, Tc: Specialty metal suppliers, V: Metal distributors, W: Metal supply stores",
+      "steps": [
+        "Mn: Chemical supply stores, Si: Silicon suppliers, Tc: Specialty metal suppliers, V: Metal distributors, W: Metal supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal accurately using a precision scale.",
+        "2. In a clean, dry container, combine the weighed Mn, Si, Tc, V, and W.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes until a homogeneous blend is achieved.",
+        "4. Transfer the mixture to a suitable container for heating."
+      ],
+      "raw_text": "1. Weigh each metal accurately using a precision scale. \n 2. In a clean, dry container, combine the weighed Mn, Si, Tc, V, and W. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes until a homogeneous blend is achieved. \n 4. Transfer the mixture to a suitable container for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 3,
+      "steps": [
+        "1. Preheat a furnace to 1500°C.",
+        "2. Place the container with the mixed materials inside the furnace.",
+        "3. Maintain the temperature for 3 hours to allow for full melting and alloying of the components."
+      ],
+      "raw_text": "1. Preheat a furnace to 1500°C. \n 2. Place the container with the mixed materials inside the furnace. \n 3. Maintain the temperature for 3 hours to allow for full melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 24 hours).",
+        "2. Monitor the cooling process to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 24 hours). \n 2. Monitor the cooling process to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the container.",
+        "2. Sand the surfaces with 120-grit sandpaper to achieve a smooth finish.",
+        "3. Clean the sample with a soft cloth to remove any dust or residues.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the container. \n 2. Sand the surfaces with 120-grit sandpaper to achieve a smooth finish. \n 3. Clean the sample with a soft cloth to remove any dust or residues. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4174454.0,
+      "density": 67026.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2737284.0,
+      "formation_energy_per_atom": -5565.0,
+      "decomposition_energy_per_atom": -273.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -271.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9e34cc49d2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:43.622863Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn2Si12Tc4V13W1.json",
+      "material://Mn2Si12Tc4V13W1"
+    ]
+  }
+}

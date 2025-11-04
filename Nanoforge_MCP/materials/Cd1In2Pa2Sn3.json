@@ -1,0 +1,131 @@
+{
+  "id": "Cd1In2Pa2Sn3",
+  "uri": "material://Cd1In2Pa2Sn3",
+  "composition": {
+    "formula": "Cd1In2Pa2Sn3",
+    "elements": {
+      "Cd": 1,
+      "In": 2,
+      "Pa": 2,
+      "Sn": 3
+    },
+    "reduced_formula": "Pa2CdIn2Sn3",
+    "element_list": [
+      "Cd",
+      "In",
+      "Sn",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pa",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 10 g \n In: 20 g \n Pa: 15 g \n Sn: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cd: Purchase from a chemical supply company or specialized metal supplier. \n In: Available from electronic components suppliers. \n Pa: Obtain from chemical suppliers. \n Sn: Available from metal suppliers or hardware stores.",
+      "steps": [
+        "Cd: Purchase from a chemical supply company or specialized metal supplier.",
+        "In: Available from electronic components suppliers.",
+        "Pa: Obtain from chemical suppliers.",
+        "Sn: Available from metal suppliers or hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, add Cd, In, Pa, and Sn in the specified order.",
+        "3. Stir the mixture thoroughly with a spatula until all components are uniformly blended.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing bowl, add Cd, In, Pa, and Sn in the specified order. \n 3. Stir the mixture thoroughly with a spatula until all components are uniformly blended. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800 °C.",
+        "2. Place the crucible containing the mixture into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and homogeneity of the material."
+      ],
+      "raw_text": "1. Preheat the furnace to 800 °C. \n 2. Place the crucible containing the mixture into the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting and homogeneity of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and let the crucible cool inside it to room temperature gradually (approximately 4-6 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and let the crucible cool inside it to room temperature gradually (approximately 4-6 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the crucible has cooled, carefully remove the solidified sample.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, use sandpaper to smooth out any rough edges.",
+        "4. Optionally, seal the sample with a clear coat for protection."
+      ],
+      "raw_text": "1. Once the crucible has cooled, carefully remove the solidified sample. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, use sandpaper to smooth out any rough edges. \n 4. Optionally, seal the sample with a clear coat for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 2006551.0,
+      "density": 96017.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -391102.0,
+      "formation_energy_per_atom": -2032.0,
+      "decomposition_energy_per_atom": -1646.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -1646.0,
+      "decomposition_energy_mp_oqmd": -5.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a2b3df7d99",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:49.862451Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cd1In2Pa2Sn3.json",
+      "material://Cd1In2Pa2Sn3"
+    ]
+  }
+}

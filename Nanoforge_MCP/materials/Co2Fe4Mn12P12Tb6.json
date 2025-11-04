@@ -1,0 +1,133 @@
+{
+  "id": "Co2Fe4Mn12P12Tb6",
+  "uri": "material://Co2Fe4Mn12P12Tb6",
+  "composition": {
+    "formula": "Co2Fe4Mn12P12Tb6",
+    "elements": {
+      "Co": 2,
+      "Fe": 4,
+      "Mn": 12,
+      "P": 12,
+      "Tb": 6
+    },
+    "reduced_formula": "Tb3Mn6Fe2CoP6",
+    "element_list": [
+      "P",
+      "Mn",
+      "Fe",
+      "Co",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 45.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 24.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 1.5 g\nSc: 18.0 g\nSi: 45.0 g\nY: 24.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supplier or online chemical store.\nSc: Available through metallurgical suppliers or online.\nSi: Obtain from semiconductor suppliers.\nY: Buy from rare earth material suppliers.",
+      "steps": [
+        "B: Purchase from a chemical supplier or online chemical store.",
+        "Sc: Available through metallurgical suppliers or online.",
+        "Si: Obtain from semiconductor suppliers.",
+        "Y: Buy from rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.5 g of boron (B), 18.0 g of scandium (Sc), 45.0 g of silicon (Si), and 24.0 g of yttrium (Y) using an analytical balance.",
+        "2. Combine the powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 1.5 g of boron (B), 18.0 g of scandium (Sc), 45.0 g of silicon (Si), and 24.0 g of yttrium (Y) using an analytical balance.\n2. Combine the powders in a clean, dry mixing container.\n3. Use a mortar and pestle to thoroughly mix the powders until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction and material synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n2. Place the crucible in a furnace.\n3. Heat the mixture to 1200°C at a rate of 10°C/min.\n4. Maintain this temperature for 2 hours to ensure complete reaction and material synthesis."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it has cooled completely to avoid oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature.\n2. Do not open the furnace until it has cooled completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth any rough edges or surfaces.",
+        "3. Optionally apply a clear sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.\n2. Use fine-grit sandpaper to smooth any rough edges or surfaces.\n3. Optionally apply a clear sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4998849.0,
+      "density": 77257.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2815542.0,
+      "formation_energy_per_atom": -8541.0,
+      "decomposition_energy_per_atom": -234.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -234.0,
+      "decomposition_energy_mp_oqmd": -162.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c9cc60fecc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.830284Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe4Mn12P12Tb6.json",
+      "material://Co2Fe4Mn12P12Tb6"
+    ]
+  }
+}

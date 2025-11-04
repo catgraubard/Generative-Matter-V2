@@ -1,0 +1,114 @@
+{
+  "id": "Gd11La1Li12O48W8",
+  "uri": "material://Gd11La1Li12O48W8",
+  "composition": {
+    "formula": "Gd11La1Li12O48W8",
+    "elements": {
+      "Gd": 11,
+      "La": 1,
+      "Li": 12,
+      "O": 48,
+      "W": 8
+    },
+    "reduced_formula": "Li12LaGd11(WO6)8",
+    "element_list": [
+      "Li",
+      "O",
+      "La",
+      "Gd",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Germanium (Ge): 40.0 g \n - Neodymium (Nd): 86.0 g \n - Oxygen (O): 4.0 g (from 3.2 g of H2O for synthesis) \n - Tin (Sn): 28.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Germanium: Available from chemical supply companies or semiconductor material suppliers. \n - Neodymium: Obtain from rare earth metal suppliers or specialty chemical stores. \n - Oxygen: Use distilled water (H2O) for generating required oxygen. \n - Tin: Purchase from metal suppliers or online chemical retailers.",
+      "steps": [
+        "- Germanium: Available from chemical supply companies or semiconductor material suppliers.",
+        "- Neodymium: Obtain from rare earth metal suppliers or specialty chemical stores.",
+        "- Oxygen: Use distilled water (H2O) for generating required oxygen.",
+        "- Tin: Purchase from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 40.0 g of Germanium, 86.0 g of Neodymium, and 28.0 g of Tin using a precision scale.",
+        "2. In a separate container, measure 3.2 g of distilled water to provide oxygen.",
+        "3. In a fume hood, combine the measured Germanium and Neodymium in a clean, dry ceramic crucible.",
+        "4. Add the Tin to the crucible.",
+        "5. Slowly add the distilled water to the mixture to facilitate the reaction. Stir gently to ensure even distribution."
+      ],
+      "raw_text": "1. Measure out 40.0 g of Germanium, 86.0 g of Neodymium, and 28.0 g of Tin using a precision scale. \n 2. In a separate container, measure 3.2 g of distilled water to provide oxygen. \n 3. In a fume hood, combine the measured Germanium and Neodymium in a clean, dry ceramic crucible. \n 4. Add the Tin to the crucible. \n 5. Slowly add the distilled water to the mixture to facilitate the reaction. Stir gently to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture gradually to 800°C at a rate of 5°C per minute.",
+        "3. Maintain this temperature for 2 hours to allow for complete reaction and material formation."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture gradually to 800°C at a rate of 5°C per minute. \n 3. Maintain this temperature for 2 hours to allow for complete reaction and material formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities.",
+        "3. If necessary, sand the surface using 400-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy to enhance durability and prevent oxidation. Allow the epoxy to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface irregularities. \n 3. If necessary, sand the surface using 400-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy to enhance durability and prevent oxidation. Allow the epoxy to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 80,
+      "volume": 9727994.0,
+      "density": 71533.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "F222",
+      "space_group_number": 22,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -7635441.0,
+      "formation_energy_per_atom": -29962.0,
+      "decomposition_energy_per_atom": -245.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -141.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -163.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa083e782c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:00.840836Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd11La1Li12O48W8.json",
+      "material://Gd11La1Li12O48W8"
+    ]
+  }
+}

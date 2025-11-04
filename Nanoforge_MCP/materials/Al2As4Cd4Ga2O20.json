@@ -1,0 +1,141 @@
+{
+  "id": "Al2As4Cd4Ga2O20",
+  "uri": "material://Al2As4Cd4Ga2O20",
+  "composition": {
+    "formula": "Al2As4Cd4Ga2O20",
+    "elements": {
+      "Al": 2,
+      "As": 4,
+      "Cd": 4,
+      "Ga": 2,
+      "O": 20
+    },
+    "reduced_formula": "AlCd2Ga(AsO5)2",
+    "element_list": [
+      "O",
+      "Al",
+      "Ga",
+      "As",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 32.6,
+          "unit": "g"
+        },
+        {
+          "element": "As",
+          "amount": 10.2,
+          "unit": "g"
+        },
+        {
+          "element": "Cd",
+          "amount": 22.4,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 14.6,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 32.6 g \n As: 10.2 g \n Cd: 22.4 g \n Ga: 14.6 g \n O: 20.0 g (Calculated based on the molecular composition)"
+    },
+    "sourcing": {
+      "instructions": "Al (Aluminum powder) - Chemical supply stores or online chemical suppliers. \n As (Arsenic powder) - Specialized chemical suppliers with safety certifications. \n Cd (Cadmium powder) - Chemical supply stores. \n Ga (Gallium metal) - Online metal suppliers. \n O (Oxygen source) - Use high-purity oxygen gas or as part of the reaction with the metal oxides.",
+      "steps": [
+        "Al (Aluminum powder) - Chemical supply stores or online chemical suppliers.",
+        "As (Arsenic powder) - Specialized chemical suppliers with safety certifications.",
+        "Cd (Cadmium powder) - Chemical supply stores.",
+        "Ga (Gallium metal) - Online metal suppliers.",
+        "O (Oxygen source) - Use high-purity oxygen gas or as part of the reaction with the metal oxides."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a precision balance.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of Al, As, Cd, and Ga.",
+        "3. Gradually add the oxygen source while mixing to ensure a uniform distribution.",
+        "4. Use a mortar and pestle for thorough blending if necessary."
+      ],
+      "raw_text": "1. Weigh each component accurately using a precision balance. \n 2. In a clean, dry mixing container, combine the weighed amounts of Al, As, Cd, and Ga. \n 3. Gradually add the oxygen source while mixing to ensure a uniform distribution. \n 4. Use a mortar and pestle for thorough blending if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the mixed materials in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to achieve complete reaction and material synthesis."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the mixed materials in a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to achieve complete reaction and material synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally.",
+        "2. Wait for at least 6 hours or until the furnace temperature drops below 200°C before opening.",
+        "3. Carefully remove the crucible with protective gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally. \n 2. Wait for at least 6 hours or until the furnace temperature drops below 200°C before opening. \n 3. Carefully remove the crucible with protective gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any irregularities or unreacted materials.",
+        "2. If necessary, grind the sample to achieve a uniform texture using a ball mill.",
+        "3. Seal the surface with an appropriate coating to protect against oxidation.",
+        "4. Sand the edges to achieve the desired dimensions and finish."
+      ],
+      "raw_text": "1. Inspect the solid sample for any irregularities or unreacted materials. \n 2. If necessary, grind the sample to achieve a uniform texture using a ball mill. \n 3. Seal the surface with an appropriate coating to protect against oxidation. \n 4. Sand the edges to achieve the desired dimensions and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4992587.0,
+      "density": 41998.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2005883.0,
+      "formation_energy_per_atom": -20548.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -82.0,
+      "decomposition_energy_mp_oqmd": -4.0
+    },
+    "electronic": {
+      "bandgap": 2.3975,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1dac20b459",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:54.464138Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2As4Cd4Ga2O20.json",
+      "material://Al2As4Cd4Ga2O20"
+    ]
+  }
+}

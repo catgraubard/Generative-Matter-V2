@@ -1,0 +1,111 @@
+{
+  "id": "Mn1Ti1V3W1",
+  "uri": "material://Mn1Ti1V3W1",
+  "composition": {
+    "formula": "Mn1Ti1V3W1",
+    "elements": {
+      "Mn": 1,
+      "Ti": 1,
+      "V": 3,
+      "W": 1
+    },
+    "reduced_formula": "TiMnV3W",
+    "element_list": [
+      "Ti",
+      "V",
+      "Mn",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Manganese (Mn): 15 g \n Titanium (Ti): 15 g \n Vanadium (V): 45 g \n Tungsten (W): 15 g \n Total: 90 g"
+    },
+    "sourcing": {
+      "instructions": "Manganese: Available at chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Titanium: Obtain from metal suppliers or specialty online retailers \n Vanadium: Purchase from chemical supply companies (e.g., Alfa Aesar) \n Tungsten: Available through metal suppliers and online markets",
+      "steps": [
+        "Manganese: Available at chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Titanium: Obtain from metal suppliers or specialty online retailers",
+        "Vanadium: Purchase from chemical supply companies (e.g., Alfa Aesar)",
+        "Tungsten: Available through metal suppliers and online markets"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the specified amounts of each metal accurately using a digital scale.",
+        "2. Combine the Mn, Ti, V, and W powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for at least 15 minutes to ensure uniformity.",
+        "4. Transfer the mixed powders to a ball mill and mill for an additional 30 minutes to achieve a fine, homogeneous mixture."
+      ],
+      "raw_text": "1. Weigh out the specified amounts of each metal accurately using a digital scale. \n 2. Combine the Mn, Ti, V, and W powders in a clean, dry mixing container. \n 3. Use a mortar and pestle to thoroughly mix the powders for at least 15 minutes to ensure uniformity. \n 4. Transfer the mixed powders to a ball mill and mill for an additional 30 minutes to achieve a fine, homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mixed powder in a graphite crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mixed powder in a graphite crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Do not open the furnace until it has completely cooled to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours). \n 2. Do not open the furnace until it has completely cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the sintered block from the crucible.",
+        "2. Use a diamond saw to cut the block to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with progressively finer grit sandpaper (starting from 120 grit to finish with 600 grit) to achieve a smooth surface.",
+        "4. Optionally, apply a protective sealant if the material will be exposed to moisture or chemicals."
+      ],
+      "raw_text": "1. Carefully remove the sintered block from the crucible. \n 2. Use a diamond saw to cut the block to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with progressively finer grit sandpaper (starting from 120 grit to finish with 600 grit) to achieve a smooth surface. \n 4. Optionally, apply a protective sealant if the material will be exposed to moisture or chemicals."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 841986.0,
+      "density": 86671.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -581711.0,
+      "formation_energy_per_atom": -1506.0,
+      "decomposition_energy_per_atom": -316.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -95.0,
+      "decomposition_energy_mp": -316.0,
+      "decomposition_energy_mp_oqmd": -95.0
+    },
+    "electronic": {
+      "bandgap": 0.0144,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5c49863d7d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:16.608613Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn1Ti1V3W1.json",
+      "material://Mn1Ti1V3W1"
+    ]
+  }
+}

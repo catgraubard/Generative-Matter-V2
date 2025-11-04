@@ -1,0 +1,123 @@
+{
+  "id": "La5Nd3Sb20",
+  "uri": "material://La5Nd3Sb20",
+  "composition": {
+    "formula": "La5Nd3Sb20",
+    "elements": {
+      "La": 5,
+      "Nd": 3,
+      "Sb": 20
+    },
+    "reduced_formula": "La5Nd3Sb20",
+    "element_list": [
+      "Sb",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 25.2,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 15.1,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 60.7,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 25.2 g \n Nd: 15.1 g \n Sb: 60.7 g"
+    },
+    "sourcing": {
+      "instructions": "La: Available from chemical suppliers (e.g., Alfa Aesar, Sigma-Aldrich) \n Nd: Obtain from rare earth metal suppliers (e.g., American Elements) \n Sb: Source from metal suppliers (e.g., Metal Supermarkets)",
+      "steps": [
+        "La: Available from chemical suppliers (e.g., Alfa Aesar, Sigma-Aldrich)",
+        "Nd: Obtain from rare earth metal suppliers (e.g., American Elements)",
+        "Sb: Source from metal suppliers (e.g., Metal Supermarkets)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 25.2 g of La, 15.1 g of Nd, and 60.7 g of Sb using a precision scale.",
+        "2. Combine the measured powders in a clean, dry crucible.",
+        "3. Mix thoroughly using a ceramic spatula to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure 25.2 g of La, 15.1 g of Nd, and 60.7 g of Sb using a precision scale. \n 2. Combine the measured powders in a clean, dry crucible. \n 3. Mix thoroughly using a ceramic spatula to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Gradually heat to 800°C at a rate of 10°C per minute.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Gradually heat to 800°C at a rate of 10°C per minute. \n 3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, sand the surfaces with 600-grit sandpaper for a smooth finish.",
+        "4. Seal the sample with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, sand the surfaces with 600-grit sandpaper for a smooth finish. \n 4. Seal the sample with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8951424.0,
+      "density": 66085.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1458509.0,
+      "formation_energy_per_atom": -8674.0,
+      "decomposition_energy_per_atom": -318.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -318.0,
+      "decomposition_energy_mp_oqmd": -289.0
+    },
+    "electronic": {
+      "bandgap": 0.0043,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3aac28629f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:32.851313Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La5Nd3Sb20.json",
+      "material://La5Nd3Sb20"
+    ]
+  }
+}

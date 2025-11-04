@@ -1,0 +1,109 @@
+{
+  "id": "Cu4Mn4O20Sm4",
+  "uri": "material://Cu4Mn4O20Sm4",
+  "composition": {
+    "formula": "Cu4Mn4O20Sm4",
+    "elements": {
+      "Cu": 4,
+      "Mn": 4,
+      "O": 20,
+      "Sm": 4
+    },
+    "reduced_formula": "SmMnCuO5",
+    "element_list": [
+      "O",
+      "Mn",
+      "Cu",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "CuO: 40.0 g  \n MnO2: 40.0 g  \n Sm2O3: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "CuO: Obtain from chemical supply stores or online (e.g., Sigma-Aldrich, Amazon) \n MnO2: Available at chemical suppliers or online \n Sm2O3: Specialty chemical suppliers or online",
+      "steps": [
+        "CuO: Obtain from chemical supply stores or online (e.g., Sigma-Aldrich, Amazon)",
+        "MnO2: Available at chemical suppliers or online",
+        "Sm2O3: Specialty chemical suppliers or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing container, combine CuO, MnO2, and Sm2O3.",
+        "3. Use a mortar and pestle to grind the mixture until it is homogenous.",
+        "4. Transfer the powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry mixing container, combine CuO, MnO2, and Sm2O3. \n 3. Use a mortar and pestle to grind the mixture until it is homogenous. \n 4. Transfer the powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the crucible in the furnace and heat for 4 hours to ensure complete reaction of the materials.",
+        "3. After 4 hours, turn off the furnace but do not open it immediately."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the crucible in the furnace and heat for 4 hours to ensure complete reaction of the materials. \n 3. After 4 hours, turn off the furnace but do not open it immediately."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool inside the furnace slowly to room temperature (approximately 6-8 hours) to prevent cracking of the material.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool inside the furnace slowly to room temperature (approximately 6-8 hours) to prevent cracking of the material. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 120-400) to smooth the surfaces of the sample.",
+        "3. Optionally, seal the sample with a clear epoxy resin for protection."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Use sandpaper (grit 120-400) to smooth the surfaces of the sample. \n 3. Optionally, seal the sample with a clear epoxy resin for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 3727856.0,
+      "density": 62155.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbam",
+      "space_group_number": 55,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2422684.0,
+      "formation_energy_per_atom": -22309.0,
+      "decomposition_energy_per_atom": -205.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -102.0,
+      "decomposition_energy_mp": -211.0,
+      "decomposition_energy_mp_oqmd": -202.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a05b938e54",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:46.462364Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu4Mn4O20Sm4.json",
+      "material://Cu4Mn4O20Sm4"
+    ]
+  }
+}

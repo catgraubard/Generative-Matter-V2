@@ -1,0 +1,139 @@
+{
+  "id": "Ag3Er7Mg1Ni4Tb9",
+  "uri": "material://Ag3Er7Mg1Ni4Tb9",
+  "composition": {
+    "formula": "Ag3Er7Mg1Ni4Tb9",
+    "elements": {
+      "Ag": 3,
+      "Er": 7,
+      "Mg": 1,
+      "Ni": 4,
+      "Tb": 9
+    },
+    "reduced_formula": "Tb9Er7MgNi4Ag3",
+    "element_list": [
+      "Mg",
+      "Ni",
+      "Ag",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 95.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 1.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 2.5,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 0.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10.0 g \n Mn: 95.0 g \n P: 1.0 g \n Tb: 2.5 g \n Y: 0.5 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal suppliers or online chemical distributors \n Mn: Metal suppliers or online chemical distributors \n P: Chemical supply stores \n Tb: Rare earth suppliers \n Y: Rare earth suppliers",
+      "steps": [
+        "Co: Metal suppliers or online chemical distributors",
+        "Mn: Metal suppliers or online chemical distributors",
+        "P: Chemical supply stores",
+        "Tb: Rare earth suppliers",
+        "Y: Rare earth suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. Combine Co, Mn, P, Tb, and Y in a clean, dry mixing container.",
+        "3. Mix thoroughly using a mortar and pestle until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. Combine Co, Mn, P, Tb, and Y in a clean, dry mixing container. \n 3. Mix thoroughly using a mortar and pestle until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature furnace or crucible.",
+        "2. Heat to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain at 1200 °C for 4 hours to ensure proper synthesis."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature furnace or crucible. \n 2. Heat to 1200 °C at a rate of 10 °C/min. \n 3. Maintain at 1200 °C for 4 hours to ensure proper synthesis."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-12 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-12 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, retrieve the solid sample and inspect for any irregularities.",
+        "2. Use a diamond file or sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, retrieve the solid sample and inspect for any irregularities. \n 2. Use a diamond file or sandpaper to smooth any rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 5943716.0,
+      "density": 88949.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1135093.0,
+      "formation_energy_per_atom": -2753.0,
+      "decomposition_energy_per_atom": -15.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -15.0,
+      "decomposition_energy_mp_oqmd": -149.0
+    },
+    "electronic": {
+      "bandgap": 0.0024,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b377af02e0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.745225Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag3Er7Mg1Ni4Tb9.json",
+      "material://Ag3Er7Mg1Ni4Tb9"
+    ]
+  }
+}

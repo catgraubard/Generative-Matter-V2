@@ -1,0 +1,116 @@
+{
+  "id": "Cs1Eu1O8Se2",
+  "uri": "material://Cs1Eu1O8Se2",
+  "composition": {
+    "formula": "Cs1Eu1O8Se2",
+    "elements": {
+      "Cs": 1,
+      "Eu": 1,
+      "O": 8,
+      "Se": 2
+    },
+    "reduced_formula": "CsEu(SeO4)2",
+    "element_list": [
+      "O",
+      "Se",
+      "Cs",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs2O: 38.00 g \n Eu2O3: 16.00 g \n Se: 10.00 g \n (Note: Adjust Cs2O and Eu2O3 based on stoichiometry for total weight) \n Total Weight: 64.00 g (approximate for initial batch)"
+    },
+    "sourcing": {
+      "instructions": "Cs2O: Purchase from a chemical supply company or online vendor specializing in laboratory chemicals. \n Eu2O3: Obtain from rare earth suppliers or specialized chemical distributors. \n Se: Source from chemical suppliers or online marketplaces that sell elemental selenium.",
+      "steps": [
+        "Cs2O: Purchase from a chemical supply company or online vendor specializing in laboratory chemicals.",
+        "Eu2O3: Obtain from rare earth suppliers or specialized chemical distributors.",
+        "Se: Source from chemical suppliers or online marketplaces that sell elemental selenium."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 38.00 g of Cs2O, 16.00 g of Eu2O3, and 10.00 g of Se accurately using a digital scale.",
+        "2. In a clean, dry mortar and pestle, combine Cs2O and Eu2O3 thoroughly until a uniform powder is achieved.",
+        "3. Gradually add the selenium powder to the mixture, continuing to grind until well mixed.",
+        "4. Transfer the mixture to a clean, high-temperature crucible for heating."
+      ],
+      "raw_text": "1. Weigh out 38.00 g of Cs2O, 16.00 g of Eu2O3, and 10.00 g of Se accurately using a digital scale. \n 2. In a clean, dry mortar and pestle, combine Cs2O and Eu2O3 thoroughly until a uniform powder is achieved. \n 3. Gradually add the selenium powder to the mixture, continuing to grind until well mixed. \n 4. Transfer the mixture to a clean, high-temperature crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a laboratory furnace to 800°C.",
+        "2. Place the crucible containing the mixed powders in the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and solidification of materials."
+      ],
+      "raw_text": "1. Preheat a laboratory furnace to 800°C. \n 2. Place the crucible containing the mixed powders in the furnace. \n 3. Heat for 4 hours to ensure complete reaction and solidification of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace.",
+        "2. Allow the crucible to cool gradually inside the furnace to room temperature (approximately 2-3 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace. \n 2. Allow the crucible to cool gradually inside the furnace to room temperature (approximately 2-3 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface irregularities or rough edges.",
+        "3. Use fine-grit sandpaper to smooth out surfaces as needed.",
+        "4. Optionally, seal the sample with a clear coat to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface irregularities or rough edges. \n 3. Use fine-grit sandpaper to smooth out surfaces as needed. \n 4. Optionally, seal the sample with a clear coat to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2258194.0,
+      "density": 41972.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3",
+      "space_group_number": 147,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -799624.0,
+      "formation_energy_per_atom": -185.0,
+      "decomposition_energy_per_atom": -1114.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -112.0,
+      "decomposition_energy_mp_oqmd": -831.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5091916c7c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:01.393784Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Eu1O8Se2.json",
+      "material://Cs1Eu1O8Se2"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "Cs5Ga4Rb3Se10",
+  "uri": "material://Cs5Ga4Rb3Se10",
+  "composition": {
+    "formula": "Cs5Ga4Rb3Se10",
+    "elements": {
+      "Cs": 5,
+      "Ga": 4,
+      "Rb": 3,
+      "Se": 10
+    },
+    "reduced_formula": "Cs5Rb3(Ga2Se5)2",
+    "element_list": [
+      "Ga",
+      "Se",
+      "Rb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 40 g, Ga: 32 g, Rb: 24 g, Se: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Obtain from a chemical supplier like Sigma-Aldrich. Ga (Gallium): Purchase from a metal supplier. Rb (Rubidium): Source from a chemical vendor. Se (Selenium): Obtain from a chemical supply store.",
+      "steps": [
+        "Cs (Cesium): Obtain from a chemical supplier like Sigma-Aldrich. Ga (Gallium): Purchase from a metal supplier. Rb (Rubidium): Source from a chemical vendor. Se (Selenium): Obtain from a chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance. 2. Combine Cs, Ga, Rb, and Se in a clean, dry glass beaker. 3. Stir the mixture with a glass rod until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. 2. Combine Cs, Ga, Rb, and Se in a clean, dry glass beaker. 3. Stir the mixture with a glass rod until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a quartz crucible. 2. Heat in a furnace at 600°C for 4 hours. 3. Ensure the heating rate is gradual (10°C/min) to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixture to a quartz crucible. 2. Heat in a furnace at 600°C for 4 hours. 3. Ensure the heating rate is gradual (10°C/min) to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool to room temperature naturally in the furnace (approximately 6-8 hours). 2. Do not expose to rapid cooling methods to prevent cracking."
+      ],
+      "raw_text": "1. Allow the crucible to cool to room temperature naturally in the furnace (approximately 6-8 hours). 2. Do not expose to rapid cooling methods to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully. 2. Use sandpaper (grit 400) to smooth the surfaces. 3. Optionally, seal the surface with a clear epoxy for protection."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. 2. Use sandpaper (grit 400) to smooth the surfaces. 3. Optionally, seal the surface with a clear epoxy for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 8462053.0,
+      "density": 39039.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -822319.0,
+      "formation_energy_per_atom": -1261.0,
+      "decomposition_energy_per_atom": -597.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -597.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": 2.0396,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5ed5341e7b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:19.942075Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs5Ga4Rb3Se10.json",
+      "material://Cs5Ga4Rb3Se10"
+    ]
+  }
+}

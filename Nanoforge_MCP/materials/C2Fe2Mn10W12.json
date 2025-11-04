@@ -1,0 +1,131 @@
+{
+  "id": "C2Fe2Mn10W12",
+  "uri": "material://C2Fe2Mn10W12",
+  "composition": {
+    "formula": "C2Fe2Mn10W12",
+    "elements": {
+      "C": 2,
+      "Fe": 2,
+      "Mn": 10,
+      "W": 12
+    },
+    "reduced_formula": "Mn5FeW6C",
+    "element_list": [
+      "C",
+      "Mn",
+      "Fe",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 56.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 54.94,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 183.84,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 12.0 g \n Fe: 56.0 g \n Mn: 54.94 g \n W: 183.84 g"
+    },
+    "sourcing": {
+      "instructions": "C: Obtain carbon powder from chemical suppliers or online marketplaces. \n Fe: Purchase iron powder from metal suppliers or hardware stores. \n Mn: Get manganese powder from metal suppliers. \n W: Acquire tungsten powder from specialty metal suppliers.",
+      "steps": [
+        "C: Obtain carbon powder from chemical suppliers or online marketplaces.",
+        "Fe: Purchase iron powder from metal suppliers or hardware stores.",
+        "Mn: Get manganese powder from metal suppliers.",
+        "W: Acquire tungsten powder from specialty metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry glass or ceramic mixing container, add 12.0 g of carbon powder.",
+        "3. Add 56.0 g of iron powder, 54.94 g of manganese powder, and 183.84 g of tungsten powder sequentially.",
+        "4. Mix the powders thoroughly using a spatula or a mechanical mixer to ensure uniform distribution of materials."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using an analytical balance. \n 2. In a clean, dry glass or ceramic mixing container, add 12.0 g of carbon powder. \n 3. Add 56.0 g of iron powder, 54.94 g of manganese powder, and 183.84 g of tungsten powder sequentially. \n 4. Mix the powders thoroughly using a spatula or a mechanical mixer to ensure uniform distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a suitable crucible.",
+        "2. Preheat a furnace to 1200 °C.",
+        "3. Place the crucible in the furnace and maintain this temperature for 2 hours to ensure complete reaction and formation of C2Fe2Mn10W12."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a suitable crucible. \n 2. Preheat a furnace to 1200 °C. \n 3. Place the crucible in the furnace and maintain this temperature for 2 hours to ensure complete reaction and formation of C2Fe2Mn10W12."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C).",
+        "2. This process should take about 4-6 hours. Ensure the crucible is not removed until the furnace is cool to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C). \n 2. This process should take about 4-6 hours. Ensure the crucible is not removed until the furnace is cool to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, use a grinder or a file to smooth any rough edges.",
+        "3. Optionally, seal the surface with a suitable clear coat to enhance durability, following the manufacturer's instructions for application and drying times."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. If necessary, use a grinder or a file to smooth any rough edges. \n 3. Optionally, seal the surface with a suitable clear coat to enhance durability, following the manufacturer's instructions for application and drying times."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3314225.0,
+      "density": 144858.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ima2",
+      "space_group_number": 46,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2846243.0,
+      "formation_energy_per_atom": -813.0,
+      "decomposition_energy_per_atom": -378.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -378.0,
+      "decomposition_energy_mp_oqmd": -68.0
+    },
+    "electronic": {
+      "bandgap": 0.0009,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "40a1a34048",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:40.358828Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C2Fe2Mn10W12.json",
+      "material://C2Fe2Mn10W12"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Co19Fe4Zr6",
+  "uri": "material://Co19Fe4Zr6",
+  "composition": {
+    "formula": "Co19Fe4Zr6",
+    "elements": {
+      "Co": 19,
+      "Fe": 4,
+      "Zr": 6
+    },
+    "reduced_formula": "Zr6Fe4Co19",
+    "element_list": [
+      "Fe",
+      "Co",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 152.1,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 152.1 g, Fe: 35.2 g, Zr: 24.3 g"
+    },
+    "sourcing": {
+      "instructions": "Co (cobalt powder) - chemical supply companies; Fe (iron powder) - metal suppliers; Zr (zirconium powder) - specialty metal vendors.",
+      "steps": [
+        "Co (cobalt powder) - chemical supply companies; Fe (iron powder) - metal suppliers; Zr (zirconium powder) - specialty metal vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Co, Fe, and Zr using a precise scale.",
+        "2. Combine powders in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to thoroughly mix for 20 minutes ensuring homogeneity."
+      ],
+      "raw_text": "1. Weigh Co, Fe, and Zr using a precise scale. \n 2. Combine powders in a clean, dry mixing container. \n 3. Use a mechanical mixer or mortar and pestle to thoroughly mix for 20 minutes ensuring homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powders to a suitable crucible.",
+        "2. Heat the crucible in a furnace to 1200°C at a rate of 5°C/min.",
+        "3. Maintain the temperature for 2 hours to allow for alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a suitable crucible. \n 2. Heat the crucible in a furnace to 1200°C at a rate of 5°C/min. \n 3. Maintain the temperature for 2 hours to allow for alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled completely to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Grind the edges and surfaces with a diamond grinding wheel for a smooth finish.",
+        "3. Optionally, apply a protective sealant to prevent oxidation if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Grind the edges and surfaces with a diamond grinding wheel for a smooth finish. \n 3. Optionally, apply a protective sealant to prevent oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3829679.0,
+      "density": 8197.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -227455.0,
+      "formation_energy_per_atom": -2493.0,
+      "decomposition_energy_per_atom": -283.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -283.0,
+      "decomposition_energy_mp_oqmd": -277.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0b0af3083e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:29.939576Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co19Fe4Zr6.json",
+      "material://Co19Fe4Zr6"
+    ]
+  }
+}

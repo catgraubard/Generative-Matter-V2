@@ -1,0 +1,110 @@
+{
+  "id": "Mo6Ni2O24Zn4",
+  "uri": "material://Mo6Ni2O24Zn4",
+  "composition": {
+    "formula": "Mo6Ni2O24Zn4",
+    "elements": {
+      "Mo": 6,
+      "Ni": 2,
+      "O": 24,
+      "Zn": 4
+    },
+    "reduced_formula": "Zn2Ni(MoO4)3",
+    "element_list": [
+      "O",
+      "Ni",
+      "Zn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Molybdenum oxide (MoO3): 40.00 g \n Nickel(II) oxide (NiO): 16.00 g \n Zinc oxide (ZnO): 56.00 g \n Distilled water: 50.00 g"
+    },
+    "sourcing": {
+      "instructions": "Molybdenum oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Nickel(II) oxide: Chemical supply stores or online suppliers (e.g., Alfa Aesar) \n Zinc oxide: Chemical supply stores or online suppliers (e.g., Fisher Scientific) \n Distilled water: Grocery stores or pharmacies",
+      "steps": [
+        "Molybdenum oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Nickel(II) oxide: Chemical supply stores or online suppliers (e.g., Alfa Aesar)",
+        "Zinc oxide: Chemical supply stores or online suppliers (e.g., Fisher Scientific)",
+        "Distilled water: Grocery stores or pharmacies"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40.00 g of MoO3, 16.00 g of NiO, and 56.00 g of ZnO using an analytical balance.",
+        "2. In a clean, dry container, add the weighed solid ingredients.",
+        "3. Gradually add distilled water (50.00 g) to the solid mixture while stirring continuously to form a paste.",
+        "4. Ensure the mixture is homogeneous and free of lumps."
+      ],
+      "raw_text": "1. Weigh out 40.00 g of MoO3, 16.00 g of NiO, and 56.00 g of ZnO using an analytical balance. \n 2. In a clean, dry container, add the weighed solid ingredients. \n 3. Gradually add distilled water (50.00 g) to the solid mixture while stirring continuously to form a paste. \n 4. Ensure the mixture is homogeneous and free of lumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the paste into a ceramic crucible.",
+        "2. Preheat a furnace to 800°C.",
+        "3. Place the crucible in the furnace and maintain the temperature for 4 hours to facilitate solid-state reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the paste into a ceramic crucible. \n 2. Preheat a furnace to 800°C. \n 3. Place the crucible in the furnace and maintain the temperature for 4 hours to facilitate solid-state reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace door during cooling to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace door during cooling to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the crucible has cooled completely, carefully remove the solid sample.",
+        "2. If necessary, use a diamond file or sandpaper to smooth any rough edges.",
+        "3. Optionally, seal the material with a clear epoxy resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Once the crucible has cooled completely, carefully remove the solid sample. \n 2. If necessary, use a diamond file or sandpaper to smooth any rough edges. \n 3. Optionally, seal the material with a clear epoxy resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5398898.0,
+      "density": 41173.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2676844.0,
+      "formation_energy_per_atom": -18683.0,
+      "decomposition_energy_per_atom": -52.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -59.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": 3.5395,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "2059a20176",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:58.125196Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mo6Ni2O24Zn4.json",
+      "material://Mo6Ni2O24Zn4"
+    ]
+  }
+}

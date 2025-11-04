@@ -1,0 +1,132 @@
+{
+  "id": "Cs4Nd4Se16Si4",
+  "uri": "material://Cs4Nd4Se16Si4",
+  "composition": {
+    "formula": "Cs4Nd4Se16Si4",
+    "elements": {
+      "Cs": 4,
+      "Nd": 4,
+      "Se": 16,
+      "Si": 4
+    },
+    "reduced_formula": "CsNdSiSe4",
+    "element_list": [
+      "Si",
+      "Se",
+      "Cs",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 11.6,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 8.33,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 38.67,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 11.60 g \n Nd: 8.33 g \n Se: 38.67 g \n Si: 8.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Available from chemical suppliers like Sigma-Aldrich. \n Nd (Neodymium): Obtain from rare earth suppliers or online chemical retailers. \n Se (Selenium): Can be sourced from scientific supply companies. \n Si (Silicon): Purchase from semiconductor supply stores or online chemical vendors.",
+      "steps": [
+        "Cs (Cesium): Available from chemical suppliers like Sigma-Aldrich.",
+        "Nd (Neodymium): Obtain from rare earth suppliers or online chemical retailers.",
+        "Se (Selenium): Can be sourced from scientific supply companies.",
+        "Si (Silicon): Purchase from semiconductor supply stores or online chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using an analytical balance for precision.",
+        "2. In a clean, dry glass container, combine the Cs, Nd, Se, and Si powders in the specified amounts.",
+        "3. Stir the mixture thoroughly using a glass rod to ensure even distribution of all components.",
+        "4. Transfer the mixed powders into a ceramic crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out each ingredient using an analytical balance for precision. \n 2. In a clean, dry glass container, combine the Cs, Nd, Se, and Si powders in the specified amounts. \n 3. Stir the mixture thoroughly using a glass rod to ensure even distribution of all components. \n 4. Transfer the mixed powders into a ceramic crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800°C.",
+        "2. Place the crucible with the mixed powders in the furnace.",
+        "3. Maintain the temperature at 800°C for a duration of 4 hours to ensure complete reaction and solidification of materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800°C. \n 2. Place the crucible with the mixed powders in the furnace. \n 3. Maintain the temperature at 800°C for a duration of 4 hours to ensure complete reaction and solidification of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C).",
+        "2. Leave the crucible in the furnace until it reaches ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C). \n 2. Leave the crucible in the furnace until it reaches ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If necessary, sand the exterior using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant if the material will be exposed to moisture or other environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If necessary, sand the exterior using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant if the material will be exposed to moisture or other environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9199471.0,
+      "density": 44842.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -143281.0,
+      "formation_energy_per_atom": -15354.0,
+      "decomposition_energy_per_atom": -408.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -375.0,
+      "decomposition_energy_mp": -408.0,
+      "decomposition_energy_mp_oqmd": -375.0
+    },
+    "electronic": {
+      "bandgap": 2.1738,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "26d89be268",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:06.640708Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4Nd4Se16Si4.json",
+      "material://Cs4Nd4Se16Si4"
+    ]
+  }
+}

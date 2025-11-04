@@ -1,0 +1,139 @@
+{
+  "id": "Cr1Fe2Mn1Sb12Sr1",
+  "uri": "material://Cr1Fe2Mn1Sb12Sr1",
+  "composition": {
+    "formula": "Cr1Fe2Mn1Sb12Sr1",
+    "elements": {
+      "Cr": 1,
+      "Fe": 2,
+      "Mn": 1,
+      "Sb": 12,
+      "Sr": 1
+    },
+    "reduced_formula": "SrMnCr(FeSb6)2",
+    "element_list": [
+      "Cr",
+      "Mn",
+      "Fe",
+      "Sr",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 24.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 144.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 12.00 g \n Fe: 24.00 g \n Mn: 6.00 g \n Sb: 144.00 g \n Sr: 6.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply stores or online chemical suppliers \n Fe: Metal suppliers or hardware stores \n Mn: Chemical supply stores or online \n Sb: Chemical supply stores \n Sr: Chemical suppliers or online",
+      "steps": [
+        "Cr: Chemical supply stores or online chemical suppliers",
+        "Fe: Metal suppliers or hardware stores",
+        "Mn: Chemical supply stores or online",
+        "Sb: Chemical supply stores",
+        "Sr: Chemical suppliers or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient with an accurate balance.",
+        "2. Combine Cr, Fe, Mn, Sb, and Sr in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or a ball mill to ensure a homogeneous mixture.",
+        "4. Sift the mixture to remove any lumps."
+      ],
+      "raw_text": "1. Measure out each ingredient with an accurate balance. \n 2. Combine Cr, Fe, Mn, Sb, and Sr in a clean, dry mixing container. \n 3. Use a mortar and pestle or a ball mill to ensure a homogeneous mixture. \n 4. Sift the mixture to remove any lumps."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace or oven to 1200 °C.",
+        "2. Place the mixed material in a crucible suitable for high temperatures.",
+        "3. Heat the mixture for 4 hours to allow for complete melting and alloying."
+      ],
+      "raw_text": "1. Preheat the furnace or oven to 1200 °C. \n 2. Place the mixed material in a crucible suitable for high temperatures. \n 3. Heat the mixture for 4 hours to allow for complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool inside the furnace to avoid thermal shock.",
+        "2. Wait for approximately 6 hours until the temperature drops to room temperature."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool inside the furnace to avoid thermal shock. \n 2. Wait for approximately 6 hours until the temperature drops to room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for surface defects and use sandpaper (grit 120-400) to smooth the surface.",
+        "3. Optionally, apply a sealing agent to enhance surface integrity and protect from oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for surface defects and use sandpaper (grit 120-400) to smooth the surface. \n 3. Optionally, apply a sealing agent to enhance surface integrity and protect from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 4089395.0,
+      "density": 71766.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -917517.0,
+      "formation_energy_per_atom": -2799.0,
+      "decomposition_energy_per_atom": -35.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -35.0,
+      "decomposition_energy_mp_oqmd": -286.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "35e17a4bfc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:26.248394Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr1Fe2Mn1Sb12Sr1.json",
+      "material://Cr1Fe2Mn1Sb12Sr1"
+    ]
+  }
+}

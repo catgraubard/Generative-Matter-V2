@@ -1,0 +1,106 @@
+{
+  "id": "Fe1O24Tc6Ti1",
+  "uri": "material://Fe1O24Tc6Ti1",
+  "composition": {
+    "formula": "Fe1O24Tc6Ti1",
+    "elements": {
+      "Fe": 1,
+      "O": 24,
+      "Tc": 6,
+      "Ti": 1
+    },
+    "reduced_formula": "TiFe(TcO4)6",
+    "element_list": [
+      "O",
+      "Ti",
+      "Fe",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "BaO: 100 g, SiO2: 136.6 g, Tb2O3: 49.5 g, Tm2O3: 14.2 g"
+    },
+    "sourcing": {
+      "instructions": "BaO: Chemical supply stores or online chemical suppliers; SiO2: Silica sand suppliers or hardware stores; Tb2O3 and Tm2O3: Specialized rare earth material suppliers or online.",
+      "steps": [
+        "BaO: Chemical supply stores or online chemical suppliers; SiO2: Silica sand suppliers or hardware stores; Tb2O3 and Tm2O3: Specialized rare earth material suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine BaO, SiO2, Tb2O3, and Tm2O3 in the amounts listed.",
+        "3. Mix thoroughly using a mortar and pestle or mechanical mixer until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each material precisely using a digital scale. \n 2. In a clean, dry mixing container, combine BaO, SiO2, Tb2O3, and Tm2O3 in the amounts listed. \n 3. Mix thoroughly using a mortar and pestle or mechanical mixer until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Place the mixed powder into a suitable crucible (preferably alumina) for heating.",
+        "3. Heat the sample for 2 hours at 1200°C."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Place the mixed powder into a suitable crucible (preferably alumina) for heating. \n 3. Heat the sample for 2 hours at 1200°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 4-6 hours.",
+        "2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally, which may take approximately 4-6 hours. \n 2. Do not open the furnace door until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use sandpaper to smooth the edges and surfaces of the sample.",
+        "3. Optionally, apply a sealant to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use sandpaper to smooth the edges and surfaces of the sample. \n 3. Optionally, apply a sealant to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 6117917.0,
+      "density": 29197.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3",
+      "space_group_number": 148,
+      "point_group": "-3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2608293.0,
+      "formation_energy_per_atom": -19859.0,
+      "decomposition_energy_per_atom": -309.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -25.0,
+      "decomposition_energy_mp": -316.0,
+      "decomposition_energy_mp_oqmd": -315.0
+    },
+    "electronic": {
+      "bandgap": 0.0114,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c89645db51",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.545253Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1O24Tc6Ti1.json",
+      "material://Fe1O24Tc6Ti1"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Ba4Eu1In3O10",
+  "uri": "material://Ba4Eu1In3O10",
+  "composition": {
+    "formula": "Ba4Eu1In3O10",
+    "elements": {
+      "Ba": 4,
+      "Eu": 1,
+      "In": 3,
+      "O": 10
+    },
+    "reduced_formula": "Ba4EuIn3O10",
+    "element_list": [
+      "O",
+      "In",
+      "Ba",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Oxide (BaO): 73.0 g \n Europium Oxide (Eu2O3): 7.5 g \n Indium Oxide (In2O3): 100.0 g \n Oxygen (O2): 32.0 g (for stoichiometric balance)"
+    },
+    "sourcing": {
+      "instructions": "Barium Oxide: Chemical supply companies (e.g., Sigma-Aldrich) \n Europium Oxide: Rare earth suppliers \n Indium Oxide: Electronic components suppliers \n Oxygen: Laboratory gas suppliers",
+      "steps": [
+        "Barium Oxide: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Europium Oxide: Rare earth suppliers",
+        "Indium Oxide: Electronic components suppliers",
+        "Oxygen: Laboratory gas suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the barium oxide, europium oxide, indium oxide, and balance oxygen in a precision scale.",
+        "2. In a clean, dry mortar and pestle, combine the barium oxide and europium oxide. Grind until a uniform powder is achieved.",
+        "3. Gradually incorporate the indium oxide into the mixture, continuing to grind until homogenous.",
+        "4. Transfer the powder into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh the barium oxide, europium oxide, indium oxide, and balance oxygen in a precision scale. \n 2. In a clean, dry mortar and pestle, combine the barium oxide and europium oxide. Grind until a uniform powder is achieved. \n 3. Gradually incorporate the indium oxide into the mixture, continuing to grind until homogenous. \n 4. Transfer the powder into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 6,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat gradually to 1100 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 6 hours to ensure full reaction of the compounds."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat gradually to 1100 °C at a rate of 5 °C/min. \n 3. Maintain the temperature for 6 hours to ensure full reaction of the compounds."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 8 hours).",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 8 hours). \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use sandpaper (600 grit) to smooth the edges and surfaces of the sample.",
+        "3. If necessary, apply a clear sealant to protect the surface and enhance durability. Allow the sealant to cure as per manufacturer instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use sandpaper (600 grit) to smooth the edges and surfaces of the sample. \n 3. If necessary, apply a clear sealant to protect the surface and enhance durability. Allow the sealant to cure as per manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 3314987.0,
+      "density": 60397.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1224257.0,
+      "formation_energy_per_atom": -25957.0,
+      "decomposition_energy_per_atom": -191.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -37.0,
+      "decomposition_energy_mp": -196.0,
+      "decomposition_energy_mp_oqmd": -67.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f7687af487",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:31.971782Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4Eu1In3O10.json",
+      "material://Ba4Eu1In3O10"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Co16Er1Fe4P12Tb3",
+  "uri": "material://Co16Er1Fe4P12Tb3",
+  "composition": {
+    "formula": "Co16Er1Fe4P12Tb3",
+    "elements": {
+      "Co": 16,
+      "Er": 1,
+      "Fe": 4,
+      "P": 12,
+      "Tb": 3
+    },
+    "reduced_formula": "Tb3ErFe4(Co4P3)4",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Tb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Co2O3: 50 g \n - Er2O3: 32 g \n - La2O3: 18 g \n - O2: 0.4 g (inert atmosphere for processing)"
+    },
+    "sourcing": {
+      "instructions": "- Co2O3: Chemical supply stores or online chemical suppliers \n - Er2O3: Specialty rare earth material suppliers \n - La2O3: Chemical supply stores \n - O2: Gas suppliers (for inert atmosphere)",
+      "steps": [
+        "- Co2O3: Chemical supply stores or online chemical suppliers",
+        "- Er2O3: Specialty rare earth material suppliers",
+        "- La2O3: Chemical supply stores",
+        "- O2: Gas suppliers (for inert atmosphere)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each oxide powder accurately using a balance.",
+        "2. In a clean, dry container, combine the Co2O3, Er2O3, and La2O3 powders thoroughly using a mortar and pestle.",
+        "3. Ensure a homogenous mix by grinding for at least 10 minutes."
+      ],
+      "raw_text": "1. Weigh each oxide powder accurately using a balance. \n 2. In a clean, dry container, combine the Co2O3, Er2O3, and La2O3 powders thoroughly using a mortar and pestle. \n 3. Ensure a homogenous mix by grinding for at least 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 1200°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool naturally to 800°C.",
+        "2. After reaching 800°C, remove the crucible and let it cool to room temperature in a dry, inert atmosphere."
+      ],
+      "raw_text": "1. Allow the furnace to cool naturally to 800°C. \n 2. After reaching 800°C, remove the crucible and let it cool to room temperature in a dry, inert atmosphere."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to ensure smoothness and eliminate any sharp corners.",
+        "4. Optionally, apply a protective sealant for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to ensure smoothness and eliminate any sharp corners. \n 4. Optionally, apply a protective sealant for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4424661.0,
+      "density": 8189.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2616447.0,
+      "formation_energy_per_atom": -85.0,
+      "decomposition_energy_per_atom": -287.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -223.0,
+      "decomposition_energy_mp_oqmd": -223.0
+    },
+    "electronic": {
+      "bandgap": 0.0033,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6079794f2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.897357Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Er1Fe4P12Tb3.json",
+      "material://Co16Er1Fe4P12Tb3"
+    ]
+  }
+}

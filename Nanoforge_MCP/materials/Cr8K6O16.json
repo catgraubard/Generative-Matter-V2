@@ -1,0 +1,130 @@
+{
+  "id": "Cr8K6O16",
+  "uri": "material://Cr8K6O16",
+  "composition": {
+    "formula": "Cr8K6O16",
+    "elements": {
+      "Cr": 8,
+      "K": 6,
+      "O": 16
+    },
+    "reduced_formula": "K3Cr4O8",
+    "element_list": [
+      "O",
+      "K",
+      "Cr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 210.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 140.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 180.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 210 g (Boron) \n Co: 140 g (Cobalt) \n Nb: 180 g (Niobium) \n Ru: 160 g (Ruthenium)"
+    },
+    "sourcing": {
+      "instructions": "B: Available at chemical supply stores or online vendors (e.g., Sigma-Aldrich). \n Co: Obtain from metal suppliers or online (e.g., Alfa Aesar). \n Nb: Purchase from specialty metal suppliers or online (e.g., American Elements). \n Ru: Source from precious metal suppliers or chemical supply companies.",
+      "steps": [
+        "B: Available at chemical supply stores or online vendors (e.g., Sigma-Aldrich).",
+        "Co: Obtain from metal suppliers or online (e.g., Alfa Aesar).",
+        "Nb: Purchase from specialty metal suppliers or online (e.g., American Elements).",
+        "Ru: Source from precious metal suppliers or chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient separately using a precision scale.",
+        "2. Combine B, Co, Nb, and Ru in a clean, dry container.",
+        "3. Stir the mixture thoroughly using a mechanical stirrer for 10 minutes to ensure uniformity.",
+        "4. Transfer the mixed powder to a mortar and grind for an additional 5 minutes to achieve a fine consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient separately using a precision scale. \n 2. Combine B, Co, Nb, and Ru in a clean, dry container. \n 3. Stir the mixture thoroughly using a mechanical stirrer for 10 minutes to ensure uniformity. \n 4. Transfer the mixed powder to a mortar and grind for an additional 5 minutes to achieve a fine consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1500°C.",
+        "2. Place the mixed powder in a crucible made of a suitable material (e.g., alumina).",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate complete melting and mixing of the materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1500°C. \n 2. Place the mixed powder in a crucible made of a suitable material (e.g., alumina). \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate complete melting and mixing of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow the crucible to cool down inside the furnace to room temperature over a period of 12 hours.",
+        "2. Ensure the furnace remains closed during cooling to avoid contamination."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow the crucible to cool down inside the furnace to room temperature over a period of 12 hours. \n 2. Ensure the furnace remains closed during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the material has cooled, carefully remove the crucible and extract the solid sample.",
+        "2. Inspect the sample for any imperfections or irregularities.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant or protective coating if the material will be exposed to the environment."
+      ],
+      "raw_text": "1. Once the material has cooled, carefully remove the crucible and extract the solid sample. \n 2. Inspect the sample for any imperfections or irregularities. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant or protective coating if the material will be exposed to the environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 395095.0,
+      "density": 38101.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "inf"
+    },
+    "energetics": {
+      "corrected_energy": -2283882.0,
+      "formation_energy_per_atom": -21778.0,
+      "decomposition_energy_per_atom": -86.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -92.0,
+      "decomposition_energy_mp": -92.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dab14bb9af",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.198991Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr8K6O16.json",
+      "material://Cr8K6O16"
+    ]
+  }
+}

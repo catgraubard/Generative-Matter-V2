@@ -1,0 +1,112 @@
+{
+  "id": "C4Co8Ge4Mo12",
+  "uri": "material://C4Co8Ge4Mo12",
+  "composition": {
+    "formula": "C4Co8Ge4Mo12",
+    "elements": {
+      "C": 4,
+      "Co": 8,
+      "Ge": 4,
+      "Mo": 12
+    },
+    "reduced_formula": "Co2GeMo3C",
+    "element_list": [
+      "C",
+      "Co",
+      "Ge",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 16 g, Li: 2 g, Si: 4 g, Tb: 3 g, Y: 5 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores, Li: Specialty metal suppliers, Si: Silicon suppliers, Tb: Rare earth material suppliers, Y: Rare earth material suppliers",
+      "steps": [
+        "B: Chemical supply stores, Li: Specialty metal suppliers, Si: Silicon suppliers, Tb: Rare earth material suppliers, Y: Rare earth material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry container, combine the exact weights of B, Li, Si, Tb, and Y.",
+        "3. Use a mortar and pestle to thoroughly mix the dry ingredients until homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry container, combine the exact weights of B, Li, Si, Tb, and Y. \n 3. Use a mortar and pestle to thoroughly mix the dry ingredients until homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the sample to 1200°C at a rate of 10°C per minute and hold for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the sample to 1200°C at a rate of 10°C per minute and hold for 2 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace door until the temperature is below 200°C to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace door until the temperature is below 200°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible.",
+        "2. Inspect for any rough edges or surface imperfections.",
+        "3. Use fine-grit sandpaper (400 grit) to smooth the surface if necessary.",
+        "4. Optionally, seal the surface with a high-temperature resistant sealant for durability."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible. \n 2. Inspect for any rough edges or surface imperfections. \n 3. Use fine-grit sandpaper (400 grit) to smooth the surface if necessary. \n 4. Optionally, seal the surface with a high-temperature resistant sealant for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 348594.0,
+      "density": 93429.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2471082.0,
+      "formation_energy_per_atom": -1677.0,
+      "decomposition_energy_per_atom": -403.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -298.0,
+      "decomposition_energy_mp": -403.0,
+      "decomposition_energy_mp_oqmd": -397.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c528855540",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.533273Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C4Co8Ge4Mo12.json",
+      "material://C4Co8Ge4Mo12"
+    ]
+  }
+}

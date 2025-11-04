@@ -1,0 +1,118 @@
+{
+  "id": "Fe12P12Ru8Y4",
+  "uri": "material://Fe12P12Ru8Y4",
+  "composition": {
+    "formula": "Fe12P12Ru8Y4",
+    "elements": {
+      "Fe": 12,
+      "P": 12,
+      "Ru": 8,
+      "Y": 4
+    },
+    "reduced_formula": "YFe3P3Ru2",
+    "element_list": [
+      "P",
+      "Fe",
+      "Y",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 39.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 39.0 g, Fe: 9.0 g, Nb: 9.0 g, P: 36.0 g, Sm: 15.0 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Purchase from a metal supply company or online. \n Fe (Iron): Obtain from a hardware store. \n Nb (Niobium): Available from specialty suppliers. \n P (Phosphorus): Buy from chemical suppliers. \n Sm (Samarium): Source from rare earth material suppliers.",
+      "steps": [
+        "Co (Cobalt): Purchase from a metal supply company or online.",
+        "Fe (Iron): Obtain from a hardware store.",
+        "Nb (Niobium): Available from specialty suppliers.",
+        "P (Phosphorus): Buy from chemical suppliers.",
+        "Sm (Samarium): Source from rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient with a precision scale.",
+        "2. In a clean mixing bowl, combine Co, Fe, Nb, P, and Sm in the specified amounts.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder to ensure uniformity.",
+        "4. Transfer the powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Measure each ingredient with a precision scale. \n 2. In a clean mixing bowl, combine Co, Fe, Nb, P, and Sm in the specified amounts. \n 3. Use a mortar and pestle to grind the mixture into a fine powder to ensure uniformity. \n 4. Transfer the powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C (2192°F).",
+        "2. Place the ceramic crucible with the mixed powder into the furnace.",
+        "3. Maintain the temperature for 4 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C (2192°F). \n 2. Place the ceramic crucible with the mixed powder into the furnace. \n 3. Maintain the temperature for 4 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool gradually to room temperature (approximately 2-4 hours).",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool gradually to room temperature (approximately 2-4 hours). \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Inspect for any rough edges or irregularities.",
+        "3. Use sandpaper to smooth the surfaces as needed.",
+        "4. Optionally, apply a sealant to enhance surface finish and protect the material."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Inspect for any rough edges or irregularities. \n 3. Use sandpaper to smooth the surfaces as needed. \n 4. Optionally, apply a sealant to enhance surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4707073.0,
+      "density": 77823.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -294957.0,
+      "formation_energy_per_atom": -786.0,
+      "decomposition_energy_per_atom": -53.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -53.0,
+      "decomposition_energy_mp_oqmd": -258.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b5eb0b15d2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.236956Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe12P12Ru8Y4.json",
+      "material://Fe12P12Ru8Y4"
+    ]
+  }
+}

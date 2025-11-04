@@ -1,0 +1,126 @@
+{
+  "id": "La2Nd2Ni2Si6",
+  "uri": "material://La2Nd2Ni2Si6",
+  "composition": {
+    "formula": "La2Nd2Ni2Si6",
+    "elements": {
+      "La": 2,
+      "Nd": 2,
+      "Ni": 2,
+      "Si": 6
+    },
+    "reduced_formula": "LaNdSi3Ni",
+    "element_list": [
+      "Si",
+      "Ni",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 20 g  \n  Nd: 80 g  \n  Ni: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Available at local hardware stores or metal suppliers. \n  Nd: Obtain from chemical supply companies or online retailers specializing in rare earth metals. \n  Ni: Found in local hardware stores or metal suppliers.",
+      "steps": [
+        "Cu: Available at local hardware stores or metal suppliers.",
+        "Nd: Obtain from chemical supply companies or online retailers specializing in rare earth metals.",
+        "Ni: Found in local hardware stores or metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of copper (Cu).",
+        "2. Weigh out 80 g of neodymium (Nd).",
+        "3. Weigh out 60 g of nickel (Ni).",
+        "4. Combine the metals in a clean, dry mixing container.",
+        "5. Use a spatula to mix thoroughly until the metals are uniformly blended."
+      ],
+      "raw_text": "1. Weigh out 20 g of copper (Cu). \n  2. Weigh out 80 g of neodymium (Nd). \n  3. Weigh out 60 g of nickel (Ni). \n  4. Combine the metals in a clean, dry mixing container. \n  5. Use a spatula to mix thoroughly until the metals are uniformly blended."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixture in a suitable crucible made of graphite or ceramic.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 1 hour to ensure complete melting."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n  2. Place the mixture in a suitable crucible made of graphite or ceramic. \n  3. Insert the crucible into the furnace and maintain the temperature for 1 hour to ensure complete melting."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After 1 hour, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-4 hours) before removing it.",
+        "2. Do not quench the material, as rapid cooling can introduce stress fractures."
+      ],
+      "raw_text": "1. After 1 hour, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 2-4 hours) before removing it. \n  2. Do not quench the material, as rapid cooling can introduce stress fractures."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth out rough edges and surfaces as needed.",
+        "3. Optionally, apply a protective coating or sealant to preserve surface finish and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n  2. Use a file or sandpaper to smooth out rough edges and surfaces as needed. \n  3. Optionally, apply a protective coating or sealant to preserve surface finish and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2448457.0,
+      "density": 57796.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -73439.0,
+      "formation_energy_per_atom": -8265.0,
+      "decomposition_energy_per_atom": -39.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -208.0,
+      "decomposition_energy_mp": -388.0,
+      "decomposition_energy_mp_oqmd": -208.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c23d58b47b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.846818Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Nd2Ni2Si6.json",
+      "material://La2Nd2Ni2Si6"
+    ]
+  }
+}

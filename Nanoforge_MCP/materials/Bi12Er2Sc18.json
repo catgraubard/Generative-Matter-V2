@@ -1,0 +1,117 @@
+{
+  "id": "Bi12Er2Sc18",
+  "uri": "material://Bi12Er2Sc18",
+  "composition": {
+    "formula": "Bi12Er2Sc18",
+    "elements": {
+      "Bi": 12,
+      "Er": 2,
+      "Sc": 18
+    },
+    "reduced_formula": "Er(Sc3Bi2)3",
+    "element_list": [
+      "Sc",
+      "Er",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 10 g, Pa: 60 g, Sb: 100 g, Zr: 10 g (Total: 180 g)"
+    },
+    "sourcing": {
+      "instructions": "Nb (Niobium): Specialty metal suppliers or online metal retailers. \n Pa (Palladium): Chemical supply companies or online marketplaces. \n Sb (Antimony): Chemical suppliers or metallurgical suppliers. \n Zr (Zirconium): Metal suppliers or specialty chemical retailers.",
+      "steps": [
+        "Nb (Niobium): Specialty metal suppliers or online metal retailers.",
+        "Pa (Palladium): Chemical supply companies or online marketplaces.",
+        "Sb (Antimony): Chemical suppliers or metallurgical suppliers.",
+        "Zr (Zirconium): Metal suppliers or specialty chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of Nb, 60 g of Pa, 100 g of Sb, and 10 g of Zr using a precision balance.",
+        "2. Combine all weighed materials in a high-purity ceramic or glass mixing container.",
+        "3. Use a pestle and mortar or a mechanical mixer to grind the mixture until a homogeneous powder is achieved.",
+        "4. Ensure no lumps remain and the texture is consistent."
+      ],
+      "raw_text": "1. Weigh out 10 g of Nb, 60 g of Pa, 100 g of Sb, and 10 g of Zr using a precision balance. \n 2. Combine all weighed materials in a high-purity ceramic or glass mixing container. \n 3. Use a pestle and mortar or a mechanical mixer to grind the mixture until a homogeneous powder is achieved. \n 4. Ensure no lumps remain and the texture is consistent."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a graphite crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1500°C at a rate of 10°C/min.",
+        "4. Hold the temperature for 2 hours to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a graphite crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1500°C at a rate of 10°C/min. \n 4. Hold the temperature for 2 hours to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it reaches 300°C to avoid thermal shock to the crucible and the material.",
+        "3. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace until it reaches 300°C to avoid thermal shock to the crucible and the material. \n 3. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solidified sample from the crucible.",
+        "2. Use a diamond saw or band saw to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to remove any roughness or sharp edges, using progressively finer grit sandpaper.",
+        "4. Optionally, apply a protective sealant to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Carefully extract the solidified sample from the crucible. \n 2. Use a diamond saw or band saw to cut the material to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to remove any roughness or sharp edges, using progressively finer grit sandpaper. \n 4. Optionally, apply a protective sealant to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 8104087.0,
+      "density": 7482.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1894139.0,
+      "formation_energy_per_atom": -6129.0,
+      "decomposition_energy_per_atom": -97.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -97.0,
+      "decomposition_energy_mp_oqmd": -96.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e33b75999c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.518978Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi12Er2Sc18.json",
+      "material://Bi12Er2Sc18"
+    ]
+  }
+}

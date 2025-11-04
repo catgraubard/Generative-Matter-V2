@@ -1,0 +1,113 @@
+{
+  "id": "Ba2Co3Fe1O16P4",
+  "uri": "material://Ba2Co3Fe1O16P4",
+  "composition": {
+    "formula": "Ba2Co3Fe1O16P4",
+    "elements": {
+      "Ba": 2,
+      "Co": 3,
+      "Fe": 1,
+      "O": 16,
+      "P": 4
+    },
+    "reduced_formula": "Ba2FeCo3(PO4)4",
+    "element_list": [
+      "O",
+      "P",
+      "Fe",
+      "Co",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Carbonate (BaCO3): 100 g \n Cobalt Oxide (CoO): 30 g \n Iron Oxide (Fe2O3): 10 g \n Phosphorus Pentoxide (P2O5): 13 g"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific). \n Cobalt Oxide: Specialty ceramic suppliers or online marketplaces. \n Iron Oxide: Local hardware stores or chemical suppliers. \n Phosphorus Pentoxide: Chemical supply stores or online suppliers (e.g., VWR, Aldrich).",
+      "steps": [
+        "Barium Carbonate: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Cobalt Oxide: Specialty ceramic suppliers or online marketplaces.",
+        "Iron Oxide: Local hardware stores or chemical suppliers.",
+        "Phosphorus Pentoxide: Chemical supply stores or online suppliers (e.g., VWR, Aldrich)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Barium Carbonate, Cobalt Oxide, Iron Oxide, and Phosphorus Pentoxide.",
+        "3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture into a ball mill and mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine Barium Carbonate, Cobalt Oxide, Iron Oxide, and Phosphorus Pentoxide. \n 3. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders until a homogeneous mixture is achieved. \n 4. Transfer the mixture into a ball mill and mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the mixed powder into a suitable crucible made of alumina or zirconia.",
+        "3. Heat the crucible in the furnace for 4 hours to facilitate the solid-state reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the mixed powder into a suitable crucible made of alumina or zirconia. \n 3. Heat the crucible in the furnace for 4 hours to facilitate the solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 4-6 hours).",
+        "2. Ensure the crucible is not removed until the temperature is below 200°C to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 4-6 hours). \n 2. Ensure the crucible is not removed until the temperature is below 200°C to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or cracks.",
+        "3. If needed, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a ceramic sealant for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or cracks. \n 3. If needed, sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a ceramic sealant for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3913923.0,
+      "density": 3764.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2016924.0,
+      "formation_energy_per_atom": -25861.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -1.0,
+      "decomposition_energy_mp_oqmd": -8.0
+    },
+    "electronic": {
+      "bandgap": 2.9569,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "487055733d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:50.742469Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba2Co3Fe1O16P4.json",
+      "material://Ba2Co3Fe1O16P4"
+    ]
+  }
+}

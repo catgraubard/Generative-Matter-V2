@@ -1,0 +1,140 @@
+{
+  "id": "Ni3P6Ru9Sc2Si1",
+  "uri": "material://Ni3P6Ru9Sc2Si1",
+  "composition": {
+    "formula": "Ni3P6Ru9Sc2Si1",
+    "elements": {
+      "Ni": 3,
+      "P": 6,
+      "Ru": 9,
+      "Sc": 2,
+      "Si": 1
+    },
+    "reduced_formula": "Sc2SiNi3(P2Ru3)3",
+    "element_list": [
+      "Si",
+      "P",
+      "Sc",
+      "Ni",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 90 g (Nickel powder, <100 µm) \n P: 20 g (Phosphorus powder, <100 µm) \n Ru: 18 g (Ruthenium powder, <100 µm) \n Sc: 5 g (Scandium powder, <100 µm) \n Si: 5 g (Silicon powder, <100 µm)"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from a metal powder supplier (e.g. Alpha Aesar, Sigma Aldrich) \n P: Obtain from chemical supply companies (e.g. Fisher Scientific) \n Ru: Available through precious metal suppliers (e.g. Johnson Matthey) \n Sc: Acquire from rare metal suppliers (e.g. American Elements) \n Si: Obtain from electronic component suppliers (e.g. Digi-Key)",
+      "steps": [
+        "Ni: Purchase from a metal powder supplier (e.g. Alpha Aesar, Sigma Aldrich)",
+        "P: Obtain from chemical supply companies (e.g. Fisher Scientific)",
+        "Ru: Available through precious metal suppliers (e.g. Johnson Matthey)",
+        "Sc: Acquire from rare metal suppliers (e.g. American Elements)",
+        "Si: Obtain from electronic component suppliers (e.g. Digi-Key)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients using a precision scale.",
+        "2. In a clean, dry mixing container, combine the nickel powder and phosphorus powder.",
+        "3. Gradually add ruthenium powder while stirring continuously to ensure uniformity.",
+        "4. Add scandium powder next, mixing thoroughly.",
+        "5. Finally, incorporate silicon powder and mix until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh all ingredients using a precision scale. \n 2. In a clean, dry mixing container, combine the nickel powder and phosphorus powder. \n 3. Gradually add ruthenium powder while stirring continuously to ensure uniformity. \n 4. Add scandium powder next, mixing thoroughly. \n 5. Finally, incorporate silicon powder and mix until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature furnace.",
+        "2. Heat to 900°C (1652°F) in an inert atmosphere (e.g. argon gas) to prevent oxidation.",
+        "3. Maintain this temperature for 2 hours to ensure proper alloying of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature furnace. \n 2. Heat to 900°C (1652°F) in an inert atmosphere (e.g. argon gas) to prevent oxidation. \n 3. Maintain this temperature for 2 hours to ensure proper alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, allow the furnace to cool naturally to room temperature (approximately 25°C or 77°F).",
+        "2. This cooling should take about 4-6 hours to avoid cracking or warping of the material."
+      ],
+      "raw_text": "1. After the heating process, allow the furnace to cool naturally to room temperature (approximately 25°C or 77°F). \n 2. This cooling should take about 4-6 hours to avoid cracking or warping of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the furnace and allow it to cool for an additional 1 hour outside.",
+        "2. Use a fine-grit sandpaper to polish the surface and achieve the desired finish.",
+        "3. Optionally, apply a protective sealant to enhance durability and corrosion resistance."
+      ],
+      "raw_text": "1. Remove the solid sample from the furnace and allow it to cool for an additional 1 hour outside. \n 2. Use a fine-grit sandpaper to polish the surface and achieve the desired finish. \n 3. Optionally, apply a protective sealant to enhance durability and corrosion resistance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 21,
+      "volume": 2854338.0,
+      "density": 80838.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1672837.0,
+      "formation_energy_per_atom": -7573.0,
+      "decomposition_energy_per_atom": -305.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -96.0,
+      "decomposition_energy_mp": -339.0,
+      "decomposition_energy_mp_oqmd": -335.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6df30cf7d0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:39.465601Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni3P6Ru9Sc2Si1.json",
+      "material://Ni3P6Ru9Sc2Si1"
+    ]
+  }
+}

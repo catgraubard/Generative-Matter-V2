@@ -1,0 +1,113 @@
+{
+  "id": "Ca1Na2Sb6Sn6",
+  "uri": "material://Ca1Na2Sb6Sn6",
+  "composition": {
+    "formula": "Ca1Na2Sb6Sn6",
+    "elements": {
+      "Ca": 1,
+      "Na": 2,
+      "Sb": 6,
+      "Sn": 6
+    },
+    "reduced_formula": "Na2Ca(SnSb)6",
+    "element_list": [
+      "Na",
+      "Ca",
+      "Sn",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cs (Cesium): 10.0 g \n Ga (Gallium): 10.0 g \n Ge (Germanium): 10.0 g \n O (Oxygen): 32.0 g (from 80.0 g of H2O for reaction)"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company or online supplier specializing in rare elements. \n Ga: Available from chemical supply companies or electronics suppliers. \n Ge: Provided by chemical suppliers or semiconductor companies. \n O: Source distilled water from a laboratory supply store.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company or online supplier specializing in rare elements.",
+        "Ga: Available from chemical supply companies or electronics suppliers.",
+        "Ge: Provided by chemical suppliers or semiconductor companies.",
+        "O: Source distilled water from a laboratory supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of Cs in an inert atmosphere.",
+        "2. Weigh 10.0 g of Ga and add it to the Cs.",
+        "3. Weigh 10.0 g of Ge and mix it into the Cs-Ga mixture.",
+        "4. Measure 80.0 g of distilled water and introduce it slowly to the solid mixture in a controlled environment to prevent oxidation.",
+        "5. Mix thoroughly until a uniform paste is formed."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of Cs in an inert atmosphere. \n 2. Weigh 10.0 g of Ga and add it to the Cs. \n 3. Weigh 10.0 g of Ge and mix it into the Cs-Ga mixture. \n 4. Measure 80.0 g of distilled water and introduce it slowly to the solid mixture in a controlled environment to prevent oxidation. \n 5. Mix thoroughly until a uniform paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the paste into a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible gradually to 600 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature at 600 °C for 4 hours to allow for proper reaction and material formation."
+      ],
+      "raw_text": "1. Transfer the paste into a crucible suitable for high-temperature applications. \n 2. Heat the crucible gradually to 600 °C at a rate of 10 °C/min. \n 3. Maintain the temperature at 600 °C for 4 hours to allow for proper reaction and material formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 25 °C) over 6 hours.",
+        "2. Avoid forced cooling to prevent cracking of the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool naturally to room temperature (approx. 25 °C) over 6 hours. \n 2. Avoid forced cooling to prevent cracking of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to remove sharpness and ensure a smooth finish.",
+        "4. Seal the sample with a suitable protective coating if required for application purposes."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. If necessary, use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to remove sharpness and ensure a smooth finish. \n 4. Seal the sample with a suitable protective coating if required for application purposes."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 4728676.0,
+      "density": 53689.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -581579.0,
+      "formation_energy_per_atom": -3117.0,
+      "decomposition_energy_per_atom": -225.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -225.0,
+      "decomposition_energy_mp_oqmd": -62.0
+    },
+    "electronic": {
+      "bandgap": 0.0184,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e8153a1987",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.832804Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Na2Sb6Sn6.json",
+      "material://Ca1Na2Sb6Sn6"
+    ]
+  }
+}

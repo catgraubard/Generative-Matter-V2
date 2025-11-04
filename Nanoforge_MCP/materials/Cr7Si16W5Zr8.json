@@ -1,0 +1,114 @@
+{
+  "id": "Cr7Si16W5Zr8",
+  "uri": "material://Cr7Si16W5Zr8",
+  "composition": {
+    "formula": "Cr7Si16W5Zr8",
+    "elements": {
+      "Cr": 7,
+      "Si": 16,
+      "W": 5,
+      "Zr": 8
+    },
+    "reduced_formula": "Zr8Cr7Si16W5",
+    "element_list": [
+      "Si",
+      "Cr",
+      "Zr",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 14.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 14.00 g, Si: 32.00 g, W: 12.50 g, Zr: 18.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply stores, Si: Semiconductor suppliers, W: Metal suppliers, Zr: Specialty alloy distributors",
+      "steps": [
+        "Cr: Chemical supply stores, Si: Semiconductor suppliers, W: Metal suppliers, Zr: Specialty alloy distributors"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Accurately measure each ingredient using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cr, Si, W, and Zr powders.",
+        "3. Stir the mixture thoroughly using a stainless steel spatula for 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powders into a ball mill and mill for 30 minutes to achieve a homogeneous particle size."
+      ],
+      "raw_text": "1. Accurately measure each ingredient using a digital scale. \n 2. In a clean, dry mixing container, combine Cr, Si, W, and Zr powders. \n 3. Stir the mixture thoroughly using a stainless steel spatula for 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powders into a ball mill and mill for 30 minutes to achieve a homogeneous particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a sintering furnace to 1500°C.",
+        "2. Place the milled powder mixture into a graphite mold with dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Insert the mold into the furnace and hold the temperature for 2 hours to facilitate bonding and densification of the material."
+      ],
+      "raw_text": "1. Preheat a sintering furnace to 1500°C. \n 2. Place the milled powder mixture into a graphite mold with dimensions 3 inches x 2 inches x 7 inches. \n 3. Insert the mold into the furnace and hold the temperature for 2 hours to facilitate bonding and densification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the mold from the furnace."
+      ],
+      "raw_text": "1. Allow the furnace to cool to room temperature naturally (approximately 6-8 hours). \n 2. Once cooled, carefully remove the mold from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the mold.",
+        "2. If needed, use a diamond grinder to smooth any rough edges.",
+        "3. Optionally, apply a high-temperature ceramic sealant to enhance surface durability.",
+        "4. Allow the sealant to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Remove the solid sample from the mold. \n 2. If needed, use a diamond grinder to smooth any rough edges. \n 3. Optionally, apply a high-temperature ceramic sealant to enhance surface durability. \n 4. Allow the sealant to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5418689.0,
+      "density": 75457.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3083493.0,
+      "formation_energy_per_atom": -5778.0,
+      "decomposition_energy_per_atom": -136.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -64.0,
+      "decomposition_energy_mp": -128.0,
+      "decomposition_energy_mp_oqmd": -83.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5d34d84d28",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:17.711402Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr7Si16W5Zr8.json",
+      "material://Cr7Si16W5Zr8"
+    ]
+  }
+}

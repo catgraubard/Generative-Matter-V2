@@ -1,0 +1,136 @@
+{
+  "id": "Co16Li1Mn1Nd6P12",
+  "uri": "material://Co16Li1Mn1Nd6P12",
+  "composition": {
+    "formula": "Co16Li1Mn1Nd6P12",
+    "elements": {
+      "Co": 16,
+      "Li": 1,
+      "Mn": 1,
+      "Nd": 6,
+      "P": 12
+    },
+    "reduced_formula": "LiNd6Mn(Co4P3)4",
+    "element_list": [
+      "Li",
+      "P",
+      "Mn",
+      "Co",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 100 g \n Rb: 50 g \n Sc: 40 g \n Se: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Cs can be obtained from chemical suppliers like Sigma-Aldrich. \n Rb is available from Sigma-Aldrich or Thermo Fisher Scientific. \n Sc can be sourced from metal suppliers or online platforms such as eBay or Amazon. \n Se can be acquired from chemical suppliers specializing in rare elements.",
+      "steps": [
+        "Cs can be obtained from chemical suppliers like Sigma-Aldrich.",
+        "Rb is available from Sigma-Aldrich or Thermo Fisher Scientific.",
+        "Sc can be sourced from metal suppliers or online platforms such as eBay or Amazon.",
+        "Se can be acquired from chemical suppliers specializing in rare elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Cesium (Cs) using an analytical balance.",
+        "2. Weigh 50 g of Rubidium (Rb).",
+        "3. Weigh 40 g of Scandium (Sc).",
+        "4. Weigh 120 g of Selenium (Se).",
+        "5. In a fume hood, mix Cs, Rb, Sc, and Se in a clean glass or ceramic container until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 100 g of Cesium (Cs) using an analytical balance. \n 2. Weigh 50 g of Rubidium (Rb). \n 3. Weigh 40 g of Scandium (Sc). \n 4. Weigh 120 g of Selenium (Se). \n 5. In a fume hood, mix Cs, Rb, Sc, and Se in a clean glass or ceramic container until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature resistant crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Set the furnace to a temperature of 800°C.",
+        "4. Heat for 4 hours to ensure complete reaction and formation of Cs8Rb4Sc4Se12."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature resistant crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Set the furnace to a temperature of 800°C. \n 4. Heat for 4 hours to ensure complete reaction and formation of Cs8Rb4Sc4Se12."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approx. 1-2 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the sample."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approx. 1-2 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Gently crush the solid sample using a mortar and pestle to achieve uniform granularity.",
+        "3. If necessary, sieve the powder to remove larger particles.",
+        "4. Store the final product in an airtight container to protect from moisture."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Gently crush the solid sample using a mortar and pestle to achieve uniform granularity. \n 3. If necessary, sieve the powder to remove larger particles. \n 4. Store the final product in an airtight container to protect from moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5017516.0,
+      "density": 74197.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2499875.0,
+      "formation_energy_per_atom": -8782.0,
+      "decomposition_energy_per_atom": -174.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -174.0,
+      "decomposition_energy_mp_oqmd": -156.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa59e76baa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:01.303469Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Li1Mn1Nd6P12.json",
+      "material://Co16Li1Mn1Nd6P12"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "Pb2Rb4S12Si4",
+  "uri": "material://Pb2Rb4S12Si4",
+  "composition": {
+    "formula": "Pb2Rb4S12Si4",
+    "elements": {
+      "Pb": 2,
+      "Rb": 4,
+      "S": 12,
+      "Si": 4
+    },
+    "reduced_formula": "Rb2Si2PbS6",
+    "element_list": [
+      "Si",
+      "S",
+      "Rb",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 220.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 350.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sm",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 20 g \n Mo: 10 g \n Sc: 220 g \n Si: 350 g \n Sm: 40 g"
+    },
+    "sourcing": {
+      "instructions": "La: Available from rare earth metal suppliers \n Mo: Metal suppliers or online marketplaces \n Sc: Chemical suppliers \n Si: Silicon suppliers \n Sm: Rare earth metal suppliers",
+      "steps": [
+        "La: Available from rare earth metal suppliers",
+        "Mo: Metal suppliers or online marketplaces",
+        "Sc: Chemical suppliers",
+        "Si: Silicon suppliers",
+        "Sm: Rare earth metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately on a digital scale.",
+        "2. In a clean, dry mixing container, add La, Mo, Sc, Si, and Sm sequentially.",
+        "3. Use a mechanical stirrer to mix thoroughly for 15 minutes until a homogenous mixture is obtained."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately on a digital scale. \n 2. In a clean, dry mixing container, add La, Mo, Sc, Si, and Sm sequentially. \n 3. Use a mechanical stirrer to mix thoroughly for 15 minutes until a homogenous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and heat for 2 hours to ensure complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Transfer the mixed powder into a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and heat for 2 hours to ensure complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C) over a period of 4-6 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C) over a period of 4-6 hours. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder or sandpaper (grit 120-400) to smooth out the edges and surface of the sample as needed.",
+        "3. Optionally, seal the surface with a suitable clear coat to protect the material from oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a grinder or sandpaper (grit 120-400) to smooth out the edges and surface of the sample as needed. \n 3. Optionally, seal the surface with a suitable clear coat to protect the material from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 6555895.0,
+      "density": 31747.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1094362.0,
+      "formation_energy_per_atom": -12159.0,
+      "decomposition_energy_per_atom": -399.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -119.0,
+      "decomposition_energy_mp": -405.0,
+      "decomposition_energy_mp_oqmd": -119.0
+    },
+    "electronic": {
+      "bandgap": 2.874,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d959654124",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.794217Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Pb2Rb4S12Si4.json",
+      "material://Pb2Rb4S12Si4"
+    ]
+  }
+}

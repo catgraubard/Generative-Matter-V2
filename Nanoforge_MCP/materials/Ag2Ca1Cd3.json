@@ -1,0 +1,123 @@
+{
+  "id": "Ag2Ca1Cd3",
+  "uri": "material://Ag2Ca1Cd3",
+  "composition": {
+    "formula": "Ag2Ca1Cd3",
+    "elements": {
+      "Ag": 2,
+      "Ca": 1,
+      "Cd": 3
+    },
+    "reduced_formula": "CaCd3Ag2",
+    "element_list": [
+      "Ca",
+      "Ag",
+      "Cd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ca",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cd",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 20 g \n Ca: 10 g \n Cd: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Ag: Purchase from a precious metal supplier or online (e.g., jewelry supply stores). \n Ca: Buy from chemical supply companies, or online (e.g., calcium metal from chemical suppliers). \n Cd: Obtain from chemical suppliers or electronic component suppliers (often available in pure metal form).",
+      "steps": [
+        "Ag: Purchase from a precious metal supplier or online (e.g., jewelry supply stores).",
+        "Ca: Buy from chemical supply companies, or online (e.g., calcium metal from chemical suppliers).",
+        "Cd: Obtain from chemical suppliers or electronic component suppliers (often available in pure metal form)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal using a precise scale.",
+        "2. In a clean, dry container, combine the weighed Ag, Ca, and Cd.",
+        "3. Use a spatula to thoroughly mix the metals to ensure a uniform distribution of each component.",
+        "4. Transfer the mixture to a compatible crucible for heating."
+      ],
+      "raw_text": "1. Weigh each metal using a precise scale. \n 2. In a clean, dry container, combine the weighed Ag, Ca, and Cd. \n 3. Use a spatula to thoroughly mix the metals to ensure a uniform distribution of each component. \n 4. Transfer the mixture to a compatible crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace or high-temperature oven.",
+        "2. Set the temperature to 800°C (1472°F).",
+        "3. Maintain this temperature for at least 2 hours to ensure complete melting and alloy formation."
+      ],
+      "raw_text": "1. Place the crucible in a furnace or high-temperature oven. \n 2. Set the temperature to 800°C (1472°F). \n 3. Maintain this temperature for at least 2 hours to ensure complete melting and alloy formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a file or sandpaper to smooth any rough edges on the surface.",
+        "3. Optionally, seal the material with a clear coat to protect against oxidation.",
+        "4. Allow any sealant to cure for the recommended time before handling."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a file or sandpaper to smooth any rough edges on the surface. \n 3. Optionally, seal the material with a clear coat to protect against oxidation. \n 4. Allow any sealant to cure for the recommended time before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1335198.0,
+      "density": 73755.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -118234.0,
+      "formation_energy_per_atom": -2307.0,
+      "decomposition_energy_per_atom": -309.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -309.0,
+      "decomposition_energy_mp_oqmd": -129.0
+    },
+    "electronic": {
+      "bandgap": 0.0095,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8434224f95",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:09.139090Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag2Ca1Cd3.json",
+      "material://Ag2Ca1Cd3"
+    ]
+  }
+}

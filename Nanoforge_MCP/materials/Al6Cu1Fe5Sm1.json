@@ -1,0 +1,110 @@
+{
+  "id": "Al6Cu1Fe5Sm1",
+  "uri": "material://Al6Cu1Fe5Sm1",
+  "composition": {
+    "formula": "Al6Cu1Fe5Sm1",
+    "elements": {
+      "Al": 6,
+      "Cu": 1,
+      "Fe": 5,
+      "Sm": 1
+    },
+    "reduced_formula": "SmAl6Fe5Cu",
+    "element_list": [
+      "Al",
+      "Fe",
+      "Cu",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Magnesium Oxide (MgO): 100 g \n - Scandium Oxide (Sc2O3): 80 g \n - Selenium (Se): 32 g \n - Additional MgO for purity: 20 g  \n - Total: 332 g"
+    },
+    "sourcing": {
+      "instructions": "- Magnesium Oxide: Available at chemical supply stores or online (e.g., Amazon, Sigma-Aldrich). \n - Scandium Oxide: Specialty chemical suppliers or online. \n - Selenium: Chemical supply stores or online.",
+      "steps": [
+        "- Magnesium Oxide: Available at chemical supply stores or online (e.g., Amazon, Sigma-Aldrich).",
+        "- Scandium Oxide: Specialty chemical suppliers or online.",
+        "- Selenium: Chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Magnesium Oxide and 80 g of Scandium Oxide.",
+        "2. Measure 32 g of Selenium.",
+        "3. Combine all powders in a clean, dry mixing bowl.",
+        "4. Mix thoroughly using a spatula until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 100 g of Magnesium Oxide and 80 g of Scandium Oxide. \n 2. Measure 32 g of Selenium. \n 3. Combine all powders in a clean, dry mixing bowl. \n 4. Mix thoroughly using a spatula until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800 °C.",
+        "2. Transfer the mixed powder into a crucible.",
+        "3. Place the crucible in the furnace and heat for 2 hours."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800 °C. \n 2. Transfer the mixed powder into a crucible. \n 3. Place the crucible in the furnace and heat for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled completely to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled completely to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully extract the solidified sample from the crucible.",
+        "3. If necessary, sand the surfaces to achieve a smooth finish.",
+        "4. Seal the sample with a suitable epoxy or coating for protection."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled. \n 2. Carefully extract the solidified sample from the crucible. \n 3. If necessary, sand the surfaces to achieve a smooth finish. \n 4. Seal the sample with a suitable epoxy or coating for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 185928.0,
+      "density": 585.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -811229.0,
+      "formation_energy_per_atom": -5755.0,
+      "decomposition_energy_per_atom": -2295.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2101.0,
+      "decomposition_energy_mp": -2295.0,
+      "decomposition_energy_mp_oqmd": -2284.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9b98bbbc7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.912904Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al6Cu1Fe5Sm1.json",
+      "material://Al6Cu1Fe5Sm1"
+    ]
+  }
+}

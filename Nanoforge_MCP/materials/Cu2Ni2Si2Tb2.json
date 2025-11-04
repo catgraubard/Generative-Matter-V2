@@ -1,0 +1,112 @@
+{
+  "id": "Cu2Ni2Si2Tb2",
+  "uri": "material://Cu2Ni2Si2Tb2",
+  "composition": {
+    "formula": "Cu2Ni2Si2Tb2",
+    "elements": {
+      "Cu": 2,
+      "Ni": 2,
+      "Si": 2,
+      "Tb": 2
+    },
+    "reduced_formula": "TbCuSiNi",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Cu",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Copper (Cu): 100 g \n - Nickel (Ni): 100 g \n - Silicon (Si): 50 g \n - Terbium (Tb): 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Copper and Nickel: Obtain from a metal supply store or online supplier (e.g., Amazon, McMaster-Carr). \n - Silicon: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich). \n - Terbium: Acquire from specialized rare earth material suppliers (e.g., Alfa Aesar).",
+      "steps": [
+        "- Copper and Nickel: Obtain from a metal supply store or online supplier (e.g., Amazon, McMaster-Carr).",
+        "- Silicon: Purchase from a chemical supply store or online supplier (e.g., Sigma-Aldrich).",
+        "- Terbium: Acquire from specialized rare earth material suppliers (e.g., Alfa Aesar)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Copper using a precise scale.",
+        "2. Weigh out 100 g of Nickel.",
+        "3. Measure 50 g of Silicon.",
+        "4. Measure 50 g of Terbium.",
+        "5. In a clean, dry container, combine all measured materials thoroughly. Use a pestle and mortar or a ball mill for uniform mixing."
+      ],
+      "raw_text": "1. Weigh out 100 g of Copper using a precise scale. \n 2. Weigh out 100 g of Nickel. \n 3. Measure 50 g of Silicon. \n 4. Measure 50 g of Terbium. \n 5. In a clean, dry container, combine all measured materials thoroughly. Use a pestle and mortar or a ball mill for uniform mixing."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Preheat a furnace to 1200°C (2192°F).",
+        "3. Place the crucible in the furnace and maintain for 4 hours, ensuring the materials reach full melting point."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Preheat a furnace to 1200°C (2192°F). \n 3. Place the crucible in the furnace and maintain for 4 hours, ensuring the materials reach full melting point."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature.",
+        "2. This should take approximately 6-8 hours.",
+        "3. Do not open the furnace until it has cooled completely to prevent thermal shock."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature. \n 2. This should take approximately 6-8 hours. \n 3. Do not open the furnace until it has cooled completely to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Inspect the sample for any irregularities.",
+        "3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the sample with a clear coat to preserve the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Inspect the sample for any irregularities. \n 3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the sample with a clear coat to preserve the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1325485.0,
+      "density": 77484.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -448218.0,
+      "formation_energy_per_atom": -618.0,
+      "decomposition_energy_per_atom": 167.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -11.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "18007803a6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:47.074288Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Ni2Si2Tb2.json",
+      "material://Cu2Ni2Si2Tb2"
+    ]
+  }
+}

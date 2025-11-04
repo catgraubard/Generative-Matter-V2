@@ -1,0 +1,118 @@
+{
+  "id": "Er3O24Sm2Tb3W4",
+  "uri": "material://Er3O24Sm2Tb3W4",
+  "composition": {
+    "formula": "Er3O24Sm2Tb3W4",
+    "elements": {
+      "Er": 3,
+      "O": 24,
+      "Sm": 2,
+      "Tb": 3,
+      "W": 4
+    },
+    "reduced_formula": "Tb3Sm2Er3(WO6)4",
+    "element_list": [
+      "O",
+      "Sm",
+      "Tb",
+      "Er",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 17.49,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2O: 4.84 g \n P2O5: 15.00 g \n Sc2O3: 3.24 g \n Se: 17.49 g"
+    },
+    "sourcing": {
+      "instructions": "Li2O: Specialty chemical suppliers or online platforms like Sigma-Aldrich \n P2O5: Chemical supply companies or laboratory suppliers \n Sc2O3: Chemical supply companies \n Se: Specialty chemical suppliers",
+      "steps": [
+        "Li2O: Specialty chemical suppliers or online platforms like Sigma-Aldrich",
+        "P2O5: Chemical supply companies or laboratory suppliers",
+        "Sc2O3: Chemical supply companies",
+        "Se: Specialty chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a digital scale for accuracy.",
+        "2. In a clean, dry mixing container, combine Li2O, P2O5, Sc2O3, and Se.",
+        "3. Use a mortar and pestle or a ball mill to thoroughly mix the powders until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using a digital scale for accuracy. \n 2. In a clean, dry mixing container, combine Li2O, P2O5, Sc2O3, and Se. \n 3. Use a mortar and pestle or a ball mill to thoroughly mix the powders until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/min and hold for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/min and hold for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use fine-grit sandpaper to smooth the surface if necessary.",
+        "3. Optionally, apply a sealant to enhance stability and appearance."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use fine-grit sandpaper to smooth the surface if necessary. \n 3. Optionally, apply a sealant to enhance stability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4679572.0,
+      "density": 85115.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -326677.0,
+      "formation_energy_per_atom": -33069.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -25.0,
+      "decomposition_energy_mp_oqmd": -24.0
+    },
+    "electronic": {
+      "bandgap": 3.6245,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bd7e19b507",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.222399Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er3O24Sm2Tb3W4.json",
+      "material://Er3O24Sm2Tb3W4"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Si10Tm5Y1",
+  "uri": "material://Si10Tm5Y1",
+  "composition": {
+    "formula": "Si10Tm5Y1",
+    "elements": {
+      "Si": 10,
+      "Tm": 5,
+      "Y": 1
+    },
+    "reduced_formula": "Y(TmSi2)5",
+    "element_list": [
+      "Si",
+      "Y",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Aluminum (Al): 4.0 g \n 2. Lithium (Li): 4.0 g \n 3. Lead (Pb): 1.0 g \n 4. Silicon (Si): 25.0 g (5 x 5.0 g)"
+    },
+    "sourcing": {
+      "instructions": "1. Aluminum: Obtain from a local metal supplier or online metal retailer. \n 2. Lithium: Purchase from a chemical supply company or specialty online store. \n 3. Lead: Available from metal suppliers or online. Exercise caution due to toxicity. \n 4. Silicon: Sourced from a chemical supplier or electronics component store.",
+      "steps": [
+        "1. Aluminum: Obtain from a local metal supplier or online metal retailer.",
+        "2. Lithium: Purchase from a chemical supply company or specialty online store.",
+        "3. Lead: Available from metal suppliers or online. Exercise caution due to toxicity.",
+        "4. Silicon: Sourced from a chemical supplier or electronics component store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. If using lithium metal, handle with gloves and under a fume hood due to its reactivity.",
+        "3. In a clean, dry container, combine the weighed aluminum, lithium, lead, and silicon powders.",
+        "4. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders for at least 10 minutes, ensuring homogeneity."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance. \n 2. If using lithium metal, handle with gloves and under a fume hood due to its reactivity. \n 3. In a clean, dry container, combine the weighed aluminum, lithium, lead, and silicon powders. \n 4. Use a mortar and pestle or a mechanical mixer to thoroughly mix the powders for at least 10 minutes, ensuring homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 600 °C at a rate of 10 °C/min.",
+        "4. Maintain this temperature for 2 hours to allow for proper fusion and reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 600 °C at a rate of 10 °C/min. \n 4. Maintain this temperature for 2 hours to allow for proper fusion and reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool down naturally to room temperature (approximately 1-2 hours) before removing it from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool down naturally to room temperature (approximately 1-2 hours) before removing it from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. If necessary, use a file or sandpaper to smooth out any rough edges.",
+        "3. Optionally, apply a sealant or coating to prevent oxidation, particularly for aluminum and lead surfaces.",
+        "4. Store the final product in a cool, dry place away from moisture and reactive substances."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. If necessary, use a file or sandpaper to smooth out any rough edges. \n 3. Optionally, apply a sealant or coating to prevent oxidation, particularly for aluminum and lead surfaces. \n 4. Store the final product in a cool, dry place away from moisture and reactive substances."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3069544.0,
+      "density": 65697.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -929752.0,
+      "formation_energy_per_atom": -6173.0,
+      "decomposition_energy_per_atom": -268.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -264.0,
+      "decomposition_energy_mp_oqmd": -236.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b454b7af2b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.913111Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si10Tm5Y1.json",
+      "material://Si10Tm5Y1"
+    ]
+  }
+}

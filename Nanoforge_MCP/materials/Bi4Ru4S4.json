@@ -1,0 +1,109 @@
+{
+  "id": "Bi4Ru4S4",
+  "uri": "material://Bi4Ru4S4",
+  "composition": {
+    "formula": "Bi4Ru4S4",
+    "elements": {
+      "Bi": 4,
+      "Ru": 4,
+      "S": 4
+    },
+    "reduced_formula": "BiRuS",
+    "element_list": [
+      "S",
+      "Ru",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth (Bi):  123.2 g  \n Ruthenium (Ru):  152.0 g  \n Sulfur (S):  32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth: Available at chemical supply stores or online suppliers like Sigma-Aldrich. \n Ruthenium: Obtain from specialized metal suppliers or online chemical vendors. \n Sulfur: Purchase from local chemical supply stores or garden suppliers.",
+      "steps": [
+        "Bismuth: Available at chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Ruthenium: Obtain from specialized metal suppliers or online chemical vendors.",
+        "Sulfur: Purchase from local chemical supply stores or garden suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the bismuth, ruthenium, and sulfur accurately using a digital scale.",
+        "2. In a fume hood, combine the bismuth and ruthenium powders in a ceramic crucible.",
+        "3. Gradually add the sulfur powder to the mixture while stirring to ensure even distribution.",
+        "4. Mix thoroughly until a homogeneous mixture is obtained."
+      ],
+      "raw_text": "1. Weigh the bismuth, ruthenium, and sulfur accurately using a digital scale. \n 2. In a fume hood, combine the bismuth and ruthenium powders in a ceramic crucible. \n 3. Gradually add the sulfur powder to the mixture while stirring to ensure even distribution. \n 4. Mix thoroughly until a homogeneous mixture is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Heat to 900°C with a ramp rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Bi4Ru4S4."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Heat to 900°C with a ramp rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of Bi4Ru4S4."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Avoid opening the furnace until it has cooled completely to prevent oxidation of the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 4-6 hours). \n 2. Avoid opening the furnace until it has cooled completely to prevent oxidation of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use a diamond saw or grinder to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface if required."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use a diamond saw or grinder to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a sealant to protect the surface if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2413153.0,
+      "density": 94167.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -745985.0,
+      "formation_energy_per_atom": -4496.0,
+      "decomposition_energy_per_atom": -67.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -7.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.3464,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7dd5567a60",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:00.344145Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Ru4S4.json",
+      "material://Bi4Ru4S4"
+    ]
+  }
+}

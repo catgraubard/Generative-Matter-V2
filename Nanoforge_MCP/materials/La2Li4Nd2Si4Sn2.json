@@ -1,0 +1,112 @@
+{
+  "id": "La2Li4Nd2Si4Sn2",
+  "uri": "material://La2Li4Nd2Si4Sn2",
+  "composition": {
+    "formula": "La2Li4Nd2Si4Sn2",
+    "elements": {
+      "La": 2,
+      "Li": 4,
+      "Nd": 2,
+      "Si": 4,
+      "Sn": 2
+    },
+    "reduced_formula": "Li2LaNdSi2Sn",
+    "element_list": [
+      "Li",
+      "Si",
+      "Sn",
+      "La",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "La2O3: 5.06 g \n Li2O: 2.52 g \n Nd2O3: 6.81 g \n SiO2: 7.84 g \n SnO2: 4.36 g \n (Total: 26.59 g) - Adjust quantity based on density for volume"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical suppliers, online chemical retailers \n Li2O: Specialty chemical suppliers \n Nd2O3: Rare earth material suppliers \n SiO2: Glass manufacturers \n SnO2: Metal oxide suppliers",
+      "steps": [
+        "La2O3: Chemical suppliers, online chemical retailers",
+        "Li2O: Specialty chemical suppliers",
+        "Nd2O3: Rare earth material suppliers",
+        "SiO2: Glass manufacturers",
+        "SnO2: Metal oxide suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a balance.",
+        "2. Combine La2O3, Li2O, Nd2O3, SiO2, and SnO2 in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a balance. \n 2. Combine La2O3, Li2O, Nd2O3, SiO2, and SnO2 in a clean, dry mixing container. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the mixed powders in a crucible.",
+        "2. Heat in a furnace at 800°C for 4 hours to facilitate solid-state reaction.",
+        "3. Increase the temperature to 1200°C and maintain for an additional 2 hours."
+      ],
+      "raw_text": "1. Place the mixed powders in a crucible. \n 2. Heat in a furnace at 800°C for 4 hours to facilitate solid-state reaction. \n 3. Increase the temperature to 1200°C and maintain for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool gradually to room temperature (approximately 2-3 hours)",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool gradually to room temperature (approximately 2-3 hours) \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid material from the crucible.",
+        "2. Inspect for defects, grind any uneven surfaces with a diamond grinder.",
+        "3. Optionally, seal the surface with a clear epoxy for enhanced durability."
+      ],
+      "raw_text": "1. Remove the solid material from the crucible. \n 2. Inspect for defects, grind any uneven surfaces with a diamond grinder. \n 3. Optionally, seal the surface with a clear epoxy for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 3051349.0,
+      "density": 51363.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -660792.0,
+      "formation_energy_per_atom": -6653.0,
+      "decomposition_energy_per_atom": -557.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -554.0,
+      "decomposition_energy_mp_oqmd": -523.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "68dcb398f7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:32.873413Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Li4Nd2Si4Sn2.json",
+      "material://La2Li4Nd2Si4Sn2"
+    ]
+  }
+}

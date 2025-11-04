@@ -1,0 +1,114 @@
+{
+  "id": "Cu2Na6S26",
+  "uri": "material://Cu2Na6S26",
+  "composition": {
+    "formula": "Cu2Na6S26",
+    "elements": {
+      "Cu": 2,
+      "Na": 6,
+      "S": 26
+    },
+    "reduced_formula": "Na3CuS13",
+    "element_list": [
+      "Na",
+      "S",
+      "Cu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 50.0 g, Na: 12.0 g, S: 38.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu can be sourced from copper metal sheets or rods from hardware stores; Na can be obtained from sodium metal from chemical supply stores; S can be found as sulfur from chemical supply or gardening stores.",
+      "steps": [
+        "Cu can be sourced from copper metal sheets or rods from hardware stores; Na can be obtained from sodium metal from chemical supply stores; S can be found as sulfur from chemical supply or gardening stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 50.0 g of copper metal and cut into small pieces.",
+        "2. Weigh 12.0 g of sodium metal carefully.",
+        "3. Weigh 38.0 g of sulfur powder.",
+        "4. In a fume hood, combine the copper, sodium, and sulfur in a stainless steel mixing bowl.",
+        "5. Mix thoroughly using a stainless steel spatula until uniform."
+      ],
+      "raw_text": "1. Weigh 50.0 g of copper metal and cut into small pieces. \n 2. Weigh 12.0 g of sodium metal carefully. \n 3. Weigh 38.0 g of sulfur powder. \n 4. In a fume hood, combine the copper, sodium, and sulfur in a stainless steel mixing bowl. \n 5. Mix thoroughly using a stainless steel spatula until uniform."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 800 °C at a rate of 10 °C per minute.",
+        "4. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 800 °C at a rate of 10 °C per minute. \n 4. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until completely cooled to avoid oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until completely cooled to avoid oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and extract the solid sample.",
+        "2. Use a fine-grit sandpaper to smooth the surfaces of the solid sample.",
+        "3. Optionally, seal with a clear epoxy resin to enhance durability.",
+        "4. Allow the epoxy to cure as per manufacturer instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and extract the solid sample. \n 2. Use a fine-grit sandpaper to smooth the surfaces of the solid sample. \n 3. Optionally, seal with a clear epoxy resin to enhance durability. \n 4. Allow the epoxy to cure as per manufacturer instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 8010687.0,
+      "density": 22775.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/c",
+      "space_group_number": 13,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -147513.0,
+      "formation_energy_per_atom": -7009.0,
+      "decomposition_energy_per_atom": -975.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -247.0,
+      "decomposition_energy_mp": -98.0,
+      "decomposition_energy_mp_oqmd": -974.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1a88c4c3f1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:50.476856Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Na6S26.json",
+      "material://Cu2Na6S26"
+    ]
+  }
+}

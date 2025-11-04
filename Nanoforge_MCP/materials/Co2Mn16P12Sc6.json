@@ -1,0 +1,114 @@
+{
+  "id": "Co2Mn16P12Sc6",
+  "uri": "material://Co2Mn16P12Sc6",
+  "composition": {
+    "formula": "Co2Mn16P12Sc6",
+    "elements": {
+      "Co": 2,
+      "Mn": 16,
+      "P": 12,
+      "Sc": 6
+    },
+    "reduced_formula": "Sc3Mn8CoP6",
+    "element_list": [
+      "P",
+      "Sc",
+      "Mn",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 40 g, Bi: 60 g, Sn: 30 g, Ti: 50 g, Zr: 70 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron) - Obtain from a chemical supply company or online supplier; Bi (Bismuth) - Purchase from metal suppliers; Sn (Tin) - Available at hardware stores; Ti (Titanium) - Purchase from specialized metal suppliers; Zr (Zirconium) - Obtain from chemical supply companies.",
+      "steps": [
+        "B (Boron) - Obtain from a chemical supply company or online supplier; Bi (Bismuth) - Purchase from metal suppliers; Sn (Tin) - Available at hardware stores; Ti (Titanium) - Purchase from specialized metal suppliers; Zr (Zirconium) - Obtain from chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each material using a precise scale.",
+        "2. In a clean, dry mixing container, combine 40 g of B, 60 g of Bi, 30 g of Sn, 50 g of Ti, and 70 g of Zr.",
+        "3. Mix the powders thoroughly using a pestle and mortar until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture into a suitable mold designed for the desired dimensions (3 inches x 2 inches x 7 inches)."
+      ],
+      "raw_text": "1. Measure each material using a precise scale. \n 2. In a clean, dry mixing container, combine 40 g of B, 60 g of Bi, 30 g of Sn, 50 g of Ti, and 70 g of Zr. \n 3. Mix the powders thoroughly using a pestle and mortar until a homogeneous mixture is achieved. \n 4. Transfer the mixture into a suitable mold designed for the desired dimensions (3 inches x 2 inches x 7 inches)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the filled mold in a furnace.",
+        "2. Heat to 1200 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and mixing of components."
+      ],
+      "raw_text": "1. Place the filled mold in a furnace. \n 2. Heat to 1200 °C at a rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete melting and mixing of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This process should take about 6-8 hours. Ensure the mold is not disturbed during cooling."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. This process should take about 6-8 hours. Ensure the mold is not disturbed during cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once the sample is cooled, carefully remove it from the mold.",
+        "2. Use sandpaper (grit 120 and then 240) to smooth the surface, if necessary.",
+        "3. Optionally, apply a sealant to protect the surface from oxidation if the material will be exposed to air."
+      ],
+      "raw_text": "1. Once the sample is cooled, carefully remove it from the mold. \n 2. Use sandpaper (grit 120 and then 240) to smooth the surface, if necessary. \n 3. Optionally, apply a sealant to protect the surface from oxidation if the material will be exposed to air."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4702913.0,
+      "density": 57846.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmn",
+      "space_group_number": 59,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2948126.0,
+      "formation_energy_per_atom": -8625.0,
+      "decomposition_energy_per_atom": -352.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -114.0,
+      "decomposition_energy_mp": -352.0,
+      "decomposition_energy_mp_oqmd": -333.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bee3f78a5a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.710201Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Mn16P12Sc6.json",
+      "material://Co2Mn16P12Sc6"
+    ]
+  }
+}

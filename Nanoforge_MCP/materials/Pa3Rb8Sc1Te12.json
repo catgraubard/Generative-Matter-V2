@@ -1,0 +1,112 @@
+{
+  "id": "Pa3Rb8Sc1Te12",
+  "uri": "material://Pa3Rb8Sc1Te12",
+  "composition": {
+    "formula": "Pa3Rb8Sc1Te12",
+    "elements": {
+      "Pa": 3,
+      "Rb": 8,
+      "Sc": 1,
+      "Te": 12
+    },
+    "reduced_formula": "Rb8Sc(PaTe4)3",
+    "element_list": [
+      "Sc",
+      "Rb",
+      "Te",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 10.2,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 10.2 g, Mg: 4.5 g, Sn: 6.5 g, Tl: 1.2 g"
+    },
+    "sourcing": {
+      "instructions": "La: Order from a chemical supply company or online; Mg: Metal supply store or online; Sn: Metal supplier; Tl: Specialty chemical supplier.",
+      "steps": [
+        "La: Order from a chemical supply company or online; Mg: Metal supply store or online; Sn: Metal supplier; Tl: Specialty chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. Place La, Mg, Sn, and Tl in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the powders together until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. Place La, Mg, Sn, and Tl in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the powders together until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to 800°C, maintaining this temperature for 2 hours to ensure complete reaction and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace to 800°C, maintaining this temperature for 2 hours to ensure complete reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature slowly, approximately 4-6 hours, to avoid thermal shock.",
+        "2. Optionally, place the crucible in a fume hood during cooling to avoid exposure to any vapors."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature slowly, approximately 4-6 hours, to avoid thermal shock. \n 2. Optionally, place the crucible in a fume hood during cooling to avoid exposure to any vapors."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. Sand down rough surfaces using fine-grit sandpaper.",
+        "4. Optionally, seal the surface with a suitable sealant to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. Sand down rough surfaces using fine-grit sandpaper. \n 4. Optionally, seal the surface with a suitable sealant to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 10252761.0,
+      "density": 47827.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1111053.0,
+      "formation_energy_per_atom": -12777.0,
+      "decomposition_energy_per_atom": -2725.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -2715.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": 0.1235,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e851243108",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.888209Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Pa3Rb8Sc1Te12.json",
+      "material://Pa3Rb8Sc1Te12"
+    ]
+  }
+}

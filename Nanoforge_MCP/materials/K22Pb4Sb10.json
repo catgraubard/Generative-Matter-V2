@@ -1,0 +1,107 @@
+{
+  "id": "K22Pb4Sb10",
+  "uri": "material://K22Pb4Sb10",
+  "composition": {
+    "formula": "K22Pb4Sb10",
+    "elements": {
+      "K": 22,
+      "Pb": 4,
+      "Sb": 10
+    },
+    "reduced_formula": "K11Sb5Pb2",
+    "element_list": [
+      "K",
+      "Sb",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Calcium Oxide (CaO): 120 g \n - Germanium Dioxide (GeO2): 10 g \n - Silicon Dioxide (SiO2): 180 g \n - Oxygen (O2): 0 g (not added separately, part of the reaction)"
+    },
+    "sourcing": {
+      "instructions": "- Calcium Oxide: Purchase from chemical supply companies or online vendors. \n - Germanium Dioxide: Available from specialty chemical suppliers or online marketplaces. \n - Silicon Dioxide: Obtain from chemical suppliers or hardware stores (as silica sand).",
+      "steps": [
+        "- Calcium Oxide: Purchase from chemical supply companies or online vendors.",
+        "- Germanium Dioxide: Available from specialty chemical suppliers or online marketplaces.",
+        "- Silicon Dioxide: Obtain from chemical suppliers or hardware stores (as silica sand)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry container, weigh out 120 g of Calcium Oxide.",
+        "2. Add 10 g of Germanium Dioxide to the container.",
+        "3. Measure out 180 g of Silicon Dioxide and add to the mixture.",
+        "4. Use a mortar and pestle to thoroughly mix the powders until homogeneous.",
+        "5. Transfer the mixed powders into a crucible suitable for high-temperature operations."
+      ],
+      "raw_text": "1. In a clean, dry container, weigh out 120 g of Calcium Oxide. \n 2. Add 10 g of Germanium Dioxide to the container. \n 3. Measure out 180 g of Silicon Dioxide and add to the mixture. \n 4. Use a mortar and pestle to thoroughly mix the powders until homogeneous. \n 5. Transfer the mixed powders into a crucible suitable for high-temperature operations."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "- Preheat a furnace to 1200 °C (2192 °F).",
+        "- Place the crucible in the furnace and heat for 4 hours to ensure complete reaction and melting of the materials."
+      ],
+      "raw_text": "- Preheat a furnace to 1200 °C (2192 °F). \n - Place the crucible in the furnace and heat for 4 hours to ensure complete reaction and melting of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "- After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) over a duration of 8 hours. Do not open the furnace door until it has reached room temperature to avoid thermal shock."
+      ],
+      "raw_text": "- After heating, turn off the furnace and allow it to cool naturally to room temperature (approximately 25 °C) over a duration of 8 hours. Do not open the furnace door until it has reached room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to trim the sample to exact dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant if the material will be exposed to moisture or environmental conditions."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to trim the sample to exact dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant if the material will be exposed to moisture or environmental conditions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 14840728.0,
+      "density": 32522.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -967317.0,
+      "formation_energy_per_atom": -449.0,
+      "decomposition_energy_per_atom": -193.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -32.0,
+      "decomposition_energy_mp": -193.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": 0.1666,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d6df8da9e5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.218170Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K22Pb4Sb10.json",
+      "material://K22Pb4Sb10"
+    ]
+  }
+}

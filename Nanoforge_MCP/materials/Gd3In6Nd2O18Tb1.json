@@ -1,0 +1,111 @@
+{
+  "id": "Gd3In6Nd2O18Tb1",
+  "uri": "material://Gd3In6Nd2O18Tb1",
+  "composition": {
+    "formula": "Gd3In6Nd2O18Tb1",
+    "elements": {
+      "Gd": 3,
+      "In": 6,
+      "Nd": 2,
+      "O": 18,
+      "Tb": 1
+    },
+    "reduced_formula": "TbNd2Gd3In6O18",
+    "element_list": [
+      "O",
+      "In",
+      "Nd",
+      "Gd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CeO2 (Cerium Oxide): 40 g\n- Ni (Nickel Powder): 30 g\n- Ru (Ruthenium Powder): 30 g\n- Si (Silicon Powder): 100 g"
+    },
+    "sourcing": {
+      "instructions": "- CeO2: Available from chemical suppliers such as Sigma-Aldrich or online platforms like Amazon.\n- Ni: Obtain from metal supply stores or chemical suppliers.\n- Ru: Purchase from specialized metal suppliers or online.\n- Si: Can be sourced from chemical suppliers or industrial material suppliers.",
+      "steps": [
+        "- CeO2: Available from chemical suppliers such as Sigma-Aldrich or online platforms like Amazon.",
+        "- Ni: Obtain from metal supply stores or chemical suppliers.",
+        "- Ru: Purchase from specialized metal suppliers or online.",
+        "- Si: Can be sourced from chemical suppliers or industrial material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 40 g of CeO2, 30 g of Ni, 30 g of Ru, and 100 g of Si using an analytical balance.",
+        "2. In a clean, dry mixing container, combine all measured powders thoroughly using a spatula or mechanical mixer for about 5 minutes to ensure an even distribution."
+      ],
+      "raw_text": "1. Measure 40 g of CeO2, 30 g of Ni, 30 g of Ru, and 100 g of Si using an analytical balance.\n2. In a clean, dry mixing container, combine all measured powders thoroughly using a spatula or mechanical mixer for about 5 minutes to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible.",
+        "2. Place the crucible in a furnace and heat to **1200°C** (2192°F) at a rate of **10°C/min**.",
+        "3. Maintain this temperature for **2 hours** to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible.\n2. Place the crucible in a furnace and heat to **1200°C** (2192°F) at a rate of **10°C/min**.\n3. Maintain this temperature for **2 hours** to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately **4-6 hours**).",
+        "2. Avoid rapid cooling to prevent cracking of the solid sample."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately **4-6 hours**).\n2. Avoid rapid cooling to prevent cracking of the solid sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled solid from the crucible carefully to prevent breakage.",
+        "2. Use a diamond grinding wheel to shape the sample to the desired dimensions of **3 inches x 2 inches x 7 inches**.",
+        "3. Sand the surface with fine-grit sandpaper (600 grit) for a smooth finish, then clean the sample with isopropyl alcohol to remove any dust or residue."
+      ],
+      "raw_text": "1. Remove the cooled solid from the crucible carefully to prevent breakage.\n2. Use a diamond grinding wheel to shape the sample to the desired dimensions of **3 inches x 2 inches x 7 inches**.\n3. Sand the surface with fine-grit sandpaper (600 grit) for a smooth finish, then clean the sample with isopropyl alcohol to remove any dust or residue."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 4500422.0,
+      "density": 6996.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3",
+      "space_group_number": 143,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2503208.0,
+      "formation_energy_per_atom": -29449.0,
+      "decomposition_energy_per_atom": -81.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -87.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 1.8489,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e50a3c45fa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.966205Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd3In6Nd2O18Tb1.json",
+      "material://Gd3In6Nd2O18Tb1"
+    ]
+  }
+}

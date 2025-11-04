@@ -1,0 +1,116 @@
+{
+  "id": "Li1Nd1P12Ru18Tb4",
+  "uri": "material://Li1Nd1P12Ru18Tb4",
+  "composition": {
+    "formula": "Li1Nd1P12Ru18Tb4",
+    "elements": {
+      "Li": 1,
+      "Nd": 1,
+      "P": 12,
+      "Ru": 18,
+      "Tb": 4
+    },
+    "reduced_formula": "LiTb4Nd(P2Ru3)6",
+    "element_list": [
+      "Li",
+      "P",
+      "Ru",
+      "Nd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 10 g, Nd: 10 g, P: 30 g, Ru: 40 g, Tb: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Li: Lithium carbonate from a chemical supplier, Nd: Neodymium oxide from a metal supplier, P: Phosphorus from a chemical supplier, Ru: Ruthenium powder from a precious metal supplier, Tb: Terbium oxide from a rare earth supplier.",
+      "steps": [
+        "Li: Lithium carbonate from a chemical supplier, Nd: Neodymium oxide from a metal supplier, P: Phosphorus from a chemical supplier, Ru: Ruthenium powder from a precious metal supplier, Tb: Terbium oxide from a rare earth supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Li, Nd, P, Ru, and Tb in the specified ratios.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until a uniform powder is achieved.",
+        "4. Transfer the powder to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing container, combine Li, Nd, P, Ru, and Tb in the specified ratios. \n 3. Use a mortar and pestle to thoroughly grind the mixture until a uniform powder is achieved. \n 4. Transfer the powder to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the ceramic crucible in the furnace and heat for 4 hours.",
+        "3. Maintain a controlled atmosphere with inert gas (e.g., argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the ceramic crucible in the furnace and heat for 4 hours. \n 3. Maintain a controlled atmosphere with inert gas (e.g., argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool to room temperature naturally inside the furnace (approximately 6-8 hours)."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool to room temperature naturally inside the furnace (approximately 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible.",
+        "2. Inspect for any irregularities or defects.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Seal with a protective coating (optional) to enhance stability and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible. \n 2. Inspect for any irregularities or defects. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Seal with a protective coating (optional) to enhance stability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5469307.0,
+      "density": 9041.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -288327.0,
+      "formation_energy_per_atom": -867.0,
+      "decomposition_energy_per_atom": -52.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -52.0,
+      "decomposition_energy_mp_oqmd": -33.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8d2f49bde6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:21.489458Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li1Nd1P12Ru18Tb4.json",
+      "material://Li1Nd1P12Ru18Tb4"
+    ]
+  }
+}

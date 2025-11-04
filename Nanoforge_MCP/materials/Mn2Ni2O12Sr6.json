@@ -1,0 +1,109 @@
+{
+  "id": "Mn2Ni2O12Sr6",
+  "uri": "material://Mn2Ni2O12Sr6",
+  "composition": {
+    "formula": "Mn2Ni2O12Sr6",
+    "elements": {
+      "Mn": 2,
+      "Ni": 2,
+      "O": 12,
+      "Sr": 6
+    },
+    "reduced_formula": "Sr3MnNiO6",
+    "element_list": [
+      "O",
+      "Mn",
+      "Ni",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "MnO2: 60 g \n NiO: 40 g \n SrCO3: 90 g \n Total: 190 g"
+    },
+    "sourcing": {
+      "instructions": "MnO2: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n NiO: Chemical suppliers or online \n SrCO3: Ceramics supply stores or online",
+      "steps": [
+        "MnO2: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "NiO: Chemical suppliers or online",
+        "SrCO3: Ceramics supply stores or online"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 60 g of MnO2, 40 g of NiO, and 90 g of SrCO3 using a precision scale.",
+        "2. In a clean, dry container, combine the powders evenly using a mortar and pestle or a mechanical mixer for 10 minutes.",
+        "3. Ensure a homogeneous mixture is obtained by checking for uniform color and texture."
+      ],
+      "raw_text": "1. Weigh out 60 g of MnO2, 40 g of NiO, and 90 g of SrCO3 using a precision scale. \n 2. In a clean, dry container, combine the powders evenly using a mortar and pestle or a mechanical mixer for 10 minutes. \n 3. Ensure a homogeneous mixture is obtained by checking for uniform color and texture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200°C (2192°F).",
+        "2. Place the mixed powders in a crucible and insert into the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and formation of the desired compound Mn2Ni2O12Sr6."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C (2192°F). \n 2. Place the mixed powders in a crucible and insert into the furnace. \n 3. Heat for 4 hours to ensure complete reaction and formation of the desired compound Mn2Ni2O12Sr6."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully transfer the solid sample.",
+        "2. If necessary, grind the sample to achieve the desired particle size (if applicable).",
+        "3. Optionally, seal the sample with a clear epoxy resin for durability and protection.",
+        "4. Allow any sealing agent to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully transfer the solid sample. \n 2. If necessary, grind the sample to achieve the desired particle size (if applicable). \n 3. Optionally, seal the sample with a clear epoxy resin for durability and protection. \n 4. Allow any sealing agent to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2963398.0,
+      "density": 52952.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1545471.0,
+      "formation_energy_per_atom": -25068.0,
+      "decomposition_energy_per_atom": -54.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -6.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 2.3214,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "85c4b6f4fd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:11.096546Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn2Ni2O12Sr6.json",
+      "material://Mn2Ni2O12Sr6"
+    ]
+  }
+}

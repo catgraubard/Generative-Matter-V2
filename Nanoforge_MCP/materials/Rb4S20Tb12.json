@@ -1,0 +1,106 @@
+{
+  "id": "Rb4S20Tb12",
+  "uri": "material://Rb4S20Tb12",
+  "composition": {
+    "formula": "Rb4S20Tb12",
+    "elements": {
+      "Rb": 4,
+      "S": 20,
+      "Tb": 12
+    },
+    "reduced_formula": "RbTb3S5",
+    "element_list": [
+      "S",
+      "Rb",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Rb2S: 40.0 g \n Tb2S3: 60.0 g \n Rb4S20Tb12: 100.0 g total (for final sample)"
+    },
+    "sourcing": {
+      "instructions": "Rb2S can be obtained from chemical suppliers such as Sigma-Aldrich or Thermo Fisher. \n Tb2S3 can be sourced from specialized rare earth material suppliers.",
+      "steps": [
+        "Rb2S can be obtained from chemical suppliers such as Sigma-Aldrich or Thermo Fisher.",
+        "Tb2S3 can be sourced from specialized rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 40.0 g of Rb2S and 60.0 g of Tb2S3 accurately using a digital scale.",
+        "2. Place both materials in a clean, dry ceramic or glass container.",
+        "3. Use a mortar and pestle to mix the powders thoroughly until a uniform color and texture is achieved."
+      ],
+      "raw_text": "1. Weigh 40.0 g of Rb2S and 60.0 g of Tb2S3 accurately using a digital scale. \n 2. Place both materials in a clean, dry ceramic or glass container. \n 3. Use a mortar and pestle to mix the powders thoroughly until a uniform color and texture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat the crucible in a furnace to 800°C with a ramp rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Heat the crucible in a furnace to 800°C with a ramp rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. If necessary, use a diamond file or sandpaper (grit 400) to smooth out any rough edges or surfaces.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. If necessary, use a diamond file or sandpaper (grit 400) to smooth out any rough edges or surfaces. \n 3. Optionally, seal the surface with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10261476.0,
+      "density": 46771.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2238154.0,
+      "formation_energy_per_atom": -22653.0,
+      "decomposition_energy_per_atom": -125.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -81.0,
+      "decomposition_energy_mp": -129.0,
+      "decomposition_energy_mp_oqmd": -81.0
+    },
+    "electronic": {
+      "bandgap": 1.8673,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ea80059bc3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:28.560418Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb4S20Tb12.json",
+      "material://Rb4S20Tb12"
+    ]
+  }
+}

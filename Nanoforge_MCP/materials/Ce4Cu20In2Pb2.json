@@ -1,0 +1,113 @@
+{
+  "id": "Ce4Cu20In2Pb2",
+  "uri": "material://Ce4Cu20In2Pb2",
+  "composition": {
+    "formula": "Ce4Cu20In2Pb2",
+    "elements": {
+      "Ce": 4,
+      "Cu": 20,
+      "In": 2,
+      "Pb": 2
+    },
+    "reduced_formula": "Ce2InCu10Pb",
+    "element_list": [
+      "Cu",
+      "In",
+      "Ce",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 240 g, Cu: 800 g, In: 60 g, Pb: 120 g"
+    },
+    "sourcing": {
+      "instructions": "Ce: Purchase from a chemical supplier (e.g., Sigma-Aldrich), Cu: Local metal supplier or online (e.g., Amazon), In: Specialty metal supplier, Pb: Hardware store or online metal supply.",
+      "steps": [
+        "Ce: Purchase from a chemical supplier (e.g., Sigma-Aldrich), Cu: Local metal supplier or online (e.g., Amazon), In: Specialty metal supplier, Pb: Hardware store or online metal supply."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precise scale.",
+        "2. In a clean, dry mixing container, combine Ce, Cu, In, and Pb.",
+        "3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each material using a precise scale. \n 2. In a clean, dry mixing container, combine Ce, Cu, In, and Pb. \n 3. Use a mechanical stirrer to mix the powders thoroughly for 10 minutes until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures.",
+        "2. Heat the crucible in a furnace to 800°C (1472°F) at a rate of 10°C per minute.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures. \n 2. Heat the crucible in a furnace to 800°C (1472°F) at a rate of 10°C per minute. \n 3. Maintain the temperature for 2 hours to ensure complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to 300°C (572°F).",
+        "2. Once at 300°C, remove the crucible and place it in a controlled cooling environment, allowing it to cool to room temperature over 1 hour."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to 300°C (572°F). \n 2. Once at 300°C, remove the crucible and place it in a controlled cooling environment, allowing it to cool to room temperature over 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample into desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces with fine-grit sandpaper for a smooth finish. \n 4. Optionally, apply a sealant to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4522224.0,
+      "density": 90896.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1233242.0,
+      "formation_energy_per_atom": -1671.0,
+      "decomposition_energy_per_atom": 7.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": 9.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "39f53f5375",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:31.999231Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce4Cu20In2Pb2.json",
+      "material://Ce4Cu20In2Pb2"
+    ]
+  }
+}

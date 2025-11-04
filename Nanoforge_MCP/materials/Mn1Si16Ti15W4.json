@@ -1,0 +1,109 @@
+{
+  "id": "Mn1Si16Ti15W4",
+  "uri": "material://Mn1Si16Ti15W4",
+  "composition": {
+    "formula": "Mn1Si16Ti15W4",
+    "elements": {
+      "Mn": 1,
+      "Si": 16,
+      "Ti": 15,
+      "W": 4
+    },
+    "reduced_formula": "Ti15Mn(Si4W)4",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Mn",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Manganese (Mn): 12.44 g \n Silicon (Si): 64.45 g \n Titanium (Ti): 61.78 g \n Tungsten (W): 23.12 g"
+    },
+    "sourcing": {
+      "instructions": "Manganese: Available from chemical supply stores or online suppliers like Sigma-Aldrich. \n Silicon: Obtain from electronics suppliers or chemical supply companies. \n Titanium: Purchase from metal suppliers or online retailers such as OnlineMetals.com. \n Tungsten: Source from specialty metal suppliers or online marketplaces.",
+      "steps": [
+        "Manganese: Available from chemical supply stores or online suppliers like Sigma-Aldrich.",
+        "Silicon: Obtain from electronics suppliers or chemical supply companies.",
+        "Titanium: Purchase from metal suppliers or online retailers such as OnlineMetals.com.",
+        "Tungsten: Source from specialty metal suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out the required quantities of each ingredient using a precise scale.",
+        "2. In a clean, dry mixing container, combine the manganese, silicon, titanium, and tungsten powders.",
+        "3. Use a spatula or mixer to ensure an even distribution of the powders.",
+        "4. Once mixed, transfer the mixture into a ball mill for 1 hour to achieve a homogeneous blend."
+      ],
+      "raw_text": "1. Measure out the required quantities of each ingredient using a precise scale. \n 2. In a clean, dry mixing container, combine the manganese, silicon, titanium, and tungsten powders. \n 3. Use a spatula or mixer to ensure an even distribution of the powders. \n 4. Once mixed, transfer the mixture into a ball mill for 1 hour to achieve a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the homogeneous powder mixture in a crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the homogeneous powder mixture in a crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F).",
+        "2. Once cooled, carefully remove the crucible with protective gear."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C or 77°F). \n 2. Once cooled, carefully remove the crucible with protective gear."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any rough edges.",
+        "2. If necessary, use a diamond file or sandpaper to smooth the surfaces.",
+        "3. Optionally, apply a protective sealant for surface protection, following the manufacturer's instructions for application."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any rough edges. \n 2. If necessary, use a diamond file or sandpaper to smooth the surfaces. \n 3. Optionally, apply a protective sealant for surface protection, following the manufacturer's instructions for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5344715.0,
+      "density": 60823.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -291858.0,
+      "formation_energy_per_atom": -7118.0,
+      "decomposition_energy_per_atom": -726.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -722.0,
+      "decomposition_energy_mp_oqmd": -69.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "76caa3ac5f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:51.139040Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn1Si16Ti15W4.json",
+      "material://Mn1Si16Ti15W4"
+    ]
+  }
+}

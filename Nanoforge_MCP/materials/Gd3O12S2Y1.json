@@ -1,0 +1,116 @@
+{
+  "id": "Gd3O12S2Y1",
+  "uri": "material://Gd3O12S2Y1",
+  "composition": {
+    "formula": "Gd3O12S2Y1",
+    "elements": {
+      "Gd": 3,
+      "O": 12,
+      "S": 2,
+      "Y": 1
+    },
+    "reduced_formula": "Gd3Y(SO6)2",
+    "element_list": [
+      "O",
+      "S",
+      "Y",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Gd2O3: 65.0 g \n  S: 16.0 g \n  Y2O3: 19.0 g"
+    },
+    "sourcing": {
+      "instructions": "Gd2O3: Purchase from a chemical supply company or online vendor specializing in rare earth materials. \n S: Obtain from a chemical supply company or online vendor. \n Y2O3: Available from specialized chemical suppliers or online retailers.",
+      "steps": [
+        "Gd2O3: Purchase from a chemical supply company or online vendor specializing in rare earth materials.",
+        "S: Obtain from a chemical supply company or online vendor.",
+        "Y2O3: Available from specialized chemical suppliers or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 65.0 g of Gd2O3, 16.0 g of sulfur (S), and 19.0 g of Y2O3 using a precision balance.",
+        "2. In a clean, dry container, combine the weighed ingredients thoroughly using a mortar and pestle to ensure a homogeneous mixture.",
+        "3. Transfer the mixture to a suitable crucible for heating (preferably made of alumina or similar material)."
+      ],
+      "raw_text": "1. Weigh out 65.0 g of Gd2O3, 16.0 g of sulfur (S), and 19.0 g of Y2O3 using a precision balance. \n 2. In a clean, dry container, combine the weighed ingredients thoroughly using a mortar and pestle to ensure a homogeneous mixture. \n 3. Transfer the mixture to a suitable crucible for heating (preferably made of alumina or similar material)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat the mixture to 1200°C at a ramp rate of 5°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Gd3O12S2Y1."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat the mixture to 1200°C at a ramp rate of 5°C/min. \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Gd3O12S2Y1."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). This process may take 6-8 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). This process may take 6-8 hours. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the cooled solid sample into a fine powder using a mortar and pestle if further processing is needed.",
+        "2. If a solid sample is desired, press the powder into a mold of dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Cure the pressed sample in the furnace at 1000°C for 2 hours to enhance structural integrity.",
+        "4. Optionally, sand the surfaces to achieve a smooth finish if required."
+      ],
+      "raw_text": "1. Grind the cooled solid sample into a fine powder using a mortar and pestle if further processing is needed. \n 2. If a solid sample is desired, press the powder into a mold of dimensions 3 inches x 2 inches x 7 inches. \n 3. Cure the pressed sample in the furnace at 1000°C for 2 hours to enhance structural integrity. \n 4. Optionally, sand the surfaces to achieve a smooth finish if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2241401.0,
+      "density": 60511.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1729037.0,
+      "formation_energy_per_atom": -31422.0,
+      "decomposition_energy_per_atom": -917.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -917.0,
+      "decomposition_energy_mp_oqmd": -18.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "fe252e6025",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:34.336909Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd3O12S2Y1.json",
+      "material://Gd3O12S2Y1"
+    ]
+  }
+}

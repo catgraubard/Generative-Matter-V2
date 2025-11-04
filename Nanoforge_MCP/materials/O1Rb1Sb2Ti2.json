@@ -1,0 +1,128 @@
+{
+  "id": "O1Rb1Sb2Ti2",
+  "uri": "material://O1Rb1Sb2Ti2",
+  "composition": {
+    "formula": "O1Rb1Sb2Ti2",
+    "elements": {
+      "O": 1,
+      "Rb": 1,
+      "Sb": 2,
+      "Ti": 2
+    },
+    "reduced_formula": "RbTi2Sb2O",
+    "element_list": [
+      "O",
+      "Ti",
+      "Rb",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al2O3: 150 g\n B2O3: 50 g\n Co: 20 g\n Ni: 15 g\n Tb: 5 g"
+    },
+    "sourcing": {
+      "instructions": "Al2O3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)\n B2O3: Glass supply stores or chemical suppliers\n Co: Metal suppliers or online marketplaces (e.g., Amazon)\n Ni: Metal suppliers or online marketplaces\n Tb: Rare earth material suppliers or online markets",
+      "steps": [
+        "Al2O3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "B2O3: Glass supply stores or chemical suppliers",
+        "Co: Metal suppliers or online marketplaces (e.g., Amazon)",
+        "Ni: Metal suppliers or online marketplaces",
+        "Tb: Rare earth material suppliers or online markets"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an accurate scale.",
+        "2. Combine Al2O3 and B2O3 in a clean, dry mixing container.",
+        "3. Add Co, Ni, and Tb to the mixture.",
+        "4. Mix thoroughly using a mechanical mixer to ensure homogeneity for 10 minutes."
+      ],
+      "raw_text": "1. Measure each ingredient using an accurate scale.\n 2. Combine Al2O3 and B2O3 in a clean, dry mixing container.\n 3. Add Co, Ni, and Tb to the mixture.\n 4. Mix thoroughly using a mechanical mixer to ensure homogeneity for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Transfer the mixed powder into a ceramic crucible.",
+        "3. Place the crucible in the furnace and heat for 2 hours at 1200°C to allow for complete reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C.\n 2. Transfer the mixed powder into a ceramic crucible.\n 3. Place the crucible in the furnace and heat for 2 hours at 1200°C to allow for complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the temperature to drop naturally to room temperature (approximately 6-8 hours).",
+        "2. Once at room temperature, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the temperature to drop naturally to room temperature (approximately 6-8 hours).\n 2. Once at room temperature, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Let the solid sample cool for another 1 hour in ambient conditions.",
+        "2. Carefully remove the solid from the crucible.",
+        "3. Sand the edges and surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the material with a clear epoxy coating for added durability."
+      ],
+      "raw_text": "1. Let the solid sample cool for another 1 hour in ambient conditions.\n 2. Carefully remove the solid from the crucible.\n 3. Sand the edges and surface using fine-grit sandpaper to achieve a smooth finish.\n 4. Optionally, seal the material with a clear epoxy coating for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1492478.0,
+      "density": 49035.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -381581.0,
+      "formation_energy_per_atom": -13634.0,
+      "decomposition_energy_per_atom": -371.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -285.0,
+      "decomposition_energy_mp": -373.0,
+      "decomposition_energy_mp_oqmd": -285.0
+    },
+    "electronic": {
+      "bandgap": 0.0007,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "be631bd6fd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.518398Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O1Rb1Sb2Ti2.json",
+      "material://O1Rb1Sb2Ti2"
+    ]
+  }
+}

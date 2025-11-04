@@ -1,0 +1,113 @@
+{
+  "id": "K3Li2Pb8Rb3",
+  "uri": "material://K3Li2Pb8Rb3",
+  "composition": {
+    "formula": "K3Li2Pb8Rb3",
+    "elements": {
+      "K": 3,
+      "Li": 2,
+      "Pb": 8,
+      "Rb": 3
+    },
+    "reduced_formula": "K3Rb3(LiPb4)2",
+    "element_list": [
+      "Li",
+      "K",
+      "Rb",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 2.8,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 2.8 g, Li: 0.9 g, Pb: 22.4 g, Rb: 1.2 g (Total: 27.3 g)"
+    },
+    "sourcing": {
+      "instructions": "K: Chemical supply store, Li: Specialty metal supplier, Pb: Hardware store, Rb: Chemical supplier",
+      "steps": [
+        "K: Chemical supply store, Li: Specialty metal supplier, Pb: Hardware store, Rb: Chemical supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure K, Li, Pb, and Rb precisely using a digital scale.",
+        "2. In a clean, dry glass container, combine K, Li, Pb, and Rb.",
+        "3. Stir the mixture thoroughly with a glass rod to ensure uniform distribution of components."
+      ],
+      "raw_text": "1. Measure K, Li, Pb, and Rb precisely using a digital scale. \n 2. In a clean, dry glass container, combine K, Li, Pb, and Rb. \n 3. Stir the mixture thoroughly with a glass rod to ensure uniform distribution of components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed ingredients in a heat-resistant crucible.",
+        "3. Insert the crucible into the furnace for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed ingredients in a heat-resistant crucible. \n 3. Insert the crucible into the furnace for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After heating, turn off the furnace.",
+        "2. Allow the crucible to cool in the furnace for 4 hours to avoid thermal shock.",
+        "3. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After heating, turn off the furnace. \n 2. Allow the crucible to cool in the furnace for 4 hours to avoid thermal shock. \n 3. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Use a diamond file to smooth the edges of the sample.",
+        "3. Optionally, apply a sealant for added protection against moisture."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Use a diamond file to smooth the edges of the sample. \n 3. Optionally, apply a sealant for added protection against moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 6201153.0,
+      "density": 54766.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -438377.0,
+      "formation_energy_per_atom": -2529.0,
+      "decomposition_energy_per_atom": -152.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -152.0,
+      "decomposition_energy_mp_oqmd": -54.0
+    },
+    "electronic": {
+      "bandgap": 0.008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5e85de8ba9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:19.556407Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K3Li2Pb8Rb3.json",
+      "material://K3Li2Pb8Rb3"
+    ]
+  }
+}

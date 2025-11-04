@@ -1,0 +1,115 @@
+{
+  "id": "Al5C4Cu1Fe3Ga3Nb12",
+  "uri": "material://Al5C4Cu1Fe3Ga3Nb12",
+  "composition": {
+    "formula": "Al5C4Cu1Fe3Ga3Nb12",
+    "elements": {
+      "Al": 5,
+      "C": 4,
+      "Cu": 1,
+      "Fe": 3,
+      "Ga": 3,
+      "Nb": 12
+    },
+    "reduced_formula": "Nb12Al5Ga3Fe3CuC4",
+    "element_list": [
+      "C",
+      "Al",
+      "Fe",
+      "Cu",
+      "Ga",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 25.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 25 g, Ag: 50 g, Sn: 30 g, Y: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Chemical supply store; Ag: Precious metal supplier; Sn: Electronics components supplier; Y: Rare earth material supplier",
+      "steps": [
+        "Ac: Chemical supply store; Ag: Precious metal supplier; Sn: Electronics components supplier; Y: Rare earth material supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine the measured Ac, Ag, Sn, and Y.",
+        "3. Mix thoroughly with a spatula for 5 minutes to ensure an even distribution of materials."
+      ],
+      "raw_text": "1. Measure each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing bowl, combine the measured Ac, Ag, Sn, and Y. \n 3. Mix thoroughly with a spatula for 5 minutes to ensure an even distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials into a crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours to ensure proper alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a crucible. \n 2. Heat in a furnace at 800°C for 2 hours to ensure proper alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "furnace_cool",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool inside the furnace for 4 hours.",
+        "2. Once cooled, remove the crucible from the furnace safely using protective gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool inside the furnace for 4 hours. \n 2. Once cooled, remove the crucible from the furnace safely using protective gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Use a file or sandpaper to smooth out any rough edges.",
+        "3. If necessary, apply a clear sealant to protect the surface of the alloy."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Use a file or sandpaper to smooth out any rough edges. \n 3. If necessary, apply a clear sealant to protect the surface of the alloy."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 3966718.0,
+      "density": 72759.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -2288651.0,
+      "formation_energy_per_atom": -479.0,
+      "decomposition_energy_per_atom": -356.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -69.0,
+      "decomposition_energy_mp": -356.0,
+      "decomposition_energy_mp_oqmd": -251.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d56f38ddba",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.792959Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al5C4Cu1Fe3Ga3Nb12.json",
+      "material://Al5C4Cu1Fe3Ga3Nb12"
+    ]
+  }
+}

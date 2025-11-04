@@ -1,0 +1,111 @@
+{
+  "id": "Co2Fe2Mo6O24Zn2",
+  "uri": "material://Co2Fe2Mo6O24Zn2",
+  "composition": {
+    "formula": "Co2Fe2Mo6O24Zn2",
+    "elements": {
+      "Co": 2,
+      "Fe": 2,
+      "Mo": 6,
+      "O": 24,
+      "Zn": 2
+    },
+    "reduced_formula": "ZnFeCo(MoO4)3",
+    "element_list": [
+      "O",
+      "Fe",
+      "Co",
+      "Zn",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt(II) oxide (CoO) - 10.0 g \n Iron(III) oxide (Fe2O3) - 32.0 g \n Molybdenum trioxide (MoO3) - 24.0 g \n Zinc oxide (ZnO) - 8.0 g \n Oxygen - 0.0 g (not required as it is in the air)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt(II) oxide: Chemical supply stores or online suppliers. \n Iron(III) oxide: Local hardware stores or chemical suppliers. \n Molybdenum trioxide: Specialty chemical suppliers. \n Zinc oxide: Pharmacies or chemical supply stores.",
+      "steps": [
+        "Cobalt(II) oxide: Chemical supply stores or online suppliers.",
+        "Iron(III) oxide: Local hardware stores or chemical suppliers.",
+        "Molybdenum trioxide: Specialty chemical suppliers.",
+        "Zinc oxide: Pharmacies or chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all components using a precise digital scale.",
+        "2. In a clean, dry mixing container, combine CoO, Fe2O3, MoO3, and ZnO in the specified amounts.",
+        "3. Mix the dry powders thoroughly using a spatula or a mortar and pestle until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh all components using a precise digital scale. \n 2. In a clean, dry mixing container, combine CoO, Fe2O3, MoO3, and ZnO in the specified amounts. \n 3. Mix the dry powders thoroughly using a spatula or a mortar and pestle until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or kiln to 1100°C.",
+        "2. Place the mixed powders in a suitable crucible (e.g., alumina) and insert into the furnace.",
+        "3. Heat for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 1100°C. \n 2. Place the mixed powders in a suitable crucible (e.g., alumina) and insert into the furnace. \n 3. Heat for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it has cooled down to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it has cooled down to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any irregularities; if necessary, sand any rough edges using fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a suitable ceramic sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any irregularities; if necessary, sand any rough edges using fine-grit sandpaper. \n 3. Optionally, seal the surface with a suitable ceramic sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5509962.0,
+      "density": 39781.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2847368.0,
+      "formation_energy_per_atom": -18677.0,
+      "decomposition_energy_per_atom": -195.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -42.0,
+      "decomposition_energy_mp": -202.0,
+      "decomposition_energy_mp_oqmd": -94.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a038641c5f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:46.300695Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe2Mo6O24Zn2.json",
+      "material://Co2Fe2Mo6O24Zn2"
+    ]
+  }
+}

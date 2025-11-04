@@ -1,0 +1,138 @@
+{
+  "id": "Ga12Sc12Si4Y8",
+  "uri": "material://Ga12Sc12Si4Y8",
+  "composition": {
+    "formula": "Ga12Sc12Si4Y8",
+    "elements": {
+      "Ga": 12,
+      "Sc": 12,
+      "Si": 4,
+      "Y": 8
+    },
+    "reduced_formula": "Y2Sc3Ga3Si",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Ga",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 130.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g  \n Er: 30 g  \n Fe: 5 g  \n In: 60 g  \n Tm: 130 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal supply stores or online metal vendors. \n Er: Rare earth metal suppliers or specialty chemical suppliers. \n Fe: Local metal suppliers or chemical supply companies. \n In: Specialty electronic material suppliers or rare metal distributors. \n Tm: Rare earth suppliers or online chemical stores.",
+      "steps": [
+        "Co: Metal supply stores or online metal vendors.",
+        "Er: Rare earth metal suppliers or specialty chemical suppliers.",
+        "Fe: Local metal suppliers or chemical supply companies.",
+        "In: Specialty electronic material suppliers or rare metal distributors.",
+        "Tm: Rare earth suppliers or online chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 10 g of Co, 30 g of Er, 5 g of Fe, 60 g of In, and 130 g of Tm using a digital scale with 0.01 g precision.",
+        "2. Place the Co, Er, and Fe in a clean, dry mixing container.",
+        "3. Add the In and Tm to the container.",
+        "4. Use a mechanical stirrer or mortar and pestle to thoroughly mix the powders until uniform consistency is achieved (approx. 15-20 minutes)."
+      ],
+      "raw_text": "1. Measure out 10 g of Co, 30 g of Er, 5 g of Fe, 60 g of In, and 130 g of Tm using a digital scale with 0.01 g precision. \n 2. Place the Co, Er, and Fe in a clean, dry mixing container. \n 3. Add the In and Tm to the container. \n 4. Use a mechanical stirrer or mortar and pestle to thoroughly mix the powders until uniform consistency is achieved (approx. 15-20 minutes)."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible.",
+        "2. Preheat the furnace to 1200°C.",
+        "3. Gradually heat the crucible in the furnace for 2 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible. \n 2. Preheat the furnace to 1200°C. \n 3. Gradually heat the crucible in the furnace for 2 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has completely cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has completely cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect the surface for any irregularities.",
+        "3. If necessary, use a diamond file to smooth out the edges and surface imperfections.",
+        "4. Optionally, seal the sample with a clear epoxy resin to enhance durability and finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Inspect the surface for any irregularities. \n 3. If necessary, use a diamond file to smooth out the edges and surface imperfections. \n 4. Optionally, seal the sample with a clear epoxy resin to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 7832019.0,
+      "density": 46639.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2105526.0,
+      "formation_energy_per_atom": -6887.0,
+      "decomposition_energy_per_atom": -215.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -214.0,
+      "decomposition_energy_mp_oqmd": -211.0
+    },
+    "electronic": {
+      "bandgap": 0.0041,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "afebceea2c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:10.856619Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga12Sc12Si4Y8.json",
+      "material://Ga12Sc12Si4Y8"
+    ]
+  }
+}

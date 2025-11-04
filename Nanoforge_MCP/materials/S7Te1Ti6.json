@@ -1,0 +1,111 @@
+{
+  "id": "S7Te1Ti6",
+  "uri": "material://S7Te1Ti6",
+  "composition": {
+    "formula": "S7Te1Ti6",
+    "elements": {
+      "S": 7,
+      "Te": 1,
+      "Ti": 6
+    },
+    "reduced_formula": "Ti6TeS7",
+    "element_list": [
+      "S",
+      "Ti",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "S: 10 g, Te: 1.4 g, Ti: 84 g (Total: 95.4 g for a solid sample of dimensions 3 in x 2 in x 7 in)"
+    },
+    "sourcing": {
+      "instructions": "S: Chemical supply stores; Te: Specialty metal suppliers; Ti: Metal fabrication suppliers",
+      "steps": [
+        "S: Chemical supply stores; Te: Specialty metal suppliers; Ti: Metal fabrication suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of Sulfur (S).",
+        "2. Weigh out 1.4 g of Tellurium (Te).",
+        "3. Weigh out 84 g of Titanium (Ti).",
+        "4. In a clean, dry mixing container, combine S, Te, and Ti thoroughly using a ceramic or glass stir rod until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 10 g of Sulfur (S). \n 2. Weigh out 1.4 g of Tellurium (Te). \n 3. Weigh out 84 g of Titanium (Ti). \n 4. In a clean, dry mixing container, combine S, Te, and Ti thoroughly using a ceramic or glass stir rod until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixture into a high-temperature resistant crucible.",
+        "2. Heat the crucible in a furnace to 1200°C.",
+        "3. Maintain this temperature for 1 hour to ensure proper melting and mixing of the components."
+      ],
+      "raw_text": "1. Transfer the mixture into a high-temperature resistant crucible. \n 2. Heat the crucible in a furnace to 1200°C. \n 3. Maintain this temperature for 1 hour to ensure proper melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. After 1 hour, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not remove the crucible until it reaches approximately 200°C to avoid thermal shock."
+      ],
+      "raw_text": "1. After 1 hour, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not remove the crucible until it reaches approximately 200°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a diamond file to smooth the edges and surfaces to achieve desired finish.",
+        "3. Optionally, apply a clear sealant for protection against oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a diamond file to smooth the edges and surfaces to achieve desired finish. \n 3. Optionally, apply a clear sealant for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2755934.0,
+      "density": 38517.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1027426.0,
+      "formation_energy_per_atom": -16622.0,
+      "decomposition_energy_per_atom": -288.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -281.0,
+      "decomposition_energy_mp": -288.0,
+      "decomposition_energy_mp_oqmd": -281.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a29ea91f69",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:49.785848Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/S7Te1Ti6.json",
+      "material://S7Te1Ti6"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "Cs1Te6Zr3",
+  "uri": "material://Cs1Te6Zr3",
+  "composition": {
+    "formula": "Cs1Te6Zr3",
+    "elements": {
+      "Cs": 1,
+      "Te": 6,
+      "Zr": 3
+    },
+    "reduced_formula": "Cs(ZrTe2)3",
+    "element_list": [
+      "Zr",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.5 g \n Te: 9.0 g \n Zr: 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier specializing in alkali metals. \n Te: Purchase from a chemical supply company or a specialty supplier for metalloid elements. \n Zr: Source from a reputable metal supplier or chemical vendor for transition metals.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier specializing in alkali metals.",
+        "Te: Purchase from a chemical supply company or a specialty supplier for metalloid elements.",
+        "Zr: Source from a reputable metal supplier or chemical vendor for transition metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the Cs, Te, and Zr using an analytical balance to ensure precision.",
+        "2. In a glove box or under inert atmosphere, slowly add Cs to a clean, dry glass or ceramic mixing vessel.",
+        "3. Gradually add Te to the vessel while stirring continuously to ensure uniform mixing.",
+        "4. Finally, incorporate Zr into the mixture, maintaining a consistent stirring motion.",
+        "5. Continue mixing until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh the Cs, Te, and Zr using an analytical balance to ensure precision. \n 2. In a glove box or under inert atmosphere, slowly add Cs to a clean, dry glass or ceramic mixing vessel. \n 3. Gradually add Te to the vessel while stirring continuously to ensure uniform mixing. \n 4. Finally, incorporate Zr into the mixture, maintaining a consistent stirring motion. \n 5. Continue mixing until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-purity alumina crucible.",
+        "2. Place the crucible in a furnace and heat to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and material formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-purity alumina crucible. \n 2. Place the crucible in a furnace and heat to 800 °C at a rate of 10 °C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and material formation."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Ensure that the furnace door remains closed during cooling to avoid contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Ensure that the furnace door remains closed during cooling to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, retrieve the solidified sample from the crucible.",
+        "2. Use a diamond grinding tool to shape the edges of the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Clean the surface with isopropyl alcohol to remove any residues.",
+        "4. Optionally, apply a sealant if the sample will be exposed to moisture or other environmental factors."
+      ],
+      "raw_text": "1. Once cooled, retrieve the solidified sample from the crucible. \n 2. Use a diamond grinding tool to shape the edges of the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Clean the surface with isopropyl alcohol to remove any residues. \n 4. Optionally, apply a sealant if the sample will be exposed to moisture or other environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 4158597.0,
+      "density": 46805.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -577446.0,
+      "formation_energy_per_atom": -12346.0,
+      "decomposition_energy_per_atom": -802.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -251.0,
+      "decomposition_energy_mp": -79.0,
+      "decomposition_energy_mp_oqmd": -447.0
+    },
+    "electronic": {
+      "bandgap": 0.0056,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "44e083552c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:46.117303Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Te6Zr3.json",
+      "material://Cs1Te6Zr3"
+    ]
+  }
+}

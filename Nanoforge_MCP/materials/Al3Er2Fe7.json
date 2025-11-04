@@ -1,0 +1,113 @@
+{
+  "id": "Al3Er2Fe7",
+  "uri": "material://Al3Er2Fe7",
+  "composition": {
+    "formula": "Al3Er2Fe7",
+    "elements": {
+      "Al": 3,
+      "Er": 2,
+      "Fe": 7
+    },
+    "reduced_formula": "Er2Al3Fe7",
+    "element_list": [
+      "Al",
+      "Fe",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 400.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 400 g, Rb: 200 g, Sb: 600 g, Sc: 300 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Chemical supply company; Rb (Rubidium): Chemical supply company; Sb (Antimony): Metal supplier; Sc (Scandium): Metal supplier.",
+      "steps": [
+        "Cs (Cesium): Chemical supply company; Rb (Rubidium): Chemical supply company; Sb (Antimony): Metal supplier; Sc (Scandium): Metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 400 g of Cs using a precise scale.",
+        "2. Measure 200 g of Rb.",
+        "3. Measure 600 g of Sb.",
+        "4. Measure 300 g of Sc.",
+        "5. Combine Cs, Rb, Sb, and Sc in a clean, dry mixing container.",
+        "6. Stir the mixture thoroughly for 10 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Measure 400 g of Cs using a precise scale. \n 2. Measure 200 g of Rb. \n 3. Measure 600 g of Sb. \n 4. Measure 300 g of Sc. \n 5. Combine Cs, Rb, Sb, and Sc in a clean, dry mixing container. \n 6. Stir the mixture thoroughly for 10 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed ingredients to a crucible.",
+        "2. Place the crucible in a furnace preheated to 800°C.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients to a crucible. \n 2. Place the crucible in a furnace preheated to 800°C. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not expose the crucible to rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not expose the crucible to rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities; if present, use fine-grit sandpaper to smooth the surface.",
+        "3. If desired, apply a sealant to preserve the sample's integrity."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any irregularities; if present, use fine-grit sandpaper to smooth the surface. \n 3. If desired, apply a sealant to preserve the sample's integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1795824.0,
+      "density": 74563.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2/m",
+      "space_group_number": 10,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -829348.0,
+      "formation_energy_per_atom": -2727.0,
+      "decomposition_energy_per_atom": -121.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": -59.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e8333b54a2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.864296Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Er2Fe7.json",
+      "material://Al3Er2Fe7"
+    ]
+  }
+}

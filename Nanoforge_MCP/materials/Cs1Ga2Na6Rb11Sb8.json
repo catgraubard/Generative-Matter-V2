@@ -1,0 +1,116 @@
+{
+  "id": "Cs1Ga2Na6Rb11Sb8",
+  "uri": "material://Cs1Ga2Na6Rb11Sb8",
+  "composition": {
+    "formula": "Cs1Ga2Na6Rb11Sb8",
+    "elements": {
+      "Cs": 1,
+      "Ga": 2,
+      "Na": 6,
+      "Rb": 11,
+      "Sb": 8
+    },
+    "reduced_formula": "CsRb11Na6(GaSb4)2",
+    "element_list": [
+      "Na",
+      "Ga",
+      "Rb",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 1.0 g, Ga: 2.0 g, Na: 6.0 g, Rb: 11.0 g, Sb: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium): Purchase from a chemical supplier like Sigma-Aldrich; Ga (Gallium): Available from electronic component suppliers; Na (Sodium): Obtain from chemical stores; Rb (Rubidium): Source from specialized chemical retailers; Sb (Antimony): Obtain from metal suppliers or chemical distributors.",
+      "steps": [
+        "Cs (Cesium): Purchase from a chemical supplier like Sigma-Aldrich; Ga (Gallium): Available from electronic component suppliers; Na (Sodium): Obtain from chemical stores; Rb (Rubidium): Source from specialized chemical retailers; Sb (Antimony): Obtain from metal suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out the exact amounts of Cs, Ga, Na, Rb, and Sb using an analytical balance.",
+        "2. In a clean, dry glass container, add Cs and Na first.",
+        "3. Gradually incorporate Ga while stirring continuously with a non-reactive stirrer.",
+        "4. Add Rb slowly to the mixture.",
+        "5. Finally, add Sb and mix thoroughly until a uniform paste is formed."
+      ],
+      "raw_text": "1. Weigh out the exact amounts of Cs, Ga, Na, Rb, and Sb using an analytical balance. \n 2. In a clean, dry glass container, add Cs and Na first. \n 3. Gradually incorporate Ga while stirring continuously with a non-reactive stirrer. \n 4. Add Rb slowly to the mixture. \n 5. Finally, add Sb and mix thoroughly until a uniform paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a quartz crucible.",
+        "2. Heat in a furnace to 800°C at a rate of 10°C/min.",
+        "3. Hold at 800°C for 2 hours to ensure complete melting and mixing."
+      ],
+      "raw_text": "1. Transfer the mixture to a quartz crucible. \n 2. Heat in a furnace to 800°C at a rate of 10°C/min. \n 3. Hold at 800°C for 2 hours to ensure complete melting and mixing."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature slowly (approximately 4-6 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature slowly (approximately 4-6 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use a diamond file or sandpaper to smooth the edges and surface.",
+        "3. Optionally, seal the surface with a clear epoxy resin for added protection and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use a diamond file or sandpaper to smooth the edges and surface. \n 3. Optionally, seal the surface with a clear epoxy resin for added protection and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 10605009.0,
+      "density": 36397.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -718014.0,
+      "formation_energy_per_atom": -4677.0,
+      "decomposition_energy_per_atom": -26.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -25.0,
+      "decomposition_energy_mp": -26.0,
+      "decomposition_energy_mp_oqmd": -48.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "307bca9573",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:19.295308Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Ga2Na6Rb11Sb8.json",
+      "material://Cs1Ga2Na6Rb11Sb8"
+    ]
+  }
+}

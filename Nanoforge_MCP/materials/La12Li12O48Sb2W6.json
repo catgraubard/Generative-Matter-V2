@@ -1,0 +1,111 @@
+{
+  "id": "La12Li12O48Sb2W6",
+  "uri": "material://La12Li12O48Sb2W6",
+  "composition": {
+    "formula": "La12Li12O48Sb2W6",
+    "elements": {
+      "La": 12,
+      "Li": 12,
+      "O": 48,
+      "Sb": 2,
+      "W": 6
+    },
+    "reduced_formula": "Li6La6Sb(WO8)3",
+    "element_list": [
+      "Li",
+      "O",
+      "Sb",
+      "La",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "La2O3: 10.78 g \n Li2O: 7.94 g \n Sb2O3: 1.44 g \n WO3: 13.20 g \n Total weight: 33.36 g (to yield sufficient material for solid sample dimensions)"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Order from chemical supply companies like Sigma-Aldrich or Alfa Aesar. \n Li2O: Obtain from specialty chemical suppliers. \n Sb2O3: Available from chemical supply stores or online. \n WO3: Purchase from reputable chemical suppliers.",
+      "steps": [
+        "La2O3: Order from chemical supply companies like Sigma-Aldrich or Alfa Aesar.",
+        "Li2O: Obtain from specialty chemical suppliers.",
+        "Sb2O3: Available from chemical supply stores or online.",
+        "WO3: Purchase from reputable chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance.",
+        "2. In a clean and dry ceramic or glass mortar, mix the La2O3, Li2O, Sb2O3, and WO3 powders thoroughly to achieve a homogeneous blend.",
+        "3. Transfer the mixture into a clean crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance. \n 2. In a clean and dry ceramic or glass mortar, mix the La2O3, Li2O, Sb2O3, and WO3 powders thoroughly to achieve a homogeneous blend. \n 3. Transfer the mixture into a clean crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible inside the furnace and hold the temperature for 2 hours to ensure complete reaction and solid formation.",
+        "3. After 2 hours, increase the temperature to 1000°C for an additional 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible inside the furnace and hold the temperature for 2 hours to ensure complete reaction and solid formation. \n 3. After 2 hours, increase the temperature to 1000°C for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature naturally.",
+        "2. This may take approximately 4-6 hours, depending on the furnace and surrounding conditions."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down to room temperature naturally. \n 2. This may take approximately 4-6 hours, depending on the furnace and surrounding conditions."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use fine-grit sandpaper to smooth any rough edges of the solid sample.",
+        "3. Optionally, apply a sealant if necessary to enhance surface finish and protect the material."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Use fine-grit sandpaper to smooth any rough edges of the solid sample. \n 3. Optionally, apply a sealant if necessary to enhance surface finish and protect the material."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 80,
+      "volume": 10499208.0,
+      "density": 61123.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/c",
+      "space_group_number": 15,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -6411774.0,
+      "formation_energy_per_atom": -29441.0,
+      "decomposition_energy_per_atom": -12.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -126.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7723f9d1d2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:51.537356Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La12Li12O48Sb2W6.json",
+      "material://La12Li12O48Sb2W6"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Ge4O2Rb12S12",
+  "uri": "material://Ge4O2Rb12S12",
+  "composition": {
+    "formula": "Ge4O2Rb12S12",
+    "elements": {
+      "Ge": 4,
+      "O": 2,
+      "Rb": 12,
+      "S": 12
+    },
+    "reduced_formula": "Rb6Ge2S6O",
+    "element_list": [
+      "O",
+      "S",
+      "Ge",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Germanium Dioxide (GeO2): 120 g  \n - Rubidium Carbonate (Rb2CO3): 70 g  \n - Sulfur (S): 30 g  \n - Distilled Water: 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Germanium Dioxide: Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Amazon). \n - Rubidium Carbonate: Specialty chemical suppliers or online (e.g., Alfa Aesar). \n - Sulfur: Local chemical supply stores or gardening suppliers. \n - Distilled Water: Grocery stores or pharmacies.",
+      "steps": [
+        "- Germanium Dioxide: Available from chemical suppliers or online marketplaces (e.g., Sigma-Aldrich, Amazon).",
+        "- Rubidium Carbonate: Specialty chemical suppliers or online (e.g., Alfa Aesar).",
+        "- Sulfur: Local chemical supply stores or gardening suppliers.",
+        "- Distilled Water: Grocery stores or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 120 g of GeO2 and 70 g of Rb2CO3 accurately using a digital scale.",
+        "2. In a clean glass container, combine GeO2 and Rb2CO3 thoroughly.",
+        "3. Add 30 g of sulfur to the mixture.",
+        "4. Gradually add 50 g of distilled water to the dry mixture while stirring continuously to form a paste.",
+        "5. Ensure all components are well mixed and homogeneous."
+      ],
+      "raw_text": "1. Measure out 120 g of GeO2 and 70 g of Rb2CO3 accurately using a digital scale.  \n 2. In a clean glass container, combine GeO2 and Rb2CO3 thoroughly.  \n 3. Add 30 g of sulfur to the mixture.  \n 4. Gradually add 50 g of distilled water to the dry mixture while stirring continuously to form a paste.  \n 5. Ensure all components are well mixed and homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the paste into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the sample to 800°C at a rate of 10°C/min and maintain this temperature for 2 hours to facilitate chemical reactions."
+      ],
+      "raw_text": "1. Transfer the paste into a ceramic crucible.  \n 2. Place the crucible in a furnace.  \n 3. Heat the sample to 800°C at a rate of 10°C/min and maintain this temperature for 2 hours to facilitate chemical reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door until the temperature drops below 200°C to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).  \n 2. Do not open the furnace door until the temperature drops below 200°C to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Inspect for any surface irregularities; if present, use sandpaper (grit 100-220) to smooth the surface.",
+        "3. Rinse the sample with distilled water to remove any residual materials and allow it to dry completely.",
+        "4. Optionally, apply a clear sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible.  \n 2. Inspect for any surface irregularities; if present, use sandpaper (grit 100-220) to smooth the surface.  \n 3. Rinse the sample with distilled water to remove any residual materials and allow it to dry completely.  \n 4. Optionally, apply a clear sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 9465781.0,
+      "density": 304.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/c",
+      "space_group_number": 14,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1300557.0,
+      "formation_energy_per_atom": -13421.0,
+      "decomposition_energy_per_atom": -372.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -62.0,
+      "decomposition_energy_mp": -35.0,
+      "decomposition_energy_mp_oqmd": -203.0
+    },
+    "electronic": {
+      "bandgap": 2.5866,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9beef70c51",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:40.866886Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ge4O2Rb12S12.json",
+      "material://Ge4O2Rb12S12"
+    ]
+  }
+}

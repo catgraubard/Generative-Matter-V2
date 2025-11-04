@@ -1,0 +1,108 @@
+{
+  "id": "Al3Fe6Tb1Zr2",
+  "uri": "material://Al3Fe6Tb1Zr2",
+  "composition": {
+    "formula": "Al3Fe6Tb1Zr2",
+    "elements": {
+      "Al": 3,
+      "Fe": 6,
+      "Tb": 1,
+      "Zr": 2
+    },
+    "reduced_formula": "TbZr2(AlFe2)3",
+    "element_list": [
+      "Al",
+      "Fe",
+      "Zr",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Bismuth Oxide (Bi2O3) - 90.0 g \n Calcium Carbonate (CaCO3) - 10.0 g \n Molybdenum Trioxide (MoO3) - 160.0 g \n Total Weight: 260.0 g"
+    },
+    "sourcing": {
+      "instructions": "Bismuth Oxide: Available from chemical supply stores or online suppliers like Sigma-Aldrich or Alfa Aesar. \n Calcium Carbonate: Available at local hardware stores or online suppliers. \n Molybdenum Trioxide: Available from specialty chemical suppliers.",
+      "steps": [
+        "Bismuth Oxide: Available from chemical supply stores or online suppliers like Sigma-Aldrich or Alfa Aesar.",
+        "Calcium Carbonate: Available at local hardware stores or online suppliers.",
+        "Molybdenum Trioxide: Available from specialty chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 90.0 g of Bismuth Oxide, 10.0 g of Calcium Carbonate, and 160.0 g of Molybdenum Trioxide using an analytical balance.",
+        "2. In a clean, dry mixing container, combine the weighed powders thoroughly using a spatula or mortar and pestle to ensure a homogeneous mixture.",
+        "3. Transfer the mixed powder into a ball mill and mill for 1 hour to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Weigh out 90.0 g of Bismuth Oxide, 10.0 g of Calcium Carbonate, and 160.0 g of Molybdenum Trioxide using an analytical balance. \n 2. In a clean, dry mixing container, combine the weighed powders thoroughly using a spatula or mortar and pestle to ensure a homogeneous mixture. \n 3. Transfer the mixed powder into a ball mill and mill for 1 hour to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 950,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 950°C.",
+        "2. Once the furnace reaches the desired temperature, place the powdered mixture in a high-temperature resistant crucible.",
+        "3. Heat the mixture at 950°C for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 950°C. \n 2. Once the furnace reaches the desired temperature, place the powdered mixture in a high-temperature resistant crucible. \n 3. Heat the mixture at 950°C for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock to the crucible."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally (approximately 6-8 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. If needed, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal the surface with a suitable ceramic sealer to enhance durability and prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. If needed, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, seal the surface with a suitable ceramic sealer to enhance durability and prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 181593.0,
+      "density": 69258.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -880955.0,
+      "formation_energy_per_atom": -3591.0,
+      "decomposition_energy_per_atom": -92.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -33.0,
+      "decomposition_energy_mp": -92.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bdb13c5880",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.280270Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Fe6Tb1Zr2.json",
+      "material://Al3Fe6Tb1Zr2"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "Cu14Ga12La2",
+  "uri": "material://Cu14Ga12La2",
+  "composition": {
+    "formula": "Cu14Ga12La2",
+    "elements": {
+      "Cu": 14,
+      "Ga": 12,
+      "La": 2
+    },
+    "reduced_formula": "LaGa6Cu7",
+    "element_list": [
+      "Cu",
+      "Ga",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 40 g, Ga: 60 g, Tm: 20 g (total: 120 g)"
+    },
+    "sourcing": {
+      "instructions": "Er: Purchase from chemical suppliers or online marketplaces. Ga: Source from metallurgical suppliers. Tm: Obtain from rare earth element suppliers.",
+      "steps": [
+        "Er: Purchase from chemical suppliers or online marketplaces. Ga: Source from metallurgical suppliers. Tm: Obtain from rare earth element suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 40 g of Er, 60 g of Ga, and 20 g of Tm using a precision scale. 2. Combine the powders in a clean, dry mixing container. 3. Use a mortar and pestle to thoroughly mix the powders for 15 minutes. 4. Transfer the mixed powders to a ball mill and mill for an additional 30 minutes to achieve a uniform particle size."
+      ],
+      "raw_text": "1. Measure out 40 g of Er, 60 g of Ga, and 20 g of Tm using a precision scale. 2. Combine the powders in a clean, dry mixing container. 3. Use a mortar and pestle to thoroughly mix the powders for 15 minutes. 4. Transfer the mixed powders to a ball mill and mill for an additional 30 minutes to achieve a uniform particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1200 °C. 2. Place the milled powder into a crucible suitable for high temperatures. 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to allow for complete melting and homogenization."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1200 °C. 2. Place the milled powder into a crucible suitable for high temperatures. 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to allow for complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally. 2. Ensure the cooling process takes approximately 4-6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally. 2. Ensure the cooling process takes approximately 4-6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible. 2. Inspect for any surface imperfections or irregularities. 3. Use sandpaper (grit 120-400) to smoothen the surface as required. 4. Seal the sample with a clear epoxy resin to protect the surface and enhance durability. Allow the epoxy to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. 2. Inspect for any surface imperfections or irregularities. 3. Use sandpaper (grit 120-400) to smoothen the surface as required. 4. Seal the sample with a clear epoxy resin to protect the surface and enhance durability. Allow the epoxy to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 4223879.0,
+      "density": 78789.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Ibam",
+      "space_group_number": 72,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1118125.0,
+      "formation_energy_per_atom": -2934.0,
+      "decomposition_energy_per_atom": -363.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -98.0,
+      "decomposition_energy_mp": -363.0,
+      "decomposition_energy_mp_oqmd": -34.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "af755a29ae",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:10.239690Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu14Ga12La2.json",
+      "material://Cu14Ga12La2"
+    ]
+  }
+}

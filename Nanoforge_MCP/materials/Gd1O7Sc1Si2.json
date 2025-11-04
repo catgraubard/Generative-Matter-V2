@@ -1,0 +1,105 @@
+{
+  "id": "Gd1O7Sc1Si2",
+  "uri": "material://Gd1O7Sc1Si2",
+  "composition": {
+    "formula": "Gd1O7Sc1Si2",
+    "elements": {
+      "Gd": 1,
+      "O": 7,
+      "Sc": 1,
+      "Si": 2
+    },
+    "reduced_formula": "GdScSi2O7",
+    "element_list": [
+      "O",
+      "Si",
+      "Sc",
+      "Gd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 30 g, Er: 60 g, Ga: 480 g, Ru: 60 g, Tb: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier; Er: Available from rare earth metal suppliers; Ga: Obtain from electronics suppliers; Ru: Source from precious metal suppliers; Tb: Acquire from rare earth element distributors.",
+      "steps": [
+        "Co: Purchase from a chemical supplier; Er: Available from rare earth metal suppliers; Ga: Obtain from electronics suppliers; Ru: Source from precious metal suppliers; Tb: Acquire from rare earth element distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale. 2. In a clean, dry glass container, combine Co, Er, Ga, Ru, and Tb in the specified amounts. 3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure a homogeneous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. 2. In a clean, dry glass container, combine Co, Er, Ga, Ru, and Tb in the specified amounts. 3. Use a mechanical stirrer to mix the powders thoroughly for 15 minutes to ensure a homogeneous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C. 2. Transfer the blended powders into a crucible made of alumina. 3. Place the crucible in the furnace and heat for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. 2. Transfer the blended powders into a crucible made of alumina. 3. Place the crucible in the furnace and heat for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature over 8 hours. 2. Do not open the furnace door until it is fully cooled to avoid contamination."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature over 8 hours. 2. Do not open the furnace door until it is fully cooled to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace and carefully extract the solidified sample using appropriate tools. 2. If necessary, grind the sample to refine the dimensions using a diamond grinding wheel. 3. Optionally, apply a sealing coat to the surface for enhanced durability."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace and carefully extract the solidified sample using appropriate tools. 2. If necessary, grind the sample to refine the dimensions using a diamond grinding wheel. 3. Optionally, apply a sealing coat to the surface for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 11,
+      "volume": 1392065.0,
+      "density": 4418.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1057255.0,
+      "formation_energy_per_atom": -3621.0,
+      "decomposition_energy_per_atom": -17.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": 3.4582,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db65e72137",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.378850Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Gd1O7Sc1Si2.json",
+      "material://Gd1O7Sc1Si2"
+    ]
+  }
+}

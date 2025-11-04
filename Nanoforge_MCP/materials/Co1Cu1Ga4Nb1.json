@@ -1,0 +1,111 @@
+{
+  "id": "Co1Cu1Ga4Nb1",
+  "uri": "material://Co1Cu1Ga4Nb1",
+  "composition": {
+    "formula": "Co1Cu1Ga4Nb1",
+    "elements": {
+      "Co": 1,
+      "Cu": 1,
+      "Ga": 4,
+      "Nb": 1
+    },
+    "reduced_formula": "NbGa4CoCu",
+    "element_list": [
+      "Co",
+      "Cu",
+      "Ga",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt (Co): 1.5 g\nCopper (Cu): 1.5 g\nGallium (Ga): 6 g<brNiobium (Nb): 1.5 g\nAluminum (Al): 0.5 g\nCarbon (C): 0.5 g (for binding)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Purchase from a metal supplier or online chemical vendor.\nCopper: Available at hardware stores or online.\nGallium: Obtain from chemical suppliers.\nNiobium: Source from specialty metal suppliers.\nAluminum: Purchase from local hardware stores.\nCarbon: Available as graphite powder from scientific suppliers.",
+      "steps": [
+        "Cobalt: Purchase from a metal supplier or online chemical vendor.",
+        "Copper: Available at hardware stores or online.",
+        "Gallium: Obtain from chemical suppliers.",
+        "Niobium: Source from specialty metal suppliers.",
+        "Aluminum: Purchase from local hardware stores.",
+        "Carbon: Available as graphite powder from scientific suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Co, Cu, Ga, Nb, Al, and C in specified amounts.",
+        "3. Use a mortar and pestle to thoroughly mix the powders to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale.\n2. In a clean, dry mixing container, combine Co, Cu, Ga, Nb, Al, and C in specified amounts.\n3. Use a mortar and pestle to thoroughly mix the powders to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat in a furnace or oven to 900°C (1652°F) for 2 hours to promote alloy formation.",
+        "3. Ensure the heating environment is inert to prevent oxidation, using argon or nitrogen gas if possible."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible.\n2. Heat in a furnace or oven to 900°C (1652°F) for 2 hours to promote alloy formation.\n3. Ensure the heating environment is inert to prevent oxidation, using argon or nitrogen gas if possible."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally in the furnace to avoid thermal shock, which may take approximately 4-6 hours.",
+        "2. Once cooled, remove the crucible from the furnace carefully."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally in the furnace to avoid thermal shock, which may take approximately 4-6 hours.\n2. Once cooled, remove the crucible from the furnace carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid alloy from the crucible.",
+        "2. Use a bench grinder or sanding tool to smooth out any rough edges.",
+        "3. Optionally, apply a sealant or protective coating to prevent oxidation if the material is not used immediately."
+      ],
+      "raw_text": "1. Remove the solid alloy from the crucible.\n2. Use a bench grinder or sanding tool to smooth out any rough edges.\n3. Optionally, apply a sealant or protective coating to prevent oxidation if the material is not used immediately."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 7,
+      "volume": 104307.0,
+      "density": 78688.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -356022.0,
+      "formation_energy_per_atom": -3116.0,
+      "decomposition_energy_per_atom": -494.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -397.0,
+      "decomposition_energy_mp": -494.0,
+      "decomposition_energy_mp_oqmd": -424.0
+    },
+    "electronic": {
+      "bandgap": 0.0431,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6af6042114",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:35.687030Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Cu1Ga4Nb1.json",
+      "material://Co1Cu1Ga4Nb1"
+    ]
+  }
+}

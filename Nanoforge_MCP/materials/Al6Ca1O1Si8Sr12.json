@@ -1,0 +1,108 @@
+{
+  "id": "Al6Ca1O1Si8Sr12",
+  "uri": "material://Al6Ca1O1Si8Sr12",
+  "composition": {
+    "formula": "Al6Ca1O1Si8Sr12",
+    "elements": {
+      "Al": 6,
+      "Ca": 1,
+      "O": 1,
+      "Si": 8,
+      "Sr": 12
+    },
+    "reduced_formula": "Sr12CaAl6Si8O",
+    "element_list": [
+      "O",
+      "Al",
+      "Si",
+      "Ca",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 1.5 g, Nd: 6.0 g, P: 3.0 g, Ru: 12.5 g"
+    },
+    "sourcing": {
+      "instructions": "Ce: Order from a rare earth metal supplier (e.g., Alfa Aesar); Nd: Available from chemical supply companies (e.g., Sigma-Aldrich); P: Obtain from chemical supply (e.g., Fisher Scientific); Ru: Purchase from a precious metal supplier (e.g., Johnson Matthey).",
+      "steps": [
+        "Ce: Order from a rare earth metal supplier (e.g., Alfa Aesar); Nd: Available from chemical supply companies (e.g., Sigma-Aldrich); P: Obtain from chemical supply (e.g., Fisher Scientific); Ru: Purchase from a precious metal supplier (e.g., Johnson Matthey)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 1.5 g of Ce, 6.0 g of Nd, 3.0 g of P, and 12.5 g of Ru using a precision balance. 2. In a clean, dry container, combine all weighed powders thoroughly using a spatula for 5 minutes. 3. Transfer the mixed powders to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh out 1.5 g of Ce, 6.0 g of Nd, 3.0 g of P, and 12.5 g of Ru using a precision balance. 2. In a clean, dry container, combine all weighed powders thoroughly using a spatula for 5 minutes. 3. Transfer the mixed powders to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a muffle furnace. 2. Heat to 1200°C at a rate of 10°C/min. 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. 2. Heat to 1200°C at a rate of 10°C/min. 3. Maintain this temperature for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C). 2. This cooling process should take approximately 8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C). 2. This cooling process should take approximately 8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once completely cooled, remove the sample from the crucible. 2. Inspect for any surface imperfections. 3. If necessary, use fine-grit sandpaper to smooth the surface. 4. Optionally, apply a clear sealant suitable for metal to protect the surface."
+      ],
+      "raw_text": "1. Once completely cooled, remove the sample from the crucible. 2. Inspect for any surface imperfections. 3. If necessary, use fine-grit sandpaper to smooth the surface. 4. Optionally, apply a clear sealant suitable for metal to protect the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7823366.0,
+      "density": 31713.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1099798.0,
+      "formation_energy_per_atom": -6027.0,
+      "decomposition_energy_per_atom": -122.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -72.0,
+      "decomposition_energy_mp": -12.0,
+      "decomposition_energy_mp_oqmd": -74.0
+    },
+    "electronic": {
+      "bandgap": 0.0189,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dddd65333d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.198403Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al6Ca1O1Si8Sr12.json",
+      "material://Al6Ca1O1Si8Sr12"
+    ]
+  }
+}

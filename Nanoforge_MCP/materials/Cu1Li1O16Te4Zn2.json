@@ -1,0 +1,115 @@
+{
+  "id": "Cu1Li1O16Te4Zn2",
+  "uri": "material://Cu1Li1O16Te4Zn2",
+  "composition": {
+    "formula": "Cu1Li1O16Te4Zn2",
+    "elements": {
+      "Cu": 1,
+      "Li": 1,
+      "O": 16,
+      "Te": 4,
+      "Zn": 2
+    },
+    "reduced_formula": "LiZn2Cu(TeO4)4",
+    "element_list": [
+      "Li",
+      "O",
+      "Cu",
+      "Zn",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 32.57,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 32.57 g, Li: 6.94 g, O: 64.00 g, Te: 10.10 g, Zn: 9.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online metal shop; Li: Chemical supply store or online chemical retailer; O: Oxygen canister or distilled water; Te: Chemical supply store; Zn: Local metal supplier or online metal shop.",
+      "steps": [
+        "Cu: Local metal supplier or online metal shop; Li: Chemical supply store or online chemical retailer; O: Oxygen canister or distilled water; Te: Chemical supply store; Zn: Local metal supplier or online metal shop."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine Cu, Li, O, Te, and Zn in the specified amounts.",
+        "3. Use a mortar and pestle to finely grind the mixture until homogeneous.",
+        "4. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.\n2. In a clean, dry mixing container, combine Cu, Li, O, Te, and Zn in the specified amounts.\n3. Use a mortar and pestle to finely grind the mixture until homogeneous.\n4. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a muffle furnace to 800 °C.",
+        "2. Place the crucible with the mixture in the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800 °C.\n2. Place the crucible with the mixture in the furnace.\n3. Maintain the temperature for 2 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).\n2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and extract the material.",
+        "2. Use sandpaper to smooth rough edges and surfaces if needed.",
+        "3. Optionally, apply a sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and extract the material.\n2. Use sandpaper to smooth rough edges and surfaces if needed.\n3. Optionally, apply a sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2805197.0,
+      "density": 57283.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -136102.0,
+      "formation_energy_per_atom": -14931.0,
+      "decomposition_energy_per_atom": -156.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -163.0,
+      "decomposition_energy_mp_oqmd": -89.0
+    },
+    "electronic": {
+      "bandgap": 0.3225,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5de2bd35ad",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:18.656617Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Li1O16Te4Zn2.json",
+      "material://Cu1Li1O16Te4Zn2"
+    ]
+  }
+}

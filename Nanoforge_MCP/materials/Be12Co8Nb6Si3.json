@@ -1,0 +1,125 @@
+{
+  "id": "Be12Co8Nb6Si3",
+  "uri": "material://Be12Co8Nb6Si3",
+  "composition": {
+    "formula": "Be12Co8Nb6Si3",
+    "elements": {
+      "Be": 12,
+      "Co": 8,
+      "Nb": 6,
+      "Si": 3
+    },
+    "reduced_formula": "Be12Nb6Co8Si3",
+    "element_list": [
+      "Be",
+      "Si",
+      "Co",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 200 g \n Ba: 200 g \n Bi: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Al (Aluminum): Purchase from metal supply stores or online suppliers (e.g., Amazon, McMaster-Carr). \n Ba (Barium): Obtain from chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific). \n Bi (Bismuth): Available from metal suppliers or specialty online retailers.",
+      "steps": [
+        "Al (Aluminum): Purchase from metal supply stores or online suppliers (e.g., Amazon, McMaster-Carr).",
+        "Ba (Barium): Obtain from chemical supply companies (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "Bi (Bismuth): Available from metal suppliers or specialty online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 200 g of aluminum powder using a precise scale.",
+        "2. Measure 200 g of barium powder with the same scale.",
+        "3. Measure 40 g of bismuth powder.",
+        "4. In a clean and dry container, combine the aluminum, barium, and bismuth powders thoroughly using a spatula or mixer. Ensure an even mixture by stirring for at least 5 minutes."
+      ],
+      "raw_text": "1. Measure 200 g of aluminum powder using a precise scale. \n 2. Measure 200 g of barium powder with the same scale. \n 3. Measure 40 g of bismuth powder. \n 4. In a clean and dry container, combine the aluminum, barium, and bismuth powders thoroughly using a spatula or mixer. Ensure an even mixture by stirring for at least 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Preheat a furnace or a muffle oven to 800 °C.",
+        "3. Place the crucible in the furnace and maintain this temperature for 2 hours to ensure full melting and alloy formation."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Preheat a furnace or a muffle oven to 800 °C. \n 3. Place the crucible in the furnace and maintain this temperature for 2 hours to ensure full melting and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and let it cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace until it has cooled down to prevent oxidation."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and let it cool down naturally to room temperature (approximately 1-2 hours). \n 2. Do not open the furnace until it has cooled down to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible and extract the solidified alloy.",
+        "2. Use a grinder or sanding tool to smooth out any rough edges and achieve a uniform surface finish.",
+        "3. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible and extract the solidified alloy. \n 2. Use a grinder or sanding tool to smooth out any rough edges and achieve a uniform surface finish. \n 3. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 3193128.0,
+      "density": 63512.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1914507.0,
+      "formation_energy_per_atom": -4423.0,
+      "decomposition_energy_per_atom": -404.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -93.0,
+      "decomposition_energy_mp": -403.0,
+      "decomposition_energy_mp_oqmd": -395.0
+    },
+    "electronic": {
+      "bandgap": 0.0011,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b611179f08",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.262458Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Be12Co8Nb6Si3.json",
+      "material://Be12Co8Nb6Si3"
+    ]
+  }
+}

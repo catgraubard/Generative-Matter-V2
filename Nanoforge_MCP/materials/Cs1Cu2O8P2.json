@@ -1,0 +1,115 @@
+{
+  "id": "Cs1Cu2O8P2",
+  "uri": "material://Cs1Cu2O8P2",
+  "composition": {
+    "formula": "Cs1Cu2O8P2",
+    "elements": {
+      "Cs": 1,
+      "Cu": 2,
+      "O": 8,
+      "P": 2
+    },
+    "reduced_formula": "CsCu2(PO4)2",
+    "element_list": [
+      "O",
+      "P",
+      "Cu",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 29.12,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 29.12 g, Cu: 58.24 g, O: 64.00 g, P: 31.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Cu: Buy copper(II) oxide from a chemical store; O: Use distilled water for hydration; P: Purchase phosphoric acid from a local supplier.",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Cu: Buy copper(II) oxide from a chemical store; O: Use distilled water for hydration; P: Purchase phosphoric acid from a local supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 29.12 g of cesium carbonate (Cs).",
+        "2. Weigh 58.24 g of copper(II) oxide (CuO).",
+        "3. Weigh 31.00 g of phosphoric acid (H3PO4).",
+        "4. In a clean, dry container, mix Cs and CuO thoroughly using a mortar and pestle.",
+        "5. Slowly add phosphoric acid while continuously stirring to form a homogeneous paste."
+      ],
+      "raw_text": "1. Weigh 29.12 g of cesium carbonate (Cs). \n 2. Weigh 58.24 g of copper(II) oxide (CuO). \n 3. Weigh 31.00 g of phosphoric acid (H3PO4). \n 4. In a clean, dry container, mix Cs and CuO thoroughly using a mortar and pestle. \n 5. Slowly add phosphoric acid while continuously stirring to form a homogeneous paste."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the paste into a ceramic crucible.",
+        "2. Heat in a furnace at 800°C for 4 hours.",
+        "3. Increase the temperature to 1000°C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Transfer the paste into a ceramic crucible.\n 2. Heat in a furnace at 800°C for 4 hours. \n 3. Increase the temperature to 1000°C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature over 6-8 hours.",
+        "2. Do not open the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature over 6-8 hours. \n 2. Do not open the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface gently with fine-grit sandpaper until smooth.",
+        "4. Store the finished sample in a dry, cool place."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface gently with fine-grit sandpaper until smooth. \n 4. Store the finished sample in a dry, cool place."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2135469.0,
+      "density": 34987.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -86479.0,
+      "formation_energy_per_atom": -2075.0,
+      "decomposition_energy_per_atom": -75.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -77.0,
+      "decomposition_energy_mp": -81.0,
+      "decomposition_energy_mp_oqmd": -77.0
+    },
+    "electronic": {
+      "bandgap": 0.0033,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f14c5170b5",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.060488Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Cu2O8P2.json",
+      "material://Cs1Cu2O8P2"
+    ]
+  }
+}

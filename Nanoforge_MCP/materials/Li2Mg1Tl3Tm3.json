@@ -1,0 +1,130 @@
+{
+  "id": "Li2Mg1Tl3Tm3",
+  "uri": "material://Li2Mg1Tl3Tm3",
+  "composition": {
+    "formula": "Li2Mg1Tl3Tm3",
+    "elements": {
+      "Li": 2,
+      "Mg": 1,
+      "Tl": 3,
+      "Tm": 3
+    },
+    "reduced_formula": "Li2Tm3MgTl3",
+    "element_list": [
+      "Li",
+      "Mg",
+      "Tm",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mg",
+          "amount": 24.3,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 135.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 168.9,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 32.0 g (Lithium Carbonate) \n Mg: 24.3 g (Magnesium Oxide) \n Tl: 135.0 g (Thallium(I) Oxide) \n Tm: 168.9 g (Thulium Oxide)"
+    },
+    "sourcing": {
+      "instructions": "Lithium Carbonate: Chemical supply store or online chemical supplier \n Magnesium Oxide: Local hardware store or online chemical supplier \n Thallium(I) Oxide: Specialized chemical supplier \n Thulium Oxide: Online chemical supplier or specialized material store",
+      "steps": [
+        "Lithium Carbonate: Chemical supply store or online chemical supplier",
+        "Magnesium Oxide: Local hardware store or online chemical supplier",
+        "Thallium(I) Oxide: Specialized chemical supplier",
+        "Thulium Oxide: Online chemical supplier or specialized material store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean ceramic or glass container, combine the Li, Mg, Tl, and Tm powders.",
+        "3. Stir the mixture thoroughly with a glass rod to ensure even distribution.",
+        "4. Transfer the mixture into a mortar and grind it further to achieve a fine powder."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean ceramic or glass container, combine the Li, Mg, Tl, and Tm powders. \n 3. Stir the mixture thoroughly with a glass rod to ensure even distribution. \n 4. Transfer the mixture into a mortar and grind it further to achieve a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixed powder into a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixed powder into a ceramic crucible. \n 3. Heat the crucible in the furnace for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "Allow the crucible to cool down naturally in the furnace to room temperature over a period of 6 hours to prevent thermal shock."
+      ],
+      "raw_text": "Allow the crucible to cool down naturally in the furnace to room temperature over a period of 6 hours to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect the sample for any rough edges and use sandpaper to smooth these areas.",
+        "3. Optionally, seal the surface with a clear epoxy resin for protection against moisture and chemical exposure."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect the sample for any rough edges and use sandpaper to smooth these areas. \n 3. Optionally, seal the surface with a clear epoxy resin for protection against moisture and chemical exposure."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 2153419.0,
+      "density": 89306.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -285482.0,
+      "formation_energy_per_atom": -2905.0,
+      "decomposition_energy_per_atom": -193.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -193.0,
+      "decomposition_energy_mp_oqmd": -169.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "48a6630e85",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:50.980922Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li2Mg1Tl3Tm3.json",
+      "material://Li2Mg1Tl3Tm3"
+    ]
+  }
+}

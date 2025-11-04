@@ -1,0 +1,129 @@
+{
+  "id": "Al18Ni6Tm1Zr1",
+  "uri": "material://Al18Ni6Tm1Zr1",
+  "composition": {
+    "formula": "Al18Ni6Tm1Zr1",
+    "elements": {
+      "Al": 18,
+      "Ni": 6,
+      "Tm": 1,
+      "Zr": 1
+    },
+    "reduced_formula": "TmZr(Al3Ni)6",
+    "element_list": [
+      "Al",
+      "Ni",
+      "Zr",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 75.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 40.0 g \n La: 10.0 g \n Ni: 25.0 g \n Y: 75.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cd (Cadmium): Obtain from a chemical supply store or online specialty metal supplier.\n La (Lanthanum): Purchase from a rare earth metal supplier.\n Ni (Nickel): Available at hardware stores or metal suppliers.\n Y (Yttrium): Source from a rare earth metal supplier.",
+      "steps": [
+        "Cd (Cadmium): Obtain from a chemical supply store or online specialty metal supplier.",
+        "La (Lanthanum): Purchase from a rare earth metal supplier.",
+        "Ni (Nickel): Available at hardware stores or metal suppliers.",
+        "Y (Yttrium): Source from a rare earth metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40.0 g of Cd, 10.0 g of La, 25.0 g of Ni, and 75.0 g of Y using a precision scale.",
+        "2. In a clean, dry container, combine the weighed ingredients thoroughly using a mechanical mixer or mortar and pestle until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 40.0 g of Cd, 10.0 g of La, 25.0 g of Ni, and 75.0 g of Y using a precision scale.\n 2. In a clean, dry container, combine the weighed ingredients thoroughly using a mechanical mixer or mortar and pestle until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Heat the crucible in a furnace to a temperature of 800°C (1472°F) at a rate of 5°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible.\n 2. Heat the crucible in a furnace to a temperature of 800°C (1472°F) at a rate of 5°C/min.\n 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature slowly within the furnace (approximately 4-5 hours) to prevent thermal shock and cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature slowly within the furnace (approximately 4-5 hours) to prevent thermal shock and cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the compound from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. If necessary, sand the edges for smoothing and sealing."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the compound from the crucible.\n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).\n 3. If necessary, sand the edges for smoothing and sealing."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 4106026.0,
+      "density": 44404.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1286247.0,
+      "formation_energy_per_atom": -5192.0,
+      "decomposition_energy_per_atom": -18.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -23.0,
+      "decomposition_energy_mp": -179.0,
+      "decomposition_energy_mp_oqmd": -163.0
+    },
+    "electronic": {
+      "bandgap": 0.0219,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b629362bde",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.281568Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al18Ni6Tm1Zr1.json",
+      "material://Al18Ni6Tm1Zr1"
+    ]
+  }
+}

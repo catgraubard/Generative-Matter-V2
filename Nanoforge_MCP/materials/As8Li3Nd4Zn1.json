@@ -1,0 +1,132 @@
+{
+  "id": "As8Li3Nd4Zn1",
+  "uri": "material://As8Li3Nd4Zn1",
+  "composition": {
+    "formula": "As8Li3Nd4Zn1",
+    "elements": {
+      "As": 8,
+      "Li": 3,
+      "Nd": 4,
+      "Zn": 1
+    },
+    "reduced_formula": "Li3Nd4ZnAs8",
+    "element_list": [
+      "Li",
+      "Zn",
+      "As",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 32.4,
+          "unit": "g"
+        },
+        {
+          "element": "Li",
+          "amount": 12.2,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 20.4,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 4.9,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 32.4 g \n Li: 12.2 g \n Nd: 20.4 g \n Zn: 4.9 g"
+    },
+    "sourcing": {
+      "instructions": "As: Obtain from a chemical supplier that sells arsenic compounds. \n Li: Purchase lithium carbonate from a chemical supply store. \n Nd: Source from a rare earth material supplier. \n Zn: Available at hardware stores as zinc powder.",
+      "steps": [
+        "As: Obtain from a chemical supplier that sells arsenic compounds.",
+        "Li: Purchase lithium carbonate from a chemical supply store.",
+        "Nd: Source from a rare earth material supplier.",
+        "Zn: Available at hardware stores as zinc powder."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision balance.",
+        "2. In a clean, dry container, add arsenic (As), lithium (Li), neodymium (Nd), and zinc (Zn) in the specified order.",
+        "3. Mix the powders thoroughly using a mortar and pestle until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision balance. \n 2. In a clean, dry container, add arsenic (As), lithium (Li), neodymium (Nd), and zinc (Zn) in the specified order. \n 3. Mix the powders thoroughly using a mortar and pestle until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat gradually to 800°C at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature. \n 2. This cooling process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth any rough edges and achieve desired dimensions.",
+        "3. Optionally, seal the surface with a clear epoxy for protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond file to smooth any rough edges and achieve desired dimensions. \n 3. Optionally, seal the surface with a clear epoxy for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 339257.0,
+      "density": 61798.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -790401.0,
+      "formation_energy_per_atom": -9818.0,
+      "decomposition_energy_per_atom": -82.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -55.0,
+      "decomposition_energy_mp": -91.0,
+      "decomposition_energy_mp_oqmd": -55.0
+    },
+    "electronic": {
+      "bandgap": 0.0114,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1f7487f8f0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:56.901198Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As8Li3Nd4Zn1.json",
+      "material://As8Li3Nd4Zn1"
+    ]
+  }
+}

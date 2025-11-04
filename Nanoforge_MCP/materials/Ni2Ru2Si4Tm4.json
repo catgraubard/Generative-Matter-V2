@@ -1,0 +1,131 @@
+{
+  "id": "Ni2Ru2Si4Tm4",
+  "uri": "material://Ni2Ru2Si4Tm4",
+  "composition": {
+    "formula": "Ni2Ru2Si4Tm4",
+    "elements": {
+      "Ni": 2,
+      "Ru": 2,
+      "Si": 4,
+      "Tm": 4
+    },
+    "reduced_formula": "Tm2Si2NiRu",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Ru",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 30 g \n Ru: 10 g \n Si: 40 g \n Tm: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Metal suppliers or online marketplaces (e.g., Amazon, eBay) \n Ru: Specialty metal suppliers or chemical suppliers \n Si: Silicon suppliers or electronics stores \n Tm: Rare earth element suppliers or specialized chemical suppliers",
+      "steps": [
+        "Ni: Metal suppliers or online marketplaces (e.g., Amazon, eBay)",
+        "Ru: Specialty metal suppliers or chemical suppliers",
+        "Si: Silicon suppliers or electronics stores",
+        "Tm: Rare earth element suppliers or specialized chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material accurately using a precision scale.",
+        "2. In a clean, dry container, combine Ni, Ru, Si, and Tm in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out each material accurately using a precision scale. \n 2. In a clean, dry container, combine Ni, Ru, Si, and Tm in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible made of a compatible material.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat the mixture to 1200°C at a rate of 10°C per minute.",
+        "4. Maintain the temperature for 2 hours to allow for complete reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible made of a compatible material. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat the mixture to 1200°C at a rate of 10°C per minute. \n 4. Maintain the temperature for 2 hours to allow for complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours) to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours) to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any defects or cracks.",
+        "3. If necessary, use sandpaper to smooth the surface.",
+        "4. Optionally, apply a sealant or coating for protection against oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any defects or cracks. \n 3. If necessary, use sandpaper to smooth the surface. \n 4. Optionally, apply a sealant or coating for protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2044354.0,
+      "density": 89966.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -800855.0,
+      "formation_energy_per_atom": -8643.0,
+      "decomposition_energy_per_atom": -402.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -15.0,
+      "decomposition_energy_mp": -615.0,
+      "decomposition_energy_mp_oqmd": -205.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3a6e4f564b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:32.545588Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni2Ru2Si4Tm4.json",
+      "material://Ni2Ru2Si4Tm4"
+    ]
+  }
+}

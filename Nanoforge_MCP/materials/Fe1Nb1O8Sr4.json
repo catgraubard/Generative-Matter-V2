@@ -1,0 +1,111 @@
+{
+  "id": "Fe1Nb1O8Sr4",
+  "uri": "material://Fe1Nb1O8Sr4",
+  "composition": {
+    "formula": "Fe1Nb1O8Sr4",
+    "elements": {
+      "Fe": 1,
+      "Nb": 1,
+      "O": 8,
+      "Sr": 4
+    },
+    "reduced_formula": "Sr4NbFeO8",
+    "element_list": [
+      "O",
+      "Fe",
+      "Sr",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 19.2 g \n - Niobium (Nb): 15.5 g \n - Oxygen (O): 43.2 g (calculate based on the oxide required) \n - Strontium (Sr): 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Local metal supplier or online supplier (e.g., Amazon, McMaster-Carr) \n - Niobium: Specialty metal suppliers or online markets (e.g., eBay, online metal stores) \n - Oxygen: Use as a gas for reactions, available in chemical supply stores \n - Strontium: Chemical supply stores or online retailers (e.g., Sigma-Aldrich, Fisher Scientific)",
+      "steps": [
+        "- Iron: Local metal supplier or online supplier (e.g., Amazon, McMaster-Carr)",
+        "- Niobium: Specialty metal suppliers or online markets (e.g., eBay, online metal stores)",
+        "- Oxygen: Use as a gas for reactions, available in chemical supply stores",
+        "- Strontium: Chemical supply stores or online retailers (e.g., Sigma-Aldrich, Fisher Scientific)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry glass or ceramic container, combine the iron, niobium, and strontium powders.",
+        "3. Gradually introduce the oxygen in a controlled environment, ensuring not to exceed safe limits to avoid excessive reaction.",
+        "4. Mix thoroughly using a ceramic or glass stirring rod until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry glass or ceramic container, combine the iron, niobium, and strontium powders. \n 3. Gradually introduce the oxygen in a controlled environment, ensuring not to exceed safe limits to avoid excessive reaction. \n 4. Mix thoroughly using a ceramic or glass stirring rod until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature furnace.",
+        "2. Heat the mixture to 1200°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 4 hours to allow for complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature furnace. \n 2. Heat the mixture to 1200°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 4 hours to allow for complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the material to cool down naturally to room temperature.",
+        "2. Ensure the cooling process takes at least 6 hours to avoid thermal shock or cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the material to cool down naturally to room temperature. \n 2. Ensure the cooling process takes at least 6 hours to avoid thermal shock or cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Inspect for any surface imperfections; if present, use fine-grit sandpaper to smooth the surface.",
+        "3. Optionally, apply a sealant if the material is to be exposed to moisture or reactive environments.",
+        "4. Store the finished product in a dry place to prevent oxidation or degradation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Inspect for any surface imperfections; if present, use fine-grit sandpaper to smooth the surface. \n 3. Optionally, apply a sealant if the material is to be exposed to moisture or reactive environments. \n 4. Store the finished product in a dry place to prevent oxidation or degradation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2050826.0,
+      "density": 50786.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1066588.0,
+      "formation_energy_per_atom": -29818.0,
+      "decomposition_energy_per_atom": -121.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -85.0,
+      "decomposition_energy_mp": -127.0,
+      "decomposition_energy_mp_oqmd": -85.0
+    },
+    "electronic": {
+      "bandgap": 1.481,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "1881497d12",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:47.745638Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Nb1O8Sr4.json",
+      "material://Fe1Nb1O8Sr4"
+    ]
+  }
+}

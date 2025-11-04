@@ -1,0 +1,112 @@
+{
+  "id": "Fe4O15Ru1Sr5",
+  "uri": "material://Fe4O15Ru1Sr5",
+  "composition": {
+    "formula": "Fe4O15Ru1Sr5",
+    "elements": {
+      "Fe": 4,
+      "O": 15,
+      "Ru": 1,
+      "Sr": 5
+    },
+    "reduced_formula": "Sr5Fe4RuO15",
+    "element_list": [
+      "O",
+      "Fe",
+      "Sr",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Cobalt (Co): 50 g  \n - Iron (Fe): 60 g  \n - Phosphorus (P): 70 g  \n - Terbium (Tb): 20 g  \n - Tungsten (W): 10 g"
+    },
+    "sourcing": {
+      "instructions": "- Cobalt: Purchase from chemical supply companies or online suppliers like Sigma-Aldrich.  \n - Iron: Obtain from metal suppliers or hardware stores.  \n - Phosphorus: Available at chemical supply stores or online.  \n - Terbium: Obtain from rare earth metal suppliers or online.  \n - Tungsten: Purchase from metal suppliers or online.",
+      "steps": [
+        "- Cobalt: Purchase from chemical supply companies or online suppliers like Sigma-Aldrich.",
+        "- Iron: Obtain from metal suppliers or hardware stores.",
+        "- Phosphorus: Available at chemical supply stores or online.",
+        "- Terbium: Obtain from rare earth metal suppliers or online.",
+        "- Tungsten: Purchase from metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient with a precision scale.",
+        "2. In a clean, dry mixing container, combine cobalt, iron, phosphorus, terbium, and tungsten.",
+        "3. Use a mechanical mixer to ensure uniform distribution of the powders for 15 minutes.",
+        "4. Transfer the mixture to a mortaring bowl and grind it further for 10 minutes to achieve a fine powder consistency."
+      ],
+      "raw_text": "1. Measure each ingredient with a precision scale. \n 2. In a clean, dry mixing container, combine cobalt, iron, phosphorus, terbium, and tungsten. \n 3. Use a mechanical mixer to ensure uniform distribution of the powders for 15 minutes. \n 4. Transfer the mixture to a mortaring bowl and grind it further for 10 minutes to achieve a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed powder in a graphite crucible.",
+        "3. Insert the crucible into the furnace and heat for 2 hours to facilitate initial sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed powder in a graphite crucible. \n 3. Insert the crucible into the furnace and heat for 2 hours to facilitate initial sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature over a duration of 6 hours.",
+        "2. Do not open the furnace door until the temperature is below 100°C to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature over a duration of 6 hours. \n 2. Do not open the furnace door until the temperature is below 100°C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sintered piece from the crucible.",
+        "2. Use a diamond grinding wheel to smooth out the surfaces and edges.",
+        "3. Clean the sample with isopropyl alcohol to remove any residual dust or contaminants.",
+        "4. Seal the material with a clear epoxy resin to protect it from moisture and environmental exposure. Allow to cure for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, remove the sintered piece from the crucible. \n 2. Use a diamond grinding wheel to smooth out the surfaces and edges. \n 3. Clean the sample with isopropyl alcohol to remove any residual dust or contaminants. \n 4. Seal the material with a clear epoxy resin to protect it from moisture and environmental exposure. Allow to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 25,
+      "volume": 3075334.0,
+      "density": 54133.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1822054.0,
+      "formation_energy_per_atom": -22554.0,
+      "decomposition_energy_per_atom": -38.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -44.0,
+      "decomposition_energy_mp_oqmd": -15.0
+    },
+    "electronic": {
+      "bandgap": 0.0015,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dd0376f191",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.806159Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe4O15Ru1Sr5.json",
+      "material://Fe4O15Ru1Sr5"
+    ]
+  }
+}

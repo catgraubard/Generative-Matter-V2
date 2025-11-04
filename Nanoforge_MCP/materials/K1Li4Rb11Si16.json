@@ -1,0 +1,114 @@
+{
+  "id": "K1Li4Rb11Si16",
+  "uri": "material://K1Li4Rb11Si16",
+  "composition": {
+    "formula": "K1Li4Rb11Si16",
+    "elements": {
+      "K": 1,
+      "Li": 4,
+      "Rb": 11,
+      "Si": 16
+    },
+    "reduced_formula": "KRb11(LiSi4)4",
+    "element_list": [
+      "Li",
+      "Si",
+      "K",
+      "Rb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "K",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K: 15.0 g, Li: 20.0 g, Rb: 25.0 g, Si: 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "Potassium (K) from chemical suppliers, Lithium (Li) from battery manufacturers, Rubidium (Rb) from specialty chemical suppliers, Silicon (Si) from semiconductor manufacturers.",
+      "steps": [
+        "Potassium (K) from chemical suppliers, Lithium (Li) from battery manufacturers, Rubidium (Rb) from specialty chemical suppliers, Silicon (Si) from semiconductor manufacturers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the K, Li, Rb, and Si accurately using a precision balance.",
+        "2. In a clean, dry environment, combine the weighed K, Li, Rb, and Si in a ceramic or glass mixing container.",
+        "3. Stir the mixture thoroughly using a non-reactive spatula until homogenous.",
+        "4. Transfer the mixture to a ball mill for finer grinding (if necessary) for 30 minutes."
+      ],
+      "raw_text": "1. Weigh the K, Li, Rb, and Si accurately using a precision balance. \n 2. In a clean, dry environment, combine the weighed K, Li, Rb, and Si in a ceramic or glass mixing container. \n 3. Stir the mixture thoroughly using a non-reactive spatula until homogenous. \n 4. Transfer the mixture to a ball mill for finer grinding (if necessary) for 30 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixed powder in a crucible suitable for high temperatures.",
+        "3. Heat the crucible gradually to 1000°C over 1 hour and maintain for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixed powder in a crucible suitable for high temperatures. \n 3. Heat the crucible gradually to 1000°C over 1 hour and maintain for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Avoid rapid cooling to prevent cracking in the solid sample."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Avoid rapid cooling to prevent cracking in the solid sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant or coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant or coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 10021651.0,
+      "density": 24131.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1083291.0,
+      "formation_energy_per_atom": -623.0,
+      "decomposition_energy_per_atom": -11.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -115.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": 1.38,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "571a9252db",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:10.040260Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/K1Li4Rb11Si16.json",
+      "material://K1Li4Rb11Si16"
+    ]
+  }
+}

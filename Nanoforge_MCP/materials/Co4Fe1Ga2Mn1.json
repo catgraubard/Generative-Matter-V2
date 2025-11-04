@@ -1,0 +1,112 @@
+{
+  "id": "Co4Fe1Ga2Mn1",
+  "uri": "material://Co4Fe1Ga2Mn1",
+  "composition": {
+    "formula": "Co4Fe1Ga2Mn1",
+    "elements": {
+      "Co": 4,
+      "Fe": 1,
+      "Ga": 2,
+      "Mn": 1
+    },
+    "reduced_formula": "MnGa2FeCo4",
+    "element_list": [
+      "Mn",
+      "Fe",
+      "Co",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Carbonate (BaCO3): 80 g \n Cobalt Oxide (CoO): 40 g \n Cesium Carbonate (Cs2CO3): 70 g \n Barium Hydroxide (Ba(OH)2): 60 g \n Oxygen Source: 10 g (if needed for purity)"
+    },
+    "sourcing": {
+      "instructions": "Barium Carbonate: Chemical supply stores or online chemical suppliers \n Cobalt Oxide: Specialty ceramic suppliers or online platforms \n Cesium Carbonate: Online chemical suppliers \n Barium Hydroxide: Chemical supply stores \n Oxygen Source: Can be sourced from chemical supply stores or generated via a suitable reaction if necessary",
+      "steps": [
+        "Barium Carbonate: Chemical supply stores or online chemical suppliers",
+        "Cobalt Oxide: Specialty ceramic suppliers or online platforms",
+        "Cesium Carbonate: Online chemical suppliers",
+        "Barium Hydroxide: Chemical supply stores",
+        "Oxygen Source: Can be sourced from chemical supply stores or generated via a suitable reaction if necessary"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing bowl, combine Barium Carbonate, Cobalt Oxide, Cesium Carbonate, and Barium Hydroxide.",
+        "3. Mix thoroughly using a ceramic spatula to ensure uniform distribution of powders.",
+        "4. If required, add the oxygen source and mix again."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing bowl, combine Barium Carbonate, Cobalt Oxide, Cesium Carbonate, and Barium Hydroxide. \n 3. Mix thoroughly using a ceramic spatula to ensure uniform distribution of powders. \n 4. If required, add the oxygen source and mix again."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-purity alumina crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat gradually to 1000 °C (1832 °F) at a rate of 10 °C/min and hold for 4 hours to allow for complete reaction and solid formation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-purity alumina crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat gradually to 1000 °C (1832 °F) at a rate of 10 °C/min and hold for 4 hours to allow for complete reaction and solid formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours) without opening the furnace door to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours) without opening the furnace door to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. If required, use a diamond file or sandpaper to smooth out rough edges and surfaces.",
+        "4. Optionally, apply a sealing coat using a high-temperature resistant sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. If required, use a diamond file or sandpaper to smooth out rough edges and surfaces. \n 4. Optionally, apply a sealing coat using a high-temperature resistant sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 941513.0,
+      "density": 85709.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -540906.0,
+      "formation_energy_per_atom": -2461.0,
+      "decomposition_energy_per_atom": -42.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -42.0
+    },
+    "electronic": {
+      "bandgap": 0.0124,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c2fc89b57b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.042732Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4Fe1Ga2Mn1.json",
+      "material://Co4Fe1Ga2Mn1"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "id": "Bi4Li1Pr1Sr1Zn1",
+  "uri": "material://Bi4Li1Pr1Sr1Zn1",
+  "composition": {
+    "formula": "Bi4Li1Pr1Sr1Zn1",
+    "elements": {
+      "Bi": 4,
+      "Li": 1,
+      "Pr": 1,
+      "Sr": 1,
+      "Zn": 1
+    },
+    "reduced_formula": "SrLiPrZnBi4",
+    "element_list": [
+      "Li",
+      "Zn",
+      "Sr",
+      "Pr",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 720.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 120 g \n Hg: 720 g \n Tc: 40 g \n Y: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Chemical supply stores or online chemical suppliers. \n Hg (Mercury): Specialty metal suppliers or chemical supply companies (ensure proper safety measures). \n Tc (Technetium): Obtain from licensed nuclear material suppliers. \n Y (Yttrium): Chemical supply stores or online chemical suppliers.",
+      "steps": [
+        "Co (Cobalt): Chemical supply stores or online chemical suppliers.",
+        "Hg (Mercury): Specialty metal suppliers or chemical supply companies (ensure proper safety measures).",
+        "Tc (Technetium): Obtain from licensed nuclear material suppliers.",
+        "Y (Yttrium): Chemical supply stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 120 g of Co using a digital scale.",
+        "2. Measure 720 g of Hg carefully, ensuring to work in a fume hood due to toxicity.",
+        "3. Measure 40 g of Tc, ensuring to follow all safety protocols.",
+        "4. Measure 100 g of Y.",
+        "5. In a fume hood, slowly combine Co, Tc, and Y in a ceramic container, stirring gently to avoid dust formation.",
+        "6. Gradually add Hg to the mixture while continuously stirring until a homogeneous paste is formed."
+      ],
+      "raw_text": "1. Measure out 120 g of Co using a digital scale. \n 2. Measure 720 g of Hg carefully, ensuring to work in a fume hood due to toxicity. \n 3. Measure 40 g of Tc, ensuring to follow all safety protocols. \n 4. Measure 100 g of Y. \n 5. In a fume hood, slowly combine Co, Tc, and Y in a ceramic container, stirring gently to avoid dust formation. \n 6. Gradually add Hg to the mixture while continuously stirring until a homogeneous paste is formed."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture into a heat-resistant mold with dimensions 3 inches x 2 inches x 7 inches.",
+        "2. Place the mold in a controlled furnace.",
+        "3. Heat to 800°C for 2 hours to ensure proper bonding of materials."
+      ],
+      "raw_text": "1. Transfer the mixture into a heat-resistant mold with dimensions 3 inches x 2 inches x 7 inches. \n 2. Place the mold in a controlled furnace. \n 3. Heat to 800°C for 2 hours to ensure proper bonding of materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the mold to cool naturally to room temperature (approximately 25°C).",
+        "2. Avoid any rapid cooling methods to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the mold to cool naturally to room temperature (approximately 25°C). \n 2. Avoid any rapid cooling methods to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the mold carefully.",
+        "2. Inspect the surface for any imperfections.",
+        "3. Use fine-grit sandpaper (600 grit) to smoothen any rough edges.",
+        "4. Optionally, seal the surface with a suitable protective coating if required for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the mold carefully. \n 2. Inspect the surface for any imperfections. \n 3. Use fine-grit sandpaper (600 grit) to smoothen any rough edges. \n 4. Optionally, seal the surface with a suitable protective coating if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 2341853.0,
+      "density": 80607.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -299013.0,
+      "formation_energy_per_atom": -5878.0,
+      "decomposition_energy_per_atom": -254.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -173.0,
+      "decomposition_energy_mp": -254.0,
+      "decomposition_energy_mp_oqmd": -205.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c911097870",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.655268Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi4Li1Pr1Sr1Zn1.json",
+      "material://Bi4Li1Pr1Sr1Zn1"
+    ]
+  }
+}

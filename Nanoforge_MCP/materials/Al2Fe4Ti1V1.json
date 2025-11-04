@@ -1,0 +1,110 @@
+{
+  "id": "Al2Fe4Ti1V1",
+  "uri": "material://Al2Fe4Ti1V1",
+  "composition": {
+    "formula": "Al2Fe4Ti1V1",
+    "elements": {
+      "Al": 2,
+      "Fe": 4,
+      "Ti": 1,
+      "V": 1
+    },
+    "reduced_formula": "TiAl2VFe4",
+    "element_list": [
+      "Al",
+      "Ti",
+      "V",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Aluminum (Al): 43.5 g  \n - Iron (Fe): 174.0 g \n - Titanium (Ti): 24.2 g \n - Vanadium (V): 17.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Aluminum: Local metal supplier or online metal distributor. \n - Iron: Local hardware store or metal scrap yard. \n - Titanium: Specialty metal suppliers or online marketplaces. \n - Vanadium: Specialty chemical suppliers or online marketplaces.",
+      "steps": [
+        "- Aluminum: Local metal supplier or online metal distributor.",
+        "- Iron: Local hardware store or metal scrap yard.",
+        "- Titanium: Specialty metal suppliers or online marketplaces.",
+        "- Vanadium: Specialty chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. Place the measured aluminum, iron, titanium, and vanadium powders into a clean, dry mixing bowl.",
+        "3. Use a spatula or mixing tool to thoroughly blend the powders for 10 minutes to ensure uniform distribution of elements.",
+        "4. Transfer the mixture into a ball mill for finer grinding. Mill for 30 minutes at 300 RPM to achieve a homogeneous powder."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. Place the measured aluminum, iron, titanium, and vanadium powders into a clean, dry mixing bowl. \n 3. Use a spatula or mixing tool to thoroughly blend the powders for 10 minutes to ensure uniform distribution of elements. \n 4. Transfer the mixture into a ball mill for finer grinding. Mill for 30 minutes at 300 RPM to achieve a homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the blended powder mixture into a graphite crucible.",
+        "3. Insert the crucible into the furnace and heat at 1200°C for 2 hours under an inert gas atmosphere (e.g., Argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the blended powder mixture into a graphite crucible. \n 3. Insert the crucible into the furnace and heat at 1200°C for 2 hours under an inert gas atmosphere (e.g., Argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove any excess material from the solidified sample using a file or grinding tool.",
+        "2. Sand the surface to achieve a smooth finish, starting with coarse grit and moving to finer grit.",
+        "3. Optionally, apply a protective sealant if the material will be exposed to moisture or corrosive environments."
+      ],
+      "raw_text": "1. Remove any excess material from the solidified sample using a file or grinding tool. \n 2. Sand the surface to achieve a smooth finish, starting with coarse grit and moving to finer grit. \n 3. Optionally, apply a protective sealant if the material will be exposed to moisture or corrosive environments."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 959705.0,
+      "density": 65084.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/mmm",
+      "space_group_number": 123,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -619084.0,
+      "formation_energy_per_atom": -4447.0,
+      "decomposition_energy_per_atom": -33.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -32.0
+    },
+    "electronic": {
+      "bandgap": 0.0006,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "739037e9b6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:46.707620Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Fe4Ti1V1.json",
+      "material://Al2Fe4Ti1V1"
+    ]
+  }
+}

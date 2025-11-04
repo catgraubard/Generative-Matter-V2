@@ -1,0 +1,115 @@
+{
+  "id": "Co5Fe3Ni12P12Tb4",
+  "uri": "material://Co5Fe3Ni12P12Tb4",
+  "composition": {
+    "formula": "Co5Fe3Ni12P12Tb4",
+    "elements": {
+      "Co": 5,
+      "Fe": 3,
+      "Ni": 12,
+      "P": 12,
+      "Tb": 4
+    },
+    "reduced_formula": "Tb4Fe3Co5(NiP)12",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Ni",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Er",
+          "amount": 3.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Er: 3.5 g, O: 7.0 g, Ru: 10.0 g, Tb: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Erbium Oxide (Er2O3) from chemical supply stores; Ruthenium powder from metal suppliers; Terbium Oxide (Tb2O3) from specialized chemical retailers; Oxygen (O2) sourced from gas suppliers.",
+      "steps": [
+        "Erbium Oxide (Er2O3) from chemical supply stores; Ruthenium powder from metal suppliers; Terbium Oxide (Tb2O3) from specialized chemical retailers; Oxygen (O2) sourced from gas suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 3.5 g of Erbium Oxide, 7.0 g of Ruthenium, and 5.0 g of Terbium Oxide using a precise balance.",
+        "2. Combine the powders in a clean, dry mixing bowl.",
+        "3. Use a mortar and pestle to grind the mixture to a fine powder to ensure homogeneity.",
+        "4. Transfer the homogenized powder into a ceramic crucible."
+      ],
+      "raw_text": "1. Measure out 3.5 g of Erbium Oxide, 7.0 g of Ruthenium, and 5.0 g of Terbium Oxide using a precise balance. \n 2. Combine the powders in a clean, dry mixing bowl. \n 3. Use a mortar and pestle to grind the mixture to a fine powder to ensure homogeneity. \n 4. Transfer the homogenized powder into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the crucible in the furnace and heat for 2 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the crucible in the furnace and heat for 2 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not attempt to open the furnace until it is completely cooled."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not attempt to open the furnace until it is completely cooled."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid block.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to achieve a smooth finish.",
+        "4. Optionally, apply a layer of sealant for protection if required."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid block. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to achieve a smooth finish. \n 4. Optionally, apply a layer of sealant for protection if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4517415.0,
+      "density": 7991.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2438867.0,
+      "formation_energy_per_atom": -8355.0,
+      "decomposition_energy_per_atom": -324.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -13.0,
+      "decomposition_energy_mp": -312.0,
+      "decomposition_energy_mp_oqmd": -307.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e45e94b190",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.814307Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co5Fe3Ni12P12Tb4.json",
+      "material://Co5Fe3Ni12P12Tb4"
+    ]
+  }
+}

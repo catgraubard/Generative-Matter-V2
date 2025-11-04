@@ -1,0 +1,130 @@
+{
+  "id": "B2Mo1Tc4W1",
+  "uri": "material://B2Mo1Tc4W1",
+  "composition": {
+    "formula": "B2Mo1Tc4W1",
+    "elements": {
+      "B": 2,
+      "Mo": 1,
+      "Tc": 4,
+      "W": 1
+    },
+    "reduced_formula": "Tc4B2MoW",
+    "element_list": [
+      "B",
+      "Mo",
+      "Tc",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 32.4,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 17.6,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 17.4,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 32.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 32.4 g \n Fe: 17.6 g \n Mn: 17.4 g \n Se: 32.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium) - Obtain from chemical supply companies or specialized suppliers. \n Fe (Iron) - Available at local hardware stores or metal suppliers. \n Mn (Manganese) - Can be sourced from chemical suppliers. \n Se (Selenium) - Purchase from chemical supply companies.",
+      "steps": [
+        "Cs (Cesium) - Obtain from chemical supply companies or specialized suppliers.",
+        "Fe (Iron) - Available at local hardware stores or metal suppliers.",
+        "Mn (Manganese) - Can be sourced from chemical suppliers.",
+        "Se (Selenium) - Purchase from chemical supply companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using an analytical balance.",
+        "2. In a clean and dry mortar, combine Cs, Fe, Mn, and Se.",
+        "3. Grind the mixture until a homogeneous powder is achieved.",
+        "4. Transfer the mixture to a clean alumina crucible for the next processing step."
+      ],
+      "raw_text": "1. Weigh each component accurately using an analytical balance. \n 2. In a clean and dry mortar, combine Cs, Fe, Mn, and Se. \n 3. Grind the mixture until a homogeneous powder is achieved. \n 4. Transfer the mixture to a clean alumina crucible for the next processing step."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the alumina crucible with the mixture inside the furnace.",
+        "3. Maintain this temperature for 4 hours to allow complete reaction and formation of Cs2Fe1Mn1Se4."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the alumina crucible with the mixture inside the furnace. \n 3. Maintain this temperature for 4 hours to allow complete reaction and formation of Cs2Fe1Mn1Se4."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (~25°C).",
+        "2. Ensure no rapid cooling is applied to avoid cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (~25°C). \n 2. Ensure no rapid cooling is applied to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid material.",
+        "2. Use a diamond saw or grinder to shape the sample to dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, polish the surface with fine-grit sandpaper for a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid material. \n 2. Use a diamond saw or grinder to shape the sample to dimensions of 3 inches x 2 inches x 7 inches. \n 3. Optionally, polish the surface with fine-grit sandpaper for a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 1010878.0,
+      "density": 113903.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -808931.0,
+      "formation_energy_per_atom": -286.0,
+      "decomposition_energy_per_atom": -216.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -14.0,
+      "decomposition_energy_mp": -216.0,
+      "decomposition_energy_mp_oqmd": -196.0
+    },
+    "electronic": {
+      "bandgap": 0.0052,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "acc46aa3d6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:05.547379Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Mo1Tc4W1.json",
+      "material://B2Mo1Tc4W1"
+    ]
+  }
+}

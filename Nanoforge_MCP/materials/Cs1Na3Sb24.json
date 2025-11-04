@@ -1,0 +1,111 @@
+{
+  "id": "Cs1Na3Sb24",
+  "uri": "material://Cs1Na3Sb24",
+  "composition": {
+    "formula": "Cs1Na3Sb24",
+    "elements": {
+      "Cs": 1,
+      "Na": 3,
+      "Sb": 24
+    },
+    "reduced_formula": "Cs(NaSb8)3",
+    "element_list": [
+      "Na",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 36.00 g, Na: 28.00 g, P: 30.00 g, Ti: 12.00 g, V: 4.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier with radioactive materials; Na: Local chemical supply store; P: Chemical supply store; Ti: Metal supply or online; V: Specialty metal supplier",
+      "steps": [
+        "Cs: Obtain from a chemical supplier with radioactive materials; Na: Local chemical supply store; P: Chemical supply store; Ti: Metal supply or online; V: Specialty metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate PPE (gloves, goggles, lab coat).",
+        "2. Measure Cs, Na, P, Ti, and V using an analytical balance for accuracy.",
+        "3. In a clean, dry container, combine Cs, Na, P, Ti, and V in the specified ratios.",
+        "4. Use a mortar and pestle to finely grind the mixture for uniformity."
+      ],
+      "raw_text": "1. Wear appropriate PPE (gloves, goggles, lab coat). \n 2. Measure Cs, Na, P, Ti, and V using an analytical balance for accuracy. \n 3. In a clean, dry container, combine Cs, Na, P, Ti, and V in the specified ratios. \n 4. Use a mortar and pestle to finely grind the mixture for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat in a furnace to 800 °C for 4 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Heat in a furnace to 800 °C for 4 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature over 6 hours to avoid thermal shock.",
+        "2. Once cooled, remove the crucible and gently tap to dislodge the formed solid."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature over 6 hours to avoid thermal shock. \n 2. Once cooled, remove the crucible and gently tap to dislodge the formed solid."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid for uniformity and any cracks.",
+        "2. If necessary, grind the solid to achieve a smooth finish.",
+        "3. Seal with a protective coating if the material is reactive or for preservation.",
+        "4. Store in a cool, dry place until further use."
+      ],
+      "raw_text": "1. Inspect the solid for uniformity and any cracks. \n 2. If necessary, grind the solid to achieve a smooth finish. \n 3. Seal with a protective coating if the material is reactive or for preservation. \n 4. Store in a cool, dry place until further use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9685245.0,
+      "density": 53563.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1089009.0,
+      "formation_energy_per_atom": -1765.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -116.0,
+      "decomposition_energy_mp": -485.0,
+      "decomposition_energy_mp_oqmd": -385.0
+    },
+    "electronic": {
+      "bandgap": 0.0095,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c820042323",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.449998Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1Na3Sb24.json",
+      "material://Cs1Na3Sb24"
+    ]
+  }
+}

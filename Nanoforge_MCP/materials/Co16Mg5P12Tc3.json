@@ -1,0 +1,113 @@
+{
+  "id": "Co16Mg5P12Tc3",
+  "uri": "material://Co16Mg5P12Tc3",
+  "composition": {
+    "formula": "Co16Mg5P12Tc3",
+    "elements": {
+      "Co": 16,
+      "Mg": 5,
+      "P": 12,
+      "Tc": 3
+    },
+    "reduced_formula": "Mg5Co16(TcP4)3",
+    "element_list": [
+      "Mg",
+      "P",
+      "Co",
+      "Tc"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 160 g, Mg: 50 g, P: 120 g, Tc: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Chemical supply store, Mg (Magnesium): Metal supplier, P (Phosphorus): Chemical supply store, Tc (Technetium): Radioactive material supplier (licensed)",
+      "steps": [
+        "Co (Cobalt): Chemical supply store, Mg (Magnesium): Metal supplier, P (Phosphorus): Chemical supply store, Tc (Technetium): Radioactive material supplier (licensed)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry mixing bowl, combine Co, Mg, P, and Tc.",
+        "3. Mix thoroughly with a stainless-steel spatula until a homogeneous mixture forms."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance. \n 2. In a clean, dry mixing bowl, combine Co, Mg, P, and Tc. \n 3. Mix thoroughly with a stainless-steel spatula until a homogeneous mixture forms."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a high-temperature furnace.",
+        "2. Heat to 800°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a high-temperature furnace. \n 2. Heat to 800°C at a rate of 10°C/min. \n 3. Maintain this temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace until it has cooled to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace until it has cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a diamond grinding wheel to shape the sample to the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Seal the surface with a protective coating to prevent oxidation and enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a diamond grinding wheel to shape the sample to the desired dimensions (3 in x 2 in x 7 in). \n 3. Seal the surface with a protective coating to prevent oxidation and enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4414248.0,
+      "density": 65084.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2410114.0,
+      "formation_energy_per_atom": -6454.0,
+      "decomposition_energy_per_atom": -46.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -84.0,
+      "decomposition_energy_mp": -46.0,
+      "decomposition_energy_mp_oqmd": -46.0
+    },
+    "electronic": {
+      "bandgap": 0.0248,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "64434970f8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:26.992023Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Mg5P12Tc3.json",
+      "material://Co16Mg5P12Tc3"
+    ]
+  }
+}

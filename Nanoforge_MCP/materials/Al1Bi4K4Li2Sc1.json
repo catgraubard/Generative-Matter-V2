@@ -1,0 +1,119 @@
+{
+  "id": "Al1Bi4K4Li2Sc1",
+  "uri": "material://Al1Bi4K4Li2Sc1",
+  "composition": {
+    "formula": "Al1Bi4K4Li2Sc1",
+    "elements": {
+      "Al": 1,
+      "Bi": 4,
+      "K": 4,
+      "Li": 2,
+      "Sc": 1
+    },
+    "reduced_formula": "K4Li2ScAlBi4",
+    "element_list": [
+      "Li",
+      "Al",
+      "K",
+      "Sc",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 90.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 90 g, Er: 20 g, Pa: 20 g, Si: 200 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt) - Purchase from a chemical supplier or online specialty metal supplier. \n Er (Erbium) - Obtain from a rare earth metals supplier. \n Pa (Palladium) - Acquire from a precious metals vendor. \n Si (Silicon) - Buy from a chemical supplier or electronic components store.",
+      "steps": [
+        "Co (Cobalt) - Purchase from a chemical supplier or online specialty metal supplier.",
+        "Er (Erbium) - Obtain from a rare earth metals supplier.",
+        "Pa (Palladium) - Acquire from a precious metals vendor.",
+        "Si (Silicon) - Buy from a chemical supplier or electronic components store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 90 g of cobalt powder and place it in a clean mixing container.",
+        "2. Add 20 g of erbium powder to the cobalt.",
+        "3. Add 20 g of palladium powder to the mix.",
+        "4. Finally, add 200 g of silicon powder.",
+        "5. Use a mechanical mixer to ensure thorough blending for 10 minutes."
+      ],
+      "raw_text": "1. Measure out 90 g of cobalt powder and place it in a clean mixing container. \n 2. Add 20 g of erbium powder to the cobalt. \n 3. Add 20 g of palladium powder to the mix. \n 4. Finally, add 200 g of silicon powder. \n 5. Use a mechanical mixer to ensure thorough blending for 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C (2192°F).",
+        "2. Transfer the mixed powders into a suitable crucible.",
+        "3. Insert the crucible into the furnace and hold at 1200°C for 2 hours."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C (2192°F). \n 2. Transfer the mixed powders into a suitable crucible. \n 3. Insert the crucible into the furnace and hold at 1200°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (~25°C) over 4 hours.",
+        "2. Do not open the furnace door until fully cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature (~25°C) over 4 hours. \n 2. Do not open the furnace door until fully cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible and carefully extract the solid sample.",
+        "2. Use a diamond file to smooth out any rough edges on the sample.",
+        "3. Optionally, coat the surface with a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible and carefully extract the solid sample. \n 2. Use a diamond file to smooth out any rough edges on the sample. \n 3. Optionally, coat the surface with a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 405486.0,
+      "density": 44152.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "I222",
+      "space_group_number": 23,
+      "point_group": "222",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -398798.0,
+      "formation_energy_per_atom": -4985.0,
+      "decomposition_energy_per_atom": -595.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -68.0,
+      "decomposition_energy_mp": -595.0,
+      "decomposition_energy_mp_oqmd": -498.0
+    },
+    "electronic": {
+      "bandgap": 0.6332,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b73a1bd4c4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.498899Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Bi4K4Li2Sc1.json",
+      "material://Al1Bi4K4Li2Sc1"
+    ]
+  }
+}

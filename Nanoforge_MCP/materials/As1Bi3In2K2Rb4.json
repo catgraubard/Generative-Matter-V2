@@ -1,0 +1,139 @@
+{
+  "id": "As1Bi3In2K2Rb4",
+  "uri": "material://As1Bi3In2K2Rb4",
+  "composition": {
+    "formula": "As1Bi3In2K2Rb4",
+    "elements": {
+      "As": 1,
+      "Bi": 3,
+      "In": 2,
+      "K": 2,
+      "Rb": 4
+    },
+    "reduced_formula": "K2Rb4In2Bi3As",
+    "element_list": [
+      "K",
+      "As",
+      "Rb",
+      "In",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Bi",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "K",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10.0 g \n Bi: 30.0 g \n In: 20.0 g \n K: 5.0 g \n Rb: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich). \n Bi: Available at metal suppliers or online. \n In: Obtain from specialty metal suppliers. \n K: Purchase from a chemical or laboratory supply store. \n Rb: Available from chemical suppliers or online.",
+      "steps": [
+        "As: Purchase from a chemical supplier or online (e.g., Sigma-Aldrich).",
+        "Bi: Available at metal suppliers or online.",
+        "In: Obtain from specialty metal suppliers.",
+        "K: Purchase from a chemical or laboratory supply store.",
+        "Rb: Available from chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, weigh 10.0 g of As, 30.0 g of Bi, 20.0 g of In, 5.0 g of K, and 10.0 g of Rb using an analytical balance.",
+        "2. In a clean, dry glass vial, combine the weighed materials thoroughly using a clean spatula.",
+        "3. Ensure uniformity by mixing for at least 5 minutes."
+      ],
+      "raw_text": "1. In a fume hood, weigh 10.0 g of As, 30.0 g of Bi, 20.0 g of In, 5.0 g of K, and 10.0 g of Rb using an analytical balance. \n 2. In a clean, dry glass vial, combine the weighed materials thoroughly using a clean spatula. \n 3. Ensure uniformity by mixing for at least 5 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 1,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature ceramic crucible.",
+        "2. Place the crucible in a programmable oven or furnace.",
+        "3. Heat to 600°C at a rate of 5°C/minute and hold for 1 hour to ensure complete melting and homogenization."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature ceramic crucible. \n 2. Place the crucible in a programmable oven or furnace. \n 3. Heat to 600°C at a rate of 5°C/minute and hold for 1 hour to ensure complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it reaches below 200°C to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the temperature to decrease naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it reaches below 200°C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible carefully.",
+        "2. Use fine-grit sandpaper to smooth any rough edges of the sample.",
+        "3. Optionally, apply a protective sealant to enhance the surface finish and prevent oxidation. Allow sealant to cure according to manufacturer instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible carefully. \n 2. Use fine-grit sandpaper to smooth any rough edges of the sample. \n 3. Optionally, apply a protective sealant to enhance the surface finish and prevent oxidation. Allow sealant to cure according to manufacturer instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 5156093.0,
+      "density": 43528.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -323778.0,
+      "formation_energy_per_atom": -3669.0,
+      "decomposition_energy_per_atom": -316.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -316.0,
+      "decomposition_energy_mp_oqmd": -19.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "7b10bc612e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:56.741749Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As1Bi3In2K2Rb4.json",
+      "material://As1Bi3In2K2Rb4"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Ni4O24Sb2W6",
+  "uri": "material://Ni4O24Sb2W6",
+  "composition": {
+    "formula": "Ni4O24Sb2W6",
+    "elements": {
+      "Ni": 4,
+      "O": 24,
+      "Sb": 2,
+      "W": 6
+    },
+    "reduced_formula": "Ni2Sb(WO4)3",
+    "element_list": [
+      "O",
+      "Ni",
+      "Sb",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Gallium Oxide (Ga2O3): 24.0 g \n - Lead (II) Selenide (PbSe): 16.0 g \n - Selenium (Se): 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Gallium Oxide: Available from chemical supply companies or online chemical retailers. \n - Lead (II) Selenide: Obtain from specialized semiconductor material suppliers. \n - Selenium: Purchase from chemical suppliers, electronics suppliers, or online marketplaces.",
+      "steps": [
+        "- Gallium Oxide: Available from chemical supply companies or online chemical retailers.",
+        "- Lead (II) Selenide: Obtain from specialized semiconductor material suppliers.",
+        "- Selenium: Purchase from chemical suppliers, electronics suppliers, or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 24.0 g of Gallium Oxide, 16.0 g of Lead (II) Selenide, and 8.0 g of Selenium using a precision scale.",
+        "2. In a clean, dry container, combine the weighed materials thoroughly using a glass rod or a mortar and pestle to ensure a homogeneous mixture.",
+        "3. Transfer the mixed powders into a high-purity alumina crucible."
+      ],
+      "raw_text": "1. Weigh out 24.0 g of Gallium Oxide, 16.0 g of Lead (II) Selenide, and 8.0 g of Selenium using a precision scale. \n 2. In a clean, dry container, combine the weighed materials thoroughly using a glass rod or a mortar and pestle to ensure a homogeneous mixture. \n 3. Transfer the mixed powders into a high-purity alumina crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a muffle furnace.",
+        "2. Gradually heat the furnace to 900°C at a rate of 10°C per minute.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Ga4O24Pb2Se8."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. \n 2. Gradually heat the furnace to 900°C at a rate of 10°C per minute. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Ga4O24Pb2Se8."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating cycle, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating cycle, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond saw to shape the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added durability and protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond saw to shape the solid sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin for added durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4171681.0,
+      "density": 7823.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmm2",
+      "space_group_number": 35,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2976126.0,
+      "formation_energy_per_atom": -19371.0,
+      "decomposition_energy_per_atom": -77.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -71.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d3126042d1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.116489Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4O24Sb2W6.json",
+      "material://Ni4O24Sb2W6"
+    ]
+  }
+}

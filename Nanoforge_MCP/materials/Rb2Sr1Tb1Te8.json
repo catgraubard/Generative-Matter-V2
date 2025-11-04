@@ -1,0 +1,132 @@
+{
+  "id": "Rb2Sr1Tb1Te8",
+  "uri": "material://Rb2Sr1Tb1Te8",
+  "composition": {
+    "formula": "Rb2Sr1Tb1Te8",
+    "elements": {
+      "Rb": 2,
+      "Sr": 1,
+      "Tb": 1,
+      "Te": 8
+    },
+    "reduced_formula": "Rb2SrTbTe8",
+    "element_list": [
+      "Rb",
+      "Sr",
+      "Te",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 320.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Rb: 50 g \n Sr: 30 g \n Tb: 20 g \n Te: 320 g"
+    },
+    "sourcing": {
+      "instructions": "Rb: Specialty chemical suppliers or online platforms like Sigma-Aldrich. \n Sr: Chemical supply stores or online vendors. \n Tb: Rare earth metal suppliers or chemical suppliers. \n Te: Online chemical suppliers or metal traders.",
+      "steps": [
+        "Rb: Specialty chemical suppliers or online platforms like Sigma-Aldrich.",
+        "Sr: Chemical supply stores or online vendors.",
+        "Tb: Rare earth metal suppliers or chemical suppliers.",
+        "Te: Online chemical suppliers or metal traders."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 50 g of Rb, 30 g of Sr, 20 g of Tb, and 320 g of Te using an analytical balance.",
+        "2. Combine Rb, Sr, Tb, and Te in a clean, dry mixing container.",
+        "3. Stir the mixture thoroughly using a ceramic stirrer to ensure uniform distribution of all components."
+      ],
+      "raw_text": "1. Measure 50 g of Rb, 30 g of Sr, 20 g of Tb, and 320 g of Te using an analytical balance. \n 2. Combine Rb, Sr, Tb, and Te in a clean, dry mixing container. \n 3. Stir the mixture thoroughly using a ceramic stirrer to ensure uniform distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the sample gradually to 800°C at a rate of 10°C/min.",
+        "4. Maintain this temperature for 4 hours to facilitate proper formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the sample gradually to 800°C at a rate of 10°C/min. \n 4. Maintain this temperature for 4 hours to facilitate proper formation of the compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C).",
+        "2. Do not open the furnace door during cooling to avoid thermal shock and oxidation."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approx. 25°C). \n 2. Do not open the furnace door during cooling to avoid thermal shock and oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a pestle and mortar to grind the solid sample into a fine powder.",
+        "3. If necessary, press the powder into a mold of dimensions 3 inches x 2 inches x 7 inches and sinter at 900°C for 2 hours.",
+        "4. Allow the final product to cool, then inspect for consistency and surface smoothness, sanding if needed."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a pestle and mortar to grind the solid sample into a fine powder. \n 3. If necessary, press the powder into a mold of dimensions 3 inches x 2 inches x 7 inches and sinter at 900°C for 2 hours. \n 4. Allow the final product to cool, then inspect for consistency and surface smoothness, sanding if needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 4561493.0,
+      "density": 52358.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P422",
+      "space_group_number": 89,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -47721.0,
+      "formation_energy_per_atom": -11908.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -466.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 0.0106,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a3e1e132b6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:51.314558Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Rb2Sr1Tb1Te8.json",
+      "material://Rb2Sr1Tb1Te8"
+    ]
+  }
+}

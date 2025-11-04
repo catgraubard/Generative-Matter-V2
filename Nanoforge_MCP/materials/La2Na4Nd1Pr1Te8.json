@@ -1,0 +1,116 @@
+{
+  "id": "La2Na4Nd1Pr1Te8",
+  "uri": "material://La2Na4Nd1Pr1Te8",
+  "composition": {
+    "formula": "La2Na4Nd1Pr1Te8",
+    "elements": {
+      "La": 2,
+      "Na": 4,
+      "Nd": 1,
+      "Pr": 1,
+      "Te": 8
+    },
+    "reduced_formula": "Na4La2PrNdTe8",
+    "element_list": [
+      "Na",
+      "Te",
+      "La",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 4.75,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 4.75 g, Na: 2.80 g, Nd: 1.75 g, Pr: 1.75 g, Te: 40.00 g"
+    },
+    "sourcing": {
+      "instructions": "La: Purchased from a chemical supplier (e.g., Alfa Aesar); Na: Obtain sodium metal from a lab; Nd: Rare earth supplier; Pr: Rare earth supplier; Te: Chemical supplier (e.g., Sigma-Aldrich)",
+      "steps": [
+        "La: Purchased from a chemical supplier (e.g., Alfa Aesar); Na: Obtain sodium metal from a lab; Nd: Rare earth supplier; Pr: Rare earth supplier; Te: Chemical supplier (e.g., Sigma-Aldrich)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine La, Na, Nd, Pr, and Te.",
+        "3. Mix thoroughly using a mortar and pestle for uniformity.",
+        "4. Transfer the mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine La, Na, Nd, Pr, and Te. \n 3. Mix thoroughly using a mortar and pestle for uniformity. \n 4. Transfer the mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 800°C.",
+        "2. Place the crucible inside the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 800°C. \n 2. Place the crucible inside the furnace. \n 3. Heat for 4 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure the crucible is not disturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Ensure the crucible is not disturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Seal with a suitable coating if required for stability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the surface with fine-grit sandpaper for a smooth finish. \n 4. Seal with a suitable coating if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5533702.0,
+      "density": 50285.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -750725.0,
+      "formation_energy_per_atom": -15759.0,
+      "decomposition_energy_per_atom": -43.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -42.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 1.2372,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4b4aa9dd45",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:54.729041Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La2Na4Nd1Pr1Te8.json",
+      "material://La2Na4Nd1Pr1Te8"
+    ]
+  }
+}

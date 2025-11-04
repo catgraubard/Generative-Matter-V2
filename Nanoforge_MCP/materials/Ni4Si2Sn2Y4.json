@@ -1,0 +1,129 @@
+{
+  "id": "Ni4Si2Sn2Y4",
+  "uri": "material://Ni4Si2Sn2Y4",
+  "composition": {
+    "formula": "Ni4Si2Sn2Y4",
+    "elements": {
+      "Ni": 4,
+      "Si": 2,
+      "Sn": 2,
+      "Y": 4
+    },
+    "reduced_formula": "Y2SiNi2Sn",
+    "element_list": [
+      "Si",
+      "Ni",
+      "Y",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 60.0 g \n Si: 15.0 g \n Sn: 10.0 g \n Y: 15.0 g \n Total: 100.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ni: Purchase from metal supply stores or online suppliers (e.g., Amazon, McMaster-Carr). \n Si: Obtain from chemical suppliers or electronics parts distributors. \n Sn: Available at soldering supply shops or online. \n Y: Source from specialized chemical suppliers or online marketplaces.",
+      "steps": [
+        "Ni: Purchase from metal supply stores or online suppliers (e.g., Amazon, McMaster-Carr).",
+        "Si: Obtain from chemical suppliers or electronics parts distributors.",
+        "Sn: Available at soldering supply shops or online.",
+        "Y: Source from specialized chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a digital scale.",
+        "2. In a clean, dry container, combine the weighed amounts of Ni, Si, Sn, and Y.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a uniform blend is achieved.",
+        "4. Transfer the mixture into a suitable crucible or mold for heating."
+      ],
+      "raw_text": "1. Weigh each component accurately using a digital scale. \n 2. In a clean, dry container, combine the weighed amounts of Ni, Si, Sn, and Y. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders until a uniform blend is achieved. \n 4. Transfer the mixture into a suitable crucible or mold for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 3,
+      "steps": [
+        "1. Preheat the furnace to 1300°C (2372°F).",
+        "2. Place the crucible/mold inside the furnace and maintain the temperature for 3 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Preheat the furnace to 1300°C (2372°F). \n 2. Place the crucible/mold inside the furnace and maintain the temperature for 3 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C or 77°F).",
+        "2. Do not open the furnace door during cooling to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down gradually to room temperature (approximately 25°C or 77°F). \n 2. Do not open the furnace door during cooling to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once at room temperature, carefully remove the solid sample from the crucible/mold.",
+        "2. Use a diamond file or sandpaper (grit 200-400) to smooth out any rough edges or surfaces.",
+        "3. Optionally, apply a clear sealant to protect the surface, allowing it to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once at room temperature, carefully remove the solid sample from the crucible/mold. \n 2. Use a diamond file or sandpaper (grit 200-400) to smooth out any rough edges or surfaces. \n 3. Optionally, apply a clear sealant to protect the surface, allowing it to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2240356.0,
+      "density": 65521.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1/m",
+      "space_group_number": 11,
+      "point_group": "2/m",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -768212.0,
+      "formation_energy_per_atom": -7471.0,
+      "decomposition_energy_per_atom": 4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -48.0,
+      "decomposition_energy_mp": -51.0,
+      "decomposition_energy_mp_oqmd": -48.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "96f443528d",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:34.512885Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni4Si2Sn2Y4.json",
+      "material://Ni4Si2Sn2Y4"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "id": "La3Pr5Si16Y12",
+  "uri": "material://La3Pr5Si16Y12",
+  "composition": {
+    "formula": "La3Pr5Si16Y12",
+    "elements": {
+      "La": 3,
+      "Pr": 5,
+      "Si": 16,
+      "Y": 12
+    },
+    "reduced_formula": "La3Pr5(Y3Si4)4",
+    "element_list": [
+      "Si",
+      "Y",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g \n Sc: 20 g \n Tb: 40 g \n Te: 20 g \n Total: 90 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online marketplace. \n Sc: Specialty metal supplier. \n Tb: Rare earth metal supplier. \n Te: Chemical supply store.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online marketplace.",
+        "Sc: Specialty metal supplier.",
+        "Tb: Rare earth metal supplier.",
+        "Te: Chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10 g of Cobalt (Co), 20 g of Scandium (Sc), 40 g of Terbium (Tb), and 20 g of Tellurium (Te).",
+        "2. Place all measured materials into a clean, dry mortar and pestle.",
+        "3. Grind the materials together until a homogeneous powder is formed, ensuring there are no lumps."
+      ],
+      "raw_text": "1. Weigh out 10 g of Cobalt (Co), 20 g of Scandium (Sc), 40 g of Terbium (Tb), and 20 g of Tellurium (Te). \n 2. Place all measured materials into a clean, dry mortar and pestle. \n 3. Grind the materials together until a homogeneous powder is formed, ensuring there are no lumps."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous powder into a ceramic crucible.",
+        "2. Heat in a furnace to 1000°C for 2 hours.",
+        "3. Use a ramp-up rate of 10°C/min until reaching the target temperature."
+      ],
+      "raw_text": "1. Transfer the homogeneous powder into a ceramic crucible. \n 2. Heat in a furnace to 1000°C for 2 hours. \n 3. Use a ramp-up rate of 10°C/min until reaching the target temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-5 hours).",
+        "2. After cooling, carefully remove the crucible using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-5 hours). \n 2. After cooling, carefully remove the crucible using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, retrieve the solid sample from the crucible.",
+        "2. Use a diamond file to smooth any rough edges.",
+        "3. Optionally, seal the surface with a clear epoxy resin to enhance durability. Allow curing for 24 hours."
+      ],
+      "raw_text": "1. Once cooled, retrieve the solid sample from the crucible. \n 2. Use a diamond file to smooth any rough edges. \n 3. Optionally, seal the surface with a clear epoxy resin to enhance durability. Allow curing for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 8873667.0,
+      "density": 49356.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2297151.0,
+      "formation_energy_per_atom": -7389.0,
+      "decomposition_energy_per_atom": -235.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -23.0,
+      "decomposition_energy_mp_oqmd": -228.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c2e521992b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.009419Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La3Pr5Si16Y12.json",
+      "material://La3Pr5Si16Y12"
+    ]
+  }
+}

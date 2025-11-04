@@ -1,0 +1,135 @@
+{
+  "id": "Fe13V3",
+  "uri": "material://Fe13V3",
+  "composition": {
+    "formula": "Fe13V3",
+    "elements": {
+      "Fe": 13,
+      "V": 3
+    },
+    "reduced_formula": "V3Fe13",
+    "element_list": [
+      "V",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 9.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 19.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 3.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 9 g \n Co: 19 g \n Er: 3 g \n P: 3 g \n Tb: 2 g"
+    },
+    "sourcing": {
+      "instructions": "As (Arsenic): Obtain from a chemical supply store or online supplier. Ensure proper handling and safety measures. \n Co (Cobalt): Purchase from a metal supplier or online marketplace. \n Er (Erbium): Available at specialized rare earth element suppliers. \n P (Phosphorus): Find at a chemical supply store or agricultural supply store. \n Tb (Terbium): Source from rare earth element vendors or chemical suppliers.",
+      "steps": [
+        "As (Arsenic): Obtain from a chemical supply store or online supplier. Ensure proper handling and safety measures.",
+        "Co (Cobalt): Purchase from a metal supplier or online marketplace.",
+        "Er (Erbium): Available at specialized rare earth element suppliers.",
+        "P (Phosphorus): Find at a chemical supply store or agricultural supply store.",
+        "Tb (Terbium): Source from rare earth element vendors or chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, carefully weigh out 9 g of arsenic.",
+        "2. Weigh 19 g of cobalt in a separate container.",
+        "3. Measure 3 g of erbium and place it in a mixing bowl.",
+        "4. Add 3 g of phosphorus to the bowl.",
+        "5. Finally, weigh 2 g of terbium and add it to the mixture.",
+        "6. Mix all components thoroughly using a ceramic mortar and pestle until a homogenous powder is achieved."
+      ],
+      "raw_text": "1. In a fume hood, carefully weigh out 9 g of arsenic. \n 2. Weigh 19 g of cobalt in a separate container. \n 3. Measure 3 g of erbium and place it in a mixing bowl. \n 4. Add 3 g of phosphorus to the bowl. \n 5. Finally, weigh 2 g of terbium and add it to the mixture. \n 6. Mix all components thoroughly using a ceramic mortar and pestle until a homogenous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a muffle furnace at 800°C for 2 hours.",
+        "3. Ensure the furnace is programmed to ramp up temperature gradually to avoid thermal shock."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a muffle furnace at 800°C for 2 hours. \n 3. Ensure the furnace is programmed to ramp up temperature gradually to avoid thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool naturally to room temperature, approximately 3-4 hours.",
+        "2. Do not open the furnace door until fully cooled to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool naturally to room temperature, approximately 3-4 hours. \n 2. Do not open the furnace door until fully cooled to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a fine-grit sandpaper to smooth out any rough edges and achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Optionally, apply a sealant if the material needs to be protected from environmental factors."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a fine-grit sandpaper to smooth out any rough edges and achieve the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Optionally, apply a sealant if the material needs to be protected from environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 1876998.0,
+      "density": 77746.0,
+      "crystal_system": "cubic",
+      "space_group": "Pm-3m",
+      "space_group_number": 221,
+      "point_group": "m-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1390861.0,
+      "formation_energy_per_atom": -1078.0,
+      "decomposition_energy_per_atom": -115.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -35.0,
+      "decomposition_energy_mp": -115.0,
+      "decomposition_energy_mp_oqmd": -114.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b6def17a37",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.414558Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe13V3.json",
+      "material://Fe13V3"
+    ]
+  }
+}

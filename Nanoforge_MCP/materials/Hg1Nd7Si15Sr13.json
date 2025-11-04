@@ -1,0 +1,118 @@
+{
+  "id": "Hg1Nd7Si15Sr13",
+  "uri": "material://Hg1Nd7Si15Sr13",
+  "composition": {
+    "formula": "Hg1Nd7Si15Sr13",
+    "elements": {
+      "Hg": 1,
+      "Nd": 7,
+      "Si": 15,
+      "Sr": 13
+    },
+    "reduced_formula": "Sr13Nd7Si15Hg",
+    "element_list": [
+      "Si",
+      "Sr",
+      "Nd",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 15 g, Na: 5 g, S: 32 g, Tc: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Mo (Molybdenum) - Specialty metal suppliers; Na (Sodium) - Chemical supply stores; S (Sulfur) - Chemical supply stores; Tc (Technetium) - Radioactive material suppliers (ensure proper handling and licensing).",
+      "steps": [
+        "Mo (Molybdenum) - Specialty metal suppliers; Na (Sodium) - Chemical supply stores; S (Sulfur) - Chemical supply stores; Tc (Technetium) - Radioactive material suppliers (ensure proper handling and licensing)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 15 g of Mo using a precision balance.",
+        "2. Weigh out 5 g of Na.",
+        "3. Weigh out 32 g of S.",
+        "4. Weigh out 12 g of Tc.",
+        "5. In a fume hood, combine the Mo, Na, and S in a ceramic crucible.",
+        "6. Add Tc to the mixture in the crucible.",
+        "7. Use a spatula to mix the dry ingredients thoroughly until homogeneous."
+      ],
+      "raw_text": "1. Weigh out 15 g of Mo using a precision balance. \n 2. Weigh out 5 g of Na. \n 3. Weigh out 32 g of S. \n 4. Weigh out 12 g of Tc. \n 5. In a fume hood, combine the Mo, Na, and S in a ceramic crucible. \n 6. Add Tc to the mixture in the crucible. \n 7. Use a spatula to mix the dry ingredients thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 800 °C at a rate of 10 °C/min.",
+        "3. Hold at 800 °C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 800 °C at a rate of 10 °C/min. \n 3. Hold at 800 °C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. This process should take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. This process should take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid from the crucible.",
+        "2. Inspect for uniformity and density.",
+        "3. If needed, sand the surface with fine-grit sandpaper to achieve the desired finish.",
+        "4. Seal the material with a suitable resin if moisture protection is required."
+      ],
+      "raw_text": "1. Once cooled, remove the solid from the crucible. \n 2. Inspect for uniformity and density. \n 3. If needed, sand the surface with fine-grit sandpaper to achieve the desired finish. \n 4. Seal the material with a suitable resin if moisture protection is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 10387339.0,
+      "density": 44292.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -156281.0,
+      "formation_energy_per_atom": -5349.0,
+      "decomposition_energy_per_atom": -131.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -125.0,
+      "decomposition_energy_mp_oqmd": -122.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b850b8dd62",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.749126Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg1Nd7Si15Sr13.json",
+      "material://Hg1Nd7Si15Sr13"
+    ]
+  }
+}

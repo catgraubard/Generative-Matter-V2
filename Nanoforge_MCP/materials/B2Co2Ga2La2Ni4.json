@@ -1,0 +1,118 @@
+{
+  "id": "B2Co2Ga2La2Ni4",
+  "uri": "material://B2Co2Ga2La2Ni4",
+  "composition": {
+    "formula": "B2Co2Ga2La2Ni4",
+    "elements": {
+      "B": 2,
+      "Co": 2,
+      "Ga": 2,
+      "La": 2,
+      "Ni": 4
+    },
+    "reduced_formula": "LaGaCoNi2B",
+    "element_list": [
+      "B",
+      "Co",
+      "Ni",
+      "Ga",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, Co: 30 g, Ga: 15 g, La: 25 g, Ni: 40 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase boron powder from a chemical supply store or online specialty materials vendor. \n Co: Obtain cobalt powder from an industrial supplier or online marketplace. \n Ga: Get gallium from electronics suppliers or specialty metal vendors. \n La: Source lanthanum from chemical suppliers. \n Ni: Acquire nickel powder from a metal supplier or online store.",
+      "steps": [
+        "B: Purchase boron powder from a chemical supply store or online specialty materials vendor.",
+        "Co: Obtain cobalt powder from an industrial supplier or online marketplace.",
+        "Ga: Get gallium from electronics suppliers or specialty metal vendors.",
+        "La: Source lanthanum from chemical suppliers.",
+        "Ni: Acquire nickel powder from a metal supplier or online store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure the exact amounts of each ingredient using a precise scale.",
+        "2. In a clean, dry glass beaker, combine the boron powder (B), cobalt powder (Co), gallium (Ga), lanthanum (La), and nickel (Ni) in the specified amounts.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixture to a ball mill for finer grinding (optional but recommended for homogeneity). Mill for 2 hours."
+      ],
+      "raw_text": "1. Measure the exact amounts of each ingredient using a precise scale. \n 2. In a clean, dry glass beaker, combine the boron powder (B), cobalt powder (Co), gallium (Ga), lanthanum (La), and nickel (Ni) in the specified amounts. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixture to a ball mill for finer grinding (optional but recommended for homogeneity). Mill for 2 hours."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1000°C.",
+        "2. Place the mixed powders in a ceramic crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace once it has reached the desired temperature."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1000°C. \n 2. Place the mixed powders in a ceramic crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace once it has reached the desired temperature."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the sample to sinter in the furnace for 4 hours.",
+        "2. After the sintering period, turn off the furnace and allow it to cool down naturally to room temperature (approx. 6-8 hours)."
+      ],
+      "raw_text": "1. Allow the sample to sinter in the furnace for 4 hours. \n 2. After the sintering period, turn off the furnace and allow it to cool down naturally to room temperature (approx. 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use sandpaper to smooth any rough edges and achieve a polished finish.",
+        "3. Optionally, seal the surface with a suitable resin if additional protection is needed."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use sandpaper to smooth any rough edges and achieve a polished finish. \n 3. Optionally, seal the surface with a suitable resin if additional protection is needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1648892.0,
+      "density": 79711.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmm2",
+      "space_group_number": 35,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -725915.0,
+      "formation_energy_per_atom": -4973.0,
+      "decomposition_energy_per_atom": -197.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -62.0,
+      "decomposition_energy_mp": -195.0,
+      "decomposition_energy_mp_oqmd": -131.0
+    },
+    "electronic": {
+      "bandgap": 0.0031,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4df8faee16",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:58.177244Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co2Ga2La2Ni4.json",
+      "material://B2Co2Ga2La2Ni4"
+    ]
+  }
+}

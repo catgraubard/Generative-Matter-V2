@@ -1,0 +1,109 @@
+{
+  "id": "Al2Fe3Mn3Zr4",
+  "uri": "material://Al2Fe3Mn3Zr4",
+  "composition": {
+    "formula": "Al2Fe3Mn3Zr4",
+    "elements": {
+      "Al": 2,
+      "Fe": 3,
+      "Mn": 3,
+      "Zr": 4
+    },
+    "reduced_formula": "Zr4Mn3Al2Fe3",
+    "element_list": [
+      "Al",
+      "Mn",
+      "Fe",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Al2O3 (Aluminum Oxide): 50 g \n Fe3O4 (Iron(II,III) Oxide): 70 g \n MnO2 (Manganese Dioxide): 30 g \n ZrO2 (Zirconium Dioxide): 50 g"
+    },
+    "sourcing": {
+      "instructions": "Al2O3: Chemical supply stores or online platforms (e.g., Amazon, Sigma-Aldrich) \n Fe3O4: Chemical supply stores or online platforms \n MnO2: Chemical supply stores or online platforms \n ZrO2: Chemical supply stores or online platforms",
+      "steps": [
+        "Al2O3: Chemical supply stores or online platforms (e.g., Amazon, Sigma-Aldrich)",
+        "Fe3O4: Chemical supply stores or online platforms",
+        "MnO2: Chemical supply stores or online platforms",
+        "ZrO2: Chemical supply stores or online platforms"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient using a digital scale for accuracy.",
+        "2. In a clean, dry mixing container, combine Al2O3, Fe3O4, MnO2, and ZrO2 thoroughly.",
+        "3. Use a mortar and pestle or a mechanical mixer to ensure uniform distribution of the powders."
+      ],
+      "raw_text": "1. Measure out each ingredient using a digital scale for accuracy. \n 2. In a clean, dry mixing container, combine Al2O3, Fe3O4, MnO2, and ZrO2 thoroughly. \n 3. Use a mortar and pestle or a mechanical mixer to ensure uniform distribution of the powders."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a suitable crucible.",
+        "2. Preheat the furnace to 1200°C.",
+        "3. Once at temperature, hold for 2 hours to allow for reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a suitable crucible. \n 2. Preheat the furnace to 1200°C. \n 3. Once at temperature, hold for 2 hours to allow for reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and let it cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and let it cool down naturally to room temperature (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use a diamond grinding tool to smooth the edges and surface of the sample.",
+        "3. Optionally, apply a sealant for protection if the material will be exposed to moisture."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use a diamond grinding tool to smooth the edges and surface of the sample. \n 3. Optionally, apply a sealant for protection if the material will be exposed to moisture."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1804514.0,
+      "density": 69127.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -986578.0,
+      "formation_energy_per_atom": -34.0,
+      "decomposition_energy_per_atom": -92.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -12.0,
+      "decomposition_energy_mp": -92.0,
+      "decomposition_energy_mp_oqmd": -91.0
+    },
+    "electronic": {
+      "bandgap": 0.0019,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6c1163a9fa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:37.078966Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Fe3Mn3Zr4.json",
+      "material://Al2Fe3Mn3Zr4"
+    ]
+  }
+}

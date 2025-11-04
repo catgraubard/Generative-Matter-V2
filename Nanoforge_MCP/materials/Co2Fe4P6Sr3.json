@@ -1,0 +1,111 @@
+{
+  "id": "Co2Fe4P6Sr3",
+  "uri": "material://Co2Fe4P6Sr3",
+  "composition": {
+    "formula": "Co2Fe4P6Sr3",
+    "elements": {
+      "Co": 2,
+      "Fe": 4,
+      "P": 6,
+      "Sr": 3
+    },
+    "reduced_formula": "Sr3Fe4(CoP3)2",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CoO: 50 g \n - Fe2O3: 120 g \n - (NH4)2HPO4: 40 g \n - SrCO3: 30 g \n - Total weight: 240 g"
+    },
+    "sourcing": {
+      "instructions": "- CoO: Chemical suppliers or online chemical stores \n - Fe2O3: Local hardware stores or online suppliers \n - (NH4)2HPO4: Fertilizer stores or chemical suppliers \n - SrCO3: Chemical suppliers or online chemical stores",
+      "steps": [
+        "- CoO: Chemical suppliers or online chemical stores",
+        "- Fe2O3: Local hardware stores or online suppliers",
+        "- (NH4)2HPO4: Fertilizer stores or chemical suppliers",
+        "- SrCO3: Chemical suppliers or online chemical stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine CoO, Fe2O3, (NH4)2HPO4, and SrCO3.",
+        "3. Mix thoroughly using a spatula or mechanical mixer for 10 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder into a ball mill and mill for 30 minutes to achieve a finer particle size."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. In a clean, dry mixing container, combine CoO, Fe2O3, (NH4)2HPO4, and SrCO3. \n 3. Mix thoroughly using a spatula or mechanical mixer for 10 minutes to ensure homogeneity. \n 4. Transfer the mixed powder into a ball mill and mill for 30 minutes to achieve a finer particle size."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the milled powder into a ceramic crucible.",
+        "3. Heat the crucible at 800°C for 4 hours to allow for solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the milled powder into a ceramic crucible. \n 3. Heat the crucible at 800°C for 4 hours to allow for solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool gradually to room temperature.",
+        "2. Ensure the crucible remains inside the furnace while cooling for approximately 6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool gradually to room temperature. \n 2. Ensure the crucible remains inside the furnace while cooling for approximately 6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any defects or uneven surfaces.",
+        "3. If necessary, use a diamond file or sandpaper to smooth out the edges and surfaces.",
+        "4. Optionally, seal the sample with a clear epoxy or resin for added durability and visual appeal."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any defects or uneven surfaces. \n 3. If necessary, use a diamond file or sandpaper to smooth out the edges and surfaces. \n 4. Optionally, seal the sample with a clear epoxy or resin for added durability and visual appeal."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 2489236.0,
+      "density": 52697.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -983052.0,
+      "formation_energy_per_atom": -844.0,
+      "decomposition_energy_per_atom": -167.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -167.0,
+      "decomposition_energy_mp_oqmd": -156.0
+    },
+    "electronic": {
+      "bandgap": 0.0087,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "068c86b4b6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:23.660227Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe4P6Sr3.json",
+      "material://Co2Fe4P6Sr3"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "Ni1Se1Si1Ti6",
+  "uri": "material://Ni1Se1Si1Ti6",
+  "composition": {
+    "formula": "Ni1Se1Si1Ti6",
+    "elements": {
+      "Ni": 1,
+      "Se": 1,
+      "Si": 1,
+      "Ti": 6
+    },
+    "reduced_formula": "Ti6SiNiSe",
+    "element_list": [
+      "Si",
+      "Ti",
+      "Ni",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ce",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ce: 50 g, Co: 50 g, Fe: 50 g, Nd: 50 g, Si: 100 g (Total: 300 g for a solid sample of dimensions 3 in x 2 in x 7 in)"
+    },
+    "sourcing": {
+      "instructions": "Ce (Cerium Oxide): Chemical supply companies or online retailers; Co (Cobalt): Metal suppliers or online chemical stores; Fe (Iron): Local hardware stores; Nd (Neodymium): Specialty chemical suppliers; Si (Silicon Dioxide): Online chemical retailers or glass manufacturers.",
+      "steps": [
+        "Ce (Cerium Oxide): Chemical supply companies or online retailers; Co (Cobalt): Metal suppliers or online chemical stores; Fe (Iron): Local hardware stores; Nd (Neodymium): Specialty chemical suppliers; Si (Silicon Dioxide): Online chemical retailers or glass manufacturers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 50 g of Ce, 50 g of Co, 50 g of Fe, 50 g of Nd, and 100 g of Si.",
+        "2. Combine all ingredients in a clean, dry mixing container.",
+        "3. Use a mortar and pestle or a ball mill to grind the mixture to a fine, homogeneous powder.",
+        "4. Ensure no clumps remain in the mixture."
+      ],
+      "raw_text": "1. Measure out 50 g of Ce, 50 g of Co, 50 g of Fe, 50 g of Nd, and 100 g of Si. \n 2. Combine all ingredients in a clean, dry mixing container. \n 3. Use a mortar and pestle or a ball mill to grind the mixture to a fine, homogeneous powder. \n 4. Ensure no clumps remain in the mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace or kiln to 1200 °C.",
+        "2. Place the mixed powder into a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 2 hours to ensure complete melting and homogenization of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 1200 °C. \n 2. Place the mixed powder into a ceramic crucible. \n 3. Heat the crucible in the furnace for 2 hours to ensure complete melting and homogenization of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 3-4 hours).",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 3-4 hours). \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for uniformity and integrity.",
+        "3. If needed, sand the edges to achieve desired dimensions.",
+        "4. Optionally, seal the sample with a clear epoxy for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for uniformity and integrity. \n 3. If needed, sand the edges to achieve desired dimensions. \n 4. Optionally, seal the sample with a clear epoxy for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1400088.0,
+      "density": 5372.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -680678.0,
+      "formation_energy_per_atom": -6659.0,
+      "decomposition_energy_per_atom": -241.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -5.0,
+      "decomposition_energy_mp": -24.0,
+      "decomposition_energy_mp_oqmd": -146.0
+    },
+    "electronic": {
+      "bandgap": 0.0065,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9bd47164a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.245763Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni1Se1Si1Ti6.json",
+      "material://Ni1Se1Si1Ti6"
+    ]
+  }
+}

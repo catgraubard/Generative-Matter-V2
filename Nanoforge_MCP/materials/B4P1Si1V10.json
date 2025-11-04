@@ -1,0 +1,132 @@
+{
+  "id": "B4P1Si1V10",
+  "uri": "material://B4P1Si1V10",
+  "composition": {
+    "formula": "B4P1Si1V10",
+    "elements": {
+      "B": 4,
+      "P": 1,
+      "Si": 1,
+      "V": 10
+    },
+    "reduced_formula": "V10SiB4P",
+    "element_list": [
+      "B",
+      "Si",
+      "P",
+      "V"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B:  60 g (Boron) \n P: 15 g (Phosphorus) \n Si: 10 g (Silicon) \n V: 200 g (Vanadium)"
+    },
+    "sourcing": {
+      "instructions": "Boron: Specialty chemical suppliers or online marketplaces. \n Phosphorus: Chemical supply stores or agricultural suppliers. \n Silicon: Electronics suppliers or chemical vendors. \n Vanadium: Metal suppliers or industrial chemical suppliers.",
+      "steps": [
+        "Boron: Specialty chemical suppliers or online marketplaces.",
+        "Phosphorus: Chemical supply stores or agricultural suppliers.",
+        "Silicon: Electronics suppliers or chemical vendors.",
+        "Vanadium: Metal suppliers or industrial chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the ingredients on a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed Boron, Phosphorus, Silicon, and Vanadium.",
+        "3. Use a mechanical mixer or mortar and pestle to blend the ingredients thoroughly to achieve a uniform powder.",
+        "4. Ensure there are no clumps and the mixture is homogenous."
+      ],
+      "raw_text": "1. Weigh the ingredients on a precision scale. \n 2. In a clean, dry mixing container, combine the weighed Boron, Phosphorus, Silicon, and Vanadium. \n 3. Use a mechanical mixer or mortar and pestle to blend the ingredients thoroughly to achieve a uniform powder. \n 4. Ensure there are no clumps and the mixture is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Preheat the furnace to 1500°C.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to promote reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Preheat the furnace to 1500°C. \n 3. Place the crucible in the furnace and maintain the temperature for 2 hours to promote reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down gradually to room temperature, approximately 1-2 hours.",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down gradually to room temperature, approximately 1-2 hours. \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible gently to avoid cracking.",
+        "2. Inspect the surface for any rough areas.",
+        "3. Use sandpaper (grit 120-400) to smooth the surface if necessary.",
+        "4. Optionally, apply a sealant to enhance surface durability and finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible gently to avoid cracking. \n 2. Inspect the surface for any rough areas. \n 3. Use sandpaper (grit 120-400) to smooth the surface if necessary. \n 4. Optionally, apply a sealant to enhance surface durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 1774543.0,
+      "density": 57242.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I422",
+      "space_group_number": 97,
+      "point_group": "422",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -140785.0,
+      "formation_energy_per_atom": -7744.0,
+      "decomposition_energy_per_atom": -503.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -82.0,
+      "decomposition_energy_mp": -548.0,
+      "decomposition_energy_mp_oqmd": -546.0
+    },
+    "electronic": {
+      "bandgap": 0.0072,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4990156629",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:52.227441Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4P1Si1V10.json",
+      "material://B4P1Si1V10"
+    ]
+  }
+}

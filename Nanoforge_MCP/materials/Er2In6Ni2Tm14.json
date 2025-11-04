@@ -1,0 +1,114 @@
+{
+  "id": "Er2In6Ni2Tm14",
+  "uri": "material://Er2In6Ni2Tm14",
+  "composition": {
+    "formula": "Er2In6Ni2Tm14",
+    "elements": {
+      "Er": 2,
+      "In": 6,
+      "Ni": 2,
+      "Tm": 14
+    },
+    "reduced_formula": "ErTm7In3Ni",
+    "element_list": [
+      "Ni",
+      "In",
+      "Er",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 80 g, Ni: 120 g, S: 24 g, Se: 48 g"
+    },
+    "sourcing": {
+      "instructions": "Nb (Niobium): Specialty metal suppliers; Ni (Nickel): Local hardware stores; S (Sulfur): Chemical supply stores; Se (Selenium): Chemical supply stores.",
+      "steps": [
+        "Nb (Niobium): Specialty metal suppliers; Ni (Nickel): Local hardware stores; S (Sulfur): Chemical supply stores; Se (Selenium): Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a calibrated scale.",
+        "2. In a fume hood, mix Nb, Ni, S, and Se in a clean, dry container, ensuring uniform distribution.",
+        "3. Use a mortar and pestle to grind the mixture to a fine powder for better homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a calibrated scale. \n 2. In a fume hood, mix Nb, Ni, S, and Se in a clean, dry container, ensuring uniform distribution. \n 3. Use a mortar and pestle to grind the mixture to a fine powder for better homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a programmable furnace starting from room temperature to 600°C at a rate of 10°C/min.",
+        "3. Maintain the temperature at 600°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a programmable furnace starting from room temperature to 600°C at a rate of 10°C/min. \n 3. Maintain the temperature at 600°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges to achieve a smooth finish, if necessary.",
+        "4. Seal the sample with a clear epoxy resin for protection against environmental factors."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges to achieve a smooth finish, if necessary. \n 4. Seal the sample with a clear epoxy resin for protection against environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 63081.0,
+      "density": 92289.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1087419.0,
+      "formation_energy_per_atom": -3698.0,
+      "decomposition_energy_per_atom": -288.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -58.0,
+      "decomposition_energy_mp": -288.0,
+      "decomposition_energy_mp_oqmd": -259.0
+    },
+    "electronic": {
+      "bandgap": 0.0014,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9c6fb0c4b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.928540Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Er2In6Ni2Tm14.json",
+      "material://Er2In6Ni2Tm14"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "Cu2Er1Na1Sb2",
+  "uri": "material://Cu2Er1Na1Sb2",
+  "composition": {
+    "formula": "Cu2Er1Na1Sb2",
+    "elements": {
+      "Cu": 2,
+      "Er": 1,
+      "Na": 1,
+      "Sb": 2
+    },
+    "reduced_formula": "NaEr(CuSb)2",
+    "element_list": [
+      "Na",
+      "Cu",
+      "Sb",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 20.00 g, Er: 10.00 g, Na: 5.00 g, Sb: 40.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Metal suppliers or online marketplaces; Er: Rare earth element suppliers; Na: Chemical supply stores; Sb: Metal suppliers or online marketplaces",
+      "steps": [
+        "Cu: Metal suppliers or online marketplaces; Er: Rare earth element suppliers; Na: Chemical supply stores; Sb: Metal suppliers or online marketplaces"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. Mix Cu, Er, Na, and Sb in a clean, dry container.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale.\n2. Mix Cu, Er, Na, and Sb in a clean, dry container.\n3. Use a mortar and pestle to grind the mixture into a fine powder for uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the powdered mixture in a crucible.",
+        "3. Heat the crucible at 900°C for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C.\n2. Place the powdered mixture in a crucible.\n3. Heat the crucible at 900°C for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally inside the furnace.",
+        "2. This process should take approximately 4-6 hours until it reaches room temperature."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally inside the furnace.\n2. This process should take approximately 4-6 hours until it reaches room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible.",
+        "2. Inspect for cracks or impurities.",
+        "3. If necessary, use a sanding tool to smooth out rough edges.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible.\n2. Inspect for cracks or impurities.\n3. If necessary, use a sanding tool to smooth out rough edges.\n4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1380784.0,
+      "density": 67449.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -256966.0,
+      "formation_energy_per_atom": -5583.0,
+      "decomposition_energy_per_atom": -84.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -79.0,
+      "decomposition_energy_mp": -84.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 0.0518,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "348c6f4101",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:24.450197Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu2Er1Na1Sb2.json",
+      "material://Cu2Er1Na1Sb2"
+    ]
+  }
+}

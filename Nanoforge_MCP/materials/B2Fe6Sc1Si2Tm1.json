@@ -1,0 +1,116 @@
+{
+  "id": "B2Fe6Sc1Si2Tm1",
+  "uri": "material://B2Fe6Sc1Si2Tm1",
+  "composition": {
+    "formula": "B2Fe6Sc1Si2Tm1",
+    "elements": {
+      "B": 2,
+      "Fe": 6,
+      "Sc": 1,
+      "Si": 2,
+      "Tm": 1
+    },
+    "reduced_formula": "TmScFe6(SiB)2",
+    "element_list": [
+      "B",
+      "Si",
+      "Sc",
+      "Fe",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g, Fe: 60 g, Sc: 10 g, Si: 30 g, Tm: 5 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron Powder): Chemical supply stores or online suppliers; Fe (Iron Powder): Metal supply stores or online; Sc (Scandium Oxide): Specialty metal suppliers; Si (Silicon Powder): Chemical supply stores; Tm (Thulium Oxide): Rare earth metal suppliers.",
+      "steps": [
+        "B (Boron Powder): Chemical supply stores or online suppliers; Fe (Iron Powder): Metal supply stores or online; Sc (Scandium Oxide): Specialty metal suppliers; Si (Silicon Powder): Chemical supply stores; Tm (Thulium Oxide): Rare earth metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient with a precision scale.",
+        "2. In a clean, dry mixing container, combine 20 g of Boron powder, 60 g of Iron powder, 10 g of Scandium oxide, 30 g of Silicon powder, and 5 g of Thulium oxide.",
+        "3. Use a mechanical stirrer or mortar and pestle to mix thoroughly until a homogenous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient with a precision scale. \n 2. In a clean, dry mixing container, combine 20 g of Boron powder, 60 g of Iron powder, 10 g of Scandium oxide, 30 g of Silicon powder, and 5 g of Thulium oxide. \n 3. Use a mechanical stirrer or mortar and pestle to mix thoroughly until a homogenous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a graphite or ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the crucible to 1200°C at a rate of 10°C per minute.",
+        "4. Hold the temperature for 2 hours to ensure complete reaction and fusion of components."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a graphite or ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the crucible to 1200°C at a rate of 10°C per minute. \n 4. Hold the temperature for 2 hours to ensure complete reaction and fusion of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After holding the temperature, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid opening the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After holding the temperature, turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Avoid opening the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Inspect the sample for any surface irregularities or defects.",
+        "3. If needed, use sanding paper (grit 200-400) to smooth out the surface.",
+        "4. Optionally, apply a protective sealant if desired to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Inspect the sample for any surface irregularities or defects. \n 3. If needed, use sanding paper (grit 200-400) to smooth out the surface. \n 4. Optionally, apply a protective sealant if desired to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1467899.0,
+      "density": 70901.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -919121.0,
+      "formation_energy_per_atom": -5062.0,
+      "decomposition_energy_per_atom": -157.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -51.0,
+      "decomposition_energy_mp": -152.0,
+      "decomposition_energy_mp_oqmd": -125.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "775f6aacfc",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:51.804376Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Fe6Sc1Si2Tm1.json",
+      "material://B2Fe6Sc1Si2Tm1"
+    ]
+  }
+}

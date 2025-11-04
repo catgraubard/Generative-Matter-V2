@@ -1,0 +1,112 @@
+{
+  "id": "Cu3Er1Li1Zn1",
+  "uri": "material://Cu3Er1Li1Zn1",
+  "composition": {
+    "formula": "Cu3Er1Li1Zn1",
+    "elements": {
+      "Cu": 3,
+      "Er": 1,
+      "Li": 1,
+      "Zn": 1
+    },
+    "reduced_formula": "LiErZnCu3",
+    "element_list": [
+      "Li",
+      "Cu",
+      "Zn",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Niobium (Nb): 3.5 g \n Technetium (Tc): 8.0 g \n Titanium (Ti): 4.0 g \n Tungsten (W): 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "Niobium: Specialty metal suppliers or online retailers (e.g., Elemental Scientific) \n Technetium: Radioisotope suppliers (e.g., Oak Ridge National Laboratory) \n Titanium: Metal supply companies or online (e.g., McMaster-Carr) \n Tungsten: Specialty metal suppliers or online retailers",
+      "steps": [
+        "Niobium: Specialty metal suppliers or online retailers (e.g., Elemental Scientific)",
+        "Technetium: Radioisotope suppliers (e.g., Oak Ridge National Laboratory)",
+        "Titanium: Metal supply companies or online (e.g., McMaster-Carr)",
+        "Tungsten: Specialty metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out each ingredient using a precision scale.",
+        "2. Combine Nb, Tc, Ti, and W in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture until homogeneous.",
+        "4. Transfer the mixture to a ball mill for 1 hour to ensure a fine powder consistency."
+      ],
+      "raw_text": "1. Measure out each ingredient using a precision scale. \n 2. Combine Nb, Tc, Ti, and W in a clean, dry mixing container. \n 3. Use a mortar and pestle to thoroughly grind the mixture until homogeneous. \n 4. Transfer the mixture to a ball mill for 1 hour to ensure a fine powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1500°C.",
+        "2. Place the mixed powder into a suitable crucible and insert it into the furnace.",
+        "3. Heat the material at a rate of 10°C/min until it reaches 1500°C, then maintain this temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1500°C. \n 2. Place the mixed powder into a suitable crucible and insert it into the furnace. \n 3. Heat the material at a rate of 10°C/min until it reaches 1500°C, then maintain this temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 10,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the furnace to cool naturally to room temperature (approximately 8-10 hours).",
+        "3. Once cooled, carefully remove the crucible containing the solidified material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the furnace to cool naturally to room temperature (approximately 8-10 hours). \n 3. Once cooled, carefully remove the crucible containing the solidified material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Use a diamond saw to cut the solid sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "2. Sand the edges and surfaces with progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish.",
+        "3. Optionally, apply a protective sealant to enhance durability and appearance."
+      ],
+      "raw_text": "1. Use a diamond saw to cut the solid sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 2. Sand the edges and surfaces with progressively finer grit sandpaper (starting from 120 grit to 600 grit) to achieve a smooth finish. \n 3. Optionally, apply a protective sealant to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 932958.0,
+      "density": 76578.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -215091.0,
+      "formation_energy_per_atom": -2459.0,
+      "decomposition_energy_per_atom": -135.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -53.0,
+      "decomposition_energy_mp": -135.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": 0.0169,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d0683dbb3a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.345903Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu3Er1Li1Zn1.json",
+      "material://Cu3Er1Li1Zn1"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": "Ba6Nd1O18Sm1Te3",
+  "uri": "material://Ba6Nd1O18Sm1Te3",
+  "composition": {
+    "formula": "Ba6Nd1O18Sm1Te3",
+    "elements": {
+      "Ba": 6,
+      "Nd": 1,
+      "O": 18,
+      "Sm": 1,
+      "Te": 3
+    },
+    "reduced_formula": "Ba6NdSm(TeO6)3",
+    "element_list": [
+      "O",
+      "Te",
+      "Ba",
+      "Nd",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "BaO: 90.00 g \n Nd2O3: 15.87 g \n Sm2O3: 4.00 g \n TeO2: 15.00 g \n Total: 124.87 g"
+    },
+    "sourcing": {
+      "instructions": "BaO: Chemical supply companies (e.g., Sigma-Aldrich) \n Nd2O3: Online chemical retailers or specialty metal suppliers \n Sm2O3: Specialty chemical suppliers \n TeO2: Chemical supply companies or online retailers",
+      "steps": [
+        "BaO: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "Nd2O3: Online chemical retailers or specialty metal suppliers",
+        "Sm2O3: Specialty chemical suppliers",
+        "TeO2: Chemical supply companies or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing container, combine BaO, Nd2O3, Sm2O3, and TeO2.",
+        "3. Use a mortar and pestle to finely grind the mixture until homogeneous.",
+        "4. Transfer the powder to a ball mill and mill for 2 hours to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry mixing container, combine BaO, Nd2O3, Sm2O3, and TeO2. \n 3. Use a mortar and pestle to finely grind the mixture until homogeneous. \n 4. Transfer the powder to a ball mill and mill for 2 hours to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the mixed powder in a crucible and insert it into the furnace.",
+        "3. Heat the sample at 1000°C for 4 hours.",
+        "4. Increase the temperature to 1200°C and hold for an additional 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the mixed powder in a crucible and insert it into the furnace. \n 3. Heat the sample at 1000°C for 4 hours. \n 4. Increase the temperature to 1200°C and hold for an additional 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating process, turn off the furnace and allow it to cool down gradually to room temperature over 8 hours.",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating process, turn off the furnace and allow it to cool down gradually to room temperature over 8 hours. \n 2. Avoid opening the furnace door during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Inspect the solid sample for uniformity and structural integrity.",
+        "3. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "4. Sand the edges to remove any sharp points or imperfections.",
+        "5. Optionally, seal the sample with a suitable high-temperature ceramic sealant for protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Inspect the solid sample for uniformity and structural integrity. \n 3. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 4. Sand the edges to remove any sharp points or imperfections. \n 5. Optionally, seal the sample with a suitable high-temperature ceramic sealant for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 4768379.0,
+      "density": 62312.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2002255.0,
+      "formation_energy_per_atom": -27839.0,
+      "decomposition_energy_per_atom": -101.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -1016.0,
+      "decomposition_energy_mp_oqmd": -387.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8f2fca51e3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:24.076899Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba6Nd1O18Sm1Te3.json",
+      "material://Ba6Nd1O18Sm1Te3"
+    ]
+  }
+}

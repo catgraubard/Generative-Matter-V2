@@ -1,0 +1,114 @@
+{
+  "id": "Ac3In8Li4Nd1",
+  "uri": "material://Ac3In8Li4Nd1",
+  "composition": {
+    "formula": "Ac3In8Li4Nd1",
+    "elements": {
+      "Ac": 3,
+      "In": 8,
+      "Li": 4,
+      "Nd": 1
+    },
+    "reduced_formula": "Li4Ac3NdIn8",
+    "element_list": [
+      "Li",
+      "In",
+      "Nd",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 12.0 g, In: 24.0 g, Li: 8.0 g, Nd: 4.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Local chemical supply store; In: online metal supplier; Li: battery supply store; Nd: rare earth material supplier.",
+      "steps": [
+        "Ac: Local chemical supply store; In: online metal supplier; Li: battery supply store; Nd: rare earth material supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 12.0 g of Ac, 24.0 g of In, 8.0 g of Li, and 4.0 g of Nd using an analytical balance.",
+        "2. Combine all materials in a clean, dry ceramic crucible.",
+        "3. Mix thoroughly using a clean spatula until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh 12.0 g of Ac, 24.0 g of In, 8.0 g of Li, and 4.0 g of Nd using an analytical balance. \n 2. Combine all materials in a clean, dry ceramic crucible. \n 3. Mix thoroughly using a clean spatula until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a furnace.",
+        "2. Heat to 800°C at a rate of 5°C/min.",
+        "3. Maintain at 800°C for 2 hours to ensure complete reaction and fusion of materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace. \n 2. Heat to 800°C at a rate of 5°C/min. \n 3. Maintain at 800°C for 2 hours to ensure complete reaction and fusion of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours).",
+        "2. Once the furnace is cool, carefully remove the crucible."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 3-4 hours). \n 2. Once the furnace is cool, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Allow the solid material to cool at room temperature for an additional 1 hour.",
+        "2. Remove the sample from the crucible and inspect for any rough edges.",
+        "3. If necessary, sand the edges with fine-grit sandpaper until smooth.",
+        "4. Optionally, seal the surface with a clear epoxy for additional protection."
+      ],
+      "raw_text": "1. Allow the solid material to cool at room temperature for an additional 1 hour. \n 2. Remove the sample from the crucible and inspect for any rough edges. \n 3. If necessary, sand the edges with fine-grit sandpaper until smooth. \n 4. Optionally, seal the surface with a clear epoxy for additional protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 425083.0,
+      "density": 69204.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -534842.0,
+      "formation_energy_per_atom": -419.0,
+      "decomposition_energy_per_atom": -655.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -135.0,
+      "decomposition_energy_mp": -654.0,
+      "decomposition_energy_mp_oqmd": -382.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6c57bd8e0e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:37.414765Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac3In8Li4Nd1.json",
+      "material://Ac3In8Li4Nd1"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Li4Pa1S6Sc1",
+  "uri": "material://Li4Pa1S6Sc1",
+  "composition": {
+    "formula": "Li4Pa1S6Sc1",
+    "elements": {
+      "Li": 4,
+      "Pa": 1,
+      "S": 6,
+      "Sc": 1
+    },
+    "reduced_formula": "Li4ScPaS6",
+    "element_list": [
+      "Li",
+      "S",
+      "Sc",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CuO (Copper(II) oxide): 320 g  \n - Er2O3 (Erbium(III) oxide): 80 g  \n - Tm2O3 (Thulium(III) oxide): 40 g"
+    },
+    "sourcing": {
+      "instructions": "- CuO: Available from chemical supply companies or online marketplaces. \n - Er2O3: Available from specialized chemical suppliers or online. \n - Tm2O3: Obtainable from rare earth material suppliers or chemical distributors.",
+      "steps": [
+        "- CuO: Available from chemical supply companies or online marketplaces.",
+        "- Er2O3: Available from specialized chemical suppliers or online.",
+        "- Tm2O3: Obtainable from rare earth material suppliers or chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 320 g of CuO using a precision scale.",
+        "2. Measure 80 g of Er2O3 and 40 g of Tm2O3 separately.",
+        "3. In a clean, dry ceramic or glass container, combine the three powders.",
+        "4. Use a mortar and pestle to finely grind the mixture for 15-20 minutes until homogeneous."
+      ],
+      "raw_text": "1. Measure 320 g of CuO using a precision scale. \n 2. Measure 80 g of Er2O3 and 40 g of Tm2O3 separately. \n 3. In a clean, dry ceramic or glass container, combine the three powders. \n 4. Use a mortar and pestle to finely grind the mixture for 15-20 minutes until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the thoroughly mixed powder into a crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 900 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction and sintering."
+      ],
+      "raw_text": "1. Transfer the thoroughly mixed powder into a crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 900 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the sample."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the sample."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. If necessary, use a diamond file to smooth out edges and surfaces.",
+        "4. Optionally, apply a clear sealant if additional surface protection is required."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. If necessary, use a diamond file to smooth out edges and surfaces. \n 4. Optionally, apply a clear sealant if additional surface protection is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 226082.0,
+      "density": 36441.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -704242.0,
+      "formation_energy_per_atom": -18436.0,
+      "decomposition_energy_per_atom": -1795.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -125.0,
+      "decomposition_energy_mp": -1806.0,
+      "decomposition_energy_mp_oqmd": -1756.0
+    },
+    "electronic": {
+      "bandgap": 1.9588,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c82cb9d4d3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.460484Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4Pa1S6Sc1.json",
+      "material://Li4Pa1S6Sc1"
+    ]
+  }
+}

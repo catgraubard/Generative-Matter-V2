@@ -1,0 +1,120 @@
+{
+  "id": "La5O12Ru1Zn1",
+  "uri": "material://La5O12Ru1Zn1",
+  "composition": {
+    "formula": "La5O12Ru1Zn1",
+    "elements": {
+      "La": 5,
+      "O": 12,
+      "Ru": 1,
+      "Zn": 1
+    },
+    "reduced_formula": "La5ZnRuO12",
+    "element_list": [
+      "O",
+      "Zn",
+      "Ru",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 40 g \n Ru: 5 g \n ZnO: 5 g \n Oxygen (O2) source: 1 g (for stoichiometry)"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Chemical supply stores or online chemical suppliers. \n Ru: Precious metal suppliers or online markets. \n ZnO: Chemical supply stores or online chemical suppliers. \n O2 source: Can be obtained from compressed gas suppliers.",
+      "steps": [
+        "La2O3: Chemical supply stores or online chemical suppliers.",
+        "Ru: Precious metal suppliers or online markets.",
+        "ZnO: Chemical supply stores or online chemical suppliers.",
+        "O2 source: Can be obtained from compressed gas suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 40 g of La2O3, 5 g of Ru, and 5 g of ZnO accurately using a digital scale.",
+        "2. Combine the powders in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture until a fine, homogeneous powder is achieved.",
+        "4. Ensure the mixture is free of lumps and evenly mixed, taking approximately 10-15 minutes."
+      ],
+      "raw_text": "1. Weigh out 40 g of La2O3, 5 g of Ru, and 5 g of ZnO accurately using a digital scale. \n 2. Combine the powders in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the mixture until a fine, homogeneous powder is achieved. \n 4. Ensure the mixture is free of lumps and evenly mixed, taking approximately 10-15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 800°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 800°C at a rate of 5°C/min. \n 4. Maintain the temperature for 4 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration is complete, turn off the furnace.",
+        "2. Allow the furnace to cool down to room temperature naturally (approximately 6-8 hours).",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After the heating duration is complete, turn off the furnace. \n 2. Allow the furnace to cool down to room temperature naturally (approximately 6-8 hours). \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for uniformity.",
+        "2. If necessary, grind the material again to achieve a finer texture using a mortar and pestle.",
+        "3. Optionally, seal the sample with a clear epoxy resin to enhance durability, following the resin manufacturer's instructions for mixing and curing.",
+        "4. Allow the sealed sample to cure for 24 hours at room temperature before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for uniformity. \n 2. If necessary, grind the material again to achieve a finer texture using a mortar and pestle. \n 3. Optionally, seal the sample with a clear epoxy resin to enhance durability, following the resin manufacturer's instructions for mixing and curing. \n 4. Allow the sealed sample to cure for 24 hours at room temperature before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2952369.0,
+      "density": 59225.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1528425.0,
+      "formation_energy_per_atom": -30659.0,
+      "decomposition_energy_per_atom": -217.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -124.0,
+      "decomposition_energy_mp": -223.0,
+      "decomposition_energy_mp_oqmd": -223.0
+    },
+    "electronic": {
+      "bandgap": 0.0037,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8894d03749",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:14.784279Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La5O12Ru1Zn1.json",
+      "material://La5O12Ru1Zn1"
+    ]
+  }
+}

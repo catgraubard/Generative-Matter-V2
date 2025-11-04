@@ -1,0 +1,116 @@
+{
+  "id": "Li1Mg1Na1Se2",
+  "uri": "material://Li1Mg1Na1Se2",
+  "composition": {
+    "formula": "Li1Mg1Na1Se2",
+    "elements": {
+      "Li": 1,
+      "Mg": 1,
+      "Na": 1,
+      "Se": 2
+    },
+    "reduced_formula": "NaLiMgSe2",
+    "element_list": [
+      "Li",
+      "Na",
+      "Mg",
+      "Se"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 4.0 g, Cd: 4.0 g, Er: 1.0 g, Ni: 14.0 g, Tb: 1.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Boron powder from chemical supply stores; Cd: Cadmium powder from metal suppliers; Er: Erbium oxide from rare earth suppliers; Ni: Nickel powder from metallurgical suppliers; Tb: Terbium oxide from rare earth suppliers.",
+      "steps": [
+        "B: Boron powder from chemical supply stores; Cd: Cadmium powder from metal suppliers; Er: Erbium oxide from rare earth suppliers; Ni: Nickel powder from metallurgical suppliers; Tb: Terbium oxide from rare earth suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mortar and pestle, combine Boron and Cadmium powders.",
+        "3. Grind the mixture until homogeneous.",
+        "4. Add Erbium, Nickel, and Terbium powders to the mixture.",
+        "5. Continue grinding until a uniform consistency is achieved.",
+        "6. Transfer the mixture to a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mortar and pestle, combine Boron and Cadmium powders. \n 3. Grind the mixture until homogeneous. \n 4. Add Erbium, Nickel, and Terbium powders to the mixture. \n 5. Continue grinding until a uniform consistency is achieved. \n 6. Transfer the mixture to a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the ceramic crucible in the furnace.",
+        "3. Heat for 2 hours to ensure full melting and mixing of the components."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the ceramic crucible in the furnace. \n 3. Heat for 2 hours to ensure full melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Ensure that the cooling environment is free from drafts to prevent cracking."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down naturally to room temperature (approximately 2-3 hours). \n 2. Ensure that the cooling environment is free from drafts to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, remove the solid sample from the crucible.",
+        "2. Use a diamond file or grinder to smooth out any rough edges.",
+        "3. Optional: Seal the surface with a protective coating suitable for metallic compounds.",
+        "4. Allow any sealant to cure according to the manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cool, remove the solid sample from the crucible. \n 2. Use a diamond file or grinder to smooth out any rough edges. \n 3. Optional: Seal the surface with a protective coating suitable for metallic compounds. \n 4. Allow any sealant to cure according to the manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 1150239.0,
+      "density": 30628.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -188057.0,
+      "formation_energy_per_atom": -13964.0,
+      "decomposition_energy_per_atom": -62.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -62.0,
+      "decomposition_energy_mp_oqmd": -6.0
+    },
+    "electronic": {
+      "bandgap": 2.0508,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c390209c2b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.194203Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li1Mg1Na1Se2.json",
+      "material://Li1Mg1Na1Se2"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "Nd3O24Pr5W4",
+  "uri": "material://Nd3O24Pr5W4",
+  "composition": {
+    "formula": "Nd3O24Pr5W4",
+    "elements": {
+      "Nd": 3,
+      "O": 24,
+      "Pr": 5,
+      "W": 4
+    },
+    "reduced_formula": "Pr5Nd3(WO6)4",
+    "element_list": [
+      "O",
+      "Pr",
+      "Nd",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd2O3: 300 g\nPr6O11: 80 g\nW: 120 g\nDistilled Water: 50 g"
+    },
+    "sourcing": {
+      "instructions": "Nd2O3: Chemical supply companies (e.g., Sigma-Aldrich, Alfa Aesar) \nPr6O11: Rare earth materials suppliers \nW: Metal suppliers or online retailers",
+      "steps": [
+        "Nd2O3: Chemical supply companies (e.g., Sigma-Aldrich, Alfa Aesar)",
+        "Pr6O11: Rare earth materials suppliers",
+        "W: Metal suppliers or online retailers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 300 g of Nd2O3 in a clean, dry container.",
+        "2. Weigh 80 g of Pr6O11 and add it to the Nd2O3 container.",
+        "3. Weigh 120 g of W and add to the mixture.",
+        "4. Gradually add 50 g of distilled water while stirring continuously to form a slurry.",
+        "5. Ensure all powders are fully incorporated into a homogenous mixture."
+      ],
+      "raw_text": "1. Weigh out 300 g of Nd2O3 in a clean, dry container. \n2. Weigh 80 g of Pr6O11 and add it to the Nd2O3 container. \n3. Weigh 120 g of W and add to the mixture. \n4. Gradually add 50 g of distilled water while stirring continuously to form a slurry. \n5. Ensure all powders are fully incorporated into a homogenous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the slurry to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min and hold for 4 hours."
+      ],
+      "raw_text": "1. Transfer the slurry to a ceramic crucible. \n2. Place the crucible in a furnace. \n3. Heat to 1200°C at a rate of 5°C/min and hold for 4 hours."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace during cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C). \n2. Do not open the furnace during cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Use sandpaper (grit 400-600) to smooth the surface.",
+        "3. Optionally apply a sealing agent to protect the surface from moisture and damage."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n2. Use sandpaper (grit 400-600) to smooth the surface. \n3. Optionally apply a sealing agent to protect the surface from moisture and damage."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5353572.0,
+      "density": 69994.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3249279.0,
+      "formation_energy_per_atom": -3226.0,
+      "decomposition_energy_per_atom": -205.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -211.0,
+      "decomposition_energy_mp_oqmd": -211.0
+    },
+    "electronic": {
+      "bandgap": 3.7149,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "968ad7d908",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:33.979975Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd3O24Pr5W4.json",
+      "material://Nd3O24Pr5W4"
+    ]
+  }
+}

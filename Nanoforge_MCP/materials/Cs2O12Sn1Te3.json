@@ -1,0 +1,118 @@
+{
+  "id": "Cs2O12Sn1Te3",
+  "uri": "material://Cs2O12Sn1Te3",
+  "composition": {
+    "formula": "Cs2O12Sn1Te3",
+    "elements": {
+      "Cs": 2,
+      "O": 12,
+      "Sn": 1,
+      "Te": 3
+    },
+    "reduced_formula": "Cs2Sn(TeO4)3",
+    "element_list": [
+      "O",
+      "Sn",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 40 g, Cd: 60 g, Ni: 140 g, Tb: 10 g, Y: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Purchase from chemical suppliers or online platforms. \n Cd (Cadmium): Obtain from specialty metal suppliers or chemical distributors. \n Ni (Nickel): Readily available at hardware stores or online. \n Tb (Terbium): Source from rare earth metal suppliers or online chemical retailers. \n Y (Yttrium): Available from chemical supply companies or online platforms.",
+      "steps": [
+        "B (Boron): Purchase from chemical suppliers or online platforms.",
+        "Cd (Cadmium): Obtain from specialty metal suppliers or chemical distributors.",
+        "Ni (Nickel): Readily available at hardware stores or online.",
+        "Tb (Terbium): Source from rare earth metal suppliers or online chemical retailers.",
+        "Y (Yttrium): Available from chemical supply companies or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry container, combine 40 g of Boron, 60 g of Cadmium, 140 g of Nickel, 10 g of Terbium, and 10 g of Yttrium.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer to ensure a homogenous blend."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry container, combine 40 g of Boron, 60 g of Cadmium, 140 g of Nickel, 10 g of Terbium, and 10 g of Yttrium. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer to ensure a homogenous blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200 °C at a rate of 5 °C/min.",
+        "3. Hold the temperature at 1200 °C for 2 hours to ensure complete reaction and fusion of components."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace to 1200 °C at a rate of 5 °C/min. \n 3. Hold the temperature at 1200 °C for 2 hours to ensure complete reaction and fusion of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, allow the furnace to cool down naturally to room temperature.",
+        "2. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, allow the furnace to cool down naturally to room temperature. \n 2. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any surface imperfections.",
+        "3. If needed, sand down rough edges with fine-grit sandpaper.",
+        "4. Optionally, apply a sealant to enhance surface finish and durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect the sample for any surface imperfections. \n 3. If needed, sand down rough edges with fine-grit sandpaper. \n 4. Optionally, apply a sealant to enhance surface finish and durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 2818628.0,
+      "density": 56516.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1061524.0,
+      "formation_energy_per_atom": -17526.0,
+      "decomposition_energy_per_atom": -694.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -701.0,
+      "decomposition_energy_mp_oqmd": -694.0
+    },
+    "electronic": {
+      "bandgap": 0.6393,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bc6f81894c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.859276Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs2O12Sn1Te3.json",
+      "material://Cs2O12Sn1Te3"
+    ]
+  }
+}

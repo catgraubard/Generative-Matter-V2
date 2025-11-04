@@ -1,0 +1,116 @@
+{
+  "id": "Al1K16Pa1Sb8",
+  "uri": "material://Al1K16Pa1Sb8",
+  "composition": {
+    "formula": "Al1K16Pa1Sb8",
+    "elements": {
+      "Al": 1,
+      "K": 16,
+      "Pa": 1,
+      "Sb": 8
+    },
+    "reduced_formula": "K16PaAlSb8",
+    "element_list": [
+      "Al",
+      "K",
+      "Sb",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 7.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B₂O₃: 2.50 g \n Er₂O₃: 1.00 g \n Ga₂O₃: 1.00 g \n Ni: 7.00 g \n Tb₂O₃: 1.00 g"
+    },
+    "sourcing": {
+      "instructions": "B₂O₃: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Er₂O₃: Specialty chemical suppliers or online marketplaces \n Ga₂O₃: Electronics suppliers or chemical vendors \n Ni: Metal suppliers or hardware stores \n Tb₂O₃: Chemical supply companies or online sources",
+      "steps": [
+        "B₂O₃: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Er₂O₃: Specialty chemical suppliers or online marketplaces",
+        "Ga₂O₃: Electronics suppliers or chemical vendors",
+        "Ni: Metal suppliers or hardware stores",
+        "Tb₂O₃: Chemical supply companies or online sources"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. Combine B₂O₃, Er₂O₃, Ga₂O₃, Ni and Tb₂O₃ in a clean, dry mixing container.",
+        "3. Mix thoroughly using a mortar and pestle for at least 10 minutes until the mixture is homogenous."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. Combine B₂O₃, Er₂O₃, Ga₂O₃, Ni and Tb₂O₃ in a clean, dry mixing container. \n 3. Mix thoroughly using a mortar and pestle for at least 10 minutes until the mixture is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature furnace or a crucible.",
+        "2. Heat gradually to 800°C (1472°F) at a rate of 5°C per minute.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature furnace or a crucible. \n 2. Heat gradually to 800°C (1472°F) at a rate of 5°C per minute. \n 3. Maintain the temperature for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the material to cool naturally to room temperature (approximately 25°C) over a period of 4 hours.",
+        "2. Avoid rapid cooling to prevent cracking or phase changes."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the material to cool naturally to room temperature (approximately 25°C) over a period of 4 hours. \n 2. Avoid rapid cooling to prevent cracking or phase changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges of the sample with fine-grit sandpaper to achieve a smooth finish.",
+        "3. If desired, seal the surface with an appropriate sealant to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges of the sample with fine-grit sandpaper to achieve a smooth finish. \n 3. If desired, seal the surface with an appropriate sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 11106857.0,
+      "density": 27773.0,
+      "crystal_system": "cubic",
+      "space_group": "F-43m",
+      "space_group_number": 216,
+      "point_group": "-43m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -769134.0,
+      "formation_energy_per_atom": -4944.0,
+      "decomposition_energy_per_atom": -251.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -124.0,
+      "decomposition_energy_mp": -251.0,
+      "decomposition_energy_mp_oqmd": -134.0
+    },
+    "electronic": {
+      "bandgap": 0.395,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b12ee86460",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:12.507958Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1K16Pa1Sb8.json",
+      "material://Al1K16Pa1Sb8"
+    ]
+  }
+}

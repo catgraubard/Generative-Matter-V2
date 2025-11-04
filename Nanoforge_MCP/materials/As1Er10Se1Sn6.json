@@ -1,0 +1,131 @@
+{
+  "id": "As1Er10Se1Sn6",
+  "uri": "material://As1Er10Se1Sn6",
+  "composition": {
+    "formula": "As1Er10Se1Sn6",
+    "elements": {
+      "As": 1,
+      "Er": 10,
+      "Se": 1,
+      "Sn": 6
+    },
+    "reduced_formula": "Er10Sn6AsSe",
+    "element_list": [
+      "As",
+      "Se",
+      "Sn",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 160.0,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 240.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 360.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 160 g (Aluminum) \n C: 240 g (Carbon) \n Cu: 40 g (Copper) \n Ni: 360 g (Nickel)"
+    },
+    "sourcing": {
+      "instructions": "Ac: Local metal suppliers or online retailers specializing in aluminum. \n C: Carbon black from chemical supply stores. \n Cu: Scrap yards or online metal dealers. \n Ni: Specialty metal suppliers or online.",
+      "steps": [
+        "Ac: Local metal suppliers or online retailers specializing in aluminum.",
+        "C: Carbon black from chemical supply stores.",
+        "Cu: Scrap yards or online metal dealers.",
+        "Ni: Specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine the aluminum, carbon, copper, and nickel powders.",
+        "3. Mix thoroughly using a mechanical mixer or hand tool until uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean mixing container, combine the aluminum, carbon, copper, and nickel powders. \n 3. Mix thoroughly using a mechanical mixer or hand tool until uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1,200°C (2,192°F).",
+        "2. Place the mixed powders in a crucible suitable for high-temperature applications.",
+        "3. Insert the crucible into the furnace for 2 hours to ensure complete melting and alloying of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1,200°C (2,192°F). \n 2. Place the mixed powders in a crucible suitable for high-temperature applications. \n 3. Insert the crucible into the furnace for 2 hours to ensure complete melting and alloying of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25°C) for about 3 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 25°C) for about 3 hours. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once removed, allow the alloyed material to cool completely.",
+        "2. Remove any surface oxides using a wire brush or sandblasting.",
+        "3. Optionally, polish the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Seal with a protective coating if required for further use."
+      ],
+      "raw_text": "1. Once removed, allow the alloyed material to cool completely. \n 2. Remove any surface oxides using a wire brush or sandblasting. \n 3. Optionally, polish the surface with fine-grit sandpaper for a smooth finish. \n 4. Seal with a protective coating if required for further use."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4737892.0,
+      "density": 88978.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-31m",
+      "space_group_number": 162,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -954415.0,
+      "formation_energy_per_atom": -9751.0,
+      "decomposition_energy_per_atom": -436.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -436.0,
+      "decomposition_energy_mp_oqmd": -362.0
+    },
+    "electronic": {
+      "bandgap": 0.012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd12643e0c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.557702Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As1Er10Se1Sn6.json",
+      "material://As1Er10Se1Sn6"
+    ]
+  }
+}

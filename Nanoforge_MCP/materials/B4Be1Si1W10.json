@@ -1,0 +1,127 @@
+{
+  "id": "B4Be1Si1W10",
+  "uri": "material://B4Be1Si1W10",
+  "composition": {
+    "formula": "B4Be1Si1W10",
+    "elements": {
+      "B": 4,
+      "Be": 1,
+      "Si": 1,
+      "W": 10
+    },
+    "reduced_formula": "BeSi(B2W5)2",
+    "element_list": [
+      "Be",
+      "B",
+      "Si",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Be",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 800.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B4: 80 g \n Be: 20 g \n Si: 10 g \n W: 800 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Available at chemical supply stores. \n Be (Beryllium): Obtain from specialized metal suppliers. \n Si (Silicon): Purchase from electronic component suppliers. \n W (Tungsten): Metal suppliers or industrial material suppliers.",
+      "steps": [
+        "B (Boron): Available at chemical supply stores.",
+        "Be (Beryllium): Obtain from specialized metal suppliers.",
+        "Si (Silicon): Purchase from electronic component suppliers.",
+        "W (Tungsten): Metal suppliers or industrial material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 80 g of Boron, 20 g of Beryllium, 10 g of Silicon, and 800 g of Tungsten using an analytical balance.",
+        "2. In a clean, dry container, combine the Boron, Beryllium, and Silicon to form a homogeneous powder mixture.",
+        "3. Slowly add the Tungsten powder to the mixture while continuously stirring to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 80 g of Boron, 20 g of Beryllium, 10 g of Silicon, and 800 g of Tungsten using an analytical balance. \n 2. In a clean, dry container, combine the Boron, Beryllium, and Silicon to form a homogeneous powder mixture. \n 3. Slowly add the Tungsten powder to the mixture while continuously stirring to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat the mixture to 1500°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure thorough reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat the mixture to 1500°C at a rate of 10°C/min. \n 3. Maintain this temperature for 4 hours to ensure thorough reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 12,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the sample to cool down to room temperature naturally inside the furnace (approximately 8-12 hours).",
+        "2. Avoid opening the furnace during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the sample to cool down to room temperature naturally inside the furnace (approximately 8-12 hours). \n 2. Avoid opening the furnace during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the furnace.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges with fine grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the furnace. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges with fine grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2017461.0,
+      "density": 157928.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I422",
+      "space_group_number": 97,
+      "point_group": "422",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1699863.0,
+      "formation_energy_per_atom": -2827.0,
+      "decomposition_energy_per_atom": -254.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -44.0,
+      "decomposition_energy_mp": -254.0,
+      "decomposition_energy_mp_oqmd": -247.0
+    },
+    "electronic": {
+      "bandgap": 0.0094,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5a087af125",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:13.853399Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B4Be1Si1W10.json",
+      "material://B4Be1Si1W10"
+    ]
+  }
+}

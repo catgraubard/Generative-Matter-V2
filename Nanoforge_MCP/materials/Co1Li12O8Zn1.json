@@ -1,0 +1,111 @@
+{
+  "id": "Co1Li12O8Zn1",
+  "uri": "material://Co1Li12O8Zn1",
+  "composition": {
+    "formula": "Co1Li12O8Zn1",
+    "elements": {
+      "Co": 1,
+      "Li": 12,
+      "O": 8,
+      "Zn": 1
+    },
+    "reduced_formula": "Li12ZnCoO8",
+    "element_list": [
+      "Li",
+      "O",
+      "Co",
+      "Zn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Cobalt(II) oxide (CoO): 10.0 g \n Lithium oxide (Li2O): 60.0 g \n Zinc oxide (ZnO): 5.0 g \n Oxygen source (e.g., air): as required for reaction"
+    },
+    "sourcing": {
+      "instructions": "Cobalt(II) oxide: Chemical supply stores or online chemical suppliers \n Lithium oxide: Chemical supply stores or online chemical suppliers \n Zinc oxide: Local hardware stores, pharmacies, or online suppliers",
+      "steps": [
+        "Cobalt(II) oxide: Chemical supply stores or online chemical suppliers",
+        "Lithium oxide: Chemical supply stores or online chemical suppliers",
+        "Zinc oxide: Local hardware stores, pharmacies, or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of CoO, 60.0 g of Li2O, and 5.0 g of ZnO using a precision scale.",
+        "2. In a clean, dry mixing container, combine the CoO, Li2O, and ZnO thoroughly using a ceramic or glass stirrer.",
+        "3. Ensure a homogeneous mixture with no visible clumps."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of CoO, 60.0 g of Li2O, and 5.0 g of ZnO using a precision scale. \n 2. In a clean, dry mixing container, combine the CoO, Li2O, and ZnO thoroughly using a ceramic or glass stirrer. \n 3. Ensure a homogeneous mixture with no visible clumps."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a furnace or kiln.",
+        "3. Heat the mixture to 800°C at a rate of 5°C/min.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired material."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Place the crucible in a furnace or kiln. \n 3. Heat the mixture to 800°C at a rate of 5°C/min. \n 4. Maintain this temperature for 4 hours to ensure complete reaction and formation of the desired material."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Avoid opening the furnace door during cooling to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Avoid opening the furnace door during cooling to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for cracks or defects; if present, consider grinding down and re-sintering.",
+        "3. Optionally sand the edges to smoothen the surface using fine-grit sandpaper.",
+        "4. If desired, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for cracks or defects; if present, consider grinding down and re-sintering. \n 3. Optionally sand the edges to smoothen the surface using fine-grit sandpaper. \n 4. If desired, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 2022184.0,
+      "density": 27561.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4m2",
+      "space_group_number": 115,
+      "point_group": "-42m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1151252.0,
+      "formation_energy_per_atom": -20121.0,
+      "decomposition_energy_per_atom": -23.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -234.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 2.9542,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "85a55c98d5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:10.955478Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Li12O8Zn1.json",
+      "material://Co1Li12O8Zn1"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "Ba20Si11Sn1",
+  "uri": "material://Ba20Si11Sn1",
+  "composition": {
+    "formula": "Ba20Si11Sn1",
+    "elements": {
+      "Ba": 20,
+      "Si": 11,
+      "Sn": 1
+    },
+    "reduced_formula": "Ba20Si11Sn",
+    "element_list": [
+      "Si",
+      "Sn",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "**CeO2 (Cerium Oxide)**: 120 g  \n **CoO (Cobalt Oxide)**: 30 g \n **SiO2 (Silicon Dioxide)**: 420 g"
+    },
+    "sourcing": {
+      "instructions": "**Cerium Oxide**: Purchase from chemical supply stores or online suppliers specializing in rare earth materials. \n **Cobalt Oxide**: Available from chemical suppliers or online marketplaces that provide metal oxides. \n **Silicon Dioxide**: Obtain from silica sand suppliers or online chemical retailers.",
+      "steps": [
+        "**Cerium Oxide**: Purchase from chemical supply stores or online suppliers specializing in rare earth materials.",
+        "**Cobalt Oxide**: Available from chemical suppliers or online marketplaces that provide metal oxides.",
+        "**Silicon Dioxide**: Obtain from silica sand suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 120 g of CeO2, 30 g of CoO, and 420 g of SiO2 using an analytical balance for precision.",
+        "2. In a clean, dry glass or ceramic mixing bowl, combine the measured powders.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform color and texture are achieved, about 5-10 minutes.",
+        "4. Transfer the mixed powder to a ball mill for 30 minutes to ensure a homogeneous mixture."
+      ],
+      "raw_text": "1. Measure out 120 g of CeO2, 30 g of CoO, and 420 g of SiO2 using an analytical balance for precision. \n 2. In a clean, dry glass or ceramic mixing bowl, combine the measured powders. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform color and texture are achieved, about 5-10 minutes. \n 4. Transfer the mixed powder to a ball mill for 30 minutes to ensure a homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the mixed powder into a high-temperature crucible and insert it into the furnace.",
+        "3. Heat the mixture for 2 hours to facilitate sintering and achieve a solid form."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the mixed powder into a high-temperature crucible and insert it into the furnace. \n 3. Heat the mixture for 2 hours to facilitate sintering and achieve a solid form."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature, approximately 4-6 hours.",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature, approximately 4-6 hours. \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or rough edges.",
+        "3. Use a fine-grit sandpaper (600 grit) to smooth any rough surfaces.",
+        "4. Optionally, apply a sealant if the sample will be exposed to moisture or environmental factors."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible. \n 2. Inspect for any irregularities or rough edges. \n 3. Use a fine-grit sandpaper (600 grit) to smooth any rough surfaces. \n 4. Optionally, apply a sealant if the sample will be exposed to moisture or environmental factors."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 12202852.0,
+      "density": 43194.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4",
+      "space_group_number": 75,
+      "point_group": "4",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1135163.0,
+      "formation_energy_per_atom": -3578.0,
+      "decomposition_energy_per_atom": -61.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -59.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d1788cb0ac",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.730128Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba20Si11Sn1.json",
+      "material://Ba20Si11Sn1"
+    ]
+  }
+}

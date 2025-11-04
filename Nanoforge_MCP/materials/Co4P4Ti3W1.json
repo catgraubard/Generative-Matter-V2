@@ -1,0 +1,110 @@
+{
+  "id": "Co4P4Ti3W1",
+  "uri": "material://Co4P4Ti3W1",
+  "composition": {
+    "formula": "Co4P4Ti3W1",
+    "elements": {
+      "Co": 4,
+      "P": 4,
+      "Ti": 3,
+      "W": 1
+    },
+    "reduced_formula": "Ti3Co4P4W",
+    "element_list": [
+      "P",
+      "Ti",
+      "Co",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Er2O3 (Cerium oxide): 33.75 g \n - MnO2 (Manganese dioxide): 67.50 g \n - Tb4O7 (Terbium oxide): 15.00 g \n - SiO2 (Silica): 3.75 g (for binder)"
+    },
+    "sourcing": {
+      "instructions": "- Er2O3: Available from chemical suppliers like Sigma-Aldrich or online marketplaces such as Alibaba. \n - MnO2: Obtainable from mining supply stores or chemical suppliers. \n - Tb4O7: Can be sourced from specialized rare earth material suppliers. \n - SiO2: Commonly found at hardware stores or online.",
+      "steps": [
+        "- Er2O3: Available from chemical suppliers like Sigma-Aldrich or online marketplaces such as Alibaba.",
+        "- MnO2: Obtainable from mining supply stores or chemical suppliers.",
+        "- Tb4O7: Can be sourced from specialized rare earth material suppliers.",
+        "- SiO2: Commonly found at hardware stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean, dry mixing container, combine Er2O3, MnO2, and Tb4O7.",
+        "3. Gradually add SiO2 to the mix while stirring continuously to ensure even distribution.",
+        "4. Use a pestle and mortar to grind the mixture to a fine powder."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean, dry mixing container, combine Er2O3, MnO2, and Tb4O7. \n 3. Gradually add SiO2 to the mix while stirring continuously to ensure even distribution. \n 4. Use a pestle and mortar to grind the mixture to a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Heat the crucible in a muffle furnace at 1200°C for 4 hours, with a ramp-up rate of 5°C/min."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n 2. Heat the crucible in a muffle furnace at 1200°C for 4 hours, with a ramp-up rate of 5°C/min."
+    },
+    "cooling": {
+      "cooling_time_hours": 5,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 4-5 hours) before opening the furnace door.",
+        "2. Once cooled, carefully retrieve the crucible."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 4-5 hours) before opening the furnace door. \n 2. Once cooled, carefully retrieve the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any surface imperfections.",
+        "2. Use fine-grit sandpaper to smooth any rough edges.",
+        "3. Optionally, seal with a protective coating if required for specific applications."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any surface imperfections. \n 2. Use fine-grit sandpaper to smooth any rough edges. \n 3. Optionally, seal with a protective coating if required for specific applications."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1465406.0,
+      "density": 77856.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -984177.0,
+      "formation_energy_per_atom": -9739.0,
+      "decomposition_energy_per_atom": -3.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -3.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 0.0072,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b47fd7c511",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.943752Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co4P4Ti3W1.json",
+      "material://Co4P4Ti3W1"
+    ]
+  }
+}

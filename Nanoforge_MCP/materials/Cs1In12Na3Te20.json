@@ -1,0 +1,126 @@
+{
+  "id": "Cs1In12Na3Te20",
+  "uri": "material://Cs1In12Na3Te20",
+  "composition": {
+    "formula": "Cs1In12Na3Te20",
+    "elements": {
+      "Cs": 1,
+      "In": 12,
+      "Na": 3,
+      "Te": 20
+    },
+    "reduced_formula": "CsNa3(In3Te5)4",
+    "element_list": [
+      "Na",
+      "In",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "In",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 38.0,
+          "unit": "g"
+        },
+        {
+          "element": "Te",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "CsCl: 72.0 g \n In: 60.0 g \n Na: 38.0 g \n Te: 200.0 g"
+    },
+    "sourcing": {
+      "instructions": "CsCl: Specialty chemical suppliers or online chemistry stores. \n In: Metal suppliers or online marketplaces for elemental metals. \n Na: Chemical suppliers, ensure purity (sodium wire or pellets). \n Te: Specialty chemical suppliers or online metal suppliers.",
+      "steps": [
+        "CsCl: Specialty chemical suppliers or online chemistry stores.",
+        "In: Metal suppliers or online marketplaces for elemental metals.",
+        "Na: Chemical suppliers, ensure purity (sodium wire or pellets).",
+        "Te: Specialty chemical suppliers or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh CsCl, In, Na, and Te using an analytical balance for precision.",
+        "2. In a clean, dry container, combine CsCl and In, stirring thoroughly for uniform distribution.",
+        "3. Slowly add Na to the mixture while continuously stirring.",
+        "4. Finally, integrate Te into the mixture, ensuring even distribution throughout the composite."
+      ],
+      "raw_text": "1. Weigh CsCl, In, Na, and Te using an analytical balance for precision. \n 2. In a clean, dry container, combine CsCl and In, stirring thoroughly for uniform distribution. \n 3. Slowly add Na to the mixture while continuously stirring. \n 4. Finally, integrate Te into the mixture, ensuring even distribution throughout the composite."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the prepared mixture into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace and heat to 800°C at a rate of 10°C per minute.",
+        "3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the components."
+      ],
+      "raw_text": "1. Transfer the prepared mixture into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace and heat to 800°C at a rate of 10°C per minute. \n 3. Maintain this temperature for 2 hours to ensure complete melting and reaction of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature of the furnace to room temperature over a period of 6 hours to prevent thermal shock.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Gradually reduce the temperature of the furnace to room temperature over a period of 6 hours to prevent thermal shock. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any surface imperfections.",
+        "2. If necessary, use a diamond file or sandpaper (400-600 grit) to smooth the edges and surfaces.",
+        "3. Optionally, apply a clear sealing coat to enhance surface durability and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any surface imperfections. \n 2. If necessary, use a diamond file or sandpaper (400-600 grit) to smooth the edges and surfaces. \n 3. Optionally, apply a clear sealing coat to enhance surface durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 14015936.0,
+      "density": 4895.0,
+      "crystal_system": "trigonal",
+      "space_group": "R32",
+      "space_group_number": 155,
+      "point_group": "32",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -12607.0,
+      "formation_energy_per_atom": -7034.0,
+      "decomposition_energy_per_atom": -295.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -34.0,
+      "decomposition_energy_mp": -284.0,
+      "decomposition_energy_mp_oqmd": -227.0
+    },
+    "electronic": {
+      "bandgap": 1.0258,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ed1e41447a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.110088Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs1In12Na3Te20.json",
+      "material://Cs1In12Na3Te20"
+    ]
+  }
+}

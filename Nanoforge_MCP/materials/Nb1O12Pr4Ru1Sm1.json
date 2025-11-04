@@ -1,0 +1,118 @@
+{
+  "id": "Nb1O12Pr4Ru1Sm1",
+  "uri": "material://Nb1O12Pr4Ru1Sm1",
+  "composition": {
+    "formula": "Nb1O12Pr4Ru1Sm1",
+    "elements": {
+      "Nb": 1,
+      "O": 12,
+      "Pr": 4,
+      "Ru": 1,
+      "Sm": 1
+    },
+    "reduced_formula": "Pr4SmNbRuO12",
+    "element_list": [
+      "O",
+      "Nb",
+      "Ru",
+      "Pr",
+      "Sm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 12.00 g, Mn: 20.00 g, Ni: 16.00 g, Si: 12.00 g, W: 60.00 g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon black from chemical suppliers; Mn: Manganese powder from metal suppliers; Ni: Nickel powder from metal suppliers; Si: Silicon powder from chemical suppliers; W: Tungsten powder from metal suppliers.",
+      "steps": [
+        "C: Carbon black from chemical suppliers; Mn: Manganese powder from metal suppliers; Ni: Nickel powder from metal suppliers; Si: Silicon powder from chemical suppliers; W: Tungsten powder from metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry mixing container, weigh out 12.00 g of carbon black.",
+        "2. Add 20.00 g of manganese powder to the container.",
+        "3. Incorporate 16.00 g of nickel powder into the mixture.",
+        "4. Add 12.00 g of silicon powder.",
+        "5. Finally, add 60.00 g of tungsten powder.",
+        "6. Mix thoroughly using a mechanical mixer for 15 minutes to ensure a uniform blend."
+      ],
+      "raw_text": "1. In a clean, dry mixing container, weigh out 12.00 g of carbon black. \n 2. Add 20.00 g of manganese powder to the container. \n 3. Incorporate 16.00 g of nickel powder into the mixture. \n 4. Add 12.00 g of silicon powder. \n 5. Finally, add 60.00 g of tungsten powder. \n 6. Mix thoroughly using a mechanical mixer for 15 minutes to ensure a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200°C.",
+        "2. Transfer the mixed powders to a crucible suitable for high temperatures.",
+        "3. Place the crucible in the furnace and heat for 2 hours to allow for proper sintering of the material."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200°C. \n 2. Transfer the mixed powders to a crucible suitable for high temperatures. \n 3. Place the crucible in the furnace and heat for 2 hours to allow for proper sintering of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 3-4 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a diamond grinding wheel to shape the solid sample to the dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Finish by sanding the surface with fine-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy coating for added protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a diamond grinding wheel to shape the solid sample to the dimensions of 3 inches x 2 inches x 7 inches. \n 3. Finish by sanding the surface with fine-grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy coating for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 19,
+      "volume": 2874283.0,
+      "density": 63547.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -166189.0,
+      "formation_energy_per_atom": -33471.0,
+      "decomposition_energy_per_atom": -58.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -64.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": 0.749,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd70f9ed70",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.658345Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb1O12Pr4Ru1Sm1.json",
+      "material://Nb1O12Pr4Ru1Sm1"
+    ]
+  }
+}

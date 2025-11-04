@@ -1,0 +1,108 @@
+{
+  "id": "Al2Co12Pa6",
+  "uri": "material://Al2Co12Pa6",
+  "composition": {
+    "formula": "Al2Co12Pa6",
+    "elements": {
+      "Al": 2,
+      "Co": 12,
+      "Pa": 6
+    },
+    "reduced_formula": "Pa3AlCo6",
+    "element_list": [
+      "Al",
+      "Co",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "**Indium (In)**: 70 grams \n **Sodium (Na)**: 24 grams \n **Rubidium (Rb)**: 12 grams \n **Selenium (Se)**: 144 grams"
+    },
+    "sourcing": {
+      "instructions": "**Indium**: Purchase from a reputable metal supplier or online from specialty chemical suppliers. \n **Sodium**: Obtain from a chemical supply company or online market; ensure it is in pure form. \n **Rubidium**: Available from specialized chemical suppliers or online. \n **Selenium**: Purchase from chemical suppliers; ensure it is of high purity.",
+      "steps": [
+        "**Indium**: Purchase from a reputable metal supplier or online from specialty chemical suppliers.",
+        "**Sodium**: Obtain from a chemical supply company or online market; ensure it is in pure form.",
+        "**Rubidium**: Available from specialized chemical suppliers or online.",
+        "**Selenium**: Purchase from chemical suppliers; ensure it is of high purity."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine the weighed Indium, Sodium, Rubidium, and Selenium.",
+        "3. Mix the powders thoroughly with a spatula for even distribution.",
+        "4. Transfer the mixture into a ball mill and mill for 1 hour to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine the weighed Indium, Sodium, Rubidium, and Selenium. \n 3. Mix the powders thoroughly with a spatula for even distribution. \n 4. Transfer the mixture into a ball mill and mill for 1 hour to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 800°C.",
+        "2. Once at temperature, place the milled powder mixture in a ceramic crucible.",
+        "3. Heat the crucible for 4 hours to facilitate proper reaction and formation of In4Na3Rb1Se6."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 800°C. \n 2. Once at temperature, place the milled powder mixture in a ceramic crucible. \n 3. Heat the crucible for 4 hours to facilitate proper reaction and formation of In4Na3Rb1Se6."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Avoid opening the furnace until it has cooled below 200°C to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Avoid opening the furnace until it has cooled below 200°C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the solid material to cool completely before handling.",
+        "3. If needed, grind the solid sample to achieve a finer consistency.",
+        "4. Optionally, seal the material in an airtight container to preserve its properties."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the solid material to cool completely before handling. \n 3. If needed, grind the solid sample to achieve a finer consistency. \n 4. Optionally, seal the material in an airtight container to preserve its properties."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 311053.0,
+      "density": 114636.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1585431.0,
+      "formation_energy_per_atom": -4332.0,
+      "decomposition_energy_per_atom": -938.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -173.0,
+      "decomposition_energy_mp": -938.0,
+      "decomposition_energy_mp_oqmd": -372.0
+    },
+    "electronic": {
+      "bandgap": 0.0041,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba1789b220",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.337270Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Co12Pa6.json",
+      "material://Al2Co12Pa6"
+    ]
+  }
+}

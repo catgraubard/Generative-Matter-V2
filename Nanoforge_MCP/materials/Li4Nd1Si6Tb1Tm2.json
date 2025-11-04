@@ -1,0 +1,146 @@
+{
+  "id": "Li4Nd1Si6Tb1Tm2",
+  "uri": "material://Li4Nd1Si6Tb1Tm2",
+  "composition": {
+    "formula": "Li4Nd1Si6Tb1Tm2",
+    "elements": {
+      "Li": 4,
+      "Nd": 1,
+      "Si": 6,
+      "Tb": 1,
+      "Tm": 2
+    },
+    "reduced_formula": "Li4TbNd(TmSi3)2",
+    "element_list": [
+      "Li",
+      "Si",
+      "Nd",
+      "Tb",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 1.5,
+          "unit": "g"
+        },
+        {
+          "element": "C",
+          "amount": 4.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 28.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 1.5 g \n C: 4.0 g \n Fe: 16.0 g \n Na: 32.0 g \n O: 28.0 g \n V: 12.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Chemical supply stores \n C: Organic chemistry suppliers \n Fe: Metal suppliers or online chemical stores \n Na: Chemical supply stores \n O: Air (oxygen) or via chemical sources \n V: Chemical supply stores",
+      "steps": [
+        "As: Chemical supply stores",
+        "C: Organic chemistry suppliers",
+        "Fe: Metal suppliers or online chemical stores",
+        "Na: Chemical supply stores",
+        "O: Air (oxygen) or via chemical sources",
+        "V: Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Wear appropriate safety gear (gloves, goggles, lab coat).",
+        "2. Measure each component accurately using an analytical balance.",
+        "3. In a clean, dry glass beaker, combine As, C, Fe, Na, O, and V.",
+        "4. Stir the mixture thoroughly with a glass rod until uniformly mixed.",
+        "5. Transfer the mixture into a suitable mold (3 inches x 2 inches x 7 inches) to shape the solid sample."
+      ],
+      "raw_text": "1. Wear appropriate safety gear (gloves, goggles, lab coat). \n 2. Measure each component accurately using an analytical balance. \n 3. In a clean, dry glass beaker, combine As, C, Fe, Na, O, and V. \n 4. Stir the mixture thoroughly with a glass rod until uniformly mixed. \n 5. Transfer the mixture into a suitable mold (3 inches x 2 inches x 7 inches) to shape the solid sample."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the mold with the mixture into the furnace.",
+        "3. Heat for 4 hours to ensure the components react and form a solid phase."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the mold with the mixture into the furnace. \n 3. Heat for 4 hours to ensure the components react and form a solid phase."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect for any surface irregularities; if present, sand down using fine-grit sandpaper.",
+        "3. Optionally, apply a sealant for protection if the material is prone to oxidation or environmental damage.",
+        "4. Allow any sealant to cure as per manufacturer's instructions before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect for any surface irregularities; if present, sand down using fine-grit sandpaper. \n 3. Optionally, apply a sealant for protection if the material is prone to oxidation or environmental damage. \n 4. Allow any sealant to cure as per manufacturer's instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2597733.0,
+      "density": 53523.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -665958.0,
+      "formation_energy_per_atom": -5753.0,
+      "decomposition_energy_per_atom": -163.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -175.0,
+      "decomposition_energy_mp_oqmd": -125.0
+    },
+    "electronic": {
+      "bandgap": 0.018,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c7626ea28b",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.293257Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4Nd1Si6Tb1Tm2.json",
+      "material://Li4Nd1Si6Tb1Tm2"
+    ]
+  }
+}

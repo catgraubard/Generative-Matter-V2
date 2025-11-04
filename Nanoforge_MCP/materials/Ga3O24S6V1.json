@@ -1,0 +1,132 @@
+{
+  "id": "Ga3O24S6V1",
+  "uri": "material://Ga3O24S6V1",
+  "composition": {
+    "formula": "Ga3O24S6V1",
+    "elements": {
+      "Ga": 3,
+      "O": 24,
+      "S": 6,
+      "V": 1
+    },
+    "reduced_formula": "VGa3(SO4)6",
+    "element_list": [
+      "O",
+      "S",
+      "V",
+      "Ga"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 40 g \n In: 20 g \n Ru: 100 g \n Zr: 20 g"
+    },
+    "sourcing": {
+      "instructions": "B: Obtain from a chemical supply store or online supplier specializing in boron compounds. \n In: Purchase from a reputable metal supplier. \n Ru: Source from a precious metal dealer or specialized chemical supplier. \n Zr: Available from metal supply companies or online retailers specializing in zirconium.",
+      "steps": [
+        "B: Obtain from a chemical supply store or online supplier specializing in boron compounds.",
+        "In: Purchase from a reputable metal supplier.",
+        "Ru: Source from a precious metal dealer or specialized chemical supplier.",
+        "Zr: Available from metal supply companies or online retailers specializing in zirconium."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient accurately using an analytical balance.",
+        "2. In a fume hood, combine the weights of each element in a clean, dry ceramic crucible.",
+        "3. Use a pestle and mortar to grind the mixture until it is a fine powder.",
+        "4. Transfer the powdered mix into a clean, dry alumina crucible."
+      ],
+      "raw_text": "1. Weigh out each ingredient accurately using an analytical balance. \n 2. In a fume hood, combine the weights of each element in a clean, dry ceramic crucible. \n 3. Use a pestle and mortar to grind the mixture until it is a fine powder. \n 4. Transfer the powdered mix into a clean, dry alumina crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1200 °C.",
+        "2. Place the alumina crucible with the mixture in the center of the furnace.",
+        "3. Heat for 4 hours to ensure complete reaction and sintering."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200 °C. \n 2. Place the alumina crucible with the mixture in the center of the furnace. \n 3. Heat for 4 hours to ensure complete reaction and sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace until it is below 200 °C to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace until it is below 200 °C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with fine-grit sandpaper to smooth any rough surfaces.",
+        "4. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with fine-grit sandpaper to smooth any rough surfaces. \n 4. Optionally, apply a protective sealant to enhance durability and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 34,
+      "volume": 4386405.0,
+      "density": 31666.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2291578.0,
+      "formation_energy_per_atom": -19829.0,
+      "decomposition_energy_per_atom": -7.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": 0.0,
+      "decomposition_energy_mp": -14.0,
+      "decomposition_energy_mp_oqmd": -9.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c4ebc42cf5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.481602Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga3O24S6V1.json",
+      "material://Ga3O24S6V1"
+    ]
+  }
+}

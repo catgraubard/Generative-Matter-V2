@@ -1,0 +1,124 @@
+{
+  "id": "Ga1Mn7Nb2Ti2",
+  "uri": "material://Ga1Mn7Nb2Ti2",
+  "composition": {
+    "formula": "Ga1Mn7Nb2Ti2",
+    "elements": {
+      "Ga": 1,
+      "Mn": 7,
+      "Nb": 2,
+      "Ti": 2
+    },
+    "reduced_formula": "Ti2Mn7Nb2Ga",
+    "element_list": [
+      "Ti",
+      "Mn",
+      "Ga",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 117.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 54.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tl",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 117.00 g \n Nd: 54.00 g \n Tl: 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich). \n Nd: Obtain from rare earth metal suppliers or online marketplaces. \n Tl: Source from chemical supply companies or specialized metal suppliers.",
+      "steps": [
+        "Co: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich).",
+        "Nd: Obtain from rare earth metal suppliers or online marketplaces.",
+        "Tl: Source from chemical supply companies or specialized metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. Combine Co, Nd, and Tl in a clean, dry mixing container.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 15 minutes to ensure uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. Combine Co, Nd, and Tl in a clean, dry mixing container. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer for 15 minutes to ensure uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace to 1100°C for 2 hours in a controlled atmosphere (preferably argon) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace to 1100°C for 2 hours in a controlled atmosphere (preferably argon) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours) in the furnace to minimize thermal shock.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours) in the furnace to minimize thermal shock. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified material from the crucible carefully.",
+        "2. Use a diamond saw or grinder to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surfaces to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to prevent oxidation or corrosion."
+      ],
+      "raw_text": "1. Remove the solidified material from the crucible carefully. \n 2. Use a diamond saw or grinder to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surfaces to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to prevent oxidation or corrosion."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1583936.0,
+      "density": 77142.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3m1",
+      "space_group_number": 164,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1061917.0,
+      "formation_energy_per_atom": -253.0,
+      "decomposition_energy_per_atom": -227.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -46.0,
+      "decomposition_energy_mp": -227.0,
+      "decomposition_energy_mp_oqmd": -209.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d1b185fb99",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.786155Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga1Mn7Nb2Ti2.json",
+      "material://Ga1Mn7Nb2Ti2"
+    ]
+  }
+}

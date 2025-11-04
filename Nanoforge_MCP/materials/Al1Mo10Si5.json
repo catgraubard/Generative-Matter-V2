@@ -1,0 +1,111 @@
+{
+  "id": "Al1Mo10Si5",
+  "uri": "material://Al1Mo10Si5",
+  "composition": {
+    "formula": "Al1Mo10Si5",
+    "elements": {
+      "Al": 1,
+      "Mo": 10,
+      "Si": 5
+    },
+    "reduced_formula": "Al(SiMo2)5",
+    "element_list": [
+      "Al",
+      "Si",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Rb",
+          "amount": 16.0,
+          "unit": "grams"
+        }
+      ],
+      "raw_text": "Rb: 16 grams, Se: 16 grams, Sn: 3 grams, Zr: 1 gram"
+    },
+    "sourcing": {
+      "instructions": "Rb: Specialty chemical suppliers, Se: Chemical supply companies, Sn: Electronics component suppliers, Zr: Metal suppliers or specialty chemical suppliers",
+      "steps": [
+        "Rb: Specialty chemical suppliers, Se: Chemical supply companies, Sn: Electronics component suppliers, Zr: Metal suppliers or specialty chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. Place Rb, Se, Sn, and Zr in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the materials together until a homogeneous powder is achieved.",
+        "4. Transfer the mixed powder to a clean, labeled storage container for the next step."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. Place Rb, Se, Sn, and Zr in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the materials together until a homogeneous powder is achieved. \n 4. Transfer the mixed powder to a clean, labeled storage container for the next step."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the mixed powder into a ceramic crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours for complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the mixed powder into a ceramic crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours for complete reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace until it has completely cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once cooled.",
+        "2. Inspect for any irregularities or cracks; if present, consider re-melting.",
+        "3. Use fine-grit sandpaper to smooth the surfaces of the sample.",
+        "4. Optionally, apply a sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once cooled. \n 2. Inspect for any irregularities or cracks; if present, consider re-melting. \n 3. Use fine-grit sandpaper to smooth the surfaces of the sample. \n 4. Optionally, apply a sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2346321.0,
+      "density": 79747.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I422",
+      "space_group_number": 97,
+      "point_group": "422",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1451707.0,
+      "formation_energy_per_atom": -3651.0,
+      "decomposition_energy_per_atom": 134.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -81.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e43de08916",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.780959Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Mo10Si5.json",
+      "material://Al1Mo10Si5"
+    ]
+  }
+}

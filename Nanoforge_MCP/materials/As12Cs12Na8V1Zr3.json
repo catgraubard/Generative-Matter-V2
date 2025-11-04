@@ -1,0 +1,130 @@
+{
+  "id": "As12Cs12Na8V1Zr3",
+  "uri": "material://As12Cs12Na8V1Zr3",
+  "composition": {
+    "formula": "As12Cs12Na8V1Zr3",
+    "elements": {
+      "As": 12,
+      "Cs": 12,
+      "Na": 8,
+      "V": 1,
+      "Zr": 3
+    },
+    "reduced_formula": "Cs12Na8Zr3VAs12",
+    "element_list": [
+      "Na",
+      "V",
+      "As",
+      "Zr",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 50 g  \n  Se: 100 g  \n  Sr: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Purchase from a chemical supplier or metal alloy provider.  \n  Se: Obtain from a chemical supply company specializing in elemental selenium.  \n  Sr: Available from suppliers of rare earth and alkaline earth metals.",
+      "steps": [
+        "Nb: Purchase from a chemical supplier or metal alloy provider.",
+        "Se: Obtain from a chemical supply company specializing in elemental selenium.",
+        "Sr: Available from suppliers of rare earth and alkaline earth metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 50 g of niobium (Nb) using an analytical balance.",
+        "2. Weigh 100 g of selenium (Se) with the same precision.",
+        "3. Measure 10 g of strontium (Sr) accurately.",
+        "4. In a glove box or under an inert atmosphere, combine the weighed materials in a clean, dry ceramic or quartz crucible.",
+        "5. Use a spatula to thoroughly mix the ingredients until they are homogeneous."
+      ],
+      "raw_text": "1. Weigh out 50 g of niobium (Nb) using an analytical balance.  \n 2. Weigh 100 g of selenium (Se) with the same precision.  \n 3. Measure 10 g of strontium (Sr) accurately.  \n 4. In a glove box or under an inert atmosphere, combine the weighed materials in a clean, dry ceramic or quartz crucible.  \n 5. Use a spatula to thoroughly mix the ingredients until they are homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Place the crucible in a high-temperature furnace.",
+        "2. Heat the mixture to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Nb5Se10Sr1."
+      ],
+      "raw_text": "1. Place the crucible in a high-temperature furnace.  \n 2. Heat the mixture to 800 °C at a rate of 10 °C/min.  \n 3. Maintain this temperature for 4 hours to ensure complete reaction and formation of Nb5Se10Sr1."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This process may take several hours; avoid opening the furnace until it has cooled sufficiently to prevent oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).  \n 2. This process may take several hours; avoid opening the furnace until it has cooled sufficiently to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Gently tap the crucible to remove the solidified sample.",
+        "3. Inspect the sample for uniformity and integrity.",
+        "4. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "5. Optionally, polish the surface using fine sandpaper to achieve a smooth finish."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.  \n 2. Gently tap the crucible to remove the solidified sample.  \n 3. Inspect the sample for uniformity and integrity.  \n 4. If necessary, use a diamond saw to cut the sample to the desired dimensions (3 inches x 2 inches x 7 inches).  \n 5. Optionally, polish the surface using fine sandpaper to achieve a smooth finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 12512213.0,
+      "density": 39847.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1322265.0,
+      "formation_energy_per_atom": -5629.0,
+      "decomposition_energy_per_atom": -934.0,
+      "decomposition_energy_all": 4.0,
+      "decomposition_energy_relative": 4.0,
+      "decomposition_energy_mp": -934.0,
+      "decomposition_energy_mp_oqmd": -836.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae61bf6422",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.700605Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Cs12Na8V1Zr3.json",
+      "material://As12Cs12Na8V1Zr3"
+    ]
+  }
+}

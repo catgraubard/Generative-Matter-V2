@@ -1,0 +1,108 @@
+{
+  "id": "Si3Te1V12",
+  "uri": "material://Si3Te1V12",
+  "composition": {
+    "formula": "Si3Te1V12",
+    "elements": {
+      "Si": 3,
+      "Te": 1,
+      "V": 12
+    },
+    "reduced_formula": "V12Si3Te",
+    "element_list": [
+      "Si",
+      "V",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Silicon (Si): 150 g \n Tellurium (Te): 50 g \n Vanadium (V): 600 g"
+    },
+    "sourcing": {
+      "instructions": "Silicon: Purchase from semiconductor supply stores or online chemical suppliers. \n Tellurium: Obtain from specialty metal suppliers or online. \n Vanadium: Sourced from metal suppliers or online chemical retailers.",
+      "steps": [
+        "Silicon: Purchase from semiconductor supply stores or online chemical suppliers.",
+        "Tellurium: Obtain from specialty metal suppliers or online.",
+        "Vanadium: Sourced from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 150 g of Silicon, 50 g of Tellurium, and 600 g of Vanadium using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed Silicon, Tellurium, and Vanadium.",
+        "3. Use a mortar and pestle to grind the mixture to a fine powder for 10 minutes, ensuring thorough mixing.",
+        "4. Transfer the powder into a ceramic or quartz crucible."
+      ],
+      "raw_text": "1. Weigh out 150 g of Silicon, 50 g of Tellurium, and 600 g of Vanadium using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed Silicon, Tellurium, and Vanadium. \n 3. Use a mortar and pestle to grind the mixture to a fine powder for 10 minutes, ensuring thorough mixing. \n 4. Transfer the powder into a ceramic or quartz crucible."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the crucible containing the mixture into the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure complete reaction and homogenization of the materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C. \n 2. Place the crucible containing the mixture into the furnace. \n 3. Maintain this temperature for 2 hours to ensure complete reaction and homogenization of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. This cooling process should take approximately 6-8 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool to room temperature naturally. \n 2. This cooling process should take approximately 6-8 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with progressively finer grit sandpaper (starting from 120 grit to 600 grit) for a smooth finish.",
+        "4. Optionally, apply a sealant to protect the surface of the material if required."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with progressively finer grit sandpaper (starting from 120 grit to 600 grit) for a smooth finish. \n 4. Optionally, apply a sealant to protect the surface of the material if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 2158907.0,
+      "density": 63314.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1350405.0,
+      "formation_energy_per_atom": -4134.0,
+      "decomposition_energy_per_atom": -104.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -8.0,
+      "decomposition_energy_mp": -101.0,
+      "decomposition_energy_mp_oqmd": -97.0
+    },
+    "electronic": {
+      "bandgap": 0.0045,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "896934195f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:15.898458Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Si3Te1V12.json",
+      "material://Si3Te1V12"
+    ]
+  }
+}

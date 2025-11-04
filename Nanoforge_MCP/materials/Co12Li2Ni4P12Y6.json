@@ -1,0 +1,114 @@
+{
+  "id": "Co12Li2Ni4P12Y6",
+  "uri": "material://Co12Li2Ni4P12Y6",
+  "composition": {
+    "formula": "Co12Li2Ni4P12Y6",
+    "elements": {
+      "Co": 12,
+      "Li": 2,
+      "Ni": 4,
+      "P": 12,
+      "Y": 6
+    },
+    "reduced_formula": "LiY3Co6(NiP3)2",
+    "element_list": [
+      "Li",
+      "P",
+      "Co",
+      "Ni",
+      "Y"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 110.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 110 g, Si: 77 g, Tb: 20 g, W: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a metal supplier; Si: Obtain from a chemical supplier; Tb: Purchase from a rare earth metals supplier; W: Obtain from a metal supplier.",
+      "steps": [
+        "Co: Purchase from a metal supplier; Si: Obtain from a chemical supplier; Tb: Purchase from a rare earth metals supplier; W: Obtain from a metal supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely.",
+        "2. In a clean, dry container, combine 110 g of cobalt (Co), 77 g of silicon (Si), 20 g of terbium (Tb), and 10 g of tungsten (W).",
+        "3. Mix thoroughly until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely. \n 2. In a clean, dry container, combine 110 g of cobalt (Co), 77 g of silicon (Si), 20 g of terbium (Tb), and 10 g of tungsten (W). \n 3. Mix thoroughly until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixed materials in a crucible and insert it into the furnace.",
+        "3. Maintain the temperature for 2 hours to ensure complete melting."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixed materials in a crucible and insert it into the furnace. \n 3. Maintain the temperature for 2 hours to ensure complete melting."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it reaches a safe temperature (below 100°C)."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it reaches a safe temperature (below 100°C)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to remove any rough surfaces.",
+        "4. Optionally, apply a sealant to enhance surface finish and protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to remove any rough surfaces. \n 4. Optionally, apply a sealant to enhance surface finish and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4856905.0,
+      "density": 63625.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -250657.0,
+      "formation_energy_per_atom": -9628.0,
+      "decomposition_energy_per_atom": -175.0,
+      "decomposition_energy_all": 8.0,
+      "decomposition_energy_relative": 8.0,
+      "decomposition_energy_mp": -175.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c42cb29f9f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.323183Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co12Li2Ni4P12Y6.json",
+      "material://Co12Li2Ni4P12Y6"
+    ]
+  }
+}

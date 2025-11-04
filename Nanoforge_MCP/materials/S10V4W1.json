@@ -1,0 +1,115 @@
+{
+  "id": "S10V4W1",
+  "uri": "material://S10V4W1",
+  "composition": {
+    "formula": "S10V4W1",
+    "elements": {
+      "S": 10,
+      "V": 4,
+      "W": 1
+    },
+    "reduced_formula": "V4WS10",
+    "element_list": [
+      "S",
+      "V",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Se",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "K2O: 1.28 g \n P2O5: 19.68 g \n Se: 50.00 g \n TiO2: 1.86 g \n Total: 72.82 g"
+    },
+    "sourcing": {
+      "instructions": "K2O: Chemical supply stores or online suppliers \n P2O5: Chemical supply stores or online suppliers \n Se: Specialty chemical suppliers \n TiO2: Paint or pigment suppliers",
+      "steps": [
+        "K2O: Chemical supply stores or online suppliers",
+        "P2O5: Chemical supply stores or online suppliers",
+        "Se: Specialty chemical suppliers",
+        "TiO2: Paint or pigment suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precise scale.",
+        "2. In a clean, dry mixing container, combine K2O and P2O5.",
+        "3. Slowly add Se while continuously stirring to ensure even distribution.",
+        "4. Finally, add TiO2 and mix thoroughly until a uniform powder is obtained."
+      ],
+      "raw_text": "1. Measure each ingredient using a precise scale. \n 2. In a clean, dry mixing container, combine K2O and P2O5. \n 3. Slowly add Se while continuously stirring to ensure even distribution. \n 4. Finally, add TiO2 and mix thoroughly until a uniform powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 800°C.",
+        "2. Place the mixed powder into a crucible and insert it into the furnace.",
+        "3. Hold the temperature for 2 hours to allow for proper fusion of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 800°C. \n 2. Place the mixed powder into a crucible and insert it into the furnace. \n 3. Hold the temperature for 2 hours to allow for proper fusion of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature over approximately 4-6 hours.",
+        "2. Do not open the furnace door during cooling to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature over approximately 4-6 hours. \n 2. Do not open the furnace door during cooling to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace.",
+        "2. Carefully extract the solid sample from the crucible.",
+        "3. If necessary, grind the solid to achieve desired particle size.",
+        "4. Optionally, apply a sealant to the surface for additional protection if required."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace. \n 2. Carefully extract the solid sample from the crucible. \n 3. If necessary, grind the solid to achieve desired particle size. \n 4. Optionally, apply a sealant to the surface for additional protection if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 2739237.0,
+      "density": 42935.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -1085561.0,
+      "formation_energy_per_atom": -11932.0,
+      "decomposition_energy_per_atom": -4.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -11.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d9c6a2ec17",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.926679Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/S10V4W1.json",
+      "material://S10V4W1"
+    ]
+  }
+}

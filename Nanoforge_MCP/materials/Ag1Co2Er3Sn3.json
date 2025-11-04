@@ -1,0 +1,132 @@
+{
+  "id": "Ag1Co2Er3Sn3",
+  "uri": "material://Ag1Co2Er3Sn3",
+  "composition": {
+    "formula": "Ag1Co2Er3Sn3",
+    "elements": {
+      "Ag": 1,
+      "Co": 2,
+      "Er": 3,
+      "Sn": 3
+    },
+    "reduced_formula": "Er3Co2AgSn3",
+    "element_list": [
+      "Co",
+      "Ag",
+      "Sn",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ag",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Co",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 45.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ag: 20 g \n Co: 30 g \n Er: 15 g \n Sn: 45 g"
+    },
+    "sourcing": {
+      "instructions": "Ag (Silver): Available at jewelry supply stores or online metal suppliers. \n Co (Cobalt): Can be sourced from chemical supply companies or online marketplaces. \n Er (Erbium): Obtainable from rare earth suppliers. \n Sn (Tin): Found at hardware stores or online metal suppliers.",
+      "steps": [
+        "Ag (Silver): Available at jewelry supply stores or online metal suppliers.",
+        "Co (Cobalt): Can be sourced from chemical supply companies or online marketplaces.",
+        "Er (Erbium): Obtainable from rare earth suppliers.",
+        "Sn (Tin): Found at hardware stores or online metal suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed Ag, Co, Er, and Sn.",
+        "3. Stir the mixture thoroughly with a non-reactive spatula for 5 minutes to ensure even distribution of all components."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed Ag, Co, Er, and Sn. \n 3. Stir the mixture thoroughly with a non-reactive spatula for 5 minutes to ensure even distribution of all components."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 900 °C (1652 °F).",
+        "2. Place the mixed powder in a ceramic crucible suitable for high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to allow for complete melting and homogenization."
+      ],
+      "raw_text": "1. Preheat the furnace to 900 °C (1652 °F). \n 2. Place the mixed powder in a ceramic crucible suitable for high temperatures. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours to allow for complete melting and homogenization."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. After 2 hours, turn off the furnace but do not open the door immediately.",
+        "2. Allow the crucible to cool inside the furnace for an additional 4 hours to prevent thermal shock.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace but do not open the door immediately. \n 2. Allow the crucible to cool inside the furnace for an additional 4 hours to prevent thermal shock. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Allow the solid sample to cool to room temperature.",
+        "2. Remove the solid from the crucible gently.",
+        "3. Use sandpaper (grit 120-220) to smooth the edges and surfaces of the solid sample to desired finish.",
+        "4. Optionally, apply a sealant to enhance surface protection."
+      ],
+      "raw_text": "1. Allow the solid sample to cool to room temperature. \n 2. Remove the solid from the crucible gently. \n 3. Use sandpaper (grit 120-220) to smooth the edges and surfaces of the solid sample to desired finish. \n 4. Optionally, apply a sealant to enhance surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1845487.0,
+      "density": 97504.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -475313.0,
+      "formation_energy_per_atom": -5278.0,
+      "decomposition_energy_per_atom": -105.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -103.0,
+      "decomposition_energy_mp": -105.0,
+      "decomposition_energy_mp_oqmd": -103.0
+    },
+    "electronic": {
+      "bandgap": 0.0066,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "3e9ef8d2a0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:37.893236Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Co2Er3Sn3.json",
+      "material://Ag1Co2Er3Sn3"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "B2Cu2Er1La1Ni6",
+  "uri": "material://B2Cu2Er1La1Ni6",
+  "composition": {
+    "formula": "B2Cu2Er1La1Ni6",
+    "elements": {
+      "B": 2,
+      "Cu": 2,
+      "Er": 1,
+      "La": 1,
+      "Ni": 6
+    },
+    "reduced_formula": "LaErCu2(Ni3B)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Cu",
+      "La",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 1.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 1.00 g, Cu: 2.00 g, Er: 0.50 g, La: 0.50 g, Ni: 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores; Cu: Metal suppliers; Er: Rare earth metal suppliers; La: Rare earth metal suppliers; Ni: Metal suppliers",
+      "steps": [
+        "B: Chemical supply stores; Cu: Metal suppliers; Er: Rare earth metal suppliers; La: Rare earth metal suppliers; Ni: Metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry glass container, combine 1.00 g of B, 2.00 g of Cu, 0.50 g of Er, 0.50 g of La, and 12.00 g of Ni.",
+        "3. Mix thoroughly using a spatula until a uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry glass container, combine 1.00 g of B, 2.00 g of Cu, 0.50 g of Er, 0.50 g of La, and 12.00 g of Ni. \n 3. Mix thoroughly using a spatula until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the sample to 1200 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours for complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the sample to 1200 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 2 hours for complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This process should take around 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. This process should take around 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges and surface with fine grit sandpaper for a smooth finish.",
+        "4. Optionally, seal the surface with a clear epoxy resin for added protection."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use a diamond saw to cut the material into the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges and surface with fine grit sandpaper for a smooth finish. \n 4. Optionally, seal the surface with a clear epoxy resin for added protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1553387.0,
+      "density": 86271.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -712328.0,
+      "formation_energy_per_atom": -4576.0,
+      "decomposition_energy_per_atom": -402.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -166.0,
+      "decomposition_energy_mp": -402.0,
+      "decomposition_energy_mp_oqmd": -395.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ee1f4e0e4e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.323328Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Cu2Er1La1Ni6.json",
+      "material://B2Cu2Er1La1Ni6"
+    ]
+  }
+}

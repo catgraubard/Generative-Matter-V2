@@ -1,0 +1,115 @@
+{
+  "id": "Cu1Ga3Sc1Tm1",
+  "uri": "material://Cu1Ga3Sc1Tm1",
+  "composition": {
+    "formula": "Cu1Ga3Sc1Tm1",
+    "elements": {
+      "Cu": 1,
+      "Ga": 3,
+      "Sc": 1,
+      "Tm": 1
+    },
+    "reduced_formula": "TmScGa3Cu",
+    "element_list": [
+      "Sc",
+      "Cu",
+      "Ga",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 10.0 g, Ga: 30.0 g, Sc: 10.0 g, Tm: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cu (Copper): Local metal supplier or online retailer. \n Ga (Gallium): Chemical supply company or online. \n Sc (Scandium): Specialty metal supplier. \n Tm (Thulium): Rare earth metal supplier or online market.",
+      "steps": [
+        "Cu (Copper): Local metal supplier or online retailer.",
+        "Ga (Gallium): Chemical supply company or online.",
+        "Sc (Scandium): Specialty metal supplier.",
+        "Tm (Thulium): Rare earth metal supplier or online market."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal with a precise scale.",
+        "2. Ensure all materials are clean and free from oxidation.",
+        "3. In a clean crucible, combine Cu, Ga, Sc, and Tm in the specified amounts.",
+        "4. Mix the metals thoroughly to achieve a uniform distribution."
+      ],
+      "raw_text": "1. Weigh each metal with a precise scale. \n 2. Ensure all materials are clean and free from oxidation. \n 3. In a clean crucible, combine Cu, Ga, Sc, and Tm in the specified amounts. \n 4. Mix the metals thoroughly to achieve a uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and mixing of the metals."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the crucible in the furnace and maintain the temperature for 2 hours to ensure complete melting and mixing of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Gradually decrease the furnace temperature to 500°C over 1 hour.",
+        "2. Once at 500°C, remove the crucible and allow it to cool to room temperature naturally for at least 3 hours."
+      ],
+      "raw_text": "1. Gradually decrease the furnace temperature to 500°C over 1 hour. \n 2. Once at 500°C, remove the crucible and allow it to cool to room temperature naturally for at least 3 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. If necessary, use a file or sandpaper to smooth out any rough edges.",
+        "3. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. If necessary, use a file or sandpaper to smooth out any rough edges. \n 3. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1104133.0,
+      "density": 73182.0,
+      "crystal_system": "trigonal",
+      "space_group": "P3m1",
+      "space_group_number": 156,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -27474.0,
+      "formation_energy_per_atom": -5804.0,
+      "decomposition_energy_per_atom": -133.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -118.0,
+      "decomposition_energy_mp": -133.0,
+      "decomposition_energy_mp_oqmd": -132.0
+    },
+    "electronic": {
+      "bandgap": 0.0212,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ee89452b91",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.418551Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu1Ga3Sc1Tm1.json",
+      "material://Cu1Ga3Sc1Tm1"
+    ]
+  }
+}

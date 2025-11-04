@@ -1,0 +1,123 @@
+{
+  "id": "O2Sn2Tb2",
+  "uri": "material://O2Sn2Tb2",
+  "composition": {
+    "formula": "O2Sn2Tb2",
+    "elements": {
+      "O": 2,
+      "Sn": 2,
+      "Tb": 2
+    },
+    "reduced_formula": "TbSnO",
+    "element_list": [
+      "O",
+      "Sn",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "O",
+          "amount": 32.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 118.71,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 158.93,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "O: 32.00 g (molecular weight = 16 g/mol, 2 moles) \n Sn: 118.71 g (molecular weight = 118.71 g/mol, 2 moles) \n Tb: 158.93 g (molecular weight = 158.93 g/mol, 2 moles) \n Total weight: 32.00 g + 118.71 g + 158.93 g = 309.64 g"
+    },
+    "sourcing": {
+      "instructions": "O: Purchase oxygen gas from a reputable gas supplier or use a laboratory-grade oxygen source. \n Sn: Buy tin powder from a chemical supply store or online supplier. \n Tb: Obtain terbium oxide from a chemical supply store or specialized rare earth material suppliers.",
+      "steps": [
+        "O: Purchase oxygen gas from a reputable gas supplier or use a laboratory-grade oxygen source.",
+        "Sn: Buy tin powder from a chemical supply store or online supplier.",
+        "Tb: Obtain terbium oxide from a chemical supply store or specialized rare earth material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 32.00 g of oxygen gas (O2) using a gas containment system.",
+        "2. Weigh 118.71 g of tin powder (Sn) in a clean, dry container.",
+        "3. Weigh 158.93 g of terbium oxide (Tb2O3) in a separate clean, dry container.",
+        "4. In a nitrogen atmosphere, mix the tin powder and terbium oxide together thoroughly until homogeneous."
+      ],
+      "raw_text": "1. In a fume hood, measure 32.00 g of oxygen gas (O2) using a gas containment system. \n 2. Weigh 118.71 g of tin powder (Sn) in a clean, dry container. \n 3. Weigh 158.93 g of terbium oxide (Tb2O3) in a separate clean, dry container. \n 4. In a nitrogen atmosphere, mix the tin powder and terbium oxide together thoroughly until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace at 800 °C for 2 hours under an inert atmosphere to facilitate the reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace at 800 °C for 2 hours under an inert atmosphere to facilitate the reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool down naturally to room temperature (approximately 25 °C) in the furnace.",
+        "2. This cooling process should take about 1-2 hours."
+      ],
+      "raw_text": "1. Allow the crucible to cool down naturally to room temperature (approximately 25 °C) in the furnace. \n 2. This cooling process should take about 1-2 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the sample from the crucible.",
+        "2. If necessary, grind the sample to a fine powder using a mortar and pestle for further applications.",
+        "3. Optionally, seal the sample with an appropriate coating or resin to protect it from environmental factors.",
+        "4. Sand the edges and surfaces for a smooth finish if creating a solid piece."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the sample from the crucible. \n 2. If necessary, grind the sample to a fine powder using a mortar and pestle for further applications. \n 3. Optionally, seal the sample with an appropriate coating or resin to protect it from environmental factors. \n 4. Sand the edges and surfaces for a smooth finish if creating a solid piece."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 6,
+      "volume": 1252587.0,
+      "density": 77854.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4/nmm",
+      "space_group_number": 129,
+      "point_group": "4/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -41734.0,
+      "formation_energy_per_atom": -2425.0,
+      "decomposition_energy_per_atom": -69.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -68.0,
+      "decomposition_energy_mp": -72.0,
+      "decomposition_energy_mp_oqmd": -68.0
+    },
+    "electronic": {
+      "bandgap": 0.0176,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9a7c4759b9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:38.922636Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O2Sn2Tb2.json",
+      "material://O2Sn2Tb2"
+    ]
+  }
+}

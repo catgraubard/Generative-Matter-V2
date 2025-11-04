@@ -1,0 +1,111 @@
+{
+  "id": "Li1O12Sr4W3",
+  "uri": "material://Li1O12Sr4W3",
+  "composition": {
+    "formula": "Li1O12Sr4W3",
+    "elements": {
+      "Li": 1,
+      "O": 12,
+      "Sr": 4,
+      "W": 3
+    },
+    "reduced_formula": "Sr4Li(WO4)3",
+    "element_list": [
+      "Li",
+      "O",
+      "Sr",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Oxide (BaO): 54.00 g \n Erbium Oxide (Er2O3): 19.60 g \n Manganese Oxide (MnO): 7.50 g \n Nickel Oxide (NiO): 4.70 g \n Oxygen (O2): 12.00 g"
+    },
+    "sourcing": {
+      "instructions": "Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich). \n Erbium Oxide: Specialty chemical suppliers. \n Manganese Oxide: Chemical supply stores. \n Nickel Oxide: Available from chemical suppliers. \n Oxygen: Not needed as a separate ingredient, as it is sourced from the air during processing.",
+      "steps": [
+        "Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich).",
+        "Erbium Oxide: Specialty chemical suppliers.",
+        "Manganese Oxide: Chemical supply stores.",
+        "Nickel Oxide: Available from chemical suppliers.",
+        "Oxygen: Not needed as a separate ingredient, as it is sourced from the air during processing."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision balance.",
+        "2. In a clean, dry mortar and pestle or ball mill, combine BaO, Er2O3, MnO, and NiO.",
+        "3. Grind the mixture thoroughly for at least 15 minutes until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision balance. \n 2. In a clean, dry mortar and pestle or ball mill, combine BaO, Er2O3, MnO, and NiO. \n 3. Grind the mixture thoroughly for at least 15 minutes until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the mixed powder in a high-temperature crucible.",
+        "3. Heat the crucible in the furnace for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the mixed powder in a high-temperature crucible. \n 3. Heat the crucible in the furnace for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Use a diamond saw or grinder to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surfaces to remove sharpness and achieve a smooth finish.",
+        "4. Optionally, seal the material with a high-temperature resistant sealant if needed for specific applications."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Use a diamond saw or grinder to shape the sample to the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surfaces to remove sharpness and achieve a smooth finish. \n 4. Optionally, seal the material with a high-temperature resistant sealant if needed for specific applications."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2661964.0,
+      "density": 68676.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1618244.0,
+      "formation_energy_per_atom": -27454.0,
+      "decomposition_energy_per_atom": -7.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -11.0,
+      "decomposition_energy_mp_oqmd": 7.0
+    },
+    "electronic": {
+      "bandgap": 2.1359,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ab22bf492e",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:02.727036Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li1O12Sr4W3.json",
+      "material://Li1O12Sr4W3"
+    ]
+  }
+}

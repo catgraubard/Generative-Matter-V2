@@ -1,0 +1,115 @@
+{
+  "id": "Ca1Fe2Nd3Ni2O12",
+  "uri": "material://Ca1Fe2Nd3Ni2O12",
+  "composition": {
+    "formula": "Ca1Fe2Nd3Ni2O12",
+    "elements": {
+      "Ca": 1,
+      "Fe": 2,
+      "Nd": 3,
+      "Ni": 2,
+      "O": 12
+    },
+    "reduced_formula": "CaNd3Fe2(NiO6)2",
+    "element_list": [
+      "O",
+      "Ca",
+      "Fe",
+      "Ni",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Europium oxide (Eu2O3): 20.0 g \n - Gadolinium oxide (Gd2O3): 30.0 g \n - Scandium oxide (Sc2O3): 10.0 g \n - Selenium powder (Se): 40.0 g"
+    },
+    "sourcing": {
+      "instructions": "- Europium oxide: Obtain from chemical supply companies or online retailers specializing in rare earth materials. \n - Gadolinium oxide: Available from chemical suppliers or academic suppliers. \n - Scandium oxide: Purchase from specialty chemical suppliers. \n - Selenium powder: Find at chemical supply companies or scientific supply stores.",
+      "steps": [
+        "- Europium oxide: Obtain from chemical supply companies or online retailers specializing in rare earth materials.",
+        "- Gadolinium oxide: Available from chemical suppliers or academic suppliers.",
+        "- Scandium oxide: Purchase from specialty chemical suppliers.",
+        "- Selenium powder: Find at chemical supply companies or scientific supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20.0 g of Europium oxide using an analytical balance.",
+        "2. Weigh out 30.0 g of Gadolinium oxide.",
+        "3. Weigh out 10.0 g of Scandium oxide.",
+        "4. Weigh out 40.0 g of Selenium powder.",
+        "5. Combine all powders in a clean, dry mixing container.",
+        "6. Stir the mixture thoroughly with a spatula for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 20.0 g of Europium oxide using an analytical balance. \n 2. Weigh out 30.0 g of Gadolinium oxide. \n 3. Weigh out 10.0 g of Scandium oxide. \n 4. Weigh out 40.0 g of Selenium powder. \n 5. Combine all powders in a clean, dry mixing container. \n 6. Stir the mixture thoroughly with a spatula for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders to a high-temperature furnace.",
+        "2. Heat the mixture to 800°C at a rate of 10°C per minute.",
+        "3. Maintain the temperature at 800°C for 4 hours to allow for complete reaction and formation of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a high-temperature furnace. \n 2. Heat the mixture to 800°C at a rate of 10°C per minute. \n 3. Maintain the temperature at 800°C for 4 hours to allow for complete reaction and formation of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature.",
+        "2. Do not open the furnace during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool naturally to room temperature. \n 2. Do not open the furnace during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the furnace and carefully crush any large pieces with a mortar and pestle to achieve a fine powder if necessary.",
+        "2. If a solid form is needed, press the powdered material into a mold of the desired dimensions (3 in x 2 in x 7 in) using a hydraulic press at 50 MPa for 10 minutes.",
+        "3. Allow the pressed sample to cure for 24 hours at room temperature.",
+        "4. Optionally, sand the surface of the sample to achieve a smoother finish."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the furnace and carefully crush any large pieces with a mortar and pestle to achieve a fine powder if necessary. \n 2. If a solid form is needed, press the powdered material into a mold of the desired dimensions (3 in x 2 in x 7 in) using a hydraulic press at 50 MPa for 10 minutes. \n 3. Allow the pressed sample to cure for 24 hours at room temperature. \n 4. Optionally, sand the surface of the sample to achieve a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 233676.0,
+      "density": 6352.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1536797.0,
+      "formation_energy_per_atom": -24747.0,
+      "decomposition_energy_per_atom": -102.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -44.0,
+      "decomposition_energy_mp_oqmd": -1.0
+    },
+    "electronic": {
+      "bandgap": 0.0033,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bf8760b908",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.940679Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca1Fe2Nd3Ni2O12.json",
+      "material://Ca1Fe2Nd3Ni2O12"
+    ]
+  }
+}

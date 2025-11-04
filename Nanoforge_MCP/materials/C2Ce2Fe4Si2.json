@@ -1,0 +1,130 @@
+{
+  "id": "C2Ce2Fe4Si2",
+  "uri": "material://C2Ce2Fe4Si2",
+  "composition": {
+    "formula": "C2Ce2Fe4Si2",
+    "elements": {
+      "C": 2,
+      "Ce": 2,
+      "Fe": 4,
+      "Si": 2
+    },
+    "reduced_formula": "CeFe2SiC",
+    "element_list": [
+      "C",
+      "Si",
+      "Fe",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ce",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 20 g\nCe: 15 g\nFe: 30 g\nSi: 10 g"
+    },
+    "sourcing": {
+      "instructions": "C: Carbon black can be purchased from chemical supply stores or online.\nCe: Cerium oxide is available at specialty chemical suppliers.\nFe: Iron powder can be sourced from metal supply stores or online.\nSi: Silica powder is obtainable from chemical suppliers or hardware stores.",
+      "steps": [
+        "C: Carbon black can be purchased from chemical supply stores or online.",
+        "Ce: Cerium oxide is available at specialty chemical suppliers.",
+        "Fe: Iron powder can be sourced from metal supply stores or online.",
+        "Si: Silica powder is obtainable from chemical suppliers or hardware stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. Combine the carbon, cerium oxide, iron powder, and silica in a clean, dry mixing bowl.",
+        "3. Stir the mixture thoroughly for 5 minutes using a spatula to ensure even distribution of all components.",
+        "4. Transfer the mixture to a mortar and pestle and grind for an additional 3 minutes to achieve a fine, homogeneous powder."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale.\n2. Combine the carbon, cerium oxide, iron powder, and silica in a clean, dry mixing bowl.\n3. Stir the mixture thoroughly for 5 minutes using a spatula to ensure even distribution of all components.\n4. Transfer the mixture to a mortar and pestle and grind for an additional 3 minutes to achieve a fine, homogeneous powder."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C (2192 °F).",
+        "2. Place the mixed powder into a crucible that can withstand high temperatures.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate proper reaction and sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C (2192 °F).\n2. Place the mixed powder into a crucible that can withstand high temperatures.\n3. Insert the crucible into the furnace and maintain the temperature for 2 hours to facilitate proper reaction and sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature.\n2. Once cooled, remove the crucible carefully using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Allow the solid sample to sit for 24 hours at room temperature to stabilize.",
+        "2. If desired, sand the edges of the solid sample using 220-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal the surface with a clear epoxy for added durability."
+      ],
+      "raw_text": "1. Allow the solid sample to sit for 24 hours at room temperature to stabilize.\n2. If desired, sand the edges of the solid sample using 220-grit sandpaper to achieve a smooth finish.\n3. Optionally, seal the surface with a clear epoxy for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 1364707.0,
+      "density": 71036.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmcm",
+      "space_group_number": 63,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -796332.0,
+      "formation_energy_per_atom": -4583.0,
+      "decomposition_energy_per_atom": -797.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -283.0,
+      "decomposition_energy_mp": -509.0,
+      "decomposition_energy_mp_oqmd": -346.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "10ad4952b6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:37.325388Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C2Ce2Fe4Si2.json",
+      "material://C2Ce2Fe4Si2"
+    ]
+  }
+}

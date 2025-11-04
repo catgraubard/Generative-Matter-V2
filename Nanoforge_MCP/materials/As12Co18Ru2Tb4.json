@@ -1,0 +1,106 @@
+{
+  "id": "As12Co18Ru2Tb4",
+  "uri": "material://As12Co18Ru2Tb4",
+  "composition": {
+    "formula": "As12Co18Ru2Tb4",
+    "elements": {
+      "As": 12,
+      "Co": 18,
+      "Ru": 2,
+      "Tb": 4
+    },
+    "reduced_formula": "Tb2Co9As6Ru",
+    "element_list": [
+      "Co",
+      "As",
+      "Ru",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 3.75,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 3.75 g, Ga: 1.25 g, Sb: 15.0 g, Zn: 8.25 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Ga: Obtain from a chemical supplier (e.g., Alfa Aesar); Sb: Obtain from a chemical supplier (e.g., American Elements); Zn: Obtain from a chemical supplier (e.g., Fisher Scientific).",
+      "steps": [
+        "Cs: Obtain from a chemical supplier (e.g., Sigma-Aldrich); Ga: Obtain from a chemical supplier (e.g., Alfa Aesar); Sb: Obtain from a chemical supplier (e.g., American Elements); Zn: Obtain from a chemical supplier (e.g., Fisher Scientific)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 3.75 g of Cs, 1.25 g of Ga, 15.0 g of Sb, and 8.25 g of Zn using an analytical balance. 2. In a clean, dry glass vial, combine the weighed materials. 3. Use a mortar and pestle to finely grind the mixture for 10 minutes to ensure a homogeneous blend. 4. Transfer the ground mixture into a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh out 3.75 g of Cs, 1.25 g of Ga, 15.0 g of Sb, and 8.25 g of Zn using an analytical balance. 2. In a clean, dry glass vial, combine the weighed materials. 3. Use a mortar and pestle to finely grind the mixture for 10 minutes to ensure a homogeneous blend. 4. Transfer the ground mixture into a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Place the crucible in a muffle furnace. 2. Heat to 600 °C at a rate of 5 °C/min. 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the solid sample."
+      ],
+      "raw_text": "1. Place the crucible in a muffle furnace. 2. Heat to 600 °C at a rate of 5 °C/min. 3. Maintain this temperature for 2 hours to ensure complete reaction and formation of the solid sample."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). 2. Do not open the furnace door during the cooling process to prevent thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). 2. Do not open the furnace door during the cooling process to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace. 2. Use a diamond file to smooth the edges of the solid sample. 3. Optionally, apply a sealant to enhance surface durability, following the manufacturer's instructions for application and curing."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. 2. Use a diamond file to smooth the edges of the solid sample. 3. Optionally, apply a sealant to enhance surface durability, following the manufacturer's instructions for application and curing."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5009979.0,
+      "density": 92729.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2398707.0,
+      "formation_energy_per_atom": -5257.0,
+      "decomposition_energy_per_atom": -52.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -19.0,
+      "decomposition_energy_mp": -52.0,
+      "decomposition_energy_mp_oqmd": -491.0
+    },
+    "electronic": {
+      "bandgap": 0.0008,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e539b352d7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:27.007681Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As12Co18Ru2Tb4.json",
+      "material://As12Co18Ru2Tb4"
+    ]
+  }
+}

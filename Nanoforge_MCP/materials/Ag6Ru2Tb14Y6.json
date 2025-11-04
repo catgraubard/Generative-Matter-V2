@@ -1,0 +1,131 @@
+{
+  "id": "Ag6Ru2Tb14Y6",
+  "uri": "material://Ag6Ru2Tb14Y6",
+  "composition": {
+    "formula": "Ag6Ru2Tb14Y6",
+    "elements": {
+      "Ag": 6,
+      "Ru": 2,
+      "Tb": 14,
+      "Y": 6
+    },
+    "reduced_formula": "Tb7Y3Ag3Ru",
+    "element_list": [
+      "Y",
+      "Ru",
+      "Ag",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 6.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ce",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 6.00 g (Boron) \n Ce: 16.00 g (Cerium) \n Nd: 30.00 g (Neodymium) \n Tc: 10.00 g (Technetium) \n Total: 62.00 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich). \n Ce: Obtain from a rare earth materials supplier. \n Nd: Available from specialty chemical suppliers. \n Tc: Acquire from a nuclear material supplier (ensure proper licensing).",
+      "steps": [
+        "B: Purchase from a chemical supply store or online (e.g., Sigma-Aldrich).",
+        "Ce: Obtain from a rare earth materials supplier.",
+        "Nd: Available from specialty chemical suppliers.",
+        "Tc: Acquire from a nuclear material supplier (ensure proper licensing)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. Combine the boron, cerium, neodymium, and technetium in a clean, dry mixing container.",
+        "3. Use a mortar and pestle to grind the mixture into a fine powder for uniform consistency.",
+        "4. Transfer the powder to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. Combine the boron, cerium, neodymium, and technetium in a clean, dry mixing container. \n 3. Use a mortar and pestle to grind the mixture into a fine powder for uniform consistency. \n 4. Transfer the powder to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the crucible inside the furnace and maintain at 1200°C for 2 hours to ensure complete reaction and homogeneity of the materials."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the crucible inside the furnace and maintain at 1200°C for 2 hours to ensure complete reaction and homogeneity of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace until it is at room temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace until it is at room temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. If needed, use a diamond grinder to achieve the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Clean the surface with a soft cloth to remove any residue.",
+        "4. Optionally, apply a sealant to enhance surface properties and protect from oxidation."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. If needed, use a diamond grinder to achieve the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Clean the surface with a soft cloth to remove any residue. \n 4. Optionally, apply a sealant to enhance surface properties and protect from oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7675387.0,
+      "density": 78052.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3/mmc",
+      "space_group_number": 194,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1462119.0,
+      "formation_energy_per_atom": -2496.0,
+      "decomposition_energy_per_atom": -207.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -4.0,
+      "decomposition_energy_mp": -207.0,
+      "decomposition_energy_mp_oqmd": -166.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "afe753c6b3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:10.827095Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag6Ru2Tb14Y6.json",
+      "material://Ag6Ru2Tb14Y6"
+    ]
+  }
+}

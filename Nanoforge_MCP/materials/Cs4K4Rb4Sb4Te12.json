@@ -1,0 +1,116 @@
+{
+  "id": "Cs4K4Rb4Sb4Te12",
+  "uri": "material://Cs4K4Rb4Sb4Te12",
+  "composition": {
+    "formula": "Cs4K4Rb4Sb4Te12",
+    "elements": {
+      "Cs": 4,
+      "K": 4,
+      "Rb": 4,
+      "Sb": 4,
+      "Te": 12
+    },
+    "reduced_formula": "CsKRbSbTe3",
+    "element_list": [
+      "K",
+      "Rb",
+      "Sb",
+      "Te",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 16.0 g, K: 16.0 g, Rb: 16.0 g, Sb: 16.0 g, Te: 48.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs can be sourced from chemical suppliers like Sigma-Aldrich; K from a chemical supply store; Rb from a specialty metals supplier; Sb from a metal supplier; Te from a chemical supply company.",
+      "steps": [
+        "Cs can be sourced from chemical suppliers like Sigma-Aldrich; K from a chemical supply store; Rb from a specialty metals supplier; Sb from a metal supplier; Te from a chemical supply company."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 16.0 g of Cs, 16.0 g of K, 16.0 g of Rb, 16.0 g of Sb, and 48.0 g of Te using an analytical balance.",
+        "2. Combine all weighed materials in a clean, dry ceramic mortar.",
+        "3. Grind the mixture using a pestle until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 16.0 g of Cs, 16.0 g of K, 16.0 g of Rb, 16.0 g of Sb, and 48.0 g of Te using an analytical balance. \n 2. Combine all weighed materials in a clean, dry ceramic mortar. \n 3. Grind the mixture using a pestle until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the homogeneous powder into a clean, alumina crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 600°C at a rate of 10°C/min and hold for 2 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the homogeneous powder into a clean, alumina crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 600°C at a rate of 10°C/min and hold for 2 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace during cooling to prevent contamination."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Do not open the furnace during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully extract the solidified material from the crucible.",
+        "3. If necessary, grind the sample to achieve a smoother surface.",
+        "4. Optionally, seal the sample with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled. \n 2. Carefully extract the solidified material from the crucible. \n 3. If necessary, grind the sample to achieve a smoother surface. \n 4. Optionally, seal the sample with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 13348876.0,
+      "density": 37917.0,
+      "crystal_system": "cubic",
+      "space_group": "P2_13",
+      "space_group_number": 198,
+      "point_group": "23",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -938461.0,
+      "formation_energy_per_atom": -988.0,
+      "decomposition_energy_per_atom": -656.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -648.0,
+      "decomposition_energy_mp_oqmd": -583.0
+    },
+    "electronic": {
+      "bandgap": 1.7852,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "227d8dd38c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:00.998731Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs4K4Rb4Sb4Te12.json",
+      "material://Cs4K4Rb4Sb4Te12"
+    ]
+  }
+}

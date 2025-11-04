@@ -1,0 +1,114 @@
+{
+  "id": "Al12Nb1Ru7Sc6V3",
+  "uri": "material://Al12Nb1Ru7Sc6V3",
+  "composition": {
+    "formula": "Al12Nb1Ru7Sc6V3",
+    "elements": {
+      "Al": 12,
+      "Nb": 1,
+      "Ru": 7,
+      "Sc": 6,
+      "V": 3
+    },
+    "reduced_formula": "Sc6NbAl12V3Ru7",
+    "element_list": [
+      "Al",
+      "Sc",
+      "V",
+      "Nb",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 15 g, Fe: 45 g, Nb: 60 g, P: 30 g, Si: 5 g (Total: 155 g)"
+    },
+    "sourcing": {
+      "instructions": "Co: Specialty metal supplier; Fe: Industrial metal supplier; Nb: Metal alloy supplier; P: Chemical supplier; Si: Electronics components supplier",
+      "steps": [
+        "Co: Specialty metal supplier; Fe: Industrial metal supplier; Nb: Metal alloy supplier; P: Chemical supplier; Si: Electronics components supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 15 g of Co, 45 g of Fe, 60 g of Nb, 30 g of P, and 5 g of Si using a precision scale.",
+        "2. Combine all measured materials in a clean, dry mixing container.",
+        "3. Use a mechanical mixer to blend the powders thoroughly for 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder to a die for shaping."
+      ],
+      "raw_text": "1. Measure out 15 g of Co, 45 g of Fe, 60 g of Nb, 30 g of P, and 5 g of Si using a precision scale. \n 2. Combine all measured materials in a clean, dry mixing container. \n 3. Use a mechanical mixer to blend the powders thoroughly for 15 minutes to ensure homogeneity. \n 4. Transfer the mixed powder to a die for shaping."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace to 1200°C.",
+        "2. Place the die in the furnace and hold at 1200°C for 2 hours to allow for proper sintering of materials."
+      ],
+      "raw_text": "1. Preheat the furnace to 1200°C.\n 2. Place the die in the furnace and hold at 1200°C for 2 hours to allow for proper sintering of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours).",
+        "2. Ensure that the sample is not disturbed during cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 4-6 hours). \n 2. Ensure that the sample is not disturbed during cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the sample from the die.",
+        "2. Use a fine-grit sandpaper to smooth any rough edges or surfaces.",
+        "3. Optionally, seal the surface with a clear epoxy resin for enhanced durability and finish."
+      ],
+      "raw_text": "1. Carefully remove the sample from the die. \n 2. Use a fine-grit sandpaper to smooth any rough edges or surfaces. \n 3. Optionally, seal the surface with a clear epoxy resin for enhanced durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 29,
+      "volume": 4761042.0,
+      "density": 53946.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3m",
+      "space_group_number": 160,
+      "point_group": "3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2032639.0,
+      "formation_energy_per_atom": -6224.0,
+      "decomposition_energy_per_atom": -135.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -55.0,
+      "decomposition_energy_mp": -135.0,
+      "decomposition_energy_mp_oqmd": -126.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e2617cedd1",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.327208Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al12Nb1Ru7Sc6V3.json",
+      "material://Al12Nb1Ru7Sc6V3"
+    ]
+  }
+}

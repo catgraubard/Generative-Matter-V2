@@ -1,0 +1,111 @@
+{
+  "id": "Al3Co1Cu2Zr3",
+  "uri": "material://Al3Co1Cu2Zr3",
+  "composition": {
+    "formula": "Al3Co1Cu2Zr3",
+    "elements": {
+      "Al": 3,
+      "Co": 1,
+      "Cu": 2,
+      "Zr": 3
+    },
+    "reduced_formula": "Zr3Al3CoCu2",
+    "element_list": [
+      "Al",
+      "Co",
+      "Cu",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 12.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 12.5 g, O: 56.0 g, V: 10.0 g, Zn: 7.5 g"
+    },
+    "sourcing": {
+      "instructions": "Co: chemical supply stores; O: distilled water; V: chemical supply stores; Zn: hardware stores",
+      "steps": [
+        "Co: chemical supply stores; O: distilled water; V: chemical supply stores; Zn: hardware stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 12.5 g of cobalt (Co) and 56.0 g of oxygen (O) in a clean container.",
+        "2. Weigh 10.0 g of vanadium (V) and 7.5 g of zinc (Zn).",
+        "3. Combine the weighed Co, O, V, and Zn in a mortar and pestle.",
+        "4. Grind the materials together until a fine, homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 12.5 g of cobalt (Co) and 56.0 g of oxygen (O) in a clean container. \n 2. Weigh 10.0 g of vanadium (V) and 7.5 g of zinc (Zn). \n 3. Combine the weighed Co, O, V, and Zn in a mortar and pestle. \n 4. Grind the materials together until a fine, homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace at 800°C for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat in a furnace at 800°C for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 6-8 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approx. 6-8 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Optionally apply a sealant for surface protection."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Sand the edges to achieve desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Optionally apply a sealant for surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1484645.0,
+      "density": 60469.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-62m",
+      "space_group_number": 189,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -565633.0,
+      "formation_energy_per_atom": -4863.0,
+      "decomposition_energy_per_atom": -474.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -146.0,
+      "decomposition_energy_mp": -474.0,
+      "decomposition_energy_mp_oqmd": -152.0
+    },
+    "electronic": {
+      "bandgap": 0.0026,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e187d2ab64",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.094492Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al3Co1Cu2Zr3.json",
+      "material://Al3Co1Cu2Zr3"
+    ]
+  }
+}

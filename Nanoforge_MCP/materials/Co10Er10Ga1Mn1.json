@@ -1,0 +1,131 @@
+{
+  "id": "Co10Er10Ga1Mn1",
+  "uri": "material://Co10Er10Ga1Mn1",
+  "composition": {
+    "formula": "Co10Er10Ga1Mn1",
+    "elements": {
+      "Co": 10,
+      "Er": 10,
+      "Ga": 1,
+      "Mn": 1
+    },
+    "reduced_formula": "Er10MnGaCo10",
+    "element_list": [
+      "Mn",
+      "Co",
+      "Ga",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 100 g \n Er: 100 g \n Ga: 10 g \n Mn: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt): Purchase from a chemical supply company or online marketplace specializing in metals. \n Er (Erbium): Obtain from a rare earth distributor. \n Ga (Gallium): Available from electronics suppliers. \n Mn (Manganese): Can be sourced from metal suppliers or chemical stores.",
+      "steps": [
+        "Co (Cobalt): Purchase from a chemical supply company or online marketplace specializing in metals.",
+        "Er (Erbium): Obtain from a rare earth distributor.",
+        "Ga (Gallium): Available from electronics suppliers.",
+        "Mn (Manganese): Can be sourced from metal suppliers or chemical stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 100 g of Cobalt, 100 g of Erbium, 10 g of Gallium, and 10 g of Manganese using a digital scale.",
+        "2. Place the weighed metals into a clean, dry mixing container.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh out 100 g of Cobalt, 100 g of Erbium, 10 g of Gallium, and 10 g of Manganese using a digital scale. \n 2. Place the weighed metals into a clean, dry mixing container. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high-temperature applications.",
+        "2. Heat the crucible in a furnace to 1,200°C for 2 hours to facilitate alloy formation.",
+        "3. Ensure that the heating is done in a controlled atmosphere (e.g., argon or vacuum) to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high-temperature applications. \n 2. Heat the crucible in a furnace to 1,200°C for 2 hours to facilitate alloy formation. \n 3. Ensure that the heating is done in a controlled atmosphere (e.g., argon or vacuum) to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally inside the furnace to avoid thermal shock for approximately 4 hours.",
+        "2. Once cooled, remove the crucible from the furnace and allow it to cool to room temperature in a safe environment."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally inside the furnace to avoid thermal shock for approximately 4 hours. \n 2. Once cooled, remove the crucible from the furnace and allow it to cool to room temperature in a safe environment."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified alloy from the crucible.",
+        "2. Use a grinder or sander to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Clean the surface with a cloth to remove any dust or debris.",
+        "4. Optionally, seal the surface with a suitable coating if protection against oxidation is required."
+      ],
+      "raw_text": "1. Carefully remove the solidified alloy from the crucible. \n 2. Use a grinder or sander to shape the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Clean the surface with a cloth to remove any dust or debris. \n 4. Optionally, seal the surface with a suitable coating if protection against oxidation is required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 4131892.0,
+      "density": 95913.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1351925.0,
+      "formation_energy_per_atom": -2837.0,
+      "decomposition_energy_per_atom": -195.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -195.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": 0.0021,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0edc1b8691",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:35.199616Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co10Er10Ga1Mn1.json",
+      "material://Co10Er10Ga1Mn1"
+    ]
+  }
+}

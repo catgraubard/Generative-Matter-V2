@@ -1,0 +1,117 @@
+{
+  "id": "Ag1Cu1Er3In3Ru1",
+  "uri": "material://Ag1Cu1Er3In3Ru1",
+  "composition": {
+    "formula": "Ag1Cu1Er3In3Ru1",
+    "elements": {
+      "Ag": 1,
+      "Cu": 1,
+      "Er": 3,
+      "In": 3,
+      "Ru": 1
+    },
+    "reduced_formula": "Er3In3CuAgRu",
+    "element_list": [
+      "Cu",
+      "Ru",
+      "Ag",
+      "In",
+      "Er"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 240.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 240 g, Co: 600 g, Mo: 30 g, Ti: 30 g, Zn: 30 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Chemical supply stores or online chemical suppliers; Co (Cobalt): Metal supply shops or online metal suppliers; Mo (Molybdenum): Specialty metal suppliers; Ti (Titanium): Metal supply shops; Zn (Zinc): Hardware stores or online chemical suppliers.",
+      "steps": [
+        "B (Boron): Chemical supply stores or online chemical suppliers; Co (Cobalt): Metal supply shops or online metal suppliers; Mo (Molybdenum): Specialty metal suppliers; Ti (Titanium): Metal supply shops; Zn (Zinc): Hardware stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean, dry mixing container, combine the weighed amounts of B, Co, Mo, Ti, and Zn.",
+        "3. Use a mechanical mixer or mortar and pestle to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Optionally, sieve the mixture through a fine mesh to ensure uniform particle size."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean, dry mixing container, combine the weighed amounts of B, Co, Mo, Ti, and Zn. \n 3. Use a mechanical mixer or mortar and pestle to mix the powders thoroughly until a uniform blend is achieved. \n 4. Optionally, sieve the mixture through a fine mesh to ensure uniform particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a suitable crucible made of a heat-resistant material.",
+        "2. Preheat the furnace to 1200 °C (2192 °F).",
+        "3. Once at temperature, place the crucible in the furnace and maintain this temperature for 2 hours to allow the materials to sinter and bond."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a suitable crucible made of a heat-resistant material. \n 2. Preheat the furnace to 1200 °C (2192 °F). \n 3. Once at temperature, place the crucible in the furnace and maintain this temperature for 2 hours to allow the materials to sinter and bond."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C or 77 °F).",
+        "2. This should take about 3-4 hours.",
+        "3. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C or 77 °F). \n 2. This should take about 3-4 hours. \n 3. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities or excess material.",
+        "3. Use a grinder or sandpaper to smooth the surfaces as needed.",
+        "4. Optionally, seal the surface with a suitable sealant for durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities or excess material. \n 3. Use a grinder or sandpaper to smooth the surfaces as needed. \n 4. Optionally, seal the surface with a suitable sealant for durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1963867.0,
+      "density": 94592.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -421292.0,
+      "formation_energy_per_atom": -4405.0,
+      "decomposition_energy_per_atom": -469.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -17.0,
+      "decomposition_energy_mp": -469.0,
+      "decomposition_energy_mp_oqmd": -332.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e3326c0497",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.509010Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag1Cu1Er3In3Ru1.json",
+      "material://Ag1Cu1Er3In3Ru1"
+    ]
+  }
+}

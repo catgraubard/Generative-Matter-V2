@@ -1,0 +1,113 @@
+{
+  "id": "Cr4Fe1Mo5O30Sr10",
+  "uri": "material://Cr4Fe1Mo5O30Sr10",
+  "composition": {
+    "formula": "Cr4Fe1Mo5O30Sr10",
+    "elements": {
+      "Cr": 4,
+      "Fe": 1,
+      "Mo": 5,
+      "O": 30,
+      "Sr": 10
+    },
+    "reduced_formula": "Sr10Cr4Fe(MoO6)5",
+    "element_list": [
+      "O",
+      "Cr",
+      "Fe",
+      "Sr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 30.00 g, Fe: 7.50 g, Mo: 37.50 g, O: 90.00 g, Sr: 18.75 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Chemical supply store; Fe: Metal supplier or online; Mo: Chemical supply store; O: Chemical supply store; Sr: Chemical supply store",
+      "steps": [
+        "Cr: Chemical supply store; Fe: Metal supplier or online; Mo: Chemical supply store; O: Chemical supply store; Sr: Chemical supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precise balance.",
+        "2. In a clean, dry mixing container, combine Cr, Fe, Mo, O, and Sr.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a homogenous mixture is achieved."
+      ],
+      "raw_text": "1. Measure each ingredient using a precise balance. \n 2. In a clean, dry mixing container, combine Cr, Fe, Mo, O, and Sr. \n 3. Use a mortar and pestle to thoroughly mix the powders until a homogenous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to ensure complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n 2. Heat in a furnace to 1200°C for 2 hours to ensure complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool gradually to room temperature inside the furnace (approximately 4 hours).",
+        "2. Do not remove the crucible until it has reached ambient temperature."
+      ],
+      "raw_text": "1. Allow the crucible to cool gradually to room temperature inside the furnace (approximately 4 hours). \n 2. Do not remove the crucible until it has reached ambient temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid from the crucible carefully.",
+        "2. Sand the exterior to achieve a smooth finish, if necessary.",
+        "3. Optionally, apply a sealant for improved durability and stability."
+      ],
+      "raw_text": "1. Remove the solid from the crucible carefully. \n 2. Sand the exterior to achieve a smooth finish, if necessary. \n 3. Optionally, apply a sealant for improved durability and stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 50,
+      "volume": 6357495.0,
+      "density": 54843.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I4/m",
+      "space_group_number": 87,
+      "point_group": "4/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -400133.0,
+      "formation_energy_per_atom": -26698.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -57.0,
+      "decomposition_energy_mp_oqmd": -54.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a486e0d124",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:52.161175Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr4Fe1Mo5O30Sr10.json",
+      "material://Cr4Fe1Mo5O30Sr10"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "Al2Eu4Ge4Li2",
+  "uri": "material://Al2Eu4Ge4Li2",
+  "composition": {
+    "formula": "Al2Eu4Ge4Li2",
+    "elements": {
+      "Al": 2,
+      "Eu": 4,
+      "Ge": 4,
+      "Li": 2
+    },
+    "reduced_formula": "LiEu2AlGe2",
+    "element_list": [
+      "Li",
+      "Al",
+      "Ge",
+      "Eu"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 40 g, Er: 10 g, Tb: 50 g, Tm: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder) - Chemical supply stores or online chemical suppliers; Er (Erbium oxide) - Specialty metal suppliers or scientific supply stores; Tb (Terbium oxide) - Rare earth material suppliers; Tm (Thulium oxide) - Scientific suppliers or rare earth metal vendors.",
+      "steps": [
+        "Co (Cobalt powder) - Chemical supply stores or online chemical suppliers; Er (Erbium oxide) - Specialty metal suppliers or scientific supply stores; Tb (Terbium oxide) - Rare earth material suppliers; Tm (Thulium oxide) - Scientific suppliers or rare earth metal vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, combine 40 g of Co, 10 g of Er, 50 g of Tb, and 60 g of Tm.",
+        "3. Use a mortar and pestle or ball mill to homogenize the powder mixture for 30 minutes, ensuring a uniform blend."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, combine 40 g of Co, 10 g of Er, 50 g of Tb, and 60 g of Tm. \n 3. Use a mortar and pestle or ball mill to homogenize the powder mixture for 30 minutes, ensuring a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1100,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a ceramic crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the mixture to 1100 °C at a rate of 10 °C/min for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a ceramic crucible. \n 2. Place the crucible in a muffle furnace. \n 3. Heat the mixture to 1100 °C at a rate of 10 °C/min for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature over a period of 6 hours.",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature over a period of 6 hours. \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or cracks.",
+        "3. If necessary, grind the sample using a fine grinder to achieve the desired surface finish.",
+        "4. Seal the sample in a protective coating or varnish to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any irregularities or cracks. \n 3. If necessary, grind the sample using a fine grinder to achieve the desired surface finish. \n 4. Seal the sample in a protective coating or varnish to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2745323.0,
+      "density": 58445.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmc2_1",
+      "space_group_number": 26,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -777341.0,
+      "formation_energy_per_atom": -5637.0,
+      "decomposition_energy_per_atom": -197.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -105.0,
+      "decomposition_energy_mp": -259.0,
+      "decomposition_energy_mp_oqmd": -181.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d5820840f6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.807786Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Eu4Ge4Li2.json",
+      "material://Al2Eu4Ge4Li2"
+    ]
+  }
+}

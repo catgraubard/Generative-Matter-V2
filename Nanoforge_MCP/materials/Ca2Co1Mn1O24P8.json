@@ -1,0 +1,116 @@
+{
+  "id": "Ca2Co1Mn1O24P8",
+  "uri": "material://Ca2Co1Mn1O24P8",
+  "composition": {
+    "formula": "Ca2Co1Mn1O24P8",
+    "elements": {
+      "Ca": 2,
+      "Co": 1,
+      "Mn": 1,
+      "O": 24,
+      "P": 8
+    },
+    "reduced_formula": "Ca2MnCo(PO3)8",
+    "element_list": [
+      "O",
+      "P",
+      "Ca",
+      "Mn",
+      "Co"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 60.0 g, Ga: 40.0 g, K: 10.0 g, Rb: 10.0 g, Se: 200.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Chemical suppliers (e.g., Sigma-Aldrich), Ga: Electronics suppliers (e.g., Alfa Aesar), K: Chemical suppliers (e.g., Fisher Scientific), Rb: Chemical suppliers (e.g., Alfa Aesar), Se: Chemical suppliers (e.g., Acros Organics)",
+      "steps": [
+        "Cs: Chemical suppliers (e.g., Sigma-Aldrich), Ga: Electronics suppliers (e.g., Alfa Aesar), K: Chemical suppliers (e.g., Fisher Scientific), Rb: Chemical suppliers (e.g., Alfa Aesar), Se: Chemical suppliers (e.g., Acros Organics)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precise analytical balance.",
+        "2. In a clean, dry glass beaker, combine Cs, Ga, K, Rb, and Se in the specified amounts.",
+        "3. Stir the mixture thoroughly with a glass rod to ensure even distribution of materials."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precise analytical balance. \n 2. In a clean, dry glass beaker, combine Cs, Ga, K, Rb, and Se in the specified amounts. \n 3. Stir the mixture thoroughly with a glass rod to ensure even distribution of materials."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed materials into a quartz crucible.",
+        "2. Place the crucible in a high-temperature furnace.",
+        "3. Heat to 800°C at a rate of 10°C per minute and maintain this temperature for 4 hours."
+      ],
+      "raw_text": "1. Transfer the mixed materials into a quartz crucible. \n 2. Place the crucible in a high-temperature furnace. \n 3. Heat to 800°C at a rate of 10°C per minute and maintain this temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool naturally to room temperature (approx. 25°C).",
+        "3. This process should take about 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool naturally to room temperature (approx. 25°C). \n 3. This process should take about 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid material from the crucible.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Store the final product in a desiccator to prevent moisture absorption."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid material from the crucible. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand the edges using fine-grit sandpaper to achieve a smooth finish. \n 4. Store the final product in a desiccator to prevent moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4924419.0,
+      "density": 27846.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2810382.0,
+      "formation_energy_per_atom": -27416.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -9.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 3.1255,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c38842c89a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:18.188215Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Co1Mn1O24P8.json",
+      "material://Ca2Co1Mn1O24P8"
+    ]
+  }
+}

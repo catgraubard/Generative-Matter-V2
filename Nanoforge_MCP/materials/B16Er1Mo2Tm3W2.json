@@ -1,0 +1,116 @@
+{
+  "id": "B16Er1Mo2Tm3W2",
+  "uri": "material://B16Er1Mo2Tm3W2",
+  "composition": {
+    "formula": "B16Er1Mo2Tm3W2",
+    "elements": {
+      "B": 16,
+      "Er": 1,
+      "Mo": 2,
+      "Tm": 3,
+      "W": 2
+    },
+    "reduced_formula": "ErTm3B16(MoW)2",
+    "element_list": [
+      "B",
+      "Mo",
+      "Er",
+      "Tm",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 16.56,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 16.56 g, Se: 46.28 g, Ti: 10.54 g"
+    },
+    "sourcing": {
+      "instructions": "Cs: Obtain from a chemical supply company or specialized online retailer. Se: Purchase from a supplier of semiconductor materials. Ti: Procure from a metal supplier or online store.",
+      "steps": [
+        "Cs: Obtain from a chemical supply company or specialized online retailer. Se: Purchase from a supplier of semiconductor materials. Ti: Procure from a metal supplier or online store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 16.56 g of Cs, 46.28 g of Se, and 10.54 g of Ti using a precision balance.",
+        "2. In a fume hood, combine Cs and Se in a glass beaker and stir until homogeneous.",
+        "3. Slowly add Ti to the mixture while stirring continuously to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh 16.56 g of Cs, 46.28 g of Se, and 10.54 g of Ti using a precision balance. \n 2. In a fume hood, combine Cs and Se in a glass beaker and stir until homogeneous. \n 3. Slowly add Ti to the mixture while stirring continuously to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixture to a quartz crucible.",
+        "2. Heat in a furnace to 800°C at a rate of 10°C/min.",
+        "3. Maintain temperature for 2 hours to ensure full melting and reaction of components."
+      ],
+      "raw_text": "1. Transfer the mixture to a quartz crucible. \n 2. Heat in a furnace to 800°C at a rate of 10°C/min. \n 3. Maintain temperature for 2 hours to ensure full melting and reaction of components."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Gradually reduce the temperature to room temperature at a rate of 10°C/min.",
+        "2. Allow the sample to stabilize at room temperature for a minimum of 1 hour."
+      ],
+      "raw_text": "1. Gradually reduce the temperature to room temperature at a rate of 10°C/min. \n 2. Allow the sample to stabilize at room temperature for a minimum of 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges with 400-grit sandpaper for a smooth finish.",
+        "4. Optionally, seal with a thin layer of epoxy for added durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges with 400-grit sandpaper for a smooth finish. \n 4. Optionally, seal with a thin layer of epoxy for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 2512032.0,
+      "density": 92981.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1874497.0,
+      "formation_energy_per_atom": -624.0,
+      "decomposition_energy_per_atom": -366.0,
+      "decomposition_energy_all": 6.0,
+      "decomposition_energy_relative": 6.0,
+      "decomposition_energy_mp": -366.0,
+      "decomposition_energy_mp_oqmd": -343.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e316053d7e",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:26.480320Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B16Er1Mo2Tm3W2.json",
+      "material://B16Er1Mo2Tm3W2"
+    ]
+  }
+}

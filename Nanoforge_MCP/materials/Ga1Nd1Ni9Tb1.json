@@ -1,0 +1,112 @@
+{
+  "id": "Ga1Nd1Ni9Tb1",
+  "uri": "material://Ga1Nd1Ni9Tb1",
+  "composition": {
+    "formula": "Ga1Nd1Ni9Tb1",
+    "elements": {
+      "Ga": 1,
+      "Nd": 1,
+      "Ni": 9,
+      "Tb": 1
+    },
+    "reduced_formula": "TbNdGaNi9",
+    "element_list": [
+      "Ni",
+      "Ga",
+      "Nd",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La2O3: 35.0 g \n - MoO3: 16.8 g \n - Pr6O11: 15.0 g \n - O2 (as a gas): 0.5 g (stoichiometric balance)"
+    },
+    "sourcing": {
+      "instructions": "- La2O3: Purchase from chemical supply companies or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar). \n - MoO3: Available from chemical supply stores or online suppliers (e.g., Fisher Scientific). \n - Pr6O11: Obtain from specialized rare earth material suppliers (e.g., American Elements). \n - O2: Can be sourced from industrial gas suppliers or can be acquired as atmospheric oxygen.",
+      "steps": [
+        "- La2O3: Purchase from chemical supply companies or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar).",
+        "- MoO3: Available from chemical supply stores or online suppliers (e.g., Fisher Scientific).",
+        "- Pr6O11: Obtain from specialized rare earth material suppliers (e.g., American Elements).",
+        "- O2: Can be sourced from industrial gas suppliers or can be acquired as atmospheric oxygen."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using an analytical balance.",
+        "2. In a clean ceramic or glass container, combine La2O3, MoO3, and Pr6O11 in the specified amounts.",
+        "3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer to achieve a uniform blend.",
+        "4. If necessary, pass the mixture through a sieve to ensure fine consistency."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using an analytical balance. \n 2. In a clean ceramic or glass container, combine La2O3, MoO3, and Pr6O11 in the specified amounts. \n 3. Mix the powders thoroughly using a mortar and pestle or a mechanical mixer to achieve a uniform blend. \n 4. If necessary, pass the mixture through a sieve to ensure fine consistency."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace and heat to 900°C at a rate of 10°C/min.",
+        "3. Maintain this temperature for 4 hours to ensure proper reaction and formation of La1Mo4O14Pr3."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace and heat to 900°C at a rate of 10°C/min. \n 3. Maintain this temperature for 4 hours to ensure proper reaction and formation of La1Mo4O14Pr3."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Gradually cool the crucible to room temperature by turning off the furnace and allowing it to cool naturally (approximately 6-8 hours).",
+        "2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+      ],
+      "raw_text": "1. Gradually cool the crucible to room temperature by turning off the furnace and allowing it to cool naturally (approximately 6-8 hours). \n 2. Do not open the furnace until it has cooled completely to avoid thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Inspect for any surface irregularities or rough edges.",
+        "3. If necessary, use fine-grit sandpaper to smooth the surface of the sample.",
+        "4. Optionally, seal the sample with a suitable clear acrylic coating to enhance durability and appearance."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Inspect for any surface irregularities or rough edges. \n 3. If necessary, use fine-grit sandpaper to smooth the surface of the sample. \n 4. Optionally, seal the sample with a suitable clear acrylic coating to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1677224.0,
+      "density": 89217.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -690822.0,
+      "formation_energy_per_atom": -3859.0,
+      "decomposition_energy_per_atom": -233.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -233.0,
+      "decomposition_energy_mp_oqmd": -228.0
+    },
+    "electronic": {
+      "bandgap": 0.0003,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ba0b7e9bfe",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.324989Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga1Nd1Ni9Tb1.json",
+      "material://Ga1Nd1Ni9Tb1"
+    ]
+  }
+}

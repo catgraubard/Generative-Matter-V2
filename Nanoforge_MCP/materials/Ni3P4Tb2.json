@@ -1,0 +1,125 @@
+{
+  "id": "Ni3P4Tb2",
+  "uri": "material://Ni3P4Tb2",
+  "composition": {
+    "formula": "Ni3P4Tb2",
+    "elements": {
+      "Ni": 3,
+      "P": 4,
+      "Tb": 2
+    },
+    "reduced_formula": "Tb2Ni3P4",
+    "element_list": [
+      "P",
+      "Ni",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ni",
+          "amount": 90.0,
+          "unit": "g"
+        },
+        {
+          "element": "P",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ni: 90.0 g (Nickel powder, >99% purity) \n P: 20.0 g (Phosphorus powder, >98% purity) \n Tb: 30.0 g (Terbium oxide, >99% purity)"
+    },
+    "sourcing": {
+      "instructions": "Nickel powder can be sourced from chemical supply companies or online marketplaces like Sigma-Aldrich. \n Phosphorus powder is available through chemical suppliers such as Carolina Biological or online retailers. \n Terbium oxide can be sourced from specialty metal suppliers or online platforms like Alfa Aesar.",
+      "steps": [
+        "Nickel powder can be sourced from chemical supply companies or online marketplaces like Sigma-Aldrich.",
+        "Phosphorus powder is available through chemical suppliers such as Carolina Biological or online retailers.",
+        "Terbium oxide can be sourced from specialty metal suppliers or online platforms like Alfa Aesar."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Gather all materials and ensure you are wearing appropriate safety gear, including gloves and goggles.",
+        "2. In a clean, dry container, measure 90.0 g of nickel powder.",
+        "3. Add 20.0 g of phosphorus powder to the container.",
+        "4. Finally, add 30.0 g of terbium oxide to the mixture.",
+        "5. Use a mortar and pestle to combine the powders thoroughly, ensuring a uniform blend."
+      ],
+      "raw_text": "1. Gather all materials and ensure you are wearing appropriate safety gear, including gloves and goggles. \n 2. In a clean, dry container, measure 90.0 g of nickel powder. \n 3. Add 20.0 g of phosphorus powder to the container. \n 4. Finally, add 30.0 g of terbium oxide to the mixture. \n 5. Use a mortar and pestle to combine the powders thoroughly, ensuring a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a high-temperature crucible.",
+        "2. Place the crucible in a furnace and heat to 800°C.",
+        "3. Maintain this temperature for 2 hours to allow for proper reaction and formation of Ni3P4Tb2."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a high-temperature crucible. \n 2. Place the crucible in a furnace and heat to 800°C. \n 3. Maintain this temperature for 2 hours to allow for proper reaction and formation of Ni3P4Tb2."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace.",
+        "2. Allow the crucible to cool slowly to room temperature inside the furnace, which may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace. \n 2. Allow the crucible to cool slowly to room temperature inside the furnace, which may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solidified sample from the crucible.",
+        "2. Use a file or sandpaper to smooth any rough edges on the sample.",
+        "3. Optionally, apply a sealant to protect the surface, if desired.",
+        "4. Store the finished sample in a dry, cool environment."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solidified sample from the crucible. \n 2. Use a file or sandpaper to smooth any rough edges on the sample. \n 3. Optionally, apply a sealant to protect the surface, if desired. \n 4. Store the finished sample in a dry, cool environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1378678.0,
+      "density": 74414.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P-4m2",
+      "space_group_number": 115,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -575914.0,
+      "formation_energy_per_atom": -10366.0,
+      "decomposition_energy_per_atom": -34.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -21.0,
+      "decomposition_energy_mp": -3.0,
+      "decomposition_energy_mp_oqmd": -21.0
+    },
+    "electronic": {
+      "bandgap": 0.0088,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0a58c7dfe9",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:28.968709Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ni3P4Tb2.json",
+      "material://Ni3P4Tb2"
+    ]
+  }
+}

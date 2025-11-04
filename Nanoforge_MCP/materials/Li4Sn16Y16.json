@@ -1,0 +1,110 @@
+{
+  "id": "Li4Sn16Y16",
+  "uri": "material://Li4Sn16Y16",
+  "composition": {
+    "formula": "Li4Sn16Y16",
+    "elements": {
+      "Li": 4,
+      "Sn": 16,
+      "Y": 16
+    },
+    "reduced_formula": "Li(YSn)4",
+    "element_list": [
+      "Li",
+      "Y",
+      "Sn"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Lithium (Li): 32 g \n - Tin (Sn): 240 g \n - Yttrium (Y): 192 g"
+    },
+    "sourcing": {
+      "instructions": "- Lithium: Obtain from chemical suppliers or battery manufacturers. \n - Tin: Available from metal suppliers or alloy manufacturers. \n - Yttrium: Purchase from rare earth metal suppliers or specialty chemical vendors.",
+      "steps": [
+        "- Lithium: Obtain from chemical suppliers or battery manufacturers.",
+        "- Tin: Available from metal suppliers or alloy manufacturers.",
+        "- Yttrium: Purchase from rare earth metal suppliers or specialty chemical vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 32 g of lithium using an analytical balance.",
+        "2. Weigh 240 g of tin.",
+        "3. Weigh 192 g of yttrium.",
+        "4. In a dry, inert atmosphere (e.g., argon), combine the weighed materials in a clean, dry mixing container.",
+        "5. Use a mortar and pestle or ball mill to ensure uniform mixing until a fine powder is achieved."
+      ],
+      "raw_text": "1. Weigh 32 g of lithium using an analytical balance. \n 2. Weigh 240 g of tin. \n 3. Weigh 192 g of yttrium. \n 4. In a dry, inert atmosphere (e.g., argon), combine the weighed materials in a clean, dry mixing container. \n 5. Use a mortar and pestle or ball mill to ensure uniform mixing until a fine powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature ceramic crucible.",
+        "2. Heat in a vacuum furnace to 800 °C (1472 °F) at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Li4Sn16Y16."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature ceramic crucible. \n 2. Heat in a vacuum furnace to 800 °C (1472 °F) at a rate of 10 °C/min. \n 3. Maintain the temperature for 4 hours to ensure complete reaction and formation of Li4Sn16Y16."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature to avoid thermal shock.",
+        "2. This process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature to avoid thermal shock. \n 2. This process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut to exact dimensions (3 inches x 2 inches x 7 inches), if necessary.",
+        "3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to prevent oxidation, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a diamond saw to cut to exact dimensions (3 inches x 2 inches x 7 inches), if necessary. \n 3. Sand the edges and surfaces using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to prevent oxidation, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 9697416.0,
+      "density": 57357.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2017331.0,
+      "formation_energy_per_atom": -7356.0,
+      "decomposition_energy_per_atom": -69.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -69.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "54f26b7884",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:07.048372Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li4Sn16Y16.json",
+      "material://Li4Sn16Y16"
+    ]
+  }
+}

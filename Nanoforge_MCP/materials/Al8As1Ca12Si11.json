@@ -1,0 +1,133 @@
+{
+  "id": "Al8As1Ca12Si11",
+  "uri": "material://Al8As1Ca12Si11",
+  "composition": {
+    "formula": "Al8As1Ca12Si11",
+    "elements": {
+      "Al": 8,
+      "As": 1,
+      "Ca": 12,
+      "Si": 11
+    },
+    "reduced_formula": "Ca12Al8Si11As",
+    "element_list": [
+      "Al",
+      "Si",
+      "Ca",
+      "As"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 48.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 5.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 10.0 g \n Er: 25.0 g \n O: 48.0 g \n Se: 5.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cr (Chromium) can be sourced from a chemical supply company or online chemistry suppliers. \n Er (Erbium) can be obtained from rare earth element suppliers. \n O (Oxygen) is typically available in laboratory-grade gas cylinders. \n Se (Selenium) can be sourced from chemical supply stores or online vendors.",
+      "steps": [
+        "Cr (Chromium) can be sourced from a chemical supply company or online chemistry suppliers.",
+        "Er (Erbium) can be obtained from rare earth element suppliers.",
+        "O (Oxygen) is typically available in laboratory-grade gas cylinders.",
+        "Se (Selenium) can be sourced from chemical supply stores or online vendors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 10.0 g of Chromium powder.",
+        "2. Weigh out 25.0 g of Erbium powder.",
+        "3. Weigh out 48.0 g of Oxygen in gas form (to be used in subsequent reactions).",
+        "4. Weigh out 5.0 g of Selenium powder.",
+        "5. Combine the powders (Cr, Er, Se) in a clean, dry mixing container and mix thoroughly using a mortar and pestle for at least 10 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh out 10.0 g of Chromium powder. \n 2. Weigh out 25.0 g of Erbium powder. \n 3. Weigh out 48.0 g of Oxygen in gas form (to be used in subsequent reactions). \n 4. Weigh out 5.0 g of Selenium powder. \n 5. Combine the powders (Cr, Er, Se) in a clean, dry mixing container and mix thoroughly using a mortar and pestle for at least 10 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature resistant crucible.",
+        "2. Place the crucible in a furnace set to 1200°C.",
+        "3. Heat for 4 hours, allowing the materials to react and form a solid compound."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature resistant crucible. \n 2. Place the crucible in a furnace set to 1200°C. \n 3. Heat for 4 hours, allowing the materials to react and form a solid compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace with heat-resistant gloves."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 2-3 hours). \n 2. Once cooled, carefully remove the crucible from the furnace with heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Let the solid sample sit at room temperature for an additional 24 hours.",
+        "2. If necessary, grind the sample using a mortar and pestle to achieve a uniform texture.",
+        "3. Optionally, apply a sealing agent to the surface to enhance durability if the material will be exposed to moisture.",
+        "4. Sand any rough edges to achieve desired dimensions and smoothness."
+      ],
+      "raw_text": "1. Let the solid sample sit at room temperature for an additional 24 hours. \n 2. If necessary, grind the sample using a mortar and pestle to achieve a uniform texture. \n 3. Optionally, apply a sealing agent to the surface to enhance durability if the material will be exposed to moisture. \n 4. Sand any rough edges to achieve desired dimensions and smoothness."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 7194088.0,
+      "density": 24944.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1328748.0,
+      "formation_energy_per_atom": -4533.0,
+      "decomposition_energy_per_atom": -87.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -71.0,
+      "decomposition_energy_mp": -83.0,
+      "decomposition_energy_mp_oqmd": -79.0
+    },
+    "electronic": {
+      "bandgap": 0.0039,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "db35b168cd",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.333990Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al8As1Ca12Si11.json",
+      "material://Al8As1Ca12Si11"
+    ]
+  }
+}

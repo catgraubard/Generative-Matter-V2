@@ -1,0 +1,130 @@
+{
+  "id": "Ca2Mo4O22Se4",
+  "uri": "material://Ca2Mo4O22Se4",
+  "composition": {
+    "formula": "Ca2Mo4O22Se4",
+    "elements": {
+      "Ca": 2,
+      "Mo": 4,
+      "O": 22,
+      "Se": 4
+    },
+    "reduced_formula": "CaMo2Se2O11",
+    "element_list": [
+      "O",
+      "Ca",
+      "Se",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Mo",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "W",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Mo: 60 g\nTi: 5 g\nV: 25 g\nW: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Mo: Specialty metal suppliers or online metal marketplaces.\nTi: Aerospace material suppliers or online retailers.\nV: Chemical supply companies.\nW: Metal suppliers specializing in refractory metals.",
+      "steps": [
+        "Mo: Specialty metal suppliers or online metal marketplaces.",
+        "Ti: Aerospace material suppliers or online retailers.",
+        "V: Chemical supply companies.",
+        "W: Metal suppliers specializing in refractory metals."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each metal using an analytical balance for accuracy.",
+        "2. Place Mo, Ti, V, and W in a clean, dry container.",
+        "3. Use a mechanical mixer or ball mill to thoroughly mix the powders for at least 30 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh each metal using an analytical balance for accuracy.\n2. Place Mo, Ti, V, and W in a clean, dry container.\n3. Use a mechanical mixer or ball mill to thoroughly mix the powders for at least 30 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a vacuum furnace to 1,500 °C.",
+        "2. Transfer the mixed powders into a graphite crucible.",
+        "3. Place the crucible in the furnace and maintain the temperature for 2 hours to promote sintering."
+      ],
+      "raw_text": "1. Preheat a vacuum furnace to 1,500 °C.\n2. Transfer the mixed powders into a graphite crucible.\n3. Place the crucible in the furnace and maintain the temperature for 2 hours to promote sintering."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down to room temperature naturally.",
+        "2. Maintain the vacuum environment during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. Allow the furnace to cool down to room temperature naturally.\n2. Maintain the vacuum environment during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Grind the sample using a diamond grinding wheel to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Clean the surface of the sample with acetone to remove any residues.",
+        "4. Optionally, seal the surface with a high-temperature resistant coating for protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible.\n2. Grind the sample using a diamond grinding wheel to achieve the desired dimensions (3 inches x 2 inches x 7 inches).\n3. Clean the surface of the sample with acetone to remove any residues.\n4. Optionally, seal the surface with a high-temperature resistant coating for protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4918594.0,
+      "density": 38208.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -231853.0,
+      "formation_energy_per_atom": -19256.0,
+      "decomposition_energy_per_atom": -54.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -61.0,
+      "decomposition_energy_mp_oqmd": -61.0
+    },
+    "electronic": {
+      "bandgap": 2.7371,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dc1852c16c",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.564782Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ca2Mo4O22Se4.json",
+      "material://Ca2Mo4O22Se4"
+    ]
+  }
+}

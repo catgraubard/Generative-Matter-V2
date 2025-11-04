@@ -1,0 +1,132 @@
+{
+  "id": "B2Ce1Ni8Y1",
+  "uri": "material://B2Ce1Ni8Y1",
+  "composition": {
+    "formula": "B2Ce1Ni8Y1",
+    "elements": {
+      "B": 2,
+      "Ce": 1,
+      "Ni": 8,
+      "Y": 1
+    },
+    "reduced_formula": "CeY(Ni4B)2",
+    "element_list": [
+      "B",
+      "Ni",
+      "Y",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ce",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20.0 g \n Ce: 10.0 g \n Ni: 80.0 g \n Y: 10.0 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron powder): Chemical supply stores or online chemical retailers. \n Ce (Cerium oxide): Specialty glass suppliers or online marketplaces. \n Ni (Nickel powder): Metal supply stores or online platforms. \n Y (Yttrium oxide): Chemical supply companies or online retailers.",
+      "steps": [
+        "B (Boron powder): Chemical supply stores or online chemical retailers.",
+        "Ce (Cerium oxide): Specialty glass suppliers or online marketplaces.",
+        "Ni (Nickel powder): Metal supply stores or online platforms.",
+        "Y (Yttrium oxide): Chemical supply companies or online retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, combine 20.0 g of Boron powder, 10.0 g of Cerium oxide, 80.0 g of Nickel powder, and 10.0 g of Yttrium oxide.",
+        "3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved.",
+        "4. Transfer the mixed powders into a ball mill for 30 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, combine 20.0 g of Boron powder, 10.0 g of Cerium oxide, 80.0 g of Nickel powder, and 10.0 g of Yttrium oxide. \n 3. Use a spatula to mix the powders thoroughly until a uniform blend is achieved. \n 4. Transfer the mixed powders into a ball mill for 30 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the blended powder into a ceramic crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the blended powder into a ceramic crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4 hours).",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 4 hours). \n 2. Once cooled, remove the crucible carefully using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Extract the solid sample from the crucible.",
+        "2. Use a sanding block with fine-grit sandpaper to smooth the surfaces of the sample, focusing on edges and corners.",
+        "3. Optionally, apply a clear sealant to enhance surface finish and protect the material.",
+        "4. Allow the sealant to cure as per manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Extract the solid sample from the crucible. \n 2. Use a sanding block with fine-grit sandpaper to smooth the surfaces of the sample, focusing on edges and corners. \n 3. Optionally, apply a clear sealant to enhance surface finish and protect the material. \n 4. Allow the sealant to cure as per manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1490758.0,
+      "density": 80221.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -777665.0,
+      "formation_energy_per_atom": -4806.0,
+      "decomposition_energy_per_atom": -128.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -128.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": 0.0033,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "17f9796041",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:47.035538Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Ce1Ni8Y1.json",
+      "material://B2Ce1Ni8Y1"
+    ]
+  }
+}

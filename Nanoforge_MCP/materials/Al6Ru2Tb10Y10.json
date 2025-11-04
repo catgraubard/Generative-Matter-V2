@@ -1,0 +1,114 @@
+{
+  "id": "Al6Ru2Tb10Y10",
+  "uri": "material://Al6Ru2Tb10Y10",
+  "composition": {
+    "formula": "Al6Ru2Tb10Y10",
+    "elements": {
+      "Al": 6,
+      "Ru": 2,
+      "Tb": 10,
+      "Y": 10
+    },
+    "reduced_formula": "Tb5Y5Al3Ru",
+    "element_list": [
+      "Al",
+      "Y",
+      "Ru",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 16 g, Mo: 4 g, Sm: 3 g, Tb: 1 g, Binder (if necessary): 5 g, Inert filler (if necessary): 10 g"
+    },
+    "sourcing": {
+      "instructions": "B (Boron): Online chemical suppliers or local metal suppliers; Mo (Molybdenum): Specialty metal suppliers; Sm (Samarcium): Rare earth metal suppliers; Tb (Terbium): Rare earth metal suppliers; Binder: Local hardware store (epoxy or resin); Inert filler: Local hardware store or online chemical suppliers.",
+      "steps": [
+        "B (Boron): Online chemical suppliers or local metal suppliers; Mo (Molybdenum): Specialty metal suppliers; Sm (Samarcium): Rare earth metal suppliers; Tb (Terbium): Rare earth metal suppliers; Binder: Local hardware store (epoxy or resin); Inert filler: Local hardware store or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material accurately using a digital scale.",
+        "2. Combine B, Mo, Sm, and Tb in a mixing container.",
+        "3. If using a binder, mix in 5 g of the binder evenly with the metal powders.",
+        "4. If needed, add 10 g of inert filler to the mixture.",
+        "5. Stir the mixture thoroughly until a uniform consistency is achieved."
+      ],
+      "raw_text": "1. Weigh each material accurately using a digital scale. \n 2. Combine B, Mo, Sm, and Tb in a mixing container. \n 3. If using a binder, mix in 5 g of the binder evenly with the metal powders. \n 4. If needed, add 10 g of inert filler to the mixture. \n 5. Stir the mixture thoroughly until a uniform consistency is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the mixture in a heat-resistant crucible.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the mixture in a heat-resistant crucible. \n 3. Insert the crucible into the furnace and maintain the temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature over 4 hours.",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down naturally to room temperature over 4 hours. \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully extract the solid sample from the crucible.",
+        "2. Sand the surfaces to achieve desired smoothness, using progressively finer grits (starting from 120 grit and moving to 600 grit).",
+        "3. Optionally, apply a sealing coat to enhance surface protection and aesthetics."
+      ],
+      "raw_text": "1. Carefully extract the solid sample from the crucible. \n 2. Sand the surfaces to achieve desired smoothness, using progressively finer grits (starting from 120 grit and moving to 600 grit). \n 3. Optionally, apply a sealing coat to enhance surface protection and aesthetics."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 7688889.0,
+      "density": 61385.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1601901.0,
+      "formation_energy_per_atom": -2914.0,
+      "decomposition_energy_per_atom": -51.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -51.0,
+      "decomposition_energy_mp_oqmd": -46.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa9e8da9f7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:01.812147Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al6Ru2Tb10Y10.json",
+      "material://Al6Ru2Tb10Y10"
+    ]
+  }
+}

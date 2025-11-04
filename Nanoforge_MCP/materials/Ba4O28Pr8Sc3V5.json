@@ -1,0 +1,140 @@
+{
+  "id": "Ba4O28Pr8Sc3V5",
+  "uri": "material://Ba4O28Pr8Sc3V5",
+  "composition": {
+    "formula": "Ba4O28Pr8Sc3V5",
+    "elements": {
+      "Ba": 4,
+      "O": 28,
+      "Pr": 8,
+      "Sc": 3,
+      "V": 5
+    },
+    "reduced_formula": "Ba4Pr8Sc3V5O28",
+    "element_list": [
+      "O",
+      "Sc",
+      "V",
+      "Ba",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1600.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mo",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 700.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1600 g (Cobalt) \n Mo: 100 g (Molybdenum) \n Nb: 300 g (Niobium) \n Si: 700 g (Silicon) \n Ti: 200 g (Titanium)"
+    },
+    "sourcing": {
+      "instructions": "Cobalt: Specialty metal suppliers or online metal distributors \n Molybdenum: High-purity metal suppliers \n Niobium: Metal suppliers specializing in refractory metals \n Silicon: Chemical suppliers or electronics material suppliers \n Titanium: Industrial metal suppliers or aerospace material suppliers",
+      "steps": [
+        "Cobalt: Specialty metal suppliers or online metal distributors",
+        "Molybdenum: High-purity metal suppliers",
+        "Niobium: Metal suppliers specializing in refractory metals",
+        "Silicon: Chemical suppliers or electronics material suppliers",
+        "Titanium: Industrial metal suppliers or aerospace material suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry mixing container, add Co, Mo, Nb, Si, and Ti in the specified amounts.",
+        "3. Use a mechanical mixer or a mortar and pestle to blend the powders uniformly for at least 15 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder into a pre-cleaned crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry mixing container, add Co, Mo, Nb, Si, and Ti in the specified amounts. \n 3. Use a mechanical mixer or a mortar and pestle to blend the powders uniformly for at least 15 minutes to ensure homogeneity. \n 4. Transfer the mixed powder into a pre-cleaned crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Once the target temperature is reached, place the crucible with the mixed powders inside the furnace.",
+        "3. Maintain this temperature for a duration of 2 hours to allow for proper sintering."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Once the target temperature is reached, place the crucible with the mixed powders inside the furnace. \n 3. Maintain this temperature for a duration of 2 hours to allow for proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 24,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours).",
+        "2. Do not open the furnace door during cooling to prevent thermal shock and oxidation."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours). \n 2. Do not open the furnace door during cooling to prevent thermal shock and oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the crucible from the furnace and extract the solid sample.",
+        "2. Inspect the sample for any surface imperfections or irregularities.",
+        "3. If necessary, use a grinding tool to sand down rough edges and achieve the desired dimensions.",
+        "4. Optionally, apply a sealing agent to enhance corrosion resistance and finish the surface."
+      ],
+      "raw_text": "1. Once cooled, remove the crucible from the furnace and extract the solid sample. \n 2. Inspect the sample for any surface imperfections or irregularities. \n 3. If necessary, use a grinding tool to sand down rough edges and achieve the desired dimensions. \n 4. Optionally, apply a sealing agent to enhance corrosion resistance and finish the surface."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 48,
+      "volume": 6811277.0,
+      "density": 61293.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -4112863.0,
+      "formation_energy_per_atom": -33834.0,
+      "decomposition_energy_per_atom": -172.0,
+      "decomposition_energy_all": 2.0,
+      "decomposition_energy_relative": 2.0,
+      "decomposition_energy_mp": -87.0,
+      "decomposition_energy_mp_oqmd": -86.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "bf7345d99f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:16.912278Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4O28Pr8Sc3V5.json",
+      "material://Ba4O28Pr8Sc3V5"
+    ]
+  }
+}

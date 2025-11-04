@@ -1,0 +1,113 @@
+{
+  "id": "Nd9Pb4Pr1Sn2",
+  "uri": "material://Nd9Pb4Pr1Sn2",
+  "composition": {
+    "formula": "Nd9Pb4Pr1Sn2",
+    "elements": {
+      "Nd": 9,
+      "Pb": 4,
+      "Pr": 1,
+      "Sn": 2
+    },
+    "reduced_formula": "PrNd9(SnPb2)2",
+    "element_list": [
+      "Sn",
+      "Pr",
+      "Nd",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 6.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 6.0 g, Nd: 12.0 g, Ni: 24.0 g, P: 16.0 g, Zr: 6.0 g"
+    },
+    "sourcing": {
+      "instructions": "La: Rare earth supplier, Nd: Rare earth supplier, Ni: Metal supply store, P: Chemical supplier, Zr: Metal supply store",
+      "steps": [
+        "La: Rare earth supplier, Nd: Rare earth supplier, Ni: Metal supply store, P: Chemical supplier, Zr: Metal supply store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component accurately using a precision scale.",
+        "2. In a clean, dry container, combine La, Nd, Ni, P, and Zr.",
+        "3. Mix thoroughly using a mechanical mixer or mortar and pestle until a homogeneous powder is obtained."
+      ],
+      "raw_text": "1. Weigh each component accurately using a precision scale. \n 2. In a clean, dry container, combine La, Nd, Ni, P, and Zr. \n 3. Mix thoroughly using a mechanical mixer or mortar and pestle until a homogeneous powder is obtained."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 1000°C.",
+        "2. Place the mixed powder in a crucible.",
+        "3. Heat the crucible at 1000°C for 4 hours in a vacuum atmosphere to facilitate reactions between components."
+      ],
+      "raw_text": "1. Preheat the furnace to 1000°C. \n 2. Place the mixed powder in a crucible. \n 3. Heat the crucible at 1000°C for 4 hours in a vacuum atmosphere to facilitate reactions between components."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Allow the furnace to cool down naturally to room temperature (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Allow the furnace to cool down naturally to room temperature (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Grind the solid sample to achieve a uniform particle size if needed.",
+        "2. Optionally, press the material into desired dimensions using a hydraulic press.",
+        "3. Seal the sample with a suitable coating for protection, if required.",
+        "4. Allow the sealed sample to cure for 24 hours at room temperature."
+      ],
+      "raw_text": "1. Grind the solid sample to achieve a uniform particle size if needed. \n 2. Optionally, press the material into desired dimensions using a hydraulic press. \n 3. Seal the sample with a suitable coating for protection, if required. \n 4. Allow the sealed sample to cure for 24 hours at room temperature."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5265609.0,
+      "density": 79006.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -799804.0,
+      "formation_energy_per_atom": -5885.0,
+      "decomposition_energy_per_atom": -6.0,
+      "decomposition_energy_all": 5.0,
+      "decomposition_energy_relative": 5.0,
+      "decomposition_energy_mp": -6.0,
+      "decomposition_energy_mp_oqmd": 0.0
+    },
+    "electronic": {
+      "bandgap": 0.0054,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d4dedb0a82",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.597820Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd9Pb4Pr1Sn2.json",
+      "material://Nd9Pb4Pr1Sn2"
+    ]
+  }
+}

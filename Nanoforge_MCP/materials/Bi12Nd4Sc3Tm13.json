@@ -1,0 +1,130 @@
+{
+  "id": "Bi12Nd4Sc3Tm13",
+  "uri": "material://Bi12Nd4Sc3Tm13",
+  "composition": {
+    "formula": "Bi12Nd4Sc3Tm13",
+    "elements": {
+      "Bi": 12,
+      "Nd": 4,
+      "Sc": 3,
+      "Tm": 13
+    },
+    "reduced_formula": "Nd4Tm13(ScBi4)3",
+    "element_list": [
+      "Sc",
+      "Nd",
+      "Tm",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Al",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Al: 10 g \n Na: 5 g \n Rb: 20 g \n Se: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Al: Purchase from a metal supply store or online (e.g., Amazon, eBay). \n Na: Buy from a chemical supply company (e.g., Sigma-Aldrich). \n Rb: Obtain from a chemical supply company (e.g., Alfa Aesar). \n Se: Purchase from a chemical supplier or online store (e.g., Fisher Scientific).",
+      "steps": [
+        "Al: Purchase from a metal supply store or online (e.g., Amazon, eBay).",
+        "Na: Buy from a chemical supply company (e.g., Sigma-Aldrich).",
+        "Rb: Obtain from a chemical supply company (e.g., Alfa Aesar).",
+        "Se: Purchase from a chemical supplier or online store (e.g., Fisher Scientific)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a dry, clean glass or ceramic container, combine 10 g of Al, 5 g of Na, 20 g of Rb, and 30 g of Se.",
+        "3. Stir the mixture thoroughly with a clean, dry spatula until homogeneous."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a dry, clean glass or ceramic container, combine 10 g of Al, 5 g of Na, 20 g of Rb, and 30 g of Se. \n 3. Stir the mixture thoroughly with a clean, dry spatula until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the furnace to 600 °C and maintain this temperature for 2 hours to facilitate the reaction."
+      ],
+      "raw_text": "1. Transfer the mixture to a ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the furnace to 600 °C and maintain this temperature for 2 hours to facilitate the reaction."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace until it has cooled down to avoid potential reactions with moisture."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally. \n 2. Do not open the furnace until it has cooled down to avoid potential reactions with moisture."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Use fine-grit sandpaper to smooth the surfaces of the solid.",
+        "3. Optionally, seal the sample with a clear epoxy for protection against moisture.",
+        "4. Allow the epoxy to cure as per the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Use fine-grit sandpaper to smooth the surfaces of the solid. \n 3. Optionally, seal the sample with a clear epoxy for protection against moisture. \n 4. Allow the epoxy to cure as per the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 9271229.0,
+      "density": 97.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Pm",
+      "space_group_number": 6,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1640835.0,
+      "formation_energy_per_atom": -6609.0,
+      "decomposition_energy_per_atom": -139.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -139.0,
+      "decomposition_energy_mp_oqmd": -87.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9b64f3d88",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.240717Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi12Nd4Sc3Tm13.json",
+      "material://Bi12Nd4Sc3Tm13"
+    ]
+  }
+}

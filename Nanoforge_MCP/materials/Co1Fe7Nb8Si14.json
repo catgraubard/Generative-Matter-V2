@@ -1,0 +1,114 @@
+{
+  "id": "Co1Fe7Nb8Si14",
+  "uri": "material://Co1Fe7Nb8Si14",
+  "composition": {
+    "formula": "Co1Fe7Nb8Si14",
+    "elements": {
+      "Co": 1,
+      "Fe": 7,
+      "Nb": 8,
+      "Si": 14
+    },
+    "reduced_formula": "Nb8Fe7CoSi14",
+    "element_list": [
+      "Si",
+      "Fe",
+      "Co",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g, Fe: 70 g, Nb: 90 g, Si: 140 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Specialty chemical supplier or metallurgical supplier; Fe: Local metal supplier or online; Nb: Specialty alloy supplier; Si: Chemical supplier.",
+      "steps": [
+        "Co: Specialty chemical supplier or metallurgical supplier; Fe: Local metal supplier or online; Nb: Specialty alloy supplier; Si: Chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. In a clean mixing container, combine Co, Fe, Nb, and Si in the specified amounts.",
+        "3. Use a mechanical stirrer to ensure uniform mixing for 10 minutes.",
+        "4. Transfer the mixture to a metal mold of dimensions 3 inches x 2 inches x 7 inches."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. In a clean mixing container, combine Co, Fe, Nb, and Si in the specified amounts. \n 3. Use a mechanical stirrer to ensure uniform mixing for 10 minutes. \n 4. Transfer the mixture to a metal mold of dimensions 3 inches x 2 inches x 7 inches."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200 °C.",
+        "2. Place the filled mold inside the furnace.",
+        "3. Maintain this temperature for 2 hours to ensure proper melting and alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200 °C. \n 2. Place the filled mold inside the furnace. \n 3. Maintain this temperature for 2 hours to ensure proper melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace.",
+        "2. Allow the mold to cool gradually to room temperature (around 25 °C) over a period of 4-6 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace. \n 2. Allow the mold to cool gradually to room temperature (around 25 °C) over a period of 4-6 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, sand down rough edges using 120-grit sandpaper, followed by 220-grit for a smoother finish.",
+        "4. Optionally, apply a sealant for added durability."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect for any surface irregularities. \n 3. If necessary, sand down rough edges using 120-grit sandpaper, followed by 220-grit for a smoother finish. \n 4. Optionally, apply a sealant for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 3978217.0,
+      "density": 66213.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -240809.0,
+      "formation_energy_per_atom": -5882.0,
+      "decomposition_energy_per_atom": -24.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -2.0,
+      "decomposition_energy_mp_oqmd": -13.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "414b2b5956",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:41.153404Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Fe7Nb8Si14.json",
+      "material://Co1Fe7Nb8Si14"
+    ]
+  }
+}

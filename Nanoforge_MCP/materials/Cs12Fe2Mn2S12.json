@@ -1,0 +1,112 @@
+{
+  "id": "Cs12Fe2Mn2S12",
+  "uri": "material://Cs12Fe2Mn2S12",
+  "composition": {
+    "formula": "Cs12Fe2Mn2S12",
+    "elements": {
+      "Cs": 12,
+      "Fe": 2,
+      "Mn": 2,
+      "S": 12
+    },
+    "reduced_formula": "Cs6MnFeS6",
+    "element_list": [
+      "S",
+      "Mn",
+      "Fe",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Erbium (Er): 45 g \n - Praseodymium (Pr): 72 g \n - Scandium (Sc): 21 g \n - Silicon (Si): 120 g \n - Thulium (Tm): 18 g"
+    },
+    "sourcing": {
+      "instructions": "- Erbium: Available from specialty chemical suppliers or online markets. \n - Praseodymium: Obtainable from metal suppliers or chemical distributors. \n - Scandium: Sourced through rare earth material suppliers. \n - Silicon: Procure from semiconductor material suppliers or electronic component stores. \n - Thulium: Available from rare earth metal suppliers or online platforms.",
+      "steps": [
+        "- Erbium: Available from specialty chemical suppliers or online markets.",
+        "- Praseodymium: Obtainable from metal suppliers or chemical distributors.",
+        "- Scandium: Sourced through rare earth material suppliers.",
+        "- Silicon: Procure from semiconductor material suppliers or electronic component stores.",
+        "- Thulium: Available from rare earth metal suppliers or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure Er, Pr, Sc, Si, and Tm using an analytical balance for accuracy.",
+        "2. In a clean and dry mixing container, combine the powders in the following order: Er, Pr, Sc, Si, and Tm.",
+        "3. Use a spatula to gently mix the powders for 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powders to a ball mill and mill for an additional 30 minutes to achieve a fine, homogeneous mixture."
+      ],
+      "raw_text": "1. Measure Er, Pr, Sc, Si, and Tm using an analytical balance for accuracy. \n 2. In a clean and dry mixing container, combine the powders in the following order: Er, Pr, Sc, Si, and Tm. \n 3. Use a spatula to gently mix the powders for 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powders to a ball mill and mill for an additional 30 minutes to achieve a fine, homogeneous mixture."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1200 °C.",
+        "2. Place the mixed powder into a crucible made of alumina.",
+        "3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate the reaction and solidification of the material."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1200 °C. \n 2. Place the mixed powder into a crucible made of alumina. \n 3. Insert the crucible into the furnace and maintain the temperature for 4 hours to facilitate the reaction and solidification of the material."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours).",
+        "2. Ensure that the crucible remains undisturbed during the cooling process to prevent cracking."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature (approximately 24 hours). \n 2. Ensure that the crucible remains undisturbed during the cooling process to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid material from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the edges of the sample with 400-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant suitable for rare earth materials to enhance durability and surface protection."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid material from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the edges of the sample with 400-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant suitable for rare earth materials to enhance durability and surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 9861785.0,
+      "density": 37064.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Aea2",
+      "space_group_number": 41,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1278436.0,
+      "formation_energy_per_atom": -11499.0,
+      "decomposition_energy_per_atom": -117.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -121.0,
+      "decomposition_energy_mp_oqmd": -113.0
+    },
+    "electronic": {
+      "bandgap": 0.0827,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c2933bdb3b",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.923907Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs12Fe2Mn2S12.json",
+      "material://Cs12Fe2Mn2S12"
+    ]
+  }
+}

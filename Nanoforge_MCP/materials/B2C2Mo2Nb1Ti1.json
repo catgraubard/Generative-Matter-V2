@@ -1,0 +1,113 @@
+{
+  "id": "B2C2Mo2Nb1Ti1",
+  "uri": "material://B2C2Mo2Nb1Ti1",
+  "composition": {
+    "formula": "B2C2Mo2Nb1Ti1",
+    "elements": {
+      "B": 2,
+      "C": 2,
+      "Mo": 2,
+      "Nb": 1,
+      "Ti": 1
+    },
+    "reduced_formula": "TiNbB2(MoC)2",
+    "element_list": [
+      "B",
+      "C",
+      "Ti",
+      "Nb",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 30 g, C: 15 g, Mo: 60 g, Nb: 30 g, Ti: 24 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply store, C: Chemical supply store, Mo: Metal supplier or online marketplace, Nb: Metal supplier or online marketplace, Ti: Metal supplier or online marketplace",
+      "steps": [
+        "B: Chemical supply store, C: Chemical supply store, Mo: Metal supplier or online marketplace, Nb: Metal supplier or online marketplace, Ti: Metal supplier or online marketplace"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient accurately using a digital scale.",
+        "2. Place B, C, Mo, Nb, and Ti in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or a mortar and pestle to thoroughly mix the powders until homogeneous."
+      ],
+      "raw_text": "1. Measure each ingredient accurately using a digital scale. \n 2. Place B, C, Mo, Nb, and Ti in a clean, dry mixing container. \n 3. Use a mechanical mixer or a mortar and pestle to thoroughly mix the powders until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible.",
+        "2. Heat in a furnace to 1500°C for 2 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible. \n 2. Heat in a furnace to 1500°C for 2 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool slowly in the furnace to room temperature over approximately 6 hours to prevent thermal shock.",
+        "2. Once cooled, remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Allow the crucible to cool slowly in the furnace to room temperature over approximately 6 hours to prevent thermal shock. \n 2. Once cooled, remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solid sample from the crucible.",
+        "2. Use a grinder or sandpaper to smooth the edges and surfaces.",
+        "3. Optionally, apply a protective sealant to enhance surface durability."
+      ],
+      "raw_text": "1. Carefully remove the solid sample from the crucible. \n 2. Use a grinder or sandpaper to smooth the edges and surfaces. \n 3. Optionally, apply a protective sealant to enhance surface durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 863378.0,
+      "density": 72758.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -763995.0,
+      "formation_energy_per_atom": -6124.0,
+      "decomposition_energy_per_atom": -284.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -57.0,
+      "decomposition_energy_mp": -283.0,
+      "decomposition_energy_mp_oqmd": -264.0
+    },
+    "electronic": {
+      "bandgap": 0.0233,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5552c1da59",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:07.733574Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2C2Mo2Nb1Ti1.json",
+      "material://B2C2Mo2Nb1Ti1"
+    ]
+  }
+}

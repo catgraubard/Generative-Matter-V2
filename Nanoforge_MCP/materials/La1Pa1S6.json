@@ -1,0 +1,116 @@
+{
+  "id": "La1Pa1S6",
+  "uri": "material://La1Pa1S6",
+  "composition": {
+    "formula": "La1Pa1S6",
+    "elements": {
+      "La": 1,
+      "Pa": 1,
+      "S": 6
+    },
+    "reduced_formula": "LaPaS6",
+    "element_list": [
+      "S",
+      "La",
+      "Pa"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "S",
+          "amount": 36.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La2O3: 20.0 g \n  Pa2O5: 10.0 g \n  S: 36.0 g"
+    },
+    "sourcing": {
+      "instructions": "La2O3: Available from chemical supply companies or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar). \n  Pa2O5: Obtain from specialized chemical suppliers or online sources. \n  S: Available at local hardware stores or online (e.g., sulfur powder).",
+      "steps": [
+        "La2O3: Available from chemical supply companies or online marketplaces (e.g., Sigma-Aldrich, Alfa Aesar).",
+        "Pa2O5: Obtain from specialized chemical suppliers or online sources.",
+        "S: Available at local hardware stores or online (e.g., sulfur powder)."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20.0 g of La2O3, 10.0 g of Pa2O5, and 36.0 g of S using an analytical balance.",
+        "2. In a clean, dry mixing container, combine La2O3 and Pa2O5 thoroughly.",
+        "3. Gradually add sulfur to the mixture while stirring continuously to ensure uniform distribution.",
+        "4. Mix the components for at least 10 minutes until a homogeneous mixture is achieved."
+      ],
+      "raw_text": "1. Weigh out 20.0 g of La2O3, 10.0 g of Pa2O5, and 36.0 g of S using an analytical balance. \n  2. In a clean, dry mixing container, combine La2O3 and Pa2O5 thoroughly. \n  3. Gradually add sulfur to the mixture while stirring continuously to ensure uniform distribution. \n  4. Mix the components for at least 10 minutes until a homogeneous mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature crucible.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat the furnace to 800 °C at a rate of 10 °C per minute.",
+        "4. Maintain this temperature for 4 hours to facilitate complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature crucible. \n  2. Place the crucible in a muffle furnace. \n  3. Heat the furnace to 800 °C at a rate of 10 °C per minute. \n  4. Maintain this temperature for 4 hours to facilitate complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Do not open the furnace door during cooling to prevent rapid temperature changes."
+      ],
+      "raw_text": "1. After the heating period, turn off the furnace and allow it to cool down naturally to room temperature (approximately 2-3 hours). \n  2. Do not open the furnace door during cooling to prevent rapid temperature changes."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Crush the solidified material into a fine powder using a mortar and pestle.",
+        "3. Sift the powder through a 100 mesh sieve to ensure uniform particle size.",
+        "4. If a solid sample is required, compress the powder into a mold matching the dimensions of 3 inches x 2 inches x 7 inches and apply a pressure of 100 MPa for 30 minutes.",
+        "5. Allow the compressed sample to cure at room temperature for 24 hours before handling."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves. \n  2. Crush the solidified material into a fine powder using a mortar and pestle. \n  3. Sift the powder through a 100 mesh sieve to ensure uniform particle size. \n  4. If a solid sample is required, compress the powder into a mold matching the dimensions of 3 inches x 2 inches x 7 inches and apply a pressure of 100 MPa for 30 minutes. \n  5. Allow the compressed sample to cure at room temperature for 24 hours before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 8,
+      "volume": 2089816.0,
+      "density": 44682.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -532071.0,
+      "formation_energy_per_atom": -17422.0,
+      "decomposition_energy_per_atom": -2356.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -302.0,
+      "decomposition_energy_mp": -2363.0,
+      "decomposition_energy_mp_oqmd": -2363.0
+    },
+    "electronic": {
+      "bandgap": 0.2837,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "8dd92f12aa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:22.364162Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La1Pa1S6.json",
+      "material://La1Pa1S6"
+    ]
+  }
+}

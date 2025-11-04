@@ -1,0 +1,128 @@
+{
+  "id": "Ga5Te1Zr10",
+  "uri": "material://Ga5Te1Zr10",
+  "composition": {
+    "formula": "Ga5Te1Zr10",
+    "elements": {
+      "Ga": 5,
+      "Te": 1,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10Ga5Te",
+    "element_list": [
+      "Ga",
+      "Zr",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Hg",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "S",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 10 g \n Hg: 50 g \n S: 20 g \n Tm: 10 g"
+    },
+    "sourcing": {
+      "instructions": "Bi (Bismuth): Obtain from a chemical supply company or online distributor specializing in metals. \n Hg (Mercury): Purchase from a licensed supplier with proper safety protocols. \n S (Sulfur): Available at chemical suppliers or hardware stores. \n Tm (Thulium): Source from specialized chemical suppliers or online marketplaces.",
+      "steps": [
+        "Bi (Bismuth): Obtain from a chemical supply company or online distributor specializing in metals.",
+        "Hg (Mercury): Purchase from a licensed supplier with proper safety protocols.",
+        "S (Sulfur): Available at chemical suppliers or hardware stores.",
+        "Tm (Thulium): Source from specialized chemical suppliers or online marketplaces."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of Bi, 50 g of Hg, 20 g of S, and 10 g of Tm using an analytical balance for precision.",
+        "2. In a fume hood, combine the measured elements in a clean, dry glass container.",
+        "3. Stir the mixture gently with a non-reactive stirrer until homogeneous."
+      ],
+      "raw_text": "1. Measure 10 g of Bi, 50 g of Hg, 20 g of S, and 10 g of Tm using an analytical balance for precision. \n 2. In a fume hood, combine the measured elements in a clean, dry glass container. \n 3. Stir the mixture gently with a non-reactive stirrer until homogeneous."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture gradually to 800 °C for 2 hours, ensuring to monitor the temperature closely."
+      ],
+      "raw_text": "1. Transfer the mixture to a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture gradually to 800 °C for 2 hours, ensuring to monitor the temperature closely."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool down naturally within the furnace to room temperature (approximately 6-8 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool down naturally within the furnace to room temperature (approximately 6-8 hours). \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible and inspect for any irregularities.",
+        "2. If necessary, sand the edges of the sample using fine-grit sandpaper to achieve desired dimensions and smoothness.",
+        "3. Optionally, apply a clear sealant to protect the material, following the manufacturer's instructions for application and curing time."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible and inspect for any irregularities. \n 2. If necessary, sand the edges of the sample using fine-grit sandpaper to achieve desired dimensions and smoothness. \n 3. Optionally, apply a clear sealant to protect the material, following the manufacturer's instructions for application and curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3343193.0,
+      "density": 68964.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1134172.0,
+      "formation_energy_per_atom": -6035.0,
+      "decomposition_energy_per_atom": -252.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -39.0,
+      "decomposition_energy_mp": -251.0,
+      "decomposition_energy_mp_oqmd": -239.0
+    },
+    "electronic": {
+      "bandgap": 0.0078,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dc8089e45f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.670761Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga5Te1Zr10.json",
+      "material://Ga5Te1Zr10"
+    ]
+  }
+}

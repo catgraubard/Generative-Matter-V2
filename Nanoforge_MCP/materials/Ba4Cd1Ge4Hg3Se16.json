@@ -1,0 +1,115 @@
+{
+  "id": "Ba4Cd1Ge4Hg3Se16",
+  "uri": "material://Ba4Cd1Ge4Hg3Se16",
+  "composition": {
+    "formula": "Ba4Cd1Ge4Hg3Se16",
+    "elements": {
+      "Ba": 4,
+      "Cd": 1,
+      "Ge": 4,
+      "Hg": 3,
+      "Se": 16
+    },
+    "reduced_formula": "Ba4CdHg3(GeSe4)4",
+    "element_list": [
+      "Ge",
+      "Se",
+      "Cd",
+      "Ba",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 48.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 48.00 g, Fe: 16.00 g, Tb: 72.00 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from a chemical supplier (e.g., Sigma-Aldrich), Fe: Obtain from a metal supply store, Tb: Order from a rare earth materials supplier.",
+      "steps": [
+        "Co: Purchase from a chemical supplier (e.g., Sigma-Aldrich), Fe: Obtain from a metal supply store, Tb: Order from a rare earth materials supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using an analytical balance to ensure precision.",
+        "2. Grind Co, Fe, and Tb powders separately using a mortar and pestle until fine.",
+        "3. Combine the powders in a clean, dry mixing bowl.",
+        "4. Mix thoroughly with a spatula or a mechanical mixer for 10 minutes to ensure an even distribution."
+      ],
+      "raw_text": "1. Weigh each ingredient using an analytical balance to ensure precision. \n 2. Grind Co, Fe, and Tb powders separately using a mortar and pestle until fine. \n 3. Combine the powders in a clean, dry mixing bowl. \n 4. Mix thoroughly with a spatula or a mechanical mixer for 10 minutes to ensure an even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a ceramic crucible.",
+        "2. Heat the crucible in a muffle furnace at 1000°C for 2 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a ceramic crucible. \n 2. Heat the crucible in a muffle furnace at 1000°C for 2 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours).",
+        "2. Do not open the furnace door during cooling to prevent oxidation."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 1-2 hours). \n 2. Do not open the furnace door during cooling to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Grind the solid to achieve the desired particle size if necessary.",
+        "3. Optionally, seal the final product with a clear epoxy resin for protection and improved aesthetics.",
+        "4. If desired, sand the edges to achieve a smoother finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Grind the solid to achieve the desired particle size if necessary. \n 3. Optionally, seal the final product with a clear epoxy resin for protection and improved aesthetics. \n 4. If desired, sand the edges to achieve a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 28,
+      "volume": 8897381.0,
+      "density": 52582.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1146293.0,
+      "formation_energy_per_atom": -10962.0,
+      "decomposition_energy_per_atom": -37.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -33.0,
+      "decomposition_energy_mp_oqmd": -32.0
+    },
+    "electronic": {
+      "bandgap": 1.3653,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "dca2bca223",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.702380Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba4Cd1Ge4Hg3Se16.json",
+      "material://Ba4Cd1Ge4Hg3Se16"
+    ]
+  }
+}

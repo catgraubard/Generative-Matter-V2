@@ -1,0 +1,111 @@
+{
+  "id": "Co2La2O12Pr2Zn2",
+  "uri": "material://Co2La2O12Pr2Zn2",
+  "composition": {
+    "formula": "Co2La2O12Pr2Zn2",
+    "elements": {
+      "Co": 2,
+      "La": 2,
+      "O": 12,
+      "Pr": 2,
+      "Zn": 2
+    },
+    "reduced_formula": "LaPrZnCoO6",
+    "element_list": [
+      "O",
+      "Co",
+      "Zn",
+      "La",
+      "Pr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- CoO: 30.0 g  \n - La2O3: 48.0 g  \n - Pr6O11: 12.0 g  \n - ZnO: 18.0 g"
+    },
+    "sourcing": {
+      "instructions": "- CoO: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich, Alfa Aesar).  \n - La2O3: Available from specialty materials suppliers or online chemical stores.  \n - Pr6O11: Obtain from rare earth material suppliers.  \n - ZnO: Commonly found at chemical suppliers or pharmacies.",
+      "steps": [
+        "- CoO: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich, Alfa Aesar).",
+        "- La2O3: Available from specialty materials suppliers or online chemical stores.",
+        "- Pr6O11: Obtain from rare earth material suppliers.",
+        "- ZnO: Commonly found at chemical suppliers or pharmacies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh each ingredient accurately using a digital scale.",
+        "2. In a ceramic or glass container, combine CoO, La2O3, Pr6O11, and ZnO in the specified amounts.",
+        "3. Use a pestle and mortar or a mechanical mixer to thoroughly mix the powders until a homogeneous blend is achieved."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh each ingredient accurately using a digital scale.  \n 2. In a ceramic or glass container, combine CoO, La2O3, Pr6O11, and ZnO in the specified amounts.  \n 3. Use a pestle and mortar or a mechanical mixer to thoroughly mix the powders until a homogeneous blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000°C.",
+        "2. Place the mixed powder into a crucible suitable for high temperatures.",
+        "3. Heat the crucible in the furnace at 1000°C for 4 hours to facilitate solid-state reaction."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000°C.  \n 2. Place the mixed powder into a crucible suitable for high temperatures.  \n 3. Heat the crucible in the furnace at 1000°C for 4 hours to facilitate solid-state reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours) without opening the door.",
+        "2. Once cooled, remove the crucible carefully using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 6-8 hours) without opening the door.  \n 2. Once cooled, remove the crucible carefully using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. If necessary, grind the solidified material to achieve a uniform particle size using a mortar and pestle.",
+        "2. Sieve the material to remove larger particles if required.",
+        "3. Optionally, use a sealing agent to coat the surface for enhanced durability, allowing it to cure for 24 hours."
+      ],
+      "raw_text": "1. If necessary, grind the solidified material to achieve a uniform particle size using a mortar and pestle.  \n 2. Sieve the material to remove larger particles if required.  \n 3. Optionally, use a sealing agent to coat the surface for enhanced durability, allowing it to cure for 24 hours."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2386216.0,
+      "density": 6961.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2_1",
+      "space_group_number": 4,
+      "point_group": "2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1481017.0,
+      "formation_energy_per_atom": -26278.0,
+      "decomposition_energy_per_atom": -313.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -191.0,
+      "decomposition_energy_mp_oqmd": -44.0
+    },
+    "electronic": {
+      "bandgap": 0.992,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "0fe21ed0aa",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:36.483788Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2La2O12Pr2Zn2.json",
+      "material://Co2La2O12Pr2Zn2"
+    ]
+  }
+}

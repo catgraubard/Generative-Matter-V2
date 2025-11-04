@@ -1,0 +1,114 @@
+{
+  "id": "S21Sr3",
+  "uri": "material://S21Sr3",
+  "composition": {
+    "formula": "S21Sr3",
+    "elements": {
+      "S": 21,
+      "Sr": 3
+    },
+    "reduced_formula": "SrS7",
+    "element_list": [
+      "S",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 2.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd2O3: 40 g \n Tm2O3: 10 g \n W: 2 g \n (Total: 52 g) \n Note: Adjust amounts based on density for volume calculations."
+    },
+    "sourcing": {
+      "instructions": "Nd2O3: Purchase from chemical suppliers or online marketplaces specializing in rare earth materials. \n Tm2O3: Available from specialty chemical suppliers or online. \n W: Obtain from metal suppliers or industrial metal shops.",
+      "steps": [
+        "Nd2O3: Purchase from chemical suppliers or online marketplaces specializing in rare earth materials.",
+        "Tm2O3: Available from specialty chemical suppliers or online.",
+        "W: Obtain from metal suppliers or industrial metal shops."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh Nd2O3, Tm2O3, and W using a precise analytical scale.",
+        "2. In a clean, dry container, combine the Nd2O3 and Tm2O3 powders.",
+        "3. Gradually add W to the mixture while stirring continuously to ensure homogeneity.",
+        "4. Use a mortar and pestle to further grind the mixture until a fine, uniform powder is achieved."
+      ],
+      "raw_text": "1. Weigh Nd2O3, Tm2O3, and W using a precise analytical scale. \n 2. In a clean, dry container, combine the Nd2O3 and Tm2O3 powders. \n 3. Gradually add W to the mixture while stirring continuously to ensure homogeneity. \n 4. Use a mortar and pestle to further grind the mixture until a fine, uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a muffle furnace.",
+        "3. Heat to 1200°C at a rate of 5°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete synthesis of the compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Place the crucible in a muffle furnace. \n 3. Heat to 1200°C at a rate of 5°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete synthesis of the compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature slowly (approximately 4-6 hours) to avoid thermal shock to the material.",
+        "2. Once cooled, carefully remove the crucible from the furnace."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature slowly (approximately 4-6 hours) to avoid thermal shock to the material. \n 2. Once cooled, carefully remove the crucible from the furnace."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the solidified sample into smaller pieces if necessary.",
+        "2. Use a grinder or sandpaper to achieve a smooth finish on the surfaces.",
+        "3. Optionally, apply a sealant or protective coating if the material will be exposed to environmental factors.",
+        "4. Store the finished sample in a dry, controlled environment."
+      ],
+      "raw_text": "1. Crush the solidified sample into smaller pieces if necessary. \n 2. Use a grinder or sandpaper to achieve a smooth finish on the surfaces. \n 3. Optionally, apply a sealant or protective coating if the material will be exposed to environmental factors. \n 4. Store the finished sample in a dry, controlled environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 7806922.0,
+      "density": 19914.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1121108.0,
+      "formation_energy_per_atom": -8407.0,
+      "decomposition_energy_per_atom": -1437.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -421.0,
+      "decomposition_energy_mp": -1441.0,
+      "decomposition_energy_mp_oqmd": -1441.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6c293b3e3",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.063481Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/S21Sr3.json",
+      "material://S21Sr3"
+    ]
+  }
+}

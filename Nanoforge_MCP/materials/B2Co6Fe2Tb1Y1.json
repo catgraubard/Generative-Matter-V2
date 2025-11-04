@@ -1,0 +1,113 @@
+{
+  "id": "B2Co6Fe2Tb1Y1",
+  "uri": "material://B2Co6Fe2Tb1Y1",
+  "composition": {
+    "formula": "B2Co6Fe2Tb1Y1",
+    "elements": {
+      "B": 2,
+      "Co": 6,
+      "Fe": 2,
+      "Tb": 1,
+      "Y": 1
+    },
+    "reduced_formula": "TbYFe2(Co3B)2",
+    "element_list": [
+      "B",
+      "Fe",
+      "Co",
+      "Y",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 10.0 g; Co: 15.0 g; Fe: 5.0 g; Tb: 2.0 g; Y: 2.0 g; Total: 34.0 g"
+    },
+    "sourcing": {
+      "instructions": "B: Chemical supply stores; Co: Metallurgical suppliers; Fe: Local hardware stores; Tb: Rare earth metal suppliers; Y: Chemical supply stores.",
+      "steps": [
+        "B: Chemical supply stores; Co: Metallurgical suppliers; Fe: Local hardware stores; Tb: Rare earth metal suppliers; Y: Chemical supply stores."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precise digital scale.",
+        "2. In a clean, dry container, combine B, Co, Fe, Tb, and Y.",
+        "3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes, ensuring uniformity."
+      ],
+      "raw_text": "1. Weigh each material using a precise digital scale. \n 2. In a clean, dry container, combine B, Co, Fe, Tb, and Y. \n 3. Use a mortar and pestle to thoroughly mix the powders for 10 minutes, ensuring uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a ceramic crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to induce solid-state reactions."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a ceramic crucible. \n 2. Heat in a furnace to 1200°C for 2 hours to induce solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 4 hours).",
+        "2. Ensure the cooling occurs in a draft-free environment to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 4 hours). \n 2. Ensure the cooling occurs in a draft-free environment to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Sand the surfaces using fine-grit sandpaper to achieve a smooth finish.",
+        "3. Optionally, seal with a clear epoxy resin for enhanced durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Sand the surfaces using fine-grit sandpaper to achieve a smooth finish. \n 3. Optionally, seal with a clear epoxy resin for enhanced durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1502345.0,
+      "density": 81211.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -87893.0,
+      "formation_energy_per_atom": -3203.0,
+      "decomposition_energy_per_atom": -97.0,
+      "decomposition_energy_all": 7.0,
+      "decomposition_energy_relative": 7.0,
+      "decomposition_energy_mp": -97.0,
+      "decomposition_energy_mp_oqmd": -77.0
+    },
+    "electronic": {
+      "bandgap": 0.0013,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "6acb2a839c",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:35.492710Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Co6Fe2Tb1Y1.json",
+      "material://B2Co6Fe2Tb1Y1"
+    ]
+  }
+}

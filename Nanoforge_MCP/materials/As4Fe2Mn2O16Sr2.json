@@ -1,0 +1,140 @@
+{
+  "id": "As4Fe2Mn2O16Sr2",
+  "uri": "material://As4Fe2Mn2O16Sr2",
+  "composition": {
+    "formula": "As4Fe2Mn2O16Sr2",
+    "elements": {
+      "As": 4,
+      "Fe": 2,
+      "Mn": 2,
+      "O": 16,
+      "Sr": 2
+    },
+    "reduced_formula": "SrMnFe(AsO4)2",
+    "element_list": [
+      "O",
+      "Mn",
+      "Fe",
+      "As",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Fe",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Mn",
+          "amount": 5.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 10.0 g \n Fe: 15.0 g \n Mn: 5.0 g \n O: 50.0 g (from sources containing oxygen, as this is a component of the oxides) \n Sr: 8.0 g"
+    },
+    "sourcing": {
+      "instructions": "As: Obtain from a chemical supply company that specializes in rare elements. \n Fe: Available at metal suppliers or chemical supply stores. \n Mn: Can be sourced from metal suppliers or chemical distributors. \n O: Obtain as part of oxides or use oxygen gas from gas suppliers. \n Sr: Purchase from a chemical supplier or through online platforms that sell rare earth materials.",
+      "steps": [
+        "As: Obtain from a chemical supply company that specializes in rare elements.",
+        "Fe: Available at metal suppliers or chemical supply stores.",
+        "Mn: Can be sourced from metal suppliers or chemical distributors.",
+        "O: Obtain as part of oxides or use oxygen gas from gas suppliers.",
+        "Sr: Purchase from a chemical supplier or through online platforms that sell rare earth materials."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh each component using an analytical balance.",
+        "2. Mix As, Fe, Mn, and Sr in a glass or ceramic container.",
+        "3. Gradually add O, ensuring the mixture is homogeneous.",
+        "4. Use a mortar and pestle to grind the mixture for 15 minutes to achieve a fine powder."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh each component using an analytical balance. \n 2. Mix As, Fe, Mn, and Sr in a glass or ceramic container. \n 3. Gradually add O, ensuring the mixture is homogeneous. \n 4. Use a mortar and pestle to grind the mixture for 15 minutes to achieve a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Place the mixed powder into a crucible.",
+        "2. Heat in a furnace to 800°C for 4 hours to facilitate the formation of the intended compound.",
+        "3. Allow the temperature to reach the target gradually to prevent thermal shock."
+      ],
+      "raw_text": "1. Place the mixed powder into a crucible. \n 2. Heat in a furnace to 800°C for 4 hours to facilitate the formation of the intended compound. \n 3. Allow the temperature to reach the target gradually to prevent thermal shock."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and let the crucible cool down naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent cracking."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and let the crucible cool down naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible carefully.",
+        "2. Inspect for any surface irregularities.",
+        "3. Use fine sandpaper (600 grit) to lightly sand the surface to achieve a smooth finish.",
+        "4. Optionally, seal the sample with a clear epoxy resin for added protection and aesthetics."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible carefully. \n 2. Inspect for any surface irregularities. \n 3. Use fine sandpaper (600 grit) to lightly sand the surface to achieve a smooth finish. \n 4. Optionally, seal the sample with a clear epoxy resin for added protection and aesthetics."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 3599262.0,
+      "density": 43943.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1918762.0,
+      "formation_energy_per_atom": -21319.0,
+      "decomposition_energy_per_atom": -105.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -111.0,
+      "decomposition_energy_mp_oqmd": -11.0
+    },
+    "electronic": {
+      "bandgap": 1.8458,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ece12dcc28",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:29.063796Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As4Fe2Mn2O16Sr2.json",
+      "material://As4Fe2Mn2O16Sr2"
+    ]
+  }
+}

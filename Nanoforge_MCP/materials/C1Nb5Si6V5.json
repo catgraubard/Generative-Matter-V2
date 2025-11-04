@@ -1,0 +1,133 @@
+{
+  "id": "C1Nb5Si6V5",
+  "uri": "material://C1Nb5Si6V5",
+  "composition": {
+    "formula": "C1Nb5Si6V5",
+    "elements": {
+      "C": 1,
+      "Nb": 5,
+      "Si": 6,
+      "V": 5
+    },
+    "reduced_formula": "Nb5V5Si6C",
+    "element_list": [
+      "C",
+      "Si",
+      "V",
+      "Nb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "C",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 40.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "C: 10 g (Carbon source, e.g., graphite powder) \n Nb: 50 g (Niobium powder) \n Si: 60 g (Silicon powder) \n V: 40 g (Vanadium powder)"
+    },
+    "sourcing": {
+      "instructions": "Carbon source: Local suppliers of graphite or online marketplaces. \n Niobium powder: Specialty metal suppliers or online industrial metal providers. \n Silicon powder: Chemical supply companies or online chemical suppliers. \n Vanadium powder: Metal suppliers or specialized chemical distributors.",
+      "steps": [
+        "Carbon source: Local suppliers of graphite or online marketplaces.",
+        "Niobium powder: Specialty metal suppliers or online industrial metal providers.",
+        "Silicon powder: Chemical supply companies or online chemical suppliers.",
+        "Vanadium powder: Metal suppliers or specialized chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 10 g of graphite powder, 50 g of niobium powder, 60 g of silicon powder, and 40 g of vanadium powder using a digital scale.",
+        "2. Combine all powders in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to ensure a homogeneous mixture for 10-15 minutes.",
+        "4. Transfer the mixture into a mold of dimensions 3 inches x 2 inches x 7 inches, ensuring it is evenly distributed."
+      ],
+      "raw_text": "1. Measure 10 g of graphite powder, 50 g of niobium powder, 60 g of silicon powder, and 40 g of vanadium powder using a digital scale. \n 2. Combine all powders in a clean, dry mixing container. \n 3. Use a mechanical mixer or mortar and pestle to ensure a homogeneous mixture for 10-15 minutes. \n 4. Transfer the mixture into a mold of dimensions 3 inches x 2 inches x 7 inches, ensuring it is evenly distributed."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 1,
+      "steps": [
+        "1. Preheat a high-temperature furnace to 1500°C.",
+        "2. Place the filled mold into the furnace.",
+        "3. Heat the mixture gradually to 1500°C over 1 hour.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction and sintering of materials."
+      ],
+      "raw_text": "1. Preheat a high-temperature furnace to 1500°C. \n 2. Place the filled mold into the furnace. \n 3. Heat the mixture gradually to 1500°C over 1 hour. \n 4. Maintain the temperature for 2 hours to ensure complete reaction and sintering of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature over 6 hours.",
+        "2. Do not open the furnace door until it reaches a safe temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature over 6 hours. \n 2. Do not open the furnace door until it reaches a safe temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the mold.",
+        "2. Inspect the surface for any rough edges or imperfections.",
+        "3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a protective sealant to the surface to enhance durability and appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the mold. \n 2. Inspect the surface for any rough edges or imperfections. \n 3. If necessary, sand the surface using fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a protective sealant to the surface to enhance durability and appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 17,
+      "volume": 2377728.0,
+      "density": 62837.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -149274.0,
+      "formation_energy_per_atom": -6805.0,
+      "decomposition_energy_per_atom": -834.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -109.0,
+      "decomposition_energy_mp": -83.0,
+      "decomposition_energy_mp_oqmd": -788.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "76046b9057",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:50.057817Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1Nb5Si6V5.json",
+      "material://C1Nb5Si6V5"
+    ]
+  }
+}

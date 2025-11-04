@@ -1,0 +1,133 @@
+{
+  "id": "Li3Pb2Sc3Sn1",
+  "uri": "material://Li3Pb2Sc3Sn1",
+  "composition": {
+    "formula": "Li3Pb2Sc3Sn1",
+    "elements": {
+      "Li": 3,
+      "Pb": 2,
+      "Sc": 3,
+      "Sn": 1
+    },
+    "reduced_formula": "Li3Sc3SnPb2",
+    "element_list": [
+      "Li",
+      "Sc",
+      "Sn",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Li",
+          "amount": 3.6,
+          "unit": "g"
+        },
+        {
+          "element": "Pb",
+          "amount": 12.6,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 22.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 1.5,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li: 3.6 g (Lithium carbonate, Li2CO3) \n Pb: 12.6 g (Lead oxide, PbO) \n Sc: 22.5 g (Scandium oxide, Sc2O3) \n Sn: 1.5 g (Tin metal, Sn) \n Total: 40.2 g"
+    },
+    "sourcing": {
+      "instructions": "Lithium carbonate: Chemical supply stores or online suppliers. \n Lead oxide: Specialty metals suppliers or chemical supply stores. \n Scandium oxide: Online chemical suppliers or rare earth material suppliers. \n Tin metal: Metal supply stores or online hardware suppliers.",
+      "steps": [
+        "Lithium carbonate: Chemical supply stores or online suppliers.",
+        "Lead oxide: Specialty metals suppliers or chemical supply stores.",
+        "Scandium oxide: Online chemical suppliers or rare earth material suppliers.",
+        "Tin metal: Metal supply stores or online hardware suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision scale.",
+        "2. In a clean, dry mixing container, combine Li2CO3, PbO, Sc2O3, and Sn.",
+        "3. Use a ceramic or glass rod to thoroughly mix the powders for at least 10 minutes to ensure uniform distribution.",
+        "4. Transfer the mixed powders into a heat-resistant crucible."
+      ],
+      "raw_text": "1. Weigh each material using a precision scale. \n 2. In a clean, dry mixing container, combine Li2CO3, PbO, Sc2O3, and Sn. \n 3. Use a ceramic or glass rod to thoroughly mix the powders for at least 10 minutes to ensure uniform distribution. \n 4. Transfer the mixed powders into a heat-resistant crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the crucible with the mixed powders in the furnace.",
+        "3. Maintain this temperature for 2 hours to allow for complete reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the crucible with the mixed powders in the furnace. \n 3. Maintain this temperature for 2 hours to allow for complete reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "cooling_time_hours": 1,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Once the temperature is below 100°C, carefully remove the crucible.",
+        "3. Let the crucible sit at room temperature for an additional 1 hour."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Once the temperature is below 100°C, carefully remove the crucible. \n 3. Let the crucible sit at room temperature for an additional 1 hour."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully extract the solid sample from the crucible.",
+        "2. If needed, use a diamond file to smooth any rough edges on the sample.",
+        "3. Optionally, apply a sealant to protect the surface if the material will be exposed to environmental factors.",
+        "4. Store the finished sample in a dry, controlled environment."
+      ],
+      "raw_text": "1. Once cooled, carefully extract the solid sample from the crucible. \n 2. If needed, use a diamond file to smooth any rough edges on the sample. \n 3. Optionally, apply a sealant to protect the surface if the material will be exposed to environmental factors. \n 4. Store the finished sample in a dry, controlled environment."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 9,
+      "volume": 1903806.0,
+      "density": 60079.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6",
+      "space_group_number": 174,
+      "point_group": "-6",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -405168.0,
+      "formation_energy_per_atom": -4842.0,
+      "decomposition_energy_per_atom": -185.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -157.0,
+      "decomposition_energy_mp": -185.0,
+      "decomposition_energy_mp_oqmd": -157.0
+    },
+    "electronic": {
+      "bandgap": 0.0222,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "f3982dfc72",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:30.548259Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Li3Pb2Sc3Sn1.json",
+      "material://Li3Pb2Sc3Sn1"
+    ]
+  }
+}

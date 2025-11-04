@@ -1,0 +1,127 @@
+{
+  "id": "Ag6Zn7",
+  "uri": "material://Ag6Zn7",
+  "composition": {
+    "formula": "Ag6Zn7",
+    "elements": {
+      "Ag": 6,
+      "Zn": 7
+    },
+    "reduced_formula": "Zn7Ag6",
+    "element_list": [
+      "Zn",
+      "Ag"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ru",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 80.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 30 g \n Er: 20 g \n Ru: 10 g \n Tb: 80 g"
+    },
+    "sourcing": {
+      "instructions": "Co (Cobalt powder): Purchase from a chemical supplier or online marketplace specializing in metals. \n Er (Erbium oxide): Obtain from a rare earth metal supplier. \n Ru (Ruthenium powder): Available through specialty metal suppliers. \n Tb (Terbium oxide): Source from a rare earth materials vendor.",
+      "steps": [
+        "Co (Cobalt powder): Purchase from a chemical supplier or online marketplace specializing in metals.",
+        "Er (Erbium oxide): Obtain from a rare earth metal supplier.",
+        "Ru (Ruthenium powder): Available through specialty metal suppliers.",
+        "Tb (Terbium oxide): Source from a rare earth materials vendor."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all ingredients accurately using a precision scale.",
+        "2. In a clean, dry mixing container, combine Co, Er, Ru, and Tb powders.",
+        "3. Use a mechanical mixer or mortar and pestle to blend the powders thoroughly for at least 15 minutes to ensure even distribution."
+      ],
+      "raw_text": "1. Weigh all ingredients accurately using a precision scale. \n 2. In a clean, dry mixing container, combine Co, Er, Ru, and Tb powders. \n 3. Use a mechanical mixer or mortar and pestle to blend the powders thoroughly for at least 15 minutes to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Place the crucible inside a furnace.",
+        "3. Heat the mixture to 1200 °C at a rate of 5 °C per minute and maintain this temperature for 2 hours to ensure proper sintering."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Place the crucible inside a furnace. \n 3. Heat the mixture to 1200 °C at a rate of 5 °C per minute and maintain this temperature for 2 hours to ensure proper sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C).",
+        "2. This process may take 6-8 hours."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25 °C). \n 2. This process may take 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible carefully.",
+        "2. Inspect for any surface irregularities.",
+        "3. If necessary, use fine-grit sandpaper to smooth the edges and surfaces.",
+        "4. Optionally, apply a sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible carefully. \n 2. Inspect for any surface irregularities. \n 3. If necessary, use fine-grit sandpaper to smooth the edges and surfaces. \n 4. Optionally, apply a sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 13,
+      "volume": 2113865.0,
+      "density": 86809.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -266943.0,
+      "formation_energy_per_atom": -678.0,
+      "decomposition_energy_per_atom": -92.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -92.0,
+      "decomposition_energy_mp_oqmd": -71.0
+    },
+    "electronic": {
+      "bandgap": 0.0389,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "de9c913b43",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.373070Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag6Zn7.json",
+      "material://Ag6Zn7"
+    ]
+  }
+}

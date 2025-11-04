@@ -1,0 +1,111 @@
+{
+  "id": "La10Ru6Sn3Zn1",
+  "uri": "material://La10Ru6Sn3Zn1",
+  "composition": {
+    "formula": "La10Ru6Sn3Zn1",
+    "elements": {
+      "La": 10,
+      "Ru": 6,
+      "Sn": 3,
+      "Zn": 1
+    },
+    "reduced_formula": "La10Zn(SnRu2)3",
+    "element_list": [
+      "Zn",
+      "Ru",
+      "Sn",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "La",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "La: 100 g, Ru: 60 g, Sn: 30 g, Zn: 10 g"
+    },
+    "sourcing": {
+      "instructions": "La: Rare earth supply stores, Ru: Precious metal dealers, Sn: Electronics suppliers, Zn: Hardware stores",
+      "steps": [
+        "La: Rare earth supply stores, Ru: Precious metal dealers, Sn: Electronics suppliers, Zn: Hardware stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using a precision balance.",
+        "2. In a clean, dry glass container, combine La, Ru, Sn, and Zn.",
+        "3. Mix thoroughly using a spatula to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh each material using a precision balance. \n 2. In a clean, dry glass container, combine La, Ru, Sn, and Zn. \n 3. Mix thoroughly using a spatula to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powders to a crucible.",
+        "2. Heat in a furnace to 1200°C for 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powders to a crucible. \n 2. Heat in a furnace to 1200°C for 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool gradually inside the furnace to room temperature (approximately 2-4 hours).",
+        "2. Once cooled, carefully remove the crucible."
+      ],
+      "raw_text": "1. Allow the crucible to cool gradually inside the furnace to room temperature (approximately 2-4 hours). \n 2. Once cooled, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth any rough edges.",
+        "3. Optionally, apply a sealant for surface protection."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond file to smooth any rough edges. \n 3. Optionally, apply a sealant for surface protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 5177658.0,
+      "density": 77517.0,
+      "crystal_system": "trigonal",
+      "space_group": "R3",
+      "space_group_number": 146,
+      "point_group": "3",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -127885.0,
+      "formation_energy_per_atom": -4795.0,
+      "decomposition_energy_per_atom": -722.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -1.0,
+      "decomposition_energy_mp": -722.0,
+      "decomposition_energy_mp_oqmd": -58.0
+    },
+    "electronic": {
+      "bandgap": 0.0048,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "5880d53e34",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:12.009877Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/La10Ru6Sn3Zn1.json",
+      "material://La10Ru6Sn3Zn1"
+    ]
+  }
+}

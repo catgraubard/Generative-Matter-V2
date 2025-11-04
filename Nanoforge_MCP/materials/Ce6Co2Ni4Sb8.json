@@ -1,0 +1,132 @@
+{
+  "id": "Ce6Co2Ni4Sb8",
+  "uri": "material://Ce6Co2Ni4Sb8",
+  "composition": {
+    "formula": "Ce6Co2Ni4Sb8",
+    "elements": {
+      "Ce": 6,
+      "Co": 2,
+      "Ni": 4,
+      "Sb": 8
+    },
+    "reduced_formula": "Ce3Co(NiSb2)2",
+    "element_list": [
+      "Co",
+      "Ni",
+      "Sb",
+      "Ce"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 10.5,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 42.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 31.5,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 42.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 10.5 g \n Sn: 42 g \n Y: 31.5 g \n Zn: 42 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Chemical supply stores or online suppliers \n Sn: Metal suppliers or electronic components stores \n Y: Specialty chemical suppliers \n Zn: Hardware stores or metal suppliers",
+      "steps": [
+        "Ac: Chemical supply stores or online suppliers",
+        "Sn: Metal suppliers or electronic components stores",
+        "Y: Specialty chemical suppliers",
+        "Zn: Hardware stores or metal suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. In a clean glass container, combine the weighed Ac, Sn, Y, and Zn.",
+        "3. Stir the mixture thoroughly using a glass rod until a homogeneous blend is achieved.",
+        "4. Transfer the mixture to a crucible suitable for melting metals."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. In a clean glass container, combine the weighed Ac, Sn, Y, and Zn. \n 3. Stir the mixture thoroughly using a glass rod until a homogeneous blend is achieved. \n 4. Transfer the mixture to a crucible suitable for melting metals."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 1,
+      "steps": [
+        "1. Place the crucible in a furnace or a high-temperature oven.",
+        "2. Heat the mixture to a temperature of 600°C (1112°F) gradually over 30 minutes.",
+        "3. Maintain this temperature for 1 hour to ensure complete melting and mixing of the components."
+      ],
+      "raw_text": "1. Place the crucible in a furnace or a high-temperature oven. \n 2. Heat the mixture to a temperature of 600°C (1112°F) gradually over 30 minutes. \n 3. Maintain this temperature for 1 hour to ensure complete melting and mixing of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "furnace_cool",
+      "steps": [
+        "1. Remove the crucible from the furnace using heat-resistant gloves.",
+        "2. Allow the mixture to cool in air for 2 hours until it solidifies.",
+        "3. Verify that the material has completely hardened before handling."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace using heat-resistant gloves. \n 2. Allow the mixture to cool in air for 2 hours until it solidifies. \n 3. Verify that the material has completely hardened before handling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. If necessary, remove any rough edges using a metal file or sandpaper.",
+        "2. Clean the surface with a soft cloth to remove any residue.",
+        "3. Optionally, apply a sealant to enhance surface durability, following the product instructions for application and curing time."
+      ],
+      "raw_text": "1. If necessary, remove any rough edges using a metal file or sandpaper. \n 2. Clean the surface with a soft cloth to remove any residue. \n 3. Optionally, apply a sealant to enhance surface durability, following the product instructions for application and curing time."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4353658.0,
+      "density": 82668.0,
+      "crystal_system": "tetragonal",
+      "space_group": "I-42d",
+      "space_group_number": 122,
+      "point_group": "-42m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1245104.0,
+      "formation_energy_per_atom": -9271.0,
+      "decomposition_energy_per_atom": -1142.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -301.0,
+      "decomposition_energy_mp": -1142.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": 0.0017,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cf1a726dd6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.046888Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ce6Co2Ni4Sb8.json",
+      "material://Ce6Co2Ni4Sb8"
+    ]
+  }
+}

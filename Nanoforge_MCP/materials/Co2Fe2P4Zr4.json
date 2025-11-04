@@ -1,0 +1,110 @@
+{
+  "id": "Co2Fe2P4Zr4",
+  "uri": "material://Co2Fe2P4Zr4",
+  "composition": {
+    "formula": "Co2Fe2P4Zr4",
+    "elements": {
+      "Co": 2,
+      "Fe": 2,
+      "P": 4,
+      "Zr": 4
+    },
+    "reduced_formula": "Zr2FeCoP2",
+    "element_list": [
+      "P",
+      "Fe",
+      "Co",
+      "Zr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Co: 23.98 g  \n - Fe: 112.41 g \n - P: 31.00 g \n - Zr: 91.22 g \n - Total weight: 258.61 g (for the desired dimensions)"
+    },
+    "sourcing": {
+      "instructions": "- Co: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich). \n - Fe: Obtain from metal suppliers or online sources (e.g., Amazon). \n - P: Source from chemical distributors (e.g., VWR). \n - Zr: Available from specialty metal suppliers or online.",
+      "steps": [
+        "- Co: Purchase from a chemical supplier or online marketplace (e.g., Sigma-Aldrich).",
+        "- Fe: Obtain from metal suppliers or online sources (e.g., Amazon).",
+        "- P: Source from chemical distributors (e.g., VWR).",
+        "- Zr: Available from specialty metal suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each material precisely using a digital scale.",
+        "2. Place Co, Fe, P, and Zr powders into a clean, dry mixing container.",
+        "3. Use a mortar and pestle or ball mill to thoroughly mix the powders for at least 30 minutes to ensure homogeneity.",
+        "4. Transfer the mixed powder to a clean crucible."
+      ],
+      "raw_text": "1. Weigh out each material precisely using a digital scale. \n 2. Place Co, Fe, P, and Zr powders into a clean, dry mixing container. \n 3. Use a mortar and pestle or ball mill to thoroughly mix the powders for at least 30 minutes to ensure homogeneity. \n 4. Transfer the mixed powder to a clean crucible."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Insert the crucible with the mixed powders into the furnace.",
+        "3. Maintain the temperature for 2 hours to facilitate solid-state reaction and synthesis."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Insert the crucible with the mixed powders into the furnace. \n 3. Maintain the temperature for 2 hours to facilitate solid-state reaction and synthesis."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace until it reaches below 100°C to prevent oxidation."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace until it reaches below 100°C to prevent oxidation."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand down any rough edges using 400-grit sandpaper for a smooth finish.",
+        "4. Optionally, apply a protective coating if necessary for application."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand down any rough edges using 400-grit sandpaper for a smooth finish. \n 4. Optionally, apply a protective coating if necessary for application."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1685281.0,
+      "density": 7078.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmn2_1",
+      "space_group_number": 31,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1002525.0,
+      "formation_energy_per_atom": -11043.0,
+      "decomposition_energy_per_atom": -27.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -11.0,
+      "decomposition_energy_mp": -27.0,
+      "decomposition_energy_mp_oqmd": -27.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "04bb1bae9d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:21.256835Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co2Fe2P4Zr4.json",
+      "material://Co2Fe2P4Zr4"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "Ga1Ni1Ru1Y2",
+  "uri": "material://Ga1Ni1Ru1Y2",
+  "composition": {
+    "formula": "Ga1Ni1Ru1Y2",
+    "elements": {
+      "Ga": 1,
+      "Ni": 1,
+      "Ru": 1,
+      "Y": 2
+    },
+    "reduced_formula": "Y2GaNiRu",
+    "element_list": [
+      "Ni",
+      "Ga",
+      "Y",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "W",
+          "amount": 16.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe2O3: 46.00 g  \n Sc2O3: 14.00 g  \n W: 16.00 g  \n Y2O3: 24.00 g  \n (Total: 100.00 g)"
+    },
+    "sourcing": {
+      "instructions": "Fe2O3: Chemical supply stores or online suppliers \n Sc2O3: Specialty chemical suppliers \n W: Metal suppliers \n Y2O3: Chemical supply stores or online suppliers",
+      "steps": [
+        "Fe2O3: Chemical supply stores or online suppliers",
+        "Sc2O3: Specialty chemical suppliers",
+        "W: Metal suppliers",
+        "Y2O3: Chemical supply stores or online suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure out 46.00 g of Fe2O3, 14.00 g of Sc2O3, 16.00 g of W, and 24.00 g of Y2O3 using an analytical balance.",
+        "2. In a clean, dry mixing container, combine all powdered ingredients.",
+        "3. Use a mortar and pestle to mix the powders thoroughly until a uniform color and consistency is achieved.",
+        "4. Transfer the mixed powders to a ball mill and mill for 2 hours to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure out 46.00 g of Fe2O3, 14.00 g of Sc2O3, 16.00 g of W, and 24.00 g of Y2O3 using an analytical balance. \n 2. In a clean, dry mixing container, combine all powdered ingredients. \n 3. Use a mortar and pestle to mix the powders thoroughly until a uniform color and consistency is achieved. \n 4. Transfer the mixed powders to a ball mill and mill for 2 hours to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1200°C (2192°F).",
+        "2. Place the mixed powders into a suitable crucible and insert it into the furnace.",
+        "3. Heat the sample at 1200°C for 4 hours to facilitate solid-state reaction and phase formation."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C (2192°F). \n 2. Place the mixed powders into a suitable crucible and insert it into the furnace. \n 3. Heat the sample at 1200°C for 4 hours to facilitate solid-state reaction and phase formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6-8 hours.",
+        "2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6-8 hours. \n 2. Do not open the furnace door until it has reached room temperature to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled solid from the crucible.",
+        "2. Inspect the solid for any irregularities, and if necessary, use a diamond saw to achieve precise dimensions of 3 inches x 2 inches x 7 inches.",
+        "3. Sand the surfaces with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, apply a sealant to enhance surface protection if needed."
+      ],
+      "raw_text": "1. Remove the cooled solid from the crucible. \n 2. Inspect the solid for any irregularities, and if necessary, use a diamond saw to achieve precise dimensions of 3 inches x 2 inches x 7 inches. \n 3. Sand the surfaces with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, apply a sealant to enhance surface protection if needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 5,
+      "volume": 96993.0,
+      "density": 6973.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -337018.0,
+      "formation_energy_per_atom": -5372.0,
+      "decomposition_energy_per_atom": -233.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -233.0,
+      "decomposition_energy_mp_oqmd": -103.0
+    },
+    "electronic": {
+      "bandgap": 0.0047,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d894c5f1d5",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:23.596378Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ga1Ni1Ru1Y2.json",
+      "material://Ga1Ni1Ru1Y2"
+    ]
+  }
+}

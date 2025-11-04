@@ -1,0 +1,111 @@
+{
+  "id": "Co16Cr1Fe1P12Tm6",
+  "uri": "material://Co16Cr1Fe1P12Tm6",
+  "composition": {
+    "formula": "Co16Cr1Fe1P12Tm6",
+    "elements": {
+      "Co": 16,
+      "Cr": 1,
+      "Fe": 1,
+      "P": 12,
+      "Tm": 6
+    },
+    "reduced_formula": "Tm6CrFe(Co4P3)4",
+    "element_list": [
+      "P",
+      "Cr",
+      "Fe",
+      "Co",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La2O3: 6.96 g (Lanthanum oxide) \n - Li2O: 1.24 g (Lithium oxide) \n - MgO: 1.01 g (Magnesium oxide) \n - Sb: 18.48 g (Antimony)"
+    },
+    "sourcing": {
+      "instructions": "- La2O3: Purchase from specialized chemical suppliers or online platforms like Sigma-Aldrich. \n - Li2O: Available from chemical suppliers or online. \n - MgO: Obtainable from chemical or industrial supply stores. \n - Sb: Source from metal suppliers or online chemical distributors.",
+      "steps": [
+        "- La2O3: Purchase from specialized chemical suppliers or online platforms like Sigma-Aldrich.",
+        "- Li2O: Available from chemical suppliers or online.",
+        "- MgO: Obtainable from chemical or industrial supply stores.",
+        "- Sb: Source from metal suppliers or online chemical distributors."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. Combine La2O3, Li2O, MgO, and Sb in a clean, dry container.",
+        "3. Stir the mixture thoroughly until a homogenous powder is achieved."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. Combine La2O3, Li2O, MgO, and Sb in a clean, dry container. \n 3. Stir the mixture thoroughly until a homogenous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Transfer the mixed powder into a suitable crucible (preferably alumina).",
+        "3. Heat the crucible in the furnace for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Transfer the mixed powder into a suitable crucible (preferably alumina). \n 3. Heat the crucible in the furnace for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over 6-8 hours.",
+        "2. Once cooled, remove the crucible carefully."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C) over 6-8 hours. \n 2. Once cooled, remove the crucible carefully."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the solidified sample to break any agglomerates.",
+        "2. Sieve the material through a 100 mesh screen to ensure uniform particle size.",
+        "3. Optionally, apply a sealing coat of epoxy for enhanced durability and protection."
+      ],
+      "raw_text": "1. Crush the solidified sample to break any agglomerates. \n 2. Sieve the material through a 100 mesh screen to ensure uniform particle size. \n 3. Optionally, apply a sealing coat of epoxy for enhanced durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 4668674.0,
+      "density": 86645.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmm2",
+      "space_group_number": 25,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2583072.0,
+      "formation_energy_per_atom": -9621.0,
+      "decomposition_energy_per_atom": -26.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -26.0,
+      "decomposition_energy_mp_oqmd": -248.0
+    },
+    "electronic": {
+      "bandgap": Infinity,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "caa6e0e8f4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.023297Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co16Cr1Fe1P12Tm6.json",
+      "material://Co16Cr1Fe1P12Tm6"
+    ]
+  }
+}

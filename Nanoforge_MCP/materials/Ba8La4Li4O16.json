@@ -1,0 +1,110 @@
+{
+  "id": "Ba8La4Li4O16",
+  "uri": "material://Ba8La4Li4O16",
+  "composition": {
+    "formula": "Ba8La4Li4O16",
+    "elements": {
+      "Ba": 8,
+      "La": 4,
+      "Li": 4,
+      "O": 16
+    },
+    "reduced_formula": "Ba2LiLaO4",
+    "element_list": [
+      "Li",
+      "O",
+      "Ba",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Barium Oxide (BaO): 32.0 g \n Lanthanum Oxide (La2O3): 11.6 g \n Lithium Oxide (Li2O): 8.8 g \n Oxygen (O2): 16.0 g (from stoichiometry, calculated)"
+    },
+    "sourcing": {
+      "instructions": "Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific) \n Lanthanum Oxide: Specialty chemical retailers \n Lithium Oxide: Online chemical suppliers \n Oxygen: Typically available as part of other reagents or through air exposure in laboratory conditions",
+      "steps": [
+        "Barium Oxide: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich, Fisher Scientific)",
+        "Lanthanum Oxide: Specialty chemical retailers",
+        "Lithium Oxide: Online chemical suppliers",
+        "Oxygen: Typically available as part of other reagents or through air exposure in laboratory conditions"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of BaO, La2O3, and Li2O using an analytical balance.",
+        "2. Combine the dry powders in a clean, dry ceramic or glass container.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform mixture is achieved."
+      ],
+      "raw_text": "1. Weigh the required amounts of BaO, La2O3, and Li2O using an analytical balance. \n 2. Combine the dry powders in a clean, dry ceramic or glass container. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform mixture is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a high-temperature crucible.",
+        "2. Heat the crucible in a furnace at 900°C for 4 hours.",
+        "3. Increase the temperature gradually to 1200°C and hold for an additional 2 hours to ensure full reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a high-temperature crucible. \n 2. Heat the crucible in a furnace at 900°C for 4 hours. \n 3. Increase the temperature gradually to 1200°C and hold for an additional 2 hours to ensure full reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 6-8 hours) to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the crucible to cool down gradually to room temperature (approximately 6-8 hours) to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the material from the crucible.",
+        "2. Grind the solid sample to obtain a fine powder if necessary.",
+        "3. If creating a solid piece, press the fine powder into a mold of the desired dimensions (3 x 2 x 7 inches).",
+        "4. Sinter the molded piece again at 1200°C for 2 hours.",
+        "5. Allow to cool, then sand or polish the surface as needed for finishing."
+      ],
+      "raw_text": "1. Once cooled, remove the material from the crucible. \n 2. Grind the solid sample to obtain a fine powder if necessary. \n 3. If creating a solid piece, press the fine powder into a mold of the desired dimensions (3 x 2 x 7 inches). \n 4. Sinter the molded piece again at 1200°C for 2 hours. \n 5. Allow to cool, then sand or polish the surface as needed for finishing."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 5627053.0,
+      "density": 5719.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pnma",
+      "space_group_number": 62,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -219202.0,
+      "formation_energy_per_atom": -30407.0,
+      "decomposition_energy_per_atom": -275.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -185.0,
+      "decomposition_energy_mp": -28.0,
+      "decomposition_energy_mp_oqmd": -228.0
+    },
+    "electronic": {
+      "bandgap": 2.8053,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "566b082817",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:09.212059Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba8La4Li4O16.json",
+      "material://Ba8La4Li4O16"
+    ]
+  }
+}

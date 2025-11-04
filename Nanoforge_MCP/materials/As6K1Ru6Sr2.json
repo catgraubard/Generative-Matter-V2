@@ -1,0 +1,130 @@
+{
+  "id": "As6K1Ru6Sr2",
+  "uri": "material://As6K1Ru6Sr2",
+  "composition": {
+    "formula": "As6K1Ru6Sr2",
+    "elements": {
+      "As": 6,
+      "K": 1,
+      "Ru": 6,
+      "Sr": 2
+    },
+    "reduced_formula": "KSr2(AsRu)6",
+    "element_list": [
+      "K",
+      "As",
+      "Sr",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ge",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 16.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zn",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ge: 10.0 g \n Ni: 30.0 g \n O: 16.0 g (from elemental oxygen, calculated as 16.0 g based on 2 moles of oxygen) \n Zn: 20.0 g"
+    },
+    "sourcing": {
+      "instructions": "Ge: Specialty chemical suppliers or semiconductor materials suppliers \n Ni: Metal suppliers or chemical supply stores \n O: Laboratory-grade oxygen \n Zn: Metal suppliers or chemical supply stores",
+      "steps": [
+        "Ge: Specialty chemical suppliers or semiconductor materials suppliers",
+        "Ni: Metal suppliers or chemical supply stores",
+        "O: Laboratory-grade oxygen",
+        "Zn: Metal suppliers or chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, add Ge and Zn first.",
+        "3. Gradually add Ni while mixing thoroughly.",
+        "4. Slowly introduce O gas while continuously stirring to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh out each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, add Ge and Zn first. \n 3. Gradually add Ni while mixing thoroughly. \n 4. Slowly introduce O gas while continuously stirring to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Heat in a furnace to 800°C for 2 hours, maintaining this temperature throughout the duration."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Heat in a furnace to 800°C for 2 hours, maintaining this temperature throughout the duration."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace during cooling to prevent contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace during cooling to prevent contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible, taking care not to damage it.",
+        "2. Sand the edges to achieve a smooth finish.",
+        "3. If desired, seal with a clear epoxy resin for added durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible, taking care not to damage it. \n 2. Sand the edges to achieve a smooth finish. \n 3. If desired, seal with a clear epoxy resin for added durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 3089519.0,
+      "density": 68275.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -968936.0,
+      "formation_energy_per_atom": -5869.0,
+      "decomposition_energy_per_atom": -16.0,
+      "decomposition_energy_all": 9.0,
+      "decomposition_energy_relative": 9.0,
+      "decomposition_energy_mp": -16.0,
+      "decomposition_energy_mp_oqmd": 9.0
+    },
+    "electronic": {
+      "bandgap": 0.0125,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ce0e419f09",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.796203Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As6K1Ru6Sr2.json",
+      "material://As6K1Ru6Sr2"
+    ]
+  }
+}

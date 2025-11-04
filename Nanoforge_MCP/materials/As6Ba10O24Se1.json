@@ -1,0 +1,131 @@
+{
+  "id": "As6Ba10O24Se1",
+  "uri": "material://As6Ba10O24Se1",
+  "composition": {
+    "formula": "As6Ba10O24Se1",
+    "elements": {
+      "As": 6,
+      "Ba": 10,
+      "O": 24,
+      "Se": 1
+    },
+    "reduced_formula": "Ba10As6SeO24",
+    "element_list": [
+      "O",
+      "As",
+      "Se",
+      "Ba"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Bi",
+          "amount": 500.0,
+          "unit": "g"
+        },
+        {
+          "element": "Er",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "element": "Y",
+          "amount": 200.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Bi: 500 g \n Er: 300 g \n Tb: 100 g \n Y: 200 g"
+    },
+    "sourcing": {
+      "instructions": "Bi: Available from chemical suppliers or online platforms like Sigma-Aldrich. \n Er: Obtain from rare earth metal suppliers. \n Tb: Available from metal suppliers or online. \n Y: Obtain from chemical suppliers or online platforms.",
+      "steps": [
+        "Bi: Available from chemical suppliers or online platforms like Sigma-Aldrich.",
+        "Er: Obtain from rare earth metal suppliers.",
+        "Tb: Available from metal suppliers or online.",
+        "Y: Obtain from chemical suppliers or online platforms."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean, dry container, combine Bi, Er, Tb, and Y in the specified amounts.",
+        "3. Mix the powders using a mechanical mixer for 20 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a clean, dry container, combine Bi, Er, Tb, and Y in the specified amounts. \n 3. Mix the powders using a mechanical mixer for 20 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible.",
+        "2. Heat in a muffle furnace at 1200°C for 4 hours.",
+        "3. Ensure the furnace is calibrated for accurate temperature readings."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible. \n 2. Heat in a muffle furnace at 1200°C for 4 hours. \n 3. Ensure the furnace is calibrated for accurate temperature readings."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours).",
+        "2. Do NOT open the furnace until it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). \n 2. Do NOT open the furnace until it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond saw to cut the sample to the desired dimensions (3 in x 2 in x 7 in).",
+        "3. Sand the edges with fine-grit sandpaper to achieve a smooth finish.",
+        "4. Optionally, seal the surface with a protective coating if required."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond saw to cut the sample to the desired dimensions (3 in x 2 in x 7 in). \n 3. Sand the edges with fine-grit sandpaper to achieve a smooth finish. \n 4. Optionally, seal the surface with a protective coating if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 41,
+      "volume": 7912278.0,
+      "density": 47971.0,
+      "crystal_system": "trigonal",
+      "space_group": "P-3",
+      "space_group_number": 147,
+      "point_group": "-3",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -2790133.0,
+      "formation_energy_per_atom": -26737.0,
+      "decomposition_energy_per_atom": -11.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -16.0,
+      "decomposition_energy_mp": -16.0,
+      "decomposition_energy_mp_oqmd": -16.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b9ae925010",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:15.230018Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As6Ba10O24Se1.json",
+      "material://As6Ba10O24Se1"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "Al11Mn2Ru1Tc1",
+  "uri": "material://Al11Mn2Ru1Tc1",
+  "composition": {
+    "formula": "Al11Mn2Ru1Tc1",
+    "elements": {
+      "Al": 11,
+      "Mn": 2,
+      "Ru": 1,
+      "Tc": 1
+    },
+    "reduced_formula": "Mn2Al11TcRu",
+    "element_list": [
+      "Al",
+      "Mn",
+      "Tc",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 20.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 20 g, Ni: 80 g, Sb: 10 g, Sn: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Nd - Rare earth metal suppliers; Ni - Metal supply stores or online; Sb - Specialty chemical suppliers; Sn - Metal supply stores or online.",
+      "steps": [
+        "Nd - Rare earth metal suppliers; Ni - Metal supply stores or online; Sb - Specialty chemical suppliers; Sn - Metal supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient using a precision scale.",
+        "2. Combine the weighed Nd, Ni, Sb, and Sn in a clean, dry ceramic bowl.",
+        "3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient using a precision scale. \n 2. Combine the weighed Nd, Ni, Sb, and Sn in a clean, dry ceramic bowl. \n 3. Use a mortar and pestle to thoroughly mix the powders until a uniform blend is achieved. \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace or high-temperature oven to 1000°C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Heat the mixture for 4 hours to ensure complete melting and alloying of the components."
+      ],
+      "raw_text": "1. Preheat a furnace or high-temperature oven to 1000°C. \n 2. Place the crucible with the mixture inside the furnace. \n 3. Heat the mixture for 4 hours to ensure complete melting and alloying of the components."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Do not open the furnace door until it has cooled down to avoid thermal shock."
+      ],
+      "raw_text": "1. After 4 hours, turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Do not open the furnace door until it has cooled down to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a hammer and chisel to break away the crucible material and extract the solid sample.",
+        "3. Use sandpaper to smooth the surfaces of the sample.",
+        "4. Optionally, seal the sample with a clear resin for protection and enhanced appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a hammer and chisel to break away the crucible material and extract the solid sample. \n 3. Use sandpaper to smooth the surfaces of the sample. \n 4. Optionally, seal the sample with a clear resin for protection and enhanced appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 15,
+      "volume": 2183043.0,
+      "density": 46076.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -852834.0,
+      "formation_energy_per_atom": -4082.0,
+      "decomposition_energy_per_atom": -113.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -113.0,
+      "decomposition_energy_mp_oqmd": -111.0
+    },
+    "electronic": {
+      "bandgap": 0.2498,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aec8cb4ab8",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:09.267418Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al11Mn2Ru1Tc1.json",
+      "material://Al11Mn2Ru1Tc1"
+    ]
+  }
+}

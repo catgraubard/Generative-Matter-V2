@@ -1,0 +1,111 @@
+{
+  "id": "Al1Mo12Si15Zr8",
+  "uri": "material://Al1Mo12Si15Zr8",
+  "composition": {
+    "formula": "Al1Mo12Si15Zr8",
+    "elements": {
+      "Al": 1,
+      "Mo": 12,
+      "Si": 15,
+      "Zr": 8
+    },
+    "reduced_formula": "Zr8Al(Si5Mo4)3",
+    "element_list": [
+      "Al",
+      "Si",
+      "Zr",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- La (Lanthanum): 40 g \n - Nd (Neodymium): 10 g \n - Pr (Praseodymium): 50 g \n - Ru (Ruthenium): 40 g"
+    },
+    "sourcing": {
+      "instructions": "- La: Available from chemical supply companies like Sigma-Aldrich or online marketplaces. \n - Nd: Obtain from rare earth material suppliers or specialty metal vendors. \n - Pr: Purchase from similar suppliers as Nd. \n - Ru: Available through precious metal suppliers or chemical distribution companies.",
+      "steps": [
+        "- La: Available from chemical supply companies like Sigma-Aldrich or online marketplaces.",
+        "- Nd: Obtain from rare earth material suppliers or specialty metal vendors.",
+        "- Pr: Purchase from similar suppliers as Nd.",
+        "- Ru: Available through precious metal suppliers or chemical distribution companies."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using a precision scale.",
+        "2. In a clean, dry environment, combine La, Nd, Pr, and Ru in a mixing bowl.",
+        "3. Use a mortar and pestle to thoroughly grind the mixture to ensure homogeneity.",
+        "4. Transfer the powder to a ceramic crucible for heating."
+      ],
+      "raw_text": "1. Measure each ingredient using a precision scale. \n 2. In a clean, dry environment, combine La, Nd, Pr, and Ru in a mixing bowl. \n 3. Use a mortar and pestle to thoroughly grind the mixture to ensure homogeneity. \n 4. Transfer the powder to a ceramic crucible for heating."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1200°C.",
+        "2. Place the ceramic crucible with the prepared mixture inside the furnace.",
+        "3. Maintain the temperature for 2 hours to facilitate proper alloying."
+      ],
+      "raw_text": "1. Preheat a furnace to 1200°C. \n 2. Place the ceramic crucible with the prepared mixture inside the furnace. \n 3. Maintain the temperature for 2 hours to facilitate proper alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool slowly to room temperature over a period of 6-8 hours.",
+        "2. Do not open the furnace until it has cooled down completely to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool slowly to room temperature over a period of 6-8 hours. \n 2. Do not open the furnace until it has cooled down completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified sample from the crucible.",
+        "2. Use a diamond file to smooth any rough edges.",
+        "3. Clean the surface with isopropyl alcohol to remove any residues.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation, allowing it to cure according to manufacturer's instructions."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified sample from the crucible. \n 2. Use a diamond file to smooth any rough edges. \n 3. Clean the surface with isopropyl alcohol to remove any residues. \n 4. Optionally, apply a sealant to protect the surface from oxidation, allowing it to cure according to manufacturer's instructions."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 36,
+      "volume": 5728639.0,
+      "density": 6752.0,
+      "crystal_system": "triclinic",
+      "space_group": "P1",
+      "space_group_number": 1,
+      "point_group": "1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -3084576.0,
+      "formation_energy_per_atom": -689.0,
+      "decomposition_energy_per_atom": -458.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -84.0,
+      "decomposition_energy_mp": -63.0,
+      "decomposition_energy_mp_oqmd": -63.0
+    },
+    "electronic": {
+      "bandgap": 0.0025,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d16ce160d4",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.719887Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al1Mo12Si15Zr8.json",
+      "material://Al1Mo12Si15Zr8"
+    ]
+  }
+}

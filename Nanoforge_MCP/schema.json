@@ -1,0 +1,250 @@
+{
+  "version": "1.0",
+  "description": "MCP-compliant material synthesis recipe and properties database",
+  "mcp_compliance": "2024-11-05",
+  "record_structure": {
+    "id": {
+      "type": "string",
+      "description": "Unique material identifier (same as composition formula)"
+    },
+    "uri": {
+      "type": "string",
+      "format": "uri",
+      "description": "MCP resource URI for this material (material://{composition})"
+    },
+    "composition": {
+      "type": "object",
+      "properties": {
+        "formula": {
+          "type": "string",
+          "description": "Chemical formula (e.g., Ag3Er2Ga8La1)"
+        },
+        "elements": {
+          "type": "object",
+          "description": "Element symbols mapped to stoichiometric counts"
+        },
+        "reduced_formula": {
+          "type": "string",
+          "description": "Reduced chemical formula"
+        },
+        "element_list": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of element symbols"
+        }
+      }
+    },
+    "recipe": {
+      "type": "object",
+      "description": "Synthesis instructions and processing parameters",
+      "properties": {
+        "materials": {
+          "list": {
+            "type": "array",
+            "description": "Structured material quantities"
+          },
+          "raw_text": {
+            "type": "string",
+            "description": "Original material description"
+          }
+        },
+        "sourcing": {
+          "instructions": {
+            "type": "string",
+            "description": "Where to obtain materials"
+          },
+          "steps": {
+            "type": "array",
+            "description": "Step-by-step sourcing instructions"
+          }
+        },
+        "preparation": {
+          "steps": {
+            "type": "array",
+            "description": "Preparation procedure steps"
+          },
+          "raw_text": {
+            "type": "string",
+            "description": "Original preparation text"
+          }
+        },
+        "heating": {
+          "temperature_celsius": {
+            "type": "number",
+            "description": "Heating temperature in °C"
+          },
+          "duration_hours": {
+            "type": "number",
+            "description": "Heating duration in hours"
+          },
+          "heating_rate_celsius_per_min": {
+            "type": "number",
+            "description": "Heating rate in °C/min"
+          },
+          "steps": {
+            "type": "array",
+            "description": "Heating procedure steps"
+          },
+          "raw_text": {
+            "type": "string"
+          }
+        },
+        "cooling": {
+          "cooling_time_hours": {
+            "type": "number",
+            "description": "Cooling duration in hours"
+          },
+          "method": {
+            "type": "string",
+            "enum": [
+              "natural",
+              "rapid",
+              "furnace_cool",
+              "unspecified"
+            ]
+          },
+          "steps": {
+            "type": "array",
+            "description": "Cooling procedure steps"
+          },
+          "raw_text": {
+            "type": "string"
+          }
+        },
+        "post_processing": {
+          "steps": {
+            "type": "array",
+            "description": "Post-processing steps"
+          },
+          "raw_text": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "properties": {
+      "type": "object",
+      "description": "Measured and calculated material properties",
+      "properties": {
+        "structure": {
+          "nsites": {
+            "type": "integer",
+            "description": "Number of atomic sites in unit cell"
+          },
+          "volume": {
+            "type": "number",
+            "description": "Unit cell volume"
+          },
+          "density": {
+            "type": "number",
+            "description": "Material density"
+          },
+          "crystal_system": {
+            "type": "string",
+            "description": "Crystal system (cubic, monoclinic, etc.)"
+          },
+          "space_group": {
+            "type": "string",
+            "description": "Space group symbol"
+          },
+          "space_group_number": {
+            "type": "integer",
+            "description": "International space group number"
+          },
+          "point_group": {
+            "type": "string",
+            "description": "Point group symmetry"
+          },
+          "dimensionality": {
+            "type": "string",
+            "description": "Material dimensionality classification"
+          }
+        },
+        "energetics": {
+          "corrected_energy": {
+            "type": "number",
+            "description": "DFT corrected total energy"
+          },
+          "formation_energy_per_atom": {
+            "type": "number",
+            "description": "Formation energy per atom (eV/atom)"
+          },
+          "decomposition_energy_per_atom": {
+            "type": "number",
+            "description": "Energy above hull (eV/atom)"
+          },
+          "decomposition_energy_all": {
+            "type": "number"
+          },
+          "decomposition_energy_relative": {
+            "type": "number"
+          },
+          "decomposition_energy_mp": {
+            "type": "number"
+          },
+          "decomposition_energy_mp_oqmd": {
+            "type": "number"
+          }
+        },
+        "electronic": {
+          "bandgap": {
+            "type": "number",
+            "description": "Electronic bandgap (eV)"
+          },
+          "bandgap_type": {
+            "type": "string",
+            "enum": [
+              "metal",
+              "semiconductor"
+            ]
+          }
+        },
+        "metadata": {
+          "material_id": {
+            "type": "string",
+            "description": "Original database material ID"
+          },
+          "is_train": {
+            "type": "boolean",
+            "description": "Whether used in training dataset"
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Record metadata and provenance",
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "data_version": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "mcp_version": {
+          "type": "string"
+        },
+        "access_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "usage_examples": {
+    "load_single_material": "Load materials/Ag3Er2Ga8La1.json",
+    "stream_all_materials": "Read materials_database.jsonl line by line",
+    "load_complete_database": "Load materials_database.json as JSON array",
+    "search_by_element": "Use materials_index.json -> by_element -> 'Cu'",
+    "search_by_crystal_system": "Use materials_index.json -> by_crystal_system -> 'cubic'",
+    "find_property_ranges": "Use materials_index.json -> property_ranges"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "Ba10Gd4O30W5Y1",
+  "uri": "material://Ba10Gd4O30W5Y1",
+  "composition": {
+    "formula": "Ba10Gd4O30W5Y1",
+    "elements": {
+      "Ba": 10,
+      "Gd": 4,
+      "O": 30,
+      "W": 5,
+      "Y": 1
+    },
+    "reduced_formula": "Ba10Gd4Y(WO6)5",
+    "element_list": [
+      "O",
+      "Y",
+      "Ba",
+      "Gd",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 75.0,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 120.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 25.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tm",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cd: 75.0 g \n In: 120.0 g \n Sn: 25.0 g \n Tm: 50.0 g"
+    },
+    "sourcing": {
+      "instructions": "Cd (Cadmium): Chemical supply stores or online chemical suppliers. \n In (Indium): Electronics supply stores or online chemical suppliers. \n Sn (Tin): Hardware stores or online chemical suppliers. \n Tm (Thulium): Specialized chemical suppliers or online.",
+      "steps": [
+        "Cd (Cadmium): Chemical supply stores or online chemical suppliers.",
+        "In (Indium): Electronics supply stores or online chemical suppliers.",
+        "Sn (Tin): Hardware stores or online chemical suppliers.",
+        "Tm (Thulium): Specialized chemical suppliers or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out each ingredient using a precision balance.",
+        "2. In a clean, dry container, combine Cd, In, Sn, and Tm.",
+        "3. Mix thoroughly using a spatula or mechanical mixer until a uniform blend is achieved."
+      ],
+      "raw_text": "1. Weigh out each ingredient using a precision balance. \n 2. In a clean, dry container, combine Cd, In, Sn, and Tm. \n 3. Mix thoroughly using a spatula or mechanical mixer until a uniform blend is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed composition into a crucible.",
+        "2. Place the crucible in a furnace or oven.",
+        "3. Heat to 800°C at a rate of 10°C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete melting and uniformity."
+      ],
+      "raw_text": "1. Transfer the mixed composition into a crucible. \n 2. Place the crucible in a furnace or oven. \n 3. Heat to 800°C at a rate of 10°C/min. \n 4. Maintain the temperature for 2 hours to ensure complete melting and uniformity."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to 500°C naturally.",
+        "2. Once at 500°C, remove the crucible using heat-resistant gloves.",
+        "3. Allow the crucible to cool to room temperature on a heat-resistant surface (approximately 2-3 hours)."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to 500°C naturally. \n 2. Once at 500°C, remove the crucible using heat-resistant gloves. \n 3. Allow the crucible to cool to room temperature on a heat-resistant surface (approximately 2-3 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solidified material from the crucible.",
+        "2. Use a diamond saw or grinder to achieve the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges and surface to remove any roughness.",
+        "4. Optionally, apply a protective sealant if required for stability."
+      ],
+      "raw_text": "1. Once cooled, remove the solidified material from the crucible. \n 2. Use a diamond saw or grinder to achieve the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges and surface to remove any roughness. \n 4. Optionally, apply a protective sealant if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 50,
+      "volume": 7880555.0,
+      "density": 73547.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -4512614.0,
+      "formation_energy_per_atom": -31214.0,
+      "decomposition_energy_per_atom": -314.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -108.0,
+      "decomposition_energy_mp": -319.0,
+      "decomposition_energy_mp_oqmd": -251.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c6f8cbef8a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:19.110372Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ba10Gd4O30W5Y1.json",
+      "material://Ba10Gd4O30W5Y1"
+    ]
+  }
+}

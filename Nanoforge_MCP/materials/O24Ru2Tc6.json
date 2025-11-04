@@ -1,0 +1,110 @@
+{
+  "id": "O24Ru2Tc6",
+  "uri": "material://O24Ru2Tc6",
+  "composition": {
+    "formula": "O24Ru2Tc6",
+    "elements": {
+      "O": 24,
+      "Ru": 2,
+      "Tc": 6
+    },
+    "reduced_formula": "Tc3RuO12",
+    "element_list": [
+      "O",
+      "Tc",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 150.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 150 g, Mn: 40 g, Ni: 10 g, P: 120 g, Tm: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Metal supplier or online store, Mn: Metal supplier or online store, Ni: Metal supplier, P: Chemical supplier, Tm: Rare earth metal supplier or online store",
+      "steps": [
+        "Co: Metal supplier or online store, Mn: Metal supplier or online store, Ni: Metal supplier, P: Chemical supplier, Tm: Rare earth metal supplier or online store"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component using a precision scale.",
+        "2. Combine Co, Mn, Ni, P, and Tm in a clean, dry mixing container.",
+        "3. Use a mechanical mixer or mortar and pestle to ensure uniform mixing for 15 minutes."
+      ],
+      "raw_text": "1. Weigh each component using a precision scale. \n 2. Combine Co, Mn, Ni, P, and Tm in a clean, dry mixing container. \n 3. Use a mechanical mixer or mortar and pestle to ensure uniform mixing for 15 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 1,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Heat the crucible in a furnace to 1200°C (2192°F) over 1 hour.",
+        "3. Maintain the temperature for an additional 2 hours to ensure complete melting and alloying."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Heat the crucible in a furnace to 1200°C (2192°F) over 1 hour. \n 3. Maintain the temperature for an additional 2 hours to ensure complete melting and alloying."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approx. 4-6 hours).",
+        "2. Avoid forced cooling to prevent cracking."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool down to room temperature naturally (approx. 4-6 hours). \n 2. Avoid forced cooling to prevent cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Use a grinder to achieve desired surface finish and dimensions if necessary.",
+        "3. Optionally polish the surface with fine grit sandpaper for a smoother finish."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Use a grinder to achieve desired surface finish and dimensions if necessary. \n 3. Optionally polish the surface with fine grit sandpaper for a smoother finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 5998669.0,
+      "density": 32502.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3c",
+      "space_group_number": 167,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2554543.0,
+      "formation_energy_per_atom": -17497.0,
+      "decomposition_energy_per_atom": -85.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -36.0,
+      "decomposition_energy_mp": -92.0,
+      "decomposition_energy_mp_oqmd": -92.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "c14672d73a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:17.512898Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/O24Ru2Tc6.json",
+      "material://O24Ru2Tc6"
+    ]
+  }
+}

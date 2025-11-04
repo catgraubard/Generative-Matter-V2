@@ -1,0 +1,110 @@
+{
+  "id": "Al2Co4O12Sr2",
+  "uri": "material://Al2Co4O12Sr2",
+  "composition": {
+    "formula": "Al2Co4O12Sr2",
+    "elements": {
+      "Al": 2,
+      "Co": 4,
+      "O": 12,
+      "Sr": 2
+    },
+    "reduced_formula": "SrAl(CoO3)2",
+    "element_list": [
+      "O",
+      "Al",
+      "Co",
+      "Sr"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "1. Aluminum oxide (Al2O3) - 50 g  \n 2. Cobalt oxide (CoO) - 30 g  \n 3. Strontium oxide (SrO) - 20 g  \n 4. Oxygen (O2) - 50 g (considered during synthesis)"
+    },
+    "sourcing": {
+      "instructions": "1. Aluminum oxide - Available from chemical suppliers or online (e.g., Sigma-Aldrich, Fisher Scientific).  \n 2. Cobalt oxide - Obtain from specialty chemical suppliers or online.  \n 3. Strontium oxide - Available from chemical suppliers or online.  \n 4. Oxygen - Generally sourced from gas suppliers or generated during high-temperature processes.",
+      "steps": [
+        "1. Aluminum oxide - Available from chemical suppliers or online (e.g., Sigma-Aldrich, Fisher Scientific).",
+        "2. Cobalt oxide - Obtain from specialty chemical suppliers or online.",
+        "3. Strontium oxide - Available from chemical suppliers or online.",
+        "4. Oxygen - Generally sourced from gas suppliers or generated during high-temperature processes."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a clean ceramic or glass mortar, mix aluminum oxide, cobalt oxide, and strontium oxide uniformly using a pestle.",
+        "3. Ensure there are no clumps and the mixture appears homogeneous.",
+        "4. Transfer the mixture to a crucible suitable for high-temperature applications."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale.  \n 2. In a clean ceramic or glass mortar, mix aluminum oxide, cobalt oxide, and strontium oxide uniformly using a pestle.  \n 3. Ensure there are no clumps and the mixture appears homogeneous.  \n 4. Transfer the mixture to a crucible suitable for high-temperature applications."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a muffle furnace to 1000 °C.",
+        "2. Place the crucible with the mixture inside the furnace.",
+        "3. Heat for 4 hours to facilitate complete reaction and formation of Al2Co4O12Sr2."
+      ],
+      "raw_text": "1. Preheat a muffle furnace to 1000 °C.  \n 2. Place the crucible with the mixture inside the furnace.  \n 3. Heat for 4 hours to facilitate complete reaction and formation of Al2Co4O12Sr2."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock to the material."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool to room temperature naturally.  \n 2. Do not open the furnace door until it has cooled to prevent thermal shock to the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any irregularities or surface imperfections.",
+        "3. If necessary, sand the surfaces to achieve desired smoothness.",
+        "4. Optionally, seal the material with a suitable resin or coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible.  \n 2. Inspect for any irregularities or surface imperfections.  \n 3. If necessary, sand the surfaces to achieve desired smoothness.  \n 4. Optionally, seal the material with a suitable resin or coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 245205.0,
+      "density": 44488.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2",
+      "space_group_number": 5,
+      "point_group": "2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1437652.0,
+      "formation_energy_per_atom": -22543.0,
+      "decomposition_energy_per_atom": -392.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -56.0,
+      "decomposition_energy_mp": -348.0,
+      "decomposition_energy_mp_oqmd": -334.0
+    },
+    "electronic": {
+      "bandgap": 1.4274,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "9f940f8dd2",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:45.409224Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Al2Co4O12Sr2.json",
+      "material://Al2Co4O12Sr2"
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "id": "Co1Cu1In2La12Tc2",
+  "uri": "material://Co1Cu1In2La12Tc2",
+  "composition": {
+    "formula": "Co1Cu1In2La12Tc2",
+    "elements": {
+      "Co": 1,
+      "Cu": 1,
+      "In": 2,
+      "La": 12,
+      "Tc": 2
+    },
+    "reduced_formula": "La12In2CoCuTc2",
+    "element_list": [
+      "Co",
+      "Cu",
+      "Tc",
+      "In",
+      "La"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 1.37,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 1.27,
+          "unit": "g"
+        },
+        {
+          "element": "In",
+          "amount": 2.54,
+          "unit": "g"
+        },
+        {
+          "element": "La",
+          "amount": 15.07,
+          "unit": "g"
+        },
+        {
+          "element": "Tc",
+          "amount": 3.03,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 1.37 g \n Cu: 1.27 g \n In: 2.54 g \n La: 15.07 g \n Tc: 3.03 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchase from chemical suppliers like Sigma-Aldrich or Fisher Scientific. \n Cu: Available at local hardware stores or online suppliers. \n In: Obtain from specialized metal suppliers or online marketplaces. \n La: Sourced from chemical suppliers or online retailers. \n Tc: Acquire from nuclear material suppliers with proper licensing.",
+      "steps": [
+        "Co: Purchase from chemical suppliers like Sigma-Aldrich or Fisher Scientific.",
+        "Cu: Available at local hardware stores or online suppliers.",
+        "In: Obtain from specialized metal suppliers or online marketplaces.",
+        "La: Sourced from chemical suppliers or online retailers.",
+        "Tc: Acquire from nuclear material suppliers with proper licensing."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure each ingredient using an analytical balance for accuracy.",
+        "2. In a clean, dry container, add Co and Cu, followed by In, La, and Tc.",
+        "3. Mix thoroughly using a glass stirring rod to ensure homogeneity."
+      ],
+      "raw_text": "1. Measure each ingredient using an analytical balance for accuracy. \n 2. In a clean, dry container, add Co and Cu, followed by In, La, and Tc. \n 3. Mix thoroughly using a glass stirring rod to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the mixture in a crucible.",
+        "2. Heat in a muffle furnace at 800°C for 2 hours to achieve thorough reaction and alloy formation."
+      ],
+      "raw_text": "1. Place the mixture in a crucible. \n 2. Heat in a muffle furnace at 800°C for 2 hours to achieve thorough reaction and alloy formation."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. Allow the muffle furnace to cool down naturally to room temperature (approximately 4 hours).",
+        "2. Once cooled, safely remove the crucible."
+      ],
+      "raw_text": "1. Allow the muffle furnace to cool down naturally to room temperature (approximately 4 hours). \n 2. Once cooled, safely remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully grind the solid sample using a mortar and pestle to achieve a fine powder if necessary.",
+        "2. If a solid form is desired, press the material into molds.",
+        "3. Cure the molded material at 300°C for 1 hour.",
+        "4. Seal the final product with a protective coating as needed.",
+        "5. Sand the edges for a smooth finish if applicable."
+      ],
+      "raw_text": "1. Carefully grind the solid sample using a mortar and pestle to achieve a fine powder if necessary. \n 2. If a solid form is desired, press the material into molds. \n 3. Cure the molded material at 300°C for 1 hour. \n 4. Seal the final product with a protective coating as needed. \n 5. Sand the edges for a smooth finish if applicable."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 5383621.0,
+      "density": 68319.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Imm2",
+      "space_group_number": 44,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1003225.0,
+      "formation_energy_per_atom": -2032.0,
+      "decomposition_energy_per_atom": -311.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -69.0,
+      "decomposition_energy_mp": -31.0,
+      "decomposition_energy_mp_oqmd": -302.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "019a3820ab",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:11:16.611990Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Co1Cu1In2La12Tc2.json",
+      "material://Co1Cu1In2La12Tc2"
+    ]
+  }
+}

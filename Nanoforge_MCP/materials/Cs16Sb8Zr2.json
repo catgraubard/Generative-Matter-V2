@@ -1,0 +1,112 @@
+{
+  "id": "Cs16Sb8Zr2",
+  "uri": "material://Cs16Sb8Zr2",
+  "composition": {
+    "formula": "Cs16Sb8Zr2",
+    "elements": {
+      "Cs": 16,
+      "Sb": 8,
+      "Zr": 2
+    },
+    "reduced_formula": "Cs8ZrSb4",
+    "element_list": [
+      "Zr",
+      "Sb",
+      "Cs"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cs",
+          "amount": 160.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cs: 160 g, Sb: 80 g, Zr: 20 g"
+    },
+    "sourcing": {
+      "instructions": "Cs (Cesium) from Sigma-Aldrich; Sb (Antimony) from Alfa Aesar; Zr (Zirconium) from American Elements.",
+      "steps": [
+        "Cs (Cesium) from Sigma-Aldrich; Sb (Antimony) from Alfa Aesar; Zr (Zirconium) from American Elements."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh 160 g of Cs, 80 g of Sb, and 20 g of Zr accurately.",
+        "2. In a clean, dry container, combine Cs and Sb thoroughly to ensure uniform mixing.",
+        "3. Gradually add Zr to the Cs-Sb mixture while continuing to mix."
+      ],
+      "raw_text": "1. Weigh 160 g of Cs, 80 g of Sb, and 20 g of Zr accurately. \n 2. In a clean, dry container, combine Cs and Sb thoroughly to ensure uniform mixing. \n 3. Gradually add Zr to the Cs-Sb mixture while continuing to mix."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace and heat gradually to 800 °C at a rate of 10 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Cs16Sb8Zr2."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible. \n 2. Place the crucible in a furnace and heat gradually to 800 °C at a rate of 10 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction and formation of Cs16Sb8Zr2."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Do not open the furnace door until it has cooled completely to avoid contamination."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool to room temperature naturally (approximately 4-6 hours). \n 2. Do not open the furnace door until it has cooled completely to avoid contamination."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the crucible from the furnace once cooled.",
+        "2. Carefully break the crucible to obtain the solid sample.",
+        "3. If necessary, grind the sample to achieve a finer powder or desired texture.",
+        "4. Optionally, seal the sample in a vacuum bag or container to prevent oxidation."
+      ],
+      "raw_text": "1. Remove the crucible from the furnace once cooled. \n 2. Carefully break the crucible to obtain the solid sample. \n 3. If necessary, grind the sample to achieve a finer powder or desired texture. \n 4. Optionally, seal the sample in a vacuum bag or container to prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 26,
+      "volume": 14096429.0,
+      "density": 38673.0,
+      "crystal_system": "cubic",
+      "space_group": "Fd-3m",
+      "space_group_number": 227,
+      "point_group": "m-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -773032.0,
+      "formation_energy_per_atom": -4942.0,
+      "decomposition_energy_per_atom": -482.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -94.0,
+      "decomposition_energy_mp": -482.0,
+      "decomposition_energy_mp_oqmd": -327.0
+    },
+    "electronic": {
+      "bandgap": 0.3547,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "80345f4f04",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:03.684501Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cs16Sb8Zr2.json",
+      "material://Cs16Sb8Zr2"
+    ]
+  }
+}

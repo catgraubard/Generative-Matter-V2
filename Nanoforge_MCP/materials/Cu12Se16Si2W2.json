@@ -1,0 +1,112 @@
+{
+  "id": "Cu12Se16Si2W2",
+  "uri": "material://Cu12Se16Si2W2",
+  "composition": {
+    "formula": "Cu12Se16Si2W2",
+    "elements": {
+      "Cu": 12,
+      "Se": 16,
+      "Si": 2,
+      "W": 2
+    },
+    "reduced_formula": "Cu6SiWSe8",
+    "element_list": [
+      "Si",
+      "Cu",
+      "Se",
+      "W"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Copper (Cu): 425 g \n Selenium (Se): 680 g \n Silicon (Si): 50 g \n Tungsten (W): 50 g \n Flux (if necessary): 20 g (e.g., borax)"
+    },
+    "sourcing": {
+      "instructions": "Copper: Local metal supplier or online (e.g., Amazon, Metal Supermarkets). \n Selenium: Chemical supply stores (e.g., Sigma-Aldrich). \n Silicon: Semiconductor material suppliers. \n Tungsten: Specialty metal suppliers. \n Flux: Hardware stores or online chemical suppliers.",
+      "steps": [
+        "Copper: Local metal supplier or online (e.g., Amazon, Metal Supermarkets).",
+        "Selenium: Chemical supply stores (e.g., Sigma-Aldrich).",
+        "Silicon: Semiconductor material suppliers.",
+        "Tungsten: Specialty metal suppliers.",
+        "Flux: Hardware stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and gather all materials accurately using a digital scale.",
+        "2. In a clean crucible, combine the weighed Cu and Se in a ratio of 12:16.",
+        "3. Add Si and W in a ratio of 2:2 to the mixture.",
+        "4. If using flux, mix it evenly with the metal powders.",
+        "5. Ensure the mixture is homogenous, using a mortar and pestle if necessary."
+      ],
+      "raw_text": "1. Weigh and gather all materials accurately using a digital scale. \n 2. In a clean crucible, combine the weighed Cu and Se in a ratio of 12:16. \n 3. Add Si and W in a ratio of 2:2 to the mixture. \n 4. If using flux, mix it evenly with the metal powders. \n 5. Ensure the mixture is homogenous, using a mortar and pestle if necessary."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Place the crucible in a furnace preheated to 1000°C.",
+        "2. Maintain this temperature for 2 hours to ensure complete melting and reaction of materials."
+      ],
+      "raw_text": "1. Place the crucible in a furnace preheated to 1000°C. \n 2. Maintain this temperature for 2 hours to ensure complete melting and reaction of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After 2 hours, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 1-2 hours).",
+        "2. Ensure no rapid cooling to avoid cracking."
+      ],
+      "raw_text": "1. After 2 hours, turn off the furnace and allow the crucible to cool gradually to room temperature (approximately 1-2 hours). \n 2. Ensure no rapid cooling to avoid cracking."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully extract the solidified sample from the crucible.",
+        "2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches).",
+        "3. Sand the edges to smooth any rough surfaces.",
+        "4. Optionally, apply a sealant to protect the surface from oxidation if required."
+      ],
+      "raw_text": "1. Once cooled, carefully extract the solidified sample from the crucible. \n 2. Use a diamond saw to cut the sample into the desired dimensions (3 inches x 2 inches x 7 inches). \n 3. Sand the edges to smooth any rough surfaces. \n 4. Optionally, apply a sealant to protect the surface from oxidation if required."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 6980391.0,
+      "density": 58276.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6_3mc",
+      "space_group_number": 186,
+      "point_group": "6mm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1592951.0,
+      "formation_energy_per_atom": -5438.0,
+      "decomposition_energy_per_atom": -355.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -187.0,
+      "decomposition_energy_mp": -355.0,
+      "decomposition_energy_mp_oqmd": -351.0
+    },
+    "electronic": {
+      "bandgap": 0.9571,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "4c9f767764",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:56.457955Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cu12Se16Si2W2.json",
+      "material://Cu12Se16Si2W2"
+    ]
+  }
+}

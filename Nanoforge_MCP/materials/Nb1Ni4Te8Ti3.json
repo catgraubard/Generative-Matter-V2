@@ -1,0 +1,125 @@
+{
+  "id": "Nb1Ni4Te8Ti3",
+  "uri": "material://Nb1Ni4Te8Ti3",
+  "composition": {
+    "formula": "Nb1Ni4Te8Ti3",
+    "elements": {
+      "Nb": 1,
+      "Ni": 4,
+      "Te": 8,
+      "Ti": 3
+    },
+    "reduced_formula": "Ti3Nb(NiTe2)4",
+    "element_list": [
+      "Ti",
+      "Ni",
+      "Nb",
+      "Te"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cd",
+          "amount": 15.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ti",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B6: 30 g \n Cd: 15 g \n Ni: 300 g \n Ti: 10 g"
+    },
+    "sourcing": {
+      "instructions": "B6 (Boron): Chemical supply stores or online chemical suppliers. \n Cd (Cadmium): Specialized metal suppliers or chemical vendors. \n Ni (Nickel): Metal suppliers or hardware stores. \n Ti (Titanium): Metal suppliers or industrial material suppliers.",
+      "steps": [
+        "B6 (Boron): Chemical supply stores or online chemical suppliers.",
+        "Cd (Cadmium): Specialized metal suppliers or chemical vendors.",
+        "Ni (Nickel): Metal suppliers or hardware stores.",
+        "Ti (Titanium): Metal suppliers or industrial material suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the B6, Cd, Ni, and Ti accurately using a digital scale.",
+        "2. In a clean, dry container, combine B6, Cd, Ni, and Ti in the specified amounts.",
+        "3. Stir the mixture thoroughly for 10 minutes using a clean spatula to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh the B6, Cd, Ni, and Ti accurately using a digital scale. \n 2. In a clean, dry container, combine B6, Cd, Ni, and Ti in the specified amounts. \n 3. Stir the mixture thoroughly for 10 minutes using a clean spatula to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat the furnace or oven to 800°C.",
+        "2. Once preheated, place the mixture in a crucible suitable for high temperatures.",
+        "3. Heat for 2 hours to facilitate proper bonding of materials."
+      ],
+      "raw_text": "1. Preheat the furnace or oven to 800°C. \n 2. Once preheated, place the mixture in a crucible suitable for high temperatures. \n 3. Heat for 2 hours to facilitate proper bonding of materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down naturally to room temperature (approx. 20-25°C).",
+        "2. Ensure the cooling process takes at least 4 hours to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down naturally to room temperature (approx. 20-25°C). \n 2. Ensure the cooling process takes at least 4 hours to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the cooled sample from the crucible carefully.",
+        "2. Use a diamond file to smooth any rough edges and ensure the dimensions are accurate (3 in x 2 in x 7 in).",
+        "3. Optionally, apply a sealant or coating for enhanced durability and protection against oxidation."
+      ],
+      "raw_text": "1. Remove the cooled sample from the crucible carefully. \n 2. Use a diamond file to smooth any rough edges and ensure the dimensions are accurate (3 in x 2 in x 7 in). \n 3. Optionally, apply a sealant or coating for enhanced durability and protection against oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 3765564.0,
+      "density": 65798.0,
+      "crystal_system": "monoclinic",
+      "space_group": "P2",
+      "space_group_number": 3,
+      "point_group": "2",
+      "dimensionality": "2D"
+    },
+    "energetics": {
+      "corrected_energy": -946246.0,
+      "formation_energy_per_atom": -7856.0,
+      "decomposition_energy_per_atom": -486.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -476.0,
+      "decomposition_energy_mp_oqmd": 3.0
+    },
+    "electronic": {
+      "bandgap": 0.0023,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "cd78dd99a6",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:20.668072Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nb1Ni4Te8Ti3.json",
+      "material://Nb1Ni4Te8Ti3"
+    ]
+  }
+}

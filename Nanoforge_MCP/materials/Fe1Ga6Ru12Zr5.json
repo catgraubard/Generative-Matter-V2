@@ -1,0 +1,114 @@
+{
+  "id": "Fe1Ga6Ru12Zr5",
+  "uri": "material://Fe1Ga6Ru12Zr5",
+  "composition": {
+    "formula": "Fe1Ga6Ru12Zr5",
+    "elements": {
+      "Fe": 1,
+      "Ga": 6,
+      "Ru": 12,
+      "Zr": 5
+    },
+    "reduced_formula": "Zr5Ga6FeRu12",
+    "element_list": [
+      "Fe",
+      "Ga",
+      "Zr",
+      "Ru"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Fe",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Fe: 15 g, Ga: 90 g, Ru: 180 g, Zr: 75 g"
+    },
+    "sourcing": {
+      "instructions": "Fe: Metal suppliers or online markets; Ga: Chemical suppliers; Ru: Precious metal suppliers; Zr: Metal suppliers or online markets.",
+      "steps": [
+        "Fe: Metal suppliers or online markets; Ga: Chemical suppliers; Ru: Precious metal suppliers; Zr: Metal suppliers or online markets."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh all materials accurately using a digital scale.",
+        "2. In a clean, dry container, combine Fe, Ga, Ru, and Zr in the specified amounts.",
+        "3. Use a mechanical stirrer to mix the ingredients thoroughly for 10 minutes to ensure uniform distribution."
+      ],
+      "raw_text": "1. Weigh all materials accurately using a digital scale. \n 2. In a clean, dry container, combine Fe, Ga, Ru, and Zr in the specified amounts. \n 3. Use a mechanical stirrer to mix the ingredients thoroughly for 10 minutes to ensure uniform distribution."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible suitable for high-temperature use.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C at a rate of 10°C/min and hold for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible suitable for high-temperature use. \n 2. Place the crucible in a furnace. \n 3. Heat to 800°C at a rate of 10°C/min and hold for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature over 6 hours.",
+        "2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool gradually to room temperature over 6 hours. \n 2. Do not open the furnace until it reaches ambient temperature to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible carefully.",
+        "2. Sand the edges and surfaces with 400-grit sandpaper to achieve a smooth finish.",
+        "3. Clean the surface with a soft cloth to remove any dust or debris.",
+        "4. Optionally, apply a protective sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible carefully. \n 2. Sand the edges and surfaces with 400-grit sandpaper to achieve a smooth finish. \n 3. Clean the surface with a soft cloth to remove any dust or debris. \n 4. Optionally, apply a protective sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 24,
+      "volume": 3681027.0,
+      "density": 96679.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pmmm",
+      "space_group_number": 47,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1923179.0,
+      "formation_energy_per_atom": -4853.0,
+      "decomposition_energy_per_atom": -102.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -54.0,
+      "decomposition_energy_mp": -102.0,
+      "decomposition_energy_mp_oqmd": -102.0
+    },
+    "electronic": {
+      "bandgap": 0.0012,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "32d29eda23",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:22.156711Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1Ga6Ru12Zr5.json",
+      "material://Fe1Ga6Ru12Zr5"
+    ]
+  }
+}

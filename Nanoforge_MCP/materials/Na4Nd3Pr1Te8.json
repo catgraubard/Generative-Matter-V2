@@ -1,0 +1,130 @@
+{
+  "id": "Na4Nd3Pr1Te8",
+  "uri": "material://Na4Nd3Pr1Te8",
+  "composition": {
+    "formula": "Na4Nd3Pr1Te8",
+    "elements": {
+      "Na": 4,
+      "Nd": 3,
+      "Pr": 1,
+      "Te": 8
+    },
+    "reduced_formula": "Na4PrNd3Te8",
+    "element_list": [
+      "Na",
+      "Te",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cu",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ga",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 80.0,
+          "unit": "g"
+        },
+        {
+          "element": "Tb",
+          "amount": 30.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cu: 10 g \n Ga: 60 g \n Ni: 80 g \n Tb: 30 g"
+    },
+    "sourcing": {
+      "instructions": "Cu: Local metal supplier or online chemical supply store. \n Ga: Specialty chemical supplier. \n Ni: Local metal supplier or online chemical supply store. \n Tb: Rare earth metal supplier or online chemical supply store.",
+      "steps": [
+        "Cu: Local metal supplier or online chemical supply store.",
+        "Ga: Specialty chemical supplier.",
+        "Ni: Local metal supplier or online chemical supply store.",
+        "Tb: Rare earth metal supplier or online chemical supply store."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean, dry container, combine Cu, Ga, Ni, and Tb uniformly.",
+        "3. Use a mortar and pestle to grind the mixture to a fine powder for better homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean, dry container, combine Cu, Ga, Ni, and Tb uniformly. \n 3. Use a mortar and pestle to grind the mixture to a fine powder for better homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the powder mixture to a crucible.",
+        "2. Heat in a furnace to 800°C for 2 hours to aid in alloy formation.",
+        "3. Ensure a controlled atmosphere to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the powder mixture to a crucible. \n 2. Heat in a furnace to 800°C for 2 hours to aid in alloy formation. \n 3. Ensure a controlled atmosphere to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours).",
+        "2. Avoid rapid cooling to prevent cracking or warping of the material."
+      ],
+      "raw_text": "1. Allow the crucible to cool naturally to room temperature (approximately 2-3 hours). \n 2. Avoid rapid cooling to prevent cracking or warping of the material."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the alloy from the crucible and inspect for uniformity.",
+        "2. If necessary, sand the surface with fine-grit sandpaper to achieve desired finish.",
+        "3. Optionally, apply a sealant to enhance surface properties and prevent oxidation."
+      ],
+      "raw_text": "1. Remove the alloy from the crucible and inspect for uniformity. \n 2. If necessary, sand the surface with fine-grit sandpaper to achieve desired finish. \n 3. Optionally, apply a sealant to enhance surface properties and prevent oxidation."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 16,
+      "volume": 5435554.0,
+      "density": 51519.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -74117.0,
+      "formation_energy_per_atom": -15372.0,
+      "decomposition_energy_per_atom": -481.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": -47.0,
+      "decomposition_energy_mp_oqmd": -7.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d06ea53718",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:21.350409Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na4Nd3Pr1Te8.json",
+      "material://Na4Nd3Pr1Te8"
+    ]
+  }
+}

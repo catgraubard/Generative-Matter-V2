@@ -1,0 +1,110 @@
+{
+  "id": "Mn3Mo1O12Pm4",
+  "uri": "material://Mn3Mo1O12Pm4",
+  "composition": {
+    "formula": "Mn3Mo1O12Pm4",
+    "elements": {
+      "Mn": 3,
+      "Mo": 1,
+      "O": 12,
+      "Pm": 4
+    },
+    "reduced_formula": "Pm4Mn3MoO12",
+    "element_list": [
+      "O",
+      "Mn",
+      "Mo",
+      "Pm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "Li2CO3: 0.74 g \n Nd2O3: 5.67 g \n (NH4)2HPO4: 1.61 g \n RuO2: 0.50 g \n Total weight: 8.52 g (for solid sample yield)"
+    },
+    "sourcing": {
+      "instructions": "Li2CO3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich) \n Nd2O3: Specialty chemical suppliers or online (e.g., Alpha Aesar) \n (NH4)2HPO4: Local pharmacies or chemical supply stores \n RuO2: Online suppliers (e.g., Sigma-Aldrich)",
+      "steps": [
+        "Li2CO3: Chemical supply stores or online suppliers (e.g., Sigma-Aldrich)",
+        "Nd2O3: Specialty chemical suppliers or online (e.g., Alpha Aesar)",
+        "(NH4)2HPO4: Local pharmacies or chemical supply stores",
+        "RuO2: Online suppliers (e.g., Sigma-Aldrich)"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each material using an analytical balance for accuracy.",
+        "2. Combine the Li2CO3, Nd2O3, (NH4)2HPO4, and RuO2 in a clean, dry mortar.",
+        "3. Grind the mixture thoroughly for 15 minutes to ensure uniform particle size and homogeneity.",
+        "4. Transfer the ground mixture into a ceramic crucible."
+      ],
+      "raw_text": "1. Weigh each material using an analytical balance for accuracy. \n 2. Combine the Li2CO3, Nd2O3, (NH4)2HPO4, and RuO2 in a clean, dry mortar. \n 3. Grind the mixture thoroughly for 15 minutes to ensure uniform particle size and homogeneity. \n 4. Transfer the ground mixture into a ceramic crucible."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat the furnace to 800°C.",
+        "2. Place the crucible in the center of the furnace.",
+        "3. Heat for 4 hours, maintaining the temperature at 800°C."
+      ],
+      "raw_text": "1. Preheat the furnace to 800°C. \n 2. Place the crucible in the center of the furnace. \n 3. Heat for 4 hours, maintaining the temperature at 800°C."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2 hours).",
+        "2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 2 hours). \n 2. Once cooled, carefully remove the crucible from the furnace using heat-resistant gloves."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once removed, allow the sample to rest for an additional 1 hour at room temperature.",
+        "2. If needed, grind the sample again to achieve desired particle size.",
+        "3. Optionally, seal the sample with a clear epoxy for durability and protection."
+      ],
+      "raw_text": "1. Once removed, allow the sample to rest for an additional 1 hour at room temperature. \n 2. If needed, grind the sample again to achieve desired particle size. \n 3. Optionally, seal the sample with a clear epoxy for durability and protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 2552973.0,
+      "density": 67173.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1760975.0,
+      "formation_energy_per_atom": -29694.0,
+      "decomposition_energy_per_atom": -299.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -105.0,
+      "decomposition_energy_mp": -305.0,
+      "decomposition_energy_mp_oqmd": -135.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae6c299d2d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.763459Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Mn3Mo1O12Pm4.json",
+      "material://Mn3Mo1O12Pm4"
+    ]
+  }
+}

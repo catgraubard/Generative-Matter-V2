@@ -1,0 +1,130 @@
+{
+  "id": "Hg1O14Se4Sr1",
+  "uri": "material://Hg1O14Se4Sr1",
+  "composition": {
+    "formula": "Hg1O14Se4Sr1",
+    "elements": {
+      "Hg": 1,
+      "O": 14,
+      "Se": 4,
+      "Sr": 1
+    },
+    "reduced_formula": "SrHg(Se2O7)2",
+    "element_list": [
+      "O",
+      "Se",
+      "Sr",
+      "Hg"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 12.0,
+          "unit": "g"
+        },
+        {
+          "element": "O",
+          "amount": 18.0,
+          "unit": "g"
+        },
+        {
+          "element": "Se",
+          "amount": 7.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 4.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 12.0 g \n O: 18.0 g \n Se: 7.0 g \n Sr: 4.0 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Specialty chemical suppliers (ensure proper safety protocols) \n O: High-purity oxygen from gas suppliers \n Se: Chemical supply stores \n Sr: Chemical supply stores",
+      "steps": [
+        "Hg: Specialty chemical suppliers (ensure proper safety protocols)",
+        "O: High-purity oxygen from gas suppliers",
+        "Se: Chemical supply stores",
+        "Sr: Chemical supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a fume hood, measure 12.0 g of Hg and place in a glass beaker.",
+        "2. Add 18.0 g of high-purity O incrementally, ensuring no excess.",
+        "3. Slowly incorporate 7.0 g of Se, stirring continuously with a glass rod.",
+        "4. Finally, add 4.0 g of Sr while continuing to stir until the mixture is homogenous."
+      ],
+      "raw_text": "1. In a fume hood, measure 12.0 g of Hg and place in a glass beaker. \n 2. Add 18.0 g of high-purity O incrementally, ensuring no excess. \n 3. Slowly incorporate 7.0 g of Se, stirring continuously with a glass rod. \n 4. Finally, add 4.0 g of Sr while continuing to stir until the mixture is homogenous."
+    },
+    "heating": {
+      "temperature_celsius": 600,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixture to a quartz crucible.",
+        "2. Heat in a controlled furnace to 600°C, maintaining this temperature for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixture to a quartz crucible. \n 2. Heat in a controlled furnace to 600°C, maintaining this temperature for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Avoid any rapid cooling methods to prevent structural defects."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool naturally to room temperature (approximately 1-2 hours). \n 2. Avoid any rapid cooling methods to prevent structural defects."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the solid sample from the crucible.",
+        "2. Inspect for any surface irregularities; if present, gently sand with fine-grit sandpaper.",
+        "3. Optionally, seal the surface with a protective coating to enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the solid sample from the crucible. \n 2. Inspect for any surface irregularities; if present, gently sand with fine-grit sandpaper. \n 3. Optionally, seal the surface with a protective coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 20,
+      "volume": 4046414.0,
+      "density": 33981.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1114742.0,
+      "formation_energy_per_atom": -13113.0,
+      "decomposition_energy_per_atom": -178.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -97.0,
+      "decomposition_energy_mp": -184.0,
+      "decomposition_energy_mp_oqmd": -162.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "28df5fbb30",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:12:09.551932Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Hg1O14Se4Sr1.json",
+      "material://Hg1O14Se4Sr1"
+    ]
+  }
+}

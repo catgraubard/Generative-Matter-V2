@@ -1,0 +1,136 @@
+{
+  "id": "Fe8K40S32",
+  "uri": "material://Fe8K40S32",
+  "composition": {
+    "formula": "Fe8K40S32",
+    "elements": {
+      "Fe": 8,
+      "K": 40,
+      "S": 32
+    },
+    "reduced_formula": "K5FeS4",
+    "element_list": [
+      "S",
+      "K",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "As",
+          "amount": 12.5,
+          "unit": "g"
+        },
+        {
+          "element": "Ba",
+          "amount": 1.56,
+          "unit": "g"
+        },
+        {
+          "element": "Rb",
+          "amount": 39.1,
+          "unit": "g"
+        },
+        {
+          "element": "Sr",
+          "amount": 6.5,
+          "unit": "g"
+        },
+        {
+          "element": "V",
+          "amount": 14.3,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "As: 12.5 g \n Ba: 1.56 g \n Rb: 39.1 g \n Sr: 6.5 g \n V: 14.3 g"
+    },
+    "sourcing": {
+      "instructions": "As: Specialty chemical suppliers \n Ba: Chemical supply stores \n Rb: Online laboratory suppliers \n Sr: Chemical distributors \n V: Metal suppliers or specialty chemical suppliers",
+      "steps": [
+        "As: Specialty chemical suppliers",
+        "Ba: Chemical supply stores",
+        "Rb: Online laboratory suppliers",
+        "Sr: Chemical distributors",
+        "V: Metal suppliers or specialty chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using an analytical balance.",
+        "2. In a clean ceramic or glass mixing container, combine As, Ba, Rb, Sr, and V.",
+        "3. Use a spatula to stir the mixture thoroughly for 5 minutes to ensure uniformity.",
+        "4. Transfer the mixture to a mortar and pestle and grind it for 10 minutes to achieve a fine powder."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using an analytical balance. \n 2. In a clean ceramic or glass mixing container, combine As, Ba, Rb, Sr, and V. \n 3. Use a spatula to stir the mixture thoroughly for 5 minutes to ensure uniformity. \n 4. Transfer the mixture to a mortar and pestle and grind it for 10 minutes to achieve a fine powder."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000°C.",
+        "2. Place the ground mixture in a ceramic crucible.",
+        "3. Heat the crucible in the furnace for 2 hours to promote solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000°C. \n 2. Place the ground mixture in a ceramic crucible. \n 3. Heat the crucible in the furnace for 2 hours to promote solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours).",
+        "2. Avoid rapid cooling to prevent thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow the crucible to cool to room temperature naturally (approximately 4-6 hours). \n 2. Avoid rapid cooling to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solidified sample from the crucible.",
+        "2. Inspect for any rough edges or surface imperfections.",
+        "3. Use sandpaper (400 grit) to smooth out the surface.",
+        "4. Optionally, seal the sample with a protective coating if required for stability."
+      ],
+      "raw_text": "1. Remove the solidified sample from the crucible. \n 2. Inspect for any rough edges or surface imperfections. \n 3. Use sandpaper (400 grit) to smooth out the surface. \n 4. Optionally, seal the sample with a protective coating if required for stability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 80,
+      "volume": 22748064.0,
+      "density": 22168.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Pbca",
+      "space_group_number": 61,
+      "point_group": "mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -3384441.0,
+      "formation_energy_per_atom": -11738.0,
+      "decomposition_energy_per_atom": -22.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -26.0,
+      "decomposition_energy_mp": -26.0,
+      "decomposition_energy_mp_oqmd": -26.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "aa89539de7",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:01.681643Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe8K40S32.json",
+      "material://Fe8K40S32"
+    ]
+  }
+}

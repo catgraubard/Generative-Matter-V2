@@ -1,0 +1,113 @@
+{
+  "id": "Ag4Rb4Se8Ti2",
+  "uri": "material://Ag4Rb4Se8Ti2",
+  "composition": {
+    "formula": "Ag4Rb4Se8Ti2",
+    "elements": {
+      "Ag": 4,
+      "Rb": 4,
+      "Se": 8,
+      "Ti": 2
+    },
+    "reduced_formula": "Rb2Ti(AgSe2)2",
+    "element_list": [
+      "Ti",
+      "Se",
+      "Rb",
+      "Ag"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nb",
+          "amount": 15.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nb: 15.0 g, P: 1.5 g, Sc: 36.0 g, Si: 90.0 g, V: 60.0 g"
+    },
+    "sourcing": {
+      "instructions": "Nb: Specialty metal suppliers; P: Chemical supply stores; Sc: Rare earth metal suppliers; Si: Semiconductor material suppliers; V: Metal alloy suppliers",
+      "steps": [
+        "Nb: Specialty metal suppliers; P: Chemical supply stores; Sc: Rare earth metal suppliers; Si: Semiconductor material suppliers; V: Metal alloy suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh and prepare each material according to the specified amounts.",
+        "2. In a clean, dry container, combine Nb, P, Sc, Si, and V.",
+        "3. Use a mortar and pestle or a mechanical mixer to achieve a homogeneous mixture for approximately 10 minutes."
+      ],
+      "raw_text": "1. Weigh and prepare each material according to the specified amounts. \n 2. In a clean, dry container, combine Nb, P, Sc, Si, and V. \n 3. Use a mortar and pestle or a mechanical mixer to achieve a homogeneous mixture for approximately 10 minutes."
+    },
+    "heating": {
+      "temperature_celsius": 1500,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed ingredients into a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 1500°C at a rate of 5°C/min and hold for 2 hours."
+      ],
+      "raw_text": "1. Transfer the mixed ingredients into a crucible. \n 2. Place the crucible in a furnace. \n 3. Heat to 1500°C at a rate of 5°C/min and hold for 2 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours).",
+        "2. Remove the crucible once it is safe to handle."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool naturally to room temperature (approximately 1-2 hours). \n 2. Remove the crucible once it is safe to handle."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Inspect the solid sample for any defects.",
+        "2. If necessary, grind the surface to achieve a smooth finish using sandpaper (grit 120 to 400).",
+        "3. Optionally seal the surface with a heat-resistant coating to enhance durability."
+      ],
+      "raw_text": "1. Inspect the solid sample for any defects. \n 2. If necessary, grind the surface to achieve a smooth finish using sandpaper (grit 120 to 400). \n 3. Optionally seal the surface with a heat-resistant coating to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 5456924.0,
+      "density": 45668.0,
+      "crystal_system": "tetragonal",
+      "space_group": "P4_2/mcm",
+      "space_group_number": 132,
+      "point_group": "4/mmm",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -795211.0,
+      "formation_energy_per_atom": -11395.0,
+      "decomposition_energy_per_atom": -1363.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -494.0,
+      "decomposition_energy_mp": -1363.0,
+      "decomposition_energy_mp_oqmd": -574.0
+    },
+    "electronic": {
+      "bandgap": 1.3235,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ac9dcfc46d",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:05.275267Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag4Rb4Se8Ti2.json",
+      "material://Ag4Rb4Se8Ti2"
+    ]
+  }
+}

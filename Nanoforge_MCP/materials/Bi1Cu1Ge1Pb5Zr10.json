@@ -1,0 +1,119 @@
+{
+  "id": "Bi1Cu1Ge1Pb5Zr10",
+  "uri": "material://Bi1Cu1Ge1Pb5Zr10",
+  "composition": {
+    "formula": "Bi1Cu1Ge1Pb5Zr10",
+    "elements": {
+      "Bi": 1,
+      "Cu": 1,
+      "Ge": 1,
+      "Pb": 5,
+      "Zr": 10
+    },
+    "reduced_formula": "Zr10CuGeBiPb5",
+    "element_list": [
+      "Cu",
+      "Ge",
+      "Zr",
+      "Pb",
+      "Bi"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Si",
+          "amount": 8.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Li2S: 16.00 g \n MgS: 25.00 g \n Si: 8.00 g \n Li2O: 8.00 g"
+    },
+    "sourcing": {
+      "instructions": "Li2S: Chemical supply companies (e.g., Sigma-Aldrich) \n MgS: Chemical suppliers or online retailers \n Si: Silicon powder from materials suppliers \n Li2O: Specialty chemical suppliers",
+      "steps": [
+        "Li2S: Chemical supply companies (e.g., Sigma-Aldrich)",
+        "MgS: Chemical suppliers or online retailers",
+        "Si: Silicon powder from materials suppliers",
+        "Li2O: Specialty chemical suppliers"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 16.00 g of Li2S, 25.00 g of MgS, 8.00 g of Si, and 8.00 g of Li2O using an analytical balance.",
+        "2. Combine the powders in a clean, dry ceramic or glass container.",
+        "3. Use a mortar and pestle to grind the mixture until it is a uniform fine powder, ensuring thorough mixing."
+      ],
+      "raw_text": "1. Weigh out 16.00 g of Li2S, 25.00 g of MgS, 8.00 g of Si, and 8.00 g of Li2O using an analytical balance. \n 2. Combine the powders in a clean, dry ceramic or glass container. \n 3. Use a mortar and pestle to grind the mixture until it is a uniform fine powder, ensuring thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 4,
+      "steps": [
+        "1. Transfer the mixed powder into a high-temperature ceramic crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the sample to 800°C (1472°F) at a rate of 5°C per minute.",
+        "4. Maintain this temperature for 4 hours to ensure complete reaction."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a high-temperature ceramic crucible. \n 2. Place the crucible in a furnace. \n 3. Heat the sample to 800°C (1472°F) at a rate of 5°C per minute. \n 4. Maintain this temperature for 4 hours to ensure complete reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6-8 hours.",
+        "2. Avoid opening the furnace door until the temperature is below 200°C to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature (approximately 25°C) over 6-8 hours. \n 2. Avoid opening the furnace door until the temperature is below 200°C to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible once completely cooled.",
+        "2. Use a fine-grit sandpaper to smooth the surface if necessary.",
+        "3. Optionally, apply a sealing agent to protect the material from moisture and air exposure.",
+        "4. Allow the sealant to cure as per the manufacturer's instructions before handling."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible once completely cooled. \n 2. Use a fine-grit sandpaper to smooth the surface if necessary. \n 3. Optionally, apply a sealing agent to protect the material from moisture and air exposure. \n 4. Allow the sealant to cure as per the manufacturer's instructions before handling."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 4017043.0,
+      "density": 94803.0,
+      "crystal_system": "monoclinic",
+      "space_group": "Cm",
+      "space_group_number": 8,
+      "point_group": "m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1239851.0,
+      "formation_energy_per_atom": -4074.0,
+      "decomposition_energy_per_atom": -73.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -2.0,
+      "decomposition_energy_mp": -73.0,
+      "decomposition_energy_mp_oqmd": -385.0
+    },
+    "electronic": {
+      "bandgap": 0.0005,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "da151f1732",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:24.015579Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Bi1Cu1Ge1Pb5Zr10.json",
+      "material://Bi1Cu1Ge1Pb5Zr10"
+    ]
+  }
+}

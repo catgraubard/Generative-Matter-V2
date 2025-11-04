@@ -1,0 +1,111 @@
+{
+  "id": "Ac3Li2Pr1Si6",
+  "uri": "material://Ac3Li2Pr1Si6",
+  "composition": {
+    "formula": "Ac3Li2Pr1Si6",
+    "elements": {
+      "Ac": 3,
+      "Li": 2,
+      "Pr": 1,
+      "Si": 6
+    },
+    "reduced_formula": "Li2Ac3PrSi6",
+    "element_list": [
+      "Li",
+      "Si",
+      "Pr",
+      "Ac"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Hg",
+          "amount": 50.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Hg: 50 g, Rb: 20 g, P: 30 g, S: 40 g"
+    },
+    "sourcing": {
+      "instructions": "Hg: Specialty chemical suppliers, Rb: Online chemical suppliers, P: Chemical supply stores, S: Local mineral supply stores",
+      "steps": [
+        "Hg: Specialty chemical suppliers, Rb: Online chemical suppliers, P: Chemical supply stores, S: Local mineral supply stores"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient accurately using a digital scale.",
+        "2. In a fume hood, combine 50 g of Hg, 20 g of Rb, 30 g of P, and 40 g of S in a clean glass container.",
+        "3. Stir the mixture thoroughly for 10 minutes to ensure homogeneity."
+      ],
+      "raw_text": "1. Weigh each ingredient accurately using a digital scale. \n 2. In a fume hood, combine 50 g of Hg, 20 g of Rb, 30 g of P, and 40 g of S in a clean glass container. \n 3. Stir the mixture thoroughly for 10 minutes to ensure homogeneity."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a crucible.",
+        "2. Heat the crucible to 800°C using a high-temperature furnace for 2 hours. Ensure that the atmosphere is inert to prevent oxidation."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a crucible. \n 2. Heat the crucible to 800°C using a high-temperature furnace for 2 hours. Ensure that the atmosphere is inert to prevent oxidation."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally over 6 hours.",
+        "2. Do not open the furnace door until it has reached room temperature to prevent rapid cooling."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally over 6 hours. \n 2. Do not open the furnace door until it has reached room temperature to prevent rapid cooling."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, remove the sample from the crucible carefully.",
+        "2. Use fine-grit sandpaper to smooth any rough edges.",
+        "3. Seal the sample with a clear coat to prevent oxidation and enhance durability."
+      ],
+      "raw_text": "1. Once cooled, remove the sample from the crucible carefully. \n 2. Use fine-grit sandpaper to smooth any rough edges. \n 3. Seal the sample with a clear coat to prevent oxidation and enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 2802371.0,
+      "density": 5951.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Fmm2",
+      "space_group_number": 42,
+      "point_group": "mm2",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -60323.0,
+      "formation_energy_per_atom": -5674.0,
+      "decomposition_energy_per_atom": -2297.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -55.0,
+      "decomposition_energy_mp": -2292.0,
+      "decomposition_energy_mp_oqmd": -2283.0
+    },
+    "electronic": {
+      "bandgap": 0.0119,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b2a6257f90",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:13.573852Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ac3Li2Pr1Si6.json",
+      "material://Ac3Li2Pr1Si6"
+    ]
+  }
+}

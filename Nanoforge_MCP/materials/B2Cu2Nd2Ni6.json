@@ -1,0 +1,135 @@
+{
+  "id": "B2Cu2Nd2Ni6",
+  "uri": "material://B2Cu2Nd2Ni6",
+  "composition": {
+    "formula": "B2Cu2Nd2Ni6",
+    "elements": {
+      "B": 2,
+      "Cu": 2,
+      "Nd": 2,
+      "Ni": 6
+    },
+    "reduced_formula": "NdCuNi3B",
+    "element_list": [
+      "B",
+      "Ni",
+      "Cu",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Cu",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nd",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Ni",
+          "amount": 120.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n Cu: 40 g \n Nd: 20 g \n Ni: 120 g"
+    },
+    "sourcing": {
+      "instructions": "B: Purchase from a chemical supplier (e.g., Sigma-Aldrich) \n Cu: Obtain from a metal supply store or online retailer \n Nd: Acquire from a rare earth metal supplier \n Ni: Buy from a hardware store or online metal supplier",
+      "steps": [
+        "B: Purchase from a chemical supplier (e.g., Sigma-Aldrich)",
+        "Cu: Obtain from a metal supply store or online retailer",
+        "Nd: Acquire from a rare earth metal supplier",
+        "Ni: Buy from a hardware store or online metal supplier"
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 20 g of boron (B) using a precision scale.",
+        "2. Weigh 40 g of copper (Cu) powder.",
+        "3. Measure 20 g of neodymium (Nd) powder.",
+        "4. Weigh 120 g of nickel (Ni) powder.",
+        "5. In a clean, dry mixing container, combine all ingredients uniformly. Use a mortar and pestle or a ball mill for thorough mixing."
+      ],
+      "raw_text": "1. Weigh out 20 g of boron (B) using a precision scale. \n 2. Weigh 40 g of copper (Cu) powder. \n 3. Measure 20 g of neodymium (Nd) powder. \n 4. Weigh 120 g of nickel (Ni) powder. \n 5. In a clean, dry mixing container, combine all ingredients uniformly. Use a mortar and pestle or a ball mill for thorough mixing."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powders into a crucible suitable for high-temperature applications.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 900 °C at a rate of 10 °C/min.",
+        "4. Maintain the temperature for 2 hours to ensure complete reaction of the metals."
+      ],
+      "raw_text": "1. Transfer the mixed powders into a crucible suitable for high-temperature applications. \n 2. Place the crucible in a furnace. \n 3. Heat to 900 °C at a rate of 10 °C/min. \n 4. Maintain the temperature for 2 hours to ensure complete reaction of the metals."
+    },
+    "cooling": {
+      "cooling_time_hours": 6,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down naturally to room temperature.",
+        "2. Once cooled, carefully remove the crucible. This may take approximately 4-6 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down naturally to room temperature. \n 2. Once cooled, carefully remove the crucible. This may take approximately 4-6 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Carefully remove the solidified material from the crucible.",
+        "2. Use a grinder or sandpaper to smooth the surfaces as needed.",
+        "3. Optionally, apply a sealing coat (e.g., clear epoxy) to enhance surface durability.",
+        "4. Allow any coatings to cure according to the manufacturer's instructions (typically 24 hours)."
+      ],
+      "raw_text": "1. Carefully remove the solidified material from the crucible. \n 2. Use a grinder or sandpaper to smooth the surfaces as needed. \n 3. Optionally, apply a sealing coat (e.g., clear epoxy) to enhance surface durability. \n 4. Allow any coatings to cure according to the manufacturer's instructions (typically 24 hours)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1602715.0,
+      "density": 81784.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P6/mmm",
+      "space_group_number": 191,
+      "point_group": "6/mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -706384.0,
+      "formation_energy_per_atom": -4053.0,
+      "decomposition_energy_per_atom": -291.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -291.0,
+      "decomposition_energy_mp_oqmd": -28.0
+    },
+    "electronic": {
+      "bandgap": 0.002,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a0c82ce802",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:46.993873Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/B2Cu2Nd2Ni6.json",
+      "material://B2Cu2Nd2Ni6"
+    ]
+  }
+}

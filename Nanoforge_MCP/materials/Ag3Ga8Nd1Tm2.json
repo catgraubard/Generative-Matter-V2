@@ -1,0 +1,137 @@
+{
+  "id": "Ag3Ga8Nd1Tm2",
+  "uri": "material://Ag3Ga8Nd1Tm2",
+  "composition": {
+    "formula": "Ag3Ga8Nd1Tm2",
+    "elements": {
+      "Ag": 3,
+      "Ga": 8,
+      "Nd": 1,
+      "Tm": 2
+    },
+    "reduced_formula": "NdTm2Ga8Ag3",
+    "element_list": [
+      "Ga",
+      "Ag",
+      "Nd",
+      "Tm"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "B",
+          "amount": 20.0,
+          "unit": "g"
+        },
+        {
+          "element": "Nb",
+          "amount": 40.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sn",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Zr",
+          "amount": 60.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "B: 20 g \n Nb: 40 g \n Sn: 60 g \n Zr: 60 g"
+    },
+    "sourcing": {
+      "instructions": "Barium (B): Chemical supply stores or online chemical suppliers. \n Niobium (Nb): Specialty metal suppliers or online metallurgy stores. \n Tin (Sn): Local hardware stores or online metal suppliers. \n Zirconium (Zr): Specialty metal suppliers or online chemical suppliers.",
+      "steps": [
+        "Barium (B): Chemical supply stores or online chemical suppliers.",
+        "Niobium (Nb): Specialty metal suppliers or online metallurgy stores.",
+        "Tin (Sn): Local hardware stores or online metal suppliers.",
+        "Zirconium (Zr): Specialty metal suppliers or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 20 g of Barium powder using a digital scale.",
+        "2. Measure 40 g of Niobium powder.",
+        "3. Measure 60 g of Tin powder.",
+        "4. Measure 60 g of Zirconium powder.",
+        "5. In a clean, dry mixing bowl, combine all measured powders.",
+        "6. Use a mortar and pestle to thoroughly mix the powders for 15 minutes to ensure a uniform blend."
+      ],
+      "raw_text": "1. Measure 20 g of Barium powder using a digital scale. \n 2. Measure 40 g of Niobium powder. \n 3. Measure 60 g of Tin powder. \n 4. Measure 60 g of Zirconium powder. \n 5. In a clean, dry mixing bowl, combine all measured powders. \n 6. Use a mortar and pestle to thoroughly mix the powders for 15 minutes to ensure a uniform blend."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 10,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible suitable for high temperatures.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat the mixture to 1200 °C at a rate of 10 °C/min.",
+        "4. Hold the temperature at 1200 °C for 2 hours to ensure complete reaction and solidification."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible suitable for high temperatures. \n 2. Place the crucible in a furnace. \n 3. Heat the mixture to 1200 °C at a rate of 10 °C/min. \n 4. Hold the temperature at 1200 °C for 2 hours to ensure complete reaction and solidification."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Do not open the furnace door until it has cooled down to avoid thermal shock.",
+        "3. This cooling process should take approximately 6-8 hours."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Do not open the furnace door until it has cooled down to avoid thermal shock. \n 3. This cooling process should take approximately 6-8 hours."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cool, remove the solid sample from the crucible.",
+        "2. Inspect the sample for any irregularities or imperfections.",
+        "3. If necessary, use sandpaper (starting with 120 grit and finishing with 400 grit) to smooth the surface.",
+        "4. Optionally, seal the surface with a high-temperature resistant sealant for additional protection."
+      ],
+      "raw_text": "1. Once cool, remove the solid sample from the crucible. \n 2. Inspect the sample for any irregularities or imperfections. \n 3. If necessary, use sandpaper (starting with 120 grit and finishing with 400 grit) to smooth the surface. \n 4. Optionally, seal the surface with a high-temperature resistant sealant for additional protection."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 14,
+      "volume": 2708973.0,
+      "density": 83579.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Immm",
+      "space_group_number": 71,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -52872.0,
+      "formation_energy_per_atom": -4593.0,
+      "decomposition_energy_per_atom": -145.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -3.0,
+      "decomposition_energy_mp": -145.0,
+      "decomposition_energy_mp_oqmd": -104.0
+    },
+    "electronic": {
+      "bandgap": 0.0244,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "b93b0b300f",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:14.971758Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Ag3Ga8Nd1Tm2.json",
+      "material://Ag3Ga8Nd1Tm2"
+    ]
+  }
+}

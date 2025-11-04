@@ -1,0 +1,105 @@
+{
+  "id": "As2La4Pb6Pr6",
+  "uri": "material://As2La4Pb6Pr6",
+  "composition": {
+    "formula": "As2La4Pb6Pr6",
+    "elements": {
+      "As": 2,
+      "La": 4,
+      "Pb": 6,
+      "Pr": 6
+    },
+    "reduced_formula": "La2Pr3AsPb3",
+    "element_list": [
+      "As",
+      "La",
+      "Pr",
+      "Pb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Co",
+          "amount": 10.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Co: 10 g, Er: 6 g, Fe: 8 g, P: 12 g"
+    },
+    "sourcing": {
+      "instructions": "Co: Purchased from chemical suppliers like Sigma-Aldrich or Fisher Scientific. Er: Available from rare earth material suppliers or online marketplaces. Fe: Obtainable from local metal suppliers or online stores. P: Can be sourced from chemical supply companies or laboratory suppliers.",
+      "steps": [
+        "Co: Purchased from chemical suppliers like Sigma-Aldrich or Fisher Scientific. Er: Available from rare earth material suppliers or online marketplaces. Fe: Obtainable from local metal suppliers or online stores. P: Can be sourced from chemical supply companies or laboratory suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each component using a precision balance. 2. In a clean, dry container, combine Co, Er, Fe, and P in the specified amounts. 3. Mix the powders thoroughly using a mortar and pestle to achieve a uniform distribution. 4. Transfer the mixed powder to a ball mill and mill for 2 hours to ensure a fine particle size."
+      ],
+      "raw_text": "1. Weigh each component using a precision balance. 2. In a clean, dry container, combine Co, Er, Fe, and P in the specified amounts. 3. Mix the powders thoroughly using a mortar and pestle to achieve a uniform distribution. 4. Transfer the mixed powder to a ball mill and mill for 2 hours to ensure a fine particle size."
+    },
+    "heating": {
+      "temperature_celsius": 1000,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 1000 °C. 2. Place the mixed powder in a ceramic crucible. 3. Heat the crucible in the furnace for 2 hours to facilitate solid-state reactions."
+      ],
+      "raw_text": "1. Preheat a furnace to 1000 °C. 2. Place the mixed powder in a ceramic crucible. 3. Heat the crucible in the furnace for 2 hours to facilitate solid-state reactions."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). 2. Once at room temperature, carefully remove the crucible."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down to room temperature naturally (approximately 6-8 hours). 2. Once at room temperature, carefully remove the crucible."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Crush the solidified material into smaller pieces using a hammer and sieve to achieve a particle size suitable for further processing. 2. If needed, use a grinding machine to achieve the final desired particle size. 3. Seal in a vacuum bag to prevent oxidation or moisture absorption."
+      ],
+      "raw_text": "1. Crush the solidified material into smaller pieces using a hammer and sieve to achieve a particle size suitable for further processing. 2. If needed, use a grinding machine to achieve the final desired particle size. 3. Seal in a vacuum bag to prevent oxidation or moisture absorption."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 18,
+      "volume": 5828154.0,
+      "density": 79609.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Amm2",
+      "space_group_number": 38,
+      "point_group": "mm2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -946507.0,
+      "formation_energy_per_atom": -8126.0,
+      "decomposition_energy_per_atom": -124.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -7.0,
+      "decomposition_energy_mp": -124.0,
+      "decomposition_energy_mp_oqmd": -107.0
+    },
+    "electronic": {
+      "bandgap": 0.0027,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "ae3e3646f0",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:08.432474Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/As2La4Pb6Pr6.json",
+      "material://As2La4Pb6Pr6"
+    ]
+  }
+}

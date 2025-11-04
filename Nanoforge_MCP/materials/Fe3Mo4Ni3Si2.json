@@ -1,0 +1,111 @@
+{
+  "id": "Fe3Mo4Ni3Si2",
+  "uri": "material://Fe3Mo4Ni3Si2",
+  "composition": {
+    "formula": "Fe3Mo4Ni3Si2",
+    "elements": {
+      "Fe": 3,
+      "Mo": 4,
+      "Ni": 3,
+      "Si": 2
+    },
+    "reduced_formula": "Fe3Si2Ni3Mo4",
+    "element_list": [
+      "Si",
+      "Fe",
+      "Ni",
+      "Mo"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Iron (Fe): 1500 g  \n - Molybdenum (Mo): 800 g  \n - Nickel (Ni): 600 g  \n - Silicon (Si): 200 g  \n - Flux (optional): 50 g  \n - Binder (optional): 50 g"
+    },
+    "sourcing": {
+      "instructions": "- Iron: Local metal suppliers or online metal retailers.  \n - Molybdenum: Specialty metal suppliers or online marketplaces.  \n - Nickel: Local metal suppliers.  \n - Silicon: Chemical supply stores or online chemical suppliers.  \n - Flux and Binder: Local hardware stores or online.",
+      "steps": [
+        "- Iron: Local metal suppliers or online metal retailers.",
+        "- Molybdenum: Specialty metal suppliers or online marketplaces.",
+        "- Nickel: Local metal suppliers.",
+        "- Silicon: Chemical supply stores or online chemical suppliers.",
+        "- Flux and Binder: Local hardware stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh the required amounts of each material using a precision scale.",
+        "2. In a clean, dry mixing container, combine the iron, molybdenum, nickel, and silicon.",
+        "3. If using flux and binder, add them to the mixture and mix thoroughly until uniformly distributed.",
+        "4. Use a mortar and pestle or ball mill to ensure a fine, homogeneous powder consistency."
+      ],
+      "raw_text": "1. Weigh the required amounts of each material using a precision scale.  \n 2. In a clean, dry mixing container, combine the iron, molybdenum, nickel, and silicon.  \n 3. If using flux and binder, add them to the mixture and mix thoroughly until uniformly distributed.  \n 4. Use a mortar and pestle or ball mill to ensure a fine, homogeneous powder consistency."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace or kiln to 1200°C (2192°F).",
+        "2. Place the mixed powder into a mold of dimensions 3 inches x 2 inches x 7 inches.",
+        "3. Insert the mold into the furnace and hold at 1200°C for 4 hours to promote sintering."
+      ],
+      "raw_text": "1. Preheat a furnace or kiln to 1200°C (2192°F).  \n 2. Place the mixed powder into a mold of dimensions 3 inches x 2 inches x 7 inches.  \n 3. Insert the mold into the furnace and hold at 1200°C for 4 hours to promote sintering."
+    },
+    "cooling": {
+      "cooling_time_hours": 3,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow the sample to cool slowly inside the furnace to room temperature (approximately 2-3 hours).",
+        "2. Once at room temperature, carefully remove the mold."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow the sample to cool slowly inside the furnace to room temperature (approximately 2-3 hours).  \n 2. Once at room temperature, carefully remove the mold."
+    },
+    "post_processing": {
+      "steps": [
+        "1. If necessary, sand the surface of the solid sample to achieve a smooth finish.",
+        "2. Optionally, apply a sealing agent to prevent oxidation.",
+        "3. Store the finished sample in a dry environment to maintain integrity."
+      ],
+      "raw_text": "1. If necessary, sand the surface of the solid sample to achieve a smooth finish.  \n 2. Optionally, apply a sealing agent to prevent oxidation.  \n 3. Store the finished sample in a dry environment to maintain integrity."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 12,
+      "volume": 1489373.0,
+      "density": 8736.0,
+      "crystal_system": "hexagonal",
+      "space_group": "P-6m2",
+      "space_group_number": 187,
+      "point_group": "-6m2",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -1005832.0,
+      "formation_energy_per_atom": -3.0,
+      "decomposition_energy_per_atom": -289.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -36.0,
+      "decomposition_energy_mp": -289.0,
+      "decomposition_energy_mp_oqmd": -285.0
+    },
+    "electronic": {
+      "bandgap": 0.0044,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "a171049729",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:47.868484Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe3Mo4Ni3Si2.json",
+      "material://Fe3Mo4Ni3Si2"
+    ]
+  }
+}

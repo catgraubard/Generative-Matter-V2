@@ -1,0 +1,126 @@
+{
+  "id": "Na12O16Ru2Sb2",
+  "uri": "material://Na12O16Ru2Sb2",
+  "composition": {
+    "formula": "Na12O16Ru2Sb2",
+    "elements": {
+      "Na": 12,
+      "O": 16,
+      "Ru": 2,
+      "Sb": 2
+    },
+    "reduced_formula": "Na6SbRuO8",
+    "element_list": [
+      "O",
+      "Na",
+      "Ru",
+      "Sb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ru",
+          "amount": 26.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sb",
+          "amount": 22.0,
+          "unit": "g"
+        },
+        {
+          "element": "Na",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Na2O: 60.00 g \n Ru: 26.00 g \n Sb: 22.00 g \n Na: 100.00 g"
+    },
+    "sourcing": {
+      "instructions": "Na2O (Sodium Oxide): Chemical supply stores or online chemical suppliers. \n Ru (Ruthenium): Specialty metal suppliers or online chemical supply. \n Sb (Antimony): Metal suppliers or online marketplaces. \n Na (Sodium): Chemical supply stores or online chemical suppliers.",
+      "steps": [
+        "Na2O (Sodium Oxide): Chemical supply stores or online chemical suppliers.",
+        "Ru (Ruthenium): Specialty metal suppliers or online chemical supply.",
+        "Sb (Antimony): Metal suppliers or online marketplaces.",
+        "Na (Sodium): Chemical supply stores or online chemical suppliers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean glass or ceramic container, measure out 60.00 g of Na2O.",
+        "2. Add 100.00 g of Na to the same container.",
+        "3. Measure and add 26.00 g of Ru.",
+        "4. Finally, include 22.00 g of Sb.",
+        "5. Mix the dry ingredients thoroughly using a spatula or stir rod until a uniform powder is achieved."
+      ],
+      "raw_text": "1. In a clean glass or ceramic container, measure out 60.00 g of Na2O.\n 2. Add 100.00 g of Na to the same container.\n 3. Measure and add 26.00 g of Ru.\n 4. Finally, include 22.00 g of Sb.\n 5. Mix the dry ingredients thoroughly using a spatula or stir rod until a uniform powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 800,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed powder to a crucible.",
+        "2. Place the crucible in a furnace.",
+        "3. Heat to 800°C (1472°F) for 2 hours to facilitate reaction and formation of the desired compound."
+      ],
+      "raw_text": "1. Transfer the mixed powder to a crucible.\n 2. Place the crucible in a furnace.\n 3. Heat to 800°C (1472°F) for 2 hours to facilitate reaction and formation of the desired compound."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).",
+        "2. Remove the crucible only after it has cooled completely to avoid thermal shock."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow it to cool down naturally to room temperature (approximately 25°C).\n 2. Remove the crucible only after it has cooled completely to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the solid sample from the crucible.",
+        "2. If necessary, grind the sample into a finer powder using a mortar and pestle for further applications.",
+        "3. If the final product is to be used as a solid block, ensure it is shaped and compacted properly before sealing or coating with a protective layer, if needed."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the solid sample from the crucible.\n 2. If necessary, grind the sample into a finer powder using a mortar and pestle for further applications.\n 3. If the final product is to be used as a solid block, ensure it is shaped and compacted properly before sealing or coating with a protective layer, if needed."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 32,
+      "volume": 4025592.0,
+      "density": 40323.0,
+      "crystal_system": "monoclinic",
+      "space_group": "C2/m",
+      "space_group_number": 12,
+      "point_group": "2/m",
+      "dimensionality": "intercalated ion"
+    },
+    "energetics": {
+      "corrected_energy": -1814951.0,
+      "formation_energy_per_atom": -18641.0,
+      "decomposition_energy_per_atom": -17.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -9.0,
+      "decomposition_energy_mp": -22.0,
+      "decomposition_energy_mp_oqmd": -9.0
+    },
+    "electronic": {
+      "bandgap": 0.7061,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "806d4df657",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:14:03.999235Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Na12O16Ru2Sb2.json",
+      "material://Na12O16Ru2Sb2"
+    ]
+  }
+}

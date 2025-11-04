@@ -1,0 +1,112 @@
+{
+  "id": "Cr2O14Tl2V4",
+  "uri": "material://Cr2O14Tl2V4",
+  "composition": {
+    "formula": "Cr2O14Tl2V4",
+    "elements": {
+      "Cr": 2,
+      "O": 14,
+      "Tl": 2,
+      "V": 4
+    },
+    "reduced_formula": "TlV2CrO7",
+    "element_list": [
+      "O",
+      "V",
+      "Cr",
+      "Tl"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Cr",
+          "amount": 12.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Cr: 12.00 g, O: 56.00 g, Tl: 20.00 g, V: 16.00 g"
+    },
+    "sourcing": {
+      "instructions": "Cr: Purchase chromium oxide (Cr2O3) from a chemical supply store; O: Obtain oxygen from an air source; Tl: Source thallium from a specialized chemical vendor; V: Buy vanadium oxide (V2O5) from a chemical supplier.",
+      "steps": [
+        "Cr: Purchase chromium oxide (Cr2O3) from a chemical supply store; O: Obtain oxygen from an air source; Tl: Source thallium from a specialized chemical vendor; V: Buy vanadium oxide (V2O5) from a chemical supplier."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. In a clean, dry environment, weigh 12.00 g of chromium oxide (Cr2O3).",
+        "2. Weigh 56.00 g of oxygen (from air, in stoichiometric excess).",
+        "3. Weigh 20.00 g of thallium.",
+        "4. Weigh 16.00 g of vanadium oxide (V2O5).",
+        "5. Combine all ingredients in a ceramic crucible and mix thoroughly using a spatula to ensure even distribution."
+      ],
+      "raw_text": "1. In a clean, dry environment, weigh 12.00 g of chromium oxide (Cr2O3). \n 2. Weigh 56.00 g of oxygen (from air, in stoichiometric excess). \n 3. Weigh 20.00 g of thallium. \n 4. Weigh 16.00 g of vanadium oxide (V2O5). \n 5. Combine all ingredients in a ceramic crucible and mix thoroughly using a spatula to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "steps": [
+        "1. Preheat a furnace to 900°C.",
+        "2. Place the crucible in the furnace and heat for 2 hours to facilitate reaction."
+      ],
+      "raw_text": "1. Preheat a furnace to 900°C. \n 2. Place the crucible in the furnace and heat for 2 hours to facilitate reaction."
+    },
+    "cooling": {
+      "cooling_time_hours": 4,
+      "method": "natural",
+      "steps": [
+        "1. After heating, turn off the furnace and allow the crucible to cool down naturally for about 4 hours until it reaches room temperature."
+      ],
+      "raw_text": "1. After heating, turn off the furnace and allow the crucible to cool down naturally for about 4 hours until it reaches room temperature."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Inspect for any rough edges and sand down using fine-grit sandpaper.",
+        "3. Optionally, apply a sealant to enhance durability."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Inspect for any rough edges and sand down using fine-grit sandpaper. \n 3. Optionally, apply a sealant to enhance durability."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 22,
+      "volume": 355117.0,
+      "density": 43979.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": null
+    },
+    "energetics": {
+      "corrected_energy": -1784543.0,
+      "formation_energy_per_atom": -22189.0,
+      "decomposition_energy_per_atom": -109.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -109.0,
+      "decomposition_energy_mp": -109.0,
+      "decomposition_energy_mp_oqmd": -109.0
+    },
+    "electronic": {
+      "bandgap": null,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "60f092d9d6",
+      "is_train": false
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:22.918296Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Cr2O14Tl2V4.json",
+      "material://Cr2O14Tl2V4"
+    ]
+  }
+}

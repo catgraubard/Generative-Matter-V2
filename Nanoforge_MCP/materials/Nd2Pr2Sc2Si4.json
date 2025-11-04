@@ -1,0 +1,132 @@
+{
+  "id": "Nd2Pr2Sc2Si4",
+  "uri": "material://Nd2Pr2Sc2Si4",
+  "composition": {
+    "formula": "Nd2Pr2Sc2Si4",
+    "elements": {
+      "Nd": 2,
+      "Pr": 2,
+      "Sc": 2,
+      "Si": 4
+    },
+    "reduced_formula": "PrNdScSi2",
+    "element_list": [
+      "Si",
+      "Sc",
+      "Pr",
+      "Nd"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Nd",
+          "amount": 60.0,
+          "unit": "g"
+        },
+        {
+          "element": "Pr",
+          "amount": 30.0,
+          "unit": "g"
+        },
+        {
+          "element": "Sc",
+          "amount": 10.0,
+          "unit": "g"
+        },
+        {
+          "element": "Si",
+          "amount": 100.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Nd: 60 g \n Pr: 30 g \n Sc: 10 g \n Si: 100 g"
+    },
+    "sourcing": {
+      "instructions": "Nd (Neodymium): Purchase from a rare earth metal supplier or online specialty chemical supplier. \n Pr (Praseodymium): Available from similar suppliers as Nd. \n Sc (Scandium): Obtain from rare earth metal suppliers. \n Si (Silicon): Can be sourced from electronics suppliers or chemical suppliers as high-purity silicon powder.",
+      "steps": [
+        "Nd (Neodymium): Purchase from a rare earth metal supplier or online specialty chemical supplier.",
+        "Pr (Praseodymium): Available from similar suppliers as Nd.",
+        "Sc (Scandium): Obtain from rare earth metal suppliers.",
+        "Si (Silicon): Can be sourced from electronics suppliers or chemical suppliers as high-purity silicon powder."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh each ingredient precisely using a digital scale.",
+        "2. In a clean, dry mixing container, add Nd, Pr, Sc, and Si in the specified order.",
+        "3. Use a spatula to mix thoroughly for about 5 minutes until a homogeneous mixture is achieved.",
+        "4. Transfer the mixture into a ball mill for further grinding for 30 minutes to ensure particle size uniformity."
+      ],
+      "raw_text": "1. Weigh each ingredient precisely using a digital scale. \n 2. In a clean, dry mixing container, add Nd, Pr, Sc, and Si in the specified order. \n 3. Use a spatula to mix thoroughly for about 5 minutes until a homogeneous mixture is achieved. \n 4. Transfer the mixture into a ball mill for further grinding for 30 minutes to ensure particle size uniformity."
+    },
+    "heating": {
+      "temperature_celsius": 1300,
+      "duration_hours": 4,
+      "steps": [
+        "1. Preheat a furnace to 1300°C.",
+        "2. Place the homogeneous powder mixture into a ceramic crucible.",
+        "3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours."
+      ],
+      "raw_text": "1. Preheat a furnace to 1300°C. \n 2. Place the homogeneous powder mixture into a ceramic crucible. \n 3. Insert the crucible into the preheated furnace and maintain the temperature for 4 hours."
+    },
+    "cooling": {
+      "cooling_time_hours": 8,
+      "method": "natural",
+      "steps": [
+        "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature over approximately 8 hours.",
+        "2. Do not open the furnace door until it has cooled to prevent thermal shock."
+      ],
+      "raw_text": "1. After the heating duration, turn off the furnace and allow it to cool naturally to room temperature over approximately 8 hours. \n 2. Do not open the furnace door until it has cooled to prevent thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Once cooled, carefully remove the crucible from the furnace.",
+        "2. Use a hammer and chisel to break the solidified sample into manageable pieces, if necessary.",
+        "3. Sand the surfaces of the sample to achieve a smooth finish.",
+        "4. Optionally, seal the sample with an appropriate clear coating for protection and enhanced appearance."
+      ],
+      "raw_text": "1. Once cooled, carefully remove the crucible from the furnace. \n 2. Use a hammer and chisel to break the solidified sample into manageable pieces, if necessary. \n 3. Sand the surfaces of the sample to achieve a smooth finish. \n 4. Optionally, seal the sample with an appropriate clear coating for protection and enhanced appearance."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 10,
+      "volume": 2435334.0,
+      "density": 52677.0,
+      "crystal_system": "orthorhombic",
+      "space_group": "Cmmm",
+      "space_group_number": 65,
+      "point_group": "mmm",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -601623.0,
+      "formation_energy_per_atom": -6698.0,
+      "decomposition_energy_per_atom": -2.0,
+      "decomposition_energy_all": 1.0,
+      "decomposition_energy_relative": 1.0,
+      "decomposition_energy_mp": 2.0,
+      "decomposition_energy_mp_oqmd": 1.0
+    },
+    "electronic": {
+      "bandgap": 0.001,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "619f5be571",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:13:23.831945Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Nd2Pr2Sc2Si4.json",
+      "material://Nd2Pr2Sc2Si4"
+    ]
+  }
+}

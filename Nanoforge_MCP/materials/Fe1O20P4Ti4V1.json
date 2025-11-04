@@ -1,0 +1,111 @@
+{
+  "id": "Fe1O20P4Ti4V1",
+  "uri": "material://Fe1O20P4Ti4V1",
+  "composition": {
+    "formula": "Fe1O20P4Ti4V1",
+    "elements": {
+      "Fe": 1,
+      "O": 20,
+      "P": 4,
+      "Ti": 4,
+      "V": 1
+    },
+    "reduced_formula": "Ti4VFe(PO5)4",
+    "element_list": [
+      "O",
+      "P",
+      "Ti",
+      "V",
+      "Fe"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [],
+      "raw_text": "- Oxygen (O): 96 g\n- Sulfur (S): 128 g\n- Samarium (Sm): 24 g\n- Yttrium (Y): 6 g"
+    },
+    "sourcing": {
+      "instructions": "- Oxygen: Obtain from a gas supplier or use oxygen concentrators.\n- Sulfur: Purchase from chemical supply stores or online chemical retailers.\n- Samarium: Source from rare earth metal suppliers or online marketplaces.\n- Yttrium: Available from metal suppliers or online chemical retailers.",
+      "steps": [
+        "- Oxygen: Obtain from a gas supplier or use oxygen concentrators.",
+        "- Sulfur: Purchase from chemical supply stores or online chemical retailers.",
+        "- Samarium: Source from rare earth metal suppliers or online marketplaces.",
+        "- Yttrium: Available from metal suppliers or online chemical retailers."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Measure 96 g of Oxygen using a calibrated scale.",
+        "2. Measure 128 g of Sulfur and combine with Oxygen in a fume hood under controlled conditions.",
+        "3. Measure 24 g of Samarium and 6 g of Yttrium.",
+        "4. Gradually add Samarium and Yttrium to the mixture of Oxygen and Sulfur while stirring continuously to ensure even distribution."
+      ],
+      "raw_text": "1. Measure 96 g of Oxygen using a calibrated scale. \n 2. Measure 128 g of Sulfur and combine with Oxygen in a fume hood under controlled conditions. \n 3. Measure 24 g of Samarium and 6 g of Yttrium. \n 4. Gradually add Samarium and Yttrium to the mixture of Oxygen and Sulfur while stirring continuously to ensure even distribution."
+    },
+    "heating": {
+      "temperature_celsius": 1200,
+      "duration_hours": 2,
+      "steps": [
+        "1. Transfer the mixed materials to a ceramic crucible.",
+        "2. Heat in a furnace at 1200 °C for 2 hours to achieve complete melting and reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed materials to a ceramic crucible. \n 2. Heat in a furnace at 1200 °C for 2 hours to achieve complete melting and reaction of the materials."
+    },
+    "cooling": {
+      "cooling_time_hours": 2,
+      "method": "natural",
+      "steps": [
+        "1. Allow the crucible to cool down gradually in the furnace to avoid thermal shock.",
+        "2. Once the temperature drops to 500 °C, remove the crucible and allow it to cool to room temperature (approximately 1-2 hours)."
+      ],
+      "raw_text": "1. Allow the crucible to cool down gradually in the furnace to avoid thermal shock. \n 2. Once the temperature drops to 500 °C, remove the crucible and allow it to cool to room temperature (approximately 1-2 hours)."
+    },
+    "post_processing": {
+      "steps": [
+        "1. After cooling, remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth edges and surfaces.",
+        "3. Optionally, apply a sealant to enhance durability and finish (follow manufacturer instructions for curing time)."
+      ],
+      "raw_text": "1. After cooling, remove the solid sample from the crucible.\n 2. Use a diamond file to smooth edges and surfaces.\n 3. Optionally, apply a sealant to enhance durability and finish (follow manufacturer instructions for curing time)."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 30,
+      "volume": 3638857.0,
+      "density": 33866.0,
+      "crystal_system": "triclinic",
+      "space_group": "P-1",
+      "space_group_number": 2,
+      "point_group": "-1",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -2588539.0,
+      "formation_energy_per_atom": -29702.0,
+      "decomposition_energy_per_atom": -15.0,
+      "decomposition_energy_all": 3.0,
+      "decomposition_energy_relative": 3.0,
+      "decomposition_energy_mp": -21.0,
+      "decomposition_energy_mp_oqmd": -2.0
+    },
+    "electronic": {
+      "bandgap": 0.9695,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "d39798d96a",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:22.244144Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/Fe1O20P4Ti4V1.json",
+      "material://Fe1O20P4Ti4V1"
+    ]
+  }
+}

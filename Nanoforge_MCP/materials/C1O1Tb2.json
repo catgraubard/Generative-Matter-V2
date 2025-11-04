@@ -1,0 +1,111 @@
+{
+  "id": "C1O1Tb2",
+  "uri": "material://C1O1Tb2",
+  "composition": {
+    "formula": "C1O1Tb2",
+    "elements": {
+      "C": 1,
+      "O": 1,
+      "Tb": 2
+    },
+    "reduced_formula": "Tb2CO",
+    "element_list": [
+      "C",
+      "O",
+      "Tb"
+    ]
+  },
+  "recipe": {
+    "materials": {
+      "list": [
+        {
+          "element": "Ac",
+          "amount": 70.0,
+          "unit": "g"
+        }
+      ],
+      "raw_text": "Ac: 70 g, La: 30 g, Se: 160 g"
+    },
+    "sourcing": {
+      "instructions": "Ac: Purchase from a chemical supplier or online marketplace; La: Obtain from a rare earth materials supplier; Se: Available from chemical supply stores or online.",
+      "steps": [
+        "Ac: Purchase from a chemical supplier or online marketplace; La: Obtain from a rare earth materials supplier; Se: Available from chemical supply stores or online."
+      ]
+    },
+    "preparation": {
+      "steps": [
+        "1. Weigh out 70 g of Ac, 30 g of La, and 160 g of Se using an analytical balance.",
+        "2. In a clean glass container, combine the weighed Ac and La.",
+        "3. Slowly add Se to the mixture while continuously stirring to ensure even distribution.",
+        "4. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved."
+      ],
+      "raw_text": "1. Weigh out 70 g of Ac, 30 g of La, and 160 g of Se using an analytical balance. \n 2. In a clean glass container, combine the weighed Ac and La. \n 3. Slowly add Se to the mixture while continuously stirring to ensure even distribution. \n 4. Use a mortar and pestle to grind the mixture until a homogeneous powder is achieved."
+    },
+    "heating": {
+      "temperature_celsius": 900,
+      "duration_hours": 2,
+      "heating_rate_celsius_per_min": 5,
+      "steps": [
+        "1. Transfer the mixed powder into a crucible.",
+        "2. Place the crucible in a furnace and heat to 900 °C at a rate of 5 °C/min.",
+        "3. Maintain the temperature for 2 hours to ensure complete reaction of the materials."
+      ],
+      "raw_text": "1. Transfer the mixed powder into a crucible. \n 2. Place the crucible in a furnace and heat to 900 °C at a rate of 5 °C/min. \n 3. Maintain the temperature for 2 hours to ensure complete reaction of the materials."
+    },
+    "cooling": {
+      "method": "natural",
+      "steps": [
+        "1. Turn off the furnace and allow it to cool down to room temperature naturally.",
+        "2. Once cooled, remove the crucible carefully to avoid thermal shock."
+      ],
+      "raw_text": "1. Turn off the furnace and allow it to cool down to room temperature naturally. \n 2. Once cooled, remove the crucible carefully to avoid thermal shock."
+    },
+    "post_processing": {
+      "steps": [
+        "1. Remove the solid sample from the crucible.",
+        "2. Use a diamond file to smooth out any sharp edges and achieve the desired dimensions.",
+        "3. Optionally, apply a sealant to enhance durability and finish."
+      ],
+      "raw_text": "1. Remove the solid sample from the crucible. \n 2. Use a diamond file to smooth out any sharp edges and achieve the desired dimensions. \n 3. Optionally, apply a sealant to enhance durability and finish."
+    }
+  },
+  "properties": {
+    "structure": {
+      "nsites": 4,
+      "volume": 631717.0,
+      "density": 90913.0,
+      "crystal_system": "trigonal",
+      "space_group": "R-3m",
+      "space_group_number": 166,
+      "point_group": "-3m",
+      "dimensionality": "3D"
+    },
+    "energetics": {
+      "corrected_energy": -308958.0,
+      "formation_energy_per_atom": -18631.0,
+      "decomposition_energy_per_atom": -416.0,
+      "decomposition_energy_all": 0.0,
+      "decomposition_energy_relative": -6.0,
+      "decomposition_energy_mp": -411.0,
+      "decomposition_energy_mp_oqmd": -411.0
+    },
+    "electronic": {
+      "bandgap": 0.0461,
+      "bandgap_type": "semiconductor"
+    },
+    "metadata": {
+      "material_id": "e0d6d170e2",
+      "is_train": true
+    }
+  },
+  "metadata": {
+    "source": "Acadia Nanoforge Database",
+    "data_version": "1.0",
+    "created_at": "2025-10-30T15:15:25.916785Z",
+    "mcp_version": "2024-11-05",
+    "access_patterns": [
+      "materials/C1O1Tb2.json",
+      "material://C1O1Tb2"
+    ]
+  }
+}
